@@ -1,0 +1,15 @@
+---
+title: Photos
+pagination:
+  data: collections.photo
+  size: 24
+permalink: photos/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber }}{% else %}index{% endif %}.html
+changefreq: daily
+---
+{%- include 'items' with pagination.items
+  items_size: '12rem'
+  items_component: 'photo-simple'
+-%}
+{%- include 'pagination'
+  label: 'photos'
+-%}

@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="608" viewBox="0 0 1920 608">
+  <style>
+    rect {
+      fill: none;
+      stroke: #999;
+    }
+    text {
+      fill: #333;
+      font-family: sans-serif;
+      font-size: 1.75rem;
+    }
+  </style>
+  <g>
+    <rect x="53" y="104" rx="12" width="272" height="176" stroke-width="16"/>
+    <rect x="349" y="100" rx="12" width="140" height="312" stroke-width="8"/>
+    <rect x="47" y="302" rx="12" width="284" height="208" stroke-width="4"/>
+    <rect x="55" y="310" rx="6" width="268" height="192" stroke-width="4"/>
+    <text x="180" y="200">1</text>
+    <text x="410" y="268">2</text>
+    <text x="180" y="420">3</text>
+  </g>
+  <g>
+    <rect x="745" y="254" rx="12" width="100" height="144" stroke-width="16"/>
+    <rect x="924" y="176" rx="8" width="56" height="52" stroke-width="8"/>
+    <rect x="866" y="174" rx="8" width="40" height="56" stroke-width="4"/>
+    <rect x="998" y="174" rx="8" width="44" height="56" stroke-width="4"/>
+    <rect x="866" y="246" rx="4" width="48" height="92" stroke-width="4" stroke-dasharray="4"/>
+    <rect x="866" y="354" rx="8" width="76" height="80" stroke-width="4"/>
+    <rect x="930" y="246" rx="8" width="44" height="92" stroke-width="4"/>
+    <rect x="958" y="354" rx="8" width="84" height="80" stroke-width="4"/>
+    <rect x="990" y="246" rx="8" width="52" height="92" stroke-width="4"/>
+    <rect x="1062" y="102" rx="12" width="116" height="212" stroke-width="12" stroke-dasharray="12 6"/>
+    <rect x="868" y="100" rx="8" width="172" height="56" stroke-width="8" stroke-dasharray="6"/>
+    <rect x="866" y="450" rx="12" width="136" height="92" stroke-width="4"/>
+    <rect x="874" y="458" rx="6" width="120" height="76" stroke-width="4"/>
+    <text x="790" y="335">1</text>
+    <text x="945" y="140">2</text>
+    <text x="880" y="213">3</text>
+    <text x="945" y="213">4</text>
+    <text x="1012" y="213">5</text>
+    <text x="882" y="305">6</text>
+    <text x="945" y="305">7</text>
+    <text x="1010" y="305">8</text>
+    <text x="1110" y="220">9</text>
+    <text x="890" y="405">10</text>
+    <text x="990" y="405">11</text>
+    <text x="920" y="505">12</text>
+  </g>
+  <g>
+    <rect x="1431" y="232" rx="12" width="320" height="208" stroke-width="16"/>
+    <rect x="1491" y="164" rx="12" width="184" height="376" stroke-width="8"/>
+    <rect x="1585" y="98" rx="12" width="284" height="252" stroke-width="4"/>
+    <rect x="1593" y="106" rx="6" width="268" height="236" stroke-width="4"/>
+    <text x="1453" y="300">1</text>
+    <text x="1537" y="300">2</text>
+    <text x="1577" y="405">3</text>
+    <text x="1577" y="505">4</text>
+    <text x="1537" y="205">5</text>
+    <text x="1623" y="205">6</text>
+    <text x="1623" y="300">7</text>
+    <text x="1705" y="300">8</text>
+    <text x="1623" y="145">9</text>
+    <text x="1793" y="280">10</text>
+    <text x="1793" y="185">11</text>
+    <text x="1699" y="405">12</text>
+  </g>
+</svg>

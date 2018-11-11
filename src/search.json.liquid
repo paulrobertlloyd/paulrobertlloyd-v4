@@ -1,0 +1,13 @@
+---
+permalink: /archive/search.json
+---
+[{% for item in collections.post reversed %}
+  {
+    "title": {% if item.data.title != '' %}{{ item.data.title | markdownify_inline | jsonify }}{% else %}{{ item.data.type | capitalize | jsonify }}{% endif %},
+    "content": {{ item.templateContent | strip_html | jsonify }},
+    "url": {{ item.url | permalink | jsonify }},
+    "date_published": {{ item.data.date | jsonify }},
+    "date_published_long": {{ item.data.date | date: dates.date_long | jsonify }},
+    "date_published_short": {{ item.data.date | date: dates.date_short | jsonify }}
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}]

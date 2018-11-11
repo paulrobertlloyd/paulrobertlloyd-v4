@@ -1,0 +1,5 @@
+<div style="--grid-size: {{ items_size | default: '100%' }}">
+{%- for item in items limit: items_limit -%}
+  {% include 'item/{{ items_component | default: item.data.type }}' -%}
+{%- endfor -%}
+</div>

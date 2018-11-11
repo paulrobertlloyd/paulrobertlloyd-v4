@@ -1,0 +1,11 @@
+<header class="banner">
+  <div class="banner__container">
+    <div class="banner__title">
+      <a rel="home" href="/">{{ app.title }}</a>
+    </div>
+    <nav class="banner__navigation" aria-label="site">
+      {%- include 'navigation' with navigation.primary -%}
+      {%- include 'navigation' with navigation.secondary -%}
+    </nav>
+  </div>
+</header>

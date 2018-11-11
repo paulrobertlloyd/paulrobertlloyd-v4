@@ -1,0 +1,8 @@
+<figure class="align-{{ alignment | default: 'none' }}">
+  {%- include 'image' with figure -%}
+{%- if caption %}
+  <figcaption>
+    {{ caption | markdownify }}
+  </figcaption>
+{%- endif %}
+</figure>

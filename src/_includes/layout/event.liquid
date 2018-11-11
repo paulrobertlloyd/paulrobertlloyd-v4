@@ -1,0 +1,10 @@
+{%- layout 'layout/default' -%}
+{%- block 'main' %}
+  {%- include 'footer' -%}
+  {%- include 'header' -%}
+  {%- capture content -%}
+    {%- include 'event' -%}
+    {{ content }}
+  {%- endcapture -%}
+  {%- include 'content' -%}
+{%- endblock -%}

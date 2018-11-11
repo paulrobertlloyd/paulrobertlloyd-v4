@@ -1,0 +1,8 @@
+.elsewhere {
+  display: flex;
+}
+
+.elsewhere a {
+  display: inline-flex;
+  padding: var(--inset-small);
+}

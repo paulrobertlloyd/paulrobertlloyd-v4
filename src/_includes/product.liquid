@@ -1,0 +1,16 @@
+<aside class="h-product" role="complementary">
+  <h3><cite class="p-name">{{ product.title | markdownify_inline }}</cite></h3>
+  <dl>
+  {%- for item in product -%}
+  {%- unless item[0] == 'title' -%}
+    {%- if item[0] == 'rating' -%}
+    <dt>Rating</dt>
+    <dd>{% include 'rating' with item[1] %}</dd>
+    {%- else -%}
+    <dt>{{ item[0] | replace: '_',' ' | capitalize }}</dt>
+    <dd>{{ item[1] | append: '' | markdownify }}</dd>
+    {%- endif -%}
+  {%- endunless -%}
+  {%- endfor -%}
+  </dl>
+</aside>

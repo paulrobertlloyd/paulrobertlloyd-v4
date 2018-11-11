@@ -1,0 +1,13 @@
+<header class="header">
+  <h1 class="header__title{% if vocab %} | p-name{% endif %}">{{ title | smartify }}</h1>
+{%- if summary or url -%}
+  <div class="header__summary{% if vocab %} | p-summary{% endif %}">
+  {%- if summary -%}
+    {{ summary | markdownify }}
+  {%- endif -%}
+  {%- if url -%}
+    <a class="{{ vocab_u_class | default: 'u-url' }}" rel="external" href="{{ url }}">{{ url | prettyurl }}</a>
+  {%- endif -%}
+  </div>
+{%- endif -%}
+</header>

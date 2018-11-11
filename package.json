@@ -1,0 +1,100 @@
+{
+  "name": "paulrobertlloyd.com",
+  "version": "4.0.0",
+  "description": "The personal website of Paul Robert Lloyd",
+  "keywords": [
+    "indieweb",
+    "personal-website"
+  ],
+  "author": "Paul Robert Lloyd",
+  "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://github.com/paulrobertlloyd/paulrobertlloyd-v4#readme",
+  "repository": "github:paulrobertlloyd/paulrobertlloyd-v4",
+  "bugs": "https://github.com/paulrobertlloyd/paulrobertlloyd-v4/issues",
+  "scripts": {
+    "test": "npm-run-all test:*",
+    "prebuild": "rm -rf www && mkdir -p www/assets",
+    "build": "npm run build:styles && npm run build:scripts && npm run build:files",
+    "watch": "npm-run-all --parallel serve watch:*",
+    "serve": "browser-sync start --config lib/browser-sync.config.js",
+    "build:files": "ELEVENTY_ENV=production eleventy --config lib/eleventy.config.js",
+    "watch:files": "ELEVENTY_ENV=development eleventy --config lib/eleventy.config.js --quiet --watch",
+    "test:scripts": "xo **/*.js",
+    "build:scripts": "rollup --config lib/rollup.config.js",
+    "watch:scripts": "rollup --config lib/rollup.config.js --watch",
+    "test:styles": "stylelint src/**/*.css",
+    "build:styles": "postcss src/assets/styles/app.css -o www/assets/styles/app.css --config lib/postcss.config.js",
+    "watch:styles": "postcss src/assets/styles/app.css -o www/assets/styles/app.css --config lib/postcss.config.js --watch",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "dependencies": {
+    "@11ty/eleventy": "^0.5.4",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.0",
+    "browser-sync": "^2.26.3",
+    "color": "^3.1.0",
+    "cssnano": "^4.1.7",
+    "html-minifier": "^3.5.21",
+    "markdown-it": "^8.4.2",
+    "markdown-it-abbr": "^1.0.4",
+    "markdown-it-anchor": "^5.0.0",
+    "markdown-it-attrs": "^2.3.2",
+    "markdown-it-deflist": "^2.0.3",
+    "markdown-it-footnote": "^3.0.1",
+    "markdown-it-mentions": "^1.0.0",
+    "markdown-it-table-of-contents": "^0.4.3",
+    "npm-run-all": "^4.1.2",
+    "postcss-cli": "^6.0.1",
+    "postcss-color-mod-function": "^3.0.0",
+    "postcss-custom-media": "^7.0.7",
+    "postcss-custom-selectors": "^5.1.2",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-extend-rule": "^2.0.0",
+    "postcss-logical": "^3.0.0",
+    "postcss-media-minmax": "^4.0.0",
+    "postcss-svg": "^2.4.0",
+    "rollup": "^0.67.0",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^3.4.0",
+    "string-to-color": "^2.0.0",
+    "typogr": "^0.6.8"
+  },
+  "devDependencies": {
+    "stylelint": "^9.7.1",
+    "stylelint-config-standard": "^18.2.0",
+    "stylelint-order": "^1.0.0",
+    "xo": "^0.23.0"
+  },
+  "browserslist": [
+    "defaults"
+  ],
+  "stylelint": {
+    "extends": "stylelint-config-standard",
+    "plugins": [
+      "stylelint-order"
+    ],
+    "rules": {
+      "at-rule-no-unknown": [
+        true,
+        {
+          "ignoreAtRules": [
+            "extend"
+          ]
+        }
+      ],
+      "declaration-empty-line-before": null,
+      "custom-property-empty-line-before": null,
+      "order/order": [
+        "custom-properties",
+        "declarations"
+      ],
+      "order/properties-alphabetical-order": true
+    }
+  },
+  "xo": {
+    "space": true,
+    "envs": "browser",
+    "ignores": [
+      "www/**"
+    ]
+  }
+}

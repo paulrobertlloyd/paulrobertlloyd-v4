@@ -1,0 +1,31 @@
+.contentinfo {
+  inline-size: 100vw;
+  margin-block-start: auto;
+}
+
+.contentinfo__container {
+  @extend %container;
+  @extend %caption;
+
+  --container-padding-inline: calc(var(--grid-column-gap) - var(--inset));
+  align-items: center;
+  display: flex;
+  flex-flow: row-reverse wrap;
+  justify-content: space-around;
+  padding-block: var(--space-block-small);
+}
+
+.contentinfo__legal {
+  margin-inline-end: var(--inset);
+  padding: var(--inset-small);
+}
+
+@media (--from-small-viewport) {
+  .contentinfo .navigation {
+    margin-inline-end: auto;
+  }
+}
+
+.contentinfo a:hover {
+  color: var(--color-accent);
+}

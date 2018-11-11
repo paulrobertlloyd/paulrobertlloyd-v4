@@ -1,0 +1,33 @@
+.footer {
+  @extend %caption;
+
+  padding-block-end: var(--space-block-xsmall);
+}
+
+[data-type="note"] .c-footer,
+[data-type="photo"] .c-footer {
+  margin-block-start: auto;
+}
+
+.footer a {
+  text-decoration: none;
+}
+
+.footer cite {
+  font-style: normal;
+}
+
+.footer dt {
+  @extend %visually-hidden;
+}
+
+.footer dd {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.footer *:not(:first-child) + dd::before {
+  content: "·";
+  opacity: 0.5;
+  padding-inline: calc(var(--space-inline) / 2);
+}

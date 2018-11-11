@@ -1,0 +1,27 @@
+.section {
+  display: grid;
+  grid-column: container;
+  grid-column-gap: var(--grid-column-gap);
+  grid-template-columns:
+    [container-start] auto
+    [content-start] 1fr [content-end]
+    calc(var(--font-size-title) + var(--grid-column-gap)) [container-end];
+  margin-inline: calc(var(--grid-column-gap) * -1);
+}
+
+.section[aria-labelledby="testimonials"] {
+  @extend %wallpaper;
+}
+
+.section__container {
+  grid-column: content;
+}
+
+.section__header {
+  padding-block-end: var(--space-block-small);
+  padding-block-start: var(--space-block-medium);
+}
+
+.section__title {
+  @extend %overline;
+}

@@ -1,0 +1,195 @@
+.s-linear {
+  @extend %body;
+
+  --flow-inset: 1.5em;
+  --list-display: list-item;
+  --linear-measure: var(--line-measure);
+  --section-space: var(--space-block-medium);
+}
+
+@media print {
+  .s-linear a[href]::after {
+    content: " [" attr(href) "]";
+    font-family: var(--font-family-system);
+    font-size: 75%;
+  }
+}
+
+.s-linear > * {
+  max-inline-size: var(--linear-measure);
+}
+
+.s-linear > hr {
+  border-block-end: var(--border-width-thin) solid var(--color-rule);
+  inline-size: 25%;
+  margin-inline-start: 0;
+}
+
+.s-linear > hr,
+.s-linear > pre,
+.s-linear > aside,
+.s-linear > blockquote,
+.s-linear > figure,
+.s-linear > table {
+  margin-block-end: var(--section-space);
+}
+
+.s-linear > aside :--flow {
+  @extend %reference;
+
+  --list-display: block;
+  --flow-inset: 0;
+  color: var(--color-neutral-dark);
+}
+
+@media (--from-medium-viewport) {
+  .s-linear > aside {
+    @extend .align-pull;
+  }
+}
+
+.s-linear blockquote {
+  border-inline-start: var(--border-width-thickest) solid var(--color-rule);
+  list-style-position: inside;
+  margin-inline-start: 0;
+  padding-inline: var(--flow-inset) var(--inset);
+}
+
+.s-linear blockquote :--flow {
+  @extend %reference;
+}
+
+.s-linear blockquote + figcaption {
+  --caption-block-start: var(--space-block-xsmall);
+}
+
+.s-linear pre {
+  background-color: var(--color-offset);
+  display: block;
+  overflow-x: scroll;
+  padding: var(--inset);
+}
+
+.s-linear table {
+  @extend %reference;
+
+  inline-size: 100%;
+}
+
+.s-linear th,
+.s-linear td {
+  padding: var(--inset);
+}
+
+.s-linear tr *:first-child {
+  padding-inline-start: 0;
+}
+
+.s-linear thead th {
+  @extend %overline;
+}
+
+.s-linear h2:not([class]) {
+  @extend %heading;
+
+  margin-block-end: var(--space-block-small);
+}
+
+.s-linear * + h2 {
+  margin-block-start: var(--space-block-large);
+}
+
+.s-linear h3:not([class]) {
+  @extend %subhead;
+
+  margin-block-end: var(--space-block-xsmall);
+}
+
+.s-linear * + h3 {
+  margin-block-start: var(--space-block-small);
+}
+
+.s-linear h4:not([class]) {
+  @extend %overline;
+
+  margin-block-end: 0;
+}
+
+.s-linear :--caption {
+  @extend %caption;
+
+  padding-block-start: var(--caption-block-start, var(--space-block-small));
+}
+
+.s-linear :--list :--flow {
+  --flow-space: var(--space-block-xsmall);
+}
+
+@media (--upto-large-viewport) {
+  .s-linear :--list {
+    list-style-position: inside;
+  }
+}
+
+@media (--from-large-viewport) {
+  .s-linear :--list {
+    padding-inline-start: 0;
+  }
+}
+
+.s-linear :--list :--list {
+  padding-inline-start: var(--flow-inset);
+}
+
+.s-linear dt,
+.s-linear strong {
+  font-weight: 600;
+}
+
+.s-linear img {
+  background-color: white; /* Always white regardless of color-theme */
+}
+
+.s-linear :not(pre) code {
+  background-color: var(--color-offset);
+  padding: var(--inset-small-squished);
+}
+
+.s-linear .caps {
+  font-size: 90%;
+  letter-spacing: 0.05em;
+  line-height: 0.8;
+}
+
+.s-linear .permalink {
+  @extend %text-decoration;
+
+  --anchor-decoration: none;
+  font-weight: 300;
+  opacity: 0.4;
+}
+
+.s-linear .permalink:hover {
+  opacity: 1;
+}
+
+.s-linear .footnotes {
+  @extend %reference;
+
+  margin-block-end: var(--space-block-large);
+}
+
+.s-linear .footnote-backref {
+  align-items: baseline;
+  background-color: var(--color-offset);
+  block-size: 1.5em;
+  border-radius: 100%;
+  display: inline-flex;
+  inline-size: 1.5em;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.s-linear .footnote-backref:hover {
+  color: var(--color-accent);
+}

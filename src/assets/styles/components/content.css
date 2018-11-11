@@ -1,0 +1,4 @@
+[data-type="note"] .content,
+[data-type="photo"] .content {
+  --font-size-body: var(--font-size-lede);
+}

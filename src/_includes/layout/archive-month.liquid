@@ -1,0 +1,14 @@
+{%- assign title = date | date: '%B %Y' -%}
+{%- assign year = date | date: '%Y' -%}
+{%- assign month = date | date: '%b' -%}
+{%- assign items = collections.post | includes: 'data.date',year | includes: 'data.date',month -%}
+{%- layout 'layout/default' -%}
+{%- block 'main' -%}
+  <h1 class="main__title">Archive</h1>
+  <div class="main__introduction">
+    {{ title | markdownify }}
+  </div>
+  {%- include 'items' with items
+    item_modifier: 'inline'
+  -%}
+{%- endblock -%}

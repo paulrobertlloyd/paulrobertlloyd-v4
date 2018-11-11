@@ -1,0 +1,14 @@
+<article class="item item--{{ item_modifier | default: 'block'}} | h-card" data-type="venue">
+  <header class="item__header">
+    <h3 class="item__title | p-name">
+      <a href="{{ item.url | permalink }}">{{ item.data.title | markdownify_inline }}</a>
+    </h3>
+  </header>
+
+  <p class="item__main s-linear | h-adr">
+    <a class="u-url" rel="bookmark" href="{{ item.url | permalink }}" tabindex="-1">
+      <span class="p-locality">{{ item.data.address.locality }}</span>,
+      <span class="p-country-name">{{ item.data.address.country-name }}</span>
+    </a>
+  </p>
+</article>

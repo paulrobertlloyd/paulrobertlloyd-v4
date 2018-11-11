@@ -1,0 +1,8 @@
+{
+  "layout": "layout/venue",
+  "permalink": "/events/venues/{{ page.fileSlug }}/",
+  "type": "venue",
+  "vocab": "card",
+  "changefreq": "monthly",
+  "priority": "0.2"
+}

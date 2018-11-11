@@ -1,0 +1,20 @@
+a[rel~="external"]::after {
+  background: url("app.svg#external" param(--color black)) no-repeat;
+  block-size: 0.75em;
+  content: "";
+  display: inline-block;
+  inline-size: 0.5em;
+  margin-inline: 0.125em;
+  opacity: 0.4;
+  vertical-align: baseline;
+}
+
+@media (prefers-color-scheme: dark) {
+  a[rel~="external"]::after {
+    background-image: url("app.svg#external" param(--color white));
+  }
+}
+
+a[rel~="external"]:hover::after {
+  opacity: 1;
+}

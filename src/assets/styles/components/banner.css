@@ -1,0 +1,47 @@
+.banner {
+  inline-size: 100vw;
+}
+
+.banner__container {
+  @extend %container;
+  @extend %reference;
+
+  --flow-space: 0;
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  padding-block: 4vw;
+}
+
+.banner__title {
+  color: var(--color-text);
+  flex: 0;
+  font-weight: 600;
+  margin-inline-end: var(--inset);
+  white-space: nowrap;
+}
+
+.banner__title a {
+  color: var(--color-text);
+  display: inline-flex;
+  margin-inline-start: calc(var(--inset) * -1);
+  padding: var(--inset-squished);
+}
+
+.banner__title a:hover {
+  text-decoration: var(--color-rule) underline;
+}
+
+.banner__navigation {
+  color: var(--color-neutral-dark);
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-inline: calc(var(--inset) * -1);
+}
+
+.banner__navigation [aria-current] {
+  color: var(--color-text);
+  text-decoration: var(--color-rule) underline;
+}

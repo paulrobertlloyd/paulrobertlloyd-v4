@@ -1,0 +1,29 @@
+{%- layout 'layout/default' -%}
+{%- block 'main' -%}
+  {%- include 'footer' -%}
+  {%- include 'header' summary: false -%}
+  {%- include 'content' -%}
+
+  {%- if discussion -%}
+    {%- capture remarks_link %}[View remarks on this entry]({{ page.url | permalink }}/discussion){% endcapture -%}
+    {%- include 'section'
+      section_id: 'dicussion'
+      section_title: 'Discussion'
+      section_content: remarks_link
+    -%}
+    {%- if discussion == 'open' -%}
+      {%- include 'form/remark' -%}
+    {%- endif -%}
+  {%- endif -%}
+
+  {%- if series -%}
+    {%- assign posts = collections.all | select: 'data.series',series | reject: 'url',page.url -%}
+    {%- include 'section'
+      section_id: 'related'
+      section_title: 'Also in this series'
+      items: posts
+      items_size: '16rem'
+      items_component: 'card'
+    -%}
+  {%- endif -%}
+{%- endblock -%}

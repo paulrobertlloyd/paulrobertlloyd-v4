@@ -1,0 +1,16 @@
+{%- layout 'layout/default' -%}
+{%- block 'main' -%}
+  {%- include 'footer' -%}
+  {%- include 'header' -%}
+  {%- capture content -%}
+    {{ content }}
+    {%- for slide in slides -%}
+      {%- include 'figure' with slide.image
+        caption: slide.notes
+        alignment: 'slide'
+        image_preset: 'thumbnail'
+      -%}
+    {%- endfor -%}
+  {%- endcapture -%}
+  {%- include 'content' -%}
+{%- endblock -%}

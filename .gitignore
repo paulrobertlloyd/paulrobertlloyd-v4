@@ -1,0 +1,7 @@
+# Files to ignore
+*.crt
+*.key
+
+# Folders to ignore
+node_modules
+www

@@ -1,0 +1,120 @@
+:root {
+  /* Neutral palette */
+  --color-neutral: hsla(228, 8%, 64%, 1);
+  --color-neutral-darkest: color-mod(var(--color-neutral) l(16%));
+  --color-neutral-darker: color-mod(var(--color-neutral) l(32%));
+  --color-neutral-dark: color-mod(var(--color-neutral) l(40%));
+  --color-neutral-light: color-mod(var(--color-neutral) l(80%));
+  --color-neutral-lighter: color-mod(var(--color-neutral) s(7%) l(88%));
+  --color-neutral-lightest: color-mod(var(--color-neutral) s(2%) l(96%));
+
+  /* Alpha palette */
+  --color-alpha-soft: color-mod(var(--color-neutral-darkest) a(0.1));
+  --color-alpha-hard: color-mod(var(--color-neutral-darkest) a(0.25));
+
+  /* Colour assignments */
+  --color-accent: var(--color-accent-light);
+  --color-background: white;
+  --color-text: var(--color-neutral-darkest);
+  --color-link: var(--color-accent);
+  --color-link-underline: var(--color-alpha-hard);
+  --color-rule: var(--color-alpha-soft);
+  --color-offset: var(--color-neutral-lightest);
+  --color-highlight: hsla(60, 100%, 70%, 0.75);
+  --color-focus: var(--color-accent);
+
+  /* Typography */
+  --font-family-sans: "Untitled", sans-serif;
+  --font-family-system: system-ui;
+  --font-family-monospace: "Source Code Pro", monospace;
+  --font-size-title: calc(1.75rem);
+  --font-size-lede: calc(1.125rem);
+  --font-size-heading: calc(1.25rem + 0.75vmin);
+  --font-size-subhead: calc(1.125rem + 0.125vmin);
+  --font-size-body: calc(1rem + 0.375vmin);
+  --font-size-reference: calc(0.875rem + 0.25vmin);
+  --font-size-caption: calc(0.75rem + 0.125vmin);
+  --font-size-default: 1rem;
+  --line-height-solid: 1em;
+  --line-height-tight: calc(1.25em + 0.25vw);
+  --line-height-loose: calc(1.4em + 0.25vw);
+  --line-measure: 42.5rem;
+  --word-spacing: 0;
+
+  /* Borders */
+  --border-radius-xsmall: 0.125rem;
+  --border-radius-small: 0.25rem;
+  --border-width-thin: 1px;
+  --border-width-thick: 0.125rem;
+  --border-width-thickest: 0.5rem;
+
+  /* Sizing */
+  --size-icon: 1.25rem;
+
+  /* Spacing > Block */
+  --space-block-large: calc(2rem + 6vh);
+  --space-block-medium: calc(1rem + 3vh);
+  --space-block-small: calc(0.5rem + 1.5vmin);
+  --space-block-xsmall: calc(0.25rem + 0.25vh);
+
+  /* Spacing > Inline */
+  --space-inline-small: 0.375rem;
+  --space-inline: 0.75rem;
+
+  /* Inset spacing */
+  --inset: calc(0.5rem + 0.25vw);
+  --inset-squished: calc(var(--inset) / 2) var(--inset);
+  --inset-small: calc(var(--inset) / 2);
+  --inset-small-squished: calc(var(--inset-small) / 2) var(--inset-small);
+  --inset-large: calc(var(--inset) * 2);
+  --inset-large-squished: calc(var(--inset-large) / 2) var(--inset-large);
+
+  /* Grids */
+  --grid-column-gap: var(--space-block-medium);
+  --grid-row-gap: var(--space-block-medium);
+
+  /* Container values */
+  --container-inline-size: 100vw;
+  --container-inline-inset: calc(100vw - var(--container-inline-size));
+  --container-gutter: calc(var(--container-inline-inset) / 2);
+}
+
+@media (--from-small-viewport) {
+  :root {
+    --font-size-title: calc(1.75rem + 2vmin);
+    --font-size-lede: calc(1.125rem + 1.25vmin);
+  }
+}
+
+@media (--from-large-viewport) {
+  :root {
+    --container-inline-size: 80vw;
+  }
+}
+
+@media (--from-largest-viewport) {
+  :root {
+    --container-inline-size: 80rem;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-neutral: hsla(228, 8%, 64%, 1);
+    --color-neutral-darkest: color-mod(var(--color-neutral) s(2%) l(96%));
+    --color-neutral-darker: color-mod(var(--color-neutral) s(7%) l(88%));
+    --color-neutral-dark: color-mod(var(--color-neutral) l(80%));
+    --color-neutral-light: color-mod(var(--color-neutral) l(40%));
+    --color-neutral-lighter: color-mod(var(--color-neutral) l(32%));
+    --color-neutral-lightest: color-mod(var(--color-neutral) l(16%));
+    --color-alpha-soft: color-mod(var(--color-neutral-lightest) a(0.1));
+    --color-alpha-hard: color-mod(var(--color-neutral-lightest) a(0.25));
+    --color-accent: var(--color-accent-dark);
+    --color-background: color-mod(var(--color-neutral) l(8%));
+    --color-link-underline: var(--color-alpha-hard);
+    --color-highlight: hsla(60, 100%, 70%, 0.15);
+    --line-height-tight: calc(1.25em + 0.5vw);
+    --line-height-loose: calc(1.4em + 0.5vw);
+    --word-spacing: 0.05em;
+  }
+}

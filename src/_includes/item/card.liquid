@@ -1,0 +1,32 @@
+{%- assign date_color = item.data.date | colorify -%}
+{%- assign card_accent = item.data.style.color-accent | default: date_color -%}
+{%- assign card_image_preset = card_image_present | default: 'feature-landscape' -%}
+<article class="card |{% for root in item.data.vocab %} h-{{ root }}{% endfor %}" data-type="{{ item.data.type }}" style="--color-accent-light: {{ card_accent | contrastify: 'black' }}; --color-accent-dark: {{ card_accent | contrastify: 'white' }}">
+{%- if item.data.image -%}
+  <div class="card__image">
+    {%- include 'image' with item.data.image
+      image_preset: card_image_preset
+    -%}
+  </div>
+{%- endif -%}
+
+  <header class="card__header">
+    <h3 class="card__title | p-name">
+      <a href="{{ item.url | permalink }}">{{ item.data.title | markdownify_inline }}</a>
+    </h3>
+  </header>
+
+{%- if item.data.summary -%}
+  <div class="card__main s-linear | p-summary">
+    {{ item.data.summary | markdownify }}
+  </div>
+{%- endif -%}
+
+{%- if item.data.type != 'project' -%}
+  <footer class="card__footer">
+    <a class="u-url" rel="bookmark" href="{{ item.url | permalink }}" tabindex="-1">
+      <time class="dt-published" datetime="{{ item.data.date | date: dates.iso }}">{{ item.data.date | date: dates.date_long }}</time>
+    </a>
+  </footer>
+{%- endif -%}
+</article>

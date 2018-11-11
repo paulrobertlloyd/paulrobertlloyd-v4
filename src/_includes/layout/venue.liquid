@@ -1,0 +1,17 @@
+{%- assign tag = page.fileSlug | prepend: 'venue:' -%}
+{%- assign items = collections.all | includes: 'data.tags',tag -%}
+{%- layout 'layout/default' -%}
+{%- block 'main' -%}
+  {%- include 'header' -%}
+  {%- capture content -%}
+    {%- include 'address' -%}
+    {{ content }}
+  {%- endcapture -%}
+  {%- include 'content' -%}
+  {%- include 'section'
+    section_id: 'events'
+    section_title: 'Events at this venue'
+    items: items
+    item_modifier: 'inline'
+  -%}
+{%- endblock -%}

@@ -1,0 +1,12 @@
+[style^="--grid-size"] {
+  display: grid;
+  grid-column-gap: var(--grid-column-gap);
+  grid-row-gap: var(--grid-row-gap);
+  padding-block-end: var(--grid-row-gap);
+}
+
+@media (--from-smallest-viewport) {
+  [style^="--grid-size"] {
+    grid-template-columns: repeat(auto-fit, minmax(var(--grid-size), 1fr));
+  }
+}

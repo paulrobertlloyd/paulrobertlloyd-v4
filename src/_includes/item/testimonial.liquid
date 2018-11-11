@@ -1,0 +1,10 @@
+<figure class="item item--{{ item_modifier | default: 'block'}} | h-review" data-type="testimonial">
+  <blockquote class="item__main | e-content p-name">
+    {{ item.data.content | markdownify }}
+  </blockquote>
+  <figcaption class="item__footer | p-author h-card">
+    <span class="p-name">{{ item.data.name }},</span>
+    <span class="p-role">{{ item.data.role }},</span>
+    <span class="p-org">{{ item.data.org }}</span>
+  </figcaption>
+</figure>

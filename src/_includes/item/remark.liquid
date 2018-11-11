@@ -1,0 +1,23 @@
+<article class="item item--{{ item_modifier | default: 'block'}} | p-comment h-cite" id="remark-{{ forloop.rindex }}" data-type="remark">
+  <header class="item__header">
+    <h3 class="item__title | p-author h-card">
+      <img class="item__image | u-photo" src="https://gravatar.com/avatar/{{ item.gravatar }}?s=96&d=identicon" alt="" width="48" height="48">
+      {%- if item.url %}<a class="u-url" href="{{ item.url }}">{% endif -%}
+      <span class="p-name">{{ item.author }}</span>
+      {%- if item.url %}</a>{% endif -%}
+    </h3>
+  </header>
+
+  <div class="item__main s-linear | p-summary">
+    {{ item.content | markdownify }}
+  </div>
+
+  <footer class="item__footer">
+    <a class="u-url" rel="bookmark" href="#remark-{{ forloop.rindex }}">
+      <time class="dt-published" datetime="{{ item.date | date: dates.iso }}" aria-label="{{ item.date | date: dates.date_long }}">
+        <span>{{ item.date | date: dates.date_short }}</span>
+        <span>{{ item.date | date: '%l:%S %P' }}</span>
+      </time>
+    </a>
+  </footer>
+</article>

@@ -1,0 +1,18 @@
+{%- assign venueid = tags[0] | remove: 'venue:' -%}
+{%- assign venue = collections.venue | includes: 'fileSlug',venueid | first -%}
+{%- assign date-start = start | date: '%Y%m%d' -%}
+{%- assign date-end = end | date: '%Y%m%d' -%}
+<aside>
+  <h3><a class="p-name" href="{{ venue.url | permalink }}">{{ venue.data.title | markdownify_inline }}</a></h3>
+  {%- include 'address' with venue.data.address -%}
+
+  <p>
+  {%- if date-start != date-end -%}
+    <time class="dt-start" datetime="{{ start | date: dates.iso }}">{{ start | date: dates.datetime_full }}</time><br>
+    <time class="dt-end" datetime="{{ end | date: dates.iso }}">{{ end | date: dates.datetime_full }}</time>
+  {%- else -%}
+    <time class="dt-start" datetime="{{ start | date: dates.iso }}">{{ start | date: dates.datetime_full }}</time>
+    <time class="dt-end" datetime="{{ end | date: dates.iso }}"></time>
+  {%- endif -%}
+  </p>
+</aside>

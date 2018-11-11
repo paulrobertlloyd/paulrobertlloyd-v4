@@ -1,0 +1,7 @@
+{
+  "layout": "layout/source",
+  "permalink": "/articles/sources/{{ page.fileSlug }}/",
+  "type": "source",
+  "changefreq": "monthly",
+  "priority": "0.2"
+}

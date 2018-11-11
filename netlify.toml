@@ -1,0 +1,196 @@
+# Headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Link = '''
+      </assets/fonts/untitled-regular.woff2>; rel=preload; as=font; crossorigin,
+      </assets/fonts/untitled-medium.woff2>; rel=preload; as=font; crossorigin
+    '''
+    Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"
+    # Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+
+[[headers]]
+  for = "/*.css"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Content-Security-Policy = "default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'self'; img-src 'self' *.4sqi.net *.gravatar.com *.mapbox.com i.ytimg.com i.vimeocdn.com paulrobertlloyd.imgix.net raw.githubusercontent.com data:"
+    X-Content-Type-Options = "nosniff"
+    X-Frame-Options = "SAMEORIGIN"
+    X-XSS-Protection = "1; mode=block"
+
+[[headers]]
+  for = "/*.ico"
+  [headers.values]
+    Content-Type = "image/x-icon"
+
+[[headers]]
+  for = "/*.js"
+  [headers.values]
+    Content-Type = "text/javascript; charset=utf-8"
+    X-Content-Type-Options = "nosniff"
+
+[[headers]]
+  for = "/*.json"
+  [headers.values]
+    Content-Type = "application/json; charset=utf-8"
+
+[[headers]]
+  for = "/*.webmanifest"
+  [headers.values]
+    Content-Type = "application/manifest+json; charset=utf-8"
+
+# Favicon
+[[redirects]]
+  from = "/favicon.ico"
+  to = "/images/app.ico"
+  status = 200
+
+# Redirect legacy URLs
+[[redirects]]
+  from = "/articles/dissertation/*"
+  to = "/2002/06/dissertation"
+
+[[redirects]]
+  from = "/articles/early_graphic_design_in_television/*"
+  to = "/1999/03/early_graphic_design_in_television"
+
+[[redirects]]
+  from = "/articles/fcplc/*"
+  to = "/2002/05/fcplc"
+
+[[redirects]]
+  from = "/talks/multipack_presents_november_2010"
+  to = "/events/2010/11/multipack_presents"
+
+[[redirects]]
+  from = "/talks/apa_digital_breakfast_march_2011"
+  to = "/events/2011/03/apa_digital_breakfast"
+
+[[redirects]]
+  from = "/talks/responsive_day_out"
+  to = "/events/2013/03/responsive_day_out"
+
+[[redirects]]
+  from = "/talks/webexpo_2015"
+  to = "/events/2015/09/webexpo"
+
+[[redirects]]
+  from = "/talks/css_day_2015"
+  to = "/events/2015/06/css_day"
+
+[[redirects]]
+  from = "/talks/frontend_london_may_2015"
+  to = "/events/2015/05/frontend_london_22"
+
+[[redirects]]
+  from = "/talks/smashing_conference_freiburg_2016"
+  to = "/events/2016/09/smashing_conference_freiburg"
+
+[[redirects]]
+  from = "/feed"
+  to = "/feed.xml"
+
+[[redirects]]
+  from = "/journal/feed.xml"
+  to = "/feed.xml"
+
+[[redirects]]
+  from = "/journal/feed.json"
+  to = "/feed.json"
+
+[[redirects]]
+  from = "/journal/*"
+  to = "/articles/:splat"
+
+[[redirects]]
+  from = "/links/*"
+  to = "/bookmarks/:splat"
+
+[[redirects]]
+  from = "/talks/*"
+  to = "/presentations/:splat"
+
+# Redirect article URLs
+[[redirects]]
+  from = "/articles/"
+  query = {page = ":page"}
+  to = "/articles/page/:page"
+  status = 200
+
+[[redirects]]
+  from = "/articles/:year/:month/"
+  to = "/:year/:month/"
+
+[[redirects]]
+  from = "/articles/:year/"
+  to = "/:year/"
+
+# Redirect bookmark URLs
+[[redirects]]
+  from = "/bookmarks/"
+  query = {page = ":page"}
+  to = "/bookmarks/page/:page"
+  status = 200
+
+[[redirects]]
+  from = "/bookmarks/:year/:month/"
+  to = "/:year/:month/"
+
+[[redirects]]
+  from = "/bookmarks/:year/"
+  to = "/:year/"
+
+# Redirect event venue URLs
+[[redirects]]
+  from = "/events/by-venue/"
+  query = {page = ":page"}
+  to = "/events/by-venue/page/:page"
+  status = 200
+
+# Redirect event URLs
+[[redirects]]
+  from = "/events/"
+  query = {page = ":page"}
+  to = "/events/page/:page"
+  status = 200
+
+[[redirects]]
+  from = "/events/:year/:month/"
+  to = "/:year/:month/"
+
+[[redirects]]
+  from = "/events/:year/"
+  to = "/:year/"
+
+# Redirect note URLs
+[[redirects]]
+  from = "/notes/"
+  query = {page = ":page"}
+  to = "/notes/page/:page"
+  status = 200
+
+# Redirect photo URLs
+[[redirects]]
+  from = "/photos/"
+  query = {page = ":page"}
+  to = "/photos/page/:page"
+  status = 200
+
+# Redirect presentation URLs
+[[redirects]]
+  from = "/presentations/"
+  query = {page = ":page"}
+  to = "/presentations/page/:page"
+  status = 200
+
+[[redirects]]
+  from = "/presentations/:year/:month/"
+  to = "/:year/:month/"
+
+[[redirects]]
+  from = "/presentations/:year/"
+  to = "/:year/"

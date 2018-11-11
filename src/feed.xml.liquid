@@ -1,0 +1,34 @@
+---
+permalink: /feed.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>{{ app.url }}{{ page.url }}</id>
+  <title>{{ app.title }}</title>
+  <updated>{{ 'now' | date: dates.iso }}</updated>
+  <author>
+    <name>{{ app.author.name }}</name>
+    <email>{{ app.author.email }}</email>
+    <uri>{{ app.author.url }}</uri>
+  </author>
+  <link href="{{ '/feed.xml' | prepend: app.url }}" rel="self" type="application/atom+xml"/>
+  <link href="{{ app.url }}" rel="alternate" type="text/html"/>
+  <icon>{{ app.icon | prepend: app.url }}</icon>
+  <rights>&#169; {{ 'now' | date: '%Y' }} {{ app.author.name }}. Content Creative Commons licensed unless otherwise stated.</rights>
+{% for item in collections.post limit: 25 %}
+  <entry>
+    <id>{{ item.url | prepend: app.url }}</id>
+    <title>{{ item.data.title | markdownify_inline | escape | strip_html | strip_newlines }}</title>
+    <updated>{{ item.data.date | date: dates.iso }}</updated>
+    {% if item.data.url %}
+    <link href="{{ item.data.url }}" rel="alternate" type="text/html"/>
+    <link href="{{ item.url | prepend: app.url | permalink }}" rel="related" type="text/html"/>
+    {% else %}
+    <link href="{{ item.url | prepend: app.url | permalink }}" rel="alternate" type="text/html"/>
+    {% endif %}
+    <content type="html"><![CDATA[
+      {% capture content_html %}{% if item.data.photos %}{% include 'photos' with item.data.photos image_class: 'u-photo' %}{% endif %}{{ item.templateContent }}{% endcapture %}{{ content_html | strip_newlines }}
+    ]]></content>
+  </entry>
+{% endfor %}
+</feed>

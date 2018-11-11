@@ -1,0 +1,68 @@
+/*
+ * Text-level semantics
+ * ====================
+ * https://w3c.github.io/html/textlevel-semantics
+ */
+
+a {
+  color: var(--anchor-color, inherit);
+  text-decoration: var(--anchor-decoration, none);
+}
+
+a[aria-current] {
+  font-weight: 500;
+}
+
+/* Reset font size for smallprint/legal text */
+small {
+  font-size: 100%;
+}
+
+/* Correct text decoration in Chrome/Edge/IE/Opera/Safari */
+abbr[title] {
+  text-decoration: none;
+}
+
+/* Prevent `sub` and `sup` from affecting line height */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  inset-block-end: -0.25em;
+}
+
+sup {
+  inset-block-start: -0.5em;
+}
+
+cite {
+  font-style: italic;
+}
+
+:--heading cite {
+  font-style: normal;
+}
+
+code,
+samp,
+var {
+  font-family: var(--font-family-monospace);
+  hanging-punctuation: none;
+}
+
+code {
+  font-size: var(--font-size-default);
+}
+
+ins {
+  text-decoration: none;
+}
+
+mark {
+  background-color: var(--color-highlight);
+}

@@ -1,0 +1,13 @@
+<form class="form" action="https://duckduckgo.com/html/" method="get" role="search">
+  <fieldset class="form__container">
+    <legend class="form__header">
+      <span class="form__title">Search this site</span>
+    </legend>
+    <div class="form__field">
+      <input class="form__input" type="search" name="q" placeholder="e.g. Brasilia, Design, Olympics…" title="Enter search keywords">
+      <input type="hidden" name="sites" value="{{ app.url }}">
+      <input type="hidden" name="kl" value="uk-en">
+    </div>
+    <button class="form__button" type="submit">Search with DuckDuckGo</button>
+  </fieldset>
+</form>

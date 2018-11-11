@@ -1,0 +1,96 @@
+.card {
+  --anchor-decoration: none;
+  --color-accent: var(--color-accent-light);
+  --card-image-blend: darken;
+  --card-growth: var(--space-block-small);
+  --card-shadow: var(--color-alpha-soft);
+
+  background: var(--color-offset);
+  display: grid;
+  grid-template:
+    "image" auto
+    "header" auto
+    "main" 1fr
+    "footer" auto;
+  overflow: hidden;
+  position: relative;
+  transition-duration: 0.15s;
+  transition-property: background, box-shadow, margin, padding;
+}
+
+@media (prefers-color-scheme: dark) {
+  .card {
+    --color-accent: var(--color-accent-dark);
+    --card-image-blend: lighten;
+    --card-shadow: black;
+  }
+}
+
+.card:hover {
+  background-color: var(--color-background);
+  box-shadow:
+    0 0 0 1px var(--color-offset),
+    0 0 4vw var(--card-shadow);
+  margin: calc(var(--card-growth) * -1);
+  padding: var(--card-growth);
+}
+
+.card__image {
+  grid-area: image;
+  margin: calc(var(--card-growth) * -1);
+  margin-block-end: 0;
+  position: relative;
+}
+
+.card:not([data-type="project"]) .card__image::before {
+  background-color: var(--color-accent);
+  content: "";
+  inset: 0;
+  mix-blend-mode: color;
+  position: absolute;
+  z-index: 1;
+}
+
+.card__image img {
+  block-size: 100%;
+  inline-size: 100%;
+  object-fit: cover;
+}
+
+.card:not([data-type="project"]) .card__image img {
+  filter: grayscale(100%) contrast(0.75) brightness(1.25);
+  mix-blend-mode: var(--card-image-blend);
+}
+
+.card__header {
+  grid-area: header;
+  padding: var(--inset);
+  padding-block-end: 0;
+}
+
+.card__title {
+  @extend %subhead;
+}
+
+.card__title a::before {
+  content: "";
+  inset: 0;
+  position: absolute;
+  z-index: 2;
+}
+
+.card__main {
+  @extend %reference;
+
+  --flow-space: 0;
+  grid-area: main;
+  padding: var(--inset);
+}
+
+.card__footer {
+  @extend %caption;
+
+  grid-area: footer;
+  margin-block-start: auto;
+  padding: var(--inset);
+}

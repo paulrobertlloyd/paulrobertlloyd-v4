@@ -1,0 +1,10 @@
+{%- layout 'layout/default' -%}
+{%- block 'main' -%}
+<h1 class="main__title">{{ title | smartify }}</h1>
+{%- if introduction -%}
+<div class="main__introduction">
+  {{ introduction | markdownify }}
+</div>
+{%- endif -%}
+{{ layoutContent }}
+{%- endblock -%}

@@ -1,0 +1,9 @@
+{%- layout 'layout/default' -%}
+{%- capture title %}Discussion: <a href="{{ page.url | permalink | remove: '/discussion' }}"><cite>{{ title }}</cite></a>{% endcapture -%}
+{%- block 'main' -%}
+  {%- include 'header' -%}
+  {%- include 'items' with remarks
+    items_component: 'remark'
+    item_modifier: 'inline'
+  -%}
+{%- endblock -%}

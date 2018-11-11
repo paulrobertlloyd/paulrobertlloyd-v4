@@ -1,0 +1,32 @@
+{
+  "primary": [{
+    "label": "Writing",
+    "url": "/articles/"
+  },{
+    "label": "Speaking",
+    "url": "/presentations/"
+  },{
+    "label": "Projects",
+    "url": "/projects/"
+  }],
+  "secondary": [{
+    "label": "Notes",
+    "url": "/notes/"
+  },{
+    "label": "Photos",
+    "url": "/photos/"
+  },{
+    "label": "Bookmarks",
+    "url": "/bookmarks/"
+  }],
+  "tertiary": [{
+    "label": "Contact",
+    "url": "/contact/"
+  },{
+    "label": "Archive",
+    "url": "/archive/"
+  },{
+    "label": "Events",
+    "url": "/events/"
+  }]
+}

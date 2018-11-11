@@ -1,0 +1,8 @@
+{
+  "layout": "layout/project",
+  "permalink": "projects/{{ page.fileSlug }}.html",
+  "type": "project",
+  "vocab": "entry",
+  "changefreq": "monthly",
+  "priority": "0.9"
+}

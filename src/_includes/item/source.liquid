@@ -1,0 +1,11 @@
+<article class="item item--{{ item_modifier | default: 'block'}}" data-type="source">
+  <header class="item__header">
+    <h3 class="item__title">
+      <a href="{{ item.url | permalink }}">{{ item.data.title | markdownify_inline }}</a>
+    </h3>
+  </header>
+
+  <div class="item__main s-linear">
+    {{ item.data.summary | markdownify }}
+  </div>
+</article>

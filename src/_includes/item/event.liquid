@@ -1,0 +1,22 @@
+{%- assign venueid = item.data.tags[0] | remove: 'venue:' -%}
+{%- assign venue = collections.venue | includes: 'fileSlug',venueid | first -%}
+<article class="item item--{{ item_modifier | default: 'block'}} | h-event" data-type="event">
+  <header class="item__header">
+    <h3 class="item__title | p-name">
+      <a href="{{ item.url | permalink }}">{{ item.data.title | markdownify_inline }}</a>
+    </h3>
+  </header>
+
+  <p class="item__main s-linear | h-card">
+    <a class="p-name" href="{{ venue.url | permalink }}">{{ venue.data.title | markdownify_inline }}</a>,
+    <span class="h-adr">
+      <span class="p-locality">{{ venue.data.address.locality }}</span>
+    </span>
+  </p>
+
+  <footer class="item__footer">
+    <a class="u-url" rel="bookmark" href="{{ item.url | permalink }}" tabindex="-1">
+      <time class="dt-start" datetime="{{ item.data.start | date: dates.iso }}" aria-label="{{ item.data.start | date: dates.date_long }}">{{ item.data.start | date: dates.date_short }}</time>
+    </a>
+  </footer>
+</article>

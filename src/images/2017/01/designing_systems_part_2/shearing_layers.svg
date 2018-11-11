@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 336">
+  <style>
+    polygon, polyline {
+      fill: none;
+      stroke: #999;
+    }
+    path, rect {
+      fill: #ccc;
+    }
+    #space-plan, #stuff {
+      stroke-width: 2;
+    }
+    #services, #skin {
+      stroke-width: 4;
+    }
+  </style>
+  <g id="stuff">
+    <polygon points="111 242 111 183 160 134 209 183 209 242"/>
+    <polyline points="123 238 119 242 123 246"/>
+    <polyline points="155 238 151 242 155 246"/>
+    <polyline points="187 238 183 242 187 246"/>
+    <polyline points="205 231 209 235 213 231"/>
+    <polyline points="205 201 209 205 213 201"/>
+    <polyline points="107 223 111 219 115 223"/>
+    <polyline points="107 191 111 187 115 191"/>
+    <polyline points="126 162 132 162 132 168"/>
+    <polyline points="149 139 155 139 155 145"/>
+    <polyline points="181 149 181 155 175 155"/>
+    <polyline points="205 173 205 179 199 179"/>
+  </g>
+  <g id="space-plan">
+    <polygon points="91 262 91 173 160 104 229 173 229 262"/>
+    <polyline points="127 255 134 262 127 269"/>
+    <polyline points="195 255 202 262 195 269"/>
+    <polyline points="222 218 229 211 236 218"/>
+    <polyline points="223 158 213 158 213 168"/>
+    <polyline points="110 144 110 154 120 154"/>
+    <polyline points="177 111 167 111 167 121"/>
+    <polyline points="84 188 91 195 98 188"/>
+    <polyline points="84 244 91 251 98 244"/>
+  </g>
+  <g id="services">
+    <polygon points="70 281 70 161 160 71 250 161 250 281"/>
+    <polyline points="109 108 123 108 123 123"/>
+    <polyline points="89 291 79 281 89 271"/>
+    <polyline points="60 183 70 173 80 183"/>
+    <polyline points="260 173 250 183 240 173 240 173"/>
+    <polyline points="239 291 229 281 239 271"/>
+    <polyline points="195 121 209 121 209 106"/>
+  </g>
+  <path id="structure" d="M268,217 L262,217 L276,203 L290,217 L284,217 L284,283 L268,283 L268,217 Z M52,213 L58,213 L44,227 L30,213 L36,213 L36,147 L160,23 L284,147 L284,207 L276,199 L268,207 L268,155 L160,45 L52,155 L52,213 Z M52,223 L52,283 L36,283 L36,223 L44,231 L52,223 Z"/>
+  <g id="skin">
+    <polyline points="16 283 16 148 160 3 304 148 304 283"/>
+    <polyline points="8 264 16 256 24 264"/>
+    <polyline points="312 256 304 264 296 256"/>
+    <polyline points="80 70 93 70 93 83"/>
+    <polyline points="240 70 240 83 227 83"/>
+  </g>
+  <rect id="site" width="320" height="24" y="296"/>
+</svg>

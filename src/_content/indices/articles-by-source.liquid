@@ -1,0 +1,12 @@
+---
+title: Articles
+introduction: Source publications
+pagination:
+  data: collections.source
+  size: 48
+permalink: articles/sources/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber }}{% else %}index{% endif %}.html
+---
+{%- include 'items' with pagination.items
+  items_size: '12rem'
+-%}
+{% include 'pagination' %}

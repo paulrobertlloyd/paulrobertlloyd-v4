@@ -1,0 +1,10 @@
+---
+title: Editing Tips for Designers
+date: 2011-09-26T20:35:46+01:00
+url: https://www.cennydd.com/2011/editing-tips-for-designers
+tags:
+- writing
+---
+Cennydd Bowles:
+
+> In essence, editing is critique for the written word: review, question, revise.

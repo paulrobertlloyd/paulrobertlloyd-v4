@@ -1,0 +1,31 @@
+---
+title: Writing
+summary: Short posts, articles and essays.
+introduction: Short posts, articles and essays; mostly written for myself, but sometimes [written for others](sources), too.
+pagination:
+  data: collections.article
+  size: 24
+permalink: articles/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber }}{% else %}index{% endif %}.html
+---
+{% if pagination.pageNumber < 1 -%}
+  {%- assign featured = collections.article | includes: 'data.tags','featured' -%}
+  {%- include 'section'
+    section_id: 'featured'
+    section_title: 'Select articles'
+    items: featured
+    items_limit: 6
+    items_size: '15rem'
+    items_component: 'card'
+  -%}
+  {%- include 'section'
+    section_id: 'recent'
+    section_title: 'Recent articles'
+    items: pagination.items
+    item_modifier: 'inline'
+  -%}
+{%- else -%}
+  {%- include 'items' with pagination.items
+    item_modifier: 'inline'
+  -%}
+{%- endif %}
+{% include 'traverse' label: 'articles' %}

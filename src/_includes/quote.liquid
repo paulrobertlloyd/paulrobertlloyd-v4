@@ -1,0 +1,10 @@
+<figure class="align-{{ alignment | default: 'none' }}">
+  <blockquote>
+    {{ quote | markdownify }}
+  </blockquote>
+{% if caption -%}
+  <figcaption>
+    {{ caption | markdownify }}
+  </figcaption>
+{% endif -%}
+</figure>

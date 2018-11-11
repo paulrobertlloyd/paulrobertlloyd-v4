@@ -1,0 +1,12 @@
+---
+title: Events
+introduction: Venues
+pagination:
+  data: collections.venue
+  size: 48
+permalink: events/venues/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber }}{% else %}index{% endif %}.html
+---
+{%- include 'items' with pagination.items
+  item_modifier: 'inline'
+-%}
+{% include 'pagination' label: 'Venues' %}

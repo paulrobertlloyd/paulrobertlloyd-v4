@@ -1,0 +1,17 @@
+<nav class="section" aria-labelledby="years">
+  <div class="section__container">
+    <header class="section__header">
+      <h2 class="section__title" id="years">Browse by year</h2>
+    </header>
+
+    <ol style="--grid-size: 7.5rem">
+    {%- assign firstYear = 2008 -%}
+    {%- assign currentYear = 'now' | date: '%Y' | integer -%}
+    {%- for year in (firstYear..currentYear) reversed -%}
+      <li class="item item--inline">
+        <h3 class="item__title"><a href="/{{ year }}/">{{ year }}</a></h3>
+      </li>
+    {%- endfor -%}
+    <ol>
+  </div>
+</nav>

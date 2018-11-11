@@ -1,0 +1,23 @@
+.screenshots {
+  align-items: center;
+  background: var(--screenshot-offset, var(--color-offset)) url('app.svg#noise') repeat;
+  background-size: 400px;
+  display: grid;
+  grid-column-gap: var(--grid-column-gap);
+  grid-template-columns: 1fr;
+  overflow: hidden;
+  padding: calc(var(--grid-row-gap) / 2) var(--grid-column-gap);
+}
+
+.screenshots img {
+  box-shadow:
+    0.25vw 0.5vw 0.5vw var(--color-alpha-soft),
+    1.5vw 2vw 4vw 1vw var(--screenshot-shadow, var(--color-rule));
+  margin: var(--grid-row-gap) auto;
+}
+
+@media (--from-medium-viewport) {
+  .screenshots {
+    grid-template-columns: repeat(var(--columns), 1fr);
+  }
+}

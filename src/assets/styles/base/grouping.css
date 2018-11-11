@@ -1,0 +1,47 @@
+/*
+ * Grouping content
+ * ================
+ * https://w3c.github.io/html/grouping-content
+ */
+
+address {
+  font-style: normal;
+}
+
+hr {
+  border: 0;
+}
+
+pre {
+  hanging-punctuation: none;
+  hyphens: none;
+  tab-size: 2;
+  white-space: pre;
+}
+
+figure,
+blockquote {
+  margin: 0;
+}
+
+:--flow {
+  margin: 0 0 var(--flow-space, 0) 0;
+  orphans: 2;
+  widows: 2;
+}
+
+:--list {
+  padding: 0; /* Reset default list padding */
+}
+
+li {
+  display: var(--list-display, block);
+}
+
+dd {
+  margin-inline-start: var(--flow-inset, 0);
+}
+
+dd + dt {
+  margin-block-start: calc(var(--flow-space, 0) / 2);
+}

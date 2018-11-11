@@ -1,0 +1,43 @@
+<footer class="footer">
+  <dl>
+    <dt>Published on</dt>
+    <dd>
+      <a rel="bookmark" class="u-url" href="{{ page.url | permalink }}">
+        <time class="dt-published" datetime="{{ date | date: dates.iso }}">{% if type == 'note' or type == 'photo' %}{{ date | date: dates.datetime_full }}{% else %}{{ date | date: dates.date_long }}{% endif %}</time>
+      </a>
+    </dd>
+{%- if location -%}
+    <dt>Published in</dt>
+    <dd class="p-location h-adr">
+      <span class="p-locality">{{ location.locality }}</span>,
+      <span class="p-country-name">{{ location.country-name }}</span>
+    </dd>
+{%- endif -%}
+{%- if geo -%}
+    {%- assign geo = geo | split: ',' -%}
+    <dd class="p-location h-geo">
+      <a href="https://www.openstreetmap.org/#map=15/{{ geo[1] }}/{{ geo[0] }}">
+        <data class="p-latitude" value="{{ geo[1] }}">{{ geo[1] | round: 2 }}<abbr title="degrees">°</abbr> <abbr title="North">N</abbr></data>,
+        <data class="p-longitude" value="{{ geo[0] }}">{{ geo[0] | round: 2 }}<abbr title="degrees">°</abbr> <abbr title="East">E</abbr></data>
+      </a>
+    </dd>
+{%- endif -%}
+{%- if canonical -%}
+  {%- for item in collections.source -%}
+    {%- if canonical.source == item.fileSlug -%}
+    <dt>Originally appeared in</dt>
+    <dd><cite>{{ item.data.title }}</cite>, {{ canonical.edition }}</dd>
+    {%- endif -%}
+    {%- if canonical.url contains item.data.url -%}
+    <dt>Originally published at</dt>
+    <dd><a rel="canonical external" href="{{ canonical.url }}"><cite>{{ item.data.title }}</cite></a></dd>
+    {%- assign processed = true -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if canonical.url and processed != true -%}
+    <dt>Also published at</dt>
+    <dd><a rel="canonical external" href="{{ canonical.url }}">{{ canonical.url | prettyurl }}</cite></a></dd>
+  {%- endif -%}
+{%- endif -%}
+  </dl>
+</footer>

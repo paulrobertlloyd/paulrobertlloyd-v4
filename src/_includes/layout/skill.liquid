@@ -1,0 +1,11 @@
+{%- assign tag = page.fileSlug | prepend: 'skill:' -%}
+{%- assign items = collections.project | includes: 'data.tags',tag -%}
+{%- layout 'layout/default' -%}
+{%- block 'main' -%}
+  {%- include 'header' -%}
+  {%- include 'items'
+    items_size: '12rem'
+    items_component: 'card'
+    card_image_present: 'square'
+  -%}
+{%- endblock -%}

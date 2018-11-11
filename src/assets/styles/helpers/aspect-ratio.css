@@ -1,0 +1,31 @@
+[style^="--aspect-ratio"] {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+[style^="--aspect-ratio"]::before {
+  content: "";
+  display: block;
+  padding-block-end: 56.25%;
+}
+
+@supports (--custom:property) {
+  [style^="--aspect-ratio"]::before {
+    padding-block-end: calc(100% / (var(--aspect-ratio)));
+  }
+}
+
+[style^="--aspect-ratio"] > :first-child {
+  block-size: 100%;
+  display: block;
+  inline-size: 100%;
+  inset-block-start: 0;
+  position: absolute;
+}
+
+[style^="--aspect-ratio"] img {
+  object-fit: cover;
+}

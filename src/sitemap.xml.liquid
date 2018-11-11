@@ -1,0 +1,24 @@
+---
+permalink: /sitemap.xml
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="sitemap.xsl" type="text/xsl"?>
+<urlset
+  xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+{% for item in collections.sitemap %}
+  {% unless item.data.hidden == true %}
+  <url>
+    <loc>{{ item.url | prepend: app.url | permalink }}</loc>
+    <lastmod>{{ item.date | date: '%Y-%m-%d' }}</lastmod>
+    <changefreq>{{ item.data.changefreq }}</changefreq>
+    <priority>{{ item.data.priority }}</priority>
+    {% if item.data.image %}
+    <image:image>
+      <image:loc>{{ app.url }}/{{ item.data.image | append: '?w=1280&q=90&auto=format' | escape }}</image:loc>
+    </image:image>
+    {% endif %}
+  </url>
+  {% endunless %}
+{% endfor %}
+</urlset>

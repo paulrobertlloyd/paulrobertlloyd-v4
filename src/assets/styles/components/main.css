@@ -1,0 +1,56 @@
+.main {
+  --anchor-decoration: underline;
+
+  background: linear-gradient(to right, var(--color-background) 0, var(--color-background) 50vw, transparent 50vw, transparent);
+  display: flex;
+  flex: 1;
+  inline-size: 100vw;
+}
+
+.main__container {
+  @extend %container;
+
+  align-content: start;
+  background-color: var(--color-background);
+  display: grid;
+  flex: 1;
+  grid-template-columns:
+    [container-start] auto
+    [content-start] minmax(0, 1fr) [content-end]
+    auto [container-end];
+  padding-block: var(--space-block-medium);
+}
+
+.main__container > * {
+  grid-column: content;
+}
+
+.main__title {
+  @extend %title;
+
+  --font-weight-title: normal;
+  block-size: 1px; /* Force stickiness */
+  grid-area: title;
+  grid-column: content-end;
+  grid-row: 1;
+  inset-block-start: var(--space-block-small);
+  padding-inline-start: var(--grid-column-gap);
+  position: sticky;
+  writing-mode: vertical-rl;
+}
+
+.main__introduction {
+  @extend %lede;
+
+  --flow-space: calc(var(--line-height-lede) / 2);
+  --line-height-lede: var(--line-height-tight);
+  margin-block-end: var(--space-block-small);
+  max-inline-size: var(--line-measure);
+}
+
+.main a {
+  @extend %text-decoration;
+
+  transition-duration: 0.15s;
+  transition-property: all;
+}

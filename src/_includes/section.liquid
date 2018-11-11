@@ -1,0 +1,12 @@
+<section class="section" aria-labelledby="{{ section_id }}">
+  <div class="section__container">
+    <header class="section__header">
+      <h2 class="section__title" id="{{ section_id }}">{{ section_title }}</h2>
+    </header>
+
+    {%- if section_content -%}
+      {{ section_content | markdownify }}
+    {%- endif -%}
+    {%- include 'items' with items -%}
+  </div>
+</section>

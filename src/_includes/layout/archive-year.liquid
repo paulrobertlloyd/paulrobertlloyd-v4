@@ -1,0 +1,20 @@
+{%- assign title = date | date: '%Y' -%}
+{%- assign featured = collections.article | includes: 'data.tags','featured' | includes: 'data.date',title -%}
+{%- layout 'layout/default' -%}
+{%- block 'main' -%}
+  <h1 class="main__title">Archive</h1>
+  <div class="main__introduction">
+    {{ title | markdownify }}
+  </div>
+  {%- include 'section-months' -%}
+  {%- if featured.size >= 1 -%}
+    {%- include 'section'
+      section_id: 'featured'
+      section_title: 'Select articles from this year'
+      items: featured
+      items_limit: 3
+      items_size: '15rem'
+      items_component: 'card'
+    -%}
+  {%- endif -%}
+{%- endblock -%}

@@ -1,0 +1,22 @@
+<nav class="section">
+  <div class="section__container">
+    <header class="section__header">
+      <h2 class="section__title" id="years">Browse by month</h2>
+    </header>
+
+    <ol style="--grid-size: 7.5rem">
+    {%- assign year = page.date | date: '%Y' -%}
+    {%- assign firstMonth = '2008-09' | date: '%Y-%m' -%}
+    {%- assign currentMonth = 'now' | date: '%Y-%m' -%}
+    {%- assign pageMonth = page.date | date: '%Y-%m' -%}
+    {%- for month in (1..12) -%}
+    {%- capture month %}{{ year }}-{{ month | prepend: '00' | slice: -2, 2 }}{% endcapture -%}
+      {%- if month contains year and currentMonth >= month and firstMonth <= month -%}
+      <li class="item item--inline">
+        <h3 class="item__title"><a href="/{{ month | date: '%Y/%m' }}/">{{ month | date: '%B' }}</a></h3>
+      </li>
+      {%- endif -%}
+    {%- endfor -%}
+    </ol>
+  </div>
+</nav>

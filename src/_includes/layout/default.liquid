@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en-gb" prefix="og: http://ogp.me/ns#">
+<head>
+  <meta charset="utf-8">
+  <meta property="og:title" content="{% if title != '' %}{{ title | markdownify_inline | strip_html }}{% else %}{{ app.title }}{% endif %}">
+  <meta property="og:description" name="description" content="{% if summary %}{{ summary | markdownify | strip_html | strip_newlines | strip }}{% else %}{{ app.description }}{% endif %}">
+  <meta property="og:url" content="{% if url %}{{ url }}{% else %}{{ page.url | prepend: app.url | permalink }}{% endif %}">
+{%- if image -%}
+  <meta property="og:image" content="{{ image | replace_first: '/images',app.imgcdn | append: '?w=1200&h=630&crop=edges&q=90&auto=format' | escape }}">
+  <meta name="twitter:card" content="summary_large_image">
+{%- else -%}
+  <meta property="og:image" content="{{ app.icon | prepend: app.url }}">
+  <meta name="twitter:card" content="summary">
+{%- endif -%}
+  <meta name="twitter:site" content="@paulrobertlloyd">
+  <meta name="theme-color" content="{{ app.theme_color }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="origin">
+  <meta name="robots" content="{% if page.data.hidden == true %}noindex{% else %}index{% endif %}, follow">
+
+  <link rel="dns-prefetch" href="https://paulrobertlloyd.imgix.net">
+  <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="RSS (Atom) Feed">
+  <link rel="alternate" href="/feed.json" type="application/json" title="JSON Feed">
+  <link rel="canonical" href="{% if canonical.url %}{{ canonical.url }}{% else %}{{ page.url | prepend: app.url | permalink }}{% endif %}">
+  <link rel="manifest" href="/app.webmanifest">
+  <link rel="apple-touch-icon" href="{{ app.icon }}" type="image/png">
+  <link rel="authorization_endpoint" href="https://indieauth.com/auth">
+  <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+  <link rel="micropub" href="https://sitewriter.net/paulrobertlloyd.com/micropub">
+  <link rel="webmention" href="https://webmention.io/paulrobertlloyd.com/webmention">
+  <link rel="stylesheet" href="/assets/styles/app.css">
+
+  <style>
+    :root {
+    {%- if style.color-accent -%}
+      {%- assign accent = style.color-accent -%}
+    {%- elsif date -%}
+      {%- assign accent = date | colorify -%}
+    {%- else -%}
+      {%- assign accent = app.accent_color -%}
+    {%- endif -%}
+      --color-accent-light: {{ accent | contrastify: 'black' }};
+      --color-accent-dark: {{ accent | contrastify: 'white' }};
+    {%- for var in style -%}
+      {%- unless var[0] == 'color-accent' -%}
+      --{{ var[0]}}: {{ var[1] }};
+      {%- endunless -%}
+    {%- endfor -%}
+    }
+  </style>
+
+  <script src="/assets/scripts/app.js" async></script>
+  <script>
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register('/serviceworker.js');
+      if (navigator.serviceWorker.controller) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.controller.postMessage({
+            command: 'trimCaches'
+          });
+        });
+      }
+    }
+  </script>
+
+  <title>{% if type != 'homepage' %}{{ title | markdownify_inline | strip_html }} – {% endif %}{{ app.title }}</title>
+</head>
+<body data-type="{{ type }}">
+{%- include 'banner' -%}
+<main class="main{% if vocab %} | {% for root in vocab %} h-{{ root }}{% endfor %}{% endif %}">
+  <div class="main__container">
+  {%- block 'main' -%}
+    {{ layoutContent }}
+  {%- endblock -%}
+  </div>
+</main>
+{%- include 'contentinfo' -%}
+</body>
+</html>

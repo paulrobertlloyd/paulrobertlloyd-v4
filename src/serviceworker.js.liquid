@@ -1,0 +1,198 @@
+---
+permalink: /serviceworker.js
+---
+const version = '@{{ 'now' | date: '%s' }}';
+const staticCacheName = 'static' + version;
+const imageCacheName = 'images';
+const pagesCacheName = 'pages';
+const cacheList = [
+  staticCacheName,
+  imageCacheName,
+  pagesCacheName
+];
+const offlinePlaceholder = `
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="canvas" viewBox="0 0 1 1" preserveAspectRatio="none">
+    <path fill="#f5f5f5" d="M0 0h1v1H0z"/>
+  </symbol>
+  <symbol id="logo" viewBox="0 0 256 192" preserveAspectRatio="xMinYMin meet" overflow="visible">
+    <path fill="#dedfe3" transform="translate(-128 -96)" d="M48 48h8a48 48 0 1 1 0 96h-8v48H0V48h48zM208 0h48v144h-48V0zM104 48h48v96h-48V48zm76 56a28 28 0 1 1 0-56 28 28 0 0 1 0 56z"/>
+  </symbol>
+  <use href="#canvas" width="100%" height="100%"/>
+  <use href="#logo" height="25%" width="25%" x="50%" y="50%"/>
+</svg>`;
+const offlinePage = '/offline.html';
+const offlinePages = [
+{%- assign saved = collections.article | includes: 'data.tags','featured' -%}
+{%- for item in saved limit: 6 -%}
+  '{{ item.url | permalink }}',
+{%- endfor -%}
+{%- for item in navigation.primary -%}
+  '{{ item.url }}',
+{%- endfor -%}
+{%- for item in navigation.secondary -%}
+  '{{ item.url }}',
+{%- endfor -%}
+{%- for item in navigation.tertiary -%}
+  '{{ item.url }}',
+{%- endfor -%}
+  '/'
+];
+
+function updateStaticCache() {
+  return caches.open(staticCacheName).then(staticCache => {
+    // Assets that won't block installation
+    staticCache.addAll([
+      '/assets/fonts/untitled-regular.woff2',
+      '/assets/fonts/untitled-italic.woff2',
+      '/assets/fonts/untitled-medium.woff2',
+      '/assets/fonts/sourcecodepro-regular.woff2'
+    ].concat(offlinePages));
+    // Assets required for installation to complete
+    return staticCache.addAll([
+      '/assets/styles/app.css',
+      '/assets/scripts/app.js',
+      '/images/app.png',
+      '/images/404.svg',
+      offlinePage
+    ]);
+  });
+}
+
+function deleteOldCaches() {
+  return caches.keys().then(keys => {
+    return Promise.all(keys
+      .filter(key => !cacheList.includes(key))
+      .map(key => caches.delete(key))
+    );
+  });
+}
+
+function trimCache(cacheName, maxItems) {
+  caches.open(cacheName).then(cache => {
+    cache.keys().then(keys => {
+      if (keys.length > maxItems) {
+        cache.delete(keys[0]).then(trimCache(cacheName, maxItems));
+      }
+    });
+  });
+}
+
+addEventListener('install', event => {
+  // Update static cache
+  event.waitUntil(
+    updateStaticCache().then(() => {
+      self.skipWaiting();
+    })
+  );
+});
+
+addEventListener('activate', event => {
+  // Delete old caches
+  event.waitUntil(
+    deleteOldCaches().then(() => {
+      self.clients.claim();
+    })
+  );
+});
+
+addEventListener('message', event => {
+  // Trim size of caches on page load
+  if (event.data.command === 'trimCaches') {
+    trimCache(pagesCacheName, 25);
+    trimCache(imageCacheName, 50);
+  }
+});
+
+addEventListener('fetch', event => {
+  const {request} = event;
+  const url = new URL(request.url);
+
+  // Ignore non-GET requests
+  if (request.method !== 'GET') {
+    return;
+  }
+
+  // HTML page requests (defer to network)
+  if (request.headers.get('Accept').includes('text/html')) {
+    event.respondWith(
+      fetch(request).then(fetchResponse => {
+        // ✅ Online strategy
+        // 📥 Add named offline pages to static cache
+        // 📥 Add other pages to pages cache
+        // 📡 Fetch page from network
+        const copy = fetchResponse.clone();
+
+        if (offlinePages.includes(url.pathname)) {
+          try {
+            event.waitUntil(
+              caches.open(staticCacheName).then(staticCache => {
+                staticCache.put(request, copy);
+              })
+            );
+          } catch (error) {
+            console.error(error);
+          }
+        } else {
+          try {
+            event.waitUntil(
+              caches.open(pagesCacheName).then(pagesCache => {
+                return pagesCache.put(request, copy);
+              })
+            );
+          } catch (error) {
+            console.error(error);
+          }
+        }
+        return fetchResponse;
+      }).catch(fetchError => {
+        // ⚠️ Offline strategy
+        console.error(fetchError);
+
+        // 📤 If file is cached serve that, else show cached offline page
+        return caches.match(request).then(cacheResponse => {
+          return cacheResponse || caches.match(offlinePage);
+        });
+      })
+    );
+    return;
+  }
+
+  // Other file requests (defer to cache)
+  event.respondWith(
+    // 📤 If file is cached, serve that
+    caches.match(request).then(cacheResponse => {
+      return cacheResponse || fetch(request).then(fetchResponse => {
+        // ✅ Online strategy
+        // 📥 Add images to cache
+        // 📡 Fetch file from network
+        if (request.url.match(/\.(gif|jpe?g|png|svg|webp)/)) {
+          const copy = fetchResponse.clone();
+          try {
+            event.waitUntil(
+              caches.open(imageCacheName).then(imageCache => {
+                imageCache.put(request, copy);
+              })
+            );
+          } catch (error) {
+            console.error(error);
+          }
+        }
+        return fetchResponse;
+      }).catch(fetchError => {
+        // ⚠️ Offline strategy
+        console.error(fetchError);
+
+        // 📤 If file is an image, show cached offline placeholder image
+        if (request.url.match(/\.(gif|jpe?g|png|svg|webp)/)) {
+          return new Response(offlinePlaceholder, {
+            headers: {
+              'Content-Type': 'image/svg+xml',
+              'Cache-Control': 'no-store'
+            }
+          });
+        }
+      });
+    })
+  );
+});

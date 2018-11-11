@@ -1,0 +1,109 @@
+.item {
+  align-items: start;
+  display: grid;
+  grid-column-gap: var(--space-inline);
+  grid-template:
+    "image" auto
+    "header" auto
+    "main" auto
+    "footer" 1fr /
+    minmax(auto, 45rem);
+  position: relative;
+}
+
+.item--inline {
+  align-items: baseline;
+  border-block-start: var(--border-width-thin) solid var(--color-rule);
+  grid-template:
+    "header  image"  auto
+    "main    image"  1fr
+    "footer  footer" auto /
+    1fr      min-content;
+  padding-block-start: var(--space-block-xsmall);
+}
+
+@media (--from-medium-viewport) {
+  .item--inline {
+    grid-template:
+      "footer  header  image" auto
+      "footer  main    image" 1fr /
+      auto     1fr     min-content;
+  }
+}
+
+/* Header */
+.item__header {
+  grid-area: header;
+
+  margin-block-end: var(--space-block-xsmall);
+}
+
+.item__title {
+  @extend %subhead;
+}
+
+/* Image */
+.item__image {
+  grid-area: footer;
+  margin-block: calc(var(--space-block-xsmall) * -1) var(--space-block-xsmall);
+  max-inline-size: 9rem;
+}
+
+.item[data-type~="remark"] .item__image {
+  float: inline-start;
+  margin-inline-end: var(--space-inline);
+}
+
+/* Main */
+.item__main {
+  @extend %reference;
+
+  --section-space: var(--space-block-xsmall);
+  grid-area: main;
+}
+
+[data-type="testimonial"] .item__main {
+  font-size: var(--font-size-body);
+}
+
+@media (--from-medium-viewport) {
+  .item--inline[data-type="bookmark"] .item__main,
+  .item--inline[data-type="event"] .item__main,
+  .item--inline[data-type="venue"] .item__main {
+    @extend %caption;
+
+    grid-area: image;
+    justify-content: end;
+    white-space: nowrap;
+  }
+}
+
+.item__footer {
+  @extend %caption;
+
+  --anchor-decoration: none;
+  grid-area: footer;
+  min-inline-size: 9rem;
+}
+
+.item--inline .item__footer span:first-child {
+  margin-inline-end: var(--space-inline-small);
+}
+
+@media (--from-medium-viewport) {
+  .item--inline .item__footer span {
+    display: block;
+  }
+}
+
+.item__icon {
+  background-image: url("app.svg#multi-photo" param(--color white));
+  background-repeat: no-repeat;
+  block-size: var(--size-icon);
+  content: "";
+  display: block;
+  inline-size: var(--size-icon);
+  inset-block-end: var(--space-block-xsmall);
+  inset-inline-end: var(--space-block-xsmall);
+  position: absolute;
+}

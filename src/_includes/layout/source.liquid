@@ -1,0 +1,9 @@
+{%- assign tag = page.fileSlug | prepend: 'source:' -%}
+{%- assign items = collections.article | includes: 'data.tags',tag -%}
+{%- layout 'layout/default' -%}
+{%- block 'main' -%}
+  {%- include 'header' -%}
+  {%- include 'items'
+    items_size: '16rem'
+  -%}
+{%- endblock -%}

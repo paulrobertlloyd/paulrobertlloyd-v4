@@ -1,0 +1,93 @@
+{
+  "default": {
+    "sources": [{
+      "width": 480,
+      "quality": 80
+    },{
+      "width": 720,
+      "quality": 80
+    },{
+      "width": 1080,
+      "quality": 80
+    }]
+  },
+  "thumbnail": {
+    "sizes": "20vw",
+    "sources": [{
+      "width": 240,
+      "quality": 80
+    },{
+      "width": 360,
+      "quality": 80
+    }]
+  },
+  "supporting": {
+    "sizes": "50vw",
+    "sources": [{
+      "width": 480,
+      "quality": 80
+    },{
+      "width": 720,
+      "quality": 80
+    },{
+      "width": 1080,
+      "quality": 80
+    }]
+  },
+  "showcase": {
+    "sources": [{
+      "width": 720,
+      "quality": 80
+    },{
+      "width": 1080,
+      "quality": 80
+    },{
+      "width": 1620,
+      "quality": 80
+    }]
+  },
+  "showcase-anamorphic": {
+    "crop": "none",
+    "sources": [{
+      "width": 720,
+      "height": 300,
+      "quality": 80
+    },{
+      "width": 1080,
+      "height": 450,
+      "quality": 85
+    },{
+      "width": 1620,
+      "height": 675,
+      "quality": 90
+    }]
+  },
+  "feature-landscape": {
+    "sizes": "33vw",
+    "sources": [{
+      "width": 480,
+      "height": 320,
+      "quality": 80
+    },{
+      "width": 720,
+      "height": 480,
+      "quality": 80
+    }]
+  },
+  "square": {
+    "crop": "faces,edges",
+    "sources": [{
+      "width": 320,
+      "height": 320,
+      "quality": 80
+    },{
+      "width": 480,
+      "height": 480,
+      "quality": 80
+    },{
+      "width": 960,
+      "height": 960,
+      "quality": 80
+    }]
+  }
+}

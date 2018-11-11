@@ -1,0 +1,15 @@
+---
+title: Offline
+summary: You appear to be offline.
+introduction: 'Your network connection isn''t working right now, and this page is not available offline. Why not read one of the following articles instead?'
+permalink: /offline.html
+hidden: true
+---
+{%- assign saved = collections.article | includes: 'data.tags','featured' -%}
+{%- include 'section'
+  section_id: 'saved'
+  section_title: 'Articles available to read offline'
+  items: saved
+  items_limit: 6
+  item_modifier: 'inline'
+-%}

@@ -1,0 +1,18 @@
+.pagination {
+  --anchor-decoration: none;
+  border-block-start: var(--border-width-thin) solid var(--color-rule);
+}
+
+.pagination ol {
+  display: flex;
+  flex: 1;
+}
+
+.pagination a {
+  display: block;
+  padding: var(--inset-large-squished);
+}
+
+.pagination a[aria-current] {
+  background-color: var(--color-offset);
+}

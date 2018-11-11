@@ -1,0 +1,4 @@
+@custom-selector :--heading h1, h2, h3, h4, h5, h6, legend;
+@custom-selector :--flow p, dl, ol, ul, address;
+@custom-selector :--list dl, ol, ul;
+@custom-selector :--caption caption, figcaption;

@@ -1,0 +1,11 @@
+{%- assign title = date | date: 'Photo: %e %B %Y, %l:%S %P' -%}
+{%- assign image = photos[0].url -%}
+{%- capture content -%}
+  {{- content -}}
+  {%- include 'photos' columns: 1 -%}
+{%- endcapture -%}
+{%- layout 'layout/default' -%}
+{%- block 'main' -%}
+  {%- include 'content' properties: 'e-content p-name' -%}
+  {%- include 'footer' -%}
+{%- endblock -%}

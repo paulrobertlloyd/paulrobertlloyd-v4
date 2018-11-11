@@ -1,0 +1,9 @@
+{
+  "title": "",
+  "layout": "layout/note",
+  "permalink": "notes/{{ page.fileSlug }}.html",
+  "type": "note",
+  "vocab": "entry",
+  "changefreq": "monthly",
+  "priority": "0.8"
+}

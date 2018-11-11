@@ -1,0 +1,17 @@
+.header {
+  --flow-space: var(--space-block-xsmall);
+
+  padding-block-end: var(--space-block-large);
+}
+
+.header__title {
+  @extend %title;
+
+  margin-block-end: var(--space-block-small);
+}
+
+.header__summary {
+  @extend %lede;
+
+  max-inline-size: var(--line-measure);
+}

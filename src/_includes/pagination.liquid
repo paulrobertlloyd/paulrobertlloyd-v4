@@ -1,0 +1,15 @@
+{%- if pagination.pageLinks.size > 1 -%}
+<nav class="pagination" aria-label="page">
+  <ol>
+  {%- for item in pagination.pageLinks -%}
+    {%- assign url = item | permalink | replace: 'page/','?page=' -%}
+    {%- if forloop.index0 != 0 -%}
+      {%- assign label = forloop.index0 -%}
+    {%- else -%}
+      {%- assign label = label | capitalize -%}
+    {%- endif -%}
+    <li><a href="{{ url }}"{% if pagination.pageNumber == forloop.index0 %} aria-current="page"{% endif %} aria-label="Go to page {{ forloop.index0 }}">{{ label }}</a></li>
+  {%- endfor -%}
+  </ol>
+</nav>
+{%- endif -%}

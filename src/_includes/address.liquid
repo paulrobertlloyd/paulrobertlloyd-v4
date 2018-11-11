@@ -1,0 +1,6 @@
+<address class="h-adr">
+  {%- if address.street-address %}<span class="p-street-address">{{ address.street-address }}</span><br>{% endif -%}
+  {%- if address.locality %}<span class="p-locality">{{ address.locality }}</span>&nbsp;{% endif -%}
+  {%- if address.postal-code %}<span class="p-postal-code">{{ address.postal-code }}</span>{% endif -%}
+  {%- if address.country-name %}<br><span class="p-country-name">{{ address.country-name }}</span>{% endif -%}
+</address>

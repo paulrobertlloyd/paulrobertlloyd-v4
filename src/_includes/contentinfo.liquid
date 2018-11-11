@@ -1,0 +1,9 @@
+<footer class="contentinfo">
+  <div class="contentinfo__container">
+    {%- include 'elsewhere' with app.author.elsewhere -%}
+    {%- include 'navigation' with navigation.tertiary -%}
+    <p class="contentinfo__legal">
+      <small>© <time>{{ 'now' | date: '%Y' }}</time></small>
+    </p>
+  </div>
+</footer>

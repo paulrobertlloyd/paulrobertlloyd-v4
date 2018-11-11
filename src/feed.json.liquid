@@ -1,0 +1,30 @@
+---
+permalink: /feed.json
+---
+{
+  "version": "https://jsonfeed.org/version/1",
+  "title": "{{ app.title }}",
+  "description": "{{ app.description }}",
+  "home_page_url": "{{ app.url }}",
+  "feed_url": "{{ '/feed.json' | prepend: app.url }}",
+  "favicon": "{{ app.favicon | prepend: app.url }}",
+  "icon": "{{ app.icon | prepend: app.url }}",
+  "author": {
+    "name": "{{ app.author.name }}",
+    "url": "{{ app.author.url }}",
+    "avatar": "{{ app.author.avatar }}"
+  },
+  "items": [{% for item in collections.post limit: 25 %}
+    {
+      "id": "{{ item.url | prepend: app.url | permalink }}",
+      "url": "{{ item.url | prepend: app.url | permalink }}",
+      {% if item.data.url %}"external_url": "{{ item.data.url }}",{% endif %}
+      "title": {{ item.data.title | markdownify_inline | jsonify }},
+      {% if item.data.summary %}"summary": {{ item.data.summary | markdownify_inline | jsonify }},{% endif %}
+      {% if item.data.tags %}"tags": {{ item.data.tags | jsonify }},{% endif %}
+      {% if item.data.image %}"image": {{ item.data.image | prepend: app.url | append: '?w=1280&q=90&auto=format' | jsonify }},{% endif %}
+      "content_html": {% capture content_html %}{% if item.data.photos %}{% include 'photos' with item.data.photos image_class: 'u-photo' %}{% endif %}{{ item.templateContent }}{% endcapture %}{{ content_html | strip | jsonify }},
+      "date_published": {{ item.data.date | jsonify }}
+    }{% unless forloop.last %},{% endunless %}
+  {% endfor %}]
+}
