@@ -2,22 +2,12 @@
 [[headers]]
   for = "/*"
   [headers.values]
+    Content-Security-Policy = "default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'self'; img-src 'self' *.4sqi.net *.gravatar.com *.mapbox.com i.ytimg.com i.vimeocdn.com paulrobertlloyd.imgix.net raw.githubusercontent.com data:"
     Link = '''
       </assets/fonts/untitled-regular.woff2>; rel=preload; as=font; crossorigin,
       </assets/fonts/untitled-medium.woff2>; rel=preload; as=font; crossorigin
     '''
-    Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"
-    # Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
-
-[[headers]]
-  for = "/*.css"
-  [headers.values]
-    X-Content-Type-Options = "nosniff"
-
-[[headers]]
-  for = "/*.html"
-  [headers.values]
-    Content-Security-Policy = "default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'self'; img-src 'self' *.4sqi.net *.gravatar.com *.mapbox.com i.ytimg.com i.vimeocdn.com paulrobertlloyd.imgix.net raw.githubusercontent.com data:"
+    Referrer-Policy = "no-referrer"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "1; mode=block"
@@ -31,7 +21,6 @@
   for = "/*.js"
   [headers.values]
     Content-Type = "text/javascript; charset=utf-8"
-    X-Content-Type-Options = "nosniff"
 
 [[headers]]
   for = "/*.json"
