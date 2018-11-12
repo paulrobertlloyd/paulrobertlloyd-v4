@@ -6,7 +6,7 @@
     {{ summary | markdownify }}
   {%- endif -%}
   {%- if url -%}
-    <a class="{{ vocab_u_class | default: 'u-url' }}" rel="external" href="{{ url }}">{{ url | prettyurl }}</a>
+    <a class="{{ vocab_u_class | default: 'u-url' }}" rel="external" href="{{ url }}">{{ url | hostname }}</a>
   {%- endif -%}
   </div>
 {%- endif -%}
