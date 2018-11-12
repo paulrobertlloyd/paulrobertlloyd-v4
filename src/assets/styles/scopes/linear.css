@@ -57,6 +57,8 @@
 
 .s-linear blockquote :--flow {
   @extend %reference;
+
+  --line-height-reference: var(--line-height-loose);
 }
 
 .s-linear blockquote + figcaption {
