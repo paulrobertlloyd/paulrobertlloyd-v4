@@ -1,6 +1,6 @@
 .screenshots {
   align-items: center;
-  background: var(--screenshot-offset, var(--color-offset)) url('app.svg#noise') repeat;
+  background: var(--screenshot-offset, var(--color-offset)) url("/assets/vectors/noise.svg") repeat;
   background-size: 400px;
   display: grid;
   grid-column-gap: var(--grid-column-gap);

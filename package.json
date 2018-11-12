@@ -51,15 +51,14 @@
     "postcss-extend-rule": "^2.0.0",
     "postcss-logical": "^3.0.0",
     "postcss-media-minmax": "^4.0.0",
-    "postcss-svg": "^2.4.0",
-    "rollup": "^0.67.0",
+    "rollup": "^0.67.1",
     "rollup-plugin-commonjs": "^9.2.0",
     "rollup-plugin-node-resolve": "^3.4.0",
     "string-to-color": "^2.0.0",
     "typogr": "^0.6.8"
   },
   "devDependencies": {
-    "stylelint": "^9.7.1",
+    "stylelint": "^9.8.0",
     "stylelint-config-standard": "^18.2.0",
     "stylelint-order": "^1.0.0",
     "xo": "^0.23.0"

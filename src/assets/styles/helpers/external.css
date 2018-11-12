@@ -1,5 +1,5 @@
 a[rel~="external"]::after {
-  background: url("app.svg#external" param(--color black)) no-repeat;
+  background: url("/assets/vectors/external.svg") no-repeat;
   block-size: 0.75em;
   content: "";
   display: inline-block;
@@ -11,7 +11,7 @@ a[rel~="external"]::after {
 
 @media (prefers-color-scheme: dark) {
   a[rel~="external"]::after {
-    background-image: url("app.svg#external" param(--color white));
+    background-image: url("/assets/vectors/external-dark.svg");
   }
 }
 

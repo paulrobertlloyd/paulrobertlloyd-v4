@@ -97,8 +97,7 @@
 }
 
 .item__icon {
-  background-image: url("app.svg#multi-photo" param(--color white));
-  background-repeat: no-repeat;
+  background: url("/assets/vectors/multi-photo.svg") no-repeat;
   block-size: var(--size-icon);
   content: "";
   display: block;

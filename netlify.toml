@@ -2,7 +2,7 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'self'; img-src 'self' *.4sqi.net *.gravatar.com *.mapbox.com i.ytimg.com i.vimeocdn.com paulrobertlloyd.imgix.net raw.githubusercontent.com data:"
+    Content-Security-Policy = "default-src https: 'unsafe-eval' 'unsafe-inline'; object-src 'self'; img-src 'self' *.4sqi.net *.gravatar.com *.mapbox.com i.ytimg.com i.vimeocdn.com paulrobertlloyd.imgix.net raw.githubusercontent.com"
     Link = '''
       </assets/fonts/untitled-regular.woff2>; rel=preload; as=font; crossorigin,
       </assets/fonts/untitled-medium.woff2>; rel=preload; as=font; crossorigin
