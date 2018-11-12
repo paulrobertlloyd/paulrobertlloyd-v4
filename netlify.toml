@@ -7,7 +7,7 @@
       </assets/fonts/untitled-regular.woff2>; rel=preload; as=font; crossorigin,
       </assets/fonts/untitled-medium.woff2>; rel=preload; as=font; crossorigin
     '''
-    Referrer-Policy = "no-referrer"
+    Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"
     X-Content-Type-Options = "nosniff"
     X-Frame-Options = "SAMEORIGIN"
     X-XSS-Protection = "1; mode=block"
