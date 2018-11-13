@@ -27,7 +27,7 @@
     grid-template:
       "footer  header  image" auto
       "footer  main    image" 1fr /
-      auto     1fr     min-content;
+      auto     1fr     auto;
   }
 }
 
@@ -74,7 +74,8 @@
 
     grid-area: image;
     justify-content: end;
-    white-space: nowrap;
+    max-inline-size: 16rem;
+    text-align: end;
   }
 }
 

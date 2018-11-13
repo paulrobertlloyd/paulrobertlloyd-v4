@@ -1,0 +1,10 @@
+---
+title: Ampersand 2018
+date: 2018-06-29T09:00:00+01:00
+url: https://2018.ampersandconf.com
+summary: The Web Typography Conference. A day of inspiration and cutting edge techniques from worldwide experts.
+start: 2018-06-29T09:00:00+01:00
+end: 2018-06-29T17:30:00+01:00
+tags:
+- venue:9c2xrvm6+hm
+---

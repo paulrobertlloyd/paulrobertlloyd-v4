@@ -8,8 +8,8 @@
 
   <p>
   {%- if date-start != date-end -%}
-    <time class="dt-start" datetime="{{ start | date: dates.iso }}">{{ start | date: dates.datetime_full }}</time><br>
-    <time class="dt-end" datetime="{{ end | date: dates.iso }}">{{ end | date: dates.datetime_full }}</time>
+    <time class="dt-start" datetime="{{ start | date: dates.iso }}">{{ start | date: dates.date_long }}</time> -
+    <time class="dt-end" datetime="{{ end | date: dates.iso }}">{{ end | date: dates.date_long }}</time>
   {%- else -%}
     <time class="dt-start" datetime="{{ start | date: dates.iso }}">{{ start | date: dates.datetime_full }}</time>
     <time class="dt-end" datetime="{{ end | date: dates.iso }}"></time>

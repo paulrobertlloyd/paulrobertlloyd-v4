@@ -136,9 +136,9 @@
 
 # Redirect event venue URLs
 [[redirects]]
-  from = "/events/by-venue/"
+  from = "/events/venues/"
   query = {page = ":page"}
-  to = "/events/by-venue/page/:page"
+  to = "/events/venues/page/:page"
   status = 200
 
 # Redirect event URLs

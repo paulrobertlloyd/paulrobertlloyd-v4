@@ -1,5 +1,5 @@
 {%- assign tag = page.fileSlug | prepend: 'venue:' -%}
-{%- assign items = collections.all | includes: 'data.tags',tag -%}
+{%- assign items = collections.all | includes: 'data.tags',tag | reverse -%}
 {%- layout 'layout/default' -%}
 {%- block 'main' -%}
   {%- include 'header' -%}

@@ -1,7 +1,7 @@
 ---
 permalink: /archive/search.json
 ---
-[{% for item in collections.post reversed %}
+[{% for item in collections.post %}
   {
     "title": {% if item.data.title != '' %}{{ item.data.title | markdownify_inline | jsonify }}{% else %}{{ item.data.type | capitalize | jsonify }}{% endif %},
     "content": {{ item.templateContent | tokenize | jsonify }},
