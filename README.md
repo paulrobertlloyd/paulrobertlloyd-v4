@@ -66,8 +66,7 @@ paulrobertlloyd.com
 │   ├── robots.txt.liquid        # robots.txt template
 │   ├── search.json.liquid       # Search database
 │   ├── serviceworker.js.liquid  # Service worker template
-│   ├── sitemap.xml.liquid       # Sitemap template
-│   └── sitemap.xsl.liquid       # Sitemap XSL stylesheet
+│   └── sitemap.xml.liquid       # Sitemap template
 │
 ├── .editorconfig                # Text editor configuration
 ├── .gitattributes               # Files tracked by Git LFS
