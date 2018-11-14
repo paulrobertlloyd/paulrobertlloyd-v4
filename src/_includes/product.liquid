@@ -1,5 +1,5 @@
 <aside class="h-product" role="complementary">
-  <h3><cite class="p-name">{{ product.title | markdownify_inline }}</cite></h3>
+  <h3><cite class="p-name">{{ product.title | markdownify: 'inline' }}</cite></h3>
   <dl>
   {%- for item in product -%}
   {%- unless item[0] == 'title' -%}

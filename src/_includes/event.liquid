@@ -3,7 +3,7 @@
 {%- assign date-start = start | date: '%Y%m%d' -%}
 {%- assign date-end = end | date: '%Y%m%d' -%}
 <aside>
-  <h3><a class="p-name" href="{{ venue.url | permalink }}">{{ venue.data.title | markdownify_inline }}</a></h3>
+  <h3><a class="p-name" href="{{ venue.url | permalink }}">{{ venue.data.title | markdownify: 'inline' }}</a></h3>
   {%- include 'address' with venue.data.address -%}
 
   <p>

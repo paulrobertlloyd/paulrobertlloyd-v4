@@ -3,12 +3,12 @@
 <article class="item item--{{ item_modifier | default: 'block'}} | h-entry h-event" data-type="event">
   <header class="item__header">
     <h3 class="item__title | p-name">
-      <a href="{{ item.url | permalink }}">{{ item.data.title | markdownify_inline }}</a>
+      <a href="{{ item.url | permalink }}">{{ item.data.title | markdownify: 'inline' }}</a>
     </h3>
   </header>
 
   <p class="item__main s-linear | h-card">
-    <a class="p-name" href="{{ venue.url | permalink }}">{{ venue.data.title | markdownify_inline }}</a>,
+    <a class="p-name" href="{{ venue.url | permalink }}">{{ venue.data.title | markdownify: 'inline' }}</a>,
     <span class="h-adr">
       <span class="p-locality">{{ venue.data.address.locality }}</span>
     </span>

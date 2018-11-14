@@ -19,8 +19,8 @@ permalink: /feed.json
       "id": "{{ item.url | prepend: app.url | permalink }}",
       "url": "{{ item.url | prepend: app.url | permalink }}",
       {% if item.data.url %}"external_url": "{{ item.data.url }}",{% endif %}
-      "title": {{ item.data.title | markdownify_inline | jsonify }},
-      {% if item.data.summary %}"summary": {{ item.data.summary | markdownify_inline | jsonify }},{% endif %}
+      "title": {{ item.data.title | markdownify: 'inline' | jsonify }},
+      {% if item.data.summary %}"summary": {{ item.data.summary | markdownify: 'inline' | jsonify }},{% endif %}
       {% if item.data.tags %}"tags": {{ item.data.tags | jsonify }},{% endif %}
       {% if item.data.image %}"image": {{ item.data.image | prepend: app.url | append: '?w=1280&q=90&auto=format' | jsonify }},{% endif %}
       "content_html": {% capture content_html %}{% if item.data.photos %}{% include 'photos' with item.data.photos image_class: 'u-photo' %}{% endif %}{{ item.templateContent }}{% endcapture %}{{ content_html | strip | jsonify }},

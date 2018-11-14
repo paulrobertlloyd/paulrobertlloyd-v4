@@ -2,7 +2,7 @@
 <html lang="en-gb" prefix="og: http://ogp.me/ns#">
 <head>
   <meta charset="utf-8">
-  <meta property="og:title" content="{% if title != '' %}{{ title | markdownify_inline | strip_html }}{% else %}{{ app.title }}{% endif %}">
+  <meta property="og:title" content="{% if title != '' %}{{ title | markdownify: 'inline' | strip_html }}{% else %}{{ app.title }}{% endif %}">
   <meta property="og:description" name="description" content="{% if summary %}{{ summary | markdownify | strip_html | strip_newlines | strip }}{% else %}{{ app.description }}{% endif %}">
   <meta property="og:url" content="{% if url %}{{ url }}{% else %}{{ page.url | prepend: app.url | permalink }}{% endif %}">
 {%- if image -%}
@@ -63,7 +63,7 @@
     }
   </script>
 
-  <title>{% if type != 'homepage' %}{{ title | markdownify_inline | strip_html }} – {% endif %}{{ app.title }}</title>
+  <title>{% if type != 'homepage' %}{{ title | markdownify: 'inline' | strip_html }} – {% endif %}{{ app.title }}</title>
 </head>
 <body data-type="{{ type }}">
 {%- include 'banner' -%}

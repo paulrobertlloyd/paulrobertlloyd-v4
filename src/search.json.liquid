@@ -3,7 +3,7 @@ permalink: /archive/search.json
 ---
 [{% for item in collections.post %}
   {
-    "title": {% if item.data.title != '' %}{{ item.data.title | markdownify_inline | jsonify }}{% else %}{{ item.data.type | capitalize | jsonify }}{% endif %},
+    "title": {% if item.data.title != '' %}{{ item.data.title | markdownify: 'inline' | jsonify }}{% else %}{{ item.data.type | capitalize | jsonify }}{% endif %},
     "content": {{ item.templateContent | tokenize | jsonify }},
     "url": {{ item.url | permalink | jsonify }},
     "date_published": {{ item.data.date | jsonify }},

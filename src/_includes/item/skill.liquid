@@ -1,7 +1,7 @@
 <section class="item item--{{ item_modifier | default: 'block'}} | h-entry" data-type="skill">
   <header class="item__header">
     <h3 class="item__title | p-name">
-      <a href="{{ item.url | permalink }}">{{ item.data.title | markdownify_inline }}</a>
+      <a href="{{ item.url | permalink }}">{{ item.data.title | markdownify: 'inline' }}</a>
     </h3>
   </header>
 
