@@ -41,7 +41,7 @@
 }
 
 /* Pull alignment */
-@media (--from-smallest-viewport) {
+@media (--from-small-viewport) {
   .align-pull {
     --section-space: 0;
     float: inline-end;
