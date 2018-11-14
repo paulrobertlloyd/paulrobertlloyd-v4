@@ -3,7 +3,7 @@
   --color-accent: var(--color-accent-light);
   --card-image-blend: darken;
   --card-growth: var(--space-block-small);
-  --card-shadow: var(--color-alpha-soft);
+  --card-shadow: var(--color-alpha-highest);
 
   background: var(--color-offset);
   display: grid;

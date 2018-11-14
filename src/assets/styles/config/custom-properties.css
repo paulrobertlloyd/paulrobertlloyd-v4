@@ -9,16 +9,18 @@
   --color-neutral-lightest: color-mod(var(--color-neutral) s(2%) l(96%));
 
   /* Alpha palette */
-  --color-alpha-soft: color-mod(var(--color-neutral-darkest) a(0.1));
-  --color-alpha-hard: color-mod(var(--color-neutral-darkest) a(0.25));
+  --color-alpha-highest: color-mod(var(--color-neutral-darkest) a(0.15));
+  --color-alpha-high: color-mod(var(--color-neutral-darkest) a(0.25));
+  --color-alpha-low: color-mod(var(--color-neutral-darkest) a(0.75));
+  --color-alpha-lowest: color-mod(var(--color-neutral-darkest) a(0.9));
 
   /* Colour assignments */
   --color-accent: var(--color-accent-light);
   --color-background: white;
   --color-text: var(--color-neutral-darkest);
   --color-link: var(--color-accent);
-  --color-link-underline: var(--color-alpha-hard);
-  --color-rule: var(--color-alpha-soft);
+  --color-link-underline: var(--color-alpha-high);
+  --color-rule: var(--color-alpha-highest);
   --color-offset: var(--color-neutral-lightest);
   --color-delete: hsla(0, 100%, 80%, 0.75);
   --color-highlight: hsla(60, 100%, 80%, 0.75);
@@ -75,6 +77,9 @@
   --grid-column-gap: var(--space-block-medium);
   --grid-row-gap: var(--space-block-medium);
 
+  /* Animation */
+  --transition-short: 0.15s;
+
   /* Container values */
   --container-inline-size: 100vw;
   --container-inline-inset: calc(100vw - var(--container-inline-size));
@@ -109,11 +114,11 @@
     --color-neutral-light: color-mod(var(--color-neutral) l(40%));
     --color-neutral-lighter: color-mod(var(--color-neutral) l(32%));
     --color-neutral-lightest: color-mod(var(--color-neutral) l(16%));
-    --color-alpha-soft: color-mod(var(--color-neutral-lightest) a(0.1));
-    --color-alpha-hard: color-mod(var(--color-neutral-lightest) a(0.25));
+    --color-alpha-highest: color-mod(var(--color-neutral-lightest) a(0.1));
+    --color-alpha-high: color-mod(var(--color-neutral-lightest) a(0.25));
     --color-accent: var(--color-accent-dark);
     --color-background: color-mod(var(--color-neutral) l(8%));
-    --color-link-underline: var(--color-alpha-hard);
+    --color-link-underline: var(--color-alpha-high);
     --color-highlight: hsla(60, 100%, 70%, 0.15);
     --line-height-tight: calc(1.25em + 0.5vw);
     --line-height-loose: calc(1.4em + 0.5vw);
