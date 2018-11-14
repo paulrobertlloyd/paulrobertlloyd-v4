@@ -9,11 +9,11 @@
 4. `npm install`
 5. `npm run build`
 
-Generated files will be saved in the `www` directory.
+Generated files are written to the `www` directory.
 
 ## Development
 
-When developing the site, you may want files automatically compiled and the browser to refresh automatically. To do this, run `npm run dev`.
+When developing the site, you may want files automatically compiled and the browser to refresh automatically. To do this, run `npm run watch`.
 
 ### Running locally with HTTPS
 
@@ -50,8 +50,11 @@ paulrobertlloyd.com
 ├── etc
 │   └── test.conf                # Local nginx server configuration
 ├── lib
+│   ├── filters                  # Eleventy filters
+│   ├── transforms               # Eleventy transforms
 │   ├── browser-sync.config.js   # BrowserSync configuration
 │   ├── eleventy.config.js       # Eleventy configuration
+│   ├── markdown.config.js       # Markdown configuration
 │   ├── postcss.config.js        # PostCSS configuration
 │   └── rollup.config.js         # Rollup configuration
 ├── src
@@ -64,7 +67,7 @@ paulrobertlloyd.com
 │   ├── feed.json.liquid         # RSS (JSON Feed) template
 │   ├── feed.xml.liquid          # RSS (Atom) template
 │   ├── robots.txt.liquid        # robots.txt template
-│   ├── search.json.liquid       # Search database
+│   ├── search.json.liquid       # Search database template
 │   ├── serviceworker.js.liquid  # Service worker template
 │   └── sitemap.xml.liquid       # Sitemap template
 │
