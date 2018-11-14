@@ -1,8 +1,8 @@
 ---
-title: Prose
-date: 2018-05-05
+title: Styleguide
+summary: An overview of the typographic and layout styles available for content pages
 layout: layout/page
-permalink: /debug/prose.html
+permalink: /styleguide.html
 hidden: true
 ---
 The content on this page lies within the `.s-linear` scope[^1].

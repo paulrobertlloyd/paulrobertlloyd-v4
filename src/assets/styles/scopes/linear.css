@@ -148,12 +148,21 @@
   font-weight: 600;
 }
 
+.s-linear small {
+  font-size: 75%;
+}
+
 .s-linear img {
   background-color: white; /* Always white regardless of color-theme */
 }
 
 .s-linear :not(pre) code {
   background-color: var(--color-offset);
+  padding: var(--inset-small-squished);
+}
+
+.s-linear samp {
+  border: var(--border-width-thin) solid var(--color-offset);
   padding: var(--inset-small-squished);
 }
 

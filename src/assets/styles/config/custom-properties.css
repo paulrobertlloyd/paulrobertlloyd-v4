@@ -20,7 +20,9 @@
   --color-link-underline: var(--color-alpha-hard);
   --color-rule: var(--color-alpha-soft);
   --color-offset: var(--color-neutral-lightest);
-  --color-highlight: hsla(60, 100%, 70%, 0.75);
+  --color-delete: hsla(0, 100%, 80%, 0.75);
+  --color-highlight: hsla(60, 100%, 80%, 0.75);
+  --color-insert: hsla(120, 100%, 80%, 0.75);
   --color-focus: var(--color-accent);
 
   /* Typography */

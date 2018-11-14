@@ -55,11 +55,17 @@ var {
   hanging-punctuation: none;
 }
 
-code {
+code,
+samp {
   font-size: var(--font-size-default);
 }
 
+del {
+  background-color: var(--color-delete);
+}
+
 ins {
+  background-color: var(--color-insert);
   text-decoration: none;
 }
 
