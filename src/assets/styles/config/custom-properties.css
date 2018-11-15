@@ -9,7 +9,7 @@
   --color-neutral-lightest: color-mod(var(--color-neutral) s(2%) l(96%));
 
   /* Alpha palette */
-  --color-alpha-highest: color-mod(var(--color-neutral-darkest) a(0.15));
+  --color-alpha-highest: color-mod(var(--color-neutral-darkest) a(0.1));
   --color-alpha-high: color-mod(var(--color-neutral-darkest) a(0.25));
   --color-alpha-low: color-mod(var(--color-neutral-darkest) a(0.75));
   --color-alpha-lowest: color-mod(var(--color-neutral-darkest) a(0.9));

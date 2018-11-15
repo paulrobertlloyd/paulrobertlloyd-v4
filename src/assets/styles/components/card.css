@@ -29,7 +29,7 @@
 .card:hover {
   background-color: var(--color-background);
   box-shadow:
-    0 0 0 1px var(--color-offset),
+    0 0 0 1px var(--color-rule),
     0 0 4vw var(--card-shadow);
   margin: calc(var(--card-growth) * -1);
   padding: var(--card-growth);
