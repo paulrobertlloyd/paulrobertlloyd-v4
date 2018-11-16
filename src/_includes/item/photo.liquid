@@ -10,7 +10,7 @@
     <a class="u-url" rel="bookmark" href="{{ item.url | permalink }}">
       <time class="dt-published" datetime="{{ item.data.date | date: dates.iso }}" aria-label="{{ item.data.date | date: dates.date_long }}">
         <span>{{ item.data.date | date: dates.date_short }}</span>
-        <span>{{ item.data.date | date: '%l:%S %P' }}</span>
+        <span>{{ item.data.date | date: dates.time }}</span>
       </time>
     </a>
   </footer>

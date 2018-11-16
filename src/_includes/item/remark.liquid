@@ -16,7 +16,7 @@
     <a class="u-url" rel="bookmark" href="#remark-{{ forloop.rindex }}">
       <time class="dt-published" datetime="{{ item.date | date: dates.iso }}" aria-label="{{ item.date | date: dates.date_long }}">
         <span>{{ item.date | date: dates.date_short }}</span>
-        <span>{{ item.date | date: '%l:%S %P' }}</span>
+        <span>{{ item.date | date: dates.time }}</span>
       </time>
     </a>
   </footer>
