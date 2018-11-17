@@ -49,6 +49,7 @@ This site is deployed automatically by Netlify whenever files are pushed to the 
 paulrobertlloyd.com
 ├── etc
 │   └── test.conf                # Local nginx server configuration
+│
 ├── lib
 │   ├── filters                  # Eleventy filters
 │   ├── transforms               # Eleventy transforms
@@ -57,6 +58,7 @@ paulrobertlloyd.com
 │   ├── markdown.config.js       # Markdown configuration
 │   ├── postcss.config.js        # PostCSS configuration
 │   └── rollup.config.js         # Rollup configuration
+│
 ├── src
 │   ├── _content                 # Content (Markdown)
 │   ├── _data                    # Global website data (JSON)
