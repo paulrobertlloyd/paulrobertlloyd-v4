@@ -6,7 +6,7 @@
       image_preset: 'square'
     -%}
     {%- if item.data.photos.size > 1 -%}
-      <span class="item__icon" aria-label="{{ size }} photos in this post"></span>
+      <span class="item__icon" aria-label="{{ item.data.photos.size }} photos in this post"></span>
     {%- endif -%}
   </a>
 </article>
