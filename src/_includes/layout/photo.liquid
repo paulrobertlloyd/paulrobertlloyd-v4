@@ -1,4 +1,4 @@
-{%- assign title = date | date: 'Photo: %e %B %Y, %l:%M %P' -%}
+{%- capture title %}Photo: {{ date | date: dates.datetime_full }}{% endcapture -%}
 {%- assign image = photos[0].url -%}
 {%- capture content -%}
   {{- content -}}
