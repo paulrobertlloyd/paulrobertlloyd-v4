@@ -1,0 +1,27 @@
+---
+permalink: /.well-known/webfinger
+---
+{
+  "subject": "acct:me@paulrobertlloyd.com",
+  "aliases": [
+    "{{ 'mailto:' | prepend: app.author.email }}",
+    "{{ app.author.url }}"
+  ],
+  "links": [{
+    "rel": "self",
+    "href": "{{ '/actor' | prepend: app.url }}",
+    "type": "application/activity+json"
+  },{
+    "rel": "alternate",
+    "href": "{{ '/feed.xml' | prepend: app.url }}",
+    "type": "application/atom+xml"
+  },{
+    "rel": "http://webfinger.net/rel/avatar",
+    "href": "{{ app.author.avatar }}",
+    "type": "image/png"
+  },{
+    "rel": "http://webfinger.net/rel/profile-page",
+    "href": "{{ app.author.url }}",
+    "type": "text/html"
+  }]
+}

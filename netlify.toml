@@ -33,6 +33,16 @@
   [headers.values]
     Content-Type = "application/manifest+json; charset=utf-8"
 
+[[headers]]
+  for = "/actor"
+  [headers.values]
+    Content-Type = "application/ld+json; charset=utf-8"
+
+[[headers]]
+  for = "/.well-known/webfinger"
+  [headers.values]
+    Content-Type = "application/jrd+json; charset=utf-8"
+
 # Favicon
 [[redirects]]
   from = "/favicon.ico"

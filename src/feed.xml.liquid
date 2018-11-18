@@ -11,8 +11,9 @@ permalink: /feed.xml
     <email>{{ app.author.email }}</email>
     <uri>{{ app.author.url }}</uri>
   </author>
-  <link href="{{ '/feed.xml' | prepend: app.url }}" rel="self" type="application/atom+xml"/>
-  <link href="{{ app.url }}" rel="alternate" type="text/html"/>
+  <link rel="self" href="{{ '/feed.xml' | prepend: app.url }}" type="application/atom+xml"/>
+  <link rel="alternate" href="{{ app.url }}" type="text/html"/>
+  <link rel="hub" href="http://pubsubhubbub.superfeedr.com/"/>
   <icon>{{ app.icon | prepend: app.url }}</icon>
   <rights>&#169; {{ 'now' | date: '%Y' }} {{ app.author.name }}. Content Creative Commons licensed unless otherwise stated.</rights>
 {% for item in collections.post limit: 25 %}
