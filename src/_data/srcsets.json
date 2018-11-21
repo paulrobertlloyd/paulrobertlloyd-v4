@@ -1,9 +1,6 @@
 {
   "default": {
     "sources": [{
-      "width": 480,
-      "quality": 80
-    },{
       "width": 720,
       "quality": 80
     },{
