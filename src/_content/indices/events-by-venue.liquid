@@ -6,6 +6,7 @@ pagination:
   size: 48
 permalink: events/venues/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber }}{% else %}index{% endif %}.html
 ---
+{%- assign venues = pagination.items | sort_by: 'data.title' -%}
 {%- include 'items' with pagination.items
   item_modifier: 'inline'
 -%}
