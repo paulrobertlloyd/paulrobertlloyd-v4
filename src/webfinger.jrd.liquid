@@ -1,5 +1,5 @@
 ---
-permalink: /.well-known/webfinger
+permalink: /.well-known/webfinger.jrd
 ---
 {
   "subject": "acct:me@paulrobertlloyd.com",
@@ -9,7 +9,7 @@ permalink: /.well-known/webfinger
   ],
   "links": [{
     "rel": "self",
-    "href": "{{ '/actor' | prepend: app.url }}",
+    "href": "{{ '/me.jsonld' | prepend: app.url }}",
     "type": "application/activity+json"
   },{
     "rel": "alternate",

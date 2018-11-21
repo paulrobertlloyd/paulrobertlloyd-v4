@@ -1,12 +1,12 @@
 ---
-permalink: /actor
+permalink: /me.jsonld
 ---
 {
   "@context": [
     "https://www.w3.org/ns/activitystreams",
     "https://w3id.org/security/v1"
   ],
-  "id": "{{ '/actor' | prepend: app.url }}",
+  "id": "{{ '/me' | prepend: app.url }}",
   "type": "Person",
   "preferredUsername": "me",
   "name": "{{ app.author.name }}",
@@ -15,8 +15,8 @@ permalink: /actor
   ],
   "inbox": "https://services.paulrobertlloyd.com/inbox",
   "publicKey": {
-    "id": "{{ '/actor#main-key' | prepend: app.url }}",
-    "owner": "{{ '/actor' | prepend: app.url }}",
+    "id": "{{ '/me#main-key' | prepend: app.url }}",
+    "owner": "{{ '/me' | prepend: app.url }}",
     "publicKeyPem": "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1CM3SQOrS96zhnEYi4Gp
     bSuPAPqNNvJPr//2nXosfVDhzBjEbeigebTNLV8sdSLuuDEe16t3JCJYPk/1iB1r
     VHkMVKdRH0rsaIKT3e63+cu562eqe0uQNulF+FHhJHyLAHyRMc8p5np9LRNvOJUn

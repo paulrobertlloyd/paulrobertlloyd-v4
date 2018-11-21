@@ -29,24 +29,30 @@
     Content-Type = "application/json; charset=utf-8"
 
 [[headers]]
-  for = "/*.webmanifest"
-  [headers.values]
-    Content-Type = "application/manifest+json; charset=utf-8"
-
-[[headers]]
-  for = "/actor"
+  for = "/*.jsonld"
   [headers.values]
     Content-Type = "application/ld+json; charset=utf-8"
 
 [[headers]]
-  for = "/.well-known/webfinger"
+  for = "/*.jrd"
   [headers.values]
     Content-Type = "application/jrd+json; charset=utf-8"
+
+[[headers]]
+  for = "/*.webmanifest"
+  [headers.values]
+    Content-Type = "application/manifest+json; charset=utf-8"
 
 # Favicon
 [[redirects]]
   from = "/favicon.ico"
   to = "/images/app.ico"
+  status = 200
+
+# ActivityPub
+[[headers]]
+  from = "/.well-known/webfinger"
+  to = "/.well-known/webfinger.jrd"
   status = 200
 
 # Redirect legacy URLs
