@@ -10,4 +10,4 @@ permalink: events/venues/{% if pagination.pageNumber > 0 %}page/{{ pagination.pa
 {%- include 'items' with pagination.items
   item_modifier: 'inline'
 -%}
-{% include 'pagination' label: 'Venues' %}
+{%- include 'pagination' label: 'Venues' -%}

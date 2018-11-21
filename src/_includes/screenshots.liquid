@@ -1,7 +1,7 @@
 <figure class="align-{{ alignment | default: 'none' }}">
   <div class="screenshots" style="--columns: {{ columns | default: screenshots.size }}">
   {%- for screenshot in screenshots -%}
-    {%- include 'image' with screenshot.url,
+    {%- include 'image' with screenshot.url
       alt: screenshot.alt
     -%}
   {%- endfor -%}

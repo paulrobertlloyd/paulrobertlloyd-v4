@@ -7,7 +7,7 @@ pagination:
   size: 24
 permalink: articles/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber }}{% else %}index{% endif %}.html
 ---
-{% if pagination.pageNumber < 1 -%}
+{%- if pagination.pageNumber < 1 -%}
   {%- assign featured = collections.article | includes: 'data.tags','featured' -%}
   {%- include 'section'
     section_id: 'featured'
@@ -28,4 +28,4 @@ permalink: articles/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNum
     item_modifier: 'inline'
   -%}
 {%- endif %}
-{% include 'traverse' label: 'articles' %}
+{%- include 'traverse' label: 'articles' -%}
