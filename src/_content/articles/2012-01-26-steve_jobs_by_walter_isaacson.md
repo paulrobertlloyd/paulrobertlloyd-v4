@@ -6,6 +6,11 @@ location:
   country-name: United Kingdom
 summary: After enough subtle hints, I was happy to unwrap a copy of the Steve Jobs biography at Christmas.
 image: /images/2012/01/steve_jobs_by_walter_isaacson.jpg
+tags:
+- books
+- review
+- steve_jobs
+- apple
 ---
 {% include 'figure' with '/images/2012/01/steve_jobs_by_walter_isaacson.jpg'
   caption: 'Steve Jobs by Walter Isaacson.'
