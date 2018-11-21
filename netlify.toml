@@ -50,7 +50,7 @@
   status = 200
 
 # ActivityPub
-[[headers]]
+[[redirects]]
   from = "/.well-known/webfinger"
   to = "/.well-known/webfinger.jrd"
   status = 200
