@@ -4,9 +4,9 @@
 {%- assign src = image -%}
 {%- assign srcset = false -%}
 {%- unless image contains 'svg' -%}
-  {%- assign image = image | replace_first: '/images',app.imgcdn -%}
+  {%- assign path = image | replace_first: '/images',app.imgcdn -%}
   {%- assign sizes = setting.sizes -%}
-  {%- capture src %}{{ image }}?w={{ setting.sources[0].width }}&h={{ setting.sources[0].height }}&q={{ setting.sources[0].quality }}&crop={{ setting.crop | default: 'edges' | replace: ',','%2C' }}&auto=format{% endcapture -%}
-  {%- capture srcset %}{% for source in setting.sources %}{{ image }}?w={{ source.width }}&h={{ source.height }}&q={{ source.quality }}&crop={{ setting.crop | default: 'edges' | replace: ',','%2C' }}&auto=format {{ source.width }}w{% unless forloop.last %}, {% endunless%}{% endfor %}{% endcapture -%}
+  {%- capture src %}{{ path }}?w={{ setting.sources[0].width }}&h={{ setting.sources[0].height }}&q={{ setting.sources[0].quality }}&crop={{ setting.crop | default: 'edges' | replace: ',','%2C' }}&auto=format{% endcapture -%}
+  {%- capture srcset %}{% for source in setting.sources %}{{ path }}?w={{ source.width }}&h={{ source.height }}&q={{ source.quality }}&crop={{ setting.crop | default: 'edges' | replace: ',','%2C' }}&auto=format {{ source.width }}w{% unless forloop.last %}, {% endunless%}{% endfor %}{% endcapture -%}
 {%- endunless -%}
 <img src="{{ src }}" alt="{{ alt }}"{% if id %} id="{{ id }}"{% endif %}{% if image_class %} class="{{ image_class }}"{% endif %}{% if srcset %} data-preset="{{ preset }}" srcset="{{ srcset }}"{% endif %}{% if sizes %} sizes="{{ sizes }}"{% endif %} width="{{ setting.sources[0].width }}" height="{{ setting.sources[0].height }}" lazyload="on">
