@@ -34,6 +34,12 @@
   margin-block-end: var(--section-space);
 }
 
+.s-linear :--caption {
+  @extend %caption;
+
+  padding-block-start: var(--caption-block-start, var(--space-block-small));
+}
+
 .s-linear > aside :--flow {
   @extend %reference;
 
@@ -91,14 +97,18 @@
   @extend %overline;
 }
 
+.s-linear * + h2 {
+  margin-block-start: var(--space-block-large);
+}
+
 .s-linear h2:not([class]) {
   @extend %heading;
 
   margin-block-end: var(--space-block-small);
 }
 
-.s-linear * + h2 {
-  margin-block-start: var(--space-block-large);
+.s-linear * + h3 {
+  margin-block-start: var(--space-block-small);
 }
 
 .s-linear h3:not([class]) {
@@ -107,20 +117,10 @@
   margin-block-end: var(--space-block-xsmall);
 }
 
-.s-linear * + h3 {
-  margin-block-start: var(--space-block-small);
-}
-
 .s-linear h4:not([class]) {
   @extend %overline;
 
   margin-block-end: 0;
-}
-
-.s-linear :--caption {
-  @extend %caption;
-
-  padding-block-start: var(--caption-block-start, var(--space-block-small));
 }
 
 .s-linear :--list :--flow {

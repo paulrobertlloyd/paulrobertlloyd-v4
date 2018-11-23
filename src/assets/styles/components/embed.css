@@ -19,8 +19,6 @@
 /* Circle background */
 .embed__button::before {
   background: var(--color-alpha-low) url("/assets/vectors/play.svg") no-repeat;
-  -webkit-backdrop-filter: blur(2px);
-  backdrop-filter: blur(2px);
   block-size: 10vmin;
   border-radius: 100%;
   box-shadow: 0 0 0 1px hsla(0, 100%, 100%, 0.25);

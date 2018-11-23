@@ -17,8 +17,8 @@
     "build": "npm run build:styles && npm run build:scripts && npm run build:files",
     "watch": "npm-run-all --parallel serve watch:*",
     "serve": "browser-sync start --config lib/browser-sync.config.js",
-    "build:files": "ELEVENTY_ENV=production eleventy --config lib/eleventy.config.js",
-    "watch:files": "ELEVENTY_ENV=development eleventy --config lib/eleventy.config.js --quiet --watch",
+    "build:files": "eleventy --config lib/eleventy.config.js",
+    "watch:files": "eleventy --config lib/eleventy.config.js --quiet --watch",
     "test:scripts": "xo **/*.js",
     "build:scripts": "rollup --config lib/rollup.config.js",
     "watch:scripts": "rollup --config lib/rollup.config.js --watch",
@@ -63,9 +63,6 @@
     "stylelint-order": "^2.0.0",
     "xo": "^0.23.0"
   },
-  "browserslist": [
-    "defaults"
-  ],
   "stylelint": {
     "extends": "stylelint-config-standard",
     "plugins": [
@@ -82,6 +79,7 @@
       ],
       "declaration-empty-line-before": null,
       "custom-property-empty-line-before": null,
+      "media-feature-name-no-unknown": null,
       "order/order": [
         "custom-properties",
         "declarations"
@@ -94,6 +92,9 @@
     "envs": "browser",
     "ignores": [
       "www/**"
-    ]
+    ],
+    "rules": {
+      "camelcase": "warn"
+    }
   }
 }
