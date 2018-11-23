@@ -2,6 +2,7 @@
   "layout": "layout/source",
   "permalink": "/articles/sources/{{ page.fileSlug }}/",
   "type": "source",
+  "tags": ["source"],
   "changefreq": "monthly",
   "priority": "0.2"
 }

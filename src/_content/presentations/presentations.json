@@ -3,6 +3,7 @@
   "permalink": "presentations/{{ page.date | date: '%Y/%m' }}/{{ page.fileSlug }}.html",
   "type": "presentation",
   "vocab": "entry",
+  "tags": ["presentation"],
   "changefreq": "monthly",
   "priority": "0.9"
 }
