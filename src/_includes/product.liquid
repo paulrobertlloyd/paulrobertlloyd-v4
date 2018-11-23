@@ -1,16 +1,13 @@
 <aside class="h-product" role="complementary">
+{%- if product.photo -%}
+  {% include 'image' with product.photo
+    image_class: 'u-photo'
+    image_preset: 'thumbnail'
+  %}
+{%- endif -%}
   <h3><cite class="p-name">{{ product.title | markdownify: 'inline' }}</cite></h3>
-  <dl>
-  {%- for item in product -%}
-  {%- unless item[0] == 'title' -%}
-    {%- if item[0] == 'rating' -%}
-    <dt>Rating</dt>
-    <dd>{% include 'rating' with item[1] %}</dd>
-    {%- else -%}
-    <dt>{{ item[0] | replace: '_',' ' | capitalize }}</dt>
-    <dd>{{ item[1] | append: '' | markdownify }}</dd>
-    {%- endif -%}
-  {%- endunless -%}
-  {%- endfor -%}
-  </dl>
+{%- if product.rating -%}
+  <p>{% include 'rating' with product.rating %}</p>
+{%- endif -%}
+  {{ product.info | markdownify }}
 </aside>

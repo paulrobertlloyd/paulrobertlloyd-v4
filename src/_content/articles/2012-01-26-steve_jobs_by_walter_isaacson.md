@@ -5,18 +5,30 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: After enough subtle hints, I was happy to unwrap a copy of the Steve Jobs biography at Christmas.
-image: /images/2012/01/steve_jobs_by_walter_isaacson.jpg
+image: /images/2012/01/steve_jobs_by_walter_isaacson/image.jpg
+vocab: [entry, review]
+product:
+  title: Steve Jobs
+  photo: /images/2012/01/steve_jobs_by_walter_isaacson/978-1-4087-0374-8.jpg
+  info: |
+    Author
+    : Walter Isaacson
+
+    Publisher
+    : [Little, Brown](https://www.littlebrown.co.uk){.p-brand .h-card}
+
+    Year
+    : 2011
+
+    ISBN
+    : 978-1-4087-0374-8{.u-identifier}
 tags:
 - books
 - review
 - steve_jobs
 - apple
 ---
-{% include 'figure' with '/images/2012/01/steve_jobs_by_walter_isaacson.jpg'
-  caption: 'Steve Jobs by Walter Isaacson.'
-  alignment: 'pull'
-  image_preset: 'supporting'
-%}
+{% include 'product' %}
 
 After enough subtle hints, I was happy to unwrap a copy of the [Steve Jobs biography][1] at Christmas. I don't read many books, and those I do I rarely finish. I couldn't put this one down. When I intended to read half an hour before bed, I'd usually end up reading for two.
 

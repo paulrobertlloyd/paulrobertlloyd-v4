@@ -7,12 +7,22 @@ summary: Paul Lloyd, senior visual designer at Brighton-based web agency Clearle
 vocab: [entry, review]
 product:
   title: Adobe Edge CC
-  company: '[Adobe](http://html.adobe.com/edge/){.p-brand .h-card}'
-  price: <data class="p-price" value="14.65">Creative Cloud for individuals from £14.65+VAT/month</data>. <data class="p-price" value="37.11">Creative Cloud for teams from £37.11+VAT/month</data>
-  pros: Tight integration with other Creative Cloud applications; preview design and code easily on iOS and Android devices; use web fonts on your desktop; powerful animation tools.
-  cons: Applications lack native UI and share an inconsistent design; preview functions limited to Chrome browser; applications not available to purchase separately.
-  supports: Windows 7 or 8, OS X 10.7 or 10.8
   rating: 3
+  info: |
+    Company
+    : '[Adobe](http://html.adobe.com/edge/){.p-brand .h-card}'
+
+    Price
+    : <data class="p-price" value="14.65">Creative Cloud for individuals from £14.65&#8203;+VAT&#8203;/month</data>.&#8195;<data class="p-price" value="37.11">Creative Cloud for teams from £37.11&#8203;+VAT&#8203;/month</data>
+
+    Pros
+    : Tight integration with other Creative Cloud applications; preview design and code easily on iOS and Android devices; use web fonts on your desktop; powerful animation tools.
+
+    Cons
+    : Applications lack native UI and share an inconsistent design; preview functions limited to Chrome browser; applications not available to purchase separately.
+
+    Supports
+    : Windows 7 or 8, OS X 10.7 or 10.8
 tags:
 - source:digital_arts
 - review

@@ -7,12 +7,22 @@ summary: Paul Lloyd, senior visual designer at Brighton-based web agency Clearle
 vocab: [entry, review]
 product:
   title: Sketch 2
-  company: '[Bohemian Coding](http://bohemiancoding.com/sketch/){.p-brand .h-card}'
-  price: <data class="p-price" value="29.00">£29+VAT</data>
-  pros: Easy to use; fits in well with web designer-centric workflow; supports native OS X features.
-  cons: Can't share styles; no symbols; difficult to share documents with Windows colleagues; sluggish at times.
-  supports: OS X 10.6 Snow Leopard or higher.
   rating: 4
+  info: |
+    Company
+    : '[Bohemian Coding](http://bohemiancoding.com/sketch/){.p-brand .h-card}'
+
+    Price
+    : <data class="p-price" value="29.00">£29+VAT</data>
+
+    Pros
+    : Easy to use; fits in well with web designer-centric workflow; supports native OS X features.
+
+    Cons
+    : Can't share styles; no symbols; difficult to share documents with Windows colleagues; sluggish at times.
+
+    Supports
+    : OS X 10.6 Snow Leopard or higher.
 tags:
 - source:digital_arts
 - review

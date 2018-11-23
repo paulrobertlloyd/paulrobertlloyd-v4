@@ -154,6 +154,8 @@
 
 .s-linear img {
   background-color: white; /* Always white regardless of color-theme */
+  outline: var(--border-width-thin) solid var(--color-alpha-highest);
+  outline-offset: calc(var(--border-width-thin) * -1);
 }
 
 .s-linear :not(pre) code {
