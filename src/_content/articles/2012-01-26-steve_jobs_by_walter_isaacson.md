@@ -9,7 +9,7 @@ image: /images/2012/01/steve_jobs_by_walter_isaacson/image.jpg
 vocab: [entry, review]
 product:
   title: Steve Jobs
-  photo: /images/2012/01/steve_jobs_by_walter_isaacson/978-1-4087-0374-8.jpg
+  photo: /images/2012/01/steve_jobs_by_walter_isaacson/978-1-4087037-4-8.jpg
   info: |
     Author
     : Walter Isaacson
@@ -21,7 +21,7 @@ product:
     : 2011
 
     ISBN
-    : 978-1-4087-0374-8{.u-identifier}
+    : <span class="u-identifier">978-1-4087037-4-8</span>
 tags:
 - books
 - review
