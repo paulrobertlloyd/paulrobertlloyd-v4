@@ -59,20 +59,41 @@
       "quality": 90
     }]
   },
-  "feature-landscape": {
-    "sizes": "33vw",
+  "card": {
+    "sizes": "16rem",
     "sources": [{
-      "width": 480,
-      "height": 320,
+      "width": 360,
+      "height": 240,
       "quality": 80
     },{
-      "width": 720,
-      "height": 480,
+      "width": 540,
+      "height": 360,
+      "quality": 80
+    },{
+      "width": 810,
+      "height": 540,
       "quality": 80
     }]
   },
-  "square": {
+  "card-square": {
+    "sizes": "16rem",
+    "sources": [{
+      "width": 360,
+      "height": 360,
+      "quality": 80
+    },{
+      "width": 540,
+      "height": 540,
+      "quality": 80
+    },{
+      "width": 810,
+      "height": 810,
+      "quality": 80
+    }]
+  },
+  "photo-simple": {
     "crop": "faces,edges",
+    "sizes": "12rem",
     "sources": [{
       "width": 320,
       "height": 320,

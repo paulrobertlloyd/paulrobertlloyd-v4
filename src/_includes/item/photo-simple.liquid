@@ -3,7 +3,7 @@
     {%- include 'image' with item.data.photos[0].url
       alt: item.data.photos[0].alt
       image_class: 'u-photo'
-      image_preset: 'square'
+      image_preset: 'photo-simple'
     -%}
     {%- if item.data.photos.size > 1 -%}
       <span class="item__icon" aria-label="{{ item.data.photos.size }} photos in this post"></span>
