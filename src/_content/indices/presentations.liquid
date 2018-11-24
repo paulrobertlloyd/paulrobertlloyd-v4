@@ -15,10 +15,10 @@ permalink: presentations/index.html
   items_component: 'card'
 -%}
 {% assign appearances = collections.event | select: 'data.participant',true %}
-{%- include 'section',
-  section_id: 'events',
-  section_title: 'Events I’ve spoken at',
-  items: appearances,
-  items_limit: 10,
+{%- include 'section'
+  section_id: 'events'
+  section_title: 'Events I’ve spoken at'
+  items: appearances
+  items_limit: 10
   item_modifier: 'inline'
 -%}
