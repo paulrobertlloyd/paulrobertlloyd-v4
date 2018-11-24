@@ -55,6 +55,11 @@
   to = "/.well-known/webfinger.jrd"
   status = 200
 
+[[redirects]]
+  from = "/me.jsonld"
+  to = "/me"
+  status = 200
+
 # Redirect legacy URLs
 [[redirects]]
   from = "/articles/dissertation/*"
