@@ -46,9 +46,9 @@ A *virtue ethicist* would approach this from another perspective: would I be hap
 
 ## No easy answers
 
-To see this simple choice as a moral dilemma demonstrates how principled I try to be, often to my own detriment. While it's helpful to have these different means of ethical reasoning to tackle such dilemmas, they often raise more questions than they answer. When it comes to ethics, there are no shortcuts.
+To see this simple choice as a moral dilemma demonstrates how principled I try to be, often to my own detriment. While it's helpful to have these different means of ethical reasoning to tackle such dilemmas, they often raise more questions than they answer.
 
-Platitudes such as <q>if you're not paying for the product, you are the product</q> dissuade us from understanding the complexities and consequences of different business models. Throwing around terms like surveillance capitalism can distort our understanding of what surveillance actually entails (hint: not a sign-up form). While the trolley problem is a fun theoretical debate, in reality the decision should almost always be to slam on the brakes.
+When it comes to ethics, there are no shortcuts. Platitudes such as <q>if you're not paying for the product, you are the product</q> dissuade us from understanding the complexities and consequences of different business models. Throwing around terms like surveillance capitalism can distort our understanding of what surveillance actually entails (hint: not a sign-up form). While the trolley problem is a fun theoretical debate, in reality the decision should almost always be to slam on the brakes.
 
 Throughout the book Cennydd shares some of the tools we can use in our day-to-day practice to widen our view of the world and recognise the impact our work can have on it. Be that choosing to adopt a veil of ignorance when making decisions, including futuring exercises in workshops, building 'provocatypes' to stimulate debate, creating 'personas non-grata' or appointing designated dissenters to widen our pool of perceived stakeholders, these tools can help us avoid the unintended consequences of our work, or at least be prepared for them.
 
