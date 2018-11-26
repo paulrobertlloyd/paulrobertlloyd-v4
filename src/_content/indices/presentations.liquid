@@ -13,6 +13,7 @@ permalink: presentations/index.html
   items: collections.presentation
   items_size: '16rem'
   items_component: 'card'
+  card_image_color: true
 -%}
 {% assign appearances = collections.event | select: 'data.participant',true %}
 {%- include 'section'

@@ -96,14 +96,3 @@
     display: block;
   }
 }
-
-.item__icon {
-  background: url("/assets/vectors/multi-photo.svg") no-repeat;
-  block-size: var(--size-icon);
-  content: "";
-  display: block;
-  inline-size: var(--size-icon);
-  inset-block-end: var(--space-block-xsmall);
-  inset-inline-end: var(--space-block-xsmall);
-  position: absolute;
-}

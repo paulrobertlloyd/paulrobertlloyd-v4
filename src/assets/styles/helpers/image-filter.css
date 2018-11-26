@@ -1,0 +1,23 @@
+[style^="--image-filter"] {
+  --image-blend: color;
+}
+
+@media (prefers-color-scheme: dark) {
+  [style^="--image-color"] {
+    --image-blend: lighten;
+  }
+}
+
+[style^="--image-color"]::before {
+  background-color: var(--image-color);
+  content: "";
+  inset: 0;
+  mix-blend-mode: color;
+  position: absolute;
+  z-index: 1;
+}
+
+[style^="--image-color"] img {
+  filter: grayscale(100%) contrast(0.75) brightness(1.25);
+  mix-blend-mode: var(--image-blend);
+}

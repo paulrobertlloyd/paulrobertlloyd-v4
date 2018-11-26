@@ -3,7 +3,7 @@
 {%- assign card_image_preset = card_image_present | default: 'card' -%}
 <article class="card |{% for root in item.data.vocab %} h-{{ root }}{% endfor %}" data-type="{{ item.data.type }}" style="--color-accent-light: {{ card_accent | contrastify: 'black' }}; --color-accent-dark: {{ card_accent | contrastify: 'white' }}">
 {%- if item.data.image -%}
-  <div class="card__image">
+  <div class="card__image"{% if card_image_color %} style="--image-color: var(--color-accent)"{% endif %}>
     {%- include 'image' with item.data.image
       image_preset: card_image_preset
     -%}
