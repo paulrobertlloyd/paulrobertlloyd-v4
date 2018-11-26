@@ -44,7 +44,7 @@ Convenience comes with a cost of course. Although hidden from (or ignored by) th
 
 As producers become more concerned with scale, they give greater consideration to process and costs than the eventual outcome. This is why I find myself conflicted by the popularisation of design systems. Sure, the commoditisation of design has its benefits, but these initiatives tend to be internally facing and to the benefit of larger organisations. That some of the best examples frequently turn up within [the types of organisations I don't care for][25], only fosters my disdain -- as do advocates of design systems making [literal comparisons to McDonald's][26]. Is the rapid manufacture of humdrum products at low cost what the industry now aspires to? Of course it is -- that's capitalism!
 
-Fortunately, some see scale as a means of delivering value for customers rather than internal teams; build [a design system with accessibility at its heart][27], and the products developed with it should be more accessible too. My earlier characterisation of the IndieWeb could be dismissed were its technologies adopted by commercial products and its protocols and standards in effect treated more than plumbing[^1].
+Fortunately, some see scale as a means of delivering value for customers rather than internal teams; build [a design system with accessibility at its heart][27], and the products developed with it should be more accessible too. My earlier characterisation of the IndieWeb could be dismissed were its technologies adopted by commercial products with its protocols and standards in effect treated more like plumbing[^1].
 
 * * *
 
