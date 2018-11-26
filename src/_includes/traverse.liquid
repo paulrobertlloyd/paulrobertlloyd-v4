@@ -1,4 +1,4 @@
-{%- if pagination.pageLinks.size > 1 -%}
+{%- if pagination.links.size > 1 -%}
 <nav class="traverse" aria-label="page">
 {%- if pagination.nextPageLink -%}
   {%- assign nextPageLink = pagination.nextPageLink | permalink | replace: 'page/','?page=' -%}
