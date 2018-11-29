@@ -59,4 +59,4 @@ Producing content for the guide involved transcribing and correcting copy origin
 [1]: https://bradshaws.guide
 [2]: https://github.com/bradshawsguide
 
-*[BEM]: Optical character recognition
+*[OCR]: Optical character recognition

@@ -15,15 +15,15 @@ tags:
 - planning
 - england
 ---
-This year has seen me visit several cities around the UK that had eluded me until now. I'm not entirely sure why; maybe its a need to survey my homeland before Brexit hits. Be it coastal Oban crowned by [a curious tower][1], or the cathedral cities of Norwich, Leicester or Exeter, each place has presented its unique gems. Yet all resolve to a familiar aesthetic. In '[clone town][2]' Britain, chain store signage dominates street level, while labyrinthine shopping malls twist and turn behind the pedestrianised high streets where outlets of Costa and Pret fill the gaps between competing banks and pound stores.
+This year has seen me visit several cities around the UK that had eluded me until now. I'm not entirely sure why; maybe its a need to survey my homeland before Brexit hits. Be it coastal Oban crowned by [a curious tower][1], or the cathedral cities of Norwich, Leicester or Exeter, each has presented its unique gems. Yet all resolve to a familiar aesthetic. In '[clone town][2]' Britain, chain store signage dominates street level, while labyrinthine shopping malls twist and turn behind the pedestrianised high streets where outlets of Costa and Pret fill the gaps between competing banks and pound stores.
 
-Continuing with this trend, earlier this month I decided to visit some cities futther to the north. A trip to Preston would give me an opportunity to catch up with [Simon][3], but also ogle at its Brutalist bus station. Newcastle-upon-Tyne was hosting the [Great Exhibition of the North][4] which seemed vaguely interesting, and I could finish up in Edinburgh to get my regular festival fix. The trip would include brief stops in Chorley and Manchester too, but started in Walsall where I joined friends celebrating what would have been Kris' 37th birthday.
+Continuing with this trend, earlier this month I decided to visit some cities further to the north. A trip to Preston would give me an opportunity to catch up with [Simon][3], but also ogle its Brutalist bus station. Newcastle-upon-Tyne was hosting the [Great Exhibition of the North][4] which seemed vaguely interesting, and I could finish up in Edinburgh to get my regular festival fix. The trip would include brief stops in Chorley and Manchester too, but started in Walsall where I joined friends celebrating what would have been Kris' 37th birthday.
 
 ## Decline
 
-As visits to Walsall become rarer, so changes become more accentuated. On this trip, I found myself in the town centre for the first time in 5 years, and with a pang of sadness, two words came to mind: managed decline. And I'm not sure it's even managed anymore.
+As visits to Walsall become rarer, so its changes become more accentuated. On this trip, I found myself in the town centre for the first time in 5 years, and with a pang of sadness, two words came to mind: managed decline. And I'm not sure it's even managed anymore.
 
-The former BHS store still lay empty, while Marks and Spencer was [preparing for its imminent departure][5]. Inside Old Square -- an eerily vacant arcade trapped in the decade it was built -- Debenhams is [one bad Christmas away from disappearing][6], at which point there will be no reason to visit this part of town. [New Look may not be around much longer][7] either.
+The former BHS store still lay empty, while Marks and Spencer was [preparing for its imminent departure][5]. Inside Old Square -- an eerily vacant arcade trapped within the decade it was built -- Debenhams is [one bad Christmas away from disappearing][6], at which point there will be no reason to visit this part of town. [New Look may not be around much longer][7] either.
 
 Some places seem immune -- the vibrant market remains, as does the Red Lion Pub and Multiprint, housed in its red-brick building on Townend Street. McDonald's retains its prime position on Park Street. Yet all things must pass. I was surprised to see that the Imperial (operated by Wetherspoon, [a company that eschews corporate branding in favour of local identities][8]) has now closed, and not for a refurbishment.
 
@@ -33,7 +33,7 @@ Primark has opened a new store, part of a [broader attempt to redevelop the area
 
 ## Consolidation
 
-My impressions of Walsall are undoubtedly skewed having grown up there, but the scale of its dereliction was exacerbated as I travelled north. Preston shares a similar history of deindustrialisation and is undoubtedly subject to the same pressures yet with fewer empty shops, its centre appeared more resilient. The Victorian Outdoor Market and Market Hall have recently been redeveloped while its beautiful Brutalist bus station -- [enjoying a reprieve from demolition][12] -- will soon be joined to a youth centre.
+My impressions of Walsall are undoubtedly skewed having grown up there, but the scale of its dereliction was exacerbated as I travelled north. Preston shares a similar history of deindustrialisation and is undoubtedly subject to the same pressures, yet with fewer empty shops its centre appeared more resilient. The Victorian Outdoor Market and Market Hall have recently been redeveloped while its beautiful Brutalist bus station -- [enjoying a reprieve from demolition][12] -- will soon be joined to a youth centre.
 
 In Manchester, even more new offices, squares and shopping precincts have arisen since I was there three years ago. The pace of its regeneration is quite remarkable. Be it rebuilding after the [1996 bombing][13], improvements in the run-up to the 2002 Commonwealth Games, or now adapting itself to account for exiles from London, the city always has a good reason to keep moving forward.
 
