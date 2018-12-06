@@ -84,7 +84,7 @@
 
   --anchor-decoration: none;
   grid-area: footer;
-  min-inline-size: 9rem;
+  min-inline-size: 6rem;
 }
 
 .item--inline .item__footer span:first-child {

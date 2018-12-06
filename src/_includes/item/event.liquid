@@ -8,10 +8,7 @@
   </header>
 
   <p class="item__main s-linear | h-card">
-    <a class="p-name" href="{{ venue.url | permalink }}">{{ venue.data.title | markdownify: 'inline' }}</a>,
-    <span class="h-adr">
-      <span class="p-locality">{{ venue.data.address.locality }}</span>
-    </span>
+    <a class="p-name" href="{{ venue.url | permalink }}">{{ venue.data.title | markdownify: 'inline' }}</a>
   </p>
 
   <footer class="item__footer">

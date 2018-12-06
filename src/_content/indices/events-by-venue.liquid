@@ -3,11 +3,11 @@ title: Events
 introduction: Venues
 pagination:
   data: collections.venue
-  size: 48
+  size: 96
 permalink: events/venues/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber }}{% else %}index{% endif %}.html
 ---
 {%- assign venues = pagination.items | sort_by: 'data.title' -%}
 {%- include 'items' with pagination.items
   item_modifier: 'inline'
 -%}
-{%- include 'pagination' label: 'Venues' -%}
+{%- include 'traverse' label: 'Venues' -%}
