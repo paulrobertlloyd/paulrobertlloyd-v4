@@ -1,5 +1,5 @@
 ---
-title: Corn Exchange
+title: Brighton Dome
 address:
   street-address: Church Street
   locality: Brighton
