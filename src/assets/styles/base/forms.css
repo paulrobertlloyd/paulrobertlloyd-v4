@@ -1,6 +1,6 @@
 /*
- * Grouping content
- * ================
+ * Forms
+ * =====
  * https://w3c.github.io/html/sec-forms
  */
 
@@ -43,10 +43,8 @@ button,
 }
 
 /*
- * Remove inner padding and cancel buttons in Chrome and
- * Safari on macOS
+ * Remove inner padding in Chrome and Safari on macOS
  */
-[type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -67,7 +65,7 @@ fieldset {
   padding: 0.01em 0 0; /* 4 */
 }
 
-body:not(:-moz-handler-blocked) & {
+body:not(:-moz-handler-blocked) fieldset {
   display: table-cell; /* 2 */
 }
 
