@@ -7,7 +7,7 @@
 }
 
 .form__field {
-  align-items: start;
+  align-items: stretch;
   display: flex;
   flex-wrap: wrap;
   margin-block-end: var(--space-block-small);
@@ -20,21 +20,25 @@
   padding-block: var(--inset);
 }
 
+/* Input */
 .form__input {
   background-color: var(--color-background);
   border: var(--border-width-thin) solid var(--color-alpha-high);
   flex: 1 0 75%;
   padding: var(--inset);
+  width: 100%;
 }
 
 .form__input:focus {
-  outline: var(--border-width-thick) solid var(--color-focus);
+  border-color: var(--color-accent);
+  outline: var(--border-width-thin) solid var(--color-accent);
 }
 
 textarea.form__input {
   block-size: 12em;
 }
 
+/* Button */
 .form__button {
   background-color: var(--color-neutral-darkest);
   color: var(--color-neutral-lightest);
@@ -44,4 +48,62 @@ textarea.form__input {
 
 .form__button:hover {
   background-color: var(--color-accent);
+}
+
+/* Combobox */
+.form__combobox {
+  position: relative;
+  width: 100%;
+}
+
+/* Listbox */
+.form__listbox {
+  --listbox-shadow: var(--color-alpha-highest);
+  background-color: var(--color-background);
+  border: var(--border-width-thin) solid var(--color-rule);
+  box-shadow: 0 0 4px var(--listbox-shadow);
+  inset-inline: 0;
+  margin-block-start: calc(var(--border-width-thin) * -1);
+  max-block-size: 60vh;
+  overflow-y: scroll;
+  position: absolute;
+  z-index: 1;
+}
+
+@media (prefers-color-scheme: dark) {
+  .form__listbox {
+    --listbox-shadow: black;
+  }
+}
+
+.form__option[aria-selected="true"] {
+  background-color: var(--color-accent);
+  color: white; /* Do not adapt based on theme */
+}
+
+.form__option a {
+  --anchor-decoration: none;
+  align-items: baseline;
+  border-block-end: var(--border-width-thin) solid var(--color-rule);
+  display: flex;
+  padding: var(--inset);
+}
+
+.form__option a:hover {
+  background-color: var(--color-offset);
+}
+
+.form__option-title {
+  @extend %reference;
+  --line-height-reference: 1;
+  flex: 1;
+  font-weight: bold;
+}
+
+.form__option-summary {
+  @extend %caption;
+  --line-height-caption: 1;
+  color: inherit;
+  flex: 0;
+  opacity: 0.75;
 }
