@@ -62,6 +62,10 @@
 
 # Redirect legacy URLs
 [[redirects]]
+  from = "/about/styleguide*"
+  to = "/styleguide"
+
+[[redirects]]
   from = "/articles/dissertation/*"
   to = "/2002/06/dissertation"
 
