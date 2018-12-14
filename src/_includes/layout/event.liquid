@@ -1,5 +1,5 @@
 {%- layout 'layout/default' -%}
-{%- block 'main' %}
+{%- block 'main' -%}
   {%- include 'footer' -%}
   {%- include 'header' -%}
   {%- capture content -%}
@@ -7,4 +7,16 @@
     {{ content }}
   {%- endcapture -%}
   {%- include 'content' -%}
+
+  {%- if series -%}
+    {% for this_series in series %}
+      {%- assign events = collections.event | includes: 'data.series',this_series | reject: 'url',page.url -%}
+      {%- include 'section'
+        section_id: 'related'
+        section_title: 'Other events in this series'
+        items: events
+        item_modifier: 'inline'
+      -%}
+    {% endfor %}
+  {%- endif -%}
 {%- endblock -%}
