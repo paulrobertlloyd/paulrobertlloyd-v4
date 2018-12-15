@@ -17,11 +17,10 @@ export default function () {
     const resultsArray = findResults(input, pages);
     const result = resultsArray.map(item => {
       const html = `
-        <a href="${item.url}">
+        <a class="form__option" href="${item.url}" aria-label="${item.title} (${item.type})">
           <h3 class="form__option-title">${item.title}</h3>
           <p class="form__option-summary">${item.type}</p>
-        </a>
-      `;
+        </a>`;
 
       return {
         value: item.title,
@@ -41,11 +40,10 @@ export default function () {
     searchForm.removeAttribute('method');
     searchSubmit.parentNode.removeChild(searchSubmit);
 
-    window.addEventListener('load', function () {
-      var searchCombobox = new aria.ListboxCombobox(
+    window.addEventListener('load', () => {
+      return new aria.Combobox(
         document.getElementById('search-combobox'),
         document.getElementById('search-input'),
-        document.getElementById('search-listbox'),
         displayResults
       );
     });

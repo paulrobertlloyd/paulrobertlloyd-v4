@@ -1,7 +1,7 @@
 /**
  * @namespace aria
  */
-var aria = aria || {};
+const aria = {};
 
 /**
  * @desc Key code constants
@@ -27,22 +27,21 @@ aria.KeyCode = {
  * @constructor
  *
  * @desc Combobox object representing the state and interactions for a combobox
- * @param comboboxNode The DOM node pointing to the combobox
- * @param input The input node
- * @param listbox The listbox node to load results in
- * @param searchFn The search function. Accepts a search string and returns an
- *  array of results.
+ * @param {Object} comboboxNode The DOM node pointing to the combobox
+ * @param {Object} inputNode The input node
+ * @param {Function} searchFn Accepts a search string and returns an array
  */
-aria.ListboxCombobox = function (
+aria.Combobox = function (
   comboboxNode,
-  input,
-  listbox,
+  inputNode,
   searchFn
 ) {
   this.combobox = comboboxNode;
-  this.input = input;
-  this.listbox = listbox;
+  this.input = inputNode;
+  this.listbox = comboboxNode.querySelector('[role="listbox"]');
+  this.status = comboboxNode.querySelector('[role="status"]');
   this.searchFn = searchFn;
+  this.shouldAutoSelect = false;
   this.activeIndex = -1;
   this.resultsCount = 0;
   this.shown = false;
@@ -53,13 +52,13 @@ aria.ListboxCombobox = function (
 /**
  * @desc Setup events
  */
-aria.ListboxCombobox.prototype.setupEvents = function () {
+aria.Combobox.prototype.setupEvents = function () {
   document.body.addEventListener('click', this.checkHide.bind(this));
   this.input.addEventListener('blur', this.checkHide.bind(this));
   this.input.addEventListener('focus', this.checkShow.bind(this));
   this.input.addEventListener('keyup', this.checkKey.bind(this));
   this.input.addEventListener('keydown', this.setActiveOption.bind(this));
-  this.input.addEventListener('keypress', function (event) {
+  this.input.addEventListener('keypress', event => {
     if (event.keyCode === aria.KeyCode.RETURN) {
       event.preventDefault();
     }
@@ -68,9 +67,9 @@ aria.ListboxCombobox.prototype.setupEvents = function () {
 
 /**
  * @desc Hide listbox on event
- * @param event Event
+ * @param {Object} event Event
  */
-aria.ListboxCombobox.prototype.checkHide = function (event) {
+aria.Combobox.prototype.checkHide = function (event) {
   if (event.target === this.input || this.combobox.contains(event.target)) {
     return;
   }
@@ -79,22 +78,23 @@ aria.ListboxCombobox.prototype.checkHide = function (event) {
 
 /**
  * @desc Show listbox on event
- * @param event Event
  */
-aria.ListboxCombobox.prototype.checkShow = function (event) {
+aria.Combobox.prototype.checkShow = function () {
   this.updateResults();
 };
 
 /**
  * @desc Check key press and override defaults
- * @param event Event
+ * @param {Object} event Event
  */
-aria.ListboxCombobox.prototype.checkKey = function (event) {
-  var key = event.which || event.keyCode;
+aria.Combobox.prototype.checkKey = function (event) {
+  const key = event.which || event.keyCode;
 
   switch (key) {
     case aria.KeyCode.RETURN:
     case aria.KeyCode.ESC:
+    case aria.KeyCode.PAGE_UP:
+    case aria.KeyCode.PAGE_DOWN:
     case aria.KeyCode.END:
     case aria.KeyCode.HOME:
     case aria.KeyCode.UP:
@@ -108,11 +108,11 @@ aria.ListboxCombobox.prototype.checkKey = function (event) {
 
 /**
  * @desc Highlight currently selected option
- * @param event Event
+ * @param {Object} event Event
  */
-aria.ListboxCombobox.prototype.setActiveOption = function (event) {
-  var key = event.which || event.keyCode;
-  var activeIndex = this.activeIndex;
+aria.Combobox.prototype.setActiveOption = function (event) {
+  const key = event.which || event.keyCode;
+  let {activeIndex} = this;
 
   if (key === aria.KeyCode.ESC) {
     this.hideListbox();
@@ -120,30 +120,32 @@ aria.ListboxCombobox.prototype.setActiveOption = function (event) {
     return;
   }
 
-  var prevActive = this.getOptionAt(activeIndex);
-  var activeOption;
+  const prevActive = this.getOptionAt(activeIndex);
+  let activeOption;
 
   switch (key) {
     case aria.KeyCode.UP:
       if (activeIndex === 0) {
-        return
+        // Enable focus to be drawn back up to search input
+        this.defocusOption(prevActive);
+        this.activeIndex = -1;
+        this.input.setAttribute('aria-activedescendant', '');
+        return;
       }
-      else {
-        activeIndex--;
-      }
+      activeIndex--;
       break;
     case aria.KeyCode.DOWN:
       if (activeIndex === this.resultsCount - 1) {
-        return
+        return;
       }
-      else {
-        activeIndex++;
-      }
+      activeIndex++;
       break;
     case aria.KeyCode.HOME:
+    case aria.KeyCode.PAGE_UP:
       activeIndex = 0;
       break;
     case aria.KeyCode.END:
+    case aria.KeyCode.PAGE_DOWN:
       activeIndex = this.resultsCount - 1;
       break;
     case aria.KeyCode.RETURN:
@@ -168,8 +170,7 @@ aria.ListboxCombobox.prototype.setActiveOption = function (event) {
 
   if (activeOption) {
     this.focusOption(activeOption);
-  }
-  else {
+  } else {
     this.input.setAttribute('aria-activedescendant', '');
   }
 };
@@ -177,39 +178,53 @@ aria.ListboxCombobox.prototype.setActiveOption = function (event) {
 /**
  * @desc Update listbox results
  */
-aria.ListboxCombobox.prototype.updateResults = function () {
-  var searchString = this.input.value;
-  var results = this.searchFn(searchString);
+aria.Combobox.prototype.updateResults = function () {
+  const searchString = this.input.value;
+  const results = this.searchFn(searchString);
 
   this.hideListbox();
 
-  if (searchString.length > 0 && results.length) {
-    for (var i = 0; i < results.length; i++) {
-      var resultItem = document.createElement('li');
-      resultItem.className = 'form__option';
-      resultItem.setAttribute('role', 'option');
+  if (searchString.length > 0 && results.length > 0) {
+    for (let i = 0; i < results.length; i++) {
+      const resultItem = document.createElement('li');
       resultItem.setAttribute('id', 'option-' + i);
+      resultItem.setAttribute('role', 'option');
+      resultItem.setAttribute('tabindex', '-1');
       resultItem.dataset.value = results[i].value;
       resultItem.innerHTML = results[i].html;
       this.listbox.appendChild(resultItem);
+      if (this.shouldAutoSelect && i === 0) {
+        resultItem.setAttribute('aria-selected', 'true');
+        this.activeIndex = 0;
+      }
     }
     this.listbox.hidden = false;
     this.combobox.setAttribute('aria-expanded', 'true');
     this.resultsCount = results.length;
     this.shown = true;
+    this.updateStatus(this.resultsCount);
 
     // Override default link behaviour to close listbox prior to location change
     const listboxOptions = this.listbox.querySelectorAll('li');
-    for (var i = 0; i < listboxOptions.length; i++) {
+    for (let i = 0; i < listboxOptions.length; i++) {
       listboxOptions[i].addEventListener('click', this.clickOption.bind(this));
     }
   }
 };
 
 /**
+ * @desc Update status region
+ * @param {Number} resultsCount Number of returned results
+ * @param {Object} activeOption HTML element
+ */
+aria.Combobox.prototype.updateStatus = function (resultsCount) {
+  this.status.innerText = `${resultsCount} results are available.`;
+};
+
+/**
  * @desc Hide listbox
  */
-aria.ListboxCombobox.prototype.hideListbox = function () {
+aria.Combobox.prototype.hideListbox = function () {
   this.shown = false;
   this.activeIndex = -1;
   this.listbox.innerHTML = '';
@@ -221,11 +236,11 @@ aria.ListboxCombobox.prototype.hideListbox = function () {
 
 /**
  * @desc Action to take when listbox option selected
- * @param option Selected option
+ * @param {Object} element HTML element
  */
-aria.ListboxCombobox.prototype.selectOption = function (option) {
-  if (option) {
-    var href = option.querySelector('a').getAttribute('href');
+aria.Combobox.prototype.selectOption = function (element) {
+  if (element) {
+    const href = element.querySelector('a').getAttribute('href');
     document.location.href = href;
     this.hideListbox();
   }
@@ -233,36 +248,51 @@ aria.ListboxCombobox.prototype.selectOption = function (option) {
 
 /**
  * @desc Action to take when listbox option clicked
+ * @param {Object} event Event
  */
-aria.ListboxCombobox.prototype.clickOption = function () {
+aria.Combobox.prototype.clickOption = function (event) {
   this.focusOption(event.currentTarget);
   this.selectOption(event.currentTarget);
   event.preventDefault();
-}
+};
 
 /**
- * @desc Get index value option at index
- * @param index Index
+ * @desc Get option at index
+ * @param {Number} index Index
+ * @returns {Object} element HTML element
  */
-aria.ListboxCombobox.prototype.getOptionAt = function (index) {
+aria.Combobox.prototype.getOptionAt = function (index) {
   return document.getElementById('option-' + index);
 };
 
 /**
- * @desc Focus on the specified item
- * @param element The element to focus
+ * @desc Get index of option
+ * @param {Object} element HTML element
+ * @returns {Number} Index
  */
-aria.ListboxCombobox.prototype.focusOption = function (element) {
+aria.Combobox.prototype.getIndexOf = function (element) {
+  const id = element.id.replace('option-', '');
+  return Number(id) + 1;
+};
+
+/**
+ * @desc Focus on the specified item
+ * @param {Object} element HTML element
+ */
+aria.Combobox.prototype.focusOption = function (element) {
   element.setAttribute('aria-selected', 'true');
   this.input.setAttribute('aria-activedescendant', element.id);
+  // This makes no sense, but without updating the status region (and as
+  // this.resultsCount has not changed, no new status is announced), Safari
+  // will refuse to apply focus to selected option.
+  this.updateStatus(this.resultsCount);
 
   if (this.listbox.scrollHeight > this.listbox.clientHeight) {
-    var scrollBottom = this.listbox.clientHeight + this.listbox.scrollTop;
-    var elementBottom = element.offsetTop + element.offsetHeight;
+    const scrollBottom = this.listbox.clientHeight + this.listbox.scrollTop;
+    const elementBottom = element.offsetTop + element.offsetHeight;
     if (elementBottom > scrollBottom) {
       this.listbox.scrollTop = elementBottom - this.listbox.clientHeight;
-    }
-    else if (element.offsetTop < this.listbox.scrollTop) {
+    } else if (element.offsetTop < this.listbox.scrollTop) {
       this.listbox.scrollTop = element.offsetTop;
     }
   }
@@ -270,9 +300,9 @@ aria.ListboxCombobox.prototype.focusOption = function (element) {
 
 /**
  * @desc Defocus the specified item
- * @param element The element to defocus
+ * @param {Object} element HTML element
  */
-aria.ListboxCombobox.prototype.defocusOption = function (element) {
+aria.Combobox.prototype.defocusOption = function (element) {
   if (!element) {
     return;
   }

@@ -1,13 +1,15 @@
 <form class="form" id="search" role="search" data-search-index="/archive/search.json" action="https://duckduckgo.com" method="get">
   <fieldset class="form__container">
-    <legend class="form__header">
-      <span class="form__title" id="search-label">Search this site</span>
-    </legend>
+    <div class="form__header">
+      <label class="form__title" id="search-label" for="search-input">Search this site</label>
+    </div>
     <div class="form__field">
       <div class="form__combobox" id="search-combobox" role="combobox" aria-expanded="false" aria-owns="search-listbox" aria-haspopup="listbox">
         <input class="form__input" id="search-input" type="search" name="q" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" aria-controls="search-listbox" title="Enter search keywords" placeholder="e.g. Brasilia, Design, Olympics…">
         <input type="hidden" name="sites" value="{{ app.url }}">
         <input type="hidden" name="kl" value="uk-en">
+        <p class="form__status" id="search-status" role="status" aria-live="polite">No search results.</p>
+        </p>
         <ul class="form__listbox" id="search-listbox" role="listbox" aria-labelledby="search-label" hidden></ul>
       </div>
       <button class="form__button" id="search-submit" type="submit">Search with DuckDuckGo</button>
