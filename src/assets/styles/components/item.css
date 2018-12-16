@@ -1,4 +1,5 @@
 .item {
+  --footer-inline-size: 6rem;
   align-items: start;
   display: grid;
   grid-column-gap: var(--space-inline);
@@ -44,9 +45,10 @@
 
 /* Image */
 .item__image {
+  align-self: start;
   grid-area: footer;
   margin-block: calc(var(--space-block-xsmall) * -1) var(--space-block-xsmall);
-  max-inline-size: 9rem;
+  max-inline-size: var(--footer-inline-size);
 }
 
 .item[data-type~="remark"] .item__image {
@@ -84,7 +86,7 @@
 
   --anchor-decoration: none;
   grid-area: footer;
-  min-inline-size: 6rem;
+  min-inline-size: var(--footer-inline-size);
 }
 
 .item--inline .item__footer span:first-child {
