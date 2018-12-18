@@ -36,6 +36,12 @@ body {
   overflow-x: hidden;
 }
 
+@media print {
+  body {
+    background: none;
+  }
+}
+
 :--heading {
   break-after: avoid;
   font-size: inherit;

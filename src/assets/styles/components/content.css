@@ -1,4 +1,6 @@
 [data-type="note"] .content,
 [data-type="photo"] .content {
   --font-size-body: var(--font-size-lede);
+  --flow-space: var(--space-block-small);
+  --section-space: var(--space-block-small);
 }

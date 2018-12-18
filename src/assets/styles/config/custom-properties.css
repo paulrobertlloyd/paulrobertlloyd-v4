@@ -105,6 +105,12 @@
   }
 }
 
+@media print {
+  :root {
+    --line-measure: 50rem;
+  }
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --color-neutral: hsla(228, 8%, 64%, 1);

@@ -21,3 +21,14 @@
     grid-template-columns: repeat(var(--columns), 1fr);
   }
 }
+
+@media print {
+  .screenshots {
+    background: none;
+    padding: 0;
+  }
+
+  .screenshots img {
+    box-shadow: none;
+  }
+}
