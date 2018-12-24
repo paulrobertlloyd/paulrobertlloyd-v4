@@ -20,10 +20,7 @@ pre {
 }
 
 figure,
-blockquote {
-  margin: 0;
-}
-
+blockquote,
 :--flow {
   margin: 0 0 var(--flow-space, 0) 0;
   orphans: 2;
