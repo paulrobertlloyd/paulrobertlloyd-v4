@@ -16,7 +16,7 @@ I was originally planing on doing the Great North Run, a race I've enjoyed many 
 
 Once again I'm collecting sponsorship on-line with Just Giving, so [please visit my sponsorship page][3] and give as much as you can. Thank-you.
 
-[1]: http://lloydyweb.paulrobertlloyd.com/blog/2006/05/great_manchester_run_2006.php
+[1]: http://lloydyweb.paulrobertlloyd.com/blog/2006/05/great_manchester_run_2006
 [2]: http://www.greatrun.org/events/event.aspx?id=12
 [3]: http://www.justgiving.com/paulrobertlloyd-gsr09
 

@@ -85,7 +85,7 @@ Although at this stage the website has a different and more tightly scoped purpo
 [6]: http://www.heatherwick.com/olympic-cauldron/
 [7]: http://www.zaha-hadid.com/architecture/london-aquatics-centre/
 [8]: http://www.beyond2012.org.uk/wayfinding/
-[9]: http://lloydyweb.paulrobertlloyd.com/blog/2007/06/2012_and_all_that.php
+[9]: http://lloydyweb.paulrobertlloyd.com/blog/2007/06/2012_and_all_that
 [10]: http://www.newyorker.com/currency-tag/behind-sochis-futuristic-logo
 [11]: http://www.underconsideration.com/brandnew/archives/holding_hands_in_rio.php
 [12]: http://www.underconsideration.com/brandnew/archives/winter_olympics.php

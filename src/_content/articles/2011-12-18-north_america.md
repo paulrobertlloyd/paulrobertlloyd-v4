@@ -40,7 +40,7 @@ I lack no courage to undertake a journey; I do however lack the courage of my co
 
 [1]: /2010/10/sxsw_greener_is_better
 [2]: /2011/07/the_architecture_of_brasilia
-[3]: http://lloydyweb.paulrobertlloyd.com/blog/2007/07/a_few_days_in_montreal.php
+[3]: http://lloydyweb.paulrobertlloyd.com/blog/2007/07/a_few_days_in_montreal
 [4]: http://aneventapart.com/2011/dc/
 [5]: /2011/12/washington_dc
 [6]: /2011/12/ottawa

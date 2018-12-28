@@ -14,7 +14,7 @@ slides:
     Prior to joining Clearleft I was lead designer at Ning, a start-up based in Palo Alto, California. I worked there during 2006-7, when a lot of the companies we know today were just getting started. Working in the Valley was an amazing -- and at times eye-opening -- experience.
 - image: /images/2013/07/aquent_gumnasium_uk_launch/3.jpg
   notes: |
-    However, [my journey](https://lloydyweb.paulrobertlloyd.com/blog/2006/01/my_journey_so_far.php) began almost ten years ago at Orange Vision, a tiny web design agency based in Lichfield, Staffordshire.
+    However, [my journey](https://lloydyweb.paulrobertlloyd.com/blog/2006/01/my_journey_so_far) began almost ten years ago at Orange Vision, a tiny web design agency based in Lichfield, Staffordshire.
 - image: /images/2013/07/aquent_gumnasium_uk_launch/4.jpg
   notes: |
     I started in the summer of 2004, just as support for web standards was gaining traction. One of the key ideas behind this movement was the separation of presentation from content: developing highly semantic HTML pages styled separately with CSS. <cite>[Designing with Web Standards](https://en.wikipedia.org/wiki/Designing_with_Web_Standards)</cite> by Jeffrey Zeldman was my bible.

@@ -34,6 +34,6 @@ With [exciting developments][3] taking place in the field of web design, it's di
 
 The 2012 games are meant to 'inspire a generation'. Don't expect to find any inspiration here.
 
-[1]: http://lloydyweb.paulrobertlloyd.com/blog/2007/06/2012_and_all_that.php
+[1]: http://lloydyweb.paulrobertlloyd.com/blog/2007/06/2012_and_all_that
 [2]: http://creativereview.co.uk/cr-blog/2009/october/london-2012-pictograms
 [3]: http://alistapart.com/articles/responsive-web-design/

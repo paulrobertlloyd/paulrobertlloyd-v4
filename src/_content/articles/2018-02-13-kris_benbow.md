@@ -59,6 +59,6 @@ Fuck it, let's go to Australia!
 [9]: https://www.flickr.com/photos/paulrobertlloyd/albums/72157622265918195
 [10]: https://roobottom.com/articles/2/
 [11]: https://www.flickr.com/photos/paulrobertlloyd/albums/72157622707836534
-[12]: https://lloydyweb.paulrobertlloyd.com/blog/2004/08/special_opps.php
+[12]: https://lloydyweb.paulrobertlloyd.com/blog/2004/08/special_opps
 [13]: /2010/10/enough_a_counter_argument
 [14]: /2017/01/heres_to_the_doctor

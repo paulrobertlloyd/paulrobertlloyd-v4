@@ -31,7 +31,7 @@ So be sure to join us next Saturday, the 17th of October. As usual, the event ki
 [3]: http://developer.yahoo.net/hackday/
 [4]: http://forabeautifulweb.com/
 [5]: http://roobottom.com/
-[6]: http://lloydyweb.paulrobertlloyd.com/blog/2005/06/reflecting_on_media_2005.php
+[6]: http://lloydyweb.paulrobertlloyd.com/blog/2005/06/reflecting_on_media_2005
 [7]: http://simonjobling.com/
 [8]: http://multipack.co.uk/
 [9]: http://www.space-scape.com/
