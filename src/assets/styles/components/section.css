@@ -33,6 +33,7 @@
     inline-size: 100vw;
     margin-block-start: calc(var(--space-block-small) * -1);
     margin-inline-start: calc(var(--grid-column-gap) * -1);
+    -webkit-overflow-scrolling: touch;
     overflow-x: scroll;
     padding: var(--space-block-small) var(--grid-column-gap);
   }
