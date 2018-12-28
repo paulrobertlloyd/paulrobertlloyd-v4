@@ -23,7 +23,7 @@
   padding-block-start: var(--space-block-xsmall);
 }
 
-@media (--from-medium-viewport) {
+@media (--from-small-viewport) {
   .item--inline {
     grid-template:
       "footer  header  image" auto
@@ -35,7 +35,6 @@
 /* Header */
 .item__header {
   grid-area: header;
-
   margin-block-end: var(--space-block-xsmall);
 }
 

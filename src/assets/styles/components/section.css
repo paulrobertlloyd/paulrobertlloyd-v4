@@ -25,3 +25,34 @@
 .section__title {
   @extend %overline;
 }
+
+@media (--upto-medium-viewport) {
+  .section__main--scrollable [style^="--grid-size"] {
+    --grid-row-gap: 0;
+    display: flex;
+    inline-size: 100vw;
+    margin-block-start: calc(var(--space-block-small) * -1);
+    margin-inline-start: calc(var(--grid-column-gap) * -1);
+    overflow-x: scroll;
+    padding: var(--space-block-small) var(--grid-column-gap);
+  }
+
+  .section__main--scrollable [style^="--grid-size"]::after {
+    content: "";
+    display: block;
+    flex: 1 0 1px; /* Force end padding */
+  }
+
+  .section__main--scrollable .card {
+    flex: 1 0 75vw;
+    margin-inline-end: var(--grid-column-gap);
+  }
+}
+
+@media (--from-medium-viewport) {
+  .section__main--scrollable {
+    display: grid;
+    grid-gap: var(--grid-column-gap);
+    grid-template-columns: repeat(auto-fit, minmax(var(--grid-size), 1fr));
+  }
+}

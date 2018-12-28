@@ -39,6 +39,12 @@
   writing-mode: vertical-rl;
 }
 
+@media (--from-medium-viewport) {
+  .main__title {
+    position: sticky;
+  }
+}
+
 .main__introduction {
   @extend %lede;
 

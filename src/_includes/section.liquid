@@ -4,9 +4,13 @@
       <h2 class="section__title" id="{{ section_id }}">{{ section_title }}</h2>
     </header>
 
+    <div class="section__main{% if section_scrollable %} section__main--scrollable{% endif %}">
     {%- if section_content -%}
       {{ section_content | markdownify }}
     {%- endif -%}
-    {%- include 'items' with items -%}
+    {%- if items -%}
+      {%- include 'items' with items -%}
+    {%- endif -%}
+    </div>
   </div>
 </section>

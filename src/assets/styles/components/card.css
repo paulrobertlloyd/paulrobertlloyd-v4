@@ -29,8 +29,13 @@
   box-shadow:
     0 0 0 1px var(--color-rule),
     0 0 4vw var(--card-shadow);
-  margin: calc(var(--card-growth) * -1);
-  padding: var(--card-growth);
+}
+
+@media (--from-medium-viewport) {
+  .card:hover {
+    margin: calc(var(--card-growth) * -1);
+    padding: var(--card-growth);
+  }
 }
 
 .card__image {
