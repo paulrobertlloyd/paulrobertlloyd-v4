@@ -15,17 +15,17 @@ A few months ago [I wrote about not upgrading to the iPhone 4][1], regardless of
 
 This turned out to be something of a radical position yet I enjoyed the discussions with some of my friends that followed. [Kris][2] emailed me a number of well-considered counter points, so I promised to publish them here.
 
-Kris's points were as follows:
+Kris' points were as follows:
 
-  * The ratio of energy consumed in producing one new handset is comparable with the energy wasted charging an inefficient battery every day for the next 12 months.
+* The ratio of energy consumed in producing one new handset is comparable with the energy wasted charging an inefficient battery every day for the next 12 months.
 
-  * There are economic benefits to be had from investing in new technology. Jobs are created for the people producing newer devices and the components found within them, most of which are manufactured in poorly developed countries who I'd be supporting by upgrading.
+* There are economic benefits to be had from investing in new technology. Jobs are created for the people producing newer devices and the components found within them, most of which are manufactured in poorly developed countries who I'd be supporting by upgrading.
 
-  * Investment in new technology encourages innovation, innovation increases efficiency, increased efficiency reduces wastage -- consider the business contracts once emergency couriered that are now emailed instead. Technological advancement is good, but it needs people to invest in new technology to keep competitive innovation going.
+* Investment in new technology encourages innovation, innovation increases efficiency, increased efficiency reduces wastage -- consider the business contracts once emergency couriered that are now emailed instead. Technological advancement is good, but it needs people to invest in new technology to keep competitive innovation going.
 
-  * Whilst my current device still works so I would be aggrieved to throw it away, there are plenty of options available to ensure it doesn't become needless waste. I could submit my handset to a mobile phone recycling website where it would be reconditioned and placed back into circulation. I could get in excess of £70 for my old handset through [Envirophone][3] -- perhaps I could donate those proceeds to charity?
+* Whilst my current device still works so I would be aggrieved to throw it away, there are plenty of options available to ensure it doesn't become needless waste. I could submit my handset to a mobile phone recycling website where it would be reconditioned and placed back into circulation. I could get in excess of £70 for my old handset through [Envirophone][3] -- perhaps I could donate those proceeds to charity?
 
-  * The person who ends up buying my current handset is likely to be someone who simply can't afford to purchase a new iPhone, thus making technology available to someone less fortunate than myself.
+* The person who ends up buying my current handset is likely to be someone who simply can't afford to purchase a new iPhone, thus making technology available to someone less fortunate than myself.
 
 These are reasonable points, but I'd suggest they are no less valid if I delayed my upgrade by another year.
 

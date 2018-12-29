@@ -18,15 +18,15 @@ An update in February [improved the responsive layout][2] and saw some initial p
 
 Uncomfortable with having 30kB of jQuery as a dependancy, JavaScript was my first target for weight loss. In reviewing the jQuery functions I was using, I realised many were unnecessary:
 
-  * The [Awesomersands][3] function that allowed me to style ampersands was actually replacing the original glyph with a much uglier version. It also produced a distracting 'flash of unstyled ampersand'.
+* The [Awesomersands][3] function that allowed me to style ampersands was actually replacing the original glyph with a much uglier version. It also produced a distracting 'flash of unstyled ampersand'.
 
-  * A function that added thin spaces around emdashes could instead be incorporated into my Movable Type templates. In making this change, I decided to now use spaced endashes instead.
+* A function that added thin spaces around emdashes could instead be incorporated into my Movable Type templates. In making this change, I decided to now use spaced endashes instead.
 
-  * The HTML5 `history.pushState` function used on journal entry pages was fragile at best, so became a candidate for removal.
+* The HTML5 `history.pushState` function used on journal entry pages was fragile at best, so became a candidate for removal.
 
-  * A function that wrapped a `<div>` around video embeds to give them a fluid width was unnecessary when I could add this manually.
+* A function that wrapped a `<div>` around video embeds to give them a fluid width was unnecessary when I could add this manually.
 
-  * Using [MapBox][4] embeds in place of [Leaflets JS][5] meant I could simplify adding interactive maps to pages. Well, almost. To display paths requires an additional layer to be created in [TileMill][6] -- hopefully the ability to add vector lines in MapBox isn't too far off.
+* Using [MapBox][4] embeds in place of [Leaflets JS][5] meant I could simplify adding interactive maps to pages. Well, almost. To display paths requires an additional layer to be created in [TileMill][6] -- hopefully the ability to add vector lines in MapBox isn't too far off.
 
 With this code removed, the only behavioural enhancement required was for the responsive navigation. I'd like to thank [Anthony Williams][7] for helping me rewrite this using pure JavaScript. However, I'm still calling jQuery on pages displaying slideshows, so actively looking for an alternative that will allow me to shed this dependancy entirely.
 

@@ -43,10 +43,10 @@ Grid builds further on this less assumptive approach. It allows us to query the 
 
 As a way of demonstration, let's return to one of the components Ethan described, <cite>The Toast</cite>’s recirculation module:
 
->   1. By default, the list of links appears as a single column layout on small screens.
->   2. As the screen gets wider, it moves to a two-column layout.
->   3. We hit a three-column layout at the middle range.
->   4. But then, once we reach the widescreen layout, the list moves into the right-hand sidebar. Once that happens, the list reverts to a two-column layout.
+> 1. By default, the list of links appears as a single column layout on small screens.
+> 2. As the screen gets wider, it moves to a two-column layout.
+> 3. We hit a three-column layout at the middle range.
+> 4. But then, once we reach the widescreen layout, the list moves into the right-hand sidebar. Once that happens, the list reverts to a two-column layout.
 
 With Flexbox, we can build components such that their layout will adapt to the available space. Using Grid, we can name areas of a grid container, and then assign components to those areas:
 
@@ -56,17 +56,17 @@ With Flexbox, we can build components such that their layout will adapt to the a
 
 There's a lot going on in this example, so here are the key parts:
 
-  * I've set the `.ranked-list` container to use Flexbox for its internal layout (`display: flex`), and have instructed it to wrap any child flex items (`flex-wrap: wrap`).
+* I've set the `.ranked-list` container to use Flexbox for its internal layout (`display: flex`), and have instructed it to wrap any child flex items (`flex-wrap: wrap`).
 
-  * I've then set each flex item (`.ranked-list > li`) to grow and shrink with a basis of 33% (`flex: 1 1 33%`). This basically says to the browser, each item should take up 33% of the containers width, but if that's not possible, grow wider (or narrower) to fill the remaining space once you’ve redistributed the items how you see fit.
+* I've then set each flex item (`.ranked-list > li`) to grow and shrink with a basis of 33% (`flex: 1 1 33%`). This basically says to the browser, each item should take up 33% of the containers width, but if that's not possible, grow wider (or narrower) to fill the remaining space once you’ve redistributed the items how you see fit.
 
-  * Within each `li`, lies a `.summary` item. I've given this a `min-width` (in this case the width of the image plus some padding) which will be factored into the above calculation.
+* Within each `li`, lies a `.summary` item. I've given this a `min-width` (in this case the width of the image plus some padding) which will be factored into the above calculation.
 
 The layout of this component is therefore entirely dependent on how much space it has available to it. That addresses points 1-3. But how can we use CSS to move this component to another part of the layout when the viewport is much wider? Enter [Grid Areas][17]:
 
-  * First, I set `.container` to use Grid for its internal layout (`display: grid`), and created two named grid areas, `content` and `sidebar`, and placed one above the other. For wider viewports, within a media query[^1] I place these areas next to each other instead.
+* First, I set `.container` to use Grid for its internal layout (`display: grid`), and created two named grid areas, `content` and `sidebar`, and placed one above the other. For wider viewports, within a media query[^1] I place these areas next to each other instead.
 
-  * I then assigned `.content` to the `content` grid area, and `.sidebar` to the `sidebar` grid area. Done! I can change the position of those gird areas later, and the components assigned to them will relocate accordingly.
+* I then assigned `.content` to the `content` grid area, and `.sidebar` to the `sidebar` grid area. Done! I can change the position of those gird areas later, and the components assigned to them will relocate accordingly.
 
 [Grid is all about the container][18], yet the containers we're manipulating aren't defined by any markup; they exist solely within our CSS. It's a very different approach to anything that has come before, and has [the potential to become even more powerful][19] as future revisions to the specification are developed.
 
@@ -90,9 +90,9 @@ This particular project was implemented using React, so we chose to render the n
 
 So to recap, here are three reasons why I'm not sold on the need for container queries:
 
-  1. While no longer canvas-in, they still provide an inwards approach when we should be designing from the content out.
-  2. New CSS layout primitives give us tremendous power to make component-level layout adjustments already. We should build on existing specifications and concepts rather than define new ones.
-  3. Often, when components are resized, they need to change their behaviour as well as their presentation; container queries would not help us in that respect, so perhaps other tools are better suited to this job.
+1. While no longer canvas-in, they still provide an inwards approach when we should be designing from the content out.
+2. New CSS layout primitives give us tremendous power to make component-level layout adjustments already. We should build on existing specifications and concepts rather than define new ones.
+3. Often, when components are resized, they need to change their behaviour as well as their presentation; container queries would not help us in that respect, so perhaps other tools are better suited to this job.
 
 This may be a minority opinion, and it's one I'm happy to be challenged on. After all, [wiser][21] [minds][22] [have][23] [advocated][24] for container queries. This is not the first time I have [found myself at odds with perceived wisdom][25]; maybe I'm missing a use case for which they would provide the most suitable solution.
 

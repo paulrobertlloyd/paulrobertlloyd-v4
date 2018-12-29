@@ -21,15 +21,15 @@ It had its shortcomings, of course. Two people couldn't edit a document at the s
 
 Before we explore the alternatives, let's examine what makes for a good Web-based collaborative writing tool.
 
-  * **Distraction-free**. Writing can be a difficult task, with writers prone to bouts of extended procrastination. In the space of writing this article I've cleaned my flat, washed the dishes and ironed clothes I don't even wear! That is to say, the fewer distractions a writing tool can offer, the better.
+* **Distraction-free**. Writing can be a difficult task, with writers prone to bouts of extended procrastination. In the space of writing this article I've cleaned my flat, washed the dishes and ironed clothes I don't even wear! That is to say, the fewer distractions a writing tool can offer, the better.
 
-  * **Markdown support**. Markdown is popular with writers precisely because it requires little interaction with a UI, allowing them to focus on their words instead. Any Markdown editor should therefore provide keyboard shortcuts (bold, italic, heading levels, and so on), with the resulting text appropriately rendered; if you've wrapped a word in single asterisks to denote emphasis, you'd expect it to be appear italicized. Text also needs to be easy to read. Font face, type size, leading, and measure should be chosen with care.
+* **Markdown support**. Markdown is popular with writers precisely because it requires little interaction with a UI, allowing them to focus on their words instead. Any Markdown editor should therefore provide keyboard shortcuts (bold, italic, heading levels, and so on), with the resulting text appropriately rendered; if you've wrapped a word in single asterisks to denote emphasis, you'd expect it to be appear italicized. Text also needs to be easy to read. Font face, type size, leading, and measure should be chosen with care.
 
-  * **Annotation and discussion**. Writing is just half the story, and a true collaborative writing tool should aid the activities that follow: sharing, editing, discussion, and review. Editors, co-authors and other collaborators should be able to highlight or replace passages of text, and annotate these changes if required. When working with multiple contributors, everyone's remarks should be easy to differentiate. Somewhere to hold a general discussion about the document is useful, too.
+* **Annotation and discussion**. Writing is just half the story, and a true collaborative writing tool should aid the activities that follow: sharing, editing, discussion, and review. Editors, co-authors and other collaborators should be able to highlight or replace passages of text, and annotate these changes if required. When working with multiple contributors, everyone's remarks should be easy to differentiate. Somewhere to hold a general discussion about the document is useful, too.
 
-  * **Document handling**. A document can go through several revisions, so versioning is important to ensure earlier thoughts can be reinstated or referred back to later. Writers and editors can be working on many documents at a time, so having a means of organizing files and indicating their status (draft, review, final, and so on) is essential.
+* **Document handling**. A document can go through several revisions, so versioning is important to ensure earlier thoughts can be reinstated or referred back to later. Writers and editors can be working on many documents at a time, so having a means of organizing files and indicating their status (draft, review, final, and so on) is essential.
 
-  * **Import and export**. Finally, any tool should fit in with various production workflows. That means lots of import options (email, Dropbox, upload, sanitized copy-and-paste from Word) and plenty of export options (plain text, PDF, HTML, and the rest).
+* **Import and export**. Finally, any tool should fit in with various production workflows. That means lots of import options (email, Dropbox, upload, sanitized copy-and-paste from Word) and plenty of export options (plain text, PDF, HTML, and the rest).
 
 ## The Contenders
 

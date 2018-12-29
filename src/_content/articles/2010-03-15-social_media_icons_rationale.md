@@ -22,24 +22,24 @@ This desire perhaps gives an insight into the thinking behind these icons. Durin
 
 ## Design principles
 
-1.  **Consistently Styled, Not Overly Designed**
-    As stated when I launched these icons, this icon set was largely inspired by Rogie King's [Social Network Icon Pack][3]. Although his is an absolutely beautifully crafted set, at the same time I felt it exuded to much of its own style. I wanted something a little more generic, yet with an overall consistency not available when simply using the favicons created by the different social media services. I still feel I have some way to go on creating an overall consistency however.
+1. **Consistently Styled, Not Overly Designed**
+   As stated when I launched these icons, this icon set was largely inspired by Rogie King's [Social Network Icon Pack][3]. Although his is an absolutely beautifully crafted set, at the same time I felt it exuded to much of its own style. I wanted something a little more generic, yet with an overall consistency not available when simply using the favicons created by the different social media services. I still feel I have some way to go on creating an overall consistency however.
 
-2.  **Icons for People, Not Companies**
-    Keeping in mind a desire to keep the number of icons to a minimum, I'm only creating icons for which there can be an associated URL, be that to a social profile or social action (such as sharing). For example, this update adds an icon for xBox Live Gamer Cards, but not PlayStation or Wii as these products have no online presence.
+2. **Icons for People, Not Companies**
+   Keeping in mind a desire to keep the number of icons to a minimum, I'm only creating icons for which there can be an associated URL, be that to a social profile or social action (such as sharing). For example, this update adds an icon for xBox Live Gamer Cards, but not PlayStation or Wii as these products have no online presence.
 
-    I often get asked for icons for different blogging platforms (Blogger, WordPress, Movable Type etc.) yet I would suggest the 'website' icon is equally, if perhaps not more suitable for this purpose. Providing icons for every blogging platform or CMS is neither desirable nor necessary.
+   I often get asked for icons for different blogging platforms (Blogger, WordPress, Movable Type etc.) yet I would suggest the 'website' icon is equally, if perhaps not more suitable for this purpose. Providing icons for every blogging platform or CMS is neither desirable nor necessary.
 
-3.  **Cater for the 80%**
-    Social media start-ups come and go, and I only wish to create icons for services that have an ounce of longevity. So whilst your favourite social media commentator (or '[douchebag][4]' for short) may rave about services like [FriendFeed][5], I only plan to create icons for services that have shown themselves to be successful outside the Silicon Valley echo chamber. Indeed, not creating an icon for FriendFeed has proven to be correct given its acquisition by Facebook and uncertain future.
+3. **Cater for the 80%**
+   Social media start-ups come and go, and I only wish to create icons for services that have an ounce of longevity. So whilst your favourite social media commentator (or '[douchebag][4]' for short) may rave about services like [FriendFeed][5], I only plan to create icons for services that have shown themselves to be successful outside the Silicon Valley echo chamber. Indeed, not creating an icon for FriendFeed has proven to be correct given its acquisition by Facebook and uncertain future.
 
-    There have been a number of requests for social media services that are popular in Europe and Asia. I'm currently debating whether to add these services to the set.
+   There have been a number of requests for social media services that are popular in Europe and Asia. I'm currently debating whether to add these services to the set.
 
-4.  **Provide Alternatives**
-    Not a fan of the [monopolies][6] that have started to appear within the social web, you will note that where possible, I've provided icons for competing services. So for example this update sees an icon for Foursquare even though I'm personally a fan of Gowalla. The same is true for LinkedIn (I've added an icon for XING), Ember (Zootool), Twitter (Identica) and many others.
+4. **Provide Alternatives**
+   Not a fan of the [monopolies][6] that have started to appear within the social web, you will note that where possible, I've provided icons for competing services. So for example this update sees an icon for Foursquare even though I'm personally a fan of Gowalla. The same is true for LinkedIn (I've added an icon for XING), Ember (Zootool), Twitter (Identica) and many others.
 
-5.  **Reflect Established Brand Assets**
-    Where possible, I've tried to reflect the design of each icon based on a services own favicon, but I also look at the avatars for these services on Twitter, as well as perform web searches to see if common representations have emerged. This is true for all icons except YouTube -- the favicon is an abomination, and I happily defend my decision not to use it in this set.
+5. **Reflect Established Brand Assets**
+   Where possible, I've tried to reflect the design of each icon based on a services own favicon, but I also look at the avatars for these services on Twitter, as well as perform web searches to see if common representations have emerged. This is true for all icons except YouTube -- the favicon is an abomination, and I happily defend my decision not to use it in this set.
 
 However, don't let these principles dissuade you from nominating additions -- indeed a number of icons have been added due to such requests. Yet before you do, ask yourself whether an icon would satisfy the above requirements first.
 

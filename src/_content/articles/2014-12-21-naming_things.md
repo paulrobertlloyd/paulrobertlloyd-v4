@@ -71,9 +71,9 @@ Over the last year, I've favoured [a BEM-inspired approach to CSS][7]. BEM stand
 
 I know that:
 
-  * `.sleigh` is a containing _block_ or component.
-  * `.sleigh__reindeer` is used only as a descendent _element_ of `.sleigh`.
-  * `.sleigh__reindeer––famous` is used only as a _modifier_ of `.sleigh__reindeer`.
+* `.sleigh` is a containing _block_ or component.
+* `.sleigh__reindeer` is used only as a descendent _element_ of `.sleigh`.
+* `.sleigh__reindeer––famous` is used only as a _modifier_ of `.sleigh__reindeer`.
 
 With this naming scheme in place, I know which styles relate to a particular component, and which are shared. Beyond reducing specificity-related head-scratching, this approach has given me a framework within which I can consistently label items, and has sped up my workflow considerably.
 
@@ -87,17 +87,17 @@ Regardless of higher-level conventions, there's no getting away from the fact th
 
 The most important aspect is for a name to be understandable. Words used in your project may come from a variety of sources: some may be widely understood, and others only be recognised by people working within a particular environment.
 
-  * **Culture**
-    Most words you'll choose will have common currency outside the world of web development, although they may have a particular interpretation among developers (think _menu_, _list_, _input_). However, words may have a narrower cultural significance; for example, in Germany and other German-speaking countries, _impressum_ is the term used for legally mandated statements of ownership.
+* **Culture**
+  Most words you'll choose will have common currency outside the world of web development, although they may have a particular interpretation among developers (think _menu_, _list_, _input_). However, words may have a narrower cultural significance; for example, in Germany and other German-speaking countries, _impressum_ is the term used for legally mandated statements of ownership.
 
-  * **Industry**
-    Industries often use specific terms to describe common business practices and concepts. Publishing has [a number of these][9] (_headline_, _standfirst_, _masthead_, _colophon_...) all have well understood meanings -- and not all of them are relevant to online usage.
+* **Industry**
+  Industries often use specific terms to describe common business practices and concepts. Publishing has [a number of these][9] (_headline_, _standfirst_, _masthead_, _colophon_...) all have well understood meanings -- and not all of them are relevant to online usage.
 
-  * **Organisation**
-    Companies may have internal names (or nicknames) for their products and services. <cite>The Guardian</cite> is rife with such names: [_bisons_][10]: (and _buffalos_), _pixies_ (and _super-pixies_), _bentos_ (and _mini-bentos_)... all of which mean something very different outside the organisation. Although such names can be useful inside smaller teams, in larger organisations they can become a barrier to entry, a sort of secret code used among employees who have been around long enough to know what they mean.
+* **Organisation**
+  Companies may have internal names (or nicknames) for their products and services. <cite>The Guardian</cite> is rife with such names: [_bisons_][10]: (and _buffalos_), _pixies_ (and _super-pixies_), _bentos_ (and _mini-bentos_)... all of which mean something very different outside the organisation. Although such names can be useful inside smaller teams, in larger organisations they can become a barrier to entry, a sort of secret code used among employees who have been around long enough to know what they mean.
 
-  * **Product**
-    Your team will undoubtedly have created names for specific features or interface components used in your product. For example, at Clearleft we coined the term _gravigation_ for a navigation bar that was pinned to the bottom of the viewport. Elements of a visual design language may have names, too. Transport for London's bar and circle logo is known internally as the [_roundel_][11], while Nike's logo is called the [_swoosh_][12]. Branding agencies often christen colours within a brand palette, too, either to evoke aspects of the identity or to indicate intended usage.
+* **Product**
+  Your team will undoubtedly have created names for specific features or interface components used in your product. For example, at Clearleft we coined the term _gravigation_ for a navigation bar that was pinned to the bottom of the viewport. Elements of a visual design language may have names, too. Transport for London's bar and circle logo is known internally as the [_roundel_][11], while Nike's logo is called the [_swoosh_][12]. Branding agencies often christen colours within a brand palette, too, either to evoke aspects of the identity or to indicate intended usage.
 
 Once you recognise the origin of the words you use, you'll be better able to judge their appropriateness. Using Latin words for class names may satisfy a need to use semantic-sounding terms but, unless you work in a company whose employees have a basic grasp of Latin, a degree of translation will be required. Military ranks might be a clever way of declaring sizes without implying actual values, but I'd venture most people outside the armed forces don't know how they're ordered.
 
@@ -123,15 +123,15 @@ Your project will feature a mix of style rules. Some will perform utility functi
 
 It's also worth remembering that you can use multiple classes on an element, so combining both generic and specific can give you a powerful modular design system:
 
-  * Generic: `list`
-  * Specific: `naughty-children`
-  * Combined: `naughty-children list`
+* Generic: `list`
+* Specific: `naughty-children`
+* Combined: `naughty-children list`
 
 If following the BEM methodology, you might use the following classes:
 
-  * Generic: `list`
-  * Specific: `list––nice-children`
-  * Combined: `list list––nice-children`
+* Generic: `list`
+* Specific: `list--nice-children`
+* Combined: `list list--nice-children`
 
 ### Extensible
 
@@ -139,11 +139,11 @@ Good naming schemes can be extended. One way of achieving this is to use namespa
 
 Microformats are a good example of a well-designed naming scheme, with many of its vocabularies taking property names from existing and related specifications (e.g. hCard is a 1:1 representation of vCard). [Microformats 2][16] goes one step further by grouping properties under several namespaces:
 
-  * `h-*` for root class names (e.g. `h-card`)
-  * `p-*` for simple (text) properties (e.g. `p-name`)
-  * `u-*` for URL properties (e.g. `u-photo`)
-  * `dt-*` for date/time properties (e.g. `dt-bday`)
-  * `e-*` for embedded markup properties (e.g. `e-note`)
+* `h-*` for root class names (e.g. `h-card`)
+* `p-*` for simple (text) properties (e.g. `p-name`)
+* `u-*` for URL properties (e.g. `u-photo`)
+* `dt-*` for date/time properties (e.g. `dt-bday`)
+* `e-*` for embedded markup properties (e.g. `e-note`)
 
 The inclusion of namespaces is a massive improvement over the earlier specification, but the downside is that microformats now occupy five separate namespaces. This might be problematic if you are using `u-*` for your utility classes. While nothing will break, your naming system won't be as robust, so plan accordingly.
 

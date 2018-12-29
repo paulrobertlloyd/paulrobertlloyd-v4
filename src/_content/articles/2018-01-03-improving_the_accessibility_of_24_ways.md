@@ -28,6 +28,7 @@ In the intervening years, as tools have improved and best practices have matured
 %}
 
 ## A focus on accessibility
+
 This year I've been listening to people like Laura Kalbag talk about [accessibility in terms of universal design][4], and followed blogs like Heydon Pickering's [Inclusive Components][5], which covers how to design and implement common interaction patterns with an inclusive mindset. All of a sudden, the thorny subject of accessibility has felt more approachable and less dogmatic.
 
 With all this knowledge digested, I was keen to see how 24 ways would fare when put under the microscope. In this article, I will cover five areas where I was able to make improvements:
@@ -88,6 +89,7 @@ A downside to this approach is that the navigation can be heard every time you v
 This structure may be less ideologically pure, but it's far more pragmatic. This became a recuring theme. Indeed, having given up any hope of the HTML5 outline algorithm ever being supported by browsers, I stopped using `h1` for section headings, and followed the recommendation that [heading ranks should be used to convey document structure][9] instead.
 
 ## Improving keyboard navigation
+
 As the most interactive component on the site, the menu was the unsurprising focus of my review. The design dictates that the navigation drawer should behave like a dialog, an interface pattern that brings with it a number of assumptions. These are [described in detail in eBay's MIND pattern][10], but essentially a dialog draws focus away from other elements on the page, and is modal; only elements within it can be operated while it is open.
 
 I had previously cobbled together various bits of JavaScript to handle focusing (cobbling which at various points produced the odd bug such as failing to draw focus to the first element in the dialog), but had neglected to indicate the menu's role. Having fixed these issues (adding `role="dialog"` when the menu is open), Francis pointed out that screen readers could still access links outside the dialog when it was open. In macOS VoiceOver for example, pressing <kbd>CTRL</kbd> + <kbd>OPT</kbd> + <kbd>CMD</kbd> + <kbd>L</kbd> to navigate links within the menu, would in fact announce every link on the page.

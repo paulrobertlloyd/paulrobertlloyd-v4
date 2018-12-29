@@ -28,15 +28,15 @@ When I started planning this trip, I fully expected to spend the duration of it 
   alignment: 'bleed'
 %}
 
-  * **17 December:** Depart London Heathrow
-  * **19-20 December:** Auckland, New Zealand
-  * **21 December:** Wellington, New Zealand
-  * **22 December:** Picton, New Zealand
-  * **23-26 December:** Nelson, New Zealand
-  * **27-29 December:** Wellington, New Zealand
-  * **30 December 30-2 January:** Sydney, Australia
-  * **3-6 January:** Melbourne, Australia
-  * **7 January:** Arrive London Heathrow
+* **17 December:** Depart London Heathrow
+* **19-20 December:** Auckland, New Zealand
+* **21 December:** Wellington, New Zealand
+* **22 December:** Picton, New Zealand
+* **23-26 December:** Nelson, New Zealand
+* **27-29 December:** Wellington, New Zealand
+* **30 December 30-2 January:** Sydney, Australia
+* **3-6 January:** Melbourne, Australia
+* **7 January:** Arrive London Heathrow
 
 I found it really hard deciding where I should visit whilst in New Zealand. At times I had several towns strung together before I remembered that a holiday should be spent relaxing, not chasing after coaches every other morning! Sadly, I won't see much of what the North Island has to over, but hopefully taking the Tranz Scenic [Overlander][2] rail route between Auckland and Wellington will make up for this.
 

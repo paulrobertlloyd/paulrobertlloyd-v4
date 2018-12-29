@@ -12,11 +12,11 @@ tags:
 ---
 Adobe recently announced a new suite a products and services for web developers, called [Adobe Edge][1]. It includes the following components:
 
-  * [Adobe Edge Animate][2] for building interactive and animated web content.
-  * [Adobe Edge Reflow][3] for working on responsive web design layouts.
-  * [Adobe Edge Code][4], a markup, CSS and JavaScript editor, built on open source project Brackets.
-  * [Adobe Edge Inspect][5], the inspection and mobile dev tool previously known as Adobe Shadow.
-  * [Adobe Edge Web Fonts][6], a selection of free web fonts that integrate with other Edge tools.
+* [Adobe Edge Animate][2] for building interactive and animated web content.
+* [Adobe Edge Reflow][3] for working on responsive web design layouts.
+* [Adobe Edge Code][4], a markup, CSS and JavaScript editor, built on open source project Brackets.
+* [Adobe Edge Inspect][5], the inspection and mobile dev tool previously known as Adobe Shadow.
+* [Adobe Edge Web Fonts][6], a selection of free web fonts that integrate with other Edge tools.
 
 Recent acquisitions [Typekit][7] and [PhoneGap][8] are also brought under the Edge banner.
 

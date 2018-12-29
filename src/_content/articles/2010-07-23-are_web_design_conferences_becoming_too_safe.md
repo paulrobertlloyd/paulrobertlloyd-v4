@@ -34,15 +34,15 @@ It would also be nice to see some fresh blood appear at these events too, althou
 
 There are a few conferences that do seem to be aiming for varied, more experiemental lineups though:
 
-  * **[Build Conference][9]:** Last years speakers included Ryan Sims and Wilson Miner, whilst this year sees Belfast welcome Frank Chimero, Tim Brown and Keegan Jones; people I've not seen appear at other conferences. The creation of a conference 'fringe', with workshops, lectures and even a pub quiz planned to coincide with the main event is also an excellent means of getting the local web community involved too.
+* **[Build Conference][9]:** Last years speakers included Ryan Sims and Wilson Miner, whilst this year sees Belfast welcome Frank Chimero, Tim Brown and Keegan Jones; people I've not seen appear at other conferences. The creation of a conference 'fringe', with workshops, lectures and even a pub quiz planned to coincide with the main event is also an excellent means of getting the local web community involved too.
 
-  * **[dConstruct][10]:** (Excusing the obvious bias) I've not seen David McCandless, Samantha Warren, James Bridle or Marty Neumeier speak at many other conferences, whilst I believe John Gruber and Merlin Mann will be speaking in the UK for the first time.
+* **[dConstruct][10]:** (Excusing the obvious bias) I've not seen David McCandless, Samantha Warren, James Bridle or Marty Neumeier speak at many other conferences, whilst I believe John Gruber and Merlin Mann will be speaking in the UK for the first time.
 
 On a slightly smaller scale:
 
-  * **[Speak the Web][11]:** A series of small, intimate, low cost events, these had the style of a gig and paired well known speakers with local developers who were either novices or who hadn't spoken before.
+* **[Speak the Web][11]:** A series of small, intimate, low cost events, these had the style of a gig and paired well known speakers with local developers who were either novices or who hadn't spoken before.
 
-  * **[Multipack Presents][12]:** Perhaps to a lesser extent than others mentioned, but this series of talks has often seen local Birmingham designers and developers speak alongside Bruce Lawson and Stuart Langridge.
+* **[Multipack Presents][12]:** Perhaps to a lesser extent than others mentioned, but this series of talks has often seen local Birmingham designers and developers speak alongside Bruce Lawson and Stuart Langridge.
 
 ## New adventures in content
 

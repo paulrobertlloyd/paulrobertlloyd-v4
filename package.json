@@ -25,6 +25,7 @@
     "test:styles": "stylelint src/**/*.css",
     "build:styles": "postcss src/assets/styles/app.css -o www/assets/styles/app.css --config lib/postcss.config.js",
     "watch:styles": "postcss src/assets/styles/app.css -o www/assets/styles/app.css --config lib/postcss.config.js --watch",
+    "test:markdown": "markdownlint src/**/*.md --config lib/markdownlint.json",
     "debug": "DEBUG=* npx eleventy"
   },
   "dependencies": {
@@ -33,6 +34,7 @@
     "browser-sync": "^2.26.3",
     "color": "^3.1.0",
     "cssnano": "^4.1.8",
+    "html-minifier": "^3.5.21",
     "markdown-it": "^8.4.2",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-anchor": "^5.0.0",
@@ -58,6 +60,7 @@
     "typogr": "^0.6.8"
   },
   "devDependencies": {
+    "markdownlint-cli": "^0.13.0",
     "stylelint": "^9.9.0",
     "stylelint-config-standard": "^18.2.0",
     "stylelint-order": "^2.0.0",

@@ -86,10 +86,10 @@ It's too early to tell of course, but the suitability of these guidelines for th
 
 The design of this site, and the rationale behind it, have been incredibly well documented; it's hard to imagine another organisation going to the same lengths to share its internal process. If you're interested in the background to this new design, I strongly encourage you to read the following:
 
-  * [Formative user research for the BBC's Global Visual Language 3][17]
-  * [BBC News website redesign: telling the story][18]
-  * [BBC News website's content management and publishing systems][19]
-  * [Full GEL documentation and resources][7]
+* [Formative user research for the BBC's Global Visual Language 3][17]
+* [BBC News website redesign: telling the story][18]
+* [BBC News website's content management and publishing systems][19]
+* [Full GEL documentation and resources][7]
 
 There is often talk of there being [no landmark design on the web][20]. I'm going to stick my neck out, and suggest it won't be long before BBC News Online is considered one of the greatest design icons online today.
 

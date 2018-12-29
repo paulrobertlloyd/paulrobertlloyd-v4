@@ -609,7 +609,7 @@ In retrospect, Channel 4 made a mistake in some ways with its over eagerness to 
 
 Although the connections identity was well put together, it wasn't that innovative, but its replacement was completely different to anything else seen on television. For its part, Channel 5's original on-screen identity was one that didn't fit the channel's personality, or its off screen identity -- and it wasn't until two years later that a more appropriate one was aired.
 
-### BBC comes together...
+### BBC comes together
 
 With no corporate guidelines, the BBC had 'zillions of logos' and was generating new ones at a rate of two a week. With the advent of digital and the launch of more channels and services, its brand was being increasingly weakened.
 
@@ -636,7 +636,7 @@ BBC1 retained the globe, however it was given a new twist by using an orange air
 
 Both channels kept the consistency seen in the last makeover, but this time all onscreen promotional material carried 'BBC ONE' or 'BBC TWO' centred at the bottom of the screen -- this placement more suitable for the upcoming widescreen format used in digital television.
 
-### ...while ITV grows apart
+### ITV grows apart
 
 By the mid-ninetees every ITV region was back to using individual identities -- with only Grampian using the original 1989 idents and graphics. At the same time, the ITV network was entering a period of consolidation and mergers amongst the franchises, threatening its regional identity.
 
@@ -881,24 +881,24 @@ One thing's for sure; broadcasting brands will need to be as strong as ever.
 
 ### Books
 
-  * Crook, G. (1986). <cite>The Changing Image. Television Graphics from Caption Card to Computer</cite>. London: Robots Press
-  * Ellis, J. (2000). <cite>Seeing Things. Television in the Age of Uncertainty</cite>. London: I.B. Tauris
-  * Lambie-Nairn, M. (1997). <cite>Brand Identity for Television. With Knobs On</cite>. London: Phaidon Press
+* Crook, G. (1986). <cite>The Changing Image. Television Graphics from Caption Card to Computer</cite>. London: Robots Press
+* Ellis, J. (2000). <cite>Seeing Things. Television in the Age of Uncertainty</cite>. London: I.B. Tauris
+* Lambie-Nairn, M. (1997). <cite>Brand Identity for Television. With Knobs On</cite>. London: Phaidon Press
 
 ### Press
 
-  * Aldersey-Williams, H. (1993). The different path of British broadcast design. <cite>Print, 47</cite>(1), 48-54.
-  * Davies, J. (1997). Strength in Numbers. <cite>Design, Spring 1997</cite>, 26-31.
-  * Gilgrist, A. (1997). £5m BBC logo 'will save cash'. <cite>Design Week, 12</cite>(19), 3.
-  * McClellan, T. (1990). TV in the age of eye candy. <cite>Eye, 1</cite>(1), 22-31.
-  * Mistry, B. (1996). Has Channel 4 made the right connection? <cite>Design Week, 11</cite>(32), 7.
+* Aldersey-Williams, H. (1993). The different path of British broadcast design. <cite>Print, 47</cite>(1), 48-54.
+* Davies, J. (1997). Strength in Numbers. <cite>Design, Spring 1997</cite>, 26-31.
+* Gilgrist, A. (1997). £5m BBC logo 'will save cash'. <cite>Design Week, 12</cite>(19), 3.
+* McClellan, T. (1990). TV in the age of eye candy. <cite>Eye, 1</cite>(1), 22-31.
+* Mistry, B. (1996). Has Channel 4 made the right connection? <cite>Design Week, 11</cite>(32), 7.
 
 ### Online
 
-  * Gibson, J. (1999, October 23). [Face of five set for ITV perch](http://media.guardian.co.uk/mediaguardian/story/0,7558,362192,00.html). <cite>MediaGuardian</cite>
-  * Lambie-Nairn.com (2002). [BBC ONE](http://web.archive.org/web/20020215191943/http://www.lambie-nairn.com/casestudy.asp?ContentId=2954%26Parent=2725), <cite>Lambie-Nairn.com</cite>. Archived from [the original](http://www.lambie-nairn.com/casestudy.asp?ContentId=2954%26Parent=2725) on <time datetime="2002-02-15">15 February 2002</time>
-  * McGonagle, M. (2002). [Channel 5 Idents 1999](http://www.thetvroom.com/p-ch5-1999-a.html). <cite>TheTVRoom.com</cite>
-  * Wilkes, N. (2001). [BBC Two gets new on-screen look](http://www.digitalspy.co.uk/displayarticle.php?id=4234). <cite>DigitalSpy.co.uk</cite>
+* Gibson, J. (1999, October 23). [Face of five set for ITV perch](http://media.guardian.co.uk/mediaguardian/story/0,7558,362192,00.html). <cite>MediaGuardian</cite>
+* Lambie-Nairn.com (2002). [BBC ONE](http://web.archive.org/web/20020215191943/http://www.lambie-nairn.com/casestudy.asp?ContentId=2954%26Parent=2725), <cite>Lambie-Nairn.com</cite>. Archived from [the original](http://www.lambie-nairn.com/casestudy.asp?ContentId=2954%26Parent=2725) on <time datetime="2002-02-15">15 February 2002</time>
+* McGonagle, M. (2002). [Channel 5 Idents 1999](http://www.thetvroom.com/p-ch5-1999-a.html). <cite>TheTVRoom.com</cite>
+* Wilkes, N. (2001). [BBC Two gets new on-screen look](http://www.digitalspy.co.uk/displayarticle.php?id=4234). <cite>DigitalSpy.co.uk</cite>
 
 *[ABC]: Associated British Corporation
 *[BBC]: British Broadcasting Corporation

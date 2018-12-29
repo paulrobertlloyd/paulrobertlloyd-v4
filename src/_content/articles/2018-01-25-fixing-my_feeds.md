@@ -17,8 +17,8 @@ This move has prompted some other RSS related news, in that I’ve fixed my XML 
 
 Anyway, for the avoidance of doubt, you can subscribe to my site using your syndication format of choice:
 
-  * <https://paulrobertlloyd.com/feed.xml> (Atom XML)
-  * <https://paulrobertlloyd.com/feed.json> (JSON Feed)
+* <https://paulrobertlloyd.com/feed.xml> (Atom XML)
+* <https://paulrobertlloyd.com/feed.json> (JSON Feed)
 
 How very Web 2.0.
 

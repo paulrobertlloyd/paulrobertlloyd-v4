@@ -174,6 +174,7 @@ These considerations were particularly true of the seventies, especially the ear
 The history of graphic design in television has been relatively short yet it has seen so many changes that everyone in the profession can feel they are 'pioneers'. However, there are two people that stand out from the rest; Bernard Lodge and Martin Lambie-Nairn, both of whom regard Saul Bass as a major influence on their work.
 
 ### Bernard Lodge
+
 After leaving the Royal College of Art, Bernard Lodge joined the BBC in 1959. It was here that he got the opportunity to design the title sequence for a new children's series <cite>Doctor Who</cite> in 1963. By exploiting the effect that occurs when a television camera is pointed towards a monitor, he was able to convey the idea of time travel and space fiction and created what became the famous title sequence. When he reworked the sequence in 1973, he again used techniques that were new to the profession, by using a computer controlled rostrum camera. Lodge produced many more memorable title sequences before leaving the BBC in 1977 to form his own company which later became Lodge-Cheeseman when his former colleague, Colin Cheesman (who had become Head of Graphic Design at the BBC), joined him.
 
 {% include 'embed' with 'https://www.youtube.com/video/sjDFvoRNpOM'
@@ -189,6 +190,7 @@ After leaving the Royal College of Art, Bernard Lodge joined the BBC in 1959. It
 Both Lodge and Cheesman were working at a time when the use of computers in the profession were being used to an ever greater extent, but both believed that the computer should be used "not as an end to itself, but as a key to open new creative doors". (Merritt 1987: 10) Bernard Lodge enabled more doors to be opened by working with Filmflex Ltd. to develop new animation techniques with the computer controlled rostrum camera. These included 'streak-timing' to produce a drawn and blurred light effect and 'slit-scan', which could be used to create controlled distortions. Lodge-Cheeseman went on to produce work for television commercials and also graphic effects for the movies <cite>Alien</cite> and <cite>Bladerunner</cite>.
 
 ### Martin Lambie-Nairn
+
 After leaving Canterbury College of Art in 1965, Martin Lambie-Nairn applied to the BBC for its holiday relief scheme in which students were taken on for three-month contracts over the summer. He was accepted and given the job of assisting Alan Jeapes. After the three months, Lambie-Nairn was made Jeapes full-time assistant, making him the youngest assistant graphic designer in BBC television at the age of only nineteen.
 
 In 1967, he left the BBC to join Associated Rediffusion however, when Rediffusion lost its franchise to London Weekend Television (LWT), Lambie-Nairn decided to go it alone, and set up his own company to handle the freelance work he was acquiring. This proved to be a mistake and after a brief time at the Conran Design Group, he decided television was his home and moved to Independent Television News (ITN) were he became deputy to the senior designer.
@@ -291,12 +293,12 @@ Computerised control of the rostrum camera was an advantage as it did help to cu
 
 ## References
 
-  * Craig, J. and Barton, B. (1987). <cite>Thirty Centuries of Graphic Design: An Illustrated Survey</cite>
-  * Crook, G. (1986). <cite>The Changing Image. Television Graphics from Caption Card to Computer</cite>. London: Robots Press
-  * Lambie-Nairn, M. (1997). <cite>Brand Identity for Television. With Knobs On</cite>. London: Phaidon Press
-  * Merritt, D. (1987). <cite>Television Graphics from Pencil to Pixel</cite>. London: Trefoil Publications
-  * Microsoft Corporation (1996). Baird, John Logie. <cite>Encarta '97</cite> [CD-ROM]. Redmond: Microsoft Corporation
-  * Montagu, R. (1991). <cite>The Television Graphics Handbook</cite>. Borehamwood: BBC Television Training
+* Craig, J. and Barton, B. (1987). <cite>Thirty Centuries of Graphic Design: An Illustrated Survey</cite>
+* Crook, G. (1986). <cite>The Changing Image. Television Graphics from Caption Card to Computer</cite>. London: Robots Press
+* Lambie-Nairn, M. (1997). <cite>Brand Identity for Television. With Knobs On</cite>. London: Phaidon Press
+* Merritt, D. (1987). <cite>Television Graphics from Pencil to Pixel</cite>. London: Trefoil Publications
+* Microsoft Corporation (1996). Baird, John Logie. <cite>Encarta '97</cite> [CD-ROM]. Redmond: Microsoft Corporation
+* Montagu, R. (1991). <cite>The Television Graphics Handbook</cite>. Borehamwood: BBC Television Training
 
 [^1]: Gradually, over the next two years, what the <cite>Television Annual</cite> of 1957 described as "a new and largely experimental section", was built up. <em>(Crook 1986: 34)</em>
 

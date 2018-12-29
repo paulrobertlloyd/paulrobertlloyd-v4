@@ -17,11 +17,11 @@ It's also an opportunity to summarise the current discussion around responsive d
 
 The tutorial is split into five parts:
 
- 1. [Designing Responsively][3]
- 2. [Responsive Typography & Grids][4]
- 3. [Responsive Images & Video][5]
- 4. [Getting to Grips with Media Queries][6]
- 5. [Going Further with Responsive Design][7]
+1. [Designing Responsively][3]
+2. [Responsive Typography & Grids][4]
+3. [Responsive Images & Video][5]
+4. [Getting to Grips with Media Queries][6]
+5. [Going Further with Responsive Design][7]
 
 These follow the development of a simple media gallery, the finished example of which can be found here: <http://paulrobertlloyd.github.io/roadtrip/>
 

@@ -39,11 +39,11 @@ Let me be clear. I'm not saying we shouldn't use images on the web. Again, I poi
 
 Right now, I believe we have a bunch of tools at our disposal. These can be broadly categorised as follows:
 
-  * **Progressive enhancement:** Referencing less images in our markup, and using conditional loading techniques to decide if and when additional images should be displayed. [Picturefill][5] falls under this category (although I'm not convinced this  pattern should be standardised).
+* **Progressive enhancement:** Referencing less images in our markup, and using conditional loading techniques to decide if and when additional images should be displayed. [Picturefill][5] falls under this category (although I'm not convinced this  pattern should be standardised).
 
-  * **Compressive images:** I've had a lot fun [playing with the technique][6] originally [outlined by Daan Jobsis][7]. It's exciting to [see others experiment][8] with this idea too. I know I'll be paying more attention to compression settings and image dimensions over the coming year.
+* **Compressive images:** I've had a lot fun [playing with the technique][6] originally [outlined by Daan Jobsis][7]. It's exciting to [see others experiment][8] with this idea too. I know I'll be paying more attention to compression settings and image dimensions over the coming year.
 
-  * **Altering the visual aesthetic:** If recognising that limited or unpredictable bandwidth is a constraint of the medium, let's embrace it and see what results! As we move away from classic layouts and design practice, it behoves us to think how images will play a part within this new landscape.
+* **Altering the visual aesthetic:** If recognising that limited or unpredictable bandwidth is a constraint of the medium, let's embrace it and see what results! As we move away from classic layouts and design practice, it behoves us to think how images will play a part within this new landscape.
 
 Or, to put it another way, we already have [a field of ponies][9].
 

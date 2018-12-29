@@ -36,9 +36,9 @@ I believe we can conceive this framework by first agreeing on a set of underlyin
 
 [The long-term strategy of the web is to enable universal access][6] to information and services. This noble goal is fundamental to the web's continued relevance. Our design principles must operate in the service of this vision, addressing:
 
-  * **Our users:** By building inclusive teams that listen to -- and even work alongside -- users, we can achieve wider reach.
-  * **Our medium:** By making fewer assumptions about context and interface, focusing more on users' tasks and goals, we can create more adaptable products.
-  * **Ourselves:** By choosing tools that are approachable, simple to use, and open to change, we can elicit greater collaboration within teams.
+* **Our users:** By building inclusive teams that listen to -- and even work alongside -- users, we can achieve wider reach.
+* **Our medium:** By making fewer assumptions about context and interface, focusing more on users' tasks and goals, we can create more adaptable products.
+* **Ourselves:** By choosing tools that are approachable, simple to use, and open to change, we can elicit greater collaboration within teams.
 
 ## Reflecting diversity in our practice
 

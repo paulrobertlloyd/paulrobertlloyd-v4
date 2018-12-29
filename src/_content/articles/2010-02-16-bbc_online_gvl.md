@@ -43,8 +43,8 @@ I guess you could say I'm not a fan of Verdana! Furthermore, the new global mast
 
 I was so concerned by these oversights that I thought about ways to rectify these issues. The visual design language had just been applied to the [BBC News][11] website at the time, so I set upon redesigning the home and news item pages. The curious are welcome to view the full resolution comps I came up with:
 
-  * [Home page][12]
-  * [News item][13]
+* [Home page][12]
+* [News item][13]
 
 Of course it's easy to create something like this in isolation, without a full understanding of the design or technical constraints that exist, but I think this demonstrates my frustration with the implementation at the time and -- perhaps more importantly -- how much I care about the design of the BBC website.
 
@@ -58,23 +58,23 @@ Bronwyn van der Merwe in describing the new global visual language stated that:
 
 Whilst this could be viewed as yet another redesign, it strikes me that this project is aimed towards creating a more lasting vision, and this is reflected by the creation of nine key design principles:
 
- 1. **Modern British:** Creates a modern British design aesthetic, something vibrant and quirky that translates outside our national boundaries.
+1. **Modern British:** Creates a modern British design aesthetic, something vibrant and quirky that translates outside our national boundaries.
 
- 2. **Current:** Feels current and reflects what's happening in the UK right now, in real-time. Curates a timeline of Britain and links to the past, to the BBC's rich archive.
+2. **Current:** Feels current and reflects what's happening in the UK right now, in real-time. Curates a timeline of Britain and links to the past, to the BBC's rich archive.
 
- 3. **Authentic:** Sounds authentic and relevant, warm and human. References the BBC's iconic design and broadcasting heritage. Values the trust placed in the organisation.
+3. **Authentic:** Sounds authentic and relevant, warm and human. References the BBC's iconic design and broadcasting heritage. Values the trust placed in the organisation.
 
- 4. **Compelling:** Engages audiences with compelling storytelling. Voices range from serious and authoritative through to witty and entertaining.
+4. **Compelling:** Engages audiences with compelling storytelling. Voices range from serious and authoritative through to witty and entertaining.
 
- 5. **Distinctive:** Stands out from the crowd. Strikes a balance between overly templated, cookie-cutter design and beautiful anarchy. Bold and dramatic.
+5. **Distinctive:** Stands out from the crowd. Strikes a balance between overly templated, cookie-cutter design and beautiful anarchy. Bold and dramatic.
 
- 6. **Pioneering:** Pioneering design innovations that surprise and delight, yet take the audiences with them.
+6. **Pioneering:** Pioneering design innovations that surprise and delight, yet take the audiences with them.
 
- 7. **Joined-up:** Views all services and platforms as one connected whole but delivers experiences that are sensitive to their context of use.
+7. **Joined-up:** Views all services and platforms as one connected whole but delivers experiences that are sensitive to their context of use.
 
- 8. **Universal:** Services are open and accessible. Interfaces are simple, useful and intuitive.
+8. **Universal:** Services are open and accessible. Interfaces are simple, useful and intuitive.
 
- 9. **Best:** Ambition is to be the best digital media brand in the world.
+9. **Best:** Ambition is to be the best digital media brand in the world.
 
 These principles have resulted in the following output:
 

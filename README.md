@@ -22,22 +22,22 @@ To run with HTTPS locally on macOS first [follow the setup steps described here]
 1. Change into the correct directory: `cd etc`
 2. Create the certificate files:
 
-  ```
-  openssl req \
-    -new \
-    -newkey rsa:2048 \
-    -sha256 \
-    -days 3650 \
-    -nodes \
-    -x509 \
-    -keyout etc/test.key \
-    -out etc/test.crt \
-    -subj /CN=v4.paulrobertlloyd.test \
-    -reqexts SAN \
-    -extensions SAN \
-    -config <(cat /System/Library/OpenSSL/openssl.cnf \
-      <(printf '[SAN]\nsubjectAltName=DNS:v4.paulrobertlloyd.test'))
-  ```
+   ```
+   openssl req \
+   -new \
+   -newkey rsa:2048 \
+   -sha256 \
+   -days 3650 \
+   -nodes \
+   -x509 \
+   -keyout etc/test.key \
+   -out etc/test.crt \
+   -subj /CN=v4.paulrobertlloyd.test \
+   -reqexts SAN \
+   -extensions SAN \
+   -config <(cat /System/Library/OpenSSL/openssl.cnf \
+   <(printf '[SAN]\nsubjectAltName=DNS:v4.paulrobertlloyd.test'))
+   ```
 
 ## Deployment
 

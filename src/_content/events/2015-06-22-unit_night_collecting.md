@@ -9,6 +9,7 @@ tags:
 - venue:9c3xfvpr+c2
 ---
 Panel:
+
 * Tony Brook, founder of Spin
 * Mark Holt, founder of 8vo
 * Rick Poynor, founder of <cite>Eye</cite> magazine

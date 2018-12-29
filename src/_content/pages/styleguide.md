@@ -75,24 +75,24 @@ The `ol` element denotes an ordered list, and various numbering schemes are avai
 
 The `ul` element denotes an unordered list (ie. a list of loose items that don't require numbering, or a bulleted list). Again, each item requires a surrounding `<li>` and `</li>` tag, to denote individual items. Here is an example list showing the constituent parts of the British Isles:
 
-  * United Kingdom of Great Britain and Northern Ireland:
-    * England
-    * Scotland
-    * Wales
-    * Northern Ireland
-  * Republic of Ireland
-  * Isle of Man
-  * Channel Islands:
-    * Bailiwick of Guernsey
-    * Bailiwick of Jersey
+* United Kingdom of Great Britain and Northern Ireland:
+  * England
+  * Scotland
+  * Wales
+  * Northern Ireland
+* Republic of Ireland
+* Isle of Man
+* Channel Islands:
+  * Bailiwick of Guernsey
+  * Bailiwick of Jersey
 
 Sometimes we may want each list item to contain block elements, typically a paragraph or two:
 
-  * The British Isles is an archipelago consisting of the two large islands of Great Britain and Ireland, and many smaller surrounding islands.
+* The British Isles is an archipelago consisting of the two large islands of Great Britain and Ireland, and many smaller surrounding islands.
 
-  * Great Britain is the largest island of the archipelago. Ireland is the second largest island of the archipelago and lies directly to the west of Great Britain.
+* Great Britain is the largest island of the archipelago. Ireland is the second largest island of the archipelago and lies directly to the west of Great Britain.
 
-  * The full list of islands in the British Isles includes over 1,000 islands, of which 51 have an area larger than 20 km<sup>2</sup>.
+* The full list of islands in the British Isles includes over 1,000 islands, of which 51 have an area larger than 20 km<sup>2</sup>.
 
 ### Definition list
 

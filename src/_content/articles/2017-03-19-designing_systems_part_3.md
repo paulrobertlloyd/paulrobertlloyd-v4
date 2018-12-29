@@ -43,7 +43,7 @@ By taking each concern on its on, we can think about which guidelines and vocabu
 
 Reduce any webpage to its barest essentials, and you are left with text. Even the most complex applications rely on this for labels and messaging. This is why I like to start building components by writing plain text. I can use Markdown for a limited set of structural markers, and an ASCII-like syntax for forms control:
 
-```
+```text
 ## Movie rating
 The average rating is 4 out of 5 stars, from a total  of [12 reviews](/reviews).
 

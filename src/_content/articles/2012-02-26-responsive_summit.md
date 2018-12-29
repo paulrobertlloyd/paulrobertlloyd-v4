@@ -23,11 +23,11 @@ Whilst some disliked the perceived exclusivity, I found it encouraging that [Chr
 
 Lessons were learnt about how to arrange similar meet-ups in the future, but that's not to say there wasn't an opportunity for input from the wider community. Questions were submitted via the website and these helped us divide the discussion into five key topic areas:
 
-  * Workflow
-  * Layout
-  * Sensors
-  * Images
-  * Advertising
+* Workflow
+* Layout
+* Sensors
+* Images
+* Advertising
 
 We also agreed to share our findings from the day on our blogs. I'm going to concentrate much of my report on the topic of responsive images; possibly the meatiest and most difficult challenges we've encountered so far.
 
@@ -60,11 +60,11 @@ Whilst this proposal provides much needed scope for improving the scalability ar
 
 I wonder if the solution actually lies in file formats. This is something I touched upon briefly in [my last post][7], where I mentioned the much unloved JPEG 2000 format. Researching a little further, I discovered a number of other proposed formats, all of which could prove useful as we strive to build a responsive web:
 
-  * **[JPEG 2000][8]**, intended to replace the older JPEG format, was introduced by the JPEG committee in 2000. This format generates higher quality images compared to standard JPEGs *and* produces smaller file sizes. Features include multiple resolution representation, progressive transmission, lossy and lossless compression and support for transparency mapping. Unfortunately, it's not widely supported by browsers.
+* **[JPEG 2000][8]**, intended to replace the older JPEG format, was introduced by the JPEG committee in 2000. This format generates higher quality images compared to standard JPEGs *and* produces smaller file sizes. Features include multiple resolution representation, progressive transmission, lossy and lossless compression and support for transparency mapping. Unfortunately, it's not widely supported by browsers.
 
-  * **[JPEG XR][9]** is a computationally lightweight alternative to JPEG 2000, developed by Microsoft in 2009. It also provides better compression (including lossless), greater colour accuracy allowing for up to 48-bit 'deep colour' and HDR images, transparency mapping, and metadata support. Originally known as Windows Media Photo, it is well supported by Microsoft's own software. Although covered by their Open Specification Promise, I suspect there's little desire from others to support a format patented by Microsoft.
+* **[JPEG XR][9]** is a computationally lightweight alternative to JPEG 2000, developed by Microsoft in 2009. It also provides better compression (including lossless), greater colour accuracy allowing for up to 48-bit 'deep colour' and HDR images, transparency mapping, and metadata support. Originally known as Windows Media Photo, it is well supported by Microsoft's own software. Although covered by their Open Specification Promise, I suspect there's little desire from others to support a format patented by Microsoft.
 
-  * **[WebP][10]** is a sister project to the controversial WebM video format developed by Google. This produces lossless images that are 28% smaller in size compared to PNGs, and lossy images 25-34% smaller compared to JPEGs -- although image quality may not be comparable. It's supported by Chrome and Opera, and can be used in other browsers via a JavaScript shim.
+* **[WebP][10]** is a sister project to the controversial WebM video format developed by Google. This produces lossless images that are 28% smaller in size compared to PNGs, and lossy images 25-34% smaller compared to JPEGs -- although image quality may not be comparable. It's supported by Chrome and Opera, and can be used in other browsers via a JavaScript shim.
 
 ### Do we need a new image file format?
 
@@ -88,9 +88,9 @@ The trusty 'ping' has saved us once before. It was originally created in 1995 af
 
 This format is interesting given two examples where it has been extended whilst maintaining backwards compatibility:
 
-  * **Fireworks PNG**: As the native file format for Fireworks, it includes a variety of information: bitmaps, text, vectors, image masks, layers, states and pages. Whilst fully editable in Fireworks, when viewed in a browser or another image editor only a flattened image is displayed.
+* **Fireworks PNG**: As the native file format for Fireworks, it includes a variety of information: bitmaps, text, vectors, image masks, layers, states and pages. Whilst fully editable in Fireworks, when viewed in a browser or another image editor only a flattened image is displayed.
 
-  * **[APNG][14]**: Mozilla's Animated Portable Network Graphics format is another unofficial extension to the PNG specification. It too retains backwards compatibility; browsers that don't recognise this format only see the first frame.
+* **[APNG][14]**: Mozilla's Animated Portable Network Graphics format is another unofficial extension to the PNG specification. It too retains backwards compatibility; browsers that don't recognise this format only see the first frame.
 
 This suggestion isn't without problems either. For starters, it's doubtful whether a file containing multiple image sizes wouldn't be accompanied by a huge file size. One would hope that some intelligence could be incorporated so that when lower resolution variants were requested, only the required amount of data would be sent (bonus points if the same behaviour was also backwards compatible).
 

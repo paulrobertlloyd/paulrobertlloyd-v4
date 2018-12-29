@@ -55,11 +55,11 @@ I know David to be a fantastic developer who literally [wrote the book on PHP][9
 
 In fairness, he raised a few good points worth remembering:
 
-  * As people who work with the technology everyday, we can often get ourselves trapped into thinking most users think the same way we do.
+* As people who work with the technology everyday, we can often get ourselves trapped into thinking most users think the same way we do.
 
-  * Thanks to advances in browser interface design (such as the 'Awesome bar' in Firefox) or as the web moves to platforms that lack traditional input devices, URLs are required, or available, less often.
+* Thanks to advances in browser interface design (such as the 'Awesome bar' in Firefox) or as the web moves to platforms that lack traditional input devices, URLs are required, or available, less often.
 
-  * Structured URLs tend to appeal to the more technologically aware.
+* Structured URLs tend to appeal to the more technologically aware.
 
 (He also uses the example of editing a URL to advance forward a number of pages within a list of forum topics. I found this rather ironic given that [Ning recently removed page numbers from the pagination on its social networks][11] for 'performance reasons'. When pagination is a performance issue, you have bigger issues than the structure of your URLs.)
 

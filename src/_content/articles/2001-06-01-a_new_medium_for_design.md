@@ -65,23 +65,23 @@ He has other concerns with the way designers use Flash, such as the use of non-s
 
 So what makes a good website? Nathan Shedroff, a creative director at Vivid Studios states there are six basic ingredients for a successful website:
 
- 1. **Content:**
-    Perhaps the most important of all six, after all its usually for the content that users go to a site in the first place. If the content is interesting, useful and well-written people are likely to come back for more -- especially true if it's constantly updated.
+1. **Content:**
+   Perhaps the most important of all six, after all its usually for the content that users go to a site in the first place. If the content is interesting, useful and well-written people are likely to come back for more -- especially true if it's constantly updated.
 
- 2. **Organisation and Navigation:**
-    Users are likely to get tired quickly and click away to another site if they can't find the information they're after, so how content is organised and how it can be navigated is crucial.
+2. **Organisation and Navigation:**
+   Users are likely to get tired quickly and click away to another site if they can't find the information they're after, so how content is organised and how it can be navigated is crucial.
 
- 3. **Visual Design:**
-    This is not only about making a site look good, its also about giving a site a unique look and identity. When it comes to branding, it is not only about the logo and visuals of a site though; it's also about the users experience on the site -- as shown in the example of Boo.com.
+3. **Visual Design:**
+   This is not only about making a site look good, its also about giving a site a unique look and identity. When it comes to branding, it is not only about the logo and visuals of a site though; it's also about the users experience on the site -- as shown in the example of Boo.com.
 
- 4. **Performance:**
-    Although the delights of broadband (faster) Internet connections are reported to be just around the corner, it will no doubt take several years before they become standard, so it is important to make sure pages don't take forever to download. The '30 second rule' is often mentioned when talking about designing for the web, If after this time a page hasn't finished downloading, many users will click away. In reality, it is probably even shorter than this.
+4. **Performance:**
+   Although the delights of broadband (faster) Internet connections are reported to be just around the corner, it will no doubt take several years before they become standard, so it is important to make sure pages don't take forever to download. The '30 second rule' is often mentioned when talking about designing for the web, If after this time a page hasn't finished downloading, many users will click away. In reality, it is probably even shorter than this.
 
- 5. **Compatibility:**
-    Where most frustration awaits a web designer. As mentioned earlier, this involves taking into account the fact that the end user may be using one of a number of browsers, of different versions, on different platforms. The most successful sites are those that provide different versions for different browsers, or those that can find a compromise in their design.
+5. **Compatibility:**
+   Where most frustration awaits a web designer. As mentioned earlier, this involves taking into account the fact that the end user may be using one of a number of browsers, of different versions, on different platforms. The most successful sites are those that provide different versions for different browsers, or those that can find a compromise in their design.
 
- 6. **Interactivity:**
-    You should build as much interactivity into a site as possible "particularly anything that allows communications and adaptive (or customised) experiences, as these provide the most value"
+6. **Interactivity:**
+   You should build as much interactivity into a site as possible "particularly anything that allows communications and adaptive (or customised) experiences, as these provide the most value"
 
 One recent example of a good interactive site is that of MTV2 ([www.mtv2.co.uk][6]). Here viewers can experience a real sense of interactivity not only with the site, but also with the channel for which the site accompanies. This is accomplished by allowing of the site to choose their favourite tracks and create their own hours to be shown on the channel. Other users of the site can then view these choices of music and e-mail each other about what they think. This adds a whole sense of community to the site.
 
@@ -101,13 +101,13 @@ From the areas of discussion above, it would seem there are two main issues. The
 
 ## References
 
-  * Boer, L, Strengholt, G and Velthoven, W (1997). <cite>Website Graphics: the best of global site design</cite>. New York: Thames and Hudson Inc.
-  * Burgoyne, P and Faber, L (1999). <cite>Reload: Browser 2.0: The Internet Design Project</cite>. London: Laurance King
-  * Dredge, S (2000, September). Interview with Jakob Nielsen. <cite>Cre@teOnline</cite>, 26-29
-  * Drew, K (2000, August). Remote Control -- Diary of a Launch: MTV2. <cite>Cre@teOnline</cite>, 36-40
-  * Franklin, D and Patton, B (2000). <cite>Flash 4! Creative Web Animation</cite>. San Francisco: Macromedia Press
-  * Nielsen, J (2000, October 29). [Flash: 99% Bad](http://www.useit.com/alertbox/20001029.html). <cite>Useit.com</cite>
-  * Ward, M (2000, May 18). [From Boo.com to Boo.gone](http://news.bbc.co.uk/hi/english/business/newsid_753000/753782.stm). <cite>BBC News Online</cite>
+* Boer, L, Strengholt, G and Velthoven, W (1997). <cite>Website Graphics: the best of global site design</cite>. New York: Thames and Hudson Inc.
+* Burgoyne, P and Faber, L (1999). <cite>Reload: Browser 2.0: The Internet Design Project</cite>. London: Laurance King
+* Dredge, S (2000, September). Interview with Jakob Nielsen. <cite>Cre@teOnline</cite>, 26-29
+* Drew, K (2000, August). Remote Control -- Diary of a Launch: MTV2. <cite>Cre@teOnline</cite>, 36-40
+* Franklin, D and Patton, B (2000). <cite>Flash 4! Creative Web Animation</cite>. San Francisco: Macromedia Press
+* Nielsen, J (2000, October 29). [Flash: 99% Bad](http://www.useit.com/alertbox/20001029.html). <cite>Useit.com</cite>
+* Ward, M (2000, May 18). [From Boo.com to Boo.gone](http://news.bbc.co.uk/hi/english/business/newsid_753000/753782.stm). <cite>BBC News Online</cite>
 
 [1]: http://news.bbc.co.uk/
 [2]: http://useit.com/

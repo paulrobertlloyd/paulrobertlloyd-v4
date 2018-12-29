@@ -45,7 +45,7 @@ Fontdeck was a professional web font service that let designers and developers t
 
 A unique concept when founders Richard Rutter and Jon Tan conceived the idea in 2009, by the time the service launched in beta a year later a number of competing services had already entered the market. The site needed to rapidly evolve, and better explain how its own service differed from others.
 
-##  Defining the vision
+## Defining the vision
 
 Over one weekend, a small team of developers and designers from Clearleft was convened to devise a strategy to address how we could quickly improve the service. A series of quick wins were identified, but it was agreed that the homepage needed a thorough overhaul.
 
@@ -53,9 +53,9 @@ The existing, text-heavy page failed to communicate the benefits of the product 
 
 It was also decided that we would improve the product in discreet stages. While this sounded appealing, beyond a few technical items, making substantial changes soon became difficult. We knew where we wanted to be, but it was difficult to get there without a vision of what the service might look like. With this in mind, I devised a holistic design for the product that would serve the following goals:
 
-  * Communicate professionalism of the service and the quality of our library
-  * Better explain how the service works and how much it costs to use
-  * Give greater prominence to foundries and type designers
+* Communicate professionalism of the service and the quality of our library
+* Better explain how the service works and how much it costs to use
+* Give greater prominence to foundries and type designers
 
 ## Redefining the brand
 

@@ -27,15 +27,15 @@ So which countries am I visiting? Europe is such a large continent, with many di
   alignment: 'bleed'
 %}
 
-  * **10-11 May:** Cologne, Germany
-  * **12-14 May:** Munich, Germany
-  * **15-16 May:** Innsbruck, Austria
-  * **17-20 May:** Lucerne, Switzerland
-  * **22 May:** Zurich, Switzerland
-  * **23-24 May:** Barcelona, Spain
-  * **24-27 May:** Valencia, Spain
-  * **28 May:** Madrid, Spain
-  * **29 May:** Paris, France
+* **10-11 May:** Cologne, Germany
+* **12-14 May:** Munich, Germany
+* **15-16 May:** Innsbruck, Austria
+* **17-20 May:** Lucerne, Switzerland
+* **22 May:** Zurich, Switzerland
+* **23-24 May:** Barcelona, Spain
+* **24-27 May:** Valencia, Spain
+* **28 May:** Madrid, Spain
+* **29 May:** Paris, France
 
 Each of these destinations promises to be exciting, with opportunities to learn more about each country and it's people. Better still, this trip will give my new SLR camera a proper work out, with opportunities to capture the Cathedral in Cologne, the palaces and Olympic park in Munich, the breathtaking Swiss landscape, and the many extraordinary pieces of architecture in Spain.
 

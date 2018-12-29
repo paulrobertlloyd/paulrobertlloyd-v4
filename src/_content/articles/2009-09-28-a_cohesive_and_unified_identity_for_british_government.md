@@ -23,9 +23,9 @@ I propose that any such reorganisation would be a perfect opportunity to rethink
 
 Other governments have a similar array of logos of course, but a few have implemented coherent branding strategies. I illustrate a few such schemes below, but further examples can be found in Canada, Australia and South Africa too:
 
-  * [Canadian Federal Identity Program](http://www.tbs-sct.gc.ca/fip-pcim/index-eng.asp)
-  * [Australian Government Branding Guidelines](http://www.pmc.gov.au/guidelines/docs/design_guidelines_PMC.pdf) (PDF Document)
-  * [South African Government Corporate Identity Guidelines](http://www.gcis.gov.za/services/govt/corpid.pdf) (PDF Document)
+* [Canadian Federal Identity Program](http://www.tbs-sct.gc.ca/fip-pcim/index-eng.asp)
+* [Australian Government Branding Guidelines](http://www.pmc.gov.au/guidelines/docs/design_guidelines_PMC.pdf) (PDF Document)
+* [South African Government Corporate Identity Guidelines](http://www.gcis.gov.za/services/govt/corpid.pdf) (PDF Document)
 
 ### United States
 
@@ -43,7 +43,7 @@ A student competition held in 1996 was won by Jürgen Huber and Lisa Eidt. Their
 
 The final identity was launched in June 1999 and [MetaDesign has been involved ever since][1]. They continue to assist the federal government with implementation of the brand, designing tools and creating frameworks that allow ministries to still maintain a level of creative freedom.
 
-  * [Design Documentation for the Federal Government](http://styleguide.bundesregierung.de/){hreflang="de-DE"} (in German, [translated](http://www.systranet.com/turl/?systranuid=aHR0cC1zdHlsZWd1aWRlLmJ1bmRlc3JlZ2llcnVuZy5kZS9kZV9lbg==))
+[Design Documentation for the Federal Government](http://styleguide.bundesregierung.de/){hreflang="de-DE"} (in German)
 
 {% include 'figure' with '/images/2009/09/government_identity/germany.png'
   caption: '**Logos used by the German Federal Government:** One single (and scalable) identity system is used across all federal ministries and agencies. Shown here are logos for the Federal Goverment, the Federal Ministry of Education and Research, the Federal Supervisory Authority for Air Navigation Services and the Federal Archives.'
@@ -55,7 +55,7 @@ Last year the Dutch Government [took a similar approach][2] with it's 'Project 1
 
 The identity was created by Rotterdam based [Studio Dunbar][3] with a [custom typeface][4] ('[Rijksoverheid][5]') designed by Peter Verheul. Announced in 2008, the roll out is intended to be complete by 2011.
 
-  * [Project 1 Logo Design Guidelines](http://web.archive.org/web/20110228221006/http://rijkshuisstijl.communicatieplein.nl/){hreflang="nl-NL"} (retrieved from the Internet Archive, in Dutch)
+[Project 1 Logo Design Guidelines](http://web.archive.org/web/20110228221006/http://rijkshuisstijl.communicatieplein.nl/){hreflang="nl-NL"} (retrieved from the Internet Archive, in Dutch)
 
 {% include 'figure' with '/images/2009/09/government_identity/netherlands.png'
   caption: '**Logos for Dutch Government and ministries:** A single identity system is used across the different Dutch ministries. Shown here are the main government logo are those for ministries of Justice; Health, Welfare and Sport; Finance and Foreign Affairs.'
@@ -70,6 +70,7 @@ Although a highly visible (and initially expensive) identity programme might mee
 %}
 
 ### Design
+
 The 'HM Government' logo introduced earlier this decade could provide clues to what a unified identify might look like, with the government's coat of arms sat alongside a word-mark set in Gill Sans Light. Logos for the Ministry of Justice, Treasury, Foreign and Cabinet Offices also feature this coat of arms, whilst the Treasury and the Department for Business Innovation and Skills use Gill Sans too.
 
 {% include 'figure' with '/images/2009/09/government_identity/uk_now.png'
