@@ -49,9 +49,12 @@
 .s-linear blockquote {
   --flow-space: var(--space-block-small);
   border-inline-start: var(--border-width-thickest) solid var(--color-rule);
-  list-style-position: inside;
   margin-inline-start: 0;
   padding-inline: var(--flow-inset) var(--inset);
+}
+
+.s-linear blockquote li {
+  margin-inline-start: var(--flow-inset);
 }
 
 .s-linear blockquote + figcaption {
