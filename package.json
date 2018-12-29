@@ -12,20 +12,20 @@
   "repository": "github:paulrobertlloyd/paulrobertlloyd-v4",
   "bugs": "https://github.com/paulrobertlloyd/paulrobertlloyd-v4/issues",
   "scripts": {
-    "test": "npm-run-all test:*",
     "prebuild": "rm -rf www && mkdir -p www/assets",
-    "build": "npm run build:styles && npm run build:scripts && npm run build:files",
-    "watch": "npm-run-all --parallel serve watch:*",
-    "serve": "browser-sync start --config lib/browser-sync.config.js",
     "build:files": "eleventy --config lib/eleventy.config.js",
-    "watch:files": "eleventy --config lib/eleventy.config.js --quiet --watch",
-    "test:scripts": "xo **/*.js",
     "build:scripts": "rollup --config lib/rollup.config.js",
-    "watch:scripts": "rollup --config lib/rollup.config.js --watch",
-    "test:styles": "stylelint src/**/*.css",
     "build:styles": "postcss src/assets/styles/app.css -o www/assets/styles/app.css --config lib/postcss.config.js",
+    "build": "npm run build:styles && npm run build:scripts && npm run build:files",
+    "watch:files": "eleventy --config lib/eleventy.config.js --quiet --watch",
+    "watch:scripts": "rollup --config lib/rollup.config.js --watch",
     "watch:styles": "postcss src/assets/styles/app.css -o www/assets/styles/app.css --config lib/postcss.config.js --watch",
-    "test:markdown": "markdownlint src/**/*.md --config lib/markdownlint.json",
+    "watch": "npm-run-all --parallel serve watch:*",
+    "lint:markdown": "markdownlint src/**/*.md",
+    "lint:scripts": "xo src/**/*.js",
+    "lint:styles": "stylelint src/**/*.css",
+    "lint": "npm-run-all lint:*",
+    "serve": "browser-sync start --config lib/browser-sync.config.js",
     "debug": "DEBUG=* npx eleventy"
   },
   "dependencies": {
@@ -65,30 +65,6 @@
     "stylelint-config-standard": "^18.2.0",
     "stylelint-order": "^2.0.0",
     "xo": "^0.23.0"
-  },
-  "stylelint": {
-    "extends": "stylelint-config-standard",
-    "plugins": [
-      "stylelint-order"
-    ],
-    "rules": {
-      "at-rule-no-unknown": [
-        true,
-        {
-          "ignoreAtRules": [
-            "extend"
-          ]
-        }
-      ],
-      "declaration-empty-line-before": null,
-      "custom-property-empty-line-before": null,
-      "media-feature-name-no-unknown": null,
-      "order/order": [
-        "custom-properties",
-        "declarations"
-      ],
-      "order/properties-alphabetical-order": true
-    }
   },
   "xo": {
     "space": true,

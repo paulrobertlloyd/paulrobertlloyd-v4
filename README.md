@@ -45,7 +45,7 @@ This site is deployed automatically by Netlify whenever files are pushed to the 
 
 ## Repo structure
 
-```
+```bash
 paulrobertlloyd.com
 ├── etc
 │   └── test.conf                # Local nginx server configuration
@@ -76,6 +76,8 @@ paulrobertlloyd.com
 ├── .editorconfig                # Text editor configuration
 ├── .gitattributes               # Files tracked by Git LFS
 ├── .gitignore                   # Files not tracked by Git
+├── .markdownlintrc              # markdownlint configuration
+├── .stylelintrc                 # Stylelint configuration
 ├── netlify.toml                 # Netlify configuration
 ├── package.json                 # Node.js package manifest
 ├── package-lock.json            # Node.js package lock
