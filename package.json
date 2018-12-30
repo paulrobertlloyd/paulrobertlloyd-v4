@@ -57,7 +57,8 @@
     "rollup-plugin-node-resolve": "^4.0.0",
     "rollup-plugin-terser": "^3.0.0",
     "string-to-color": "^2.0.1",
-    "typogr": "^0.6.8"
+    "typogr": "^0.6.8",
+    "uslug": "^1.0.4"
   },
   "devDependencies": {
     "markdownlint-cli": "^0.13.0",

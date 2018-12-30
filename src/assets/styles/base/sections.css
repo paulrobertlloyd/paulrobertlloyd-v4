@@ -7,6 +7,7 @@
 /* 1. Prevent font size adjustment on orientation change in iOS. */
 html {
   block-size: 100vh;
+  scroll-behavior: smooth;
   text-size-adjust: 100%; /* 1 */
 }
 
