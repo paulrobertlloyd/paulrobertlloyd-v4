@@ -62,7 +62,7 @@
 }
 
 .s-linear pre {
-  background-color: var(--color-alpha-highest);
+  background-color: var(--color-offset);
   display: block;
   overflow-x: scroll;
   padding: var(--inset);
@@ -149,12 +149,12 @@
 }
 
 .s-linear :not(pre) code {
-  background-color: var(--color-alpha-highest);
+  background-color: var(--color-offset);
   padding: var(--inset-small-squished);
 }
 
 .s-linear samp {
-  border: var(--border-width-thin) solid var(--color-alpha-highest);
+  border: var(--border-width-thin) solid var(--color-offset);
   padding: var(--inset-small-squished);
 }
 
