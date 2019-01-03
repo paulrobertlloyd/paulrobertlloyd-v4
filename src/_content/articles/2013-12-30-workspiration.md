@@ -2,7 +2,7 @@
 title: Work inspiration with Paul Lloyd
 date: 2013-12-30
 canonical:
-  url: http://workspiration.org/paul-lloyd
+  url: https://workspiration.org/paul-lloyd
 tags:
 - source:workspiration
 - design

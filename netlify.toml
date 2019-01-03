@@ -95,7 +95,7 @@
 
 [[redirects]]
   from = "/talks/css_day_2015"
-  to = "/events/2015/06/css_day"
+  to = "/events/2015/06/css_day_2015"
 
 [[redirects]]
   from = "/talks/frontend_london_may_2015"
@@ -107,6 +107,10 @@
 
 [[redirects]]
   from = "/feed"
+  to = "/feed.xml"
+
+[[redirects]]
+  from = "/feeds/*"
   to = "/feed.xml"
 
 [[redirects]]
