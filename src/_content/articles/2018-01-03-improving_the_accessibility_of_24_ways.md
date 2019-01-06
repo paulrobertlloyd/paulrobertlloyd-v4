@@ -24,7 +24,6 @@ In the intervening years, as tools have improved and best practices have matured
 {% include 'screenshots' with screenshots
   caption: 'The 24 ways home page.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 ## A focus on accessibility

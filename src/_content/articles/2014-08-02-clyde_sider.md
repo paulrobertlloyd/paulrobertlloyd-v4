@@ -15,7 +15,6 @@ tags:
 {% include 'figure' with '/images/2014/08/clyde_sider/hampden.jpg'
   caption: 'The team I worked with during my penultimate shift outside Hampden Park.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 Any conversation regarding the Commonwealth Games will often involve comparisons with the Olympic Games held in London two years ago; a tough act to follow given their prestige and success. Organisers in Glasgow were keen to point out that their games offered a different spectacle -- an 11 day festival of sport and culture designed to promote goodwill between the 71 nations and territories that make up the Commonwealth -- and should be judged on that basis. But with a number of popular athletes unable (or unwilling) to compete, questions were raised about the validity of this multi-sport event, which [many consider an anachronism][1].

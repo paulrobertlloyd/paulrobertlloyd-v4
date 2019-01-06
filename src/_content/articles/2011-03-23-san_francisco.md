@@ -14,7 +14,6 @@ tags:
 {% include 'figure' with '/images/2011/03/san_francisco/fishermans_wharf.jpg'
   caption: 'Boats docked in Fisherman’s Wharf.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 Following five days in Austin, I ventured on to San Francisco. A quick stop arranged primarily to catch up with friends, I made sure my stay would be long enough to see all the sights I neglected to visit whilst I was a resident.

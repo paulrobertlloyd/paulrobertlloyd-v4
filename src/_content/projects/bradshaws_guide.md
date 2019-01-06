@@ -34,7 +34,6 @@ screenshots:
 ---
 {% include 'screenshots' with screenshots.homepage
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 {% include 'aside' %}

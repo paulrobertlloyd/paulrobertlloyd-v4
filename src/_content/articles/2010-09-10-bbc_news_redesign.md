@@ -65,7 +65,6 @@ Perhaps the BBC should point disgruntled users to MSNBC, as I'm sure they would 
 {% include 'figure' with '/images/2010/09/bbc_news_redesign/variations.png'
   caption: 'Different layout variations available to editors on the new BBC News website.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 One of the key features of the new design is greater flexibility for editors, and this can clearly be seen on the new home page. Where previously strict templates required a main story be followed by two other leading stories (each with an associated images regardless how useful these may be), this new flexibility allows for a number of different page layouts, headline sizes and has no image requirements. **The design is dictated by the content**, rather than the other way round. This flexibility extends to section pages -- flicking through these different pages perfectly demonstrates this new adaptability.

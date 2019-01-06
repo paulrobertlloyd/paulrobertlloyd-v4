@@ -19,7 +19,6 @@ McDonald's isn't the first place you'd expect to establish a life-long friendshi
 {% include 'figure' with '/images/2018/02/kris_benbow/coed-y-brenin.jpg'
   caption: 'Mark, Kris, Jon, myself and Lee on the Red Bull trail. Coed-y-Brenin, Wales, 2004.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 Thankfully, my memories of Kris aren't limited to him being a manager. Having completed my degree, I postponed finding a full-time job and continued working part-time at McDonald's (alongside my first attempt at freelancing and a quickly abandoned Masters degree). We both took on early morning shifts to accept and pack away deliveries, and through this fast became friends.

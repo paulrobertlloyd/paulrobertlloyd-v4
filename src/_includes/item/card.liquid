@@ -1,11 +1,11 @@
 {%- assign date_color = item.data.date | colorify -%}
 {%- assign card_accent = item.data.style.color-accent | default: date_color -%}
-{%- assign card_image_preset = card_image_present | default: 'card' -%}
 <article class="card |{% for root in item.data.vocab %} h-{{ root }}{% endfor %}" data-type="{{ item.data.type }}" style="--color-accent-light: {{ card_accent | contrastify: 'black' }}; --color-accent-dark: {{ card_accent | contrastify: 'white' }}">
 {%- if item.data.image -%}
   <div class="card__image"{% if card_image_color %} style="--image-color: var(--color-accent)"{% endif %}>
+    {%- assign image_ratio = image_ratio | default: 1.5 -%}
     {%- include 'image' with item.data.image
-      image_preset: card_image_preset
+      image_sizes: items_size
     -%}
   </div>
 {%- endif -%}

@@ -15,7 +15,6 @@ discussion: closed
 {% include 'figure' with '/images/2013/04/bradshaws_guide/iphone.png'
   caption: 'Bradshaw’s Guide being viewed on an iPhone.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 This blog has been fairly quiet over the last few months. Not because I've got a shortage of things to say, far from it. In fact, such is the backlog of posts, I'm dedicating much of my week-short break here in San Francisco to catching up.

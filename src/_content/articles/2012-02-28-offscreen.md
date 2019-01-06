@@ -13,7 +13,6 @@ tags:
 {% include 'figure' with '/images/2012/02/offscreen.jpg'
   caption: 'Cover of Issue No1. Photograph: [Kai Brach](https://www.flickr.com/photos/brakai295/6873407277/).'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 [Offscreen][1] is a new magazine edited, produced and beautifully designed by [Kai Brach][2], that focuses on the personalities behind the pixels -- in a good way.

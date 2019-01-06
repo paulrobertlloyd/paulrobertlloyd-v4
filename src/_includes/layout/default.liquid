@@ -6,7 +6,7 @@
   <meta property="og:description" name="description" content="{% if summary %}{{ summary | markdownify | strip_html | strip_newlines | strip }}{% else %}{{ app.description }}{% endif %}">
   <meta property="og:url" content="{% if url %}{{ url }}{% else %}{{ page.url | prepend: app.url | permalink }}{% endif %}">
 {%- if image -%}
-  <meta property="og:image" content="{{ image | replace_first: '/images',app.imgcdn | append: '?w=1200&h=630&crop=edges&q=90&auto=format' | escape }}">
+  <meta property="og:image" content="https://res.cloudinary.com/paulrobertlloyd/image/fetch/w_1200,h_630,c_fill,f_auto,q_auto/{{ app.url }}{{ image }}">
   <meta name="twitter:card" content="summary_large_image">
 {%- else -%}
   <meta property="og:image" content="{{ app.icon | prepend: app.url }}">

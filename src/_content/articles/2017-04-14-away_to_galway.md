@@ -16,7 +16,6 @@ tags:
 {% include 'figure' with '/images/2017/05/away_to_galway/galway_harbour.jpg'
   caption: 'Boats and swans in Galway harbour.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 I've been working with [the team at Snyk][1] since January, but when asked if I would attend a company off-site in Tel Aviv, I demurred. I find the idea of visiting Israel unsettling for many reasons, as I'm sure you can imagine. Was I declining an opportunity to challenge my ideals, or being principled to a fault? I'm not sure.
@@ -26,7 +25,6 @@ Anyway, with a week to myself -- and in much need of a break -- I headed to Galw
 {% include 'figure' with '/images/2017/05/away_to_galway/dublin_custom_house.jpg'
   caption: 'The Custom House, Dublin.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 ## Stopover in Dublin
@@ -36,7 +34,6 @@ Whenever I visit Dublin, I feel the city rub against me a little. I wonder if th
 {% include 'figure' with '/images/2017/05/away_to_galway/dublin_hapenny_bridge.jpg'
   caption: 'Ha’penny Bridge, Dublin.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 I might attribute this impression to the dreary and unimaginative mid-century architecture that lines the River Liffey, of which the newer financial district makes little effort to rectify. Perhaps I've been spoilt by London; there's something to be said for Dublin's more modest nature. The Neoclassical styling of [Heuston railway station][2] in the outskirts of the city belies this criticism, and it was from here that I would leave the following morning.
@@ -50,7 +47,6 @@ Arriving in Galway, coaches outside the station dropped off throngs of tourists,
 {% include 'figure' with '/images/2017/05/away_to_galway/cathedral_windows.jpg'
   caption: 'Stained glass windows in Galway Cathedral.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 After checking in to my hotel, I walked along the River Corrib towards the [cathedral][5]. This dominant feature of the city is a relatively recent addition, only completed in 1965. I ventured inside as the sunlight pierced though its many stained glass windows, their colourful light illuminating the otherwise grey stone columns.
@@ -60,7 +56,6 @@ I'm not sure when Galway first came to mind as a destination -- I'm sure Ed Shee
 {% include 'figure' with '/images/2017/05/away_to_galway/salthill_diving_tower.jpg'
   caption: 'Salthill diving tower.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 At its western end, the bright yellow Blackrock Diving Tower reaches into the bay, from which brave souls can be seen leaping into Galway Bay. I asked one if he knew how cold the water was: "Freezing. If you asked me to be more specific, I would say very, very freezing!"
@@ -72,7 +67,6 @@ The next day promised to be the most enjoyable of this trip, with a drive north 
 {% include 'figure' with '/images/2017/05/away_to_galway/connemara_twelve_bens.jpg'
   caption: 'Twelve Bens mountain range viewed from Diamond Hill.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 I finished my descent just as the evening began to draw in, so I decided to drive back to Galway via a section of the [Wild Atlantic Way][7], a road that hugs Ireland's ragged western coastline. With clear skies and low golden sunlight, I witnessed a saturated landscape of craggy rocks and rough scrubland punctuated by bright orange and yellow fauna.
@@ -80,7 +74,6 @@ I finished my descent just as the evening began to draw in, so I decided to driv
 {% include 'figure' with '/images/2017/05/away_to_galway/wild_atlantic_way.jpg'
   caption: 'Connemara landscape as seen from the Wild Atlantic Way.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 At Bunowen Bay a slight sandy beach sat alongside crystal clear turquoise waters. A jovial crew upon a distant fishing vessel could be heard, while just beyond them, the remains of Bunowen Castle added to the dream-like aura.
@@ -90,7 +83,6 @@ As I continued my drive, the narrow road was framed by pools of water reflecting
 {% include 'figure' with '/images/2017/05/away_to_galway/roundstone_quay.jpg'
   caption: 'The _Aisling Siobhan_ moored at Roundstone Quay.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 [1]: https://snyk.io/about

@@ -40,7 +40,6 @@ screenshots:
 ---
 {% include 'screenshots' with screenshots.article
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 {% include 'aside' %}

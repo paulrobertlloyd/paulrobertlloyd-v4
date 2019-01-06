@@ -14,7 +14,6 @@ tags:
 {% include 'figure' with '/images/2016/10/kunstmuseum_basel/extension.jpg'
   caption: 'The new building of the Kunstmuseum Basel. Photograph: [Julian Salinas](https://kmb.picturepark.com/Go/JLVo8XZu).'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 After speaking at [Smashing Conference in Freiburg][1] last month, I spent the following 6 days visiting the nearby cities of Basel and Strasbourg. Of the three, Freiburg was the most enjoyable -- a reminder of my fondness for Germany -- while Strasbourg took the prize for being the most beautiful. Basel however, felt somewhat soulless and bland, recalling memories of a previous visit to Zurich. Perhaps unsurprisingly, I spent a good portion of my time in Basel actually a couple of miles away at the [Vitra campus][2], situated across the border in Weil am Rhein, Germany.
@@ -64,7 +63,6 @@ New to me however was the work of **[Ernst Ludwig Kirchner][12]**, whose blocky 
 {% include 'figure' with '/images/2016/10/kunstmuseum_basel/hodler.jpg'
   caption: 'Ferdinand Hodler, <cite>The Dents Blanches In Champéry At The Morning Sun</cite>, 1916.',
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 Finally, I was drawn to this painting by **[Ferdinand Hodler][14]**. Again, the expressionist style appealed to me, not least its vivid palette and the contrasting highlights along the mountainside. I'd experiment with this style myself, if I painted. Hmmm, maybe I should start?

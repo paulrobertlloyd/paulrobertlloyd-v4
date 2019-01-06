@@ -54,7 +54,6 @@ The result was the iMac, and the man responsible for its design was London-born 
 {% include 'figure' with '/images/2000/04/beige_to_bondiblue/apple_imac.png'
   caption: 'The iMac.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 Key to the iMac's design was the idea of simplicity and understanding of the emotional value of objects. Steve Jobs was looking for a design that looked futuristic yet (given that newness can often site uncomfortably with consumers) a design that was vaguely familiar which would conjure up memories of something you you may have seen before but were not quite sure. The design team was looking for a design that wasn't like a computer, but also one that didn't end up looking like a television. The final result was a curvy bubble like appliance that immediately caught the world's attention.

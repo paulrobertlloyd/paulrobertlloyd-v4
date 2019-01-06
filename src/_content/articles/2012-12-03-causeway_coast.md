@@ -19,7 +19,6 @@ photoset:
 {% include 'figure' with '/images/2012/12/causeway_coast/1.jpg'
   caption: 'Causeway Coast.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 After attending [Build][1] in Belfast last month, [Chris Armstrong][2] gave [Ethan Marcotte][3], [Chris Shifflet][4] and myself a tour of the Causeway Coast which, as the name suggests, is home to the famed [Giant's Causeway][5]. Below is a selection of photos I took during our tour. [The full set can be viewed on Flickr][6].

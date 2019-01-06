@@ -18,7 +18,6 @@ tags:
 {% include 'figure' with '/images/2017/01/designing_systems_part_1/brasilia_satellite.jpg'
   caption: 'Brasília, seen from above, looks like a bird or a plane. Image: [NASA Earth Observatory](http://earthobservatory.nasa.gov/IOTD/view.php?id=43743).'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 Imagine you were asked to design a city. How might you layout its roads and major features? What shape might it take? Few people get the opportunity to address such questions, but the designers of Brasília certainly did.
@@ -40,7 +39,6 @@ Beyond acting as a symbol for a braver, more optimistic age, they believed Brasi
 {% include 'figure' with '/images/2017/01/designing_systems_part_1/brasilia_monumental_axis.jpg'
   caption: 'Brasília’s Monumental Axis, viewed from the Brasília TV Tower. Photograph: [Siemens](https://www.siemens.com/press/photo/SOAXX201027-03e).'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 However, Costa's plan contained a fundamental flaw: its fixed layout limited the amount of residential space available. As people from across the country flocked to the city in search for work, its population grew rapidly, and Brazil's deep class structures, subtly racial in origin, began to reassert themselves. The workers who had built the city were banished from it. After a long fight were they allowed to remain, but in distant satellite towns, away from the middle-classes in the city.
@@ -52,7 +50,6 @@ Reflecting on their plans, the art critic Robert Hughes said[^1]:
 {% include 'figure' with '/images/2017/01/designing_systems_part_1/wrens_london_plan.png'
   caption: 'Sir Christopher Wren’s plan for the rebuilding the City of London after the Great Fire of 1666.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 Whereas Brazil's barren central plateau served as canvas for Costa's ego, the same might be said of Sir Christopher Wren's plan for London. Ravished by the Great Fire in 1666, he envisioned the creation of a beautiful Baroque city, with wide sweeping avenues, grand Piazzas, and a street plan similar to that of Paris. Yet, London is a peculiar, unruly beast, and not even the great Sir Christopher Wren could tame it. Before he had a chance to enact his plans, residents were already rebuilding their properties, following the medieval layout as they did so.
@@ -64,7 +61,6 @@ Pick was employed by one of these, the Underground Electric Railways of London (
 {% include 'figure' with '/images/2017/01/designing_systems_part_1/punch_illustration.png'
   caption: 'An aerial street scene of London with St Paul’s Cathedral surrounded by monstrous advertising signs (Punch Magazine, 1890). Illustration: [Punch Limited](http://punch.photoshelter.com/image/I0000epvqNpMltvQ).'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 You might describe the prevailing aesthetic as eclectic, if you were being generous. The image above, published in the sartorial magazine Punch in 1890, will give you an idea of how people perceived visual communication around this period. London's transport wasn't immune. On underground platforms, signage and advertising was intermixed, with a variety of typefaces arranged in a hotchpotch manner. This not only made the network difficult to navigate, but it hardly inspired confidence in this new mode of transport either.
@@ -86,7 +82,6 @@ Johnston sought inspiration for his typeface from hand drawn letters he had seen
 {% include 'figure' with '/images/2017/01/designing_systems_part_1/pick_posters.jpg'
   caption: 'A selection of posters commissioned by Frank Pick. <cite>Brightest London is Best Reached by Underground</cite> (Horace Taylor, 1924), <cite>Trooping the Colour</cite> (Margaret Calkin-James, 1932) and <cite>For the Zoo Book to Regent’s Park</cite> (Charles Paine, 1921).'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 As UERL merged with its competitors to become the Underground Group, Pick rose through the ranks, and his influence grew. In 1927 he commissioned the architect Charles Holden to design a new head office at 55 Broadway, as well as a series of new stations for the extended Piccadilly line. By 1933, when the capital's transit companies were combined into a public body -- the London Passenger Transport Board -- Pick was appointed its chief executive.

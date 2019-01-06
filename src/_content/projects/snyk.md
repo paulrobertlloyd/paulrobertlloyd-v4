@@ -35,7 +35,6 @@ screenshots:
 ---
 {% include 'screenshots' with screenshots.projects
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 {% include 'aside' %}

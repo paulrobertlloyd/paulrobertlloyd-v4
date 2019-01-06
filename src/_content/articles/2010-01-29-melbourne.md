@@ -13,7 +13,6 @@ tags:
 {% include 'figure' with '/images/2010/01/melbourne/royal_exhibition_building.jpg'
   caption: 'Royal Exhibition Building, Melbourne.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 Melbourne's status as Australia's cultural and sporting capital is reflected by two imposing sights in the city -- the [Melbourne Cricket Ground][1] (MCG) and the [Shrine of Remembrance][2] -- both backed up by an amazing array of national, state and metropolitan galleries, performance venues and sports stadia. The extensive tram system is just as impressive, and gives you an insight as to how other cities may have looked had they not been so eager to turn their streets over to the motor vehicle.

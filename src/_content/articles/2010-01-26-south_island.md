@@ -13,7 +13,6 @@ tags:
 {% include 'figure' with '/images/2010/01/south_island/overlander.jpg'
   caption: 'The Overlander during its lunchtime stop at National Park railway station.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 Having arranged my flights into and out of New Zealand before I had decided upon a full itinerary -- departing from Wellington rather than an airport further south -- meant I had little time to really explore the South Island.
@@ -35,7 +34,6 @@ Picton is a small yet picturesque town at the foot of Queen Charlotte Sound, and
 {% include 'figure' with '/images/2010/01/south_island/queen_charlotte_sound.jpg'
   caption: 'Queen Charlotte Sound.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 The next day, after grabbing some brunch in one of the many cafes that line the high street (taking the opportunity to sample another [Flat White][6] to which I had now become accustomed), I caught an Intercity coach heading west to Nelson where I would be spending Christmas.
@@ -47,7 +45,6 @@ On first glance, Nelson didn't seem to have much to offer, however further inspe
 {% include 'figure' with '/images/2010/01/south_island/christ_church_cathedral.jpg'
   caption: 'Christ Church Cathedral, Nelson.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 Nelson also claims to be geographical centre of New Zealand. With an appropriate marker at the top of a small hill next to the Botanic Gardens, it commands beautiful views across the city, Tasman Bay and the surrounding area, as well as the 13km long thin stretch of rocky substrate -- [the Boulder Bank][8] -- which settled just off the coastline.
@@ -57,7 +54,6 @@ There is a whole other side to Nelson that could easily be missed should you not
 {% include 'figure' with '/images/2010/01/south_island/tahunanui_beach.jpg'
   caption: 'Sunset over Tahunanui Beach, with the Abel Tasman National Park in the distance.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 Perhaps the highlight of my time in Nelson (and possibly my entire time in New Zealand) was watching the sun set over Abel Tasman National Park from my distant view point on Tahunanui Beach. The photo above -- as is usually the case -- fails to capture the true spectacle, yet thankfully the memories survive. This beautiful vista was perhaps only matched by the day I actually spent in the park. Kayaking around a small part of the coastline meant I could see much of its wildlife close up, and was a real treat.

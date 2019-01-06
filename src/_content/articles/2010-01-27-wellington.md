@@ -13,7 +13,6 @@ tags:
 {% include 'figure' with '/images/2010/01/wellington/cable_car.jpg'
   caption: 'The Wellington Cable Car takes passengers from Lambton Quay in the CBD to the suburb of Kelburn, and the Wellington Botanic Garden.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 From Nelson I reluctantly headed back to Wellington, cursing myself for not having an itinerary that continued south. However, Wellington will remain the most memorable city of this trip, although perhaps not entirely for the right reasons.
@@ -27,7 +26,6 @@ However, if you look closely, you can still find a number of fine examples of th
 {% include 'figure' with '/images/2010/01/wellington/parliament.jpg'
   caption: 'The Beehive and Parliament House, Wellington.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 As you can tell, most of my time was consumed by the built environment, but I did take time to tour many of the city's other attractions such as the Cable Car and Botanic Gardens. Of particular interest were the [Parliament Buildings][4]. Unsurprisingly this complex is comprised of three buildings built to very different and distinct architectural styles, yet unlike the rest of the city, they sit wonderfully well next to each other.

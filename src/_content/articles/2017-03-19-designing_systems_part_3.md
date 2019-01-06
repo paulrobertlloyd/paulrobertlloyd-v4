@@ -15,7 +15,6 @@ tags:
 {% include 'figure' with '/images/2017/03/designing_systems_part_3/brasilia_motifs.jpg'
   caption: 'Common architectural motifs can be seen across many of Brasília’s civic buildings.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 When I visited Brasilìa in 2011, I observed the [repeating architectural motifs][1] used by Oscar Niemeyer across his different signature buildings. Common themes included:
@@ -202,7 +201,6 @@ Let's return to Brasília. While Niemeyer's buildings are gorgeous, they suffer
 {% include 'figure' with '/images/2017/03/designing_systems_part_3/brasilia_national_congress.jpg'
   caption: 'The National Congress building in Brasilìa. Photograph: [Juniorseropedica](https://commons.wikimedia.org/wiki/File:Congresso_nacional_Bras%C3%ADlia.jpg).'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 Costa's layout suffers similarly. Along the city's main axis exist large areas of green space. I'm sure these satisfied an objective of providing open areas for people to relax in, yet their simplistic placement ignores the fact that to reach them you need to cross six lanes of traffic.

@@ -17,7 +17,6 @@ discussion: closed
 {% include 'figure' with '/images/2010/06/a_new_library_for_birmingham/artists_impression_1.jpg'
   caption: 'Artists impression of the new Library of Birmingham.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 Having looked fondly on previous visits to Birmingham Central Library, it was with much excitement that I returned again on Saturday, hoping to find some reference material for a forthcoming post.

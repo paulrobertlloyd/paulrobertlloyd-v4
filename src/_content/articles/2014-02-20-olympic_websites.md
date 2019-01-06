@@ -16,7 +16,6 @@ tags:
 {% include 'figure' with '/images/2014/02/olympic_websites/anastasiya_kuzmina.jpg'
   caption: 'Gold medalist Anastasiya Kuzmina of Slovakia celebrates during the medal ceremony for the Biathlon Women’s 7.5 km Sprint.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 > When it comes to web design it's rare that all elements--functionality, clarity of information, and subjective beauty--come together to create a result that is widely admired, recognized or lauded in the same vein as anything resembling the likes of Saul Bass' AT&T logo, or Susan Kare's icons for the original Mac OS.
@@ -42,7 +41,6 @@ While much publicity is poured over these logos and emblems, they play a support
 {% include 'figure' with '/images/2014/02/olympic_websites/stephen_kiprotich.jpg'
   caption: 'Uganda’s Stephen Kiprotich crosses the finish line to win the men’s marathon in the London 2012 Olympic Games. The wordmark features but the logo for those Games does not.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 In that respect, Sochi's stark typographic mark makes a lot of sense. Featuring no culturally symbolic motifs, 'the first digital Games emblem in Olympic history' is signified by the inclusion of the .ru top level domain. According to [the press release][14]:

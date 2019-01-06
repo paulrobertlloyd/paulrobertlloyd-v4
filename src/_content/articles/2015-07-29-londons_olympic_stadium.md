@@ -16,7 +16,6 @@ tags:
 {% include 'figure' with '/images/2015/07/londons_olympic_stadium/2012.jpg'
   caption: 'The Olympic Stadium nearing its completion in 2012.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 The history of the Olympics is not only one of remarkable sporting achievement, but acts of incredible artistry too. Over nearly 120 years, organisers have commissioned beautiful works of graphic art -- Lance Wyman's [celebrated identity for Mexico '68][1] and Otl Aicher's [timeless design for Munich '72][2] immediately spring to mind -- and also staged captivating acts of theatre. Zhang Yimou's immense [opening ceremony in Beijing][3] and Danny Boyle's more modest but no less emotional [tribute to British invention and social progress][4] in London, are just two recent examples. As for interactive design, well [that's another story][5].
@@ -32,7 +31,6 @@ Other hosts have not been so thoughtful. So complex was the design of Montreal's
 {% include 'figure' with '/images/2015/07/londons_olympic_stadium/montreal_stade_olympique.jpg'
   caption: 'The distinctive shape of the Olympic Stadium in Montreal, its observation tower a constant reminder to residents how much it cost to build. Photograph: [Maciek Lulko](https://www.flickr.com/photos/lulek/16231814362).'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 A few cities have bucked this trend -- [Los Angeles Memorial Coliseum][11] and Berlin's [Olympiastadion][12], both built early last century, remain in use today -- but modern stadiums, such as those in [Beijing][13], [Sydney][14] and [Barcelona][15], struggle to find tenants or attract huge audiences. Athen's venues, another victim of that country's wider economic tragedy, [stand as white elephants, neglected and dilapidated][16].
@@ -58,7 +56,6 @@ Two events conspired against this vision.
 {% include 'figure' with '/images/2015/07/londons_olympic_stadium/jessica_ennis_super_saturday.jpg'
   caption: 'Jessica Ennis celebrates winning the women’s heptathlon during ’Super Saturday’. Photograph: [Al King](https://www.flickr.com/photos/kinglomo/7716826098).'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 ## Rectangle pitches, oval tracks
@@ -78,7 +75,6 @@ With previous legacy plans discarded, the Mayor's London Legacy Development Corp
 {% include 'figure' with '/images/2015/07/londons_olympic_stadium/2015.jpg'
   caption: 'An imposing new roof hangs above the seating bowl that was meant to be temporary. Photograph: [Andy Hall](http://www.theguardian.com/sport/gallery/2015/jul/18/exclusive-pictures-inside-west-hams-new-home).'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 Attending [a seminar at the Institution of Structural Engineers][23], I learnt about the design of this new roof in *great* detail. The original installation -- intended not to shelter spectators, but to ensure records set on the track remained legal and not wind assisted -- could conceivably have been doubled in size to cover seats in lower bowl. However, to cover the retractable seats, the roof neded to reach much, much further. To achive this, they constructed the largest spanning tensile roof in the world. Weighing almost 6000 tonnes, existing supports needed to be strengthened and replaced to carry this additional load.
@@ -106,7 +102,6 @@ This takes place within a broader context, one in which similar mistakes continu
 {% include 'figure' with '/images/2015/07/londons_olympic_stadium/tokyo_olympic_stadium_proposal.jpg'
   caption: 'Zaha Hadid’s controversial design for Tokyo’s new Olympic Stadium. Render: © [Zaha Hadid Architects](http://www.zaha-hadid.com/architecture/new-national-stadium/).'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 Meanwhile in Europe, with the continent emerging from a deep recession, there are signs that organisers are considering others means of hosting events without erecting costly new venues. The Commonwealth Games in Glasgow saw the national football stadium at Hamden Park temporally converted to an athletics venue; [the raised field sat upon a series of stilts][27], covering the lower tier of seats is remarkably similar to the [compromise arrived at for the new Wembley stadium][28]. Euro 2020 will be hosted across multiple nations as a one-off event to celebrate the 60th birthday of UEFA. This will be held in 13 host cities, with all but three using existing stadiums (Saint Petersburg's having been built for the 2018 World Cup).

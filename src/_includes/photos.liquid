@@ -1,12 +1,10 @@
 <figure class="align-{{ alignment | default: 'none' }}">
   <div class="photos" style="--columns: {{ columns | default: photos.size }}">
   {%- for photo in photos -%}
-    {%- assign image_id = forloop.index | prepend: 'photo-' -%}
     {%- include 'image' with photo.url
       preset: image_preset
       alt: photo.alt
       class: image_class
-      id: image_id
     -%}
   {%- endfor -%}
   </div>

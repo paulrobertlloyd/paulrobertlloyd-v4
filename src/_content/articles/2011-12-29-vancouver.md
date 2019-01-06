@@ -12,7 +12,6 @@ tags:
 {% include 'figure' with '/images/2011/12/vancouver/marina.jpg'
   caption: 'Vancouver waterfront from Stanley Park.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 Sat in the front seat of a [Saltspring Air][1] float plane, I enjoyed breathtaking views of Vancouver as I descended into its harbour, landing just in front of Canada Place. For such a densely populated city, I felt I'd arrived somewhere small and friendly, certifying [its status][2] as one of the world's most liveable cities.

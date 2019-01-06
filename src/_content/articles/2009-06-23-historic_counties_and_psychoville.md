@@ -16,7 +16,6 @@ discussion: closed
 {% include 'figure' with '/images/2009/06/historic_counties_and_psychoville/letter.jpg'
   caption: 'Scene from Psychoville.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 I've long been interested in the popular geography of Great Britain, but also annoyed by the continual government reorganisation that seeks to confuse it. The passing of the [Local Government Act of 1888][1] established county councils (or 'administrative counties') based upon the boundaries of existing [historic Counties][2] in England and Wales, but subsequent legislation has been far more destructive.

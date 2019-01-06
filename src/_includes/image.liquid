@@ -1,12 +1,13 @@
 {%- assign preset = image_preset | default: 'default' -%}
-{%- assign setting = srcsets[preset] -%}
-{%- assign sizes = false -%}
+{%- assign setting = srcsets.presets[preset] -%}
+{%- assign sizes = image_sizes | default: setting.sizes -%}
 {%- assign src = image -%}
 {%- assign srcset = false -%}
 {%- unless image contains 'svg' -%}
-  {%- assign path = image | replace_first: '/images',app.imgcdn -%}
-  {%- assign sizes = setting.sizes -%}
-  {%- capture src %}{{ path }}?w={{ setting.sources[0].width | default: 'auto' }}&h={{ setting.sources[0].height | default: 'auto' }}&q={{ setting.sources[0].quality | default: '100' }}&crop={{ setting.crop | default: 'edges' | replace: ',','%2C' }}&auto=format{% endcapture -%}
-  {%- capture srcset %}{% for source in setting.sources %}{{ path }}?w={{ source.width | default: 'auto' }}&h={{ source.height | default: 'auto' }}&q={{ source.quality | default: '100' }}&crop={{ setting.crop | default: 'edges' | replace: ',','%2C' }}&auto=format {{ source.width }}w{% unless forloop.last %}, {% endunless%}{% endfor %}{% endcapture -%}
+  {%- assign base = 'https://res.cloudinary.com/paulrobertlloyd/image/fetch' -%}
+  {%- assign public_id = image | prepend: app.url -%}
+  {%- capture transformations %}{% if image_ratio %}ar_{{ image_ratio }},{% endif %}c_{{ setting.crop }},q_{{ setting.quality }},f_auto{% endcapture -%}
+  {%- capture src %}{{ base }}/{{ transformations }},w_{{ setting.width }}/{{ public_id }}{% endcapture -%}
+  {%- capture srcset %}{% for width in srcsets.widths %}{{ base }}/{{ transformations }},w_{{ width }}/{{ public_id }} {{ width }}w{% unless forloop.last %}, {% endunless%}{% endfor %}{% endcapture -%}
 {%- endunless -%}
-<img src="{{ src }}" alt="{{ alt }}"{% if id %} id="{{ id }}"{% endif %}{% if image_class %} class="{{ image_class }}"{% endif %}{% if srcset %} data-preset="{{ preset }}" srcset="{{ srcset }}"{% endif %}{% if sizes %} sizes="{{ sizes }}"{% endif %}{% if setting.sources[0].width %} width="{{ setting.sources[0].width }}"{% endif %}{% if setting.sources[0].height %} height="{{ setting.sources[0].height }}"{% endif %} lazyload="on">
+<img{% if image_class %} class="{{ image_class }}"{% endif %} src="{{ src }}"{% if srcset %} srcset="{{ srcset }}"{% endif %} sizes="{{ sizes }}" width="{{ setting.width }}" alt="{{ alt }}" lazyload="on">

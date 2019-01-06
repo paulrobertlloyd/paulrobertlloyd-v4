@@ -1,111 +1,22 @@
 {
-  "default": {
-    "sources": [{
+  "widths": [320, 640, 960, 1280, 1600, 1920],
+  "presets": {
+    "default": {
+      "crop": "fill",
+      "sizes": "100vw",
       "width": 720,
-      "quality": 80
-    },{
-      "width": 1080,
-      "quality": 80
-    }]
-  },
-  "thumbnail": {
-    "sizes": "20vw",
-    "sources": [{
-      "width": 240,
-      "quality": 80
-    },{
-      "width": 360,
-      "quality": 80
-    }]
-  },
-  "supporting": {
-    "sizes": "50vw",
-    "sources": [{
-      "width": 480,
-      "quality": 80
-    },{
-      "width": 720,
-      "quality": 80
-    },{
-      "width": 1080,
-      "quality": 80
-    }]
-  },
-  "showcase": {
-    "sources": [{
-      "width": 720,
-      "quality": 80
-    },{
-      "width": 1080,
-      "quality": 80
-    },{
-      "width": 1620,
-      "quality": 80
-    }]
-  },
-  "showcase-anamorphic": {
-    "crop": "none",
-    "sources": [{
-      "width": 720,
-      "height": 300,
-      "quality": 80
-    },{
-      "width": 1080,
-      "height": 450,
-      "quality": 85
-    },{
-      "width": 1620,
-      "height": 675,
-      "quality": 90
-    }]
-  },
-  "card": {
-    "sizes": "16rem",
-    "sources": [{
-      "width": 360,
-      "height": 240,
-      "quality": 80
-    },{
-      "width": 540,
-      "height": 360,
-      "quality": 80
-    },{
-      "width": 810,
-      "height": 540,
-      "quality": 80
-    }]
-  },
-  "card-square": {
-    "sizes": "16rem",
-    "sources": [{
-      "width": 360,
-      "height": 360,
-      "quality": 80
-    },{
-      "width": 540,
-      "height": 540,
-      "quality": 80
-    },{
-      "width": 810,
-      "height": 810,
-      "quality": 80
-    }]
-  },
-  "photo-simple": {
-    "crop": "faces,edges",
-    "sizes": "12rem",
-    "sources": [{
-      "width": 320,
-      "height": 320,
-      "quality": 80
-    },{
-      "width": 480,
-      "height": 480,
-      "quality": 80
-    },{
-      "width": 960,
-      "height": 960,
-      "quality": 80
-    }]
+      "quality": "auto"
+    },
+    "supporting": {
+      "sizes": "50vw",
+      "width": 480
+    },
+    "card": {
+      "width": 360
+    },
+    "thumbnail": {
+      "sizes": "20vw",
+      "width": 240
+    }
   }
 }

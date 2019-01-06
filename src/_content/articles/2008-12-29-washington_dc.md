@@ -45,7 +45,6 @@ You are however allowed to take photos of the [9/11 memorial][8], in which the 1
 {% include 'figure' with '/images/2008/12/washington_dc/pentagon_memorial.jpg'
   caption: 'The Pentagon Memorial.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 ## Architecture
@@ -57,7 +56,6 @@ This pseudo-grandeur became a bit tiresome after a while, which is possibly why 
 {% include 'figure' with '/images/2008/12/washington_dc/dulles.jpg'
   caption: 'The main terminal building at Washington Dulles International Airport.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 I was particularly impressed by the city's [Metro][11] system. Built towards the end of the 1970's, it was able to learn from those systems that had gone before it; being built largely at the same time, means it has stations with a consistent design and layout. A key feature are lights that line the platform edges, and flash when trains are approaching. Each station is illuminated by fluorescent lighting hidden behind platforms offset from the vaulted walls, and from the top of information pylons centred along the length of the platform, resulting in a well lit, but calming and soft environment.

@@ -15,7 +15,6 @@ Friday saw the start of this years SXSW interactive, film and music festivals in
 {% include 'figure' with '/images/2009/03/nothing_green_about_sxsw.jpg'
   caption: 'A sea of swag bags from SXSW 2007. Photograph: [Eric Hodel](https://www.flickr.com/photos/drbrain/421910167/)'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 These are just some of the thousands of 'Big Bags' offered to each conference attendee, and whilst you don't have to grab one, you are heavily encouraged to do so. As described by Allen Stern in [this video at Center Networks][2], this years interactive Big Bag contains:

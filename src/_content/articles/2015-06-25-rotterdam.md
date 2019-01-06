@@ -19,7 +19,6 @@ photos:
 {% include 'figure' with '/images/2015/06/rotterdam/centraal_station.jpg'
   caption: 'Rotterdam Centraal Station.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 After [speaking at CSS Day in Amsterdam][1], I decided to head back to Brighton via a few cities in Europe's low countries.
@@ -43,7 +42,6 @@ Buildings here include [Maastoren][4], the tallest building in the Benelux regio
 {% include 'figure' with '/images/2015/06/rotterdam/erasmusbrug.jpg'
   caption: 'Erasmusbrug or ’The Swan’.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 Other parts of the city are more human scaled, although even the Cool district, with its tree lined streets, are framed by the sight of tower blocks in the distance. The location of many restaurants and bars, it was here that I decided that this is a very easy city to live in -- although the delicious coffee and a Chorizo and Cheese tosti from [Hooper Coffee][7] may have swayed me!
@@ -71,7 +69,6 @@ Another series of distinctive buildings can be found around Blaak railway statio
 {% include 'figure' with '/images/2015/06/rotterdam/cube_houses.jpg'
   caption: 'Piet Blom’s Cube Houses.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 Envisaged as an urban forest, this series of 40 cubes, each tilted at an angle of 45 degrees and perched upon hexagonal concrete trunks, allows residents to feel connected both to the street below, and the sky above. A show cube is open to the public, so I couldn't resist peeking inside. As suspected, these homes are demonstrative of form over function; dangerously steep stairs lead up to a space divided into three floors, with small rooms constrained by steeply slopping ceilings.

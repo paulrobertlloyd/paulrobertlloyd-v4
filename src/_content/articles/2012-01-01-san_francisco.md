@@ -12,7 +12,6 @@ tags:
 {% include 'figure' with '/images/2012/01/san_francisco/ocean_beach.jpg'
   caption: 'Sun setting over Ocean Beach.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 For the final leg of my [North American tour][1] I transcended the west coast on Amtrak's [Coast Starlight][2]. Getting to San Francisco wouldn't be much fun, boarding a coach in Vancouver at a ridiculous hour in the morning and dealing with an offensive US border guard before arriving at a closed King Street station in Seattle sounding its fire alarm. Only once I'd boarded the train could I sit back and relax. Upon leaving Seattle, a low lying sun bathed the carriage with the soft morning light. Bliss.

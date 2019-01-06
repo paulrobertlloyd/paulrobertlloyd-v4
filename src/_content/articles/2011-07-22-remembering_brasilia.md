@@ -32,7 +32,6 @@ Looking west, I spotted the distinctive [JK Memorial][4]. I decided to get there
 {% include 'figure' with '/images/2011/07/remembering_brasilia/dom_bosco.jpg'
   caption: 'The breathtaking interior of Santuário Dom Bosco.'
   alignment: 'bleed'
-  image_preset: 'showcase'
 %}
 
 The [Catedral Metropolitana][6] often gets the most attention, but on reading about [Santuário Dom Bosco][7] I knew this would be too good to miss. Strikingly simple from the outside; a large square building covered in beautiful blue and purple stained glass, its interior -- adorned with a large central hanging chandelier -- left me entirely breathless. This may be the most impressive building I've ever seen.

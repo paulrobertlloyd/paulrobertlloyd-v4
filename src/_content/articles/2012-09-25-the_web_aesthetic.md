@@ -37,7 +37,7 @@ _This article is [also available in Italian][it-IT]{hreflang="it-IT" rel="altern
 {% include 'figure' with '/images/2012/09/the_web_aesthetic/illustration.png'
   caption: 'Illustration: [Kevin Cornell](http://alistapart.com/authors/c/kevincornell) for A List Apart.'
   alignment: 'bleed'
-  image_preset: 'showcase-anamorphic'
+  image_ratio: 2.25
 %}
 
 {% include 'quote' with 'It is the nature of the web to be flexible, and it should be our role as designers and developers to embrace this flexibility, and produce pages which, by being flexible, are accessible to all.'

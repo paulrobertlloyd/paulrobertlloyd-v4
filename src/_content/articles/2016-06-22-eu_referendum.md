@@ -14,7 +14,7 @@ tags:
 {% include 'figure' with '/images/2016/06/eu_referendum.jpg'
   caption: 'Pastiche of Michelangelo’s <cite>The Creation of Adam</cite>, a modern reworking inspired by the same exercise I carried out twenty years ago.'
   alignment: 'bleed'
-  image_preset: 'showcase-anamorphic'
+  image_ratio: 2.25
 %}
 
 Tomorrow is the referendum on Britain's membership of the European Union. I've wanted to write about this for some time, but I've delayed and delayed in the hope I could offer a tidy summary and clear reasoning behind my decision to remain.
