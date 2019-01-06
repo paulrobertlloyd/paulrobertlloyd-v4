@@ -6,7 +6,7 @@
 {%- unless image contains 'svg' -%}
   {%- assign base = 'https://res.cloudinary.com/paulrobertlloyd/image/fetch' -%}
   {%- assign public_id = image | prepend: app.url -%}
-  {%- capture transformations %}{% if image_ratio %}ar_{{ image_ratio }},{% endif %}c_{{ setting.crop }},q_{{ setting.quality }},f_auto{% endcapture -%}
+  {%- capture transformations %}{% if image_ratio %}ar_{{ image_ratio }},{% endif %}c_fill,q_auto,f_auto{% endcapture -%}
   {%- capture src %}{{ base }}/{{ transformations }},w_{{ setting.width }}/{{ public_id }}{% endcapture -%}
   {%- capture srcset %}{% for width in srcsets.widths %}{{ base }}/{{ transformations }},w_{{ width }}/{{ public_id }} {{ width }}w{% unless forloop.last %}, {% endunless%}{% endfor %}{% endcapture -%}
 {%- endunless -%}
