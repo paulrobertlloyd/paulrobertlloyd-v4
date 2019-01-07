@@ -10,18 +10,19 @@
 /* Float alignment */
 .align-start,
 .align-end {
-  inline-size: 33%;
+  inline-size: var(--inline-size, 33%);
   margin-block-end: var(--space-block-xsmall);
+  min-inline-size: 6rem;
 }
 
 .align-start {
   float: inline-start;
-  margin-inline-end: var(--grid-column-gap);
+  margin-inline-end: var(--space-block-small);
 }
 
 .align-end {
   float: inline-end;
-  margin-inline-start: var(--grid-column-gap);
+  margin-inline-start: var(--space-block-small);
 }
 
 /* Bleed alignment */
