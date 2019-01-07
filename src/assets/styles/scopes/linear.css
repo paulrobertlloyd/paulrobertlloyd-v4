@@ -148,6 +148,10 @@
   outline-offset: calc(var(--border-width-thin) * -1);
 }
 
+.s-linear img[src$=".svg"] {
+  outline: 0;
+}
+
 .s-linear :not(pre) code {
   background-color: var(--color-offset);
   padding: var(--inset-small-squished);
