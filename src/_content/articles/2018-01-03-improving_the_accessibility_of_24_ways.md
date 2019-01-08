@@ -1,5 +1,5 @@
 ---
-title: Improving the Accessibility of 24 ways
+title: Improving the Accessibility of 24 ways
 date: 2018-01-03
 canonical:
   url: https://css-tricks.com/improving-accessibility-24-ways/

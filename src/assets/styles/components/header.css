@@ -8,6 +8,7 @@
   @extend %title;
 
   margin-block-end: var(--space-block-small);
+  max-inline-size: var(--line-measure);
 }
 
 .header__summary {
