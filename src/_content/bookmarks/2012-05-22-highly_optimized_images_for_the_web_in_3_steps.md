@@ -8,6 +8,6 @@ tags:
 ---
 Pascal Altena:
 
-> In this article, I'll cover the techniques I use to make images load fast on a webpage.
+> In this article, I’ll cover the techniques I use to make images load fast on a webpage.
 
 A beautifully succinct yet informative article that begs to printed out and stuck on the wall next to every web developer.

@@ -1,5 +1,5 @@
 ---
-title: 'Wyndham''s Theatre'
+title: Wyndham’s Theatre
 url: http://www.wyndhamstheatre.co.uk
 address:
   street-address: Charing Cross Road

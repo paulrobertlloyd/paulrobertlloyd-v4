@@ -38,7 +38,7 @@ For the first Friday of September of each year from 2005 until 2015, Brighton pl
 
 ## 2010: Design and Creativity
 
-The [theme for 2010][1] was fairly broad so I decided to make a feature of the speakers. The design referred back to an original dConstruct brand asset -- the opened cube net -- which was placed in different positions across the site to affect the layout of each page. Developed before responsive had entered the lexicon of web design, this was one of the first sites to make use of media queries, with a mobile-orientated layout delivered to users viewing the site on smaller screens.
+The [theme for 2010][1] was fairly broad so I decided to make a feature of the speakers. The design referred back to an original dConstruct brand asset – the opened cube net – which was placed in different positions across the site to affect the layout of each page. Developed before responsive had entered the lexicon of web design, this was one of the first sites to make use of media queries, with a mobile-orientated layout delivered to users viewing the site on smaller screens.
 
 ### A greener badge
 

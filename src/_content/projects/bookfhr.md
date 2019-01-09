@@ -33,7 +33,7 @@ screenshots:
 
 [BookFHR][1] provides discounts on airport hotels, parking, lounges and other travel services in the UK.
 
-During a short engagement working alongside Richard Rutter at Clearleft, I helped improve the overall user experience, with particular focus on search and booking flows. I also provided a more consistent visual treatment for the site, and took the opportunity to refine the company's logo.
+During a short engagement working alongside Richard Rutter at Clearleft, I helped improve the overall user experience, with particular focus on search and booking flows. I also provided a more consistent visual treatment for the site, and took the opportunity to refine the company’s logo.
 
 [1]: https://www.bookfhr.com
 

@@ -1,5 +1,5 @@
 ---
-title: Duke of York's Picturehouse
+title: Duke of York’s Picturehouse
 address:
   street-address: Preston Road
   locality: Brighton

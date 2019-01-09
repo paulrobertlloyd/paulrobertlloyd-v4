@@ -9,7 +9,7 @@ remarks:
   content: |
     Great to read about your reflections on what was indeed a superb summer. My Dad was a Games Maker too (first aid) and I managed to get to a few events, mostly at the Paralympics.
 
-    I'd just like to say the Last Mile volunteers made the experience fantastic. The energy and good vibe you all gave off before we entered the stadium was brilliant. And my 4 year old loved high-fiving as many games makers as he could meet.
+    I’d just like to say the Last Mile volunteers made the experience fantastic. The energy and good vibe you all gave off before we entered the stadium was brilliant. And my 4 year old loved high-fiving as many games makers as he could meet.
 
-    It's great to have such an incredibly positive event in Britain, proves we don't have to be a grumpy weather-obsessed nation all the time!
+    It’s great to have such an incredibly positive event in Britain, proves we don’t have to be a grumpy weather-obsessed nation all the time!
 ---

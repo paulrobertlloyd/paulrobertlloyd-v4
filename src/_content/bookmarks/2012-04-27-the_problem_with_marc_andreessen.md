@@ -9,6 +9,6 @@ tags:
 ---
 Felix Salmon:
 
-> Andreessen's entire fortune has been built on the greater-fool theory: if you build something trendy enough, there's probably going to be a huge lumbering company out there somewhere willing to overpay for it.
+> Andreessen’s entire fortune has been built on the greater-fool theory: if you build something trendy enough, there’s probably going to be a huge lumbering company out there somewhere willing to overpay for it.
 
 I know many who would agree with this assessment.

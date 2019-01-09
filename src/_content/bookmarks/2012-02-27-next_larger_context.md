@@ -8,4 +8,4 @@ tags:
 ---
 Eliel Saarinen:
 
-> Always design a thing by considering it in its next larger context -- a chair in a room, a room in a house, a house in an environment, an environment in a city plan.
+> Always design a thing by considering it in its next larger context – a chair in a room, a room in a house, a house in an environment, an environment in a city plan.

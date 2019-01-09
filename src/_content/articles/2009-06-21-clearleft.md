@@ -21,19 +21,19 @@ This month saw me become the ninth member of the Brighton based web agency [Clea
 
 My relationship with Clearleft goes back to 2006 when they were contracted by my former employer [Ning][2] to design a video sharing application. This was against some pretty rigid requirements, not least a set of style guidelines created by yours truly. Thankfully they liked what they saw and this placed me firmly on the companies radar.
 
-Upon leaving Ning I decided to embrace the world of freelancing, with a number of US-based projects lined up thanks to a friend in the Bay Area. Freelancing was certainly a rewarding experience -- knowing that every penny I earned was down to my own hard work was definitely a kick. A move to the south coast allowed me to start freelancing for Clearleft, and I was soon working on high-profile projects for companies like Gumtree and Mozilla.
+Upon leaving Ning I decided to embrace the world of freelancing, with a number of US-based projects lined up thanks to a friend in the Bay Area. Freelancing was certainly a rewarding experience — knowing that every penny I earned was down to my own hard work was definitely a kick. A move to the south coast allowed me to start freelancing for Clearleft, and I was soon working on high-profile projects for companies like Gumtree and Mozilla.
 
 I was planning to use my [trip around Europe][3] in May to decide which direction to take next. I enjoyed freelancing, but was eager to do more local (perhaps agency) work rather than long-term contracts, if only to keep work within daylight hours!
 
-Shortly before leaving for Europe, [Andy][4] asked if I would like to join the company full time. I'd been offered the opportunity to join Clearleft a few times before, but now everything felt right -- no doubt helped by having already worked alongside the team.
+Shortly before leaving for Europe, [Andy][4] asked if I would like to join the company full time. I’d been offered the opportunity to join Clearleft a few times before, but now everything felt right — no doubt helped by having already worked alongside the team.
 
-Without trying to sound too corny, I'm not sure I would have given up freelancing for any other company.
+Without trying to sound too corny, I’m not sure I would have given up freelancing for any other company.
 
 I love that they are a small yet multi-disciplined agency. Two well-respected conferences in the shape of [UX London][5] and [dConstruct][6], [workshops][7], a [usability testing application][8] and an internship programme demonstrate a desire not only to try different things, but contribute to the wider community.
 
 I love that [the][4] [three][9] [founders][10] continue to innovate and guide the industry, whilst encouraging others in the company to do so as well: be it writing articles, running local events, or speaking at popular conferences. I have a lot to live up to!
 
-I'm amazed it took me this long to say yes.
+I’m amazed it took me this long to say yes.
 
 [1]: http://clearleft.com/
 [2]: http://ning.com/

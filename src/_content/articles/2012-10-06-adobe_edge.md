@@ -22,11 +22,11 @@ Recent acquisitions [Typekit][7] and [PhoneGap][8] are also brought under the Ed
 
 Craig Grannell at <cite>.net magazine</cite> had [developers provide their thoughts][9] on this new suite, and his article concludes with a quote from me. The entirety of my contribution was as follows:
 
-> With the primacy of its Flash platform coming to end, it looks like Adobe has started to point its ship in the right direction. These new Edge products look promising, although I'm sure there's much to scrutinise in terms of the code they output. More important however, is the work Adobe is doing to develop and promote new CSS properties, bringing valuable insight regarding page layout and image compositing to the W3C standards process.
+> With the primacy of its Flash platform coming to end, it looks like Adobe has started to point its ship in the right direction. These new Edge products look promising, although I’m sure there’s much to scrutinise in terms of the code they output. More important however, is the work Adobe is doing to develop and promote new CSS properties, bringing valuable insight regarding page layout and image compositing to the W3C standards process.
 >
 > My only concern is the assumption made, both in the design of these products and with their marketing, that designing for WebKit is the same as designing for the web. The community should push back against such notions, and encourage Adobe to pursue best-practices, and create software that embraces the full gamut of browsers used to access the web.
 >
-> Still, it's gratifying to see Adobe building software for creatives again, rather than riding on the coat-tails of its legacy software titles. I remain hesitant though; Adobe maintains a monopoly over creative software, and those traditional products are still overpriced and under-loved, most notably with regards to Fireworks. Having grown uncomfortable with Adobe's ways in recent years, it will take some time for them to convince me they have really changed for the better.
+> Still, it’s gratifying to see Adobe building software for creatives again, rather than riding on the coat-tails of its legacy software titles. I remain hesitant though; Adobe maintains a monopoly over creative software, and those traditional products are still overpriced and under-loved, most notably with regards to Fireworks. Having grown uncomfortable with Adobe’s ways in recent years, it will take some time for them to convince me they have really changed for the better.
 
 [1]: http://html.adobe.com/edge
 [2]: http://html.adobe.com/edge/animate

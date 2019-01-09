@@ -55,7 +55,7 @@ I was asked to conduct an expert review of some earlier designs that had been pr
 
 With these findings uncovered, I created a set of detailed visual design compositions. I evolved the existing design language, allowing it to convey a higher degree of user activity, while creating an identity that would stand out among popular mainstream networks.
 
-{% include 'quote' with 'Paul is fantastic to work with and a truly excellent designer. From communication, to testing, to presenting his work; he never ceases to go the extra mile. Paul has played a central role in a really exciting time for our product and has made such an impact -- thank you, Paul.'
+{% include 'quote' with 'Paul is fantastic to work with and a truly excellent designer. From communication, to testing, to presenting his work; he never ceases to go the extra mile. Paul has played a central role in a really exciting time for our product and has made such an impact – thank you, Paul.'
   caption: 'Emma Begg, Product and Marketing Manager'
 %}
 

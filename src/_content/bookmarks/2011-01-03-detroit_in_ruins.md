@@ -7,4 +7,4 @@ tags:
 - detroit
 - united_states
 ---
-Yves Marchand and Romain Meffre's extraordinary photographs documenting the dramatic decline of a major American city.
+Yves Marchand and Romain Meffre’s extraordinary photographs documenting the dramatic decline of a major American city.

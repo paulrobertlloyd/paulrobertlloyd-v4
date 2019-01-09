@@ -26,19 +26,19 @@ All paragraphs are wrapped in `p` tags.
 
 ### Horizontal rule
 
-The `hr` element represents a paragraph-level thematic break, e.g. a scene change in a story, or a transition to another topic within a section of a reference book. The following extract from <cite>Pandora's Star</cite> by Peter F. Hamilton shows two paragraphs that precede a scene change and the paragraph that follows it:
+The `hr` element represents a paragraph-level thematic break, e.g. a scene change in a story, or a transition to another topic within a section of a reference book. The following extract from <cite>Pandora’s Star</cite> by Peter F. Hamilton shows two paragraphs that precede a scene change and the paragraph that follows it:
 
 Dudley was ninety-two, in his second life, and fast approaching time for another rejuvenation. Despite his body having the physical age of a standard fifty-year-old, the prospect of a long degrading campaign within academia was one he regarded with dread. For a supposedly advanced civilization, the Intersolar Commonwealth could be appallingly backward at times, not to mention cruel.
 
-*Maybe it won't be that bad*, he told himself. The lie was comforting enough to get him through the rest of the night's shift.
+*Maybe it won’t be that bad*, he told himself. The lie was comforting enough to get him through the rest of the night’s shift.
 
 ***
 
-The Carlton AllLander drove Dudley home just after dawn. Like the astronomer, the vehicle was old and worn, but perfectly capable of doing its job. It had a cheap diesel engine, common enough on a semi-frontier world like Gralmond, although its drive array was a thoroughly modern photoneural processor. With its high suspension and deep-tread tyres it could plough along the dirt track to the observatory in all weather and seasons, including the metre-deep snow of Gralmond's winters.
+The Carlton AllLander drove Dudley home just after dawn. Like the astronomer, the vehicle was old and worn, but perfectly capable of doing its job. It had a cheap diesel engine, common enough on a semi-frontier world like Gralmond, although its drive array was a thoroughly modern photoneural processor. With its high suspension and deep-tread tyres it could plough along the dirt track to the observatory in all weather and seasons, including the metre-deep snow of Gralmond’s winters.
 
 ### Pre-formatted text
 
-The `pre` element represents a block of pre-formatted text, in which structure is represented by typographic conventions rather than by elements. Such examples are an e-mail (with paragraphs indicated by blank lines, lists indicated by lines prefixed with a bullet), fragments of computer code (with structure indicated according to the conventions of that language) or displaying ASCII art. Here's an example showing the printable characters of ASCII:
+The `pre` element represents a block of pre-formatted text, in which structure is represented by typographic conventions rather than by elements. Such examples are an e-mail (with paragraphs indicated by blank lines, lists indicated by lines prefixed with a bullet), fragments of computer code (with structure indicated according to the conventions of that language) or displaying ASCII art. Here’s an example showing the printable characters of ASCII:
 
       ! " # $ % & ' ( ) * + , - . /
     0 1 2 3 4 5 6 7 8 9 : ; < = > ?
@@ -51,7 +51,7 @@ The `pre` element represents a block of pre-formatted text, in which structure i
 
 The `blockquote` element represents a section that is being quoted from another source.
 
-> Big Yellow Taxi there by Joni Mitchell, a song in which she complains that they 'paved paradise to put up a parking lot' -- a measure which actually would have alleviated traffic congestion on the outskirts of paradise. Something which Joni singularly fails to point out, perhaps because it doesn't quite fit in with her blinkered view of the world.
+> Big Yellow Taxi there by Joni Mitchell, a song in which she complains that they ‘paved paradise to put up a parking lot’ – a measure which actually would have alleviated traffic congestion on the outskirts of paradise. Something which Joni singularly fails to point out, perhaps because it doesn’t quite fit in with her blinkered view of the world.
 >
 > Nevertheless, nice song.
 
@@ -73,7 +73,7 @@ The `ol` element denotes an ordered list, and various numbering schemes are avai
 
 ### Unordered list
 
-The `ul` element denotes an unordered list (ie. a list of loose items that don't require numbering, or a bulleted list). Again, each item requires a surrounding `<li>` and `</li>` tag, to denote individual items. Here is an example list showing the constituent parts of the British Isles:
+The `ul` element denotes an unordered list (ie. a list of loose items that don’t require numbering, or a bulleted list). Again, each item requires a surrounding `<li>` and `</li>` tag, to denote individual items. Here is an example list showing the constituent parts of the British Isles:
 
 * United Kingdom of Great Britain and Northern Ireland:
   * England
@@ -138,7 +138,7 @@ The `a` element is used to hyperlink text, be that to another page, a named frag
 
 ### Stressed emphasis
 
-The `em` element is used to denote text with stressed emphasis, i.e., something you'd pronounce differently. Where italicising is required for stylistic differentiation, the `i` element may be preferable. Example:
+The `em` element is used to denote text with stressed emphasis, i.e., something you’d pronounce differently. Where italicising is required for stylistic differentiation, the `i` element may be preferable. Example:
 
 You simply *must* try the negitoro maki!
 
@@ -146,11 +146,11 @@ You simply *must* try the negitoro maki!
 
 The `strong` element is used to denote text with strong importance. Where bolding is used for stylistic differentiation, the `b` element may be preferable. Example:
 
-**Don't** stick nails in the electrical outlet.
+**Don’t** stick nails in the electrical outlet.
 
 ### Small print
 
-The `small` element is used to represent disclaimers, caveats, legal restrictions, or copyrights (commonly referred to as 'small print'). It can also be used for attributions or satisfying licensing requirements. Example:
+The `small` element is used to represent disclaimers, caveats, legal restrictions, or copyrights (commonly referred to as small print). It can also be used for attributions or satisfying licensing requirements. Example:
 
 <small>Copyright © 1922-2011 Acme Corporation. All Rights Reserved.</small>
 
@@ -171,17 +171,17 @@ The `cite` element is used to represent the title of a work (e.g. a book, essay,
 
 The `q` element is used for quoting text inline. Example showing nested quotations:
 
-John said, <q>I saw Lucy at lunch, she told me <q>Mary wants you to get some ice cream on your way home</q>. I think I will get some at Ben and Jerry's, on Gloucester Road.</q>
+John said, <q>I saw Lucy at lunch, she told me <q>Mary wants you to get some ice cream on your way home</q>. I think I will get some at Ben and Jerry’s, on Gloucester Road.</q>
 
 ### Definition
 
 The `dfn` element is used to highlight the first use of a term. The `title` attribute can be used to describe the term. Example:
 
-Bob's <dfn title="Dog">canine</dfn> mother and <dfn title="Horse">equine</dfn> father sat him down and carefully explained that he was an <dfn title="A mutation that combines two or more sets of chromosomes from different species">allopolyploid</dfn> organism.
+Bob’s <dfn title="Dog">canine</dfn> mother and <dfn title="Horse">equine</dfn> father sat him down and carefully explained that he was an <dfn title="A mutation that combines two or more sets of chromosomes from different species">allopolyploid</dfn> organism.
 
 ### Abbreviation
 
-The `abbr` element is used for any abbreviated text, whether it be acronym, initialism, or otherwise. Any text in the `title` attribute will appear when the user's mouse hovers the abbreviation. Example abbreviations:
+The `abbr` element is used for any abbreviated text, whether it be acronym, initialism, or otherwise. Any text in the `title` attribute will appear when the user’s mouse hovers the abbreviation. Example abbreviations:
 
 BBC, HTML, and Staffs.
 
@@ -213,7 +213,7 @@ If there are <var>n</var> pipes leading to the ice cream factory then I expect a
 
 The `samp` element is used to represent (sample) output from a program or computing system. Useful for technology-oriented sites, not so useful otherwise. Example:
 
-The computer said <samp>Too much cheese in tray two</samp> but I didn't know what that meant.
+The computer said <samp>Too much cheese in tray two</samp> but I didn’t know what that meant.
 
 ### Keyboard entry
 
@@ -243,9 +243,9 @@ You enter a small room. Your <b>sword</b> glows brighter. A <b>rat</b> scurries 
 
 ### Marked or highlighted text
 
-The `mark` element is used to represent a run of text marked or highlighted for reference purposes. When used in a quotation it indicates a highlight not originally present but added to bring the reader's attention to that part of the text. When used in the main prose of a document, it indicates a part of the document that has been highlighted due to its relevance to the user's current activity. Example:
+The `mark` element is used to represent a run of text marked or highlighted for reference purposes. When used in a quotation it indicates a highlight not originally present but added to bring the reader’s attention to that part of the text. When used in the main prose of a document, it indicates a part of the document that has been highlighted due to its relevance to the user’s current activity. Example:
 
-I also have some <mark>kitten</mark>s who are visiting me these days. They're really cute. I think they like my garden! Maybe I should adopt a <mark>kitten</mark>.
+I also have some <mark>kitten</mark>s who are visiting me these days. They’re really cute. I think they like my garden! Maybe I should adopt a <mark>kitten</mark>.
 
 ## Edits
 

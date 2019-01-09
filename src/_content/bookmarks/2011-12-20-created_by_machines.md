@@ -8,7 +8,7 @@ tags:
 ---
 Marissa Mayer addressing Google designers, as quoted in <cite>[In The Plex][1]</cite> by Steven Levy:
 
-> "It looks like a human was involved in choosing what went where," Marissa told them. "It looks too editorialized. Google products are machine-driven. They're created by machines. And that is what makes us powerful. That's what makes our products great."
+> “It looks like a human was involved in choosing what went where,” Marissa told them. “It looks too editorialized. Google products are machine-driven. They’re created by machines. And that is what makes us powerful. That’s what makes our products great.”
 
 This explains *everything*.
 

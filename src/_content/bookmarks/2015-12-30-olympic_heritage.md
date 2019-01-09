@@ -1,5 +1,5 @@
 ---
-title: 'Olympic Heritage Collection by Hulse&Durrell'
+title: Olympic Heritage Collection by Hulse&Durrell
 date: 2015-12-30T20:20:00Z
 url: https://vimeo.com/143284760
 tags:
@@ -15,13 +15,13 @@ Canadian design super-duo [Hulse&Durrell][1], worked on what could only be descr
 
 > Beginning with the core elements of each Olympic Games identity (emblems, pictograms, mascots, and official posters), we set out to find their most authentic sources. The journey took us from the Olympic Museum archives in Switzerland to Olympic historians, private collections, and past-Games design directors around the world.
 >
-> Where possible, emblems, mascots, and pictograms were re-created with the original techniques of their time. Design manuals originally intended for use with protractors, compasses and paintbrushes became blueprints once again -- this time with a digital toolset in mind.
+> Where possible, emblems, mascots, and pictograms were re-created with the original techniques of their time. Design manuals originally intended for use with protractors, compasses and paintbrushes became blueprints once again – this time with a digital toolset in mind.
 >
 > For wordmarks, classic typefaces like Univers, Helvetica, Times, and Futura were adapted to reflect the movable type printing process of their respective times and places. Physical artifacts were also referenced against the modern Pantone colour matching system to ensure tonal authenticity.
 >
 > The result is the most comprehensive, authentic Olympic art and design collection ever created.
 
-Jealous? I'm green with envy.
+Jealous? I’m green with envy.
 
 [1]: http://hulsedurrell.com/
 [2]: http://hulsedurrell.com/project/olympic-heritage-collection

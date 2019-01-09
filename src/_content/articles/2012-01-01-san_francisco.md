@@ -1,7 +1,7 @@
 ---
 title: 'San Francisco: There and Back Again'
 date: 2012-01-01T23:44:07Z
-summary: Transcending America's Pacific coastline aboard Amtrak's Coast Starlight.
+summary: Transcending America’s Pacific coastline aboard Amtrak’s Coast Starlight.
 series: north_america_2011
 image: /images/2012/01/san_francisco/ocean_beach.jpg
 tags:
@@ -14,15 +14,15 @@ tags:
   alignment: 'bleed'
 %}
 
-For the final leg of my [North American tour][1] I transcended the west coast on Amtrak's [Coast Starlight][2]. Getting to San Francisco wouldn't be much fun, boarding a coach in Vancouver at a ridiculous hour in the morning and dealing with an offensive US border guard before arriving at a closed King Street station in Seattle sounding its fire alarm. Only once I'd boarded the train could I sit back and relax. Upon leaving Seattle, a low lying sun bathed the carriage with the soft morning light. Bliss.
+For the final leg of my [North American tour][1] I transcended the west coast on Amtrak’s [Coast Starlight][2]. Getting to San Francisco wouldn’t be much fun, boarding a coach in Vancouver at a ridiculous hour in the morning and dealing with an offensive US border guard before arriving at a closed King Street station in Seattle sounding its fire alarm. Only once I’d boarded the train could I sit back and relax. Upon leaving Seattle, a low lying sun bathed the carriage with the soft morning light. Bliss.
 
 ## Food, glorious food
 
-Arriving in San Francisco 22 hours later, I headed straight to the Ferry Building, where I grabbed a coffee from [Blue Bottle][4] and a breakfast roll from a stall whose name I've forgotten. There was just enough time for a brief stroll along Market Street before I headed to Potrero Hill for lunch with [David][5] at [Plow][6]. Now working at [Nest][7], I briefly got to play with one of their intelligent thermostats, unveiled to the world just days earlier.
+Arriving in San Francisco 22 hours later, I headed straight to the Ferry Building, where I grabbed a coffee from [Blue Bottle][4] and a breakfast roll from a stall whose name I’ve forgotten. There was just enough time for a brief stroll along Market Street before I headed to Potrero Hill for lunch with [David][5] at [Plow][6]. Now working at [Nest][7], I briefly got to play with one of their intelligent thermostats, unveiled to the world just days earlier.
 
-Shortly after returning to my hotel, I was back out again, this time to Palo Alto to have dinner with [Steve][8] at [Gravity][9]. I've always admired his perspective on situations, and this time he imparted some valuable advice worth paraphrasing here for future reference:
+Shortly after returning to my hotel, I was back out again, this time to Palo Alto to have dinner with [Steve][8] at [Gravity][9]. I’ve always admired his perspective on situations, and this time he imparted some valuable advice worth paraphrasing here for future reference:
 
-> Assume success. The problem with you Brits is that you are such 'Debbie Downers'; you always think you know the outcome and that it's unlikely to be what you hoped for. Truth is you won't know unless you try.
+> Assume success. The problem with you Brits is that you are such Debbie Downers; you always think you know the outcome and that it’s unlikely to be what you hoped for. Truth is you won’t know unless you try.
 
 See also: [Stay hungry, stay foolish][10]. We talked a lot about the other Steve.
 

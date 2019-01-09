@@ -14,7 +14,7 @@ remarks:
   date: 2009-03-02T00:16:09Z
   url: http://zurb.com
   content: |
-    Damn, this is kind of... encouraging :). I'm plenty out of shape, but I am quite competitive :D. I might have to get on board with this Nike+ thing finally. I had the shoes about a year ago, but never took the ~$200 plunge to getting a Nano and Nike+ sensor.
+    Damn, this is kind of… encouraging :). I’m plenty out of shape, but I am quite competitive :D. I might have to get on board with this Nike+ thing finally. I had the shoes about a year ago, but never took the ~$200 plunge to getting a Nano and Nike+ sensor.
 
     Kind of a big entry barrier, no?
 
@@ -37,5 +37,5 @@ remarks:
   date: 2009-03-20T20:48:11Z
   url: http://roobottom.com
   content: |
-    I've just read that I should be running 40 miles per week if I want to do a sub 20min 5K. Come on Mr. Lloyd, how about a challenge of that nature next month?
+    I’ve just read that I should be running 40 miles per week if I want to do a sub 20min 5K. Come on Mr. Lloyd, how about a challenge of that nature next month?
 ---

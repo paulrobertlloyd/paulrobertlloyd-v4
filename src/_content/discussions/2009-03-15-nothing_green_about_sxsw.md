@@ -9,7 +9,7 @@ remarks:
   content: |
     Well said!
 
-    And this is a MUCH bigger problem when you take into account the 100s of non-web confs at somewhere like the NEC each year. Then multiply that by the amount of venues in the world. I'd say that compared to things like the boat show SXSW isn't, by far, the worst.
+    And this is a MUCH bigger problem when you take into account the 100s of non-web confs at somewhere like the NEC each year. Then multiply that by the amount of venues in the world. I’d say that compared to things like the boat show SXSW isn’t, by far, the worst.
 
     But trying to stop this is like trying to stop a force of nature. Advertisers will have their way. I look forward to hearing what action we as a community can take to stop this damaging practice.
 ---

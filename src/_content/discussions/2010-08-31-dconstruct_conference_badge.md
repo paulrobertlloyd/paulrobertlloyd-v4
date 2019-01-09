@@ -23,7 +23,7 @@ remarks:
   date: 2010-09-02T11:41:15+01:00
   url: http://www.ianwootten.co.uk
   content: |
-    Lovely to see dConstruct's attempts to minimise the impact that such an event has on the environment. Does banning swag bags mean banning all swag at the event too?
+    Lovely to see dConstruct’s attempts to minimise the impact that such an event has on the environment. Does banning swag bags mean banning all swag at the event too?
 
     [@Drew](#remark-2): Too many items for pockets or traditional wallets?
 
@@ -32,6 +32,6 @@ remarks:
   date: 2010-09-02T11:51:22+01:00
   url: http://paulrobertlloyd.com/
   content: |
-    [@Ian](#remark-3): 'Ban' may be too strong a word, but we found putting hundreds of swag bags together more hassle than it was worth (in addition to it being a wasteful enterprise).
+    [@Ian](#remark-3): ‘Ban’ may be too strong a word, but we found putting hundreds of swag bags together more hassle than it was worth (in addition to it being a wasteful enterprise).
     There will be badges, t-shirts and other gifts available from our sponsors stands, but these are for you to pick-up rather than be forced upon you.
 ---

@@ -7,7 +7,7 @@ remarks:
   date: 2010-03-15T11:53:17Z
   url: http://roodesign.co.uk
   content: |
-    Great work again my friend, but after reading this post I'm left wondering if you've recently swallowed a thesaurus?
+    Great work again my friend, but after reading this post I’m left wondering if you’ve recently swallowed a thesaurus?
 
 - author: David Warner
   gravatar: 58664ea7f64680095644db82ba7f104f
@@ -29,7 +29,7 @@ remarks:
   content: |
     This icon set is great, and I totally understand your rationale. Thank you for putting this out there, I really appreciate it.
 
-    I wonder if MeetUp and/or SoundCloud might meet your criteria for inclusion now? I'm also a libre.fm user, but I'm aware that there are not too many of us.
+    I wonder if MeetUp and/or SoundCloud might meet your criteria for inclusion now? I’m also a libre.fm user, but I’m aware that there are not too many of us.
 
     Anyway, thanks again!
 
@@ -38,5 +38,5 @@ remarks:
   date: 2010-09-13T14:51:09+01:00
   url: http://www.kaishinlab.com
   content: |
-    I wholeheartedly agree with you about catering to the 80%... Most sets come with icons for services I have never heard about, knowing that I spend 12 hours a day online and I am by no mean an average internet user.... Nice set overall, I was about to start my own if  google hadn't led me here :)
+    I wholeheartedly agree with you about catering to the 80%… Most sets come with icons for services I have never heard about, knowing that I spend 12 hours a day online and I am by no mean an average internet user…. Nice set overall, I was about to start my own if  google hadn’t led me here :)
 ---

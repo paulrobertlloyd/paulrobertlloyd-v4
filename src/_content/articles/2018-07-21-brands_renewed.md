@@ -14,13 +14,13 @@ tags:
   caption: 'Previous variations of Tate’s logo, versus the singular version that replaced it in 2016.'
 %}
 
-Under Consideration's [_Brand New_][1] is a blog that critiques corporate and brand identity work. Over the years that I've been reading its reviews, I've noticed that the work I tend to appreciate most is that which seeks to refine an existing identity rather than reinvent it wholesale. While a logo may still receive a few nips and tucks, much of the work is instead focused on updating the accompanying design language, weeding out those areas where inconsistencies have crept in. Here are a few recent examples:
+Under Consideration’s [_Brand New_][1] is a blog that critiques corporate and brand identity work. Over the years that I’ve been reading its reviews, I’ve noticed that the work I tend to appreciate most is that which seeks to refine an existing identity rather than reinvent it wholesale. While a logo may still receive a few nips and tucks, much of the work is instead focused on updating the accompanying design language, weeding out those areas where inconsistencies have crept in. Here are a few recent examples:
 
 * On the occasion of the 100th anniversary of its crane symbol, [Lufthansa undertook the subtlest of brand refinements][2]. Alongside a tweak to this symbol and review of its type system, emphasis would now be given to a darker and more elegant blue, with its distinctive yellow demoted to that of a more functional accent.
 
-* [Stockholm Design Lab tweaked Ericsson's 'econ' icon][3] to the nth degree -- 18.435° to be precise -- so that it would align smoothly with the pixel grid and appear sharper on screen. The change was accompanied by the introduction of a new brand typeface 'Hilda', also optimised for digital environments.
+* [Stockholm Design Lab tweaked Ericsson’s ‘econ’ icon][3] to the nth degree — 18.435° to be precise — so that it would align smoothly with the pixel grid and appear sharper on screen. The change was accompanied by the introduction of a new brand typeface ‘Hilda’, also optimised for digital environments.
 
-* [Pentagram's identity refresh for American Express][4] again saw practically indistinguishable logo tweaks, but they also introduced a shorthand version to be used in situations where space is at a premium.
+* [Pentagram’s identity refresh for American Express][4] again saw practically indistinguishable logo tweaks, but they also introduced a shorthand version to be used in situations where space is at a premium.
 
 * When [North was asked to review Tate’s visual identity][5], rather than replace the dynamic logo designed by Wolff Olins in 2000, they instead opted to refocus and refine it:
 

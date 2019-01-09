@@ -4,7 +4,7 @@ date: 2010-02-16T23:34:04Z
 location:
   locality: Littlehampton
   country-name: United Kingdom
-summary: I'm a huge supporter of the BBC, yet for many years I was unimpressed with much of it's online output, where inconsistent design and poor implementation reflected badly upon one of our country's greatest institutions.
+summary: I’m a huge supporter of the BBC, yet for many years I was unimpressed with much of it’s online output, where inconsistent design and poor implementation reflected badly upon one of our country’s greatest institutions.
 tags:
 - design
 - web
@@ -13,29 +13,29 @@ tags:
 - featured
 discussion: closed
 ---
-I'm a huge supporter of the BBC, yet for many years I was unimpressed with much of its online output, where inconsistent design and poor implementation reflected badly upon one of our country's greatest institutions.
+I’m a huge supporter of the BBC, yet for many years I was unimpressed with much of its online output, where inconsistent design and poor implementation reflected badly upon one of our country’s greatest institutions.
 
-In the last few years however, there has been a shift in the opposite direction. The [iPlayer][1] -- the corporation's time-shifted internet television and radio platform -- is an industry leader. Fans of the [Semantic Web][2] can marvel at the [programmes][3] and [music][4] databases that support many aspects of the site, complete with [smart URL structures][5] that ensure data remains permanent and findable. A redesigned and customisable [home page][6] surfaces a wealth of information to around 13 million people each day.
+In the last few years however, there has been a shift in the opposite direction. The [iPlayer][1] — the corporation’s time-shifted internet television and radio platform — is an industry leader. Fans of the [Semantic Web][2] can marvel at the [programmes][3] and [music][4] databases that support many aspects of the site, complete with [smart URL structures][5] that ensure data remains permanent and findable. A redesigned and customisable [home page][6] surfaces a wealth of information to around 13 million people each day.
 
 The speed at which these changes have been rolled out, has in part been aided by the creation of strict visual design guidelines, referred to as the [Global Visual Language][7] or GVL.
 
 {% include 'figure' with '/images/2010/02/bbc_online_gvl/mastheads.jpg'
-  caption: 'A selection of mastheads used on ’Barlesque’ sites that adhere to the Global Visual Language v2.'
+  caption: 'A selection of mastheads used on ‘Barlesque’ sites that adhere to the Global Visual Language v2.'
 %}
 
 These guidelines introduced a single fixed page width, added a common masthead and footer, documented how individual site banners should work and established a simple underlying grid system. All new pages created on the site adhere to these standards meaning users now enjoy a coherent and joined up experience across BBC Online.
 
-The introduction of the GVL was a huge step forward, yet I've been critical of a few aspects of it in the past. The insistence on using Verdana for example, especially for page headings, has lead to a few vexed comments from me on the [BBC Internet Blog][8].
+The introduction of the GVL was a huge step forward, yet I’ve been critical of a few aspects of it in the past. The insistence on using Verdana for example, especially for page headings, has lead to a few vexed comments from me on the [BBC Internet Blog][8].
 
 Comment in response to [Home Page Two Months On][9]:
 
-> In all honesty, it's bearable (just about) on the home page, but for BBC News Online, it makes the site look incredibly amateurish.
+> In all honesty, it’s bearable (just about) on the home page, but for BBC News Online, it makes the site look incredibly amateurish.
 
 Comment in response to [BBC Music Website Relaunch][10]:
 
-> Whilst I can understand the arguments for better readability, I'd much prefer to see Arial set at 13px rather than the wider (and uglier) Verdana. Its use on other sites such as BBC News Online, particularly for headlines in my opinion makes those sites look rather dated and amateurish. Luckily the Music site excellently demonstrates that Arial can give sites a more contemporary look, and its use should be encouraged elsewhere on the site.
+> Whilst I can understand the arguments for better readability, I’d much prefer to see Arial set at 13px rather than the wider (and uglier) Verdana. Its use on other sites such as BBC News Online, particularly for headlines in my opinion makes those sites look rather dated and amateurish. Luckily the Music site excellently demonstrates that Arial can give sites a more contemporary look, and its use should be encouraged elsewhere on the site.
 
-I guess you could say I'm not a fan of Verdana! Furthermore, the new global masthead hid much of the sites navigation behind an 'Explore' button, and also lead to occasions where logos in the banner would clash with the main logo in the masthead:
+I guess you could say I’m not a fan of Verdana! Furthermore, the new global masthead hid much of the sites navigation behind an ‘Explore’ button, and also lead to occasions where logos in the banner would clash with the main logo in the masthead:
 
 {% include 'figure' with '/images/2010/02/bbc_online_gvl/masthead_news.png'
   caption: 'The large logo in the masthead often clashed with logos within section banners. Originally the BBC News site showed the correct logo, but had to be altered to avoid it reading as BBC BBC NEWS.'
@@ -46,7 +46,7 @@ I was so concerned by these oversights that I thought about ways to rectify thes
 * [Home page][12]
 * [News item][13]
 
-Of course it's easy to create something like this in isolation, without a full understanding of the design or technical constraints that exist, but I think this demonstrates my frustration with the implementation at the time and -- perhaps more importantly -- how much I care about the design of the BBC website.
+Of course it’s easy to create something like this in isolation, without a full understanding of the design or technical constraints that exist, but I think this demonstrates my frustration with the implementation at the time and — perhaps more importantly — how much I care about the design of the BBC website.
 
 ## BBC heaven
 
@@ -60,9 +60,9 @@ Whilst this could be viewed as yet another redesign, it strikes me that this pro
 
 1. **Modern British:** Creates a modern British design aesthetic, something vibrant and quirky that translates outside our national boundaries.
 
-2. **Current:** Feels current and reflects what's happening in the UK right now, in real-time. Curates a timeline of Britain and links to the past, to the BBC's rich archive.
+2. **Current:** Feels current and reflects what’s happening in the UK right now, in real-time. Curates a timeline of Britain and links to the past, to the BBC’s rich archive.
 
-3. **Authentic:** Sounds authentic and relevant, warm and human. References the BBC's iconic design and broadcasting heritage. Values the trust placed in the organisation.
+3. **Authentic:** Sounds authentic and relevant, warm and human. References the BBC’s iconic design and broadcasting heritage. Values the trust placed in the organisation.
 
 4. **Compelling:** Engages audiences with compelling storytelling. Voices range from serious and authoritative through to witty and entertaining.
 
@@ -92,9 +92,9 @@ A new grid allows for much flexibility. Thirty-one 16px columns can be combined 
 
 I was excited to read that the new GVL introduces a much more dramatic use of typography:
 
-> As well as Gill Sans we've introduced big bold type in Helvetica or Arial and restricted variations in size so that we have much greater consistency across the site.
+> As well as Gill Sans we’ve introduced big bold type in Helvetica or Arial and restricted variations in size so that we have much greater consistency across the site.
 
-No mention of Verdana. Fingers crossed that it doesn't make a re-appearance!
+No mention of Verdana. Fingers crossed that it doesn’t make a re-appearance!
 
 ### Colour
 
@@ -102,7 +102,7 @@ The guidelines also establish a new colour palette and usage guidelines, and sug
 
 ### Navigation
 
-The examples demonstrate a consistent cross-site navigation element across the top of each page (that is, no longer hidden behind a button), whilst section navigation is said to typically run horizontally rather than vertically. The mock-up for the BBC Sport site also shows a bread crumb trail as part of the Cricket section's sub-navigation too.
+The examples demonstrate a consistent cross-site navigation element across the top of each page (that is, no longer hidden behind a button), whilst section navigation is said to typically run horizontally rather than vertically. The mock-up for the BBC Sport site also shows a bread crumb trail as part of the Cricket section’s sub-navigation too.
 
 ### Photography, iconography and more!
 
@@ -118,9 +118,9 @@ Much like my attempts to redesign the news website two years ago, there is a siz
 
 This new stripped back and simplified approach speaks to my own design philosophy, so I really hope it succeeds. Indeed, this announcement comes in the same week as the launch of [Windows Phone 7][19] which has a similar laid bare aesthetic.
 
-I do wonder if this work for the BBC, and that for Windows Phone are the first signs of a move away from the 'Web 2.0' look by larger organisations. I will happily accept the painful irony, that having waited so many years for rounded corners and background gradients to be implemented in browsers, the trend that demands them will no longer be with us.
+I do wonder if this work for the BBC, and that for Windows Phone are the first signs of a move away from the ‘Web 2.0’ look by larger organisations. I will happily accept the painful irony, that having waited so many years for rounded corners and background gradients to be implemented in browsers, the trend that demands them will no longer be with us.
 
-If it wasn't obvious, I'm absolutely bowled over by what the BBC User Experience & Design team and Research Studios have presented so far. I hope this early preview is the first of many insights to come. Given the BBC's agile development process, we shouldn't have to wait to long to see it in the wild either.
+If it wasn’t obvious, I’m absolutely bowled over by what the BBC User Experience & Design team and Research Studios have presented so far. I hope this early preview is the first of many insights to come. Given the BBC’s agile development process, we shouldn’t have to wait to long to see it in the wild either.
 
 [1]: https://www.bbc.co.uk/iplayer
 [2]: http://semanticweb.org/

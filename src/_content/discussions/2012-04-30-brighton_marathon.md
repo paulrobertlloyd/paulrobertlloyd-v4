@@ -7,5 +7,5 @@ remarks:
   date: 2012-05-01T09:28:28+01:00
   url: http://roodesign.co.uk/
   content: |
-    Well done man, I am really pleased for you -- especially as you ran the whole distance. I think this earns you 3.4 seconds of smug satisfaction.
+    Well done man, I am really pleased for you – especially as you ran the whole distance. I think this earns you 3.4 seconds of smug satisfaction.
 ---

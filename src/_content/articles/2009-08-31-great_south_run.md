@@ -10,11 +10,11 @@ tags:
 - running
 - great_south_run
 ---
-It's been quite while since I last ran for charity (in fact [my last run][1] was way back in 2006), so in the vein hope that the training will help me get a little fitter, I'm taking part in this years [Great South Run][2] in Portsmouth, and aiming to raise £400 for Cancer Research UK.
+It’s been quite while since I last ran for charity (in fact [my last run][1] was way back in 2006), so in the vein hope that the training will help me get a little fitter, I’m taking part in this years [Great South Run][2] in Portsmouth, and aiming to raise £400 for Cancer Research UK.
 
-I was originally planing on doing the Great North Run, a race I've enjoyed many times before, however the logistics and expenses involved in travelling to Newcastle from the south coast meant I needed to find an alternative. Luckily the Great South Run is far closer to home, and thankfully has a running distance that is 3 miles shorter!
+I was originally planing on doing the Great North Run, a race I’ve enjoyed many times before, however the logistics and expenses involved in travelling to Newcastle from the south coast meant I needed to find an alternative. Luckily the Great South Run is far closer to home, and thankfully has a running distance that is 3 miles shorter!
 
-Once again I'm collecting sponsorship on-line with Just Giving, so [please visit my sponsorship page][3] and give as much as you can. Thank-you.
+Once again I’m collecting sponsorship on-line with Just Giving, so [please visit my sponsorship page][3] and give as much as you can. Thank-you.
 
 [1]: http://lloydyweb.paulrobertlloyd.com/blog/2006/05/great_manchester_run_2006
 [2]: http://www.greatrun.org/events/event.aspx?id=12

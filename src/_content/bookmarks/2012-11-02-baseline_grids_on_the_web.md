@@ -8,8 +8,8 @@ tags:
 ---
 Jason Santa Maria:
 
-> Ratios and baselines grids can be too rigid for the inherently flexible nature of the web. Just because something works at one size doesn't mean the same ratio will be appropriate at larger or smaller sizes.
+> Ratios and baselines grids can be too rigid for the inherently flexible nature of the web. Just because something works at one size doesn’t mean the same ratio will be appropriate at larger or smaller sizes.
 
-I often design websites to a vertical rhythm, even though maintaining it can be difficult during development. Jason's arguments made me realise that this practice goes against the grain of the medium; something I discourage in [The Web Aesthetic][1]. I need to let go of my baseline grids.
+I often design websites to a vertical rhythm, even though maintaining it can be difficult during development. Jason’s arguments made me realise that this practice goes against the grain of the medium; something I discourage in [The Web Aesthetic][1]. I need to let go of my baseline grids.
 
 [1]: http://www.alistapart.com/articles/the-web-aesthetic/

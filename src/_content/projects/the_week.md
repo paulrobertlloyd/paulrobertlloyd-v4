@@ -53,13 +53,13 @@ photos:
 
 {% include 'aside' %}
 
-[The Week][1] condenses the week's news into lively and informative editorial, giving readers an insight into the most vital stories. With over 183,000 subscribers, it's the UKs most popular weekly subscription magazine.
+[The Week][1] condenses the week’s news into lively and informative editorial, giving readers an insight into the most vital stories. With over 183,000 subscribers, it’s the UKs most popular weekly subscription magazine.
 
 Part of this success can be attributed to its rigorously consistent editorial format which readers describe as familiar, reliable and intuitive. Working with Harry Brignull at Clearleft, we were tasked with bringing this much-loved publication to a new generation of tablet users, retaining the best qualities of the print edition while also creating a product true to the best abilities of the iPad.
 
 ## Prototyping
 
-A highly iterative approach saw the design evolve over the course of the project. Starting with paper sketches before creating quick, low-fidelity click-through prototypes in Keynote. Throughout this process, we used real content from the magazine to ensure our design would meant the demands of the content it would need to deliver. By forming a close working relationship with key stakeholders across the business - including both commercial and editorial teams -- meant we were able to take into account differing requirements and manage expectations.
+A highly iterative approach saw the design evolve over the course of the project. Starting with paper sketches before creating quick, low-fidelity click-through prototypes in Keynote. Throughout this process, we used real content from the magazine to ensure our design would meant the demands of the content it would need to deliver. By forming a close working relationship with key stakeholders across the business - including both commercial and editorial teams – meant we were able to take into account differing requirements and manage expectations.
 
 {% include 'photos' with photos.workshop
   caption: 'Output from our workshop with key stakeholders included empathy maps for key users, and sketched ideas for important sections of the magazine.'
@@ -80,7 +80,7 @@ The predictable IA of the magazine was retained by creating overview pages for e
 
 A challenging aspect of this project was conveying the familiarity of the magazine within the confined space of an iPad, which is physically smaller, and with a lower resolution. Simply transferring the content of one page to a single screen would not be an option. While competing products often used pinch and zoom, we created bespoke layouts for both portrait and landscape device orientation.
 
-A key feature of the magazine is it's marginalia, short summaries, excerpts, quotes and cartoons that appear alongside longer passages of text. These were retained, appearing alongside larger articles and linked from section fronts.
+A key feature of the magazine is it’s marginalia, short summaries, excerpts, quotes and cartoons that appear alongside longer passages of text. These were retained, appearing alongside larger articles and linked from section fronts.
 
 ## Collaborative development
 

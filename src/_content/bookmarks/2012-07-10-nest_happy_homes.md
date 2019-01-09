@@ -7,7 +7,7 @@ tags:
 - advertising
 - nest
 ---
-CEO, Tony Fadell on [Nest's first advertising campaign][1]:
+CEO, Tony Fadell on [Nest’s first advertising campaign][1]:
 
 > We hope the video allows people to take a brief pause in the day and to see the world through fresh eyes. And we hope it brings a smile to their faces too.
 

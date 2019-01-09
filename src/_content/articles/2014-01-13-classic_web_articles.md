@@ -10,7 +10,7 @@ tags:
 - writing
 - featured
 ---
-[Vasilis van Gemert][0] asked me to curate a list of classic articles, but what constitutes a classic? In an industry as fast moving as ours, to choose articles of a certain vintage would mean excluding thought provoking articles published in more recent -- and possibly more enlightened -- years.
+[Vasilis van Gemert][0] asked me to curate a list of classic articles, but what constitutes a classic? In an industry as fast moving as ours, to choose articles of a certain vintage would mean excluding thought provoking articles published in more recent — and possibly more enlightened — years.
 
 My selection mixes articles whose timelessness has been proven with those whose status has yet to be determined. In time they may not be thought of as classics, but they will inform the classics that have yet to be written.
 
@@ -20,19 +20,19 @@ My selection mixes articles whose timelessness has been proven with those whose 
 
 ## [A Dao of Web Design][2] (2000)
 
-Perhaps landmark sites could only be created once we acknowledged the true nature of the web. This nature has come into sharp focus in recent years, largely thanks to **John Allsopp**'s earlier description of it. I consider his words to be a manifesto for modern web development, and this *the* classic article about web design.
+Perhaps landmark sites could only be created once we acknowledged the true nature of the web. This nature has come into sharp focus in recent years, largely thanks to **John Allsopp**’s earlier description of it. I consider his words to be a manifesto for modern web development, and this *the* classic article about web design.
 
 ## [Responsive Web Design][3] (2010)
 
-John's words were later reprised by **Ethan Marcotte**, who looked to the permanence of architecture to find a path across an unpredictable landscape faced by web designers. By combining fluid grids, flexible images and media queries, we could build websites that adapted to whatever device they appeared on.
+John’s words were later reprised by **Ethan Marcotte**, who looked to the permanence of architecture to find a path across an unpredictable landscape faced by web designers. By combining fluid grids, flexible images and media queries, we could build websites that adapted to whatever device they appeared on.
 
 ## [Designing with context][4] (2013)
 
-There used to be a clear understanding about how users experienced the web -- where, when, how -- but the proliferation of web-enabled devices revealed these assumptions to be false. Here, **Cennydd Bowles** considers the real complexities of context.
+There used to be a clear understanding about how users experienced the web — where, when, how — but the proliferation of web-enabled devices revealed these assumptions to be false. Here, **Cennydd Bowles** considers the real complexities of context.
 
 ## [Universal Design IRL][5] (2012)
 
-Much has been written about the universality of the web, yet this isn't always reflected in own communities and organisations. If you think inclusivity has little to do with design, **Sara Wachter-Boettcher** will set you straight.
+Much has been written about the universality of the web, yet this isn’t always reflected in own communities and organisations. If you think inclusivity has little to do with design, **Sara Wachter-Boettcher** will set you straight.
 
 ## [Web Design is 95% Typography][6] (2006)
 
@@ -40,19 +40,19 @@ With designers making their work ever more adaptive, its become clearer that [th
 
 ## [Upping Your Type Game][8] (2013)
 
-**Jessica Hische**'s thorough and highly practical overview is a good place to start if you need to improve your understanding of typography. Unsure how to choose a typeface, what to look for or where to find good fonts? Jessica has it covered.
+**Jessica Hische**’s thorough and highly practical overview is a good place to start if you need to improve your understanding of typography. Unsure how to choose a typeface, what to look for or where to find good fonts? Jessica has it covered.
 
 ## [Five simple steps to better typography][9] (2005)
 
-Written prior to Oliver's article (as if to further stress the importance of typography), **Mark Boulton** wrote a series of posts covering the basics, from measure to typographic hierarchy -- providing a scale I've referenced many times since. This post was also a precursor to [the independent publishing company][10] later set up by Mark.
+Written prior to Oliver’s article (as if to further stress the importance of typography), **Mark Boulton** wrote a series of posts covering the basics, from measure to typographic hierarchy — providing a scale I’ve referenced many times since. This post was also a precursor to [the independent publishing company][10] later set up by Mark.
 
 ## [Baseline Grids on the Web][11] (2012)
 
-Having learnt the underpinnings of typography, the next step is to recognise which aspects are relevant to the web. Having long tried to align type to a baseline, **Jason Santa Maria**'s post made me realise that this was not only a thankless task, but one that fails to acknowledge the underlying technology; CSS does not require us to manipulate pieces of lead, after all.
+Having learnt the underpinnings of typography, the next step is to recognise which aspects are relevant to the web. Having long tried to align type to a baseline, **Jason Santa Maria**’s post made me realise that this was not only a thankless task, but one that fails to acknowledge the underlying technology; CSS does not require us to manipulate pieces of lead, after all.
 
 ## [A Real Web Design Application][12] (2010)
 
-Beyond reappraising our practice, we also need to look at our tools. **Jason Santa Maria**'s wish list described what an application for web design might look like. While nothing matches these requirements yet, [we're getting close][13].
+Beyond reappraising our practice, we also need to look at our tools. **Jason Santa Maria**’s wish list described what an application for web design might look like. While nothing matches these requirements yet, [we’re getting close][13].
 
 ## [Our Best Practices are Killing Us][14] (2011)
 
@@ -72,11 +72,11 @@ Web designers need to think about how an interface feels as much as how it looks
 
 ## [Front-end performance for web designers and front-end developers][18] (2013)
 
-If you're looking for an introduction to front-end performance, **Harry Roberts** provides a detailed guide; not so much an article, but a manual!
+If you’re looking for an introduction to front-end performance, **Harry Roberts** provides a detailed guide; not so much an article, but a manual!
 
 ***
 
-So, that's my selection. I've undoubtedly missed many other seminal works -- articles covering content strategy and accessibility are notable by their absence. What articles would you choose?
+So, that’s my selection. I’ve undoubtedly missed many other seminal works — articles covering content strategy and accessibility are notable by their absence. What articles would you choose?
 
 [0]: http://vasilis.nl
 [1]: http://www.underconsideration.com/speakup/archives/004033.html

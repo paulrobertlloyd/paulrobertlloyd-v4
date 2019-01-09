@@ -7,7 +7,7 @@ remarks:
   date: 2014-07-10T11:47:44Z
   url: http://netliferesearch.com/english
   content: |
-    I just wanted to say thank you. I'm very happy you enjoyed my talk. I was afraid I wouldn't make any sense when I had just 20 minutes!!
+    I just wanted to say thank you. I’m very happy you enjoyed my talk. I was afraid I wouldn’t make any sense when I had just 20 minutes!!
 
     Ida
 ---

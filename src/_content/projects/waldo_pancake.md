@@ -33,7 +33,7 @@ screenshots:
 
 Jim Smith (aka [Waldo Pancake][1]) is a designer, illustrator and copywriter whose work can be found on the side of juice bottles, sweet packets and inside every Puccino’s coffee shop.
 
-With an existing site that was Flash-based, Jim's work could no longer be viewed on mobile devices. I was asked to redevelop the website using standards-based web technologies, retaining the slideshows of his work.	In addition to visualising designs in HTML, I created a file based content management system in PHP, and used jQuery to provide simple cross-browser compatible image slideshows.
+With an existing site that was Flash-based, Jim’s work could no longer be viewed on mobile devices. I was asked to redevelop the website using standards-based web technologies, retaining the slideshows of his work.	In addition to visualising designs in HTML, I created a file based content management system in PHP, and used jQuery to provide simple cross-browser compatible image slideshows.
 
 [1]: http://waldopancake.com
 

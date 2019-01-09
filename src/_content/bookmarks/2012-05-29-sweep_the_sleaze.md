@@ -8,6 +8,6 @@ tags:
 ---
 Oliver Reichenstein:
 
-> **Social media buttons are not a social media strategy**, even though they're often sold that way. Excellent content, serious networking and constant human engagement is the way to build your profile. Adding those sleazy buttons won't achieve anything.
+> **Social media buttons are not a social media strategy**, even though they’re often sold that way. Excellent content, serious networking and constant human engagement is the way to build your profile. Adding those sleazy buttons won’t achieve anything.
 
-I approve of this message, which might seem ironic coming from a peddler of social media icons. Perhaps I should include this health warning in the accompanying 'Read Me' file.
+I approve of this message, which might seem ironic coming from a peddler of social media icons. Perhaps I should include this health warning in the accompanying ‘Read Me’ file.

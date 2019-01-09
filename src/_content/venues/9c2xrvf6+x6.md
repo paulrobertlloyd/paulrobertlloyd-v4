@@ -1,5 +1,5 @@
 ---
-title: 'Duke''s at Komedia'
+title: Duke’s at Komedia
 url: https://www.picturehouses.com/cinema/info/Dukes_At_Komedia
 address:
   street-address: 44–47 Gardner Street

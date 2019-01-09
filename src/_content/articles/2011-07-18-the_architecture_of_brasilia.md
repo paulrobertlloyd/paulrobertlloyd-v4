@@ -1,23 +1,23 @@
 ---
 title: The Architecture of Brasília
 date: 2011-07-18T19:56:39+01:00
-summary: Designed by Oscar Niemeyer, Brasília's distinctive buildings feature a number of recuring design patterns and motifs.
+summary: Designed by Oscar Niemeyer, Brasília’s distinctive buildings feature a number of recuring design patterns and motifs.
 tags:
 - architecture
 - brasilia
 - brazil
 - oscar_niemeyer
 ---
-Brasília is a planned city situated in the centre of Brazil's vast and unpopulated interior. Built in the mid-fifties, it was inaugurated as the country's capital on April 22, 1960.
+Brasília is a planned city situated in the centre of Brazil’s vast and unpopulated interior. Built in the mid-fifties, it was inaugurated as the country’s capital on April 22, 1960.
 
 {% include 'figure' with '/images/2011/07/the_architecture_of_brasilia/plan.svg'
   alt: 'Sketched plan of Brasília'
   alignment: 'pull'
 %}
 
-This city is remarkable for a number of reasons, not least its aeroplane like street layout (shown right) planned by [Lúcio Costa][1]. It was built in just 41 months, with its construction ordered by the country's new President, [Juscelino Kubitschek][2] who came to power promising '50 years progress in five'. However it's the distinctive architecture that draws most attention, and much of this was designed by [Oscar Niemeyer][3].
+This city is remarkable for a number of reasons, not least its aeroplane like street layout (shown right) planned by [Lúcio Costa][1]. It was built in just 41 months, with its construction ordered by the country’s new President, [Juscelino Kubitschek][2] who came to power promising “50 years progress in five”. However it’s the distinctive architecture that draws most attention, and much of this was designed by [Oscar Niemeyer][3].
 
-Niemeyer is one of the few architects given the opportunity to design on such a scale, so it's not surprising to discover many familiar design patterns and motifs on the city's different buildings.
+Niemeyer is one of the few architects given the opportunity to design on such a scale, so it’s not surprising to discover many familiar design patterns and motifs on the city’s different buildings.
 
 ## Strong lines, contrasting Curves
 
@@ -44,7 +44,7 @@ As many of his buildings are constructed of concrete, they are usually soften by
   alignment: 'bleed'
 %}
 
-One of Niemeyer favourite tricks is show to his buildings suspended off the ground. Brasília is no different, and here it's often accomplished by the use of a distinctive pillar design, perhaps one that draws its inspiration from the city's layout. These pillars can be seen at the Supreme Court, the Presidential Residence and at the Presidential Palace.
+One of Niemeyer favourite tricks is show to his buildings suspended off the ground. Brasília is no different, and here it’s often accomplished by the use of a distinctive pillar design, perhaps one that draws its inspiration from the city’s layout. These pillars can be seen at the Supreme Court, the Presidential Residence and at the Presidential Palace.
 
 ## Entry
 
@@ -57,7 +57,7 @@ The most notable feature of his buildings is how you enter. This is often accomp
 
 ***
 
-No city can compare itself against Brasília's unique landscape, the result of three men with a strong vision. Built to announce Brazil's arrival on the world stage, Niemeyer's buildings gave the country an unmistakable voice with which to do it.
+No city can compare itself against Brasília’s unique landscape, the result of three men with a strong vision. Built to announce Brazil’s arrival on the world stage, Niemeyer’s buildings gave the country an unmistakable voice with which to do it.
 
 Niemeyer is now 103 and still relied upon by the city for many of their key architectural projects. Yet upon his passing, it would seem he has left ample documentation on how to design the buildings of its future.
 

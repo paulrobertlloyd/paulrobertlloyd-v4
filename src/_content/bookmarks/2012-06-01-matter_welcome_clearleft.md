@@ -6,7 +6,7 @@ tags:
 - clearleft
 - matter
 ---
-I'm stupidly excited to be working with [Phil][1], [Jeremy][2] and the rest of the Clearleft team on [MATTER][3], a new home for independent long-form journalism focused on the big issues in science and technology. We had our first workshop this week, and the neutrons are already firing about some of the possible directions we can this.
+I’m stupidly excited to be working with [Phil][1], [Jeremy][2] and the rest of the Clearleft team on [MATTER][3], a new home for independent long-form journalism focused on the big issues in science and technology. We had our first workshop this week, and the neutrons are already firing about some of the possible directions we can this.
 
 [1]: https://www.gyford.com
 [2]: https://adactio.com/

@@ -1,5 +1,5 @@
 ---
-title: 'London 2012 Paralympic Games (Day 4) - Cycling, Track'
+title: London 2012 Paralympic Games (Day 4) - Cycling, Track
 date: 2012-09-02T14:00:00+01:00
 series: london_2012
 start: 2012-09-02T14:00:00+01:00

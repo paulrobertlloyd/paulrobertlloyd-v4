@@ -1,5 +1,5 @@
 ---
-title: That's Not My Name!
+title: That’s Not My Name!
 date: 2009-02-02T22:07:44Z
 remarks:
 - author: Jon Roobottom
@@ -7,7 +7,7 @@ remarks:
   date: 2009-02-03T09:33:59Z
   url: http://roobottom.com
   content: |
-    You're in SF? And the place you go to break your month-long coffee fast is Starbucks?! Oh, for shame sir.
+    You’re in SF? And the place you go to break your month-long coffee fast is Starbucks?! Oh, for shame sir.
 
 - author: Cennydd
   gravatar: a962b4d3a7d6405455b39a7b336ab133
@@ -21,7 +21,7 @@ remarks:
   date: 2009-02-03T10:47:57Z
   url: http://www.uvshock.co.uk
   content: |
-    Haha, I don't know whether my name would be very obstructive over there. I've had someone think I was "Gus" (for two years) before...
+    Haha, I don’t know whether my name would be very obstructive over there. I’ve had someone think I was “Gus” (for two years) before…
 
     Oh and obligatory YT url: <http://uk.youtube.com/video/6UX0p7uAW2s>
 
@@ -30,7 +30,7 @@ remarks:
   date: 2009-02-03T15:54:09Z
   url: http://www.krisweb.co.uk
   content: |
-    Try having the surname Benbow...
+    Try having the surname Benbow…
 
 - author: Jonathan Aquino
   gravatar: 6b5ab75ce823bc4a31dcf1f04427a582
@@ -44,5 +44,5 @@ remarks:
   date: 2009-02-27T21:28:16Z
   url: http://www.can-sar.com
   content: |
-    I know I'm a foreigner and all but I just don't understand how this is possible...
+    I know I’m a foreigner and all but I just don’t understand how this is possible…
 ---

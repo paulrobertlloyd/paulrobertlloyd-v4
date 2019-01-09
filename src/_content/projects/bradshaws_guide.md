@@ -1,5 +1,5 @@
 ---
-title: Bradshaw's Guide
+title: Bradshaw’s Guide
 date: 2018-01-02
 summary: Digital revival of a popular Victorian railway guide.
 image: /images/projects/bradshaws_guide/image.jpg
@@ -38,7 +38,7 @@ screenshots:
 
 {% include 'aside' %}
 
-[Bradshaw’s Guide][1] is a digital revival of George Bradshaw’s eponymous guide to Britain and Ireland's nascent railway network as it existed in 1866.
+[Bradshaw’s Guide][1] is a digital revival of George Bradshaw’s eponymous guide to Britain and Ireland’s nascent railway network as it existed in 1866.
 
 Reproductions of his handbook are over an inch thick; pocket-sized by Victorian standards, but not when compared to our slim wireless companions. This ongoing self-directed project aims to make Bradshaw’s work accessible to a new audience, be they tourists wanting to spend more time on today’s network, or commuters wishing to learn about the places they pass by every day.
 

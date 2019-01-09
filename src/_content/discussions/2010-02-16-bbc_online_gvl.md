@@ -9,25 +9,25 @@ remarks:
   content: |
     I look forward to seeing this rolling out across the BBC sites.
 
-    Interesting to see the official BBC icon set adopting a custom 'Share This' style icon.
+    Interesting to see the official BBC icon set adopting a custom ‘Share This’ style icon.
 
 - author: Andy
   gravatar: 3282170b113297711ac2a2d41bffb70d
   date: 2010-02-17T12:58:52Z
   url: http://justbeyondthebridge.co.uk
   content: |
-    As usual on BBC design projects, I'm keen to see how this plays out -- and also how they intend to roll it out across all the platforms. It's a job that must just get bigger and bigger.
+    As usual on BBC design projects, I’m keen to see how this plays out – and also how they intend to roll it out across all the platforms. It’s a job that must just get bigger and bigger.
 
-    Liking what they've done so far with this new stuff though.
+    Liking what they’ve done so far with this new stuff though.
 
 - author: James Gill
   gravatar: 86b12262d692712b9dc84cedeb00b3d2
   date: 2010-02-17T20:33:25Z
   url: http://www.gosquared.com/
   content: |
-    I'm so glad the BBC are pushing the boundaries and not settling for the improvements they've already made.
+    I’m so glad the BBC are pushing the boundaries and not settling for the improvements they’ve already made.
 
-    I've always felt the existing style of the header and navigation looked quite amateur and wasted space for the sake of a rather ugly gradient. The improved navigation will hopefully encourage people to hang around and explore more   content:  than they likely do at the moment.
+    I’ve always felt the existing style of the header and navigation looked quite amateur and wasted space for the sake of a rather ugly gradient. The improved navigation will hopefully encourage people to hang around and explore more   content:  than they likely do at the moment.
 
     Great post, and WOOHOO looks like IKEA are hogging all the Verdana these days :D
 
@@ -36,23 +36,23 @@ remarks:
   date: 2010-02-18T12:12:36Z
   url: http://mynameismartin.com
   content: |
-    Stuff like this gets me really excited, wherever the BBC heads the rest of the public sector follows closely behind. As a local government webbie that's good news for me.
+    Stuff like this gets me really excited, wherever the BBC heads the rest of the public sector follows closely behind. As a local government webbie that’s good news for me.
 
 - author: Bobby Jack
   gravatar: e1da3fcf15585c1e004a0ff57e367ceb
   date: 2010-02-19T16:43:05Z
   url: http://www.fiveminuteargument.com
   content: |
-    Great stuff, especially their work with the grid. Just a shame they're sticking to a fixed-width ...
+    Great stuff, especially their work with the grid. Just a shame they’re sticking to a fixed-width …
 
 - author: Martyn Reding
   gravatar: 3fbcc5f2354301a418b87c6080e557f1
   date: 2010-02-24T12:45:09Z
   url: http://www.martynreding.net
   content: |
-    There is no doubt that the work coming out of this project is to a high standard and the method of sharing 'work in progress' will certainly help the rollout and cushion the user's transition.
+    There is no doubt that the work coming out of this project is to a high standard and the method of sharing ‘work in progress’ will certainly help the rollout and cushion the user’s transition.
 
-    However the aspect of this work that I find really exciting is how a relatively small team has managed to motivate and launch this project. Selling the need for good design in to an organisation, as large as the Beeb is a massive achievement in itself. To win the necessary support and budget to deliver this project must have taken the plight of UX Design through to the top ranks. So I'd like to extend my congratulations to the team involved in getting it off the ground and to the execs who backed it.
+    However the aspect of this work that I find really exciting is how a relatively small team has managed to motivate and launch this project. Selling the need for good design in to an organisation, as large as the Beeb is a massive achievement in itself. To win the necessary support and budget to deliver this project must have taken the plight of UX Design through to the top ranks. So I’d like to extend my congratulations to the team involved in getting it off the ground and to the execs who backed it.
 
 - author: Gary Stanton
   gravatar: d6e26f8550268600ce23a2ba759a4497
@@ -61,11 +61,11 @@ remarks:
   content: |
     I really enjoyed reading this post.
 
-    I've always rated the BBC's online offering and I came across the GVL last year, reading with great interest.
+    I’ve always rated the BBC’s online offering and I came across the GVL last year, reading with great interest.
 
-    I worried that with the beeb's budget cuts, the website would suffer dramatically -- already there is reduced quality in the copy on the news section, with spelling and grammer mistakes occurring more often -- however it seems they're still pioneering, and this pleases me greatly.
+    I worried that with the beeb’s budget cuts, the website would suffer dramatically – already there is reduced quality in the copy on the news section, with spelling and grammer mistakes occurring more often – however it seems they’re still pioneering, and this pleases me greatly.
 
-    Your post however has worried me, in that I'm currently working on a site that uses Verdana almost exclusively... looks nice enough to me though!
+    Your post however has worried me, in that I’m currently working on a site that uses Verdana almost exclusively… looks nice enough to me though!
 
 - author: whatweretheythinking
   gravatar: 4cc96b2e68d5744607b77bf5709ad4c7

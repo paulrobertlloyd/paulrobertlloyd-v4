@@ -4,14 +4,14 @@ date: 2012-01-09T19:48:00Z
 location:
   locality: Brighton
   country-name: United Kingdom
-summary: Back in October, Ethan Marcotte asked me some questions about the design of my site. He was writing a round up of his twenty favourite responsive websites for .net Magazine and wanted quotes from each creator. In the spirit of blogging more I thought I'd share my answers here.
+summary: Back in October, Ethan Marcotte asked me some questions about the design of my site. He was writing a round up of his twenty favourite responsive websites for .net Magazine and wanted quotes from each creator. In the spirit of blogging more I thought I’d share my answers here.
 tags:
 - web
 - responsive_design
 - interviews
 - net_magazine
 ---
-Back in October, [Ethan Marcotte][1] asked me some questions about the design of my site. He was writing a round up of his [twenty favourite responsive websites][2] for .net Magazine and wanted quotes from each creator. In the spirit of [blogging more][3] I thought I'd share my answers here.
+Back in October, [Ethan Marcotte][1] asked me some questions about the design of my site. He was writing a round up of his [twenty favourite responsive websites][2] for .net Magazine and wanted quotes from each creator. In the spirit of [blogging more][3] I thought I’d share my answers here.
 
 ***
 
@@ -27,13 +27,13 @@ Back in October, [Ethan Marcotte][1] asked me some questions about the design of
 
 ***
 
-**EM:** Did you learn anything from the site's design you'd apply to future responsive projects?
+**EM:** Did you learn anything from the site’s design you’d apply to future responsive projects?
 
-**PL:** In taking on a responsive project I quickly realised that resizing the browser window doesn't give you a true feel for how a site will perform in the real world; input methods and bandwidth availability alter the experience as much as any viewport dimension. As I developed the site I 'field tested' it when out and about; reading pages on the train or borrowing other peoples devices. This way I got to see how the site would appear in environments I don't use myself.
+**PL:** In taking on a responsive project I quickly realised that resizing the browser window doesn’t give you a true feel for how a site will perform in the real world; input methods and bandwidth availability alter the experience as much as any viewport dimension. As I developed the site I field tested it when out and about; reading pages on the train or borrowing other peoples devices. This way I got to see how the site would appear in environments I don’t use myself.
 
 Whilst I tried to take a purely content driven approach, where the layout would adapt based on the constraints provided by the content, pragmatism took hold, and my breakpoints were soon adjusted. I found that I needed to strike a balance between what worked best for the content, and what worked best for different devices. I imagine my breakpoints will evolve as I continue to experience the site on different devices.
 
-I should also fess up; I started with a mostly desktop orientated design! Yet whenever I came across a tricky responsive design issue, I found refactoring my code to assume a linear 'mobile first' layout forced me to question the relative importance of every element. The delete key became an important ally.
+I should also fess up; I started with a mostly desktop orientated design! Yet whenever I came across a tricky responsive design issue, I found refactoring my code to assume a linear ‘mobile first’ layout forced me to question the relative importance of every element. The delete key became an important ally.
 
 [1]: http://ethanmarcotte.com/
 [2]: http://www.netmagazine.com/features/ethan-marcottes-20-favourite-responsive-sites

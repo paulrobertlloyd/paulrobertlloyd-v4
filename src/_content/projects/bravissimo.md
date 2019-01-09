@@ -41,12 +41,12 @@ screenshots:
 
 As part of a broader renewal strategy, they were looking to redevelop their site to ensure it could serve international markets and provide an omnichannel shopping experience to serve their loyal customer base efficiently and effectively. A new responsive front-end would also be required so that the site could meet the needs of customers who were increasingly browsing with a wide variety of different device types.
 
-Clearleft had assembled a small team to work alongside the company's in-house development team, led by Luke Bennett, to re-develop their e-commerce site. James Box concentrated on the user experience with James Bates providing an initial design direction.
+Clearleft had assembled a small team to work alongside the company’s in-house development team, led by Luke Bennett, to re-develop their e-commerce site. James Box concentrated on the user experience with James Bates providing an initial design direction.
 
 {% include 'screenshots' with screenshots.brastrap
   alignment: 'bleed'
 %}
 
-I was brought on-board to take these assets and develop a front-end component library (cheekily dubbed 'Brastrap') to enable Luke's team to build out the reimagined website, and then continue to build upon this work in the years to come. While building the foundations of the new component library, I consulted with the team to tease-out, consolidate and document the various code standards being used to ensure the product remained maintainable and understandable.
+I was brought on-board to take these assets and develop a front-end component library (cheekily dubbed ‘Brastrap’) to enable Luke’s team to build out the reimagined website, and then continue to build upon this work in the years to come. While building the foundations of the new component library, I consulted with the team to tease-out, consolidate and document the various code standards being used to ensure the product remained maintainable and understandable.
 
 [1]: https://www.bravissimo.com

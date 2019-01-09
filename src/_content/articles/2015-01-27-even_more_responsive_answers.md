@@ -18,7 +18,7 @@ tags:
 
 Each month [net Magazine][1] run a section called *Exchange*, where four industry experts each answer three questions on a particular topic, asked by their readers and followers on Twitter. I was their responsive design expert in their March issue, which is on sale now.
 
-In the spirit of [previous][2] [articles][3], I'm sharing my unedited answers here as well.
+In the spirit of [previous][2] [articles][3], I’m sharing my unedited answers here as well.
 
 ## Navigation
 
@@ -30,19 +30,19 @@ In the spirit of [previous][2] [articles][3], I'm sharing my unedited answers he
   caption: '[@LeeCraigStewart, 4 December 2014](https://twitter.com/leecraigstewart/status/540514957159583744)'
 %}
 
-Before thinking about a menu's presentation or behaviour, first ensure the items it contains are relevant to users, whatever the breakpoint. Thinking mobile-first (rather than trying to adapt desktop design patterns downwards) can help prioritise and rationalise menu items, too.
+Before thinking about a menu’s presentation or behaviour, first ensure the items it contains are relevant to users, whatever the breakpoint. Thinking mobile-first (rather than trying to adapt desktop design patterns downwards) can help prioritise and rationalise menu items, too.
 
-[The Guardian's navigation is a good example][4]. It's intriguing design prioritises page breadcrumbs at smaller screen widths, with horizontal scrolling allowing you to access sibling and top-level section items. An 'all' link provides a safety-net, giving you access to every section with one tap, starting with the section you are in.
+[The Guardian’s navigation is a good example][4]. It’s intriguing design prioritises page breadcrumbs at smaller screen widths, with horizontal scrolling allowing you to access sibling and top-level section items. An ‘all’ link provides a safety-net, giving you access to every section with one tap, starting with the section you are in.
 
-A great resource for responsive patterns (including those dealing with navigation) is Brad Frost's [This is Responsive][5], but new possibilities are being uncovered every day.
+A great resource for responsive patterns (including those dealing with navigation) is Brad Frost’s [This is Responsive][5], but new possibilities are being uncovered every day.
 
 ## Tables
 
-{% include 'quote' with 'I deal a lot with dashboards and still can’t find a good way of handling tables... please help!'
+{% include 'quote' with 'I deal a lot with dashboards and still can’t find a good way of handling tables… please help!'
   caption: '[@joewattsdesign, 4 December 2014](https://twitter.com/joewattsdesign/status/540530144616910848)'
 %}
 
-As no two tables are the same, there's no definitive solution. Simpler tables could be presented as a list at smaller breakpoints, while more complex tables may require a change of orientation so that column headers appear fixed on the left, with data in a scrollable area to the right. Or maybe you allow users to choose which columns to hide/show. [Jason Grimsby has a good summary][6] of the options available -- and what you should consider before choosing one.
+As no two tables are the same, there’s no definitive solution. Simpler tables could be presented as a list at smaller breakpoints, while more complex tables may require a change of orientation so that column headers appear fixed on the left, with data in a scrollable area to the right. Or maybe you allow users to choose which columns to hide/show. [Jason Grimsby has a good summary][6] of the options available — and what you should consider before choosing one.
 
 ## Advertising
 

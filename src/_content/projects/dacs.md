@@ -1,7 +1,7 @@
 ---
 title: DACS
 date: 2012-08-01
-summary: Responsive redesign for non-profit artists' rights organisation.
+summary: Responsive redesign for non-profit artists’ rights organisation.
 image: /images/projects/dacs/image.jpg
 tags:
 - skill:frontend_development
@@ -44,14 +44,14 @@ The previous website was packed with legalese: language written by solicitors wi
 
 After a period of analysis and prototyping, we realised the website needed different areas for each customer type to quickly triage users into the correct places. Once in the right place, customers could be shown content with an appropriate perspective, tone of voice and calls to action that matched their specific needs.
 
-DACS had already undergone an extensive rebranding exercise for print but it needed assistance translating this to a digital environment. To understand the reasoning behind the different brand elements, I spent time with Simon Kennedy who was responsible for DACS's identity and brand strategy. One outcome from this process was to deprecate the use of Didot; while it worked well in print, the typeface was ill-suited to screen, and few areas on the website needed to reflect the discursive tone for which it was intended.
+DACS had already undergone an extensive rebranding exercise for print but it needed assistance translating this to a digital environment. To understand the reasoning behind the different brand elements, I spent time with Simon Kennedy who was responsible for DACS’s identity and brand strategy. One outcome from this process was to deprecate the use of Didot; while it worked well in print, the typeface was ill-suited to screen, and few areas on the website needed to reflect the discursive tone for which it was intended.
 
 {% include 'screenshots' with screenshots.payback
   caption: 'Artist photography shown front and centre on a page introducing DACS’ Payback service. A restrained typographic pallet ensured legibility and visual consistency.'
   alignment: 'bleed'
 %}
 
-I drew on DACS's photographic library of artists to give the organisation a human face. This imagery was combined with a restrained typographic pallet to ensure legibility and visual consistency, and supported by a selection of monochromatic patterns used to differentiate sections of the site.
+I drew on DACS’s photographic library of artists to give the organisation a human face. This imagery was combined with a restrained typographic pallet to ensure legibility and visual consistency, and supported by a selection of monochromatic patterns used to differentiate sections of the site.
 
 {% include 'figure' with '/images/projects/dacs/responsive.jpg'
   caption: 'A responsive layout meant the same content could be served to different devices, regardless of display size.'
@@ -60,7 +60,7 @@ I drew on DACS's photographic library of artists to give the organisation a huma
 
 A pattern portfolio helped to ease handover to the development agency Cognite. Towards the end of the project I worked at their offices, helping them integrate these design patterns, making adjustments where necessary given the constraints of the CMS.
 
-{% include 'quote' with 'It looks beautiful! The feedback so far has been great -- and it’s just such a vast improvement on what we had before. Thank you so much for your hard work and general genius!'
+{% include 'quote' with 'It looks beautiful! The feedback so far has been great – and it’s just such a vast improvement on what we had before. Thank you so much for your hard work and general genius!'
   caption: 'Tania Spriggens, Director of Communications'
 %}
 

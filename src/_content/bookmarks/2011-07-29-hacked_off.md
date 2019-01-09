@@ -9,6 +9,6 @@ tags:
 ---
 Sniff Petrol:
 
-> Murdoch's money brings F1 to Sky. "Are Red Bull running team orders? Let's hack into their radio messages to find out..."
+> Murdoch’s money brings F1 to Sky. “Are Red Bull running team orders? Let’s hack into their radio messages to find out…”
 
 *[F1]: Formula 1

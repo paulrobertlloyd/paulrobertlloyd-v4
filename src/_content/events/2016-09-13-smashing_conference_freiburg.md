@@ -2,7 +2,7 @@
 title: Smashing Conference
 date: 2016-09-12T08:00:00+02:00
 url: https://smashingconf.com/freiburg-2016/
-summary: A one track, two-days event, taking place in the Historic Merchants' Hall, in the lovely old town of Freiburg, Germany.
+summary: A one track, two-days event, taking place in the Historic Merchants’ Hall, in the lovely old town of Freiburg, Germany.
 start: 2016-09-12T08:00:00+02:00
 end: 2016-09-13T17:30:00+02:00
 participant: true
