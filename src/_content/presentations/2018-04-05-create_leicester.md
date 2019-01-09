@@ -156,7 +156,7 @@ slides:
   notes: |
     Finally, there's this compulsive deference to data, and the idea that the more of it you can collate, the better informed you will be about your customers and how they use your product.
 
-    By this point, data acquisition has become an addition. Companies collect and hoard data even if they don't need it. Further still, they have been poor custodians. Last month it was a breach at Facebook. Before that it was Equifax, LinkedIn and Yahoo. If data is the new oil, then storing large amounts means building your company on top of a highly flammable material.
+    Data acquisition has become an addiction. Companies collect and hoard data even if they don't need it. Further still, they have been poor custodians. Last month it was a breach at Facebook. Before that it was Equifax, LinkedIn and Yahoo. If data is the new oil, then storing large amounts means building your company on top of a highly flammable material.
 - image: /images/2018/04/create_leicester/22.png
   notes: |
     At this year's Webstock in New Zealand, Nat Dudley gave [a powerful talk about inclusive design](https://medium.com/@natdudley/d28324b7c348). She noted that storing data about people, especially those in minorities or in vulnerable situations, can put them at risk ~~should it~~ when it leaks.
@@ -226,7 +226,7 @@ slides:
     Joel concluded his piece by arguing that designers could repent before pledging allegiance to users once again. But if we've been subverted once, what's to say we won't be again?
 - image: /images/2018/04/create_leicester/32.jpg
   notes: |
-    It seems as if designers have been tricked into thinking we have a seat at table, when in fact we've been taken hostage, only to develop Stockholm syndrome. Eager to demonstrate that we can do more than make things pretty, we brought our cognitive insights to the table and began talking about persuasive design the design of casinos in order to bolster our credibility. In doing so, we have become accomplishes in exploiting users.
+    It seems as if designers have been tricked into thinking we have a seat at table, when in fact we've been taken hostage, only to develop Stockholm syndrome. Eager to demonstrate that we can do more than make things pretty, we brought our cognitive insights to the table and talked about persuasive design in order to bolster our credibility. In doing so, we became complicit in exploiting users.
 
     How on earth can we rectify this situation? Can designers be relied on to save themselves from themselves?
 
@@ -278,7 +278,7 @@ slides:
     > The idea is that if you think something's going to be terrible, then you're going to look for data points that prove you right. And you're going to find them! That's what pessimists do.
     > But if you believe something is possible, then you're going to look for a way to make it work, and even when you make mistakes, even when people doubt you, you're just going to keep pushing forward until you find a way to make it happen.
 
-    We have every reason to be optimistic, but at what point does this optimism become blind? The open and democratic futures we imagined the Internet enabling seem quite distant now. Fantasies of a world that would accept the sort of radical transparency Zuckerberg wished for haven't exactly met with reality.
+    We have every reason to be optimistic, but at what point does this optimism become blind? The open and democratic futures we imagined the Internet enabling seem quite distant now. Fantasies of a world accepting of the sort of radical transparency Zuckerberg hoped for hasn't exactly been met with reality.
 - image: /images/2018/04/create_leicester/39.jpg
   notes: |
     As my friend [Cennydd likes to says](https://twitter.com/Cennydd/status/227862829343059969):
