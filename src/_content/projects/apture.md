@@ -1,7 +1,7 @@
 ---
 title: Apture
 date: 2009-05-22
-summary: Designing a powerful publishing tool for the web's content creators.
+summary: Designing a powerful publishing tool for the web’s content creators.
 image: /images/projects/apture/image.jpg
 tags:
 - skill:brand_identity
@@ -31,7 +31,7 @@ screenshots:
 
 Apture was a publishing tool that gave content creators the power to find and incorporate multimedia directly into their web pages. With just one line of code, publishers and bloggers could turn flat pages of text into compelling multimedia experiences. The company was acquired by Google in November 2011.
 
-Working alongside Apture's CEO Tristan Harris and his small team, often on-site at their offices in San Mateo, I helped launch the initial product in April 2008 before developing later iterations of the product. I was also responsible for the company’s branding and product marketing. The design of the company's logo informed by a key interaction in the product, with the three colourful gems representing the windows of information that could spring from an Apture enhanced page.
+Working alongside Apture’s CEO Tristan Harris and his small team, often on-site at their offices in San Mateo, I helped launch the initial product in April 2008 before developing later iterations of the product. I was also responsible for the company’s branding and product marketing. The design of the company’s logo informed by a key interaction in the product, with the three colourful gems representing the windows of information that could spring from an Apture enhanced page.
 
 {% include 'figure' with '/images/projects/apture/logo.svg'
   caption: 'The Apture logo.'

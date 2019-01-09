@@ -1,7 +1,7 @@
 ---
 title: UNICEF UK
 date: 2013-07-01
-summary: Mobile-first redesign for leading children's charity.
+summary: Mobile-first redesign for leading children’s charity.
 image: /images/projects/unicef_uk/image.jpg
 tags:
 - skill:frontend_development
@@ -48,7 +48,7 @@ Given a constrained budget, the software that managed content on the desktop was
 
 ## Searching for patterns
 
-The site needed to degrade gracefully on older mobile devices and take into account the often imperfect nature of cellular connectivity. Put simply, we needed to employ mobile-first design principles with desktop-first content, rationalising and simplifying where possible. Although a mobile-focused project, we had a secondary ambition to design an experience that was better than the desktop site -- even on larger screens.
+The site needed to degrade gracefully on older mobile devices and take into account the often imperfect nature of cellular connectivity. Put simply, we needed to employ mobile-first design principles with desktop-first content, rationalising and simplifying where possible. Although a mobile-focused project, we had a secondary ambition to design an experience that was better than the desktop site – even on larger screens.
 
 {% include 'photos' with photos
   caption: 'Prioritising homepage components, highlighting common patterns on desktop site and breaking them down into responsive patterns we could use on the mobile site.'
@@ -56,11 +56,11 @@ The site needed to degrade gracefully on older mobile devices and take into acco
   image_preset: 'thumbnail'
 %}
 
-We asked key stakeholders on the project to dissect the homepage and a key internal page, placing component parts in order of importance. Working with UNICEF's content editor, we pulled out common patterns, noting those which were essential and those that were superfluous. The relevant patterns were then sketched on a whiteboard where we imagined how they would adapt on smaller screens. These were then used as the basis for the front-end build. This pattern-based approach allowed us to simplify what was already there, rather than start again from scratch.
+We asked key stakeholders on the project to dissect the homepage and a key internal page, placing component parts in order of importance. Working with UNICEF’s content editor, we pulled out common patterns, noting those which were essential and those that were superfluous. The relevant patterns were then sketched on a whiteboard where we imagined how they would adapt on smaller screens. These were then used as the basis for the front-end build. This pattern-based approach allowed us to simplify what was already there, rather than start again from scratch.
 
-## Translating UNICEF's brand guidelines to the web
+## Translating UNICEF’s brand guidelines to the web
 
-We placed considerable attention on ensuring the performance of the site didn't suffer at the cost of excessive design. UNICEF's brand guidelines helped in this respect, with an identifiable logo, cyan brand colour and emotive photography combining to create a strong identity. These guidelines suggested using Verdana for digital applications, but I opted to use the Roboto typeface instead. Close in appearance to UNICEF's brand font Univers, Roboto was specifically designed for Android, so we knew it would render well on mobile screens. Its condensed nature also allowed for more comfortable line lengths on narrower screens.
+We placed considerable attention on ensuring the performance of the site didn’t suffer at the cost of excessive design. UNICEF’s brand guidelines helped in this respect, with an identifiable logo, cyan brand colour and emotive photography combining to create a strong identity. These guidelines suggested using Verdana for digital applications, but I opted to use the Roboto typeface instead. Close in appearance to UNICEF’s brand font Univers, Roboto was specifically designed for Android, so we knew it would render well on mobile screens. Its condensed nature also allowed for more comfortable line lengths on narrower screens.
 
 We experimented with different ways of simplifying way-finding around the site. By removing layers of navigation and advocating the inclusion of more links within body copy, we were able to reduce unnecessary interactions and invoke fewer taps. Moving the breadcrumb navigation to a slide-out menu meant users could easily orientate themselves.
 

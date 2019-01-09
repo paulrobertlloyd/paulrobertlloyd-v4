@@ -10,4 +10,4 @@ tags:
 ---
 {% include 'embed' with url %}
 
-"Time for big school."
+“Time for big school.”

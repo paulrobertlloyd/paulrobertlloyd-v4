@@ -8,4 +8,4 @@ tags:
 ---
 {% include 'embed' with url %}
 
-Another video showcased by Adam Buxton at last month's Edinburgh BUG. You can find a complete archive of BUG videos at <http://bugvideos.co.uk/>.
+Another video showcased by Adam Buxton at last month’s Edinburgh BUG. You can find a complete archive of BUG videos at <http://bugvideos.co.uk/>.

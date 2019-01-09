@@ -1,5 +1,5 @@
 ---
-title: Sadler's Wells Theatre
+title: Sadler’s Wells Theatre
 url: https://www.sadlerswells.com
 address:
   street-address: Rosebery Avenue

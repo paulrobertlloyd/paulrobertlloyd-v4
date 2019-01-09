@@ -7,7 +7,7 @@ remarks:
   date: 2009-02-27T19:22:28Z
   url: http://zurb.com
   content: |
-    I've got a similar setup, naming all my Apple gear... except mine are named after elderly women.
+    I’ve got a similar setup, naming all my Apple gear… except mine are named after elderly women.
 
     * MBP: Blanche
     * 30" Cinema Display: Estelle
@@ -16,21 +16,21 @@ remarks:
     * External HD1: Rosemary
     * External HD2: Agnes
 
-    Helps me make my workspace my own... everyone knows their names around the office, too :).
+    Helps me make my workspace my own… everyone knows their names around the office, too :).
 
 - author: Sam Hardacre
   gravatar: 56453a0d1cc99a6c80ffd00cf7822302
   date: 2009-02-27T20:50:23Z
   url: http://www.nocturnalmonkey.com
   content: |
-    This is a great idea. Unfortunately I've no specific naming conventions with the exception of my external hard drives which I named after cartoon characters (Zim and GIR). I might stretch the cartoon naming convention out to my iPhone and other devices but I might try and find something a little more interesting :)
+    This is a great idea. Unfortunately I’ve no specific naming conventions with the exception of my external hard drives which I named after cartoon characters (Zim and GIR). I might stretch the cartoon naming convention out to my iPhone and other devices but I might try and find something a little more interesting :)
 
 - author: Andrew Yates
   gravatar: 6461915b9f30e8b4df0d007eb44dc13e
   date: 2009-02-27T21:19:17Z
   url: http://andydev.co.uk
   content: |
-    Never named any Apple stuff anything different from the normal "Andrew Yates' X". Sounds a pretty cool idea, I like the HMS Discovery idea alot.
+    Never named any Apple stuff anything different from the normal “Andrew Yates’ X”. Sounds a pretty cool idea, I like the HMS Discovery idea alot.
 
     I wondered what I could use to name all of my Apple gear.
 

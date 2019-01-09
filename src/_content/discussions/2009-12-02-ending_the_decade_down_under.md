@@ -16,7 +16,7 @@ remarks:
   content: |
     Enjoy your holiday. Sounds like it will be fantastic.
 
-    I really want to get further away from the UK than Spain, so far I am yet to manage it. Hoping that the saving that I have been doing means by this time next year I would of made it past that barrier I haven't crossed yet.
+    I really want to get further away from the UK than Spain, so far I am yet to manage it. Hoping that the saving that I have been doing means by this time next year I would of made it past that barrier I haven’t crossed yet.
 
     Have a great time.
 

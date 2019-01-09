@@ -7,6 +7,6 @@ tags:
 ---
 Charlie Brooker:
 
-> The Olympic rings have been whored around so much they've become valueless: a status symbol for a few corporations to tote like a badge for several weeks, impressing almost no one except themselves.
+> The Olympic rings have been whored around so much they’ve become valueless: a status symbol for a few corporations to tote like a badge for several weeks, impressing almost no one except themselves.
 
 Increasing commercialism of the games threatens to undermine the Olympic movement.

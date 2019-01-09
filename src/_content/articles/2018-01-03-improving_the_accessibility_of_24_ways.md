@@ -3,7 +3,7 @@ title: Improving the Accessibility of 24 ways
 date: 2018-01-03
 canonical:
   url: https://css-tricks.com/improving-accessibility-24-ways/
-summary: Creating something new will always attract attention, but there's an under celebrated nobility in improving what already exists.
+summary: Creating something new will always attract attention, but there’s an under celebrated nobility in improving what already exists.
 tags:
 - project:24_ways
 - source:css_tricks
@@ -13,13 +13,13 @@ tags:
 screenshots:
 - url: /images/2018/01/improving_the_accessibility_of_24_ways/homepage.png
 ---
-I've been thinking recently about the nature of my work and which aspects of it I enjoy the most. In a role that will often straddle the realms of design and development, whether editing copy, evaluating the design of an interface or refactoring code, I've come to realise that my interests lie in the act of review and refinement.
+I’ve been thinking recently about the nature of my work and which aspects of it I enjoy the most. In a role that will often straddle the realms of design and development, whether editing copy, evaluating the design of an interface or refactoring code, I’ve come to realise that my interests lie in the act of review and refinement.
 
-My work on [24 ways][1] is a case in point. Since Drew McLellan asked me to redesign the site 2013, I've stayed on as part of the team, helping to review, edit and format articles. But I've also been able to fulfil [the desire I expressed][2] upon launching the redesign:
+My work on [24 ways][1] is a case in point. Since Drew McLellan asked me to redesign the site 2013, I’ve stayed on as part of the team, helping to review, edit and format articles. But I’ve also been able to fulfil [the desire I expressed][2] upon launching the redesign:
 
-> I'm a big believer in iteration, and not treating a website as ever being finished. I hope what's been released this year can act as a foundation, and that the design will evolve in the years to come.
+> I’m a big believer in iteration, and not treating a website as ever being finished. I hope what’s been released this year can act as a foundation, and that the design will evolve in the years to come.
 
-In the intervening years, as tools have improved and best practices have matured, I've tweaked the design and refactored the code, and developed [a component library][3] in the process.
+In the intervening years, as tools have improved and best practices have matured, I’ve tweaked the design and refactored the code, and developed [a component library][3] in the process.
 
 {% include 'screenshots' with screenshots
   caption: 'The 24 ways home page.'
@@ -28,7 +28,7 @@ In the intervening years, as tools have improved and best practices have matured
 
 ## A focus on accessibility
 
-This year I've been listening to people like Laura Kalbag talk about [accessibility in terms of universal design][4], and followed blogs like Heydon Pickering's [Inclusive Components][5], which covers how to design and implement common interaction patterns with an inclusive mindset. All of a sudden, the thorny subject of accessibility has felt more approachable and less dogmatic.
+This year I’ve been listening to people like Laura Kalbag talk about [accessibility in terms of universal design][4], and followed blogs like Heydon Pickering’s [Inclusive Components][5], which covers how to design and implement common interaction patterns with an inclusive mindset. All of a sudden, the thorny subject of accessibility has felt more approachable and less dogmatic.
 
 With all this knowledge digested, I was keen to see how 24 ways would fare when put under the microscope. In this article, I will cover five areas where I was able to make improvements:
 
@@ -42,7 +42,7 @@ Before I start, a note of thanks. After making an initial set of changes, I aske
 
 ## Rethinking page structure
 
-The original design had adopted a mobile-first approach. The navigation was deprioritised, and placed towards the bottom of the page. To ensure that it could be accessed from the top of the page in non-JavaScript scenarios, I added a 'skip to navigation' link. If JavaScript was available, this link was co-opted to reveal a navigation drawer, which would slide in from the top or right, depending on the width of the viewport. This resulted in the following page structure:
+The original design had adopted a mobile-first approach. The navigation was deprioritised, and placed towards the bottom of the page. To ensure that it could be accessed from the top of the page in non-JavaScript scenarios, I added a ‘skip to navigation’ link. If JavaScript was available, this link was co-opted to reveal a navigation drawer, which would slide in from the top or right, depending on the width of the viewport. This resulted in the following page structure:
 
 ```html
 <header class="c-banner">…</header>
@@ -57,7 +57,7 @@ The original design had adopted a mobile-first approach. The navigation was depr
 
 In retrospect, this was problematic in a number of ways:
 
-* The menu button (`.c-menu`) was not adjacent to the element it controlled (`c-navigation-drawer`). Moving focus around the page like this can be confusing, especially if it's not managed properly.
+* The menu button (`.c-menu`) was not adjacent to the element it controlled (`c-navigation-drawer`). Moving focus around the page like this can be confusing, especially if it’s not managed properly.
 * All navigation on the site was grouped together, even though each set of links served a different purpose.
 * The drawer behaviour relied on having a link behave like a button. However, [the first rule of ARIA][7] states:
 
@@ -65,7 +65,7 @@ In retrospect, this was problematic in a number of ways:
 
   Last year, I updated the JavaScript so that this link would be replaced by a `button`, yet this complexity was a hint that my original solution was sub-optimal.
 
-Here's the structure I arrived at today:
+Here’s the structure I arrived at today:
 
 ```html
 <header class="c-banner">
@@ -85,17 +85,17 @@ Moving the navigation towards the top of the page meant the button and drawer we
 
 A downside to this approach is that the navigation can be heard every time you visit a new page. Again, we can use a skip link, but this time one that points to the content block (`#main`). Rather than hide this focusable element from certain users, it becomes [visible on focus][8].
 
-This structure may be less ideologically pure, but it's far more pragmatic. This became a recuring theme. Indeed, having given up any hope of the HTML5 outline algorithm ever being supported by browsers, I stopped using `h1` for section headings, and followed the recommendation that [heading ranks should be used to convey document structure][9] instead.
+This structure may be less ideologically pure, but it’s far more pragmatic. This became a recuring theme. Indeed, having given up any hope of the HTML5 outline algorithm ever being supported by browsers, I stopped using `h1` for section headings, and followed the recommendation that [heading ranks should be used to convey document structure][9] instead.
 
 ## Improving keyboard navigation
 
-As the most interactive component on the site, the menu was the unsurprising focus of my review. The design dictates that the navigation drawer should behave like a dialog, an interface pattern that brings with it a number of assumptions. These are [described in detail in eBay's MIND pattern][10], but essentially a dialog draws focus away from other elements on the page, and is modal; only elements within it can be operated while it is open.
+As the most interactive component on the site, the menu was the unsurprising focus of my review. The design dictates that the navigation drawer should behave like a dialog, an interface pattern that brings with it a number of assumptions. These are [described in detail in eBay’s MIND pattern][10], but essentially a dialog draws focus away from other elements on the page, and is modal; only elements within it can be operated while it is open.
 
-I had previously cobbled together various bits of JavaScript to handle focusing (cobbling which at various points produced the odd bug such as failing to draw focus to the first element in the dialog), but had neglected to indicate the menu's role. Having fixed these issues (adding `role="dialog"` when the menu is open), Francis pointed out that screen readers could still access links outside the dialog when it was open. In macOS VoiceOver for example, pressing <kbd>CTRL</kbd> + <kbd>OPT</kbd> + <kbd>CMD</kbd> + <kbd>L</kbd> to navigate links within the menu, would in fact announce every link on the page.
+I had previously cobbled together various bits of JavaScript to handle focusing (cobbling which at various points produced the odd bug such as failing to draw focus to the first element in the dialog), but had neglected to indicate the menu’s role. Having fixed these issues (adding `role="dialog"` when the menu is open), Francis pointed out that screen readers could still access links outside the dialog when it was open. In macOS VoiceOver for example, pressing <kbd>CTRL</kbd> + <kbd>OPT</kbd> + <kbd>CMD</kbd> + <kbd>L</kbd> to navigate links within the menu, would in fact announce every link on the page.
 
-The solution was to mark everything outside the dialog as 'inert'. Rob Dodson describes this in mode detail in his video [Accessible Modal Dialogs][11]. Implementing this can be a little bit fiddly, but a [proposal to introduce an `inert` attribute][12] would make this easier to manage. In the meantime, the proposal provides a polyfill so you can use this feature today.
+The solution was to mark everything outside the dialog as ‘inert’. Rob Dodson describes this in mode detail in his video [Accessible Modal Dialogs][11]. Implementing this can be a little bit fiddly, but a [proposal to introduce an `inert` attribute][12] would make this easier to manage. In the meantime, the proposal provides a polyfill so you can use this feature today.
 
-I've found that by thinking about an interface in terms of common interaction patterns, and how they should operate in order to be widely understood, has helped me avoid complexity, and write more robust code. In fact, stepping into the world of accessibility has uncovered a wealth of useful resources, with well-written JavaScript examples a plenty. Given my difficult relationship with the web's programming language, these have proven invaluable.
+I’ve found that by thinking about an interface in terms of common interaction patterns, and how they should operate in order to be widely understood, has helped me avoid complexity, and write more robust code. In fact, stepping into the world of accessibility has uncovered a wealth of useful resources, with well-written JavaScript examples a plenty. Given my difficult relationship with the web’s programming language, these have proven invaluable.
 
 ## Properly labelling elements
 
@@ -133,7 +133,7 @@ While I had provided text content for these links, this component still had a nu
 
 * No indication was given as to the role these links play and their relationship to each other.
 * Using `role="img"` on the SVG icons, but not providing any accessible names, was akin to including images without `alt` attributes.
-* Useful information, in this case the title of the previous and next article, was hidden within a `data-` attribute. This attribute was used in the stylesheet to add content that is shown in animated 'flaps' that appear on hover:
+* Useful information, in this case the title of the previous and next article, was hidden within a `data-` attribute. This attribute was used in the stylesheet to add content that is shown in animated ‘flaps’ that appear on hover:
 
 ```css
 .c-traverse-nav a[rel=prev]:hover::after {
@@ -189,7 +189,7 @@ Navigating the site using a screen reader lead to me making a few other small ch
 }
 ```
 
-However, screen-readers typically announce generated content. When these links were read out, you'd hear nonsense like this:
+However, screen-readers typically announce generated content. When these links were read out, you’d hear nonsense like this:
 
 <samp>link, more articles by drew single right-pointing angle quotation mark</samp>.
 
@@ -212,25 +212,25 @@ Adding `speak: none` had no effect (CSS aural properties have little support). H
   caption: 'Continue links before and after improvements. While they look similar, the revised design sounds much better.'
 %}
 
-I also made improvements to the styling of author names in article summaries. Originally, these were distinguished from the rest of the excerpt by styling them as uppercase text. Francis pointed out that some screen readers will spell out uppercase letters (regardless of whether they appear in the HTML or have been altered by CSS) if they don't spell a known word. For example: VoiceOver and NVDA have trouble with Chris Coyier's surname, so his name would be read aloud as <samp>Chris C-O-Y-I-E-R</samp>. The simple fix was to distinguish names using emboldened text instead.
+I also made improvements to the styling of author names in article summaries. Originally, these were distinguished from the rest of the excerpt by styling them as uppercase text. Francis pointed out that some screen readers will spell out uppercase letters (regardless of whether they appear in the HTML or have been altered by CSS) if they don’t spell a known word. For example: VoiceOver and NVDA have trouble with Chris Coyier’s surname, so his name would be read aloud as <samp>Chris C-O-Y-I-E-R</samp>. The simple fix was to distinguish names using emboldened text instead.
 
-If I'm honest, I've been somewhat arrogant in the past, thinking that by using semantic markup and progressive enhancement, I needn't worry too much about accessibility. While using the right elements, and considering an interface not only in visual terms is important, this is the absolute bare minimum. An understanding of different assistive techologies, and willingness to test with them, is just as important.
+If I’m honest, I’ve been somewhat arrogant in the past, thinking that by using semantic markup and progressive enhancement, I needn’t worry too much about accessibility. While using the right elements, and considering an interface not only in visual terms is important, this is the absolute bare minimum. An understanding of different assistive techologies, and willingness to test with them, is just as important.
 
 ## Reviewing general usability
 
 Thinking about accessibility led to me improve overall usability, too.
 
-For this years set of articles, we no longer link to author's websites from article excepts. This historical holdover was poorly resolved previously; if you happened to click on the author's name you would be taken to their website, not the article as you would expect. We also included comment counts that were linked to the comment section on the article page (which itself linked to a separate comments page). Madness!
+For this years set of articles, we no longer link to author’s websites from article excepts. This historical holdover was poorly resolved previously; if you happened to click on the author’s name you would be taken to their website, not the article as you would expect. We also included comment counts that were linked to the comment section on the article page (which itself linked to a separate comments page). Madness!
 
 Now, each article has one link; to the article. A home page that once involved tabbing through 24×3 links, is now less noisy and much easier to navigate for everyone.
 
-Other refinements included ensuring the site is responsive in terms of height, as well as width, ensuring the navigation menu can be dismissed when you click outside of it, and a review of overall performance. These might not be considered accessibility improvements, but I'm not so sure. To suggest this would be to think accessibility is a entirely separate concern. In fact, making changes that benefit one set of users will typically benefit all.
+Other refinements included ensuring the site is responsive in terms of height, as well as width, ensuring the navigation menu can be dismissed when you click outside of it, and a review of overall performance. These might not be considered accessibility improvements, but I’m not so sure. To suggest this would be to think accessibility is a entirely separate concern. In fact, making changes that benefit one set of users will typically benefit all.
 
 * * *
 
-Creating something new will always attract attention and admiration, but there's an under celebrated nobility in improving what already exists. While not all changes may be visual, they can have just as much impact. I know that, had we decided to redesign the site this year, many of these improvements would not have been made. Hopefully this overview will encourage you to look at your own projects, and think about similar changes you might make.
+Creating something new will always attract attention and admiration, but there’s an under celebrated nobility in improving what already exists. While not all changes may be visual, they can have just as much impact. I know that, had we decided to redesign the site this year, many of these improvements would not have been made. Hopefully this overview will encourage you to look at your own projects, and think about similar changes you might make.
 
-Having a growing awareness of the issues, and expanding your knowledge of the tools available is an essential requirement of working on the web. However, don't keep that knowledge saved up for the future; if you can, go back and fix your older projects too.
+Having a growing awareness of the issues, and expanding your knowledge of the tools available is an essential requirement of working on the web. However, don’t keep that knowledge saved up for the future; if you can, go back and fix your older projects too.
 
 [1]: https://24ways.org/
 [2]: https://paulrobertlloyd.com/2013/12/redesigning_24_ways

@@ -55,4 +55,4 @@ I reviewed the project creation flow, addressing areas of friction and confusion
   alignment: 'bleed'
 %}
 
-Throughout my engagement I also advised on the development of the company's nascent component library. I advocated for developing patterns that carried few assumptions about their intended use, enabling them to be applied more broadly across the product.
+Throughout my engagement I also advised on the development of the company’s nascent component library. I advocated for developing patterns that carried few assumptions about their intended use, enabling them to be applied more broadly across the product.

@@ -8,4 +8,4 @@ end: 2013-04-24T20:11:00+01:00
 tags:
 - venue:9c2xrvm6+hm
 ---
-The life of Paul Raymond, the controversial entrepreneur who became Britain's richest man.
+The life of Paul Raymond, the controversial entrepreneur who became Britain’s richest man.

@@ -1,5 +1,5 @@
 ---
-title: 'Best of the Fest'
+title: Best of the Fest
 date: 2010-10-15T20:00:00+01:00
 series: brighton_comedy_festival_2010
 start: 2010-10-15T20:00:00+01:00

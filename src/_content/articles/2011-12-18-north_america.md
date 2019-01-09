@@ -1,7 +1,7 @@
 ---
 title: Continuing Adventures in America
 date: 2011-12-18T23:09:35Z
-summary: Having tried so diligently last year to reduce the amount of flying I do, I hoped to keep this year's long-haul flights to one. With an important part of my family now settled in São Paulo, and some of my best friends based in San Francisco, maybe such lofty goals are foolhardy. Before I write about my most recent travels, I address the hypocrisy in taking such a trip.
+summary: Having tried so diligently last year to reduce the amount of flying I do, I hoped to keep this year’s long-haul flights to one. With an important part of my family now settled in São Paulo, and some of my best friends based in San Francisco, maybe such lofty goals are foolhardy. Before I write about my most recent travels, I address the hypocrisy in taking such a trip.
 series: north_america_2011
 tags:
 - travel
@@ -14,9 +14,9 @@ tags:
   alignment: 'bleed'
 %}
 
-At the end of last year I stated that [I'd only be taking one long-haul trip this year][1], one that would take in Austin, San Francisco and Canada. Between then and March, my itinerary changed so that I could visit my brother in Brazil (and indulge in a [bit of utopian architecture][2] on the way) but it was a tough decision. Ever since visiting [Montreal in 2007][3], I've long wanted to see more of Canada.
+At the end of last year I stated that [I’d only be taking one long-haul trip this year][1], one that would take in Austin, San Francisco and Canada. Between then and March, my itinerary changed so that I could visit my brother in Brazil (and indulge in a [bit of utopian architecture][2] on the way) but it was a tough decision. Ever since visiting [Montreal in 2007][3], I’ve long wanted to see more of Canada.
 
-Luckily, I was later invited to my friends Dan & Liz's wedding taking place in San Francisco in November. This presented the opportunity to make another overseas trip, one that could take in Canada and the [An Event Apart][4] conference happening in Washington DC the week before:
+Luckily, I was later invited to my friends Dan & Liz’s wedding taking place in San Francisco in November. This presented the opportunity to make another overseas trip, one that could take in Canada and the [An Event Apart][4] conference happening in Washington DC the week before:
 
 * **20 October:** Depart London Heathrow
 * **21-25 October:** [Washington, DC][5]
@@ -28,9 +28,9 @@ Luckily, I was later invited to my friends Dan & Liz's wedding taking place in S
 * **4-6 November:** [San Francisco, California][10]
 * **7 November:** Arrive London Heathrow
 
-Obviously, this contradicted [my desire to cut down the air miles][11]. By my failed logic, if I'm travelling such a long way, I should cram in as much as possible for that distance to have been worth flying -- even if doing so would result in further flights. Thankfully parts of this itinerary were joined together by rail, which remains my favourite means of travel.
+Obviously, this contradicted [my desire to cut down the air miles][11]. By my failed logic, if I’m travelling such a long way, I should cram in as much as possible for that distance to have been worth flying — even if doing so would result in further flights. Thankfully parts of this itinerary were joined together by rail, which remains my favourite means of travel.
 
-Still, I end the year with a tinge of guilt, and answerable to the valid accusation of hypocrisy. Having tried so diligently last year to reduce the amount of flying I do, I hoped to keep this year's long-haul flights to one. With an important part of my family now settled in São Paulo, and some of my best friends based in North America, maybe such lofty goals are foolhardy.
+Still, I end the year with a tinge of guilt, and answerable to the valid accusation of hypocrisy. Having tried so diligently last year to reduce the amount of flying I do, I hoped to keep this year’s long-haul flights to one. With an important part of my family now settled in São Paulo, and some of my best friends based in North America, maybe such lofty goals are foolhardy.
 
 On this, I discovered [an interesting quote by Samuel Johnson][12]:
 

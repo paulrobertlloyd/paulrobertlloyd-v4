@@ -7,6 +7,6 @@ tags:
 ---
 Harry Roberts:
 
-> It's hard, if not impossible, to deny that performance is *by far* one of the most critical aspects of any decent web project, be it a small portfolio site, a mobile-first web app, right through to a full-scale ecommerce project. Studies, articles and personal experience all tell us that fast is best.
+> It’s hard, if not impossible, to deny that performance is _by far_ one of the most critical aspects of any decent web project, be it a small portfolio site, a mobile-first web app, right through to a full-scale ecommerce project. Studies, articles and personal experience all tell us that fast is best.
 
-If you're a web developer (or designer) read this. Now.
+If you’re a web developer (or designer) read this. Now.

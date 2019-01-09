@@ -7,7 +7,7 @@ remarks:
   date: 2012-11-15T14:35:12Z
   url: http://www.penelopecircle.com
   content: |
-    Thanks! Great inspiration even though some of it, as you mention, is a bit overkill. I've never heard of base64 backgrounds. Will definitely look into that.
+    Thanks! Great inspiration even though some of it, as you mention, is a bit overkill. I’ve never heard of base64 backgrounds. Will definitely look into that.
 
 - author: Adam
   gravatar: 5819f8e8addb33ebd840ffc630af6643

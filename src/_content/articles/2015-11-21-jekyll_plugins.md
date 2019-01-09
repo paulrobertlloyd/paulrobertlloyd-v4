@@ -4,7 +4,7 @@ date: 2015-11-21T16:57:00Z
 location:
   locality: Brighton
   country-name: United Kingdom
-summary: 'The hackability provided by Jekyll''s plugin architecture has brought about an unexpected consequence: I''m starting to learn Ruby.'
+summary: 'The hackability provided by Jekyll’s plugin architecture has brought about an unexpected consequence: I’m starting to learn Ruby.'
 tags:
 - jekyll
 - ruby
@@ -12,11 +12,11 @@ tags:
 ---
 Writing about [the redesign of this site][1] in July, I mentioned why I decided to build it using [Jekyll][2]:
 
-> Not only is this software actively developed, but I find it to be incredibly configurable and -- once I get the hang of Ruby -- infinitely hackable.
+> Not only is this software actively developed, but I find it to be incredibly configurable and — once I get the hang of Ruby — infinitely hackable.
 
-This hackability, provided by its [plugin architecture][3], has brought about an unexpected consequence: I'm starting to learn [Ruby][4]. Its natural language syntax means it's fairly easy to write simple functions -- or at least understand how those copy and pasted from the Internet work! Furthermore, I'm noticing how programming concepts in this language translate to others such as JavaScript (whose syntax, conventions and error messages serve only to intimidate me).
+This hackability, provided by its [plugin architecture][3], has brought about an unexpected consequence: I’m starting to learn [Ruby][4]. Its natural language syntax means it’s fairly easy to write simple functions — or at least understand how those copy and pasted from the Internet work! Furthermore, I’m noticing how programming concepts in this language translate to others such as JavaScript (whose syntax, conventions and error messages serve only to intimidate me).
 
-While I'm still very much an amateur Ruby-ist, I now feel confident enough to release two Gems that bring additional functionality to Jekyll.
+While I’m still very much an amateur Ruby-ist, I now feel confident enough to release two Gems that bring additional functionality to Jekyll.
 
 ## jekyll-roman
 
@@ -61,11 +61,11 @@ will generate the following HTML:
 
 ## Next steps
 
-Now, these are pretty simple plugins, but hopefully they are a prelude to more complex offerings. I've already [contributed changes][8] to Aaron Gustafson's plugin [jekyll-crosspost_to_medium][9], and I'm currently trying to update the slugify utility inside Jekyll's core so that it can take more options.
+Now, these are pretty simple plugins, but hopefully they are a prelude to more complex offerings. I’ve already [contributed changes][8] to Aaron Gustafson’s plugin [jekyll-crosspost_to_medium][9], and I’m currently trying to update the slugify utility inside Jekyll’s core so that it can take more options.
 
-At a later date, I may release [the plugin I'm using to generate responsive image mark-up][10], although given its breadth of features, it requires a lot of testing. Ultimately, I'd like to create a plugin to help me display photos I've posted to Flickr on this site as well.
+At a later date, I may release [the plugin I’m using to generate responsive image mark-up][10], although given its breadth of features, it requires a lot of testing. Ultimately, I’d like to create a plugin to help me display photos I’ve posted to Flickr on this site as well.
 
-Yet if there's one thing I've learnt while making this tentitive journey into the world of programing, it's that taking one step at a time is often the most sensible approach.
+Yet if there’s one thing I’ve learnt while making this tentitive journey into the world of programing, it’s that taking one step at a time is often the most sensible approach.
 
 [1]: /2015/07/shipped
 [2]: http://jekyllrb.com

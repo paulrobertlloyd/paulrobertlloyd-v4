@@ -7,4 +7,4 @@ end: 2018-01-18T19:40:00Z
 tags:
 - venue:9c2xrvf6+x6
 ---
-A mother personally challenges the local authorities to solve her daughter's murder when they fail to catch the culprit.
+A mother personally challenges the local authorities to solve her daughter’s murder when they fail to catch the culprit.

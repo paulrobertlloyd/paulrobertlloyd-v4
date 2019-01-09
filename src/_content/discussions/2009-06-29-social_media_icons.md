@@ -7,14 +7,14 @@ remarks:
   date: 2009-06-29T08:31:30+01:00
   url: http://roodesign.co.uk
   content: |
-    I love 'em. Brilliant stuff.
+    I love ’em. Brilliant stuff.
 
 - author: Cennydd
   gravatar: a962b4d3a7d6405455b39a7b336ab133
   date: 2009-06-29T10:56:58+01:00
   url: https://www.cennydd.com
   content: |
-    The number of times I wished this post existed... now it does! Cheers Paul!
+    The number of times I wished this post existed… now it does! Cheers Paul!
 
 - author: Tim Van Damme
   gravatar: 443db578de712c1dbd71f04d0aab7c26
@@ -39,7 +39,7 @@ remarks:
   content: |
     Thanks for the kind words everybody!
 
-    [@Stuart](#remark-4): I plan to add icons for all the major IM providers in the next release, including AIM, Yahoo, Messenger, GTalk and Skype. An icon for a generic phone sounds like a good idea, although you are right it falls slightly outside the remit for these icons. I'll have to have a think about this.
+    [@Stuart](#remark-4): I plan to add icons for all the major IM providers in the next release, including AIM, Yahoo, Messenger, GTalk and Skype. An icon for a generic phone sounds like a good idea, although you are right it falls slightly outside the remit for these icons. I’ll have to have a think about this.
 
 - author: wikignome
   gravatar: ed3a369a5537920fe73684fb2f52e1c6
@@ -89,7 +89,7 @@ remarks:
   date: 2009-07-09T16:20:39+01:00
   url: http://remiprevost.com
   content: |
-    Lots of them are actually *way* better than the website's own favicon! Thank you for letting us use those great icons!
+    Lots of them are actually *way* better than the website’s own favicon! Thank you for letting us use those great icons!
 
 - author: Dave
   gravatar: cb22dd73df254e261573e19e9de37c71
@@ -103,13 +103,13 @@ remarks:
   date: 2009-07-10T00:06:44+01:00
   url: http://thedesigned.com
   content: |
-    Great set!! I like 'em a lot!
+    Great set!! I like ’em a lot!
 
 - author: Anon
   gravatar: d88147ac595f0b9ee52df4a6292632a2
   date: 2009-07-10T02:50:33+01:00
   content: |
-    I've never found one for Bebo, doesn't anyone know where to find a Bebo social media icon?
+    I’ve never found one for Bebo, doesn’t anyone know where to find a Bebo social media icon?
 
 - author: Jeremy Dunck
   gravatar: f3794e603ef53b0513ab45b6565ee457
@@ -155,7 +155,7 @@ remarks:
   date: 2009-07-20T16:40:55+01:00
   url: http://flyosity.com
   content: |
-    Every one of these icons is a rip-off of my friend Rogie King's icons at Komodo Media: <http://www.komodomedia.com/blog/2009/06/social-network-icon-pack/>
+    Every one of these icons is a rip-off of my friend Rogie King’s icons at Komodo Media: <http://www.komodomedia.com/blog/2009/06/social-network-icon-pack/>
 
     Why would you do this?
 
@@ -164,7 +164,7 @@ remarks:
   date: 2009-07-20T16:46:46+01:00
   url: http://www.nuclearsummer.com/
   content: |
-    Agree with all of the above -- these are so nice, clean and consistent. Great work -- thanks!
+    Agree with all of the above – these are so nice, clean and consistent. Great work – thanks!
 
 - author: Rolando Peralta
   gravatar: f299962b8f53c2f5ac90c9ae04b0366a
@@ -182,34 +182,34 @@ remarks:
 
     Obviously I would like to rebut your claims of these icons as being direct rip-offs of those icons by Rogie King.
 
-    I note that on Twitter [you have apologised](http://twitter.com/mike9r/status/2740676784), and stated that you believe I had mistakenly linked to Rogie's icons, but had since changed the link. I'm slightly confused by this claim as this is just not true. This download link has not changed since I published this post. My guess is that you saw the 16x16 icons previewed above, and without downloading the file and inspecting it's   content: s, left a comment here (and more damagingly) made the same claims on Twitter (resulting in the predictable thoughtless re-tweeting by others).
+    I note that on Twitter [you have apologised](http://twitter.com/mike9r/status/2740676784), and stated that you believe I had mistakenly linked to Rogie’s icons, but had since changed the link. I’m slightly confused by this claim as this is just not true. This download link has not changed since I published this post. My guess is that you saw the 16x16 icons previewed above, and without downloading the file and inspecting it’s   content: s, left a comment here (and more damagingly) made the same claims on Twitter (resulting in the predictable thoughtless re-tweeting by others).
 
     But in the spirit of full disclosure, I am happy to provide a little more background on how these icons came into being.
 
     In the past I had found that the only suitable 16x16 icons available for linking to different social networks were the favicons used by the respective websites, yet these were often visually inconsistent and in some cases, rather ugly.
 
-    After doing some similar icons for a client in April, I decided that I would rectify this and spend some time creating a set of icons for my favourite social networks, with my two key goals being that they didn't stray too far from the original favicons (YouTube excluded -- I absolutely hate their favicon!) and that they all had a consistent appearance.
+    After doing some similar icons for a client in April, I decided that I would rectify this and spend some time creating a set of icons for my favourite social networks, with my two key goals being that they didn’t stray too far from the original favicons (YouTube excluded – I absolutely hate their favicon!) and that they all had a consistent appearance.
 
-    At this time I had seen [Rogie's initial set of icons](http://www.komodomedia.com/blog/2008/12/social-media-mini-iconpack/) (as noted in the above post) and also the gorgeous icons created by [Tim Van Damme](http://timvandamme.com/) for use on his address card site, whose icons inspired me to create the larger icon sizes. I completed most of these during the May Bank Holiday, but being a perfectionist (and susceptible to chronic bouts of procrastination) I never finished the entire set.
+    At this time I had seen [Rogie’s initial set of icons](http://www.komodomedia.com/blog/2008/12/social-media-mini-iconpack/) (as noted in the above post) and also the gorgeous icons created by [Tim Van Damme](http://timvandamme.com/) for use on his address card site, whose icons inspired me to create the larger icon sizes. I completed most of these during the May Bank Holiday, but being a perfectionist (and susceptible to chronic bouts of procrastination) I never finished the entire set.
 
-    However two things spurred me on to bite the bullet and finish my icons. Firstly a discussion with my colleagues in the pub about not worrying too much about trying to achieve perfection (i.e. 'Great Artists Ship') and secondly seeing that Rogie had released his updated set of icons.
+    However two things spurred me on to bite the bullet and finish my icons. Firstly a discussion with my colleagues in the pub about not worrying too much about trying to achieve perfection (i.e. ‘Great Artists Ship’) and secondly seeing that Rogie had released his updated set of icons.
 
     This was of course my worse fear. When I created my icons nobody had done a set of popular social network icons in sizes greater than 16x16, but I knew it was only a matter of time before somebody would, and Rogie did (and they are [a fantastic set of icons](http://www.komodomedia.com/blog/2009/06/social-network-icon-pack/)).
 
-    Rogie is obviously a far more talented illustrator than I am, and I love that each of his icons reflect his own unique style. Yet at the same time this is precisely why I wanted to create my own icons -- I wanted icons with a more generic feel, simply customised so that they felt like they belonged to the same family.
+    Rogie is obviously a far more talented illustrator than I am, and I love that each of his icons reflect his own unique style. Yet at the same time this is precisely why I wanted to create my own icons – I wanted icons with a more generic feel, simply customised so that they felt like they belonged to the same family.
 
-    Now these icons may not be *that* different to Rogie's, but how could they be? After all both sets of icons are built upon the same foundations -- that of the logos and colours of the respective social networking services. However each and every pixel of these icons has been crafted by my own fair hands, and many hours have been spent working on them.
+    Now these icons may not be *that* different to Rogie’s, but how could they be? After all both sets of icons are built upon the same foundations – that of the logos and colours of the respective social networking services. However each and every pixel of these icons has been crafted by my own fair hands, and many hours have been spent working on them.
 
-    I apologise for the lengthy reply, but it may not surprise you that I'm a little annoyed by your comments, both here and on Twitter (with its [rather flimsy retraction](http://twitter.com/mike9r/status/2740676784)). If you don't like my icons, then of course that's your own personal opinion, but please don't insult me by claiming I am some sort of rip-off artist. I find such comments unhelpful.
+    I apologise for the lengthy reply, but it may not surprise you that I’m a little annoyed by your comments, both here and on Twitter (with its [rather flimsy retraction](http://twitter.com/mike9r/status/2740676784)). If you don’t like my icons, then of course that’s your own personal opinion, but please don’t insult me by claiming I am some sort of rip-off artist. I find such comments unhelpful.
 
 - author: Mike Rundle
   gravatar: 56cd2d42305802c2c3a41ecb9911dd76
   date: 2009-07-20T22:35:23+01:00
   url: http://flyosity.com
   content: |
-    Hey Paul, like I said on Twitter just now I swear I clicked to download your icons, opened up the ZIP, and I saw Rogie's icons. I did this 3x and had the same result. Initially your ZIP file was 0 bytes and I thought something odd was going on, my only explanation is that your ZIP was named exactly the same as Rogie's and I had his in the same folder. After I deleted all ZIPs in my Downloads folder I gave it another shot and finally saw your actual icons which are very, very nice.
+    Hey Paul, like I said on Twitter just now I swear I clicked to download your icons, opened up the ZIP, and I saw Rogie’s icons. I did this 3x and had the same result. Initially your ZIP file was 0 bytes and I thought something odd was going on, my only explanation is that your ZIP was named exactly the same as Rogie’s and I had his in the same folder. After I deleted all ZIPs in my Downloads folder I gave it another shot and finally saw your actual icons which are very, very nice.
 
-    You have my sincerest apologies and immediately after I discovered my mistake I deleted the tweets that contained my remarks and apologized. As Rogie has mentioned I would not do something like this maliciously, it was a mistake on my part, and I'm very sorry.
+    You have my sincerest apologies and immediately after I discovered my mistake I deleted the tweets that contained my remarks and apologized. As Rogie has mentioned I would not do something like this maliciously, it was a mistake on my part, and I’m very sorry.
 
 - author: Paul Robert Lloyd
   gravatar: 15091a37bacfa4bdd011282627eaca2b
@@ -218,16 +218,16 @@ remarks:
   content: |
     Thanks for getting back to me on this Mike, it seem as though technology has failed us once again. Apology excepted.
 
-    I guess the thing that annoyed me most about this whole episode was clicking on 'Mentions' in Tweetie, to see tens of re-tweets of your original status update, which in effect magnified the intensity of your original claim.
+    I guess the thing that annoyed me most about this whole episode was clicking on ‘Mentions’ in Tweetie, to see tens of re-tweets of your original status update, which in effect magnified the intensity of your original claim.
 
-    Anyway, the subject of retweeting merits an entirely different blog post devoted to it (and another thing I've delayed doing). I guess I should get it written up before Rogie beats me to it ;-)
+    Anyway, the subject of retweeting merits an entirely different blog post devoted to it (and another thing I’ve delayed doing). I guess I should get it written up before Rogie beats me to it ;-)
 
 - author: Ben Swift
   gravatar: c537264653324351490822d868369a00
   date: 2009-07-21T17:15:17+01:00
   url: http://twincircuits.com
   content: |
-    Dude, these are awesome :) Nice site actually, but there's not enough of 'em ;)
+    Dude, these are awesome :) Nice site actually, but there’s not enough of ’em ;)
 
     Wow, you live in Littlehampton? :D I live in EP, about mile and a half down the road :) Small world..
 
@@ -238,7 +238,7 @@ remarks:
   date: 2009-07-22T20:58:40+01:00
   url: http://mathisen.me
   content: |
-    Thank you! I used them for my website, they look fantastic. Pixel-perfection. I'm really looking forward to an phone and AIM icon!
+    Thank you! I used them for my website, they look fantastic. Pixel-perfection. I’m really looking forward to an phone and AIM icon!
 
     And a vCard icon perhaps?
 
@@ -254,7 +254,7 @@ remarks:
   date: 2009-07-30T00:02:48+01:00
   url: http://iampaulburgess.co.uk/
   content: |
-    Yo Paul - this is Paul Burgess, we shared karaoke japery a couple of weeks ago... just dropping you a note to say your flickr icon is in full effect on my new lil project: <http://colorsuckr.com>
+    Yo Paul - this is Paul Burgess, we shared karaoke japery a couple of weeks ago… just dropping you a note to say your flickr icon is in full effect on my new lil project: <http://colorsuckr.com>
 
     Stay cool
 
@@ -264,14 +264,14 @@ remarks:
   url: http://doug.aqueo.us/
   content: |
     Very nice icon set. Thanks!
-    If you're taking requests, I'd like to see GoodReads and IMDB added. Also, you could look at what sites are supported by the Lifestream for WordPress plugin for more suggestions. That's where I'm using your icons.   url: <http://www.ibegin.com/labs/wp-lifestream/>
+    If you’re taking requests, I’d like to see GoodReads and IMDB added. Also, you could look at what sites are supported by the Lifestream for WordPress plugin for more suggestions. That’s where I’m using your icons.   url: <http://www.ibegin.com/labs/wp-lifestream/>
 
 - author: Benjamin Kudria
   gravatar: 5b6484445948ebe063c264a1015dfcc4
   date: 2009-08-01T06:49:02+01:00
   url: http://ben.kudria.net
   content: |
-    Nice icons! I'm using a few over on my site: <http://ben.kudria.net>
+    Nice icons! I’m using a few over on my site: <http://ben.kudria.net>
 
     Thanks!
 
@@ -287,7 +287,7 @@ remarks:
   date: 2009-08-06T07:10:36+01:00
   url: http://www.justjason.com
   content: |
-    I don't want to come off as a jackass because what you have here is extraordinary, but I would love for a few more to be included like GoodReads, Viddler and 43things. Keep up the amazing work!
+    I don’t want to come off as a jackass because what you have here is extraordinary, but I would love for a few more to be included like GoodReads, Viddler and 43things. Keep up the amazing work!
 
 - author: Lauren
   gravatar: 98fbd9eda5c24418fa26849a6e7e8694
@@ -303,7 +303,7 @@ remarks:
   content: |
     Hi Paul,
 
-    Just wanted to let you know that I've used your icons (with credit, as required by the license!) in a site I've created: <http://pubwich.org/>
+    Just wanted to let you know that I’ve used your icons (with credit, as required by the license!) in a site I’ve created: <http://pubwich.org/>
 
     Thanks again for your work!
 
@@ -312,7 +312,7 @@ remarks:
   date: 2009-08-20T12:52:44+01:00
   url: http://nymphont.blogspot.com
   content: |
-    Hi, I'm back, I did use them. Thanks. Linked you in my blog footer :)
+    Hi, I’m back, I did use them. Thanks. Linked you in my blog footer :)
 
 - author: Stephen Kinsella
   gravatar: f30803bd8a8e1be9ddfc5e421ca59c59
@@ -332,7 +332,7 @@ remarks:
   gravatar: 05f4141174c3045e611f3688665163fd
   date: 2009-08-30T23:22:47+01:00
   content: |
-    Thanks so much for making these available, Paul. They're gorgeous as well as understated.
+    Thanks so much for making these available, Paul. They’re gorgeous as well as understated.
 
 - author: Lawrence Rolograaf
   gravatar: a77ea5dd5de969e5b4b6fb5c2d4cd786
@@ -362,29 +362,29 @@ remarks:
   date: 2009-09-11T15:51:17+01:00
   url: http://djsteen.com
   content: |
-    This is such a giddy-great set of icons, Paul! It's definitely the most comprehensive set I've found online.
+    This is such a giddy-great set of icons, Paul! It’s definitely the most comprehensive set I’ve found online.
 
-    As some others have said, I'd love to see Viddler in this package too. We have an icon already that should fit perfectly: <http://img29.imageshack.us/img29/8150/128&#120;128e.png>
+    As some others have said, I’d love to see Viddler in this package too. We have an icon already that should fit perfectly: <http://img29.imageshack.us/img29/8150/128&#120;128e.png>
 
     E-mail me if you have questions.
 
-    Again, you've done a top notch job!
+    Again, you’ve done a top notch job!
 
 - author: Chris Price
   gravatar: 4f0eeda90d26373714871ea315566689
   date: 2009-09-14T06:58:30+01:00
   url: http://www.studiochris.us
   content: |
-    Have to agree with everyone else -- the set looks great! I'm using them in my redesign that I hope to push out in the next week or two.
+    Have to agree with everyone else – the set looks great! I’m using them in my redesign that I hope to push out in the next week or two.
 
-    I needed a friendfeed icon to match, so I made one -- you're welcome to it to add to the set if you'd like ([I have the 32 & 24 sizes done](http://www.flickr.com/photos/studiochris/3918877500/sizes/o/)). Just email the address in the comment and I'll send the PSDs.
+    I needed a friendfeed icon to match, so I made one – you’re welcome to it to add to the set if you’d like ([I have the 32 & 24 sizes done](http://www.flickr.com/photos/studiochris/3918877500/sizes/o/)). Just email the address in the comment and I’ll send the PSDs.
 
 - author: iniara
   gravatar: cea694765d4509b01ae0fbcda0e48f84
   date: 2009-09-26T15:29:40+01:00
   url: http://iniara.com
   content: |
-    I'm surprised blip.fm isn't on that list.
+    I’m surprised blip.fm isn’t on that list.
 
 - author: Jo C
   gravatar: 8cdebacdab4f47fc12009acb00ce09c4
@@ -421,7 +421,7 @@ remarks:
   gravatar: dda250a34da5f7f9102717e6aadf0a06
   date: 2009-10-18T18:56:53+01:00
   content: |
-    good idea, would be even "lighter" to put them as a sprite, and use a .class to display, cf yahoo! sprites
+    good idea, would be even “lighter” to put them as a sprite, and use a .class to display, cf yahoo! sprites
 
 - author: Maleficus
   gravatar: f7ce3ab864cac1e1a7a3ad05d9337122
@@ -452,13 +452,13 @@ remarks:
   date: 2009-11-10T19:47:58Z
   url: http://stephaniehobson.ca
   content: |
-    I've always loved the design for this set but I'm acquiring a new appreciation for how comprehensive it is. Most of the others seem to always be missing one of the ones I need ;)
+    I’ve always loved the design for this set but I’m acquiring a new appreciation for how comprehensive it is. Most of the others seem to always be missing one of the ones I need ;)
 
 - author: Jon Hanke
   gravatar: e2a3361c79b846b8b9baca80b53a0743
   date: 2009-11-11T17:52:30Z
   content: |
-    I love these icons -- I only wish the YouTube icon showed the actual YouTube logo, rather than a white arrow on a red background. I'm afraid no one will know what it refers to. Otherwise, great work!
+    I love these icons – I only wish the YouTube icon showed the actual YouTube logo, rather than a white arrow on a red background. I’m afraid no one will know what it refers to. Otherwise, great work!
 
 - author: Philip
   gravatar: 70e4d24da5c6eed312c58409a7101bff
@@ -466,21 +466,21 @@ remarks:
   content: |
     Me again, sorry.
 
-    I miss the "Mister Wong" Icon. Would be nice, if you include it. Thank you very much.
+    I miss the “Mister Wong” Icon. Would be nice, if you include it. Thank you very much.
 
 - author: AndrewNoNumbers
   gravatar: 079bc6e05f1796d56fdc521c3a694adc
   date: 2009-11-16T00:53:39Z
   url: http://ndrw.me
   content: |
-    Wow awesome, probably the most complete set of social media icons I've seen.
+    Wow awesome, probably the most complete set of social media icons I’ve seen.
 
 - author: Al
   gravatar: 52d9c607bfd5ec5025ff198af8c660ae
   date: 2009-11-18T14:32:44Z
   url: http://www.daretothink.co.uk
   content: |
-    Hi, any chance I could get the PSD file -- there's a few that I'd like to add to the list -- I'll then send those back so you can include on your site as well... great set by the way.
+    Hi, any chance I could get the PSD file – there’s a few that I’d like to add to the list – I’ll then send those back so you can include on your site as well… great set by the way.
 
 - author: Ryan McKernan
   gravatar: 5c687060b150e5b83b858b659fbf04f8
@@ -515,7 +515,7 @@ remarks:
   date: 2009-12-08T18:23:17Z
   url: http://jamy015.nl
   content: |
-    Hey, can you also create a icon for Hyves (http://hyves.nl)? It's the leading social network in the Netherlands and now i have to substitute the icon with the text "Hyves".
+    Hey, can you also create a icon for Hyves (http://hyves.nl)? It’s the leading social network in the Netherlands and now i have to substitute the icon with the text “Hyves”.
 
 - author: jamy015
   gravatar: a10ca17f2ec33820a31af238b5683e89
@@ -524,7 +524,7 @@ remarks:
   content: |
     Oh, and could you also add Google Reader and Instructables ones?
 
-    I know, it's a lot, but the set will become even better!
+    I know, it’s a lot, but the set will become even better!
 
 - author: Andrew Yates
   gravatar: 6461915b9f30e8b4df0d007eb44dc13e
@@ -553,7 +553,7 @@ remarks:
   content: |
     Greetings Paul:
 
-    Thanks so much for these great icons. I'd like to suggest one for PayPal.
+    Thanks so much for these great icons. I’d like to suggest one for PayPal.
 
     Kind regards.
 
@@ -562,7 +562,7 @@ remarks:
   date: 2010-01-06T14:48:00Z
   url: http://www.acsweatshop.com
   content: |
-    Great icon set, I'm going to use these on my website.
+    Great icon set, I’m going to use these on my website.
 
     Thanks!
     Vivek
@@ -625,14 +625,14 @@ remarks:
   content: |
     Hello.
 
-    I'm currently working on a webdesign for a friend who's going to start a professional website and since he wants graphical objects for his network menu, I'm currently looking for CreativeCommons 16x16 social icons. These icons would be perfect if there was an icon for blogs, as he wants to set up a blog alongside with the pro website, and I want the icons to be consistants between each other. Because of the missing icon, I will have to look for icons elsewhere, unfortunately.
+    I’m currently working on a webdesign for a friend who’s going to start a professional website and since he wants graphical objects for his network menu, I’m currently looking for CreativeCommons 16x16 social icons. These icons would be perfect if there was an icon for blogs, as he wants to set up a blog alongside with the pro website, and I want the icons to be consistants between each other. Because of the missing icon, I will have to look for icons elsewhere, unfortunately.
 
 - author: Dan King
   gravatar: 94025cd551f9053997318874bb7079a6
   date: 2010-01-27T03:23:28Z
   url: http://designelemental.net
   content: |
-    Thanks Paul. I'll be using a few these icons on an upcoming redesign. Great stuff!
+    Thanks Paul. I’ll be using a few these icons on an upcoming redesign. Great stuff!
 
 - author: 509 Media
   gravatar: a1f68a958ecfd986ddc7e613e11ce28c
@@ -670,7 +670,7 @@ remarks:
   content: |
     Hi Paul!
 
-    A fellow designer just sent me link to these icons and I realized I hadn't stopped by your blog in ages. Congrats on your new position at ClearLeft and hope all is well on your side of the pond.
+    A fellow designer just sent me link to these icons and I realized I hadn’t stopped by your blog in ages. Congrats on your new position at ClearLeft and hope all is well on your side of the pond.
 
     Best,
     Krystyn
@@ -680,7 +680,7 @@ remarks:
   date: 2010-02-04T13:33:37Z
   url: http://hackyourday.com
   content: |
-    As a web-designer I'm obsessed with icons and I so rarely find ones I truly love. These are just so clean, wonderful work, thank you for them!
+    As a web-designer I’m obsessed with icons and I so rarely find ones I truly love. These are just so clean, wonderful work, thank you for them!
 
 - author: Kevin
   gravatar: baeb2ace989575cdadb5d1e86b91988f
@@ -708,7 +708,7 @@ remarks:
   content: |
     I need some assistance. I am not very computer literate, but can make my way around. I am trying to download the social media icons and believe I have done that.
 
-    However, I don't know how to (A) view them on my computer without going through all of this zip/unzip stuff and (B) don't know how to put the icon on my email and embed a hyperlink to it.
+    However, I don’t know how to (A) view them on my computer without going through all of this zip/unzip stuff and (B) don’t know how to put the icon on my email and embed a hyperlink to it.
 
     Can someone help me out?
 
@@ -719,7 +719,7 @@ remarks:
   date: 2010-02-16T14:46:24Z
   url: http://twitter.com/alextrup
   content: |
-    I'd love to see icons for Wakoopa.com, Wozai.cc, Plurk.com & Senatus.net
+    I’d love to see icons for Wakoopa.com, Wozai.cc, Plurk.com & Senatus.net
 
     Other than that, an awesome set!
 
@@ -728,7 +728,7 @@ remarks:
   date: 2010-02-20T14:11:30Z
   url: http://www.freedoniapost.com
   content: |
-    One of the best sets I've seen with such great coverage of all the social media out there.
+    One of the best sets I’ve seen with such great coverage of all the social media out there.
 
     Cheers!
 
@@ -737,7 +737,7 @@ remarks:
   date: 2010-03-01T09:43:23Z
   url: http://478bb69ab7551e9046abece45c87cbd4
   content: |
-    This is great resource (bookmark now) thanks. Missing the blip.fm icon I use it a lot...
+    This is great resource (bookmark now) thanks. Missing the blip.fm icon I use it a lot…
 
 - author: Yannik Bloscheck
   gravatar: bec1fd0169f98c21fa159c5eb3cd3e34
@@ -758,9 +758,9 @@ remarks:
   content: |
     Great icons!
 
-    Could you add the formspring's icon to your set? <http://www.formspring.me>
+    Could you add the formspring’s icon to your set? <http://www.formspring.me>
 
-    It is a site of questions, and is becoming a sensation in my country, several people have already registered and created their profiles, and I would like to add an icon of it on my blog to promote my profile as well as people do with the icons "follow me on Twitter.
+    It is a site of questions, and is becoming a sensation in my country, several people have already registered and created their profiles, and I would like to add an icon of it on my blog to promote my profile as well as people do with the icons “follow me on Twitter”.
 
     Thanks in advance.
 
@@ -775,14 +775,14 @@ remarks:
   date: 2010-03-14T04:33:18Z
   url: http://www.justjason.com
   content: |
-    They're perfect! I literally have had this page open on my #1 tab for the last 6 months refreshing once a day for this update. Excellent!
+    They’re perfect! I literally have had this page open on my #1 tab for the last 6 months refreshing once a day for this update. Excellent!
 
 - author: Yoz
   gravatar: ce9db5e1065df82be338b2d831201fc6
   date: 2010-03-16T22:35:46Z
   url: http://yoz.com/
   content: |
-    You star, they're gorgeous! Now... how about Second Life and Avatars United? G'wan...
+    You star, they’re gorgeous! Now… how about Second Life and Avatars United? G’wan…
 
 - author: sean coon
   gravatar: b043b0b658fb6753bfc9c954fabc4702
@@ -796,21 +796,21 @@ remarks:
   date: 2010-03-16T23:02:14Z
   url: http://goodwebdesign.co.nz
   content: |
-    Amazing set. Great idea to do the updates! Keep them coming...
+    Amazing set. Great idea to do the updates! Keep them coming…
 
 - author: danineteen
   gravatar: 13728cc611d288e5797c7d47fb365f8b
   date: 2010-03-29T16:03:31+01:00
   url: http://danineteen.wordpress.com/
   content: |
-    These are great! Very handy. If I ever use them, I'll link back to your site on my blog :D
+    These are great! Very handy. If I ever use them, I’ll link back to your site on my blog :D
 
 - author: AndrewNoNumbers
   gravatar: 079bc6e05f1796d56fdc521c3a694adc
   date: 2010-03-30T16:42:25+01:00
   url: http://ndrw.me
   content: |
-    I see you've added quite a bit of new icons since the last time I downloaded this. Thanks for your great work. I'm still hoping you'll add a deviantART icon. It's the internet's biggest art community so I'm sure lots of people (like me) would find it useful.
+    I see you’ve added quite a bit of new icons since the last time I downloaded this. Thanks for your great work. I’m still hoping you’ll add a deviantART icon. It’s the internet’s biggest art community so I’m sure lots of people (like me) would find it useful.
 
 - author: XM
   gravatar: 243605e01c7fb83f5de360daa09a1b88
@@ -832,7 +832,7 @@ remarks:
   content: |
     Hi Paul, I love the icons (and use them on my site - with attribution, of course) but find myself wishing you had a Github icon.
 
-    I built my own poor facsimile for now (here: <http://x451.com/images/icons.png>) but just wanted to point it out! You're missing the de facto programming social network.
+    I built my own poor facsimile for now (here: <http://x451.com/images/icons.png>) but just wanted to point it out! You’re missing the de facto programming social network.
 
     Thanks for the amazing work!
 
@@ -853,13 +853,13 @@ remarks:
   content: |
     Have you considered a Google Buzz icon?
 
-    Also I'm not too keen on the YouTube icon, could it not be closer to the YouTube logo? Maybe I'm just wrong.
+    Also I’m not too keen on the YouTube icon, could it not be closer to the YouTube logo? Maybe I’m just wrong.
 
 - author: Anna
   gravatar: 782202d7f0444236145d2b59ce63c9fd
   date: 2010-04-18T14:27:06+01:00
   content: |
-    I like them a lot! But I can't find WordPress ...
+    I like them a lot! But I can’t find WordPress …
 
 - author: Igor Sousa
   gravatar: 26507d9562471af5c2bad0dbc0ae6fb6
@@ -874,7 +874,7 @@ remarks:
   content: |
     Fantastic set of icons!
 
-    Just one request from my side would be: (since there's already a Nike+ one)
+    Just one request from my side would be: (since there’s already a Nike+ one)
 
     Dailymile
 
@@ -891,16 +891,16 @@ remarks:
   date: 2010-05-18T11:00:30+01:00
   url: http://prandall.com
   content: |
-    Great icons Paul. I've just used the large res ones for a restyle of my personal site; Having the Dribbble icon sold them to me!
+    Great icons Paul. I’ve just used the large res ones for a restyle of my personal site; Having the Dribbble icon sold them to me!
 
 - author: Paul Burgess
   gravatar: e954a5bc91e7382e156f86d0eb5f8a32
   date: 2010-05-18T12:22:58+01:00
   url: http://iampaulburgess.co.uk/
   content: |
-    Yo Paul -- now Spotify has viewable profiles -- please can we have a Spotify one? Please?
+    Yo Paul – now Spotify has viewable profiles – please can we have a Spotify one? Please?
 
-- author: Sean O'Grady
+- author: Sean O’Grady
   gravatar: 91cefc3a713e675d95958f930773a4d2
   date: 2010-05-21T11:41:57+01:00
   url: http://miralize.com
@@ -912,7 +912,7 @@ remarks:
   date: 2010-05-27T22:52:55+01:00
   url: http://rynoweb.com
   content: |
-    Hey Paul, I recently updated some of my icons to yours, they're nice. The one exception is YouTube -- the play button isn't really recognized as youtube, it's usually their square logotype.
+    Hey Paul, I recently updated some of my icons to yours, they’re nice. The one exception is YouTube – the play button isn’t really recognized as youtube, it’s usually their square logotype.
 
     Any thoughts on changing/updating that to their red/white logo they use?
 
@@ -923,18 +923,18 @@ remarks:
   content: |
     Hello all,
 
-    It's been a while since I responded to the comments in the thread, so I'll attempt to answer some of your questions now.
+    It’s been a while since I responded to the comments in the thread, so I’ll attempt to answer some of your questions now.
 
-    In terms of adding additional icons, I'm currently considering adding the following icons in the next up  date:
+    In terms of adding additional icons, I’m currently considering adding the following icons in the next up  date:
 
     * Retweet
     * Github
     * Spotify
     * BBC iD
 
-    Given the current number of icons in this package, I'd be very interested to hear your thoughts on which icons should now be *removed*.
+    Given the current number of icons in this package, I’d be very interested to hear your thoughts on which icons should now be *removed*.
     With regards to icons for WordPress and Blogger, I encourage you to read my most recent blog post on the matter: [Social Media Icons: A Rationale](http://paulrobertlloyd.com/2010/03/social_media_icons_rationale).
-    The short answer is that I don't plan on adding icons for every type publishing platform -- especially when the 'Website' icon fulfils this role. Nor do I anticipate updating the YouTube icon to match the current favicon, because frankly, it's ugly.
+    The short answer is that I don’t plan on adding icons for every type publishing platform – especially when the ‘Website’ icon fulfils this role. Nor do I anticipate updating the YouTube icon to match the current favicon, because frankly, it’s ugly.
     I am thinking about ways in which I can provide a template file with this package though, which would allow you to create your own icons in a similar style. If you have suggestions as to which format(s) this should be  available in, please let me know!
 
     Thanks for your support,
@@ -1000,7 +1000,7 @@ remarks:
   content: |
     Nice set!
 
-    I would like to see a "soup.io"-Icon...
+    I would like to see a “soup.io”-Icon…
 
 - author: Marc
   gravatar: 1ef7ce6d65be267c880b5dc4f99d0d2a
@@ -1023,20 +1023,20 @@ remarks:
     Two suggestions:
 
     1. How about a generic RSS icon?
-    2. Would you consider making them into one or more large pallets suitable for embedding via the CSS sprite technique? I'll probably wind up making my own collage of icons, but having them available grouped into a few large images would be helpful for embedding in large Web applications.
+    2. Would you consider making them into one or more large pallets suitable for embedding via the CSS sprite technique? I’ll probably wind up making my own collage of icons, but having them available grouped into a few large images would be helpful for embedding in large Web applications.
 
-- author: 'Serge K. Keller, FCD'
+- author: Serge K. Keller, FCD
   gravatar: 2b0e74986cbba99f558df3df79168dbf
   date: 2010-08-19T13:13:18+01:00
   url: http://www.almaren.ch
   content: |
     Awesome work! Thank you very much indeed.
 
-    I'd second the suggestion of a Google Reader icon, and would also suggest icons for Libre.fm, Filmaker.com and iheartmovies.com.
+    I’d second the suggestion of a Google Reader icon, and would also suggest icons for Libre.fm, Filmaker.com and iheartmovies.com.
 
     Perhaps the addition of a blank icon to the pack could help others rolling their own particular icons without hassling you so much? Just a suggestion, of course.
 
-    Speaking of which: as I assume we all prefer using your icons instead of text links (that's why we're here, after all!), may I also suggest that you add an icon to your own website, so that we may link back to you with style? ;)
+    Speaking of which: as I assume we all prefer using your icons instead of text links (that’s why we’re here, after all!), may I also suggest that you add an icon to your own website, so that we may link back to you with style? ;)
 
     Thank you again and best regards.
 
@@ -1051,14 +1051,14 @@ remarks:
   date: 2010-08-21T12:59:43+01:00
   url: http://www.ryanfitton.co.uk
   content: |
-    Be great if you could add a FormSpring.me icon :D... lovin' the icons and keep up the good work :)
+    Be great if you could add a FormSpring.me icon :D… lovin’ the icons and keep up the good work :)
 
 - author: David P
   gravatar: 8e0d0ae58cbb6e556c88368fd116d153
   date: 2010-08-23T18:27:35+01:00
   url: http://www.middlemachine.com
   content: |
-    We love this, +1 for Google Reader. We'd love to contribute, do you have PayPal? tnx
+    We love this, +1 for Google Reader. We’d love to contribute, do you have PayPal? tnx
 
 - author: Anthony Calixto
   gravatar: 448a085f158e499d142a298d882d2364
@@ -1072,7 +1072,7 @@ remarks:
   date: 2010-09-10T23:51:22+01:00
   url: http://nissennetz.wordpress.com
   content: |
-    Thank you for these great icons and applause for your great work. I'm really happy to see your greut work under a Creative Commons Licence so I can use them in my blog. Of course with a backlink to you. ;-)
+    Thank you for these great icons and applause for your great work. I’m really happy to see your greut work under a Creative Commons Licence so I can use them in my blog. Of course with a backlink to you. ;-)
 
     Will there be an FriendFeed-Icon coming up?
 
@@ -1140,7 +1140,7 @@ remarks:
   date: 2010-10-14T17:39:55+01:00
   url: http://www.vareside.com/
   content: |
-    Firstly, thank you for this amazing set of icons. These are clearly the best looking. Secondly, I think this set needs a Fiverr bookmark as fiverr.com is gaining popularity and has built a basis for some many people's talents and offers. Another website that I think deserves an icon of your awesome set is Cuil, the search engine established by former Google employees.
+    Firstly, thank you for this amazing set of icons. These are clearly the best looking. Secondly, I think this set needs a Fiverr bookmark as fiverr.com is gaining popularity and has built a basis for some many people’s talents and offers. Another website that I think deserves an icon of your awesome set is Cuil, the search engine established by former Google employees.
 
 - author: Carlo
   gravatar: 8ecbd31f5fe0de0dedd29e4b0a1b38fc
@@ -1155,7 +1155,7 @@ remarks:
   date: 2010-10-24T03:44:52+01:00
   url: http://www.adamkoch.com/
   content: |
-    If you're still taking requests, I'd like to see them for Pandora and Google Voice. Thanks!
+    If you’re still taking requests, I’d like to see them for Pandora and Google Voice. Thanks!
 
 - author: William Hook
   gravatar: e58db0063daea0195ef09d21c8b00606
@@ -1168,9 +1168,9 @@ remarks:
     * [Wakoopa](http://social.wakoopa.com/)
     * [Raptr](http://raptr.com/)
 
-    They're three fairly well known and fairly popular social networks so I think they'd be a valid addition to the pack. :)
+    They’re three fairly well known and fairly popular social networks so I think they’d be a valid addition to the pack. :)
 
-    Also, the "google-16x16" icon looks a little blurry if you look carefully, and not as crisp as other icons in the set. Any chance you could refine that a little?
+    Also, the “google-16x16” icon looks a little blurry if you look carefully, and not as crisp as other icons in the set. Any chance you could refine that a little?
 
 - author: Dutch
   gravatar: 3a40123ef66c27816baa73e5041d6ffa
@@ -1182,23 +1182,23 @@ remarks:
   gravatar: 7600919e158a14ad38a404b092cb59a9
   date: 2010-11-15T13:54:00Z
   content: |
-    I love the icons, but I'm missing one icon. A icon of Game Center on iOS. Maybe you could make an icon for that?
+    I love the icons, but I’m missing one icon. A icon of Game Center on iOS. Maybe you could make an icon for that?
 
 - author: Ankur Oberoi
   gravatar: 15175168841774bfd2b0df9b8494c823
   date: 2010-11-23T21:27:50Z
   url: http://aoberoi.me
   content: |
-    GREAT WORK! I really appreciate the effort you put into these, cleanest looking set of icons i've seen.
+    GREAT WORK! I really appreciate the effort you put into these, cleanest looking set of icons i’ve seen.
 
-    Just echoing one of the previous suggestions, an RSS icon would be pretty essential for the set. I noticed you have a nice looking on in this site's header, so maybe you could use that? Thanks!
+    Just echoing one of the previous suggestions, an RSS icon would be pretty essential for the set. I noticed you have a nice looking on in this site’s header, so maybe you could use that? Thanks!
 
 - author: Ankur Oberoi
   gravatar: 15175168841774bfd2b0df9b8494c823
   date: 2010-11-23T21:29:53Z
   url: http://aoberoi.me
   content: |
-    Wow, I'm sorry for the first comment, you did include the RSS icon! it was just called feed. Thanks so much!
+    Wow, I’m sorry for the first comment, you did include the RSS icon! it was just called feed. Thanks so much!
 
 - author: Tim Bonnemann
   gravatar: d5648841ec7a4e840b2bc25f79869c92
@@ -1215,7 +1215,7 @@ remarks:
   gravatar: d53d404c154340789c203022766d26f6
   date: 2011-08-26T06:18:58+01:00
   content: |
-    Hello Paul! I'd like to request a Zerply icon. I noticed Zootool logo and icon is very similar to the Zerply, with the same color on the icon. Though I hope you could add Zerply. Thanks!
+    Hello Paul! I’d like to request a Zerply icon. I noticed Zootool logo and icon is very similar to the Zerply, with the same color on the icon. Though I hope you could add Zerply. Thanks!
 
 - author: velo
   gravatar: 59fc1f2bbaf0ffb636da6ef803228f79
@@ -1230,14 +1230,14 @@ remarks:
   date: 2011-09-08T13:57:09+01:00
   url: http://calabazilla.com/
   content: |
-    Thanks a lot; I've been looking for a set that includes a Goodreads icon.
+    Thanks a lot; I’ve been looking for a set that includes a Goodreads icon.
 
 - author: Shayne Sherman
   gravatar: 3174bc5a331b23db0f131675d182a201
   date: 2011-09-15T06:55:30+01:00
   url: http://shaynesherman.com/
   content: |
-    I really appreciate this post. I have been looking everywhere for this! Thank goodness I found it on Bing. You've made my day! Thanks again!
+    I really appreciate this post. I have been looking everywhere for this! Thank goodness I found it on Bing. You’ve made my day! Thanks again!
 
 - author: Christina
   gravatar: 612a8438bfa5c4735ec579c3d75b5ce0

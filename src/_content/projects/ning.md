@@ -31,7 +31,7 @@ screenshots:
 
 [Ning][1] is an online platform that allows people to create customised social networks. I was lead designer from January 2006 to October 2007.
 
-Working alongside the company's CEO and designer David Warner, I helped to define and then launch what would become the company's core product offering: <cite>Your Own Social Network</cite>. This strategy would see the company move away from a portfolio of 20 single-feature social applications aimed at developers, to a consumer-focused product that allowed any group or individual to create and grow a social network around a niche interest, passion or topic.
+Working alongside the company’s CEO and designer David Warner, I helped to define and then launch what would become the company’s core product offering: <cite>Your Own Social Network</cite>. This strategy would see the company move away from a portfolio of 20 single-feature social applications aimed at developers, to a consumer-focused product that allowed any group or individual to create and grow a social network around a niche interest, passion or topic.
 
 Press coverage of the new product was incredibly positive, and by 2009 the company had helped customers launch over a million social networks.
 
@@ -39,7 +39,7 @@ Press coverage of the new product was incredibly positive, and by 2009 the compa
   caption: '[Om Malik](https://gigaom.com/2007/02/26/new-ning/)'
 %}
 
-{% include 'quote' with 'I have to hand it to Ning -- it took them well over a year after [their initial beta launch](http://techcrunch.com/2005/10/04/ning-launches/) to fulfill their promise of allowing "anyone" to create social applications, but they’ve done it. Ning relaunches tonight with new functionality and an interface that allows even the most novice of web users to create their own highly customized social network in moments.'
+{% include 'quote' with 'I have to hand it to Ning – it took them well over a year after [their initial beta launch](http://techcrunch.com/2005/10/04/ning-launches/) to fulfill their promise of allowing “anyone” to create social applications, but they’ve done it. Ning relaunches tonight with new functionality and an interface that allows even the most novice of web users to create their own highly customized social network in moments.'
   caption: '[Michael Arrington, TechCrunch](https://techcrunch.com/2007/02/26/ning-in-full/)'
 %}
 

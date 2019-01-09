@@ -9,4 +9,4 @@ tags:
 ---
 {% include 'embed' with url %}
 
-Best news I've heard all year.
+Best news I’ve heard all year.

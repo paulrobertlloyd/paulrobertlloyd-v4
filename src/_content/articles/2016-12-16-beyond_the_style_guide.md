@@ -12,31 +12,31 @@ tags:
 ---
 Much like baking a Christmas cake, designing for the web involves creating an experience in layers. Starting with a solid base that provides the core experience (the fruit cake), we can add further layers, each adding refinement (the marzipan) and delight (the icing).
 
-Don't worry, this isn't a misplaced [cake recipe][1], but an evaluation of modular design and the role [style guides][2] can play in acknowledging these different concerns, be they presentational or programmatic.
+Don’t worry, this isn’t a misplaced [cake recipe][1], but an evaluation of modular design and the role [style guides][2] can play in acknowledging these different concerns, be they presentational or programmatic.
 
-## The auteur's style guide
+## The auteur’s style guide
 
 Although trained as a graphic designer, it was only when I encountered the immediacy of the web that I felt truly empowered as a designer. Given a desire to control every aspect of the resulting experience, I slowly [adopted the role of an auteur][3], exploring every part of the web stack: front-end to back-end, and everything in between. A few years ago, I dreaded using the command line. Today, the terminal is a permanent feature in my Dock.
 
-In straddling the realms of graphic design and programming, it's the point at which they meet that I find most fascinating, with each dicipline valuing the creation of effective systems, [be they for communication or code efficiency][4]. Front-end style guides live at this intersection, demonstrating both the modularity of code and the application of visual design.
+In straddling the realms of graphic design and programming, it’s the point at which they meet that I find most fascinating, with each dicipline valuing the creation of effective systems, [be they for communication or code efficiency][4]. Front-end style guides live at this intersection, demonstrating both the modularity of code and the application of visual design.
 
 ## Painting by numbers
 
-In our rush to build modular systems, design frameworks have grown in popularity. While enabling quick assembly, these come at the cost of originality and creative expression -- perhaps one reason why we're seeing the [homogenisation of web design][5].
+In our rush to build modular systems, design frameworks have grown in popularity. While enabling quick assembly, these come at the cost of originality and creative expression — perhaps one reason why we’re seeing the [homogenisation of web design][5].
 
-In editorial design, layouts should accentuate content and present it in an engaging manner. Yet on the web we see a practice that seeks templated predictability. In '[Design Machines][6]' Travis Gertz argued that (emphasis added):
+In editorial design, layouts should accentuate content and present it in an engaging manner. Yet on the web we see a practice that seeks templated predictability. In <cite>[Design Machines][6]</cite> Travis Gertz argued that (emphasis added):
 
-> Design systems still feel like a novelty in screen-based design. We nerd out over grid systems and modular scales and obsess over style guides and pattern libraries. We're pretty good at using them to build repeatable components and site-wide standards, but that's sort of where it ends. [...] **But to stop there is to ignore the true purpose and potential of a design system.**
+> Design systems still feel like a novelty in screen-based design. We nerd out over grid systems and modular scales and obsess over style guides and pattern libraries. We’re pretty good at using them to build repeatable components and site-wide standards, but that’s sort of where it ends. […] **But to stop there is to ignore the true purpose and potential of a design system.**
 
 Unless we consider how interface patterns fully embrace the design systems they should be built upon, style guides may exacerbate this paint-by-numbers approach, encouraging conformance and suppressing creativity.
 
 ## Anatomy of a button
 
-Let's take a look at that most canonical of components, the button, and consider what we might wish to document and demonstrate in a style guide.
+Let’s take a look at that most canonical of components, the button, and consider what we might wish to document and demonstrate in a style guide.
 
 ### Content
 
-The most variable aspect of any component. Content guidelines will exert the most influence here, dictating things like tone of voice (whether we should we use stiff, formal language like 'Submit form', or adopt a more friendly tone, perhaps 'Send us your message') and appropriate language. For an internationalised interface, this may also impact word length and text direction or orientation.
+The most variable aspect of any component. Content guidelines will exert the most influence here, dictating things like tone of voice (whether we should we use stiff, formal language like ‘Submit form’, or adopt a more friendly tone, perhaps ‘Send us your message’) and appropriate language. For an internationalised interface, this may also impact word length and text direction or orientation.
 
 ### Structure
 
@@ -64,11 +64,11 @@ A component can exhibit [various states][8]: blank, loading, partial, error and 
 
 ### Transcending layers
 
-This overview reinforces [Ethan's note][9] from earlier in this series:
+This overview reinforces [Ethan’s note][9] from earlier in this series:
 
-> I've found that thinking about my design as existing in broad experience tiers -- in layers -- is one of the best ways of designing for the modern web.
+> I’ve found that thinking about my design as existing in broad experience tiers — in layers — is one of the best ways of designing for the modern web.
 
-While it's tempting to describe a component as series of layers, certain aspects will transcend several of these. The accessibility of a component, for example, may influence the choice of language, the legibility of text, colour contrast and which affordances are provided in different states.
+While it’s tempting to describe a component as series of layers, certain aspects will transcend several of these. The accessibility of a component, for example, may influence the choice of language, the legibility of text, colour contrast and which affordances are provided in different states.
 
 ## Visual design language: documenting the missing piece
 
@@ -112,7 +112,7 @@ Our markup is as follows, using appropriate semantic HTML elements and incorpora
   </h1>
 
   <div class="summary__body">
-    <p>It's unlikely that Bill Murray could ever have got through his career without playing a version of Scrooge...</p>
+    <p>It’s unlikely that Bill Murray could ever have got through his career without playing a version of Scrooge…</p>
   </div>
 
   <footer class="summary__meta">
@@ -163,7 +163,7 @@ Of course, this is a simplistic example for the purposes of demonstration. Howev
 
 ## Unlocking possibility
 
-Alongside tools like preprocessors, newer CSS layout modules like flexbox and grid layout mean the friction we've long been accustomed to when creating layouts on the web is no longer present, and [the full separation of presentation from markup is now possible][19]. Now is the perfect time for graphic designers to advocate design systems that these developments empower, and ensure they're fully represented in both documentation and code. That way, together, we can build systems that allow for greater visual expression. After all, there's [more than one way to bake a Christmas cake][20].
+Alongside tools like preprocessors, newer CSS layout modules like flexbox and grid layout mean the friction we’ve long been accustomed to when creating layouts on the web is no longer present, and [the full separation of presentation from markup is now possible][19]. Now is the perfect time for graphic designers to advocate design systems that these developments empower, and ensure they’re fully represented in both documentation and code. That way, together, we can build systems that allow for greater visual expression. After all, there’s [more than one way to bake a Christmas cake][20].
 
 [1]: https://www.bbc.co.uk/food/recipes/apricotandbrandychri_77766
 [2]: http://styleguides.io/

@@ -9,4 +9,4 @@ tags:
 ---
 More on Bitcoin from Charlie Stross:
 
-> BitCoin looks like it was designed as a weapon intended to damage central banking and money issuing banks, with a Libertarian political agenda in mind -- to damage states ability to collect tax and monitor their citizens financial transactions.
+> BitCoin looks like it was designed as a weapon intended to damage central banking and money issuing banks, with a Libertarian political agenda in mind – to damage states ability to collect tax and monitor their citizens financial transactions.

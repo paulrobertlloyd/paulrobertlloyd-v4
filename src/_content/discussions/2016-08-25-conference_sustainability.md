@@ -1,5 +1,5 @@
 ---
-title: 'Conferences Shouldn''t Cost the Earth'
+title: Conferences Shouldn’t Cost the Earth
 date: 2016-08-25T14:30:00+01:00
 remarks:
 - author: Chris Armstrong

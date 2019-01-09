@@ -4,7 +4,7 @@ date: 2012-11-01T01:15:00Z
 location:
   locality: Brighton
   country-name: United Kingdom
-summary: Website optimisation can be a cruel game; everything has a number that begs to be reduced, but doing so requires a lot of experimentation, research and testing. And when you're playing with the last hundred or so kilobytes, there's little reward for your effort.
+summary: Website optimisation can be a cruel game; everything has a number that begs to be reduced, but doing so requires a lot of experimentation, research and testing. And when you’re playing with the last hundred or so kilobytes, there’s little reward for your effort.
 tags:
 - web
 - web_performance
@@ -12,13 +12,13 @@ discussion: closed
 ---
 When I [unveiled][1] a new version of this site last year, I hoped the design would slowly evolve.
 
-An update in February [improved the responsive layout][2] and saw some initial performance optimisations. The last few weeks have seen further iteration. Although the design looks remarkably similar, much has changed below the surface. Where each page previously requested at least 14 assets weighing a total of 385kB, now only 9 requests are needed, and with an unprimed cache, these total just over 100kB. I thought it would be interesting to detail the changes I've made, and this time, I've got graphs!
+An update in February [improved the responsive layout][2] and saw some initial performance optimisations. The last few weeks have seen further iteration. Although the design looks remarkably similar, much has changed below the surface. Where each page previously requested at least 14 assets weighing a total of 385kB, now only 9 requests are needed, and with an unprimed cache, these total just over 100kB. I thought it would be interesting to detail the changes I’ve made, and this time, I’ve got graphs!
 
 ## JavaScript
 
 Uncomfortable with having 30kB of jQuery as a dependancy, JavaScript was my first target for weight loss. In reviewing the jQuery functions I was using, I realised many were unnecessary:
 
-* The [Awesomersands][3] function that allowed me to style ampersands was actually replacing the original glyph with a much uglier version. It also produced a distracting 'flash of unstyled ampersand'.
+* The [Awesomersands][3] function that allowed me to style ampersands was actually replacing the original glyph with a much uglier version. It also produced a distracting ‘flash of unstyled ampersand’.
 
 * A function that added thin spaces around emdashes could instead be incorporated into my Movable Type templates. In making this change, I decided to now use spaced endashes instead.
 
@@ -26,9 +26,9 @@ Uncomfortable with having 30kB of jQuery as a dependancy, JavaScript was my firs
 
 * A function that wrapped a `<div>` around video embeds to give them a fluid width was unnecessary when I could add this manually.
 
-* Using [MapBox][4] embeds in place of [Leaflets JS][5] meant I could simplify adding interactive maps to pages. Well, almost. To display paths requires an additional layer to be created in [TileMill][6] -- hopefully the ability to add vector lines in MapBox isn't too far off.
+* Using [MapBox][4] embeds in place of [Leaflets JS][5] meant I could simplify adding interactive maps to pages. Well, almost. To display paths requires an additional layer to be created in [TileMill][6] — hopefully the ability to add vector lines in MapBox isn’t too far off.
 
-With this code removed, the only behavioural enhancement required was for the responsive navigation. I'd like to thank [Anthony Williams][7] for helping me rewrite this using pure JavaScript. However, I'm still calling jQuery on pages displaying slideshows, so actively looking for an alternative that will allow me to shed this dependancy entirely.
+With this code removed, the only behavioural enhancement required was for the responsive navigation. I’d like to thank [Anthony Williams][7] for helping me rewrite this using pure JavaScript. However, I’m still calling jQuery on pages displaying slideshows, so actively looking for an alternative that will allow me to shed this dependancy entirely.
 
 <table>
   <caption>Javascript: Bytes downloaded (requests)</caption>
@@ -46,7 +46,7 @@ With this code removed, the only behavioural enhancement required was for the re
 
 While helping out on a recent project at Clearleft, [Mark][8] introduced me to [LESS][9], a CSS pre-processor I became eager to use here. With [LESSphp][10] compiling LESS on the server, comments are stripped out and the generated CSS is easier to compress, too.
 
-By removing unused style rules and refactoring others, my raw stylesheet shrunk by 19kB. Yet you'll note that the compressed CSS file is still larger that it was before. That's because the small background [noise texture][11] shown on larger viewports has been embedded as a base64 string, removing a further request.
+By removing unused style rules and refactoring others, my raw stylesheet shrunk by 19kB. Yet you’ll note that the compressed CSS file is still larger that it was before. That’s because the small background [noise texture][11] shown on larger viewports has been embedded as a base64 string, removing a further request.
 
 <table>
   <caption>CSS: Bytes downloaded</caption>
@@ -62,7 +62,7 @@ By removing unused style rules and refactoring others, my raw stylesheet shrunk 
 
 ## SVG
 
-In February [I began using an SVG image sprite][2], falling back to a PNG image for browsers that don't support the vector format. To prevent both images loading, a subsequent update saw me move the following detection script into the `<head>`, before any CSS can be downloaded:
+In February [I began using an SVG image sprite][2], falling back to a PNG image for browsers that don’t support the vector format. To prevent both images loading, a subsequent update saw me move the following detection script into the `<head>`, before any CSS can be downloaded:
 
 ```html
 <script>
@@ -90,7 +90,7 @@ If support for SVG is detected, an `svg` class is added to the `<html>` element.
 
 Besides stripping out the metacruft added by software like Illustrator, further optimisation can be found by using the `<defs>` and `<use>` elements. These allow you to define common objects, reducing the number of shape descriptions appearing in your document.
 
-To demonstrate how this works, I'll use three icons from my sprite image: a grey RSS feed icon (`#feed`), a Flickr icon (`#flickr`) and an orange and white feed icon (`#feeds`). In my original file, each was defined separately:
+To demonstrate how this works, I’ll use three icons from my sprite image: a grey RSS feed icon (`#feed`), a Flickr icon (`#flickr`) and an orange and white feed icon (`#feeds`). In my original file, each was defined separately:
 
 ```xml
 <svg xmlns="http://www.w3.org/2000/svg">
@@ -137,7 +137,7 @@ Note how the square shape, the feed icon and the circles used within the Flickr 
 </svg>
 ```
 
-It's easy to assume that gzip will take care of reducing file sizes, but manual optimisation beforehand can result in even larger reductions. For example, I was able to reduce my original SVG sprite (9.48kB, 3.36kB gzipped) to 7.34kB, which compressed down to just 2.84kB -- comparable in size to the PNG sprite. 500 bytes seems like a small reduction, but using this technique on larger SVG images will have an even greater impact.
+It’s easy to assume that gzip will take care of reducing file sizes, but manual optimisation beforehand can result in even larger reductions. For example, I was able to reduce my original SVG sprite (9.48kB, 3.36kB gzipped) to 7.34kB, which compressed down to just 2.84kB — comparable in size to the PNG sprite. 500 bytes seems like a small reduction, but using this technique on larger SVG images will have an even greater impact.
 
 <table>
   <caption>Image sprite: Bytes downloaded</caption>
@@ -157,11 +157,11 @@ It's easy to assume that gzip will take care of reducing file sizes, but manual 
 
 ## Fonts
 
-Earlier this year I cut the number of webfonts I was using from four to three by using a single font family. This reduced page download sizes a little, but changing my web font provider to [Adobe Edge Web Fonts][12] produced a far greater saving, although at the cost of being able to use [Akagi][13] (I'm now using [Source Sans Pro][14]). Such was the reduction, I decided to include a forth font again, choosing the monospaced [Source Code Pro][15] which is useful on code heavy pages such as this[^1].
+Earlier this year I cut the number of webfonts I was using from four to three by using a single font family. This reduced page download sizes a little, but changing my web font provider to [Adobe Edge Web Fonts][12] produced a far greater saving, although at the cost of being able to use [Akagi][13] (I’m now using [Source Sans Pro][14]). Such was the reduction, I decided to include a forth font again, choosing the monospaced [Source Code Pro][15] which is useful on code heavy pages such as this[^1].
 
-A free service without limitations or account management, Adobe's new service is [stupidly easy to set up][16]. A single line of JavaScript provides a neat URL interface to various settings, and as the script includes WebFont Loader, there's no need to add a chunk of JavaScript to the top of each page. Load times are brilliantly fast, and with fonts combined into a single file, the number of requests is the same regardless of how many you decide to use.
+A free service without limitations or account management, Adobe’s new service is [stupidly easy to set up][16]. A single line of JavaScript provides a neat URL interface to various settings, and as the script includes WebFont Loader, there’s no need to add a chunk of JavaScript to the top of each page. Load times are brilliantly fast, and with fonts combined into a single file, the number of requests is the same regardless of how many you decide to use.
 
-Of course, there is a trade-off here. Services like Fontdeck provide an extensive library of premium webfonts while free services like Adobe's only offer a small selection of open source fonts. Yet with simpler set-up and greater performance, they're an attractive option.
+Of course, there is a trade-off here. Services like Fontdeck provide an extensive library of premium webfonts while free services like Adobe’s only offer a small selection of open source fonts. Yet with simpler set-up and greater performance, they’re an attractive option.
 
 <table>
   <caption>Webfonts: Bytes downloaded (requests)</caption>
@@ -177,11 +177,11 @@ Of course, there is a trade-off here. Services like Fontdeck provide an extensiv
 
 ## Other optimisations
 
-I'm now serving content via [CloudFlare][17], a smart service that optimises content and intercepts dubious requests. With this is place, I no longer need [PHPminify][18] for CSS and JavaScript magnification. It also acts as a CDN, so static content has been moved from Amazon S3 (which I discovered isn't *actually* a CDN) back to this domain where it's easier to manage.
+I’m now serving content via [CloudFlare][17], a smart service that optimises content and intercepts dubious requests. With this is place, I no longer need [PHPminify][18] for CSS and JavaScript magnification. It also acts as a CDN, so static content has been moved from Amazon S3 (which I discovered isn’t *actually* a CDN) back to this domain where it’s easier to manage.
 
 Calling a single PHP include from each page allows me to [specify the character set in the HTTP header][19]. Adding the `async` attribute to my analytics script means this will now download and execute without blocking other assets.
 
-There have been a few design related tweaks too. I simplified the IA by moving links to my articles and academic essays to within the Portfolio section. I've also increased the base font size on content pages from 16px to 18px.
+There have been a few design related tweaks too. I simplified the IA by moving links to my articles and academic essays to within the Portfolio section. I’ve also increased the base font size on content pages from 16px to 18px.
 
 ***
 
@@ -227,7 +227,7 @@ In February, I concluded the results of my performance optimisation by including
 
 Arguably, many of these optimisations are overkill, especially given some of the modest reductions. Still, this exercise was useful in understanding where performance gains can be found, and I can apply this knowledge on future projects.
 
-Website optimisation can be a cruel game; everything has a number that begs to be reduced, but doing so requires a lot of experimentation, research and testing. And when you're playing with the last hundred or so kilobytes, there's little reward for your effort. Hopefully this overview will save you from playing the same game.
+Website optimisation can be a cruel game; everything has a number that begs to be reduced, but doing so requires a lot of experimentation, research and testing. And when you’re playing with the last hundred or so kilobytes, there’s little reward for your effort. Hopefully this overview will save you from playing the same game.
 
 [^1]: Fonts served previously (via Fontdeck): Akagi Book, SemiBold; Magenta Book, Book Italic. Fonts served now (via Adobe Edge Web Fonts): Source Sans Pro Light, Regular, Italic; Source Code Pro Regular.
 [^2]: WebPagetest results for homepage comparison: [22 February (before)](http://webpagetest.org/result/120222_QC_3B11V/1/details/), [30 October (after)](http://webpagetest.org/result/121030_06_GZC/1/details/)
