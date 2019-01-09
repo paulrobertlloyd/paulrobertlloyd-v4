@@ -1,6 +1,7 @@
 {
   "layout": "layout/project",
   "permalink": "projects/{{ page.fileSlug }}.html",
+  "tags": ["post", "project"],
   "type": "project",
   "vocab": "entry",
   "changefreq": "monthly",

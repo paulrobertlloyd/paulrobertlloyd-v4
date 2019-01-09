@@ -2,6 +2,7 @@
   "title": "",
   "layout": "layout/photo",
   "permalink": "photos/{{ page.fileSlug }}.html",
+  "tags": ["post", "photo"],
   "type": "photo",
   "vocab": "entry",
   "changefreq": "monthly",

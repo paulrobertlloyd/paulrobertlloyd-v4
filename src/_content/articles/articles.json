@@ -1,6 +1,7 @@
 {
   "layout": "layout/article",
   "permalink": "{{ page.date | date: '%Y/%m' }}/{{ page.fileSlug }}.html",
+  "tags": ["post", "article"],
   "type": "article",
   "vocab": "entry",
   "changefreq": "monthly",

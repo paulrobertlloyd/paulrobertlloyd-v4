@@ -3,6 +3,8 @@ title: Keep Up!
 date: 2013-07-31T16:00:00+01:00
 summary: An insight into the many opportunities and challenges facing web designers in 2013.
 image: /images/2013/07/aquent_gumnasium_uk_launch/image.jpg
+tags:
+- featured
 slides:
 - image: /images/2013/07/aquent_gumnasium_uk_launch/1.jpg
   notes: |

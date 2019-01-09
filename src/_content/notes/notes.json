@@ -2,6 +2,7 @@
   "title": "",
   "layout": "layout/note",
   "permalink": "notes/{{ page.fileSlug }}.html",
+  "tags": ["post", "note"],
   "type": "note",
   "vocab": "entry",
   "changefreq": "monthly",

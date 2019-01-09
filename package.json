@@ -29,7 +29,7 @@
     "debug": "DEBUG=* npx eleventy"
   },
   "dependencies": {
-    "@11ty/eleventy": "^0.6.0",
+    "@11ty/eleventy": "11ty/eleventy",
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.1",
     "browser-sync": "^2.26.3",
     "color": "^3.1.0",
@@ -52,10 +52,10 @@
     "postcss-extend-rule": "^2.0.0",
     "postcss-logical": "^3.0.0",
     "postcss-media-minmax": "^4.0.0",
-    "rollup": "^1.0.2",
+    "rollup": "^1.1.0",
     "rollup-plugin-commonjs": "^9.2.0",
     "rollup-plugin-node-resolve": "^4.0.0",
-    "rollup-plugin-terser": "^4.0.0",
+    "rollup-plugin-terser": "^4.0.2",
     "string-to-color": "^2.0.1",
     "typogr": "^0.6.8",
     "uslug": "^1.0.4"
