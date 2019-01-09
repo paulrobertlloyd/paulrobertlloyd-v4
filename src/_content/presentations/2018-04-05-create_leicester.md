@@ -3,6 +3,8 @@ title: 'Fantasies of the Future: Design in a World Being Eaten by Software'
 date: 2018-04-05T19:30:00+01:00
 summary: When the prevailing technocratic culture permits the creation of products that undermine and exploit users, who will protect citizens within the digital spaces they now inhabit?
 image: /images/2018/04/create_leicester/image.jpg
+tags:
+- featured
 slides:
 - image: /images/2018/04/create_leicester/1.png
   notes: |

@@ -1,4 +1,4 @@
-{%- assign venueid = item.data.tags[0] | remove: 'venue:' -%}
+{%- assign venueid = item.data.tags[1] | remove: 'venue:' -%}
 {%- assign venue = collections.venue | includes: 'fileSlug',venueid | first -%}
 <article class="item item--{{ item_modifier | default: 'block'}} | h-entry h-event" data-type="event">
   <header class="item__header">

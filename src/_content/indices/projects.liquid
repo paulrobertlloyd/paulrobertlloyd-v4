@@ -8,11 +8,12 @@ introduction: |
 permalink: projects/index.html
 ---
 {%- assign featured = collections.project | includes: 'data.tags','featured' -%}
+{%- assign selected = featured | reverse %}
 {%- include 'section'
   section_id: 'featured'
   section_title: 'Select case studies'
   section_scrollable: true
-  items: featured
+  items: selected
   items_size: '16rem'
   items_component: 'card'
   image_ratio: 1.0

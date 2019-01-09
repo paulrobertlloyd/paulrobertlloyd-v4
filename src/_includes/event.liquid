@@ -1,4 +1,4 @@
-{%- assign venueid = tags[0] | remove: 'venue:' -%}
+{%- assign venueid = tags[1] | remove: 'venue:' -%}
 {%- assign venue = collections.venue | includes: 'fileSlug',venueid | first -%}
 {%- assign date-start = start | date: '%Y%m%d' -%}
 {%- assign date-end = end | date: '%Y%m%d' -%}

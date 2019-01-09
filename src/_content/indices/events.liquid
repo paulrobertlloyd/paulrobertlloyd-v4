@@ -4,6 +4,7 @@ summary: Exhibitions, conferences and other events I’ve attended.
 introduction: Exhibitions, conferences and other events I’ve attended. Browse by [venue](venues/).
 pagination:
   data: collections.attended
+  reverse: true
   size: 48
 permalink: events/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber }}{% else %}index{% endif %}.html
 ---

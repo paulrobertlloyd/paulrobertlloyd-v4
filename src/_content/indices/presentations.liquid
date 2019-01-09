@@ -7,16 +7,18 @@ introduction: |
   Want me to speak at your event? [Get in touch](/contact).
 permalink: presentations/index.html
 ---
+{%- assign featured = collections.presentation | includes: 'data.tags','featured' -%}
+{%- assign selected = featured | reverse %}
 {%- include 'section'
   section_id: 'featured'
   section_title: 'Select presentations'
   section_scrollable: true
-  items: collections.presentation
+  items: selected
   items_size: '16rem'
   items_component: 'card'
   card_image_color: true
 -%}
-{% assign appearances = collections.event | select: 'data.participant',true %}
+{%- assign appearances = collections.event | select: 'data.participant',true -%}
 {%- include 'section'
   section_id: 'events'
   section_title: 'Events I’ve spoken at'
