@@ -9,7 +9,7 @@
   {%- capture src %}{{ embed | replace: 'www.youtube.com/video','www.youtube-nocookie.com/embed' }}?showinfo=0&rel=0&modestbranding=1&autoplay=1{% endcapture -%}
   {%- capture img %}{{ poster }}/sddefault.jpg{% endcapture -%}
 {%- else -%}
-  {%- capture img %}https://res.cloudinary.com/paulrobertlloyd/image/fetch/w_1920,c_fill,f_auto,q_auto/{{ app.url }}/images/{{ poster }}{% endcapture -%}
+  {%- capture img %}https://res.cloudinary.com/paulrobertlloyd/image/fetch/c_fill%2Cf_auto%2Cq_auto%2Cw_1920/{{ app.url }}/images/{{ poster }}{% endcapture -%}
 {%- endif -%}
 <figure class="align-{{ alignment | default: 'none' }}">
   <a href="{{ embed }}" data-embed-src="{{ src }}" style="--aspect-ratio: {{ ratio | default: '16/9' }}">
