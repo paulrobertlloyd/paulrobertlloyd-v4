@@ -51,7 +51,7 @@ Is Europe perfect? Far from it. Could it be more democratic? Certainly — but t
 
 What could we achieve inside Europe if instead of complaining, obstructing and abstaining, we took a more proactive and positive role?
 
-{% include 'embed' with 'https://www.youtube.com/video/gPX9MLALjAE'
+{% include 'embed' with 'https://www.youtube.com/watch?v=gPX9MLALjAE'
   caption: 'Gordon Brown: Lead not Leave.'
 %}
 

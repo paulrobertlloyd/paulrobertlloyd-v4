@@ -36,7 +36,7 @@ That [WordPress powers over 30% of web][23] speaks to a desire for people to pub
 
 But is this dynamic anything new? For every web designer bemoaning the existence of services like WordPress or Squarespace, you’ll find a barista shaking their fist at Starbucks, or a couture fashion designer bemoaning the emergence of Primark. While we may decry the existence of fast food and fast fashion, there’s no denying the fact that large commercial entities will deliver products that are far more accessible and affordable.
 
-{% include 'embed' with 'https://www.youtube.com/video/Kra1eWAiKvE'
+{% include 'embed' with 'https://www.youtube.com/watch?v=Kra1eWAiKvE'
   caption: 'This McDonald’s advertisement pokes fun at artisanal and overpriced alternatives to its own range of coffees.'
 %}
 

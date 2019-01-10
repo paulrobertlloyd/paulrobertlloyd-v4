@@ -21,6 +21,6 @@ I tend to agree with Steve Jobs, who said [death is the greatest invention of li
 
 [1]: https://idlewords.com/talks/superintelligence.htm
 [2]: https://www.wired.com/2017/03/silicon-valley-rather-cure-death-make-life-worth-living/
-[3]: https://www.youtube.com/video/8XdhQ752PbA
+[3]: https://www.youtube.com/watch?v=8XdhQ752PbA
 
 *[AI]: Artificial intelligence

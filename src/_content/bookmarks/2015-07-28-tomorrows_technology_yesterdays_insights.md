@@ -14,5 +14,5 @@ Give technologists a problem, and they’ll try and solve it with technology.
 
 [1]: http://stupidsystem.org
 [2]: https://www.nytimes.com/2015/02/19/opinion/nicholas-kristof-the-cost-of-a-decline-in-unions.html
-[3]: https://www.youtube.com/video/1YX7h8qNu7g
+[3]: https://www.youtube.com/watch?v=1YX7h8qNu7g
 [4]: https://medium.com/@USDOL/8a4e131b076

@@ -153,7 +153,7 @@ These principles should shape our approach to responsive design — and they, in
 [20]: http://styleguides.io/
 [21]: http://lesscss.org/
 [22]: http://sass-lang.com/
-[23]: https://www.youtube.com/video/ciG-A_1FyVg
+[23]: https://www.youtube.com/watch?v=ciG-A_1FyVg
 [24]: http://getbem.com/naming/
 [25]: https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/
 [26]: https://www.urbandictionary.com/define.php?term=yak%20shaving

@@ -1,7 +1,7 @@
 ---
 title: Stay Hungry. Stay Foolish.
 date: 2011-10-06T20:44:26+01:00
-url: https://www.youtube.com/video/UF8uR6Z6KLc
+url: https://www.youtube.com/watch?v=UF8uR6Z6KLc
 tags:
 - steve_jobs
 ---

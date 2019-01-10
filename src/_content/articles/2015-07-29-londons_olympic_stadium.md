@@ -112,8 +112,8 @@ It would have been awful to see the Olympic Stadium in Stratford dismantled, yet
 
 [1]: http://blogs.walkerart.org/design/2014/03/20/lance-wyman-mexico-68-olympics-tlatelolco-massacre
 [2]: http://www.1972municholympics.co.uk/
-[3]: https://www.youtube.com/video/wQqmelsJlhs
-[4]: https://www.youtube.com/video/TbsXUJITa40
+[3]: https://www.youtube.com/watch?v=wQqmelsJlhs
+[4]: https://www.youtube.com/watch?v=TbsXUJITa40
 [5]: /2014/02/olympic_websites
 [6]: https://en.wikipedia.org/wiki/Olympic_Stadium
 [7]: https://en.wikipedia.org/wiki/1996_Summer_Olympics

@@ -1,7 +1,7 @@
 ---
 title: Climb Dance
 date: 2016-09-29T14:40:00+01:00
-url: https://www.youtube.com/video/HiIjLMr33Xc
+url: https://www.youtube.com/watch?v=HiIjLMr33Xc
 tags:
 - video
 - cinema

@@ -24,7 +24,7 @@ Now, having watched clips from his first week sat behind the desk inside a renov
 
 On any other show, an interview with Uber’s CEO [Travis Kalanick][5] would have been fawning and over congratulatory, but Colbert’s questions didn’t avoid the controversies surrounding this company. It also revealed Kalanick’s rather hollow and evasive personality:
 
-{% include 'embed' with 'https://www.youtube.com/video/wGdjLv8neBs'
+{% include 'embed' with 'https://www.youtube.com/watch?v=wGdjLv8neBs'
   caption: 'Stephen Colbert interviewing Travis Kalanick.'
 %}
 
@@ -33,12 +33,12 @@ With Colbert no longer playing the character of a “[well-intentioned, poorly i
 Which begs the question: when can we expect episodes to be broadcast in the UK?
 
 [1]: https://en.wikipedia.org/wiki/The_Colbert_Report
-[2]: https://www.youtube.com/video/rFtam2eAkfo
+[2]: https://www.youtube.com/watch?v=rFtam2eAkfo
 [3]: https://en.wikipedia.org/wiki/Ed_Sullivan_Theater
 [4]: http://www.theatlantic.com/entertainment/archive/2015/09/stephen-colbert-late-show-cbs-letterman/404407/
 [5]: https://pando.com/2012/10/24/travis-shrugged/
 [6]: https://www.nytimes.com/2005/09/25/magazine/funny-about-the-news.html
-[7]: https://www.youtube.com/video/opVaEC_WxWs
+[7]: https://www.youtube.com/watch?v=opVaEC_WxWs
 
 *[CBS]: Columbia Broadcasting System
 *[CEO]: Chief executive officer

@@ -1,7 +1,7 @@
 ---
 title: The Crazy Ones
 date: 2011-10-06T20:32:05+01:00
-url: https://www.youtube.com/video/8rwsuXHA7RA
+url: https://www.youtube.com/watch?v=8rwsuXHA7RA
 tags:
 - steve_jobs
 - apple

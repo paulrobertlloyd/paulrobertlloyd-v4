@@ -67,7 +67,7 @@ Ultimately, usage will dictate which is seen as the best means of using images o
 [6]: /2012/12/causeway_coast
 [7]: http://blog.netvlies.nl/design-interactie/retina-revolution/
 [8]: http://nocturnalmonkey.com/writing/compressing-images
-[9]: https://www.youtube.com/video/wJbhxVepEoc
+[9]: https://www.youtube.com/watch?v=wJbhxVepEoc
 [10]: http://www.alistapart.com/articles/the-web-aesthetic/
 
 *[BBC]: British Broadcasting Corporation

@@ -182,7 +182,7 @@ Alongside tools like preprocessors, newer CSS layout modules like flexbox and gr
 [15]: http://www.w3.org/TR/css-variables/
 [16]: http://erskinedesign.com/blog/friendlier-colour-names-sass-maps/
 [17]: https://github.com/guardian/guss
-[18]: https://www.youtube.com/video/ciG-A_1FyVg
+[18]: https://www.youtube.com/watch?v=ciG-A_1FyVg
 [19]: https://24ways.org/2015/grid-flexbox-box-alignment-our-new-system-for-layout/
 [20]: http://www.bbcgoodfood.com/recipes/collection/christmas-cake
 

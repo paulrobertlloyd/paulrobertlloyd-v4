@@ -12,7 +12,7 @@ tags:
 ---
 I had braced myself for its eventual fate, but seeing footage of Birmingham Central Library being demolished still brought a tear to my eye:
 
-{% include 'embed' with 'https://www.youtube.com/video/hxvfIjddE6w'
+{% include 'embed' with 'https://www.youtube.com/watch?v=hxvfIjddE6w'
   caption: 'Time-lapse video documenting the demolition of Birmingham Central Library.'
 %}
 
@@ -26,7 +26,7 @@ While [artist’s impressions of the redeveloped Paradise Circus][5] look impres
 
 Our [disregard for post-war architecture][6] aside, demolition rarely sits well with me. It seems like such a wasteful, unsympathetic exercise. Fortunately, Birmingham has plenty of examples that prove another approach is possible. The [Rotunda][7] still stands, no longer offices but residential apartments, while [New Street Station][8] was redeveloped while keeping much of the original structure in place. Sometimes saner minds prevail.
 
-[1]: https://www.youtube.com/video/kyRLeEP-ICs
+[1]: https://www.youtube.com/watch?v=kyRLeEP-ICs
 [2]: https://en.wikipedia.org/wiki/Council_House,_Birmingham
 [3]: https://en.wikipedia.org/wiki/Birmingham_Town_Hall
 [4]: /2010/06/a_new_library_for_birmingham

@@ -15,7 +15,7 @@ I’d like to think I’m mellowing with age, but if there’s one topic that st
 
 You only need to look at the [record temperatures][1] we’ve been seeing this year, or [the rate at which Arctic sea ice is disappearing][2]. Climate change is real, happening, and pretty much inescapable.
 
-{% include 'embed' with 'https://www.youtube.com/video/SWPzGo_C010'
+{% include 'embed' with 'https://www.youtube.com/watch?v=SWPzGo_C010'
   caption: 'Five-year global temperature anomalies from 1880 to 2015. Graphic: [NASA](http://svs.gsfc.nasa.gov/cgi-bin/details.cgi?aid=4419).'
   alignment: 'pull'
 %}
