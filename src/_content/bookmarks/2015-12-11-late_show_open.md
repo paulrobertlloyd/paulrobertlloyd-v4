@@ -1,7 +1,7 @@
 ---
 title: ‘The Late Show’ Opening Titles - Director’s Cut
 date: 2015-12-11T20:15:00Z
-url: https://www.youtube.com/video/bmdmx-ZcVvE
+url: https://www.youtube.com/watch?v=bmdmx-ZcVvE
 tags:
 - video
 - television

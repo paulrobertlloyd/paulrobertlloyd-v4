@@ -58,7 +58,7 @@ slides:
 
     My brother lives in Brazil, and I asked him what the general feeling is towards Brasília. He told me that most consider it a city built for the rich by the rich. Quite different from the egalitarian aspirations of it’s two architects.
 
-    In 1980, [the art critic Robert Hughes said](https://www.youtube.com/video/C04JZsoqs1A)…
+    In 1980, [the art critic Robert Hughes said](https://www.youtube.com/watch?v=C04JZsoqs1A)…
 - image: /images/2017/06/patterns_day/8.jpg
   notes: |
     > Nothing dates faster than people’s fantasies about the future. This is what you get when perfectly decent, intelligent and talented men start thinking in terms of space, rather than place, and about single rather than multiple meanings. It’s what you get when you design for political aspirations and not real human needs. You get miles of jerry-built platonic nowhere infested with Volkswagens. This, one may fervently hope, is the last experiment of its kind. The utopian buck, stops here.

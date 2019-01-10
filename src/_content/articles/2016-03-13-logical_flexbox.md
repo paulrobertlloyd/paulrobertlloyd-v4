@@ -191,7 +191,7 @@ Until support improves, I’ll just cringe a little whenever I see the words `le
 [20]: https://twitter.com/jonathangarner_/status/709483346510872576
 [21]: https://about.me/chrisminnick
 [22]: https://www.webucator.com
-[23]: https://www.youtube.com/video/Q_0tP52RBh4
+[23]: https://www.youtube.com/watch?v=Q_0tP52RBh4
 
 *[aka]: also known as
 *[CSS]: Cascading Style Sheets

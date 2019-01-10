@@ -63,10 +63,10 @@ While no event could hope to compete with the Olympic Games, in terms of volunte
 
 Still, making comparisons to London seems foolhardy, although that experience did allow me to enjoy this one more fully. I was also reminded why I wished to reprise this role in the first place: interacting with the public, every smile was validation that, no matter how small my contribution, I was making a difference.
 
-[1]: https://www.youtube.com/video/-Aj3KZa1ZCM
+[1]: https://www.youtube.com/watch?v=-Aj3KZa1ZCM
 [2]: /2012/09/games_maker
 [3]: https://en.wikipedia.org/wiki/M8_Bridge_to_Nowhere
-[4]: https://www.youtube.com/video/ErHDa6yNW_I
+[4]: https://www.youtube.com/watch?v=ErHDa6yNW_I
 [5]: https://www.bbc.co.uk/news/uk-scotland-28513536
 [6]: https://www.bbc.co.uk/sport/0/commonwealth-games/28563648
 [7]: https://en.wikipedia.org/wiki/Haka

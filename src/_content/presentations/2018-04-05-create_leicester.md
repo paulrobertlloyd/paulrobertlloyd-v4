@@ -52,7 +52,7 @@ slides:
     My brother lives in Brazil. He told me that most citizens consider Brasília to be a city built for the rich, by the rich. Quite different from the egalitarian aspirations of its two architects.
 - image: /images/2018/04/create_leicester/7.jpg
   notes: |
-    In 1980, [the art critic Robert Hughes said](https://www.youtube.com/video/C04JZsoqs1A)…
+    In 1980, [the art critic Robert Hughes said](https://www.youtube.com/watch?v=C04JZsoqs1A)…
 
     > Nothing dates faster than people’s fantasies about the future. This is what you get when perfectly decent, intelligent and talented men start thinking in terms of space, rather than place, and about single rather than multiple meanings. It’s what you get when you design for political aspirations and not real human needs. You get miles of jerry-built platonic nowhere infested with Volkswagens. This, one may fervently hope, is the last experiment of its kind. The utopian buck, stops here.
 
@@ -178,7 +178,7 @@ slides:
   notes: |
     Stuart Frisby, Booking.com’s Director of Design, [speaking at Leading Design conference last year](https://vimeo.com/243670568), talked about how he joined an engineering-led company heavily invested in A/B testing. Rather than question if this was the right approach, he saw this as a means of measuring the value his team could provide to the company.
 
-    At [an earlier talk he gave in 2015](https://www.youtube.com/video/VQpQ0YHSfqM), he talked about how and why booking.com uses A/B testing…
+    At [an earlier talk he gave in 2015](https://www.youtube.com/watch?v=VQpQ0YHSfqM), he talked about how and why booking.com uses A/B testing…
 - image: /images/2018/04/create_leicester/26.jpg
   notes: |
     > One of the core principles and core cultures of our organisation is that we want to be very customer focused, and **A/B testing is really a way for us to institutionalise that customer focus in a way that makes it very difficult for us to be anything else**. All of the features that we deliver are designed, developed and tested in order to validate that they are already better than what we have for customers.

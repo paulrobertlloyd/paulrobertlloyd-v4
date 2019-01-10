@@ -242,7 +242,7 @@ Having a growing awareness of the issues, and expanding your knowledge of the to
 [8]: https://www.filamentgroup.com/lab/accessible-responsive.html#hiding
 [9]: https://www.w3.org/TR/html51/sections.html#creating-an-outline
 [10]: https://ebay.gitbooks.io/mindpatterns/content/disclosure/dialog.html
-[11]: https://www.youtube.com/video/JS68faEUduk
+[11]: https://www.youtube.com/watch?v=JS68faEUduk
 [12]: https://github.com/WICG/inert
 [13]: https://developer.paciellogroup.com/blog/2017/07/short-note-on-aria-label-aria-labelledby-and-aria-describedby/
 [14]: https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/8090208/

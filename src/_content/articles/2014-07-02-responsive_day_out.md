@@ -107,7 +107,7 @@ A huge thank-you to Ethan for greasing the rusty cogs in my brain, the speakers 
 [4]: https://en.wikipedia.org/wiki/12_basic_principles_of_animation
 [5]: http://huffduffer.com/adactio/167829
 [6]: http://www.theguardian.com/technology/2014/jun/29/facebook-users-emotions-news-feeds
-[7]: https://www.youtube.com/video/SB_GDF-mKTE
+[7]: https://www.youtube.com/watch?v=SB_GDF-mKTE
 [8]: https://en.wikipedia.org/wiki/Unix_philosophy
 [9]: http://huffduffer.com/adactio/167833
 [10]: http://blog.andyhume.net/responsive-containers/

@@ -52,7 +52,7 @@ What will it take for the shackles to be released? Joel thinks corporate designe
 Encouraging the development of independent critical journalism about web design may seem high-minded — and without the will and the funding, impossible to achieve. Still, it’s one of few ideas I’ve seen that could free designers from the situation they’ve found themselves. Like the companies they work for, corporate designers need regulating too.
 
 [1]: /2015/12/peaceful_reflection
-[2]: https://www.youtube.com/video/m4T_4uLQ7e0&t=2m26s
+[2]: https://www.youtube.com/watch?v=m4T_4uLQ7e0&t=2m26s
 [3]: http://www.marioandra.de
 [4]: http://joelcalifa.com/blog/subverted-design/
 [5]: https://adactio.com/journal/13109

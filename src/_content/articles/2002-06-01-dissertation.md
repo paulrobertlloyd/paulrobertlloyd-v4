@@ -356,12 +356,12 @@ The quality of television broadcasts at this time were crude to say the least. L
 The launch of BBC2 in 1964 saw the introduction of 625-line higher resolution broadcasts and three years later colour, both of great benefit to the designer although not straight away. BBC1 and ITV only began colour broadcasts in 1969 and the improved 625-line transmissions were still broadcast alongside those using 405-lines, which even with their low quality, weren’t suspended until early 1985. It was up to the audience to upgrade their sets, and sales of colour receivers were unexpectedly low when colour television broadcasts began. Before the majority of viewers had 625-line colour receivers, the designer still had to consider those watching on older sets. However, typical graphic design during the sixties saw a greater use of photography, more detailed illustration and a more apparent use of calligraphy.
 
 {% include 'photos' with figures.4
-  caption: 'Title sequence from <cite>The Old Grey Whistle Test</cite>. (BBC/Roger Ferrin, 1968). [Watch on YouTube](https://www.youtube.com/video/KNNAfzKwRn4)'
+  caption: 'Title sequence from <cite>The Old Grey Whistle Test</cite>. (BBC/Roger Ferrin, 1968). [Watch on YouTube](https://www.youtube.com/watch?v=KNNAfzKwRn4)'
   image_preset: 'thumbnail'
 %}
 
 {% include 'photos' with figures.5
-  caption: 'Title sequence from <cite>I, Claudius</cite> (BBC/Richard Bailey, 1976). [Watch on YouTube](https://www.youtube.com/video/pKwaCTfa1EE)'
+  caption: 'Title sequence from <cite>I, Claudius</cite> (BBC/Richard Bailey, 1976). [Watch on YouTube](https://www.youtube.com/watch?v=pKwaCTfa1EE)'
   image_preset: 'thumbnail'
 %}
 
@@ -380,22 +380,22 @@ Taking into account that Channel 4 was to commission its programmes from indepen
 Although it was expensive to implement, it was radically different to its competitors, all of which returned to a single on-screen ident, be it BBC1’s revolving globe, Anglia’s revolving knight or Thames’ London skyline.
 
 {% include 'photos' with figures.6a
-  caption: '<cite>Round and Back</cite>. (Channel 4/Robinson Lambie-Nairn, 1982). [Watch on YouTube](https://www.youtube.com/video/DfiXWPovueg)'
+  caption: '<cite>Round and Back</cite>. (Channel 4/Robinson Lambie-Nairn, 1982). [Watch on YouTube](https://www.youtube.com/watch?v=DfiXWPovueg)'
   image_preset: 'thumbnail'
 %}
 
 {% include 'photos' with figures.6b
-  caption: '<cite>Implosion</cite>. (Channel 4/Robinson Lambie-Nairn, 1982). [Watch on YouTube](https://www.youtube.com/video/L5n469g_zzo)'
+  caption: '<cite>Implosion</cite>. (Channel 4/Robinson Lambie-Nairn, 1982). [Watch on YouTube](https://www.youtube.com/watch?v=L5n469g_zzo)'
   image_preset: 'thumbnail'
 %}
 
 {% include 'photos' with figures.6c
-  caption: '<cite>Interlock</cite>. (Channel 4/Robinson Lambie-Nairn, 1982). [Watch on YouTube](https://www.youtube.com/video/S342Vgn1Lgg)'
+  caption: '<cite>Interlock</cite>. (Channel 4/Robinson Lambie-Nairn, 1982). [Watch on YouTube](https://www.youtube.com/watch?v=S342Vgn1Lgg)'
   image_preset: 'thumbnail'
 %}
 
 {% include 'photos' with figures.6d
-  caption: '<cite>Space Squad</cite>. (Channel 4/Robinson Lambie-Nairn, 1982). [Watch on YouTube](https://www.youtube.com/video/C4yEQGykeR0)'
+  caption: '<cite>Space Squad</cite>. (Channel 4/Robinson Lambie-Nairn, 1982). [Watch on YouTube](https://www.youtube.com/watch?v=C4yEQGykeR0)'
   image_preset: 'thumbnail'
 %}
 

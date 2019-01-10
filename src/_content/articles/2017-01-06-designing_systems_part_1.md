@@ -113,7 +113,7 @@ When designing for others, be they the residents of a city, passengers on a tran
 [1]: https://www.creativereview.co.uk/tfl-celebrates-centenary-of-the-johnston-typeface-with-new-poster-campaign/
 [2]: http://www.londonreconnections.com/2011/the-future-of-the-overground-part-3-oranges-are-not-the-only-fruit/
 
-[^1]: <cite>[The Shock of the New: Trouble in Utopia](https://www.youtube.com/video/C04JZsoqs1A)</cite>, BBC2, 12 October 1980.
+[^1]: <cite>[The Shock of the New: Trouble in Utopia](https://www.youtube.com/watch?v=C04JZsoqs1A)</cite>, BBC2, 12 October 1980.
 
 *[UNESCO]: United Nations Educational, Scientific and Cultural Organization
 *[UERL]: Underground Electric Railways of London

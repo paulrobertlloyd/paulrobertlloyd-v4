@@ -177,7 +177,7 @@ In fewer days I saw more shows than I did in the four nights I was in Edinburgh 
 [9]: http://heathmcivor.com/
 [10]: http://andrew-maxwell.co.uk/
 [11]: http://davidodoherty.com/
-[12]: https://www.youtube.com/video/XX45vU4Z6Pw
+[12]: https://www.youtube.com/watch?v=XX45vU4Z6Pw
 
 *[BBC]: British Broadcasting Corporation
 *[MC]: Master of Ceremonies

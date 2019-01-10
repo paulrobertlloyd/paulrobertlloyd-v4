@@ -1,7 +1,7 @@
 ---
 title: To Fly. To Serve.
 date: 2011-09-27T22:44:50+01:00
-url: https://www.youtube.com/video/a4JdQi60an0
+url: https://www.youtube.com/watch?v=a4JdQi60an0
 tags:
 - advertising
 - video
@@ -13,6 +13,6 @@ Whatever you may think of British Airways, it’s hard not to be impressed by th
 In many ways, I’m reminded of [a similarly retro themed advert][2] that BA’s arch rival Virgin Atlantic produced to celebrate their 25th anniversary in 2009.
 
 [1]: https://www.underconsideration.com/brandnew/archives/british_airways_goes_vintage.php
-[2]: https://www.youtube.com/video/KS_6HHQ7jOA
+[2]: https://www.youtube.com/watch?v=KS_6HHQ7jOA
 
 *[BA]: British Airways

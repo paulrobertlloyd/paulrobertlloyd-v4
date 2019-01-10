@@ -44,5 +44,5 @@ The Swedish-language film [_Force Majeure_][14] depicts the tension between a hu
 [10]: https://en.wikipedia.org/wiki/Adam_and_Joe
 [11]: https://en.wikipedia.org/wiki/Attack_the_Block
 [12]: https://www.acast.com/adambuxton
-[13]: https://www.youtube.com/video/K0aGcH7S7LQ
-[14]: https://www.youtube.com/video/fjjzVbTBF8o
+[13]: https://www.youtube.com/watch?v=K0aGcH7S7LQ
+[14]: https://www.youtube.com/watch?v=fjjzVbTBF8o
