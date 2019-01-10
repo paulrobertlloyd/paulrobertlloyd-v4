@@ -8,4 +8,4 @@ end: 2010-08-19T21:00:00+01:00
 tags:
 - venue:9c7rwrx9+35
 ---
-Part of the _Edinburgh Festival Fringe 2010_.
+Part of the *Edinburgh Festival Fringe 2010*.

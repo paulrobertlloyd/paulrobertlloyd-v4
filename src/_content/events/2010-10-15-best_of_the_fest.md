@@ -7,4 +7,4 @@ end: 2010-10-15T21:00:00+01:00
 tags:
 - venue:9c2xrvf6+fr
 ---
-Part of the _Brighton Comedy Festival 2010_.
+Part of the *Brighton Comedy Festival 2010*.

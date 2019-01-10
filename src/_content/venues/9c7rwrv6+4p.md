@@ -7,4 +7,4 @@ address:
   country-name: United Kingdom
   postal-code: EH8 9LH
 ---
-Operates under the name _Assembly George Square_ during the Edinburgh Festival Fringe.
+Operates under the name *Assembly George Square* during the Edinburgh Festival Fringe.

@@ -81,7 +81,7 @@ The overriding aesthetic of television will continue to change, but it will rema
 
 ## Everything old is new again
 
-Before “killer websites” and the desire to produce print-like layouts — when bandwidth was limited and small screens could only display 256 colors — pixel graphics were considered _de rigueur_. Layouts were simple and focused.
+Before “killer websites” and the desire to produce print-like layouts — when bandwidth was limited and small screens could only display 256 colors — pixel graphics were considered *de rigueur*{lang="fr"}. Layouts were simple and focused.
 
 In 1995, [Hotwired][4] used just sixteen colors. Navigation on the homepage consisted of little more than six four-color, 1kb GIFs representing each topic area. The layout was just those images, centered:
 
@@ -116,7 +116,7 @@ The [dConstruct Archive][6] is a small site where people can listen to talks giv
   image_preset: 'thumbnail'
 %}
 
-To work out which image sizes to use, the smallest and largest displays were taken into account. We can already see a failing in current responsive image proposals. If you visit this site, you will notice that larger viewports sometimes display smaller images, because the size of the image required is often dependent on the size of its containing block, _not_ the size of the viewport. Yet viewport is the value the proposed standards would have us query.
+To work out which image sizes to use, the smallest and largest displays were taken into account. We can already see a failing in current responsive image proposals. If you visit this site, you will notice that larger viewports sometimes display smaller images, because the size of the image required is often dependent on the size of its containing block, *not* the size of the viewport. Yet viewport is the value the proposed standards would have us query.
 
 ### 2. Altering the aesthetic
 
@@ -135,7 +135,7 @@ As we saw in the television example, the constraints of a medium can impact the 
 
 Altering the visual aesthetic to suit the needs of the medium is a fine ideal, but it’s unlikely to be accepted by some clients, and let’s face it: It’s not always appropriate. In fact, it seems we rarely ask that question: What is appropriate? By evaluating our content, we can decide how many images are actually required to convey a message.
 
-Rather than increasing the _resolution_ of images as sites scale up, we can think about increasing their _number_ instead. This ties in well with the ideas around progressive enhancement: providing a baseline experience that’s enhanced as device capability improves.
+Rather than increasing the *resolution* of images as sites scale up, we can think about increasing their *number* instead. This ties in well with the ideas around progressive enhancement: providing a baseline experience that’s enhanced as device capability improves.
 
 [The BBC News mobile site][9] is a great example of progressive enhancement. The raw HTML source references just two images: the BBC logo, and an image for the main story. Every device receives this, and pages can weigh as little as 28kb — quite a feat in the world of 5Mb websites.
 
@@ -196,7 +196,7 @@ A final example of this trend can be found on [Rdio][16]. As the music-streaming
   caption: 'Rdio Website Interface'
 %}
 
-Like the Chrome apps for _The New York Times_ and BBC Good Food, this nudge toward a more app-like interface has resulted in a stronger focus on content (in this case, album covers), a more fluid layout, and less intrusive navigation.
+Like the Chrome apps for <cite>The New York Times</cite> and BBC Good Food, this nudge toward a more app-like interface has resulted in a stronger focus on content (in this case, album covers), a more fluid layout, and less intrusive navigation.
 
 In some respects, the new interface shares qualities with Microsoft’s “Metro” design language, found on Windows Phone and Windows 8. When you consider that some of the [design principles behind Metro][17] include “Clean, Light, Open and Fast,” “Content, Not Chrome,” and “Be Authentically Digital,” it would be hard to argue that these values couldn’t equally apply to web interfaces.
 

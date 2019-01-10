@@ -33,7 +33,7 @@ Yet (with the exception of widely accepted microdata and microformat schemas) on
 
 I didn’t always think this was the case, but the real world has a habit of changing your opinion. Much of my thinking around semantics has been informed by the writing of my peers. In [About HTML semantics and front-end architecture][1], Nicholas Gallagher wrote:
 
-> The important thing for class name semantics in non-trivial applications is that they be driven by pragmatism and best serve their primary purpose — providing meaningful, flexible, and reusable presentational/behavioural hooks for _developers_ to use.
+> The important thing for class name semantics in non-trivial applications is that they be driven by pragmatism and best serve their primary purpose — providing meaningful, flexible, and reusable presentational/behavioural hooks for *developers* to use.
 
 These thoughts are echoed by Harry Roberts in his [CSS Guidelines][2]
 
@@ -51,9 +51,9 @@ I like to use a prefix to differentiate between layout, state and module rules. 
 
 SMACSS is more a set of suggestions than a rigid framework, so its ideas can be incorporated into your own practice. Nicholas Gallagher’s [SUIT CSS][5] project is far more strict in [its naming conventions][6]:
 
-> SUIT CSS relies on _structured class names_ and _meaningful hyphens_ (i.e., not using hyphens merely to separate words). This helps to work around the current limits of applying CSS to the DOM (i.e., the lack of style encapsulation), and to better communicate the relationships between classes.
+> SUIT CSS relies on *structured class names* and *meaningful hyphens* (i.e., not using hyphens merely to separate words). This helps to work around the current limits of applying CSS to the DOM (i.e., the lack of style encapsulation), and to better communicate the relationships between classes.
 
-Over the last year, I’ve favoured [a BEM-inspired approach to CSS][7]. BEM stands for _block, element, modifier_, which describes the three types of rule that contribute to the style of a single component. This means that, given the following markup:
+Over the last year, I’ve favoured [a BEM-inspired approach to CSS][7]. BEM stands for *block, element, modifier*, which describes the three types of rule that contribute to the style of a single component. This means that, given the following markup:
 
 ```html
 <ul class="sleigh">
@@ -71,9 +71,9 @@ Over the last year, I’ve favoured [a BEM-inspired approach to CSS][7]. BEM sta
 
 I know that:
 
-* `.sleigh` is a containing _block_ or component.
-* `.sleigh__reindeer` is used only as a descendent _element_ of `.sleigh`.
-* `.sleigh__reindeer––famous` is used only as a _modifier_ of `.sleigh__reindeer`.
+* `.sleigh` is a containing *block* or component.
+* `.sleigh__reindeer` is used only as a descendent *element* of `.sleigh`.
+* `.sleigh__reindeer––famous` is used only as a *modifier* of `.sleigh__reindeer`.
 
 With this naming scheme in place, I know which styles relate to a particular component, and which are shared. Beyond reducing specificity-related head-scratching, this approach has given me a framework within which I can consistently label items, and has sped up my workflow considerably.
 
@@ -88,22 +88,22 @@ Regardless of higher-level conventions, there’s no getting away from the fact 
 The most important aspect is for a name to be understandable. Words used in your project may come from a variety of sources: some may be widely understood, and others only be recognised by people working within a particular environment.
 
 * **Culture**
-  Most words you’ll choose will have common currency outside the world of web development, although they may have a particular interpretation among developers (think _menu_, _list_, _input_). However, words may have a narrower cultural significance; for example, in Germany and other German-speaking countries, _impressum_ is the term used for legally mandated statements of ownership.
+  Most words you’ll choose will have common currency outside the world of web development, although they may have a particular interpretation among developers (think *menu*, *list*, *input*). However, words may have a narrower cultural significance; for example, in Germany and other German-speaking countries, *impressum* is the term used for legally mandated statements of ownership.
 
 * **Industry**
-  Industries often use specific terms to describe common business practices and concepts. Publishing has [a number of these][9] (_headline_, _standfirst_, _masthead_, _colophon_…) all have well understood meanings — and not all of them are relevant to online usage.
+  Industries often use specific terms to describe common business practices and concepts. Publishing has [a number of these][9] (*headline*, *standfirst*, *masthead*, *colophon*…) all have well understood meanings — and not all of them are relevant to online usage.
 
 * **Organisation**
-  Companies may have internal names (or nicknames) for their products and services. <cite>The Guardian</cite> is rife with such names: [_bisons_][10]: (and _buffalos_), _pixies_ (and _super-pixies_), _bentos_ (and _mini-bentos_)… all of which mean something very different outside the organisation. Although such names can be useful inside smaller teams, in larger organisations they can become a barrier to entry, a sort of secret code used among employees who have been around long enough to know what they mean.
+  Companies may have internal names (or nicknames) for their products and services. <cite>The Guardian</cite> is rife with such names: [*bisons*][10]: (and *buffalos*), *pixies* (and *super-pixies*), *bentos* (and *mini-bentos*)… all of which mean something very different outside the organisation. Although such names can be useful inside smaller teams, in larger organisations they can become a barrier to entry, a sort of secret code used among employees who have been around long enough to know what they mean.
 
 * **Product**
-  Your team will undoubtedly have created names for specific features or interface components used in your product. For example, at Clearleft we coined the term _gravigation_ for a navigation bar that was pinned to the bottom of the viewport. Elements of a visual design language may have names, too. Transport for London’s bar and circle logo is known internally as the [_roundel_][11], while Nike’s logo is called the [_swoosh_][12]. Branding agencies often christen colours within a brand palette, too, either to evoke aspects of the identity or to indicate intended usage.
+  Your team will undoubtedly have created names for specific features or interface components used in your product. For example, at Clearleft we coined the term *gravigation* for a navigation bar that was pinned to the bottom of the viewport. Elements of a visual design language may have names, too. Transport for London’s bar and circle logo is known internally as the [*roundel*][11], while Nike’s logo is called the [*swoosh*][12]. Branding agencies often christen colours within a brand palette, too, either to evoke aspects of the identity or to indicate intended usage.
 
 Once you recognise the origin of the words you use, you’ll be better able to judge their appropriateness. Using Latin words for class names may satisfy a need to use semantic-sounding terms but, unless you work in a company whose employees have a basic grasp of Latin, a degree of translation will be required. Military ranks might be a clever way of declaring sizes without implying actual values, but I’d venture most people outside the armed forces don’t know how they’re ordered.
 
 ### Obvious
 
-Quite often, the first name that comes into your head will be the best option. Names that obliquely reference the function of a class (e.g. _receptacle_ instead of _container_, _kevlar_ instead of _no-bullets_) only serve to add an additional layer of abstraction. Don’t overthink it!
+Quite often, the first name that comes into your head will be the best option. Names that obliquely reference the function of a class (e.g. *receptacle* instead of *container*, *kevlar* instead of *no-bullets*) only serve to add an additional layer of abstraction. Don’t overthink it!
 
 One way of knowing if the names you use are well understood is to look at what similar concepts are called in existing vocabularies. [schema.org][13], [Dublin Core][14] and the [BBC’s ontologies][15] are all useful sources for object names.
 
@@ -111,11 +111,11 @@ One way of knowing if the names you use are well understood is to look at what s
 
 While we’ve learned to avoid using presentational classes, there remains a tension between naming things based on their content, and naming them for their intended presentation or behaviour (which may change at different breakpoints). Rather than think about a component’s appearance or behaviour, instead look to its function, its purpose. To clarify, ask what a component’s function is, and not how the component functions.
 
-For example, <cite>The Guardian</cite>’s internal content system uses the following names for different types of image placement: _supporting_, _showcase_ and _thumbnail_, with _inline_ being the default. These options make no promise of the resulting position on a webpage (or smartphone app, or television screen…), but do suggest intended use, and therefore imply the likely presentation.
+For example, <cite>The Guardian</cite>’s internal content system uses the following names for different types of image placement: *supporting*, *showcase* and *thumbnail*, with *inline* being the default. These options make no promise of the resulting position on a webpage (or smartphone app, or television screen…), but do suggest intended use, and therefore imply the likely presentation.
 
 ### Consistent
 
-Being consistent in your approach to names will allow for easier naming of successive components, and extending the vocabulary when necessary. For example, a predictably named hierarchy might use names like _primary_ and _secondary_. Should another level need to be added, _tertiary_ is clearly be preferred over _third_.
+Being consistent in your approach to names will allow for easier naming of successive components, and extending the vocabulary when necessary. For example, a predictably named hierarchy might use names like *primary* and *secondary*. Should another level need to be added, *tertiary* is clearly be preferred over *third*.
 
 ### Appropriate
 
@@ -151,13 +151,13 @@ The inclusion of namespaces is a massive improvement over the earlier specificat
 
 ### Short
 
-Names should be as long as required, but no longer. When looking for words to describe a particular function, I try to look for single words where possible. Avoid abbreviations unless they are understood within the contexts described above. _rrp_ is fine if labelling a recommended retail price in an online shop, but not very helpful if used to mean ragged-right paragraph, for example.
+Names should be as long as required, but no longer. When looking for words to describe a particular function, I try to look for single words where possible. Avoid abbreviations unless they are understood within the contexts described above. *rrp* is fine if labelling a recommended retail price in an online shop, but not very helpful if used to mean ragged-right paragraph, for example.
 
 ### Fun!
 
 Finally, names can be an opportunity to have some fun! Names can give character to a project, be it by providing an outlet for in-jokes or adding little easter eggs for those inclined to look.
 
-The copyright statement on Apple’s website has long been named _sosumi_, a word that has [a nice little history inside Apple][17]. Until recently, the hamburger menu icon on <cite>The Guardian</cite> website was labelled _honest-burger_, after the developer’s favourite burger restaurant.
+The copyright statement on Apple’s website has long been named *sosumi*, a word that has [a nice little history inside Apple][17]. Until recently, the hamburger menu icon on <cite>The Guardian</cite> website was labelled *honest-burger*, after the developer’s favourite burger restaurant.
 
 ## A few thoughts on preprocessors
 
@@ -167,7 +167,7 @@ A second article could be written about naming these, so for now I’ll offer ju
 
 Looking to name colour variables? If possible, find out if colours have been assigned names in a brand palette. If not, use obvious names ([based on appearance][19] or function, depending on your preference) and adapt as the palette grows. If it becomes difficult to name colours that are too similar, I’d venture that the problem lies with the design rather than the naming scheme.
 
-The same is true for responsive breakpoints. Preprocessors allow you to move awkward naming conventions out of the markup and into the CSS. Although terms like _mobile_, _tablet_ and _desktop_ are not desirable given the need to think about device-agnostic design, if these terms are widely understood within a product team and among stakeholders, using them will ensure everyone is using the same language (they can always be changed later).
+The same is true for responsive breakpoints. Preprocessors allow you to move awkward naming conventions out of the markup and into the CSS. Although terms like *mobile*, *tablet* and *desktop* are not desirable given the need to think about device-agnostic design, if these terms are widely understood within a product team and among stakeholders, using them will ensure everyone is using the same language (they can always be changed later).
 
 It still feels like we’re at the very beginning of understanding how preprocessors fit into a development workflow, if at all! I suspect over the next few years, best practices will emerge for all of these considerations. In the meantime, use your brain!
 

@@ -8,4 +8,4 @@ address:
   country-name: United Kingdom
   postal-code: E15 2NG
 ---
-Formerly known as the _Olympic Stadium_ and _The Stadium at Queen Elizabeth Olympic Park_.
+Formerly known as the *Olympic Stadium* and *The Stadium at Queen Elizabeth Olympic Park*.

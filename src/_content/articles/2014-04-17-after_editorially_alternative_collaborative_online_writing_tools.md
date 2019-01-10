@@ -53,7 +53,7 @@ If working directly with files in a GitHub repository appeals, you can improve t
 
 ### Penflip
 
-Taking the Git analogy a step further, Loren Burton created [Penflip][5], which he describes as a “[GitHub for writers][6]”. If you’ve used GitHub, you will be immediately familiar with this tool. Much like GitHub repos, documents (termed _projects_ in Penflip) are viewable publicly by default, but if you wish to make them private, you can pay to do so (prices currently start from $8 a month).
+Taking the Git analogy a step further, Loren Burton created [Penflip][5], which he describes as a “[GitHub for writers][6]”. If you’ve used GitHub, you will be immediately familiar with this tool. Much like GitHub repos, documents (termed *projects* in Penflip) are viewable publicly by default, but if you wish to make them private, you can pay to do so (prices currently start from $8 a month).
 
 The editing interface uses the same one as open-sourced by Prose. This is a great decision, as Development Seed has created a fantastic editor that provides keyboard shortcuts and fully styled Markdown that is essential in such a tool.
 

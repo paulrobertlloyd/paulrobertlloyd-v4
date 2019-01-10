@@ -6,4 +6,4 @@ end: 2009-10-09T21:00:00+01:00
 tags:
 - venue:9c2xrvf6+fr
 ---
-Part of the _Brighton Comedy Festival 2009_.
+Part of the *Brighton Comedy Festival 2009*.

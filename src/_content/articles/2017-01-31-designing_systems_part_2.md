@@ -22,7 +22,7 @@ _But what is a design system?_
 
 Definitions vary, and the term is used somewhat interchangeably with related concepts like style guides. In highlighting the difference between the two, Nathan Curtis [arrived at one definition][1]:
 
-> A style guide is an artifact of design process. _A design system is a living, funded product with a roadmap and backlog, serving an ecosystem_.
+> A style guide is an artifact of design process. *A design system is a living, funded product with a roadmap and backlog, serving an ecosystem*.
 
 I consider a design system in a similarly broad terms, namely that of an holistic collection of guidelines, tools and other artefacts that help an organisation deliver coherent experiences.
 
@@ -87,7 +87,7 @@ The most recognisable piece of design created during Frank Pick’s leadership o
 
 Realising that passengers cared more about the connections between the various lines below ground than they did about the street layout above, Beck did away with geographical accuracy, instead drawing tube lines on vertical, horizontal and diagonal axes, marking the intersections with a diamond.
 
-_It’s not the features that matter, but the connections_. I’ll return to that thought in part three.
+*It’s not the features that matter, but the connections*. I’ll return to that thought in part three.
 
 ## Tools
 
@@ -97,7 +97,7 @@ _It’s not the features that matter, but the connections_. I’ll return to tha
 
 Guidance alone can’t help us build products. We need tools that go beyond this low-level direction (the ‘what’), and enable people to implement these rules in a meaningful way (the ‘how’). These are the concern of our next layer.
 
-Two tools often mentioned when discussing design systems are _visual design languages_ and _component libraries_. Understandably, it is the later of these that our industry has focused on lately as they help develop modularised front-end code.
+Two tools often mentioned when discussing design systems are *visual design languages* and *component libraries*. Understandably, it is the later of these that our industry has focused on lately as they help develop modularised front-end code.
 
 ### Conceptual models
 
@@ -113,7 +113,7 @@ Enter, [the container model][14]. A systematic approach to page composition, thi
   caption: 'The container model: items, slices and containers.'
 %}
 
-Building containers by combining items and slices allowed for an incredible range of flexibility _and_ reduced the amount of code needed to support it. Each container could focus on a particular theme, say people in the news, the latest video content or a featured news story. Containers could also be shared across different pages and in varying positions, too. For example, the most popular stories container could be shown midway on the homepage, and also towards the foot of every article page.
+Building containers by combining items and slices allowed for an incredible range of flexibility *and* reduced the amount of code needed to support it. Each container could focus on a particular theme, say people in the news, the latest video content or a featured news story. Containers could also be shared across different pages and in varying positions, too. For example, the most popular stories container could be shown midway on the homepage, and also towards the foot of every article page.
 
 This model went some way to addressing the flexibility desired, yet further models were needed to deal with the variation inherent to effective editorial design. Tonality, newsworthiness, curation, information density, pacing, device considerations… all presented the design team with an array of concerns that needed to be reasoned with.
 
@@ -135,7 +135,7 @@ In <cite>[101 Things I learned in Architecture School][15]</cite>, Mark Frederic
   caption: '**Simplicity:** 3 elements used to create 3 spaces; **Complexity**: 12 elements used to create 12 spaces; **Informed simplicity:** 3 elements combined to create 12 spaces.'
 %}
 
-This perfectly encapsulates the process we went though at the Guardian, and one I’ve experienced many times since. Only by working with the different pieces long enough, experimenting with various combinations, can you devise a system (or _systems_) that sufficiently model the underhand complexity.
+This perfectly encapsulates the process we went though at the Guardian, and one I’ve experienced many times since. Only by working with the different pieces long enough, experimenting with various combinations, can you devise a system (or *systems*) that sufficiently model the underhand complexity.
 
 ## Products
 
