@@ -1,23 +1,19 @@
 {%- assign src = embed -%}
-{%- if src contains 'mapbox' -%}
-  {%- capture img %}{{ poster }}320x180@2x?access_token={{ app.token.mapbox }}{% endcapture -%}
-  {%- capture lazy %}{{ poster }}960x540@2x?access_token={{ app.token.mapbox }}{% endcapture -%}
-{%- elsif src contains 'vimeo' -%}
+{%- if embed contains 'mapbox' -%}
+  {%- capture img %}{{ poster }}960x540@2x?access_token={{ app.token.mapbox }}{% endcapture -%}
+{%- elsif embed contains 'vimeo' -%}
   {%- capture src %}{{ embed | replace: 'vimeo.com','player.vimeo.com/video' }}?color=fff&title=0&byline=0&badge=0&portrait=0&autoplay=1{% endcapture -%}
-  {%- capture img %}{{ poster }}?mw=640&q=80{% endcapture -%}
-  {%- capture lazy %}{{ poster }}?mw=1920&q=80{% endcapture -%}
-{%- elsif src contains 'youtube' -%}
+  {%- capture img %}{{ poster }}?mw=1920&q=80{% endcapture -%}
+{%- elsif embed contains 'youtube' -%}
   {%- assign poster = embed | replace: 'https://www.youtube.com/video','https://i.ytimg.com/vi' -%}
   {%- capture src %}{{ embed | replace: 'www.youtube.com/video','www.youtube-nocookie.com/embed' }}?showinfo=0&rel=0&modestbranding=1&autoplay=1{% endcapture -%}
-  {%- capture img %}{{ poster }}/hqdefault.jpg{% endcapture -%}
-  {%- capture lazy %}{{ poster }}/sddefault.jpg{% endcapture -%}
+  {%- capture img %}{{ poster }}/sddefault.jpg{% endcapture -%}
 {%- else -%}
-  {%- capture img %}https://paulrobertlloyd.imgix.net/{{ poster }}?w=640&q=80&auto=format{% endcapture -%}
-  {%- capture lazy %}https://paulrobertlloyd.imgix.net/{{ poster }}?w=1920&q=80&auto=format{% endcapture -%}
+  {%- capture img %}https://res.cloudinary.com/paulrobertlloyd/image/fetch/w_1920,c_fill,f_auto,q_auto/{{ app.url }}/images/{{ poster }}{% endcapture -%}
 {%- endif -%}
 <figure class="align-{{ alignment | default: 'none' }}">
   <a href="{{ embed }}" data-embed-src="{{ src }}" style="--aspect-ratio: {{ ratio | default: '16/9' }}">
-    <img src="{{ img }}" data-lazy-src="{{ lazy }}" alt="">
+    <img src="{{ img }}" alt="">
   </a>
 {%- if caption -%}
   <figcaption>
