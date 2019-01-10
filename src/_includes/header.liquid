@@ -1,5 +1,5 @@
 <header class="header">
-  <h1 class="header__title{% if vocab %} | p-name{% endif %}">{{ title | smartify }}</h1>
+  <h1 class="header__title{% if vocab %} | p-name{% endif %}">{{ title }}</h1>
 {%- if summary or url -%}
   <div class="header__summary{% if vocab %} | p-summary{% endif %}">
   {%- if summary -%}
