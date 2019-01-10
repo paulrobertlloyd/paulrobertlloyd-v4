@@ -9,7 +9,7 @@ tags:
 - design
 - web
 ---
-Anyone who knows me, knows there are certain words guaranteed to elicit fervour and exasperation. Words like Facebook, Google, Amazon, Uber, you know the sort. Words that are even more frustrating when they accompany the names of people I respect — sometimes even friends.
+Anyone who knows me, knows there are certain words guaranteed to elicit fervour and exasperation. Words like *Facebook*, *Google*, *Amazon*, *Uber*, you know the sort. Words that are even more frustrating when they accompany the names of people I respect — sometimes even friends.
 
 Rather than resort to passionate but otherwise ill-considered rants, I want to dig into my consternation further. Beyond the well reported controversies, what is it about these companies that animates me so much? [My experience working in Silicon Valley][1] has undoubtedly informed my perspective, but still, I remain profoundly curious: *why do good people choose to work for evil companies?*
 
@@ -35,7 +35,7 @@ In [Subverted Design][4], Joel Califa wonders if corporate designers — a disti
 
 I found Joel’s insight fascinating. While it doesn’t answer my question about why people choose to join these companies, it goes someway to explain what can happen once they arrive.
 
-Since using their website had a visceral effect on my heart rate, ‘Booking.com’ has become another of my trigger words. Jeremy wonders if A/B testing has become so institutionalised, that [its designers now confuse customer satisfaction with conversion rates][5]:
+Since using their website had a visceral effect on my heart rate, *Booking.com* has become another of my trigger words. Jeremy wonders if A/B testing has become so institutionalised, that [its designers now confuse customer satisfaction with conversion rates][5]:
 
 > I think A/B testing is a way to institutionalise a focus on *business* goals — increasing sales, growth, conversion, and all of that. Now, ideally, those goals would align completely with the customer’s goals; happy customers should mean more sales …but more sales doesn’t necessarily mean happy customers. Using business metrics (sales, growth, conversion) as a *proxy* for customer satisfaction might not always work …and is clearly [not the case with many of these kinds of sites][6]. Whatever the company values might say, a company’s true focus is on whatever they’re measuring as success criteria. If that’s customer satisfaction, then the company is indeed customer-focused. But if the measurements are entirely about what works for sales and conversions, then that’s the real focus of the company.
 

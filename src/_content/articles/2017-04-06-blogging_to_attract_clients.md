@@ -22,7 +22,7 @@ I also like the idea of interviewing interesting people and publishing their res
 
 However, as the article continues, things start to get a bit murkier. Some of Dmitry’s advice includes:
 
-* Finding similar articles on a topic that you intend to write about, and using these as inspiration to ‘create a better version’, perhaps by including points that were missed, or for which you have a different opinion or experience. I suspect people’s interpretation of ‘inspiration’ will differ wildly!
+* Finding similar articles on a topic that you intend to write about, and using these as inspiration to “create an even better version”, perhaps by including points that were missed, or for which you have a different opinion or experience. I suspect people’s interpretation of *inspiration* will differ wildly!
 
 * Using tools to see who shared or linked to those similar articles, then contacting those people to see if they’d be willing to share or link to your article as well.
 

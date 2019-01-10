@@ -42,7 +42,7 @@ The technology that’s had the biggest impact on my work has been the BEM metho
 
 **PL:** I don’t have a piece of advice, but I will offer an observation, one that I’ve been pondering for a while…
 
-Ethan’s [responsive recipe][12] contained three simple ingredients: fluid grids, flexible images and media-queries, the later of which ushered in phrases like ‘breakpoints’ and ‘tweakpoints’. Five years on, I feel it’s time to reassess those ingredients, and [consider whether broader attributes can make a website ‘responsive’][13].
+Ethan’s [responsive recipe][12] contained three simple ingredients: fluid grids, flexible images and media-queries, the later of which ushered in phrases like *breakpoints* and *tweakpoints*. Five years on, I feel it’s time to reassess those ingredients, and [consider whether broader attributes can make a website *responsive*][13].
 
 You don’t need to look too closely at the newest CSS specs — viewport relative units, flexbox, grid layout — to notice that these often ask the browser make layout decisions for us, we just provide a set of hints. These new properties (alongside older ones like max/min width and height) mean we can create layouts that truly adapt to their content and context.
 

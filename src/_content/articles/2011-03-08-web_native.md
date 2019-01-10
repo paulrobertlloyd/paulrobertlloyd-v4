@@ -23,7 +23,7 @@ So instead I will focus on some of the underlying trends: how we work, how we co
 
 ## What is the Web?
 
-For much of its short existence, the web has been treated as if it were the printed page and you can see this is some of the terms we use — words such as ‘page’ — but also phrases like ‘above the fold’. Such misappropriation isn’t new. For example, during the early development of television, it was often referred to as ‘radio with pictures’.
+For much of its short existence, the web has been treated as if it were the printed page and you can see this is some of the terms we use — words such as *page* — but also phrases like *above the fold*. Such misappropriation isn’t new. For example, during the early development of television, it was often referred to as “radio with pictures”.
 
 There is a growing acceptance that the web works best when it’s treated on it’s own terms. In a recent article, [Paul Ford wrote][6]:
 

@@ -20,7 +20,7 @@ Intended to inform a broader discussion about the principles that underline our 
 
 ## Finding principles
 
-Having spent much of 2013 [speaking][3] about the web aesthetic and other topics, last year I decided to take a break and instead focus on my work at the Guardian. Keeping my ears open to ideas that could form the basis of future talks, when Ethan Marcotte [spoke at Responsive Day Out][4] about the need for a responsive framework <q>not about execution, but about philosophy and quality</q>, my ears pricked up.
+Having spent much of 2013 [speaking][3] about the web aesthetic and other topics, last year I decided to take a break and instead focus on my work at the Guardian. Keeping my ears open to ideas that could form the basis of future talks, when Ethan Marcotte [spoke at Responsive Day Out][4] about the need for a responsive framework “not about execution, but about philosophy and quality”, my ears pricked up.
 
 Ethan’s talk mentioned principles, so I [summarised that event][5] by categorising each talk under one of five (responsible, polylithic, pragmatic, collaborative, flexible), but clearly more thought was needed. Being asked to speak at this year’s [CSS Day][6] gave me the opportunity to do so.
 

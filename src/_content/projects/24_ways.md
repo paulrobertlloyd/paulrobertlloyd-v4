@@ -61,7 +61,7 @@ With content that tended to be forward-looking, the design could afford to be al
 Keen to exploit the very idea of 24 ways – different articles, written by different authors, published over twenty-four days for almost nearly a decade – I created a palette based on the publication's signature red, that subtly changes over time based on both day and year variables.
 
 {% include 'screenshots' with screenshots.mobile
-  caption: 'The site benefited from a ‘mobile-first’ design approach.'
+  caption: 'The site benefited from a mobile-first design approach.'
   alignment: 'bleed'
 %}
 
@@ -78,7 +78,7 @@ Keen to exploit the very idea of 24 ways – different articles, written by diff
 
 ## Continual refinement
 
-The redesign was warmly received by the readership, leading to the project winning ‘Best Collaborative Project’ at the 2014 net Awards. In the years since, I have taken the opportunity to revisit aspects of the site to ensure the code and design remains relevant. In 2016, I abstracted the components used to build the site into a [publicly available component library][3], and in 2017 reviewed the code to ensure the site was accessible to all, a process I [documented on CSS-Tricks][4].
+The redesign was warmly received by the readership, leading to the project winning *Best Collaborative Project* at the 2014 net Awards. In the years since, I have taken the opportunity to revisit aspects of the site to ensure the code and design remains relevant. In 2016, I abstracted the components used to build the site into a [publicly available component library][3], and in 2017 reviewed the code to ensure the site was accessible to all, a process I [documented on CSS-Tricks][4].
 
 [1]: https://24ways.org
 [2]: https://alistapart.com/article/the-web-aesthetic

@@ -13,7 +13,7 @@ Paul Krugman:
 
 Scary yet unsurprising story about how organisations like the American Legislative Exchange Council (ALEC) are not only supporting, but writing wholesale legislation to benefit their corporate benefactors.
 
-Of course, if it’s happening in the US, it’s happening here in Britain too. Indeed, I was reminded of [this fascinating article by Adam Curtis][1], which charts the rise of the political ‘think tank’:
+Of course, if it’s happening in the US, it’s happening here in Britain too. Indeed, I was reminded of [this fascinating article by Adam Curtis][1], which charts the rise of the political think tank:
 
 > If you go back and look at how they rose up – at who invented them and why – you discover they are not quite what they seem. That in reality they may have nothing to do with genuinely developing new ideas, but have  become a branch of the PR industry whose aim is to do the very opposite – to endlessly prop up and reinforce today’s accepted political wisdom.
 

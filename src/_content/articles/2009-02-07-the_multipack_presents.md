@@ -18,7 +18,7 @@ With a successful [Geek in the Park][2] last August, so 2009 finds us with a new
 
 ## Emerging standards
 
-[Multipack Presents…][3] is a series of (hopefully) regular sessions in which leading industry figures from around the Midlands share their knowledge with other members of the group for free. The first event is based around the topic of ‘Emerging Standards’, and takes place on Saturday 21st February.
+[Multipack Presents…][3] is a series of (hopefully) regular sessions in which leading industry figures from around the Midlands share their knowledge with other members of the group for free. The first event is based around the topic of emerging standards, and takes place on Saturday 21st February.
 
 This year began with a lot of discussion surrounding [HTML5][4], with a number of developers experimenting with this emerging specification on live sites ([UX London][5], and [An Event Apart][6] being two examples). Bruce Lawson has also been [putting HTML5 though its paces][7] on his own site, whilst at the same time coupling it together with another emerging standard, [WAI-ARIA][8].
 

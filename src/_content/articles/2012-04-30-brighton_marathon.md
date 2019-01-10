@@ -14,7 +14,7 @@ discussion: closed
 ---
 Although I spent much of April [writing a tutorial for .net Magazine][1], I did enjoy a brief respite while I ran the Brighton Marathon. Yep, it’s been quite the month.
 
-I don’t say the word ‘ran’ lightly, either. I *ran* every single yard of the 26.3 mile course.
+I don’t say the word *ran* lightly, either. I *ran* every single yard of the 26.3 mile course.
 
 I have no idea how, especially as my training tapered off a little too much in the weeks leading up to the event. Thankfully, preparation for a half marathon in February (which I completed with a personal best time of 2:15:03) and [my decision to run/walk/crawl][2] from Brighton to Littlehampton a few weeks beforehand, meant I started the race with a degree of confidence.
 
@@ -38,7 +38,7 @@ Eventually I made it. I was euphoric.
 
 Probably my best memory of the whole day was the roar of the crowds as I reached the seafront just before the halfway mark. Such was the lift here, I literally sprinted the next mile!
 
-It seemed like a sense of community had awoken in the people of Brighton. Not only was I cheered along throughout the day (hat-tip to the family in Hove who set up an unofficial ‘Party Station’) but as I staggered home, passers-by continued to congratulate me, beeping and waving as they drove by. Such behaviour isn’t unique to Brighton — I  enjoyed similar support during the Great North Run — but it demonstrates what events like this can do for a city. It’s more than just a sport.
+It seemed like a sense of community had awoken in the people of Brighton. Not only was I cheered along throughout the day (hat-tip to the family in Hove who set up an unofficial “Party Station”) but as I staggered home, passers-by continued to congratulate me, beeping and waving as they drove by. Such behaviour isn’t unique to Brighton — I  enjoyed similar support during the Great North Run — but it demonstrates what events like this can do for a city. It’s more than just a sport.
 
 Indeed, rather than just run a marathon, I also wanted to raise money for [Action for Children][3], a charity that works hard to help vulnerable children and young families across the UK. Thanks to the overwhelming [generosity of sponsors][4], I sailed past my original £500 target. With donations being matched by [Clearleft][5], **I ended up raising an amazing £1200**.
 

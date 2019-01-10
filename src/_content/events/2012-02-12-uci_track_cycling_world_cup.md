@@ -6,4 +6,4 @@ end: 2012-02-19
 tags:
 - venue:9c3xhx2m+7v
 ---
-Part of the ‘London Prepares’ series of events hosted during the build up to London 2012.
+Part of the *London Prepares* series of events hosted during the build up to London 2012.

@@ -54,7 +54,7 @@ A few weeks before the new BBC News site launched, American news organisation [M
 
 MSNBC has a good understanding of the web (as can be seen with its acquisitions of [Newsvine][12] and [EveryBlock][13]) and realised this trend couldn’t continue.
 
-Their redesign did away with pages, instead presenting content on one page; larger, easier to read body copy appearing alongside comments, slideshows, image leads and other features (for more information, [see their detailed feature tour][14]). Yet whilst ‘one page’ may be technically true, pages are actually divided into different sections that are viewed individually, navigated by a strange yet playful ‘bubbles’ that run down the right hand side of the page.
+Their redesign did away with pages, instead presenting content on one page; larger, easier to read body copy appearing alongside comments, slideshows, image leads and other features (for more information, [see their detailed feature tour][14]). Yet whilst “one page” may be technically true, pages are actually divided into different sections that are viewed individually, navigated by a strange yet playful “bubbles” that run down the right hand side of the page.
 
 Whilst some of these interactions are interesting, it appears to be innovation for the sake of innovation. Comments can be opened in a drawer, site features appear when you scroll up and reach the top of the page, sharing tools are persistently anchored to the bottom of the browser window — every gimmick that can be used, has been used — the result distracting interactions in place of distracting adverts (the number of which has also increased). In reality, MSNBC is still stuck with the same page-view paradigm.
 

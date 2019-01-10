@@ -39,7 +39,7 @@ becomes the more readable:
 
 What I love about these ‘sentenced URLs’ is that they clearly demonstrate the level of thought and attention to detail that has gone into every aspect of the user experience. However, I think it’s worth noting this is unlikely to work on every site and can be quite constraining when it is (there will always be a suitable noun, but not always a suitable verb).
 
-I’ve been thinking a lot about whether these ‘sentenced URLs’ are a good thing or not. Whilst I love the idea, they only work well when considered properly and applied consistently. They also feel fashionable, and fashions tend to result in [poor imitations][5] and short lifespans. Apply with caution is the lesson here.
+I’ve been thinking a lot about whether these sentenced URLs are a good thing or not. Whilst I love the idea, they only work well when considered properly and applied consistently. They also feel fashionable, and fashions tend to result in [poor imitations][5] and short lifespans. Apply with caution is the lesson here.
 
 ## Abused
 
@@ -67,7 +67,7 @@ However the rest of his article seems to be based on an unfounded assumption tha
 
 Frankly I’m getting rather tired of this and other ‘users are stupid’ assertions. Aside from it lumping users together in the same boat, it’s an attitude that leads to services designed only to meet the expectations of the lowest common denominator. Of course, whilst a percentage of your user base may not be web-savvy, this is unlikely to remain the case, especially when you consider that in less than 5 years, Generations Y (who grew up with the Internet) with Generation Z (who are growing up with mobile) are likely to be [the dominate purchasing force][12] on the internet.
 
-Rather than make assumptions of my own, I thought I would test the canonical user that is my mum. Of pensionable age, and not a heavy internet user, she would no doubt fall into the ‘normal person’ classification that David wishes to use.
+Rather than make assumptions of my own, I thought I would test the canonical user that is my mum. Of pensionable age, and not a heavy internet user, she would no doubt fall into the “normal person” classification that David wishes to use.
 
 Whilst she had no idea what a URL was, once I removed this veil of techno-jargon, and explained to her that this was the web address that appeared at the top of the browser window, she happily told me how she uses it when browsing the BBC website. She went on to explain:
 

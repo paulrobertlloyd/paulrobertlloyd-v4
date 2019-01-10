@@ -16,7 +16,7 @@ I suspect this is partly due to [my redesign of 24 ways][3], which launched at t
 
 A few other nominees are worth mentioning. [Clearleft][4] face tough competition if they are to win *Agency of the Year* for a third time, while two events I spoke at last year, [Front-end London][5] and [MK Geek Night][6], are both nominated for *Grassroots Event of the Year*.
 
-For *Entrepreneur of the Year*, Simon and Natalie have been nominated for their work on [Lanyrd][7], which was acquired by Eventbrite in September. Words like ‘entrepreneur’ and ‘acquisition’ tend to make me a bit ranty, but the way they communicated the purchase is worth commending alone: no ‘[incredible journey][8]’, just [a plain-speaking announcement][9] and a series of API integrations. London’s loss is most certainly San Francisco’s gain.
+For *Entrepreneur of the Year*, Simon and Natalie have been nominated for their work on [Lanyrd][7], which was acquired by Eventbrite in September. Words like *entrepreneur* and *acquisition* tend to make me a bit ranty, but the way they communicated the purchase is worth commending alone: no *[incredible journey][8]*, just [a plain-speaking announcement][9] and a series of API integrations. London’s loss is most certainly San Francisco’s gain.
 
 ***
 

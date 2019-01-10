@@ -76,7 +76,7 @@ I still preferred Sammy J’s performance, but saw enough to buy a ticket for Ra
   alignment: 'pull'
 %}
 
-I remember watching [Richard Herring][5] and Stewart Lee on <cite>Fist of Fun</cite> and <cite>TMWRNJ</cite> in the mid-nineties, and then mourning their passing from mainstream television. Yet I never seemed to progress on to their live work. After a recommendation on Twitter, I decided to see Herring’s latest show in which he ‘seeks to destroy love before it destroys him’.
+I remember watching [Richard Herring][5] and Stewart Lee on <cite>Fist of Fun</cite> and <cite>TMWRNJ</cite> in the mid-nineties, and then mourning their passing from mainstream television. Yet I never seemed to progress on to their live work. After a recommendation on Twitter, I decided to see Herring’s latest show in which he “seeks to destroy love before it destroys him”.
 
 Herring’s fast paced delivery means you get more laughs for your money. This show revolved around his observations regrading love, an amorphous concept for which most of us believe in as others do a God. Sharing his own experiences and reciting poetry written in his youth ensured a self-deprecating performance like no other.
 
@@ -118,7 +118,7 @@ Needing to find shelter from the pouring rain before a later show, I headed to B
 
 This type of live comedy was all new to me, but I felt happier having seen something a little more theatrical at the Fringe. Once I got over the fact that one of them looked just like Brian Dowling, this high-energy performance proved to be a fun way to spend an hour.
 
-It was also where I enjoyed perhaps the funniest moment of my festival. When an old man left the room to go to the toilet, he was spotted by one of the performers, but quickly shouted back <q>don’t make a joke about my bladder!</q> Needless to say, the very same then happened. Brilliant!
+It was also where I enjoyed perhaps the funniest moment of my festival. When an old man left the room to go to the toilet, he was spotted by one of the performers, but quickly shouted back “don’t make a joke about my bladder!” Needless to say, the very same then happened. Brilliant!
 
 ***
 

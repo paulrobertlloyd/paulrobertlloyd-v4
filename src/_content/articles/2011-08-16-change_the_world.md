@@ -19,7 +19,7 @@ Meanwhile, [Tim van Damme][6] who counts Push Pop Press’s co-founder, [Mike Ma
 
 > It’s not just about the technology they’re discontinuing, the main reason I was so upset is this is yet another small company being vacuumed up by a gigantic company only to end up in the dust bag together with all Facebook’s other acquisitions… Like putting a bird in a cage when it’s actually meant to live in freedom.
 
-After sleeping on it, he’s become hopeful that with Mike on board, Facebook can ‘change the world’.
+After sleeping on it, he’s become hopeful that with Mike on board, Facebook can “change the world”.
 
 This is a grossly overused phrase in Silicon Valley, but for a company with more than 750 million members — who it routinely holds in contempt whenever they daren’t play ball with it’s latest privacy or advertising related policies — I dread to think what such changes may be.
 

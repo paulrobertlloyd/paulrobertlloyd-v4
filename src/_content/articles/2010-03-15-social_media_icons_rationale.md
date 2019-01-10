@@ -31,7 +31,7 @@ This desire perhaps gives an insight into the thinking behind these icons. Durin
    I often get asked for icons for different blogging platforms (Blogger, WordPress, Movable Type etc.) yet I would suggest the ‘website’ icon is equally, if perhaps not more suitable for this purpose. Providing icons for every blogging platform or CMS is neither desirable nor necessary.
 
 3. **Cater for the 80%**
-   Social media start-ups come and go, and I only wish to create icons for services that have an ounce of longevity. So whilst your favourite social media commentator (or ‘[douchebag][4]’ for short) may rave about services like [FriendFeed][5], I only plan to create icons for services that have shown themselves to be successful outside the Silicon Valley echo chamber. Indeed, not creating an icon for FriendFeed has proven to be correct given its acquisition by Facebook and uncertain future.
+   Social media start-ups come and go, and I only wish to create icons for services that have an ounce of longevity. So whilst your favourite social media commentator (or *[douchebag][4]* for short) may rave about services like [FriendFeed][5], I only plan to create icons for services that have shown themselves to be successful outside the Silicon Valley echo chamber. Indeed, not creating an icon for FriendFeed has proven to be correct given its acquisition by Facebook and uncertain future.
 
    There have been a number of requests for social media services that are popular in Europe and Asia. I’m currently debating whether to add these services to the set.
 

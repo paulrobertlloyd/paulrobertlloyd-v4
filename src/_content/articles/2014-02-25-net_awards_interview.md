@@ -28,7 +28,7 @@ As [one of the nominees][1] for Designer of the Year in the 2014 net Awards, Cre
 
 **CB:** What have been the particular high points of your career?
 
-**PL:** Having wrote [an article for A List Apart][10] in 2012 (definitely a highlight!) last year I ‘took to the road’ to [talk about web native design][11]. I used early television design as an example of how we should understand the nature of the mediums we design for, and embrace their unique characteristics. Jeremy kindly asked me to speak about this at [Responsive Day Out][12], and while speaking in front of 400 people was entirely stressful, I really enjoyed sharing my thinking with a wider audience.
+**PL:** Having wrote [an article for A List Apart][10] in 2012 (definitely a highlight!) last year I took to the road to [talk about web native design][11]. I used early television design as an example of how we should understand the nature of the mediums we design for, and embrace their unique characteristics. Jeremy kindly asked me to speak about this at [Responsive Day Out][12], and while speaking in front of 400 people was entirely stressful, I really enjoyed sharing my thinking with a wider audience.
 
 ***
 
