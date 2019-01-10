@@ -53,7 +53,7 @@ The final identity was launched in June 1999 and [MetaDesign has been involved e
 
 Last year the Dutch Government [took a similar approach][2] with it’s ‘Project 1 Logo’ initiative. With over 200 departments and ministries facing mounting costs maintaining different logos, typefaces, print materials and signage, the project aimed to improve communication between citizens and the government by presenting a unified image.
 
-The identity was created by Rotterdam based [Studio Dunbar][3] with a [custom typeface][4] (‘[Rijksoverheid][5]’) designed by Peter Verheul. Announced in 2008, the roll out is intended to be complete by 2011.
+The identity was created by Rotterdam based [Studio Dunbar][3] with a [custom typeface][4] ([Rijksoverheid][5]) designed by Peter Verheul. Announced in 2008, the roll out is intended to be complete by 2011.
 
 [Project 1 Logo Design Guidelines](http://web.archive.org/web/20110228221006/http://rijkshuisstijl.communicatieplein.nl/){hreflang="nl-NL"} (retrieved from the Internet Archive, in Dutch)
 
@@ -71,7 +71,7 @@ Although a highly visible (and initially expensive) identity programme might mee
 
 ### Design
 
-The ‘HM Government’ logo introduced earlier this decade could provide clues to what a unified identify might look like, with the government’s coat of arms sat alongside a word-mark set in Gill Sans Light. Logos for the Ministry of Justice, Treasury, Foreign and Cabinet Offices also feature this coat of arms, whilst the Treasury and the Department for Business Innovation and Skills use Gill Sans too.
+The HM Government logo introduced earlier this decade could provide clues to what a unified identify might look like, with the government’s coat of arms sat alongside a word-mark set in Gill Sans Light. Logos for the Ministry of Justice, Treasury, Foreign and Cabinet Offices also feature this coat of arms, whilst the Treasury and the Department for Business Innovation and Skills use Gill Sans too.
 
 {% include 'figure' with '/images/2009/09/government_identity/uk_now.png'
   caption: '**A selection of logos used by the British government today:** Whilst there is no coherent identity within British Government, a number of patterns emerge, with the coat of arms and Gill Sans being popular choices for some logos. However not every department shares this visual language, and all have implemented separate identity schemes.'

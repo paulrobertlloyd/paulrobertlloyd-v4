@@ -19,7 +19,7 @@ slides:
   notes: |
     Until 1960, Brazil’s capital was Rio de Janeiro. A coastal city, it was seen as vulnerable to attack, with the country’s republican constitution of 1891 stating that the capital should move inland.
 
-    It wasn’t until [Juscelino Kubitschek](https://en.wikipedia.org/wiki/Juscelino_Kubitschek) became President in 1956, that its construction would be ordered. His election campaign had promised <q>fifty years of prosperity in five</q> and building a new capital was a key pledge. By this point, moving the capital for defensive reasons made little sense. No, this was more of a political gesture; a means of announcing Brazil to the world as an optimistic and forward-looking country, ready to move on from its colonial past.
+    It wasn’t until [Juscelino Kubitschek](https://en.wikipedia.org/wiki/Juscelino_Kubitschek) became President in 1956, that its construction would be ordered. His election campaign had promised “fifty years of prosperity in five” and building a new capital was a key pledge. By this point, moving the capital for defensive reasons made little sense. No, this was more of a political gesture; a means of announcing Brazil to the world as an optimistic and forward-looking country, ready to move on from its colonial past.
 - image: /images/2018/04/create_leicester/3.jpg
   notes: |
     Kubitschek invited the architect [Oscar Niemeyer](https://en.wikipedia.org/wiki/Oscar_Niemeyer) to design the capital’s landmark civic buildings, with [Lúcio Costa](https://en.wikipedia.org/wiki/Lucio_Costa) winning the contest to arrange it’s urban plan.
@@ -89,7 +89,7 @@ slides:
   notes: |
     That many of these companies were founded by engineers, means they suffer from intensely technocratic cultures. Within it, design was regarded as little more than decoration; an activity you would tack on to the end of a product’s development, once the important work had been done.
 
-    Famously, when Larry Page was asked what Google’s design aesthetic was he replied <q>Pine</q>, referring to an old command line program that was known primarily for its speed.
+    Famously, when Larry Page was asked what Google’s design aesthetic was he replied “Pine”, referring to an old command line program that was known primarily for its speed.
 
     At Yahoo, its former CEO Marissa Mayer, talked about how she and a small team of in-house designers [came up with the company’s new logo during a weekend](https://marissamayr.tumblr.com/post/60336044815/geeking-out-on-the-logo) – and you could tell! I wonder if they tested 41 shades of purple, too?
 - image: /images/2018/04/create_leicester/13.jpg
@@ -135,7 +135,7 @@ slides:
 
     As it becomes cheaper and easier to build products, and with incentives rewarding delivery, product managers will push to get something out the door and improve it later.
 
-    We see start-ups built on the back of mantras such as <q>ask for forgiveness, not permission</q>, <q>always be hustling</q> and of course <q>move fast and break things</q>; a motto that long hinted that Facebook was more concerned with shipping features than taking responsibly for them once they had launched.
+    We see start-ups built on the back of mantras such as “ask for forgiveness, not permission”, “always be hustling” and of course “move fast and break things”; a motto that long hinted that Facebook was more concerned with shipping features than taking responsibly for them once they had launched.
 
     This focus on speed has led to a variety of processes and workflows being adopted.
 - image: /images/2018/04/create_leicester/19.jpg
@@ -149,9 +149,9 @@ slides:
   notes: |
     This emphasis on speed has also dictated the shape of our tools.
 
-    Abstraction and modularisation enable products to be built quicker. This has led to the development of component-oriented frameworks like Angular, React and Vue. At the same, designers are starting to adopt similar modular approaches. While this alignment is encouraging, I worry that design is increasingly becoming a servant to the needs of the engineer rather than those of the user; the question is always <q>should designers learn to code</q>, never the other way round.
+    Abstraction and modularisation enable products to be built quicker. This has led to the development of component-oriented frameworks like Angular, React and Vue. At the same, designers are starting to adopt similar modular approaches. While this alignment is encouraging, I worry that design is increasingly becoming a servant to the needs of the engineer rather than those of the user; the question is always “should designers learn to code”, never the other way round.
 
-    There is also a growing sense that these tools are being adopted primarily for the benefit of internal team dynamics – the rise of the term ‘developer experience’ being just one signifier.
+    There is also a growing sense that these tools are being adopted primarily for the benefit of internal team dynamics – the rise of the term *developer experience* being just one signifier.
 - image: /images/2018/04/create_leicester/21.png
   notes: |
     Finally, there’s this compulsive deference to data, and the idea that the more of it you can collate, the better informed you will be about your customers and how they use your product.
@@ -208,7 +208,7 @@ slides:
     However much a company says it values customers – and most companies say they do – what matters is what’s being measured. If a culture priorities speed, cost and engagement, over quality, value and suitability, then we need to be mindful of the middle-to-long term effects the resulting decisions may have.
 - image: /images/2018/04/create_leicester/30.png
   notes: |
-    If <q>culture eats strategy for breakfast</q>,
+    If “culture eats strategy for breakfast”,
 
     * how do you advocate for user agency in [a culture that permits manipulating peoples emotions](https://slate.com/technology/2014/06/facebook-unethical-experiment-it-made-news-feeds-happier-or-sadder-to-manipulate-peoples-emotions.html) without their consent?
 
@@ -260,7 +260,7 @@ slides:
 
     What processes can we develop to give us time to properly judge a feature; to consider who it is serving, and if it can be misused? To question those default settings?
 
-    Perhaps we need a new set of motivational posters. Rather than <q>move fast and break things</q>, perhaps <q>slow down and ask more questions</q>.
+    Perhaps we need a new set of motivational posters. Rather than “move fast and break things”, perhaps “slow down and ask more questions”.
 - image: /images/2018/04/create_leicester/37.jpg
   notes: |
     As digital designers, we tend to suffer from the firewall that exists between us the people who experience our work. Regardless of how much user testing and research we undertake, we rarely get to experience first hand what customers’ day-to-day experience is really like.

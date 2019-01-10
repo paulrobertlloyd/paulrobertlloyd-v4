@@ -43,7 +43,7 @@ Don’t underestimate the benefits of designer and developer sitting next to eac
 
 It’s from collaboration like this that I’ve become fond of producing visual style guides. These demonstrate typographic treatments for common markup and patterns (blockquotes, lists, pagination, basic form controls and so on). Thinking in terms of components rather than individual pages not only fits in better with how a developer will implement a site, but can also ensure your design works as a coherent whole.
 
-Despite the amount of research and design produced, when it comes to the crunch, there will always be a need for compromise. As the old saying goes, ‘fast, cheap and good — pick two.’ It’s important that you know which pieces are crucial to a design and which areas can allow for movement. Pick your battles wisely. Having an agreed set of design principles can be useful when making such decisions, as they help everyone focus on the goals of the project.
+Despite the amount of research and design produced, when it comes to the crunch, there will always be a need for compromise. As the old saying goes, “fast, cheap and good — pick two.” It’s important that you know which pieces are crucial to a design and which areas can allow for movement. Pick your battles wisely. Having an agreed set of design principles can be useful when making such decisions, as they help everyone focus on the goals of the project.
 
 {% include 'quote' with 'The best compromises are reached when both sides understand the issues of the other.'
   caption: '[Richard Rutter](http://clagnut.com/blog/2315/)'

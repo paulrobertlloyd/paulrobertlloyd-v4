@@ -13,7 +13,7 @@ tags:
 ---
 A new pair of jeans, the reignited love for a city and an inevitable answer to a surprisingly surprising question. Just some of the artefacts collected during two weeks in America.
 
-They all serve as a reminder that travel can be a means of reassessment and renewal; hopefully I’ve returned home a little wiser to the world than when I left it. That said, the notion of ‘home’ continues to be a puzzle. Is home where the heart is? Is it possible to have multiple homes?
+They all serve as a reminder that travel can be a means of reassessment and renewal; hopefully I’ve returned home a little wiser to the world than when I left it. That said, the notion of *home* continues to be a puzzle. Is home where the heart is? Is it possible to have multiple homes?
 
 ## Wherever I lay my hat
 
@@ -27,7 +27,7 @@ Regardless, visiting California is like therapy. Maybe the optimism of friends p
 
 * **It’s easy to generalise** and America often suffers from this in the eyes of the world. When everything is bigger, it’s easier to focus on the extremes, but the greys are numerous and assorted. Also: designing for scale is a hard problem.
 
-* **People are complex**. Dismissing people as inauthentic may be foolhardy without first knowing more about them. It’s easy to throw around terms like ‘douchebag’, but bravado can be compensating for a deeper insecurity. As [Bruce Springsteen said during his keynote][2] at SXSW:
+* **People are complex**. Dismissing people as inauthentic may be foolhardy without first knowing more about them. It’s easy to throw around terms like *douchebag*, but bravado can be compensating for a deeper insecurity. As [Bruce Springsteen said during his keynote][2] at SXSW:
 
   > Have iron-clad confidence, but doubt that keeps you awake and alert. It keeps you honest.
 

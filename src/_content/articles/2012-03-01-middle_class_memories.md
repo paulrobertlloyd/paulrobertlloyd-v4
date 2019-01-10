@@ -13,4 +13,4 @@ All this begged to be explored by me, on my brilliant new blue and yellow BMX bi
 
 ***
 
-*This was my response to a short assignment given on the creative writing course I’m undertaking. I was asked to use a ‘clustering’ technique to recall a childhood memory.*
+*This was my response to a short assignment given on the creative writing course I’m undertaking. I was asked to use a clustering technique to recall a childhood memory.*

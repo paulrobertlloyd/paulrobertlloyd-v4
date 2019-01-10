@@ -15,7 +15,7 @@ August has been a crazy month in the technology press, but no story has had the 
 >
 > But it’s a disservice to constantly put things in this radical new light – that it’s going to change everything. **Things don’t have to change the world to be important**.
 
-Only a few weeks ago I was [bemoaning the overuse of the phrase][5] ‘change the world’. I heard this said far too often when I worked in the Valley, so it was heartening to read Jobs’ thoughts on the matter.
+Only a few weeks ago I was [bemoaning the overuse of the phrase][5] “change the world”. I heard this said far too often when I worked in the Valley, so it was heartening to read Jobs’ thoughts on the matter.
 
 I do so hope Steve will have plenty more opportunities to part with such wisdom as he enjoys his retirement.
 

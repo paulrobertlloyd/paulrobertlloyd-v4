@@ -21,7 +21,7 @@ Macintosh has been associated with Apple since the launch of its original all-in
 
 * **Fireside**: The iPod I owned prior to Elstar was named <samp>Fireside</samp>, a name chosen as it evoked the idea of listening to music by a fire.
 
-* **Braeburn**: My iPhone is the newest device to be connected to my Mac. The description of the [Braeburn cultivar][4] on Wikipedia seemed to fit well here: ‘becoming increasingly popular in the UK’.
+* **Braeburn**: My iPhone is the newest device to be connected to my Mac. The description of the [Braeburn cultivar][4] on Wikipedia seemed to fit well here: “becoming increasingly popular in the UK”.
 
 * **Discovery**: Needing a name for my Mac for when it appears on different networks, I choose [Discovery][5] as it shares a name with [HMS Discovery][6], and the idea of my Mac docking with different networks around the world.
 

@@ -21,7 +21,7 @@ Although unintentional, the articles I had saved and now chosen to read, paint a
 
 I found [Evgeny Morozov’s interview with the Guardian][2] fascinating, if not a little outlandish at times. Morozov is author of <cite>[The Net Delusion][3]</cite> and has written a second book <cite>[To Save Everything, Click Here][4]</cite>, both of which I’m inclined to read, if only because they challenge common ideas perpetuated within the tech industry.
 
-In this interview, Morozov begins by criticising the self-tracking movement, which he describes as ‘solutionist’:
+In this interview, Morozov begins by criticising the self-tracking movement, which he describes as “solutionist”:
 
 > All solutions come with cost. Shifting a lot of the responsibility to the individual is a very conservative approach that seeks to preserve the current system instead of reforming it. My fear is policymakers will increasingly find that it is much easier, cheaper and sexier to invite the likes of Google to engage in some of this problem-solving rather than do something that is much more ambitious and radical.
 

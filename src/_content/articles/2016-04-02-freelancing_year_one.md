@@ -38,7 +38,7 @@ While none of these initiatives is going to change the world, I didn’t help an
 
 ### Contribution
 
-Ultimately, it’s this second factor where my impact is likely to be more immediately felt: did my contribution help the organisations I worked with meet their goals? On this count, I think I can say a very clear ‘yes’!
+Ultimately, it’s this second factor where my impact is likely to be more immediately felt: did my contribution help the organisations I worked with meet their goals? On this count, I think I can say a very clear “yes”!
 
 Two projects come to mind in particular. The first involved taking on more of a teaching and enabling role, devising and running workshops to help a group of designers and developers become more comfortable working in the less predictable world of responsive design. This was not something I was accustomed to, but I rose to the challenge — and people noticed. On a more recent project, the appreciation of those I was working with as well as the company founders, was evident. It’s nice to feel valued. **8/10**
 

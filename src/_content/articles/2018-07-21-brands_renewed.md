@@ -18,7 +18,7 @@ Under Consideration’s [_Brand New_][1] is a blog that critiques corporate and 
 
 * On the occasion of the 100th anniversary of its crane symbol, [Lufthansa undertook the subtlest of brand refinements][2]. Alongside a tweak to this symbol and review of its type system, emphasis would now be given to a darker and more elegant blue, with its distinctive yellow demoted to that of a more functional accent.
 
-* [Stockholm Design Lab tweaked Ericsson’s ‘econ’ icon][3] to the nth degree — 18.435° to be precise — so that it would align smoothly with the pixel grid and appear sharper on screen. The change was accompanied by the introduction of a new brand typeface ‘Hilda’, also optimised for digital environments.
+* [Stockholm Design Lab tweaked Ericsson’s ‘econ’ icon][3] to the nth degree — 18.435° to be precise — so that it would align smoothly with the pixel grid and appear sharper on screen. The change was accompanied by the introduction of a new brand typeface *Hilda*, also optimised for digital environments.
 
 * [Pentagram’s identity refresh for American Express][4] again saw practically indistinguishable logo tweaks, but they also introduced a shorthand version to be used in situations where space is at a premium.
 

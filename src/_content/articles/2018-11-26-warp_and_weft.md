@@ -16,7 +16,7 @@ Earlier this month I had the good fortune to attend [Material][1], a conference 
 
 * * *
 
-What it means for something to be of the web has been discussed many times before. While the technical test can be reasonably objective — [is it addressable, accessible and available][2] — culturally it remains harder to judge. But I don’t know about you, I’ve found that certain websites feel more ‘webby’ than others.
+What it means for something to be of the web has been discussed many times before. While the technical test can be reasonably objective — [is it addressable, accessible and available][2] — culturally it remains harder to judge. But I don’t know about you, I’ve found that certain websites feel more *webby* than others.
 
 It’s a quality that’s hard to define — you know it when you see it — but the websites that best exude this characteristic tend to be more personal in nature. Sites like [Natsukashii][3] where [Sally][4] captures her memories of Japan by illustrating the beautiful manhole covers and train stamps she found there; [monthly.mx][5], [Sam][6]’s monthly playlists of the best new music; [Anna][7]’s site that documents the capabilities of [game console browsers][8], or [Jeremy’s most recent and personal of projects][9], The Gęsiówka Story. Written by his relative Edward Kossoy and previously locked away inside a PDF, [this webpage][10] documents the liberation of 348 Jewish prisoners from the Gęsiówka concentration camp in 1944. And it would be remiss for me not to mention [Bradshaw’s Guide][11], a project where I’m slowly republishing an 1866 guide to Britain’s nascent railway network.
 

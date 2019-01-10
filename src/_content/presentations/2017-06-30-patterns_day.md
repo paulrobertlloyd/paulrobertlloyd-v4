@@ -22,7 +22,7 @@ slides:
     A city with such a layout exists. It is called [Brasília](https://en.wikipedia.org/wiki/Bras%C3%ADlia), and it is the capital of Brazil. You might have thought Brazil’s capital was Rio de Janeiro, and indeed it was until 1960. A coastal city, Rio was seen as vulnerable to attack, and the country’s republican constitution – dating back to 1891 – stated that the capital should be moved to a more central location.
 - image: /images/2017/06/patterns_day/3.jpg
   notes: |
-    It wasn’t until [Juscelino Kubitschek](https://en.wikipedia.org/wiki/Juscelino_Kubitschek) became President in 1956 however, that its construction would finally be ordered. His election campaign promised <q>fifty years of prosperity in five</q>, and building a new capital was a key pledge.
+    It wasn’t until [Juscelino Kubitschek](https://en.wikipedia.org/wiki/Juscelino_Kubitschek) became President in 1956 however, that its construction would finally be ordered. His election campaign promised “fifty years of prosperity in five”, and building a new capital was a key pledge.
 
     While the constitution originally mandated moving the capital for defensive reasons, such a move made little sense in the 1950s.
 
@@ -135,7 +135,7 @@ slides:
 
     Those familiar with the history of responsive design will know that [Ethan arrived at that name](https://alistapart.com/article/responsive-web-design) after looking at responsive architecture, which seeks to design buildings that react according to their environment and adapt to the needs of those inhabiting them.
 
-    Indeed, much of the thinking around design systems and software architecture can trace it’s history back to the writing of the architect Christopher Alexander, who coined the term ‘pattern’ in relation to a broader language for design thinking.
+    Indeed, much of the thinking around design systems and software architecture can trace it’s history back to the writing of the architect Christopher Alexander, who coined the term *pattern* in relation to a broader language for design thinking.
 
     As much as we can learn from where architecture has been successful, lessons can be drawn from its many failures, also.
 - image: /images/2017/06/patterns_day/17.png
@@ -182,7 +182,7 @@ slides:
     What are the underlying methods that enable a predictable means of connection in our work? Is it perhaps story, which we heard about earlier today, or something more tangible?
 - image: /images/2017/06/patterns_day/23.png
   notes: |
-    If I’m honest, I think the discussion around design systems is starting to suffer a little from a lack of clarity. Terms like ‘style guide’, ‘component library’ and ‘design language’ are used interchangeably, when more formal definitions are possible. Yes, naming things is hard, but maintaining the same name for things appears to be harder still!
+    If I’m honest, I think the discussion around design systems is starting to suffer a little from a lack of clarity. Terms like *style guide*, *component library* and *design language* are used interchangeably, when more formal definitions are possible. Yes, naming things is hard, but maintaining the same name for things appears to be harder still!
 
     This confusion also affected our understanding of patterns and components – [there’s a difference](https://medium.com/eightshapes-llc/2ce778cbe4e8)!
 
@@ -247,7 +247,7 @@ slides:
     Finally, I want to talk about when systems fail us.
 - image: /images/2017/06/patterns_day/33.jpg
   notes: |
-    With local authorities facing housing shortages after the Second World War, many of Le Corbusier’s ideas caught the imagination of town planners. They looked to high-density building types, be they tower blocks, or ‘streets in the sky’; sprawling estates in which homes could be accessed via raised decks.
+    With local authorities facing housing shortages after the Second World War, many of Le Corbusier’s ideas caught the imagination of town planners. They looked to high-density building types, be they tower blocks, or *streets in the sky*; sprawling estates in which homes could be accessed via raised decks.
 
     The motivation behind these building projects was well intentioned; modern buildings would be a drastic improvement over the squalid slums they replaced.
 

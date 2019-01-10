@@ -32,7 +32,7 @@ In the spirit of [previous][2] [articles][3], I’m sharing my unedited answers 
 
 Before thinking about a menu’s presentation or behaviour, first ensure the items it contains are relevant to users, whatever the breakpoint. Thinking mobile-first (rather than trying to adapt desktop design patterns downwards) can help prioritise and rationalise menu items, too.
 
-[The Guardian’s navigation is a good example][4]. It’s intriguing design prioritises page breadcrumbs at smaller screen widths, with horizontal scrolling allowing you to access sibling and top-level section items. An ‘all’ link provides a safety-net, giving you access to every section with one tap, starting with the section you are in.
+[The Guardian’s navigation is a good example][4]. It’s intriguing design prioritises page breadcrumbs at smaller screen widths, with horizontal scrolling allowing you to access sibling and top-level section items. An “all” link provides a safety-net, giving you access to every section with one tap, starting with the section you are in.
 
 A great resource for responsive patterns (including those dealing with navigation) is Brad Frost’s [This is Responsive][5], but new possibilities are being uncovered every day.
 

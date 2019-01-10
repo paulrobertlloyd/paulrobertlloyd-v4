@@ -118,7 +118,7 @@ Much like my attempts to redesign the news website two years ago, there is a siz
 
 This new stripped back and simplified approach speaks to my own design philosophy, so I really hope it succeeds. Indeed, this announcement comes in the same week as the launch of [Windows Phone 7][19] which has a similar laid bare aesthetic.
 
-I do wonder if this work for the BBC, and that for Windows Phone are the first signs of a move away from the ‘Web 2.0’ look by larger organisations. I will happily accept the painful irony, that having waited so many years for rounded corners and background gradients to be implemented in browsers, the trend that demands them will no longer be with us.
+I do wonder if this work for the BBC, and that for Windows Phone are the first signs of a move away from the Web 2.0 look by larger organisations. I will happily accept the painful irony, that having waited so many years for rounded corners and background gradients to be implemented in browsers, the trend that demands them will no longer be with us.
 
 If it wasn’t obvious, I’m absolutely bowled over by what the BBC User Experience & Design team and Research Studios have presented so far. I hope this early preview is the first of many insights to come. Given the BBC’s agile development process, we shouldn’t have to wait to long to see it in the wild either.
 

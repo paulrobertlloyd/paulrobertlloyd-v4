@@ -42,5 +42,5 @@ remarks:
   content: |
     [@Stan](#remark-3) Thanks for your comment. However, I’m interested to understand why you thought the previous design worked better than the new version—could you expand on your feedback at all?
 
-    Comments that amount to little more than ‘I don’t like it’ aren’t particularly constructive or helpful.
+    Comments that amount to little more than “I don’t like it” aren’t particularly constructive or helpful.
 ---

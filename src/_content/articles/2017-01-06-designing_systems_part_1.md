@@ -75,7 +75,7 @@ Pick’s first initiative was to improve the appearance of stations. He standard
 
 Pick then commissioned artists to design beautiful posters. Rather than nag passengers, these would inspire, suggesting places in London people could visit and attractions they might attend. Pick thought art needed to come down from its pedestal and earn a living. These posters humanised the network, with people referring to the tube as London’s longest art gallery.
 
-His next initiative was to commission a proprietary typeface the company could use to distinguish its publicity and announcements from that of other advertisers. In his brief to Edward Johnston, Pick stated that this new typeface should <q>have the bold simplicity of the authentic lettering of the finest periods</q> and belong <q>unmistakably to the twentieth century</q>.
+His next initiative was to commission a proprietary typeface the company could use to distinguish its publicity and announcements from that of other advertisers. In his brief to Edward Johnston, Pick stated that this new typeface should “have the bold simplicity of the authentic lettering of the finest periods” and belong “unmistakably to the twentieth century”.
 
 Johnston sought inspiration for his typeface from hand drawn letters he had seen on the side of a tradesmen’s wagon, and its introduction proved to be a dramatic change. While his contemporaries derided his creation as a betrayal of well-designed lettering, by the centenary of its introduction in 2016, ‘London’s handwriting’ was being widely [celebrated by the design community][1].
 
@@ -94,17 +94,17 @@ As UERL merged with its competitors to become the Underground Group, Pick rose t
 
 Pick would remain in charge until shortly before his death in 1941. During the 30 years he managed London’s transport, Pick had instigated what today we might call a corporate identity programme — dare I say, a design system — and its core tenets remain in place to this day.
 
-In many respects, Frank Pick was the Steve Jobs of his time. Much like Jobs was driven by a desire to create <q>insanely great products</q>, Pick was driven by his own over-arching principle:
+In many respects, Frank Pick was the Steve Jobs of his time. Much like Jobs was driven by a desire to create “insanely great products”, Pick was driven by his own over-arching principle:
 
 > **The test of the goodness of a thing is its fitness for use**. If it fails on this first test, no amount of ornamentation will make it any better; it will only make it more expensive, more foolish.
 
 Every piece of work he commissioned, be it posters, typefaces, buildings and more besides, each needed to satisfy this test. Unlike Costa or Niemeyer, Pick wasn’t a designer or artist, so he used an evidence-based approach to understand what worked, and placed passengers at the heart of his plans. Pick saw the Underground not simply a machine for moving people, but something that could contribute positively to the urban environment and the communities it served.
 
-75 years after his death, this ethos remains central to the design of London’s transport infrastructure. Pick’s legacy can be seen in the design of its newest additions, be it the city’s river taxis or its [rechristened ‘Overground’ railway network][2].
+75 years after his death, this ethos remains central to the design of London’s transport infrastructure. Pick’s legacy can be seen in the design of its newest additions, be it the city’s river taxis or its [rechristened Overground railway network][2].
 
 ***
 
-Much like London, the web — perhaps the ultimate expression of human creativity in digital form — is also a chaotic and unruly place; Douglas Crockford once called the browser <q>the most hostile software development environment ever imagined</q>.
+Much like London, the web — perhaps the ultimate expression of human creativity in digital form — is also a chaotic and unruly place; Douglas Crockford once called the browser “the most hostile software development environment ever imagined”.
 
 Facing complex environments like this, its tempting to focus on rules and patterns, yet a system will only be deemed successful if consideration has been given to those who’ll inhabit the spaces it defines.
 

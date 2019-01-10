@@ -60,7 +60,7 @@ With these findings uncovered, I created a set of detailed visual design composi
 %}
 
 {% include 'screenshots' with screenshots.mobile
-  caption: 'The product benefited from a ‘mobile-first’ design approach.'
+  caption: 'The product benefited from a mobile-first design approach.'
   alignment: 'bleed'
 %}
 

@@ -17,7 +17,7 @@ Friday saw the start of this years SXSW interactive, film and music festivals in
   alignment: 'bleed'
 %}
 
-These are just some of the thousands of ‘Big Bags’ offered to each conference attendee, and whilst you don’t have to grab one, you are heavily encouraged to do so. As described by Allen Stern in [this video at Center Networks][2], this years interactive Big Bag contains:
+These are just some of the thousands of Big Bags offered to each conference attendee, and whilst you don’t have to grab one, you are heavily encouraged to do so. As described by Allen Stern in [this video at Center Networks][2], this years interactive Big Bag contains:
 
 * 17 various sized flyers for software products, websites and events taking place during the week,
 * 4 stickers,

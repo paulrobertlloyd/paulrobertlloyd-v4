@@ -14,7 +14,7 @@ discussion: closed
 ---
 ## Towards the ultimate goal
 
-I’ve always wanted to run a marathon. Being of sound mind, I thought it probably best to compete in a smaller event first, so I entered the Great North Run (the world’s largest half marathon) in 2003. Perhaps ‘compete’ is the wrong word. Whilst most people take running seriously, the real aim of mass participatory running events like this is to have fun whilst raising lots of money for good causes at the same time.
+I’ve always wanted to run a marathon. Being of sound mind, I thought it probably best to compete in a smaller event first, so I entered the Great North Run (the world’s largest half marathon) in 2003. Perhaps *compete* is the wrong word. Whilst most people take running seriously, the real aim of mass participatory running events like this is to have fun whilst raising lots of money for good causes at the same time.
 
 That first event was a real eye opener. The support I got from spectators lining the route was infectious, and it encouraged me to enter more races. Yet, stupidly, I never properly trained and ended up walking the later stages of each race (the Great Manchester Run in 2005 was a rare exception). With no sign of increased performance or fitness — unsurprising given the lack of any training — I stopped entering races and gave up on any ideas of running a marathon.
 

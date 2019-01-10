@@ -29,7 +29,7 @@ I understand the grim reality regarding new image formats. Still, I thought it w
 
 What does or doesn’t belong in markup is one of those questions that is always hotly debated among web developers. There is never a right answer. Should art direction for images belong in markup? I don’t think it should, and perhaps that’s why I dislike the `picture` mark-up pattern. Others disagree, and that’s fine.
 
-Still, beyond art direction, there should be greater questioning of whether to include an image in our markup in the first place. Scott Jehl terms this ‘aggressive enhancement’. Perhaps this is simply a means of reselling progressive enhancement to an industry that has become used to burdening webpages with ancillary content.
+Still, beyond art direction, there should be greater questioning of whether to include an image in our markup in the first place. Scott Jehl terms this “aggressive enhancement”. Perhaps this is simply a means of reselling progressive enhancement to an industry that has become used to burdening webpages with ancillary content.
 
 When everything on the web should ultimately degrade down to text — remember, browsing the web is not always a visual experience — I think more often than not, the inclusion of an image can be rightly questioned.
 

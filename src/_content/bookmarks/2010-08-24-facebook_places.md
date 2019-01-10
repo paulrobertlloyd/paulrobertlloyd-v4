@@ -1,5 +1,5 @@
 ---
-title: The Problem with Facebook’s ‘Places’
+title: The Problem with Facebook’s “Places”
 date: 2010-08-24T18:21:00+01:00
 url: http://log.maniacalrage.net/post/1004228594/
 tags:

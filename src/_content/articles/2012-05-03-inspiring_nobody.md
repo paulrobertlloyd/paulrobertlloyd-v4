@@ -32,7 +32,7 @@ I’m sure an interesting concept for this iteration of the site was proposed at
 
 With [exciting developments][3] taking place in the field of web design, it’s disappointing to see the biggest cultural event of our generation represented online by such a confusing mess. Rather than showcase British interactive design talent, this site proudly flies the flag for the status quo.
 
-The 2012 games are meant to ‘inspire a generation’. Don’t expect to find any inspiration here.
+The 2012 games are meant to “inspire a generation”. Don’t expect to find any inspiration here.
 
 [1]: http://lloydyweb.paulrobertlloyd.com/blog/2007/06/2012_and_all_that
 [2]: http://creativereview.co.uk/cr-blog/2009/october/london-2012-pictograms

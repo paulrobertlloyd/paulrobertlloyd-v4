@@ -4,14 +4,14 @@ date: 2012-04-27T00:04:26+01:00
 location:
   locality: Brighton
   country-name: United Kingdom
-summary: Since returning from San Francisco, much of my spare time has been spent writing a tutorial for .net magazine. Published as part of their ‘Responsive Week’, this is for developers who want to learn about responsive web design but don’t know where to start.
+summary: Since returning from San Francisco, much of my spare time has been spent writing a tutorial for .net magazine. Published as part of their *Responsive Week*, this is for developers who want to learn about responsive web design but don’t know where to start.
 tags:
 - writing
 - web
 - responsive_design
 - net_magazine
 ---
-Since returning from San Francisco, much of my spare time has been spent writing a tutorial for [.net magazine][1]. Published as part of their ‘Responsive Week’, this is for developers who want to learn about [responsive web design][2] but don’t know where to start.
+Since returning from San Francisco, much of my spare time has been spent writing a tutorial for [.net magazine][1]. Published as part of their *Responsive Week*, this is for developers who want to learn about [responsive web design][2] but don’t know where to start.
 
 It’s also an opportunity to summarise the current discussion around responsive design, and describe how it fits into broader themes like progressive enhancement, mobile first and the universal nature of the web.
 

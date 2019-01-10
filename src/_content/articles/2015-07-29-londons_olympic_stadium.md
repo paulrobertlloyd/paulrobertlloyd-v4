@@ -24,7 +24,7 @@ The most notable creative output is that of the architecture, with each games re
 
 ## Beautiful white elephants
 
-Atlanta, host city of the [centenary games of 1996][7], is considered one of the least successful outings for a summer games, especially given its overly commercialised atmosphere. Yet long before ‘legacy’ had entered the Olympic vernacular, organisers had displayed incredible foresight regarding the future use of their venues. Here, [the stadium][8] was destined to become a baseball arena, and no sooner had the Paralympics finished, the track was uplifted, the temporary seating demolished, and the Centennial Olympic Stadium became [Turner Field][9]. What seemed like an unsympathetic move at the time, was in fact an impressive act of pragmatism.
+Atlanta, host city of the [centenary games of 1996][7], is considered one of the least successful outings for a summer games, especially given its overly commercialised atmosphere. Yet long before *legacy* had entered the Olympic vernacular, organisers had displayed incredible foresight regarding the future use of their venues. Here, [the stadium][8] was destined to become a baseball arena, and no sooner had the Paralympics finished, the track was uplifted, the temporary seating demolished, and the Centennial Olympic Stadium became [Turner Field][9]. What seemed like an unsympathetic move at the time, was in fact an impressive act of pragmatism.
 
 Other hosts have not been so thoughtful. So complex was the design of Montreal’s *[Stade olympique][10]*, that it was left unfinished during the 1976 games, and completed nearly a decade later. In fact, it became one of the most expensive stadiums ever built, its retractable roof failing to account for the city’s brutal winters and needing constant repair. Publicly financed to the tune of CAD$ 1.47 billion, the total cost was finally repaid in 2006. No wonder residents call it *The Big Owe*.
 
@@ -51,10 +51,10 @@ Two events conspired against this vision.
 
 *4 May 2008*. With designs finalised and construction under way, Boris Johnson succeeded Ken Livingston as Mayor of London. Unlike his predecessor, he wanted to retain a venue with a high capacity after the games, which meant securing a Premier League football club as a permanent tenant.
 
-*4 August 2012*. Day 8 of London 2012, and Great Britain’s most successful day at an Olympic Games since 1908. Soon dubbed ‘[Super Saturday][19]’, it culminated within the space of 46 minutes with Jessica Ennis, Greg Rutherford and Mo Farah each winning gold medals at the stadium that evening. These achievements, days after the country had been emotionally cajoled by Danny Boyle’s [heartwarming opening ceremony][20], meant the stadium was seared into the country’s consciousness. Dismantling what had become an iconic venue, seemed unthinkable.
+*4 August 2012*. Day 8 of London 2012, and Great Britain’s most successful day at an Olympic Games since 1908. Soon dubbed [Super Saturday][19], it culminated within the space of 46 minutes with Jessica Ennis, Greg Rutherford and Mo Farah each winning gold medals at the stadium that evening. These achievements, days after the country had been emotionally cajoled by Danny Boyle’s [heartwarming opening ceremony][20], meant the stadium was seared into the country’s consciousness. Dismantling what had become an iconic venue, seemed unthinkable.
 
 {% include 'figure' with '/images/2015/07/londons_olympic_stadium/jessica_ennis_super_saturday.jpg'
-  caption: 'Jessica Ennis celebrates winning the women’s heptathlon during ‘Super Saturday’. Photograph: [Al King](https://www.flickr.com/photos/kinglomo/7716826098).'
+  caption: 'Jessica Ennis celebrates winning the women’s heptathlon during Super Saturday. Photograph: [Al King](https://www.flickr.com/photos/kinglomo/7716826098).'
   alignment: 'bleed'
 %}
 

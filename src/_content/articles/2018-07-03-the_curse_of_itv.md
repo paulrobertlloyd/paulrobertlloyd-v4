@@ -8,7 +8,7 @@ tags:
 - itv
 - world_cup
 ---
-Writing in 2010, Ambrose Heron wondered if the perceived ‘[Curse of ITV][1]’ took hold after England’s campaign at France 98:
+Writing in 2010, Ambrose Heron wondered if the perceived [Curse of ITV][1] took hold after England’s campaign at France 98:
 
 > Quite simply, there were four England games in total. When they played on the BBC, they won. When they played on ITV, they lost. As the first World Cup since Italia 90, directly following the success of Euro 96, this was a tournament firmly in the glare of modern media overload.
 

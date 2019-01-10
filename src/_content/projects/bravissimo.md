@@ -47,6 +47,6 @@ Clearleft had assembled a small team to work alongside the company’s in-house 
   alignment: 'bleed'
 %}
 
-I was brought on-board to take these assets and develop a front-end component library (cheekily dubbed ‘Brastrap’) to enable Luke’s team to build out the reimagined website, and then continue to build upon this work in the years to come. While building the foundations of the new component library, I consulted with the team to tease-out, consolidate and document the various code standards being used to ensure the product remained maintainable and understandable.
+I was brought on-board to take these assets and develop a front-end component library (cheekily dubbed *Brastrap*) to enable Luke’s team to build out the reimagined website, and then continue to build upon this work in the years to come. While building the foundations of the new component library, I consulted with the team to tease-out, consolidate and document the various code standards being used to ensure the product remained maintainable and understandable.
 
 [1]: https://www.bravissimo.com

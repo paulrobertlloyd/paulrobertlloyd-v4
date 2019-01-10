@@ -39,7 +39,7 @@ Besides the historical, technical and artistic aspects, making Bradshaw’s work
 
 I originally thought this project would be an excellent opportunity to learn a new programming framework, perhaps Django or Ruby on Rails. However, the thought of learning a new language served only to delay me getting started. Hounded by friends as to the project’s progress, I began looking for a flexible publishing platform instead.
 
-[Kirby][4], a flat file based CMS that markets itself as ‘easy to setup, easy to use, flexible as hell’, looked the part. On a train to Bath for a client meeting last November, I used it to flesh out a prototype, and immediately fell in love. It has a [template language][5] that isn’t too abstracted from PHP — meaning I’m learning PHP as I go — and its creator, [Bastian Allgeier][6], provides excellent documentation and support.
+[Kirby][4], a flat file based CMS that markets itself as “easy to setup, easy to use, flexible as hell”, looked the part. On a train to Bath for a client meeting last November, I used it to flesh out a prototype, and immediately fell in love. It has a [template language][5] that isn’t too abstracted from PHP — meaning I’m learning PHP as I go — and its creator, [Bastian Allgeier][6], provides excellent documentation and support.
 
 With the deadline in sight, I couldn’t resist asking for help with tricker aspects of the design. I’d like to thank [Josh][7] for his JavaScript help, and Russ Baldwin for building [a plugin that powers the alphabetical indexes][8].
 

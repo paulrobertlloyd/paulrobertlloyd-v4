@@ -43,7 +43,7 @@ While much publicity is poured over these logos and emblems, they play a support
   alignment: 'bleed'
 %}
 
-In that respect, Sochi’s stark typographic mark makes a lot of sense. Featuring no culturally symbolic motifs, ‘the first digital Games emblem in Olympic history’ is signified by the inclusion of the .ru top level domain. According to [the press release][14]:
+In that respect, Sochi’s stark typographic mark makes a lot of sense. Featuring no culturally symbolic motifs, “the first digital Games emblem in Olympic history” is signified by the inclusion of the .ru top level domain. According to [the press release][14]:
 
 > It is a 21st Century brand for a digital generation. It reflects how the Sochi 2014 Winter Games will be accessed through PC screens, PDAs and mobile phones and television, thanks to ever-improving internet reach, bandwidth and the adoption of new technologies. It means that anyone can access the Olympic and Paralympic Winter Games, any time; any place; any way.
 

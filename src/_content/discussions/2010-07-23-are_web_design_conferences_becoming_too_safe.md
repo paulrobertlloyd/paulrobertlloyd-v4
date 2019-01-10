@@ -351,5 +351,5 @@ remarks:
 
     [@Rich Clark](#remark-22): Thanks for providing background information about Speak the Web. I’m a real fan of the model you’ve created, and would love to see more events of this nature.
 
-    [@JohnONolan](#remark-23): I disagree with your ‘snide comments’ remark. I personally found the discussions I had with Simon, Mark and others to be reasonable. Whilst they may have been immediately angered, the resulting debate was interesting and raised a number of good points.
+    [@JohnONolan](#remark-23): I disagree with your “snide comments” remark. I personally found the discussions I had with Simon, Mark and others to be reasonable. Whilst they may have been immediately angered, the resulting debate was interesting and raised a number of good points.
 ---

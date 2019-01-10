@@ -36,7 +36,7 @@ Let’s take a look at that most canonical of components, the button, and consid
 
 ### Content
 
-The most variable aspect of any component. Content guidelines will exert the most influence here, dictating things like tone of voice (whether we should we use stiff, formal language like ‘Submit form’, or adopt a more friendly tone, perhaps ‘Send us your message’) and appropriate language. For an internationalised interface, this may also impact word length and text direction or orientation.
+The most variable aspect of any component. Content guidelines will exert the most influence here, dictating things like tone of voice (whether we should we use stiff, formal language like “Submit form”, or adopt a more friendly tone, perhaps “Send us your message”) and appropriate language. For an internationalised interface, this may also impact word length and text direction or orientation.
 
 ### Structure
 

@@ -11,7 +11,7 @@ tags:
 ---
 ## The Auteur Theory of Design
 
-At this year’s dConstruct conference, John Gruber talked about his ‘[Auteur Theory of Design][1]’. This states that:
+At this year’s dConstruct conference, John Gruber talked about his [Auteur Theory of Design][1]. This states that:
 
 > The quality of any collaborative creative endeavour tends to approach the level of taste of whoever has control
 

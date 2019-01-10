@@ -13,7 +13,7 @@ Ted Chiang:
 
 The perceived threat posed by superintelligence is an idea that was [shot to pieces by Maciej][1], but this framing – that it’s an insight into the minds of Silicon Valley’s corporations and its leadership – actually makes a lot of sense.
 
-Perhaps we can use it to understand another of its weird obsessions, ‘curing’ death. As noted by Emily Dreyfuss ([Silicon Valley Would Rather Cure Death than Make Life worth Living][2]):
+Perhaps we can use it to understand another of its weird obsessions, “curing” death. As noted by Emily Dreyfuss ([Silicon Valley Would Rather Cure Death than Make Life worth Living][2]):
 
 > The harm here isn’t just that Silicon Valley is trying to solve the wrong problem, which wastes brainpower and resources. The focus on innovating away death sets a cultural tone that directs attention from answers that might actually help, like infrastructure or education.
 
