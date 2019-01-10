@@ -11,7 +11,7 @@ When Apple’s first computer, the Apple I, was released in 1976, computing was 
 
 Aimed at the hobbyist rather than the consumer, the Apple I did not come in a case. That was left to the user meaning no two Apple I’s were the same. Variations in case design ranged from simple pine boxes with integrated keyboards, to brushed aluminium and black metal boxes with rivets down the sides. One user installed his Apple I inside a leather briefcase with the circuit board in the top and the keyboard bolted to the bottom, creating the first laptop computer.
 
-A standard design for a personal computer did not exist — in fact the idea of a _personal_ computer was inconceivable. This was proved by a statement made by a Hewlett-Packard executive when Wozniak offered them the Apple I design, who stated “People will not want computers on their desks at home”.
+A standard design for a personal computer did not exist — in fact the idea of a *personal* computer was inconceivable. This was proved by a statement made by a Hewlett-Packard executive when Wozniak offered them the Apple I design, who stated “People will not want computers on their desks at home”.
 
 ## The Apple II
 

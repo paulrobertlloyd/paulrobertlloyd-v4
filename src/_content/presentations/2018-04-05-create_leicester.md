@@ -164,7 +164,7 @@ slides:
     > You cannot design an inclusive-first system if you’re not thinking about the threat models of your most vulnerable users.
 - image: /images/2018/04/create_leicester/23.jpg
   notes: |
-    Besides, focus too hard on the numbers, and you end up making incremental changes and optimising within local maximums. Rather than seek out new approaches, ultimately this can result in a company becoming vulnerable to disruption from competitors who _have_ chosen to experiment.
+    Besides, focus too hard on the numbers, and you end up making incremental changes and optimising within local maximums. Rather than seek out new approaches, ultimately this can result in a company becoming vulnerable to disruption from competitors who *have* chosen to experiment.
 
     And let’s not forget that data can very be easily manipulated. Depending on how you choose to query or present it, different stories can be told.
 - image: /images/2018/04/create_leicester/24.jpg
@@ -203,7 +203,7 @@ slides:
     The site is a visual cacophony of popups and banners, notifications and suggestive microcopy. It’s a disgrace.
 - image: /images/2018/04/create_leicester/29.png
   notes: |
-    _This_ is what you get when you design for political aspirations and not real human needs. You get endlessly click-tracked pages infested with Dark Patterns.
+    *This* is what you get when you design for political aspirations and not real human needs. You get endlessly click-tracked pages infested with Dark Patterns.
 
     However much a company says it values customers – and most companies say they do – what matters is what’s being measured. If a culture priorities speed, cost and engagement, over quality, value and suitability, then we need to be mindful of the middle-to-long term effects the resulting decisions may have.
 - image: /images/2018/04/create_leicester/30.png
@@ -221,7 +221,7 @@ slides:
 
     He noticed that designers who would advocate from the perspective of the user were perceived as naive, and junior. Those that were seen as more pragmatic and business-minded, were rewarded with seniority and garnered more respect from managers and leaders.
 
-    Slowly, he noticed his language changing too, replacing words like _polish_ and _value_ with ones such as _adoption_ or _engagement_.
+    Slowly, he noticed his language changing too, replacing words like *polish* and *value* with ones such as *adoption* or *engagement*.
 
     Joel concluded his piece by arguing that designers could repent before pledging allegiance to users once again. But if we’ve been subverted once, what’s to say we won’t be again?
 - image: /images/2018/04/create_leicester/32.jpg

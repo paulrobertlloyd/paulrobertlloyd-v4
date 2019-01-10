@@ -7,4 +7,4 @@ address:
   country-name: United Kingdom
   postal-code: EH8 9AL
 ---
-Operates under the name _Pleasance Dome_ during the Edinburgh Festival Fringe.
+Operates under the name *Pleasance Dome* during the Edinburgh Festival Fringe.

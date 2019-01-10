@@ -7,4 +7,4 @@ address:
   country-name: United Kingdom
   postal-code: EH8 9AJ
 ---
-Operates under the name _Underbelly Cowbarn_ during the Edinburgh Festival Fringe.
+Operates under the name *Underbelly Cowbarn* during the Edinburgh Festival Fringe.

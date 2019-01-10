@@ -86,7 +86,7 @@ By looking at websites through different lenses, we can uncover areas of constra
 
 ### Interface first
 
-In 2009, Luke Wroblewski asked us to consider how interfaces could take advantage of mobile device capabilities _before_ thinking about their manifestation in desktop browsers. [Mobile-first thinking][13] encourages us to focus: phone displays leave little room for extraneous interface or content, so we need to know what matters most. By asking questions about which parts of an interface are critical and which are not, we can decide whether those non-critical parts are loaded conditionally or lazily — or perhaps not at all.
+In 2009, Luke Wroblewski asked us to consider how interfaces could take advantage of mobile device capabilities *before* thinking about their manifestation in desktop browsers. [Mobile-first thinking][13] encourages us to focus: phone displays leave little room for extraneous interface or content, so we need to know what matters most. By asking questions about which parts of an interface are critical and which are not, we can decide whether those non-critical parts are loaded conditionally or lazily — or perhaps not at all.
 
 ### Network first
 
@@ -94,7 +94,7 @@ In 2013, in considering the realities of network reliability, Alex Feyerke propo
 
 ### Content first
 
-In 2011, [Mark Boulton signaled][16] a move away from our _canvas in_ approach, to one where layouts are designed from the _content out_. By defining visual relationships based on page elements, and using ratios instead of fixed values, we can imbue a page with connectedness, independent of its dimensions.
+In 2011, [Mark Boulton signaled][16] a move away from our *canvas in* approach, to one where layouts are designed from the *content out*. By defining visual relationships based on page elements, and using ratios instead of fixed values, we can imbue a page with connectedness, independent of its dimensions.
 
 Recognizing that having content available before we design a page can be an unreasonable request, Mark later suggested we consider [structure first, content always][17]. This fits in well with the [Core Model][18], an idea first introduced by Are Halland at the IA Summit in 2007. By asking questions about a site’s core content — what task it needs to perform, what information it should convey — we can help clients think more critically about their strategic objectives, business goals, and user needs. [Ida Aalen recently noted][19]:
 
@@ -112,7 +112,7 @@ If the tools used are too opaque, and processes difficult to adopt, then opportu
 
 The growing use of [front-end style guides][20] is one example of a maturing relationship between disciplines. Rather than producing static, bespoke layouts, designers are employing more systematic design approaches. Front-end developers are taking these and building pattern libraries and modular components, a form of delivery that fits in better with backend development approaches.
 
-Component-driven development has seen a succession of tools introduced to meet this need. Tools like [Less][21] and [Sass][22] allow us to modularize, concatenate, and minify stylesheets, yet they can also introduce procedural functionality into CSS, a language deliberately designed to be declarative and easier to reason with. However, if consideration is given to other members of the team, this new functionality can be used to _extend_ CSS’s existing declarative feature set. By using mixins and functions, we can [embed a design language within code][23], and propagate naming conventions that are understood by the whole team.
+Component-driven development has seen a succession of tools introduced to meet this need. Tools like [Less][21] and [Sass][22] allow us to modularize, concatenate, and minify stylesheets, yet they can also introduce procedural functionality into CSS, a language deliberately designed to be declarative and easier to reason with. However, if consideration is given to other members of the team, this new functionality can be used to *extend* CSS’s existing declarative feature set. By using mixins and functions, we can [embed a design language within code][23], and propagate naming conventions that are understood by the whole team.
 
 ### Common conventions
 

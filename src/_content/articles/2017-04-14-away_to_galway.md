@@ -20,7 +20,7 @@ tags:
 
 I’ve been working with [the team at Snyk][1] since January, but when asked if I would attend a company off-site in Tel Aviv, I demurred. I find the idea of visiting Israel unsettling for many reasons, as I’m sure you can imagine. Was I declining an opportunity to challenge my ideals, or being principled to a fault? I’m not sure.
 
-Anyway, with a week to myself — and in much need of a break — I headed to Galway and the far western reaches of the British Isles. I was already familiar with the arduous journey needed to reach Ireland by rail, having travelled to Belfast for Build Conference in 2010 and again in 2012. The trip from London to Holyhead was slightly more involved this time, requiring a change at Chester. Rather than _Ulysses_, it would be the smaller _Dublin Swift_ vessel that would ferry me across the Irish Sea to Dublin.
+Anyway, with a week to myself — and in much need of a break — I headed to Galway and the far western reaches of the British Isles. I was already familiar with the arduous journey needed to reach Ireland by rail, having travelled to Belfast for Build Conference in 2010 and again in 2012. The trip from London to Holyhead was slightly more involved this time, requiring a change at Chester. Rather than *Ulysses*, it would be the smaller *Dublin Swift* vessel that would ferry me across the Irish Sea to Dublin.
 
 {% include 'figure' with '/images/2017/05/away_to_galway/dublin_custom_house.jpg'
   caption: 'The Custom House, Dublin.'
@@ -81,7 +81,7 @@ At Bunowen Bay a slight sandy beach sat alongside crystal clear turquoise waters
 As I continued my drive, the narrow road was framed by pools of water reflecting Connemara’s mountainous landscape and occasional inlets dotted with rocky outreaches. I was audibly amazed. Constantly unsure whether to find somewhere to stop, or head on and find something more picturesque, I eventually reached [Roundstone][8], where I parked up on a small quay. As the dying light highlighted everything with bright pinks and purples, I captured a final set of images that would record this short drive as one of my most memorable.
 
 {% include 'figure' with '/images/2017/05/away_to_galway/roundstone_quay.jpg'
-  caption: 'The _Aisling Siobhan_ moored at Roundstone Quay.'
+  caption: 'The *Aisling Siobhan* moored at Roundstone Quay.'
   alignment: 'bleed'
 %}
 

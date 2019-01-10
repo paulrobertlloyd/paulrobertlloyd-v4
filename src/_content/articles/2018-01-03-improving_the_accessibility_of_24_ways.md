@@ -61,7 +61,7 @@ In retrospect, this was problematic in a number of ways:
 * All navigation on the site was grouped together, even though each set of links served a different purpose.
 * The drawer behaviour relied on having a link behave like a button. However, [the first rule of ARIA][7] states:
 
-  > If you _can_ use a native HTML element or attribute with the semantics and behavior you require **already built in**, instead of re-purposing an element and adding an ARIA role, state or property to make it accessible, **then do so**.
+  > If you *can* use a native HTML element or attribute with the semantics and behavior you require **already built in**, instead of re-purposing an element and adding an ARIA role, state or property to make it accessible, **then do so**.
 
   Last year, I updated the JavaScript so that this link would be replaced by a `button`, yet this complexity was a hint that my original solution was sub-optimal.
 

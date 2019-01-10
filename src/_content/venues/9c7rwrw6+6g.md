@@ -7,4 +7,4 @@ address:
   country-name: United Kingdom
   postal-code: EH8 9AL
 ---
-Operates under the name _Underbelly Bristo Square_ during the Edinburgh Festival Fringe.
+Operates under the name *Underbelly Bristo Square* during the Edinburgh Festival Fringe.

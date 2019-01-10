@@ -8,4 +8,4 @@ end: 2014-10-11T21:00:00+01:00
 tags:
 - venue:9c2xrvf6+fr
 ---
-Part of the _Edinburgh Festival Fringe 2014_.
+Part of the *Edinburgh Festival Fringe 2014*.

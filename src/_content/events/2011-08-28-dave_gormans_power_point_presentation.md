@@ -9,4 +9,4 @@ end: 2011-08-28T18:40:00+01:00
 tags:
 - venue:9c7rwrv6+4p
 ---
-Part of the _Edinburgh Festival Fringe 2011_.
+Part of the *Edinburgh Festival Fringe 2011*.

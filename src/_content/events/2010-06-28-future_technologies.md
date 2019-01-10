@@ -14,6 +14,6 @@ The panel includes:
 * Professor Dame Wendy Hall FRS, leading computer scientist at University of Southampton
 * Bill Thompson, technology critic and commentator on digital culture
 
-Part of _See Further: The Festival of Science + Arts_.
+Part of *See Further: The Festival of Science + Arts*.
 
 *[FRS]: Fellow of the Royal Society

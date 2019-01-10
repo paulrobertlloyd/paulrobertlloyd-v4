@@ -15,6 +15,6 @@ I love this post, not least because it offers a new perspective on the work we d
 
 > Recognising the gaps and overlaps is only half the battle. If we apply tools to a people problem, we will only end up moving the problem somewhere else.
 >
-> Some issues _can_ be solved with better tools or better processes. In most of our workplaces, we tend to reach for tools and processes by default, because they feel easier to implement. But as often as not, it’s _not_ a technology problem. It’s a **people** problem. And the solution actually involves communication skills, or effective dialogue.
+> Some issues *can* be solved with better tools or better processes. In most of our workplaces, we tend to reach for tools and processes by default, because they feel easier to implement. But as often as not, it’s *not* a technology problem. It’s a **people** problem. And the solution actually involves communication skills, or effective dialogue.
 
 [1]: https://clearleft.com/team/danielle-huntrods

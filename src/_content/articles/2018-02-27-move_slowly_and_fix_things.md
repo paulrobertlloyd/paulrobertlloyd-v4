@@ -10,7 +10,7 @@ tags:
 - web
 - personal
 ---
-Smallness has always been part of my nature, be it [needing to take growth hormone][1] when I was younger, or even the fact that [my name][2] comes from the Roman family name _Paulus_ meaning ‘small’ or ‘humble’ in Latin. I never felt my short stature was an issue, in fact, it became an integral part of my identity growing up. Perhaps this is why I’m rarely impressed by scale, and have a distaste for monopolies and large corporations.
+Smallness has always been part of my nature, be it [needing to take growth hormone][1] when I was younger, or even the fact that [my name][2] comes from the Roman family name *Paulus* meaning ‘small’ or ‘humble’ in Latin. I never felt my short stature was an issue, in fact, it became an integral part of my identity growing up. Perhaps this is why I’m rarely impressed by scale, and have a distaste for monopolies and large corporations.
 
 Speed has never been one of my strengths, either. At school sports days, I would often finish last (but get the loudest cheer). I’ve always been a slow eater too, yet rarely get indigestion.
 
