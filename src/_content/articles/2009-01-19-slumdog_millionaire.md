@@ -29,9 +29,9 @@ The film shines a very honest light on Mumbai and India, and never seems to reso
 
 With awards season upon us there is a crop of good films I’m hopeful to catch in the coming weeks but of all of them, Slumdog seems to be the one that has caught the critics and publics imagination alike. It’s certainly one not to be missed.
 
-[1]: http://www.imdb.com/title/tt1010048/synopsis/
-[2]: http://www.imdb.com/name/nm2353862/
-[3]: http://www.imdb.com/name/nm2951768/
-[4]: http://en.wikipedia.org/wiki/Amitabh_Bachchan
+[1]: https://www.imdb.com/title/tt1010048/synopsis/
+[2]: https://www.imdb.com/name/nm2353862/
+[3]: https://www.imdb.com/name/nm2951768/
+[4]: https://en.wikipedia.org/wiki/Amitabh_Bachchan
 
 *[IMDb]: Internet Movie Database

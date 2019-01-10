@@ -62,7 +62,7 @@ Besides showcasing some recent photography — something I’d like to do more o
 
 [1]: http://2012.buildconf.com/
 [2]: http://chris-armstrong.com/
-[3]: http://ethanmarcotte.com/
+[3]: https://ethanmarcotte.com/
 [4]: http://shiflett.org/
 [5]: https://en.wikipedia.org/wiki/Giants_Causeway
 [6]: https://www.flickr.com/photos/paulrobertlloyd/sets/72157632145059113/

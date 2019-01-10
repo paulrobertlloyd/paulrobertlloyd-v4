@@ -236,7 +236,7 @@ Having a growing awareness of the issues, and expanding your knowledge of the to
 [2]: https://paulrobertlloyd.com/2013/12/redesigning_24_ways
 [3]: https://bits.24ways.org
 [4]: https://abookapart.com/products/accessibility-for-everyone
-[5]: http://inclusive-components.design
+[5]: https://inclusive-components.design
 [6]: https://twitter.com/fstorr
 [7]: https://www.w3.org/TR/using-aria/#rule1
 [8]: https://www.filamentgroup.com/lab/accessible-responsive.html#hiding

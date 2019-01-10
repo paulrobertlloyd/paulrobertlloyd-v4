@@ -50,7 +50,7 @@ The advent of responsive design has forced us to reassess many long held assumpt
 [5]: https://twitter.com/r_weisburd
 [6]: http://sarawb.com/
 [7]: http://zeldman.com/
-[8]: http://clearleft.com/
+[8]: https://clearleft.com/
 [9]: http://dbushell.com/2012/09/25/what-is-the-medium/
 [10]: http://layervault.tumblr.com/post/32267022219/flat-interface-design
 [11]: http://lucentwebdesign.co.uk/index.php/blog/entry/responsive_images_the_simplest_solutions_are_the_best_solutions

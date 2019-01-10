@@ -16,5 +16,5 @@ I’ve always felt the idea behind Twitter would have been more successful in th
 Twitter could have been the new email. Instead it’s likely to become the next Myspace.
 
 [1]: https://dev.twitter.com/blog/delivering-consistent-twitter-experience
-[2]: http://www.wired.com/business/2010/04/twitter-unveils-ad-supported-business-model/
+[2]: https://www.wired.com/2010/04/twitter-unveils-ad-supported-business-model/
 [3]: http://minimalmac.com/post/13848961011/dont-be-a-free-user-pinboard-blog

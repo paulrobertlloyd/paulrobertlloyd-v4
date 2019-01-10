@@ -12,7 +12,7 @@ remarks:
 - author: Paul Robert Lloyd
   gravatar: 15091a37bacfa4bdd011282627eaca2b
   date: 2008-12-31T10:02:44Z
-  url: http://paulrobertlloyd.com/
+  url: https://paulrobertlloyd.com/
   content: |
     Hey Jon! I’m currently using a [Canon Powershot G9](http://www.dpreview.com/reviews/canong9/) — a camera that falls somewhere between high-end compact and low-end DSLR. This means it’s small enough to be able to fit in my trouser pocket (just), but at the expense of some features available in full SLRs (interchangeable lenses, better image sensors etc.)
 

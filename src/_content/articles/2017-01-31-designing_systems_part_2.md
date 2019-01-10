@@ -192,7 +192,7 @@ So, in answer to the original question — what is a design system — perhaps t
 
 [1]: https://medium.com/eightshapes-llc/74dcfffef935
 [2]: /2017/01/designing_systems_part_1
-[3]: http://web.archive.org/web/20100318024044/http://www.adaptivepath.com/ideas/essays/archives/001123.php
+[3]: https://web.archive.org/web/20100318024044/http://www.adaptivepath.com/ideas/essays/archives/001123.php
 [4]: https://articles.uie.com/creating-design-principles/
 [5]: https://principles.adactio.com/
 [6]: https://standardsmanual.com/products/nyctacompactedition

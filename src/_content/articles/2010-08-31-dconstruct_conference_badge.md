@@ -31,7 +31,7 @@ In typical Clearleft style, we created a paper prototype to test the mechanics o
 The final product looks really great, and I’m excited to see them being used this Friday. Not only are they a greener alternative to previous years (in addition to the lanyards made from recycled plastic bottles) but they’ve worked out a little cheaper to produce too. Hopefully this format will prove popular and become a feature of future conferences. This being the first time we’ve used such a design I’m sure there will be plenty of feedback, so if you’re at the conference please let me know your thoughts.
 
 [1]: /2009/03/nothing_green_about_sxsw
-[2]: http://clearleft.com
+[2]: https://clearleft.com
 [3]: http://dconstruct.org
 [4]: http://graphpaper.com
 [5]: http://www.graphpaper.com/2010/06-11_a-book-on-a-hook

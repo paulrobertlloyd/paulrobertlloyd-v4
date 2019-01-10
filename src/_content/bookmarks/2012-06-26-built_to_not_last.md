@@ -1,7 +1,7 @@
 ---
 title: Built to Not Last
 date: 2012-06-26T00:00:45+01:00
-url: http://subtraction.com/2012/06/19/built-to-not-last
+url: https://www.subtraction.com/2012/06/19/built-to-not-last/
 tags:
 - apple
 - sustainability
@@ -17,4 +17,4 @@ As such, I’m not sure I buy into Khoi’s argument. Apple product *can* last i
 
 Be sure to read the comments and [Khoi’s follow up][1] too.
 
-[1]: http://www.subtraction.com/2012/06/20/follow-up-to-built-to-not-last
+[1]: https://www.subtraction.com/2012/06/20/follow-up-to-built-to-not-last/

@@ -39,7 +39,7 @@ remarks:
   date: 2009-02-27T22:27:41Z
   url: http://www.stuup.com
   content: |
-    I use character names from the Matrix films <http://en.wikipedia.org/wiki/The_Matrix_character_names>
+    I use character names from the Matrix films <https://en.wikipedia.org/wiki/The_Matrix_character_names>
 
 - author: trovster
   gravatar: a489725ad8451b6e87fcb9ed4f189cf9

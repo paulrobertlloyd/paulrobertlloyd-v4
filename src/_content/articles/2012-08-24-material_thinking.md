@@ -58,7 +58,7 @@ It might be a bit hand-wavy in places, but we hope it will be one of the more us
 [5]: http://www.heatherwick.com/east-beach-cafe/
 [6]: http://www.heatherwick.com/uk-pavilion/
 [7]: http://www.heatherwick.com/london-bus/
-[8]: http://en.wikipedia.org/wiki/B_of_the_Bang
+[8]: https://en.wikipedia.org/wiki/B_of_the_Bang
 [9]: http://andyhume.net
 [10]: http://panelpicker.sxsw.com/vote/197
 

@@ -117,7 +117,7 @@ In essence, GEL is an example of systems level thinking. Design principles defin
 [10]: http://www.instapaper.com/
 [11]: http://www.thegridsystem.org/
 [12]: http://www.alistapart.com/articles/responsive-web-design/
-[13]: http://ethanmarcotte.com/
+[13]: https://ethanmarcotte.com/
 [14]: http://edenspiekermann.com/
 [15]: http://mediaqueri.es
 [16]: http://blog.mhurrell.co.uk/post/2946358183/updating-the-helvetica-font-stack

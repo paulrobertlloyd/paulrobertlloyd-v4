@@ -48,6 +48,6 @@ Indeed, rather than just run a marathon, I also wanted to raise money for [Actio
 [2]: https://twitter.com/roobottom/status/186488028032802816
 [3]: http://actionforchildren.org.uk/
 [4]: http://justgiving.com/prlrun2012/
-[5]: http://clearleft.com/
+[5]: https://clearleft.com/
 
 *[UK]: United Kingdom

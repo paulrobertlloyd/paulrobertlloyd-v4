@@ -69,9 +69,9 @@ As we continue to review our processes to ensure they better reflect the unpredi
 While striving to create engaging and enticing visual designs that delight users, we also have to think about how these early explorations are communicated with our clients. Any process needs to acknowledge the relative design literacy of project stakeholders, ensuring the correct expectations are set early and that everyone is comfortable with the messy process of designing a website.
 
 [1]: http://www.mikeallan.me/
-[2]: http://clearleft.com/is/paul-lloyd
-[3]: http://clearleft.com/is/james-bates
-[4]: http://clearleft.com/is/jon-aizlewood
+[2]: https://clearleft.com/is/paul-lloyd
+[3]: https://clearleft.com/is/james-bates
+[4]: https://clearleft.com/is/jon-aizlewood
 [5]: http://www.bohemiancoding.com/sketch/
 [6]: http://2013.dconstruct.org/
 [7]: http://badassideas.com/

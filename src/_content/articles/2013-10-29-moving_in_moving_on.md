@@ -53,7 +53,7 @@ The organisation is digitally savvy and forward-looking too, and this can be see
 
 This new role will introduce a lot of new challenges — not least getting up earlier in the morning and enduring a daily train commute — but I can’t wait to get my teeth stuck into them. Onwards.
 
-[1]: http://clearleft.com/
+[1]: https://clearleft.com/
 [2]: http://www.besquare.me/session/the-edge-of-the-web/
 [3]: /2010/07/are_web_design_conferences_becoming_too_safe
 [4]: http://adactio.com/journal/tags/americanaugust/

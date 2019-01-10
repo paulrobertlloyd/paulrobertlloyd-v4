@@ -87,7 +87,7 @@ As I continued my drive, the narrow road was framed by pools of water reflecting
 
 [1]: https://snyk.io/about
 [2]: https://heustonstation.com
-[3]: http://www.newstatesman.com/culture/music-theatre/2017/03/ed-sheeran-lyrics-divide-review
+[3]: https://www.newstatesman.com/culture/music-theatre/2017/03/ed-sheeran-lyrics-divide-review
 [4]: https://www.flickr.com/search/?text=connemara
 [5]: https://en.wikipedia.org/wiki/Cathedral_of_Our_Lady_Assumed_into_Heaven_and_St_Nicholas%2C_Galway
 [6]: https://en.wikipedia.org/wiki/Diamond_Hill_(Ireland)

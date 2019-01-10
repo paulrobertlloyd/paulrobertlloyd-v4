@@ -50,13 +50,13 @@ All in all, an exciting trip, even more so given the distances and locations inv
 
 [1]: http://www.dpreview.com/news/0908/09081906canons90handson.asp
 [2]: http://www.seat61.com/Overlander.htm
-[3]: http://en.wikipedia.org/wiki/Picton,_New_Zealand
-[4]: http://en.wikipedia.org/wiki/Nelson,_New_Zealand
-[5]: http://en.wikipedia.org/wiki/Abel_Tasman_National_Park
-[6]: http://en.wikipedia.org/wiki/Nelson_Lakes_National_Park
-[7]: http://en.wikipedia.org/wiki/Wellington
+[3]: https://en.wikipedia.org/wiki/Picton,_New_Zealand
+[4]: https://en.wikipedia.org/wiki/Nelson,_New_Zealand
+[5]: https://en.wikipedia.org/wiki/Abel_Tasman_National_Park
+[6]: https://en.wikipedia.org/wiki/Nelson_Lakes_National_Park
+[7]: https://en.wikipedia.org/wiki/Wellington
 [8]: http://www.cityofsydney.nsw.gov.au/nye/2009/default.asp
-[9]: http://en.wikipedia.org/wiki/1956_Summer_Olympics
+[9]: https://en.wikipedia.org/wiki/1956_Summer_Olympics
 [10]: http://houseofkyle.com/
 [11]: http://philmccluskey.com/
 

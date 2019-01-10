@@ -27,12 +27,12 @@ Macintosh has been associated with Apple since the launch of its original all-in
 
 If you’re facing a similar problem finding naming conventions for use on a Mac, why not go with [this list of apple cultivars][7]. After all, there are plenty to choose from!
 
-[1]: http://en.wikipedia.org/wiki/McIntosh_(apple)
-[2]: http://en.wikipedia.org/wiki/Cameo_(apple)
-[3]: http://en.wikipedia.org/wiki/Elstar
-[4]: http://en.wikipedia.org/wiki/Braeburn
-[5]: http://en.wikipedia.org/wiki/Discovery_(apple)
-[6]: http://en.wikipedia.org/wiki/HMS_Discovery
-[7]: http://en.wikipedia.org/wiki/List_of_apple_cultivars
+[1]: https://en.wikipedia.org/wiki/McIntosh_(apple)
+[2]: https://en.wikipedia.org/wiki/Cameo_(apple)
+[3]: https://en.wikipedia.org/wiki/Elstar
+[4]: https://en.wikipedia.org/wiki/Braeburn
+[5]: https://en.wikipedia.org/wiki/Discovery_(apple)
+[6]: https://en.wikipedia.org/wiki/HMS_Discovery
+[7]: https://en.wikipedia.org/wiki/List_of_apple_cultivars
 
 *[UK]: United Kingdom

@@ -16,5 +16,5 @@ So here’s to continued iteration, broken features and a greater willingness to
 
 [1]: https://indieweb.org/2015/Brighton
 [2]: https://indieweb.org/Webmention
-[3]: http://jekyllrb.com
+[3]: https://jekyllrb.com
 [4]: https://github.com/paulrobertlloyd/paulrobertlloyd-v3/commit/cd1a3375d75fa41908486cad94b67856c65f5744

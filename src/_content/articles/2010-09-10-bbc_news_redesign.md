@@ -106,7 +106,7 @@ There is often talk of there being [no landmark design on the web][20]. I’m go
 [12]: http://newsvine.com
 [13]: http://everyblock.com
 [14]: http://www.msnbc.msn.com/id/37643077
-[15]: http://clearleft.com
+[15]: https://clearleft.com
 [16]: http://channel4.com/news
 [17]: https://www.bbc.co.uk/blogs/bbcinternet/2010/07/formative_user_research_for_th.html
 [18]: https://www.bbc.co.uk/blogs/bbcinternet/2010/07/bbc_news_redesign_telling_the.html

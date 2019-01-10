@@ -1,7 +1,7 @@
 ---
 title: 'Usable yet Useless: Why Every Business Needs Product Discovery'
 date: 2012-08-28T14:38:10+01:00
-url: http://alistapart.com/articles/usable-yet-useless-why-every-business-needs-product-discovery/
+url: https://alistapart.com/article/usable-yet-useless-why-every-business-needs-product-discovery
 tags:
 - web
 - design
@@ -14,4 +14,4 @@ Rian van der Merwe for A List Apart:
 
 “Digital Brasílias” is a great term for all the beautiful – yet ultimately useless – products emerging from the Valley. Product discovery can help us not only design things better, but design better things.
 
-[1]: http://www.theguardian.com/world/2008/mar/12/brazil
+[1]: https://www.theguardian.com/world/2008/mar/12/brazil

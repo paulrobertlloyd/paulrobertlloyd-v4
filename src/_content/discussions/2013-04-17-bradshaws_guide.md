@@ -15,5 +15,5 @@ remarks:
 
     It would be great if the modern Bradshaw’s guide were able to make use of the location-aware technology in our pocket to inform and educate us of the countryside we’re passing through. I don’t know if there is an app for that already, but I bet it wouldn’t have the charm and genteel delivery of Mr Bradshaw.
 
-    [1]: http://en.wikipedia.org/wiki/Windsor_&_Eton_Central_railway_station#The_Tussauds_years
+    [1]: https://en.wikipedia.org/wiki/Windsor_&_Eton_Central_railway_station#The_Tussauds_years
 ---

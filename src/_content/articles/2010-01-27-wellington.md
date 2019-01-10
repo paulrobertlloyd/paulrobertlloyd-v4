@@ -38,9 +38,9 @@ What I found most surprising about the Parliament buildings was the absence of a
 
 Sadly, Wellington would be the last I would see of New Zealand on this trip, so after savouring my final Flat White at Wellington Airport (and hoping Australia would provide equally good coffee) I boarded my flight to Sydney.
 
-[1]: http://en.wikipedia.org/wiki/BNZ_Centre
+[1]: https://en.wikipedia.org/wiki/BNZ_Centre
 [2]: http://discover.natlib.govt.nz/logicrouter/servlet/LogicRouter?PAGE=object&OUTPUTXSL=object.xsl&pm_RC=REPO03DB&pm_OI=2298&pm_GT=Y&pm_IAC=Y&api_1=GET_OBJECT_XML
-[3]: http://en.wikipedia.org/wiki/Cuba_Street,_Wellington
+[3]: https://en.wikipedia.org/wiki/Cuba_Street,_Wellington
 [4]: http://www.parliament.nz/en-NZ/AboutParl/HstBldgs/Buildings/
 [5]: http://www.basilspence.org.uk/
 

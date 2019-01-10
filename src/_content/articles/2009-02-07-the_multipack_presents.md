@@ -34,11 +34,11 @@ You can find [further details about the event on upcoming][13]. It’s sure to b
 [1]: http://multipack.co.uk/
 [2]: http://2008.geekinthepark.co.uk/
 [3]: http://multipack.co.uk/presents/
-[4]: http://en.wikipedia.org/wiki/HTML_5
+[4]: https://en.wikipedia.org/wiki/HTML_5
 [5]: http://uxlondon.com/
 [6]: http://aneventapart.com/
 [7]: http://brucelawson.co.uk/2009/redesigning-with-html-5-wai-aria/
-[8]: http://en.wikipedia.org/wiki/WAI-ARIA
+[8]: https://en.wikipedia.org/wiki/WAI-ARIA
 [9]: http://eclecticdreams.com/
 [10]: http://kryogenix.org/days/
 [11]: http://oneblackbear.com/

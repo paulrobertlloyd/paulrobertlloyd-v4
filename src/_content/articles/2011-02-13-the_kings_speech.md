@@ -75,17 +75,17 @@ I can only hope that Phyllida Lloyd’s upcoming biopic of Margaret Thatcher, <c
 [1]: http://www.kingsspeech.com/
 [2]: https://twitter.com/paulrobertlloyd/status/28400458319
 [3]: https://www.bbc.co.uk/programmes/b00x2yj7
-[4]: http://en.wikipedia.org/wiki/Upstairs,_Downstairs
-[5]: http://www.imdb.com/name/nm0769083/
+[4]: https://en.wikipedia.org/wiki/Upstairs,_Downstairs
+[5]: https://www.imdb.com/name/nm0769083/
 [6]: http://www.slate.com/articles/news_and_politics/fighting_words/2011/01/churchill_didnt_say_that.html
 [7]: https://www.theguardian.com/film/2011/jan/13/reel-history-kings-speech-colin-firth
 [8]: https://www.bbc.co.uk/archive/edward_viii/
 [9]: https://www.bbc.co.uk/archive/edward_viii/12935.shtml
 [10]: http://www.latimes.com/entertainment/news/la-ca-king-truth-20110213,0,3880542.story
 [11]: http://www.guardian.co.uk/film/2011/feb/05/cinematic-myths-historical-facts-kings-speech
-[12]: http://www.imdb.com/title/tt1319694/
+[12]: https://www.imdb.com/title/tt1319694/
 [13]: http://news.bbc.co.uk/local/london/hi/people_and_places/newsid_9378000/9378341.stm
-[14]: http://www.imdb.com/title/tt1007029/
+[14]: https://www.imdb.com/title/tt1007029/
 
 *[BBC]: British Broadcasting Corporation
 *[LA]: Los Angeles

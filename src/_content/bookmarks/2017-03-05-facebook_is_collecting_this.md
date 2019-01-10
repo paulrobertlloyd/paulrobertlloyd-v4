@@ -1,7 +1,7 @@
 ---
 title: What should you think about when using Facebook?
 date: 2017-03-05T21:45:00Z
-url: http://veekaybee.github.io/facebook-is-collecting-this/
+url: https://veekaybee.github.io/2017/02/01/facebook-is-collecting-this/
 tags:
 - facebook
 - privacy

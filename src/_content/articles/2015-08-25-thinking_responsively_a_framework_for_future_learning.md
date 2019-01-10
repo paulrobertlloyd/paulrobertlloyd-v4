@@ -135,7 +135,7 @@ These principles should shape our approach to responsive design — and they, in
 [2]: https://vimeo.com/106869929
 [3]: https://www.gov.uk/design-principles
 [4]: http://www.google.com/about/company/philosophy/
-[5]: http://web.archive.org/web/20100318024044/http://www.adaptivepath.com/ideas/essays/archives/001123.php
+[5]: https://web.archive.org/web/20100318024044/http://www.adaptivepath.com/ideas/essays/archives/001123.php
 [6]: https://adactio.com/journal/1716
 [7]: http://www.ncsu.edu/ncsu/design/cud/about_ud/udprinciplestext.htm
 [8]: http://smartdesignworldwide.com/work/oxo-good-grips/
@@ -155,7 +155,7 @@ These principles should shape our approach to responsive design — and they, in
 [22]: http://sass-lang.com/
 [23]: https://www.youtube.com/video/ciG-A_1FyVg
 [24]: http://getbem.com/naming/
-[25]: http://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/
+[25]: https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/
 [26]: https://www.urbandictionary.com/define.php?term=yak%20shaving
 [27]: https://boxen.github.com/
 [28]: https://githubengineering.com/scripts-to-rule-them-all/

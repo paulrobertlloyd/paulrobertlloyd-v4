@@ -36,17 +36,17 @@ It’s no accident that this exhibition is housed in the Barbican Centre, as it 
 [<cite>Le Corbusier, The Art of Architecture</cite>][13] runs until 24 May.
 
 [1]: /2008/12/chicago
-[2]: http://en.wikipedia.org/wiki/Olympic_Stadium_(Munich)
-[3]: http://en.wikipedia.org/wiki/City_of_Arts_and_Sciences
-[4]: http://en.wikipedia.org/wiki/Le_Corbusier
-[5]: http://en.wikipedia.org/wiki/Unité_d'Habitation
-[6]: http://en.wikipedia.org/wiki/Philips_Pavilion
-[7]: http://en.wikipedia.org/wiki/Chandigarh
-[8]: http://en.wikipedia.org/wiki/Aon_Center_(Chicago)
-[9]: http://en.wikipedia.org/wiki/330_North_Wabash
-[10]: http://en.wikipedia.org/wiki/Barbican_Estate
-[11]: http://en.wikipedia.org/wiki/Park_Hill,_Sheffield
-[12]: http://en.wikipedia.org/wiki/Cumbernauld_town_centre
+[2]: https://en.wikipedia.org/wiki/Olympic_Stadium_(Munich)
+[3]: https://en.wikipedia.org/wiki/City_of_Arts_and_Sciences
+[4]: https://en.wikipedia.org/wiki/Le_Corbusier
+[5]: https://en.wikipedia.org/wiki/Unité_d'Habitation
+[6]: https://en.wikipedia.org/wiki/Philips_Pavilion
+[7]: https://en.wikipedia.org/wiki/Chandigarh
+[8]: https://en.wikipedia.org/wiki/Aon_Center_(Chicago)
+[9]: https://en.wikipedia.org/wiki/330_North_Wabash
+[10]: https://en.wikipedia.org/wiki/Barbican_Estate
+[11]: https://en.wikipedia.org/wiki/Park_Hill,_Sheffield
+[12]: https://en.wikipedia.org/wiki/Cumbernauld_town_centre
 [13]: http://www.barbican.org.uk/lecorbusier/
 
 *[IBM]: International Business Machines

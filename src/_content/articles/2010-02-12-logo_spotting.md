@@ -56,8 +56,8 @@ Finally, if we are to talk about ‘M’ shaped containing identities, then I ca
   caption: 'City of Melbourne logo variations.'
 %}
 
-[1]: http://en.wikipedia.org/wiki/Network_Rail
-[2]: http://en.wikipedia.org/wiki/Railtrack
+[1]: https://en.wikipedia.org/wiki/Network_Rail
+[2]: https://en.wikipedia.org/wiki/Railtrack
 [3]: http://www.creativereview.co.uk/cr-blog/2010/february/mtv-refreshes-logo
 [4]: http://www.underconsideration.com/speakup/archives/003489.html
 [5]: http://www.underconsideration.com/brandnew/archives/i_wolff_olins.php

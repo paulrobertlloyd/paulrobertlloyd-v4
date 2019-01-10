@@ -38,7 +38,7 @@ remarks:
 - author: Paul Robert Lloyd
   gravatar: 15091a37bacfa4bdd011282627eaca2b
   date: 2010-09-19T22:39:05+01:00
-  url: http://paulrobertlloyd.com/
+  url: https://paulrobertlloyd.com/
   content: |
     [@Stan](#remark-3) Thanks for your comment. However, I’m interested to understand why you thought the previous design worked better than the new version—could you expand on your feedback at all?
 

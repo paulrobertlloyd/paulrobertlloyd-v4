@@ -21,7 +21,7 @@ If common sense and the passage of history aren’t enough to prove that the [Tr
 The challenge: who can run the most miles over the course of March. You can <del datetime="2014-05-28T02:32:00">follow its progress with the widget on the right, and</del> provide encouragement in the comments below. Bring it!
 
 [1]: http://houseofkyle.com/
-[2]: http://en.wikipedia.org/wiki/Los_Angeles
-[3]: http://en.wikipedia.org/wiki/San_Andreas_Fault
-[4]: http://en.wikipedia.org/wiki/Treaty_of_Paris_(1783)
+[2]: https://en.wikipedia.org/wiki/Los_Angeles
+[3]: https://en.wikipedia.org/wiki/San_Andreas_Fault
+[4]: https://en.wikipedia.org/wiki/Treaty_of_Paris_(1783)
 [5]: http://nikeplus.nike.com/nikeplus/?l=all_challenges,1278663906

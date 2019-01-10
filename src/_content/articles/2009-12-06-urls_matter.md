@@ -90,7 +90,7 @@ When advocating the user, applying blanket claims or unfounded assumptions such 
 [1]: http://tinyurl.com/
 [2]: http://adactio.com/journal/1566/
 [3]: http://shiflett.org/blog/2008/mar/urls-can-be-beautiful
-[4]: http://clearleft.com/
+[4]: https://clearleft.com/
 [5]: http://www.fullcreammilk.co.uk/thinking/about/url_abc/
 [6]: http://factoryjoe.com/blog/2009/11/16/the-death-of-the-url/
 [7]: http://www.sklar.com/

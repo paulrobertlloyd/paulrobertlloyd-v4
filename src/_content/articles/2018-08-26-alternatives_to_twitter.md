@@ -55,8 +55,8 @@ Susan concludes:
 I reached the same conclusion several years ago. I don’t think it’s a coincidence that semi-private Slack communities have become commonplace (however ill-suited the product is to provide this facility). Was encouraging people to make their content public by default social media’s original sin? As you only ever get the community you design for, perhaps it’s no surprise that Twitter’s appeal should falter having become month piece for the world’s premier narcissist. In looking to develop the next generation of social networks, we should avoid making the same mistakes again.
 
 [1]: https://a.wholelottanothing.org/2018/08/08/im-done-with-twitter/
-[2]: https://susanjeanrobertson.com
-[3]: https://susanjeanrobertson.com/writing/social-media-change/
+[2]: https://www.susanjeanrobertson.com
+[3]: https://www.susanjeanrobertson.com/writing/social-media-change/
 [4]: https://joinmastodon.org
 [5]: https://en.wikipedia.org/wiki/App.net
 [6]: https://blog.joinmastodon.org/2018/07/cage-the-mastodon/

@@ -66,7 +66,7 @@ We experimented with different ways of simplifying way-finding around the site. 
 
 The new mobile site was launched a year after our engagement as part of a more extensive rebrand of the organisation lead by Johnson Banks.
 
-[1]: http://unicef.org.uk
+[1]: https://www.unicef.org.uk
 
 *[HTML]: HyperText Markup Language
 *[UK]: United Kingdom

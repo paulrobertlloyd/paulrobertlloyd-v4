@@ -1,7 +1,7 @@
 ---
 title: What Happened On Easter Island — A New (Even Scarier) Scenario
 date: 2016-04-02T15:35:00+01:00
-url: http://www.npr.org/sections/krulwich/2013/12/09/249728994/what-happened-on-easter-island-a-new-even-scarier-scenario
+url: https://www.npr.org/sections/krulwich/2013/12/09/249728994/what-happened-on-easter-island-a-new-even-scarier-scenario
 tags:
 - environment
 ---
@@ -17,5 +17,5 @@ In this article, Robert Krulwich argues that this success story provides a gloom
 
 The [boiling frog][2] anecdote offers a similar conclusion.
 
-[1]: http://online.wsj.com/news/articles/SB10001424052702303661904576453843399586946
+[1]: https://www.wsj.com/articles/SB10001424052702303661904576453843399586946
 [2]: https://en.wikipedia.org/wiki/Boiling_frog

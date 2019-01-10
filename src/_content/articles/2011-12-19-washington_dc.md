@@ -47,10 +47,10 @@ The remainder of my time in DC was largely spent within the walls of the Westin 
 [5]: http://www.nasm.si.edu/
 [6]: http://www.teaism.com/
 [7]: http://www.segsinthecity.com/
-[8]: http://en.wikipedia.org/wiki/Lincoln_Memorial
-[9]: http://en.wikipedia.org/wiki/Thomas_Jefferson_Memorial
-[10]: http://en.wikipedia.org/wiki/Franklin_Delano_Roosevelt_Memorial
-[11]: http://en.wikipedia.org/wiki/MLK_Memorial
+[8]: https://en.wikipedia.org/wiki/Lincoln_Memorial
+[9]: https://en.wikipedia.org/wiki/Thomas_Jefferson_Memorial
+[10]: https://en.wikipedia.org/wiki/Franklin_Delano_Roosevelt_Memorial
+[11]: https://en.wikipedia.org/wiki/MLK_Memorial
 [12]: http://adactio.com/
 [13]: http://wordridden.com/
 [14]: http://sixtwothree.org/
@@ -60,7 +60,7 @@ The remainder of my time in DC was largely spent within the walls of the Westin 
 [18]: http://striblingorchard.com/
 [19]: http://www.houseofkyle.com/
 [20]: http://aneventapart.com/2011/dc/
-[21]: http://ethanmarcotte.com/
+[21]: https://ethanmarcotte.com/
 [22]: http://karenmcgrane.com/
 [23]: http://aarronwalter.com/
 [24]: http://boxofchocolates.ca/

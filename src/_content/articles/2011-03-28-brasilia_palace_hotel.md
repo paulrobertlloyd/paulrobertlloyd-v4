@@ -68,6 +68,6 @@ OSCAR, the hotel restaurant, is a little pricey but, going by the meal I ate, wo
 
 For anyone coming to Brasília for its modernist architecture, no visit would be complete without staying at the Brasília Palace Hotel.
 
-[1]: http://en.wikipedia.org/wiki/Palacio_do_Planalto
+[1]: https://en.wikipedia.org/wiki/Palacio_do_Planalto
 [2]: http://www.plazabrasilia.com.br/brasilia_en.html
-[3]: http://en.wikipedia.org/wiki/Oscar_Niemeyer
+[3]: https://en.wikipedia.org/wiki/Oscar_Niemeyer

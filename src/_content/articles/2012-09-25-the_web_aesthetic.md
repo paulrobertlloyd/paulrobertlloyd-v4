@@ -216,7 +216,7 @@ As the web matures, we should acknowledge and embrace its constraints — and th
 [1]: http://www.alistapart.com/articles/responsive-web-design/
 [2]: http://www.scientificamerican.com/article.cfm?id=long-live-the-web
 [3]: http://blog.andyhume.net/responsive-by-default/
-[4]: http://en.wikipedia.org/wiki/HotWired
+[4]: https://en.wikipedia.org/wiki/HotWired
 [5]: https://alistapart.com/articles/responsive-images-how-they-almost-worked-and-what-we-need/
 [6]: http://archive.dconstruct.org/
 [7]: http://2012.dconstruct.org/

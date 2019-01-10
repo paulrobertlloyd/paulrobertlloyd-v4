@@ -71,11 +71,11 @@ Whenever I mentioned the low numbers, the owner seemed convinced that patronage 
 [1]: /2010/01/auckland
 [2]: http://www.tranzscenic.co.nz/
 [3]: http://www.seat61.com/Overlander.htm
-[4]: http://en.wikipedia.org/wiki/Courtenay_Quarter
+[4]: https://en.wikipedia.org/wiki/Courtenay_Quarter
 [5]: http://www.theprow.org.nz/the-scow-echo/
-[6]: http://en.wikipedia.org/wiki/Flat_white
-[7]: http://en.wikipedia.org/wiki/Christ_Church_Cathedral,_Nelson
-[8]: http://en.wikipedia.org/wiki/Boulder_Bank
+[6]: https://en.wikipedia.org/wiki/Flat_white
+[7]: https://en.wikipedia.org/wiki/Christ_Church_Cathedral,_Nelson
+[8]: https://en.wikipedia.org/wiki/Boulder_Bank
 [9]: http://www.boatshedcafe.co.nz/
 [10]: http://www.customhousenelson.co.nz/
 

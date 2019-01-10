@@ -50,10 +50,10 @@ This lack of investment is a great shame. Train travel over flying should be enc
 
 Whilst a far slower means of travel, it certainly provides a more fulfilling experience. Not only are you able to witness the strange make-up of the United States close-up (both in the landscape outside, and those travelling with you on board), it’s also a far more relaxing way to travel. Just charge up your laptop, sit in the sightseers lounge and watch the landscape roll by.
 
-[1]: http://en.wikipedia.org/wiki/Amtrak
-[2]: http://en.wikipedia.org/wiki/Superliner_(railcar)
-[3]: http://en.wikipedia.org/wiki/Reno
-[4]: http://en.wikipedia.org/wiki/Rocky_Mountains
-[5]: http://en.wikipedia.org/wiki/Continental_Divide
-[6]: http://en.wikipedia.org/wiki/Grand_Junction,_Colorado
-[7]: http://en.wikipedia.org/wiki/Denver
+[1]: https://en.wikipedia.org/wiki/Amtrak
+[2]: https://en.wikipedia.org/wiki/Superliner_(railcar)
+[3]: https://en.wikipedia.org/wiki/Reno
+[4]: https://en.wikipedia.org/wiki/Rocky_Mountains
+[5]: https://en.wikipedia.org/wiki/Continental_Divide
+[6]: https://en.wikipedia.org/wiki/Grand_Junction,_Colorado
+[7]: https://en.wikipedia.org/wiki/Denver

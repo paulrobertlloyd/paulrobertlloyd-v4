@@ -5,7 +5,7 @@ remarks:
 - author: Andy
   gravatar: 3282170b113297711ac2a2d41bffb70d
   date: 2010-06-30T11:23:01+01:00
-  url: http://andyhiggs.co.uk
+  url: https://andyhiggs.uk
   content: |
     Hi Paul,
 

@@ -47,13 +47,13 @@ Finally, one lucky person could win a VIP ticket to the conference (with two nig
 [3]: http://erskinedesign.com/
 [4]: http://remysharp.com/
 [5]: http://html5doctor.com/
-[6]: http://2009.full-frontal.org/
+[6]: https://2009.ffconf.org/
 [7]: http://www.colly.com/comments/media2009_the_process_toolbox/
 [8]: http://2009.geekinthepark.co.uk/
 [9]: http://upcoming.yahoo.com/event/2921781/
 [10]: http://2009.dconstruct.org/
 [11]: http://aneventapart.com/
-[12]: http://clearleft.com/
+[12]: https://clearleft.com/
 [13]: https://www.cennydd.com/2009/dconstruct-2009---designing-for-tomorrow/
 [14]: http://2009.dconstruct.org/schedule/adamgreenfield/
 [15]: http://2009.dconstruct.org/schedule/mikemigurski/

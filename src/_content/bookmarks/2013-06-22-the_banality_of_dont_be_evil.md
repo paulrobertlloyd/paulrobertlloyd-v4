@@ -12,4 +12,4 @@ Julian Assange reviews Eric Schmidt and Jared Cohen’s new book, <cite>The New 
 
 Exhibit A: [PRISM][1].
 
-[1]: http://www.theguardian.com/world/2013/jun/06/us-tech-giants-nsa-data
+[1]: https://www.theguardian.com/world/2013/jun/06/us-tech-giants-nsa-data

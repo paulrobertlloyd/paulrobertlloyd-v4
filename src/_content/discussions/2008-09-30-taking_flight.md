@@ -29,7 +29,7 @@ remarks:
 - author: Paul Robert Lloyd
   gravatar: 15091a37bacfa4bdd011282627eaca2b
   date: 2008-10-01T03:52:13+01:00
-  url: http://paulrobertlloyd.com/
+  url: https://paulrobertlloyd.com/
   content: |
     Fabricio – I’m in town until the morning of the 10th, so maybe we could catch up on the 9th?
 
@@ -40,7 +40,7 @@ remarks:
 - author: Andy Higgs
   gravatar: 3282170b113297711ac2a2d41bffb70d
   date: 2008-10-03T13:06:41+01:00
-  url: http://justbeyondthebridge.co.uk
+  url: https://justbeyondthebridge.co.uk
   content: |
     I’m not sure how it escaped my feed reader, but the new design completely missed me until I saw it in the ’pack newsletter.
 
@@ -49,7 +49,7 @@ remarks:
 - author: Jon Roobottom
   gravatar: 3efcc4aba5ec7f70f583459d7df26a3a
   date: 2008-10-05T17:51:51+01:00
-  url: http://roobottom.com
+  url: https://roobottom.com
   content: |
     I’m still not convinced about the left sidedness of this blog, but as you say it’s a bold move – and one that I may (like a LOT of your stuff) come to appreciate.
 

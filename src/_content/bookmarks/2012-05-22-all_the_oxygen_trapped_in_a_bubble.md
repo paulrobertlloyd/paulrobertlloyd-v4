@@ -1,7 +1,7 @@
 ---
 title: All the Oxygen Trapped in a Bubble
 date: 2012-05-22T01:49:24+01:00
-url: http://signalvnoise.com/posts/3177-all-the-oxygen-trapped-in-a-bubble
+url: https://signalvnoise.com/posts/3177-all-the-oxygen-trapped-in-a-bubble
 tags:
 - silicon_valley
 ---
@@ -11,4 +11,4 @@ David Heinemeier Hansson:
 
 Put another way, “the best minds of my generation are thinking about how to make people click ads” – [that’s the view of Jeff Hammerbacher][1], an early employee of Facebook.
 
-[1]: http://www.businessweek.com/magazine/content/11_17/b4225060960537.htm
+[1]: https://www.bloomberg.com/news/articles/2011-04-14/this-tech-bubble-is-different

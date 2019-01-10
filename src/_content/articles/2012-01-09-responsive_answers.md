@@ -35,7 +35,7 @@ Whilst I tried to take a purely content driven approach, where the layout would 
 
 I should also fess up; I started with a mostly desktop orientated design! Yet whenever I came across a tricky responsive design issue, I found refactoring my code to assume a linear ‘mobile first’ layout forced me to question the relative importance of every element. The delete key became an important ally.
 
-[1]: http://ethanmarcotte.com/
+[1]: https://ethanmarcotte.com/
 [2]: http://www.netmagazine.com/features/ethan-marcottes-20-favourite-responsive-sites
 [3]: /2012/01/goals_for_2012
 

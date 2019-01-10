@@ -1,7 +1,7 @@
 ---
 title: Does Google Have Any Social Skills at All?
 date: 2012-06-28T23:53:00+01:00
-url: http://gizmodo.com/5921823/does-google-have-any-social-skills-at-all
+url: https://gizmodo.com/5921823/does-google-have-any-social-skills-at-all
 tags:
 - google
 ---

@@ -62,7 +62,7 @@ I’ve unpicked quite a few threads here, perhaps only to tie myself in knots! B
 [6]: http://sammorr.is
 [7]: https://www.maban.co.uk
 [8]: https://console.maban.co.uk
-[9]: https://www.adactio.com/journal/13950
+[9]: https://adactio.com/journal/13950
 [10]: https://gesiowka.adactio.com/
 [11]: https://bradshaws.guide
 [12]: https://www.wired.co.uk/article/obsessive-depth-of-the-internet
@@ -70,10 +70,10 @@ I’ve unpicked quite a few threads here, perhaps only to tie myself in knots! B
 [14]: https://www.susanjeanrobertson.com/self/daily-drawing-quarter-in/
 [15]: https://augustwren.com/draw-every-day-book/
 [16]: https://www.alpower.com
-[17]: https://instagram.com/alpowerart
+[17]: https://www.instagram.com/alpowerart
 [18]: https://www.instagram.com/kimkardashian/
 [19]: https://www.instagram.com/gavinwilliamson.mp/
-[20]: https://www.cennydd.com/writing/against-craft
+[20]: https://www.cennydd.com/blog/against-craft
 [21]: https://indieweb.org
 [22]: https://indieweb.org/selfdogfood
 [23]: https://w3techs.com/technologies/overview/content_management/all

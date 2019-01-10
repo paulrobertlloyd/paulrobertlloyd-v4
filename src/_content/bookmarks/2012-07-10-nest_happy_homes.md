@@ -11,6 +11,6 @@ CEO, Tony Fadell on [Nest’s first advertising campaign][1]:
 
 > We hope the video allows people to take a brief pause in the day and to see the world through fresh eyes. And we hope it brings a smile to their faces too.
 
-[1]: http://www.fastcocreate.com/1681089/smart-thermostat-nest-looks-for-happy-homes-in-its-first-ad-campaign
+[1]: https://www.fastcompany.com/1681089/smart-thermostat-nest-looks-for-happy-homes-in-its-first-ad-campaign
 
 *[CEO]: Chief Executive Officer

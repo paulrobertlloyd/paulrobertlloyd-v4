@@ -19,7 +19,7 @@ Perhaps we can use it to understand another of its weird obsessions, “curing�
 
 I tend to agree with Steve Jobs, who said [death is the greatest invention of life][3]. Maybe this particular obsession is just a manifestation of what corporations perceive as death: regulation. As the original title of Ted’s article stated – the real danger to civilisation isn’t AI. It’s runaway capitalism.
 
-[1]: http://idlewords.com/talks/superintelligence.htm
+[1]: https://idlewords.com/talks/superintelligence.htm
 [2]: https://www.wired.com/2017/03/silicon-valley-rather-cure-death-make-life-worth-living/
 [3]: https://www.youtube.com/video/8XdhQ752PbA
 

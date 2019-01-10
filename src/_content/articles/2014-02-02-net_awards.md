@@ -25,9 +25,9 @@ The merit of awards ceremonies is often discussed ([look no further than this ve
 [Voting is open until 24 March][1], with the awards presented on 9 May.
 
 [1]: https://thenetawards.com/
-[2]: http://clearleft.com/is/james-bates
+[2]: https://clearleft.com/is/james-bates
 [3]: /2013/12/redesigning_24_ways
-[4]: http://clearleft.com
+[4]: https://clearleft.com
 [5]: http://www.frontendlondon.co.uk
 [6]: http://mkgeeknight.co.uk
 [7]: http://lanyrd.com

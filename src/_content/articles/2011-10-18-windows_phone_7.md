@@ -61,7 +61,7 @@ Overall, a good looking device that on closer inspection revealed itself to be c
 [1]: http://kruzeniski.com/
 [2]: http://kruzeniski.com/2011/how-print-design-is-the-future-of-interaction/
 [3]: http://www.jon.gd/2011/10/the-metaphors-breaking-the-future/
-[4]: http://en.wikipedia.org/wiki/HTC_HD7
+[4]: https://en.wikipedia.org/wiki/HTC_HD7
 [5]: http://dcurt.is/2011/10/03/3-point-5-inches/
 
 *[SXSW]: South by SouthWest

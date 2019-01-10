@@ -45,4 +45,4 @@ This distinctive mark could work at many sizes, with flat and rendered versions 
   caption: 'Associated brand collateral, including presentation folders, report covers, letterheads and business cards.'
 %}
 
-[1]: http://www.moxiesoft.com/
+[1]: https://www.gomoxie.com

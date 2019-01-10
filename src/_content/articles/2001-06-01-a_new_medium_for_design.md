@@ -111,10 +111,10 @@ From the areas of discussion above, it would seem there are two main issues. The
 
 [1]: http://news.bbc.co.uk/
 [2]: http://useit.com/
-[3]: http://web.archive.org/web/20010613211846/www.mtv.co.uk/
-[4]: http://web.archive.org/web/20010601150342/http://www.radiohead.com/
-[5]: http://web.archive.org/web/20010601091514/www.amazon.co.uk/
-[6]: http://web.archive.org/web/20010519121327/http://www.mtv2.co.uk/
+[3]: https://web.archive.org/web/20010613211846/www.mtv.co.uk/
+[4]: https://web.archive.org/web/20010601150342/http://www.radiohead.com/
+[5]: https://web.archive.org/web/20010601091514/www.amazon.co.uk/
+[6]: https://web.archive.org/web/20010519121327/http://www.mtv2.co.uk/
 
 *[CSS]: Cascading Style Sheets
 *[HTML]: HyperText Markup Language

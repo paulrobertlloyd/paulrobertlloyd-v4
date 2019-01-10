@@ -95,8 +95,8 @@ So, that’s my selection. I’ve undoubtedly missed many other seminal works �
 [14]: http://www.stubbornella.org/content/2011/04/28/our-best-practices-are-killing-us/
 [15]: http://nicolasgallagher.com/about-html-semantics-front-end-architecture/
 [16]: http://bradfrostweb.com/blog/post/performance-as-design/
-[17]: http://clearleft.com/thinks/responsivedesignonabudget/
-[18]: http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers/
+[17]: https://clearleft.com/thinks/responsivedesignonabudget/
+[18]: https://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers/
 
 *[CSS]: Cascading Style Sheets
 *[HTML]: HyperText Markup Language

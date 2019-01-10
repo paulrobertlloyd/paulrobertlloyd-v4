@@ -50,7 +50,7 @@ However, don’t let these principles dissuade you from nominating additions —
 [3]: http://www.komodomedia.com/blog/2009/06/social-network-icon-pack/
 [4]: http://ismikearringtonadick.com/
 [5]: http://friendfeed.com/
-[6]: http://facebook.com
+[6]: https://www.facebook.com/
 [7]: /2009/06/social_media_icons
 
 *[CMS]: Content Management System

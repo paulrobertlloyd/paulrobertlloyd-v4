@@ -49,6 +49,6 @@ I lack no courage to undertake a journey; I do however lack the courage of my co
 [9]: /2011/12/vancouver
 [10]: /2012/01/san_francisco
 [11]: /2010/02/a_green_focus
-[12]: http://en.wikipedia.org/wiki/Hypocrisy
+[12]: https://en.wikipedia.org/wiki/Hypocrisy
 
 *[DC]: District of Columbia

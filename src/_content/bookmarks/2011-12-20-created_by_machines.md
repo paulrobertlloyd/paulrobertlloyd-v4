@@ -14,5 +14,5 @@ This explains *everything*.
 
 (via [Buzz Andersen][2])
 
-[1]: http://www.amazon.co.uk/dp/1416596585
+[1]: https://www.amazon.co.uk/dp/1416596585
 [2]: http://log.scifihifi.com/post/14250409420

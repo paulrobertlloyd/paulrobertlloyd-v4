@@ -63,20 +63,20 @@ Much like I did after [my travels across Europe][12] last year, I’d like to fi
 
 Overall, whilst this trip was really inspiring, and a great start to this new decade, I feel as though I didn’t make the most of the opportunity. Given that I went all the way to New Zealand, not have seen some of the most popular sites (especially those on the South Island) only serves to annoy me. The same is true for the experience I had watching the fireworks display in Sydney. Had I planned properly, I may have gone to a ticketed event that could guarantee comfort and a view. The lesson to be learnt here is to focus on the preparation next time around.
 
-[1]: http://en.wikipedia.org/wiki/Melbourne_Cricket_Ground
-[2]: http://en.wikipedia.org/wiki/Shrine_of_Remembrance
-[3]: http://en.wikipedia.org/wiki/Federation_Square
-[4]: http://en.wikipedia.org/wiki/Eureka_tower
+[1]: https://en.wikipedia.org/wiki/Melbourne_Cricket_Ground
+[2]: https://en.wikipedia.org/wiki/Shrine_of_Remembrance
+[3]: https://en.wikipedia.org/wiki/Federation_Square
+[4]: https://en.wikipedia.org/wiki/Eureka_tower
 [5]: http://www.underconsideration.com/brandnew/archives/pieces_of_melbourne.php
 [6]: http://philmccluskey.com/
-[7]: http://en.wikipedia.org/wiki/1956_Summer_Olympics
-[8]: http://en.wikipedia.org/wiki/Lexus_Centre
+[7]: https://en.wikipedia.org/wiki/1956_Summer_Olympics
+[8]: https://en.wikipedia.org/wiki/Lexus_Centre
 [9]: http://www.nsm.org.au/
-[10]: http://en.wikipedia.org/wiki/Albert_Park_and_Lake
+[10]: https://en.wikipedia.org/wiki/Albert_Park_and_Lake
 [11]: http://news.bbc.co.uk/sport1/hi/motorsport/formula_one/7970488.stm
 [12]: /2009/06/europa
 [13]: http://signalvnoise.com/posts/1268-pack-half-of-what-you-think-you-need
-[14]: http://en.wikipedia.org/wiki/Flag_of_Australia
+[14]: https://en.wikipedia.org/wiki/Flag_of_Australia
 
 *[CBD]: Central Business District
 *[Mb]: Megabyte

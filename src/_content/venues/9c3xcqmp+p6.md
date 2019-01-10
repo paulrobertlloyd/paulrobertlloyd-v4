@@ -1,6 +1,6 @@
 ---
 title: The All England Lawn Tennis & Croquet Club
-url: http://www.wimbledon.com
+url: https://www.wimbledon.com
 address:
   street-address: 3 Church Road
   locality: Wimbledon

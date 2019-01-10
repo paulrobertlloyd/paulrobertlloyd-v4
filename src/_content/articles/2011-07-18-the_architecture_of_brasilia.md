@@ -61,7 +61,7 @@ No city can compare itself against Brasília’s unique landscape, the result of
 
 Niemeyer is now 103 and still relied upon by the city for many of their key architectural projects. Yet upon his passing, it would seem he has left ample documentation on how to design the buildings of its future.
 
-[1]: http://en.wikipedia.org/wiki/Lucio_Costa
-[2]: http://en.wikipedia.org/wiki/Juscelino_Kubitschek
-[3]: http://en.wikipedia.org/wiki/Oscar_Niemeyer
+[1]: https://en.wikipedia.org/wiki/Lucio_Costa
+[2]: https://en.wikipedia.org/wiki/Juscelino_Kubitschek
+[3]: https://en.wikipedia.org/wiki/Oscar_Niemeyer
 [4]: /2011/03/brasilia_palace_hotel

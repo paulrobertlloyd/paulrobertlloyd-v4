@@ -61,7 +61,7 @@ slides:
     But what of the political aspirations that surround our work?
 - image: /images/2018/04/create_leicester/8.png
   notes: |
-    In 2011, Marc Andreessen penned [an essay for the Wall Street Journal](https://a16z.com/2016/08/20/why-software-is-eating-the-world/), in which he suggested that every company needed to become a software company for it to remain relevant:
+    In 2011, Marc Andreessen penned [an essay for the Wall Street Journal](https://a16z.com/2011/08/20/why-software-is-eating-the-world/), in which he suggested that every company needed to become a software company for it to remain relevant:
 
     > Six decades into the computer revolution, four decades since the invention of the microprocessor, and two decades into the rise of the modern Internet, all of the technology required to transform industries through software finally works and can be widely delivered at global scale.
 
@@ -240,7 +240,7 @@ slides:
     Others argue that design is already a fairly exclusive cabal, and such a scheme would only serve to make design less accessible and exaggerate its elitist tendancies. Surely, far better to educate people about what design is and how it can be used to achieve both good and bad outcomes?
 - image: /images/2018/04/create_leicester/34.png
   notes: |
-    This is an approach people like Khoi Vinh are advocating. Rather than seeking accreditation, he’s been [advocating for digital design to become subject to thoughtful, critical journalism](https://www.fastcodesign.com/90155005).
+    This is an approach people like Khoi Vinh are advocating. Rather than seeking accreditation, he’s been [advocating for digital design to become subject to thoughtful, critical journalism](https://www.fastcompany.com/90155005/design-discourse-is-in-a-state-of-arrested-development).
 
     This is especially true since the discourse among designers can tend toward the shallow and superficial, and can be influenced by having an eye on furthering one’s own career.
 
@@ -272,7 +272,7 @@ slides:
     The first step is awareness. But to change our culture for the better, we need to take action. Each of us has work to do.
 - image: /images/2018/04/create_leicester/38.png
   notes: |
-    I want to finish tonight with [this thought from Mark Zuckerberg](https://facebook.com/notes/mark-zuckerberg/10155448869996634):
+    I want to finish tonight with [this thought from Mark Zuckerberg](https://www.facebook.com/notes/mark-zuckerberg/10155448869996634):
 
     > One of my favorite sayings is that there are two kinds of people: optimists and pessimists. And the saying goes: optimists tend to be successful, and pessimists tend to be right.
     > The idea is that if you think something’s going to be terrible, then you’re going to look for data points that prove you right. And you’re going to find them! That’s what pessimists do.

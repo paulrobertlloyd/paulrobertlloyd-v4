@@ -78,7 +78,7 @@ There is so much at stake. And there’s still so much more I want to say. But f
 [3]: https://twitter.com/paulrobertlloyd/status/440150465419153408
 [4]: /2015/12/peaceful_reflection
 [5]: http://www.bbc.com/news/36462432
-[6]: http://www.newstatesman.com/2016/06/nigel-farage-s-anti-eu-poster-depicting-migrants-resembles-nazi-propaganda
+[6]: https://www.newstatesman.com/2016/06/nigel-farage-s-anti-eu-poster-depicting-migrants-resembles-nazi-propaganda
 [7]: http://indy100.independent.co.uk/article/a-journalist-has-shared-a-story-about-boris-johnson-that-completely-undermines-his-authority-on-the-eu--bkoHJPBuVZ
 [8]: https://www.theguardian.com/football/2016/jun/18/whitehall-suspects-kremlin-links-to-russian-euro-2016-hooligans-vladimir-putin
 [9]: https://www.theguardian.com/commentisfree/2016/jun/15/european-union-eu-britain-sovereignty

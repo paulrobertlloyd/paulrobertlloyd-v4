@@ -1,7 +1,7 @@
 ---
 title: The Social Graph is Neither
 date: 2011-11-09T21:16:51Z
-url: http://blog.pinboard.in/2011/11/the_social_graph_is_neither/
+url: https://blog.pinboard.in/2011/11/the_social_graph_is_neither/
 tags:
 - social_media
 - advertising

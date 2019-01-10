@@ -41,6 +41,6 @@ The journey is the reward, and that journey continues.
 
 [1]: http://www.usatoday.com/news/nation/2006-04-05-sf-earthquake-cover_x.htm
 [2]: http://signalvnoise.com/posts/3138-bruces-keynote-at-the-sxsw-music-festival
-[3]: http://en.wikipedia.org/wiki/Hanlon's_razor
+[3]: https://en.wikipedia.org/wiki/Hanlon's_razor
 
 *[SXSW]: South by SouthWest
