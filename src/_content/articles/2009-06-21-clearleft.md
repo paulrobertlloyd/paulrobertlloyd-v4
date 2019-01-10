@@ -35,13 +35,13 @@ I love that [the][4] [three][9] [founders][10] continue to innovate and guide th
 
 I’m amazed it took me this long to say yes.
 
-[1]: http://clearleft.com/
+[1]: https://clearleft.com/
 [2]: http://ning.com/
 [3]: /2009/05/a_european_adventure
 [4]: http://andybudd.com/
 [5]: http://uxlondon.com/
 [6]: http://dconstruct.org/
-[7]: http://clearleft.com/does/teach/
+[7]: https://clearleft.com/does/teach/
 [8]: http://silverbackapp.com/
 [9]: http://adactio.com/
 [10]: http://clagnut.com/

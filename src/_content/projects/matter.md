@@ -71,5 +71,5 @@ One of the guiding principles established early on was to privilege the reading 
   image_preset: 'thumbnail'
 %}
 
-[1]: http://www.kickstarter.com/projects/readMatter/Matter
+[1]: https://www.kickstarter.com/projects/readmatter/matter
 [2]: https://adactio.com/journal/5886

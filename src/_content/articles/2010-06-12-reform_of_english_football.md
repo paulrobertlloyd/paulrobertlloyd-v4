@@ -38,7 +38,7 @@ Much like the wider economy, football in this country is an overinflated bubble 
 Only by radically reforming the governance and management of the sport, can we ever hope to win the World Cup.
 
 [1]: /articles/fcplc
-[2]: http://en.wikipedia.org/wiki/Malcolm_Glazer_ownership_of_Manchester_United
+[2]: https://en.wikipedia.org/wiki/Malcolm_Glazer_ownership_of_Manchester_United
 [3]: http://news.bbc.co.uk/1/hi/magazine/8010031.stm
 
 *[FA]: Football Association

@@ -26,7 +26,7 @@ remarks:
 
     Small steps are the way to get the majority to do things as otherwise they wouldn’t bother and when they’re factored up it does make a difference. Some things though have to be taken with a pinch of salt: putting my Mac or Sky plus to sleep doesn’t even register on either of my two energy monitors. I think this kind of thing puts people into a false sense of doing something when most probably they aren’t. You’re much better off putting on a jumper and turning the heating down or having fewer lights and gadgets on. But that is too didatic for some.
 
-    If you are serious about you carbon footprint and you aren’t a veggie/vegan you should really consider at least a veggie diet. The meat industry uses a massive amount of energy, water and food that could be better utilised than making a Big Mac! Have a read of <http://en.wikipedia.org/wiki/Environmental_vegetarianism> I’ve been veggie for 15 years and it really isn’t hard.
+    If you are serious about you carbon footprint and you aren’t a veggie/vegan you should really consider at least a veggie diet. The meat industry uses a massive amount of energy, water and food that could be better utilised than making a Big Mac! Have a read of <https://en.wikipedia.org/wiki/Environmental_vegetarianism> I’ve been veggie for 15 years and it really isn’t hard.
 
     And you should subscribe to <http://www.ethicalconsumer.org> which can really shed light on a lot issues (how carbon offsetting is a load of nonsense for example).
 

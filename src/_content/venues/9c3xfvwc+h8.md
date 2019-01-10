@@ -1,6 +1,6 @@
 ---
 title: Emmanuel Centre
-url: http://emmanuelcentre.com
+url: https://www.emmanuelcentre.com
 address:
   street-address: 9-23 Marsham Street
   locality: Westminster

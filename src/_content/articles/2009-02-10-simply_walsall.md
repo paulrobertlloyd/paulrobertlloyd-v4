@@ -36,7 +36,7 @@ Another big regeneration project nearing completion in the town is the new campu
 Unlike the Council, there seems to be no desire to retain elements from the previous logo. Frankly I never understood what the previous logo was meant to represent, although I guess the wave like shapes were intended to be wings of some sort (where wings equate to aspiration and reaching higher). The new logo does keep the wing-like motif, yet is equally vague, with the wings coming together to form a rib-cage like shape. Again, if you know who was behind this logo, please let me know.
 
 [1]: http://www.walsall.gov.uk
-[2]: http://en.wikipedia.org/wiki/Walsall_local_elections
+[2]: https://en.wikipedia.org/wiki/Walsall_local_elections
 [3]: http://new.myfonts.com/WhatTheFont/
 [4]: http://new.myfonts.com/fonts/linotype/cronos/
 [5]: http://www.walsallcollege.ac.uk/

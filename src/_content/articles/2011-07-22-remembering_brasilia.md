@@ -41,12 +41,12 @@ However, I couldn’t come all this way without visiting Brasília’s more famo
 Clearly this is a city from a different age, albeit one that failed to realise the dreams of its founders (whilst the city is safe there are many satellite towns which you are advised not to visit). In many ways I wished I had visited the city that I had read about; I hoped to find utopia but instead found a distinctive city struggling to grow beyond its idealistic plans.
 
 [1]: /2011/07/the_architecture_of_brasilia
-[2]: http://en.wikipedia.org/wiki/National_Congress_of_Brazil
-[3]: http://en.wikipedia.org/wiki/Brasilia_TV_Tower
+[2]: https://en.wikipedia.org/wiki/National_Congress_of_Brazil
+[3]: https://en.wikipedia.org/wiki/Brasilia_TV_Tower
 [4]: http://memorialjk.com.br/eng/
-[5]: http://en.wikipedia.org/wiki/Juscelino_Kubitschek
-[6]: http://en.wikipedia.org/wiki/Cathedral_of_Brasilia
+[5]: https://en.wikipedia.org/wiki/Juscelino_Kubitschek
+[6]: https://en.wikipedia.org/wiki/Cathedral_of_Brasilia
 [7]: http://www.lonelyplanet.com/brazil/the-central-west/brasilia/sights/architecture/santuario-dom-bosco
-[8]: http://en.wikipedia.org/wiki/Praca_dos_Tres_Poderes
+[8]: https://en.wikipedia.org/wiki/Praca_dos_Tres_Poderes
 
 *[JK]: Juscelino Kubitschek

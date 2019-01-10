@@ -136,10 +136,10 @@ If it wasn’t obvious, I’m absolutely bowled over by what the BBC User Experi
 [12]: /images/2010/02/bbc_online_gvl/bbc_news_redesign_home.png
 [13]: /images/2010/02/bbc_online_gvl/bbc_news_redesign_story.png
 [14]: https://www.bbc.co.uk/blogs/bbcinternet/2010/02/a_new_global_visual_language_f.html
-[15]: http://en.wikipedia.org/wiki/Neville_Brody
+[15]: https://en.wikipedia.org/wiki/Neville_Brody
 [16]: http://www.researchstudios.com/
 [17]: https://twitter.com/jvbates
-[18]: http://960.gs
+[18]: https://960.gs
 [19]: http://www.engadget.com/2010/02/15/windows-phone-7-series-hands-on-and-impressions
 
 *[BBC]: British Broadcasting Corporation

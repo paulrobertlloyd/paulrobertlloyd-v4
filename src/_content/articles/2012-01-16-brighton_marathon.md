@@ -37,7 +37,7 @@ I’ve pledged to raise £500, but I want to do much better than that — especi
 [3]: http://brightonmarathon.co.uk/
 [4]: http://brightonhalfmarathon.com/
 [5]: http://www.actionforchildren.org.uk/
-[6]: http://clearleft.com/
+[6]: https://clearleft.com/
 [7]: /2012/01/goals_for_2012
 [8]: http://www.justgiving.com/prlrun2012/
 

@@ -68,8 +68,8 @@ At a later date, I may release [the plugin I’m using to generate responsive im
 Yet if there’s one thing I’ve learnt while making this tentitive journey into the world of programing, it’s that taking one step at a time is often the most sensible approach.
 
 [1]: /2015/07/shipped
-[2]: http://jekyllrb.com
-[3]: http://jekyllrb.com/docs/plugins/
+[2]: https://jekyllrb.com
+[3]: https://jekyllrb.com/docs/plugins/
 [4]: https://www.ruby-lang.org/en/
 [5]: https://www.bbc.co.uk/commissioning/tv/production/articles/credits-branding-trademarks
 [6]: https://github.com/paulrobertlloyd/jekyll-roman

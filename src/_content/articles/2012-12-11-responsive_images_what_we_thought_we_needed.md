@@ -118,7 +118,7 @@ So here is my proposal. Instead of spending the next year worrying about respons
 [7]: http://blog.yoav.ws/2012/05/Responsive-image-format
 [8]: http://blog.netvlies.nl/design-interactie/retina-revolution/
 [9]: http://blog.cloudfour.com/a-framework-for-discussing-responsive-images-solutions/
-[10]: http://clearleft.com/
+[10]: https://clearleft.com/
 [11]: http://blog.andyhume.net/responsive-containers/
 [12]: http://qz.com/
 [13]: http://thenextweb.com/

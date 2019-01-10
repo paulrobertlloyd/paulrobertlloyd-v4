@@ -64,18 +64,18 @@ I was particularly impressed by the city’s [Metro][11] system. Built towards t
 
 The weirdest experience during my stay was visiting [L’Enfant Plaza][12]. Named after the French-American Pierre Charles L’Enfant who planned the layout of the city, and served by all four lines on the metro network, I assumed there would be something worth seeing at this stop. Instead, I was greeted by a 60’s dystopia in the form of a deserted shopping mall — only occupied by me and somebody else who had also got lost in its maze. Having finally being able to exit the building, I was confronted by a mass of brutal concrete, a dull residential estate, and finally a hotel, which given its surroundings was a little surprising.
 
-[1]: http://en.wikipedia.org/wiki/Vietnam_Veterans_Memorial
-[2]: http://en.wikipedia.org/wiki/Maya_Ying_Lin
-[3]: http://en.wikipedia.org/wiki/USMC_War_Memorial
-[4]: http://en.wikipedia.org/wiki/Felix_de_Weldon
-[5]: http://en.wikipedia.org/wiki/Raising_the_Flag_on_Iwo_Jima
-[6]: http://en.wikipedia.org/wiki/Netherlands_Carillon
-[7]: http://en.wikipedia.org/wiki/The_Pentagon
-[8]: http://en.wikipedia.org/wiki/Pentagon_Memorial
-[9]: http://en.wikipedia.org/wiki/Washington_Dulles_International_Airport
-[10]: http://en.wikipedia.org/wiki/Eero_Saarinen
-[11]: http://en.wikipedia.org/wiki/Washington_Metro
-[12]: http://en.wikipedia.org/wiki/L'Enfant_Plaza
+[1]: https://en.wikipedia.org/wiki/Vietnam_Veterans_Memorial
+[2]: https://en.wikipedia.org/wiki/Maya_Ying_Lin
+[3]: https://en.wikipedia.org/wiki/USMC_War_Memorial
+[4]: https://en.wikipedia.org/wiki/Felix_de_Weldon
+[5]: https://en.wikipedia.org/wiki/Raising_the_Flag_on_Iwo_Jima
+[6]: https://en.wikipedia.org/wiki/Netherlands_Carillon
+[7]: https://en.wikipedia.org/wiki/The_Pentagon
+[8]: https://en.wikipedia.org/wiki/Pentagon_Memorial
+[9]: https://en.wikipedia.org/wiki/Washington_Dulles_International_Airport
+[10]: https://en.wikipedia.org/wiki/Eero_Saarinen
+[11]: https://en.wikipedia.org/wiki/Washington_Metro
+[12]: https://en.wikipedia.org/wiki/L'Enfant_Plaza
 
 *[DC]: District of Columbia
 *[US]: United States

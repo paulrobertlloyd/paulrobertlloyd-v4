@@ -1,7 +1,7 @@
 ---
 title: Next Larger Context
 date: 2012-02-27T02:03:33Z
-url: http://quotevadis.com/post/18011423665/eliel-saarinen-always-design-things-by-context
+url: https://quotesondesign.com/eliel-saarinen/
 tags:
 - design
 - architecture

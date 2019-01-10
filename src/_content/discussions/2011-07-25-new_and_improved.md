@@ -76,7 +76,7 @@ remarks:
 - author: Stijn
   gravatar: 413a0b5b0f66e640abed33a46f70e602
   date: 2011-08-26T19:18:18+01:00
-  url: http://aardling.com/
+  url: https://aardling.com/
   content: |
     Impressive redesign. Your initial idea to place more focus on the content really shines through. I’ve been taking a look at your source code and CSS styling. It’s only now that I notice the responsive design while resizing my browser. Have you noticed any differences in your traffic coming from mobile visitors? Time on site, numbers of pages viewed, that sort of thing.
 ---

@@ -56,7 +56,7 @@ It doesn’t seem outside the realm of possibility that we’ll soon be creating
 [6]: http://www.theguardian.com/
 [7]: http://fbrctr.github.io
 [8]: https://twitter.com/LukeAskew/
-[9]: http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
+[9]: https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
 [10]: http://stackoverflow.com/questions/28078681/why-cant-fieldset-be-flex-containers
 [11]: https://developer.mozilla.org/en-US/docs/Web/CSS/Replaced_element
 [12]: http://alistapart.com/article/responsive-web-design

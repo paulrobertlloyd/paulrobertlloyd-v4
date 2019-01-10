@@ -46,4 +46,4 @@ That was it. Just one day in Vancouver, but I’d seen enough to warrant a retur
 [4]: http://stephaniehobson.ca/
 [5]: http://mezzoblue.com/
 [6]: http://alibi.ca/
-[7]: http://en.wikipedia.org/wiki/Stanley_Park
+[7]: https://en.wikipedia.org/wiki/Stanley_Park

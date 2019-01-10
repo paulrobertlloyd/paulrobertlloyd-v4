@@ -23,6 +23,6 @@ Canadian design super-duo [Hulse&Durrell][1], worked on what could only be descr
 
 Jealous? I’m green with envy.
 
-[1]: http://hulsedurrell.com/
-[2]: http://hulsedurrell.com/project/olympic-heritage-collection
-[3]: http://www.underconsideration.com/brandnew/archives/new_name_logo_and_identity_for_olympic_heritage_collection_by_hulsedurrell.php
+[1]: https://hulsedurrell.com
+[2]: https://hulsedurrell.com/Olympic-Heritage
+[3]: https://www.underconsideration.com/brandnew/archives/new_name_logo_and_identity_for_olympic_heritage_collection_by_hulsedurrell.php

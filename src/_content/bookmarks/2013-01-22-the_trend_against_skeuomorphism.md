@@ -1,7 +1,7 @@
 ---
 title: The Trend Against Skeuomorphic Textures and Effects in User Interface Design
 date: 2013-01-22T00:16:44Z
-url: http://daringfireball.net/2013/01/the_trend_against_skeuomorphism
+url: https://daringfireball.net/2013/01/the_trend_against_skeuomorphism
 tags:
 - design
 - user_interface
@@ -16,10 +16,10 @@ I’m not sure this trend has much to do with HiDPI displays though. I suspect, 
 
 Be sure to read [Max Rudberg’s counter argument][5], too.
 
-[1]: http://daringfireball.net/misc/2013/01/mail-footer.png
+[1]: https://daringfireball.net/misc/2013/01/mail-footer.png
 [2]: http://layervault.tumblr.com/post/32267022219/flat-interface-design
-[3]: http://en.wikipedia.org/wiki/Art_Nouveau
-[4]: http://en.wikipedia.org/wiki/Minimalism
+[3]: https://en.wikipedia.org/wiki/Art_Nouveau
+[4]: https://en.wikipedia.org/wiki/Minimalism
 [5]: http://blog.maxrudberg.com/post/41005209081/flat-ui-is-not-the-only-way-forward
 
 *[BBC]: British Broadcasting Corporation

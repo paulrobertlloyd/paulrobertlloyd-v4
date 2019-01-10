@@ -176,18 +176,18 @@ It still feels like we’re at the very beginning of understanding how preproces
 Even with sensible rules and conventions in place, naming things can remain difficult, but hopefully I’ve made this exercise a little less painful. Christmas is a time of giving, so to the developer reading your code in a year’s time, why not make your gift one of clearer class names.
 
 [1]: http://nicolasgallagher.com/about-html-semantics-front-end-architecture/
-[2]: http://cssguidelin.es/#naming:
-[3]: http://smacss.com/
-[4]: http://smacss.com/book/categorizing
+[2]: https://cssguidelin.es/#naming
+[3]: https://smacss.com/
+[4]: https://smacss.com/book/categorizing
 [5]: https://github.com/suitcss/
 [6]: https://github.com/suitcss/suit/blob/master/doc/naming-conventions.md
-[7]: http://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
+[7]: https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/
 [8]: http://www.w3.org/TR/CSS2/syndata.html#characters
 [9]: https://en.wikipedia.org/wiki/Category:Publishing_terms
 [10]: http://next.theguardian.com/blog/bison/
 [11]: http://www.tfl.gov.uk/corporate/about-tfl/culture-and-heritage/art-and-design/the-roundel
 [12]: http://www.wikiwand.com/en/Swoosh
-[13]: http://schema.org/
+[13]: https://schema.org/
 [14]: http://dublincore.org/documents/usageguide/elements.shtml
 [15]: https://www.bbc.co.uk/ontologies
 [16]: http://microformats.org/wiki/microformats2

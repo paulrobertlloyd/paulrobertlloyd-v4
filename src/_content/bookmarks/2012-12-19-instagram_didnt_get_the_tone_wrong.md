@@ -1,7 +1,7 @@
 ---
 title: Instagram Didn’t Get The Tone Wrong
 date: 2012-12-19T13:15:18Z
-url: http://asburyandasbury.typepad.com/blog/2012/12/instagram-didnt-get-the-tone-wrong.html
+url: https://asburyandasbury.typepad.com/blog/2012/12/instagram-didnt-get-the-tone-wrong.html
 tags:
 - instagram
 - facebook
@@ -13,4 +13,4 @@ Fantastic commentary regarding Instagram’s [clarification][1] of its [controve
 > The ‘clarification’ is an example of tone of voice being used to obscure and mollify. Almost like a filter applied to a photo, giving it nice fuzzy edges and an air of authenticity.
 
 [1]: http://blog.instagram.com/post/38252135408/thank-you-and-were-listening
-[2]: http://www.guardian.co.uk/technology/2012/dec/18/facebook-instagram-sell-uploaded-photos
+[2]: https://www.theguardian.com/technology/2012/dec/18/facebook-instagram-sell-uploaded-photos

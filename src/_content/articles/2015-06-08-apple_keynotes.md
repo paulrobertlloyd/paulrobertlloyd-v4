@@ -28,4 +28,4 @@ Apple are just another technology company, trying to sell me stuff I don’t wan
 [1]: https://twitter.com/paulrobertlloyd/status/607965028705267713
 [2]: http://www.apple.com/live/2015-june-event/
 [3]: https://www.youtube.com/video/Nx7v815bYUw
-[4]: http://en.wikipedia.org/wiki/Benefit_corporation
+[4]: https://en.wikipedia.org/wiki/Benefit_corporation

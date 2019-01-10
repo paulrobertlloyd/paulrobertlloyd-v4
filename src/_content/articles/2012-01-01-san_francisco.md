@@ -39,7 +39,7 @@ My last day in San Francisco was also the last of this trip. With my flight depa
 [In March I wondered][17] if I could ever call San Francisco home again. Yet as I enjoyed these two short days in the company of old friends, witnessing their positivity and optimism, I left questioning the validity of my earlier position. Maybe I did leave a little part of my heart in San Francisco, after all.
 
 [1]: /2011/12/north_america
-[2]: http://en.wikipedia.org/wiki/Coast_Starlight
+[2]: https://en.wikipedia.org/wiki/Coast_Starlight
 [4]: http://bluebottlecoffee.net/locations/ferry-building/
 [5]: http://davidlwarner.com/
 [6]: http://eatatplow.com/
@@ -50,8 +50,8 @@ My last day in San Francisco was also the last of this trip. With my flight depa
 [11]: https://twitter.com/tomdzk
 [12]: http://universalcafe.net/
 [13]: http://sfheritage.org/haas-lilienthal-house/
-[14]: http://en.wikipedia.org/wiki/Ocean_Beach,_San_Francisco,_California
-[15]: http://en.wikipedia.org/wiki/Cliff_House,_San_Francisco
+[14]: https://en.wikipedia.org/wiki/Ocean_Beach,_San_Francisco,_California
+[15]: https://en.wikipedia.org/wiki/Cliff_House,_San_Francisco
 [16]: http://cliffhouse.com/bistro/
 [17]: /2011/03/san_francisco
 

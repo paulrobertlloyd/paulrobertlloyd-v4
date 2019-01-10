@@ -100,7 +100,7 @@ The app was far more successful than anticipated, spending a number of weeks in 
   caption: 'Alex Watson, Head of App Development, Dennis Publishing'
 %}
 
-[1]: http://www.theweek.co.uk
+[1]: https://www.theweek.co.uk
 [2]: https://pugpig.com
 
 *[UK]: United Kingdom

@@ -18,5 +18,5 @@ He also asks a good question; what’s the guiding principle behind everything y
 (Via [Tim Van Damme][3])
 
 [1]: http://worrydream.com/
-[2]: http://2012.cusec.net/
-[3]: http://maxvoltar.com/archive/inventing-on-principle
+[2]: https://2012.cusec.net
+[3]: https://maxvoltar.com/archive/inventing-on-principle

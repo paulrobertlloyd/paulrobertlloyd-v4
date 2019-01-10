@@ -44,7 +44,7 @@ In the meantime, perhaps there needs to be a discussion about which approaches w
 [7]: https://developers.google.com/speed/docs/insights/EnableCompression
 [8]: https://en.wikipedia.org/wiki/BREACH_(security_exploit)
 [9]: http://breachattack.com/#mitigations
-[10]: http://jekyllrb.com
+[10]: https://jekyllrb.com
 [11]: https://formspree.io
 [12]: http://docs.webfaction.com/user-guide/websites.html#creating-a-website
 [13]: http://nginx.com/resources/admin-guide/compression-and-decompression/

@@ -23,7 +23,7 @@ This is nothing short of a scandal, yet one helpfully suppressed by the current 
 
 Beyond the depressing particulars of this story, as someone who worked on an earlier design of the Channel 4 News website, I found the presentation of this story to be encouraging, not least because of its uncluttered layout, digestible content and accessible data visualisations. As a news team renowned for its in-depth reporting and investigations, I hope this article is a sign that we can expect more of its online coverage to meet those same high standards.
 
-[1]: http://www.theguardian.com/commentisfree/2016/feb/12/the-guardian-view-on-changing-constituency-boundaries-unfair-and-undemocratic
+[1]: https://www.theguardian.com/commentisfree/2016/feb/12/the-guardian-view-on-changing-constituency-boundaries-unfair-and-undemocratic
 [2]: https://en.wikipedia.org/wiki/Gerrymandering
-[3]: http://www.theguardian.com/politics/2016/jan/10/labour-expecting-6m-loss-in-funding-through-trade-union-bill
+[3]: https://www.theguardian.com/politics/2016/jan/10/labour-expecting-6m-loss-in-funding-through-trade-union-bill
 [4]: https://www.gov.uk/government/topical-events/anti-corruption-summit-london-2016

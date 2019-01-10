@@ -1,7 +1,7 @@
 ---
 title: Modern Medicine
 date: 2012-05-24T01:42:30+01:00
-url: http://farmerandfarmer.org/medicine/
+url: https://farmerandfarmer.org/medicine/
 tags:
 - social_media
 - software_development

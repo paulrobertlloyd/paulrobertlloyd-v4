@@ -55,7 +55,7 @@ Last year the Dutch Government [took a similar approach][2] with it’s ‘Proje
 
 The identity was created by Rotterdam based [Studio Dunbar][3] with a [custom typeface][4] ([Rijksoverheid][5]) designed by Peter Verheul. Announced in 2008, the roll out is intended to be complete by 2011.
 
-[Project 1 Logo Design Guidelines](http://web.archive.org/web/20110228221006/http://rijkshuisstijl.communicatieplein.nl/){hreflang="nl-NL"} (retrieved from the Internet Archive, in Dutch)
+[Project 1 Logo Design Guidelines](https://web.archive.org/web/20110228221006/http://rijkshuisstijl.communicatieplein.nl/){hreflang="nl-NL"} (retrieved from the Internet Archive, in Dutch)
 
 {% include 'figure' with '/images/2009/09/government_identity/netherlands.png'
   caption: '**Logos for Dutch Government and ministries:** A single identity system is used across the different Dutch ministries. Shown here are the main government logo are those for ministries of Justice; Health, Welfare and Sport; Finance and Foreign Affairs.'

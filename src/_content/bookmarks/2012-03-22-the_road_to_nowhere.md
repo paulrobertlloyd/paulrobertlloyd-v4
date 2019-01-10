@@ -9,7 +9,7 @@ tags:
 ---
 [Ben][1] has posted his photos from our recent US road trip; five states, four days, three nights, two drivers, one [misbehaved passenger][2].
 
-[1]: http://benbarnett.net/
+[1]: https://benbarnett.net
 [2]: http://andyhume.net/
 
 *[US]: United States

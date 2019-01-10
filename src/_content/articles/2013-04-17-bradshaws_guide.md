@@ -57,15 +57,15 @@ The source code is [available on GitHub][13], and I encourage you to submit issu
 
 Now, like Bradshaw before me, I’m off to continue my travels.
 
-[1]: http://bradshawsguide.org
-[2]: http://en.wikipedia.org/wiki/Great_British_Railway_Journeys
+[1]: https://bradshaws.guide
+[2]: https://en.wikipedia.org/wiki/Great_British_Railway_Journeys
 [3]: http://bradshawsguides.com/books-and-maps.html
 [4]: http://getkirby.com
 [5]: http://getkirby.com/blog/php-templates
 [6]: http://bastianallgeier.com
 [7]: http://www.joshemerson.co.uk
 [8]: https://github.com/shoesforindustry/kirbycms-extensions/tree/master/plugins/alphabetise
-[9]: http://bradshawsguide.org/routes/section:1
+[9]: https://bradshaws.guide/routes/section:1
 [10]: http://2013.uxlondon.com
 [11]: https://foursquare.com/bradshawsguide
 [12]: https://twitter.com/bradshawsguide

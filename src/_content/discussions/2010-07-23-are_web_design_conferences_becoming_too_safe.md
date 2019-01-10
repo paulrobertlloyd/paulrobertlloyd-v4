@@ -335,7 +335,7 @@ remarks:
 - author: Paul Robert Lloyd
   gravatar: 15091a37bacfa4bdd011282627eaca2b
   date: 2010-07-27T20:10:40+01:00
-  url: http://paulrobertlloyd.com/
+  url: https://paulrobertlloyd.com/
   content: |
     Thank-you all for your comments. Most of the debate that followed here, on Twitter, and offline has been fascinating – there certainly seems to be an appetite for more experimentation at web design conferences, as well as a desire to see more people in our community take to the speaking circuit.
 

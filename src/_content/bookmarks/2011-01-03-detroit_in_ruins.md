@@ -1,7 +1,7 @@
 ---
 title: Detroit in Ruins
 date: 2011-01-03T18:21:14Z
-url: http://www.theguardian.com/artanddesign/gallery/2011/jan/02/photography-detroit
+url: https://www.theguardian.com/artanddesign/gallery/2011/jan/02/photography-detroit
 tags:
 - photography
 - detroit

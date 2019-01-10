@@ -15,4 +15,4 @@ tags:
 A truly stunning timelapse of Yosemite National Park, a collaboration between [Sheldon Neill][1] and [Colin Delehanty][2]. More information about the project can be found at <http://projectyose.com/>.
 
 [1]: http://sheldonneill.com/
-[2]: http://cdelehanty.com/
+[2]: http://colindelehanty.com

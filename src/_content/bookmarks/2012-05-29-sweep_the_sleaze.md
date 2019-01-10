@@ -1,7 +1,7 @@
 ---
 title: Sweep the Sleaze
 date: 2012-05-29T14:14:01+01:00
-url: http://informationarchitects.net/blog/sweep-the-sleaze/
+url: https://ia.net/topics/sweep-the-sleaze
 tags:
 - social_media
 - web

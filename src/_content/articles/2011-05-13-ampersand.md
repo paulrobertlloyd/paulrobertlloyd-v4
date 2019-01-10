@@ -46,7 +46,7 @@ So, there we have it. Lots to look forward to, and still much to plan, yet I sus
 [1]: http://www.thedesignofunderstanding.com/
 [2]: http://newadventuresconf.com/
 [3]: http://2011.uxlondon.com/
-[4]: http://www.multipack.co.uk/presents/mobile-development/
+[4]: http://multipack.co.uk/presents/mobile-development/
 [5]: /talks/multipack_presents_november_2010
 [6]: /talks/apa_digital_breakfast_march_2011
 [7]: http://www.apa.co.uk/news/digital-breakfast-web-design-trends-tues-08-march/
@@ -65,7 +65,7 @@ So, there we have it. Lots to look forward to, and still much to plan, yet I sus
 [20]: http://aneventapart.com/2011/dc/
 [21]: https://twitter.com/dpc47
 [22]: https://twitter.com/lizes
-[23]: http://en.wikipedia.org/wiki/Canadian_(train)
+[23]: https://en.wikipedia.org/wiki/Canadian_(train)
 [24]: http://lanyrd.com/people/paulrobertlloyd/
 
 *[APA]: Association of Publishing Agencies

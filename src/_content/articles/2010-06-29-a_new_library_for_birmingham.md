@@ -49,11 +49,11 @@ Were it not for its unfortunate position, where it obstructs the flow of pedestr
 
 Will we talking about demolishing the new library in 40 years time, bemoaning its messy, ill-defined exterior? Following a string of other big building projects in the city, none of which seem to give the city any architectural identity, it seems likely.
 
-[1]: http://en.wikipedia.org/wiki/Brindley_Place
-[2]: http://en.wikipedia.org/wiki/British_Telecom_Tower_(Birmingham)
-[3]: http://en.wikipedia.org/wiki/Rotunda_(Birmingham)
+[1]: https://en.wikipedia.org/wiki/Brindley_Place
+[2]: https://en.wikipedia.org/wiki/British_Telecom_Tower_(Birmingham)
+[3]: https://en.wikipedia.org/wiki/Rotunda_(Birmingham)
 [4]: http://libraryofbirmingham.com/
 [5]: http://www.mecanoo.nl/
-[6]: http://en.wikipedia.org/wiki/Birmingham_Central_Library
-[7]: http://en.wikipedia.org/wiki/John_Madin
-[8]: http://en.wikipedia.org/wiki/Alpha_Tower
+[6]: https://en.wikipedia.org/wiki/Birmingham_Central_Library
+[7]: https://en.wikipedia.org/wiki/John_Madin
+[8]: https://en.wikipedia.org/wiki/Alpha_Tower

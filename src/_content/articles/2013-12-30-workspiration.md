@@ -51,10 +51,10 @@ The software I rely upon will continue to evolve, but it’s trending away from 
 
 I’m not particularly conscious of where I draw inspiration from, but I think I’m generally observant and what I see around me tends to seep in. I like to collect printed artefacts like flyers, brochures, ticket stubs etc., although these end up hidden away in shoeboxes.
 
-[1]: http://theguardian.com
-[2]: http://clearleft.com
-[3]: http://paulrobertlloyd.com
-[4]: http://bradshawsguide.org
+[1]: https://theguardian.com
+[2]: https://clearleft.com
+[3]: https://paulrobertlloyd.com
+[4]: https://bradshaws.guide
 [5]: http://g-technology.com/products/g-drive
 [6]: http://dpreview.com/reviews/canoneos450d
 [7]: http://dpreview.com/reviews/canons100

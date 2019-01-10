@@ -1,7 +1,7 @@
 ---
 title: No Longer Loving Google
 date: 2012-02-02T20:05:11Z
-url: http://somebits.com/weblog/tech/no-longer-loving-google.html
+url: https://www.somebits.com/weblog/tech/no-longer-loving-google.html
 tags:
 - google
 - duckduckgo
@@ -17,8 +17,8 @@ Sound familiar? As much as [I despise Facebook][1], Google isn’t any better be
 I still have a Google account, although the only services I rely on are search and Reader. [DuckDuckGo][3] is looking like a promising replacement for search, but nearly every decent RSS reader still syncs with Google Reader (even if through unofficial and undocumented APIs). As soon as that changes, my Google account will be deleted.
 
 [1]: /2012/01/facebook
-[2]: http://gizmodo.com/5605310/google-just-killed-net-neutrality
-[3]: http://duckduckgo.com/
+[2]: https://gizmodo.com/5605310/google-just-killed-net-neutrality
+[3]: https://duckduckgo.com/
 
 *[API]: application programming interface
 *[RSS]: Really Simple Syndication

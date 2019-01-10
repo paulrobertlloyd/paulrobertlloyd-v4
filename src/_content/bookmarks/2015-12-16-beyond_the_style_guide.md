@@ -20,11 +20,11 @@ So, I end this year much [like I did the last][5], with one final article on a t
 
 *[CSS]: Cascading Style Sheets
 
-[1]: http://allinthehead.com
+[1]: https://allinthehead.com/
 [2]: https://24ways.org/2015/
 [3]: https://louderthanten.com/articles/story/design-machines
 [4]: https://css-tricks.com/snippets/sass/bem-mixins/
 [5]: /2014/12/naming_things
 [6]: https://github.com/paulrobertlloyd/barebones
 [7]: https://github.com/paulrobertlloyd/bradshawsguide
-[8]: http://alistapart.com/column/write-what-you-know-now
+[8]: https://alistapart.com/column/write-what-you-know-now

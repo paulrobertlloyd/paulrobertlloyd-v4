@@ -1,7 +1,7 @@
 ---
 title: Why You Should Take A Black Cab, Not An Uber, This Christmas
 date: 2015-12-22T15:00:00Z
-url: http://londonist.com/2015/12/why-you-should-take-a-black-cab-not-an-uber-this-christmas
+url: https://londonist.com/2015/12/why-you-should-take-a-black-cab-not-an-uber-this-christmas
 tags:
 - uber
 - london
@@ -14,5 +14,5 @@ Chris Lockie puts forward the case for why Londoners should support black cab dr
 
 This article pretty much sums up my feelings regarding Uber: avoid at all costs.
 
-[1]: http://www.standard.co.uk/news/transport/black-cabs-are-better-for-capital-claim-drivers-in-new-campaign-a3137751.html
+[1]: https://www.standard.co.uk/news/transport/black-cabs-are-better-for-capital-claim-drivers-in-new-campaign-a3137751.html
 [2]: https://www.bbc.co.uk/news/business-34733862

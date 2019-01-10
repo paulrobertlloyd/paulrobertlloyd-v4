@@ -18,7 +18,7 @@ This coming Wednesday he gets his very own show on Comedy Central: [Important Th
 
 Sadly, to the best of my knowledge this show will only air in the US, but I’m hoping that the power of [Hulu][4] and a proxy server means I won’t miss out!
 
-[1]: http://en.wikipedia.org/wiki/Demetri_Martin
-[2]: http://en.wikipedia.org/wiki/The_Daily_Show
+[1]: https://en.wikipedia.org/wiki/Demetri_Martin
+[2]: https://en.wikipedia.org/wiki/The_Daily_Show
 [3]: http://www.comedycentral.com/shows/important_things/index.jhtml
 [4]: http://hulu.com/

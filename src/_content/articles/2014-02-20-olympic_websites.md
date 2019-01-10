@@ -79,7 +79,7 @@ Although at this stage the website has a different and more tightly scoped purpo
 [2]: http://1972municholympics.co.uk
 [3]: http://pingmag.jp/2013/09/09/tokyo-olympics-1964/
 [4]: http://www.themodernist.co.uk/2012/04/olympic-games-design-from-1968-mexico-city/
-[5]: http://en.wikipedia.org/wiki/Olympic_Stadium_(Montreal)
+[5]: https://en.wikipedia.org/wiki/Olympic_Stadium_(Montreal)
 [6]: http://www.heatherwick.com/olympic-cauldron/
 [7]: http://www.zaha-hadid.com/architecture/london-aquatics-centre/
 [8]: http://www.beyond2012.org.uk/wayfinding/
@@ -87,8 +87,8 @@ Although at this stage the website has a different and more tightly scoped purpo
 [10]: http://www.newyorker.com/currency-tag/behind-sochis-futuristic-logo
 [11]: http://www.underconsideration.com/brandnew/archives/holding_hands_in_rio.php
 [12]: http://www.underconsideration.com/brandnew/archives/winter_olympics.php
-[13]: http://en.wikipedia.org/wiki/Olympic_symbols#Symbol
-[14]: http://web.archive.org/web/20091207021259/http://sochi2014.com/106467
+[13]: https://en.wikipedia.org/wiki/Olympic_symbols#Symbol
+[14]: https://web.archive.org/web/20091207021259/http://sochi2014.com/106467
 [15]: http://sochi2014.ru/
 [16]: /2012/05/inspiring_nobody/
 [17]: http://www.nanjing2014.org/en/

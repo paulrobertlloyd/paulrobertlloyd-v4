@@ -31,7 +31,7 @@ remarks:
 - author: Paul Robert Lloyd
   gravatar: 15091a37bacfa4bdd011282627eaca2b
   date: 2017-07-07T00:21:00+01:00
-  url: http://paulrobertlloyd.com/
+  url: https://paulrobertlloyd.com/
   content: |
     Thanks for taking the time to reply to my post.
 

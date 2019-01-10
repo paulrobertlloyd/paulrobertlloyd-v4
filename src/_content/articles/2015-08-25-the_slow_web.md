@@ -35,5 +35,5 @@ I’m certainly trying to achieve this in my own writing, and I’m very glad Co
 [3]: https://en.wikipedia.org/wiki/Shearing_layers
 [4]: https://en.wikipedia.org/wiki/How_Buildings_Learn
 [5]: http://jackcheng.com/the-slow-web
-[6]: http://daringfireball.net/2015/07/safari_content_blocker_imore
+[6]: https://daringfireball.net/2015/07/safari_content_blocker_imore
 [7]: https://en.wikipedia.org/wiki/Dunbar%27s_number

@@ -101,7 +101,7 @@ In my mind, container queries appear to be yesterday’s answer to today’s pro
 [^1]: I initially thought I could use a combination of auto-placement and implicitly-created grid tracks to achieve this layout without the need for media queries — is this possible?
 
 [1]: https://ethanmarcotte.com/wrote/on-container-queries/
-[2]: http://web.archive.org/web/20110718123158/http://blog.andyhume.net/responsive-containers
+[2]: https://web.archive.org/web/20110718123158/http://blog.andyhume.net/responsive-containers
 [3]: https://alistapart.com/article/responsive-web-design
 [4]: http://markboulton.co.uk/journal/anewcanon
 [5]: https://speakerdeck.com/naconf/mark-boulton-a-new-canon

@@ -50,11 +50,11 @@ The embarrassment felt publishing this entry on a website in such drastic need o
 
 Who knows what the coming year will hold, but it’s sure going to be interesting! If you have a project you think may interest me, [please do get in touch][7].
 
-[1]: http://clearleft.com/
+[1]: https://clearleft.com
 [2]: /2013/10/moving_in_moving_on
 [3]: https://the-pastry-box-project.net/paul-lloyd/2015-january-12
 [4]: https://the-pastry-box-project.net/baker/paul-lloyd
-[5]: http://bradshawsguide.org/
+[5]: https://bradshaws.guide
 [6]: https://github.com/paulrobertlloyd/barebones
 [7]: /contact
 

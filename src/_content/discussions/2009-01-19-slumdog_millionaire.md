@@ -12,7 +12,7 @@ remarks:
 - author: Paul Robert Lloyd
   gravatar: 15091a37bacfa4bdd011282627eaca2b
   date: 2009-01-23T18:29:22Z
-  url: http://paulrobertlloyd.com/
+  url: https://paulrobertlloyd.com/
   content: |
     Good point! I realise this post didn’t really provide much of a review. I think in terms of marks out of ten, I’d give it an easy eight, perhaps a nine.
 

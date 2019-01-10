@@ -9,7 +9,7 @@ remarks:
   content: |
     You think that’s confusing, you try living in Scotland.
 
-    From the [burghs and counties defined in 1947](http://en.wikipedia.org/wiki/Local_Government_%28Scotland%29_Act_1947) through the [regional and district councils defined in 1973](http://en.wikipedia.org/wiki/Local_Government_%28Scotland%29_Act_1973) to the [unitary authorities formed in 1994](http://en.wikipedia.org/wiki/Local_Government_etc._%28Scotland%29_Act_1994), you are guaranteed that when discussing geography and locality no two people refer to the same place using the same nomenclature.
+    From the [burghs and counties defined in 1947](https://en.wikipedia.org/wiki/Local_Government_%28Scotland%29_Act_1947) through the [regional and district councils defined in 1973](https://en.wikipedia.org/wiki/Local_Government_%28Scotland%29_Act_1973) to the [unitary authorities formed in 1994](https://en.wikipedia.org/wiki/Local_Government_etc._%28Scotland%29_Act_1994), you are guaranteed that when discussing geography and locality no two people refer to the same place using the same nomenclature.
 
     But then I suppose that’s why we have postcodes ;)
 
@@ -49,7 +49,7 @@ remarks:
 - author: Paul Robert Lloyd
   gravatar: 15091a37bacfa4bdd011282627eaca2b
   date: 2009-07-17T12:33:46+01:00
-  url: http://paulrobertlloyd.com/
+  url: https://paulrobertlloyd.com/
   content: |
     Bernard, you’ve found me out!
 

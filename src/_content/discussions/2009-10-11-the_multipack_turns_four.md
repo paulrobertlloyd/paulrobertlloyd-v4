@@ -18,7 +18,7 @@ remarks:
 - author: Paul Robert Lloyd
   gravatar: 15091a37bacfa4bdd011282627eaca2b
   date: 2009-10-12T11:12:46+01:00
-  url: http://paulrobertlloyd.com/
+  url: https://paulrobertlloyd.com/
   content: |
     It is maddening how many of us were at @media 2005 yet didn’t know we all worked so near to each other.
 

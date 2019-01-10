@@ -129,19 +129,19 @@ Ultimately, we’ll tackle the problem of responsive images as we have others. C
 Want to be part of it? Write about the problems you’re facing. If you see a separation between the developers and designers in your company, work to change that (we’re going to solve this together, not apart). And organise your own summits — although choose a better title! Not only can you help push the web forward, but if you’re lucky, you might even get your hands on some Microsoft sponsored cake, too.
 
 [1]: http://responsivesummit.com/
-[2]: http://en.wikipedia.org/wiki/Dr._Strangelove
+[2]: https://en.wikipedia.org/wiki/Dr._Strangelove
 [3]: https://twitter.com/armstrong
 [4]: https://twitter.com/jbrewer
 [5]: https://twitter.com/aexmo
 [6]: http://www.alistapart.com/articles/responsive-images-how-they-almost-worked-and-what-we-need/
 [7]: /2012/02/niptuck
-[8]: http://en.wikipedia.org/wiki/JPEG_2000
-[9]: http://en.wikipedia.org/wiki/JPEG_XR
-[10]: http://en.wikipedia.org/wiki/WebP
+[8]: https://en.wikipedia.org/wiki/JPEG_2000
+[9]: https://en.wikipedia.org/wiki/JPEG_XR
+[10]: https://en.wikipedia.org/wiki/WebP
 [11]: http://mistermorris.tumblr.com/post/18273059852/a-better-responsive-image-format
-[12]: http://en.wikipedia.org/wiki/Web_Open_Font_Format
-[13]: http://en.wikipedia.org/wiki/Portable_Network_Graphics
-[14]: http://en.wikipedia.org/wiki/APNG
+[12]: https://en.wikipedia.org/wiki/Web_Open_Font_Format
+[13]: https://en.wikipedia.org/wiki/Portable_Network_Graphics
+[14]: https://en.wikipedia.org/wiki/APNG
 [15]: http://www.joshemerson.co.uk/
 [16]: https://github.com/joshje/Responsive-Enhance
 [17]: http://markboulton.co.uk/

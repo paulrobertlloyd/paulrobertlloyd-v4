@@ -14,7 +14,7 @@ remarks:
 - author: Paul Robert Lloyd
   gravatar: 15091a37bacfa4bdd011282627eaca2b
   date: 2010-05-31T15:09:36+01:00
-  url: http://paulrobertlloyd.com/
+  url: https://paulrobertlloyd.com/
   content: |
     The ‘exploring the page’ warm-up exercises followed on from a few others I haven’t shown. For example we drew straight lines, grids and circles, drew in the air (looking at an object on the table and exploring the surface in space) and created doodles that we then had to convert into objects – real or imaginary.
 

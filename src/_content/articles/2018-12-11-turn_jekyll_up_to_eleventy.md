@@ -418,7 +418,7 @@ But [these go to 11][47].
 
 [^1]: Information provided is correct as of Eleventy v0.6.0 and Jekyll v3.8.5
 
-[1]: https://www.jamstack.org
+[1]: https://jamstack.org
 [2]: https://movabletype.org
 [3]: https://jekyllrb.com
 [4]: https://24ways.org/2013/get-started-with-github-pages/

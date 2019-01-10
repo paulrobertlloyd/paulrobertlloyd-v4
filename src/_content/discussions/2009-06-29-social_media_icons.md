@@ -35,7 +35,7 @@ remarks:
 - author: Paul Robert Lloyd
   gravatar: 15091a37bacfa4bdd011282627eaca2b
   date: 2009-07-02T01:37:00+01:00
-  url: http://paulrobertlloyd.com/
+  url: https://paulrobertlloyd.com/
   content: |
     Thanks for the kind words everybody!
 
@@ -176,7 +176,7 @@ remarks:
 - author: Paul Robert Lloyd
   gravatar: 15091a37bacfa4bdd011282627eaca2b
   date: 2009-07-20T21:23:15+01:00
-  url: http://paulrobertlloyd.com/
+  url: https://paulrobertlloyd.com/
   content: |
     Hi Mike,
 
@@ -214,7 +214,7 @@ remarks:
 - author: Paul Robert Lloyd
   gravatar: 15091a37bacfa4bdd011282627eaca2b
   date: 2009-07-20T22:50:28+01:00
-  url: http://paulrobertlloyd.com/
+  url: https://paulrobertlloyd.com/
   content: |
     Thanks for getting back to me on this Mike, it seem as though technology has failed us once again. Apology excepted.
 
@@ -919,7 +919,7 @@ remarks:
 - author: Paul Robert Lloyd
   gravatar: 15091a37bacfa4bdd011282627eaca2b
   date: 2010-05-27T23:19:56+01:00
-  url: http://paulrobertlloyd.com/
+  url: https://paulrobertlloyd.com/
   content: |
     Hello all,
 
@@ -933,7 +933,7 @@ remarks:
     * BBC iD
 
     Given the current number of icons in this package, I’d be very interested to hear your thoughts on which icons should now be *removed*.
-    With regards to icons for WordPress and Blogger, I encourage you to read my most recent blog post on the matter: [Social Media Icons: A Rationale](http://paulrobertlloyd.com/2010/03/social_media_icons_rationale).
+    With regards to icons for WordPress and Blogger, I encourage you to read my most recent blog post on the matter: [Social Media Icons: A Rationale](/2010/03/social_media_icons_rationale).
     The short answer is that I don’t plan on adding icons for every type publishing platform – especially when the ‘Website’ icon fulfils this role. Nor do I anticipate updating the YouTube icon to match the current favicon, because frankly, it’s ugly.
     I am thinking about ways in which I can provide a template file with this package though, which would allow you to create your own icons in a similar style. If you have suggestions as to which format(s) this should be  available in, please let me know!
 
@@ -979,7 +979,7 @@ remarks:
 - author: Tariq
   gravatar: d9c278f4fcc63278db75f7473947b5f6
   date: 2010-07-15T01:02:03+01:00
-  url: http://facebook.com/6are8
+  url: https://www.facebook.com/6are8
   content: |
     AWESOME!! ;p
 
