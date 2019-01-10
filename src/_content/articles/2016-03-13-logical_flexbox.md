@@ -40,17 +40,17 @@ We can markup this header using the following HTML:
 
 ```html
 <body lang="en" dir="ltr">
-    <header role="banner">
-        <h1>
-            <a href="/en/" rel="home">Starfleet</a>
-        </h1>
-        <nav role="navigation">
-            <a href="/en/academy/">Academy</a>
-            <a href="/en/command/">Command</a>
-            <a href="/en/intelligence/">Intelligence</a>
-            <a href="/en/security/">Security</a>
-        </nav>
-    </header>
+  <header role="banner">
+    <h1>
+      <a href="/en/" rel="home">Starfleet</a>
+    </h1>
+    <nav role="navigation">
+      <a href="/en/academy/">Academy</a>
+      <a href="/en/command/">Command</a>
+      <a href="/en/intelligence/">Intelligence</a>
+      <a href="/en/security/">Security</a>
+    </nav>
+  </header>
 </body>
 ```
 
@@ -58,36 +58,36 @@ and these CSS rules:
 
 ```css
 * {
-    font: menu;
-    margin: 0;
+  font: menu;
+  margin: 0;
 }
 
 a {
-    padding: 1rem;
+  padding: 1rem;
 }
 
 a[rel="home"] {
-    background-color: blue;
-    color: white;
+  background-color: blue;
+  color: white;
 }
 
 header {
-    background-color: gainsboro;
-    display: flex;
+  background-color: gainsboro;
+  display: flex;
 }
 
 h1,
 nav {
-    align-items: center;
-    display: flex;
+  align-items: center;
+  display: flex;
 }
 
 nav {
-    margin-left: auto;
+  margin-left: auto;
 }
 
 nav a {
-    border-left: 1px solid white;
+  border-left: 1px solid white;
 }
 ```
 
@@ -105,11 +105,11 @@ On the cross axis, we can align individual items in a different direction to tha
 
 ```css
 [dir="ltr"] nav {
-    margin-left: auto; /* Move navigation to the right */
+  margin-left: auto; /* Move navigation to the right */
 }
 
 [dir="rtl"] nav {
-    margin-right: auto; /* Move navigation to the left */
+  margin-right: auto; /* Move navigation to the left */
 }
 ```
 
@@ -125,15 +125,15 @@ Returning to our header example, you’ll notice another property containing a p
 
 ```css
 nav a {
-    border: 0 solid white;
+  border: 0 solid white;
 }
 
 [dir="ltr"] nav a {
-    border-left-width: 1px;
+  border-left-width: 1px;
 }
 
 [dir="rtl"] nav a {
-    border-right-width: 1px;
+  border-right-width: 1px;
 }
 ```
 
@@ -149,11 +149,11 @@ Using logical properties means we could write the following rules to achieve the
 
 ```css
 nav {
-    margin-inline-start: auto;
+  margin-inline-start: auto;
 }
 
 nav a {
-    border-inline-start: 1px solid white;
+  border-inline-start: 1px solid white;
 }
 ```
 
