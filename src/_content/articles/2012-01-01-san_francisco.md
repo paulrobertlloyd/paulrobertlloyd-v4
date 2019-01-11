@@ -40,19 +40,19 @@ My last day in San Francisco was also the last of this trip. With my flight depa
 
 [1]: /2011/12/north_america
 [2]: https://en.wikipedia.org/wiki/Coast_Starlight
-[4]: http://bluebottlecoffee.net/locations/ferry-building/
-[5]: http://davidlwarner.com/
-[6]: http://eatatplow.com/
-[7]: http://nest.com/
-[8]: http://foundationcapital.com/people/partners/steve_vassallo.php
-[9]: http://gravitywinebar.com/
+[4]: https://bluebottlecoffee.com/cafes/ferry-building/
+[5]: http://davidlwarner.com
+[6]: https://www.eatatplow.com
+[7]: https://nest.com
+[8]: https://foundationcapital.com/people/profile/steve-vassallo/
+[9]: https://www.gravitywinebar.com
 [10]: /links/2011/10/stay_hungry_stay_foolish
 [11]: https://twitter.com/tomdzk
 [12]: http://universalcafe.net/
-[13]: http://sfheritage.org/haas-lilienthal-house/
+[13]: https://www.haas-lilienthalhouse.org
 [14]: https://en.wikipedia.org/wiki/Ocean_Beach,_San_Francisco,_California
 [15]: https://en.wikipedia.org/wiki/Cliff_House,_San_Francisco
-[16]: http://cliffhouse.com/bistro/
+[16]: https://cliffhouse.com/bistro/
 [17]: /2011/03/san_francisco
 
 *[US]: United States
