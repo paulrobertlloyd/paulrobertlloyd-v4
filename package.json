@@ -28,7 +28,7 @@
     "debug": "DEBUG=* npx eleventy"
   },
   "dependencies": {
-    "@11ty/eleventy": "github:11ty/eleventy",
+    "@11ty/eleventy": "^0.7.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.1",
     "color": "^3.1.0",
     "cssnano": "^4.1.8",
