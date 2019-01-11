@@ -23,7 +23,7 @@ permalink: /feed.json
       {% if item.data.summary %}"summary": {{ item.data.summary | markdownify: 'inline' | jsonify }},{% endif %}
       {% if item.data.tags %}"tags": {{ item.data.tags | jsonify }},{% endif %}
       {% if item.data.image %}"image": {{ item.data.image | prepend: app.url | append: '?w=1280&q=90&auto=format' | jsonify }},{% endif %}
-      "content_html": {% capture content_html %}{{ item.templateContent }}{% if item.data.photos %}{% include 'photos' with item.data.photos image_class: 'u-photo' %}{% endif %}{% endcapture %}{{ content_html | strip | jsonify }},
+      "content_html": {% capture content_html %}{{ item.templateContent | strip_mentions }}{% if item.data.photos %}{% include 'photos' with item.data.photos image_class: 'u-photo' %}{% endif %}{% endcapture %}{{ content_html | strip | jsonify }},
       "date_published": {{ item.data.date | jsonify }}
     }{% unless forloop.last %},{% endunless %}
   {% endfor %}]
