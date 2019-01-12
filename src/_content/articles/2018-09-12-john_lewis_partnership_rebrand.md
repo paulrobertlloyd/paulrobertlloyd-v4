@@ -33,6 +33,6 @@ It’s easy to critique without context of course, and the more I look at this w
 [2]: https://www.itsnicethat.com/features/pentagram-harry-pearce-the-john-lewis-partnership-redesign-graphic-design-050918
 [3]: https://haiprl.andyhiggs.uk
 [4]: https://www.theguardian.com/business/2018/sep/04/john-lewis-joins-department-store-rout-with-250-job-cuts
-[5]: http://www.johnlloyd.uk.com/lloyd-northover/identity/2/1/
-[6]: http://identcentral.co.uk/idents/channel-4/channel-4/channel-4-1999-2004/channel-4-idents-1999/
+[5]: https://www.johnlloyd.uk.com/lloyd-northover/identity/2/1/
+[6]: https://identcentral.co.uk/idents/channel-4/channel-4/channel-4-1999-2004/channel-4-idents-1999/
 [7]: /2018/07/brands_renewed

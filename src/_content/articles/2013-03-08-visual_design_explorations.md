@@ -68,12 +68,12 @@ As we continue to review our processes to ensure they better reflect the unpredi
 
 While striving to create engaging and enticing visual designs that delight users, we also have to think about how these early explorations are communicated with our clients. Any process needs to acknowledge the relative design literacy of project stakeholders, ensuring the correct expectations are set early and that everyone is comfortable with the messy process of designing a website.
 
-[1]: http://www.mikeallan.me/
-[2]: https://clearleft.com/is/paul-lloyd
-[3]: https://clearleft.com/is/james-bates
-[4]: https://clearleft.com/is/jon-aizlewood
-[5]: http://www.bohemiancoding.com/sketch/
+[1]: https://www.mikeyallan.com
+[2]: http://v4.clearleft.com/is/paul-lloyd
+[3]: http://v4.clearleft.com/is/james-bates
+[4]: http://v4.clearleft.com/is/jon-aizlewood
+[5]: https://www.sketchapp.com
 [6]: http://2013.dconstruct.org/
 [7]: http://badassideas.com/
 [8]: http://styletil.es/
-[9]: http://danielmall.com/articles/rif-element-collages/
+[9]: http://v3.danielmall.com/articles/rif-element-collages/

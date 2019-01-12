@@ -144,7 +144,7 @@ Whilst much of this talk has focused on the styleguide as a deliverable, I hope 
 [5]: http://gelled.paulrobertlloyd.com/
 [6]: http://www.alistapart.com/articles/dao/
 [7]: http://www.alistapart.com/articles/responsive-web-design/
-[8]: http://adactio.com/journal/1700/
+[8]: https://adactio.com/journal/1700/
 [9]: http://unitinteractive.com/blog/2008/06/26/better-css-font-stacks/
 [10]: http://fontdeck.com
 [11]: http://typekit.com
@@ -153,7 +153,7 @@ Whilst much of this talk has focused on the styleguide as a deliverable, I hope 
 [14]: /images/2010/12/styleguides_for_the_web/nuts_online.png
 [15]: http://weblog.muledesign.com/2010/08/why_we_dont_deliver_photoshop_files.php
 [16]: http://natbat.net/
-[17]: http://adactio.com/
+[17]: https://adactio.com/
 
 *[BBC]: British Broadcasting Corporation
 *[CEO]: Chief Executive Officer

@@ -26,5 +26,5 @@ So, I end this year much [like I did the last][5], with one final article on a t
 [4]: https://css-tricks.com/snippets/sass/bem-mixins/
 [5]: /2014/12/naming_things
 [6]: https://github.com/paulrobertlloyd/barebones
-[7]: https://github.com/paulrobertlloyd/bradshawsguide
+[7]: https://github.com/bradshawsguide/website
 [8]: https://alistapart.com/column/write-what-you-know-now

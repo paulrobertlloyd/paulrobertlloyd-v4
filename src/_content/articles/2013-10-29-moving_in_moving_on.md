@@ -56,10 +56,10 @@ This new role will introduce a lot of new challenges — not least getting up ea
 [1]: https://clearleft.com/
 [2]: http://www.besquare.me/session/the-edge-of-the-web/
 [3]: /2010/07/are_web_design_conferences_becoming_too_safe
-[4]: http://adactio.com/journal/tags/americanaugust/
+[4]: https://adactio.com/journal/tags/americanaugust/
 [5]: /2012/09/games_maker
-[6]: http://www.theguardian.com/uk
-[7]: http://www.theguardian.com/media/leveson-inquiry
-[8]: http://www.theguardian.com/world/the-nsa-files
-[9]: http://www.theguardian.com/world/2013/sep/25/revealed-qatars-world-cup-slaves
-[10]: http://www.theguardian.com/help/2013/oct/04/alpha-testing-and-evolution-of-our-mobile-site
+[6]: https://www.theguardian.com/uk
+[7]: https://www.theguardian.com/media/leveson-inquiry
+[8]: https://www.theguardian.com/world/the-nsa-files
+[9]: https://www.theguardian.com/world/2013/sep/25/revealed-qatars-world-cup-slaves
+[10]: https://www.theguardian.com/help/2013/oct/04/alpha-testing-and-evolution-of-our-mobile-site

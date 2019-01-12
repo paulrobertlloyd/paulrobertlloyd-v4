@@ -54,8 +54,8 @@ Having crammed over Christmas to reach this point, I’m going to take a well ea
 [14]: https://www.fontsquirrel.com/fonts/trocchi
 [15]: https://en.wikipedia.org/wiki/Category:Disused_railway_stations_in_the_United_Kingdom
 [16]: http://www.disused-stations.org.uk
-[17]: http://maps.nls.uk/
-[18]: http://maps.osi.ie/
+[17]: https://maps.nls.uk
+[18]: https://map.geohive.ie
 [19]: https://basecamp.com/books/Getting%20Real.pdf
 [20]: https://github.com/bradshawsguide/website/issues
 

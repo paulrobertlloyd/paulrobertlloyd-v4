@@ -51,7 +51,7 @@ The remainder of my time in DC was largely spent within the walls of the Westin 
 [9]: https://en.wikipedia.org/wiki/Thomas_Jefferson_Memorial
 [10]: https://en.wikipedia.org/wiki/Franklin_Delano_Roosevelt_Memorial
 [11]: https://en.wikipedia.org/wiki/MLK_Memorial
-[12]: http://adactio.com/
+[12]: https://adactio.com/
 [13]: http://wordridden.com/
 [14]: http://sixtwothree.org/
 [15]: http://marvindc.com/

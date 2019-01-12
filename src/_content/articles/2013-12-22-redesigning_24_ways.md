@@ -170,24 +170,24 @@ However, I’m a big believer in iteration, and not treating a website as ever b
 [3]: https://allinthehead.com/retro/366/rebuilding-24-ways
 [4]: https://24ways.org/archives/
 [5]: https://24ways.org/2012/colour-accessibility/
-[6]: http://alistapart.com/article/the-web-aesthetic
-[7]: http://danielmall.com/
-[8]: http://bohemiancoding.com/sketch/
-[9]: http://www.latofonts.com/lato-free-fonts/
-[10]: http://ebensorkin.wordpress.com/
+[6]: https://alistapart.com/article/the-web-aesthetic
+[7]: https://danmall.me
+[8]: https://www.sketchapp.com
+[9]: https://www.latofonts.com/lato-free-fonts/
+[10]: https://ebensorkin.wordpress.com
 [11]: /2013/05/web_typography
 [12]: http://jessicahische.is/talkingtype
 [13]: https://www.nytimes.com/skimmer
 [14]: https://github.com/paulrobertlloyd/barebones/
-[15]: http://www.benjystanton.co.uk/
-[16]: http://www.slideshare.net/benjystanton/crafting-animation-on-the-web
-[17]: http://www.joshemerson.co.uk/blog/using-svg-graphics-today
-[18]: http://necolas.github.io/normalize.css/
-[19]: http://zeptojs.com
-[20]: http://bem.info/
-[21]: http://microformats.org/wiki/microformats-2/
+[15]: https://www.benjystanton.co.uk
+[16]: https://www.slideshare.net/benjystanton/crafting-animation-on-the-web
+[17]: https://joshemerson.co.uk/blog/using-svg-graphics-today
+[18]: https://necolas.github.io/normalize.css/
+[19]: https://zeptojs.com
+[20]: https://en.bem.info
+[21]: http://microformats.org/wiki/microformats_2
 [22]: http://nicolasgallagher.com/about-html-semantics-front-end-architecture/
-[23]: https://github.com/paulrobertlloyd/24ways-frontend/
+[23]: https://github.com/24ways/frontend
 
 *[BEM]: Block, Element, Modifier
 *[CSS]: Cascading Style Sheets

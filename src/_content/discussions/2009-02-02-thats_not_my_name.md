@@ -23,7 +23,7 @@ remarks:
   content: |
     Haha, I don’t know whether my name would be very obstructive over there. I’ve had someone think I was “Gus” (for two years) before…
 
-    Oh and obligatory YT url: <http://uk.youtube.com/video/6UX0p7uAW2s>
+    Oh and obligatory YT url: <https://www.youtube.com/watch?v=6UX0p7uAW2s>
 
 - author: Kris
   gravatar: c792ab0e2c783f557ea28d7141a0ee83

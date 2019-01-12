@@ -73,7 +73,7 @@ Yet the centrepiece of the world’s largest multi-sport event asks that organis
 With previous legacy plans discarded, the Mayor’s London Legacy Development Corporation decided to convert the stadium so it could host football, and selected West Ham United as its permanent tenant. To ensure the stadium was more suited to pitch-based sports, architects made a number of changes, including designing a roof that could cover retractable seating on the lower tier. Extended, these seats would place fans closer to the action and protected from the rain.
 
 {% include 'figure' with '/images/2015/07/londons_olympic_stadium/2015.jpg'
-  caption: 'An imposing new roof hangs above the seating bowl that was meant to be temporary. Photograph: [Andy Hall](http://www.theguardian.com/sport/gallery/2015/jul/18/exclusive-pictures-inside-west-hams-new-home).'
+  caption: 'An imposing new roof hangs above the seating bowl that was meant to be temporary. Photograph: [Andy Hall](https://www.theguardian.com/sport/gallery/2015/jul/18/exclusive-pictures-inside-west-hams-new-home).'
   alignment: 'bleed'
 %}
 
@@ -125,20 +125,20 @@ It would have been awful to see the Olympic Stadium in Stratford dismantled, yet
 [13]: https://en.wikipedia.org/wiki/Beijing_National_Stadium
 [14]: https://en.wikipedia.org/wiki/Stadium_Australia
 [15]: https://en.wikipedia.org/wiki/Estadi_Ol%C3%ADmpic_Llu%C3%ADs_Companys
-[16]: http://www.theguardian.com/sport/gallery/2014/aug/13/abandoned-athens-olympic-2004-venues-10-years-on-in-pictures
-[17]: http://www.theguardian.com/sport/2001/oct/05/athletics.arts
-[18]: http://www.theguardian.com/sport/2001/oct/11/athletics.vivekchaudhary
+[16]: https://www.theguardian.com/sport/gallery/2014/aug/13/abandoned-athens-olympic-2004-venues-10-years-on-in-pictures
+[17]: https://www.theguardian.com/sport/2001/oct/05/athletics.arts
+[18]: https://www.theguardian.com/sport/2001/oct/11/athletics.vivekchaudhary
 [19]: https://www.bbc.co.uk/sport/0/olympics/19131661
 [20]: http://olympicopeningceremony.tumblr.com/
 [21]: https://en.wikipedia.org/wiki/Olympiastadion_(Munich)
 [22]: https://en.wikipedia.org/wiki/Stadio_delle_Alpi
 [23]: http://istructe.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=98a11fad-5fb2-4182-9eff-0e0f777ac829
-[24]: http://www.theguardian.com/sport/2015/jul/18/west-ham-football-2012-olympic-stadium
-[25]: http://www.theguardian.com/artanddesign/2015/jul/17/the-troubled-history-of-zaha-hadids-tokyo-olympic-stadium-project
+[24]: https://www.theguardian.com/sport/2015/jul/18/west-ham-football-2012-olympic-stadium
+[25]: https://www.theguardian.com/artanddesign/2015/jul/17/the-troubled-history-of-zaha-hadids-tokyo-olympic-stadium-project
 [26]: https://en.wikipedia.org/wiki/National_Olympic_Stadium_(Tokyo)
 [27]: https://www.bbc.co.uk/news/uk-scotland-glasgow-west-26538401
-[28]: http://www.theguardian.com/uk/2002/feb/09/football.athletics
-[29]: http://www.theguardian.com/world/2013/sep/25/revealed-qatars-world-cup-slaves
+[28]: https://www.theguardian.com/uk/2002/feb/09/football.athletics
+[29]: https://www.theguardian.com/world/2013/sep/25/revealed-qatars-world-cup-slaves
 
 *[CAD$]: Canadian dollar
 *[UEFA]: Union of European Football Associations

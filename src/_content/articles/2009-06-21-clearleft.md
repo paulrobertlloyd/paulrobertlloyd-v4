@@ -43,5 +43,5 @@ I’m amazed it took me this long to say yes.
 [6]: http://dconstruct.org/
 [7]: https://clearleft.com/does/teach/
 [8]: http://silverbackapp.com/
-[9]: http://adactio.com/
+[9]: https://adactio.com/
 [10]: http://clagnut.com/

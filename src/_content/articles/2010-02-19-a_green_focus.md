@@ -98,18 +98,18 @@ To help launch the campaign, and with the help of my friends at the [Multipack][
 Hopefully this is the first in a series of events and initiatives in support of the campaign, and so far the response from friends and peers has been incredibly encouraging. In the mean time, may I suggest you [add the a.green:focus blog][14] to your preferred RSS reader.
 
 [1]: /2010/01/2009_in_review
-[2]: http://www.volvocars.com/uk/all-cars/volvo-c30/
+[2]: https://www.volvocars.com/uk/all-cars/volvo-c30
 [3]: https://twitter.com/davidlwarner/status/7432026527/
 [4]: http://dopplr.com/
 [5]: /2010/01/lax
-[6]: http://www.1010uk.org/
-[7]: http://aneventapart.com/
+[6]: https://1010uk.org
+[7]: https://aneventapart.com
 [8]: https://clearleft.com/
 [9]: https://speakerdeck.com/paulrobertlloyd/announcing-a-dot-green-focus
 [10]: http://agreenfocus.paulrobertlloyd.com/
 [11]: http://agreenfocus.paulrobertlloyd.com/post/371323289/
 [12]: http://multipack.co.uk
-[13]: http://upcoming.yahoo.com/event/5259221/
+[13]: http://archive.upcoming.org/event/5259221
 [14]: http://agreenfocus.paulrobertlloyd.com/rss
 
 *[RSS]: Really Simple Syndication

@@ -44,7 +44,7 @@ Or, as Dave suggested in his own article:
 The advent of responsive design has forced us to reassess many long held assumptions. Perhaps that’s why now is such an exciting time to be a *web* designer.
 
 [1]: http://alistapart.com/articles/responsive-images-how-they-almost-worked-and-what-we-need/
-[2]: http://adactio.com/journal/5439/
+[2]: https://adactio.com/journal/5439/
 [3]: http://maban.co.uk/
 [4]: http://alistapart.com/articles/the-web-aesthetic/
 [5]: https://twitter.com/r_weisburd

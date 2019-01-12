@@ -2,7 +2,7 @@
 title: Adobe Edge CC Review
 date: 2013-06-20
 canonical:
-  url: https://digitalartsonline.co.uk/reviews/creative-software/adobe-edge-review/
+  url: https://www.digitalartsonline.co.uk/reviews/creative-software/adobe-edge-review/
 summary: Paul Lloyd, senior visual designer at Brighton-based web agency Clearleft, is impressed with Adobe’s new web design software tools — but it faces strong competition.
 vocab: [entry, review]
 product:

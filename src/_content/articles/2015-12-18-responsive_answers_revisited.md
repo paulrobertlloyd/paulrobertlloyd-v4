@@ -53,7 +53,7 @@ It doesn’t seem outside the realm of possibility that we’ll soon be creating
 [3]: http://responsivedesignweekly.com/interview/responsive-interview-with-laura-kalbag-paul-robert-lloyd/
 [4]: https://www.bbc.co.uk/news
 [5]: http://responsivenews.co.uk/post/114413142693/weve-made-it
-[6]: http://www.theguardian.com/
+[6]: https://www.theguardian.com/
 [7]: http://fbrctr.github.io
 [8]: https://twitter.com/LukeAskew/
 [9]: https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax/

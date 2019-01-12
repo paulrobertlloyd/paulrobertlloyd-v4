@@ -55,7 +55,7 @@ Display advertising means buggy code, belligerent design and dealing with an ind
 [1]: http://www.creativebloq.com/net-magazine
 [2]: /2012/01/responsive_answers
 [3]: /2012/12/more_responsive_answers
-[4]: http://www.theguardian.com/help/insideguardian/2014/jul/11/-sp-navigating-the-guardian
+[4]: https://www.theguardian.com/help/insideguardian/2014/jul/11/-sp-navigating-the-guardian
 [5]: https://bradfrost.github.io/this-is-responsive/patterns.html
 [6]: http://blog.cloudfour.com/picking-responsive-tables-solution/
 [7]: http://next.theguardian.com/blog/responsive-takeover/

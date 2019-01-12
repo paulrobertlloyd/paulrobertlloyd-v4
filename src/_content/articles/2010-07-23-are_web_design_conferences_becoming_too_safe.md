@@ -58,20 +58,20 @@ With the 5-star lineup, this careful curation could very well mean New Adventure
 
 **Update:** Since this article was published, [Simon has posted][14] some background information about the New Adventures conference, and also discusses the motives surrounding its creation. Certainly worth reading in the context of this article.
 
-[1]: http://newadventuresconf.com/
-[2]: http://colly.com/
-[3]: http://newadventuresconf.com/location/
-[4]: http://newadventuresconf.com/speakers/
+[1]: https://newadventuresconf.com/2011/
+[2]: https://colly.com
+[3]: https://newadventuresconf.com/2011/location/
+[4]: https://newadventuresconf.com/2011/speakers/
 [5]: http://www.thisisplayful.com/
-[6]: http://www.thedesignofunderstanding.com/
+[6]: https://www.thedesignofunderstanding.com
 [7]: http://www.nowpublic.com/culture/nowpublic-sxsw2008-jane-mcgonigal-arg-designer-keynote
 [8]: http://www.andybudd.com/archives/2010/02/clearleft_offer/
-[9]: http://buildconf.com/
+[9]: http://2010.buildconf.com
 [10]: http://2010.dconstruct.org/
 [11]: http://speaktheweb.org/
 [12]: http://multipack.co.uk/presents/
-[13]: http://newadventuresconf.com/schedule/
-[14]: http://colly.com/comments/new_adventures_in_web_design/
+[13]: https://newadventuresconf.com/2011/schedule/
+[14]: https://colly.com/journal/new_adventures_in_web_design/
 
 *[SXSW]: South by SouthWest
 *[UK]: United Kingdom

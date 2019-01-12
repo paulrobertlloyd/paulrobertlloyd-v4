@@ -47,4 +47,4 @@ The next day Claire gave me a tour of the south end of the island, including bre
 [7]: http://rosiesbowl.wordpress.com/about/
 [8]: http://cafetalia.ca/
 [9]: https://rocksaltrestaurant.com
-[10]: http://env.gov.bc.ca/bcparks/explore/parkpgs/ruckle/
+[10]: http://www.env.gov.bc.ca/bcparks/explore/parkpgs/ruckle/

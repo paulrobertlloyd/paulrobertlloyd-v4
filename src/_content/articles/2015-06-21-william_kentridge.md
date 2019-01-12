@@ -32,4 +32,4 @@ A second room contains eight screens for <cite>I Am Not Me, the Horse Is Not Min
 
 [1]: https://www.eyefilm.nl/en
 [2]: https://en.wikipedia.org/wiki/William_Kentridge
-[3]: https://www.eyefilm.nl/en/exhibitions/william-kentridge-if-we-ever-get-to-heaven
+[3]: https://www.eyefilm.nl/en/exhibition/william-kentridge

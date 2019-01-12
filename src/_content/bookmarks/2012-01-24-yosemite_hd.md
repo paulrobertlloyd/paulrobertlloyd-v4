@@ -12,7 +12,8 @@ tags:
   poster: 'https://i.vimeocdn.com/video/254218511'
 %}
 
-A truly stunning timelapse of Yosemite National Park, a collaboration between [Sheldon Neill][1] and [Colin Delehanty][2]. More information about the project can be found at <http://projectyose.com/>.
+A truly stunning timelapse of Yosemite National Park, a collaboration between [Sheldon Neill][1] and [Colin Delehanty][2]. More information about the project can be found at [projectyose.com][3].
 
-[1]: http://sheldonneill.com/
+[1]: http://www.sheldonneill.com
 [2]: http://colindelehanty.com
+[3]: https://www.projectyose.com

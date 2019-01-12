@@ -2,7 +2,7 @@
 title: Bohemian Coding Sketch 2 Review
 date: 2013-06-20
 canonical:
-  url: https://digitalartsonline.co.uk/reviews/interactive-design/bohemian-coding-sketch-2-review/
+  url: https://www.digitalartsonline.co.uk/reviews/interactive-design/bohemian-coding-sketch-2-review/
 summary: Paul Lloyd, senior visual designer at Brighton-based web agency Clearleft, explains why he’s not sad that Adobe has killed Fireworks, as he’s already moved onto a much better tool to design site interfaces and elements.
 vocab: [entry, review]
 product:
@@ -76,7 +76,7 @@ In fact, the best feature of Sketch is its active development. In the two month
 
 I’m not sure I would use Sketch to create a succession of detailed page comps, but I think that is telling. This is an application designed for the interface designers of today and tomorrow, not those of the past. And it’s a better app for it.
 
-[1]: https://digitalartsonline.co.uk/topic/adobe-creative-cloud/
+[1]: https://www.digitalartsonline.co.uk/topic/adobe-creative-cloud/
 [2]: https://twitter.com/bohemiancoding
 
 *[CSS]: Cascading Style Sheets

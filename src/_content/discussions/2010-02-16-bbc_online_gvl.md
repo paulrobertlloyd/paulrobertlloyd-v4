@@ -48,7 +48,7 @@ remarks:
 - author: Martyn Reding
   gravatar: 3fbcc5f2354301a418b87c6080e557f1
   date: 2010-02-24T12:45:09Z
-  url: http://www.martynreding.net
+  url: https://martyn.design
   content: |
     There is no doubt that the work coming out of this project is to a high standard and the method of sharing ‘work in progress’ will certainly help the rollout and cushion the user’s transition.
 
