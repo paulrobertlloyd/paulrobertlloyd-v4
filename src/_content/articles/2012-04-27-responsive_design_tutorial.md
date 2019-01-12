@@ -50,6 +50,6 @@ As much as I hope this series educates others, it’s been an immensely valuable
 [9]: http://maban.co.uk/
 [10]: http://www.joshemerson.co.uk/
 [11]: http://andyhume.net/
-[12]: http://adactio.com/
+[12]: https://adactio.com/
 [13]: http://bevanstephens.com/
 [14]: http://fullcreammilk.co.uk/

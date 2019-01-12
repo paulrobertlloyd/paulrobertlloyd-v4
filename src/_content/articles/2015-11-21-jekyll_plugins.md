@@ -74,8 +74,8 @@ Yet if there’s one thing I’ve learnt while making this tentitive journey int
 [5]: https://www.bbc.co.uk/commissioning/tv/production/articles/credits-branding-trademarks
 [6]: https://github.com/paulrobertlloyd/jekyll-roman
 [7]: https://github.com/paulrobertlloyd/jekyll-figure
-[8]: https://github.com/aarongustafson/jekyll-crosspost_to_medium/pull/3
-[9]: https://github.com/aarongustafson/jekyll-crosspost_to_medium
+[8]: https://github.com/aarongustafson/jekyll-crosspost-to-medium/pull/3
+[9]: https://github.com/aarongustafson/jekyll-crosspost-to-medium
 [10]: https://github.com/paulrobertlloyd/paulrobertlloyd-v3/blob/2c9a499/source/_plugins/picture.rb
 
 *[BBC]: British Broadcasting Corporation

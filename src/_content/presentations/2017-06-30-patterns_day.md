@@ -117,7 +117,7 @@ slides:
 
     There is a spectrum between having data inform design rather than dictate it – yet the trend is towards collecting more data, not less.
 
-    Yet, [having more data may actually limit the options available](https://www.cennydd.com/writing/datafication-and-ideological-blindness). It can lead us towards making incremental changes, and optimising within local maximums, rather than seeking out entirely new approaches.
+    Yet, [having more data may actually limit the options available](https://www.cennydd.com/blog/datafication-and-ideological-blindness). It can lead us towards making incremental changes, and optimising within local maximums, rather than seeking out entirely new approaches.
 
     Let’s also not forget, that when designing at the scale of populations, its easy to make generalisations. When users are reduced merely to data-points, real-life situations are seen as edge cases.
 - image: /images/2017/06/patterns_day/15.jpg

@@ -58,4 +58,4 @@ Encouraging the development of independent critical journalism about web design 
 [5]: https://adactio.com/journal/13109
 [6]: https://www.bbc.co.uk/news/business-41769488
 [7]: https://www.subtraction.com
-[8]: https://www.fastcodesign.com/90155005
+[8]: https://www.fastcompany.com/90155005

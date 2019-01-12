@@ -88,7 +88,7 @@ This foolhardy statement frankly amounts to little more than an advocation lazin
 When advocating the user, applying blanket claims or unfounded assumptions such as this is neither helpful or productive. Indeed it can be quite dangerous, especially when delivered by someone like David who holds position of respect within the community (leading to [worrying statements such as this][15]). For that reason, I hope David is able to clarify his points on the subject and provide evidence to support his claims.
 
 [1]: http://tinyurl.com/
-[2]: http://adactio.com/journal/1566/
+[2]: https://adactio.com/journal/1566/
 [3]: http://shiflett.org/blog/2008/mar/urls-can-be-beautiful
 [4]: https://clearleft.com/
 [5]: http://www.fullcreammilk.co.uk/thinking/about/url_abc/

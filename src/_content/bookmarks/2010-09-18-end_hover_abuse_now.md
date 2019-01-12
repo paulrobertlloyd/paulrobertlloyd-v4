@@ -1,7 +1,7 @@
 ---
 title: End Hover Abuse Now
 date: 2010-09-18T11:49:00+01:00
-url: https://www.cennydd.com/2010/end-hover-abuse-now
+url: https://www.cennydd.com/blog/end-hover-abuse-now
 tags:
 - web
 ---

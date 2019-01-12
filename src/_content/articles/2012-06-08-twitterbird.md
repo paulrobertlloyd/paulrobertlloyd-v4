@@ -56,18 +56,18 @@ Really? I’d suggest the opposite is true. Surely part of this exercise is an a
 
 While not immediately enamoured by the logo, I’m sure I’ll warm to it over time. By which point, it’ll be updated again. With over $1 billion in venture funding, Twitter is [getting good at spending other people’s money][12].
 
-[1]: http://bbc.co.uk/news/business-18094883
+[1]: https://www.bbc.co.uk/news/business-18094883
 [2]: https://www.nytimes.com/2012/05/24/science/earth/shell-arctic-ocean-drilling-stands-to-open-new-oil-frontier.html
-[3]: http://bbc.co.uk/news/technology-17178022
-[4]: http://blog.twitter.com/2012/06/taking-flight-twitterbird.html
+[3]: https://www.bbc.co.uk/news/technology-17178022
+[4]: https://blog.twitter.com/official/en_us/a/2012/taking-flight-twitterbird.html
 [5]: https://www.flickr.com/photos/stop/5034665936/
 [6]: https://twitter.com/search/from%3Astop%20since%3A2012-06-07%20until%3A2012-06-08
 [7]: /2009/06/social_media_icons
-[8]: http://gawker.com/5916390
-[9]: http://dribbble.com/site/brand
-[10]: http://underconsideration.com/brandnew/archives/twitter_gives_you_the_bird.php
-[11]: http://iconfinder.com/icondetails/10958/128/twitter_icon
-[12]: http://signalvnoise.com/posts/2636-the-things-you-do-more-often-are-the-things
+[8]: https://gawker.com/5916390/is-twitters-logo-change-the-most-revolutionary-re-branding-of-the-modern-era
+[9]: https://dribbble.com/branding
+[10]: https://underconsideration.com/brandnew/archives/twitter_gives_you_the_bird.php
+[11]: https://www.iconfinder.com/icons/10958/bloglovin_social_media_icon#size=128
+[12]: https://signalvnoise.com/posts/2636-the-things-you-do-more-often-are-the-things
 
 *[API]: application programming interface
 *[PR]: public relations

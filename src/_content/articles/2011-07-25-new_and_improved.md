@@ -68,24 +68,24 @@ In many respects my focus on the content and typography means these do much of t
 [2]: http://fontdeck.com/typeface/bliss/
 [3]: http://fontdeck.com/typeface/skolar/
 [4]: /2011/03/brasilia_palace_hotel
-[5]: http://adactio.com/journal/1274/
-[6]: http://diveintohtml5.org/history.html
+[5]: https://adactio.com/journal/1274/
+[6]: http://diveintohtml5.info/history.html
 [7]: /journal/
 [8]: http://v1.fourtwo.net/
 [9]: /archive/
 [10]: /projects/
 [11]: /2011/02/
-[12]: http://www.alistapart.com/articles/responsive-web-design/
-[13]: http://filamentgroup.com/lab/responsive_images_experimenting_with_context_aware_image_sizing/
+[12]: https://alistapart.com/article/responsive-web-design
+[13]: https://www.filamentgroup.com/lab/responsive-images-experimenting-with-context-aware-image-sizing.html
 [14]: http://blog.andyhume.net/content-aware-responsive-images/
-[15]: http://html5boilerplate.com/
+[15]: https://html5boilerplate.com
 [16]: https://github.com/h5bp/html5-boilerplate/issues/610
-[17]: http://leaflet.cloudmade.com/
+[17]: https://leafletjs.com
 [18]: /2009/05/a_european_adventure
 [19]: /feeds/combined/
 [20]: /feeds/
-[21]: http://movabletype.org/
-[22]: http://www.movabletype.org/2011/05/movable_type_51_and_505_436_security_update.html
+[21]: https://movabletype.org
+[22]: https://movabletype.org/news/2011/05/movable_type_51_and_505_436_security_update.html
 
 *[API]: application programming interface
 *[HTML]: HyperText Markup Language

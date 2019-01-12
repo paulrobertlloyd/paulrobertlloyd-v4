@@ -51,7 +51,7 @@ So, there we have it. Lots to look forward to, and still much to plan, yet I sus
 [6]: /talks/apa_digital_breakfast_march_2011
 [7]: http://www.apa.co.uk/news/digital-breakfast-web-design-trends-tues-08-march/
 [8]: http://oxford.geeknights.net/2011/apr-13th/
-[9]: http://adactio.com/journal/4557/
+[9]: https://adactio.com/journal/4557/
 [10]: http://ampersandconf.com/
 [11]: http://clagnut.com/blog/2361/
 [12]: http://fontdeck.com/

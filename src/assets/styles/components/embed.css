@@ -2,6 +2,11 @@
   background-color: var(--color-offset);
 }
 
+.embed img {
+  filter: blur(2px);
+  transform: scale(1.0125);
+}
+
 .embed__button {
   align-items: center;
   color: var(--color-neutral-lightest);

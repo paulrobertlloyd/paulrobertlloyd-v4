@@ -47,7 +47,7 @@ So, the future is bright. I’m excited by the possibility space that has opened
 [6]: https://twitter.com/scruffymongrel
 [7]: https://gist.github.com/paulrobertlloyd/d50e7728db960223d3e2b81c665a179d
 [8]: https://addyosmani.com/writing-modular-js/
-[9]: http://github.com/gablaxian/gablaxian.com
+[9]: https://github.com/gablaxian/gablaxian.com
 [10]: https://rollupjs.org
 [11]: https://webpack.js.org
 [12]: https://github.com/rollup/rollup-plugin-node-resolve

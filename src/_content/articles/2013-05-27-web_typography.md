@@ -69,17 +69,17 @@ Beyond [dynamic subsetting][13] (a technology which appears reserved for Monotyp
 Internet, make it happen.
 
 [1]: /2013/04/bradshaws_guide
-[2]: http://www.google.com/fonts/
+[2]: https://fonts.google.com
 [3]: https://edgewebfonts.adobe.com
-[4]: http://openfontlibrary.org
-[5]: http://www.fontsquirrel.com
+[4]: https://fontlibrary.org
+[5]: https://www.fontsquirrel.com
 [6]: http://ie.microsoft.com/testdrive/graphics/opentype/opentype-fontbureau/index.html
 [7]: http://www.fontsquirrel.com/fonts/kameron
 [8]: http://www.linuxlibertine.org
 [9]: https://en.wikipedia.org/wiki/Index_(typography)
 [10]: http://www.subsetter.com
-[11]: http://www.fontsquirrel.com/tools/webfont-generator
-[12]: http://fontforge.org
+[11]: https://www.fontsquirrel.com/tools/webfont-generator
+[12]: https://fontforge.github.io/en-US/
 [13]: http://blog.fonts.com/2012/03/27/dynamic-subsetting-for-dynamic-content/
 
 *[CSS]: Cascading Style Sheets

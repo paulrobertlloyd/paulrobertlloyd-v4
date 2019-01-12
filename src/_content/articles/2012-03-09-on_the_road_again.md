@@ -42,7 +42,7 @@ The trip ends in San Francisco, which I’ll be visiting for the third time in t
 
 So, as I sit in the Hyatt’s hotel bar, looking out across a damp and dreary Austin, there’s still plenty to look forward to.
 
-[1]: http://adactio.com/
+[1]: https://adactio.com/
 [2]: /2011/03/sxsw
 [3]: http://andyhume.net/
 [4]: http://benbarnett.net/

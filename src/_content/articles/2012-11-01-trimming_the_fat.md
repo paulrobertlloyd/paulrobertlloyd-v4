@@ -235,21 +235,21 @@ Website optimisation can be a cruel game; everything has a number that begs to b
 [1]: /2011/07/new_and_improved
 [2]: /2012/02/niptuck
 [3]: http://patrickhaney.com/thinktank/2008/08/19/automatic-awesompersands
-[4]: http://mapbox.com/
-[5]: http://leafletjs.com/
-[6]: http://mapbox.com/tilemill/
+[4]: https://www.mapbox.com
+[5]: https://leafletjs.com
+[6]: https://www.mapbox.com/tilemill/
 [7]: http://abitgone.co.uk/
 [8]: http://allmarkedup.com/
-[9]: http://lesscss.org/
-[10]: http://leafo.net/lessphp/
+[9]: http://lesscss.org
+[10]: https://leafo.net/lessphp/
 [11]: http://noisetexturegenerator.com/
 [12]: http://html.adobe.com/edge/webfonts/
 [13]: http://fontdeck.com/typeface/akagi/
 [14]: http://blogs.adobe.com/typblography/2012/08/source-sans-pro.html
 [15]: http://blogs.adobe.com/typblography/2012/09/source-code-pro.html
-[16]: http://edgefonts.com/
-[17]: http://cloudflare.com/
-[18]: http://code.google.com/p/minify/
+[16]: https://edgewebfonts.adobe.com
+[17]: https://www.cloudflare.com/en-gb/
+[18]: https://github.com/mrclay/minify
 [19]: https://developers.google.com/speed/docs/best-practices/rendering#SpecifyCharsetEarly
 
 *[CDN]: content delivery network

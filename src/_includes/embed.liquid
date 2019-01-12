@@ -7,7 +7,7 @@
 {%- elsif embed contains 'youtube' -%}
   {%- assign poster = embed | replace: 'https://www.youtube.com/watch?v=','https://i.ytimg.com/vi/' -%}
   {%- capture src %}{{ embed | replace: 'www.youtube.com/video','www.youtube-nocookie.com/embed' }}?showinfo=0&rel=0&modestbranding=1&autoplay=1{% endcapture -%}
-  {%- capture img %}{{ poster }}/sddefault.jpg{% endcapture -%}
+  {%- capture img %}{{ poster }}/hqdefault.jpg{% endcapture -%}
 {%- else -%}
   {%- capture img %}https://res.cloudinary.com/paulrobertlloyd/image/fetch/c_fill%2Cf_auto%2Cq_auto%2Cw_1920/{{ app.url }}/images/{{ poster }}{% endcapture -%}
 {%- endif -%}
