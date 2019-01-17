@@ -1203,7 +1203,7 @@ remarks:
 - author: Tim Bonnemann
   gravatar: d5648841ec7a4e840b2bc25f79869c92
   date: 2011-08-04T23:23:22+01:00
-  url: http://www.plansphere.com
+  url: http://www.plansphere.com/blog/
   content: |
     Very nice icons, use them on several sites.
 

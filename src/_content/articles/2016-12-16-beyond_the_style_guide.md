@@ -176,9 +176,9 @@ Alongside tools like preprocessors, newer CSS layout modules like flexbox and gr
 [9]: https://24ways.org/2015/putting-my-patterns-through-their-paces/
 [10]: http://alistapart.com/article/content-out-layout
 [11]: https://24ways.org/2015/animating-your-brand/
-[12]: https://playbook.cio.gov/designstandards/
-[13]: https://playbook.cio.gov/designstandards/visual-style/#pairings
-[14]: https://playbook.cio.gov/designstandards/visual-style/#palette
+[12]: https://designsystem.digital.gov
+[13]: https://designsystem.digital.gov/components/typography/#pairings-and-styles
+[14]: https://designsystem.digital.gov/components/colors/#palette
 [15]: http://www.w3.org/TR/css-variables/
 [16]: http://erskinedesign.com/blog/friendlier-colour-names-sass-maps/
 [17]: https://github.com/guardian/guss
