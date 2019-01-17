@@ -53,8 +53,8 @@ I joked about it with friends when arrived last week, but I think I was on to so
 
 [1]: http://readability.com/paulrobertlloyd/favorites
 [2]: http://www.guardian.co.uk/technology/2013/mar/09/evgeny-morozov-technology-solutionism-interview
-[3]: http://netdelusion.com
-[4]: http://clickherethebook.com
+[3]: https://www.goodreads.com/book/show/10003400-the-net-delusion
+[4]: https://www.goodreads.com/book/show/13587160-to-save-everything-click-here
 [5]: http://www.wired.com/threatlevel/2012/05/google-wifi-fcc-investigation/
 [6]: http://www.eastbayexpress.com/oakland/the-bacon-wrapped-economy/Content?oid=3494301
 [7]: http://cbracy.tumblr.com/post/39314979304/silicon-valleys-problem

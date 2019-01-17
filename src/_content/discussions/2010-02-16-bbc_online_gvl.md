@@ -5,7 +5,7 @@ remarks:
 - author: Paul Annett
   gravatar: d83f6a73ee515fa9d7e4e0e8e9eabac8
   date: 2010-02-17T10:24:19Z
-  url: http://paulannett.co.uk/
+  url: https://paulannett.co.uk/
   content: |
     I look forward to seeing this rolling out across the BBC sites.
 

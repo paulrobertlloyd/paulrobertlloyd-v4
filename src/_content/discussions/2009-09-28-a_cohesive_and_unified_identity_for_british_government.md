@@ -14,7 +14,7 @@ remarks:
 - author: Paul Annett
   gravatar: d83f6a73ee515fa9d7e4e0e8e9eabac8
   date: 2009-09-28T11:28:25+01:00
-  url: http://paulannett.co.uk/
+  url: https://paulannett.co.uk/
   content: |
     Good point, and well demonstrated. I do agree with Rich about different visual identities between agencies. I’d also like to see a redrawn and simplified coat of arms along the same lines as the USA’s simplified eagle seal. Get on the case! ;-)
 

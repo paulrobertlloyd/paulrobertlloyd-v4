@@ -65,7 +65,7 @@ remarks:
 - author: Paul Annett
   gravatar: d83f6a73ee515fa9d7e4e0e8e9eabac8
   date: 2010-03-17T13:35:01Z
-  url: http://paulannett.co.uk/
+  url: https://paulannett.co.uk/
   content: |
     Our home network is the 100 Acre Wood, with the various devices being named after the characters who inhabit it.
 ---
