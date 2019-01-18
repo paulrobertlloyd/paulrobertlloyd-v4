@@ -1,0 +1,13 @@
+.avatar {
+  block-size: 2.5rem;
+  border: var(--border-width-thin) solid var(--color-alpha-highest);
+  border-radius: 50%;
+  inline-size: 2.5rem;
+  margin-inline-end: var(--space-inline-small);
+  object-fit: cover;
+}
+
+.avatars {
+  align-items: center;
+  display: flex;
+}

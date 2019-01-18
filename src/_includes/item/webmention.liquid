@@ -1,0 +1,27 @@
+<article class="item item--{{ item_modifier | default: 'block'}} | h-cite" id="webmention-{{ item.wm-id }}" data-type="remark">
+  {% if item.author %}
+  <header class="item__header">
+    <h3 class="item__title | p-author h-card">
+      <img class="avatar | u-photo" src="{{ item.author.photo | default: '/assets/vectors/avatar.svg' }}" alt="" width="40" height="40">
+      {%- if item.author.url %}<a class="u-url" href="{{ item.author.url }}" target="_blank" rel="noopener noreferrer">{% endif -%}
+      <span class="p-name">{{ item.author.name | default: 'Anonymous' }}</span>
+      {%- if item.author.url %}</a>{% endif -%}
+    </h3>
+  </header>
+  {% endif %}
+
+  <div class="item__main s-linear | p-content">
+    {{ item.content.value }}
+  </div>
+
+  {% if item.published %}
+  <footer class="item__footer">
+    <a class="u-url" rel="bookmark" href="{{ item.url }}">
+      <time class="dt-published" datetime="{{ item.published | date: dates.iso }}" aria-label="{{ item.published | date: dates.date_long }}">
+        <span>{{ item.published | date: dates.date_short }}</span>
+        <span>{{ item.published | date: dates.time }}</span>
+      </time>
+    </a>
+  </footer>
+  {% endif %}
+</article>

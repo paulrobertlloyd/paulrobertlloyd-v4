@@ -1,8 +1,8 @@
 <article class="item item--{{ item_modifier | default: 'block'}} | p-comment h-cite" id="remark-{{ forloop.rindex }}" data-type="remark">
   <header class="item__header">
     <h3 class="item__title | p-author h-card">
-      <img class="item__image | u-photo" src="https://gravatar.com/avatar/{{ item.gravatar }}?s=96&d=identicon" alt="" width="48" height="48">
-      {%- if item.url %}<a class="u-url" href="{{ item.url }}">{% endif -%}
+      <img class="avatar | u-photo" src="https://gravatar.com/avatar/{{ item.gravatar }}?s=80&d=identicon" alt="" width="40" height="40">
+      {%- if item.url %}<a class="u-url" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{% endif -%}
       <span class="p-name">{{ item.author }}</span>
       {%- if item.url %}</a>{% endif -%}
     </h3>

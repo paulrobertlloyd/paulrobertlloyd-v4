@@ -3,5 +3,6 @@
 *.key
 
 # Folders to ignore
+.cache
 node_modules
 www
