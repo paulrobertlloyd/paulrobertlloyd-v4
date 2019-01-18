@@ -40,6 +40,7 @@
 
 .item__title {
   @extend %subhead;
+  align-items: center;
 }
 
 /* Image */
@@ -50,9 +51,8 @@
   max-inline-size: var(--footer-inline-size);
 }
 
-.item[data-type~="remark"] .item__image {
+[data-type="remark"] .avatar {
   float: inline-start;
-  margin-inline-end: var(--space-inline);
 }
 
 /* Main */
