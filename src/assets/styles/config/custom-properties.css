@@ -53,7 +53,9 @@
   --border-width-thickest: 0.5rem;
 
   /* Sizing */
-  --size-icon: 1.25rem;
+  --size-icon-small: 1rem;
+  --size-icon-medium: 2rem;
+  --size-icon-large: 3rem;
 
   /* Spacing > Block */
   --space-block-large: calc(2rem + 6vh);
@@ -62,6 +64,7 @@
   --space-block-xsmall: calc(0.25rem + 0.5vh);
 
   /* Spacing > Inline */
+  --space-inline-xsmall: 0.25rem;
   --space-inline-small: 0.375rem;
   --space-inline: 0.75rem;
 

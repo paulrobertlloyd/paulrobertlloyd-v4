@@ -1,0 +1,21 @@
+/*
+ * Interactive elements
+ * ====================
+ * https://w3c.github.io/html/interactive-elements.html
+ */
+
+summary {
+  @extend %text-decoration;
+  color: var(--anchor-color, inherit);
+  cursor: pointer;
+  display: block;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* TODO: Better focus styles */
+summary:focus {
+  outline: 0;
+}

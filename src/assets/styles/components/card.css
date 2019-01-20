@@ -89,10 +89,10 @@
 
 .card__icon {
   background: url("/assets/vectors/multi-photo.svg") no-repeat;
-  block-size: var(--size-icon);
+  block-size: var(--size-icon-small);
   content: "";
   display: block;
-  inline-size: var(--size-icon);
+  inline-size: var(--size-icon-small);
   inset-block-end: calc(var(--space-block-xsmall) * 2);
   inset-inline-end: calc(var(--space-block-xsmall) * 2);
   position: absolute;

@@ -1,0 +1,21 @@
+<section class="section" aria-labelledby="webmentions">
+  <div class="section__container">
+    <header class="section__header">
+      <h2 class="section__title" id="webmentions">Webmentions</h2>
+    </header>
+
+    <details class="section__main">
+      <summary>
+        {% include 'facepile' with items
+          facepile_type: 'replies'
+        %}
+      </summary>
+
+      <div style="--grid-size: {{ items_size | default: '100%' }}">
+      {% for item in items reversed %}
+        {% include 'item/webmention' %}
+      {% endfor %}
+      </div>
+    </details>
+  </div>
+</section>
