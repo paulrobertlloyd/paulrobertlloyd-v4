@@ -1,8 +1,17 @@
+{%- capture permalink -%}{{ page.url | permalink | prepend: app.url }}{%- endcapture -%}
+{%- assign webmentions = webmentions.children | webmentions_for_url: permalink -%}
 {%- layout 'layout/default' -%}
 {%- block 'main' -%}
   {%- include 'footer' -%}
   {%- include 'header' summary: false -%}
   {%- include 'content' -%}
+
+  {%- if webmentions.size > 0 -%}
+    {%- include 'section-webmentions'
+      items: webmentions
+      item_modifier: 'inline'
+    -%}
+  {%- endif -%}
 
   {%- if discussion -%}
     {%- capture remarks_link %}[View remarks on this entry]({{ page.url | permalink }}/discussion){% endcapture -%}

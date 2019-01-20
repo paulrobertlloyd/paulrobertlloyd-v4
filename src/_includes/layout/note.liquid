@@ -1,41 +1,15 @@
 {%- capture title %}Note: {{ date | date: dates.datetime_full }}{% endcapture -%}
 {%- capture permalink -%}{{ page.url | permalink | prepend: app.url }}{%- endcapture -%}
-{%- assign mentions = webmentions.children | webmentions_for_url: permalink -%}
+{%- assign webmentions = webmentions.children | webmentions_for_url: permalink -%}
 {%- layout 'layout/default' -%}
 {%- block 'main' -%}
-  {%- include 'content' properties: 'e-content p-name' -%}
   {%- include 'footer' -%}
+  {%- include 'content' properties: 'e-content p-name' -%}
 
-  {%- assign item_modifier = 'inline' -%}
-  <section class="section" aria-labelledby="webmentions">
-    <div class="section__container">
-      <header class="section__header">
-        <h2 class="section__title" id="webmentions">Webmentions</h2>
-      </header>
-
-      <details class="section__main" open>
-      {% if mentions %}
-        <summary>
-          <div class="avatars">
-            {% for webmention in mentions reversed limit: 5 %}
-              <img class="avatar" src="{{ webmention.author.photo | default: '/assets/vectors/avatar.svg' }}" title="{{ webmention.author.name }}" alt="{{ webmention.author.name }}" width="48" height="48">
-            {% endfor %}
-            {% if mentions.size > 5 %}
-              <span>+{{ mentions.size | minus: 5 }}</span>
-            {% endif %}
-          </div>
-        </summary>
-
-        <div style="--grid-size: {{ items_size | default: '100%' }}">
-        {% for item in mentions reversed %}
-          {% include 'item/webmention' %}
-        {% endfor %}
-        </div>
-
-      {% else %}
-        <p>No mentions yet.</p>
-      {% endif %}
-      </details>
-    </div>
-  </section>
+  {%- if webmentions.size > 0 -%}
+    {%- include 'section-webmentions'
+      items: webmentions
+      item_modifier: 'inline'
+    -%}
+  {%- endif -%}
 {%- endblock -%}

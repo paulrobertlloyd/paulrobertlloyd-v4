@@ -1,0 +1,11 @@
+<div class="facepile">
+  <h3 class="facepile__title">Show all {{ facepile_type }}</h3>
+  <div class="facepile__main">
+    {% for item in facepile reversed limit: 5 %}
+      <img class="avatar" src="{{ item.author.photo | default: '/assets/vectors/avatar.svg' }}" title="{{ item.author.name }}" alt="{{ item.author.name }}" width="48" height="48">
+    {% endfor %}
+    {% if items.size > 5 %}
+      <span class="facepile__counter">+{{ items.size | minus: 5 }}</span>
+    {% endif %}
+  </div>
+</div>

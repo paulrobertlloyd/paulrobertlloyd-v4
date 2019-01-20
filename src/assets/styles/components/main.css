@@ -54,7 +54,7 @@
   max-inline-size: var(--line-measure);
 }
 
-.main a:not([class]) {
+.main a {
   @extend %text-decoration;
 
   transition-duration: var(--transition-short);
