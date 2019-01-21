@@ -34,7 +34,7 @@
   --font-size-title: calc(1.75rem);
   --font-size-lede: calc(1.125rem);
   --font-size-heading: calc(1.25rem + 0.75vmin);
-  --font-size-subhead: calc(1.125rem + 0.125vmin);
+  --font-size-subhead: calc(1.125rem + 0.25vmin);
   --font-size-body: calc(1rem + 0.375vmin);
   --font-size-reference: calc(0.875rem + 0.25vmin);
   --font-size-caption: calc(0.75rem + 0.125vmin);
