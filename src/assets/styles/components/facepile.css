@@ -19,6 +19,7 @@
 
 .facepile__title {
   margin-inline-end: var(--space-inline);
+  white-space: nowrap;
 }
 
 .facepile__main {

@@ -35,12 +35,12 @@
 /* Header */
 .item__header {
   grid-area: header;
-  margin-block-end: var(--space-block-xsmall);
 }
 
 .item__title {
   @extend %subhead;
   align-items: center;
+  margin-block-end: var(--space-block-xsmall);
 }
 
 /* Image */
