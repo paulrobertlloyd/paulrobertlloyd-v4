@@ -19,6 +19,7 @@
 .remark__header {
   align-items: baseline;
   display: flex;
+  flex-flow: row wrap;
   grid-area: header;
 }
 
@@ -26,6 +27,7 @@
   @extend %text-decoration;
   @extend %subhead;
   align-items: center;
+  margin-block-end: var(--space-block-xsmall);
   margin-inline-end: var(--space-inline);
 }
 
