@@ -97,7 +97,8 @@
   margin-block-end: var(--space-block-small);
 }
 
-.s-linear h3 {
+.s-linear * + h3,
+.s-linear :--list h3 {
   margin-block-start: var(--space-block-medium);
 }
 
