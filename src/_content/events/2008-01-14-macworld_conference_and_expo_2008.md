@@ -6,4 +6,4 @@ end: 2008-01-18
 tags:
 - venue:849vqhmx+pp
 ---
-Macworld Conference & Expo is the world’s most comprehensive Macintosh OS event, showcasing products and services for professionals involved in media and creative content development for corporate and home applications, as well as for consumers using the Mac at home.
+> Macworld Conference & Expo is the world’s most comprehensive Macintosh OS event, showcasing products and services for professionals involved in media and creative content development for corporate and home applications, as well as for consumers using the Mac at home.
