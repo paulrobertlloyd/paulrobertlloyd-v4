@@ -1,13 +1,13 @@
 {%- if pagination.links.size > 1 -%}
 <nav class="traverse" aria-label="page">
 {%- if pagination.nextPageLink -%}
-  {%- assign nextPageLink = pagination.nextPageLink | permalink | replace: 'page/','?page=' -%}
+  {%- assign nextPageLink = pagination.nextPageLink | pretty | replace: 'page/','?page=' -%}
   <a href="{{ nextPageLink }}" rel="prev">
     <span aria-hidden="true">&larr;</span> Older {{ label }}
   </a>
 {%- endif -%}
 {%- if pagination.previousPageLink -%}
-  {%- assign previousPageLink = pagination.previousPageLink | permalink | replace: 'page/','?page=' -%}
+  {%- assign previousPageLink = pagination.previousPageLink | pretty | replace: 'page/','?page=' -%}
   <a href="{{ previousPageLink }}" rel="next">
     Newer {{ label }} <span aria-hidden="true">&rarr;</span>
   </a>

@@ -9,7 +9,7 @@ permalink: /sitemap.xml
 {%- for item in items reversed -%}
   {%- unless item.data.hidden == true -%}
   <url>
-    <loc>{{ item.url | prepend: app.url | permalink }}</loc>
+    <loc>{{ item.url | prepend: app.url | pretty }}</loc>
     <lastmod>{{ item.date | date: '%Y-%m-%d' }}</lastmod>
     <changefreq>{{ item.data.changefreq }}</changefreq>
     <priority>{{ item.data.priority }}</priority>

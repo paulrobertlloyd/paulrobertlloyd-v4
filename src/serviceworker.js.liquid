@@ -25,7 +25,7 @@ const offlinePage = '/offline.html';
 const offlinePages = [
 {%- assign saved = collections.article | includes: 'data.tags','featured' -%}
 {%- for item in saved limit: 6 -%}
-  '{{ item.url | permalink }}',
+  '{{ item.url | pretty }}',
 {%- endfor -%}
 {%- for item in navigation.primary -%}
   '{{ item.url }}',

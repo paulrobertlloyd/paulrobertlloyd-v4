@@ -1,7 +1,7 @@
 <article class="item item--{{ item_modifier | default: 'block'}} | h-entry" data-type="bookmark">
   <header class="item__header">
     <h3 class="item__title | p-name">
-      <a href="{{ item.url | permalink }}">{{ item.data.title | markdownify: 'inline' }}</a>
+      <a href="{{ item.url | pretty }}">{{ item.data.title | markdownify: 'inline' }}</a>
     </h3>
   </header>
 
@@ -10,7 +10,7 @@
   </p>
 
   <footer class="item__footer">
-    <a class="u-bookmark-of" rel="bookmark" href="{{ item.url | permalink }}" tabindex="-1">
+    <a class="u-url" rel="bookmark" href="{{ item.url | prepend: app.url | pretty }}" tabindex="-1">
       <time class="dt-published" datetime="{{ item.data.date | date: dates.iso }}" aria-label="{{ item.data.date | date: dates.date_long }}">{{ item.data.date | date: dates.date_short }}</time>
     </a>
   </footer>

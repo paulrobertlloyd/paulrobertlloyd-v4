@@ -12,7 +12,7 @@
 
   <header class="card__header">
     <h3 class="card__title | p-name">
-      <a href="{{ item.url | permalink }}">{{ item.data.title | markdownify: 'inline' }}</a>
+      <a href="{{ item.url | pretty }}">{{ item.data.title | markdownify: 'inline' }}</a>
     </h3>
   </header>
 
@@ -24,7 +24,7 @@
 
 {%- if item.data.type != 'project' -%}
   <footer class="card__footer">
-    <a class="u-url" rel="bookmark" href="{{ item.url | permalink }}" tabindex="-1">
+    <a class="u-url" rel="bookmark" href="{{ item.url | prepend: app.url | pretty }}" tabindex="-1">
       <time class="dt-published" datetime="{{ item.data.date | date: dates.iso }}">{{ item.data.date | date: dates.date_long }}</time>
     </a>
   </footer>

@@ -2,7 +2,7 @@
 <nav class="pagination" aria-label="page">
   <ol>
   {%- for item in pagination.links -%}
-    {%- assign url = item | permalink | replace: 'page/','?page=' -%}
+    {%- assign url = item | pretty | replace: 'page/','?page=' -%}
     {%- if forloop.index0 != 0 -%}
       {%- assign label = forloop.index0 -%}
     {%- else -%}

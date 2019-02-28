@@ -1,5 +1,5 @@
-{%- capture permalink -%}{{ page.url | permalink | prepend: app.url }}{%- endcapture -%}
-{%- assign webmentions = webmentions.children | webmentions_for_url: permalink -%}
+{%- capture target -%}{{ page.url | prepend: app.url | pretty }}{%- endcapture -%}
+{%- assign webmentions = webmentions.children | webmentions_for_url: target -%}
 {%- layout 'layout/default' -%}
 {%- block 'main' -%}
   {%- include 'footer' -%}
@@ -14,7 +14,7 @@
   {%- endif -%}
 
   {%- if discussion -%}
-    {%- capture remarks_link %}[View remarks on this entry]({{ page.url | permalink }}/discussion){% endcapture -%}
+    {%- capture remarks_link %}[View remarks on this entry]({{ page.url | pretty }}/discussion){% endcapture -%}
     {%- include 'section'
       section_id: 'dicussion'
       section_title: 'Discussion'
