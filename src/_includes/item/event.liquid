@@ -3,16 +3,16 @@
 <article class="item item--{{ item_modifier | default: 'block'}} | h-entry h-event" data-type="event">
   <header class="item__header">
     <h3 class="item__title | p-name">
-      <a href="{{ item.url | permalink }}">{{ item.data.title | markdownify: 'inline' }}</a>
+      <a href="{{ item.url | pretty }}">{{ item.data.title | markdownify: 'inline' }}</a>
     </h3>
   </header>
 
   <p class="item__main s-linear | h-card">
-    <a class="p-name" href="{{ venue.url | permalink }}">{{ venue.data.title | markdownify: 'inline' }}</a>
+    <a class="p-name" href="{{ venue.url | pretty }}">{{ venue.data.title | markdownify: 'inline' }}</a>
   </p>
 
   <footer class="item__footer">
-    <a class="u-url" rel="bookmark" href="{{ item.url | permalink }}" tabindex="-1">
+    <a class="u-url" rel="bookmark" href="{{ item.url | prepend: app.url | pretty }}" tabindex="-1">
       <time class="dt-published" datetime="{{ item.data.date | date: dates.iso }}" aria-label="{{ item.data.date | date: dates.date_long }}">{{ item.data.date | date: dates.date_short }}</time>
     </a>
   </footer>

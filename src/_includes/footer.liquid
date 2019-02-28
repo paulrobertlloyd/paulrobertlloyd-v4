@@ -2,7 +2,7 @@
   <dl>
     <dt>Published on</dt>
     <dd>
-      <a rel="bookmark" class="u-url" href="{{ page.url | permalink }}">
+      <a class="u-url" rel="bookmark" href="{{ page.url | prepend: app.url | pretty }}">
         <time class="dt-published" datetime="{{ date | date: dates.iso }}">{% if type == 'note' or type == 'photo' %}{{ date | date: dates.datetime_full }}{% else %}{{ date | date: dates.date_long }}{% endif %}</time>
       </a>
     </dd>

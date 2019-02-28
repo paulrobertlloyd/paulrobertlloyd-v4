@@ -1,6 +1,6 @@
 {%- capture title %}Note: {{ date | date: dates.datetime_full }}{% endcapture -%}
-{%- capture permalink -%}{{ page.url | permalink | prepend: app.url }}{%- endcapture -%}
-{%- assign webmentions = webmentions.children | webmentions_for_url: permalink -%}
+{%- capture target -%}{{ page.url | prepend: app.url | pretty }}{%- endcapture -%}
+{%- assign webmentions = webmentions.children | webmentions_for_url: target -%}
 {%- layout 'layout/default' -%}
 {%- block 'main' -%}
   {%- include 'footer' -%}

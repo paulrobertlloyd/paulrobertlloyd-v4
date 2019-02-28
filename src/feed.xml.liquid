@@ -23,9 +23,9 @@ permalink: /feed.xml
     <updated>{{ item.data.date | date: dates.iso }}</updated>
     {% if item.data.url %}
     <link href="{{ item.data.url }}" rel="alternate" type="text/html"/>
-    <link href="{{ item.url | prepend: app.url | permalink }}" rel="related" type="text/html"/>
+    <link href="{{ item.url | prepend: app.url | pretty }}" rel="related" type="text/html"/>
     {% else %}
-    <link href="{{ item.url | prepend: app.url | permalink }}" rel="alternate" type="text/html"/>
+    <link href="{{ item.url | prepend: app.url | pretty }}" rel="alternate" type="text/html"/>
     {% endif %}
     <content type="html"><![CDATA[
       {% capture content_html %}{{ item.templateContent | strip_mentions }}{% if item.data.photos %}{% include 'photos' with item.data.photos image_class: 'u-photo' %}{% endif %}{% endcapture %}{{ content_html | strip_newlines }}
