@@ -4,7 +4,7 @@
 {%- assign webmentions = webmentions.children | webmentions_for_url: target -%}
 {%- capture content -%}
   {{- content -}}
-  {%- include 'photos' columns: 1 -%}
+  {%- include 'photos' columns: 1 image_class: 'u-photo' -%}
 {%- endcapture -%}
 {%- layout 'layout/default' -%}
 {%- block 'main' -%}
