@@ -5,15 +5,14 @@
     </header>
 
     <ol class="section__main" style="--grid-size: 7.5rem">
+    {%- assign firstDate = '2008-09' | date: '%Y-%m' -%}
+    {%- assign lastDate = 'now' | date: '%Y-%m' -%}
     {%- assign year = page.date | date: '%Y' -%}
-    {%- assign firstMonth = '2008-09' | date: '%Y-%m' -%}
-    {%- assign currentMonth = 'now' | date: '%Y-%m' -%}
-    {%- assign pageMonth = page.date | date: '%Y-%m' -%}
     {%- for month in (1..12) -%}
-    {%- capture month %}{{ year }}-{{ month | prepend: '00' | slice: -2, 2 }}{% endcapture -%}
-      {%- if month contains year and currentMonth >= month and firstMonth <= month -%}
+      {%- capture date %}{{ year }}-{{ month | zeropad: 2 }}{% endcapture -%}
+      {%- if date contains year and lastDate >= date and firstDate <= date -%}
       <li class="item item--inline">
-        <h3 class="item__title"><a href="/{{ month | date: '%Y/%m' }}/">{{ month | date: '%B' }}</a></h3>
+        <h3 class="item__title"><a href="/{{ date | date: '%Y/%m' }}/">{{ date | date: '%B' }}</a></h3>
       </li>
       {%- endif -%}
     {%- endfor -%}
