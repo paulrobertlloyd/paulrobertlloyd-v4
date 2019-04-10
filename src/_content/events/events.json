@@ -1,8 +1,7 @@
 {
-  "layout": "layout/event",
+  "layout": "event",
   "permalink": "events/{{ page.date | date: '%Y/%m' }}/{{ page.fileSlug }}.html",
   "tags": ["event"],
-  "type": "event",
   "vocab": "event",
   "rsvp": "yes",
   "changefreq": "monthly",

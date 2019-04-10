@@ -1,6 +1,6 @@
 {%- assign date_color = item.data.date | colorify -%}
 {%- assign card_accent = item.data.style.color-accent | default: date_color -%}
-<article class="card |{% for root in item.data.vocab %} h-{{ root }}{% endfor %}" data-type="{{ item.data.type }}" style="--color-accent-light: {{ card_accent | contrastify: 'black' }}; --color-accent-dark: {{ card_accent | contrastify: 'white' }}">
+<article class="card |{% for root in item.data.vocab %} h-{{ root }}{% endfor %}" data-type="{{ item.data.layout }}" style="--color-accent-light: {{ card_accent | contrastify: 'black' }}; --color-accent-dark: {{ card_accent | contrastify: 'white' }}">
 {%- if item.data.image -%}
   <div class="card__image"{% if card_image_color %} style="--image-color: var(--color-accent)"{% endif %}>
     {%- assign image_ratio = image_ratio | default: 1.5 -%}
@@ -22,7 +22,7 @@
   </div>
 {%- endif -%}
 
-{%- if item.data.type != 'project' -%}
+{%- if item.data.layout != 'project' -%}
   <footer class="card__footer">
     <a class="u-url" rel="bookmark" href="{{ item.url | prepend: app.url | pretty }}" tabindex="-1">
       <time class="dt-published" datetime="{{ item.data.date | date: dates.iso }}">{{ item.data.date | date: dates.date_long }}</time>

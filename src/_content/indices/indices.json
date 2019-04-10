@@ -1,6 +1,5 @@
 {
-  "layout": "layout/index",
-  "type": "index",
+  "layout": "index",
   "changefreq": "weekly",
   "priority": "0.9"
 }

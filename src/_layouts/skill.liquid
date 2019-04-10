@@ -1,6 +1,6 @@
 {%- assign tag = page.fileSlug | prepend: 'skill:' -%}
 {%- assign items = collections.project | includes: 'data.tags',tag -%}
-{%- layout 'layout/default' -%}
+{%- layout 'default' -%}
 {%- block 'main' -%}
   {%- include 'header' -%}
   {%- include 'items'

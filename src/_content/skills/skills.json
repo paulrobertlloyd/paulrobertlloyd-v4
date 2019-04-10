@@ -1,8 +1,7 @@
 {
-  "layout": "layout/skill",
+  "layout": "skill",
   "permalink": "/projects/skills/{{ page.fileSlug }}/",
   "tags": ["skill"],
-  "type": "skill",
   "vocab": "entry",
   "changefreq": "monthly",
   "priority": "0.9"
