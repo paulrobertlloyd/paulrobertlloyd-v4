@@ -1,8 +1,8 @@
 import aria from './aria';
 
 export default function () {
-  const searchForm = document.getElementById('search');
-  const searchSubmit = document.getElementById('search-submit');
+  const searchForm = document.querySelector('#search');
+  const searchSubmit = document.querySelector('#search-submit');
   const endpoint = searchForm.dataset.searchIndex;
   const pages = [];
 
@@ -42,8 +42,8 @@ export default function () {
 
     window.addEventListener('load', () => {
       return new aria.Combobox(
-        document.getElementById('search-combobox'),
-        document.getElementById('search-input'),
+        document.querySelector('#search-combobox'),
+        document.querySelector('#search-input'),
         displayResults
       );
     });

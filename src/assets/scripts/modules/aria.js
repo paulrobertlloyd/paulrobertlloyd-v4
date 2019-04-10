@@ -73,6 +73,7 @@ aria.Combobox.prototype.checkHide = function (event) {
   if (event.target === this.input || this.combobox.contains(event.target)) {
     return;
   }
+
   this.hideListbox();
 };
 
@@ -132,12 +133,14 @@ aria.Combobox.prototype.setActiveOption = function (event) {
         this.input.setAttribute('aria-activedescendant', '');
         return;
       }
+
       activeIndex--;
       break;
     case aria.KeyCode.DOWN:
       if (activeIndex === this.resultsCount - 1) {
         return;
       }
+
       activeIndex++;
       break;
     case aria.KeyCode.HOME:
@@ -192,12 +195,13 @@ aria.Combobox.prototype.updateResults = function () {
       resultItem.setAttribute('tabindex', '-1');
       resultItem.dataset.value = results[i].value;
       resultItem.innerHTML = results[i].html;
-      this.listbox.appendChild(resultItem);
+      this.listbox.append(resultItem);
       if (this.shouldAutoSelect && i === 0) {
         resultItem.setAttribute('aria-selected', 'true');
         this.activeIndex = 0;
       }
     }
+
     this.listbox.hidden = false;
     this.combobox.setAttribute('aria-expanded', 'true');
     this.resultsCount = results.length;
@@ -262,7 +266,7 @@ aria.Combobox.prototype.clickOption = function (event) {
  * @returns {Object} element HTML element
  */
 aria.Combobox.prototype.getOptionAt = function (index) {
-  return document.getElementById('option-' + index);
+  return document.querySelector('#option-' + index);
 };
 
 /**
@@ -306,6 +310,7 @@ aria.Combobox.prototype.defocusOption = function (element) {
   if (!element) {
     return;
   }
+
   element.setAttribute('aria-selected', 'false');
 };
 
