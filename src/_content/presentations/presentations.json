@@ -1,8 +1,7 @@
 {
-  "layout": "layout/presentation",
+  "layout": "presentation",
   "permalink": "presentations/{{ page.date | date: '%Y/%m' }}/{{ page.fileSlug }}.html",
   "tags": ["post", "presentation"],
-  "type": "presentation",
   "vocab": "entry",
   "changefreq": "monthly",
   "priority": "0.9"

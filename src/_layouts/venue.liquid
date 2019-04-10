@@ -1,6 +1,6 @@
 {%- assign tag = page.fileSlug | prepend: 'venue:' -%}
 {%- assign items = collections.all | includes: 'data.tags',tag | reverse -%}
-{%- layout 'layout/default' -%}
+{%- layout 'default' -%}
 {%- block 'main' -%}
   {%- include 'header' -%}
   {%- capture content -%}

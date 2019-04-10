@@ -1,7 +1,6 @@
 {
-  "layout": "layout/discussion",
+  "layout": "discussion",
   "permalink": "{{ page.date | date: '%Y/%m' }}/{{ page.fileSlug }}/discussion.html",
-  "type": "discussion",
   "changefreq": "never",
   "priority": "0.4"
 }

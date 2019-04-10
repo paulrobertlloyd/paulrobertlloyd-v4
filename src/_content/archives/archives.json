@@ -1,8 +1,7 @@
 {
   "title": "Archive",
-  "layout": "layout/archive-month",
+  "layout": "archive-month",
   "permalink": "{{ page.date | date: '%Y/%m' }}/",
-  "type": "archive",
   "changefreq": "monthly",
   "priority": "0.2"
 }

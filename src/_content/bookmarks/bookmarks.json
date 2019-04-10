@@ -1,8 +1,7 @@
 {
-  "layout": "layout/bookmark",
+  "layout": "bookmark",
   "permalink": "bookmarks/{{ page.date | date: '%Y/%m' }}/{{ page.fileSlug }}.html",
   "tags": ["post", "bookmark"],
-  "type": "bookmark",
   "vocab": "entry",
   "vocab_u_class": "u-bookmark-of",
   "changefreq": "monthly",

@@ -1,9 +1,8 @@
 {
   "title": "",
-  "layout": "layout/note",
+  "layout": "note",
   "permalink": "notes/{{ page.fileSlug }}.html",
   "tags": ["post", "note"],
-  "type": "note",
   "vocab": "entry",
   "changefreq": "monthly",
   "priority": "0.8"

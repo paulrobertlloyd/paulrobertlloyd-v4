@@ -1,6 +1,6 @@
 {%- capture target -%}{{ page.url | prepend: app.url | pretty }}{%- endcapture -%}
 {%- assign webmentions = webmentions.children | webmentions_for_url: target -%}
-{%- layout 'layout/default' -%}
+{%- layout 'default' -%}
 {%- block 'main' -%}
   {%- include 'footer' -%}
   {%- include 'header' summary: false -%}

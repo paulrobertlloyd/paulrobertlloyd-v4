@@ -5,7 +5,7 @@ permalink: /archive/search.json
 {%- capture title %}{% if item.data.title != '' %}{{ item.data.title | markdownify: 'inline' }}{% else %}{{ item.data.date | date: dates.date_short }}{% endif %}{% endcapture -%}
   {
     "title": {{ title | jsonify }},
-    "type": {{ item.data.type | capitalize | jsonify }},
+    "type": {{ item.data.layout | capitalize | jsonify }},
     "content": {{ item.templateContent | tokenize | jsonify }},
     "url": {{ item.url | pretty | jsonify }}
   }{% unless forloop.last %},{% endunless %}
