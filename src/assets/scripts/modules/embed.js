@@ -23,7 +23,7 @@ export default function () {
     container.innerHTML = embed.innerHTML;
     container.style = embed.getAttribute('style');
     container.className = 'embed';
-    container.appendChild(button);
+    container.append(button);
 
     // Insert container after link to embed
     embed.parentNode.insertBefore(container, embed.nextSibling);
@@ -42,7 +42,7 @@ export default function () {
       iframe.setAttribute('src', embed.dataset.embedSrc);
 
       container.innerHTML = '';
-      container.appendChild(iframe);
+      container.append(iframe);
     });
   }
 }
