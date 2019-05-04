@@ -293,7 +293,7 @@ There are two ways you can set up collections in 11ty. The first, and most strai
 title: "Strikethrough"
 syntax-id: "strikethrough"
 syntax-summary: "~~The world is flat.~~"
-tag: extended-syntax
+tags: extended-syntax
 ---
 ```
 
