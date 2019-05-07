@@ -11,6 +11,8 @@
 
 Generated files are written to the `www` directory.
 
+Then, ensure the `WEBMENTION_IO_TOKEN` environment variable is set, which should be populated with your [API key from webmention.io](https://webmention.io/settings).
+
 ## Development
 
 When developing the site, you may want files automatically compiled and the browser to refresh automatically. To do this, run `npm run watch`.
