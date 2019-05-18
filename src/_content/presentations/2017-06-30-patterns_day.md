@@ -223,7 +223,7 @@ slides:
     Are we starting to confuse consistency with coherence – with conformance even?
 - image: /images/2017/06/patterns_day/29.png
   notes: |
-    Chris Pearce wrote about [systematic ways of approaching vertical space between components](https://medium.com/fed-or-dead/70f3b22ec89). It’s a really great article, and it’s quite detailed, outlining three different approaches to managing space in a componentised system. All have three have their drawbacks, and all introduce a degree of complexity.
+    Chris Pearce wrote about [systematic ways of approaching vertical space between components](https://medium.com/fed-or-dead/70f3b22ec89). It’s a really great article, and it’s quite detailed, outlining three different approaches to managing space in a componentised system. All have there have their drawbacks, and all introduce a degree of complexity.
 
     But as I read this, I couldn’t help thinking this might be an example of taking things too far. Is complexity the price we need to pay to achieve consistency?
 
