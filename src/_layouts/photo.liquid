@@ -10,7 +10,9 @@
 {%- block 'main' -%}
   {%- include 'footer' -%}
   {%- include 'content' properties: 'e-content p-name' -%}
-
+  {%- if categories.size > 0 -%}
+    {%- include 'categories' -%}
+  {%- endif -%}
   {%- if webmentions.size > 0 -%}
     {%- include 'section-webmentions'
       items: webmentions
