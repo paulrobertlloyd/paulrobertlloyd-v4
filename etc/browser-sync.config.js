@@ -1,8 +1,8 @@
 module.exports = {
   files: 'www',
   https: {
-    key: './etc/localhost.key',
-    cert: './etc/localhost.crt'
+    key: './ssl/localhost.key',
+    cert: './ssl/localhost.crt'
   },
   ignore: [
     './www/images'
