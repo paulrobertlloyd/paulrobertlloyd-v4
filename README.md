@@ -50,16 +50,15 @@ This site is deployed automatically by Netlify whenever files are pushed to the 
 ```bash
 paulrobertlloyd.com
 ├── etc
+│   ├── browser-sync.config.js   # BrowserSync configuration
+│   ├── postcss.config.js        # PostCSS configuration
+│   ├── rollup.config.js         # Rollup configuration
 │   └── test.conf                # Local nginx server configuration
 │
 ├── lib
-│   ├── filters                  # Eleventy filters
-│   ├── transforms               # Eleventy transforms
-│   ├── browser-sync.config.js   # BrowserSync configuration
-│   ├── eleventy.config.js       # Eleventy configuration
-│   ├── markdown.config.js       # Markdown configuration
-│   ├── postcss.config.js        # PostCSS configuration
-│   └── rollup.config.js         # Rollup configuration
+│   ├── filters                  # Eleventy template filters
+│   ├── libraries                # Eleventy template libraries
+│   └── transforms               # Eleventy transforms
 │
 ├── src
 │   ├── _content                 # Content (Markdown)
@@ -76,6 +75,7 @@ paulrobertlloyd.com
 │   └── sitemap.xml.liquid       # Sitemap template
 │
 ├── .editorconfig                # Text editor configuration
+├── .eleventy.js                 # Eleventy configuration
 ├── .gitattributes               # Files tracked by Git LFS
 ├── .gitignore                   # Files not tracked by Git
 ├── .markdownlintrc              # markdownlint configuration

@@ -5,4 +5,5 @@
 # Folders to ignore
 .cache
 node_modules
+ssl
 www
