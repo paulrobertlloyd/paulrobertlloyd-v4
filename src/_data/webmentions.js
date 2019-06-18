@@ -16,6 +16,7 @@ async function fetchWebmentions(since) {
     console.warn('Unable to fetch webmentions: no domain specified.');
     return false;
   }
+
   if (!TOKEN) {
     // If we dont have a domain access token, abort
     console.warn('Unable to fetch webmentions: no access token specified.');
@@ -59,6 +60,7 @@ function writeToCache(data) {
     if (err) {
       throw err;
     }
+
     console.log(`Webmentions cached to ${filePath}`);
   });
 }
