@@ -1,7 +1,7 @@
 ---
 title: Ron Burgundy Announces Anchorman Sequel
 date: 2012-03-29T23:49:49+01:00
-url: https://www.youtube.com/watch?v=MrNA7RjU91I
+bookmark-of: https://www.youtube.com/watch?v=MrNA7RjU91I
 tags:
 - video
 - film

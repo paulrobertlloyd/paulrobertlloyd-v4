@@ -1,7 +1,7 @@
 ---
 title: Eric Schmidt Interviews Stephen Colbert
 date: 2013-04-17T18:58:33+01:00
-url: https://www.youtube.com/watch?v=-HpBHWUPa8Q
+bookmark-of: https://www.youtube.com/watch?v=-HpBHWUPa8Q
 tags:
 - video
 - stephen_colbert

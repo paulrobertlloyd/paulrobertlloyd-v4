@@ -1,7 +1,7 @@
 ---
 title: Fuel-Careful F1 Less of a Guilty Pleasure
 date: 2014-04-22T21:51:23Z
-url: https://apnews.com/b56e431cca0f4bccbd980675084ee9bf
+bookmark-of: https://apnews.com/b56e431cca0f4bccbd980675084ee9bf
 tags:
 - formula_1
 ---

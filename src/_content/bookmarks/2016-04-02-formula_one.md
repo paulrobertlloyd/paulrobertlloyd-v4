@@ -1,7 +1,7 @@
 ---
 title: Declining reputation of Formula One in danger of reaching critical mass
 date: 2016-04-02T15:45:00+01:00
-url: https://www.theguardian.com/sport/blog/2016/apr/01/f1-critical-mass-bernie-ecclestone-formula-one-baku-grand-prix
+bookmark-of: https://www.theguardian.com/sport/blog/2016/apr/01/f1-critical-mass-bernie-ecclestone-formula-one-baku-grand-prix
 tags:
 - formula_1
 ---
