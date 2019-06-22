@@ -1,7 +1,7 @@
 ---
 title: Yosemite HD
 date: 2012-01-24T19:47:07Z
-url: https://vimeo.com/35396305
+bookmark-of: https://vimeo.com/35396305
 tags:
 - video
 - photography

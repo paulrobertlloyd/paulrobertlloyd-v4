@@ -1,7 +1,7 @@
 ---
 title: The Banality of ‘Don’t Be Evil’
 date: 2013-06-22T02:00:23+01:00
-url: https://www.nytimes.com/2013/06/02/opinion/sunday/the-banality-of-googles-dont-be-evil.html
+bookmark-of: https://www.nytimes.com/2013/06/02/opinion/sunday/the-banality-of-googles-dont-be-evil.html
 tags:
 - google
 - julian_assange

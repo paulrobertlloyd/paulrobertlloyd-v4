@@ -1,7 +1,7 @@
 ---
 title: A Silicon Valley Bar
 date: 2012-07-01T17:20:35+01:00
-url: https://twitter.com/zeldman/status/217995096879144960
+bookmark-of: https://twitter.com/zeldman/status/217995096879144960
 tags:
 - silicon_valley
 - comedy

@@ -3,7 +3,6 @@
   "permalink": "bookmarks/{{ page.date | date: '%Y/%m' }}/{{ page.fileSlug }}.html",
   "tags": ["post", "bookmark"],
   "vocab": "entry",
-  "vocab_u_class": "u-bookmark-of",
   "changefreq": "monthly",
   "priority": "0.8"
 }

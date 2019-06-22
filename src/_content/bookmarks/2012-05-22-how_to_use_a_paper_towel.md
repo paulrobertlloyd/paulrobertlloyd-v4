@@ -1,7 +1,7 @@
 ---
 title: How to Use a Paper Towel
 date: 2012-05-22T02:13:32+01:00
-url: https://www.youtube.com/watch?v=2FMBSblpcrc
+bookmark-of: https://www.youtube.com/watch?v=2FMBSblpcrc
 tags:
 - video
 - sustainability

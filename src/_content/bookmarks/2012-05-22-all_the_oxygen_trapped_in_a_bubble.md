@@ -1,7 +1,7 @@
 ---
 title: All the Oxygen Trapped in a Bubble
 date: 2012-05-22T01:49:24+01:00
-url: https://signalvnoise.com/posts/3177-all-the-oxygen-trapped-in-a-bubble
+bookmark-of: https://signalvnoise.com/posts/3177-all-the-oxygen-trapped-in-a-bubble
 tags:
 - silicon_valley
 ---

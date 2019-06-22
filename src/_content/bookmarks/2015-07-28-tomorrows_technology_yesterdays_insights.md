@@ -1,7 +1,7 @@
 ---
 title: Tomorrow’s Technology, Yesterday’s Insights
 date: 2015-07-28T01:19:00+01:00
-url: https://medium.com/@jonas_blind_hen/273704613c03
+bookmark-of: https://medium.com/@jonas_blind_hen/273704613c03
 tags:
 - google
 - silicon_valley

@@ -1,7 +1,7 @@
 ---
 title: What Happened On Easter Island — A New (Even Scarier) Scenario
 date: 2016-04-02T15:35:00+01:00
-url: https://www.npr.org/sections/krulwich/2013/12/09/249728994/what-happened-on-easter-island-a-new-even-scarier-scenario
+bookmark-of: https://www.npr.org/sections/krulwich/2013/12/09/249728994/what-happened-on-easter-island-a-new-even-scarier-scenario
 tags:
 - environment
 ---

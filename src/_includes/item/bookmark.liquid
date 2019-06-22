@@ -1,4 +1,4 @@
-<article class="item item--{{ item_modifier | default: 'block'}} | h-entry" data-type="bookmark">
+<article class="item item--{{ item_modifier | default: 'block' }} | h-entry" data-type="bookmark">
   <header class="item__header">
     <h3 class="item__title | p-name">
       <a href="{{ item.url | pretty }}">{{ item.data.title | markdownify: 'inline' }}</a>
@@ -6,7 +6,7 @@
   </header>
 
   <p class="item__main s-linear">
-    <a class="u-bookmark-of" rel="external" href="{{ item.data.url }}">{{ item.data.url | hostname }}</a>
+    <a class="u-bookmark-of" rel="external" href="{{ item.data.bookmark-of }}">{{ item.data.bookmark-of | hostname }}</a>
   </p>
 
   <footer class="item__footer">
