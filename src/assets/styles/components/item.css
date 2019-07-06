@@ -88,7 +88,7 @@
   margin-inline-end: var(--space-inline-small);
 }
 
-@media (--from-medium-viewport) {
+@media (--from-small-viewport) {
   .item--inline .item__footer span {
     display: block;
   }

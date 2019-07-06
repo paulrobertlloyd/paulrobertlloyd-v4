@@ -5,7 +5,7 @@
   grid-template-columns:
     [container-start] auto
     [content-start] 1fr [content-end]
-    calc(var(--font-size-title) + var(--grid-column-gap)) [container-end];
+    var(--sticky-title-block-size) [container-end];
   margin-inline: calc(var(--grid-column-gap) * -1);
 }
 
