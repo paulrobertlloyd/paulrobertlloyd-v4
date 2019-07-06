@@ -1,8 +1,7 @@
 .item {
-  --footer-inline-size: 6rem;
+  --footer-inline-size: 8rem;
   align-items: start;
   display: grid;
-  grid-column-gap: var(--space-inline);
   grid-template:
     "image" auto
     "header" auto
