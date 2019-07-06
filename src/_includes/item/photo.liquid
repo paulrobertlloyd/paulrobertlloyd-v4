@@ -1,6 +1,7 @@
 <article class="item item--{{ item_modifier | default: 'block'}} | h-entry" data-type="photo">
   <div class="item__main s-linear | e-content p-name">
     {{ item.templateContent -}}
+    {%- if item.data.photos.size > 1 %}{% assign image_ratio = 1.0 %}{% endif -%}
     {%- include 'photos' with item.data.photos
       image_class: 'u-photo'
     -%}
