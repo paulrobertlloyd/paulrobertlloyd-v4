@@ -9,4 +9,3 @@ end: 2018-08-09T16:30:00+01:00
 tags:
 - venue:9c7rwrw6+9m
 ---
-Part of the *Edinburgh Festival Fringe 2018*.

@@ -1,8 +1,9 @@
 ---
 title: Patterns Day
 date: 2017-06-30T09:00:00+01:00
-url: https://patternsday.com
-summary: A one-day event for web designers and developers on design systems, pattern libraries, style guides, and components.
+url: https://patternsday.com/2017
+summary: A one-day event for designers and developers focused on design systems, pattern libraries, style guides, and components.
+collection: patterns_day
 start: 2017-06-30T09:00:00+01:00
 end: 2017-06-30T16:45:00+01:00
 participant: true

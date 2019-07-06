@@ -8,5 +8,3 @@ tags:
 - venue:9c2xrvf6+fr
 ---
 > If you’ve got a sick sense of humour then maybe laughter is the best medicine. <cite>Laughter Therapy</cite> is Jimmy’s ninth solo show. It’ll be an evening of none stop jokes, gags and banter.
-
-Part of the *Brighton Comedy Festival 2010*.

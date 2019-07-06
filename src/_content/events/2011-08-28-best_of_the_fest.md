@@ -9,5 +9,3 @@ tags:
 - venue:9c7rwrx3+wv
 ---
 > The best comedians in the world! Best of the Fest is the biggest night of comedy in Edinburgh. It’s a guaranteed night of unabashed showing off and big laughs.
-
-Part of the *Edinburgh Festival Fringe 2011*.

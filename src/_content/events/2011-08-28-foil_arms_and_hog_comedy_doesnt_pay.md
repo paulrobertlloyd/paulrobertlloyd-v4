@@ -9,5 +9,3 @@ tags:
 - venue:9c7rwrw6+2c
 ---
 > Ireland’s premier sketch comedy group return to Edinburgh with their finest show to date.
-
-Part of the *Edinburgh Festival Fringe 2011*.

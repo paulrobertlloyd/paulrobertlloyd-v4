@@ -1,6 +1,7 @@
 ---
-title: 'Brexit: What the hell happens now? Talk by political journalist Ian Dunt'
+title: 'Brexit: What the hell happens now?'
 date: 2017-09-22T20:00:00+01:00
+summary: Talk by political journalist Ian Dunt
 start: 2017-09-22T20:00:00+01:00
 end: 2017-09-22T22:00:00+01:00
 tags:

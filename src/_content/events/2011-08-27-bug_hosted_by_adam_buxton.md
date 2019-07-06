@@ -11,5 +11,3 @@ tags:
 - venue:9c7rwrx9+35
 ---
 > The Edinburgh debut of the BFI’s smash-hit show. Sony Award-winning Adam Buxton shows you the most extraordinary, innovative and downright hilarious music videos from around the world in his own inimitable style.
-
-Part of the *Edinburgh Festival Fringe 2011*.

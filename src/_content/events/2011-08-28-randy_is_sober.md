@@ -9,5 +9,3 @@ tags:
 - venue:9c7rwrw6+6g
 ---
 > From the award-winning puppeteer and co-creator of <cite>Sammy J in the Forest of Dreams</cite> comes an all-new comedy show starring Randy, the felt-faced misanthrope. The former alcoholic children’s entertainer is off the booze and on the wagon this summer, looking at the world through the disgruntled eyes of a reformed boozehound. Its puppet stand-up as you’ve never seen it before.
-
-Part of the *Edinburgh Festival Fringe 2011*.
