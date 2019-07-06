@@ -1,7 +1,7 @@
 ---
 title: Skillswap Goes Playful
 date: 2010-02-23T19:00:00Z
-series: skillswap
+collection: skillswap
 start: 2010-02-23T19:00:00Z
 end: 2010-02-23T21:00:00Z
 tags:

@@ -1,0 +1,13 @@
+<article class="item item--{{ item_modifier | default: 'block'}}" data-type="source">
+  <header class="item__header">
+    <h3 class="item__title">
+      <a href="{{ item.url | pretty }}">{{ item.data.title | markdownify: 'inline' }}</a>
+    </h3>
+  </header>
+
+{%- if item.data.summary -%}
+  <div class="card__main s-linear | p-summary">
+    {{ item.data.summary | markdownify }}
+  </div>
+{%- endif -%}
+</article>

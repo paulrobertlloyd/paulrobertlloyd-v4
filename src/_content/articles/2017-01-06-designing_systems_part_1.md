@@ -5,7 +5,7 @@ location:
   locality: Bexhill-on-Sea
   country-name: United Kingdom
 summary: 'In the first part of a three-part essay about design systems, I review two approaches for the creation of something equally as complex: a city.'
-series: designing_systems
+collection: designing_systems
 image: /images/2017/01/designing_systems_part_1/brasilia_satellite.jpg
 tags:
 - architecture

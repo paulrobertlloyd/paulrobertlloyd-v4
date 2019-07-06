@@ -2,7 +2,7 @@
 title: 'Richard Herring: What is Love Anyway?'
 date: 2011-08-27T20:50:00+01:00
 url: http://www.richardherring.com/wila/
-series: edinburgh_festival_fringe_2011
+collection: edinburgh_festival_fringe_2011
 start: 2011-08-27T20:50:00+01:00
 end: 2011-08-27T21:50:00+01:00
 tags:

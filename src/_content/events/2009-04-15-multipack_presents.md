@@ -2,7 +2,7 @@
 title: 'Multipack Presents: Being Green'
 date: 2009-04-18T16:00:00+01:00
 url: http://multipack.co.uk/presents/
-series: multipack_presents
+collection: multipack_presents
 start: 2009-04-18T16:00:00+01:00
 end: 2009-04-18T19:00:00+01:00
 participant: true

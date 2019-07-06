@@ -2,7 +2,7 @@
 title: 'Multipack Presents: Coding Standards'
 date: 2009-06-13T16:00:00+01:00
 url: http://multipack.co.uk/presents/
-series: multipack_presents
+collection: multipack_presents
 start: 2009-06-13T16:00:00+01:00
 end: 2009-06-13T19:00:00+01:00
 tags:

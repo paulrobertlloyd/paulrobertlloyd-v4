@@ -1,13 +1,9 @@
 ---
 title: Events
 introduction: Venues
-pagination:
-  data: collections.venue
-  size: 96
-permalink: events/venues/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber }}{% else %}index{% endif %}.html
+permalink: events/venues/index.html
 ---
-{%- assign venues = pagination.items | sort_by: 'data.title' -%}
-{%- include 'items' with pagination.items
+{%- assign venues = collections.venue | sort_by: 'fileSlug' -%}
+{%- include 'items' with venues
   item_modifier: 'inline'
 -%}
-{%- include 'traverse' label: 'Venues' -%}

@@ -2,7 +2,7 @@
 title: Best of the Fest
 date: 2011-08-28T00:00:00+01:00
 url: https://www.comedy.co.uk/fringe/2011/best_of_the_fest/
-series: edinburgh_festival_fringe_2011
+collection: edinburgh_festival_fringe_2011
 start: 2011-08-28T00:00:00+01:00
 end: 2011-08-28T01:15:00+01:00
 tags:

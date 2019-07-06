@@ -1,0 +1,3 @@
+---
+title: An Event Apart
+---

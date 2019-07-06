@@ -1,0 +1,8 @@
+---
+title: Collections
+permalink: collections/index.html
+---
+{%- assign collections = collections.collection | sort_by: 'fileSlug' -%}
+{%- include 'items' with collections
+  item_modifier: 'inline'
+-%}

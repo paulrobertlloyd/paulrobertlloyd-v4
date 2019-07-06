@@ -3,7 +3,7 @@ title: New Adventures in Web Design 2013
 date: 2013-01-25T09:30:00Z
 url: https://newadventuresconf.com/2013/
 summary:
-series: new_adventures
+collection: new_adventures
 start: 2013-01-23
 end: 2013-01-25
 tags:

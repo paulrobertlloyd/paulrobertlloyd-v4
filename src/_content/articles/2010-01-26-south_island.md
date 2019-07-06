@@ -2,7 +2,7 @@
 title: A Small Taste of the South Island
 date: 2010-01-26T00:07:49Z
 summary: Having arranged my flights into and out of New Zealand before deciding upon an itinerary, meant I had little time to really explore the South Island.
-series: australasia_2009
+collection: australasia_2009
 image: /images/2010/01/south_island/overlander.jpg
 tags:
 - travel

@@ -2,7 +2,7 @@
 title: Dave Gorman’s Power Point Presentation
 date: 2011-08-28T19:40:00+01:00
 url: https://www.comedy.co.uk/fringe/2011/dave_gorman/
-series: edinburgh_festival_fringe_2011
+collection: edinburgh_festival_fringe_2011
 start: 2011-08-28T19:40:00+01:00
 end: 2011-08-28T18:40:00+01:00
 tags:
