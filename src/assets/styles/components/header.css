@@ -16,3 +16,10 @@
 
   max-inline-size: var(--line-measure);
 }
+
+.header__url {
+  @extend %body;
+
+  color: var(--color-accent);
+  max-inline-size: var(--line-measure);
+}

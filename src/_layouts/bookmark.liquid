@@ -1,6 +1,9 @@
 {%- layout 'default' -%}
 {%- block 'main' -%}
-  {%- include 'header' -%}
+  {%- include 'header'
+    url: bookmark-of
+    url_class: 'bookmark-of'
+  -%}
   {%- include 'content' -%}
   {%- include 'footer' -%}
 {%- endblock -%}
