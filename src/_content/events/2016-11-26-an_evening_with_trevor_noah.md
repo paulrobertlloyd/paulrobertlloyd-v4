@@ -2,6 +2,7 @@
 title: An evening with Trevor Noah
 date: 2016-11-26T19:00:00
 url: https://membership.theguardian.com/event/28603221004
+collection: guardian_live
 start: 2016-11-26T19:00:00
 end: 2016-11-26T20:30:00
 tags:
