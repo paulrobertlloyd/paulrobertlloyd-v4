@@ -16,7 +16,7 @@
     {% for this_collection in collection %}
       {%- for item in collections.collection -%}
         {%- if this_collection == item.fileSlug -%}
-          {%- capture section_title %}Other events in this series: <a href="{{ item.url }}">{{ item.data.title }}</a>{%- endcapture -%}
+          {%- capture section_title %}Other events in the <a href="{{ item.url }}">{{ item.data.title }}</a> series{%- endcapture -%}
         {%- endif -%}
       {%- endfor -%}
 
