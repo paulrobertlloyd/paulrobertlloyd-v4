@@ -87,12 +87,16 @@
   --container-inline-size: 100vw;
   --container-inline-inset: calc(100vw - var(--container-inline-size));
   --container-gutter: calc(var(--container-inline-inset) / 2);
+
+  /* Sticky title */
+  --sticky-title-block-size: 0;
 }
 
 @media (--from-small-viewport) {
   :root {
     --font-size-title: calc(1.75rem + 2vmin);
     --font-size-lede: calc(1.125rem + 1.25vmin);
+    --sticky-title-block-size: calc(var(--font-size-title) + var(--grid-column-gap));
   }
 }
 
