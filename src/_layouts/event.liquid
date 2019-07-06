@@ -12,12 +12,17 @@
   {%- endcapture -%}
   {%- include 'content' -%}
 
-  {%- if series -%}
-    {% for this_series in series %}
-      {%- assign events = collections.event | includes: 'data.series',this_series | reject: 'url',page.url -%}
+  {%- if collection -%}
+    {% for this_collection in collection %}
+      {%- for item in collections.collection -%}
+        {%- if this_collection == item.fileSlug -%}
+          {%- capture section_title %}Other events in this series: <a href="{{ item.url }}">{{ item.data.title }}</a>{%- endcapture -%}
+        {%- endif -%}
+      {%- endfor -%}
+
+      {%- assign events = collections.event | includes: 'data.collection',this_collection | reject: 'url',page.url -%}
       {%- include 'section'
         section_id: 'related'
-        section_title: 'Other events in this series'
         items: events
         item_modifier: 'inline'
       -%}

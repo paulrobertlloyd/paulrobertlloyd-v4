@@ -1,0 +1,9 @@
+{%- assign collection = page.fileSlug -%}
+{%- assign items = collections.all | includes: 'data.collection',collection -%}
+{%- layout 'default' -%}
+{%- block 'main' -%}
+  {%- include 'header' -%}
+  {%- include 'items' with items
+    item_modifier: 'inline'
+  -%}
+{%- endblock -%}

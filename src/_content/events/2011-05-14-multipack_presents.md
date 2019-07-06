@@ -2,7 +2,7 @@
 title: 'Multipack Presents: Mobile Development'
 date: 2011-05-14T16:00:00Z
 url: http://multipack.co.uk/presents/
-series: multipack_presents
+collection: multipack_presents
 start: 2011-05-14T16:00:00Z
 end: 2011-05-14T19:00:00Z
 tags:

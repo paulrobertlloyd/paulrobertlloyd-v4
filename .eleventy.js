@@ -63,20 +63,6 @@ module.exports = function (eleventy) {
     });
   });
 
-  eleventy.addCollection('venue', collection => {
-    return collection.getFilteredByGlob('**/venues/**/*.md').sort((a, b) => {
-      if (a.data.title < b.data.title) {
-        return -1;
-      }
-
-      if (a.data.title > b.data.title) {
-        return 1;
-      }
-
-      return 0;
-    });
-  });
-
   // Passthrough
   eleventy.addPassthroughCopy('./src/images');
   eleventy.addPassthroughCopy('./src/assets/fonts');

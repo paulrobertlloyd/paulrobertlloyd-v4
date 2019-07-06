@@ -1,0 +1,7 @@
+{
+  "layout": "collection",
+  "permalink": "/collections/{{ page.fileSlug }}/",
+  "tags": ["collection"],
+  "changefreq": "monthly",
+  "priority": "0.2"
+}

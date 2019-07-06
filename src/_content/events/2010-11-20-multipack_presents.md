@@ -2,7 +2,7 @@
 title: 'Multipack Presents: The Design Process'
 date: 2010-11-20T14:00:00Z
 url: http://multipack.co.uk/presents/
-series: multipack_presents
+collection: multipack_presents
 start: 2010-11-20T14:00:00Z
 end: 2010-11-20T20:00:00Z
 participant: true

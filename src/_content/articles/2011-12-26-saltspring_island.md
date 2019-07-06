@@ -2,7 +2,7 @@
 title: Across the Salish Sea
 date: 2011-12-26T15:05:26Z
 summary: After eight days exploring North America, it was time to visit some of its more westerly extremities. Flying out from Toronto, my first stop was Saltspring Island, via Vancouver Airport and a float plane.
-series: north_america_2011
+collection: north_america_2011
 image: /images/2011/12/saltspring_island/approach.jpg
 tags:
 - travel

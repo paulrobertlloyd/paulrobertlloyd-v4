@@ -25,13 +25,21 @@
     {%- endif -%}
   {%- endif -%}
 
-  {%- if series -%}
-    {%- assign posts = collections.all | select: 'data.series',series | reject: 'url',page.url -%}
+  {%- if collection -%}
+    {%- for this_collection in collection -%}
+      {%- for item in collections.collection -%}
+        {%- if this_collection == item.fileSlug -%}
+          {%- capture section_title %}More from the <a href="{{ item.url }}">{{ item.data.title }}</a> collection{%- endcapture -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endfor -%}
+
+    {%- assign articles = collections.article | includes: 'data.collection',collection | reject: 'url',page.url | reverse -%}
     {%- include 'section'
       section_id: 'related'
-      section_title: 'Also in this series'
       section_scrollable: true
-      items: posts
+      items: articles
+      items_limit: 6
       items_size: '16rem'
       items_component: 'card'
       card_image_color: true

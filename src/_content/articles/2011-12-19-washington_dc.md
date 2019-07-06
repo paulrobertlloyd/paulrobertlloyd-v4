@@ -2,7 +2,7 @@
 title: Back in the District
 date: 2011-12-19T22:00:28Z
 summary: My North American adventure started in Washington DC; ostensibly so I could attend an edition of this year’s An Event Apart conference. Yet it was also a good excuse to catch up with Shannon, who graciously planned a tour of the city for me and Andy.
-series: north_america_2011
+collection: north_america_2011
 image: /images/2011/12/washington_dc/lincoln_memorial.jpg
 tags:
 - travel

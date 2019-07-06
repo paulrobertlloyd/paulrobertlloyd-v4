@@ -2,7 +2,7 @@
 title: 'Connections #1: Weak Signals'
 url: https://ti.to/clearleft/connections-1-weak-signals
 date: 2014-02-04T19:00:00Z
-series: connections
+collection: connections
 start: 2014-02-04T19:00:00Z
 end: 2014-02-04T20:00:00Z
 tags:

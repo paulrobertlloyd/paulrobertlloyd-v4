@@ -2,7 +2,7 @@
 title: 'Connections #2'
 url: https://attending.io/events/connections2
 date: 2014-04-23T19:00:00+01:00
-series: connections
+collection: connections
 start: 2014-04-23T19:00:00+01:00
 end: 2014-04-23T22:00:00+01:00
 tags:

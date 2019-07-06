@@ -2,7 +2,7 @@
 title: New Adventures in Web Design 2012
 date: 2012-01-19T09:30:00Z
 url: https://newadventuresconf.com/2012/
-series: new_adventures
+collection: new_adventures
 start: 2012-01-18
 end: 2012-01-19
 tags:

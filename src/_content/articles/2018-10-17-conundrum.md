@@ -5,7 +5,6 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: Who is this website for?
-series: redesign_2018
 tags:
 - website
 - web
