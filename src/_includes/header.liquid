@@ -1,16 +1,13 @@
 <header class="header">
   <h1 class="header__title{% if vocab %} | p-name{% endif %}">{{ title }}</h1>
-{%- if summary or url or bookmark-of -%}
+{%- if summary -%}
   <div class="header__summary{% if vocab %} | p-summary{% endif %}">
-  {%- if summary -%}
     {{ summary | markdownify }}
-  {%- endif -%}
-  {%- if url -%}
-    <a class="u-url" rel="external" href="{{ url }}">{{ url | hostname }}</a>
-  {%- endif -%}
-  {%- if bookmark-of -%}
-    <a class="u-bookmark-of" rel="external" href="{{ bookmark-of }}">{{ bookmark-of | hostname }}</a>
-  {%- endif -%}
+  </div>
+{%- endif -%}
+{%- if url -%}
+  <div class="header__url">
+    <a class="u-{{ url_class | default: 'url' }}" rel="external" href="{{ url }}">{{ url | hostname }}</a>
   </div>
 {%- endif -%}
 </header>
