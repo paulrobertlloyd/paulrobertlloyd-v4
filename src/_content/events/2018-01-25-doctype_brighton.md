@@ -2,7 +2,6 @@
 title: Doctype Brighton
 date: 2018-01-25T13:54:00Z
 url: https://doctypebrighton.com
-summary: Regular monthly social meetup for those in the web industry in Brighton & Hove.
 start: 2018-02-01T18:00:00Z
 end: 2018-02-01T22:00:00Z
 tags:

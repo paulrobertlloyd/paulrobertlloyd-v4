@@ -9,5 +9,3 @@ tags:
 - venue:9c7rwrv6+x6
 ---
 > From the acclaimed creators of the smash-hit cult comedy <cite>Sammy J in the Forest of Dreams</cite> comes a brand new musical comedy spectacular featuring Sammy J (skinny man, on the left) and Randy (purple puppet, the one on the right) as they navigate life in a share house. But when Sammys work as a tax lawyer uncovers some financial skeletons in Randy’s closet, things are going to get awkward at the breakfast table…
-
-Part of the *Edinburgh Festival Fringe 2011*.

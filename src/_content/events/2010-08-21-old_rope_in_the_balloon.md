@@ -9,5 +9,3 @@ tags:
 - venue:9c7rwrw6+2c
 ---
 > Phil Nichol’s famous London club. Leading comics and circuit regulars perform new material alongside a nightly headliner. Performers hold the noose, only letting go when telling new gags.
-
-Part of the *Edinburgh Festival Fringe 2010*.

@@ -9,5 +9,3 @@ tags:
 - venue:9c7rwrv6+4p
 ---
 > Dave Gorman returns to the Edinburgh Festival Fringe after eight years with his brand new live show, <cite>Dave Gorman’s Powerpoint Presentation</cite>. This time he is part of a double act… with a projector screen. And they’d like to show you their powerpoint presentation.
-
-Part of the *Edinburgh Festival Fringe 2011*.

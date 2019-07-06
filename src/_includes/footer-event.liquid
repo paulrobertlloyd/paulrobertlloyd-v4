@@ -1,0 +1,27 @@
+<footer class="footer">
+  <dl>
+    <dt>Date</dt>
+    {%- assign date-start = start | date: '%Y%m%d' -%}
+    {%- assign date-end = end | date: '%Y%m%d' -%}
+    <dd>
+      <a class="u-url" rel="bookmark" href="{{ page.url | prepend: app.url | pretty }}">
+
+      {%- if date-start != date-end -%}
+        <time class="dt-start" datetime="{{ start | date: dates.iso }}">{{ start | date: dates.date_long }}</time> -
+        <time class="dt-end" datetime="{{ end | date: dates.iso }}">{{ end | date: dates.date_long }}</time>
+      {%- else -%}
+        <time class="dt-start" datetime="{{ start | date: dates.iso }}">{{ start | date: dates.datetime_full }}</time>
+        <time class="dt-end" datetime="{{ end | date: dates.iso }}"></time>
+      {%- endif -%}
+      </a>
+    </dd>
+    <dt>Venue</dt>
+    {%- assign venueid = tags[1] | remove: 'venue:' -%}
+    {%- assign venue = collections.venue | includes: 'fileSlug',venueid | first -%}
+    <dd class="p-location h-card">
+      <a class="u-url" href="{{ venue.url | pretty }}">
+        <span class="p-name">{{ venue.data.title | markdownify: 'inline' }}</span>, <span class="p-adr h-adr p-locality">{{ venue.data.address.locality }}</span>
+      </a>
+    </dd>
+  </dl>
+</footer>

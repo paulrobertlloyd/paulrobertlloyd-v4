@@ -27,22 +27,20 @@
 
   {%- if collection -%}
     {%- for this_collection in collection -%}
-      {%- for item in collections.collection -%}
-        {%- if this_collection == item.fileSlug -%}
-          {%- capture section_title %}More from the <a href="{{ item.url }}">{{ item.data.title }}</a> collection{%- endcapture -%}
-        {%- endif -%}
-      {%- endfor -%}
+      {%- assign related = collections.collection | select: 'fileSlug',this_collection | first -%}
+      {%- capture section_title %}More from the <a href="{{ related.url }}">{{ related.data.title }}</a> collection{%- endcapture -%}
+      {%- assign articles = collections.article | includes: 'data.collection',collection | reject: 'url',page.url | reverse -%}
+      {%- if articles.size > 0 %}
+        {%- include 'section'
+          section_id: 'related'
+          section_scrollable: true
+          items: articles
+          items_limit: 6
+          items_size: '16rem'
+          items_component: 'card'
+          card_image_color: true
+        -%}
+      {%- endif -%}
     {%- endfor -%}
-
-    {%- assign articles = collections.article | includes: 'data.collection',collection | reject: 'url',page.url | reverse -%}
-    {%- include 'section'
-      section_id: 'related'
-      section_scrollable: true
-      items: articles
-      items_limit: 6
-      items_size: '16rem'
-      items_component: 'card'
-      card_image_color: true
-    -%}
   {%- endif -%}
 {%- endblock -%}
