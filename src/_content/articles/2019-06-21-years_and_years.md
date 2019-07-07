@@ -1,5 +1,5 @@
 ---
-title: 'Years and Years'
+title: Years and Years
 date: 2019-06-21T00:35:00+01:00
 location:
   locality: Brighton
@@ -11,7 +11,7 @@ tags:
 - culture
 - politics
 ---
-[Years & Years][1] is an odd little distopian drama, one that often overplays its hand in order to deliver the underlying message. It must have been produced on a small budget, what with supposed foreign locations clearly having been filmed in the UK and the adult characters (and cameo presenters) barely ageing during the 15 year timeframe. The technology featured is mostly believable and rightly [unevenly distributed][2] as the years pass, and yet the prevailing aesthetic is barely untouched by any sense of fashion (e.g. news channels retaining contemporary presentation graphics over a decade later).
+[Years and Years][1] is an odd little distopian drama, one that often overplays its hand in order to deliver the underlying message. It must have been produced on a small budget, what with supposed foreign locations clearly having been filmed in the UK and the adult characters (and cameo presenters) barely ageing during the 15 year timeframe. The technology featured is mostly believable and rightly [unevenly distributed][2] as the years pass, and yet the prevailing aesthetic is barely untouched by any sense of fashion (e.g. news channels retaining contemporary presentation graphics over a decade later).
 
 All very strange and ludicrous, and yet at the same time, [worryingly believable][3].
 
