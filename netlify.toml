@@ -114,6 +114,10 @@
   to = "/feed.xml"
 
 [[redirects]]
+  from = "/_xml/entries.*"
+  to = "/feed.xml"
+
+[[redirects]]
   from = "/journal/feed.xml"
   to = "/feed.xml"
 
