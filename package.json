@@ -35,7 +35,7 @@
     "color": "^3.1.2",
     "cssnano": "^4.1.10",
     "html-minifier": "^4.0.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.14",
     "markdown-it": "^9.0.0",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-anchor": "^5.2.4",
