@@ -73,6 +73,10 @@
     max-inline-size: 16rem;
     text-align: end;
   }
+
+  .item--inline[data-type="photo"] .item__main img {
+    max-inline-size: 21rem;
+  }
 }
 
 .item__footer {
