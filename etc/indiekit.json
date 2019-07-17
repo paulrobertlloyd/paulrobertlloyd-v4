@@ -9,31 +9,29 @@
     "uid": "https://micro.blog/paulrobertlloyd",
     "name": "@paulrobertlloyd on Micro.blog"
   }],
-  "post-types": [{
-    "type": "bookmark",
-    "name": "Bookmark",
-    "path": {
-      "template": "etc/indiekit/bookmark.njk",
-      "post": "src/_content/bookmarks/{​{ published | date('yyyy-MM-dd') }}-{​{ slug }}.md",
-      "url": "bookmarks/{{ published | date('yyyy/MM') }}/{{ slug }}"
+  "post-types": {
+    "bookmark": {
+      "path": {
+        "template": "etc/indiekit/bookmark.njk",
+        "post": "src/_content/bookmarks/{​{ published | date('yyyy-MM-dd') }}-{​{ slug }}.md",
+        "url": "bookmarks/{{ published | date('yyyy/MM') }}/{{ slug }}"
+      }
+    },
+    "note": {
+      "path": {
+        "template": "etc/indiekit/note.njk",
+        "post": "src/_content/notes/{{ published | date('X') }}.md",
+        "url": "notes/{{ published | date('X') }}"
+      }
+    },
+    "photo": {
+      "path": {
+        "template": "etc/indiekit/photo.njk",
+        "file": "src/images/photos/{​{ filedate | date('X') }}.{​{ fileext }}",
+        "post": "src/_content/photos/{{ published | date('X') }}.md",
+        "url": "photos/{{ published | date('X') }}"
+      }
     }
-  }, {
-    "type": "note",
-    "name": "Note",
-    "path": {
-      "template": "etc/indiekit/note.njk",
-      "post": "src/_content/notes/{{ published | date('X') }}.md",
-      "url": "notes/{{ published | date('X') }}"
-    }
-  }, {
-    "type": "photo",
-    "name": "Photo",
-    "path": {
-      "template": "etc/indiekit/photo.njk",
-      "file": "src/images/photos/{​{ filedate | date('X') }}.{​{ fileext }}",
-      "post": "src/_content/photos/{{ published | date('X') }}.md",
-      "url": "photos/{{ published | date('X') }}"
-    }
-  }],
+  },
   "slug-separator": "_"
 }
