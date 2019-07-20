@@ -13,7 +13,7 @@
     "bookmark": {
       "path": {
         "template": "etc/indiekit/bookmark.njk",
-        "post": "src/_content/bookmarks/{​{ published | date('yyyy-MM-dd') }}-{​{ slug }}.md",
+        "post": "src/_content/bookmarks/{{ published | date('yyyy-MM-dd') }}-{{ slug }}.md",
         "url": "bookmarks/{{ published | date('yyyy/MM') }}/{{ slug }}"
       }
     },
@@ -27,7 +27,7 @@
     "photo": {
       "path": {
         "template": "etc/indiekit/photo.njk",
-        "file": "src/images/photos/{​{ filedate | date('X') }}.{​{ fileext }}",
+        "file": "src/images/photos/{{ filedate | date('X') }}.{{ fileext }}",
         "post": "src/_content/photos/{{ published | date('X') }}.md",
         "url": "photos/{{ published | date('X') }}"
       }
