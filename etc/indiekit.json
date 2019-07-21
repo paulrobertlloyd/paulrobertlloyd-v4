@@ -11,25 +11,28 @@
   }],
   "post-types": {
     "bookmark": {
-      "path": {
-        "template": "etc/indiekit/bookmark.njk",
-        "post": "src/_content/bookmarks/{{ published | date('yyyy-MM-dd') }}-{{ slug }}.md",
+      "template": "etc/indiekit/bookmark.njk",
+      "post": {
+        "path": "src/_content/bookmarks/{{ published | date('yyyy-MM-dd') }}-{{ slug }}.md",
         "url": "bookmarks/{{ published | date('yyyy/MM') }}/{{ slug }}"
       }
     },
     "note": {
-      "path": {
-        "template": "etc/indiekit/note.njk",
-        "post": "src/_content/notes/{{ published | date('X') }}.md",
+      "template": "etc/indiekit/note.njk",
+      "post": {
+        "path": "src/_content/notes/{{ published | date('X') }}.md",
         "url": "notes/{{ published | date('X') }}"
       }
     },
     "photo": {
-      "path": {
-        "template": "etc/indiekit/photo.njk",
-        "file": "src/images/photos/{{ filedate | date('X') }}.{{ fileext }}",
-        "post": "src/_content/photos/{{ published | date('X') }}.md",
+      "template": "etc/indiekit/photo.njk",
+      "post": {
+        "path": "src/_content/photos/{{ published | date('X') }}.md",
         "url": "photos/{{ published | date('X') }}"
+      },
+      "file": {
+        "path": "src/images/photos/{{ filedate | date('X') }}.{{ fileext }}",
+        "url": "images/photos/{{ filedate | date('X') }}.{{ fileext }}"
       }
     }
   },

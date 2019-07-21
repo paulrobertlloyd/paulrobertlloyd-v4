@@ -8,7 +8,7 @@ categories:
 {%- endif %}
 photos:
 {%- for item in photo %}
-- url: {{ item.value }}
+- url: /{{ item.value }}
   alt: {{ item.alt }}
 {%- endfor %}
 ---
