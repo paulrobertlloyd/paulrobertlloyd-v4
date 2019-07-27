@@ -63,6 +63,21 @@ module.exports = function (eleventy) {
     });
   });
 
+  eleventy.addCollection('category', collection => {
+    let categorySet = new Set();
+    collection.getAll().forEach(function(item) {
+      if('categories' in item.data) {
+        let categories = item.data.categories;
+
+        for (const category of categories) {
+          categorySet.add(category);
+        }
+      }
+    });
+
+    return [...categorySet];
+  });
+
   // Passthrough
   eleventy.addPassthroughCopy('./src/images');
   eleventy.addPassthroughCopy('./src/assets/fonts');

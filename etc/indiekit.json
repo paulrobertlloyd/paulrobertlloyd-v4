@@ -30,7 +30,7 @@
         "path": "src/_content/photos/{{ published | date('X') }}.md",
         "url": "photos/{{ published | date('X') }}"
       },
-      "file": {
+      "media": {
         "path": "src/images/photos/{{ filedate | date('X') }}.{{ fileext }}",
         "url": "images/photos/{{ filedate | date('X') }}.{{ fileext }}"
       }
