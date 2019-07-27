@@ -5,7 +5,7 @@ location:
   locality: Littlehampton
   country-name: United Kingdom
 summary: The humble URL has been on my mind a lot recently.
-tags:
+category:
 - design
 - user_experience
 - web

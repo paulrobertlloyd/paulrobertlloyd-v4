@@ -2,7 +2,7 @@
 title: The Architecture of Brasília
 date: 2011-07-18T19:56:39+01:00
 summary: Designed by Oscar Niemeyer, Brasília’s distinctive buildings feature a number of recuring design patterns and motifs.
-tags:
+category:
 - architecture
 - brasilia
 - brazil

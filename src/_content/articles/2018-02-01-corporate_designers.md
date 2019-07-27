@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: Why do some designers choose to work for ‘evil’ corporations — and what happens to them when they get there?
-tags:
+category:
 - design
 - web
 ---

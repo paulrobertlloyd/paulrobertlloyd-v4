@@ -6,8 +6,9 @@ location:
   country-name: United Kingdom
 summary: Because it uses logical values, Flexbox layouts will automatically align according to a document’s text-direction. Well, almost.
 image: /images/2016/03/logical_flexbox/spock.jpg
-tags:
+category:
 - web
+tags:
 - featured
 ---
 {% include 'figure' with '/images/2016/03/logical_flexbox/spock.jpg'

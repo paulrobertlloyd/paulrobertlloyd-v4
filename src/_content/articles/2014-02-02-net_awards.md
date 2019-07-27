@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: The net Awards return for their fifteenth year, and I’m more than a little surprised to be nominated for Designer of the Year.
-tags:
+category:
 - awards
 - web
 - net_magazine

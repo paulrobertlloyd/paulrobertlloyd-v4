@@ -4,7 +4,7 @@ date: 2008-12-29T20:49:25Z
 summary: The final stop in my four-city tour of the US in October was Washington, D.C.
 collection: north_america_2008
 image: /images/2008/12/washington_dc/vietnam_memorial.jpg
-tags:
+category:
 - architecture
 - travel
 - washington_dc

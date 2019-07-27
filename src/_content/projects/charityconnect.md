@@ -4,8 +4,8 @@ date: 2016-08-19
 summary: Designing a tool to help people in the charity sector connect with each other to share ideas and resources.
 image: /images/projects/charityconnect/image.jpg
 tags:
-- skill:interaction_design
 - featured
+- skill:interaction_design
 style:
   color-accent: '#402031'
   screenshot-shadow: '#402031'

@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: I’m leaving the Guardian and going freelance in March.
-tags:
+category:
 - clearleft
 - formula_1
 - the_guardian

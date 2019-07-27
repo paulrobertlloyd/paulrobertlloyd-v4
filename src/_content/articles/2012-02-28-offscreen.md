@@ -6,7 +6,7 @@ location:
   country-name: United Kingdom
 summary: Offscreen is a new magazine edited, produced and beautifully designed by Kai Brach, focusing on the personalities behind the pixels — in a good way.
 image: /images/2012/02/offscreen.jpg
-tags:
+category:
 - writing
 - offscreen_magazine
 ---

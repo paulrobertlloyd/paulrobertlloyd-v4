@@ -6,7 +6,7 @@ location:
   country-name: United States
 summary: As I approach the end of my latest trip to America, I continue to fight the losing battle that is getting people to understand me when I say my first name.
 image: /images/2009/02/thats_not_my_name.jpg
-tags:
+category:
 - personal
 - travel
 - united_states

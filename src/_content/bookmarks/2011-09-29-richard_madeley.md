@@ -2,7 +2,7 @@
 title: Richard Madeley
 date: 2011-09-29T01:24:01+01:00
 bookmark-of: https://twitter.com/davidsim/status/119159252597227522
-tags:
+category:
 - comedy
 - television
 - richard_madeley

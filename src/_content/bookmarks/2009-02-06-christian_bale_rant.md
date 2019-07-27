@@ -2,7 +2,7 @@
 title: 'Christian Bale Rant: Batman Edition'
 date: 2009-02-06T17:34:26Z
 bookmark-of: https://www.youtube.com/watch?v=Xaw1bx1GqWo
-tags:
+category:
 - video
 - comedy
 - animation

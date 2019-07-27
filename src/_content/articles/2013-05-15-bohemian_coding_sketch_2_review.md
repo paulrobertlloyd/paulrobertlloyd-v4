@@ -23,10 +23,11 @@ product:
 
     Supports
     : OS X 10.6 Snow Leopard or higher.
-tags:
-- source:digital_arts
+category:
 - review
 - software
+tags:
+- source:digital_arts
 ---
 {% include 'figure' with '/images/2013/05/bohemian_coding_sketch_2_review/canvas_and_artboards.png'
   caption: 'Canvas and artboards in Sketch'

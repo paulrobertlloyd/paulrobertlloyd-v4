@@ -2,7 +2,7 @@
 title: The Curse of ITV
 date: 2018-07-03T16:13:07+01:00
 summary: Worried? Me?
-tags:
+category:
 - england_football_team
 - football
 - itv

@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: Twitter is a place I visit to get annoyed. I need an alternative. That alternative could be my very own website.
-tags:
+category:
 - indieweb
 - micro_blogging
 - microdotblog

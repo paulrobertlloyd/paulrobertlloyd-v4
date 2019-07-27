@@ -2,7 +2,7 @@
 title: The Ethics of Digital Design
 date: 2015-07-14T23:12:00+01:00
 bookmark-of: https://www.designcouncil.org.uk/news-opinion/ethics-digital-design
-tags:
+category:
 - design
 - ethics
 - silicon_valley

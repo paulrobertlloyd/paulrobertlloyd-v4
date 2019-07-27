@@ -4,9 +4,9 @@ date: 2016-12-07
 summary: Brand identity and application design for personalised meditation service.
 image: /images/projects/refigure/image.jpg
 tags:
+- featured
 - skill:brand_identity
 - skill:interaction_design
-- featured
 style:
   color-accent: '#00e676'
   screenshot-shadow: '#ddd8eb'

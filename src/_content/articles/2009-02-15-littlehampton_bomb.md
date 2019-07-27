@@ -5,7 +5,7 @@ location:
   locality: Littlehampton
   country-name: United Kingdom
 summary: On Friday evening I got a call from Jon on his way back to the house after a night out, asking if I had heard anything about a bomb found near Littlehampton station.
-tags:
+category:
 - personal
 - littlehampton
 discussion: closed

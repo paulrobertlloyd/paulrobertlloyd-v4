@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: Facebook’s continuing hoovering up of top design talent has been worrying me for some months. The shopping spree continued earlier this month with the acquisition of Push Pop Press, a promising start-up building an innovative digital publishing platform.
-tags:
+category:
 - design
 - facebook
 ---

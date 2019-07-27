@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: 'The hackability provided by Jekyll’s plugin architecture has brought about an unexpected consequence: I’m starting to learn Ruby.'
-tags:
+category:
 - jekyll
 - ruby
 - programming

@@ -5,7 +5,7 @@ location:
   locality: Littlehampton
   country-name: United Kingdom
 summary: Earlier this week, Simon Collison revealed the first fruits of his newly established private entrepreneurship. *New Adventures In Web Design* is an affordable one-day conference landing in Nottingham on 20th January 2011.
-tags:
+category:
 - conferences
 - new_adventures_conference
 discussion: closed

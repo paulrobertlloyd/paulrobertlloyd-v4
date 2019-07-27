@@ -1,7 +1,6 @@
 ---
 title: 'Christian Bale Rant: Batman Edition'
 date: 2009-02-06T17:34:26Z
-category: links
 remarks:
 - author: Fabricio Zuardi
   gravatar: 9c617d84d045dc1bf419bae569532f05

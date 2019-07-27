@@ -3,7 +3,7 @@ title: The King’s Speech
 date: 2011-02-13T23:13:23Z
 summary: The King’s Speech is undoubtedly one of the most successful independent British films ever made, yet some see this popularity as problematic given the artistic licence given to the events it portrays.
 image: /images/2011/02/the_kings_speech.jpg
-tags:
+category:
 - film
 - review
 - history

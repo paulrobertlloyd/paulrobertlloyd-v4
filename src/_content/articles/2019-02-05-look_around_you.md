@@ -6,9 +6,10 @@ canonical:
   edition: 2019
 summary: For all their claims of changing the world, it would seem designers have not only failed to address its more pressing problems, but exaggerated many of its existing ones.
 image: /images/2019/02/illustration.png
-tags:
+category:
 - design
 - technology
+tags:
 - featured
 ---
 {% include 'figure' with '/images/2019/02/illustration.png'

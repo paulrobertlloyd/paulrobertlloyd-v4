@@ -2,7 +2,7 @@
 title: Street Typography in Action
 date: 2016-04-20T21:25:00+01:00
 bookmark-of: https://vimeo.com/36167291
-tags:
+category:
 - video
 - typography
 ---

@@ -5,7 +5,7 @@ location:
   locality: Bexhill-on-Sea
   country-name: United Kingdom
 summary: Dr. James Paul Dicks, 1980-2017
-tags:
+category:
 - personal
 - friends
 - in_memoriam

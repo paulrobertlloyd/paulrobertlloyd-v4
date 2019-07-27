@@ -5,7 +5,7 @@ location:
   locality: Littlehampton
   country-name: United Kingdom
 summary: My love of detail is often reaffirmed by my noticing the almost inconsiderable tweaks in the designed environment around me.
-tags:
+category:
 - design
 - brand_identity
 - network_rail

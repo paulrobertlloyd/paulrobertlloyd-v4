@@ -5,7 +5,7 @@ location:
   locality: Littlehampton
   country-name: United Kingdom
 summary: The web development community has certainly grown up in the last four years.
-tags:
+category:
 - multipack
 discussion: closed
 ---

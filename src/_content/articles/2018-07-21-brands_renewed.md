@@ -6,7 +6,7 @@ location:
   country-name: United Kingdom
 summary: An appreciation for identity programmes that seek to refine rather than reinvent.
 image: /images/2018/07/brands_renewed/tate.png
-tags:
+category:
 - design
 - brand_identity
 ---

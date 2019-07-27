@@ -4,10 +4,11 @@ date: 2018-12-11
 canonical:
   url: https://24ways.org/2018/turn-jekyll-up-to-eleventy/
 summary: I assemble a heavenly host of cherubs to sing the virtues of the Eleventy static site generator. By looking at how it compares to the familiar Ruby-based Jekyll, I may have you humming its tune for this season’s holiday projects. But will it put you on cloud eleven?
-tags:
-- source:24_ways
+category:
 - eleventy
 - software
+tags:
+- source:24_ways
 ---
 Sometimes it pays not to over complicate things. While many of the sites we use on a daily basis require relational databases to manage their content and dynamic pages to respond to user input, for smaller, simpler sites, serving pre-rendered static HTML is usually a much cheaper — and more secure — option.
 

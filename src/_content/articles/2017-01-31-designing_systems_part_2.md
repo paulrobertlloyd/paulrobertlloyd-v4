@@ -6,7 +6,7 @@ location:
   country-name: United Kingdom
 summary: In this second part of my three-part essay based on the talk I gave at Smashing Conference, I propose a model for thinking about design systems.
 collection: designing_systems
-tags:
+category:
 - web
 - design
 - design_systems

@@ -5,7 +5,7 @@ location:
   locality: Littlehampton
   country-name: United Kingdom
 summary: With Dave Gray speaking at this year’s UX London, Andy asked if he would then visit Brighton and run a sketching workshop for everyone at Clearleft.
-tags:
+category:
 - clearleft
 - design
 - drawing

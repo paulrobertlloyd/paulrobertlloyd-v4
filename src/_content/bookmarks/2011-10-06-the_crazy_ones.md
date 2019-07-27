@@ -2,7 +2,7 @@
 title: The Crazy Ones
 date: 2011-10-06T20:32:05+01:00
 bookmark-of: https://www.youtube.com/watch?v=8rwsuXHA7RA
-tags:
+category:
 - steve_jobs
 - apple
 - advertising

@@ -2,7 +2,7 @@
 title: Data Visualization Reinterpreted
 date: 2012-11-02T01:10:58Z
 bookmark-of: https://vimeo.com/51365288
-tags:
+category:
 - video
 - peter_saville
 ---

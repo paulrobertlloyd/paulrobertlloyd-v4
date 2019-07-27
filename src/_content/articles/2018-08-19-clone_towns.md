@@ -5,7 +5,7 @@ location:
   locality: Bexhill-on-Sea
   country-name: United Kingdom
 summary: What does the future hold for small towns like Walsall?
-tags:
+category:
 - architecture
 - travel
 - newcastle_upon_tyne

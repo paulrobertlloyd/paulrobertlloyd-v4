@@ -1,4 +1,7 @@
 {
+  "categories": {
+    "url": "https://paulrobertlloyd.com/categories.json"
+  },
   "syndicate-to": [{
     "uid": "https://twitter.com/paulrobertlloyd/",
     "name": "@paulrobertlloyd on Twitter"

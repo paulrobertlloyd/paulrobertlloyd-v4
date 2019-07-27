@@ -6,11 +6,12 @@ location:
   country-name: United Kingdom
 summary: In need of a break, I headed to Galway and the far western reaches of the British Isles.
 image: /images/2017/05/away_to_galway/galway_harbour.jpg
-tags:
+category:
 - galway
 - ireland
 - europe
 - travel
+tags:
 - featured
 ---
 {% include 'figure' with '/images/2017/05/away_to_galway/galway_harbour.jpg'

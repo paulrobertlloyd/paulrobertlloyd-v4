@@ -5,7 +5,7 @@ location:
   locality: Walsall
   country-name: United Kingdom
 summary: Last week Birmingham City Council launched its new £2.8m website. Delayed, over budget and woefully inadequate, it rightly faced a storm of criticism on Twitter and from the local press.
-tags:
+category:
 - social_media
 - birmingham
 - birmingham_city_council

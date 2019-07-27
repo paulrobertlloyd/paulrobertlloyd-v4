@@ -6,7 +6,7 @@ location:
   country-name: United Kingdom
 summary: Yesterday I went to see the Le Corbusier exhibition, currently showing at the Barbican Art Gallery in London.
 image: /images/2009/05/le_corbusier/portrait.jpg
-tags:
+category:
 - architecture
 - le_corbusier
 - exhibitions

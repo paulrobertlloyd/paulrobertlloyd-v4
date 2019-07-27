@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: In a society where truth and trust are a scarce resource, Google introduce an incredibly foolish product.
-tags:
+category:
 - technology
 - google
 ---

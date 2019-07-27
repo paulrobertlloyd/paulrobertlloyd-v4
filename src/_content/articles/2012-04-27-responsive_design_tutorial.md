@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: Since returning from San Francisco, much of my spare time has been spent writing a tutorial for .net magazine. Published as part of their *Responsive Week*, this is for developers who want to learn about responsive web design but don’t know where to start.
-tags:
+category:
 - writing
 - web
 - responsive_design

@@ -6,11 +6,12 @@ location:
   country-name: United Kingdom
 summary: Architecture has never been kind to Birmingham, but then Birmingham has never been kind to its architecture.
 image: /images/2010/06/a_new_library_for_birmingham/artists_impression_1.jpg
-tags:
+category:
 - architecture
 - birmingham
 - birmingham_central_library
 - library_of_birmingham
+tags:
 - featured
 discussion: closed
 ---

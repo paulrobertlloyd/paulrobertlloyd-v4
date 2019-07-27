@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: Much of the excitement has come in the form of web conferences, and looking back, I find it surprising just how many I’ve attended this year already.
-tags:
+category:
 - clearleft
 - conferences
 - travel

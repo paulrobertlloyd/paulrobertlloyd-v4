@@ -4,7 +4,7 @@ date: 2012-01-01T23:44:07Z
 summary: Transcending America’s Pacific coastline aboard Amtrak’s Coast Starlight.
 collection: north_america_2011
 image: /images/2012/01/san_francisco/ocean_beach.jpg
-tags:
+category:
 - travel
 - san_francisco
 - united_states

@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: dConstruct has long combined its conference programme with the name badge, a simple yet cost-effective design. This year we hope to go one better.
-tags:
+category:
 - clearleft
 - conferences
 - dconstruct

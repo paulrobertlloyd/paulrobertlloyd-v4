@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: I’m attending my second Indie Web Camp this weekend, with the sole aim of implementing webmentions. This has meant prematurely launching my new Jekyll-based website. That this has been in development since last February, many would say this moment is long overdue.
-tags:
+category:
 - indieweb
 - website
 - web

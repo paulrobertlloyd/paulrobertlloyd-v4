@@ -5,7 +5,7 @@ location:
   locality: Littlehampton
   country-name: United Kingdom
 summary: It seems I have a new challenge for March.
-tags:
+category:
 - friends
 - running
 discussion: closed

@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: A compelling 120-word critique regarding automated front-end development, as provided by a `class` attribute.
-tags:
+category:
 - automation
 - development
 - web

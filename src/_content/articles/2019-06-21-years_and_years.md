@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: An odd little drama.
-tags:
+category:
 - television
 - technology
 - culture

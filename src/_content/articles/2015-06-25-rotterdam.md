@@ -6,7 +6,7 @@ location:
   country-name: United Kingdom
 summary: Some thoughts after spending a few days in the Netherlands’ second city.
 image: /images/2015/06/rotterdam/centraal_station.jpg
-tags:
+category:
 - travel
 - europe
 - the_netherlands

@@ -2,7 +2,7 @@
 title: Hooray For Earth - True Loves
 date: 2011-09-07T23:04:34+01:00
 bookmark-of: https://www.youtube.com/watch?v=Mf6JCpJjdiY
-tags:
+category:
 - video
 - music_videos
 ---

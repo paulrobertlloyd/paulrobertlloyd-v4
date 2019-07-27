@@ -4,8 +4,8 @@ date: 2011-11-18
 summary: Award-winning iPad app for weekly current affairs magazine.
 image: /images/projects/the_week/image.jpg
 tags:
-- skill:interaction_design
 - featured
+- skill:interaction_design
 style:
   color-accent: '#b00'
   screenshot-shadow: '#b00'

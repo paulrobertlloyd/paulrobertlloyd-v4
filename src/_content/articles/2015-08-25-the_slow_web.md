@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: Just as blogging began to democratise publishing, social media arrived to undermine it.
-tags:
+category:
 - web
 - history
 - social_media

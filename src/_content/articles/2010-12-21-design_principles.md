@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: I’ve been thinking about redesigning this website for the last six months, but haven’t been able to find a strategy for making these changes happen. To keep this project on course, I’ve defined a set of design principles.
-tags:
+category:
 - design
 - web
 ---

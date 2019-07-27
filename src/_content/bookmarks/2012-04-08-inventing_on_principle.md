@@ -2,7 +2,7 @@
 title: Inventing on Principle
 date: 2012-04-08T00:41:13+01:00
 bookmark-of: https://vimeo.com/36579366
-tags:
+category:
 - design
 ---
 {% include 'embed' with url

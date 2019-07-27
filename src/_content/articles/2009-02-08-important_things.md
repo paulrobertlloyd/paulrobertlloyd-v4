@@ -3,7 +3,7 @@ title: Important Things
 date: 2009-02-08T11:44:27Z
 summary: One of my favourite comedians stars in a new show starting on Comedy Central this week.
 image: /images/2009/02/important_things.jpg
-tags:
+category:
 - comedy
 - television
 - demetri_martin

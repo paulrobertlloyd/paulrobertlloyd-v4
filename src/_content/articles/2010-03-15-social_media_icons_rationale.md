@@ -5,7 +5,7 @@ location:
   locality: Littlehampton
   country-name: United Kingdom
 summary: I’ve finally released the long awaited update to my popular social media icon set adding 12 new icons and a few design tweaks for good measure.
-tags:
+category:
 - projects
 - social_media_icons
 discussion: closed

@@ -5,11 +5,12 @@ canonical:
   url: https://alistapart.com/article/the-web-aesthetic
 summary: 'When every device begs to be connected, it has become easier — almost necessary — to accept the adaptable nature of the web. Responsive web design is an emerging best practice, and our layouts are becoming more flexible. But often, innovation is focused on technical implementations while the visual aesthetic remains ignored. To put it another way, we’re embracing “responsive” but neglecting the second part: “design.” Now is the time to seek out an aesthetic that is truer to the medium.'
 image: /images/2012/09/the_web_aesthetic/illustration.png
-tags:
-- source:a_list_apart
+category:
 - responsive_design
 - web
 - design
+tags:
+- source:a_list_apart
 photoset:
   1:
   - url: /images/2012/09/the_web_aesthetic/bbc1_1974.png

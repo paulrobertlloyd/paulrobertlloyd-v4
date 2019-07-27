@@ -4,10 +4,11 @@ date: 2015-05-12T00:00:00+01:00
 canonical:
   url: https://the-pastry-box-project.net/paul-lloyd/2015-may-12
 summary: 'For the last few years I’ve employed a little life hack: signing up my future self to things I would ordinarily avoid.'
-tags:
-- source:the_pastry_box_project
+category:
 - london_2012
 - glasgow_2014
+tags:
+- source:the_pastry_box_project
 ---
 With a natural limit for how long I can spend around a group of people, I tend to operate a policy of minimal viable social interaction. This probably makes me an introvert, but I think of it more as my resting state. In the right circumstances, I can actually be quite outgoing, especially when in familiar environments among people I know. Put me on a stage, and I can really thrive.
 

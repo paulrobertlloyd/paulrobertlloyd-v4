@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: Kris Benbow, 1981-2018
-tags:
+category:
 - personal
 - friends
 - in_memoriam

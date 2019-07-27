@@ -6,9 +6,10 @@ location:
   country-name: Netherlands
 summary: The question on the ballot paper demands a simple black or white answer, yet a study of the issues only offers shades of grey.
 image: /images/2016/06/eu_referendum.jpg
-tags:
+category:
 - politics
 - europe
+tags:
 - featured
 ---
 {% include 'figure' with '/images/2016/06/eu_referendum.jpg'

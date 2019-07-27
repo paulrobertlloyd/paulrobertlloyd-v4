@@ -5,7 +5,7 @@ location:
   locality: Littlehampton
   country-name: United Kingdom
 summary: After a number of years focusing my travels around big American cities, today I start a three week jaunt across Europe.
-tags:
+category:
 - travel
 - europe
 - railways

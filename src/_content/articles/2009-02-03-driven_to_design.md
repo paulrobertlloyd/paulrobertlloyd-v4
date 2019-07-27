@@ -5,7 +5,7 @@ location:
   locality: San Francisco
   country-name: United States
 summary: In a recent conversation with a client, he asked why I got into design. Its something I’ve been meaning to write about for sometime, so I’ll try to publish my answer here.
-tags:
+category:
 - design
 - personal
 discussion: closed

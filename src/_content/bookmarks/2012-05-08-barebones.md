@@ -2,7 +2,7 @@
 title: Barebones
 date: 2012-05-08T12:20:24+01:00
 bookmark-of: http://barebones.paulrobertlloyd.com/
-tags:
+category:
 - projects
 - web
 ---

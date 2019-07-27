@@ -2,7 +2,7 @@
 title: Middle Class Memories
 date: 2012-03-01T01:52:29Z
 summary: Heritage Lawn was an embarrassingly lavish name for a desperately average cul-de-sac. Yet, in and around a maze of opulently named cul-de-sacs, a few areas of wilderness remained.
-tags:
+category:
 - creative_writing
 ---
 Heritage Lawn was an embarrassingly lavish name for a desperately average cul-de-sac. Number 28 was the address for my nuclear family, proud owners of a newly erected home, built to the same regimented design as every other within sight. Each resident was under strict instruction not to alter the idealistic vision provided by the building company. Letterboxes, doorbells, fences; manicured gardens with bizarre outdoor lights shaped like mushrooms. Everything was identical, and not to be touched. Television ariels, symbol of the modern Elizabethan age, were hidden from view for fear they may spoil the mock Tudor aesthetic. Neighbourhood watch. Safety in numbers. Each house a status symbol for a burgeoning middle class.

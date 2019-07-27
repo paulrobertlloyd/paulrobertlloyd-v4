@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: With the British government now able to count itself among the few countries sporting a coherent identity programme, a follow up to my 2009 post on the subject.
-tags:
+category:
 - brand_identity
 - design
 - government

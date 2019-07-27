@@ -2,7 +2,7 @@
 title: Facebook is a Ponzi Scheme
 date: 2011-01-18T10:20:00Z
 bookmark-of: http://jperla.com/blog/post/facebook-is-a-ponzi-scheme
-tags:
+category:
 - facebook
 - social_media
 ---

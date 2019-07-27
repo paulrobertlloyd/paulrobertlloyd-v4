@@ -2,7 +2,7 @@
 title: Simply Walsall
 date: 2009-02-10T10:27:30Z
 summary: In the last few years, two public organisations in Walsall have undergone renewals, and both have choosen to reflect this change with simpler identities.
-tags:
+category:
 - brand_identity
 - walsall
 discussion: closed

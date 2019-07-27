@@ -5,7 +5,7 @@ location:
   locality: Littlehampton
   country-name: United Kingdom
 summary: After the success of the first ‘Multipack Presents’ event in February, so we return to the plush offices of One Black Bear to learn how the web can help us become eco-friendly citizens.
-tags:
+category:
 - multipack
 - sustainability
 - projects

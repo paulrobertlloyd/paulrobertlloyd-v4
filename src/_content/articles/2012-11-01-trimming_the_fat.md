@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: Website optimisation can be a cruel game; everything has a number that begs to be reduced, but doing so requires a lot of experimentation, research and testing. And when you’re playing with the last hundred or so kilobytes, there’s little reward for your effort.
-tags:
+category:
 - web
 - web_performance
 discussion: closed

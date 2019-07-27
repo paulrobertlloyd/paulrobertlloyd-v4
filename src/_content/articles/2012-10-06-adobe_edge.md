@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: Adobe recently announced a new suite a products and services for web developers, called Adobe Edge. <cite>.net Magazine</cite> asked me to provide some thoughts.
-tags:
+category:
 - adobe
 - web
 - net_magazine

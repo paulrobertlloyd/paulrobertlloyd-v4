@@ -5,7 +5,7 @@ location:
   locality: San Francisco
   country-name: United States
 summary: I have been using Movable Type for a number of years, yet the template code required to present an archived list of entries, grouped by month has always evaded me.
-tags:
+category:
 - web
 discussion: closed
 ---

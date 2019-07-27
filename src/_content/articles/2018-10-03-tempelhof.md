@@ -6,13 +6,14 @@ location:
   country-name: Germany
 summary: On German Unity Day, a tour of Tempelhof Airport proved to be a powerful act of remembrance.
 image: /images/2018/10/tempelhof/reception.jpg
-tags:
+category:
 - berlin
 - germany
 - europe
 - travel
 - architecture
 - history
+tags:
 - featured
 ---
 Stood below the immense canopy that covers the apron of Berlin’s [Tempelhof Airport][1], our guide starts his tour with a passionate defence of the building’s design: “This is not Nazi architecture, this is modern architecture. Hitler never stepped inside — he hated it”.

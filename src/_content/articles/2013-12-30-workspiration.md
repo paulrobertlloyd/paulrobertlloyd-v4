@@ -3,9 +3,10 @@ title: Work inspiration with Paul Lloyd
 date: 2013-12-30
 canonical:
   url: https://workspiration.org/paul-lloyd
+category:
+- design
 tags:
 - source:workspiration
-- design
 ---
 I’m Paul Robert Lloyd, a graphic designer based in Brighton, England. I recently joined [the Guardian][1] where I work on the organisation’s next-generation responsive website. Prior to this I was part of user-experience design agency [Clearleft][2], working with clients such as UNICEF UK, NBCUniversal, Mozilla and Dennis Publishing.
 

@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: Three aspects of my personality have proven pertinent.
-tags:
+category:
 - design
 - web
 - personal

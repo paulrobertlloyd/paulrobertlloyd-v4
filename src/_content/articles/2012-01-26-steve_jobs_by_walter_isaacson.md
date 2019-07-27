@@ -22,7 +22,7 @@ product:
 
     ISBN
     : <span class="u-identifier">978-1-4087037-4-8</span>
-tags:
+category:
 - books
 - review
 - steve_jobs

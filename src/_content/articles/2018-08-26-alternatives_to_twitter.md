@@ -5,7 +5,7 @@ location:
   locality: Redditch
   country-name: United Kingdom
 summary: As people look to replace Twitter as their social network of choice, Mastadon and Micro.blog have emerged as early contenders.
-tags:
+category:
 - web
 - indieweb
 - social_media

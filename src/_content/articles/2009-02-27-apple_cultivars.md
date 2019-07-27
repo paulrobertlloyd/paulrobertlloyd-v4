@@ -5,7 +5,7 @@ location:
   locality: Walsall
   country-name: United Kingdom
 summary: Earlier this month I wrote about my love of organisation and systems. One such example is how I name the devices I attach to my Mac.
-tags:
+category:
 - technology
 - apple
 - personal

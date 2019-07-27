@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: There is often talk of there being no landmark design on the web, but I suggest it won’t be long before BBC News is considered one of the greatest design icons online today.
-tags:
+category:
 - design
 - web
 - bbc

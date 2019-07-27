@@ -5,7 +5,7 @@ location:
   locality: Littlehampton
   country-name: United Kingdom
 summary: As Summer hurtles towards it’s conclusion (and let’s assume for a second that it actually started) so the anticipation for two very special geeky events can begin.
-tags:
+category:
 - conferences
 - geek_in_the_park
 - dconstruct

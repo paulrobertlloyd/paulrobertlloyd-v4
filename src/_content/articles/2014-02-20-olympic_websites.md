@@ -6,7 +6,7 @@ location:
   country-name: United Kingdom
 summary: Whereas the world’s foremost architects, graphic artists, typographers, iconographers and illustrators are asked to create their best work to celebrate each Olympic Games, still we wait for the Olympic movement to give equal consideration to the design of its websites.
 image: /images/2014/02/olympic_websites/anastasiya_kuzmina.jpg
-tags:
+category:
 - brand_identity
 - design
 - olympics

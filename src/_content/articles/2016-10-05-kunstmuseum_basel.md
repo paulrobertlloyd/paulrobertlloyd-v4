@@ -6,9 +6,10 @@ location:
   country-name: United Kingdom
 summary: As I explored the exhibits in Basel’s recently extended art museum, I jotted down the artists whose work caught my attention. Here I share my findings.
 image: /images/2016/10/kunstmuseum_basel/extension.jpg
-tags:
+category:
 - art
 - exhibitions
+tags:
 - featured
 ---
 {% include 'figure' with '/images/2016/10/kunstmuseum_basel/extension.jpg'

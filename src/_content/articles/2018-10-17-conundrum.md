@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: Who is this website for?
-tags:
+category:
 - website
 - web
 ---

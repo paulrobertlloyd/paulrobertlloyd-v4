@@ -4,9 +4,10 @@ date: 2015-10-29T00:00:00Z
 canonical:
   url: https://the-pastry-box-project.net/paul-lloyd/2015-october-29
 summary: Freelancing can sometimes feel like a roller coaster of emotions, and this post finds me at one of its lowest points. Eight months in, now seems like a good time to consider the ride taken so far, and consolidate some of the lessons learnt.
+category:
+- freelancing
 tags:
 - source:the_pastry_box_project
-- freelancing
 ---
 Since taking the plunge — which increasingly seems like an apt description — in March, I’ve enjoyed a varied range of work and experiences, just as I had hoped. It didn’t take long to land my first project. Working alongside my former colleagues at Clearleft, I pointed a co-operative retailer in the right direction as their online team set about a responsive redesign. Around the same time, I prepared a new talk, which I went on to present at a number of different events around Europe. I then spent much of the summer hunched over my laptop in various coffee shops as I wrote the [corresponding article][1] for A List Apart.
 

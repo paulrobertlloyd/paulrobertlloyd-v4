@@ -5,7 +5,7 @@ location:
   locality: Walsall
   country-name: United Kingdom
 summary: 'Friday saw the start of this years SXSW interactive, film and music festivals in Austin Texas, and once again they highlight the scourge of swag: the ‘stuff we all get’ that soon becomes the stuff we don’t want.'
-tags:
+category:
 - sustainability
 - sxsw
 discussion: closed

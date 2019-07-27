@@ -2,7 +2,7 @@
 title: What If Social Networks Just Aren’t Profitable?
 date: 2012-07-14T01:17:50+01:00
 bookmark-of: http://powazek.com/posts/3024
-tags:
+category:
 - social_media
 ---
 Derek Powazek:

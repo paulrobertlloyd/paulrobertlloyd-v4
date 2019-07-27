@@ -5,11 +5,12 @@ location:
   locality: Littlehampton
   country-name: United Kingdom
 summary: I’m a huge supporter of the BBC, yet for many years I was unimpressed with much of it’s online output, where inconsistent design and poor implementation reflected badly upon one of our country’s greatest institutions.
-tags:
+category:
 - design
 - web
 - bbc
 - user_experience
+tags:
 - featured
 discussion: closed
 ---

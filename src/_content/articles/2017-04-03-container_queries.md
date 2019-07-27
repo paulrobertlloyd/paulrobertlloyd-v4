@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: Container queries are always a popular topic when discussing the future of responsive design. But do we actually need them anymore?
-tags:
+category:
 - responsive_design
 - web
 ---

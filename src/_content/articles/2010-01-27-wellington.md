@@ -4,7 +4,7 @@ date: 2010-01-27T23:12:23Z
 summary: Wellington will remain the most memorable stop on my brief tour of New Zealand, although perhaps not entirely for the right reasons.
 collection: australasia_2009
 image: /images/2010/01/wellington/cable_car.jpg
-tags:
+category:
 - travel
 - new_zealand
 - wellington

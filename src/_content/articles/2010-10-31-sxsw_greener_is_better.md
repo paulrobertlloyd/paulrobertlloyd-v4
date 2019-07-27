@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: I’ve decided to attend next years SXSW Interactive festival followed by a tour of North America. The details of where I’ll be visiting and for how long remain undecided, but I imagine my itinerary will be varied and involve much travelling by train.
-tags:
+category:
 - travel
 - environment
 - sustainability

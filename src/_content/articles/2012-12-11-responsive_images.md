@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: Earlier today, 24 Ways published an article in which I outlined five reasons why I believe two current proposed markup patterns for responsive images are largely redundant. Here I provide some follow-up, and hopefully clarification around the points I raised.
-tags:
+category:
 - responsive_design
 - web
 ---

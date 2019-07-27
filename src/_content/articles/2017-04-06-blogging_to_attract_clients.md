@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: Blogging is a great way to showcase your expertise and raise your profile. But can you achieve this without drawing on manipulative methods of generating traffic?
-tags:
+category:
 - writing
 - web
 discussion: open

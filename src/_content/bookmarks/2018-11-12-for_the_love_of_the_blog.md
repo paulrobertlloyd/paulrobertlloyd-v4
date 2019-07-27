@@ -2,7 +2,7 @@
 title: For the love of the blog
 date: 2018-11-12T20:55:00Z
 bookmark-of: https://www.hollidazed.co.uk/2018/11/09/for-the-love-of-the-blog/
-tags:
+category:
 - blogging
 - digital
 - convenience

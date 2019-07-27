@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: I recently learnt about a security exploit that can occur when pages served over HTTPS use HTTP compression. Secure or fast, pick one?
-tags:
+category:
 - web
 - web_performance
 ---

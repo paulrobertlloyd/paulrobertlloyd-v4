@@ -6,7 +6,7 @@ location:
   country-name: United Kingdom
 summary: Having lived in my current flat for just over two years, I’m determined for this to be the year I finally make it feel like a home.
 image: /images/2016/04/habitables/sideboard.jpg
-tags:
+category:
 - furniture
 - design
 photoset:

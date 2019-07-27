@@ -4,8 +4,8 @@ date: 2017-06-02
 summary: Making it easier for developers to keep their projects secure and vulnerability free.
 image: /images/projects/snyk/image.jpg
 tags:
-- skill:interaction_design
 - featured
+- skill:interaction_design
 style:
   color-accent: '#333152'
   screenshot-shadow: '#0f0d30'

@@ -5,7 +5,7 @@ location:
   locality: Littlehampton
   country-name: United Kingdom
 summary: Much like the wider economy, football in this country is an overinflated bubble ready to burst. Two years after failing to qualify for the European Championships, let us see further embarrassment with an early exit from the World Cup. Then let us seize this opportunity to properly scrutinise the national game and its failings, rather than single out the manger or individual members of the squad.
-tags:
+category:
 - sport
 - football
 - the_fa

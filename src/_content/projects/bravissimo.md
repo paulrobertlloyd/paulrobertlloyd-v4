@@ -4,8 +4,8 @@ date: 2016-08-19
 summary: Developing a component library for a lingerie and clothing company for big boobed women.
 image: /images/projects/bravissimo/image.jpg
 tags:
-- skill:frontend_development
 - featured
+- skill:frontend_development
 style:
   color-accent: '#f4436d'
   screenshot-shadow: '#d6cfc9'

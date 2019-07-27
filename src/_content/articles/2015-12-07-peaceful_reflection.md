@@ -4,10 +4,11 @@ date: 2015-12-07T00:00:00Z
 canonical:
   url: https://the-pastry-box-project.net/paul-lloyd/2015-december-7
 summary: Ten years ago today, I boarded United Airlines flight 955 from London Heathrow to San Francisco. Here’s what happened next.
-tags:
+category:
 - source:the_pastry_box_project
 - ning
 - personal
+tags:
 - featured
 ---
 Ten years ago today, excited yet somewhat anxious, I boarded United Airlines flight 955 from London Heathrow to San Francisco. I was working at a small agency at the time, designing websites for estate agents and other local businesses. Freelancing during evenings and weekends, I had recently started working for a small start-up called Ning, based in California. A few rounds of design later, I was offered a job and now booked on this flight so I could get a taste of the company.

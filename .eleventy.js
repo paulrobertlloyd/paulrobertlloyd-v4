@@ -64,18 +64,33 @@ module.exports = function (eleventy) {
   });
 
   eleventy.addCollection('category', collection => {
-    let categorySet = new Set();
-    collection.getAll().forEach(function(item) {
-      if('categories' in item.data) {
-        let categories = item.data.categories;
+    function sortByFrequency(array) {
+      const frequency = {};
 
+      array.forEach(value => {
+        frequency[value] = 0;
+      });
+
+      const uniques = array.filter(value => {
+        return ++frequency[value] == 1;
+      });
+
+      return uniques.sort((a, b) => {
+        return frequency[b] - frequency[a];
+      });
+    }
+
+    let categoryArray = [];
+    collection.getAll().forEach(function(item) {
+      if('category' in item.data) {
+        let categories = item.data.category;
         for (const category of categories) {
-          categorySet.add(category);
+          categoryArray.push(category);
         }
       }
     });
 
-    return [...categorySet];
+    return sortByFrequency(categoryArray)
   });
 
   // Passthrough

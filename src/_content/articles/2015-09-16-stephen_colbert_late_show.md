@@ -6,7 +6,7 @@ location:
   country-name: United Kingdom
 summary: A few thoughts on the new <cite>Late Show with Stephen Colbert</cite>.
 image: /images/2015/09/stephen_colbert_late_show.jpg
-tags:
+category:
 - stephen_colbert
 - entertainment
 - politics

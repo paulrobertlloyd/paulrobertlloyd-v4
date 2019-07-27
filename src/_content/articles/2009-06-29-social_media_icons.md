@@ -2,7 +2,7 @@
 title: Social Media Icons
 date: 2009-06-29T00:18:09+01:00
 summary: A set of standardised icons for popular social networking services and tools.
-tags:
+category:
 - projects
 - social_media_icons
 discussion: closed

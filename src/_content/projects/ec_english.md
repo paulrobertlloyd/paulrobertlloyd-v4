@@ -4,9 +4,9 @@ date: 2016-03-11
 summary: Testable prototype for English language school.
 image: /images/projects/ec_english/image.jpg
 tags:
+- featured
 - skill:frontend_development
 - skill:interaction_design
-- featured
 style:
   color-accent: '#f70'
   screenshot-shadow: '#e6772e'

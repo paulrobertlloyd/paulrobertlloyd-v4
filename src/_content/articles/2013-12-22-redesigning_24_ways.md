@@ -6,11 +6,12 @@ location:
   country-name: United Kingdom
 summary: The tail end of this year has been rather hectic. If moving house and changing jobs weren’t enough to be getting on with, I was also busy redesigning 24 ways.
 image: /images/2013/12/redesigning_24_ways/website.png
-tags:
-- project:24_ways
+category:
 - design
 - web
+tags:
 - featured
+- project:24_ways
 ---
 {% include 'figure' with '/images/2013/12/redesigning_24_ways/website.png'
   caption: '24 ways viewed on an iPad mini.'

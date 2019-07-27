@@ -6,10 +6,11 @@ canonical:
   edition: Issue 264
 summary: Answers to questions about responsive design put to me by readers of <cite>net Magazine</cite>.
 image: /images/2015/01/guardian_navigation.png
-tags:
-- source:net_magazine
+category:
 - responsive_design
 - web
+tags:
+- source:net_magazine
 ---
 {% include 'figure' with '/images/2015/01/guardian_navigation.png'
   caption: 'The Guardian’s navigation on smaller displays prioritises page signposting, but all site sections can still be accessed with one tap.'

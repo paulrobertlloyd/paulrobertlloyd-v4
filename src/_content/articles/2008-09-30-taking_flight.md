@@ -5,7 +5,7 @@ location:
   locality: Solihull
   country-name: United Kingdom
 summary: It’s probably no coincidence that my return to blogging comes while sitting in the departure lounge of Birmingham International Airport.
-tags:
+category:
 - website
 discussion: closed
 ---

@@ -6,10 +6,11 @@ location:
   country-name: United Kingdom
 summary: Earlier this month I spent a week volunteering at the XX Commonwealth Games in Glasgow.
 image: /images/2014/08/clyde_sider/hampden.jpg
-tags:
+category:
 - commonwealth_games
 - glasgow_2014
 - volunteering
+tags:
 - featured
 ---
 {% include 'figure' with '/images/2014/08/clyde_sider/hampden.jpg'

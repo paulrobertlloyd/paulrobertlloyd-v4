@@ -6,9 +6,10 @@ location:
   country-name: United Kingdom
 summary: Slack has a new logo, and everyone hates it.
 image: /images/2019/01/slacks_new_logo/logo.jpg
-tags:
+category:
 - design
 - brand_identity
+tags:
 - featured
 ---
 {% include 'figure' with '/images/2019/01/slacks_new_logo/logo.jpg'

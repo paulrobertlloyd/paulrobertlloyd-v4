@@ -7,12 +7,13 @@ location:
 summary: 'In the first part of a three-part essay about design systems, I review two approaches for the creation of something equally as complex: a city.'
 collection: designing_systems
 image: /images/2017/01/designing_systems_part_1/brasilia_satellite.jpg
-tags:
+category:
 - architecture
 - brasilia
 - london
 - design
 - design_systems
+tags:
 - featured
 ---
 {% include 'figure' with '/images/2017/01/designing_systems_part_1/brasilia_satellite.jpg'

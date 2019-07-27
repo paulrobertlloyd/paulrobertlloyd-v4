@@ -5,7 +5,7 @@ location:
   locality: York
   country-name: United Kingdom
 summary: With a New Year resolution to get out more, I share a few events I’ve recently bought tickets for. Who knows, you might be interested in them too.
-tags:
+category:
 - conferences
 - events
 ---

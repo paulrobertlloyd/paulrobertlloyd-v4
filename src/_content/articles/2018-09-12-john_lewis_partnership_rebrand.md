@@ -6,7 +6,7 @@ location:
   country-name: United Kingdom
 summary: Another identity from the offices of Pentagram that elicits a feeling somewhere between despair and indifference.
 image: /images/2018/09/john_lewis_partnership_rebrand/logos.png
-tags:
+category:
 - design
 - brand_identity
 ---

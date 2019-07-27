@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: Having enjoyed the Edinburgh Fringe when I attended for the first time last August, I was determined to do it all over again. A long bank holiday weekend and a number of shows by comedians I’ve been longing to see, left few excuses not to return. Here are my thoughts on each performance I saw this time round.
-tags:
+category:
 - comedy
 - edinburgh_festival_fringe
 - festivals

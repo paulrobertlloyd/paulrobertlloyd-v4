@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: Given the worsening ecological situation, can showering conference attendees with gifts still be seen as an act of thoughtfulness?
-tags:
+category:
 - sustainability
 - conferences
 - advertising

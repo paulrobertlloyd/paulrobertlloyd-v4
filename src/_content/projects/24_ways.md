@@ -4,10 +4,10 @@ date: 2013-12-01
 summary: Award-winning redesign for popular web geek advent calendar.
 image: /images/projects/24_ways/image.jpg
 tags:
+- featured
 - skill:brand_identity
 - skill:frontend_development
 - skill:interaction_design
-- featured
 style:
   color-accent: '#f04'
   screenshot-shadow: '#b01'

@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: My relationship with JavaScript? It’s complicated.
-tags:
+category:
 - javascript
 - learning
 - web

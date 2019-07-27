@@ -2,7 +2,7 @@
 title: Modern Medicine
 date: 2012-05-24T01:42:30+01:00
 bookmark-of: https://farmerandfarmer.org/medicine/
-tags:
+category:
 - social_media
 - software_development
 - psychology

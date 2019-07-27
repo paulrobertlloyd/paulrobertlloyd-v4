@@ -6,7 +6,7 @@ location:
   country-name: United Kingdom
 summary: The appointment of Fabio Capello has brought about a more stylish and confident England. Now they have a kit to match.
 image: /images/2009/03/tailored_for_england/crest.jpg
-tags:
+category:
 - design
 - football
 - england_football_team

@@ -5,10 +5,11 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: Bradshaw’s Guide brings George Bradshaw’s 1866 descriptive railway handbook to the web. Today I’ll cover some of the typographic decisions I made, and how they lead me to believe that we still lack the necessary tools for web typography.
-tags:
-- project:bradshaws_guide
+category:
 - typography
 - web
+tags:
+- project:bradshaws_guide
 ---
 Last month [I wrote about Bradshaw’s Guide][1], a project that brings George Bradshaw’s 1866 descriptive railway handbook to the web. Today I’ll cover some of the typographic decisions I made, and why I believe we still lack the necessary tools for web typography.
 

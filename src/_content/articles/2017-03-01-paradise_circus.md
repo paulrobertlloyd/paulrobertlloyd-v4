@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: I had braced myself for its eventual fate, but seeing footage of Birmingham Central Library being demolished still brought a tear to my eye.
-tags:
+category:
 - architecture
 - birmingham
 - birmingham_central_library

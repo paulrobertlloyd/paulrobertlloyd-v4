@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: Fiddling around with RSS.
-tags:
+category:
 - rss
 - web
 ---

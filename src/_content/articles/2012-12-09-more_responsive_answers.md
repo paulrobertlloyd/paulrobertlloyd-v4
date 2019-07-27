@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: United Kingdom
 summary: Justin Avery, who curates the Responsive Design Weekly newsletter, asked me four questions as part of his December Interview Series. Here are my answers.
-tags:
+category:
 - responsive_design
 - web
 - interviews

@@ -6,7 +6,7 @@ location:
   country-name: Brazil
 summary: As I walked the streets of San Francisco, buoyed by their comfortable familiarity and unique soundtrack, I knew that this was still a city I could never call home.
 image: /images/2011/03/san_francisco/fishermans_wharf.jpg
-tags:
+category:
 - travel
 - san_francisco
 - united_states

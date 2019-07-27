@@ -4,9 +4,9 @@ date: 2018-01-02
 summary: Digital revival of a popular Victorian railway guide.
 image: /images/projects/bradshaws_guide/image.jpg
 tags:
+- featured
 - skill:frontend_development
 - skill:interaction_design
-- featured
 style:
   color-accent: '#e6772e'
   screenshot-shadow: '#e6772e'

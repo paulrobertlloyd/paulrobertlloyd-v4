@@ -4,10 +4,11 @@ date: 2015-03-12T00:00:00Z
 canonical:
   url: https://the-pastry-box-project.net/paul-lloyd/2015-march-12
 summary: Finding parallels between redecorating my house and redesigning a website.
-tags:
-- source:the_pastry_box_project
+category:
 - diy
 - decorating
+tags:
+- source:the_pastry_box_project
 ---
 I moved in to my house at the end of 2013 and, for much of last year, lived in it as the previous owner had left it.
 
