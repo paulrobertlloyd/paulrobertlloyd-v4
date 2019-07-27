@@ -42,56 +42,12 @@ module.exports = function (eleventy) {
   eleventy.addCollection('post', collection => {
     return collection.getFilteredByGlob('**/+(articles|bookmarks|notes|photos|presentations|projects)/**/*.md').reverse();
   });
-
   eleventy.addCollection('sitemap', collection => {
     return collection.getFilteredByGlob('**/*.md');
   });
-
-  eleventy.addCollection('attending', collection => {
-    return collection.getFilteredByGlob('**/events/**/*.md').filter(item => {
-      const date = new Date(item.data.start).getTime();
-      const now = new Date().getTime();
-      return (date > now ? item : false);
-    });
-  });
-
-  eleventy.addCollection('attended', collection => {
-    return collection.getFilteredByGlob('**/events/**/*.md').filter(item => {
-      const date = new Date(item.data.start).getTime();
-      const now = new Date().getTime();
-      return (date < now ? item : false);
-    });
-  });
-
-  eleventy.addCollection('category', collection => {
-    function sortByFrequency(array) {
-      const frequency = {};
-
-      array.forEach(value => {
-        frequency[value] = 0;
-      });
-
-      const uniques = array.filter(value => {
-        return ++frequency[value] == 1;
-      });
-
-      return uniques.sort((a, b) => {
-        return frequency[b] - frequency[a];
-      });
-    }
-
-    let categoryArray = [];
-    collection.getAll().forEach(function(item) {
-      if('category' in item.data) {
-        let categories = item.data.category;
-        for (const category of categories) {
-          categoryArray.push(category);
-        }
-      }
-    });
-
-    return sortByFrequency(categoryArray)
-  });
+  eleventy.addCollection('attending', require('./lib/collections/attending.js'));
+  eleventy.addCollection('attended', require('./lib/collections/attended.js'));
+  eleventy.addCollection('category', require('./lib/collections/category.js'));
 
   // Passthrough
   eleventy.addPassthroughCopy('./src/images');
