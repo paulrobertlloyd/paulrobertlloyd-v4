@@ -6,7 +6,7 @@ pagination:
   data: collections.attended
   reverse: true
   size: 48
-permalink: events/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber }}{% else %}index{% endif %}.html
+permalink: "events/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}{% else %}index{% endif %}.html"
 ---
 {% if pagination.pageNumber < 1 and collections.attending.size >= 1 -%}
   {%- include 'section'

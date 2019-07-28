@@ -3,12 +3,7 @@
   <ol>
   {%- for item in pagination.links -%}
     {%- assign url = item | pretty | replace: 'page/','?page=' -%}
-    {%- if forloop.index0 != 0 -%}
-      {%- assign label = forloop.index0 -%}
-    {%- else -%}
-      {%- assign label = label | capitalize -%}
-    {%- endif -%}
-    <li><a href="{{ url }}"{% if pagination.pageNumber == forloop.index0 %} aria-current="page"{% endif %} aria-label="Go to page {{ forloop.index0 }}">{{ label }}</a></li>
+    <li><a href="{{ url }}"{% if pagination.pageNumber == forloop.index0 %} aria-current="page"{% endif %} aria-label="Go to page {{ forloop.index }}">{{ forloop.index }}</a></li>
   {%- endfor -%}
   </ol>
 </nav>

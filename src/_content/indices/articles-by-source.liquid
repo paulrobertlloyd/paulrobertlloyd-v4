@@ -1,13 +1,8 @@
 ---
 title: Articles
 introduction: Source publications
-pagination:
-  data: collections.source
-  size: 48
-permalink: articles/sources/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber }}{% else %}index{% endif %}.html
+permalink: "articles/sources/index.html"
 ---
-{%- assign venues = pagination.items | sort_by: 'data.title' -%}
-{%- include 'items' with pagination.items
+{%- include 'items' with collections.source
   items_size: '12rem'
 -%}
-{%- include 'pagination' -%}

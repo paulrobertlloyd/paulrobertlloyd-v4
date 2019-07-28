@@ -4,10 +4,10 @@ pagination:
   data: collections.bookmark
   reverse: true
   size: 24
-permalink: bookmarks/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber }}{% else %}index{% endif %}.html
-changefreq: daily
+permalink: "bookmarks/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}{% else %}index{% endif %}.html"
+changefreq: weekly
 ---
 {%- include 'items' with pagination.items
   item_modifier: 'inline'
 -%}
-{%- include 'traverse' label: 'bookmarks' -%}
+{%- include 'pagination' -%}

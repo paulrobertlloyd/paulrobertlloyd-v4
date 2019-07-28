@@ -4,13 +4,11 @@ pagination:
   data: collections.photo
   reverse: true
   size: 24
-permalink: photos/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber }}{% else %}index{% endif %}.html
+permalink: "photos/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}{% else %}index{% endif %}.html"
 changefreq: daily
 ---
 {%- include 'items' with pagination.items
   items_size: '12rem'
   items_component: 'photo-simple'
 -%}
-{%- include 'pagination'
-  label: 'photos'
--%}
+{%- include 'pagination' -%}
