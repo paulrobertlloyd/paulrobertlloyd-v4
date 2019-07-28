@@ -1,6 +1,8 @@
 .footer {
   @extend %caption;
 
+  align-items: baseline;
+  display: flex;
   padding-block-end: var(--space-block-xsmall);
 }
 
@@ -17,17 +19,20 @@
   font-style: normal;
 }
 
-.footer dt {
-  @extend %visually-hidden;
+.footer dd:not(:first-of-type) {
+  --flow-inset: 0.5ch;
 }
 
+.footer dt,
 .footer dd {
-  display: inline-block;
+  --flow-space: 0;
+  display: inline;
   white-space: nowrap;
 }
 
-.footer *:not(:first-child) + dd::before {
+.footer *:not(:first-child) + dt::before {
   content: "·";
+  display: inline;
   opacity: 0.5;
   padding-inline: calc(var(--space-inline) / 2);
 }

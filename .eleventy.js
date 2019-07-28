@@ -40,7 +40,7 @@ module.exports = function (eleventy) {
   // Setting a default sort order may resolve this. See:
   // https://github.com/11ty/eleventy/issues/367
   eleventy.addCollection('post', collection => {
-    return collection.getFilteredByGlob('**/+(articles|bookmarks|notes|photos|presentations|projects)/**/*.md').reverse();
+    return collection.getFilteredByGlob('**/+(articles|bookmarks|notes|photos|presentations|projects|replies)/**/*.md').reverse();
   });
   eleventy.addCollection('sitemap', collection => {
     return collection.getFilteredByGlob('**/*.md');

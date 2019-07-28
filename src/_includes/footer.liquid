@@ -1,13 +1,13 @@
 <footer class="footer">
   <dl>
-    <dt>Published on</dt>
+    <dt class="visually-hidden">Published on</dt>
     <dd>
       <a class="u-url" rel="bookmark" href="{{ page.url | prepend: app.url | pretty }}">
         <time class="dt-published" datetime="{{ date | date: dates.iso }}">{% if type == 'note' or type == 'photo' %}{{ date | date: dates.datetime_full }}{% else %}{{ date | date: dates.date_long }}{% endif %}</time>
       </a>
     </dd>
 {%- if location -%}
-    <dt>Published in</dt>
+    <dt class="visually-hidden">Published in</dt>
     <dd class="p-location h-adr">
       <span class="p-locality">{{ location.locality }}</span>,
       <span class="p-country-name">{{ location.country-name }}</span>
@@ -20,6 +20,12 @@
         <data class="p-latitude" value="{{ geo[1] }}">{{ geo[1] | round: 2 }}<abbr title="degrees">°</abbr> <abbr title="North">N</abbr></data>,
         <data class="p-longitude" value="{{ geo[0] }}">{{ geo[0] | round: 2 }}<abbr title="degrees">°</abbr> <abbr title="East">E</abbr></data>
       </a>
+    </dd>
+{%- endif -%}
+{%- if in-reply-to -%}
+    <dt>In reply to</dt>
+    <dd>
+      <a class="u-in-reply-to" href="{{ in-reply-to }}">a post on {{ in-reply-to | hostname }}</a>
     </dd>
 {%- endif -%}
 {%- if canonical -%}

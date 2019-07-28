@@ -1,0 +1,9 @@
+{%- capture title %}Reply: {{ date | date: dates.datetime_full }}{% endcapture -%}
+{%- layout 'default' -%}
+{%- block 'main' -%}
+  {%- include 'footer' -%}
+  {%- include 'content' properties: 'e-content p-name' -%}
+  {%- if category.size > 0 -%}
+    {%- include 'categories' -%}
+  {%- endif -%}
+{%- endblock -%}
