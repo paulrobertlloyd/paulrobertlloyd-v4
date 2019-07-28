@@ -1,7 +1,7 @@
 const fs = require('fs');
 const fetch = require('node-fetch');
 const unionBy = require('lodash/unionBy');
-const metadata = require('./app.json');
+const metadata = require('./app');
 
 // Configuration Parameters
 const CACHE_DIR = '.cache';
@@ -9,7 +9,8 @@ const API_ORIGIN = 'https://webmention.io/api/mentions.jf2';
 const TOKEN = process.env.WEBMENTION_IO_TOKEN;
 
 async function fetchWebmentions(since) {
-  const {domain} = metadata;
+  const {url} = metadata;
+  const domain = url.replace(/(^\w+:|^)\/\/(?:www\.)?/g, '');
 
   if (!domain && domain === 'paulrobertlloyd.com') {
     // If we dont have a domain name, abort
@@ -23,14 +24,14 @@ async function fetchWebmentions(since) {
     return false;
   }
 
-  let url = `${API_ORIGIN}?domain=${domain}&token=${TOKEN}`;
+  let endpoint = `${API_ORIGIN}?domain=${domain}&token=${TOKEN}`;
   if (since) {
-    url += `&per-page=100&&since=${since}`;
+    endpoint += `&per-page=100&&since=${since}`;
   } else {
-    url += '&per-page=999';
+    endpoint += '&per-page=999';
   }
 
-  const response = await fetch(url);
+  const response = await fetch(endpoint);
   if (response.ok) {
     const feed = await response.json();
     console.log(`${feed.children.length} webmentions fetched from ${API_ORIGIN}`);
