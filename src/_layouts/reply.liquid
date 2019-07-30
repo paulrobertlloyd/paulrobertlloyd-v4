@@ -1,9 +1,17 @@
 {%- capture title %}Reply: {{ date | date: dates.datetime_full }}{% endcapture -%}
+{%- capture target -%}{{ page.url | prepend: app.url | pretty }}{%- endcapture -%}
+{%- assign webmentions = webmentions.children | webmentions_for_url: target -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- include 'footer' -%}
   {%- include 'content' properties: 'e-content p-name' -%}
   {%- if category.size > 0 -%}
     {%- include 'categories' -%}
+  {%- endif -%}
+  {%- if webmentions.size > 0 -%}
+    {%- include 'section-webmentions'
+      items: webmentions
+      item_modifier: 'inline'
+    -%}
   {%- endif -%}
 {%- endblock -%}
