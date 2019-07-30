@@ -31,7 +31,7 @@ permalink: /feed.xml
     <link href="{{ item.url | prepend: app.url | pretty }}" rel="alternate" type="text/html"/>
     {% endif %}
     <content type="html"><![CDATA[
-      {% capture content_html %}{{ item.templateContent | strip_mentions }}{% if item.data.categories %}<p>{% for category in item.data.categories %}#{{ category }} {% endfor %}</p>{% endif %}{% if item.data.photos %}{% include 'photos' with item.data.photos image_class: 'u-photo' %}{% endif %}{% endcapture %}{{ content_html | strip_newlines }}
+      {% capture content_html %}{% if item.data.in-reply-to %}<p><small>↪︎ In reply to <a class="u-in-reply-to" href="{{ item.data.in-reply-to }}">a post on {{ item.data.in-reply-to | hostname }}</a></small></p>{% endif %}{{ item.templateContent | strip_mentions }}{% if item.data.categories %}<p>{% for category in item.data.categories %}#{{ category }} {% endfor %}</p>{% endif %}{% if item.data.photos %}{% include 'photos' with item.data.photos image_class: 'u-photo' %}{% endif %}{% endcapture %}{{ content_html | strip_newlines }}
     ]]></content>
   </entry>
 {% endfor %}

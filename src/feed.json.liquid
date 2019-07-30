@@ -24,7 +24,7 @@ permalink: /feed.json
       {% if item.data.summary %}"summary": {{ item.data.summary | markdownify: 'inline' | jsonify }},{% endif %}
       {% if item.data.category %}"tags": {{ item.data.category | jsonify }},{% endif %}
       {% if item.data.image %}"image": {{ item.data.image | prepend: app.url | append: '?w=1280&q=90&auto=format' | jsonify }},{% endif %}
-      "content_html": {% capture content_html %}{{ item.templateContent | strip_mentions }}{% if item.data.categories %}<p>{% for category in item.data.categories %}#{{ category }} {% endfor %}</p>{% endif %}{% if item.data.photos %}{% include 'photos' with item.data.photos image_class: 'u-photo' %}{% endif %}{% endcapture %}{{ content_html | strip | jsonify }},
+      "content_html": {% capture content_html %}{% if item.data.in-reply-to %}<p><small>↪︎ In reply to <a class="u-in-reply-to" href="{{ item.data.in-reply-to }}">a post on {{ item.data.in-reply-to | hostname }}</a></small></p>{% endif %}{{ item.templateContent | strip_mentions }}{% if item.data.categories %}<p>{% for category in item.data.categories %}#{{ category }} {% endfor %}</p>{% endif %}{% if item.data.photos %}{% include 'photos' with item.data.photos image_class: 'u-photo' %}{% endif %}{% endcapture %}{{ content_html | strip | jsonify }},
       "date_published": {{ item.data.date | jsonify }}
     }{% unless forloop.last %},{% endunless %}
   {% endfor %}]
