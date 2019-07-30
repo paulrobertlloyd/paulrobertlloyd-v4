@@ -21,8 +21,11 @@ permalink: /feed.xml
     <id>{{ item.url | prepend: app.url }}</id>
     <title>{{ item.data.title | markdownify: 'inline' | escape | strip_html | strip_newlines }}</title>
     <updated>{{ item.data.date | date: dates.iso }}</updated>
-    {% if item.data.url %}
-    <link href="{{ item.data.url }}" rel="alternate" type="text/html"/>
+    {% if item.data.bookmark-of %}
+    <link href="{{ item.data.bookmark-of }}" rel="alternate" type="text/html"/>
+    <link href="{{ item.url | prepend: app.url | pretty }}" rel="related" type="text/html"/>
+    {% elsif item.data.in-reply-to %}
+    <link href="{{ item.data.in-reply-to }}" rel="alternate" type="text/html"/>
     <link href="{{ item.url | prepend: app.url | pretty }}" rel="related" type="text/html"/>
     {% else %}
     <link href="{{ item.url | prepend: app.url | pretty }}" rel="alternate" type="text/html"/>
