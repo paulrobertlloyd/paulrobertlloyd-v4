@@ -19,10 +19,6 @@
   font-style: normal;
 }
 
-.footer dd:not(:first-of-type) {
-  --flow-inset: 0.5ch;
-}
-
 .footer dt,
 .footer dd {
   --flow-space: 0;
@@ -30,7 +26,7 @@
   white-space: nowrap;
 }
 
-.footer *:not(:first-child) + dt::before {
+.footer dd:not(:last-of-type)::after {
   content: "·";
   display: inline;
   opacity: 0.5;

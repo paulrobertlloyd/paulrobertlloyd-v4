@@ -1,6 +1,6 @@
 <footer class="footer">
   <dl>
-    <dt>Date</dt>
+    <dt class="visually-hidden">Date</dt>
     {%- assign date-start = start | date: '%Y%m%d' -%}
     {%- assign date-end = end | date: '%Y%m%d' -%}
     <dd>
@@ -15,7 +15,7 @@
       {%- endif -%}
       </a>
     </dd>
-    <dt>Venue</dt>
+    <dt class="visually-hidden">Venue</dt>
     {%- assign venueid = tags[1] | remove: 'venue:' -%}
     {%- assign venue = collections.venue | includes: 'fileSlug',venueid | first -%}
     <dd class="p-location h-card">
