@@ -7,7 +7,7 @@ category:
 - apple
 - advertising
 ---
-{% include 'embed' with url %}
+{% include 'embed' with bookmark-of %}
 
 I will never grow tired of this commercial. Even less so this version narrated by Steve Jobs.
 

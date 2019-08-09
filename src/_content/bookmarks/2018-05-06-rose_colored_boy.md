@@ -6,7 +6,7 @@ category:
 - video
 - music_videos
 ---
-{% include 'embed' with url
+{% include 'embed' with bookmark-of
   ratio: '12/5'
 %}
 

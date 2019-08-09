@@ -7,7 +7,7 @@ category:
 - television
 - design
 ---
-{% include 'embed' with url %}
+{% include 'embed' with bookmark-of %}
 
 I’ve yet to see a full episode of <cite>The Late Show</cite> (which [I wrote about shortly after its debut][1]), but thanks to [clips posted online][2], I’ve still been able to get my regular Colbert fix.
 

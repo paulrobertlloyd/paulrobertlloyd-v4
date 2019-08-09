@@ -8,6 +8,6 @@ category:
 - bbc
 - london_2012
 ---
-{% include 'embed' with url %}
+{% include 'embed' with bookmark-of %}
 
 The games are so close, I can almost taste them.

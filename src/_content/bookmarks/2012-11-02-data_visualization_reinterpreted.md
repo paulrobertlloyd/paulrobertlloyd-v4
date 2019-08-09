@@ -6,7 +6,7 @@ category:
 - video
 - peter_saville
 ---
-{% include 'embed' with url
+{% include 'embed' with bookmark-of
   poster: 'https://i.vimeocdn.com/video/354067087'
 %}
 
