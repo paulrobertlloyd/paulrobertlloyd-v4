@@ -50,9 +50,9 @@ module.exports = function (eleventy) {
   eleventy.addCollection('category', require('./lib/collections/category.js'));
 
   // Passthrough
-  eleventy.addPassthroughCopy('./src/images');
-  eleventy.addPassthroughCopy('./src/assets/fonts');
-  eleventy.addPassthroughCopy('./src/assets/vectors');
+  eleventy.addPassthroughCopy({'./src/images': true});
+  eleventy.addPassthroughCopy({'./src/assets/fonts': true});
+  eleventy.addPassthroughCopy({'./src/assets/vectors': true});
 
   // Enable data deep merge
   eleventy.setDataDeepMerge(true);
