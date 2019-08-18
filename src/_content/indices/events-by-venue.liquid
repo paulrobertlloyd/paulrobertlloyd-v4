@@ -3,7 +3,7 @@ title: Events
 introduction: Venues
 permalink: events/venues/index.html
 ---
-{%- assign venues = collections.venue | sort_by: 'fileSlug' -%}
+{%- assign venues = collections.venue | sort_by: 'data.title' -%}
 {%- include 'items' with venues
   item_modifier: 'inline'
 -%}
