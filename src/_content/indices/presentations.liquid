@@ -17,6 +17,7 @@ permalink: presentations/index.html
   items_size: '16rem'
   items_component: 'card'
   card_image_color: true
+  image_preset: 'card'
 -%}
 {%- assign appearances = collections.event | select: 'data.participant',true -%}
 {%- include 'section'

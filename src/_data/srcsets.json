@@ -1,20 +1,21 @@
 {
-  "widths": [320, 640, 960, 1280, 1600, 1920],
-  "presets": {
-    "default": {
-      "sizes": "100vw",
-      "width": 720
-    },
-    "supporting": {
-      "sizes": "50vw",
-      "width": 480
-    },
-    "card": {
-      "width": 360
-    },
-    "thumbnail": {
-      "sizes": "20vw",
-      "width": 240
-    }
+  "default": {
+    "sizes": "100vw",
+    "width": 720,
+    "widths": [360, 720, 1080, 1600]
+  },
+  "supporting": {
+    "sizes": "50vw",
+    "width": 480,
+    "widths": [240, 480, 720]
+  },
+  "card": {
+    "width": 360,
+    "widths": [180, 360, 540]
+  },
+  "thumbnail": {
+    "sizes": "20vw",
+    "width": 240,
+    "widths": [120, 240, 360]
   }
 }
