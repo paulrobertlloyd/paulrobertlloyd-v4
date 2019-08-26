@@ -26,7 +26,6 @@
       }
     },
     "photo": {
-      "template": "etc/indiekit/photo.njk",
       "post": {
         "path": "src/_content/photos/{{ published | date('X') }}.md",
         "url": "photos/{{ published | date('X') }}"
