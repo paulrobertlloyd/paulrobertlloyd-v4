@@ -23,7 +23,8 @@ const offlinePlaceholder = `
 </svg>`;
 const offlinePage = '/offline.html';
 const offlinePages = [
-{%- assign saved = collections.article | includes: 'data.tags','featured' -%}
+{%- assign featured = collections.article | includes: 'data.tags','featured' -%}
+{%- assign saved = featured | reverse -%}
 {%- for item in saved limit: 6 -%}
   '{{ item.url | pretty }}',
 {%- endfor -%}

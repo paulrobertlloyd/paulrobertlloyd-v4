@@ -6,11 +6,11 @@ permalink: /offline.html
 hidden: true
 ---
 {%- assign featured = collections.article | includes: 'data.tags','featured' -%}
-{%- assign selected = featured | reverse %}
+{%- assign saved = featured | reverse %}
 {%- include 'section'
   section_id: 'saved'
   section_title: 'Articles available to read offline'
-  items: selected
+  items: saved
   items_limit: 6
   item_modifier: 'inline'
 -%}
