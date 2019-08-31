@@ -1,13 +1,13 @@
 <article class="card | h-entry" data-type="photo">
   <a class="card__image | u-url" rel="bookmark" href="{{ item.url | pretty }}">
-    {%- include 'image' with item.data.photos[0].url
-      alt: item.data.photos[0].alt
+    {%- include 'image' with item.data.photo[0].url
+      alt: item.data.photo[0].alt
       image_class: 'u-photo'
       image_ratio: 1.0
       image_sizes: items_size
     -%}
-    {%- if item.data.photos.size > 1 -%}
-      <span class="card__icon" aria-label="{{ item.data.photos.size }} photos in this post"></span>
+    {%- if item.data.photo.size > 1 -%}
+      <span class="card__icon" aria-label="{{ item.data.photo.size }} photos in this post"></span>
     {%- endif -%}
   </a>
 </article>

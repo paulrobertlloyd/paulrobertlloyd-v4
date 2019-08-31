@@ -10,7 +10,7 @@ category:
 - travel
 - europe
 - the_netherlands
-photos:
+photo:
 - url: /images/2015/06/rotterdam/kpn_tower.jpg
   alt: KPN Tower
 - url: /images/2015/06/rotterdam/de_rotterdam.jpg
