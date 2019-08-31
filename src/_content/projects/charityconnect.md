@@ -30,12 +30,13 @@ screenshots:
   - url: /images/projects/charityconnect/screenshot_post.png
     alt: Article page on mobile
 photos:
-- url: /images/projects/charityconnect/photo_empathy_map.jpg
-  alt: Pattern identification exercise
-- url: /images/projects/charityconnect/photo_personas.jpg
-  alt: Pattern definition exercise
-- url: /images/projects/charityconnect/photo_prioritisation.jpg
-  alt: Page prioritisation exercise
+  workshop:
+  - url: /images/projects/charityconnect/photo_empathy_map.jpg
+    alt: Pattern identification exercise
+  - url: /images/projects/charityconnect/photo_personas.jpg
+    alt: Pattern definition exercise
+  - url: /images/projects/charityconnect/photo_prioritisation.jpg
+    alt: Page prioritisation exercise
 ---
 {% include 'screenshots' with screenshots.homepage
   alignment: 'bleed'
@@ -47,7 +48,7 @@ photos:
 
 I was asked to conduct an expert review of some earlier designs that had been produced, with a particular focus on home, groups, post and profile pages. Taking into account the need to incorporate new functionality and user experience improvements, this review was conducted on site and alongside the project owner and other stakeholders. Workshop exercises then allowed for requirements gathering and design exploration.
 
-{% include 'photos' with photos
+{% include 'photos' with photos.workshop
   caption: 'A series of workshop exercises teased out requirements for the project, and provided an introduction to the type of people using the site.'
   alignment: 'bleed'
   image_preset: 'thumbnail'

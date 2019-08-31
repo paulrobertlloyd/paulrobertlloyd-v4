@@ -1,9 +1,9 @@
 <figure class="align-{{ alignment | default: 'none' }}">
-  <p class="photos" style="--columns: {{ columns | default: photos.size }}">
-  {%- for photo in photos -%}
-    {%- include 'image' with photo.url
+  <p class="photos" style="--columns: {{ columns | default: photo.size }}">
+  {%- for item in photo -%}
+    {%- include 'image' with item.url
       preset: image_preset
-      alt: photo.alt
+      alt: item.alt
       class: image_class
     -%}
   {%- endfor -%}
