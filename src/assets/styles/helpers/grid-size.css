@@ -5,7 +5,7 @@
   padding-block-end: var(--grid-row-gap);
 }
 
-@media (--from-smallest-viewport) {
+@media (--from-small-viewport) {
   [style^="--grid-size"] {
     grid-template-columns: repeat(auto-fit, minmax(var(--grid-size), 1fr));
   }

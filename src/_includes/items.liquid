@@ -1,4 +1,4 @@
-<div style="--grid-size: {{ items_size | default: '100%' }}">
+<div class="items{% if items_classes %} {{ items_classes }}{% endif %}" style="--grid-size: {{ items_size | default: '100%' }}">
 {%- for item in items limit: items_limit -%}
   {%- include 'item/{{ items_component | default: item.data.layout }}' -%}
 {%- endfor -%}
