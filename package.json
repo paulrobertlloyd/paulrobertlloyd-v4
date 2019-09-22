@@ -36,7 +36,7 @@
     "cssnano": "^4.1.10",
     "html-minifier": "^4.0.0",
     "lodash": "^4.17.14",
-    "markdown-it": "^9.1.0",
+    "markdown-it": "^10.0.0",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-anchor": "^5.2.4",
     "markdown-it-attrs": "^3.0.1",
@@ -62,7 +62,7 @@
   },
   "devDependencies": {
     "markdownlint-cli": "^0.18.0",
-    "stylelint": "^10.1.0",
+    "stylelint": "^11.0.0",
     "stylelint-config-standard": "^19.0.0",
     "stylelint-order": "^3.1.1",
     "xo": "^0.24.0"
