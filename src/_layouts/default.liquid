@@ -24,12 +24,12 @@
   <link rel="canonical" href="{% if canonical.url %}{{ canonical.url }}{% else %}{{ page.url | prepend: app.url | pretty }}{% endif %}">
   <link rel="manifest" href="/app.webmanifest">
   <link rel="apple-touch-icon" href="{{ app.icon }}" type="image/png">
-  <link rel="authorization_endpoint" href="https://indieauth.com/auth">
-  <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
+  <link rel="authorization_endpoint" href="{{ app.endpoint.auth }}">
+  <link rel="token_endpoint" href="{{ app.endpoint.token }}">
+  <link rel="micropub" href="{{ app.endpoint.micropub }}">
+  <link rel="microsub" href="{{ app.endpoint.microsub }}">
+  <link rel="webmention" href="{{ app.endpoint.webmention }}">
   <link rel="pgpkey" href="/key.txt">
-  <link rel="micropub" href="https://indiekit.paulrobertlloyd.com/micropub">
-  <link rel="microsub" href="https://aperture.p3k.io/microsub/32">
-  <link rel="webmention" href="https://webmention.io/paulrobertlloyd.com/webmention">
   <link rel="me" href="https://mastodon.social/@paulrobertlloyd">
   <link rel="stylesheet" href="/assets/styles/app.css">
 

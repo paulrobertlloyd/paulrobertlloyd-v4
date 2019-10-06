@@ -9,6 +9,13 @@ module.exports = {
   background_color: '#fff',
   favicon: '/images/app.ico',
   icon: '/images/app.png',
+  endpoint: {
+    auth: 'https://indieauth.com/auth',
+    token: 'https://tokens.indieauth.com/token',
+    micropub: 'https://indiekit.paulrobertlloyd.com/micropub',
+    microsub: 'https://aperture.p3k.io/microsub/32',
+    webmention: 'https://webmention.io/paulrobertlloyd.com/webmention'
+  },
   author: {
     name: 'Paul Robert Lloyd',
     url: 'https://paulrobertlloyd.com',

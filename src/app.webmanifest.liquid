@@ -13,5 +13,15 @@ permalink: /app.webmanifest
   "theme_color": "{{ app.theme_color }}",
   "background_color": "{{ app.background_color }}",
   "display": "minimal-ui",
-  "start_url": "./"
+  "start_url": "./",
+  "share_target": {
+    "action": "{{ app.endpoint.micropub }}/share/",
+    "method": "GET",
+    "enctype": "application/x-www-form-urlencoded",
+    "params": {
+      "title": "name",
+      "text": "content",
+      "url": "bookmark-of"
+    }
+  }
 }
