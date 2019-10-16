@@ -38,7 +38,7 @@
     "lodash": "^4.17.14",
     "markdown-it": "^10.0.0",
     "markdown-it-abbr": "^1.0.4",
-    "markdown-it-anchor": "^5.2.4",
+    "markdown-it-anchor": "^5.2.5",
     "markdown-it-attrs": "^3.0.1",
     "markdown-it-deflist": "^2.0.3",
     "markdown-it-footnote": "^3.0.2",
