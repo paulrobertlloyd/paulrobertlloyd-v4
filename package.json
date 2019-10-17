@@ -65,7 +65,7 @@
     "stylelint": "^11.1.1",
     "stylelint-config-standard": "^19.0.0",
     "stylelint-order": "^3.1.1",
-    "xo": "^0.25.0"
+    "xo": "^0.25.3"
   },
   "xo": {
     "space": true,
