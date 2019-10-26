@@ -27,7 +27,7 @@ tags:
 
 **08:19, London St. Pancras.** Board the Eurostar. A rare chance to travel on one of the (not-so-new) [e320][1]s.
 
-**10:48, Paris-Nord.** [Gare du Nord][2] seems to get more beautiful with every visit. I have an hour to dash south to my next connection via the RER to *Port-Royal*. The ticket machine seems designed to test the patience of users, remaining unresponsive for just over a minute before serving the next customer. How French!
+**10:48, Paris-Nord.** [Gare du Nord][2] seems to get more beautiful with every visit. I have an hour to dash south to my next connection via the <span lang="fr">RER</span> to *Port-Royal*. The ticket machine seems designed to test the patience of users, remaining unresponsive for just over a minute before serving the next customer. How French!
 
 {% include 'figure' with '/images/2019/09/brighton_to_lisbon/paris_rer.jpg'
   caption: 'Passengers on the Paris RER'
@@ -35,9 +35,9 @@ tags:
   image_ratio: 1.5
 %}
 
-**12:34, Paris-Montparnasse.** After a brisk walk from the *Port-Royal* RER station, I arrive at this [modern carbuncle][3] with about 10 minutes to spare. The French railway system is now a mishmash of different brands, so I board an SNCF TGV INOUI service to Hendaye. The [double-decker Duplex][4]’s are incredibly spacious. My reclining seat has a large pulldown table, desk light, USB and power sockets. All undone by a low-hung luggage rack which I repeatedly hit my head against.
+**12:34, Paris-Montparnasse.** After a brisk walk from the *Port-Royal* RER station, I arrive at this [modern carbuncle][3] with about 10 minutes to spare. The French railway system is now a mishmash of different brands, so I board an <span lang="fr">SNCF TGV INOUI</span> service to Hendaye. The [double-decker Duplex][4]’s are incredibly spacious. My reclining seat has a large pulldown table, desk light, USB and power sockets. All undone by a low-hung luggage rack which I repeatedly hit my head against.
 
-**18:35, Hendaye.** Having arrived 45 minutes earlier, I board the [_Sud Express_][5], a Renfe/CP operated train hotel that has seen better days. In one of the carriages is a small bar/restaurant, lorded over by portly gentleman fond of rules. No photos. No video. No card payments. I inadvertently break the first rule before seeing the sign. The third rule is not apparent until I try to pay for my meal. I have visions of doing the washing up as payment. Fortunately, the train manager is able to bring a card payment machine to my compartment later in the evening.
+**18:35, Hendaye.** Having arrived 45 minutes earlier, I board the [_Sud Express_][5], a <span lang="es">Renfe</span>/<span lang="pt">CP</span> operated train hotel that has seen better days. In one of the carriages is a small bar/restaurant, lorded over by portly gentleman fond of rules. No photos. No video. No card payments. I inadvertently break the first rule before seeing the sign. The third rule is not apparent until I try to pay for my meal. I have visions of doing the washing up as payment. Fortunately, the train manager is able to bring a card payment machine to my compartment later in the evening.
 
 ## Monday, 2 September 2019
 
