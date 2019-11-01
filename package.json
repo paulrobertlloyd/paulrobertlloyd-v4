@@ -31,7 +31,7 @@
   "dependencies": {
     "@11ty/eleventy": "^0.9.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^2.0.3",
-    "@remy/webmention": "^1.4.2",
+    "@remy/webmention": "^1.4.3",
     "color": "^3.1.2",
     "cssnano": "^4.1.10",
     "html-minifier": "^4.0.0",
@@ -54,7 +54,7 @@
     "postcss-extend-rule": "^3.0.0",
     "postcss-logical": "^4.0.0",
     "postcss-media-minmax": "^4.0.0",
-    "rollup": "^1.26.0",
+    "rollup": "^1.26.2",
     "rollup-plugin-terser": "^5.1.2",
     "sanitize-html": "^1.20.1",
     "string-to-color": "^2.1.1",
