@@ -1,3 +1,5 @@
+{%- assign venueid = tags[1] | remove: 'venue:' -%}
+{%- assign venue = collections.venue | includes: 'fileSlug',venueid | first -%}
 <footer class="footer">
   <dl>
     <dt class="visually-hidden">Date</dt>
@@ -15,13 +17,13 @@
       {%- endif -%}
       </a>
     </dd>
+{%- if venueid != 'tbd' -%}
     <dt class="visually-hidden">Venue</dt>
-    {%- assign venueid = tags[1] | remove: 'venue:' -%}
-    {%- assign venue = collections.venue | includes: 'fileSlug',venueid | first -%}
     <dd class="p-location h-card">
       <a class="u-url" href="{{ venue.url | pretty }}">
         <span class="p-name">{{ venue.data.title | markdownify: 'inline' }}</span>, <span class="p-adr h-adr p-locality">{{ venue.data.address.locality }}</span>
       </a>
     </dd>
+{%- endif -%}
   </dl>
 </footer>

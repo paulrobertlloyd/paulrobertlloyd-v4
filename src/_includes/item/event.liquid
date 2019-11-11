@@ -7,9 +7,11 @@
     </h3>
   </header>
 
+{%- if venueid != 'tbd' -%}
   <p class="item__main s-linear | h-card">
     <a class="p-name" href="{{ venue.url | pretty }}">{{ venue.data.title | markdownify: 'inline' }}</a>
   </p>
+{%- endif -%}
 
   <footer class="item__footer">
     <a class="u-url" rel="bookmark" href="{{ item.url | prepend: app.url | pretty }}" tabindex="-1">
