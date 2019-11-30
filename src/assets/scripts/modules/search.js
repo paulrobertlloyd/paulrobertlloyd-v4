@@ -38,7 +38,7 @@ export default function () {
 
     searchForm.setAttribute('action', '#search');
     searchForm.removeAttribute('method');
-    searchSubmit.parentNode.removeChild(searchSubmit);
+    searchSubmit.remove(searchSubmit);
 
     window.addEventListener('load', () => {
       return new aria.Combobox(
