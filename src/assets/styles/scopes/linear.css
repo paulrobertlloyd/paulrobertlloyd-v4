@@ -153,6 +153,12 @@
   outline: 0;
 }
 
+@media (prefers-color-scheme: dark) {
+  .s-linear img {
+    outline: 0;
+  }
+}
+
 .s-linear :not(pre) code {
   background-color: var(--color-offset);
   padding: var(--inset-small-squished);
