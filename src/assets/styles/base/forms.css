@@ -5,18 +5,20 @@
  */
 
 /*
- * 1. Show overflow in IE and Edge
- * 2. Reset the margin in Firefox and Safari
- * 3. Reset font properties to `inherit`
+ * 1. Reset rounded corners on Safari iOS
+ * 2. Reset font properties to `inherit`
+ * 3. Reset the margin in Firefox and Safari
+ * 4. Show overflow in IE and Edge
  */
 button,
 input,
 select,
 textarea {
+  border-radius: 0; /* 1 */
   color: inherit;
-  font: inherit; /* 3 */
-  margin: 0; /* 2 */
-  overflow: visible; /* 1 */
+  font: inherit; /* 2 */
+  margin: 0; /* 3 */
+  overflow: visible; /* 4 */
 }
 
 /*
