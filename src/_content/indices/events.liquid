@@ -22,4 +22,4 @@ permalink: "events/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumb
   items: pagination.items
   item_modifier: 'inline'
 -%}
-{%- include 'traverse' label: 'events' -%}
+{%- include 'pagination' -%}
