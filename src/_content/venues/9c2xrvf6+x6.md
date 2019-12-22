@@ -1,6 +1,6 @@
 ---
 title: Duke’s at Komedia
-url: https://www.picturehouses.com/cinema/info/Dukes_At_Komedia
+url: https://www.picturehouses.com/cinema/duke-s-at-komedia
 address:
   street-address: 44–47 Gardner Street
   locality: Brighton
