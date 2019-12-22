@@ -42,6 +42,11 @@
   margin-block-end: var(--space-block-xsmall);
 }
 
+.item__title-icon {
+  margin-inline-start: var(--space-inline-xsmall);
+  opacity: 0.5;
+}
+
 /* Image */
 .item__image {
   align-self: start;
