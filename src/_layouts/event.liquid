@@ -5,7 +5,12 @@
   {%- capture content -%}
     {%- if url contains 'imdb.com' -%}
       {%- assign imdb_id = url | remove: 'https://www.imdb.com/title/' | remove: '/' -%}
-      <img src="https://img.omdbapi.com/?apikey={{ app.token.ombdapi }}&i={{ imdb_id }}&h=480" class="align-start" width="240" style="--inline-size: 20%">
+      {%- capture image %}https://img.omdbapi.com/?apikey={{ app.token.ombdapi }}&i={{ imdb_id }}&h=560{% endcapture -%}
+      {%- assign alt = title | prepend: 'Poster for ' -%}
+      {%- include 'image'
+        image_preset: 'thumbnail'
+        image_class: 'align-start'
+      -%}
     {%- endif -%}
     {{ content }}
   {%- endcapture -%}
