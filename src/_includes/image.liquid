@@ -7,11 +7,14 @@
 {%- unless image contains 'svg' -%}
   {%- comment %}Only use Cloudinary in production{% endcomment -%}
   {%- if app.url != '' -%}
-    {%- assign base = 'https://res.cloudinary.com/paulrobertlloyd/image/fetch' -%}
-    {%- assign public_id = src | prepend: app.url -%}
-    {%- capture transformations %}{% if image_ratio %}ar_{{ image_ratio }}%2C{% endif %}c_fill%2Cf_auto%2Cq_auto{% endcapture -%}
-    {%- capture src %}{{ base }}/{{ transformations }}%2Cw_{{ setting.width }}/{{ public_id }}{% endcapture -%}
-    {%- capture srcset %}{% for width in setting.widths %}{{ base }}/{{ transformations }}%2Cw_{{ width }}/{{ public_id }} {{ width }}w{% unless forloop.last %}, {% endunless%}{% endfor %}{% endcapture -%}
+    {%- comment %}Only use Cloudinary for local images{% endcomment -%}
+    {% unless src contains 'https://' %}
+      {%- assign base = 'https://res.cloudinary.com/paulrobertlloyd/image/fetch' -%}
+      {%- capture transformations %}{% if image_ratio %}ar_{{ image_ratio }}%2C{% endif %}c_fill%2Cf_auto%2Cq_auto{% endcapture -%}
+      {%- assign public_id = src | prepend: app.url -%}
+      {%- capture src %}{{ base }}/{{ transformations }}%2Cw_{{ setting.width }}/{{ public_id }}{% endcapture -%}
+      {%- capture srcset %}{% for width in setting.widths %}{{ base }}/{{ transformations }}%2Cw_{{ width }}/{{ public_id }} {{ width }}w{% unless forloop.last %}, {% endunless%}{% endfor %}{% endcapture -%}
+    {%- endunless -%}
   {%- endif -%}
 {%- endunless -%}
 <img{% if image_class %} class="{{ image_class }}"{% endif %} src="{{ src }}"{% if srcset %} srcset="{{ srcset }}"{% endif %} sizes="{{ sizes }}" width="{{ setting.width }}" alt="{{ alt }}" loading="lazy">
