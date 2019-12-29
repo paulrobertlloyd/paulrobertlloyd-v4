@@ -35,20 +35,13 @@ module.exports = function (eleventy) {
   // Transforms
   eleventy.addTransform('minify', require('./lib/transforms/minify.js'));
 
-  // Post type collections
-  // Adding `reversed` Liquid option to `collections.post` doesn’t collate all
-  // posts in date decending order, so need to collate and reverse here instead.
-  // Setting a default sort order may resolve this. See:
-  // https://github.com/11ty/eleventy/issues/367
-  eleventy.addCollection('post', collection => {
-    return collection.getFilteredByGlob('**/+(articles|bookmarks|notes|photos|presentations|projects|replies)/**/*.md').reverse();
-  });
-  eleventy.addCollection('sitemap', collection => {
-    return collection.getFilteredByGlob('**/*.md');
-  });
+  // Collections
   eleventy.addCollection('attending', require('./lib/collections/attending.js'));
   eleventy.addCollection('attended', require('./lib/collections/attended.js'));
   eleventy.addCollection('category', require('./lib/collections/category.js'));
+  eleventy.addCollection('photo', require('./lib/collections/photo.js'));
+  eleventy.addCollection('post', require('./lib/collections/post.js'));
+  eleventy.addCollection('sitemap', require('./lib/collections/sitemap.js'));
 
   // Passthrough
   eleventy.addPassthroughCopy('./src/images');
