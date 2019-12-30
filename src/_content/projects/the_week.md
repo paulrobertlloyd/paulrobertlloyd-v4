@@ -40,7 +40,7 @@ screenshots:
     alt: Design overlaid with red grid lines
   - url: /images/projects/the_week/screenshot_type.png
     alt: Example screen featuring dummy content
-photos:
+photoset:
   workshop:
   - url: /images/projects/the_week/photo_empathy_map.jpg
     alt: Empathy map created during the workshop
@@ -61,7 +61,7 @@ Part of this success can be attributed to its rigorously consistent editorial fo
 
 A highly iterative approach saw the design evolve over the course of the project. Starting with paper sketches before creating quick, low-fidelity click-through prototypes in Keynote. Throughout this process, we used real content from the magazine to ensure our design would meant the demands of the content it would need to deliver. By forming a close working relationship with key stakeholders across the business - including both commercial and editorial teams – meant we were able to take into account differing requirements and manage expectations.
 
-{% include 'photos' with photos.workshop
+{% include 'photos' with photoset.workshop
   caption: 'Output from our workshop with key stakeholders included empathy maps for key users, and sketched ideas for important sections of the magazine.'
   image_preset: 'supporting'
 %}

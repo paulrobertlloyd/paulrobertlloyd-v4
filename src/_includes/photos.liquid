@@ -1,5 +1,5 @@
 <figure class="align-{{ alignment | default: 'none' }}">
-  <p class="photos" style="--columns: {{ columns | default: photos.size }}">
+  <div class="photos" style="--columns: {{ columns | default: photos.size }}">
   {%- for item in photos -%}
     {%- include 'image' with item.url
       preset: image_preset
@@ -7,7 +7,7 @@
       class: image_class
     -%}
   {%- endfor -%}
-  </p>
+  </div>
 {%- if caption -%}
   <figcaption>
     {{ caption | markdownify }}
