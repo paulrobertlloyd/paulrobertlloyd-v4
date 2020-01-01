@@ -50,9 +50,10 @@
 /* Image */
 .item__image {
   align-self: start;
+  display: block;
   grid-area: footer;
-  margin-block: calc(var(--space-block-xsmall) * -1) var(--space-block-xsmall);
-  max-inline-size: var(--footer-inline-size);
+  margin-inline-end: var(--space-inline);
+  max-inline-size: calc(var(--footer-inline-size) - var(--space-inline));
 }
 
 /* Main */
