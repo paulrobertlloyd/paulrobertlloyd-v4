@@ -16,7 +16,7 @@
       {%- capture srcset %}{% for width in setting.widths %}{{ base }}/{{ transformations }}%2Cw_{{ width }}/{{ public_id }} {{ width }}w{% unless forloop.last %}, {% endunless%}{% endfor %}{% endcapture -%}
     {%- endunless -%}
   {%- endif -%}
-<img{% if image_class %} class="{{ image_class }}"{% endif %} src="{{ src }}"{% if srcset %} srcset="{{ srcset }}"{% endif %} sizes="{{ sizes }}" width="{{ setting.width }}" alt="{{ alt }}" loading="lazy">
+<img{% if image_class %} class="{{ image_class }}"{% endif %} src="{{ src }}"{% if srcset %} srcset="{{ srcset }}"{% endif %} {% if sizes %} sizes="{{ sizes }}"{% endif %} width="{{ setting.width }}" alt="{{ alt }}" loading="lazy">
 {%- else -%}
 <embed src="{{ src }}" type="image/svg+xml">
 {%- endunless -%}
