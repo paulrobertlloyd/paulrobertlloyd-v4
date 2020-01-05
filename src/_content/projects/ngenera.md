@@ -43,6 +43,7 @@ This distinctive mark could work at many sizes, with flat and rendered versions 
 
 {% include 'figure' with '/images/projects/ngenera/collateral.png'
   caption: 'Associated brand collateral, including presentation folders, report covers, letterheads and business cards.'
+  alignment: 'bleed'
 %}
 
 [1]: https://www.gomoxie.com

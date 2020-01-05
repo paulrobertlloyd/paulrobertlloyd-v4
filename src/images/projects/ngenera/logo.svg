@@ -1,23 +1,39 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="540" height="135" viewBox="0 0 1080 270">
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 1080 270">
+  <style>
+    #wordmark {
+      fill: #00163c;
+    }
+    #symbol {
+      stroke: url(#symbol-stroke);
+    }
+    @media (prefers-color-scheme: dark) {
+      #symbol {
+        stroke: #06335c;
+      }
+      #wordmark {
+        fill: #fff;
+      }
+    }
+  </style>
   <defs>
-    <path id="a" d="M291 100c16 16 0 32 0 32l-16 15-79-79a67 67 0 0 0-94 1l-47 47 94 94 32-31-63-63 16-16c15-16 31 0 31 0l79 79-79 78s-16 16-31 0L8 132c-16-16 0-32 0-32l63-63c43-43 114-43 157 0l63 63z"/>
-    <linearGradient id="b" x1="28%" x2="28%" y1="7%" y2="77%">
-      <stop offset="0%" stop-color="#4cc5e1"/>
-      <stop offset="100%" stop-color="#0f4f72"/>
+    <path id="symbol-shape" d="M291 100c16 16 0 32 0 32l-16 15-79-79a67 67 0 0 0-94 1l-47 47 94 94 32-31-63-63 16-16c15-16 31 0 31 0l79 79-79 78s-16 16-31 0L8 132c-16-16 0-32 0-32l63-63c43-43 114-43 157 0l63 63z"/>
+    <linearGradient id="symbol-fill" x1="28%" x2="28%" y1="7%" y2="77%">
+      <stop offset="0%" stop-color="#56e0ff"/>
+      <stop offset="100%" stop-color="#12608c"/>
     </linearGradient>
-    <linearGradient id="c" x1="49%" x2="49%" y1="0" y2="100%">
-      <stop offset="0%" stop-color="#2292c4"/>
-      <stop offset="100%" stop-color="#06325c"/>
+    <linearGradient id="symbol-stroke" x1="49%" x2="49%" y1="0" y2="100%">
+      <stop offset="0%" stop-color="#2393c3"/>
+      <stop offset="100%" stop-color="#06335c"/>
     </linearGradient>
-    <linearGradient id="d" x1="14%" x2="14%" y1="28%" y2="61%">
-      <stop offset="0%" stop-color="#00173b" stop-opacity=".05"/>
-      <stop offset="100%" stop-color="#082549"/>
+    <linearGradient id="symbol-gloss" x1="14%" x2="14%" y1="28%" y2="61%">
+      <stop offset="0%" stop-color="#00163b" stop-opacity=".05"/>
+      <stop offset="100%" stop-color="#092649"/>
     </linearGradient>
   </defs>
-  <path fill="#00173B" d="M1055 96h-5v-2h12v2h-5v13h-2V96m10-2h3l4 11 5-11h3v15h-2V97l-5 12h-1l-5-12v12h-2V94M348 211h18v-49c0-22 12-32 27-32 11 0 21 7 21 25v56h18v-61c0-26-16-37-34-37-15 0-27 7-32 17v-14h-18v95m177-80v18h32v40c-9 5-21 7-35 7-31 0-55-24-55-56 0-31 21-57 53-57 15 0 28 4 40 15l14-14c-12-12-27-19-54-19-43 0-74 33-74 75 0 40 28 75 76 75 18 0 40-5 54-14v-70h-51m163 39v-6c0-25-13-51-47-51-28 0-49 22-49 50 0 29 19 50 49 50 18 0 32-6 42-19l-13-11c-7 9-15 15-26 15-17 0-33-11-33-28h77zm-77-14c0-13 12-28 30-28s27 12 27 28h-57zm91 55h18v-49c0-22 12-32 27-32 11 0 22 7 22 25v56h18v-61c0-26-16-37-35-37-14 0-26 7-31 17h-1v-14h-18v95m194-41v-6c0-25-13-51-47-51-28 0-49 22-49 50 0 29 19 50 49 50 18 0 32-6 42-19l-13-11c-7 9-16 15-27 15-16 0-32-11-32-28h77zm-77-14c0-13 12-28 30-28s27 12 27 28h-57zm91 55h18v-48c0-21 10-30 28-30l9 1v-19l-8-2c-12 0-24 7-28 17h-1v-14h-18v95m78-72c7-5 14-11 28-11 15 0 22 10 22 20v4h-13c-29 0-52 8-52 33 0 18 15 28 33 28 14 0 25-4 33-17l1 15h16l-1-17v-49c0-16-11-32-40-32-13 0-27 5-37 14l10 12zm50 26v6c0 13-7 28-27 28-12 0-20-5-20-16 0-15 21-18 38-18h9z"/>
-  <mask id="e" fill="#fff">
-    <use href="#a"/>
+  <path id="wordmark" d="M1055 96h-5v-2h12v2h-5v13h-2V96m10-2h3l4 11 5-11h3v15h-2V97l-5 12h-1l-5-12v12h-2V94M348 211h18v-49c0-22 12-32 27-32 11 0 21 7 21 25v56h18v-61c0-26-16-37-34-37-15 0-27 7-32 17v-14h-18v95m177-80v18h32v40c-9 5-21 7-35 7-31 0-55-24-55-56 0-31 21-57 53-57 15 0 28 4 40 15l14-14c-12-12-27-19-54-19-43 0-74 33-74 75 0 40 28 75 76 75 18 0 40-5 54-14v-70h-51m163 39v-6c0-25-13-51-47-51-28 0-49 22-49 50 0 29 19 50 49 50 18 0 32-6 42-19l-13-11c-7 9-15 15-26 15-17 0-33-11-33-28h77zm-77-14c0-13 12-28 30-28s27 12 27 28h-57zm91 55h18v-49c0-22 12-32 27-32 11 0 22 7 22 25v56h18v-61c0-26-16-37-35-37-14 0-26 7-31 17h-1v-14h-18v95m194-41v-6c0-25-13-51-47-51-28 0-49 22-49 50 0 29 19 50 49 50 18 0 32-6 42-19l-13-11c-7 9-16 15-27 15-16 0-32-11-32-28h77zm-77-14c0-13 12-28 30-28s27 12 27 28h-57zm91 55h18v-48c0-21 10-30 28-30l9 1v-19l-8-2c-12 0-24 7-28 17h-1v-14h-18v95m78-72c7-5 14-11 28-11 15 0 22 10 22 20v4h-13c-29 0-52 8-52 33 0 18 15 28 33 28 14 0 25-4 33-17l1 15h16l-1-17v-49c0-16-11-32-40-32-13 0-27 5-37 14l10 12zm50 26v6c0 13-7 28-27 28-12 0-20-5-20-16 0-15 21-18 38-18h9z"/>
+  <mask id="symbol-mask" fill="#fff">
+    <use href="#symbol-shape"/>
   </mask>
-  <use href="#a" fill="url(#b)" stroke="url(#c)" stroke-width="2"/>
-  <circle cx="310" cy="210" r="230" fill="url(#d)" mask="url(#e)"/>
+  <use id="symbol" href="#symbol-shape" fill="url(#symbol-fill)" stroke-width="2"/>
+  <circle cx="310" cy="210" r="230" fill="url(#symbol-gloss)" mask="url(#symbol-mask)"/>
 </svg>
