@@ -12,14 +12,12 @@ async function fetchWebmentions(since) {
   const {url} = metadata;
   const domain = url.replace(/(^\w+:|^)\/\/(?:www\.)?/g, '');
 
-  if (!domain && domain === 'paulrobertlloyd.com') {
-    // If we dont have a domain name, abort
+  if (!domain) {
     console.warn('Unable to fetch webmentions: no domain specified.');
     return false;
   }
 
   if (!TOKEN) {
-    // If we dont have a domain access token, abort
     console.warn('Unable to fetch webmentions: no access token specified.');
     return false;
   }
@@ -83,11 +81,14 @@ function readFromCache() {
 
 module.exports = async function () {
   const cache = readFromCache();
-  const {lastFetched} = cache;
+
+  if (cache.children.length > 0) {
+    console.log(`${cache.children.length} webmentions loaded from cache`);
+  }
 
   // Only fetch new mentions in production
-  if (process.env.ELEVENTY_ENV === 'production' || !lastFetched) {
-    const feed = await fetchWebmentions(lastFetched);
+  if (process.env.CONTEXT === 'production') {
+    const feed = await fetchWebmentions(cache.lastFetched);
 
     if (feed) {
       const webmentions = {
@@ -100,6 +101,5 @@ module.exports = async function () {
     }
   }
 
-  console.log(`${cache.children.length} webmentions loaded from cache`);
   return cache;
 };
