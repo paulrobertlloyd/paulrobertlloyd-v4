@@ -15,7 +15,7 @@ permalink: /sitemap.xml
     <priority>{{ item.data.priority }}</priority>
     {%- if item.data.image -%}
     <image:image>
-      <image:loc>{{ item.data.image | replace_first: '/images',app.imgcdn | append: '?w=1280&q=90&auto=format' | escape }}</image:loc>
+      <image:loc>https://res.cloudinary.com/paulrobertlloyd/image/fetch/c_fill%2Cf_auto%2Cq_auto%2Cw_1200%2Ch_630/{{ app.url }}{{ item.data.image }}</image:loc>
     </image:image>
     {%- endif -%}
   </url>
