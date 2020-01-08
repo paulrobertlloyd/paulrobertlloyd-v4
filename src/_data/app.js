@@ -3,7 +3,7 @@ module.exports = {
   title: 'Paul Robert Lloyd',
   short_title: 'PRL',
   description: 'The personal website of Paul Robert Lloyd',
-  url: process.env.URL || '',
+  url: process.env.URL,
   theme_color: '#212227',
   accent_color: '#20e',
   background_color: '#fff',
@@ -25,5 +25,6 @@ module.exports = {
   token: {
     mapbox: 'pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg',
     ombdapi: 'e2e2ef5c'
-  }
+  },
+  environment: process.env.CONTEXT || process.env.ELEVENTY_ENV
 };

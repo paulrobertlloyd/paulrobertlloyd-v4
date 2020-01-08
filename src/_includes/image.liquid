@@ -4,10 +4,12 @@
 {%- comment %}IndieKit includes app.url in image path{% endcomment -%}
 {%- assign src = image | replace: app.url, '' -%}
 {%- assign srcset = false -%}
-{%- unless image contains 'svg' -%}
+{%- if image contains 'svg' -%}
+<embed src="{{ src }}" type="image/svg+xml">
+{%- else -%}
   {%- comment %}Only use Cloudinary in production{% endcomment -%}
-  {%- if app.url != '' -%}
-    {%- comment %}Only use Cloudinary for local images{% endcomment -%}
+  {% if app.environment == 'production' %}
+    {%- comment %}Only transform local images{% endcomment -%}
     {% unless src contains 'https://' %}
       {%- assign base = 'https://res.cloudinary.com/paulrobertlloyd/image/fetch' -%}
       {%- capture transformations %}{% if image_ratio %}ar_{{ image_ratio }}%2C{% endif %}c_fill%2Cf_auto%2Cq_auto{% endcapture -%}
@@ -17,6 +19,4 @@
     {%- endunless -%}
   {%- endif -%}
 <img{% if image_class %} class="{{ image_class }}"{% endif %} src="{{ src }}"{% if srcset %} srcset="{{ srcset }}"{% endif %} {% if sizes %} sizes="{{ sizes }}"{% endif %} width="{{ setting.width }}" alt="{{ alt }}" loading="lazy">
-{%- else -%}
-<embed src="{{ src }}" type="image/svg+xml">
-{%- endunless -%}
+{%- endif -%}
