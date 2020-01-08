@@ -7,7 +7,6 @@ permalink: /sitemap.xml
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 {%- assign items = collections.sitemap | sort_by: 'data.priority' -%}
 {%- for item in items reversed -%}
-  {%- unless item.data.hidden == true -%}
   <url>
     <loc>{{ item.url | prepend: app.url | pretty }}</loc>
     <lastmod>{{ item.date | date: '%Y-%m-%d' }}</lastmod>
@@ -19,6 +18,5 @@ permalink: /sitemap.xml
     </image:image>
     {%- endif -%}
   </url>
-  {%- endunless -%}
 {%- endfor -%}
 </urlset>
