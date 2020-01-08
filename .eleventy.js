@@ -7,9 +7,9 @@ module.exports = function (eleventy) {
   eleventy.setLiquidOptions({
     cache: true,
     dynamicPartials: true,
-    greedy: false,
     root: ['./src/_includes', './src/_layouts'],
-    strictFilters: true
+    strictFilters: (process.env.CONTEXT !== 'production'),
+    strictVariables: (process.env.CONTEXT !== 'production')
   });
 
   // Filters
@@ -31,9 +31,6 @@ module.exports = function (eleventy) {
 
   // Plugins
   eleventy.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
-
-  // Transforms
-  eleventy.addTransform('minify', require('./lib/transforms/minify.js'));
 
   // Collections
   eleventy.addCollection('attending', require('./lib/collections/attending.js'));
