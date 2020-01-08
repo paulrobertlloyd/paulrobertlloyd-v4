@@ -1,6 +1,3 @@
----
-permalink: /key.txt
----
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQENBFG/fHEBCACsvpCtIONcGAwT7BH86CyBk+Xc9sCZxZubytjDla2+dpzZLHwo
