@@ -26,5 +26,5 @@ module.exports = {
     mapbox: 'pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg',
     ombdapi: 'e2e2ef5c'
   },
-  environment: process.env.CONTEXT || process.env.ELEVENTY_ENV
+  environment: process.env.NODE_ENV
 };

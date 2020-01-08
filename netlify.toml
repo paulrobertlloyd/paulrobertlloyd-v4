@@ -1,3 +1,15 @@
+[build]
+  command = "npm run build"
+  publish = "www"
+
+[context.production]
+  command = "npm run deploy" # Build then fetch webmentions
+  [context.production.environment]
+    GIT_LFS_ENABLED = "true"
+    NODE_ENV = "production"
+    NODE_VERSION = "12"
+    TZ = "Europe/London"
+
 # Headers
 [[headers]]
   for = "/*"
