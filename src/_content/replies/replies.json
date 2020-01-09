@@ -2,7 +2,7 @@
   "title": "",
   "layout": "reply",
   "permalink": "replies/{{ page.fileSlug }}.html",
-  "tags": ["post", "reply"],
+  "tags": ["reply"],
   "vocab": "entry",
   "changefreq": "monthly",
   "priority": "0.8"
