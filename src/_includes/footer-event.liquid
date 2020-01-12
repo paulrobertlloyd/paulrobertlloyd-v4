@@ -1,5 +1,5 @@
 {%- assign venueid = tags[1] | remove: 'venue:' -%}
-{%- assign venue = collections.venue | includes: 'fileSlug',venueid | first -%}
+{%- assign venue = collections.venue | where: 'fileSlug',venueid | first -%}
 <footer class="footer">
   <dl>
     <dt class="visually-hidden">Date</dt>
