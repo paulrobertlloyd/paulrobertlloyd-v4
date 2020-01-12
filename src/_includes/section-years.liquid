@@ -5,9 +5,7 @@
     </header>
 
     <ol class="section__main" style="--grid-size: 7.5rem">
-    {%- assign firstYear = 2008 -%}
-    {%- assign currentYear = 'now' | date: '%Y' -%}
-    {%- for year in (firstYear..currentYear) reversed -%}
+    {%- for year in archive.years reversed -%}
       <li class="item item--inline">
         <h3 class="item__title"><a href="/{{ year }}/">{{ year }}</a></h3>
       </li>
