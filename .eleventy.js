@@ -23,7 +23,6 @@ module.exports = function (eleventy) {
   eleventy.addFilter('strip_mentions', require('./lib/filters/strip-mentions.js'));
   eleventy.addFilter('tokenize', require('./lib/filters/tokenize.js'));
   eleventy.addFilter('webmentions_for_url', require('./lib/filters/webmentions-for-url.js'));
-  eleventy.addFilter('zeropad', require('./lib/filters/zeropad.js'));
 
   // Plugins
   eleventy.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));

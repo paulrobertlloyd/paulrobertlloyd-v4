@@ -9,7 +9,7 @@
     {%- assign lastDate = 'now' | date: '%Y-%m' -%}
     {%- assign year = page.date | date: '%Y' -%}
     {%- for month in (1..12) -%}
-      {%- capture date %}{{ year }}-{{ month | zeropad: 2 }}{% endcapture -%}
+      {%- capture date %}{{ year }}-{{ month | prepend: '00' | slice: -2, 2 }}{% endcapture -%}
       {%- if date contains year and lastDate >= date and firstDate <= date -%}
       <li class="item item--inline">
         <h3 class="item__title"><a href="/{{ date | date: '%Y/%m' }}/">{{ date | date: '%B' }}</a></h3>
