@@ -19,7 +19,7 @@ permalink: presentations/index.html
   card_image_color: true
   image_preset: 'card'
 -%}
-{%- assign appearances = collections.event | select: 'data.participant',true -%}
+{%- assign appearances = collections.event | where: 'data.participant' -%}
 {%- include 'section'
   section_id: 'events'
   section_title: 'Events I’ve spoken at'

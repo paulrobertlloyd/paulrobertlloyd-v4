@@ -18,7 +18,6 @@ module.exports = function (eleventy) {
   eleventy.addFilter('markdownify', require('./lib/filters/markdownify.js'));
   eleventy.addFilter('pretty', require('./lib/filters/pretty.js'));
   eleventy.addFilter('reject', require('./lib/filters/reject.js'));
-  eleventy.addFilter('select', require('./lib/filters/select.js'));
   eleventy.addFilter('sort_by', require('./lib/filters/sort-by.js'));
   eleventy.addFilter('strip_mentions', require('./lib/filters/strip-mentions.js'));
   eleventy.addFilter('tokenize', require('./lib/filters/tokenize.js'));
