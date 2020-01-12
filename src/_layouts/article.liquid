@@ -27,7 +27,7 @@
 
   {%- if collection -%}
     {%- for this_collection in collection -%}
-      {%- assign related = collections.collection | select: 'fileSlug',this_collection | first -%}
+      {%- assign related = collections.collection | where: 'fileSlug',this_collection | first -%}
       {%- capture section_title %}More from the <a href="{{ related.url }}">{{ related.data.title }}</a> collection{%- endcapture -%}
       {%- assign articles = collections.article | includes: 'data.collection',collection | reject: 'url',page.url | reverse -%}
       {%- if articles.size > 0 %}

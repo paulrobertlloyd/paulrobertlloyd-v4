@@ -18,7 +18,7 @@
 
   {%- if collection -%}
     {% for this_collection in collection %}
-      {%- assign related = collections.collection | select: 'fileSlug',this_collection | first -%}
+      {%- assign related = collections.collection | where: 'fileSlug',this_collection | first -%}
       {%- capture section_title %}Other events in the <a href="{{ related.url }}">{{ related.data.title }}</a> series{%- endcapture -%}
       {%- assign events = collections.event | includes: 'data.collection',this_collection | reject: 'url',page.url | reverse -%}
       {%- if events.size > 0 %}

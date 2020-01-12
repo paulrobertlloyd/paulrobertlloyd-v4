@@ -3,14 +3,10 @@ module.exports = function (eleventy) {
   eleventy.setBrowserSyncConfig(require('./etc/browser-sync.config.js'));
 
   // Template libraries
+  // Use own Liquid instance until 11ty upgrades to latest version
+  // https://github.com/11ty/eleventy/issues/469
+  eleventy.setLibrary('liquid', require('./lib/libraries/liquid.js'));
   eleventy.setLibrary('md', require('./lib/libraries/markdown.js'));
-  eleventy.setLiquidOptions({
-    cache: true,
-    dynamicPartials: true,
-    root: ['./src/_includes', './src/_layouts'],
-    strictFilters: (process.env.CONTEXT !== 'production'),
-    strictVariables: (process.env.CONTEXT !== 'production')
-  });
 
   // Filters
   eleventy.addFilter('colorify', require('./lib/filters/colorify.js'));
@@ -22,12 +18,10 @@ module.exports = function (eleventy) {
   eleventy.addFilter('markdownify', require('./lib/filters/markdownify.js'));
   eleventy.addFilter('pretty', require('./lib/filters/pretty.js'));
   eleventy.addFilter('reject', require('./lib/filters/reject.js'));
-  eleventy.addFilter('select', require('./lib/filters/select.js'));
   eleventy.addFilter('sort_by', require('./lib/filters/sort-by.js'));
   eleventy.addFilter('strip_mentions', require('./lib/filters/strip-mentions.js'));
   eleventy.addFilter('tokenize', require('./lib/filters/tokenize.js'));
   eleventy.addFilter('webmentions_for_url', require('./lib/filters/webmentions-for-url.js'));
-  eleventy.addFilter('zeropad', require('./lib/filters/zeropad.js'));
 
   // Plugins
   eleventy.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
