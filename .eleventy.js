@@ -3,14 +3,10 @@ module.exports = function (eleventy) {
   eleventy.setBrowserSyncConfig(require('./etc/browser-sync.config.js'));
 
   // Template libraries
+  // Use own Liquid instance until 11ty upgrades to latest version
+  // https://github.com/11ty/eleventy/issues/469
+  eleventy.setLibrary('liquid', require('./lib/libraries/liquid.js'));
   eleventy.setLibrary('md', require('./lib/libraries/markdown.js'));
-  eleventy.setLiquidOptions({
-    cache: true,
-    dynamicPartials: true,
-    root: ['./src/_includes', './src/_layouts'],
-    strictFilters: (process.env.CONTEXT !== 'production'),
-    strictVariables: (process.env.CONTEXT !== 'production')
-  });
 
   // Filters
   eleventy.addFilter('colorify', require('./lib/filters/colorify.js'));

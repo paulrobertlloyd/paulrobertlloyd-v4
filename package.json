@@ -35,6 +35,7 @@
     "@remy/webmention": "^1.4.3",
     "color": "^3.1.2",
     "cssnano": "^4.1.10",
+    "liquidjs": "^9.6.2",
     "lodash": "^4.17.14",
     "markdown-it": "^10.0.0",
     "markdown-it-abbr": "^1.0.4",
