@@ -1,7 +1,5 @@
 {%- assign title = date | date: '%B %Y' -%}
-{%- assign year = date | date: '%Y' -%}
-{%- assign month = date | date: '%b' -%}
-{%- assign items = collections.post | includes: 'data.date',year | includes: 'data.date',month -%}
+{%- assign items = collections.post | includes: 'data.date',date -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
   <h1 class="main__title">Archive</h1>

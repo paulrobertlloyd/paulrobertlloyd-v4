@@ -1,6 +1,6 @@
 {%- assign tag = page.fileSlug | prepend: 'venue:' -%}
 {%- assign geo = page.fileSlug | decodePluscode -%}
-{%- assign items = collections.all | includes: 'data.tags',tag | reverse -%}
+{%- assign items = collections.event | includes: 'data.tags',tag | reverse -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- include 'header' -%}
