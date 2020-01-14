@@ -1,6 +1,7 @@
 {%- assign tag = page.fileSlug | prepend: 'venue:' -%}
-{%- assign geo = page.fileSlug | decodePluscode -%}
+{%- assign geo = page.data.geo -%}
 {%- assign items = collections.event | includes: 'data.tags',tag | reverse -%}
+{%- assign title = page.data.title -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- include 'header' -%}
@@ -19,7 +20,7 @@
         </picture>
       </a>
       <figcaption>
-        {%- include 'address' -%}
+        {%- include 'address' with page.data.address -%}
       </figcaption>
     </figure>
     {{ content }}
