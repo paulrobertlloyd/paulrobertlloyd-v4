@@ -11,7 +11,6 @@ module.exports = function (eleventy) {
   // Filters
   eleventy.addFilter('colorify', require('./lib/filters/colorify.js'));
   eleventy.addFilter('contrastify', require('./lib/filters/contrastify.js'));
-  eleventy.addFilter('decodePluscode', require('./lib/filters/decode-pluscode.js'));
   eleventy.addFilter('hostname', require('./lib/filters/hostname.js'));
   eleventy.addFilter('includes', require('./lib/filters/includes.js'));
   eleventy.addFilter('jsonify', require('./lib/filters/jsonify.js'));
