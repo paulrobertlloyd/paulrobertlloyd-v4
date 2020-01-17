@@ -1,5 +1,5 @@
-{%- assign preset = image_preset | default: 'default' -%}
-{%- assign setting = srcsets[preset] -%}
+{%- assign image_preset = image_preset | default: 'default' -%}
+{%- assign setting = srcsets[image_preset] -%}
 {%- assign sizes = image_sizes | default: setting.sizes -%}
 {%- comment %}IndieKit includes app.url in image path{% endcomment -%}
 {%- assign src = image | replace: app.url, '' -%}
