@@ -4,7 +4,7 @@ date: 2010-06-12T22:27:40+01:00
 remarks:
 - author: Cole Henley
   gravatar: 0112d423655aac265caae4e73f587e81
-  date: 2010-06-28T10:20:33+01:00
+  published: 2010-06-28T10:20:33+01:00
   url: http://cole007.net
   content: |
     Wholeheartedly agree with you Paul (though with the caveat that I haven’t supported England at international level since Mexico ’86).

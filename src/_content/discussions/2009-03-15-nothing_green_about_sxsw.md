@@ -4,7 +4,7 @@ date: 2009-03-15T20:52:17Z
 remarks:
 - author: Jon Roobottom
   gravatar: 3efcc4aba5ec7f70f583459d7df26a3a
-  date: 2009-03-16T08:42:30Z
+  published: 2009-03-16T08:42:30Z
   url: http://roodesign.co.uk
   content: |
     Well said!

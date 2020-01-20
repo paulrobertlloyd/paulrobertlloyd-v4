@@ -4,7 +4,7 @@ date: 2010-02-19T16:47:08Z
 remarks:
 - author: Lee
   gravatar: cb39c0f94474e5bf675d8d4ff2a31795
-  date: 2010-03-11T21:25:39Z
+  published: 2010-03-11T21:25:39Z
   content: |
     It’s nice to see someone elegantly articulate their considered thoughts on such an important issue.
 
@@ -20,7 +20,7 @@ remarks:
 
 - author: Dave McCourt
   gravatar: 085fc9407d023a046ac3118bfb4e7251
-  date: 2010-03-22T15:47:40Z
+  published: 2010-03-22T15:47:40Z
   content: |
     Well done on the changes you are making in your life. It is hard not to sound preachy when talking about this kind of thing and everyone has their own ideas about what they are prepared to do. Personally I live my life in a fairly ethical way, not as much as some but a lot more than others. I’m always amazed at basics that I take for granted (recycling, turning lights off, etc) are just too much for some people to stretch to. I think a lot of it comes down to people just don’t like being told what to do, or to realising that they are doing things wrong.
 
