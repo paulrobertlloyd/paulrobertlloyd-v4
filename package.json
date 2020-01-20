@@ -58,7 +58,7 @@
     "postcss-media-minmax": "^4.0.0",
     "rollup": "^1.29.0",
     "rollup-plugin-terser": "^5.2.0",
-    "sanitize-html": "^1.20.1",
+    "sanitize-html": "^1.21.1",
     "string-to-color": "^2.1.1",
     "uslug": "^1.0.4"
   },
