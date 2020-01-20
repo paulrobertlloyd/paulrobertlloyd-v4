@@ -17,7 +17,9 @@
     {%- include 'categories' -%}
   {%- endif -%}
   {%- if webmentions.size > 0 -%}
-    {%- include 'section-webmentions'
+    {%- include 'section-remarks'
+      section_id: 'webmentions'
+      section_title: 'Webmentions'
       items: webmentions
       item_modifier: 'inline'
     -%}

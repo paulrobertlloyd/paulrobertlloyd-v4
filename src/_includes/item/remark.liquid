@@ -1,4 +1,7 @@
-<article class="remark | p-comment h-cite" id="remark-{{ forloop.rindex }}">
+{%- assign id = item.wm-id | default: forloop.rindex | prepend: 'remark-' -%}
+{%- assign permalink = id | prepend: '#' -%}
+{%- assign url = item.url | default: permalink -%}
+<article class="remark | p-comment h-cite" id="{{ id }}">
   <div class="remark__image">
     <img class="avatar | u-photo" src="{{ item.author.photo | default: '/assets/vectors/avatar.svg' }}?s=96&d=identicon" alt="" width="48" height="48">
   </div>
@@ -11,13 +14,13 @@
     </h3>
 
     <p class="remark__meta">
-      <a class="u-url" rel="bookmark" href="#remark-{{ forloop.rindex }}">
+      <a class="u-url" rel="bookmark" href="{{ url }}">
         <time class="dt-published" datetime="{{ item.published | date: dates.iso }}">{{ item.published | date: dates.datetime_full }}</time>
       </a>
     </p>
   </header>
 
   <div class="remark__main s-linear | p-summary">
-    {{ item.content | markdownify }}
+    {{ item.content.value | default: item.content | markdownify | strip_mentions }}
   </div>
 </article>
