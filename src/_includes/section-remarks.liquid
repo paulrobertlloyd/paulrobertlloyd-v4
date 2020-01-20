@@ -6,9 +6,8 @@
 
     <details class="section__main">
       <summary>
-        {% include 'facepile' with items
-          facepile_type: 'replies'
-        %}
+        {% assign facepile_type = section_title | downcase %}
+        {% include 'facepile' with items %}
       </summary>
 
       <div style="--grid-size: {{ items_size | default: '100%' }}">
