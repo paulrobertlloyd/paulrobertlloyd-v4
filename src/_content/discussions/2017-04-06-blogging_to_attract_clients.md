@@ -2,10 +2,11 @@
 title: Using Your Blog to Attract New Clients
 date: 2017-04-06T02:00:00+01:00
 remarks:
-- author: Dmitry Dragilev
-  gravatar: bd84c9d738872494aad536f71e814efc
+- author:
+    name: Dmitry Dragilev
+    photo: https://gravatar.com/avatar/bd84c9d738872494aad536f71e814efc
+    url: https://www.criminallyprolific.com
   published: 2017-07-06T22:48:00+01:00
-  url: https://www.criminallyprolific.com
   content: |
     Hi Paul! Thanks for you note and I’m happy to see you actually take the challenge, this is exactly the type of thing I was expecting you to do! Write about something you’re passionate about and engage in a dialog with folks by including your article as a relevant example!
 
@@ -28,10 +29,11 @@ remarks:
         Much like yourself, I hate the crazy amount of cold email I get asking me to comment or promote someone’s articles. I’m not suggesting you spam a bunch of people with your article. I’m just suggesting you do what feels natural in terms of promotion, starting up conversations with relevant people who you mentioned in the article is a good way to do so.
 
     Sorry for such a long comment. Does this make sense?
-- author: Paul Robert Lloyd
-  gravatar: 15091a37bacfa4bdd011282627eaca2b
+- author:
+    name: Paul Robert Lloyd
+    photo: https://gravatar.com/avatar/15091a37bacfa4bdd011282627eaca2b
+    url: https://paulrobertlloyd.com
   published: 2017-07-07T00:21:00+01:00
-  url: https://paulrobertlloyd.com/
   content: |
     Thanks for taking the time to reply to my post.
 
