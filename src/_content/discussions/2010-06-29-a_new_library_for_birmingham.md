@@ -2,10 +2,11 @@
 title: A New Library for Birmingham
 date: 2010-06-29T22:21:41+01:00
 remarks:
-- author: Andy
-  gravatar: 3282170b113297711ac2a2d41bffb70d
+- author:
+    name: Andy
+    photo: https://gravatar.com/avatar/3282170b113297711ac2a2d41bffb70d
+    url: https://andyhiggs.uk
   published: 2010-06-30T11:23:01+01:00
-  url: https://andyhiggs.uk
   content: |
     Hi Paul,
 

@@ -1,13 +1,13 @@
 <article class="remark | p-comment h-cite" id="remark-{{ forloop.rindex }}">
   <div class="remark__image">
-    <img class="avatar | u-photo" src="https://gravatar.com/avatar/{{ item.gravatar }}?s=96&d=identicon" alt="" width="48" height="48">
+    <img class="avatar | u-photo" src="{{ item.author.photo | default: '/assets/vectors/avatar.svg' }}?s=96&d=identicon" alt="" width="48" height="48">
   </div>
 
   <header class="remark__header">
     <h3 class="remark__title | p-author h-card">
-      {%- if item.url %}<a class="u-url" href="{{ item.url }}" target="_blank" rel="noopener noreferrer">{% endif -%}
-      <span class="p-name">{{ item.author }}</span>
-      {%- if item.url %}</a>{% endif -%}
+      {%- if item.author.url %}<a class="u-url" href="{{ item.author.url }}" target="_blank" rel="noopener noreferrer">{% endif -%}
+      <span class="p-name">{{ item.author.name | default: 'Anonymous' }}</span>
+      {%- if item.author.url %}</a>{% endif -%}
     </h3>
 
     <p class="remark__meta">

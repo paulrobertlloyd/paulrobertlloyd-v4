@@ -2,10 +2,11 @@
 title: 'Enough: A Counter Argument'
 date: 2010-10-23T14:53:30+01:00
 remarks:
-- author: Aegir
-  gravatar: 8bc27b5dfad80eb7fec822c2480283f4
+- author:
+    name: Aegir
+    photo: https://gravatar.com/avatar/8bc27b5dfad80eb7fec822c2480283f4
+    url: http://ministryoftype.co.uk
   published: 2010-10-23T17:03:22+01:00
-  url: http://ministryoftype.co.uk
   content: |
     Admittedly I’m using figures found online, but…
 
@@ -21,10 +22,11 @@ remarks:
 
     I was using the embodied energy figures from here: <http://www.wattzon.com/stuff/items/k9fmwte14tuxxadzktgj1baucj/kateul1aiv26yqzm9qifapx6t1>
 
-- author: http://www.google.com/profiles/bradya
-  gravatar: 4a5473ec57fcad4780c17a3757421a4c
+- author:
+    name: http://www.google.com/profiles/bradya
+    photo: https://gravatar.com/avatar/4a5473ec57fcad4780c17a3757421a4c
+    url: http://insom.me.uk/
   published: 2010-10-24T18:50:40+01:00
-  url: http://insom.me.uk/
   content: |
     Argh. I completely agree that consumerism is aggressive and pervasive but videos like that make me angry in the way Michael Moore’s do.
 

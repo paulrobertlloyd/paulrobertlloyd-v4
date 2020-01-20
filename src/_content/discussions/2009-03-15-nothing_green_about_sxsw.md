@@ -2,10 +2,11 @@
 title: Nothing Green About SXSW
 date: 2009-03-15T20:52:17Z
 remarks:
-- author: Jon Roobottom
-  gravatar: 3efcc4aba5ec7f70f583459d7df26a3a
+- author:
+    name: Jon Roobottom
+    photo: https://gravatar.com/avatar/3efcc4aba5ec7f70f583459d7df26a3a
+    url: http://roodesign.co.uk
   published: 2009-03-16T08:42:30Z
-  url: http://roodesign.co.uk
   content: |
     Well said!
 

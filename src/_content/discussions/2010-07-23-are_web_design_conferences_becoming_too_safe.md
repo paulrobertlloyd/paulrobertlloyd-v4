@@ -2,10 +2,11 @@
 title: Are Web Design Conferences Becoming Too Safe?
 date: 2010-07-23T01:42:20+01:00
 remarks:
-- author: Cennydd
-  gravatar: a962b4d3a7d6405455b39a7b336ab133
+- author:
+    name: Cennydd
+    photo: https://gravatar.com/avatar/a962b4d3a7d6405455b39a7b336ab133
+    url: https://www.cennydd.com
   published: 2010-07-23T10:02:09+01:00
-  url: https://www.cennydd.com
   content: |
     Excellent and necessary post.
 
@@ -23,16 +24,18 @@ remarks:
 
     Yes, the scene has grown safe. Even stale. I applaud anyone who pauses to take a fresh look at how we can invigorate the UK community; hopefully Clearleft can be a part of that conversation. But while safety sells and financial risk remains high, that may end up being a quixotic endeavour.
 
-- author: Jack Franklin
-  gravatar: 77f9f2616d6989e99b309b79e566446f
+- author:
+    name: Jack Franklin
+    photo: https://gravatar.com/avatar/77f9f2616d6989e99b309b79e566446f
   published: 2010-07-23T11:24:58+01:00
   content: |
     The comment above pretty much says most of what I would say however I just wanted to add one point – I’m hoping to be able to go to NA Conf and for me I’ve never seen any of those people speak before (I know, I’ve been living in a hole, right?). If you attend conferences regularly, then yes I think you will find it a bit stale as you’ve said, but if like me you only get to go to the odd 1, maybe 2 a year if you’re lucky, it’s not such an issue.
 
-- author: Carl Crawley
-  gravatar: afbfefa0ead60019e5ffa7f9d76bd940
+- author:
+    name: Carl Crawley
+    photo: https://gravatar.com/avatar/afbfefa0ead60019e5ffa7f9d76bd940
+    url: http://www.madebyhippo.com
   published: 2010-07-23T11:29:40+01:00
-  url: http://www.madebyhippo.com
   content: |
     A very accurate and interesting post. Its good to see someone stand up and make this point – it’s left me with a feeling that I’m obviously not the only one who feels this way. I have had to re-evaluate the benefit of attending all these conferences when it’s the same people appearing, sometimes talking about the same thing (just slightly regurgitated in a different format).
 
@@ -44,10 +47,11 @@ remarks:
 
     Carl.
 
-- author: David Hughes
-  gravatar: af570d0db4d5a1d86cc5e54935a3c5ec
+- author:
+    name: David Hughes
+    photo: https://gravatar.com/avatar/af570d0db4d5a1d86cc5e54935a3c5ec
+    url: http://www.davidhughes.org
   published: 2010-07-23T11:39:13+01:00
-  url: http://www.davidhughes.org
   content: |
     Up until recently I was a conference tourist, but now I must pick and choose the conferences I attend.
 
@@ -63,19 +67,21 @@ remarks:
 
     If you feel so strongly maybe you should run a conference of unknown speakers and see how it does? Just saying.
 
-- author: Mark Hurrell
-  gravatar: 2a3436b4a81c11349eace30ad2fbb33b
+- author:
+    name: Mark Hurrell
+    photo: https://gravatar.com/avatar/2a3436b4a81c11349eace30ad2fbb33b
+    url: http://www.mhurrell.co.uk
   published: 2010-07-23T11:42:19+01:00
-  url: http://www.mhurrell.co.uk
   content: |
     I find web design conferences too generalist – for example; social networking sites have totally different business priorities and user behaviours to government information sites – yet also too specific. Why just web design? Surely a social app should have the same core interaction tone as it’s equivalent website?
 
     Even the term “Web design conference” feels media-specific in a profession where the media is fast becoming just one option amongst many. Screen-based interaction designers need to be able to apply their skills to creating traditional websites, mobile sites, compact mobile apps, iPad apps and even ebooks, yet somehow tie all those disparate mediums together with familiar/shared interactions and emotional tone.
 
-- author: Sarah Parmenter
-  gravatar: e1a291d6f57f02c335b382d855c93b26
+- author:
+    name: Sarah Parmenter
+    photo: https://gravatar.com/avatar/e1a291d6f57f02c335b382d855c93b26
+    url: http://sazzy.co.uk
   published: 2010-07-23T11:43:43+01:00
-  url: http://sazzy.co.uk
   content: |
     Interesting post but I thought I should weigh in (at 6.30am from Florida!). I feel a bit miffed at being branded as a “same old face”. I started doing conferences last year and due to putting in lots of hard work and careful consideration about my talks, they were, thankfully, successful. I feel like you are belittling the fact that everyone who speaks regularly have all worked hard to do so. The message it’s sending to me is that someone shouldn’t work hard for a place doing something they love because they are going to get branded as a “same old face”.
 
@@ -83,10 +89,11 @@ remarks:
 
     Anyway, that’s just my two cents. I just think all the other guys doing it have honed their craft for many years, they are the best at what they do, so why not? It’s not to say there isn’t space for anyone else as up until last October, I was a newbie myself.
 
-- author: Simon Young
-  gravatar: b3b83fec3f14b1e29fa6c9cb6a3f6d98
+- author:
+    name: Simon Young
+    photo: https://gravatar.com/avatar/b3b83fec3f14b1e29fa6c9cb6a3f6d98
+    url: http://simonyoung.net
   published: 2010-07-23T11:54:38+01:00
-  url: http://simonyoung.net
   content: |
     I think there are some good points made in the original article but I’ve got a slightly different view on it.
 
@@ -104,10 +111,11 @@ remarks:
 
     I see a rising element of dissatisfaction on channels like Twitter where it’s so easy to make throwaway remarks about the work and efforts of others so it’s good to see people take the effort to at flesh out these thoughts rather than throw them around as 140-character nail bombs.
 
-- author: James
-  gravatar: a8bff715a965594c68c993ca957036af
+- author:
+    name: James
+    photo: https://gravatar.com/avatar/a8bff715a965594c68c993ca957036af
+    url: http://www.welcomebrand.co.uk
   published: 2010-07-23T12:00:20+01:00
-  url: http://www.welcomebrand.co.uk
   content: |
     Interesting thoughts Paul.
 
@@ -119,10 +127,11 @@ remarks:
 
     It would be more interesting to discuss the lack of new faces and people willing / able to step up to conference talks.
 
-- author: Paul May
-  gravatar: 32b45f6c529e6cbe58a8b2e06a3ad09c
+- author:
+    name: Paul May
+    photo: https://gravatar.com/avatar/32b45f6c529e6cbe58a8b2e06a3ad09c
+    url: http://paulmay.org
   published: 2010-07-23T12:02:36+01:00
-  url: http://paulmay.org
   content: |
     I don’t think having the same faces is always a problem; we don’t stop having stuff to learn from good people - just because they are well known, or speak frequently. I *do* think that the same speakers, speaking on the same topic (or giving the exact same talk) is a real problem. This wouldn’t really happen in other industries; a scientific paper, given once, isn’t really road-showed around the place - the information is published, and made available for people to discuss and try to repeat, experiment with. The repetition is unnecessary - and each time a noted speaker gives the same talk, that’s a spot that somebody else could have taken.
 
@@ -132,10 +141,11 @@ remarks:
 
     Anyway, great to have this discussion.
 
-- author: Guy Carberry
-  gravatar: 29abc3f7927fd344e3cbc503b1fc6890
+- author:
+    name: Guy Carberry
+    photo: https://gravatar.com/avatar/29abc3f7927fd344e3cbc503b1fc6890
+    url: http://guyweb.co.uk
   published: 2010-07-23T12:03:57+01:00
-  url: http://guyweb.co.uk
   content: |
     Some of the speakers might be familiar faces but at least they don’t trundle out the same talk from conference to conference. They don’t do death by Powerpoint and are lively, engaging and entertaining speakers. The time and effort they put into their presentations is awe-inspiring and motivating.
 
@@ -147,28 +157,31 @@ remarks:
 
     Credit to Colly and his ambitions. I wish him every success.
 
-- author: Aaron Russell
-  gravatar: b7d0c9a6a7216a0d9e5b45b43390890e
+- author:
+    name: Aaron Russell
+    photo: https://gravatar.com/avatar/b7d0c9a6a7216a0d9e5b45b43390890e
+    url: http://www.aaronrussell.co.uk
   published: 2010-07-23T12:05:23+01:00
-  url: http://www.aaronrussell.co.uk
   content: |
     I am one of who I’m sure will be many attendees of New Adventures who are attending a web conference for the first time (possibly the kind of people event organisers should be aiming for?)
 
     I speak for myself, but whilst I’m genuinely looking forward to seeing each of the billed speakers, my decision to attend was based *far* more on the competitive price than the all-star lineup.
 
-- author: Simon Young
-  gravatar: b3b83fec3f14b1e29fa6c9cb6a3f6d98
+- author:
+    name: Simon Young
+    photo: https://gravatar.com/avatar/b3b83fec3f14b1e29fa6c9cb6a3f6d98
+    url: http://simonyoung.net
   published: 2010-07-23T12:06:56+01:00
-  url: http://simonyoung.net
   content: |
     One more comment from me - really in response to what Sarah pointed out. I chatted to a couple of the DIBI 2010 speakers at some length about what went in to a presentation, the amount of time it took and indeed the financial reward for it.
 
     The bottom line is that for most, paying client work would be significantly better paid and far less stressful than talking to a room full of your peers - especially when you know a minority are dying for a chance to take you down.
 
-- author: Gareth Rushgrove
-  gravatar: 98234c645fe8c935edc0fec0186d28b8
+- author:
+    name: Gareth Rushgrove
+    photo: https://gravatar.com/avatar/98234c645fe8c935edc0fec0186d28b8
+    url: http://morethanseven.net
   published: 2010-07-23T12:38:45+01:00
-  url: http://morethanseven.net
   content: |
     So I used to go to lots of web conferences, but due to changing interests and roles over the last few years I’ve been going to less and less (this year that probably means 4). I also find it less interesting listening to the same people over again. This isn’t at all a criticism of those people though. It’s also not a criticism of the events.
 
@@ -180,10 +193,11 @@ remarks:
 
     I could talk about this for ages, because I’ve seen it from so many angles. But I don’t genuinely see it as a problem. I see it as a symptom of @media (and other events) coming along 7 or 8 years ago at the very start of an industry/community in the UK - and the people who were at those events having changed, specialised and diversified within a growing industry. Leave these conferences mainly for those in their nascent years (and the occasional visit) - the question is what can us old timers create for ourselves?
 
-- author: Matt Bee
-  gravatar: e8cf6ad9071098c3c0a632f1cd99c171
+- author:
+    name: Matt Bee
+    photo: https://gravatar.com/avatar/e8cf6ad9071098c3c0a632f1cd99c171
+    url: http://www.mattbee.co.uk
   published: 2010-07-23T12:57:37+01:00
-  url: http://www.mattbee.co.uk
   content: |
     Surely its the topics that should be the focus, not the ‘faces’. Hell I would love to speak but I am not good enough at any aspect of geek shit yet to do so. When I can speak I will, but until then, leave it the speakers that have the experience and will put bums on seats
 
@@ -191,19 +205,21 @@ remarks:
 
     There is demand for good value conferences, so why not repeat the faces and topics for a new audience?
 
-- author: Robert Lee-Cann
-  gravatar: c0a1db99699b56bdb0193ce5f5954562
+- author:
+    name: Robert Lee-Cann
+    photo: https://gravatar.com/avatar/c0a1db99699b56bdb0193ce5f5954562
+    url: http://eight.barcamplondon.org/
   published: 2010-07-23T13:13:35+01:00
-  url: http://eight.barcamplondon.org/
   content: |
     I’d encourage anyone interested in speaking at a conference, to attend a few BarCamps. It’s a great way of doing getting used to talking in front of a crowd.
 
     I’ve been lucky enough to attend some really great talks from the sort of people you never see at conferences. I’m not sure whether people assume there’s some sort of perceived Brighton clique that you have to be a member of to speak at conferences?
 
-- author: Matt Hill
-  gravatar: 364e547f7cb705fd81ddc45cf8da09f0
+- author:
+    name: Matt Hill
+    photo: https://gravatar.com/avatar/364e547f7cb705fd81ddc45cf8da09f0
+    url: http://www.friskdesign.com
   published: 2010-07-23T13:16:56+01:00
-  url: http://www.friskdesign.com
   content: |
     I’ve been in web design/dev for 13 years, but do not attend conferences as a punter, and certainly not as a speaker. But I do keep track of what’s on, who speaks at each, and on what subjects, and it does seem that the “web celebrities” are continually the ones behind the microphone.
 
@@ -217,26 +233,29 @@ remarks:
 
     So how do we encourage the other personality types to give it a go?
 
-- author: Lance
-  gravatar: 79c80701007116ecab8a1a63f4dd8025
+- author:
+    name: Lance
+    photo: https://gravatar.com/avatar/79c80701007116ecab8a1a63f4dd8025
+    url: http://voidnothings.com
   published: 2010-07-23T13:44:00+01:00
-  url: http://voidnothings.com
   content: |
     Would love to see a conference that reaches out to the international community. I’m sure the organizers can find quality speakers from countries other than the UK and US. And yes, financially we can afford such conferences too.
 
-- author: bruce
-  gravatar: 6f3ec7315ad0715ae2a5f89a52877218
+- author:
+    name: bruce
+    photo: https://gravatar.com/avatar/6f3ec7315ad0715ae2a5f89a52877218
+    url: http://www.brucelawson.co.uk
   published: 2010-07-23T14:11:27+01:00
-  url: http://www.brucelawson.co.uk
   content: |
     This tired old face would point out r/e MultiPack “local Birmingham designers and developers speak alongside Bruce Lawson and Stuart Langridge” that both Stuart and I *are* local developers.
 
     Stuart and I attempt to make regular donations to local busineses (specifically, The Wellington on Bennet’s Hill, only this week) and get local buses/ trains back home.
 
-- author: bruce
-  gravatar: 6f3ec7315ad0715ae2a5f89a52877218
+- author:
+    name: bruce
+    photo: https://gravatar.com/avatar/6f3ec7315ad0715ae2a5f89a52877218
+    url: http://www.brucelawson.co.uk
   published: 2010-07-23T14:17:29+01:00
-  url: http://www.brucelawson.co.uk
   content: |
     …and, for the record, I agree with your central argument.
 
@@ -244,10 +263,11 @@ remarks:
 
     At the cognitive accessibility bash <http://standards-next.org/2009/09/cognition-and-accessibility/> I think 2 speakers were conf virgins.
 
-- author: Laura Fisher
-  gravatar: 97a603b155afb09476b3acdb8b744da0
+- author:
+    name: Laura Fisher
+    photo: https://gravatar.com/avatar/97a603b155afb09476b3acdb8b744da0
+    url: http://webmitten.com
   published: 2010-07-23T14:27:49+01:00
-  url: http://webmitten.com
   content: |
     As a freelancer, conferences are a difficult choice for me. They cost a chunk of change to attend, but when I get to a good one, I come back both energized and enlightened, so I think the expense is worth it.
 
@@ -255,8 +275,9 @@ remarks:
 
     While I would certainly applaud a more varied list of speakers in all these sprouting-up conferences, I suspect that they will need to differentiate themselves on that other list of criteria: cost, location, amenities, etc. Maybe some conference will come up with a unique way for attendees to meet each other (most just throw us into a bar and hope for the best). That in particular would be a huge selling point for me.
 
-- author: Mal
-  gravatar: a061fa4f235d5457c341a5abe71af7ec
+- author:
+    name: Mal
+    photo: https://gravatar.com/avatar/a061fa4f235d5457c341a5abe71af7ec
   published: 2010-07-23T14:57:51+01:00
   content: |
     One of the big draws for conferences isn’t the names of the attendees, it’s the companies that they represent. There’s lots of minions at these organisations who aren’t working as evangelists, marketeers or similar roles, who have much more experience to draw on. It is often these types, that, although they don’t provide well presented talks, often shine thanks to the insight that they provide.
@@ -267,10 +288,11 @@ remarks:
 
     Another thing. Developer conferences badly need to move on from topics like scaling. It’s an important topic, but it gets covered way too often. There’s so much more, even with mobile you can move away from the web and cover the multitude of platforms that can be supported natively. After all, web developer and designers are more often than not, now assumed responsible for the building of mobile phone apps in their agencies.
 
-- author: Rich Clark
-  gravatar: 90fbce3924bb9b26f23f6f4d5ceeaf6e
+- author:
+    name: Rich Clark
+    photo: https://gravatar.com/avatar/90fbce3924bb9b26f23f6f4d5ceeaf6e
+    url: http://speaktheweb.org
   published: 2010-07-23T16:09:43+01:00
-  url: http://speaktheweb.org
   content: |
     Coming from an organisers perspective (Speak the Web) we did try to get new speakers onto the circuit and this is part of what we’re trying to do. We attempted to structure it with one new speaker, one semi-regular speaker and one well known name. We knew we needed the well known names to get bums on seats but it was also important to make those well known accessible to different parts of the country as the conference ‘scene’ seemed to be very London centric. Our philiosiphy is that everyone has got something important to say so give them the chance to say it.
 
@@ -290,19 +312,21 @@ remarks:
 
     In summary, count me in.
 
-- author: JohnONolan
-  gravatar: 75e958a6674a7d68fe0d575fb235116c
+- author:
+    name: JohnONolan
+    photo: https://gravatar.com/avatar/75e958a6674a7d68fe0d575fb235116c
+    url: http://john.onolan.org
   published: 2010-07-23T17:20:19+01:00
-  url: http://john.onolan.org
   content: |
     Fascinating and relevant article and discussion, I’m really glad you’ve brought it up, despite inevitable snide comments on Twitter from those who it’s about.
 
     [@MattHill](#remark-16): Thanks for the link up on that old post!
 
-- author: Jon Moss
-  gravatar: d4206734f1acf925e1abfdf519e49caf
+- author:
+    name: Jon Moss
+    photo: https://gravatar.com/avatar/d4206734f1acf925e1abfdf519e49caf
+    url: http://www.hdlive09.co.uk
   published: 2010-07-24T11:46:56+01:00
-  url: http://www.hdlive09.co.uk
   content: |
     Some interesting points, and some articulate reasoning too.
 
@@ -320,8 +344,9 @@ remarks:
 
     Jon
 
-- author: James
-  gravatar: 56a68552aae0d94e07451106fc625131
+- author:
+    name: James
+    photo: https://gravatar.com/avatar/56a68552aae0d94e07451106fc625131
   published: 2010-07-27T15:59:21+01:00
   content: |
     I’m glad someone brought this up.
@@ -332,10 +357,11 @@ remarks:
 
     I think it’s also about “connections” that you get a chance to speak at these events. So it doesn’t necessarily mean they are good at what they do but they just know the right people.
 
-- author: Paul Robert Lloyd
-  gravatar: 15091a37bacfa4bdd011282627eaca2b
+- author:
+    name: Paul Robert Lloyd
+    photo: https://gravatar.com/avatar/15091a37bacfa4bdd011282627eaca2b
+    url: https://paulrobertlloyd.com
   published: 2010-07-27T20:10:40+01:00
-  url: https://paulrobertlloyd.com/
   content: |
     Thank-you all for your comments. Most of the debate that followed here, on Twitter, and offline has been fascinating – there certainly seems to be an appetite for more experimentation at web design conferences, as well as a desire to see more people in our community take to the speaking circuit.
 

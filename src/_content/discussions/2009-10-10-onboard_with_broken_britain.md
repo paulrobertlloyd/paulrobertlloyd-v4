@@ -2,10 +2,11 @@
 title: Onboard with Broken Britain
 date: 2009-10-10T01:52:28+01:00
 remarks:
-- author: Jon Roobottom
-  gravatar: e3c764941478ad667ec52f1b9e700be5
+- author:
+    name: Jon Roobottom
+    photo: https://gravatar.com/avatar/e3c764941478ad667ec52f1b9e700be5
+    url: http://roodesign.co.uk
   published: 2009-10-10T12:18:03+01:00
-  url: http://roodesign.co.uk
   content: |
     Interesting and well written, however I can’t understand why you’ve taken the ‘Broken Britain’ stance. Is this a phenomenon restricted just to the UK? Perhaps, but I don’t think so. I agree with you totally that this type of behaviour is unacceptable and systemic of too much alcohol – but I think it’s more than that.
 
@@ -13,10 +14,11 @@ remarks:
 
     I’m not sure what the answer is, or even if there is one, but to attribute this solely to Britain is a gross disservice to the (still) majority of it’s people. Its the Sun news paper mentality: “Broken Britain”, where the government is out to get us and society is breaking down at the seams. Sensationalist garbage.
 
-- author: Aaron Brady
-  gravatar: 4a5473ec57fcad4780c17a3757421a4c
+- author:
+    name: Aaron Brady
+    photo: https://gravatar.com/avatar/4a5473ec57fcad4780c17a3757421a4c
+    url: http://insom.me.uk/z/
   published: 2009-10-10T12:46:14+01:00
-  url: http://insom.me.uk/z/
   content: |
     I agree. When I was staying at a (reasonably nice!) hotel in London a man and his wife tore into the person tending the bar because he didn’t have appropriate notes and wanted to give them 5 x £1 coins. I can see this is inconvenient, but at the end of the day, it’s tender.
 
