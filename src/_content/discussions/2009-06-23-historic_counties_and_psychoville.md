@@ -4,7 +4,7 @@ date: 2009-06-23T00:30:00+01:00
 remarks:
 - author: Cole
   gravatar: 0112d423655aac265caae4e73f587e81
-  date: 2009-06-23T01:16:02+01:00
+  published: 2009-06-23T01:16:02+01:00
   url: http://cole007.net/
   content: |
     You think that’s confusing, you try living in Scotland.
@@ -15,7 +15,7 @@ remarks:
 
 - author: Jon Roobottom
   gravatar: 3efcc4aba5ec7f70f583459d7df26a3a
-  date: 2009-06-23T09:04:59+01:00
+  published: 2009-06-23T09:04:59+01:00
   url: http://roodesign.co.uk
   content: |
     A surprisingly interesting read, I may suggest to Katie that we format our wedding address list like this. I’m sure that’ll go down a storm.
@@ -24,7 +24,7 @@ remarks:
 
 - author: FullCreamMilkMan
   gravatar: 1f00366a932b14e47ab0c8e0b4a3c293
-  date: 2009-06-23T13:02:05+01:00
+  published: 2009-06-23T13:02:05+01:00
   url: http://www.fullcreammilk.co.uk
   content: |
     I’m not sure I’d agree completely that old counties are “fixed or predictable” or were ever not “subject to political whims”. We must take the attitude that boundaries, being human structures, are always subject to change, not always for the better, perhaps, but setting them in stone might end up being shortsighted.
@@ -32,7 +32,7 @@ remarks:
     Any residents of Salford would have been scandalized by the use of “Salford, Manchester” not merely because it’s historically in Lancashire, but that Salford is a city in its own right, and never has been and never will be a suburb or annexe of Manchester.
 
 - author: Richard Rutter
-  date: 2009-07-08T15:13:23+01:00
+  published: 2009-07-08T15:13:23+01:00
   content: |
     Great post Paul - was it perhaps influenced by one of our current clients?
 
@@ -40,7 +40,7 @@ remarks:
 
 - author: Bernard Harte
   gravatar: 87b3a1827f34d0deea41c04ad013349b
-  date: 2009-07-17T12:25:38+01:00
+  published: 2009-07-17T12:25:38+01:00
   content: |
     “Bristol, Avon” irks me too, but I believe you are wrong in saying that “Bristol, Gloucestershire” would be more accurate.
 
@@ -48,7 +48,7 @@ remarks:
 
 - author: Paul Robert Lloyd
   gravatar: 15091a37bacfa4bdd011282627eaca2b
-  date: 2009-07-17T12:33:46+01:00
+  published: 2009-07-17T12:33:46+01:00
   url: https://paulrobertlloyd.com/
   content: |
     Bernard, you’ve found me out!

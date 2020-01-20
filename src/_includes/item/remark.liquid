@@ -12,7 +12,7 @@
 
     <p class="remark__meta">
       <a class="u-url" rel="bookmark" href="#remark-{{ forloop.rindex }}">
-        <time class="dt-published" datetime="{{ item.date | date: dates.iso }}">{{ item.date | date: dates.datetime_full }}</time>
+        <time class="dt-published" datetime="{{ item.published | date: dates.iso }}">{{ item.published | date: dates.datetime_full }}</time>
       </a>
     </p>
   </header>

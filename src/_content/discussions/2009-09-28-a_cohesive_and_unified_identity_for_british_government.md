@@ -3,7 +3,7 @@ title: A Cohesive & Unified Identity for British Government
 date: 2009-09-28T00:50:19+01:00
 remarks:
 - author: Richard Rutter
-  date: 2009-09-28T09:19:46+01:00
+  published: 2009-09-28T09:19:46+01:00
   content: |
     Great article Paul – nicely researched. I heartily agree there should be more consistency across the UK Government ‘brand’. Partly because some of the ministries’ identities are terrible vis. Department for Transport, but also because we the public should be able to tell at a glance when we’re dealing with a Government department.
 
@@ -13,14 +13,14 @@ remarks:
 
 - author: Paul Annett
   gravatar: d83f6a73ee515fa9d7e4e0e8e9eabac8
-  date: 2009-09-28T11:28:25+01:00
+  published: 2009-09-28T11:28:25+01:00
   url: https://paulannett.co.uk/
   content: |
     Good point, and well demonstrated. I do agree with Rich about different visual identities between agencies. I’d also like to see a redrawn and simplified coat of arms along the same lines as the USA’s simplified eagle seal. Get on the case! ;-)
 
 - author: Andy Higgs
   gravatar: 3282170b113297711ac2a2d41bffb70d
-  date: 2009-09-28T12:22:09+01:00
+  published: 2009-09-28T12:22:09+01:00
   url: http://justbeyondthebridge.co.uk
   content: |
     So it will come as no surprise to you that I like this stuff – and it’s fascinating you’ve pulled this all together as I’ve never really thought to compare national government identities like this.
@@ -35,7 +35,7 @@ remarks:
 
 - author: Paul Randall
   gravatar: 40324a65c60787a466eac93339353d75
-  date: 2009-09-28T13:23:12+01:00
+  published: 2009-09-28T13:23:12+01:00
   url: http://prandall.com
   content: |
     I think it would be a big improvement if the UK logos were to simplify the colour scheme to create a more coherent look firstly.
@@ -44,7 +44,7 @@ remarks:
 
 - author: Mark Otto
   gravatar: 7ff6ba0b742c6066f7094de212e9efad
-  date: 2009-09-28T15:15:42+01:00
+  published: 2009-09-28T15:15:42+01:00
   url: http://zurb.com
   content: |
     Awesome collection of logos here, Paul. Clearly well researched.
@@ -55,7 +55,7 @@ remarks:
 
 - author: Jonny Haynes
   gravatar: 7b874a7012832405b2b88edbb735b649
-  date: 2009-09-29T13:13:56+01:00
+  published: 2009-09-29T13:13:56+01:00
   url: http://www.jonnyhaynes.com
   content: |
     A great article and a very nice collection of logos.
@@ -66,14 +66,14 @@ remarks:
 
 - author: Vincent Roman
   gravatar: 2af6c65aede9179848a0911ac4313c9e
-  date: 2009-10-05T10:32:48+01:00
+  published: 2009-10-05T10:32:48+01:00
   url: http://www.vincentroman.com
   content: |
     Great article. The visuals alone speak for themselves. Reminds me of the great piece just published in Wired on CraigsList design.
 
 - author: Stu McClelland
   gravatar: f2f21aa1fe92a4cf77ce0b629ad38660
-  date: 2009-10-19T11:39:17+01:00
+  published: 2009-10-19T11:39:17+01:00
   url: http://www.lifeincolour.org
   content: |
     Love the consistency of the Govenment Identities in Germany and the Netherlands. I’m embarrassed of the Identites for Britain though. The designers could have done so much better. Not sure if it’s the designers fault, or the higher-ups in the government that wanted really bland design

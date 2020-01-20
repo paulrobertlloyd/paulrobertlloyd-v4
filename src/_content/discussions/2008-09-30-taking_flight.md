@@ -4,7 +4,7 @@ date: 2008-09-30T09:34:24+01:00
 remarks:
 - author: Fabricio Zuardi
   gravatar: 9c617d84d045dc1bf419bae569532f05
-  date: 2008-09-30T10:44:46+01:00
+  published: 2008-09-30T10:44:46+01:00
   url: http://fabricio.org
   content: |
     When are you going to san francisco? I think there is a chance that I will be around there too (I will be visiting the us from 8 to 31 of october!)
@@ -13,14 +13,14 @@ remarks:
 
 - author: Kris
   gravatar: c792ab0e2c783f557ea28d7141a0ee83
-  date: 2008-09-30T10:57:27+01:00
+  published: 2008-09-30T10:57:27+01:00
   url: http://www.krisweb.co.uk
   content: |
     Whats the green squigly thing at the top? Is it supposed to look like that or is my browser just being a biatch?
 
 - author: David
   gravatar: b5182e1dfce4131cb25100c5a16ff39b
-  date: 2008-10-01T00:47:05+01:00
+  published: 2008-10-01T00:47:05+01:00
   content: |
     I think the green image is a cool pixelated map of the world.
 
@@ -28,7 +28,7 @@ remarks:
 
 - author: Paul Robert Lloyd
   gravatar: 15091a37bacfa4bdd011282627eaca2b
-  date: 2008-10-01T03:52:13+01:00
+  published: 2008-10-01T03:52:13+01:00
   url: https://paulrobertlloyd.com/
   content: |
     Fabricio – I’m in town until the morning of the 10th, so maybe we could catch up on the 9th?
@@ -39,7 +39,7 @@ remarks:
 
 - author: Andy Higgs
   gravatar: 3282170b113297711ac2a2d41bffb70d
-  date: 2008-10-03T13:06:41+01:00
+  published: 2008-10-03T13:06:41+01:00
   url: https://justbeyondthebridge.co.uk
   content: |
     I’m not sure how it escaped my feed reader, but the new design completely missed me until I saw it in the ’pack newsletter.
@@ -48,7 +48,7 @@ remarks:
 
 - author: Jon Roobottom
   gravatar: 3efcc4aba5ec7f70f583459d7df26a3a
-  date: 2008-10-05T17:51:51+01:00
+  published: 2008-10-05T17:51:51+01:00
   url: https://roobottom.com
   content: |
     I’m still not convinced about the left sidedness of this blog, but as you say it’s a bold move – and one that I may (like a LOT of your stuff) come to appreciate.
