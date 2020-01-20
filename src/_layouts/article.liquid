@@ -6,6 +6,15 @@
   {%- include 'header' summary: false -%}
   {%- include 'content' -%}
 
+  {%- if remarks.size > 0 -%}
+    {%- include 'section-remarks'
+      section_id: 'remarks'
+      section_title: 'Remarks'
+      items: remarks
+      item_modifier: 'inline'
+    -%}
+  {%- endif -%}
+
   {%- if webmentions.size > 0 -%}
     {%- include 'section-remarks'
       section_id: 'webmentions'
@@ -13,18 +22,6 @@
       items: webmentions
       item_modifier: 'inline'
     -%}
-  {%- endif -%}
-
-  {%- if discussion -%}
-    {%- capture remarks_link %}[View remarks on this entry]({{ page.url | pretty }}/discussion){% endcapture -%}
-    {%- include 'section'
-      section_id: 'dicussion'
-      section_title: 'Discussion'
-      section_content: remarks_link
-    -%}
-    {%- if discussion == 'open' -%}
-      {%- include 'form/remark' -%}
-    {%- endif -%}
   {%- endif -%}
 
   {%- if collection -%}

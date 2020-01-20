@@ -8,7 +8,6 @@ summary: Blogging is a great way to showcase your expertise and raise your profi
 category:
 - writing
 - web
-discussion: open
 ---
 [This week’s article][1] on <cite>A List Apart</cite> caught my attention:
 
