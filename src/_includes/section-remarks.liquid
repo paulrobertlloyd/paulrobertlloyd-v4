@@ -11,7 +11,7 @@
       </summary>
 
       <div style="--grid-size: {{ items_size | default: '100%' }}">
-      {% for item in items reversed %}
+      {% for item in items %}
         {% include 'item/remark' %}
       {% endfor %}
       </div>
