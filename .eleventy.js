@@ -1,5 +1,3 @@
-const yaml = require('js-yaml');
-
 module.exports = function (eleventy) {
   // Browser Sync
   eleventy.setBrowserSyncConfig(require('./etc/browser-sync.config.js'));
@@ -9,9 +7,6 @@ module.exports = function (eleventy) {
   // https://github.com/11ty/eleventy/issues/469
   eleventy.setLibrary('liquid', require('./lib/libraries/liquid.js'));
   eleventy.setLibrary('md', require('./lib/libraries/markdown.js'));
-
-  // Custom data formats
-  eleventy.addDataExtension('yaml', data => yaml.safeLoad(data));
 
   // Filters
   eleventy.addFilter('colorify', require('./lib/filters/colorify.js'));
