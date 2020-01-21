@@ -61,7 +61,4 @@
 
 .main a {
   @extend %text-decoration;
-
-  transition-duration: var(--transition-short);
-  transition-property: all;
 }
