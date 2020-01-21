@@ -8,7 +8,7 @@ const aria = {};
 /**
  * @desc Key code constants
  */
-aria.KeyCode = {
+aria.key = {
   BACKSPACE: 8,
   TAB: 9,
   RETURN: 13,
@@ -61,7 +61,7 @@ aria.Combobox.prototype.setupEvents = function () {
   this.input.addEventListener('keyup', this.checkKey.bind(this));
   this.input.addEventListener('keydown', this.setActiveOption.bind(this));
   this.input.addEventListener('keypress', event => {
-    if (event.keyCode === aria.KeyCode.RETURN) {
+    if (event.key === aria.key.RETURN) {
       event.preventDefault();
     }
   });
@@ -91,17 +91,17 @@ aria.Combobox.prototype.checkShow = function () {
  * @param {Object} event Event
  */
 aria.Combobox.prototype.checkKey = function (event) {
-  const key = event.which || event.keyCode;
+  const key = event.which || event.key;
 
   switch (key) {
-    case aria.KeyCode.RETURN:
-    case aria.KeyCode.ESC:
-    case aria.KeyCode.PAGE_UP:
-    case aria.KeyCode.PAGE_DOWN:
-    case aria.KeyCode.END:
-    case aria.KeyCode.HOME:
-    case aria.KeyCode.UP:
-    case aria.KeyCode.DOWN:
+    case aria.key.RETURN:
+    case aria.key.ESC:
+    case aria.key.PAGE_UP:
+    case aria.key.PAGE_DOWN:
+    case aria.key.END:
+    case aria.key.HOME:
+    case aria.key.UP:
+    case aria.key.DOWN:
       event.preventDefault();
       return;
     default:
@@ -114,10 +114,10 @@ aria.Combobox.prototype.checkKey = function (event) {
  * @param {Object} event Event
  */
 aria.Combobox.prototype.setActiveOption = function (event) {
-  const key = event.which || event.keyCode;
+  const key = event.which || event.key;
   let {activeIndex} = this;
 
-  if (key === aria.KeyCode.ESC) {
+  if (key === aria.key.ESC) {
     this.hideListbox();
     this.input.value = '';
     return;
@@ -127,7 +127,7 @@ aria.Combobox.prototype.setActiveOption = function (event) {
   let activeOption;
 
   switch (key) {
-    case aria.KeyCode.UP:
+    case aria.key.UP:
       if (activeIndex === 0) {
         // Enable focus to be drawn back up to search input
         this.defocusOption(prevActive);
@@ -138,26 +138,26 @@ aria.Combobox.prototype.setActiveOption = function (event) {
 
       activeIndex--;
       break;
-    case aria.KeyCode.DOWN:
+    case aria.key.DOWN:
       if (activeIndex === this.resultsCount - 1) {
         return;
       }
 
       activeIndex++;
       break;
-    case aria.KeyCode.HOME:
-    case aria.KeyCode.PAGE_UP:
+    case aria.key.HOME:
+    case aria.key.PAGE_UP:
       activeIndex = 0;
       break;
-    case aria.KeyCode.END:
-    case aria.KeyCode.PAGE_DOWN:
+    case aria.key.END:
+    case aria.key.PAGE_DOWN:
       activeIndex = this.resultsCount - 1;
       break;
-    case aria.KeyCode.RETURN:
+    case aria.key.RETURN:
       activeOption = this.getOptionAt(activeIndex);
       this.selectOption(activeOption);
       return;
-    case aria.KeyCode.TAB:
+    case aria.key.TAB:
       this.hideListbox();
       return;
     default:
@@ -190,13 +190,13 @@ aria.Combobox.prototype.updateResults = function () {
   this.hideListbox();
 
   if (searchString.length > 0 && results.length > 0) {
-    for (let i = 0; i < results.length; i++) {
+    for (const [i, result] of results.entries()) {
       const resultItem = document.createElement('li');
       resultItem.setAttribute('id', 'option-' + i);
       resultItem.setAttribute('role', 'option');
       resultItem.setAttribute('tabindex', '-1');
-      resultItem.dataset.value = results[i].value;
-      resultItem.innerHTML = results[i].html;
+      resultItem.dataset.value = result.value;
+      resultItem.innerHTML = result.html;
       this.listbox.append(resultItem);
       if (this.shouldAutoSelect && i === 0) {
         resultItem.setAttribute('aria-selected', 'true');
@@ -212,8 +212,8 @@ aria.Combobox.prototype.updateResults = function () {
 
     // Override default link behaviour to close listbox prior to location change
     const listboxOptions = this.listbox.querySelectorAll('li');
-    for (let i = 0; i < listboxOptions.length; i++) {
-      listboxOptions[i].addEventListener('click', this.clickOption.bind(this));
+    for (const listboxOption of listboxOptions) {
+      listboxOption.addEventListener('click', this.clickOption.bind(this));
     }
   }
 };
@@ -224,7 +224,7 @@ aria.Combobox.prototype.updateResults = function () {
  * @param {Object} activeOption HTML element
  */
 aria.Combobox.prototype.updateStatus = function (resultsCount) {
-  this.status.innerText = `${resultsCount} results are available.`;
+  this.status.textContent = `${resultsCount} results are available.`;
 };
 
 /**
