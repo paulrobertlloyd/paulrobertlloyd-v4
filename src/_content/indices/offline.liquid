@@ -5,8 +5,7 @@ introduction: Your network connection isn’t working right now, and this page i
 permalink: /offline.html
 hidden: true
 ---
-{%- assign featured = collections.article | includes: 'data.tags','featured' -%}
-{%- assign saved = featured | reverse %}
+{%- assign saved = collections.article | reverse %}
 {%- include 'section'
   section_id: 'saved'
   section_title: 'Articles available to read offline'
