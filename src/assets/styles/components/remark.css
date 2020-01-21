@@ -24,7 +24,6 @@
 }
 
 .remark__title {
-  @extend %text-decoration;
   @extend %subhead;
   align-items: center;
   margin-block-end: var(--space-block-xsmall);
