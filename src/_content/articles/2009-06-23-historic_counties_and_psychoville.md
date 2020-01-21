@@ -19,7 +19,7 @@ discussion: closed
   alignment: 'bleed'
 %}
 
-I’ve long been interested in the popular geography of Great Britain, but also annoyed by the continual government reorganisation that seeks to confuse it. The passing of the [Local Government Act of 1888][1] established county councils (or *administrative counties*) based upon the boundaries of existing [historic Counties][2] in England and Wales, but subsequent legislation has been far more destructive.
+I’ve long been interested in the popular geography of Great Britain, but also annoyed by the continual government reorganisation that seeks to confuse it. The passing of the [Local Government Act of 1888][1] established county councils (or *administrative counties*) based upon the boundaries of existing [historic counties][2] in England and Wales, but subsequent legislation has been far more destructive.
 
 My interest in this topic is no doubt driven by [my desire to organise][3] everything, but it’s worth noting that I grew up in Horley, a town that campaigned hard to remain within Surrey when the [Local Government Act of 1972][4] sought to have it join neighbouring West Sussex.
 
@@ -39,21 +39,21 @@ Such confusion was evident when I sat down to watch [Psychoville][10] last Frida
 
 ![Psychoville onscreen title for Salford, Manchester](/images/2009/06/historic_counties_and_psychoville/salford.jpg)
 
-The first location named was technically wrong (but no doubt commonly used) in that it should have read “Salford, Greater Manchester”. Had it used an historic County, this would have been “Salford, Lancashire”.
+The first location named was technically wrong (but no doubt commonly used) in that it should have read “Salford, Greater Manchester”. Had it used an historic county, this would have been “Salford, Lancashire”.
 
 ### Bristol, Avon
 
 ![Psychoville onscreen title for Bristol, Avon](/images/2009/06/historic_counties_and_psychoville/bristol.jpg)
 
-This graphic is perhaps the best example as to why we should return to using historic Counties in addresses given that Avon no longer exists! Created as part of the 1972 reorganisation, it was abolished in 1996 and replaced with four unitary authorities, three of which returned to their ceremonial counties of Somerset and Gloucestershire (whilst Bristol became a ceremonial county in its own right).
+This graphic is perhaps the best example as to why we should return to using historic counties in addresses given that Avon no longer exists! Created as part of the 1972 reorganisation, it was abolished in 1996 and replaced with four unitary authorities, three of which returned to their ceremonial counties of Somerset and Gloucestershire (whilst Bristol became a ceremonial county in its own right).
 
-Using an historic County would have resulted in the location referred to as “Bristol, Gloucestershire”.
+Using an historic county would have resulted in the location referred to as “Bristol, Gloucestershire”.
 
 ### Ilkley, Yorkshire
 
 ![Psychoville onscreen title for Ilkley, Yorkshire](/images/2009/06/historic_counties_and_psychoville/ilkley.jpg)
 
-The third location given is actually shown on-screen using an historic County, but if you watch closely you will see the actual letter has the address written down as North Yorkshire — an unfortunate error as Ilkley is in the West Riding.
+The third location given is actually shown on-screen using an historic county, but if you watch closely you will see the actual letter has the address written down as North Yorkshire — an unfortunate error as Ilkley is in the West Riding.
 
 ### Eastbourne, Sussex
 
@@ -69,7 +69,7 @@ Formally Wood Green was a municipal borough within the county of Middlesex, but 
 
 Whilst Greater London assumed parts of neighbouring counties and lead to Middlesex being abolished entirely, this historic county still exists in the public consciousness. A tin of Heinz Baked Beans will show the company address as Hayes, Middlesex, whilst a can of Coke may list an address of Uxbridge, Middlesex.
 
-Using historic Counties for addresses in London can be confusing, so the recommended form is to use the County followed by the Post Town, for example:
+Using historic counties for addresses in London can be confusing, so the recommended form is to use the county followed by the Post Town, for example:
 
     Wood Green
     Middlesex
@@ -77,7 +77,7 @@ Using historic Counties for addresses in London can be confusing, so the recomme
 
 ## Further information
 
-A whole host of information on this topic is available from the [Association of British Counties][11], an organisation that is seeking to re-establish the use of historic Counties as the standard popular geographical reference frame of Britain. I’ve already taken them up on their advice of [using historic Counties in addresses][12], and I’m sure membership will follow.
+A whole host of information on this topic is available from the [Association of British Counties][11], an organisation that is seeking to re-establish the use of historic counties as the standard popular geographical reference frame of Britain. I’ve already taken them up on their advice of [using historic counties in addresses][12], and I’m sure membership will follow.
 
 [1]: https://en.wikipedia.org/wiki/Local_Government_Act_1888
 [2]: https://en.wikipedia.org/wiki/Historic_counties_of_England
