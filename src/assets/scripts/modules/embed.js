@@ -9,13 +9,11 @@
 export default function () {
   const embeds = document.querySelectorAll('[data-embed-src]');
 
-  for (let i = 0; i < embeds.length; i++) {
-    const embed = embeds[i];
-
+  for (const embed of embeds) {
     // Setup play button
     const button = document.createElement('button');
     button.className = 'embed__button';
-    button.innerText = '▶︎';
+    button.textContent = '▶︎';
     button.setAttribute('aria-label', 'Play');
 
     // Setup embed container
