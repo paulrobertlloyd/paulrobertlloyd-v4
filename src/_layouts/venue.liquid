@@ -6,18 +6,15 @@
 {%- block 'main' -%}
   {%- include 'header' -%}
   {%- capture content -%}
-    {%- capture overlay -%}
-      pin-l+{{ app.accent_color | remove: '#' }}({{ geo.longitude }},{{ geo.latitude }})
-    {%- endcapture -%}
-    {%- capture parameters -%}
-      {{ overlay | strip }}/{{ geo.longitude }},{{ geo.latitude }},14,0.00,0.00/1200x320@2x?access_token={{ app.token.mapbox }}
-    {%- endcapture -%}
     <figure class="align-bleed">
       <a href="https://duckduckgo.com/?q={{ geo.latitude }},{{ geo.longitude }}&iaxm=places">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="https://api.mapbox.com/styles/v1/mapbox/dark-v10/static/{{ parameters | strip }}">
-          <img src="https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/static/{{ parameters | strip }}">
-        </picture>
+        {%- capture overlay -%}
+          pin-l+{{ app.accent_color | remove: '#' }}({{ geo.longitude }},{{ geo.latitude }})
+        {%- endcapture -%}
+        {%- capture position -%}
+          {{ geo.longitude }},{{ geo.latitude }},15,0.00,0.00
+        {%- endcapture -%}
+        {% include 'map' %}
       </a>
       <figcaption>
         {%- include 'address' with page.data.address -%}
