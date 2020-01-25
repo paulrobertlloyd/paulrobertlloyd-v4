@@ -9,7 +9,7 @@
 
 @media (--from-small-viewport) {
   .items--photos {
-    --grid-column-gap: var(--space-block-small);
-    --grid-row-gap: var(--space-block-small);
+    --grid-column-gap: var(--space-block-medium);
+    --grid-row-gap: var(--space-block-medium);
   }
 }
