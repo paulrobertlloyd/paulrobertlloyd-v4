@@ -18,21 +18,20 @@ category:
 tags:
 - featured
 ---
-## Day 1: Brighton to Hamburg
-
 {%- capture overlay %}geojson({{ geojson | jsonify | escape }}){% endcapture -%}
 {%- capture map -%}
 {%- include 'map'
   width: 360
   height: 360
 -%}
-{% endcapture %}
-
+{%- endcapture -%}
 {% include 'figure'
   content: map
   caption: 'Route map: Brighton to Copenhagen via Hamburg.'
   alignment: 'pull'
 %}
+
+## Day 1: Brighton to Hamburg
 
 Like all great railway journeys, this one starts with a cancellation. The Brighton Main Line has been closed due to [an incident near Three Bridges][1], so the only way to reach any destination north of Brighton is via Barnham, 27 miles to the west. This includes Gatwick Airport. A lady from Denver is going to miss her flight; flustered and bewildered at first, she soon settles into an unexpected detour via the unremarkable landscape of urban West Sussex.
 
@@ -68,7 +67,7 @@ After a coffee to offset the beer, I say my goodbyes, and again offer myself to 
 
 * * *
 
-[Dutch Intercity trains][8] are curious-looking vehicles, and their dated interior is only amenable given their comfort. My journey is improved by having the first-class cabin all to myself. When the train manager offers me a hot drink, I'm not expecting him to bring back a kettle, but that’s what I end up with, along with a few individually boxed tea bags, some tiny milk cartons and a large handful of [_Santa’s Favorite_][9], a chocolate that’s dangerously moreish, even after a filling lunch.
+[Dutch Intercity trains][8] are curious-looking vehicles, their dated interior amenable only due to its comfort. My journey is improved by having the first-class cabin all to myself. When the train manager offers me a hot drink, I'm not expecting him to bring back a kettle, but that’s what I end up with, along with a few individually boxed tea bags, some tiny milk cartons and a large handful of [_Santa’s Favorite_][9], a chocolate that’s dangerously moreish, even after a filling lunch.
 
 Arriving in Copenhagen, the train manager spots the remaining unopened chocolate. “Go on, have one more; it’s been a long journey”.
 
