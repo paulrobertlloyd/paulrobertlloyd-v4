@@ -19,11 +19,11 @@ permalink: presentations/index.html
   card_image_color: true
   image_preset: 'card'
 -%}
-{%- assign appearances = collections.event | where: 'data.participant' -%}
+{%- assign appearances = collections.event | where: 'data.participant' | reverse -%}
 {%- include 'section'
   section_id: 'events'
   section_title: 'Events I’ve spoken at'
   items: appearances
-  items_limit: 10
+  items_limit: 16
   item_modifier: 'inline'
 -%}
