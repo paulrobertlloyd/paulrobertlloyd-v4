@@ -43,7 +43,7 @@ This will be the first time I’ve travelled across Europe using an Interrail pa
 
 Ideally, it would be possible to reach Copenhagen in a single day, but with no overnight services operating along this route, a stop-over in Germany is required. This suits me fine; although I can’t speak the language, and barely understand the culture, I feel a strange sense of homecoming whenever I return.
 
-[Hamburg Hauptbahnhof][3] has the very opposite effect. While spacious and open, it has an imposing, industrial appearance. Its 70 metre-wide roof lacks windows where it matters, giving it a suffocating heft, all of which aided by dingy and perfunctory ironwork. Any welcome is further undermined by the abundance of advertising and the bright signage of the adjacent shopping mall. You don’t so much arrive at this station, but be consumed by it.
+[Hamburg Hauptbahnhof][3] has the very opposite effect. While spacious and open, it has an imposing, industrial appearance. Its 70 metre-wide roof lacks windows where it matters, giving it a suffocating heft, all aided by dingy and perfunctory ironwork. Any welcome is further undermined by the abundance of advertising and the bright signage of the adjacent shopping mall. You don’t so much arrive at this station, but be consumed by it.
 
 ## Day 2: Hamburg, and onto Copenhagen
 
@@ -67,7 +67,7 @@ After a coffee to offset the beer, I say my goodbyes, and again offer myself to 
 
 * * *
 
-[Dutch Intercity trains][8] are curious-looking vehicles, their dated interior amenable only due to its comfort. My journey is improved by having the first-class cabin all to myself. When the train manager offers me a hot drink, I'm not expecting him to bring back a kettle, but that’s what I end up with, along with a few individually boxed tea bags, some tiny milk cartons and a large handful of [_Santa’s Favorite_][9], a chocolate that’s dangerously moreish, even after a filling lunch.
+[Dutch Intercity trains][8] are curious-looking vehicles, their dated interior amenable only due to their comfort. My journey is improved by having the first-class cabin all to myself. When the train manager offers me a hot drink, I'm not expecting him to bring back a kettle full of boiling water, but that’s what I end up with, along with a few individually boxed tea bags, some tiny milk cartons and a large handful of [_Santa’s Favorite_][9], a chocolate that’s dangerously moreish, even after a filling lunch.
 
 Arriving in Copenhagen, the train manager spots the remaining unopened chocolate. “Go on, have one more; it’s been a long journey”.
 
