@@ -43,7 +43,7 @@ This will be the first time I’ve travelled across Europe using an Interrail pa
 
 Ideally, it would be possible to reach Copenhagen in a single day, but with no overnight services operating along this route, a stop-over in Germany is required. This suits me fine; although I can’t speak the language, and barely understand the culture, I feel a strange sense of homecoming whenever I return.
 
-[Hamburg Hauptbahnhof][3] has the very opposite effect. While spacious and open, it has an imposing, industrial appearance. Its 70 metre-wide roof lacks windows where it matters, giving it a suffocating heft, all of which aided by dingy and perfunctory ironwork. Any welcome is further undermined by the abundance of advertising and the bright signage of the adjacent shopping mall. You don’t so much arrive at this station, but be consumed it.
+[Hamburg Hauptbahnhof][3] has the very opposite effect. While spacious and open, it has an imposing, industrial appearance. Its 70 metre-wide roof lacks windows where it matters, giving it a suffocating heft, all of which aided by dingy and perfunctory ironwork. Any welcome is further undermined by the abundance of advertising and the bright signage of the adjacent shopping mall. You don’t so much arrive at this station, but be consumed by it.
 
 ## Day 2: Hamburg, and onto Copenhagen
 

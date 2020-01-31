@@ -87,7 +87,7 @@
   @extend %overline;
 }
 
-.s-linear * + h2 {
+.s-linear *:not([class]) + h2 {
   margin-block-start: var(--space-block-large);
 }
 
