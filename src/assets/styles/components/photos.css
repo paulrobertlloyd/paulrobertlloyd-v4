@@ -1,5 +1,5 @@
 .photos {
   display: grid;
-  grid-gap: var(--space-inline-small);
+  grid-gap: var(--space-inline);
   grid-template-columns: repeat(var(--columns), 1fr);
 }
