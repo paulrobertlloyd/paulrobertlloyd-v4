@@ -3,7 +3,13 @@
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- include 'header' -%}
-  {%- include 'items' with items
+  {%- if content -%}
+    {%- include 'content' -%}
+  {%- endif -%}
+  {%- include 'section'
+    section_id: 'items'
+    section_title: 'Items in this collection'
+    items: items
     item_modifier: 'inline'
   -%}
 {%- endblock -%}
