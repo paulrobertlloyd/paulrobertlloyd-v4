@@ -40,6 +40,10 @@ export default function () {
     searchForm.removeAttribute('method');
     searchSubmit.remove(searchSubmit);
 
+    searchForm.addEventListener('submit', event => {
+      event.preventDefault();
+    });
+
     window.addEventListener('load', () => {
       return new aria.Combobox(
         document.querySelector('#search-combobox'),
