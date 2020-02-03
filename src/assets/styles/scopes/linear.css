@@ -169,6 +169,11 @@
   padding: var(--inset-small-squished);
 }
 
+/* TODO: Review flow spacing; this selector shouldn’t be needed */
+.s-linear .cp_embed_wrapper {
+  margin-block-end: var(--flow-space);
+}
+
 .s-linear .caps {
   font-size: 90%;
   letter-spacing: 0.05em;
