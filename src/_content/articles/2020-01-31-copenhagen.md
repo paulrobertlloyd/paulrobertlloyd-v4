@@ -37,7 +37,7 @@ photoset:
   alignment: 'pull'
 %}
 
-## Day 3: Copenhagen
+## Day 3
 
 Having stayed up late completing [the first post in this series][1], my first full day in Copenhagen gets off to a late start.
 
@@ -56,7 +56,7 @@ Leaving the tower I continue east on a route that takes in the familiar postcard
 
 Inside is a full array of commercially designed products, including an impressively curated gallery of Danish chairs. Yet given Denmark’s design heritage, the permanent collection feels a little underwhelming. Their current exhibition, [Night Fever][8], is far more extensive. A retrospective covering the design history of nightclubs from the 1960s to today, it includes everything from album covers, lighting rigs, architectural concepts, even a brick from the Haçienda. The curation feels like a labour of love.
 
-## Day 4: Copenhagen and Malmo. And Trelleborg.
+## Day 4
 
 I open my curtains and look through rain-splattered windows to see dark skies and a very wet building site. The hotel has its restaurant on the top floor, but the view from here is just as depressing. The overpriced breakfast buffet doesn’t help matters. As I look out across a drab cityscape, I wonder why I decided to visit the wettest part of Europe during the wettest time of year. This is going to be a day spent largely indoors, and most of the museums in Copenhagen are closed on a Monday.
 
@@ -84,7 +84,7 @@ The roast duck is delightful, though not that filling as it’s mostly bone. I r
 
 An hour later, I appear to be its next contestant. Having not paid enough attention to the train I was boarding, rather than nearing Copenhagen, I find myself on my way to the small town of *Trelleborg*{lang="sv"}, 20 miles south of *Malmö*{lang="sv"}. It’s possible that here, in its small, chilly railway station, that I lost my debit card. This must be the part of the trip that, if animated over a map, would see the route comically go round in circles before doubling back on itself.
 
-## Day 5: Louisiana Museum of Modern Art
+## Day 5
 
 Another grey day, but with the museums open again I’m spoilt for choice. Emil recommended I visit either [ARKEN][17] or [Louisiana][18] modern art galleries. I choose the later, intrigued by [<cite>Hot Pink Turquoise</cite>][19], an exhibition featuring the work of Belgian artist Ann Veronica Janssens.
 
@@ -102,7 +102,7 @@ I end up spending several hours in this museum. If not absorbed by colourfully i
 
 * * *
 
-I’m catching the sleeper to Stockholm early next morning, which I need to board at *Hässleholm*{lang="sv”} in southern Sweden. This requires an hour and a half connecting journey from Copenhagen. Waiting in the station allows me to admire its design which until this point I have largely ignored. The large roof of the departure hall, with its wooden beams and terracotta floor tiles, makes it feel very homely. If this building were located in England, it would surely be owned by the National Trust.
+I’m catching the sleeper to Stockholm early next morning, which I need to board at *Hässleholm*{lang="sv"} in southern Sweden. This requires an hour and a half connecting journey from Copenhagen. Waiting in the station allows me to admire its design which until this point I have largely ignored. The large roof of the departure hall, with its wooden beams and terracotta floor tiles, makes it feel very homely. If this building were located in England, it would surely be owned by the National Trust.
 
 * * *
 
