@@ -1,5 +1,5 @@
 ---
-title: 'Scandinavian Sojourn: 3 days in and around Copenhagen'
+title: 'Scandinavian Sojourn: Copenhagen'
 date: 2020-01-31T14:00:00+01:00
 location:
   locality: Stockholm

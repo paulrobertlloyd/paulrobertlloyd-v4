@@ -1,5 +1,5 @@
 ---
-title: 'Scandinavian Sojourn: 3 days in Stockholm'
+title: 'Scandinavian Sojourn: Stockholm'
 date: 2020-02-05T19:10:00+01:00
 location:
   locality: Gothenburg
