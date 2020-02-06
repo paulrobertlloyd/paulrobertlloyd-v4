@@ -56,7 +56,7 @@
     "postcss-extend-rule": "^3.0.0",
     "postcss-logical": "^4.0.0",
     "postcss-media-minmax": "^4.0.0",
-    "rollup": "^1.31.0",
+    "rollup": "^1.31.1",
     "rollup-plugin-terser": "^5.2.0",
     "sanitize-html": "^1.21.1",
     "string-to-color": "^2.1.1",
@@ -64,10 +64,10 @@
   },
   "devDependencies": {
     "markdownlint-cli": "^0.22.0",
-    "stylelint": "^13.1.0",
+    "stylelint": "^13.2.0",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.0.0",
-    "xo": "^0.25.3"
+    "xo": "^0.26.1"
   },
   "xo": {
     "space": true,

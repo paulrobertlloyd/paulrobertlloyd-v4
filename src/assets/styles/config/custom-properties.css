@@ -10,8 +10,8 @@
 
   /* Alpha palette */
   --color-alpha-highest: color-mod(var(--color-neutral-darkest) a(0.1));
-  --color-alpha-high: color-mod(var(--color-neutral-darkest) a(0.25));
-  --color-alpha-low: color-mod(var(--color-neutral-darkest) a(0.75));
+  --color-alpha-high: color-mod(var(--color-neutral-darkest) a(0.33));
+  --color-alpha-low: color-mod(var(--color-neutral-darkest) a(0.67));
   --color-alpha-lowest: color-mod(var(--color-neutral-darkest) a(0.9));
 
   /* Colour assignments */
@@ -131,7 +131,7 @@
     --color-neutral-lighter: color-mod(var(--color-neutral) l(32%));
     --color-neutral-lightest: color-mod(var(--color-neutral) l(16%));
     --color-alpha-highest: color-mod(var(--color-neutral-lightest) a(0.1));
-    --color-alpha-high: color-mod(var(--color-neutral-lightest) a(0.25));
+    --color-alpha-high: color-mod(var(--color-neutral-lightest) a(0.33));
     --color-accent: var(--color-accent-dark);
     --color-background: color-mod(var(--color-neutral) l(8%));
     --color-link-underline: var(--color-alpha-high);

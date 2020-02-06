@@ -79,13 +79,11 @@
 
 /* Visual effects */
 %text-decoration {
-  -webkit-text-decoration-color: var(--color-link-underline);
   text-decoration-color: var(--color-link-underline);
 }
 
 %text-decoration:hover {
   color: var(--color-accent);
-  -webkit-text-decoration-color: var(--color-accent);
   text-decoration-color: var(--color-accent);
 }
 
