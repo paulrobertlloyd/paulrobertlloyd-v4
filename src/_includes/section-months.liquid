@@ -5,10 +5,10 @@
     </header>
 
     <ol class="section__main" style="--grid-size: 7.5rem">
-    {%- for date in archive.months -%}
-      {%- if date contains year -%}
+    {%- for datetime in section-months -%}
+      {%- if datetime contains year -%}
       <li class="item item--inline">
-        <h3 class="item__title"><a href="/{{ date | date: '%Y/%m' }}/">{{ date | date: '%B' }}</a></h3>
+        <h3 class="item__title"><a href="/{{ datetime | date: '%Y/%m' }}/">{{ datetime | date: '%B' }}</a></h3>
       </li>
       {%- endif -%}
     {%- endfor -%}

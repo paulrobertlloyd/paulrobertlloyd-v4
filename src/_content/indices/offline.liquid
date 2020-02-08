@@ -6,10 +6,9 @@ permalink: /offline.html
 hidden: true
 ---
 {%- assign saved = collections.article | reverse %}
-{%- include 'section'
-  section_id: 'saved'
-  section_title: 'Articles available to read offline'
-  items: saved
+{%- render 'section' with saved
+  id: 'saved'
+  title: 'Articles available to read offline'
   items_limit: 6
   item_modifier: 'inline'
 -%}

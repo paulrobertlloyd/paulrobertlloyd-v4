@@ -1,4 +1,4 @@
-<article class="item item--{{ item_modifier | default: 'block'}} | h-card" data-type="venue">
+<article class="item item--{{ modifier | default: 'block'}} | h-card" data-type="venue">
   <header class="item__header">
     <h3 class="item__title | p-name">
       <a href="{{ item.url | pretty }}">{{ item.data.title | markdownify: 'inline' }}</a>

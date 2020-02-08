@@ -2,10 +2,10 @@
 {%- assign card_accent = item.data.style.color-accent | default: date_color -%}
 <article class="card |{% for root in item.data.vocab %} h-{{ root }}{% endfor %}" data-type="{{ item.data.layout }}" style="--color-accent-light: {{ card_accent | contrastify: 'black' }}; --color-accent-dark: {{ card_accent | contrastify: 'white' }}">
 {%- if item.data.image -%}
-  <div class="card__image"{% if card_image_color %} style="--image-color: var(--color-accent)"{% endif %}>
-    {%- assign image_ratio = image_ratio | default: 1.5 -%}
-    {%- include 'image' with item.data.image
-      image_sizes: items_size
+  <div class="card__image"{%- if item.data.layout != 'project' -%} style="--image-color: var(--color-accent)"{% endif %}>
+    {%- render 'image' with item.data.image
+      ratio = card_image_ratio | default: 1.5
+      sizes: grid_size
     -%}
   </div>
 {%- endif -%}

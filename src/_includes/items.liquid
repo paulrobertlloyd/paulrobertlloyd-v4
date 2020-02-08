@@ -1,5 +1,8 @@
-<div class="items{% if items_classes %} {{ items_classes }}{% endif %}" style="--grid-size: {{ items_size | default: '100%' }}">
-{%- for item in items limit: items_limit -%}
-  {%- include 'item/{{ items_component | default: item.data.layout }}' -%}
+<div class="items{% if modifier %} items--{{ modifier }}{% endif %}" style="--grid-size: {{ grid_size | default: '100%' }}">
+{%- for item in items limit: limit -%}
+  {%- render 'item/{{ component | default: item.data.layout }}'
+    item: item
+    modifier: item_modifier
+  -%}
 {%- endfor -%}
 </div>

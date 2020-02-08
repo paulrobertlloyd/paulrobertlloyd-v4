@@ -1,10 +1,13 @@
 {%- assign tag = page.fileSlug | prepend: 'venue:' -%}
 {%- assign geo = page.data.geo -%}
-{%- assign items = collections.event | includes: 'data.tags',tag | reverse -%}
+{%- assign events = collections.event | includes: 'data.tags',tag | reverse -%}
 {%- assign title = page.data.title -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
-  {%- include 'header' -%}
+  {%- render 'header'
+    title: title
+    url: page.data.url
+  -%}
   {%- capture content -%}
     <figure class="align-bleed">
       <a href="https://duckduckgo.com/?q={{ geo.latitude }},{{ geo.longitude }}&iaxm=places">
@@ -14,10 +17,13 @@
         {%- capture position -%}
           {{ geo.longitude }},{{ geo.latitude }},15,0.00,0.00
         {%- endcapture -%}
-        {% include 'map' %}
+        {%- render 'map'
+          overlay: overlay
+          position: position
+        -%}
       </a>
       <figcaption>
-        {%- include 'address' with page.data.address -%}
+        {%- render 'address' with page.data.address -%}
       </figcaption>
     </figure>
     {{ page.data.content | markdownify }}
@@ -25,11 +31,10 @@
       <p>Formerly known as: {{ page.data.former-names | join:", " }}.</p>
     {% endif %}
   {%- endcapture -%}
-  {%- include 'content' -%}
-  {%- include 'section'
-    section_id: 'events'
-    section_title: 'Events at this venue'
-    items: items
+  {%- render 'content' with content -%}
+  {%- render 'section' with events
+    id: 'events'
+    title: 'Events at this venue'
     item_modifier: 'inline'
   -%}
 {%- endblock -%}

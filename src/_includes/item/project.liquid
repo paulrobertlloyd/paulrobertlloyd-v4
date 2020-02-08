@@ -1,7 +1,7 @@
-<article class="item item--{{ item_modifier | default: 'block'}} | h-entry" data-type="project">
-  {%- include 'image' with item.data.image
-    image_class: 'item__image'
-    image_preset: 'thumbnail'
+<article class="item item--{{ modifier | default: 'block'}} | h-entry" data-type="project">
+  {%- render 'image' with item.data.image
+    class: 'item__image'
+    preset: 'thumbnail'
   -%}
 
   <header class="item__header">

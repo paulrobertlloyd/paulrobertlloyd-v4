@@ -1,7 +1,12 @@
 {%- layout 'default' -%}
 {%- block 'main' -%}
-  {%- include 'footer' -%}
-  {%- include 'header' -%}
+  {%- render 'footer'
+    date: date
+  -%}
+  {%- render 'header'
+    title: title
+    summary: summary
+  -%}
   {%- capture content -%}
     {{ content }}
     {%- for slide in slides -%}
@@ -12,5 +17,5 @@
       -%}
     {%- endfor -%}
   {%- endcapture -%}
-  {%- include 'content' -%}
+  {%- render 'content' with content -%}
 {%- endblock -%}

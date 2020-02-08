@@ -1,5 +1,3 @@
-{%- assign venueid = tags[1] | remove: 'venue:' -%}
-{%- assign venue = venues | where: 'fileSlug',venueid | first -%}
 <footer class="footer">
   <dl>
     <dt class="visually-hidden">Date</dt>
@@ -7,7 +5,6 @@
     {%- assign date-end = end | date: '%Y%m%d' -%}
     <dd>
       <a class="u-url" rel="bookmark" href="{{ page.url | prepend: app.url | pretty }}">
-
       {%- if date-start != date-end -%}
         <time class="dt-start" datetime="{{ start | date: dates.iso }}">{{ start | date: dates.date_long }}</time> -
         <time class="dt-end" datetime="{{ end | date: dates.iso }}">{{ end | date: dates.date_long }}</time>
@@ -17,7 +14,7 @@
       {%- endif -%}
       </a>
     </dd>
-{%- if venueid != 'tbd' -%}
+{%- if venue -%}
     <dt class="visually-hidden">Venue</dt>
     <dd class="p-location h-card">
       <a class="u-url" href="{{ venue.url | pretty }}">

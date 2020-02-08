@@ -20,7 +20,8 @@ tags:
 ---
 {%- capture overlay %}geojson({{ geojson | jsonify | escape }}){% endcapture -%}
 {%- capture map -%}
-{%- include 'map'
+{%- render 'map'
+  overlay: overlay
   width: 360
   height: 360
 -%}

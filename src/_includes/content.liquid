@@ -1,3 +1,5 @@
-<div class="content s-linear | {{ properties | default: 'e-content' }}">
-  {{ content }}
-</div>
+{%- if content -%}
+  <div class="content s-linear | {{ properties | default: 'e-content' }}">
+    {{ content }}
+  </div>
+{%- endif -%}

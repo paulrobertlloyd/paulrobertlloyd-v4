@@ -2,8 +2,12 @@
 {%- assign items = collections.article | includes: 'data.tags',tag -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
-  {%- include 'header' -%}
-  {%- include 'items'
-    items_size: '16rem'
+  {%- render 'header'
+    title: title
+    summary: summary
+    url: url
+  -%}
+  {%- render 'items' with items
+    grid_size: '16rem'
   -%}
 {%- endblock -%}

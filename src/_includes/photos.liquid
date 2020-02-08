@@ -1,16 +1,17 @@
 <figure class="align-{{ alignment | default: 'none' }}">
   <div class="photos" style="--columns: {{ columns | default: photos.size }}">
   {%- for item in photos -%}
-    {%- include 'image' with item.url
-      preset: image_preset
+    {%- render 'image' with item.url
       alt: item.alt
       class: image_class
+      preset: image_preset
+      ratio: image_ratio
     -%}
   {%- endfor -%}
   </div>
-{%- if caption -%}
+{%- if caption %}
   <figcaption>
     {{ caption | markdownify }}
   </figcaption>
-{%- endif -%}
+{%- endif %}
 </figure>

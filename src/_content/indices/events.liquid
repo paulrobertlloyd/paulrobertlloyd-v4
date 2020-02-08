@@ -9,17 +9,15 @@ pagination:
 permalink: "events/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}{% else %}index{% endif %}.html"
 ---
 {% if pagination.pageNumber < 1 and collections.attending.size >= 1 -%}
-  {%- include 'section'
-    section_id: 'attending'
-    section_title: 'Attending'
-    items: collections.attending
+  {%- render 'section' with collections.attending
+    id: 'attending'
+    title: 'Attending'
     item_modifier: 'inline'
   -%}
 {%- endif %}
-{%- include 'section'
-  section_id: 'attended'
-  section_title: 'Attended'
-  items: pagination.items
+{%- render 'section' with pagination.items
+  id: 'attended'
+  title: 'Attended'
   item_modifier: 'inline'
 -%}
-{%- include 'pagination' -%}
+{%- render 'pagination' with pagination -%}

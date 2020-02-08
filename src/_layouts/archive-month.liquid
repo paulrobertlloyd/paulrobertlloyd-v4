@@ -5,10 +5,10 @@
   <h1 class="main__title">Archive</h1>
   <div class="main__introduction">{{ title }}</div>
   {%- if items.size > 0 -%}
-    {%- include 'items' with items
+    {%- render 'items' with items
       item_modifier: 'inline'
     -%}
   {%- else -%}
-    {%- include 'content' with 'Nothing was published during this month.' -%}
+    {%- render 'content' with 'Nothing was published during this month.' -%}
   {%- endif %}
 {%- endblock -%}

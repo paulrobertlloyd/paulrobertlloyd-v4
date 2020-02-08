@@ -1,5 +1,8 @@
 {%- layout 'default' -%}
 {%- block 'main' -%}
-  {%- include 'header' -%}
-  {%- include 'content' -%}
+  {%- render 'header'
+    title: title
+    summary: summary
+  -%}
+  {%- render 'content' with content -%}
 {%- endblock -%}

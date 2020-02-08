@@ -1,16 +1,13 @@
-<section class="section" aria-labelledby="{{ section_id }}">
+<section class="section" aria-labelledby="{{ id }}">
   <div class="section__container">
     <header class="section__header">
-      <h2 class="section__title" id="{{ section_id }}">{{ section_title }}</h2>
+      <h2 class="section__title" id="{{ id }}">{{ title }}</h2>
     </header>
 
-    <div class="section__main{% if section_scrollable %} section__main--scrollable{% endif %}">
-    {%- if section_content -%}
-      {{ section_content | markdownify }}
-    {%- endif -%}
-    {%- if items -%}
-      {%- include 'items' with items -%}
-    {%- endif -%}
+    <div class="section__main{% if scrollable %} section__main--scrollable{% endif %}">
+      {%- include 'items' with section
+        limit: items_limit
+      -%}
     </div>
   </div>
 </section>

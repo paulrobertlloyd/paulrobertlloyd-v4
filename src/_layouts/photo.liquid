@@ -4,23 +4,30 @@
 {%- assign webmentions = webmentions.children | webmentions_for_url: target -%}
 {%- capture content -%}
   {{- content -}}
-  {%- include 'photos' with photo
+  {%- render 'photos' with photo
     columns: 1
     image_class: 'u-photo'
   -%}
 {%- endcapture -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
-  {%- include 'footer' -%}
-  {%- include 'content' properties: 'e-content p-name' -%}
+  {%- render 'footer'
+    date: date
+    location: location
+    geo: geo
+    in-reply-to: in-reply-to
+    canonical: canonical
+  -%}
+  {%- render 'content' with content
+    properties: 'e-content p-name'
+  -%}
   {%- if category.size > 0 -%}
-    {%- include 'categories' -%}
+    {%- render 'categories' with category -%}
   {%- endif -%}
   {%- if webmentions.size > 0 -%}
-    {%- include 'section-remarks'
-      section_id: 'webmentions'
-      section_title: 'Webmentions'
-      items: webmentions
+    {%- render 'section-remarks' with webmentions
+      id: 'webmentions'
+      title: 'Webmentions'
       item_modifier: 'inline'
     -%}
   {%- endif -%}

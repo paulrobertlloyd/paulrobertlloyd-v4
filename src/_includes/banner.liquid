@@ -4,8 +4,8 @@
       <a rel="home" href="/">{{ app.title }}</a>
     </div>
     <nav class="banner__navigation" aria-label="site">
-      {%- include 'navigation' with navigation.primary -%}
-      {%- include 'navigation' with navigation.secondary -%}
+      {%- render 'navigation' with navigation.primary -%}
+      {%- render 'navigation' with navigation.secondary -%}
     </nav>
   </div>
 </header>

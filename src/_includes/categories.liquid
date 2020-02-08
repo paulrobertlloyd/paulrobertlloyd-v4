@@ -1,3 +1,5 @@
-<p class="categories">{% for item in category %}
-  <a class="p-category" href="https://twitter.com/hashtag/{{ item }}">#{{ item }}</a>
-{% endfor %}</p>
+<p class="categories">
+{%- for category in categories %}
+  <a class="p-category" href="https://twitter.com/hashtag/{{ category }}">#{{ category }}</a>
+{%- endfor -%}
+</p>

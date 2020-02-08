@@ -1,13 +1,13 @@
 <aside class="h-product" role="complementary">
 {%- if product.photo -%}
-  {% include 'image' with product.photo
-    image_class: 'u-photo'
-    image_preset: 'thumbnail'
+  {% render 'image' with product.photo
+    class: 'u-photo'
+    preset: 'thumbnail'
   %}
 {%- endif -%}
   <h3><cite class="p-name">{{ product.title | markdownify: 'inline' }}</cite></h3>
 {%- if product.rating -%}
-  <p>{% include 'rating' with product.rating %}</p>
+  <p>{% render 'rating' with product.rating %}</p>
 {%- endif -%}
   {{ product.info | markdownify }}
 </aside>

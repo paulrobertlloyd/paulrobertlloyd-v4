@@ -1,15 +1,17 @@
+{%- assign tag = page.fileSlug | prepend: 'project:' -%}
+{%- assign articles = collections.article | includes: 'data.tags',tag -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
-  {%- include 'header' -%}
-  {%- include 'content' -%}
-  {%- assign tag = page.fileSlug | prepend: 'project:' -%}
-  {%- assign items = collections.article | includes: 'data.tags',tag -%}
+  {%- render 'header'
+    title: title
+    summary: summary
+  -%}
+  {%- render 'content' with content -%}
   {%- if items.size > 0 %}
-    {%- include 'section'
-      section_id: 'related'
-      section_title: 'Related articles'
-      items: items
-      items_size: '16rem'
+    {%- render 'section' with articles
+      id: 'related'
+      title: 'Related articles'
+      grid_size: '16rem'
     -%}
   {%- endif -%}
 {%- endblock -%}

@@ -2,14 +2,14 @@
 {%- assign items = collections.all | includes: 'data.collection',collection -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
-  {%- include 'header' -%}
-  {%- if content -%}
-    {%- include 'content' -%}
-  {%- endif -%}
-  {%- include 'section'
-    section_id: 'items'
-    section_title: 'Items in this collection'
-    items: items
+  {%- render 'header'
+    title: title
+    summary: summary
+  -%}
+  {%- render 'content' with content -%}
+  {%- render 'section' with items
+    id: 'items'
+    title: 'Items in this collection'
     item_modifier: 'inline'
   -%}
 {%- endblock -%}

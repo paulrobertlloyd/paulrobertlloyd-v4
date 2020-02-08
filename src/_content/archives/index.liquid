@@ -3,5 +3,5 @@ layout: index
 title: Archive
 permalink: archive/index.html
 ---
-{% include 'form/search' %}
-{% include 'section-years' %}
+{% render 'form/search' %}
+{% render 'section-years' with archive.years %}

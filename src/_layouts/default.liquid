@@ -70,7 +70,7 @@
   <title>{% if type != 'homepage' %}{{ title | markdownify: 'inline' | strip_html }} – {% endif %}{{ app.title }}</title>
 </head>
 <body data-type="{{ type }}">
-{%- include 'banner' -%}
+{%- render 'banner' -%}
 <main class="main{% if vocab %} | {% for root in vocab %} h-{{ root }}{% endfor %}{% endif %}">
   <div class="main__container">
   {%- block 'main' -%}
@@ -78,6 +78,6 @@
   {%- endblock -%}
   </div>
 </main>
-{%- include 'contentinfo' -%}
+{%- render 'contentinfo' -%}
 </body>
 </html>

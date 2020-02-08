@@ -7,28 +7,24 @@ introduction: |
   Need a hand on your next project? [Get in touch](/contact/).
 permalink: projects/index.html
 ---
-{%- assign featured = collections.project | includes: 'data.tags','featured' -%}
-{%- assign selected = featured | reverse %}
-{%- include 'section'
-  section_id: 'featured'
-  section_title: 'Select case studies'
-  section_scrollable: true
-  items: selected
-  items_size: '16rem'
-  items_component: 'card'
-  image_ratio: 1.0
+{%- assign featured = collections.project | includes: 'data.tags','featured' | reverse -%}
+{%- render 'section' with featured
+  id: 'featured'
+  title: 'Select case studies'
+  scrollable: true
+  grid_size: '16rem'
+  component: 'card'
+  card_image_ratio: 1.0
   image_preset: 'card'
 -%}
-{%- include 'section'
-  section_id: 'testimonials'
-  section_title: 'Nice words said about my work'
-  items: collections.testimonial
-  items_size: '20rem',
-  items_component: 'testimonial'
+{%- render 'section' with collections.testimonial
+  id: 'testimonials'
+  title: 'Nice words said about my work'
+  grid_size: '20rem',
+  component: 'testimonial'
 -%}
-{%- include 'section'
-  section_id: 'skills'
-  section_title: 'The work I do'
-  items: collections.skill
-  items_size: '16rem'
+{%- render 'section' with collections.skill
+  id: 'skills'
+  title: 'The work I do'
+  grid_size: '16rem'
 -%}

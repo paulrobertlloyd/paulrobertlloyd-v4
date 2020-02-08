@@ -1,7 +1,3 @@
-[style^="--image-filter"] {
-  --image-blend: color;
-}
-
 @media (prefers-color-scheme: dark) {
   [style^="--image-color"] {
     --image-blend: lighten;

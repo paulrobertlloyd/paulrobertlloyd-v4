@@ -1,30 +1,41 @@
+{%- assign venueid = tags[1] | remove: 'venue:' -%}
+{%- assign venue = venues | where: 'fileSlug',venueid | first -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
-  {%- include 'footer-event' -%}
-  {%- include 'header' -%}
+  {%- render 'footer-event'
+    date: date
+    start: start
+    end: end
+    venue: venue
+  -%}
+  {%- render 'header'
+    title: title
+    summary: summary
+    url: url
+  -%}
   {%- capture content -%}
     {%- if url contains 'imdb.com' -%}
       {%- assign imdb_id = url | remove: 'https://www.imdb.com/title/' | remove: '/' -%}
       {%- capture image %}https://img.omdbapi.com/?apikey={{ app.token.ombdapi }}&i={{ imdb_id }}&h=560{% endcapture -%}
       {%- assign alt = title | prepend: 'Poster for ' -%}
-      {%- include 'image'
-        image_preset: 'thumbnail'
-        image_class: 'align-start'
+      {%- render 'image' with image
+        class: 'align-start'
+        preset: 'thumbnail'
       -%}
     {%- endif -%}
     {{ content }}
   {%- endcapture -%}
-  {%- include 'content' -%}
+  {%- render 'content' with content -%}
 
   {%- if collection -%}
     {% for this_collection in collection %}
       {%- assign related = collections.collection | where: 'fileSlug',this_collection | first -%}
-      {%- capture section_title %}Other events in the <a href="{{ related.url }}">{{ related.data.title }}</a> series{%- endcapture -%}
+      {%- capture title %}Other events in the <a href="{{ related.url }}">{{ related.data.title }}</a> series{%- endcapture -%}
       {%- assign events = collections.event | related: this_collection,page | reverse -%}
       {%- if events.size > 0 %}
-        {%- include 'section'
-          section_id: 'related'
-          items: events
+        {%- render 'section' with events
+          id: 'related'
+          title: title
           item_modifier: 'inline'
         -%}
       {%- endif -%}

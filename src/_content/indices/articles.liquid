@@ -9,28 +9,26 @@ pagination:
 permalink: "articles/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}{% else %}index{% endif %}.html"
 ---
 {%- if pagination.pageNumber < 1 -%}
-  {%- assign featured = collections.article | includes: 'data.tags','featured' -%}
-  {%- assign selected = featured | reverse %}
-  {%- include 'section'
-    section_id: 'featured'
-    section_title: 'Select articles'
-    section_scrollable: true
-    items: selected
+  {%- assign featured = collections.article | includes: 'data.tags','featured' | reverse -%}
+  {%- render 'section' with featured
+    id: 'featured'
+    title: 'Select articles'
+    scrollable: true
     items_limit: 6
-    items_size: '16rem'
-    items_component: 'card'
-    card_image_color: true
+    grid_size: '16rem'
+    component: 'card'
     image_preset: 'card'
   -%}
-  {%- include 'section'
-    section_id: 'recent'
-    section_title: 'Recent articles'
-    items: pagination.items
+  {%- render 'section' with pagination.items
+    id: 'recent'
+    title: 'Recent articles'
     item_modifier: 'inline'
   -%}
 {%- else -%}
-  {%- include 'items' with pagination.items
+  {%- render 'items' with pagination.items
     item_modifier: 'inline'
   -%}
 {%- endif %}
-{%- include 'traverse' label: 'articles' -%}
+{%- render 'traverse' with pagination
+  label: 'articles'
+-%}

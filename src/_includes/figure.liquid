@@ -2,7 +2,10 @@
 {%- if content %}
   {{ content | markdownify }}
 {%- else %}
-  {%- include 'image' with figure -%}
+  {%- render 'image' with figure
+    preset: image_preset
+    ratio: image_ratio | default: false
+  -%}
 {%- endif %}
 {%- if caption %}
   <figcaption>

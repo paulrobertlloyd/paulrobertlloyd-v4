@@ -1,18 +1,21 @@
-<section class="section" aria-labelledby="{{ section_id }}">
+<section class="section" aria-labelledby="{{ id }}">
   <div class="section__container">
     <header class="section__header">
-      <h2 class="section__title" id="{{ section_id }}">{{ section_title }}</h2>
+      <h2 class="section__title" id="{{ id }}">{{ title }}</h2>
     </header>
 
     <details class="section__main">
       <summary>
-        {% assign facepile_type = section_title | downcase %}
-        {% include 'facepile' with items %}
+        {% render 'facepile' with section-remarks
+          type: title | downcase
+        %}
       </summary>
 
-      <div style="--grid-size: {{ items_size | default: '100%' }}">
-      {% for item in items %}
-        {% include 'item/remark' %}
+      <div style="--grid-size: {{ grid_size | default: '100%' }}">
+      {% for remark in section-remarks %}
+        {% render 'item/remark'
+          item: remark
+        %}
       {% endfor %}
       </div>
     </details>

@@ -1,9 +1,12 @@
 {%- layout 'default' -%}
 {%- block 'main' -%}
-  {%- include 'header'
+  {%- render 'header'
+    title: title
     url: bookmark-of
     url_class: 'bookmark-of'
   -%}
-  {%- include 'content' -%}
-  {%- include 'footer' -%}
+  {%- render 'content' with content -%}
+  {%- render 'footer'
+    date: date
+  -%}
 {%- endblock -%}

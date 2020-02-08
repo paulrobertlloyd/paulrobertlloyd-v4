@@ -7,23 +7,19 @@ introduction: |
   Want me to speak at your event? [Get in touch](/contact).
 permalink: presentations/index.html
 ---
-{%- assign featured = collections.presentation | includes: 'data.tags','featured' -%}
-{%- assign selected = featured | reverse %}
-{%- include 'section'
-  section_id: 'featured'
-  section_title: 'Select presentations'
-  section_scrollable: true
-  items: selected
-  items_size: '16rem'
-  items_component: 'card'
-  card_image_color: true
+{%- assign featured = collections.presentation | includes: 'data.tags','featured' | reverse -%}
+{%- render 'section' with featured
+  id: 'featured'
+  title: 'Select presentations'
+  scrollable: true
+  grid_size: '16rem'
+  component: 'card'
   image_preset: 'card'
 -%}
 {%- assign appearances = collections.event | where: 'data.participant' | reverse -%}
-{%- include 'section'
-  section_id: 'events'
-  section_title: 'Events I’ve spoken at'
-  items: appearances
+{%- render 'section' with appearances
+  id: 'appearances'
+  title: 'Events I’ve spoken at'
   items_limit: 16
   item_modifier: 'inline'
 -%}

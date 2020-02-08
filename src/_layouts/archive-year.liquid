@@ -4,17 +4,17 @@
 {%- block 'main' -%}
   <h1 class="main__title">Archive</h1>
   <div class="main__introduction">{{ title }}</div>
-  {%- include 'section-months' -%}
+  {%- render 'section-months' with archive.months
+    year: year
+  -%}
   {%- if featured.size >= 1 -%}
-    {%- include 'section'
-      section_id: 'featured'
-      section_title: 'Select articles from this year'
-      section_scrollable: true
-      items: featured
+    {%- render 'section' with featured
+      id: 'featured'
+      title: 'Select articles from this year'
+      scrollable: true
       items_limit: 3
-      items_size: '16rem'
-      items_component: 'card'
-      card_image_color: true
+      grid_size: '16rem'
+      component: 'card'
     -%}
   {%- endif -%}
 {%- endblock -%}

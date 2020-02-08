@@ -1,4 +1,4 @@
-<section class="item item--{{ item_modifier | default: 'block'}} | h-entry" data-type="skill">
+<section class="item item--{{ modifier | default: 'block'}} | h-entry" data-type="skill">
   <header class="item__header">
     <h3 class="item__title | p-name">
       <a href="{{ item.url | pretty }}">{{ item.data.title | markdownify: 'inline' }}</a>

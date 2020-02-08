@@ -7,10 +7,10 @@ pagination:
 permalink: "photos/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}{% else %}index{% endif %}.html"
 changefreq: daily
 ---
-{%- include 'items' with pagination.items
-  items_classes: 'items--photos'
-  items_size: '16rem'
-  items_component: 'photo-simple'
+{%- render 'items' with pagination.items
+  modifier: 'photos'
+  grid_size: '16rem'
+  component: 'photo-simple'
   image_preset: 'thumbnail'
 -%}
-{%- include 'pagination' -%}
+{%- render 'pagination' with pagination -%}

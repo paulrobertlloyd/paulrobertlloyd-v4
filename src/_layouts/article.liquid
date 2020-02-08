@@ -2,24 +2,30 @@
 {%- assign webmentions = webmentions.children | webmentions_for_url: target -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
-  {%- include 'footer' -%}
-  {%- include 'header' summary: false -%}
-  {%- include 'content' -%}
+  {%- render 'footer'
+    date: date
+    location: location
+    canonical: canonical
+    collections: collections
+  -%}
+  {%- render 'header'
+    title: title
+    summary: false
+  -%}
+  {%- render 'content' with content -%}
 
   {%- if remarks.size > 0 -%}
-    {%- include 'section-remarks'
-      section_id: 'remarks'
-      section_title: 'Remarks'
-      items: remarks
+    {%- render 'section-remarks' with remarks
+      id: 'remarks'
+      title: 'Remarks'
       item_modifier: 'inline'
     -%}
   {%- endif -%}
 
   {%- if webmentions.size > 0 -%}
-    {%- include 'section-remarks'
-      section_id: 'webmentions'
-      section_title: 'Webmentions'
-      items: webmentions
+    {%- render 'section-remarks' with webmentions
+      id: 'webmentions'
+      title: 'Webmentions'
       item_modifier: 'inline'
     -%}
   {%- endif -%}
@@ -27,17 +33,16 @@
   {%- if collection -%}
     {%- for this_collection in collection -%}
       {%- assign related = collections.collection | where: 'fileSlug',this_collection | first -%}
-      {%- capture section_title %}More from the <a href="{{ related.url }}">{{ related.data.title }}</a> collection{%- endcapture -%}
+      {%- capture title %}More from the <a href="{{ related.url }}">{{ related.data.title }}</a> collection{%- endcapture -%}
       {%- assign articles = collections.article | related: this_collection,page | reverse -%}
       {%- if articles.size > 0 %}
-        {%- include 'section'
-          section_id: 'related'
-          section_scrollable: true
-          items: articles
+        {%- render 'section' with articles
+          id: 'related'
+          title: title
+          scrollable: true
           items_limit: 6
-          items_size: '16rem'
-          items_component: 'card'
-          card_image_color: true
+          grid_size: '16rem'
+          component: 'card'
         -%}
       {%- endif -%}
     {%- endfor -%}
