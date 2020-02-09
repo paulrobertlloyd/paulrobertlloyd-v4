@@ -1,6 +1,6 @@
 ---
 title: Bridget Riley
-date: 2019-12-05T19:00:00
+date: 2019-12-05T19:00:00Z
 url: https://southbankcentre.co.uk/whats-on/exhibitions/hayward-gallery-art/bridget-riley
 start: 2019-10-23
 end: 2020-01-26
