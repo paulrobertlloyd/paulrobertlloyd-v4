@@ -35,12 +35,12 @@
     "@remy/webmention": "^1.4.3",
     "color": "^3.1.2",
     "cssnano": "^4.1.10",
-    "liquidjs": "^9.6.2",
+    "liquidjs": "^9.7.0",
     "lodash": "^4.17.14",
     "markdown-it": "^10.0.0",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-anchor": "^5.2.5",
-    "markdown-it-attrs": "^3.0.1",
+    "markdown-it-attrs": "^3.0.2",
     "markdown-it-deflist": "^2.0.3",
     "markdown-it-footnote": "^3.0.2",
     "markdown-it-mentions": "^1.0.0",
@@ -63,9 +63,9 @@
     "uslug": "^1.0.4"
   },
   "devDependencies": {
-    "markdownlint-cli": "^0.21.0",
-    "stylelint": "^13.0.0",
-    "stylelint-config-standard": "^19.0.0",
+    "markdownlint-cli": "^0.22.0",
+    "stylelint": "^13.1.0",
+    "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.0.0",
     "xo": "^0.25.3"
   },
