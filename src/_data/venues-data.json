@@ -69,7 +69,9 @@
     "postal-code": "B1 2AA",
     "plus-code": "9C4WF3HM+WX"
   },
-  "content": "Formerly known as the _National Indoor Arena_."
+  "former-names": [
+    "National Indoor Arena"
+  ]
 }, {
   "title": "Assembly Buildings Conference Centre",
   "address": {
@@ -192,7 +194,9 @@
     "postal-code": "95112",
     "plus-code": "849W849J+VM"
   },
-  "content": "Formerly known as _Spartan Stadium_."
+  "former-names": [
+    "Spartan Stadium"
+  ]
 }, {
   "title": "Cardinal Place",
   "address": {
@@ -794,7 +798,10 @@
     "postal-code": "E15 2NG",
     "plus-code": "9C3XGXQM+F9"
   },
-  "content": "Formerly known as the _Olympic Stadium_ and _The Stadium at Queen Elizabeth Olympic Park_."
+  "former-names": [
+    "Olympic Stadium",
+    "The Stadium at Queen Elizabeth Olympic Park"
+  ]
 }, {
   "title": "London Transport Museum",
   "url": "https://www.ltmuseum.co.uk",
@@ -997,7 +1004,9 @@
     "postal-code": "CF10 1NS",
     "plus-code": "9C3RFRH8+7W"
   },
-  "content": "Formerly known as _Millennium Stadium_."
+  "former-names": [
+    "Millennium Stadium"
+  ]
 }, {
   "title": "Proud Camden",
   "address": {
@@ -1115,7 +1124,9 @@
     "postal-code": "M5J 2X2",
     "plus-code": "87M2JJVC+99"
   },
-  "content": "Formerly known as _Air Canada Centre_."
+  "former-names": [
+    "Air Canada Centre"
+  ]
 }, {
   "title": "Scottish National Gallery of Modern Art, Modern Two",
   "url": "https://www.nationalgalleries.org",
@@ -1546,7 +1557,11 @@
     "postal-code": "NE4 7NA",
     "plus-code": "9C6WX97G+HQ"
   },
-  "content": "Formerly known as the _Newcastle Arena_ (1995–1997), _Telewest Arena_ (1997–2004) and _Metro Radio Arena_ (2004–2019)."
+  "former-names": [
+    "Newcastle Arena (1995–1997)",
+    "Telewest Arena (1997–2004)",
+    "Metro Radio Arena"
+  ]
 }, {
   "title": "Victoria and Albert Museum",
   "url": "https://www.vam.ac.uk",

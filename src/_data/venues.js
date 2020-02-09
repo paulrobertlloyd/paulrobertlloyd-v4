@@ -14,7 +14,9 @@ module.exports = function () {
         title: venue.title,
         url: venue.url,
         address: venue.address,
-        geo: decode(venue.address['plus-code'])
+        geo: decode(venue.address['plus-code']),
+        content: venue.content,
+        'former-names': venue['former-names']
       }
     };
   });

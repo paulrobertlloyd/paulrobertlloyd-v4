@@ -20,7 +20,10 @@
         {%- include 'address' with page.data.address -%}
       </figcaption>
     </figure>
-    {{ content }}
+    {{ page.data.content | markdownify }}
+    {% if page.data.former-names %}
+      <p>Formerly known as: {{ page.data.former-names | join:", " }}.</p>
+    {% endif %}
   {%- endcapture -%}
   {%- include 'content' -%}
   {%- include 'section'
