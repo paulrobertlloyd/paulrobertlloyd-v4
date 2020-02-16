@@ -26,7 +26,7 @@ tags:
 -%}
 {%- endcapture -%}
 {% render 'figure'
-  figure_content: map
+  content: map
   caption: 'Route map: Brighton to Copenhagen via Hamburg.'
   alignment: 'pull'
 %}

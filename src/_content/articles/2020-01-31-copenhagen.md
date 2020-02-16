@@ -32,7 +32,7 @@ photoset:
 -%}
 {%- endcapture -%}
 {% render 'figure'
-  figure_content: map
+  content: map
   caption: 'Route map: Copenhagen to Humlebæk, Malmö, Trelleborg and Hässleholm.'
   alignment: 'pull'
 %}

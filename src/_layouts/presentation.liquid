@@ -5,7 +5,7 @@
   {%- capture content -%}
     {{ content }}
     {%- for slide in slides -%}
-      {%- include 'figure' with slide.image
+      {%- render 'figure' with slide.image
         caption: slide.notes
         alignment: 'slide'
         image_preset: 'thumbnail'

@@ -24,7 +24,7 @@ tags:
 -%}
 {%- endcapture -%}
 {% render 'figure'
-  figure_content: map
+  content: map
   caption: 'Route map: Hässleholm to Stockholm, continuing on to Oslo via Gothenburg.'
   alignment: 'pull'
 %}
