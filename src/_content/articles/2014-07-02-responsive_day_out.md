@@ -12,7 +12,7 @@ category:
 - conferences
 discussion: closed
 ---
-{% include 'figure' with '/images/2014/07/responsive_day_out.jpg'
+{% render 'figure' with '/images/2014/07/responsive_day_out.jpg'
   caption: 'Jeremy Keith interviewing Ethan Marcotte. Photograph: [Marc Thiele](https://www.flickr.com/photos/marcthiele/14522243831/in/set-72157645354768166/).'
   alignment: 'bleed'
 %}
@@ -23,7 +23,7 @@ There was one change to last year’s format: the event concluded with [an hour-
 
 Ethan proposed the development of a broader framework, one that guides the work we do. He referenced [the twelve basic principles of animation][4] as developed by Frank Thomas and Ollie Johnston at Walt Disney’s studio during the 1930s. These were described in their book <cite>The Illusion of Life</cite>, and beautifully animated by Cento Lodigiani:
 
-{% include 'embed' with 'https://vimeo.com/93206523'
+{% render 'embed' with 'https://vimeo.com/93206523'
   poster: 'https://i.vimeocdn.com/video/474456112'
   ratio: '48/19'
   caption: 'The illusion of life.'

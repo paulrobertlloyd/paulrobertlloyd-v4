@@ -16,9 +16,9 @@ Having enjoyed the Edinburgh Fringe when I attended for the first time last Augu
 
 ### Andy Parsons: Gruntled
 
-{% include 'rating' with 2 %}
+{% render 'rating' with 2 %}
 
-{% include 'figure' with '/images/2011/08/edinburgh_fringe/andy_parsons.jpg'
+{% render 'figure' with '/images/2011/08/edinburgh_fringe/andy_parsons.jpg'
   alt: 'Photo of Andy Parsons'
   image_preset: 'thumbnail'
   alignment: 'pull'
@@ -32,9 +32,9 @@ A perfectly entertaining evening but after seeing other acts, his felt weak in c
 
 ### Chris T-T: Disobedience
 
-{% include 'rating' with 4 %}
+{% render 'rating' with 4 %}
 
-{% include 'figure' with '/images/2011/08/edinburgh_fringe/chris_tt.jpg'
+{% render 'figure' with '/images/2011/08/edinburgh_fringe/chris_tt.jpg'
   alt: 'Illustration of Chris T-T'
   image_preset: 'thumbnail'
   alignment: 'pull'
@@ -50,9 +50,9 @@ This show reminded me that I should broaden my selection when looking for things
 
 ### Sammy J and Randy: Ricketts Lane
 
-{% include 'rating' with 4 %}
+{% render 'rating' with 4 %}
 
-{% include 'figure' with '/images/2011/08/edinburgh_fringe/sammy_j_and_randy.jpg'
+{% render 'figure' with '/images/2011/08/edinburgh_fringe/sammy_j_and_randy.jpg'
   alt: 'Photo of Sammy J and Randy'
   image_preset: 'thumbnail'
   alignment: 'pull'
@@ -68,9 +68,9 @@ I still preferred Sammy J’s performance, but saw enough to buy a ticket for Ra
 
 ### Richard Herring: What is Love, Anyway?
 
-{% include 'rating' with 5 %}
+{% render 'rating' with 5 %}
 
-{% include 'figure' with '/images/2011/08/edinburgh_fringe/richard_herring.jpg'
+{% render 'figure' with '/images/2011/08/edinburgh_fringe/richard_herring.jpg'
   alt: 'Photo of Richard Herring'
   image_preset: 'thumbnail'
   alignment: 'pull'
@@ -86,9 +86,9 @@ Herring sets out to destroy love, but by the end of the show he has probably rei
 
 ### BUG Hosted by Adam Buxton
 
-{% include 'rating' with 5 %}
+{% render 'rating' with 5 %}
 
-{% include 'figure' with '/images/2011/08/edinburgh_fringe/adam_buxton.jpg'
+{% render 'figure' with '/images/2011/08/edinburgh_fringe/adam_buxton.jpg'
   alt: 'Photo of Adam Buxton'
   image_preset: 'thumbnail'
   alignment: 'pull'
@@ -106,9 +106,9 @@ For 90-minutes we were truly spoiled, even more so thanks to Adam’s set pieces
 
 ### Foil, Arms and Hog: Comedy Doesn’t Pay
 
-{% include 'rating' with 3 %}
+{% render 'rating' with 3 %}
 
-{% include 'figure' with '/images/2011/08/edinburgh_fringe/foil_arms_and_hog.jpg'
+{% render 'figure' with '/images/2011/08/edinburgh_fringe/foil_arms_and_hog.jpg'
   alt: 'Photo of Foil, Arms and Hog'
   image_preset: 'thumbnail'
   alignment: 'pull'
@@ -124,9 +124,9 @@ It was also where I enjoyed perhaps the funniest moment of my festival. When an 
 
 ### Dave Gorman’s Powerpoint Presentation
 
-{% include 'rating' with 5 %}
+{% render 'rating' with 5 %}
 
-{% include 'figure' with '/images/2011/08/edinburgh_fringe/dave_gorman.jpg'
+{% render 'figure' with '/images/2011/08/edinburgh_fringe/dave_gorman.jpg'
   alt: 'Photo of Dave Gorman'
   image_preset: 'thumbnail'
   alignment: 'pull'
@@ -140,9 +140,9 @@ When these two things come together, stupid things can happen, opening themselve
 
 ### Randy is Sober
 
-{% include 'rating' with 4 %}
+{% render 'rating' with 4 %}
 
-{% include 'figure' with '/images/2011/08/edinburgh_fringe/randy.jpg'
+{% render 'figure' with '/images/2011/08/edinburgh_fringe/randy.jpg'
   alt: 'Photo of Randy'
   image_preset: 'thumbnail'
   alignment: 'pull'
@@ -156,7 +156,7 @@ Afterwards I wondered if I would have enjoyed the performance had there been no 
 
 ### Best of the Fest
 
-{% include 'rating' with 2 %}
+{% render 'rating' with 2 %}
 
 The final show I attended was <cite>Best of the Fest</cite>. Beginning at midnight, the hour before brought with it a sense of anti-climax, as many of the outdoor areas had been vacated due to the heavy rain. The performers showcased at this event were fairly mediocre, and the MC, [Andrew Maxwell][10] relied on cursing and drug references more than seemed necessary. I did get to see [David O'Doherty][11] perform [<cite>Beefs 2011</cite>][12] live though, so it wasn’t all bad.
 

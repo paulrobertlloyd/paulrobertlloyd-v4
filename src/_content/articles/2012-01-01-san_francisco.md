@@ -9,7 +9,7 @@ category:
 - san_francisco
 - united_states
 ---
-{% include 'figure' with '/images/2012/01/san_francisco/ocean_beach.jpg'
+{% render 'figure' with '/images/2012/01/san_francisco/ocean_beach.jpg'
   caption: 'Sun setting over Ocean Beach.'
   alignment: 'bleed'
 %}
@@ -28,7 +28,7 @@ See also: [Stay hungry, stay foolish][10]. We talked a lot about the other Steve
 
 The gluttony of food (and friends) continued the next day, as I joined [Tom][11] for brunch at [Universal Cafe][12]. Yet the main event would be the wedding of Dan and Liz. They were getting married in [Haas-Lilienthal][13], a beautiful victorian house that survived the 1906 earthquake and fire. A small intimate affair, I was offered yet more wonderful food, which I enjoyed in the company of David and Athena.
 
-{% include 'figure' with '/images/2012/01/san_francisco/scenes.jpg'
+{% render 'figure' with '/images/2012/01/san_francisco/scenes.jpg'
   caption: 'Scenes from San Francisco: The Raygun Gothic Rocket, a Blue Bottle coffee and the Shell Building from Market Street.'
 %}
 

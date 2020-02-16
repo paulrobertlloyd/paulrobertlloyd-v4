@@ -24,11 +24,11 @@ screenshots:
 - url: /images/projects/mozilla_addons/screenshot_addon.png
   alt: Add-on detail page
 ---
-{% include 'screenshots' with screenshots
+{% render 'screenshots' with screenshots
   alignment: 'bleed'
 %}
 
-{% include 'aside' %}
+{% render 'aside' %}
 
 Mozilla Add-ons is a catalogue of over 6,000 add-ons that allows Firefox users to customise the browser to suit their individual interests and needs.
 

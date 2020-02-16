@@ -12,7 +12,7 @@ category:
 ---
 I had braced myself for its eventual fate, but seeing footage of Birmingham Central Library being demolished still brought a tear to my eye:
 
-{% include 'embed' with 'https://www.youtube.com/watch?v=hxvfIjddE6w'
+{% render 'embed' with 'https://www.youtube.com/watch?v=hxvfIjddE6w'
   caption: 'Time-lapse video documenting the demolition of Birmingham Central Library.'
 %}
 

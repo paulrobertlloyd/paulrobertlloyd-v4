@@ -20,7 +20,7 @@ In the last few years however, there has been a shift in the opposite direction.
 
 The speed at which these changes have been rolled out, has in part been aided by the creation of strict visual design guidelines, referred to as the [Global Visual Language][7] or GVL.
 
-{% include 'figure' with '/images/2010/02/bbc_online_gvl/mastheads.jpg'
+{% render 'figure' with '/images/2010/02/bbc_online_gvl/mastheads.jpg'
   caption: 'A selection of mastheads used on ‘Barlesque’ sites that adhere to the Global Visual Language v2.'
 %}
 
@@ -38,7 +38,7 @@ Comment in response to [BBC Music Website Relaunch][10]:
 
 I guess you could say I’m not a fan of Verdana! Furthermore, the new global masthead hid much of the sites navigation behind an ‘Explore’ button, and also lead to occasions where logos in the banner would clash with the main logo in the masthead:
 
-{% include 'figure' with '/images/2010/02/bbc_online_gvl/masthead_news.png'
+{% render 'figure' with '/images/2010/02/bbc_online_gvl/masthead_news.png'
   caption: 'The large logo in the masthead often clashed with logos within section banners. Originally the BBC News site showed the correct logo, but had to be altered to avoid it reading as BBC BBC NEWS.'
 %}
 
@@ -83,7 +83,7 @@ These principles have resulted in the following output:
 
 A new grid allows for much flexibility. Thirty-one 16px columns can be combined to create two or four columns on the left-hand side of the page, whilst a wider right-hand column ensures that advertising units (which are shown to international visitors) are accommodated. The choice of grid has lead to the introduction of interwoven vertical and horizontal bands, with the right-hand column becoming a signature feature across the site.
 
-{% include 'figure' with '/images/2010/02/bbc_online_gvl/grid.jpg'
+{% render 'figure' with '/images/2010/02/bbc_online_gvl/grid.jpg'
   caption: 'Example grid usage in the new Global Visual Language.'
 %}
 
@@ -109,7 +109,7 @@ The examples demonstrate a consistent cross-site navigation element across the t
 
 The embedded media players also get an update, as do carousels and other page components. To top it all off, the guidelines elicit the use of a single set of bespoke icons:
 
-{% include 'figure' with '/images/2010/02/bbc_online_gvl/icons.png'
+{% render 'figure' with '/images/2010/02/bbc_online_gvl/icons.png'
   caption: 'Icons used in the new Global Visual Language.'
 %}
 

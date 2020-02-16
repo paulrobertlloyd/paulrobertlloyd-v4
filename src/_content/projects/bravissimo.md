@@ -31,11 +31,11 @@ screenshots:
   - url: /images/projects/bravissimo/screenshot_brastrap_palette.png
     alt: Brastrap styleguide page detailing colour palettes
 ---
-{% include 'screenshots' with screenshots.product
+{% render 'screenshots' with screenshots.product
   alignment: 'bleed'
 %}
 
-{% include 'aside' %}
+{% render 'aside' %}
 
 [Bravissimo][1] is a British retailer that provides lingerie and swimwear for big boobed women. The company aims to give their customers an uplifting and confidence boosting experience, be that online, on the phones or in one of their 29 stores.
 
@@ -43,7 +43,7 @@ As part of a broader renewal strategy, they were looking to redevelop their site
 
 Clearleft had assembled a small team to work alongside the company’s in-house development team, led by Luke Bennett, to re-develop their e-commerce site. James Box concentrated on the user experience with James Bates providing an initial design direction.
 
-{% include 'screenshots' with screenshots.brastrap
+{% render 'screenshots' with screenshots.brastrap
   alignment: 'bleed'
 %}
 

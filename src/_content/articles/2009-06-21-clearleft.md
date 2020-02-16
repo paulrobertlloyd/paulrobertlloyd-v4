@@ -15,7 +15,7 @@ discussion: closed
 ---
 This month saw me become the ninth member of the Brighton based web agency [Clearleft][1].
 
-{% include 'figure' with '/images/2009/06/clearleft/team.jpg'
+{% render 'figure' with '/images/2009/06/clearleft/team.jpg'
   caption: 'The Clearleft team. Photograph: [Jack Barnes](https://www.flickr.com/photos/paulannett/3256245742/).'
   alignment: 'bleed'
 %}

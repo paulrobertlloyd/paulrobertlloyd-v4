@@ -13,7 +13,7 @@ category:
 ---
 With a [worsening financial crisis][1] and continued [destruction of the world’s natural resources][2], there are undoubtedly more important things to worry about than Twitter’s slightly tweaked bird logo. Yet here we are.
 
-{% include 'figure' with '/images/2012/06/twitterbird/logo.jpg'
+{% render 'figure' with '/images/2012/06/twitterbird/logo.jpg'
   caption: 'The new Twitter logo.'
 %}
 
@@ -31,7 +31,7 @@ Only if you ignore the flowery introduction and read [Bowman’s responses][6] t
 
 Still, where the previous logo had character and charm (the quiff was a beautiful touch), this revision perhaps better reflects the company as it stands today: slicker, more corporate, and balding. No place is this better reflected than in the company’s stringent new <cite>Trademark and Content Display Policy</cite>, for which [Gawker provides a helpful summary][8]:
 
-{% include 'figure' with '/images/2012/06/twitterbird/donts.png'
+{% render 'figure' with '/images/2012/06/twitterbird/donts.png'
   caption: 'Twitter bird usage guidelines.'
 %}
 

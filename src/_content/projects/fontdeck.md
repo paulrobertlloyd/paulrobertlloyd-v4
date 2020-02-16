@@ -35,11 +35,11 @@ screenshots:
   - url: /images/projects/fontdeck/screenshot_designer.png
     alt: Type designer page
 ---
-{% include 'screenshots' with screenshots.homepage
+{% render 'screenshots' with screenshots.homepage
   alignment: 'bleed'
 %}
 
-{% include 'aside' %}
+{% render 'aside' %}
 
 Fontdeck was a professional web font service that let designers and developers to choose from hundreds of web fonts and easily embed them in their websites.
 
@@ -61,7 +61,7 @@ It was also decided that we would improve the product in discreet stages. While 
 
 As I explored different design directions, it became clear to me that the design that had been used during private and public beta phases of the product roll-out no longer aligned with the redefined proposition. While elements of the previous design could be retained – the logo, the colour palette – a new approach was needed.
 
-{% include 'screenshots' with screenshots.typeface
+{% render 'screenshots' with screenshots.typeface
   caption: 'Exposing different means of discovery made it easier for users to browse Fontdeck’s catalogue. Information about an individual typeface was available on one page, with meta data presentationed in the sidebar.'
   alignment: 'bleed'
   image_preset: 'supporting'
@@ -71,7 +71,7 @@ Given the product’s focus, the type choice was clearly the overriding concern.
 
 Page layout was more considered, making heavy use of an underlying grid, with use of delicate line work and a clear typographic hierarchy. The number of rounded corners used in the original design was reduced, while the playing card device was limited to account and project pages, where users managed their font ‘decks’.
 
-{% include 'screenshots' with screenshots.ancillary
+{% render 'screenshots' with screenshots.ancillary
   caption: 'About page and foundry directory.'
   alignment: 'bleed'
   image_preset: 'supporting'
@@ -81,7 +81,7 @@ The previous text-heavy about page was replaced by an expanded about section tha
 
 Type designer and foundry pages previously consisted of plain alphabetical indices of names. I saw this as an opportunity to make those responsible for the fonts available in the library the heroes of the service. Individual foundry and designer pages now featured a photo or logo and short bio alongside a list of the fonts they had created.
 
-{% include 'quote' with 'Working on Fontdeck with Paul was a pleasure. He brought his usual meticulous attention in redesigning the site, resulting in a far more consistent and harmonious feel, along with numerous small yet significant improvements in usability. Ultimately Paul added the finesse the site was missing.'
+{% render 'quote' with 'Working on Fontdeck with Paul was a pleasure. He brought his usual meticulous attention in redesigning the site, resulting in a far more consistent and harmonious feel, along with numerous small yet significant improvements in usability. Ultimately Paul added the finesse the site was missing.'
   caption: 'Richard Rutter, co-founder and CEO'
 %}
 

@@ -12,7 +12,7 @@ category:
 ---
 Aged 13, and having recently moved to the West Midlands from Surrey, I was the new kid at school with a funny sounding accent and below average height. If adolescence wasn’t enough to be getting on with, this confounding and unsettling situation had to be dealt with as well.
 
-{% include 'figure' with '/images/2017/01/heres_to_the_doctor/james_dicks.jpg'
+{% render 'figure' with '/images/2017/01/heres_to_the_doctor/james_dicks.jpg'
   alt: 'James at his wedding in 2009'
   image_preset: 'supporting'
   alignment: 'pull'

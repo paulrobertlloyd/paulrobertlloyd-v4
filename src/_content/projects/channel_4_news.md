@@ -32,11 +32,11 @@ screenshots:
   - url: /images/projects/channel_4_news/screenshot_catchup.png
     alt: Catch-up screen
 ---
-{% include 'screenshots' with screenshots.tablet
+{% render 'screenshots' with screenshots.tablet
   alignment: 'bleed'
 %}
 
-{% include 'aside' %}
+{% render 'aside' %}
 
 Broadcast weeknights at 7pm, <cite>[Channel 4 News][1]</cite> is noted for its award-winning coverage of international news and extensive current affairs reporting.
 
@@ -44,7 +44,7 @@ After redesigning their website, Channel 4 wished to reimagine the Channel 4 New
 
 Shortly after its launch Apple featured the app as App of the Week. In a few short weeks the application received over one hundred positive reviews, with an average rating of 4.5 stars.
 
-{% include 'screenshots' with screenshots.sections
+{% render 'screenshots' with screenshots.sections
   caption: 'Category, article and catch-up screens within the app.'
   image_preset: 'supporting'
   alignment: 'bleed'

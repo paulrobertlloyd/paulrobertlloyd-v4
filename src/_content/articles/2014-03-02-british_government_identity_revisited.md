@@ -27,7 +27,7 @@ In my original post I imagined what a unified identity for HM Government, its de
 
 Seeing the identity now in use, we can see that I was at least half right:
 
-{% include 'figure' with '/images/2014/03/british_government_identity.png'
+{% render 'figure' with '/images/2014/03/british_government_identity.png'
   caption: 'Logos for HM Government, Department of Health, UK Trade & Investment, Department for Business Innovation & Skills, the Home Office, Ministry of Defence and HM Revenue & Customs.'
 %}
 

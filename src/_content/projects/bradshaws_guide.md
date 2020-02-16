@@ -32,17 +32,17 @@ screenshots:
   - url: /images/projects/bradshaws_guide/screenshot_mobile_station.png
     alt: Station page on mobile
 ---
-{% include 'screenshots' with screenshots.homepage
+{% render 'screenshots' with screenshots.homepage
   alignment: 'bleed'
 %}
 
-{% include 'aside' %}
+{% render 'aside' %}
 
 [Bradshaw’s Guide][1] is a digital revival of George Bradshaw’s eponymous guide to Britain and Ireland’s nascent railway network as it existed in 1866.
 
 Reproductions of his handbook are over an inch thick; pocket-sized by Victorian standards, but not when compared to our slim wireless companions. This ongoing self-directed project aims to make Bradshaw’s work accessible to a new audience, be they tourists wanting to spend more time on today’s network, or commuters wishing to learn about the places they pass by every day.
 
-{% include 'screenshots' with screenshots.station
+{% render 'screenshots' with screenshots.station
   caption: 'Station pages feature photochrom images sourced from the Library of Congress.'
 %}
 
@@ -50,7 +50,7 @@ The design seeks to combine the aesthetic of the Victorian era with modern sensi
 
 Producing content for the guide involved transcribing and correcting copy originating from an automated OCR process. As this copy already exists in the public domain, I released the newly digitised text on [a public GitHub repository][2], alongside the source code for the website.
 
-{% include 'screenshots' with screenshots.mobile
+{% render 'screenshots' with screenshots.mobile
   caption: 'The design is optimised for small screen devices.'
   alignment: 'bleed'
 %}

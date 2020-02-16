@@ -22,11 +22,11 @@ screenshots:
   - url: /images/projects/ec_english/screenshot_school.png
     alt: New York school page
 ---
-{% include 'screenshots' with screenshots.school
+{% render 'screenshots' with screenshots.school
   alignment: 'bleed'
 %}
 
-{% include 'aside' %}
+{% render 'aside' %}
 
 [EC English][1] specialises in the teaching English as part of a language/travel experience. It currently runs 21 English Language schools in five countries on three continents: the UK, USA, Canada, South Africa and Malta.
 
@@ -36,7 +36,7 @@ After undertaking a series of discovery and research activities including an exp
 
 Beyond developing the prototype, I delivered the beginnings of a component library. Each component needed to account for different languages, including those that run right-to-left. Using Flexbox meant these components could be developed independently of language choice, with different writing modes achieved simply by providing the correct `dir` attribute on the `body` element.
 
-{% include 'quote' with 'The work you did for us a was a great success, basically providing the business case for redesigning the whole site.'
+{% render 'quote' with 'The work you did for us a was a great success, basically providing the business case for redesigning the whole site.'
   caption: 'Ric Francis, Development Director'
 %}
 

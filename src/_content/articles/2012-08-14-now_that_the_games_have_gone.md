@@ -10,7 +10,7 @@ category:
 - olympics
 - london_2012
 ---
-{% include 'figure' with '/images/2012/08/now_that_the_games_have_gone.jpg'
+{% render 'figure' with '/images/2012/08/now_that_the_games_have_gone.jpg'
   caption: 'London 2012 Closing Ceremony.'
   alignment: 'bleed'
 %}

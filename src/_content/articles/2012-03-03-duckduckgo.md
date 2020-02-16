@@ -15,7 +15,7 @@ Even by ignoring these concerns, it’s hard to deny that their flagship product
 
 ## I want to break free (of your lies)
 
-{% include 'figure' with '/images/2012/03/duckduckgo.svg'
+{% render 'figure' with '/images/2012/03/duckduckgo.svg'
   alt: 'DuckDuckGo logo'
   alignment: 'pull'
 %}

@@ -29,11 +29,11 @@ category:
 tags:
 - source:digital_arts
 ---
-{% include 'figure' with '/images/2013/05/bohemian_coding_sketch_2_review/canvas_and_artboards.png'
+{% render 'figure' with '/images/2013/05/bohemian_coding_sketch_2_review/canvas_and_artboards.png'
   caption: 'Canvas and artboards in Sketch'
 %}
 
-{% include 'product' %}
+{% render 'product' %}
 
 During the earliest days of my career, I considered Adobe’s Dreamweaver and Fireworks to be the tools of my trade. As I stopped creating table-based layouts, Dreamweaver was replaced by a succession of text editors, but Fireworks remained an indispensable — if buggy — part of my arsenal.
 
@@ -43,7 +43,7 @@ Like Dreamweaver before it, Fireworks feels like an application that’s no long
 
 Enter Sketch, from Bohemian Coding. After several years of development, this Mac-only application has matured enough to be seen as a viable alternative; one not bloated by a succession of features aimed at narrow markets (Photoshop, I’m looking at you).
 
-{% include 'figure' with '/images/2013/05/bohemian_coding_sketch_2_review/combined_shape.png'
+{% render 'figure' with '/images/2013/05/bohemian_coding_sketch_2_review/combined_shape.png'
   caption: 'Combining shapes in Sketch'
 %}
 
@@ -61,7 +61,7 @@ There’s a deliberate relationship between these style options and what can be 
 
 Styles can also be linked; changing the appearance of one shape will affect linked shapes as well. However, with no support for symbols, reusing common elements within your designs is not currently possible.
 
-{% include 'figure' with '/images/2013/05/bohemian_coding_sketch_2_review/shape_styles.png'
+{% render 'figure' with '/images/2013/05/bohemian_coding_sketch_2_review/shape_styles.png'
   caption: 'Shape styles in Sketch'
 %}
 

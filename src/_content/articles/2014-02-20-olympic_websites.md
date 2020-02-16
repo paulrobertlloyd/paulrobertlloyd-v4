@@ -13,7 +13,7 @@ category:
 - sochi_2014
 - web
 ---
-{% include 'figure' with '/images/2014/02/olympic_websites/anastasiya_kuzmina.jpg'
+{% render 'figure' with '/images/2014/02/olympic_websites/anastasiya_kuzmina.jpg'
   caption: 'Gold medalist Anastasiya Kuzmina of Slovakia celebrates during the medal ceremony for the Biathlon Women’s 7.5 km Sprint.'
   alignment: 'bleed'
 %}
@@ -32,13 +32,13 @@ It’s too early to know what London 2012 will add to this rich history, but sur
 
 I believe that has proven to be the case. The logo for [Sochi 2014][10] was clearly influenced by that of London 2012, and although [Rio 2016][11] reverts to a more traditional design, [PyeongChang 2018’s][12] is just as original as London’s:
 
-{% include 'figure' with '/images/2014/02/olympic_websites/logos_2012-2018.png'
+{% render 'figure' with '/images/2014/02/olympic_websites/logos_2012-2018.png'
   caption: 'Logos for the London 2012, Sochi 2014, Rio 2016 and PyeongChang 2018 Olympic Games.'
 %}
 
 While much publicity is poured over these logos and emblems, they play a supporting role to that of the five interlocking rings; [Pierre de Coubertin’s ingenious symbol][13] is still going strong 102 years later. In fact, it almost doesn’t matter what logo an organising committee chooses as it’ll often be reduced down to a horizontal wordmark anyway:
 
-{% include 'figure' with '/images/2014/02/olympic_websites/stephen_kiprotich.jpg'
+{% render 'figure' with '/images/2014/02/olympic_websites/stephen_kiprotich.jpg'
   caption: 'Uganda’s Stephen Kiprotich crosses the finish line to win the men’s marathon in the London 2012 Olympic Games. The wordmark features but the logo for those Games does not.'
   alignment: 'bleed'
 %}
@@ -53,7 +53,7 @@ This press release is no longer available, probably because **the website has fa
 
 Ignoring the fact that [sochi2014.ru][15] redirects to a canonical domain of sochi2014.com, it’s hard to believe that in 2014, a website with such international reach, financial backing and development timescale is not responsive, particularly given the rationale around the logo.
 
-{% include 'figure' with '/images/2014/02/olympic_websites/sochi_2014.png'
+{% render 'figure' with '/images/2014/02/olympic_websites/sochi_2014.png'
   caption: 'Website of the Sochi 2014 XXII Olympic Winter Games.'
 %}
 
@@ -69,7 +69,7 @@ Whereas the world’s foremost architects, graphic artists, typographers, iconog
 
 Surely a desire to produce modern, great looking websites must exist somewhere within the Olympic movement? Those hoping to host future games clearly understand the importance of good design on the web. None more so than the city of Oslo, which announced its intention to bid for the 2022 winter games by launching the stunning [ol22.no][21]:
 
-{% include 'figure' with '/images/2014/02/olympic_websites/oslo_2022.png'
+{% render 'figure' with '/images/2014/02/olympic_websites/oslo_2022.png'
   caption: 'Website for Oslo 2022, applicant to host the Winter Games of 2022.'
 %}
 

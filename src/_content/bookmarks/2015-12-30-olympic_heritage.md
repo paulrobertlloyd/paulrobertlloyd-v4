@@ -7,7 +7,7 @@ category:
 - olympics
 - design
 ---
-{% include 'embed' with bookmark-of
+{% render 'embed' with bookmark-of
   poster: 'https://i.vimeocdn.com/video/663873356'
 %}
 

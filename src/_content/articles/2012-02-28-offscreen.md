@@ -10,7 +10,7 @@ category:
 - writing
 - offscreen_magazine
 ---
-{% include 'figure' with '/images/2012/02/offscreen.jpg'
+{% render 'figure' with '/images/2012/02/offscreen.jpg'
   caption: 'Cover of Issue No1. Photograph: [Kai Brach](https://www.flickr.com/photos/brakai295/6873407277/).'
   alignment: 'bleed'
 %}

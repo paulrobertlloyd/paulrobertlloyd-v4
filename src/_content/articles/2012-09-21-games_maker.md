@@ -15,7 +15,7 @@ tags:
 - featured
 discussion: closed
 ---
-{% include 'figure' with '/images/2012/09/games_maker/olympic_park.jpg'
+{% render 'figure' with '/images/2012/09/games_maker/olympic_park.jpg'
   caption: 'Me and my fellow Games Makers in the Olympic Park.'
 %}
 
@@ -49,7 +49,7 @@ Surrounded by colleagues of all ages, professions and backgrounds, I was using l
 
 A two-year journey had come to an abrupt end, the nervy expectation of two weeks prior replaced with an uneasy emptiness. Before our first shift, we were told to enjoy ourselves as it would be over before we knew it. And so it was proven.
 
-{% include 'figure' with '/images/2012/09/games_maker/last_night.jpg'
+{% render 'figure' with '/images/2012/09/games_maker/last_night.jpg'
   caption: 'A photo from the final Games Maker shift.'
 %}
 

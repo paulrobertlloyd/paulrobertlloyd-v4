@@ -16,7 +16,7 @@ Life is full of contrasts, but rarely are they so stark. Travelling back from Ob
 
 McDonald’s isn’t the first place you’d expect to establish a life-long friendship, but this was my good fortune. I don’t remember the first time I met Kris, but I recall returning to the restaurant after my first year at university and being surprised to find him wearing a manager’s shirt. You see, Kris was never one to take the job seriously — few did — and he was often at the centre of various jokes and pranks. But likeable and smart, he knew how to have fun and get the job done. Not only that, he instilled that same attitude in others. Later promoted to the same position, I soon discovered that supervising teenagers in an environment peppered with health and safety risks was incredibly stressful and not the least bit enjoyable, which only made Kris’ abilities all the more impressive.
 
-{% include 'figure' with '/images/2018/02/kris_benbow/coed-y-brenin.jpg'
+{% render 'figure' with '/images/2018/02/kris_benbow/coed-y-brenin.jpg'
   caption: 'Mark, Kris, Jon, myself and Lee on the Red Bull trail. Coed-y-Brenin, Wales, 2004.'
   alignment: 'bleed'
 %}
@@ -25,7 +25,7 @@ Thankfully, my memories of Kris aren’t limited to him being a manager. Having 
 
 Every summer, a group of us would head to Dolgellau in Wales. The stated aim was to tackle the Red Bull mountain bike course at nearby Coed-y-Brenin, but over the years this trip devolved into something less adventurous; pitching our tents around a campfire, drinking beer and barbecuing meat. For Kris, a man known for his fondness of creature comforts and the easy life, this wasn’t as appealing; he’d much rather spend the weekend at a health spa, or better still, at home, surrounded by various gadgets.
 
-{% include 'figure' with '/images/2018/02/kris_benbow/sydney.jpg'
+{% render 'figure' with '/images/2018/02/kris_benbow/sydney.jpg'
   caption: 'Fordy and Kris dancing on my grave. Manly Beach, Sydney, 2003.'
   alignment: 'pull'
   image_preset: 'supporting'

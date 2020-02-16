@@ -10,7 +10,7 @@ category:
 tags:
 - source:24_ways
 ---
-{% include 'quote' with 'There are only two hard things in computer science: cache invalidation and naming things.'
+{% render 'quote' with 'There are only two hard things in computer science: cache invalidation and naming things.'
   caption: 'Phil Karlton'
 %}
 

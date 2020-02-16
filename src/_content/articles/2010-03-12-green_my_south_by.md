@@ -11,7 +11,7 @@ category:
 ---
 Once again, I feel the duty falls upon me to remind those attending this year’s SXSW festival in Austin, that you really need not pick up that big, heavy, cumbersome and frankly useless bag of marketing junk.
 
-{% include 'figure' with '/images/2010/03/green_my_south_by.png'
+{% render 'figure' with '/images/2010/03/green_my_south_by.png'
   caption: 'South By 2010: Tomorrow Happens Here.'
 %}
 

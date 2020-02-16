@@ -25,11 +25,11 @@ screenshots:
 - url: /images/projects/bookfhr/screenshot_parking.png
   alt: Parking search results page
 ---
-{% include 'screenshots' with screenshots
+{% render 'screenshots' with screenshots
   alignment: 'bleed'
 %}
 
-{% include 'aside' %}
+{% render 'aside' %}
 
 [BookFHR][1] provides discounts on airport hotels, parking, lounges and other travel services in the UK.
 

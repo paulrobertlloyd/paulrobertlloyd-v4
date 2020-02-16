@@ -16,7 +16,7 @@ A standard design for a personal computer did not exist — in fact the idea of 
 
 ## The Apple II
 
-{% include 'figure' with '/images/2000/04/beige_to_bondiblue/apple_ii_campaign.jpg'
+{% render 'figure' with '/images/2000/04/beige_to_bondiblue/apple_ii_campaign.jpg'
   caption: 'An Apple II Advertisement.'
   alignment: 'pull'
   image_preset: 'thumbnail'
@@ -52,7 +52,7 @@ Apple’s acquisition of NeXT in 1996 brought Steve Jobs back to the company and
 
 The result was the iMac, and the man responsible for its design was London-born Jonathan Ive — Apple’s Vice President of Industrial Design.
 
-{% include 'figure' with '/images/2000/04/beige_to_bondiblue/apple_imac.png'
+{% render 'figure' with '/images/2000/04/beige_to_bondiblue/apple_imac.png'
   caption: 'The iMac.'
   alignment: 'bleed'
 %}
@@ -73,7 +73,7 @@ Design cues of the CPU were also mirrored in the keyboard, which shared the same
 
 Later the Bondi-Blue colour was replaced with Blueberry (a lighter bluer colour), and four other colours were introduced. For the first time the consumer could decide the colour of their computer — something they were able to do with their cars decades ago. With the second major revision, a new graphite (grey) colour was introduced which was more transparent than the five other colours and was aimed at a more conservative user.
 
-{% include 'figure' with '/images/2000/04/beige_to_bondiblue/apple_imac_flowershot.png'
+{% render 'figure' with '/images/2000/04/beige_to_bondiblue/apple_imac_flowershot.png'
   caption: 'A later revision to the iMac would introduced four additional colour options.'
 %}
 

@@ -7,7 +7,7 @@ category:
 - ethics
 - design
 ---
-{% include 'embed' with bookmark-of %}
+{% render 'embed' with bookmark-of %}
 
 Possibly the most important design talk you’ll hear this year:
 

@@ -31,7 +31,7 @@ photoset:
   height: 360
 -%}
 {%- endcapture -%}
-{% include 'figure'
+{% render 'figure'
   figure_content: map
   caption: 'Route map: Copenhagen to Humlebæk, Malmö, Trelleborg and Hässleholm.'
   alignment: 'pull'
@@ -45,7 +45,7 @@ There’s a lot to see, but having visited once before — albeit briefly when I
 
 My stomach rumbling, I look for restaurants on Foursquare. Some former colleagues worked with a client here several years ago, so several recommendations have familiar faces beside them. The top suggestion is [*Paludan Bogcafé*{lang="da"}][3] located just off *Strøget*{lang="da"} — one of the longest shopping streets in Europe. This cafe come library is surprisingly roomy, despite its popularity. Food is ordered at the counter, which is hidden behind a lengthy queue; that no one wants to abandon it suggests the food worth the wait. I order the chicken burger, which comes with lightly roasted potatoes and a pot of chilli mayo. Every mile of the 600 travelled so far is *totally* worth it as I savour my first bite.
 
-{% include 'figure' with '/images/2020/01/copenhagen/nyhavn.jpg'
+{% render 'figure' with '/images/2020/01/copenhagen/nyhavn.jpg'
   caption: 'The brightly coloured townhouses at Nyhavn, a familiar image of Copenhagen'
   alignment: 'bleed'
 %}
@@ -62,7 +62,7 @@ I open my curtains and look through rain-splattered windows to see dark skies an
 
 The [Royal Danish Library][9] is open, however, so I head there. Its modern extension was constructed at the turn of the century and has since been dubbed the *Black Diamond*. Much like its contemporary, [the Sage][10] in Gateshead, its interior attempts to imply magnificence with a large, well-lit atrium, yet it feels vacant and soulless. The older part of the building with its reading room and shelves stuffed with books, directories and encyclopaedias, is far more interesting.
 
-{% include 'figure' with '/images/2020/01/copenhagen/krak.jpg'
+{% render 'figure' with '/images/2020/01/copenhagen/krak.jpg'
   caption: 'No idea what these are, but they make for a nice image.'
 %}
 
@@ -90,7 +90,7 @@ Another grey day, but with the museums open again I’m spoilt for choice. Emil 
 
 There’s a remarkable symmetry between this and that of Olafur Eliasson’s [recent exhibition at Tate Modern][20]. In <cite>Blue, Red and Yellow</cite>, visitors are encouraged to step into a large perspex container filled with smoke illuminated by those colours. Disorienting and disembodying, only six people are allowed entry at a time. Eliasson created a similar effect in his work <cite>Your blind passenger</cite>; it should be noted that Janssens’ piece precedes it by about nine years.
 
-{% include 'photos' with photoset
+{% render 'photos' with photoset
   caption: '<cite>Blue, Red and Yellow</cite> and <cite>Gleaming Lights Of The Souls</cite>.'
   alignment: 'bleed'
   image_preset: 'supporting'

@@ -16,7 +16,7 @@ On flicking through the newspaper on the train home yesterday, I spotted an adve
 
 I had been vaguely aware of their recent marketing campaigns where the logo slots into the top right corner of a distinctive trapezium containing shape. However on seeing this particular advertisement close up, I did a quick double take, spotting what seemed to be an updated logo. A quick search on Google images confirmed my suspicion.
 
-{% include 'figure' with '/images/2010/02/logo_spotting/network_rail.png'
+{% render 'figure' with '/images/2010/02/logo_spotting/network_rail.png'
   caption: 'Network Rail: The original logo (2002) and the updated version (2009).'
 %}
 
@@ -30,13 +30,13 @@ The distinctive red triangle also moves closer to the text, and the two cut outs
 
 ## MTV
 
-{% include 'figure' with '/images/2010/02/logo_spotting/mtv.png'
+{% render 'figure' with '/images/2010/02/logo_spotting/mtv.png'
   caption: 'The original MTV logo (1981) and the updated version (2010).'
 %}
 
 Whilst the identity for Network Rail may have gone unnoticed, you are unlikely to have missed the MTV refresh [announced earlier this week][3]. Much like Network Rail, this is more of a realignment than an all out redesign, although the changes are possibly more noticeable. I initially thought the legs had somehow been mis-cropped, yet after my initial shock I think the new proportions work surprisingly well, possibly reflecting the evolution of television with this new, almost widescreen ratio.
 
-{% include 'figure' with '/images/2010/02/logo_spotting/mtv_variations.png'
+{% render 'figure' with '/images/2010/02/logo_spotting/mtv_variations.png'
   caption: 'MTV logo variations.'
 %}
 
@@ -46,13 +46,13 @@ It’s an old idea ([this in-depth article][7] by Roger van den Bergh gives you 
 
 ## City of Melbourne
 
-{% include 'figure' with '/images/2010/02/logo_spotting/city_of_melbourne.png'
+{% render 'figure' with '/images/2010/02/logo_spotting/city_of_melbourne.png'
   caption: 'City of Melbourne: The previous logo and the new version.'
 %}
 
 Finally, if we are to talk about ‘M’ shaped containing identities, then I can’t leave without mentioning my favourite identity project of last year for the [City of Melbourne][9], which frankly blows MTV’s mediocre efforts clean out of the water. Aren’t these just fantastic?
 
-{% include 'figure' with '/images/2010/02/logo_spotting/city_of_melbourne_variations.png'
+{% render 'figure' with '/images/2010/02/logo_spotting/city_of_melbourne_variations.png'
   caption: 'City of Melbourne logo variations.'
 %}
 

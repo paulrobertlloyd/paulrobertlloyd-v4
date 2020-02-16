@@ -30,7 +30,7 @@ Armed with clean clothes and a fully charged camera, I bravely ventured into the
 
 Looking west, I spotted the distinctive [JK Memorial][4]. I decided to get there next on foot, although walking is definitely not recommended in a city built around the car. The memorial to [Juscelino Kubitschek][5], whose idea it was to build this city, gave me my first taste of the futuristic architecture Brasília is renowned for; this building could easily have been mistaken for a secret hideout for a James Bond villain.
 
-{% include 'figure' with '/images/2011/07/remembering_brasilia/dom_bosco.jpg'
+{% render 'figure' with '/images/2011/07/remembering_brasilia/dom_bosco.jpg'
   caption: 'The breathtaking interior of Santuário Dom Bosco.'
   alignment: 'bleed'
 %}

@@ -8,7 +8,7 @@ category:
 - television
 - demetri_martin
 ---
-{% include 'figure' with '/images/2009/02/important_things.jpg'
+{% render 'figure' with '/images/2009/02/important_things.jpg'
   caption: 'Promotion for Important Things.'
 %}
 

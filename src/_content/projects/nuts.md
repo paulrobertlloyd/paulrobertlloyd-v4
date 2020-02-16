@@ -28,17 +28,17 @@ screenshots:
   - url: /images/projects/nuts/screenshot_customtray.png
     alt: Custom tray configuration
 ---
-{% include 'screenshots' with screenshots.showcase
+{% render 'screenshots' with screenshots.showcase
   alignment: 'bleed'
 %}
 
-{% include 'aside' %}
+{% render 'aside' %}
 
 [Nuts.com][1] is a family business founded over eighty years ago in Cranford, New Jersey. Employing sixty staff and turning over more than $20 million per year, the company is “more than just nuts”; it sells thousands of products including dried fruit, sweets, spices, coffees, teas and much more. Their success is built on a passion for quality food, a deep connection with their heritage and good old-fashioned customer service.
 
 Although successful, their site had grown organically over time, and had lost any design consistency and become difficult to navigate. Over a two-year period, I and other colleagues at Clearleft assisted CEO Jeff Braverman and lead programmer Ben Shakal in improving their site, ensuring the unique, customer-centred personality of the company wasn't lost in the desire to simplify and streamline.
 
-{% include 'screenshots' with screenshots.customtray
+{% render 'screenshots' with screenshots.customtray
   caption: 'One sprint focused on designing and testing a new custom tray creation experience.'
 %}
 

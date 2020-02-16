@@ -22,7 +22,7 @@ With that in mind, and excusing the obvious bias, I’m massively looking forwar
 
 > There’s so many interwoven, and sometimes adversarial, disciplines involved that I felt that everyone’s tale needed to be told. I wanted to try and tell the whole story in one day, from experts and practitioners of the different disciplines. I felt that if I, as primarily a website designer, knew more about the type design decisions, the hinting process, the issues browser makers have, then I could become a better designer.
 
-{% include 'figure' with '/images/2011/05/ampersand.svg'
+{% render 'figure' with '/images/2011/05/ampersand.svg'
   alt: 'Ampersand logo'
   alignment: 'pull'
 %}

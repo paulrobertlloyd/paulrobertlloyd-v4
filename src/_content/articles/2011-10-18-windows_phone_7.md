@@ -14,7 +14,7 @@ With three years of iPhone ownership I’ve become accustomed to the design and 
 
 Thankfully, with Clearleft having acquired a few different devices for mobile testing, I can spend a little time with each to learn how they work. First up; Windows Phone 7.
 
-{% include 'figure' with '/images/2011/10/windows_phone_7.jpg'
+{% render 'figure' with '/images/2011/10/windows_phone_7.jpg'
   caption: 'Windows Phone 7.'
 %}
 

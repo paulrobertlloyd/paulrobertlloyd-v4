@@ -14,7 +14,7 @@ tags:
 - featured
 discussion: closed
 ---
-{% include 'figure' with '/images/2009/06/historic_counties_and_psychoville/letter.jpg'
+{% render 'figure' with '/images/2009/06/historic_counties_and_psychoville/letter.jpg'
   caption: 'Scene from Psychoville.'
   alignment: 'bleed'
 %}

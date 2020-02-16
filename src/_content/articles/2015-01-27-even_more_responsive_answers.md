@@ -12,7 +12,7 @@ category:
 tags:
 - source:net_magazine
 ---
-{% include 'figure' with '/images/2015/01/guardian_navigation.png'
+{% render 'figure' with '/images/2015/01/guardian_navigation.png'
   caption: 'The Guardian’s navigation on smaller displays prioritises page signposting, but all site sections can still be accessed with one tap.'
   alignment: 'bleed'
 %}
@@ -23,11 +23,11 @@ In the spirit of [previous][2] [articles][3], I’m sharing my unedited answers 
 
 ## Navigation
 
-{% include 'quote' with 'What is your recommended method of handling dropdown menus when viewed on tablet and smartphone devices?'
+{% render 'quote' with 'What is your recommended method of handling dropdown menus when viewed on tablet and smartphone devices?'
   caption: '[@Jordan_Simpson, 4 December 2014](https://twitter.com/jordan_simpson/status/540520320374157312)'
 %}
 
-{% include 'quote' with 'What are the best ways or resources out there you can use to convert a desktop menu into a mobile one?'
+{% render 'quote' with 'What are the best ways or resources out there you can use to convert a desktop menu into a mobile one?'
   caption: '[@LeeCraigStewart, 4 December 2014](https://twitter.com/leecraigstewart/status/540514957159583744)'
 %}
 
@@ -39,7 +39,7 @@ A great resource for responsive patterns (including those dealing with navigatio
 
 ## Tables
 
-{% include 'quote' with 'I deal a lot with dashboards and still can’t find a good way of handling tables… please help!'
+{% render 'quote' with 'I deal a lot with dashboards and still can’t find a good way of handling tables… please help!'
   caption: '[@joewattsdesign, 4 December 2014](https://twitter.com/joewattsdesign/status/540530144616910848)'
 %}
 
@@ -47,7 +47,7 @@ As no two tables are the same, there’s no definitive solution. Simpler tables 
 
 ## Advertising
 
-{% include 'quote' with 'How do you deal with fixed width banner ads in a responsive site?'
+{% render 'quote' with 'How do you deal with fixed width banner ads in a responsive site?'
   caption: '[@andybudd, 4 December 2014](https://twitter.com/andybudd/status/540515016823549953)'
 %}
 

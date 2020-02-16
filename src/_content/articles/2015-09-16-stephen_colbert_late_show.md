@@ -12,7 +12,7 @@ category:
 - politics
 - television
 ---
-{% include 'figure' with '/images/2015/09/stephen_colbert_late_show.jpg'
+{% render 'figure' with '/images/2015/09/stephen_colbert_late_show.jpg'
   caption: 'Stephen Colbert interviewing George Clooney on his first night as host of the new <cite>Late Show</cite>. Photo: CBS.'
 %}
 
@@ -24,7 +24,7 @@ Now, having watched clips from his first week sat behind the desk inside a renov
 
 On any other show, an interview with Uber’s CEO [Travis Kalanick][5] would have been fawning and over congratulatory, but Colbert’s questions didn’t avoid the controversies surrounding this company. It also revealed Kalanick’s rather hollow and evasive personality:
 
-{% include 'embed' with 'https://www.youtube.com/watch?v=wGdjLv8neBs'
+{% render 'embed' with 'https://www.youtube.com/watch?v=wGdjLv8neBs'
   caption: 'Stephen Colbert interviewing Travis Kalanick.'
 %}
 

@@ -13,7 +13,7 @@ tags:
 - project:bradshaws_guide
 discussion: closed
 ---
-{% include 'figure' with '/images/2013/04/bradshaws_guide/iphone.png'
+{% render 'figure' with '/images/2013/04/bradshaws_guide/iphone.png'
   caption: 'Bradshaw’s Guide being viewed on an iPhone.'
   alignment: 'bleed'
 %}
@@ -32,7 +32,7 @@ Bradshaw’s work is well suited to hypertext, with stations categorised by loca
 
 Besides the historical, technical and artistic aspects, making Bradshaw’s work more widely available might also encourage people to spend more time on the railways and holiday at home, rather than fly overseas (readers should ignore the author’s current location).
 
-{% include 'figure' with '/images/2013/04/bradshaws_guide/ipad.png'
+{% render 'figure' with '/images/2013/04/bradshaws_guide/ipad.png'
   caption: 'Bradshaw’s Guide viewed on an iPad.'
 %}
 

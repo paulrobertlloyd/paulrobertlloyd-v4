@@ -11,7 +11,7 @@ category:
 - san_francisco
 - united_states
 ---
-{% include 'figure' with '/images/2011/03/san_francisco/fishermans_wharf.jpg'
+{% render 'figure' with '/images/2011/03/san_francisco/fishermans_wharf.jpg'
   caption: 'Boats docked in Fisherman’s Wharf.'
   alignment: 'bleed'
 %}
@@ -26,7 +26,7 @@ The following day I visited SFMoMA, a modern art museum that is far more spaciou
 
 Before going on to visit the equally impressive City Hall, I enjoyed a discussion about the role of technology with [Tristan][1] in South Park, whilst sipping an Iced Latte — when in Rome do as the Romans do. That evening I shared a selection of scrumptious pizzas at Zero Zero with David and Athena whilst catching up on the latest gossip and industry insight.
 
-{% include 'figure' with '/images/2011/03/san_francisco/stanford_university.jpg'
+{% render 'figure' with '/images/2011/03/san_francisco/stanford_university.jpg'
   caption: 'Outdoor corridor at Stanford University.'
 %}
 

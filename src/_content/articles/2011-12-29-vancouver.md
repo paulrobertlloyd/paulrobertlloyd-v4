@@ -9,7 +9,7 @@ category:
 - vancouver
 - canada
 ---
-{% include 'figure' with '/images/2011/12/vancouver/marina.jpg'
+{% render 'figure' with '/images/2011/12/vancouver/marina.jpg'
   caption: 'Vancouver waterfront from Stanley Park.'
   alignment: 'bleed'
 %}
@@ -22,19 +22,19 @@ After checking into the [St. Regis Hotel][3] (worthy of mention, and highly reco
 
 I was unsure how to spend my single day in Vancouver. Dave recommended visiting [Stanley Park][7] if the weather was good; luckily the predicted rainfall was absent so I headed in that direction. I was easily drawn into this expansive park; beautiful in and of itself yet also a great spot to find magnificent views of the cityscape. Always on the look out for a good walking trail, I spotted the 8.8km Seawall and followed the circumference of the park.
 
-{% include 'figure' with '/images/2011/12/vancouver/stanley_park.jpg'
+{% render 'figure' with '/images/2011/12/vancouver/stanley_park.jpg'
   caption: 'Brilliant Autumn colours in Stanley Park.'
 %}
 
 From this trail I saw the Harry Jerome statue, the 9 O'Clock Gun, the Lionsgate Bridge stretching across the harbour, and in the distance much of Vancouver’s industry, including mounds of Sulphur located irresponsibly close to such a populated city. Halfway round, I stopped to admire the limitless views across the Salish Sea, where sailboats and oil tankers floated upon a still mirror-like surface.
 
-{% include 'figure' with '/images/2011/12/vancouver/salish_sea.jpg'
+{% render 'figure' with '/images/2011/12/vancouver/salish_sea.jpg'
   caption: 'Ships on the Salish Sea.'
 %}
 
 As I reached the end of the trail, the heavens opened. With a distance between me and my hotel, I was soon soaked to the bone. Reverting to type, I ended up in the local mall and regrettably ate something vaguely resembling sweet and sour chicken in the food court. Never again.
 
-{% include 'figure' with '/images/2011/12/vancouver/sulphur.jpg'
+{% render 'figure' with '/images/2011/12/vancouver/sulphur.jpg'
   caption: 'Sulphur mounds across the harbour — too close for comfort?'
 %}
 

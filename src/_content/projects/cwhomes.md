@@ -26,11 +26,11 @@ screenshots:
 - url: /images/projects/cwhomes/screenshot_property.png
   alt: Property detail page
 ---
-{% include 'screenshots' with screenshots
+{% render 'screenshots' with screenshots
   alignment: 'bleed'
 %}
 
-{% include 'aside' %}
+{% render 'aside' %}
 
 cwhomes.co.uk was a property portal that combined the resources of over sixty independent estate agency offices within Coventry and Warwickshire.
 

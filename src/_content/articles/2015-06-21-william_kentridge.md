@@ -15,7 +15,7 @@ tags:
 ---
 Amsterdam is a strikingly beautiful city, every street a picture postcard. This beauty is somewhat undermined by the city’s famed seedy underbelly, which could be ignored were it not for the type of tourist it attracts.
 
-{% include 'figure' with '/images/2015/06/william_kentridge.jpg'
+{% render 'figure' with '/images/2015/06/william_kentridge.jpg'
   caption: 'Still image from <cite>Other Faces</cite>.'
 %}
 
@@ -23,7 +23,7 @@ With that in mind, I took the short ferry trip over to the quieter bank of the I
 
 The work of Kentridge is often created as a response to the social injustices he has seen in his native south Africa, and politics is a theme that resonates throughout his work. The centrepiece of this particular exhibition is <cite>More Sweetly Play the Dance</cite>, a 45-meter-long illuminated frieze. This depicts a parade of silhouetted figures marching in a procession, some carrying personal affects, others holding up the faces of Chinese revolutionaries, miners and ancient Romans, and takes place against the sound of brass, accordions and African song.
 
-{% include 'embed' with 'https://www.youtube.com/watch?v=rkpaMYQdlSE'
+{% render 'embed' with 'https://www.youtube.com/watch?v=rkpaMYQdlSE'
   caption: 'Promo for William Kentridge - If We Ever Get To Heaven.'
 %}
 

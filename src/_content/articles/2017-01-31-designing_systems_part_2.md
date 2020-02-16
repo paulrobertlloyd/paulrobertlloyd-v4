@@ -15,7 +15,7 @@ As consumers grow ever reliant on digital products and services, designers are b
 
 _But what is a design system?_
 
-{% include 'figure' with '/images/2017/01/designing_systems_part_2/onion.svg'
+{% render 'figure' with '/images/2017/01/designing_systems_part_2/onion.svg'
   alt: 'The layers of a design system. Radiating from a core set of principles, the next layer concerns guidance, the layer above that tools, with the final outer layer concerned with products'
   alignment: 'pull'
 %}
@@ -47,7 +47,7 @@ Jared Spool has written about [creating meaningful principles][4] that can bette
 
 ## Guidance
 
-{% include 'figure' with '/images/2017/01/designing_systems_part_2/onion_r2.svg'
+{% render 'figure' with '/images/2017/01/designing_systems_part_2/onion_r2.svg'
   alignment: 'pull'
 %}
 
@@ -81,7 +81,7 @@ The idea of working together to build a shared understanding brings to mind Mark
 
 The most recognisable piece of design created during Frank Pick’s leadership of London Transport, the Underground map, was not instigated by him or any other manager of the company, but put forward by Harry Beck, a young draftsman working on the network.
 
-{% include 'figure' with '/images/2017/01/designing_systems_part_2/beck.jpg'
+{% render 'figure' with '/images/2017/01/designing_systems_part_2/beck.jpg'
   caption: 'Harry Beck holds a copy of his diagram for the London Underground; he seems rightly chuffed with his idea!'
 %}
 
@@ -91,7 +91,7 @@ Realising that passengers cared more about the connections between the various l
 
 ## Tools
 
-{% include 'figure' with '/images/2017/01/designing_systems_part_2/onion_r3.svg'
+{% render 'figure' with '/images/2017/01/designing_systems_part_2/onion_r3.svg'
   alignment: 'pull'
 %}
 
@@ -109,7 +109,7 @@ Somewhere in the middle, a solution needed to be found.
 
 Enter, [the container model][14]. A systematic approach to page composition, this proposed that **items** (each representing a story) could be arranged into different horizontal **slices**, which themselves could be combined to create **containers**.
 
-{% include 'figure' with '/images/2017/01/designing_systems_part_2/container_model.svg'
+{% render 'figure' with '/images/2017/01/designing_systems_part_2/container_model.svg'
   caption: 'The container model: items, slices and containers.'
 %}
 
@@ -117,7 +117,7 @@ Building containers by combining items and slices allowed for an incredible rang
 
 This model went some way to addressing the flexibility desired, yet further models were needed to deal with the variation inherent to effective editorial design. Tonality, newsworthiness, curation, information density, pacing, device considerations… all presented the design team with an array of concerns that needed to be reasoned with.
 
-{% include 'figure' with '/images/2017/01/designing_systems_part_2/guardian_front.png'
+{% render 'figure' with '/images/2017/01/designing_systems_part_2/guardian_front.png'
   caption: 'A section front on the Guardian website.'
 %}
 
@@ -131,7 +131,7 @@ In <cite>[101 Things I learned in Architecture School][15]</cite>, Mark Frederic
 
 * **Informed simplicity**: an enlightened world view, in which a person has developed the ability to recognise and create patterns within complex mixtures.
 
-{% include 'figure' with '/images/2017/01/designing_systems_part_2/three_levels_of_knowing.svg'
+{% render 'figure' with '/images/2017/01/designing_systems_part_2/three_levels_of_knowing.svg'
   caption: '**Simplicity:** 3 elements used to create 3 spaces; **Complexity**: 12 elements used to create 12 spaces; **Informed simplicity:** 3 elements combined to create 12 spaces.'
 %}
 
@@ -139,7 +139,7 @@ This perfectly encapsulates the process we went though at the Guardian, and one 
 
 ## Products
 
-{% include 'figure' with '/images/2017/01/designing_systems_part_2/onion_r4.svg'
+{% render 'figure' with '/images/2017/01/designing_systems_part_2/onion_r4.svg'
   alignment: 'pull'
 %}
 
@@ -153,7 +153,7 @@ Jeff makes an important point; the products of a design system will be the ultim
 
 Frank Pick’s successful management of London Transport was possible due to the support he received from the company’s chairman, Lord Ashfield. The departure of both Pick and Ashfield — plus growing private car ownership and declining passenger numbers — soon costs were being prioritised over quality, and a period of neglect followed.
 
-{% include 'figure' with '/images/2017/01/designing_systems_part_2/underground_1997.jpg'
+{% render 'figure' with '/images/2017/01/designing_systems_part_2/underground_1997.jpg'
   caption: 'The Underground in 1997 — very different from how it looks today. Photograph: [Kirk Bauer](http://pics.kaybee.org/Vacations/Europe1997/England/London/tube2.jpg).'
   alignment: 'pull'
   image_preset: 'supporting'
@@ -163,13 +163,13 @@ Thankfully the last 15 years have seen these factors reverse, with the network a
 
 Included in the idiom is a new map that gives contractors a station-by-station guide to the different architectural styles used throughout the network. Paint colours and decorative materials should now match the architectural style of each building, rather than adhere to an overarching corporate look. By deliberately maintaining a diversity of styles, Transport for London have chosen to make the network’s design history an integral part of their design system. To me, this seems like a pragmatic approach.
 
-{% include 'figure' with '/images/2017/01/designing_systems_part_2/station_design_idiom.jpg'
+{% render 'figure' with '/images/2017/01/designing_systems_part_2/station_design_idiom.jpg'
   caption: 'The Station Design Idiom map and flashcard.'
 %}
 
 ### Shearing layers
 
-{% include 'figure' with '/images/2017/01/designing_systems_part_2/shearing_layers.svg'
+{% render 'figure' with '/images/2017/01/designing_systems_part_2/shearing_layers.svg'
   alignment: 'pull'
 %}
 

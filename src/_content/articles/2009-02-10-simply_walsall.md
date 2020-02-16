@@ -13,7 +13,7 @@ In the last few years, two public organisations in Walsall have undergone renewa
 
 [Walsall Metropolitan Borough Council][1], after many year under [Labour rule][2], became a Conservative council in 2004. This led to a number of construction projects being initiated in the area, most notably upgrades to the ring road, canal-side developments on Wolverhampton Street, and the creation of a new Civic Quarter in the town centre. Possibly to reflect this change in direction, in 2005 the council revealed a modernised logo, and simplified its name to *Walsall Council*.
 
-{% include 'figure' with '/images/2009/02/simply_walsall/council_logos.png'
+{% render 'figure' with '/images/2009/02/simply_walsall/council_logos.png'
   caption: 'Walsall Council: The original logo and the revised version (2005).'
 %}
 
@@ -29,7 +29,7 @@ Sadly, I haven’t been able to find any information about who was responsible f
 
 Another big regeneration project nearing completion in the town is the new campus for [Walsall College][5] (the buildings currently on St. Paul’s Street will soon be demolished to make way for a Tesco supermarket). Perhaps it’s no surprise that this organisation recently revealed a new identity too. Previously known as Walsall College of Arts & Technology (such a mouthful that it was often shortened to WALCAT), it also simplified it’s name to just *Walsall College*.
 
-{% include 'figure' with '/images/2009/02/simply_walsall/college_logos.png'
+{% render 'figure' with '/images/2009/02/simply_walsall/college_logos.png'
   caption: 'Walsall College: The original logo and the revised version (2009).'
 %}
 

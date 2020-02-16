@@ -38,17 +38,17 @@ screenshots:
   - url: /images/projects/24_ways/screenshot_navigation.png
     alt: Opened site navigation
 ---
-{% include 'screenshots' with screenshots.article
+{% render 'screenshots' with screenshots.article
   alignment: 'bleed'
 %}
 
-{% include 'aside' %}
+{% render 'aside' %}
 
 Each December, Drew McLellan and his small team of elves publish [24 ways][1], a daily dose of design and development goodness that delivers a little Christmas cheer to the web community during the period of advent.
 
 The previous website, designed by Tim Van Damme in 2007, pushed the limits of the medium but six years later, and with an accumulated archive of hundreds of articles, it was beginning to fray at the edges. Aesthetically a bit tired, the site also failed to reflect the best practice its authors were now advocating such as advanced web typography, accessible design and the latest CSS techniques. The layout was responsive (thanks to some retrospective hacking) but a fresh approach was needed to effectively deliver content to the broadening range of devices accessing the site.
 
-{% include 'quote' with 'I’m in the fortunate position of knowing lots of really great web designers – many of whom have been authors for 24 ways over the years. I figured I’d start with my top-choice dream person, and work down the list until I found someone who’d be prepared to do it. So I started by asking Paul Robert Lloyd, and he said yes.'
+{% render 'quote' with 'I’m in the fortunate position of knowing lots of really great web designers – many of whom have been authors for 24 ways over the years. I figured I’d start with my top-choice dream person, and work down the list until I found someone who’d be prepared to do it. So I started by asking Paul Robert Lloyd, and he said yes.'
   caption: '[Drew McLellan on rebuilding 24 ways](https://allinthehead.com/retro/366/rebuilding-24-ways)'
 %}
 
@@ -60,7 +60,7 @@ With content that tended to be forward-looking, the design could afford to be al
 
 Keen to exploit the very idea of 24 ways – different articles, written by different authors, published over twenty-four days for almost nearly a decade – I created a palette based on the publication's signature red, that subtly changes over time based on both day and year variables.
 
-{% include 'screenshots' with screenshots.mobile
+{% render 'screenshots' with screenshots.mobile
   caption: 'The site benefited from a mobile-first design approach.'
   alignment: 'bleed'
 %}
@@ -71,7 +71,7 @@ Beyond the visual aesthetic, I was keen to employ best practice with regards to 
 
 Keen to exploit the very idea of 24 ways – different articles, written by different authors, published over twenty-four days for almost nearly a decade – I created a palette based on the publication’s signature red, that subtly changes over time based on both day and year variables.
 
-{% include 'screenshots' with screenshots.homepage
+{% render 'screenshots' with screenshots.homepage
   caption: 'The home and other archival pages showcase articles by placing them within a grid, evoking the feel of a calendar. To account for the growing archive and improve the discoverability of content, I recommended categorising articles by topic, and exposing these within the navigation.'
   alignment: 'bleed'
 %}

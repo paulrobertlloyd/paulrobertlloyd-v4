@@ -13,7 +13,7 @@ category:
 - sxsw
 - web
 ---
-{% include 'figure' with '/images/2012/08/material_thinking/olympic_cauldron.jpg'
+{% render 'figure' with '/images/2012/08/material_thinking/olympic_cauldron.jpg'
   caption: 'Olympic Cauldron design by Heatherwick Studio.'
 %}
 
@@ -23,7 +23,7 @@ Earlier this month, Team Clearleft headed up to London for a day of design relat
 
 The centrepiece of the games was the highly original and beautifully symbolic [Olympic Cauldron][4], so I was excited to see the scale model featured in the Heatherwick exhibit. Until this point, I hadn’t made the link between this studio, lead by Thomas Heatherwick, and other objects I’ve long admired. From [East Beach Cafe][5] in Littlehampton to the [UK Pavilion][6] at the Shanghai Expo; from [London’s new bus][7] to the short-lived [<cite>B of the Bang</cite>][8] sculpture in Manchester, this small studio is responsible for a huge range of wonderfully imaginative creations.
 
-{% include 'figure' with '/images/2012/08/material_thinking/seed_cathedral.jpg'
+{% render 'figure' with '/images/2012/08/material_thinking/seed_cathedral.jpg'
   caption: 'The UK ‘Seed Cathedral’ Pavilion for the Shanghai Expo held in 2010.'
 %}
 

@@ -7,7 +7,7 @@ category:
 - space
 - international_space_station
 ---
-{% include 'embed' with bookmark-of
+{% render 'embed' with bookmark-of
   poster: 'https://i.vimeocdn.com/video/629997474'
 %}
 

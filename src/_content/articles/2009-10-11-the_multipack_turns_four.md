@@ -19,7 +19,7 @@ A lot has happened in the intervening years. Whilst membership hasn’t grown ma
 
 <cite>The Multipack Presents: Rich Internet Apps</cite> features [Nick Harewood][9] talking about Microsoft Silverlight whilst [Bruce Lawson][10] returns to give us an update on HTML5. Meanwhile Si has promised to bring along some birthday cake, whilst me, Jon and possibly Chris will hopefully be in attendance so as to reunite all four founding members.
 
-{% include 'embed' with 'https://a.tiles.mapbox.com/v4/paulrobertlloyd.map-g4zirx0s/attribution,zoompan.html?access_token=pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg#15/52.475/-1.885'
+{% render 'embed' with 'https://a.tiles.mapbox.com/v4/paulrobertlloyd.map-g4zirx0s/attribution,zoompan.html?access_token=pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg#15/52.475/-1.885'
   poster: 'https://api.mapbox.com/styles/v1/mapbox/streets-v10/static/-1.885,52.475,15,0,0/'
   caption: 'Venue locations plotted on a map'
 %}

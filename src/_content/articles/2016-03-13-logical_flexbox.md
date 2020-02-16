@@ -11,7 +11,7 @@ category:
 tags:
 - featured
 ---
-{% include 'figure' with '/images/2016/03/logical_flexbox/spock.jpg'
+{% render 'figure' with '/images/2016/03/logical_flexbox/spock.jpg'
   caption: 'Mr. Spock browsing the web on his tablet device. Photograph: [NBC Television](https://commons.wikimedia.org/wiki/File:Star_Trek_Spock.jpg).'
 %}
 
@@ -33,7 +33,7 @@ Well, almost.
 
 Flexbox is most effective when creating micro layouts within parts of a page and positioning items in one dimension. Like for example, a page header:
 
-{% include 'figure' with '/images/2016/03/logical_flexbox/header-ltr.svg'
+{% render 'figure' with '/images/2016/03/logical_flexbox/header-ltr.svg'
   caption: 'Our header, with the site’s name on the left, and navigation items to the right.'
 %}
 
@@ -96,7 +96,7 @@ By giving the containing `<header>` the rule `display: flex`, its children will 
 
 *Whoa*{title="That’s English for stop a horse!"}, ring the assumption alarm! By adding this value, we’re making the assumption that the navigation will always appear on the right, but that’s not true if we need to support right-to-left text. Indeed, switching the document’s text direction will produce the following result:
 
-{% include 'figure' with '/images/2016/03/logical_flexbox/header-rtl-margin-left.svg'
+{% render 'figure' with '/images/2016/03/logical_flexbox/header-rtl-margin-left.svg'
   caption: 'Our header as it appears when text direction is set right-to-left.'
 %}
 
@@ -140,7 +140,7 @@ nav a {
 
 With these adjustment in place, we get the desired result:
 
-{% include 'figure' with '/images/2016/03/logical_flexbox/header-rtl.svg'
+{% render 'figure' with '/images/2016/03/logical_flexbox/header-rtl.svg'
   caption: 'Our header now appears correctly when text direction is set right-to-left.'
 %}
 

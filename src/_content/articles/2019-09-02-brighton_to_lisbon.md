@@ -20,7 +20,7 @@ tags:
 
 **07:18, London Victoria.** Wait 15 minutes for a Victoria line train to arrive, a feat of endurance given the oft-repeated announcement about escalator repairs.
 
-{% include 'figure' with '/images/2019/09/brighton_to_lisbon/london_underground.jpg'
+{% render 'figure' with '/images/2019/09/brighton_to_lisbon/london_underground.jpg'
   caption: 'Passengers on the London Underground'
   alignment: 'bleed'
 %}
@@ -29,7 +29,7 @@ tags:
 
 **10:48, Paris-Nord.** [Gare du Nord][2] seems to get more beautiful with every visit. I have an hour to dash south to my next connection via the <span lang="fr">RER</span> to *Port-Royal*. The ticket machine seems designed to test the patience of users, remaining unresponsive for just over a minute before serving the next customer. How French!
 
-{% include 'figure' with '/images/2019/09/brighton_to_lisbon/paris_rer.jpg'
+{% render 'figure' with '/images/2019/09/brighton_to_lisbon/paris_rer.jpg'
   caption: 'Passengers on the Paris RER'
   alignment: 'bleed'
   image_ratio: 1.5
@@ -43,7 +43,7 @@ tags:
 
 **07:55, Lisbon Oriente.** Arrive after a rough night with little sleep. My throat is sore, my nose stuffed up, and my ears have endured a night of rattling doors, squealing rails and the wheezing plumbing of an adjacent toilet. Sections of the route were so bumpy derailment seemed a distinct possibility. I briefly explore [another of Santiago Calatrava’s extravagant railway stations][6], before making my last connection via the Lisbon Metro.
 
-{% include 'figure' with '/images/2019/09/brighton_to_lisbon/lisbon_metro.jpg'
+{% render 'figure' with '/images/2019/09/brighton_to_lisbon/lisbon_metro.jpg'
   caption: 'Passengers on the Lisbon Metro'
   alignment: 'bleed'
 %}

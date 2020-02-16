@@ -20,7 +20,7 @@ Stood below the immense canopy that covers the apron of Berlin’s [Tempelhof Ai
 
 Planned before the advent of National Socialism, the design of this airport was influenced by contemporary fashions, including that of the Bauhaus. Yet while the building may lack the neo-classical features favoured by Hitler, it didn’t escape his influence entirely. Between the two ends of its sweeping arc sit thirteen towers. Tempelhof was intended not only be an airport but a stadium, part of a much larger venue within which a million people could celebrate the air supremacy of the Third Reich, and these towers were built to transport thousands of spectators to the roof where tiered seating would provide views over the airfield. But like other parts of the building, many of these towers were never completed. With the onset of war, energies were turned elsewhere.
 
-{% include 'figure' with '/images/2018/10/tempelhof/reception.jpg'
+{% render 'figure' with '/images/2018/10/tempelhof/reception.jpg'
   caption: 'The terminal’s reception hall.'
 %}
 
@@ -30,7 +30,7 @@ Venturing onwards, we find ourselves below the terminal where several additional
 
 In 1951, part of the building was given over to commercial air travel. Like elsewhere in Berlin, dividing walls could be found as passengers were not permitted access to areas occupied by the US Air Force. While civilians were checking-in for flights on the lower levels, above them G.I.s might be playing basketball in part of the building originally intended as a ballroom for Hitler and his entourage.
 
-{% include 'figure' with '/images/2018/10/tempelhof/facade.jpg'
+{% render 'figure' with '/images/2018/10/tempelhof/facade.jpg'
   caption: 'Behind the limestone facade.'
   alignment: 'pull'
   image_preset: 'supporting'

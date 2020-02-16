@@ -34,7 +34,7 @@ A second proposal put forward by Apple, the [`srcset` attribute][6], uses a more
 
 ## Enter Scrooge
 
-{% include 'quote' with 'Men’s courses will foreshadow certain ends, to which, if persevered in, they must lead.'
+{% render 'quote' with 'Men’s courses will foreshadow certain ends, to which, if persevered in, they must lead.'
   caption: '<cite>Ebenezer Scrooge</cite>'
 %}
 
@@ -58,7 +58,7 @@ This may be a hack in lieu of a more permanent solution, but it’s applied in t
 
 A desired benefit of the `<picture>` markup pattern is to allow for [greater art direction][9]. For example, rather than scaling down images on smaller displays to the point that their content is hard to discern, we could present closer crops instead:
 
-{% include 'figure' with '/images/2012/12/responsive_images_what_we_thought_we_needed/art_direction.jpg'
+{% render 'figure' with '/images/2012/12/responsive_images_what_we_thought_we_needed/art_direction.jpg'
   caption: 'Art directing an image.'
 %}
 
@@ -72,7 +72,7 @@ By using media queries, the `<picture>` element allows authors to choose which c
 
 In developing sites at [Clearleft][10], we have noticed that the viewport is essentially arbitrary, with the size of an image’s containing element more important. For example, look at how this grid of images may adapt at different viewport widths:
 
-{% include 'figure' with '/images/2012/12/responsive_images_what_we_thought_we_needed/image_grid.png'
+{% render 'figure' with '/images/2012/12/responsive_images_what_we_thought_we_needed/image_grid.png'
   caption: 'Simple image grid viewed at different viewport widths.'
 %}
 
@@ -94,7 +94,7 @@ Converserly, while the `<picture>` proposal has the backing of a few respected d
 
 Its design shares a vernacular to that of contemporary newspaper websites, with a columnar, image-laden and densely packed layout. Compared to more recent examples — [Quartz][12], [The Next Web][13] and the [New York Times Skimmer][14] — it feels out of step with the future direction of news sites. In seeking out [a truer aesthetic for the web][15] in which software interfaces have greater influence, we might discover that the need for responsive images isn’t as great as originally thought.
 
-{% include 'figure' with '/images/2012/12/responsive_images_what_we_thought_we_needed/site_vs_app.png'
+{% render 'figure' with '/images/2012/12/responsive_images_what_we_thought_we_needed/site_vs_app.png'
   caption: 'NYTimes website vs. NYTimes web app.'
 %}
 

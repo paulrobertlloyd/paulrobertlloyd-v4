@@ -22,11 +22,11 @@ screenshots:
 - url: /images/projects/groopix/screenshot_collection.png
   alt: Collection page
 ---
-{% include 'screenshots' with screenshots
+{% render 'screenshots' with screenshots
   alignment: 'bleed'
 %}
 
-{% include 'aside' %}
+{% render 'aside' %}
 
 Groopix was an online tool that allowed users to easily curate and print group-based photo albums. Working closely with CEO Steve Douty, I produced the company’s branding and visual design and developed the underlying user experience of the product.
 

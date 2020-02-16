@@ -9,7 +9,7 @@ category:
 - washington_dc
 - united_states
 ---
-{% include 'figure' with '/images/2011/12/washington_dc/lincoln_memorial.jpg'
+{% render 'figure' with '/images/2011/12/washington_dc/lincoln_memorial.jpg'
   caption: 'Shannon looking towards the Lincoln Memorial.'
   alignment: 'bleed'
 %}
@@ -30,7 +30,7 @@ In the evening we were joined by [Jeremy][12], [Jessica][13] and [Jason][14] for
 
 ## Apple picking in Virginia
 
-{% include 'figure' with '/images/2011/12/washington_dc/apple_pickers.jpg'
+{% render 'figure' with '/images/2011/12/washington_dc/apple_pickers.jpg'
   caption: 'The Apple Pickers.'
 %}
 

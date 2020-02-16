@@ -14,7 +14,7 @@ tags:
 - featured
 discussion: closed
 ---
-{% include 'figure' with '/images/2012/02/responsive_summit/strangelove.jpg'
+{% render 'figure' with '/images/2012/02/responsive_summit/strangelove.jpg'
   caption: 'Scene from Dr. Strangelove.'
 %}
 
@@ -38,7 +38,7 @@ On many topics we found agreement, yet thankfully, there were areas of disagreem
 
 Chris asked if we needed media query like behaviour in HTML. For example, a list of links might be better represented as a select menu in certain instances. I questioned whether such an approach would be a regression, taking us back to the bad old days of mixing together presentation, behaviour and content. I still believe that structuring documents semantically, with CSS and JavaScript manipulating that information, is the right approach. Progressive enhancement is forever revealed as a guiding principle when crafting web experiences. I’d hate to see that change.
 
-{% include 'figure' with '/images/2012/02/responsive_summit/josh.jpg'
+{% render 'figure' with '/images/2012/02/responsive_summit/josh.jpg'
   caption: 'Josh Brewer facilitated the discussion. Photograph: [Chris Armstrong](https://www.flickr.com/photos/mr-armstrong/6924116705/in/set-72157629074652364/).'
 %}
 
@@ -99,7 +99,7 @@ Perhaps what we’re really after is the image equivalent of variable bit-rate, 
 
 And with that, I’ve sufficiently demonstrated my naivety regarding image formats.
 
-{% include 'figure' with '/images/2012/02/responsive_summit/paul.jpg'
+{% render 'figure' with '/images/2012/02/responsive_summit/paul.jpg'
   caption: 'Me, in deep pondering mode. Photograph: [Chris Armstrong](https://www.flickr.com/photos/mr-armstrong/6778001526/in/set-72157629074652364/).'
 %}
 

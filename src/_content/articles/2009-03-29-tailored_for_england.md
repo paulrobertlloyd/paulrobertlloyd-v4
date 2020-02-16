@@ -12,7 +12,7 @@ category:
 - england_football_team
 discussion: closed
 ---
-{% include 'figure' with '/images/2009/03/tailored_for_england/crest.jpg'
+{% render 'figure' with '/images/2009/03/tailored_for_england/crest.jpg'
   caption: 'The England crest as it appears on the new shirt.'
   alignment: 'bleed'
 %}
@@ -35,7 +35,7 @@ The star representing England’s solitary 1966 Word Cup win remains, but now sh
 
 Finally, the crest is based on that used on the 1953 shirt (meaning it no longer shares the FA’s corporate logo), and players shirts will be embroidered with game insignias in the same way they were then:
 
-{% include 'embed' with 'https://www.youtube.com/watch?v=J60s_ftlerU'
+{% render 'embed' with 'https://www.youtube.com/watch?v=J60s_ftlerU'
   caption: 'The New England Kit: The New Crest.'
 %}
 
@@ -43,7 +43,7 @@ I really admire the braveness of this new design, one which is clearly revolutio
 
 Whilst I’m sure the design is still targeted at the consumer, perhaps it’s telling that the new shirts will be custom tailored for each player. With a design that harks back to a more respectful age, let’s hope it will remind players to perform to the standard expected of them, those few who have the rare opportunity to wear the three lions and play for England. [Early indications look positive][1]. You can learn more about the new kit at [umbro.com][2].
 
-{% include 'figure' with '/images/2009/03/tailored_for_england/shirt.jpg'
+{% render 'figure' with '/images/2009/03/tailored_for_england/shirt.jpg'
   caption: 'The new 2009/11 England shirt.'
 %}
 

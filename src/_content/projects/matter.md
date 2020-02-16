@@ -33,11 +33,11 @@ screenshots:
   - url: /images/projects/matter/screenshot_type_ptsans.png
     alt: Type specimen for PT Sans
 ---
-{% include 'screenshots' with screenshots.homepage
+{% render 'screenshots' with screenshots.homepage
   alignment: 'bleed'
 %}
 
-{% include 'aside' %}
+{% render 'aside' %}
 
 The brainchild of journalists Bobbie Johnson and Jim Giles, Matter was a home for in-depth journalism about the ideas shaping our future. Stories covered everything from corporate misdeeds and untold environmental scandals to radical new scientific discoveries and the people behind them. The company was acquired by Medium in April 2013.
 
@@ -45,7 +45,7 @@ After an enormously successful [Kickstarter campaign][1] proved there was a real
 
 ## Identity
 
-{% include 'figure' with '/images/projects/matter/logo_sketches.jpg'
+{% render 'figure' with '/images/projects/matter/logo_sketches.jpg'
   caption: 'Early logo sketches'
   alignment: 'pull'
   image_preset: 'supporting'
@@ -57,7 +57,7 @@ Much of my work for Matter focused on its visual identity. I thought a lot about
 
 As well as being able to purchase individual articles as ebooks via Amazon and iTunes, subscribers could get access to all the stories on the website. Crucial to making this work was creating a frictionless payment flow. A guided two-step flow kept form fields to a minimum, and made subscribing a painless experience.
 
-{% include 'figure' with '/images/projects/matter/payment_flow.svg'
+{% render 'figure' with '/images/projects/matter/payment_flow.svg'
   caption: 'Payment flow'
 %}
 
@@ -65,7 +65,7 @@ As well as being able to purchase individual articles as ebooks via Amazon and i
 
 One of the guiding principles established early on was to privilege the reading experience. This meant articles needed to be legible and enjoyable to read on any device. To meet this purpose, and after extensive device testing, I chose Calluna and Calluna Sans.
 
-{% include 'screenshots' with screenshots.type
+{% render 'screenshots' with screenshots.type
   caption: 'Type samples/experimentation'
   alignment: 'bleed'
   image_preset: 'thumbnail'

@@ -10,7 +10,7 @@ category:
 ---
 Brasília is a planned city situated in the centre of Brazil’s vast and unpopulated interior. Built in the mid-fifties, it was inaugurated as the country’s capital on April 22, 1960.
 
-{% include 'figure' with '/images/2011/07/the_architecture_of_brasilia/plan.svg'
+{% render 'figure' with '/images/2011/07/the_architecture_of_brasilia/plan.svg'
   alt: 'Sketched plan of Brasília'
   alignment: 'pull'
 %}
@@ -21,7 +21,7 @@ Niemeyer is one of the few architects given the opportunity to design on such a 
 
 ## Strong lines, contrasting Curves
 
-{% include 'figure' with '/images/2011/07/the_architecture_of_brasilia/lines.jpg'
+{% render 'figure' with '/images/2011/07/the_architecture_of_brasilia/lines.jpg'
   caption: 'Brasília’s signature building, the National Congress, beautifully demonstrates the contrast of strong linear shapes against graceful curves. Shown here is the dome of the Chamber of the Deputies resting upon the shallow base of the building. Photograph: [Christoph Diewald](https://www.flickr.com/photos/chris_diewald/2656782975/).'
   alignment: 'bleed'
 %}
@@ -30,7 +30,7 @@ Whilst most buildings are typically cuboid in nature, in Brasília these shapes 
 
 ## Reflection
 
-{% include 'figure' with '/images/2011/07/the_architecture_of_brasilia/reflection.jpg'
+{% render 'figure' with '/images/2011/07/the_architecture_of_brasilia/reflection.jpg'
   caption: 'Reflection of Itamaraty Palace into the surrounding pool is integral to the building’s design. Photograph: [A C Moraes](https://www.flickr.com/photos/acmoraes/2488214984/).'
   alignment: 'bleed'
 %}
@@ -39,7 +39,7 @@ As many of his buildings are constructed of concrete, they are usually soften by
 
 ## Suspension
 
-{% include 'figure' with '/images/2011/07/the_architecture_of_brasilia/suspension.jpg'
+{% render 'figure' with '/images/2011/07/the_architecture_of_brasilia/suspension.jpg'
   caption: 'Familiar pillar designs at the Presidential Residence and at the Supreme Federal Court. Photographs: [Palácio do Planalto](http://info.planalto.gov.br/exec/inf_fotografiagrande.cfm?foto=05042006P00028) and [Vitor Sá](https://www.flickr.com/photos/19967853@N00/18391299/).'
   alignment: 'bleed'
 %}
@@ -48,7 +48,7 @@ One of Niemeyer favourite tricks is show to his buildings suspended off the grou
 
 ## Entry
 
-{% include 'figure' with '/images/2011/07/the_architecture_of_brasilia/entry.jpg'
+{% render 'figure' with '/images/2011/07/the_architecture_of_brasilia/entry.jpg'
   caption: 'Entry to the National Museum of the Republic is via a long sloping ramp. Photograph: [Florian Knorn](https://www.flickr.com/photos/el_floz/1424610618/).'
   alignment: 'bleed'
 %}

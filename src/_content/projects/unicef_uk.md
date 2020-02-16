@@ -35,11 +35,11 @@ photoset:
   - url: /images/projects/unicef_uk/photo_pattern_definition.jpg
     alt: Pattern definition exercise
 ---
-{% include 'screenshots' with screenshots
+{% render 'screenshots' with screenshots
   alignment: 'bleed'
 %}
 
-{% include 'aside' %}
+{% render 'aside' %}
 
 [UNICEF UK][1] raises funds to protect children and the defend their rights worldwide.
 
@@ -51,7 +51,7 @@ Given a constrained budget, the software that managed content on the desktop was
 
 The site needed to degrade gracefully on older mobile devices and take into account the often imperfect nature of cellular connectivity. Put simply, we needed to employ mobile-first design principles with desktop-first content, rationalising and simplifying where possible. Although a mobile-focused project, we had a secondary ambition to design an experience that was better than the desktop site – even on larger screens.
 
-{% include 'photos' with photoset.workshop
+{% render 'photos' with photoset.workshop
   caption: 'Prioritising homepage components, highlighting common patterns on desktop site and breaking them down into responsive patterns we could use on the mobile site.'
   alignment: 'bleed'
   image_preset: 'thumbnail'

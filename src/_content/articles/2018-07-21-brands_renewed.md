@@ -10,7 +10,7 @@ category:
 - design
 - brand_identity
 ---
-{% include 'figure' with '/images/2018/07/brands_renewed/tate.png'
+{% render 'figure' with '/images/2018/07/brands_renewed/tate.png'
   caption: 'Previous variations of Tate’s logo, versus the singular version that replaced it in 2016.'
 %}
 
@@ -28,7 +28,7 @@ Under Consideration’s [_Brand New_][1] is a blog that critiques corporate and 
 
 I wish more designers would take such a selfless approach. While I could spend hours studying such refinements, I have nothing but admiration for the team at INSTID that [created this new identity for Irkutsk][6], a Russian city in southeastern Siberia:
 
-{% include 'embed' with 'https://vimeo.com/265662317'
+{% render 'embed' with 'https://vimeo.com/265662317'
   poster: 'https://i.vimeocdn.com/video/695729633'
   ratio: '8/5'
   caption: 'Irkutsk identity presentation.'

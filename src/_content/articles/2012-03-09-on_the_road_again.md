@@ -13,7 +13,7 @@ category:
 - san_francisco
 - sxsw
 ---
-{% include 'figure' with '/images/2012/03/on_the_road_again.jpg'
+{% render 'figure' with '/images/2012/03/on_the_road_again.jpg'
   caption: 'Road block in Austin.'
   alignment: 'bleed'
 %}

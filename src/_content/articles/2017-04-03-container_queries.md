@@ -78,7 +78,7 @@ The final reason I question the need for container queries is that a change in l
 
 On a recent e-commerce project I worked on, this scenario occurred on a number of occasions. On product listings, results could be narrowed by selecting options from a series of facets: size, colour, type etc. On narrow viewports, we decided to show these options within a model dialog, with facets presented within a series of disclosures; on wider viewports however, these facets appeared within a set of menus above the results:
 
-{% include 'figure' with '/images/2017/04/container_queries/components.png'
+{% render 'figure' with '/images/2017/04/container_queries/components.png'
   caption: 'Search facets on a narrow and wide viewport. While the same information is being displayed, essentially two different components are required.'
 %}
 

@@ -14,13 +14,13 @@ discussion: closed
 ---
 In 2007, soon after the unveiling of a [much criticised emblem][1], the official website for the London 2012 Olympic Games looked like this:
 
-{% include 'figure' with '/images/2012/05/inspiring_nobody/london2012_2007.png'
+{% render 'figure' with '/images/2012/05/inspiring_nobody/london2012_2007.png'
   caption: '[London2012.com in 2007](https://web.archive.org/web/20070910112153/http://london2012.com/).'
 %}
 
 Regardless of your thoughts on the logo, the overarching brand and associated design language was energetic, brave and innovative. This is what the same website looks like today:
 
-{% include 'figure' with '/images/2012/05/inspiring_nobody/london2012_2012.png'
+{% render 'figure' with '/images/2012/05/inspiring_nobody/london2012_2012.png'
   caption: '[London2012.com today](https://web.archive.org/web/20120503215130/http://london2012.com/).'
 %}
 

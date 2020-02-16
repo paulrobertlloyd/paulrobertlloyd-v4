@@ -12,7 +12,7 @@ category:
 tags:
 - featured
 ---
-{% include 'figure' with '/images/2019/01/slacks_new_logo/logo.jpg'
+{% render 'figure' with '/images/2019/01/slacks_new_logo/logo.jpg'
   caption: 'New logo for Slack. Image: [Pentagram](https://www.pentagram.com/work/slack/story)'
   alignment: 'bleed'
   image_ratio: 2.25
@@ -40,7 +40,7 @@ Could mine, John’s and others reaction be attributed to confirmation bias?
 
 Each of these projects was led by a different designer ([Paula Scher for the Library of Congress][7], [Harry Pearce for the John Lewis Partnership][8], [Michael Bierut for Slack][9]) and it was only six months ago that I included [Pentagram’s work for American Express][10] in a [post about subtle brand refinements][11]. Looking through their portfolio, I notice they [designed the logo for nearby University of Sussex][12], for which I've long appreciated its ‘US’ ligature. As this project never faced a barrage of opinion on Twitter, it never featured in my understanding of Pentagram’s output.
 
-{% include 'figure' with '/images/2019/01/slacks_new_logo/possibilities.jpg'
+{% render 'figure' with '/images/2019/01/slacks_new_logo/possibilities.jpg'
   caption: 'A range of possibilities Pentagram explored for the new identity. Image: [Pentagram](https://www.pentagram.com/work/slack/story)'
 %}
 
@@ -62,7 +62,7 @@ But Slack is not Flickr. [Looking to trade publicly][16] and facing competition 
 
 The most disappointing aspect of Slack’s new logo is that it looks like that of every other technology company. Having shed their glossy bubbles and esoteric typefaces, most have now settled upon a combination of primary colours and a stark geometric sans with simple, open letterforms. A broader critique would ask why technology brands tend toward such a childish and infantile appearance.
 
-{% include 'embed' with 'https://www.youtube.com/watch?v=6c7_TpPUpL0'
+{% render 'embed' with 'https://www.youtube.com/watch?v=6c7_TpPUpL0'
   caption: 'With its bright colours, simple shapes and short sentences spoken slowly, this introduction to Slack wouldn’t look out of place on an episode of Sesame Street.'
 %}
 

@@ -59,7 +59,7 @@ The `blockquote` element represents a section that is being quoted from another 
 
 If you wish to add a citation, enclose it within a `<figure>` tag:
 
-{% include 'quote' with 'Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.'
+{% render 'quote' with 'Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.'
   caption: 'Winston Churchill, in <cite>[a speech to the House of Commons](https://hansard.parliament.uk/Commons/1947-11-11/debates/ab1e1152-6b4a-4d04-ac38-954df6634b08/ParliamentBill#207)</cite>. 11th November 1947'
 %}
 
@@ -110,18 +110,18 @@ Here is another term.
 
 The `figure` element is used to annotate illustrations, diagrams, photos, code listings or provide a citation for an excerpted piece of content. The following examples show a section of pre-formatted text, a quotation and an image:
 
-{% include 'figure' with '/images/2017/05/away_to_galway/wild_atlantic_way.jpg'
+{% render 'figure' with '/images/2017/05/away_to_galway/wild_atlantic_way.jpg'
   caption: 'Single image, with supporting caption.'
 %}
 
 For figures using the `.align-bleed` modifier, the content will stretch across the entire width of the page.
 
-{% include 'figure' with '/images/2017/05/away_to_galway/roundstone_quay.jpg'
+{% render 'figure' with '/images/2017/05/away_to_galway/roundstone_quay.jpg'
   caption: 'Single image, with supporting caption.'
   alignment: 'bleed'
 %}
 
-{% include 'figure' with '/images/2017/05/away_to_galway/roundstone_quay.jpg'
+{% render 'figure' with '/images/2017/05/away_to_galway/roundstone_quay.jpg'
   caption: 'Single image, with supporting caption.'
   alignment: 'pull'
 %}

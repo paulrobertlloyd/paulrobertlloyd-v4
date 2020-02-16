@@ -13,7 +13,7 @@ tags:
 ---
 _This article is [also available in Italian][it-IT]{hreflang="it-IT" rel="alternate external"}_
 
-{% include 'figure' with '/images/2015/08/thinking_responsively_a_framework_for_future_learning/illustration.png'
+{% render 'figure' with '/images/2015/08/thinking_responsively_a_framework_for_future_learning/illustration.png'
   caption: 'Illustration: [Brad Colbow](http://alistapart.com/author/bradcolbow) for A List Apart.'
   alignment: 'bleed'
   image_ratio: 2.25

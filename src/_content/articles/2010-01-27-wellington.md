@@ -10,7 +10,7 @@ category:
 - wellington
 - architecture
 ---
-{% include 'figure' with '/images/2010/01/wellington/cable_car.jpg'
+{% render 'figure' with '/images/2010/01/wellington/cable_car.jpg'
   caption: 'The Wellington Cable Car takes passengers from Lambton Quay in the CBD to the suburb of Kelburn, and the Wellington Botanic Garden.'
   alignment: 'bleed'
 %}
@@ -23,7 +23,7 @@ Much of this madness can be attributed to the city’s architectural style, whic
 
 However, if you look closely, you can still find a number of fine examples of the Art Deco style. The [Prudential Assurance Building][2] on Lambton Quay is one of few such buildings I spotted in the CBD, and there are many more in the surrounding districts (the Central Fire Station is a particularly beautiful example). The bohemian buildings along [Cuba Street][3] also have their own unique charm, as do some of the newer developments around the waterfront. So, not all bad.
 
-{% include 'figure' with '/images/2010/01/wellington/parliament.jpg'
+{% render 'figure' with '/images/2010/01/wellington/parliament.jpg'
   caption: 'The Beehive and Parliament House, Wellington.'
   alignment: 'bleed'
 %}

@@ -25,11 +25,11 @@ screenshots:
 - url: /images/projects/waldo_pancake/screenshot_slideshow.png
   alt: Slideshow of Waldo Pancake merchandise
 ---
-{% include 'screenshots' with screenshots
+{% render 'screenshots' with screenshots
   alignment: 'bleed'
 %}
 
-{% include 'aside' %}
+{% render 'aside' %}
 
 Jim Smith (aka [Waldo Pancake][1]) is a designer, illustrator and copywriter whose work can be found on the side of juice bottles, sweet packets and inside every Puccino’s coffee shop.
 

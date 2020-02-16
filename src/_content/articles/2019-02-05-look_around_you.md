@@ -12,7 +12,7 @@ category:
 tags:
 - featured
 ---
-{% include 'figure' with '/images/2019/02/illustration.png'
+{% render 'figure' with '/images/2019/02/illustration.png'
   caption: 'Illustration: [Geri Coady](http://hellogeri.com)'
   alignment: 'bleed'
   image_ratio: 2.25

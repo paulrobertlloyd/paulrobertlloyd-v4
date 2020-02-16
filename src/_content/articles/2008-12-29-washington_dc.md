@@ -16,7 +16,7 @@ photoset:
 - url: /images/2008/12/washington_dc/netherlands_carillon.jpg
   alt: Netherlands Carillon
 ---
-{% include 'figure' with '/images/2008/12/washington_dc/vietnam_memorial.jpg'
+{% render 'figure' with '/images/2008/12/washington_dc/vietnam_memorial.jpg'
   caption: 'The Vietnam Veterans Memorial.'
   alignment: 'bleed'
 %}
@@ -29,7 +29,7 @@ Whilst the presidential memorials were large and grandiose, I actually found the
 
 Here two granite walls create a ‘V’ shaped opening in the ground, upon which those who died are listed chronologically from the start of the war in 1959 to its conclusion in 1975. As you move through the years, the number of names increases, the height of the wall grows and the memorial digs deeper into the ground; as you move towards the end of the second wall, the reverse is true. Designed by [Maya Ying Lin][2], this is meant to symbolise a “wound that is closed and healing”.
 
-{% include 'photos' with photoset
+{% render 'photos' with photoset
   caption: 'US Marine Corps War Memorial and Netherlands Carillon.'
   image_preset: 'supporting'
 %}
@@ -42,7 +42,7 @@ Also located in Arlington is the [Pentagon][7]. As the headquarters for the US D
 
 You are however allowed to take photos of the [9/11 memorial][8], in which the 184 victims of that days attack on the Pentagon are remembered in the form of 184 beautifully illuminated benches. The arrangement of benches (positioned in a number of rows according to the victim’s ages, from 3 to 71) really brings home the reality of the tragedy.
 
-{% include 'figure' with '/images/2008/12/washington_dc/pentagon_memorial.jpg'
+{% render 'figure' with '/images/2008/12/washington_dc/pentagon_memorial.jpg'
   caption: 'The Pentagon Memorial.'
   alignment: 'bleed'
 %}
@@ -53,7 +53,7 @@ DC is still a relatively young capital, although the many neo-classical styled b
 
 This pseudo-grandeur became a bit tiresome after a while, which is possibly why I spent one evening pointing my camera towards the main terminal building at [Washington Dulles][9] International Airport instead. Designed by [Eero Saarinen][10] in 1958, the building was planned specifically with new jet powered aircraft in mind — with a possible future use as a spaceport! As a sign of Saarinen’s foresight, he designed the terminal with a view towards future expansion, and indeed the building is now double the length of his original design.
 
-{% include 'figure' with '/images/2008/12/washington_dc/dulles.jpg'
+{% render 'figure' with '/images/2008/12/washington_dc/dulles.jpg'
   caption: 'The main terminal building at Washington Dulles International Airport.'
   alignment: 'bleed'
 %}

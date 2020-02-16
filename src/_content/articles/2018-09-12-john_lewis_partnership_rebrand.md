@@ -12,7 +12,7 @@ category:
 ---
 Last week the John Lewis Partnership unveiled [a new look for John Lewis and Waitrose][1], with the name of each chain to now be suffixed by “& Partners”, emphasising the organisation’s ownership model. Underwhelmed but what I initially saw, unbeknown to me at the time, this was another identity from a team at Pentagram to elicit an assured *meh*. Now, with [more information available about the project][2], I shall turn the [annoyance meter][3] to *writing a blog post* and explore what I dislike about it.
 
-{% include 'figure' with '/images/2018/09/john_lewis_partnership_rebrand/logos.png'
+{% render 'figure' with '/images/2018/09/john_lewis_partnership_rebrand/logos.png'
   caption: 'New logos and brandlines for John Lewis, Waitrose and the Partnership. Image: [Pentagram](https://www.pentagram.com/work/the-john-lewis-partnership/story)'
 %}
 
@@ -20,7 +20,7 @@ Firstly, the naming strategy. Including “Partners” in the store names seems 
 
 Looking at the logos, I despair. Previously, each chain used a customised version of Gill Sans, with ascenders featuring angled cutoffs. The effect was to create something that felt familiar, but unique; timeless, yet modern. Retaining Gill Sans but rending the new names in uppercase is route one stuff; wholly unoriginal, and only serves to reduce their readability further. And when every other department store has slavishly adopted a monochrome colour palette, John Lewis sheds it’s dark green and follows suit. Never has an industry been so mundane in its collective approach to brand identity.
 
-{% include 'embed' with 'https://vimeo.com/288323929'
+{% render 'embed' with 'https://vimeo.com/288323929'
   poster: 'https://i.vimeocdn.com/video/723701449'
   caption: 'The brandlines were inspired by a Peter Hatch pattern created for the John Lewis Partnership in the 1960s.'
 %}

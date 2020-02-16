@@ -40,7 +40,7 @@ With these requirements in mind, what products are available, and how do they co
 
 One of the first suggestions was [GitHub][2]. While it is by no means designed for writing documents, for many writers on the Web, this is where their content will end up. Any text file can be edited directly within GitHub’s website, although the interface is more attuned to writing code than prose. Being based on Git, versioning comes free, although managing branches and pull requests may be a little convoluted.
 
-{% include 'figure' with '/images/2014/04/after_editorially_alternative_collaborative_online_writing_tools/github.png'
+{% render 'figure' with '/images/2014/04/after_editorially_alternative_collaborative_online_writing_tools/github.png'
   caption: 'GitHub’s editing interface isn’t designed for writing prose.'
 %}
 
@@ -48,7 +48,7 @@ One of the first suggestions was [GitHub][2]. While it is by no means designed f
 
 If working directly with files in a GitHub repository appeals, you can improve the writing experience by using [Prose][3], a beautifully designed and open-source editor built by [Development Seed][4]. Once you’ve authenticated with GitHub, the interface sits on top of your repos, providing an experience more suited to writing. This can be customized to expose any custom fields you have set up on a Jekyll or GitHub Pages install, too. Again, collaboration isn’t really a feature beyond that already provided by GitHub, but for small teams accustomed to that workflow, Prose may be a good fit.
 
-{% include 'figure' with '/images/2014/04/after_editorially_alternative_collaborative_online_writing_tools/prose.png'
+{% render 'figure' with '/images/2014/04/after_editorially_alternative_collaborative_online_writing_tools/prose.png'
   caption: 'Prose layers an interface designed for writers on existing GitHub repos.'
 %}
 
@@ -58,7 +58,7 @@ Taking the Git analogy a step further, Loren Burton created [Penflip][5], which 
 
 The editing interface uses the same one as open-sourced by Prose. This is a great decision, as Development Seed has created a fantastic editor that provides keyboard shortcuts and fully styled Markdown that is essential in such a tool.
 
-{% include 'figure' with '/images/2014/04/after_editorially_alternative_collaborative_online_writing_tools/penflip.png'
+{% render 'figure' with '/images/2014/04/after_editorially_alternative_collaborative_online_writing_tools/penflip.png'
   caption: 'With no means of annotating edits within a document, editors have to resort to surrounding their comments with square brackets.'
 %}
 
@@ -70,7 +70,7 @@ OK, let’s move on from Git-based workflows, and try something completely diffe
 
 From a technical standpoint it’s a marvel to look at, but in practice it can be a bit finicky to use. In terms of the features outlined in the introduction, Poetica lacks in many areas. There is no support for Markdown, no place to discuss changes, while heavy edits may overwhelm the text being reviewed (in a few cases, remarks overlapped one another).
 
-{% include 'figure' with '/images/2014/04/after_editorially_alternative_collaborative_online_writing_tools/poetica.png'
+{% render 'figure' with '/images/2014/04/after_editorially_alternative_collaborative_online_writing_tools/poetica.png'
   caption: 'Poetica has an incredibly polished and visually delightful interface, yet its utility may be limited to proofreading smaller texts.'
 %}
 
@@ -82,7 +82,7 @@ A popular suggestion was [Draft][8], developed by [Nathan Kontny][9]. It’s eas
 
 So much of what makes a good writing experience comes down to the details, though, and I can’t say I enjoyed using Draft. The distraction-free interface comes at the cost of lengthy menus and model windows, with the interface lacking consistency in these areas. You can customize the typeface and font size used within the editor; that said, I never felt the need to alter this in other apps, but I did here.
 
-{% include 'figure' with '/images/2014/04/after_editorially_alternative_collaborative_online_writing_tools/draft.png'
+{% render 'figure' with '/images/2014/04/after_editorially_alternative_collaborative_online_writing_tools/draft.png'
   caption: 'Draft allows authors to review changes using an interface familiar to programmers — but is it well-suited to editors?'
 %}
 
@@ -92,7 +92,7 @@ When it comes to editing, changes are reviewed with a diff-like interface that I
 
 [Typewrite][11] aims to be “one of the best writing tools you’ve ever had”. It’s certainly one of the most beautiful, and competitors could learn a lot from Typewrite’s streamlined interface. Its Markdown editor is comparable to that of Prose and Penflip, although I found it to be quite buggy (inaccurate text selection and incorrect undos) but these issues can be easily ironed out. I also found it odd that the document title was missing from the UI, instead hidden behind a menu item. It’s the small things.
 
-{% include 'figure' with '/images/2014/04/after_editorially_alternative_collaborative_online_writing_tools/typewrite.png'
+{% render 'figure' with '/images/2014/04/after_editorially_alternative_collaborative_online_writing_tools/typewrite.png'
   caption: 'Typewrite has a beautifully stripped down interface, although its Markdown editor is a little buggy.'
 %}
 
@@ -104,7 +104,7 @@ As it currently stands, this tool is best suited to co-authoring rather than col
 
 Also worthy of mention, [Onword][12] is a straightforward, stripped down editor created by [Dan Eden][13]. It features no collaboration or editing tools, and its Markdown editor is fairly basic. And yet, I find the simplicity of this app compelling. If Dan were to expand its capabilities to provide a workflow for editing documents, I would be a happy man.
 
-{% include 'figure' with '/images/2014/04/after_editorially_alternative_collaborative_online_writing_tools/onword.png'
+{% render 'figure' with '/images/2014/04/after_editorially_alternative_collaborative_online_writing_tools/onword.png'
   caption: 'Onword provides a very stripped down interface for writing.'
 %}
 

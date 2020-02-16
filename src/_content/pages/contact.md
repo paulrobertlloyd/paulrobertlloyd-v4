@@ -4,7 +4,7 @@ summary: Interested in working with me on your next project? Want me to speak at
 permalink: /contact/index.html
 priority: 0.5
 ---
-{% include 'aside' with 'If you are looking for the type designer, Paul Lloyd, I am not he! You can contact him via <foundry@greater-albion.com>.'
+{% render 'aside' with 'If you are looking for the type designer, Paul Lloyd, I am not he! You can contact him via <foundry@greater-albion.com>.'
 %}
 
-{% include 'form/contact' %}
+{% render 'form/contact' %}

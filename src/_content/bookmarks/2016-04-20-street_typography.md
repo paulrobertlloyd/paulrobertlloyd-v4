@@ -6,7 +6,7 @@ category:
 - video
 - typography
 ---
-{% include 'embed' with bookmark-of
+{% render 'embed' with bookmark-of
   poster: 'https://i.vimeocdn.com/video/247919499',
   ratio: '4/3'
 %}

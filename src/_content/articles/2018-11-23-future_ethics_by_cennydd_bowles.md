@@ -28,7 +28,7 @@ category:
 - ethics
 - technology
 ---
-{% include 'product' %}
+{% render 'product' %}
 
 What better way to discuss a book about ethics than to begin with a disclosure. Not only have I known [Cennydd][1] for many years, but he was kind enough to let me review early drafts of his latest book, <cite>[Future Ethics][2]</cite>. While there’s little hope I can convince you that I’m an impartial reviewer, it’s worth marking the completion of this two-year endeavour all the same; even more so when the resulting work is both so valuable and necessary.
 

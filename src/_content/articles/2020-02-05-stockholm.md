@@ -23,7 +23,7 @@ tags:
   height: 360
 -%}
 {%- endcapture -%}
-{% include 'figure'
+{% render 'figure'
   figure_content: map
   caption: 'Route map: Hässleholm to Stockholm, continuing on to Oslo via Gothenburg.'
   alignment: 'pull'
@@ -35,7 +35,7 @@ I arrive in Stockholm just before 6am having experienced a restless night. Passe
 
 It’s still dark, and it’ll be a while until the city comes fully alive. At 7am, I find myself on *Drottninggatan*{lang="sv"}, a long pedestrianised street in [*Norrmalm*{lang="sv"}][2] in the main commercial district of Stockholm. An outlet of Espresso Shop (the Nordic equivalent of Costa Coffee) has just opened, so I aim to be their first customer of the day.
 
-{% include 'figure' with '/images/2020/02/stockholm/gamla_stan.jpg'
+{% render 'figure' with '/images/2020/02/stockholm/gamla_stan.jpg'
   caption: '*Gamla Stan* as viewed from Skeppsholmen island.'
   alignment: 'bleed'
 %}
@@ -46,7 +46,7 @@ With the arrival of daylight, I head south in the direction of the neighbouring 
 
 While intrigued by this glut of modernist architecture, I’m finding it difficult to stay awake, so I head to the hotel to see if I can check in early. The hotel is quite easy to locate: find *Tegnérlunden*{lang="sv"} and look for the ugliest building overlooking the park. Thankfully, inside I find friendly staff and a cozy room that’s ready for me to promptly doze off in.
 
-{% include 'figure' with '/images/2020/02/stockholm/abba.jpg'
+{% render 'figure' with '/images/2020/02/stockholm/abba.jpg'
   caption: 'Hanging out with some friends: wax models of Björn, Agnetha, Anni-Frid and Benny.'
 %}
 
@@ -56,7 +56,7 @@ ABBA arose to fame with [their Eurovision performance][12] in Brighton’s Dome 
 
 I learn that Björn, Benny, Agnetha and Anni-Frid were already well known singers and muscians in Scandinavia before they joined together as a foursome, and that their unabashed commercialism — as evidenced by this museum, its shop, adjacent restaurant and hotel — is a factor of their formation in the early 70s. At this time, the left in Sweden was on a crusade against popular music, and ABBA’s Eurovision win meant a reluctant Swedish broadcaster had to host an expensive popular music contest the next year. No surprise then that ABBA weren’t invited to perform.
 
-{% include 'figure' with '/images/2020/02/stockholm/t-centralen.jpg'
+{% render 'figure' with '/images/2020/02/stockholm/t-centralen.jpg'
   caption: 'A number of stations on the Stockholm Metro are carved out of rock and painted with different patterns. I can’t decide if this is insane or incredible. Probably both.'
 %}
 
@@ -70,7 +70,7 @@ Continued poor weather means this is another day to be spent indoors. The [Natio
 
 I’m feeling tired and experiencing a mid-trip slump. I can only imagine that Stockholm is a beautiful city in the summer, but I’ve endured a week of consistently bad weather, and I’m getting quite fed up by it all. To cap it all off, today is the day Britain leaves the European Union. Brexit. It’s real, it’s happening and it’s just hours away.
 
-{% include 'figure' with '/images/2020/02/stockholm/gast.jpg'
+{% render 'figure' with '/images/2020/02/stockholm/gast.jpg'
   caption: '*Gast*{lang="sv"}.'
 %}
 
@@ -78,7 +78,7 @@ I’ve decided to hide away in a trendy coffee shop, and [*Gast*{lang="sv"}][21]
 
 One idea behind this trip was to be in Europe as Britain left it, but I’m at a lost and need an activity to distract me. Walking into a pretty courtyard just off *Drottninggatan*{lang="sv"}, I see a building with a bright neon sign above its entrance: *BAD*{lang="sv"}. Appropriate description of the current situation, I think. I then have a thought — I could go swimming! I search online for the nearest pool… of course! My germanic subconscious is playing with me; I’m stood right outside *Centralbadet*{lang="sv"}, which I soon discover is [a beautiful Art Nouveau spa complex][22] with hydrotherapy pools and several saunas. I can’t come to Sweden without having a sauna! I literally and figuratively take the plunge.
 
-{% include 'figure' with '/images/2020/02/stockholm/centralbadet.jpg'
+{% render 'figure' with '/images/2020/02/stockholm/centralbadet.jpg'
   caption: '*Centralbadet*{lang="sv"}’s gorgeous – if not ostentatious – swimming pool. Photograph: Centralbadet.'
   alignment: 'bleed'
 %}
@@ -90,7 +90,7 @@ Blue skies! There’s probably a Brexit metaphor in this somewhere, but I prefer
 
 Stockholm’s true complexion is finally revealed. I’ve not seen this city in its best light, and suspect it may be a long time before I do.
 
-{% include 'figure' with '/images/2020/02/stockholm/departure.jpg'
+{% render 'figure' with '/images/2020/02/stockholm/departure.jpg'
   caption: 'On to Gothenburg as the sun begins to set over Stockholm.'
   alignment: 'bleed'
 %}

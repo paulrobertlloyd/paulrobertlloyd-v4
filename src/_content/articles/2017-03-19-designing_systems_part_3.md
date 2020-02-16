@@ -12,7 +12,7 @@ category:
 - design
 - design Systems
 ---
-{% include 'figure' with '/images/2017/03/designing_systems_part_3/brasilia_motifs.jpg'
+{% render 'figure' with '/images/2017/03/designing_systems_part_3/brasilia_motifs.jpg'
   caption: 'Common architectural motifs can be seen across many of Brasília’s civic buildings.'
   alignment: 'bleed'
 %}
@@ -30,7 +30,7 @@ This use of repeating patterns is similar to the way we now build for the web. B
 
 Much like a design system, we can consider a front-end component as being made up of separate layers, or concerns.
 
-{% include 'quote' with 'I’ve found that thinking about my design as existing in broad experience tiers — in layers — is one of the best ways of designing for the modern web.'
+{% render 'quote' with 'I’ve found that thinking about my design as existing in broad experience tiers — in layers — is one of the best ways of designing for the modern web.'
   caption: '[Ethan Marcotte](https://24ways.org/2015/putting-my-patterns-through-their-paces/)'
 %}
 
@@ -180,7 +180,7 @@ but instead producing something more akin to a design specification, from which 
 
 This is similar to the system used at the Guardian. [Guss][9] is a set of Sass mixins and helpers that allow components to be described using a language familiar to everyone on the team, be they designers, developers, product managers or other stakeholders.
 
-{% include 'figure' with '/images/2017/03/designing_systems_part_3/guss.png'
+{% render 'figure' with '/images/2017/03/designing_systems_part_3/guss.png'
   caption: 'An example of Guss being used to describe a featured story item.'
 %}
 
@@ -198,7 +198,7 @@ That’s how I tend to approach building my components, and your millage my vary
 
 Let’s return to Brasília. While Niemeyer’s buildings are gorgeous, they suffer from an emphasis on form over function. For example, the National Congress has a huge ramp at the front that would appear to be its entrance. In fact it’s purely decorative; a point reinforced by a barrier that sits half way up to prevent the public clambering onto the roof, which itself occupied by armed guards!
 
-{% include 'figure' with '/images/2017/03/designing_systems_part_3/brasilia_national_congress.jpg'
+{% render 'figure' with '/images/2017/03/designing_systems_part_3/brasilia_national_congress.jpg'
   caption: 'The National Congress building in Brasilìa. Photograph: [Juniorseropedica](https://commons.wikimedia.org/wiki/File:Congresso_nacional_Bras%C3%ADlia.jpg).'
   alignment: 'bleed'
 %}
@@ -235,7 +235,7 @@ A front-end component is…
 
 In our quest to build modular systems with a predictability like Lego, libraries and tools have sought to address these differences. Approaches to CSS deliberately undermine the cascade while [React][12] components combine HTML and JavaScript into a single JSX file. These approaches are understandable, and not necessarily wrong, but it does feel like we’re working against the grain of the of the web.
 
-{% include 'figure' with '/images/2017/03/designing_systems_part_3/lego_patent.png'
+{% render 'figure' with '/images/2017/03/designing_systems_part_3/lego_patent.png'
   caption: 'A section of the original Lego patent.'
 %}
 

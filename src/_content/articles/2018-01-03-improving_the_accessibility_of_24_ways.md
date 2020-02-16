@@ -22,7 +22,7 @@ My work on [24 ways][1] is a case in point. Since Drew McLellan asked me to rede
 
 In the intervening years, as tools have improved and best practices have matured, I’ve tweaked the design and refactored the code, and developed [a component library][3] in the process.
 
-{% include 'screenshots' with screenshots
+{% render 'screenshots' with screenshots
   caption: 'The 24 ways home page.'
   alignment: 'bleed'
 %}
@@ -100,7 +100,7 @@ I’ve found that by thinking about an interface in terms of common interaction 
 
 ## Properly labelling elements
 
-{% include 'figure' with '/images/2018/01/improving_the_accessibility_of_24_ways/traverse.png'
+{% render 'figure' with '/images/2018/01/improving_the_accessibility_of_24_ways/traverse.png'
   caption: 'Navigation component that allows users to move between articles in a series.'
   alignment: 'pull'
   image_preset: 'supporting'
@@ -209,7 +209,7 @@ Adding `speak: none` had no effect (CSS aural properties have little support). H
 }
 ```
 
-{% include 'figure' with '/images/2018/01/improving_the_accessibility_of_24_ways/continue.png'
+{% render 'figure' with '/images/2018/01/improving_the_accessibility_of_24_ways/continue.png'
   caption: 'Continue links before and after improvements. While they look similar, the revised design sounds much better.'
 %}
 

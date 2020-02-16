@@ -40,7 +40,7 @@ Branding agencies achieve this by producing styleguides; documents that explain 
 
 I’ve been collecting styleguides for a number of years, partly as I’m interested in branding and corporate identity, but also to refer to when creating my own guidelines. One of my favourites is that created for Skype:
 
-{% include 'figure' with '/images/2010/12/styleguides_for_the_web/skype.png'
+{% render 'figure' with '/images/2010/12/styleguides_for_the_web/skype.png'
   caption: 'A selection of pages from the Skype styleguide.'
 %}
 
@@ -58,7 +58,7 @@ Until recently I hadn’t found many examples of styleguides designed especially
 
 * **Colour Palette:** A colour palette was created for use on non-branded areas of the site (such as the homepage and search pages). This has yet to appear in the final guidelines, but may do once these non-branded areas get redesigned.
 
-{% include 'figure' with '/images/2010/12/styleguides_for_the_web/gel.png'
+{% render 'figure' with '/images/2010/12/styleguides_for_the_web/gel.png'
   caption: 'A page on the BBC website detailing the GEL typography guidelines.'
 %}
 

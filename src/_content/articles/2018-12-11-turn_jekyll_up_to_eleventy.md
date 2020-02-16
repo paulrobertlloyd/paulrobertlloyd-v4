@@ -229,7 +229,7 @@ As with filters, [Jekyll provides a set of tags][28] that aren’t strictly part
 
 ```html
 <!-- page.html -->
-{% raw %}{% include include.html value="key" %}{% endraw %}
+{% raw %}{% render include.html value="key" %}{% endraw %}
 
 <!-- include.html -->
 {% raw %}{{ include.value }}{% endraw %}
@@ -239,7 +239,7 @@ in Eleventy, you would do this:
 
 ```html
 <!-- page.html -->
-{% raw %}{% include "include.html", value: "key" %}{% endraw %}
+{% raw %}{% render "include.html", value: "key" %}{% endraw %}
 
 <!-- include.html -->
 {% raw %}{{ value }}{% endraw %}

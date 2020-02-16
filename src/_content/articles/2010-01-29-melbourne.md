@@ -10,7 +10,7 @@ category:
 - melbourne
 - olympics
 ---
-{% include 'figure' with '/images/2010/01/melbourne/royal_exhibition_building.jpg'
+{% render 'figure' with '/images/2010/01/melbourne/royal_exhibition_building.jpg'
   caption: 'Royal Exhibition Building, Melbourne.'
   alignment: 'bleed'
 %}
@@ -25,7 +25,7 @@ Before I really started to explore the city, I met up with friend and former col
 
 Given Australia’s passion for sport, it’s perhaps no surprise that the MCG — whilst outside the CBD — still forms an integral part of the city. Its six large light towers dominate the landscape around Melbourne’s sports and entertainment precinct, a huge section of parkland littered with sporting venues of every size and description.
 
-{% include 'figure' with '/images/2010/01/melbourne/olympic_cauldron.jpg'
+{% render 'figure' with '/images/2010/01/melbourne/olympic_cauldron.jpg'
   caption: 'The cauldron from the 1956 Olympic Games.'
   alignment: 'pull'
   image_preset: 'supporting'
@@ -41,7 +41,7 @@ The centrepiece of this display was the original Olympic cauldron from the Melbo
 
 Keeping with this theme of sporting geekery, I was also keen to check out [Albert Park][10], host to the Australian Grand Prix every March. Although it was obvious to make out from maps situated around the park, it took me some time to realise that main road that circles the lake was indeed the race track.
 
-{% include 'figure' with '/images/2010/01/melbourne/albert_park.jpg'
+{% render 'figure' with '/images/2010/01/melbourne/albert_park.jpg'
   caption: 'The pit lane on the Albert Park grand prix circuit.'
 %}
 

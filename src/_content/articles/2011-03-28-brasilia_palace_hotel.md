@@ -16,7 +16,7 @@ tags:
 - featured
 discussion: closed
 ---
-{% include 'figure' with '/images/2011/03/brasilia_palace_hotel/frontage.jpg'
+{% render 'figure' with '/images/2011/03/brasilia_palace_hotel/frontage.jpg'
   caption: 'The Brasília Palace Hotel.'
   alignment: 'bleed'
 %}
@@ -29,7 +29,7 @@ Your taxi having parked directly beneath the slender building, you are greeted b
 
 After checking in and taking the swift lift ride up to your floor, you arrive in a spacious lobby area, decorated with wood panelling and furnished with a pair of chairs carefully selected to evoke the building’s style. Finding your room is easy; there are only two corridors to choose from and rooms are numbered sequentially. Long corridors are familiar ground in hotels but here they are illuminated on one side by daylight filtered though angled shades adorning the front of the building. Retiring to your room feels efficient yet relaxing.
 
-{% include 'figure' with '/images/2011/03/brasilia_palace_hotel/chairs.jpg'
+{% render 'figure' with '/images/2011/03/brasilia_palace_hotel/chairs.jpg'
   caption: 'Period furniture is placed in many parts of the hotel.'
 %}
 
@@ -43,7 +43,7 @@ In the end, I couldn’t decide whether I would have preferred forgoing these mo
 
 Beyond the confines of your room, you could easily imagine yourself here during the hotels historic golden era. There was a distinctly ghostly and mysterious feel to the place, especially in the lobby and dinning areas that, by being largely empty, allowed the spaces to speak louder than any of the objects within them.
 
-{% include 'figure' with '/images/2011/03/brasilia_palace_hotel/athos_bulcao_mural.jpg'
+{% render 'figure' with '/images/2011/03/brasilia_palace_hotel/athos_bulcao_mural.jpg'
   caption: 'Athos Bulcão Wall Mural in Dinning Room.'
 %}
 
@@ -59,7 +59,7 @@ There are other changes too. Each room has a balcony but in the original design 
 
 Our use and understanding of glass has improved to the point where it is often favoured over the concrete synonymous with architects like Niemeyer, yet had these techniques been available when he originally designed this building, I’m sure the result would have been similar.
 
-{% include 'figure' with '/images/2011/03/brasilia_palace_hotel/rural_willys.jpg'
+{% render 'figure' with '/images/2011/03/brasilia_palace_hotel/rural_willys.jpg'
   caption: 'A vintage Rural Willys parked underneath the hotel.'
 %}
 

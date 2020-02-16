@@ -14,7 +14,7 @@ category:
 tags:
 - featured
 ---
-{% include 'figure' with '/images/2015/07/londons_olympic_stadium/2012.jpg'
+{% render 'figure' with '/images/2015/07/londons_olympic_stadium/2012.jpg'
   caption: 'The Olympic Stadium nearing its completion in 2012.'
   alignment: 'bleed'
 %}
@@ -29,7 +29,7 @@ Atlanta, host city of the [centenary games of 1996][7], is considered one of the
 
 Other hosts have not been so thoughtful. So complex was the design of Montreal’s *[Stade olympique][10]*, that it was left unfinished during the 1976 games, and completed nearly a decade later. In fact, it became one of the most expensive stadiums ever built, its retractable roof failing to account for the city’s brutal winters and needing constant repair. Publicly financed to the tune of CAD$ 1.47 billion, the total cost was finally repaid in 2006. No wonder residents call it *The Big Owe*.
 
-{% include 'figure' with '/images/2015/07/londons_olympic_stadium/montreal_stade_olympique.jpg'
+{% render 'figure' with '/images/2015/07/londons_olympic_stadium/montreal_stade_olympique.jpg'
   caption: 'The distinctive shape of the Olympic Stadium in Montreal, its observation tower a constant reminder to residents how much it cost to build. Photograph: [Maciek Lulko](https://www.flickr.com/photos/lulek/16231814362).'
   alignment: 'bleed'
 %}
@@ -38,7 +38,7 @@ A few cities have bucked this trend — [Los Angeles Memorial Coliseum][11] and 
 
 ## London’s plan
 
-{% include 'figure' with '/images/2015/07/londons_olympic_stadium/exploded.jpg'
+{% render 'figure' with '/images/2015/07/londons_olympic_stadium/exploded.jpg'
   caption: 'Exploded view of the Olympic Stadium’s construction, showing the permanent and temporary components of its design.'
   alignment: 'pull'
   image_preset: 'supporting'
@@ -54,7 +54,7 @@ Two events conspired against this vision.
 
 *4 August 2012*. Day 8 of London 2012, and Great Britain’s most successful day at an Olympic Games since 1908. Soon dubbed [Super Saturday][19], it culminated within the space of 46 minutes with Jessica Ennis, Greg Rutherford and Mo Farah each winning gold medals at the stadium that evening. These achievements, days after the country had been emotionally cajoled by Danny Boyle’s [heartwarming opening ceremony][20], meant the stadium was seared into the country’s consciousness. Dismantling what had become an iconic venue, seemed unthinkable.
 
-{% include 'figure' with '/images/2015/07/londons_olympic_stadium/jessica_ennis_super_saturday.jpg'
+{% render 'figure' with '/images/2015/07/londons_olympic_stadium/jessica_ennis_super_saturday.jpg'
   caption: 'Jessica Ennis celebrates winning the women’s heptathlon during Super Saturday. Photograph: [Al King](https://www.flickr.com/photos/kinglomo/7716826098).'
   alignment: 'bleed'
 %}
@@ -73,7 +73,7 @@ Yet the centrepiece of the world’s largest multi-sport event asks that organis
 
 With previous legacy plans discarded, the Mayor’s London Legacy Development Corporation decided to convert the stadium so it could host football, and selected West Ham United as its permanent tenant. To ensure the stadium was more suited to pitch-based sports, architects made a number of changes, including designing a roof that could cover retractable seating on the lower tier. Extended, these seats would place fans closer to the action and protected from the rain.
 
-{% include 'figure' with '/images/2015/07/londons_olympic_stadium/2015.jpg'
+{% render 'figure' with '/images/2015/07/londons_olympic_stadium/2015.jpg'
   caption: 'An imposing new roof hangs above the seating bowl that was meant to be temporary. Photograph: [Andy Hall](https://www.theguardian.com/sport/gallery/2015/jul/18/exclusive-pictures-inside-west-hams-new-home).'
   alignment: 'bleed'
 %}
@@ -86,7 +86,7 @@ It wasn’t until I read [Owen Gibson’s article in the Guardian][24], that I r
 
 The few other remaining elements of the original stadium will soon disappear as well. The distinctive seating pattern, whose fragment design features lines that converge on the finish line, will be replaced with a design that suits West Ham United’s own tastes. The red Mondo track is to be ripped up and replaced with a new blue surface. Even the name is likely to change, with operators looking to sell naming rights.
 
-{% include 'figure' with '/images/2015/07/londons_olympic_stadium/white_city_stadium_1908.jpg'
+{% render 'figure' with '/images/2015/07/londons_olympic_stadium/white_city_stadium_1908.jpg'
   caption: 'London’s first Olympic Stadium, [The Great Stadium](https://en.wikipedia.org/wiki/White_City_Stadium), was built in White City for the 1908 games and demolished in 1985. What does the future have in store for the stadium in Stratford? Photograph: © [Museum of London](http://www.20thcenturylondon.org.uk/mol-82-232-138f).'
 %}
 
@@ -100,7 +100,7 @@ While a future for the venue has been secured, it has come at a considerable cos
 
 This takes place within a broader context, one in which similar mistakes continue to be made around the world. Only this month, the Japanese government scrapped plans to build [Zaha Hadid’s controversial Olympic stadium][25] in Tokyo. Organisers might have been tempted to revert back to earlier plans which involved upgrading the [stadium used during the 1964 games][26]… except this has been demolished to make way for the new one. You couldn’t make this stuff up.
 
-{% include 'figure' with '/images/2015/07/londons_olympic_stadium/tokyo_olympic_stadium_proposal.jpg'
+{% render 'figure' with '/images/2015/07/londons_olympic_stadium/tokyo_olympic_stadium_proposal.jpg'
   caption: 'Zaha Hadid’s controversial design for Tokyo’s new Olympic Stadium. Render: © [Zaha Hadid Architects](http://www.zaha-hadid.com/architecture/new-national-stadium/).'
   alignment: 'bleed'
 %}

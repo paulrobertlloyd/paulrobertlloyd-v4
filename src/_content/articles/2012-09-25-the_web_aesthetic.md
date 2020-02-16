@@ -35,13 +35,13 @@ photoset:
 ---
 _This article is [also available in Italian][it-IT]{hreflang="it-IT" rel="alternate external"}_
 
-{% include 'figure' with '/images/2012/09/the_web_aesthetic/illustration.png'
+{% render 'figure' with '/images/2012/09/the_web_aesthetic/illustration.png'
   caption: 'Illustration: [Kevin Cornell](http://alistapart.com/authors/c/kevincornell) for A List Apart.'
   alignment: 'bleed'
   image_ratio: 2.25
 %}
 
-{% include 'quote' with 'It is the nature of the web to be flexible, and it should be our role as designers and developers to embrace this flexibility, and produce pages which, by being flexible, are accessible to all.'
+{% render 'quote' with 'It is the nature of the web to be flexible, and it should be our role as designers and developers to embrace this flexibility, and produce pages which, by being flexible, are accessible to all.'
   caption: 'John Allsopp, <cite>[The Dao of Web Design](https://www.alistapart.com/articles/dao/)</cite>'
 %}
 
@@ -71,7 +71,7 @@ Like the web, television is a medium where the access devices differ: Television
 
 This was especially true in the 1970s and early 1980s. Although programs were recorded in color, broadcasters still had to consider the large number of people who owned black-and-white sets. On-screen graphics needed to work on both types of screens, so designers used contrasting shapes and colors. For example, the idents for BBC1 used a yellow (and later, bright green) rotating globe on a dark blue field. The resulting design may have been garish, but it worked.
 
-{% include 'photos' with photoset.1
+{% render 'photos' with photoset.1
   caption: 'BBC1 idents from 1974 and 1981.'
   image_preset: 'thumbnail'
 %}
@@ -86,7 +86,7 @@ Before “killer websites” and the desire to produce print-like layouts — wh
 
 In 1995, [Hotwired][4] used just sixteen colors. Navigation on the homepage consisted of little more than six four-color, 1kb GIFs representing each topic area. The layout was just those images, centered:
 
-{% include 'figure' with '/images/2012/09/the_web_aesthetic/hotwired_1995.png'
+{% render 'figure' with '/images/2012/09/the_web_aesthetic/hotwired_1995.png'
   caption: 'Hotwired, circa 1995.'
 %}
 
@@ -112,7 +112,7 @@ Rather than generating differently sized images and determining which should be 
 
 The [dConstruct Archive][6] is a small site where people can listen to talks given at previous dConstruct conferences. Here, background detail around the face of each speaker has been blurred out, generating images with fewer compression artifacts and therefore smaller file sizes. This technique works especially well for portraits, as humans tend to focus on facial features anyway.
 
-{% include 'photos' with photoset.2
+{% render 'photos' with photoset.2
   caption: 'Original image: 9kb. Optimized image: 4kb.'
   image_preset: 'thumbnail'
 %}
@@ -125,7 +125,7 @@ If images with fewer colors and higher levels of compression can deliver smaller
 
 With a theme of “playing with the future,” the [dConstruct 2012][7] conference site employed a highly typographic design that featured monochrome images with areas of flat color. This design decision meant images could be really small, some needing as few as eight colors:
 
-{% include 'photos' with photoset.3
+{% render 'photos' with photoset.3
   caption: 'Original image: 14kb. Optimized image: 11kb.'
   image_preset: 'thumbnail'
 %}
@@ -142,7 +142,7 @@ Rather than increasing the *resolution* of images as sites scale up, we can thin
 
 When accessed on more powerful devices like newer smartphones, tablets, and desktop computers (those that can “[cut the mustard][10]”), an image is displayed for each story. These images have been deemed “nice to have” — enhancements to the core experience that are conditionally requested after the basic page has loaded.
 
-{% include 'photos' with photoset.4
+{% render 'photos' with photoset.4
   caption: 'Simple and enhanced experiences for the BBC News mobile site'
   image_preset: 'thumbnail'
 %}
@@ -165,13 +165,13 @@ That these apps can only be viewed using Chrome is an unnerving requirement, and
 
 When we think of websites inspired by print, those of newspapers spring to mind. The website for [_The New York Times_][12] features a fixed, densely packed, multi-column grid. Like many contemporary sites, content is suffocated by advertising, sharing widgets, and related links:
 
-{% include 'figure' with '/images/2012/09/the_web_aesthetic/nytimes_site.png'
+{% render 'figure' with '/images/2012/09/the_web_aesthetic/nytimes_site.png'
   caption: 'New York Times Website Interface'
 %}
 
 The inappropriateness of this design becomes more apparent when compared to its [Chrome App][13] (which is thankfully accessible in other browsers). Content takes center stage, with a less cluttered, more focused interface that’s also responsive — to a point. Note that it also features less photographic imagery, supporting the idea that responsive images might only be a problem when web designers try to replicate print.
 
-{% include 'figure' with '/images/2012/09/the_web_aesthetic/nytimes_app.png'
+{% render 'figure' with '/images/2012/09/the_web_aesthetic/nytimes_app.png'
   caption: 'New York Times Application Interface'
 %}
 
@@ -179,13 +179,13 @@ The inappropriateness of this design becomes more apparent when compared to its 
 
 Another website that suffers from similarly crowded layouts is [BBC Good Food:][14]
 
-{% include 'figure' with '/images/2012/09/the_web_aesthetic/bbc_good_food_site.png'
+{% render 'figure' with '/images/2012/09/the_web_aesthetic/bbc_good_food_site.png'
   caption: 'BBC Good Food Website Interface'
 %}
 
 Yet, when viewing a recipe page in its [Chrome app,][15] we again see a more considered, user-centered design; it’s far easier to follow a recipe when you don’t have to scroll the page.
 
-{% include 'figure' with '/images/2012/09/the_web_aesthetic/bbc_good_food_app.png'
+{% render 'figure' with '/images/2012/09/the_web_aesthetic/bbc_good_food_app.png'
   caption: 'BBC Good Food Application Interface'
 %}
 
@@ -193,7 +193,7 @@ Yet, when viewing a recipe page in its [Chrome app,][15] we again see a more con
 
 A final example of this trend can be found on [Rdio][16]. As the music-streaming service has evolved, its designers have sought consistency between the website and desktop application. Where once these interfaces shared only a few components, now they are largely the same. This has resulted in a design that falls somewhere between the two: not quite a website, but not quite a desktop application either.
 
-{% include 'figure' with '/images/2012/09/the_web_aesthetic/rdio.png'
+{% render 'figure' with '/images/2012/09/the_web_aesthetic/rdio.png'
   caption: 'Rdio Website Interface'
 %}
 

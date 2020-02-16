@@ -19,7 +19,7 @@ While I’m trying not to see buying a property as an act of settling down (I ca
 
 The history of Clearleft maps closely to that of my own career. At first, I watched from the sidelines as the company emerged from the blogging of its three founding partners. My first interaction came as a client, when Ning hired their nascent team to design a video product. I later contracted for them, before joining full-time four and a half years ago.
 
-{% include 'figure' with '/images/2013/10/moving_in_moving_on/clearleft.jpg'
+{% render 'figure' with '/images/2013/10/moving_in_moving_on/clearleft.jpg'
   caption: 'The Clearleft team after a day out learning to bake bread in 2011. Photograph: [Richard Rutter](https://www.flickr.com/photos/clagnut/5958520979/in/set-72157627118099803).'
 %}
 
@@ -35,7 +35,7 @@ I know I will, as it is with much sadness that I’ve decided to leave Clearleft
 
 ## Goodbye Clearleft
 
-{% include 'quote' with 'The comfort zone is the great enemy to creativity; moving beyond it compels intuition, which in turn brings new perspectives and conquers fears.'
+{% render 'quote' with 'The comfort zone is the great enemy to creativity; moving beyond it compels intuition, which in turn brings new perspectives and conquers fears.'
   caption: 'Dan Stevens, British actor'
 %}
 
