@@ -12,6 +12,7 @@
 .screenshots img {
   box-shadow: 1.5vw 2vw 4vw 1vw var(--screenshot-shadow, var(--color-rule));
   margin: var(--grid-row-gap) auto;
+  outline-offset: 0;
 }
 
 @media (prefers-color-scheme: dark) {
