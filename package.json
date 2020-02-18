@@ -59,7 +59,7 @@
     "rollup": "^1.31.1",
     "rollup-plugin-terser": "^5.2.0",
     "sanitize-html": "^1.21.1",
-    "string-to-color": "^2.1.1",
+    "string-to-color": "^2.1.2",
     "uslug": "^1.0.4"
   },
   "devDependencies": {
