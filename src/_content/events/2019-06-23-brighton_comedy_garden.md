@@ -6,5 +6,5 @@ summary: The first ever Brighton Comedy Garden plants its roots this June with f
 start: 2019-06-19
 end: 2019-06-23
 tags:
-- venue:9C2xrvq3+wh
+- venue:9c2xrvq3+wh
 ---
