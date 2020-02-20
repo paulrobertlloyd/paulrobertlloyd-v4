@@ -33,7 +33,7 @@ tags:
   caption: 'Canvas and artboards in Sketch'
 %}
 
-{% render 'product' %}
+{% render 'product' with product %}
 
 During the earliest days of my career, I considered Adobe’s Dreamweaver and Fireworks to be the tools of my trade. As I stopped creating table-based layouts, Dreamweaver was replaced by a succession of text editors, but Fireworks remained an indispensable — if buggy — part of my arsenal.
 
