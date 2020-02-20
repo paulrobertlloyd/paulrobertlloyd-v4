@@ -37,7 +37,8 @@ Working alongside Apture’s CEO Tristan Harris and his small team, often on-sit
   caption: 'The Apture logo.'
 %}
 
-{% render 'quote' with 'I’ve worked alongside some of the most brilliant interaction and graphic designers in the world in my career, but Paul is one of the most talented and consistently impressive designers I’ve met. Beyond driving most of Apture’s graphic, interaction and web design work, he cares deeply about building beautiful, visually organised products, which I think is why we both got along in the first place.'
+{% render 'figure'
+  content: '> I’ve worked alongside some of the most brilliant interaction and graphic designers in the world in my career, but Paul is one of the most talented and consistently impressive designers I’ve met. Beyond driving most of Apture’s graphic, interaction and web design work, he cares deeply about building beautiful, visually organised products, which I think is why we both got along in the first place.'
   caption: 'Tristan Harris, co-founder and CEO'
 %}
 

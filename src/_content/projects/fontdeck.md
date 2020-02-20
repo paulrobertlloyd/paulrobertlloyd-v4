@@ -81,7 +81,8 @@ The previous text-heavy about page was replaced by an expanded about section tha
 
 Type designer and foundry pages previously consisted of plain alphabetical indices of names. I saw this as an opportunity to make those responsible for the fonts available in the library the heroes of the service. Individual foundry and designer pages now featured a photo or logo and short bio alongside a list of the fonts they had created.
 
-{% render 'quote' with 'Working on Fontdeck with Paul was a pleasure. He brought his usual meticulous attention in redesigning the site, resulting in a far more consistent and harmonious feel, along with numerous small yet significant improvements in usability. Ultimately Paul added the finesse the site was missing.'
+{% render 'figure'
+  content: '> Working on Fontdeck with Paul was a pleasure. He brought his usual meticulous attention in redesigning the site, resulting in a far more consistent and harmonious feel, along with numerous small yet significant improvements in usability. Ultimately Paul added the finesse the site was missing.'
   caption: 'Richard Rutter, co-founder and CEO'
 %}
 

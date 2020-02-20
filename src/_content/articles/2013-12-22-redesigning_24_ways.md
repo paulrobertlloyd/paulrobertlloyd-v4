@@ -44,7 +44,8 @@ In [The Web Aesthetic][6], I urged designers to move beyond traditional print-in
 
 ## A torturous design process
 
-{% render 'quote' with 'How I design: tenacity, panic, happy accidents and fast-approaching deadlines.'
+{% render 'figure'
+  content: '> How I design: tenacity, panic, happy accidents and fast-approaching deadlines.'
   caption: '[@paulrobertlloyd, 3 September 2013](https://twitter.com/paulrobertlloyd/status/374836201972584448)'
 %}
 
@@ -58,7 +59,8 @@ Diamonds quickly became a unifying motif throughout this exploratory stage. Not 
 
 For the typography, I settled on a pairing of [Lato][9] and [Merriweather][10]. For similar reasons discussed in [an earlier post][11], I opted to use freely available fonts, with budget and ease of implementation at the forefront of my mind. This choice helped me typeset articles to a reasonable standard, yet using typefaces from different designers and with different metrics meant I was unable to mix them together inline. I looked at pairing Merriweather with its sans serif counterpart, yet its tracking was too loose for body copy.
 
-{% render 'quote' with 'Know your fonts… using a typeface whose name means ‘summer’, for a website based around Christmas. Awkward.'
+{% render 'figure'
+  content: '> Know your fonts… using a typeface whose name means ‘summer’, for a website based around Christmas. Awkward.'
   caption: '[@paulrobertlloyd, 14 November 2013](https://twitter.com/paulrobertlloyd/status/401169294488535040)'
 %}
 
@@ -74,7 +76,8 @@ By the time dConstruct arrived in September, I had enough elements to present an
 
 With the deadline fast approaching, I abandoned Sketch and headed for the browser. Having already marked up the site (using [Barebones][14] to provide generic styling) I introduced elements of the new design and observed how it cascaded down and throughout pages. Soon enough, the design was informing the markup, which in turn was informing the design. A visual language was developing in front of me.
 
-{% render 'quote' with 'Sometimes you have to work with a design system to truly understand it.'
+{% render 'figure'
+  content: '> Sometimes you have to work with a design system to truly understand it.'
   caption: '[@paulrobertlloyd, 29 October 2013](https://twitter.com/paulrobertlloyd/status/395365510046830592)'
 %}
 
@@ -120,7 +123,8 @@ I was keen to introduce more modularity into my code, do more with a CSS preproc
 
 Although I didn’t employ strict adherence to the [BEM][20] methodology, I found the underlying concept incredibly useful in helping me name patterns.
 
-{% render 'quote' with 'It’s finally happened… I’m seriously considering using a `.list--item` class name. Sky, meet flying pigs.'
+{% render 'figure'
+  content: '> It’s finally happened… I’m seriously considering using a `.list--item` class name. Sky, meet flying pigs.'
   caption: '[@paulrobertlloyd, 29 October 2013](https://twitter.com/paulrobertlloyd/status/395351309169459200)'
 %}
 

@@ -309,19 +309,22 @@ Graphic design is used in a range of situations throughout television: titles an
 
 Graphic design and television have gone hand in hand from the very creation of the medium:
 
-{% render 'quote' with 'Contemporary descriptions of [John Logie] Baird’s 1926 experiments with television broadcasts reveal that he used a variety of graphic forms to test legibility, including type script. Graphics and television were thus linked from the point of inception.'
+{% render 'figure'
+  content: '> Contemporary descriptions of [John Logie] Baird’s 1926 experiments with television broadcasts reveal that he used a variety of graphic forms to test legibility, including type script. Graphics and television were thus linked from the point of inception.'
   caption: 'Crook, 1986'
 %}
 
 However the biggest visual change to television graphics since colour, was the introduction of computer technology and the ability to manipulate television images in an electronic space, rather than just leaving them as purely photographic images reduplicating three-dimensional spaces. The first years of television saw a graphic style heavily influenced by that of cinema being the only existing medium with similarities to television (indeed many of ITV’s first regional franchises were owned by companies with interests in cinema such as Granada and ABC). However, although television gradually developed its own style, it was with televisions growing use of technology that it started to contrast strongly with that of cinema.
 
-{% render 'quote' with 'Cinema uses digital image technologies to simulate realities and extend the range of its illusionism. Television uses images as the raw material for a process of work, transmuting, combining, changing and layering them in a way that can only be described of as graphic. While cinema remains triumphantly photographic, television has found itself as a graphic medium.'
+{% render 'figure'
+  content: '> Cinema uses digital image technologies to simulate realities and extend the range of its illusionism. Television uses images as the raw material for a process of work, transmuting, combining, changing and layering them in a way that can only be described of as graphic. While cinema remains triumphantly photographic, television has found itself as a graphic medium.'
   caption: 'Ellis, 2000'
 %}
 
 Brain Eley, Creative Director at Lambie-Nairn — a leading brand consultancy that has its roots in television graphic design — has been quoted as saying:
 
-{% render 'quote' with 'Sophisticated on-screen graphics have become part of the quotable culture, part of the language of television. They’ve gradually become established on the landscape of domestic TV and people now expect an incredibly high level of craft.'
+{% render 'figure'
+  content: '> Sophisticated on-screen graphics have become part of the quotable culture, part of the language of television. They’ve gradually become established on the landscape of domestic TV and people now expect an incredibly high level of craft.'
   caption: 'Davies, 1997'
 %}
 
@@ -407,7 +410,8 @@ Although it was expensive to implement, it was radically different to its compet
 
 Idents were paired with <cite>Fourscore</cite>, a four-note signature tune composed by David Dundas that, like the figure four, could be adapted to suit a particular mood or theme. Compared to its rivals, Channel 4 used bright colours, movement, ground breaking technology with a consistent image both on and off screen. In turn, Channel 4 became the first channel to have a brand, a visual property to hang on to — something very important to a channel that was going to find it hard competing against three well established channels and a lot of bad press initially.
 
-{% render 'quote' with 'The launch identity has since been lauded as the most innovative corporate solution of the eighties.'
+{% render 'figure'
+  content: '> The launch identity has since been lauded as the most innovative corporate solution of the eighties.'
   caption: 'Mistry, 1996'
 %}
 
@@ -434,7 +438,8 @@ As in other areas of contemporary marketing, the idea of “the brand” replace
 
 The first real attempt to create a brand to rival Channel 4’s came in 1989 when the Independent Television Association decided to create a new ITV corporate brand for its fragmented network, that would provide a consistent image across its regions with a stylish and meaningful design.
 
-{% render 'quote' with 'English Markell Pockett had to come up with a new logo that could incorporate fifteen regional variations into a single corporate image to counter the strong national images of new satellite stations like BSB.'
+{% render 'figure'
+  content: '> English Markell Pockett had to come up with a new logo that could incorporate fifteen regional variations into a single corporate image to counter the strong national images of new satellite stations like BSB.'
   caption: 'McClellan, 1990'
 %}
 
@@ -466,7 +471,8 @@ Whilst BBC1’s slightly wooden and stayed COW ident was popular, BBC2’s hadn�
 
 In 1990, Martin Lambie-Nairn — a former employee of the BBC’s in-house graphics department during the 1960’s — was brought in to refresh the identities of both channels.
 
-{% render 'quote' with 'The identity for BBC1 retained a globe as the central element, reminding viewers of the BBC’s self-appointed role as a kind of super-national messenger.'
+{% render 'figure'
+  content: '> The identity for BBC1 retained a globe as the central element, reminding viewers of the BBC’s self-appointed role as a kind of super-national messenger.'
   caption: 'Aldersey-Williams, 1993'
 %}
 
@@ -488,7 +494,8 @@ Whilst BBC1’s image was designed to endure and remain graphically appealing, B
 
 After what Lambie-Nairn described as a “repositioning” of the two channels, both were seen as more up-to-date and accessible, without destroying BBC1’s already strong image. The BBC2 identities became a particular hit, both with the public and within the design industry. With no change to its programming, BBC2 was now seen as sophisticated, witty and entertaining. The ‘2’ figure was developed further over the following years with idents such as <cite>Fluffy Dog</cite> in which an excitable figure two leaps into the air and summersaults, and <cite>Car</cite> in which the 2 becomes a remote controlled car that whizzes around the screen, both becoming firm favourites with the audience. Alan Yentob, controller of BBC2 at the time, was quoted as saying:
 
-{% render 'quote' with 'It has received lots of fan mail and correspondence. We will definitely be renewing its contract.'
+{% render 'figure'
+  content: '> It has received lots of fan mail and correspondence. We will definitely be renewing its contract.'
   caption: 'Lambie-Nairn, 1997, p122'
 %}
 
@@ -522,7 +529,8 @@ Channel 5 eventually launched on Easter Sunday 1997, but prior to this, the chan
 
 The company responsible for building this awareness was Wollf Olins, the company responsible for BT and Orange corporate identities but this was their first venture into television. They devised an identity that worked in two parts. The first part involved the creation of a ‘retuning brand’ using the slogan “give me 5” and featured five vertical bands of vivid colour — blue, orange pink, yellow and green, and a logo which was a 5 inside two thin circles, taking design cues from that of test cards. This visual imagery was:
 
-{% render 'quote' with '…deliberately bright and straight forward — it reflects the tone of the programming which will be optimistic and unashamedly populist.'
+{% render 'figure'
+  content: '> …deliberately bright and straight forward — it reflects the tone of the programming which will be optimistic and unashamedly populist.'
   caption: 'Davies, 1997'
 %}
 
@@ -542,7 +550,8 @@ As a sign of things to come, Channel 5 controversially launched with a DOG (Digi
 
 The original set of idents lasted for two years before being replaced with arguably more appropriate idents that used the 5 logo and colours more consistently. Upon their launch Jim Hytner, Marketing Director at Channel 5 said:
 
-{% render 'quote' with 'The launch itself was successful in establishing it as a big brand or a big channel but I’m not sure that we the channel had a good enough feeling about what our programming was going to be, and therefore it was quite hard to express that to viewers.'
+{% render 'figure'
+  content: '> The launch itself was successful in establishing it as a big brand or a big channel but I’m not sure that we the channel had a good enough feeling about what our programming was going to be, and therefore it was quite hard to express that to viewers.'
   caption: 'McGonagle, 2002'
 %}
 
@@ -757,7 +766,8 @@ However both the BBC and ITN started their bulletins in exactly the same manor �
 
 The first real change to come to this clichéd and computer orientated world was again in the habitual shape of Martin Lambie-Nairn, who produced new titles for the BBC’s Nine O'clock News in 1988. These were based on a range of graphical elements with long-standing BBC associations such as the figure Jupiter from its coat of arms.
 
-{% render 'quote' with 'Conceptually, we attempted to communicate an idea of how a news programme actually functions: disparate information comes in, is collected, ordered then broadcast.'
+{% render 'figure'
+  content: '> Conceptually, we attempted to communicate an idea of how a news programme actually functions: disparate information comes in, is collected, ordered then broadcast.'
   caption: 'Lambie-Nairn, 1997, p119'
 %}
 
@@ -792,7 +802,8 @@ ITN followed suit a few years later with a generic brand again designed by Lambi
 
 New titles were created which exclusively featured the clock face of Big Ben, with close up shots before pulling away to show the appointed hour. Thirteen differently lit versions were shot to reflect the time of day and the changing seasons. As for the set:
 
-{% render 'quote' with 'Our belief was that a news programme should communicate honesty, transparency and plain dealing… ITN’s new Grays Inn Road building provided us with a marvelous opportunity to get this impression across.'
+{% render 'figure'
+  content: '> Our belief was that a news programme should communicate honesty, transparency and plain dealing… ITN’s new Grays Inn Road building provided us with a marvelous opportunity to get this impression across.'
   caption: 'Lambie-Nairn, 1997, p207'
 %}
 
@@ -820,7 +831,8 @@ This was radically different to anything that had been seen on television in the
   image_preset: 'thumbnail'
 %}
 
-{% render 'quote' with 'Although Channel 5 News has never challenged its better established rivals in the ratings, its colourful breezy approach to explaining stories to its viewers prompted changes to Newsnight, BBC1’s bulletins and Channel 4 News.'
+{% render 'figure'
+  content: '> Although Channel 5 News has never challenged its better established rivals in the ratings, its colourful breezy approach to explaining stories to its viewers prompted changes to Newsnight, BBC1’s bulletins and Channel 4 News.'
   caption: 'Gibson, 1999'
 %}
 

@@ -1,6 +1,6 @@
 <figure class="align-{{ alignment | default: 'none' }}">
 {%- if content %}
-  {{ content }}
+  {{ content | markdownify }}
 {%- else %}
   {%- include 'image' with figure -%}
 {%- endif %}

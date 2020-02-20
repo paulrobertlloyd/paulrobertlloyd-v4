@@ -34,7 +34,8 @@ A second proposal put forward by Apple, the [`srcset` attribute][6], uses a more
 
 ## Enter Scrooge
 
-{% render 'quote' with 'Men’s courses will foreshadow certain ends, to which, if persevered in, they must lead.'
+{% render 'figure'
+  content: '> Men’s courses will foreshadow certain ends, to which, if persevered in, they must lead.'
   caption: '<cite>Ebenezer Scrooge</cite>'
 %}
 

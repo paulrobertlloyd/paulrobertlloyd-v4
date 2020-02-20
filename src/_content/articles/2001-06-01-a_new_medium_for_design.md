@@ -30,7 +30,8 @@ However whether users would see these pages as the designer intended is another 
 
 For designers used to the control they have in print, designing for the web can be very frustrating.
 
-{% render 'quote' with 'Designers want what could be termed ‘What I See Is What You Get’, a system by which the typeface, colours and everything else that is determined by the designer appear as they were intended rather than as now, being customisable.'
+{% render 'figure'
+  content: '> Designers want what could be termed ‘What I See Is What You Get’, a system by which the typeface, colours and everything else that is determined by the designer appear as they were intended rather than as now, being customisable.'
   caption: 'Burgoyne and Faber, 1999'
 %}
 
@@ -46,7 +47,8 @@ However, Flash is not an integral part of web browsers, and it requires users to
 
 This was one of the central reasons for the failure of Boo.com — an Internet only clothing retailer that became a casualty of the ‘dot com’ collapse.
 
-{% render 'quote' with 'From the day it launched technology was a problem for the online clothes retailer. Originally it was supposed to launch in May 1999 but technical hitches delayed the unveiling. When Boo.com finally went live last November it’s ambitious technology was there for all to see — if they could be bothered to wait for it to download.'
+{% render 'figure'
+  content: '> From the day it launched technology was a problem for the online clothes retailer. Originally it was supposed to launch in May 1999 but technical hitches delayed the unveiling. When Boo.com finally went live last November it’s ambitious technology was there for all to see — if they could be bothered to wait for it to download.'
   caption: 'Ward, 2000'
 %}
 
@@ -56,7 +58,8 @@ The relative success of other online stores — Amazon being the most notable an
 
 The increasing use of Flash on websites has also sparked a debate as to whether it discourages usability. An expert in this field, Jakob Nielsen, is one person who thinks many designers are abusing Flash:
 
-{% render 'quote' with 'It’s poorly integrated into the hypertext medium, because you end up with two navigation spaces. You have the page navigation which is traditional hypertext, enabling you to click here to get to the next page, and click the back button to get to the previous one. But then you have the Flash navigation, which sort of sits inside of that other navigation — so if you click the back button, the entire Flash thing resets.'
+{% render 'figure'
+  content: '> It’s poorly integrated into the hypertext medium, because you end up with two navigation spaces. You have the page navigation which is traditional hypertext, enabling you to click here to get to the next page, and click the back button to get to the previous one. But then you have the Flash navigation, which sort of sits inside of that other navigation — so if you click the back button, the entire Flash thing resets.'
   caption: 'Jakob Nielsen, interview in <cite>Cre@teOnline</cite> magazine, September 2000'
 %}
 
@@ -90,7 +93,8 @@ The site is built in Flash and contains no HTML alternative for those without th
 
 Some may see this as an example that only good sites can be created if they use technologies such as Flash. I would disagree, as the website for the band Radiohead aptly demonstrates. The design is regularly changed to coincide with the band’s album releases, and each time the site is very much an entity in its own right. The site always make the most out of the hypertext nature of the web, letting users make choices and find their own corridors through the site. As for content, this is usually in the form of
 
-{% render 'quote' with '…sketches and ideas and images that don’t fit in anywhere… It has no news, no gig guide; no useful information at all. There are a lot of unofficial Radiohead sites that do what we don’t. We link to them because they’re useful and we aren’t.'
+{% render 'figure'
+  content: '> …sketches and ideas and images that don’t fit in anywhere… It has no news, no gig guide; no useful information at all. There are a lot of unofficial Radiohead sites that do what we don’t. We link to them because they’re useful and we aren’t.'
   caption: 'Stanley Donwood, co-creator of radiohead.com'
 %}
 

@@ -35,7 +35,8 @@ I know I will, as it is with much sadness that I’ve decided to leave Clearleft
 
 ## Goodbye Clearleft
 
-{% render 'quote' with 'The comfort zone is the great enemy to creativity; moving beyond it compels intuition, which in turn brings new perspectives and conquers fears.'
+{% render 'figure'
+  content: '> The comfort zone is the great enemy to creativity; moving beyond it compels intuition, which in turn brings new perspectives and conquers fears.'
   caption: 'Dan Stevens, British actor'
 %}
 

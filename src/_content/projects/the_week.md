@@ -96,7 +96,8 @@ Working closely with the development team at Kaldor, we honed the gestural inter
 
 The app was far more successful than anticipated, spending a number of weeks in the top grossing Top 10 News and Newsstand categories of the UK App Store, and receiving an average rating of four stars. Furthermore, the editors of the US and Australian editions were so impressed, they decided to use the same infrastructure and user experience for their respective apps, thus bringing an additional economy of scale.
 
-{% render 'quote' with 'This was the most technically complex software project we’ve ever attempted, yet in its first year it’s been a real success. We’ve found new readers, increased revenue from existing readers and gained the title lots of exposure.'
+{% render 'figure'
+  content: '> This was the most technically complex software project we’ve ever attempted, yet in its first year it’s been a real success. We’ve found new readers, increased revenue from existing readers and gained the title lots of exposure.'
   caption: 'Alex Watson, Head of App Development, Dennis Publishing'
 %}
 
