@@ -11,6 +11,7 @@ category:
 - technology
 tags:
 - featured
+- source:new_adventures_magazine
 ---
 {% render 'figure' with '/images/2019/02/illustration.png'
   caption: 'Illustration: [Geri Coady](http://hellogeri.com)'

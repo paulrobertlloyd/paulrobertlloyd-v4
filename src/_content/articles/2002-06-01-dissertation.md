@@ -6,7 +6,7 @@ category:
 - design
 - television
 tags:
-- source:academic_essay
+- source:academic_essays
 figures:
   1:
   - url: /images/2002/06/dissertation/1a.png

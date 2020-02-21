@@ -6,7 +6,7 @@ category:
 - design
 - television
 tags:
-- source:academic_essay
+- source:academic_essays
 figures:
   1:
   - url: /images/1999/03/early_graphic_design_in_television/1a.png

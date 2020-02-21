@@ -6,7 +6,7 @@ category:
 - brand_identity
 - united_kingdom
 tags:
-- source:academic_essay
+- source:academic_essays
 ---
 The Union Flag is a powerful piece of design. Since its adoption in 1801, it has become associated with many aspects of Britain’s history and culture; from World War Two to the swinging sixties, Punk to Britpop, the monarchy and sporting victories. While also linked to the National Front movement and racism, it has remained popular with people of all ages and the design has proven itself to be timeless.
 

@@ -1,13 +1,14 @@
 {%- assign tag = page.fileSlug | prepend: 'source:' -%}
 {%- assign items = collections.article | includes: 'data.tags',tag -%}
+{%- assign title = page.data.title -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'header'
-    title: title
-    summary: summary
-    url: url
+    title: page.data.title
+    summary: page.data.summary
+    url: page.data.url
   -%}
   {%- render 'items' with items
-    grid_size: '16rem'
+    item_modifier: 'inline'
   -%}
 {%- endblock -%}

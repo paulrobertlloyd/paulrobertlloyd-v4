@@ -33,6 +33,7 @@
     "@11ty/eleventy": "^0.10.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
     "@remy/webmention": "^1.4.3",
+    "@sindresorhus/slugify": "^0.11.0",
     "color": "^3.1.2",
     "cssnano": "^4.1.10",
     "liquidjs": "^9.8.0",
@@ -59,8 +60,7 @@
     "rollup": "^1.31.1",
     "rollup-plugin-terser": "^5.2.0",
     "sanitize-html": "^1.21.1",
-    "string-to-color": "^2.1.2",
-    "uslug": "^1.0.4"
+    "string-to-color": "^2.1.2"
   },
   "devDependencies": {
     "markdownlint-cli": "^0.22.0",
