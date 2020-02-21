@@ -1670,9 +1670,9 @@ module.exports = function () {
         layout: 'venue',
         title: venue.title,
         url: venue.url,
+        content: venue.content,
         address: venue.address,
         geo: decode(venue.address['plus-code']),
-        content: venue.content,
         'former-names': venue['former-names']
       }
     };
