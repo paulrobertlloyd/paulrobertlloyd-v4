@@ -3,8 +3,9 @@
 <article class="card |{% for root in item.data.vocab %} h-{{ root }}{% endfor %}" data-type="{{ item.data.layout }}" style="--color-accent-light: {{ card_accent | contrastify: 'black' }}; --color-accent-dark: {{ card_accent | contrastify: 'white' }}">
 {%- if item.data.image -%}
   <div class="card__image"{%- if item.data.layout != 'project' -%} style="--image-color: var(--color-accent)"{% endif %}>
+    {%- assign ratio = card_image_ratio | default: 1.5 -%}
     {%- render 'image' with item.data.image
-      ratio: card_image_ratio | default: 1.5
+      ratio: ratio
       sizes: grid_size
     -%}
   </div>
