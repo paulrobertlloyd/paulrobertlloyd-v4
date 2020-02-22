@@ -4,7 +4,7 @@
 {%- if item.data.image -%}
   <div class="card__image"{%- if item.data.layout != 'project' -%} style="--image-color: var(--color-accent)"{% endif %}>
     {%- render 'image' with item.data.image
-      ratio = card_image_ratio | default: 1.5
+      ratio: card_image_ratio | default: 1.5
       sizes: grid_size
     -%}
   </div>
