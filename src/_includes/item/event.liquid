@@ -1,8 +1,5 @@
 {%- assign venueid = item.data.tags[1] | remove: 'venue:' -%}
-{% comment %}
 {%- assign venue = venues | where: 'fileSlug',venueid | first -%}
-{% endcomment %}
-{%- assign venue = 'tbd' -%}
 <article class="item item--{{ modifier | default: 'block' }} | h-entry h-event" data-type="event">
   <header class="item__header">
     <h3 class="item__title | p-name">
