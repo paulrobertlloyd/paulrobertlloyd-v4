@@ -7,6 +7,7 @@
     <div class="section__main{% if scrollable %} section__main--scrollable{% endif %}">
       {%- include 'items' with section
         limit: items_limit
+        card_image_ratio: card_image_ratio
       -%}
     </div>
   </div>

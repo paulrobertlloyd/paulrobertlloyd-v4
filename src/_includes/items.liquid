@@ -3,6 +3,7 @@
   {%- render 'item/{{ component | default: item.data.layout }}'
     item: item
     modifier: item_modifier
+    card_image_ratio: card_image_ratio
   -%}
 {%- endfor -%}
 </div>
