@@ -88,6 +88,11 @@
   @extend %overline;
 }
 
+.s-linear tbody th,
+.s-linear tbody td {
+  border-block-start: var(--border-width-thin) solid var(--color-rule);
+}
+
 .s-linear *:not([class]) + h2 {
   margin-block-start: var(--space-block-large);
 }
