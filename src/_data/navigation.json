@@ -28,5 +28,8 @@
   },{
     "label": "Events",
     "url": "/events/"
+  },{
+    "label": "Trips",
+    "url": "/trips/"
   }]
 }
