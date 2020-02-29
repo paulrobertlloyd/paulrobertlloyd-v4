@@ -139,7 +139,7 @@ module.exports = function () {
     from: 'LAX',
     to: 'SFO'
   }, {
-    date: '2007-00-00',
+    date: '2007-12-17',
     from: 'SFO',
     to: 'BHX',
     via: ['DUB']
