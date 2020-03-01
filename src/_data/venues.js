@@ -95,6 +95,16 @@ module.exports = function () {
       'plus-code': '9C7RWRX3+WV'
     }
   }, {
+    title: 'Bernard B. Jacobs Theatre',
+    address: {
+      'street-address': '242 West 45th Street',
+      locality: 'New York',
+      region: 'New York',
+      'country-name': 'United States',
+      'postal-code': '10036',
+      'plus-code': '87G8Q256+GW'
+    }
+  }, {
     title: 'BL_NK',
     address: {
       'street-address': '37 East Rd',
