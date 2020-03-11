@@ -1,9 +1,8 @@
-{%- capture stars -%}
-  {%- if rating == 5 %}★★★★★{% endif -%}
-  {%- if rating == 4 %}★★★★☆{% endif -%}
-  {%- if rating == 3 %}★★★☆☆{% endif -%}
-  {%- if rating == 2 %}★★☆☆☆{% endif -%}
-  {%- if rating == 1 %}★☆☆☆☆{% endif -%}
-  {%- if rating == 0 %}☆☆☆☆☆{% endif -%}
-{%- endcapture -%}
-<data class="p-rating" value="{{ rating }}" aria-label="{{ rating }} stars out of 5">{{ stars }}</data>
+<data class="p-rating" value="{{ rating }}" aria-label="{{ rating }} stars out of 5">
+{%- if rating == 5 %}★★★★★{% endif -%}
+{%- if rating == 4 %}★★★★☆{% endif -%}
+{%- if rating == 3 %}★★★☆☆{% endif -%}
+{%- if rating == 2 %}★★☆☆☆{% endif -%}
+{%- if rating == 1 %}★☆☆☆☆{% endif -%}
+{%- if rating == 0 %}☆☆☆☆☆{% endif -%}
+</data>

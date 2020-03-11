@@ -12,11 +12,7 @@
       </summary>
 
       <div style="--grid-size: {{ grid_size | default: '100%' }}">
-      {% for remark in section-remarks %}
-        {% render 'item/remark'
-          item: remark
-        %}
-      {% endfor %}
+        {% render 'item/remark' for section-remarks as item %}
       </div>
     </details>
   </div>
