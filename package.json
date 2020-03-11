@@ -59,7 +59,7 @@
     "postcss-extend-rule": "^3.0.0",
     "postcss-logical": "^4.0.0",
     "postcss-media-minmax": "^4.0.0",
-    "rollup": "^2.0.2",
+    "rollup": "^2.0.3",
     "rollup-plugin-terser": "^5.2.0",
     "sanitize-html": "^1.22.0",
     "string-to-color": "^2.1.3"
