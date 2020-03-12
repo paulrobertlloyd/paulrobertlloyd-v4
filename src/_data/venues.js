@@ -631,6 +631,16 @@ module.exports = function () {
       'plus-code': '9C3XGV3F+X6'
     }
   }, {
+    title: 'Hove Town Hall',
+    address: {
+      'street-address': 'Church Road',
+      locality: 'Hove',
+      region: 'Sussex',
+      'country-name': 'United Kingdom',
+      'postal-code': 'BN3 2AF',
+      'plus-code': '9C2XRRHH+4V'
+    }
+  }, {
     title: 'Internet Advertising Bureau',
     address: {
       'street-address': '14 Macklin Street',
