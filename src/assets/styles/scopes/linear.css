@@ -54,8 +54,8 @@
 }
 
 .s-linear blockquote li {
-  margin-inline-start: var(--flow-inset);
   list-style-position: outside;
+  margin-inline-start: var(--flow-inset);
 }
 
 .s-linear blockquote + figcaption {

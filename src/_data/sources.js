@@ -29,7 +29,7 @@ module.exports = function () {
     summary: 'A site about all things web design and development.',
     url: 'https://css-tricks.com'
   }, {
-    title: 'Design is...',
+    title: 'Design is…',
     summary: 'Inspiring quotes from great designers.',
     url: 'https://design--is.tumblr.com'
   }, {
