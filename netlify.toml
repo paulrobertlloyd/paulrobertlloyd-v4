@@ -60,17 +60,20 @@
   from = "/favicon.ico"
   to = "/images/app.ico"
   status = 200
+  force = true
 
 # ActivityPub
 [[redirects]]
   from = "/.well-known/webfinger"
   to = "/.well-known/webfinger.jrd"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/me.jsonld"
   to = "/me"
   status = 200
+  force = true
 
 # Redirect legacy URLs
 [[redirects]]
@@ -92,34 +95,42 @@
 [[redirects]]
   from = "/talks/multipack_presents_november_2010"
   to = "/events/2010/11/multipack_presents"
+  force = true
 
 [[redirects]]
   from = "/talks/apa_digital_breakfast_march_2011"
   to = "/events/2011/03/apa_digital_breakfast"
+  force = true
 
 [[redirects]]
   from = "/talks/responsive_day_out"
   to = "/events/2013/03/responsive_day_out"
+  force = true
 
 [[redirects]]
   from = "/talks/webexpo_2015"
   to = "/events/2015/09/webexpo"
+  force = true
 
 [[redirects]]
   from = "/talks/css_day_2015"
   to = "/events/2015/06/css_day_2015"
+  force = true
 
 [[redirects]]
   from = "/talks/frontend_london_may_2015"
   to = "/events/2015/05/frontend_london_22"
+  force = true
 
 [[redirects]]
   from = "/talks/smashing_conference_freiburg_2016"
   to = "/events/2016/09/smashing_conference_freiburg"
+  force = true
 
 [[redirects]]
   from = "/feed"
   to = "/feed.xml"
+  force = true
 
 [[redirects]]
   from = "/feeds/*"
@@ -132,10 +143,12 @@
 [[redirects]]
   from = "/journal/feed.xml"
   to = "/feed.xml"
+  force = true
 
 [[redirects]]
   from = "/journal/feed.json"
   to = "/feed.json"
+  force = true
 
 [[redirects]]
   from = "/journal/*"
@@ -155,6 +168,7 @@
   query = {page = ":page"}
   to = "/articles/page/:page"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/articles/:year/:month/"
@@ -170,6 +184,7 @@
   query = {page = ":page"}
   to = "/bookmarks/page/:page"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/bookmarks/:year/:month/"
@@ -185,6 +200,7 @@
   query = {page = ":page"}
   to = "/events/venues/page/:page"
   status = 200
+  force = true
 
 # Redirect event URLs
 [[redirects]]
@@ -192,6 +208,7 @@
   query = {page = ":page"}
   to = "/events/page/:page"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/events/:year/:month/"
@@ -207,6 +224,7 @@
   query = {page = ":page"}
   to = "/notes/page/:page"
   status = 200
+  force = true
 
 # Redirect photo URLs
 [[redirects]]
@@ -214,6 +232,7 @@
   query = {page = ":page"}
   to = "/photos/page/:page"
   status = 200
+  force = true
 
 # Redirect presentation URLs
 [[redirects]]
@@ -221,6 +240,7 @@
   query = {page = ":page"}
   to = "/presentations/page/:page"
   status = 200
+  force = true
 
 [[redirects]]
   from = "/presentations/:year/:month/"
