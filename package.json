@@ -37,7 +37,7 @@
     "color": "^3.1.2",
     "cssnano": "^4.1.10",
     "geolib": "^3.2.1",
-    "liquidjs": "^9.11.2",
+    "liquidjs": "^9.11.3",
     "lodash": "^4.17.14",
     "markdown-it": "^10.0.0",
     "markdown-it-abbr": "^1.0.4",
