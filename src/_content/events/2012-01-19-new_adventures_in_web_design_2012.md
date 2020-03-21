@@ -6,6 +6,5 @@ summary: We’re back again, bringing you a unique and affordable web design con
 collection: new_adventures
 start: 2012-01-18
 end: 2012-01-19
-tags:
-- venue:9c4wxr3v+qc
+venue: 9c4wxr3v+qc
 ---

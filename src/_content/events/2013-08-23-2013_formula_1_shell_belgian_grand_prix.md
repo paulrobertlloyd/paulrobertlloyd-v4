@@ -6,6 +6,5 @@ summary: Round 11 of the 2013 FIA Formula One World Championship.
 collection: formula_1
 start: 2013-08-23
 end: 2013-08-25
-tags:
-- venue:9f27cxpc+qr
+venue: 9f27cxpc+qr
 ---

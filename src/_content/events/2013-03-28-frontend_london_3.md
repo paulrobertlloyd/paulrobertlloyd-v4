@@ -7,6 +7,5 @@ collection: frontend_london
 start: 2013-03-28T19:00:00+01:00
 end: 2013-03-28T21:30:00+01:00
 participant: true
-tags:
-- venue:9c3xgwj2+x8
+venue: 9c3xgwj2+x8
 ---

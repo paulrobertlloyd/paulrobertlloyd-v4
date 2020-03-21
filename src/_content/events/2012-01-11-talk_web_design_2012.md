@@ -7,6 +7,5 @@ collection: talk_web_design
 start: 2012-01-11T10:30:00Z
 end: 2012-01-11T17:30:00Z
 participant: true
-tags:
-- venue:9f32c3wh+9r
+venue: 9f32c3wh+9r
 ---

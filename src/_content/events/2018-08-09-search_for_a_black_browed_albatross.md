@@ -6,6 +6,5 @@ summary: Coat? Check. Tent? Check. A father’s lifelong ambition to complete? C
 collection: edinburgh_festival_fringe_2018
 start: 2018-08-09T15:30:00+01:00
 end: 2018-08-09T16:30:00+01:00
-tags:
-- venue:9c7rwrw6+9m
+venue: 9c7rwrw6+9m
 ---

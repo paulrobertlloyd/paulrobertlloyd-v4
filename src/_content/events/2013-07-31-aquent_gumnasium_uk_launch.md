@@ -5,6 +5,5 @@ summary: The UK launch of Aquent Gymnasium, an online learning platform that off
 start: 2013-07-31T16:00:00+01:00
 end: 2013-07-31T22:00:00+01:00
 participant: true
-tags:
-- venue:9c3xgvr2+xg
+venue: 9c3xgvr2+xg
 ---

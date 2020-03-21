@@ -5,7 +5,6 @@ date: 2014-02-04T19:00:00Z
 collection: connections
 start: 2014-02-04T19:00:00Z
 end: 2014-02-04T20:00:00Z
-tags:
-- venue:9c2xrvc4+cq
+venue: 9c2xrvc4+cq
 ---
 > Connections is the first in a new series of events that will explore the edges of design, technology and science.

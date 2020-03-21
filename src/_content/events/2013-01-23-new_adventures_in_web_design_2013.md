@@ -6,6 +6,5 @@ summary: What a final adventure it promises to be. We’re pulling out the stops
 collection: new_adventures
 start: 2013-01-23
 end: 2013-01-25
-tags:
-- venue:9c4wxr3v+qc
+venue: 9c4wxr3v+qc
 ---

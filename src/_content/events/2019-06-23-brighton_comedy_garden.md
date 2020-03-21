@@ -5,6 +5,5 @@ url: https://www.brightoncomedygarden.co.uk
 summary: The first ever Brighton Comedy Garden plants its roots this June with five nights of sensational stand-up in the big top paired with street-food, craft beers and more in the glorious Preston Park.
 start: 2019-06-19
 end: 2019-06-23
-tags:
-- venue:9c2xrvq3+wh
+venue: 9c2xrvq3+wh
 ---

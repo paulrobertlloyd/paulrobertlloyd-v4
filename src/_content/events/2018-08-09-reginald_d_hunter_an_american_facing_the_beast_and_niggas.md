@@ -6,6 +6,5 @@ summary: Celebrating 20 years at the Fringe and direct from an 80-date tour of t
 collection: edinburgh_festival_fringe_2018
 start: 2018-08-09T20:30:00+01:00
 end: 2018-08-09T21:30:00+01:00
-tags:
-- venue:9c7rxqwr+c2
+venue: 9c7rxqwr+c2
 ---

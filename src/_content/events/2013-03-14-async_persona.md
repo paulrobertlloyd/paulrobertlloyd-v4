@@ -5,6 +5,5 @@ url: https://asyncjs.com/persona/
 collection: async
 start: 2013-03-14T19:15:00Z
 end: 2013-03-14T21:00:00Z
-tags:
-- venue:9c2xrvg7+m9
+venue: 9c2xrvg7+m9
 ---

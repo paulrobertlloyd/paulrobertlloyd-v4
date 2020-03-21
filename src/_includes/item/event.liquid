@@ -1,5 +1,3 @@
-{%- assign venueid = item.data.tags[1] | remove: 'venue:' -%}
-{%- assign venue = venues | where: 'fileSlug',venueid | first -%}
 <article class="item item--{{ modifier | default: 'block' }} | h-entry h-event" data-type="event">
   <header class="item__header">
     <h3 class="item__title | p-name">
@@ -12,7 +10,8 @@
     </h3>
   </header>
 
-{%- if venueid != 'tbd' -%}
+{%- if item.data.venue -%}
+  {%- assign venue = venues | where: 'fileSlug',item.data.venue | first -%}
   <p class="item__main s-linear | h-card">
     <a class="p-name" href="{{ venue.url | pretty }}">{{ venue.data.title | markdownify: 'inline' }}</a>
   </p>

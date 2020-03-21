@@ -6,6 +6,5 @@ summary: An affordable, enjoyable gathering of designers and developers sharing 
 collection: responsive_day_out
 start: 2014-06-27T09:00:00+01:00
 end: 2014-06-27T17:30:00+01:00
-tags:
-- venue:9c2xrvf6+fg
+venue: 9c2xrvf6+fg
 ---

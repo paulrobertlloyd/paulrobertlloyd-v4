@@ -5,6 +5,5 @@ url: https://asyncjs.com/birthday/
 collection: async
 start: 2011-05-12T18:15:00Z
 end: 2011-05-12T20:00:00Z
-tags:
-- venue:9c2xrvg7+m9
+venue: 9c2xrvg7+m9
 ---

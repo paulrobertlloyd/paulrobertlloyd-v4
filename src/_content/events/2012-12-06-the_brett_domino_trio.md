@@ -4,8 +4,7 @@ date: 2012-12-06T20:00:00Z
 summary: Advent Calendar Spectacular
 start: 2012-12-06T20:00:00Z
 end: 2012-12-06T21:30:00Z
-tags:
-- venue:9c3xgvmh+x7
+venue: 9c3xgvmh+x7
 ---
 > Yorkshire musical comedy duo, The Brett Domino Trio, return to Kings Place with an exclusive one-off Christmas show, Advent Calendar Spectacular.
 >

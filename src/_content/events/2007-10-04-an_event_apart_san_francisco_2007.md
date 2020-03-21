@@ -5,7 +5,6 @@ url: https://archive.aneventapart.com/events/sf07/
 collection: an_event_apart
 start: 2007-10-04
 end: 2007-10-05
-tags:
-- venue:849vqhqx+67
+venue: 849vqhqx+67
 ---
 > Join Eric Meyer, Jeffrey Zeldman and special guests to gain a deeper understanding of web standards and emerging best practices. Be inspired by fresh ideas and new directions. Join the greatest minds and hottest talents in web design today.

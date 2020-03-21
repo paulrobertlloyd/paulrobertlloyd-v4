@@ -5,7 +5,6 @@ url: https://2006.geekinthepark.co.uk
 collection: geek_in_the_park
 start: 2006-08-27T17:00:00+01:00
 end: 2006-08-27T23:00:00+01:00
-tags:
-- venue:9c4w7fp8+7r
+venue: 9c4w7fp8+7r
 ---
 > Geek in the Park is a day-long get together, picnic, and discussion for anyone to do with the Internet. This is a very informal affair so family and friends are very much welcome to attend too.

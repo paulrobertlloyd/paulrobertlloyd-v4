@@ -6,6 +6,5 @@ summary: Three days of design, code, and content.
 collection: an_event_apart
 start: 2011-10-24
 end: 2011-10-26
-tags:
-- venue:87c4rw3m+7r
+venue: 87c4rw3m+7r
 ---

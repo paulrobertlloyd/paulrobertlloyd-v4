@@ -7,6 +7,5 @@ collection: geek_in_the_park
 start: 2011-08-13T18:00:00+01:00
 end: 2011-08-13T21:30:00+01:00
 participant: true
-tags:
-- venue:9c4w7fr8+7x
+venue: 9c4w7fr8+7x
 ---

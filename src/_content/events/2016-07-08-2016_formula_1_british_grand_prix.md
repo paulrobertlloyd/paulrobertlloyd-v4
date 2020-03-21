@@ -7,6 +7,5 @@ collection:
 - formula_1
 start: 2016-07-08
 end: 2016-07-10
-tags:
-- venue:9c4w3xfp+84
+venue: 9c4w3xfp+84
 ---

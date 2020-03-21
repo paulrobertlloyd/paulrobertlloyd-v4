@@ -6,6 +6,5 @@ summary: A unique and affordable web design conference in the heart of England.
 collection: new_adventures
 start: 2011-01-20T09:00:00Z
 end: 2011-01-20T18:00:00Z
-tags:
-- venue:9c4wxr3v+qc
+venue: 9c4wxr3v+qc
 ---

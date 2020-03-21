@@ -1,5 +1,4 @@
-{%- assign venueid = tags[1] | remove: 'venue:' -%}
-{%- assign venue = venues | where: 'fileSlug',venueid | first -%}
+{%- assign venue = venues | where: 'fileSlug',venue | first -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'footer-event'
