@@ -123,14 +123,14 @@ aria.Combobox.prototype.setActiveOption = function (event) {
     return;
   }
 
-  const prevActive = this.getOptionAt(activeIndex);
+  const previousActive = this.getOptionAt(activeIndex);
   let activeOption;
 
   switch (key) {
     case aria.key.UP:
       if (activeIndex === 0) {
         // Enable focus to be drawn back up to search input
-        this.defocusOption(prevActive);
+        this.defocusOption(previousActive);
         this.activeIndex = -1;
         this.input.setAttribute('aria-activedescendant', '');
         return;
@@ -169,8 +169,8 @@ aria.Combobox.prototype.setActiveOption = function (event) {
   activeOption = this.getOptionAt(activeIndex);
   this.activeIndex = activeIndex;
 
-  if (prevActive) {
-    this.defocusOption(prevActive);
+  if (previousActive) {
+    this.defocusOption(previousActive);
   }
 
   if (activeOption) {
