@@ -3,8 +3,8 @@ title: Channel 4 News
 date: 2010-09-30
 summary: Reinventing Channel 4’s news presence on the iPad.
 image: /images/projects/channel_4_news/image.jpg
-tags:
-- skill:interaction_design
+category:
+- Interaction design
 style:
   color-accent: '#42246e'
   screenshot-shadow: '#5b1c46'

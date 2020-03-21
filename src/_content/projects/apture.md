@@ -3,10 +3,10 @@ title: Apture
 date: 2009-05-22
 summary: Designing a powerful publishing tool for the web’s content creators.
 image: /images/projects/apture/image.jpg
-tags:
-- skill:brand_identity
-- skill:frontend_development
-- skill:interaction_design
+category:
+- Brand identity
+- Front-end development
+- Interaction design
 style:
   color-accent: '#05f'
   screenshot-shadow: '#0a0b0d'

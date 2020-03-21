@@ -3,8 +3,8 @@ title: Universal Playback
 date: 2010-11-01
 summary: Modular design that showcased a library of television favourites.
 image: /images/projects/universal_playback/image.jpg
-tags:
-- skill:interaction_design
+category:
+- Interaction design
 style:
   color-accent: '#07B'
   screenshot-shadow: '#888'

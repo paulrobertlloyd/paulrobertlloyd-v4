@@ -3,8 +3,8 @@ title: Mozilla Add-ons
 date: 2009-05-29
 summary: Bringing browser add-ons to a mainstream audience.
 image: /images/projects/mozilla_addons/image.jpg
-tags:
-- skill:interaction_design
+category:
+- Interaction design
 style:
   color-accent: '#235'
   screenshot-shadow: '#235'

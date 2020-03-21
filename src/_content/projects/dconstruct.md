@@ -3,8 +3,8 @@ title: dConstruct
 date: 2013-05-02
 summary: Collaborative design for grassroots digital conference.
 image: /images/projects/dconstruct/image.jpg
-tags:
-- skill:interaction_design
+category:
+- Interaction design
 style:
   color-accent: '#370'
   screenshot-shadow: '#370'

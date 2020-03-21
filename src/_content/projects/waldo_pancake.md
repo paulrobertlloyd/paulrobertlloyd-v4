@@ -3,9 +3,9 @@ title: Waldo Pancake
 date: 2011-02-09
 summary: A new home for Jim Smith, illustrator and copywriter.
 image: /images/projects/waldo_pancake/image.jpg
-tags:
-- skill:frontend_development
-- skill:interaction_design
+category:
+- Front-end development
+- Interaction design
 style:
   color-accent: '#ffef3e'
   screenshot-shadow: '#e6c939'

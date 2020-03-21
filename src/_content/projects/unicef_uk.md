@@ -3,9 +3,9 @@ title: UNICEF UK
 date: 2013-07-01
 summary: Mobile-first redesign for leading children’s charity.
 image: /images/projects/unicef_uk/image.jpg
-tags:
-- skill:frontend_development
-- skill:interaction_design
+category:
+- Front-end development
+- Interaction design
 style:
   color-accent: '#00aeef'
   screenshot-shadow: '#aae6f9'

@@ -1,10 +1,9 @@
-{%- assign tag = page.fileSlug | prepend: 'skill:' -%}
-{%- assign items = collections.project | includes: 'data.tags',tag -%}
 {%- assign title = page.data.title -%}
+{%- assign items = collections.project | includes: 'data.category',title -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'header'
-    title: page.data.title
+    title: title
     summary: page.data.summary
   -%}
   {%- render 'items' with items

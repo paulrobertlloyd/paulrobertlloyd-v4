@@ -3,10 +3,11 @@ title: Refigure
 date: 2016-12-07
 summary: Brand identity and application design for personalised meditation service.
 image: /images/projects/refigure/image.jpg
+category:
+- Brand identity
+- Interaction design
 tags:
 - featured
-- skill:brand_identity
-- skill:interaction_design
 style:
   color-accent: '#00e676'
   screenshot-shadow: '#ddd8eb'

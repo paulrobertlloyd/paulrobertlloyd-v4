@@ -3,11 +3,12 @@ title: 24 ways
 date: 2013-12-01
 summary: Award-winning redesign for popular web geek advent calendar.
 image: /images/projects/24_ways/image.jpg
+category:
+- Brand identity
+- Front-end development
+- Interaction design
 tags:
 - featured
-- skill:brand_identity
-- skill:frontend_development
-- skill:interaction_design
 style:
   color-accent: '#f04'
   screenshot-shadow: '#b01'

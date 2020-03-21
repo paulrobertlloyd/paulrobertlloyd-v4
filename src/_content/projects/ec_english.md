@@ -3,10 +3,11 @@ title: EC English
 date: 2016-03-11
 summary: Testable prototype for English language school.
 image: /images/projects/ec_english/image.jpg
+category:
+- Front-end development
+- Interaction design
 tags:
 - featured
-- skill:frontend_development
-- skill:interaction_design
 style:
   color-accent: '#f70'
   screenshot-shadow: '#e6772e'

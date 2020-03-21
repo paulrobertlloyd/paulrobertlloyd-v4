@@ -3,10 +3,11 @@ title: DACS
 date: 2012-08-01
 summary: Responsive redesign for non-profit artists’ rights organisation.
 image: /images/projects/dacs/image.jpg
+category:
+- Front-end development
+- Interaction design
 tags:
 - featured
-- skill:frontend_development
-- skill:interaction_design
 style:
   color-accent: '#360446'
   screenshot-shadow: '#b4b6b8'

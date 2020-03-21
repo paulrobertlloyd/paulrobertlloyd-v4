@@ -3,9 +3,9 @@ title: Groopix
 date: 2008-08-22
 summary: A tool for curating and printing group-based photo albums.
 image: /images/projects/groopix/image.jpg
-tags:
-- skill:brand_identity
-- skill:interaction_design
+category:
+- Brand identity
+- Interaction design
 style:
   color-accent: '#6e9d00'
   screenshot-shadow: '#6e9d00'

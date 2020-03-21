@@ -3,10 +3,10 @@ title: Ning
 date: 2007-03-21
 summary: Lead design for customisable social media platform.
 image: /images/projects/ning/image.jpg
-tags:
-- skill:brand_identity
-- skill:frontend_development
-- skill:interaction_design
+category:
+- Brand identity
+- Front-end development
+- Interaction design
 style:
   color-accent: '#060'
   screenshot-shadow: '#060'

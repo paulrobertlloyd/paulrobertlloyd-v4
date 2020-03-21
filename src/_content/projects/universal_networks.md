@@ -3,8 +3,8 @@ title: Universal Networks
 date: 2010-05-03
 summary: Design for NBCUniversal’s international channel portfolio.
 image: /images/projects/universal_networks/image.jpg
-tags:
-- skill:interaction_design
+category:
+- Interaction design
 style:
   color-accent: '#527'
   screenshot-shadow: '#afaaa2'

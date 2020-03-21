@@ -3,8 +3,8 @@ title: Nuts.com
 date: 2011-05-27
 summary: Incremental redesign for family run, customer-focused food retailer.
 image: /images/projects/nuts/image.jpg
-tags:
-- skill:interaction_design
+category:
+- Interaction design
 style:
   color-accent: '#c50'
   screenshot-shadow: '#920'

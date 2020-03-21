@@ -3,10 +3,10 @@ title: cwhomes.co.uk
 date: 2006-01-30
 summary: Property portal for independent estate agents in Coventry and Warwickshire.
 image: /images/projects/cwhomes/image.jpg
-tags:
-- skill:brand_identity
-- skill:frontend_development
-- skill:interaction_design
+category:
+- Brand identity
+- Front-end development
+- Interaction design
 style:
   color-accent: '#f90'
   screenshot-shadow: '#003'

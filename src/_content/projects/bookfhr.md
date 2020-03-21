@@ -3,8 +3,8 @@ title: BookFHR
 date: 2009-11-24
 summary: Visual and user experience design for provider of airport travel services.
 image: /images/projects/bookfhr/image.jpg
-tags:
-- skill:interaction_design
+category:
+- Interaction design
 style:
   color-accent: '#002f70'
   screenshot-shadow: '#f16d01'

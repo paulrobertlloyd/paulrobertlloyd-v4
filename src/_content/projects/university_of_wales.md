@@ -3,8 +3,8 @@ title: University of Wales
 date: 2009-10-29
 summary: Modular design language for international university.
 image: /images/projects/university_of_wales/image.jpg
-tags:
-- skill:interaction_design
+category:
+- Interaction design
 style:
   color-accent: '#913'
   screenshot-shadow: '#014'

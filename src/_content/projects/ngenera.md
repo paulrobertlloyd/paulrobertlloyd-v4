@@ -3,10 +3,10 @@ title: nGenera
 date: 2008-04-25
 summary: Brand identity for on demand enterprise technology platform.
 image: /images/projects/ngenera/image.jpg
-tags:
-- skill:brand_identity
-- skill:frontend_development
-- skill:interaction_design
+category:
+- Brand identity
+- Front-end development
+- Interaction design
 style:
   color-accent: '#00b6dd'
   screenshot-shadow: '#131319'

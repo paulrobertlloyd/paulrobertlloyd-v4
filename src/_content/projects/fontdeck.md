@@ -3,8 +3,8 @@ title: Fontdeck
 date: 2010-11-30
 summary: Distinctive lead design for purveyor of the finest web fonts.
 image: /images/projects/fontdeck/image.jpg
-tags:
-- skill:interaction_design
+category:
+- Interaction design
 style:
   color-accent: '#e9242e'
   screenshot-shadow: '#aab'

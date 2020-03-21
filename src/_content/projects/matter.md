@@ -3,9 +3,9 @@ title: Matter
 date: 2012-11-14
 summary: Beautiful reading experience for publisher of unmissable journalism.
 image: /images/projects/matter/image.jpg
-tags:
-- skill:brand_identity
-- skill:interaction_design
+category:
+- Brand identity
+- Interaction design
 style:
   color-accent: '#006Aff'
   screenshot-shadow: '#444'

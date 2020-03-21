@@ -3,10 +3,11 @@ title: Bradshaw’s Guide
 date: 2018-01-02
 summary: Digital revival of a popular Victorian railway guide.
 image: /images/projects/bradshaws_guide/image.jpg
+category:
+- Front-end development
+- Interaction design
 tags:
 - featured
-- skill:frontend_development
-- skill:interaction_design
 style:
   color-accent: '#e6772e'
   screenshot-shadow: '#e6772e'
