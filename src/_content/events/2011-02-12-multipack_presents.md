@@ -2,7 +2,8 @@
 title: 'Multipack Presents: Show and Tell'
 date: 2011-02-12T16:15:00Z
 url: http://multipack.co.uk/show-and-tell
-collection: multipack_presents
+category:
+- Multipack Presents
 start: 2011-02-12T16:15:00Z
 end: 2011-02-12T19:20:00Z
 participant: true

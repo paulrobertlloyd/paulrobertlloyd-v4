@@ -2,7 +2,8 @@
 title: 'Multipack Presents: Emerging Standards'
 date: 2009-02-21T16:00:00+01:00
 url: http://multipack.co.uk/presents/
-collection: multipack_presents
+category:
+- Multipack Presents
 start: 2009-02-21T16:00:00+01:00
 end: 2009-02-21T19:00:00+01:00
 venue: 9c4wf4h9+49

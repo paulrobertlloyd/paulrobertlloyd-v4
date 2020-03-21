@@ -2,7 +2,8 @@
 title: 'Andy Parsons: Gruntled'
 date: 2011-08-26T21:00:00+01:00
 url: https://www.comedy.co.uk/fringe/2011/andy_parsons/
-collection: edinburgh_festival_fringe_2011
+category:
+- Edinburgh Festival Fringe 2011
 start: 2011-08-26T21:00:00+01:00
 end: 2011-08-26T22:00:00+01:00
 venue: 9c7rwrx3+wv

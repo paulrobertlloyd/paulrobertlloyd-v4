@@ -2,7 +2,8 @@
 title: IndieWebCamp Brighton
 date: 2019-10-19T09:30:00+01:00
 url: https://indieweb.org/2019/Brighton
-collection: indie_web_camp
+category:
+- IndieWebCamp
 start: 2019-10-19T09:30:00+01:00
 end: 2019-10-20T18:00:00+01:00
 venue: 9c2xrvc4+cq

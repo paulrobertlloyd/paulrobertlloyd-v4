@@ -2,7 +2,8 @@
 title: 'An Event Apart: San Francisco 2007'
 date: 2007-10-04T09:00:00-07:00
 url: https://archive.aneventapart.com/events/sf07/
-collection: an_event_apart
+category:
+- An Event Apart
 start: 2007-10-04
 end: 2007-10-05
 venue: 849vqhqx+67

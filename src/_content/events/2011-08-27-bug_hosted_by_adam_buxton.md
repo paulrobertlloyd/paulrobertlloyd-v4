@@ -2,9 +2,9 @@
 title: BUG Hosted by Adam Buxton
 date: 2011-08-27T22:30:00+01:00
 url: https://www.comedy.co.uk/fringe/2011/adam_buxton/
-collection:
-- edinburgh_festival_fringe_2011
-- bug
+category:
+- Edinburgh Festival Fringe 2011
+- Bug
 start: 2011-08-27T22:30:00+01:00
 end: 2011-08-27T23:59:00+01:00
 venue: 9c7rwrx9+35

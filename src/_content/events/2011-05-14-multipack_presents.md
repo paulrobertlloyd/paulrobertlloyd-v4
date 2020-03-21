@@ -2,7 +2,8 @@
 title: 'Multipack Presents: Mobile Development'
 date: 2011-05-14T16:00:00Z
 url: http://multipack.co.uk/presents/
-collection: multipack_presents
+category:
+- Multipack Presents
 start: 2011-05-14T16:00:00Z
 end: 2011-05-14T19:00:00Z
 venue: 9c4wf4q7+f2

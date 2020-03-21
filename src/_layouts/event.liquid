@@ -26,18 +26,15 @@
   {%- endcapture -%}
   {%- render 'content' with content -%}
 
-  {%- if collection -%}
-    {% for this_collection in collection %}
-      {%- assign related = collections.collection | where: 'fileSlug',this_collection | first -%}
-      {%- capture title %}Other events in the <a href="{{ related.url }}">{{ related.data.title }}</a> series{%- endcapture -%}
-      {%- assign events = collections.event | related: this_collection,page | reverse -%}
-      {%- if events.size > 0 %}
-        {%- render 'section' with events
-          id: 'related'
-          title: title
-          item_modifier: 'inline'
-        -%}
-      {%- endif -%}
-    {%- endfor -%}
-  {%- endif -%}
+  {% for cat in category %}
+    {%- capture title %}Other events in the {{ cat }} series{%- endcapture -%}
+    {%- assign related = collections.event | includes: 'data.category',cat | reverse -%}
+    {%- if related.size > 0 %}
+      {%- render 'section' with related
+        id: 'related'
+        title: title
+        item_modifier: 'inline'
+      -%}
+    {%- endif -%}
+  {%- endfor -%}
 {%- endblock -%}

@@ -1,3 +1,0 @@
----
-title: Formula 1
----

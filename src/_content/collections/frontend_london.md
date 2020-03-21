@@ -1,3 +1,0 @@
----
-title: Front-end London
----

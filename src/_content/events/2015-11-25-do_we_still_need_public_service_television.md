@@ -2,7 +2,8 @@
 title: Do we still need public service television?
 date: 2015-11-25T19:00:00Z
 url: https://membership.theguardian.com/event/19400168426
-collection: guardian_live
+category:
+- Guardian Live
 start: 2015-11-25T19:00:00Z
 end: 2015-11-25T20:30:00Z
 venue: 9c3xgvmh+w7

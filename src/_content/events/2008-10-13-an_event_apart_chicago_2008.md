@@ -2,7 +2,8 @@
 title: 'An Event Apart: Chicago 2008'
 date: 2008-10-13T09:00:00-05:00
 url: https://archive.aneventapart.com/events/2008/chicago/
-collection: an_event_apart
+category:
+- An Event Apart
 start: 2008-10-13
 end: 2008-10-14
 venue: 86hjv9qj+j3

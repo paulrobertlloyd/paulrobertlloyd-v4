@@ -2,7 +2,8 @@
 title: 'Sammy J and Randy: Ricketts Lane'
 date: 2011-08-27T18:00:00+01:00
 url: https://www.comedy.co.uk/fringe/2011/sammy_j_and_randy/
-collection: edinburgh_festival_fringe_2011
+category:
+- Edinburgh Festival Fringe 2011
 start: 2011-08-27T18:00:00+01:00
 end: 2011-08-27T17:00:00+01:00
 venue: 9c7rwrv6+x6

@@ -2,7 +2,8 @@
 title: Randy is Sober
 date: 2011-08-28T21:10:00+01:00
 url: https://www.comedy.co.uk/fringe/2011/randy_is_sober/
-collection: edinburgh_festival_fringe_2011
+category:
+- Edinburgh Festival Fringe 2011
 start: 2011-08-28T21:10:00+01:00
 end: 2011-08-28T22:10:00+01:00
 venue: 9c7rwrw6+6g
