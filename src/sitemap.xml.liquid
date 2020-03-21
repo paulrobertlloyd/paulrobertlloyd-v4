@@ -1,12 +1,13 @@
 ---
+eleventyExcludeFromCollections: true
 permalink: /sitemap.xml
 ---
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
   xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-{%- assign items = collections.sitemap | sort_by: 'data.priority' -%}
-{%- for item in items reversed -%}
+{%- assign items = collections.all | sort_by: 'data.priority' | reverse -%}
+{%- for item in items -%}
   <url>
     <loc>{{ item.url | prepend: app.url | pretty }}</loc>
     <lastmod>{{ item.date | date: '%Y-%m-%d' }}</lastmod>

@@ -2,6 +2,8 @@
 layout: index
 title: Categories
 permalink: categories/index.html
+changefreq: weekly
+priority: 0.9
 ---
 {%- assign categories = collections.category | sort_natural -%}
 {%- render 'categories' with categories -%}

@@ -33,7 +33,6 @@ module.exports = function (eleventy) {
   eleventy.addCollection('category', require('./lib/collections/category.js'));
   eleventy.addCollection('photo', require('./lib/collections/photo.js'));
   eleventy.addCollection('post', require('./lib/collections/post.js'));
-  eleventy.addCollection('sitemap', require('./lib/collections/sitemap.js'));
 
   // Passthrough
   eleventy.addPassthroughCopy('./src/key.txt');
