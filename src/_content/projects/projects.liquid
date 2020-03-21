@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Projects
 summary: I work with responsible organisations to create products and services that make the world just that little bit easier to live in.
 introduction: |
@@ -6,6 +7,9 @@ introduction: |
 
   Need a hand on your next project? [Get in touch](/contact/).
 permalink: projects/index.html
+tags: false
+changefreq: weekly
+priority: 0.9
 ---
 {%- assign featured = collections.project | includes: 'data.tags','featured' | reverse -%}
 {%- render 'section' with featured

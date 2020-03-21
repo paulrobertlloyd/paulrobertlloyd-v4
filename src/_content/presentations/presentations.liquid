@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Speaking
 summary: I speak at events about the web and the culture that surrounds it.
 introduction: |
@@ -6,6 +7,9 @@ introduction: |
 
   Want me to speak at your event? [Get in touch](/contact).
 permalink: presentations/index.html
+tags: false
+changefreq: weekly
+priority: 0.9
 ---
 {%- assign featured = collections.presentation | includes: 'data.tags','featured' | reverse -%}
 {%- render 'section' with featured

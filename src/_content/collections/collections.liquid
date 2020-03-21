@@ -1,6 +1,10 @@
 ---
+layout: index
 title: Collections
 permalink: collections/index.html
+tags: false
+changefreq: weekly
+priority: 0.9
 ---
 {%- assign collections = collections.collection | sort_by: 'fileSlug' -%}
 {%- render 'items' with collections

@@ -1,4 +1,5 @@
 ---
+layout: index
 title: Events
 summary: Exhibitions, conferences and other events I’ve attended.
 introduction: Exhibitions, conferences and other events I’ve attended. Browse by [venue](/events/venues/).
@@ -7,6 +8,9 @@ pagination:
   reverse: true
   size: 48
 permalink: "events/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}{% else %}index{% endif %}.html"
+tags: false
+changefreq: weekly
+priority: 0.9
 ---
 {% if pagination.pageNumber < 1 and collections.attending.size >= 1 -%}
   {%- render 'section' with collections.attending

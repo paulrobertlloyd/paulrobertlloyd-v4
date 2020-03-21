@@ -1,11 +1,14 @@
 ---
+layout: index
 title: Photos
 pagination:
   data: collections.photo
   reverse: true
   size: 24
 permalink: "photos/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}{% else %}index{% endif %}.html"
+tags: false
 changefreq: daily
+priority: 0.9
 ---
 {%- render 'items' with pagination.items
   modifier: 'photos'

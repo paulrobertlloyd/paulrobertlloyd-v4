@@ -1,11 +1,14 @@
 ---
+layout: index
 title: Notes
 pagination:
   data: collections.note
   reverse: true
   size: 24
 permalink: "notes/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}{% else %}index{% endif %}.html"
+tags: false
 changefreq: daily
+priority: 0.9
 ---
 {%- render 'items' with pagination.items
   item_modifier: 'inline'
