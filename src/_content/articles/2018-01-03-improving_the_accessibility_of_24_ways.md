@@ -5,11 +5,11 @@ canonical:
   url: https://css-tricks.com/improving-accessibility-24-ways/
 summary: Creating something new will always attract attention, but there’s an under celebrated nobility in improving what already exists.
 category:
-- accessibility
-- web
+- 24 ways
+- Accessibility
+- Web
 tags:
 - featured
-- project:24_ways
 - source:css_tricks
 screenshots:
 - url: /images/2018/01/improving_the_accessibility_of_24_ways/homepage.png

@@ -6,9 +6,8 @@ location:
   country-name: United Kingdom
 summary: Having copied, pasted and formatted another 115 pages of OCR’d text, <cite>Bradshaw’s Guide</cite> now contains tours throughout South West England, the West Midlands, Wales and Ireland.
 category:
-- travel
-tags:
-- project:bradshaws_guide
+- Bradshaw’s Guide
+- Travel
 ---
 [<cite>Bradshaw’s Guide</cite>][1] is a hyperlinked revival of a popular Victorian guide to Britain and Ireland’s nascent railway network. It’s also a personal project that lies at the intersection of my interests: design, technology, trains… the preservation of [historic English counties][2].
 

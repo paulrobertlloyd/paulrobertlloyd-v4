@@ -1,5 +1,4 @@
-{%- assign tag = page.fileSlug | prepend: 'project:' -%}
-{%- assign articles = collections.article | includes: 'data.tags',tag -%}
+{%- assign related = collections.article | includes: 'data.category',title -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'header'
@@ -7,8 +6,8 @@
     summary: summary
   -%}
   {%- render 'content' with content -%}
-  {%- if items.size > 0 %}
-    {%- render 'section' with articles
+  {%- if related.size > 0 %}
+    {%- render 'section' with related
       id: 'related'
       title: 'Related articles'
       grid_size: '16rem'

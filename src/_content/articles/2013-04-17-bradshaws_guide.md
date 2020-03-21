@@ -7,10 +7,10 @@ location:
 summary: Based on the 1866 edition of George Bradshaw’s handbook for tourists using Britain’s nascent railway network, my latest project puts his historical insights into the hands of a new generation, many of whom use the same routes he described 150 years ago.
 image: /images/2013/04/bradshaws_guide/iphone.png
 category:
-- travel
+- Bradshaw’s Guide
+- Travel
 tags:
 - featured
-- project:bradshaws_guide
 discussion: closed
 ---
 {% render 'figure' with '/images/2013/04/bradshaws_guide/iphone.png'
