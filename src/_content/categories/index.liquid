@@ -1,0 +1,7 @@
+---
+layout: index
+title: Categories
+permalink: categories/index.html
+---
+{%- assign categories = collections.category | sort_natural -%}
+{%- render 'categories' with categories -%}

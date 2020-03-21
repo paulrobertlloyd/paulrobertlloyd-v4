@@ -3,9 +3,9 @@ title: Hacked Off
 date: 2011-07-29T14:16:02+01:00
 bookmark-of: https://twitter.com/sniffpetrol/status/96848013997260801
 category:
-- bskyb
-- television
-- formula_1
+- BSkyB
+- Television
+- Formula 1
 ---
 Sniff Petrol:
 

@@ -3,7 +3,7 @@ title: Not Excited by the Olympics? Then Thank God for the Sponsors
 date: 2012-05-03T22:22:59+01:00
 bookmark-of: https://www.theguardian.com/commentisfree/2012/apr/22/olympics-thank-god-for-sponsors
 category:
-- olympics
+- Olympics
 ---
 Charlie Brooker:
 

@@ -6,8 +6,8 @@ location:
   country-name: United Kingdom
 summary: Vasilis van Gemert asked me to curate a list of classic articles for the Daily Nerd, but what constitutes a classic?
 category:
-- web
-- writing
+- Web
+- Writing
 tags:
 - featured
 ---

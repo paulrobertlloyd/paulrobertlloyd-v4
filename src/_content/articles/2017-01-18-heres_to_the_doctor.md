@@ -6,9 +6,9 @@ location:
   country-name: United Kingdom
 summary: Dr. James Paul Dicks, 1980-2017
 category:
-- personal
-- friends
-- in_memoriam
+- Personal
+- Friends
+- In memoriam
 ---
 Aged 13, and having recently moved to the West Midlands from Surrey, I was the new kid at school with a funny sounding accent and below average height. If adolescence wasn’t enough to be getting on with, this confounding and unsettling situation had to be dealt with as well.
 

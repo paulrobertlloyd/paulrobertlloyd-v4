@@ -3,9 +3,9 @@ title: The Billionaire’s Typewriter
 date: 2015-03-24T12:59:18Z
 bookmark-of: https://practicaltypography.com/billionaires-typewriter.html
 category:
-- ethics
-- silicon_valley
-- web
+- Ethics
+- Silicon Valley
+- Web
 ---
 Matthew Butterick’s scrutiny of Medium reveals it to be “a form of hu­man frack­ing”:
 

@@ -6,8 +6,8 @@ location:
   country-name: United Kingdom
 summary: Not a week passes without there being a controversy involving Google. If they’re not pilfering a Kenyan business directory, then they’re jumping into bed with opponents of net neutrality or subverting default cookie settings. Even if you ignore these concerns, it’s hard to deny that their search engine is starting to suffer too. Fortunately, there’s an alternative.
 category:
-- duckduckgo
-- google
+- DuckDuckGo
+- Google
 ---
 Not a week passes without there being some controversy involving Google. If they’re not [pilfering a Kenyan business directory][1], jumping into bed with [opponents of net neutrality][2] or [subverting default cookie settings][3], then they’re [changing their privacy policies][4] to harvest even more information from users.
 

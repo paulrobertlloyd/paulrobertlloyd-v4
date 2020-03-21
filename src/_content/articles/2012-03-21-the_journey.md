@@ -6,10 +6,10 @@ location:
   country-name: United Kingdom
 summary: A new pair of jeans, the reignited love for a city and an inevitable answer to a surprisingly surprising question. Just some of the artefacts collected during two weeks in America.
 category:
-- travel
-- san_francisco
-- personal
-- lessons
+- Travel
+- San Francisco
+- Personal
+- Lessons
 ---
 A new pair of jeans, the reignited love for a city and an inevitable answer to a surprisingly surprising question. Just some of the artefacts collected during two weeks in America.
 

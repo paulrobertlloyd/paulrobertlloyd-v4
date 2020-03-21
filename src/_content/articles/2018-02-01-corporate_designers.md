@@ -6,8 +6,8 @@ location:
   country-name: United Kingdom
 summary: Why do some designers choose to work for ‘evil’ corporations — and what happens to them when they get there?
 category:
-- design
-- web
+- Design
+- Web
 ---
 Anyone who knows me, knows there are certain words guaranteed to elicit fervour and exasperation. Words like *Facebook*, *Google*, *Amazon*, *Uber*, you know the sort. Words that are even more frustrating when they accompany the names of people I respect — sometimes even friends.
 

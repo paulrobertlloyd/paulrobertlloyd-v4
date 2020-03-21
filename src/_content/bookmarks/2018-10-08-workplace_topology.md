@@ -3,9 +3,9 @@ title: Workplace topology
 date: 2018-10-08T15:10:26+02:00
 bookmark-of: https://clearleft.com/posts/workplace-topology
 category:
-- design
-- people
-- technology
+- Design
+- People
+- Technology
 ---
 Some wise words from [Danielle][1]:
 

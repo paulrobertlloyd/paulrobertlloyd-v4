@@ -6,10 +6,10 @@ location:
   country-name: United Kingdom
 summary: My relationship with JavaScript? It’s complicated.
 category:
-- javascript
-- learning
-- web
-- programming
+- Javascript
+- Learning
+- Web
+- Programming
 ---
 Yesterday I submitted a change to [LiquidJS][1], an open source project that aims to port the popular Ruby-based [Liquid][2] templating language to Javascript. That my pull request involved [updating a regular expression][3] begs the question: what the hell have I become?!
 

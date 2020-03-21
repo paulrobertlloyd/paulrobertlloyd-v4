@@ -5,9 +5,9 @@ summary: The California Zephyr is a 56 hour, 2348 mile long train journey that s
 collection: north_america_2008
 image: /images/2008/09/california_zephyr.jpg
 category:
-- travel
-- united_states
-- railways
+- Travel
+- United States
+- Railways
 tags:
 - featured
 discussion: closed

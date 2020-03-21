@@ -5,8 +5,8 @@ canonical:
   url: https://the-pastry-box-project.net/paul-lloyd/2015-march-12
 summary: Finding parallels between redecorating my house and redesigning a website.
 category:
-- diy
-- decorating
+- DIY
+- Decorating
 tags:
 - source:the_pastry_box_project
 ---

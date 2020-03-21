@@ -7,11 +7,11 @@ location:
 summary: Once again, I’m in Austin for SXSW Interactive; the forth time I’ve attended an event I find easy to disparage. Yet this is the first stop on a trip that will take in several hundred miles of Interstate highway between here and San Francisco; two points of familiarity on an itinerary that promises to be anything but predictable.
 image: /images/2012/03/on_the_road_again.jpg
 category:
-- travel
-- united_states
-- austin
-- san_francisco
-- sxsw
+- Travel
+- United States
+- Austin
+- San Francisco
+- SXSW
 ---
 {% render 'figure' with '/images/2012/03/on_the_road_again.jpg'
   caption: 'Road block in Austin.'

@@ -5,9 +5,9 @@ canonical:
   url: https://24ways.org/2015/beyond-the-style-guide/
 summary: I run my finger along the seam between interface patterns and design systems, exploring how a visual design language can underpin and inform a web style guide, with judicious use of CSS preprocessing. Like a good Christmas jumper, sometimes you need to get creative with the rules.
 category:
-- design_systems
-- web
-- design
+- Design
+- Design systems
+- Web
 tags:
 - source:24_ways
 ---

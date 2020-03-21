@@ -7,9 +7,8 @@ location:
 summary: Last week I was invited to Responsive Summit, a face-to-face discussion about Responsive Web Design. We talked about what we’ve learnt so far, the problems we’re continuing to face and things we’d like to change.
 image: /images/2012/02/responsive_summit/strangelove.jpg
 category:
-- web
-- responsive_design
-- responsive_summit
+- Web
+- Responsive design
 tags:
 - featured
 discussion: closed

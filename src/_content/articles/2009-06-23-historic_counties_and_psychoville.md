@@ -7,9 +7,9 @@ location:
 summary: I’ve long been interested in the popular geography of Great Britain, but also annoyed by the continual government reorganisation that seeks to confuse it.
 image: /images/2009/06/historic_counties_and_psychoville/letter.jpg
 category:
-- television
-- government
-- england
+- Television
+- Government
+- England
 tags:
 - featured
 discussion: closed

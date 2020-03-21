@@ -1,0 +1,9 @@
+{%- assign items = collections.all | includes: 'data.category',title -%}
+{%- layout 'default' -%}
+{%- block 'main' -%}
+  <h1 class="main__title">Categories</h1>
+  <div class="main__introduction">{{ title }}</div>
+  {%- render 'items' with items
+    item_modifier: 'inline'
+  -%}
+{%- endblock -%}

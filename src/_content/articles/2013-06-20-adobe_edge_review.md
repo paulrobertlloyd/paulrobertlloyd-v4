@@ -24,8 +24,8 @@ product:
     Supports
     : Windows 7 or 8, OS X 10.7 or 10.8
 category:
-- review
-- software
+- Review
+- Software
 tags:
 - source:digital_arts
 ---

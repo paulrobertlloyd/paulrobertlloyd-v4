@@ -8,11 +8,11 @@ summary: 'In the first part of a three-part essay about design systems, I review
 collection: designing_systems
 image: /images/2017/01/designing_systems_part_1/brasilia_satellite.jpg
 category:
-- architecture
-- brasilia
-- london
-- design
-- design_systems
+- Architecture
+- Brasília
+- London
+- Design
+- Design systems
 tags:
 - featured
 ---

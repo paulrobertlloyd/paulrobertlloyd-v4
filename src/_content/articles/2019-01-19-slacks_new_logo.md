@@ -7,8 +7,8 @@ location:
 summary: Slack has a new logo, and everyone hates it.
 image: /images/2019/01/slacks_new_logo/logo.jpg
 category:
-- design
-- brand_identity
+- Design
+- Brand identity
 tags:
 - featured
 ---

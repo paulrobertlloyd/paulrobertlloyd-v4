@@ -6,7 +6,7 @@ location:
   country-name: United Kingdom
 summary: I tuned in for just a few seconds, but had to turn it off. That’s not enough time to make a reasoned judgement about the content of Apple’s latest keynote of course, but I just couldn’t continue watching.
 category:
-- apple
+- Apple
 tags:
 - featured
 ---

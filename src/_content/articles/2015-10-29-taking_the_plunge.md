@@ -5,7 +5,7 @@ canonical:
   url: https://the-pastry-box-project.net/paul-lloyd/2015-october-29
 summary: Freelancing can sometimes feel like a roller coaster of emotions, and this post finds me at one of its lowest points. Eight months in, now seems like a good time to consider the ride taken so far, and consolidate some of the lessons learnt.
 category:
-- freelancing
+- Freelancing
 tags:
 - source:the_pastry_box_project
 ---

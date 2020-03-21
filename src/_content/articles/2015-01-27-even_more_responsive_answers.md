@@ -7,8 +7,8 @@ canonical:
 summary: Answers to questions about responsive design put to me by readers of <cite>net Magazine</cite>.
 image: /images/2015/01/guardian_navigation.png
 category:
-- responsive_design
-- web
+- Responsive design
+- Web
 tags:
 - source:net_magazine
 ---

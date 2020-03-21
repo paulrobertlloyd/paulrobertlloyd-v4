@@ -6,14 +6,14 @@ location:
   country-name: United Kingdom
 summary: After a number of years focusing my travels around big American cities, today I start a three week jaunt across Europe.
 category:
-- travel
-- europe
-- railways
-- germany
-- austria
-- switzerland
-- spain
-- france
+- Travel
+- Europe
+- Railways
+- Germany
+- Austria
+- Switzerland
+- Spain
+- France
 ---
 After a number of years focusing my travels around big American cities, today I start a three week jaunt across Europe. I’ve been meaning to write about this trip for sometime, yet only now am I getting round to doing so, on this, the day that I leave. Before I start posting entries from the various locations I’m visiting, I wanted to give a quick introduction to where I’m going and why.
 

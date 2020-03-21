@@ -8,9 +8,9 @@ summary: The final part of my three-part essay based on the talk I gave at Smash
 collection: designing_systems
 image: /images/2017/03/designing_systems_part_3/brasilia_motifs.jpg
 category:
-- web
-- design
-- design Systems
+- Design
+- Design systems
+- Web
 ---
 {% render 'figure' with '/images/2017/03/designing_systems_part_3/brasilia_motifs.jpg'
   caption: 'Common architectural motifs can be seen across many of Brasília’s civic buildings.'

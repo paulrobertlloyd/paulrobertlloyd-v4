@@ -5,9 +5,9 @@ canonical:
   url: https://agreenfocus.tumblr.com/post/398648915
 summary: Just a quick reminder that Hack The Planet takes place tomorrow, starting at 10am.
 category:
-- sustainability
-- web
-- projects
+- Sustainability
+- Web
+- Projects
 tags:
 - source:a_green_focus
 ---

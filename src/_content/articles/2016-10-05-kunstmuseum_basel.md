@@ -7,8 +7,8 @@ location:
 summary: As I explored the exhibits in Basel’s recently extended art museum, I jotted down the artists whose work caught my attention. Here I share my findings.
 image: /images/2016/10/kunstmuseum_basel/extension.jpg
 category:
-- art
-- exhibitions
+- Art
+- Exhibitions
 tags:
 - featured
 ---

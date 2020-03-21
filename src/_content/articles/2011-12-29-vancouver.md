@@ -5,9 +5,9 @@ summary: Sat in the front seat of another float plane, I enjoyed a breathtaking 
 collection: north_america_2011
 image: /images/2011/12/vancouver/marina.jpg
 category:
-- travel
-- vancouver
-- canada
+- Travel
+- Vancouver
+- Canada
 ---
 {% render 'figure' with '/images/2011/12/vancouver/marina.jpg'
   caption: 'Vancouver waterfront from Stanley Park.'

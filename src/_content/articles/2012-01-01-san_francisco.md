@@ -5,9 +5,9 @@ summary: Transcending America’s Pacific coastline aboard Amtrak’s Coast Star
 collection: north_america_2011
 image: /images/2012/01/san_francisco/ocean_beach.jpg
 category:
-- travel
-- san_francisco
-- united_states
+- Travel
+- San Francisco
+- United States
 ---
 {% render 'figure' with '/images/2012/01/san_francisco/ocean_beach.jpg'
   caption: 'Sun setting over Ocean Beach.'

@@ -5,9 +5,9 @@ summary: After eight days exploring North America, it was time to visit some of 
 collection: north_america_2011
 image: /images/2011/12/saltspring_island/approach.jpg
 category:
-- travel
-- salt_spring_island
-- canada
+- Travel
+- Salt Spring Island
+- Canada
 ---
 {% render 'figure' with '/images/2011/12/saltspring_island/approach.jpg'
   caption: 'Looking across the Salish Sea.'

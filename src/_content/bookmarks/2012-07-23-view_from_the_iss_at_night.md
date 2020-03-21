@@ -3,9 +3,9 @@ title: View From the ISS at Night
 date: 2012-07-23T01:34:09+01:00
 bookmark-of: https://vimeo.com/45878034
 category:
-- video
-- space
-- international_space_station
+- Video
+- Space
+- International Space Station
 ---
 {% render 'embed' with bookmark-of
   poster: 'https://i.vimeocdn.com/video/629997474'

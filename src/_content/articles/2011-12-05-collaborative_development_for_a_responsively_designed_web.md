@@ -5,8 +5,8 @@ canonical:
   url: https://24ways.org/2011/collaborative-development-for-a-responsively-designed-web/
 summary: I unfurl my seraph wings to proclaim peace on Earth and the importance of goodwill between designers and developers. It’s not the office Secret Santa that unites them, but constant contact and shared appreciation of different skills.
 category:
-- responsive_design
-- web
+- Responsive design
+- Web
 tags:
 - source:24_ways
 ---

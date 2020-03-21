@@ -7,12 +7,12 @@ location:
 summary: On German Unity Day, a tour of Tempelhof Airport proved to be a powerful act of remembrance.
 image: /images/2018/10/tempelhof/reception.jpg
 category:
-- berlin
-- germany
-- europe
-- travel
-- architecture
-- history
+- Berlin
+- Germany
+- Europe
+- Travel
+- Architecture
+- History
 tags:
 - featured
 ---

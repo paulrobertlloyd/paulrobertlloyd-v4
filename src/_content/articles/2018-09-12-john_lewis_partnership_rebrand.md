@@ -7,8 +7,8 @@ location:
 summary: Another identity from the offices of Pentagram that elicits a feeling somewhere between despair and indifference.
 image: /images/2018/09/john_lewis_partnership_rebrand/logos.png
 category:
-- design
-- brand_identity
+- Design
+- Brand identity
 ---
 Last week the John Lewis Partnership unveiled [a new look for John Lewis and Waitrose][1], with the name of each chain to now be suffixed by “& Partners”, emphasising the organisation’s ownership model. Underwhelmed but what I initially saw, unbeknown to me at the time, this was another identity from a team at Pentagram to elicit an assured *meh*. Now, with [more information available about the project][2], I shall turn the [annoyance meter][3] to *writing a blog post* and explore what I dislike about it.
 

@@ -6,8 +6,8 @@ canonical:
   edition: Issue 1
 summary: Interaction designer at Clearleft and design lead at Fontdeck.
 category:
-- personal
-- diary
+- Personal
+- Diary
 tags:
 - source:offscreen_magazine
 ---

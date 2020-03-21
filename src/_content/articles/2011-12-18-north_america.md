@@ -4,9 +4,9 @@ date: 2011-12-18T23:09:35Z
 summary: Having tried so diligently last year to reduce the amount of flying I do, I hoped to keep this year’s long-haul flights to one. With an important part of my family now settled in São Paulo, and some of my best friends based in San Francisco, maybe such lofty goals are foolhardy. Before I write about my most recent travels, I address the hypocrisy in taking such a trip.
 collection: north_america_2011
 category:
-- travel
-- united_states
-- canada
+- Travel
+- United States
+- Canada
 ---
 {% render 'embed' with 'https://a.tiles.mapbox.com/v4/paulrobertlloyd.map-5tk2u4wo/attribution,zoompan.html?access_token=pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg#4/38/-98'
   poster: 'https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/static/-98,38,2,0,0/'
@@ -16,10 +16,10 @@ category:
 
 At the end of last year I stated that [I’d only be taking one long-haul trip this year][1], one that would take in Austin, San Francisco and Canada. Between then and March, my itinerary changed so that I could visit my brother in Brazil (and indulge in a [bit of utopian architecture][2] on the way) but it was a tough decision. Ever since visiting [Montreal in 2007][3], I’ve long wanted to see more of Canada.
 
-Luckily, I was later invited to my friends Dan & Liz’s wedding taking place in San Francisco in November. This presented the opportunity to make another overseas trip, one that could take in Canada and the [An Event Apart][4] conference happening in Washington DC the week before:
+Luckily, I was later invited to my friends Dan & Liz’s wedding taking place in San Francisco in November. This presented the opportunity to make another overseas trip, one that could take in Canada and the [An Event Apart][4] conference happening in Washington, D.C. the week before:
 
 * **20 October:** Depart London Heathrow
-* **21-25 October:** [Washington, DC][5]
+* **21-25 October:** [Washington, D.C.][5]
 * **26 October:** [Ottawa, Ontario][6]
 * **27-29 October:** [Toronto, Ontario][7]
 * **30-31 October:** [Saltspring Island, British Columbia][8]
@@ -51,4 +51,4 @@ I lack no courage to undertake a journey; I do however lack the courage of my co
 [11]: /2010/02/a_green_focus
 [12]: https://en.wikipedia.org/wiki/Hypocrisy
 
-*[DC]: District of Columbia
+*[D.C.]: District of Columbia

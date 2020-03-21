@@ -6,7 +6,7 @@ location:
   country-name: United Kingdom
 summary: The web development community has certainly grown up in the last four years.
 category:
-- multipack
+- Multipack
 discussion: closed
 ---
 Today web developers can attend a multitude of [conferences][1], [workshops][2], [hack days][3] and [master-classes][4], or get involved with local communities across the country, yet back in 2005 such opportunities were rare. Indeed the only notable event of that year was the first @media conference, and the only person I spoke to about web development outside of work was [Jon][5], a friend from school who happened to do the same job.

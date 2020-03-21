@@ -6,11 +6,11 @@ location:
   country-name: United Kingdom
 summary: Much like the wider economy, football in this country is an overinflated bubble ready to burst. Two years after failing to qualify for the European Championships, let us see further embarrassment with an early exit from the World Cup. Then let us seize this opportunity to properly scrutinise the national game and its failings, rather than single out the manger or individual members of the squad.
 category:
-- sport
-- football
-- the_fa
-- england_football_team
-- world_cup
+- Sport
+- Football
+- The FA
+- England men’s national football team
+- FIFA World Cup
 discussion: closed
 ---
 First a disclaimer. I don’t follow football or support a team, but I have observed the politics and underhand business operations that have gone hand-in-hand with its operation since [researching them in 2001][1]. Back then I was a passionate fan of the national side, but poor performances on the pitch, and unsightly behaviour from fans on the streets, has pretty much turned me off the game entirely.

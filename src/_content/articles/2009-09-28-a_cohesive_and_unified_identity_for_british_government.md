@@ -3,9 +3,9 @@ title: A Cohesive & Unified Identity for British Government
 date: 2009-09-28T00:50:19+01:00
 summary: With an escalating national debt, the talk at this months party conferences is of cuts to public spending and smaller, more efficient government. I believe one clear way of achieving this would be to introduce a single unified brand across government.
 category:
-- design
-- brand_identity
-- government
+- Design
+- Brand identity
+- Government
 tags:
 - featured
 discussion: closed

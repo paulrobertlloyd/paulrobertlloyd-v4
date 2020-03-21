@@ -4,7 +4,7 @@ date: 2013-12-30
 canonical:
   url: https://workspiration.org/paul-lloyd
 category:
-- design
+- Design
 tags:
 - source:workspiration
 ---

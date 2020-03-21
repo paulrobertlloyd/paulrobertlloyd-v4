@@ -6,10 +6,10 @@ location:
   country-name: United Kingdom
 summary: dConstruct has long combined its conference programme with the name badge, a simple yet cost-effective design. This year we hope to go one better.
 category:
-- clearleft
-- conferences
-- dconstruct
-- sustainability
+- Clearleft
+- Conferences
+- dConstruct
+- Sustainability
 discussion: closed
 ---
 [Conferences can be quite wasteful affairs][1]. In addition to swag bags filled with magazines, leaflets and free gifts, there is often a programme detailing the schedule and providing some background on the speakers.

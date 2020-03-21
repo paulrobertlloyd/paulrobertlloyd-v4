@@ -3,8 +3,8 @@ title: Social Media Icons
 date: 2009-06-29T00:18:09+01:00
 summary: A set of standardised icons for popular social networking services and tools.
 category:
-- projects
-- social_media_icons
+- Projects
+- Social media icons
 discussion: closed
 ---
 I’ve often found myself requiring icons when linking to or referencing different social networks I’m a member of. Whilst there are a lot of icon sets available that can help me do this, most seem to be oversized and highly stylised. In the past I’ve used site favicons, but these can often be visually inconsistent.

@@ -7,8 +7,8 @@ location:
 summary: Continuing the trend of this blog documenting events that happened several weeks ago, this month saw me become the ninth member of the Brighton based web agency Clearleft.
 image: /images/2009/06/clearleft/team.jpg
 category:
-- personal
-- clearleft
+- Personal
+- Clearleft
 tags:
 - featured
 discussion: closed

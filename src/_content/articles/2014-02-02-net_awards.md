@@ -6,9 +6,9 @@ location:
   country-name: United Kingdom
 summary: The net Awards return for their fifteenth year, and I’m more than a little surprised to be nominated for Designer of the Year.
 category:
-- awards
-- web
-- net_magazine
+- Awards
+- Web
+- net (magazine)
 ---
 ![net Awards 2014 nominee](/images/2014/02/net_awards_nominee.png){.align-end} [The net Awards][1] return for their fifteenth year, and I’m more than a little surprised to find myself nominated for *Designer of the Year*. Beyond the other nominees, having worked alongside [James Bates][2] — who has helped me solve a number of tricky design problems over the year — to be included in this line-up feels slightly fraudulent.
 

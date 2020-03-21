@@ -7,10 +7,10 @@ location:
 summary: A few thoughts on the new <cite>Late Show with Stephen Colbert</cite>.
 image: /images/2015/09/stephen_colbert_late_show.jpg
 category:
-- stephen_colbert
-- entertainment
-- politics
-- television
+- Stephen Colbert
+- Entertainment
+- Politics
+- Television
 ---
 {% render 'figure' with '/images/2015/09/stephen_colbert_late_show.jpg'
   caption: 'Stephen Colbert interviewing George Clooney on his first night as host of the new <cite>Late Show</cite>. Photo: CBS.'

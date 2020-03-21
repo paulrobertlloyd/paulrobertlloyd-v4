@@ -7,8 +7,8 @@ location:
 summary: Having lived in my current flat for just over two years, I’m determined for this to be the year I finally make it feel like a home.
 image: /images/2016/04/habitables/sideboard.jpg
 category:
-- furniture
-- design
+- Furniture
+- Design
 photoset:
 - url: /images/2016/04/habitables/tv_table.jpg
   alt: Table

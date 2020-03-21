@@ -5,8 +5,8 @@ canonical:
   url: https://smashingmagazine.com/2014/04/after-editorially-alternative-collaborative-online-writing-tools/
 summary: With the announcement that Editorially service will close at the end of May, I’m left looking for an alternative. Can anything fill the void left by its untimely demise?
 category:
-- review
-- software
+- Review
+- Software
 tags:
 - source:smashing_magazine
 ---

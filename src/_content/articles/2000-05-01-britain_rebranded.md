@@ -3,8 +3,8 @@ title: Brand New Britain
 date: 2000-05-01
 summary: A report published in September 1997 found that Britain’s image abroad was one of a backward looking country. In the eyes of consumers we produced goods of poor quality, while potential tourists saw a country were they would encounter bad weather and shoddy bed and breakfasts. Britain needed a new identity, but the country was unsure where its identity actually lay.
 category:
-- brand_identity
-- united_kingdom
+- Brand identity
+- United Kingdom
 tags:
 - source:academic_essays
 ---

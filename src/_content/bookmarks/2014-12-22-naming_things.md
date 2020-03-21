@@ -3,8 +3,8 @@ title: Naming Things
 date: 2014-12-22T12:35:26Z
 bookmark-of: https://24ways.org/2014/naming-things/
 category:
-- writing
-- 24_ways
+- Writing
+- 24 ways
 ---
 My contribution to [this year’s 24 ways][1] attempts to tackle one of the most difficult aspects of web development, naming things:
 

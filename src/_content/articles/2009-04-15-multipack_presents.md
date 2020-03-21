@@ -6,9 +6,9 @@ location:
   country-name: United Kingdom
 summary: After the success of the first ‘Multipack Presents’ event in February, so we return to the plush offices of One Black Bear to learn how the web can help us become eco-friendly citizens.
 category:
-- multipack
-- sustainability
-- projects
+- Multipack
+- Sustainability
+- Projects
 ---
 After the success of the first <cite>Multipack Presents</cite> event in February, so we return to the plush offices of One Black Bear to learn how the web can help us become eco-friendly citizens. This months guest speakers are both passionate about green issues, and have used the web to further their aims.
 

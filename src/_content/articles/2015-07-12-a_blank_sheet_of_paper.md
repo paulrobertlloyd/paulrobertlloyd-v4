@@ -5,7 +5,7 @@ canonical:
   url: https://the-pastry-box-project.net/paul-lloyd/2015-july-12
 summary: Though memories of my time at university grow ever murkier, one incident still stands out.
 category:
-- personal
+- Personal
 tags:
 - source:the_pastry_box_project
 ---

@@ -3,8 +3,8 @@ title: Early Graphic Design in Television
 date: 1999-03-01
 summary: The launch of television in 1936 saw the birth of a medium that could be easily exploited and enhanced by graphic design. However the early story of graphic design in television was one of limited resources and under investment.
 category:
-- design
-- television
+- Design
+- Television
 tags:
 - source:academic_essays
 figures:

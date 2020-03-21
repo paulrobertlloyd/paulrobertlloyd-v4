@@ -7,9 +7,9 @@ location:
 summary: Earlier this month I spent a week volunteering at the XX Commonwealth Games in Glasgow.
 image: /images/2014/08/clyde_sider/hampden.jpg
 category:
-- commonwealth_games
-- glasgow_2014
-- volunteering
+- Commonwealth Games
+- Glasgow 2014
+- Volunteering
 tags:
 - featured
 ---

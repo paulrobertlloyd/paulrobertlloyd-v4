@@ -1,14 +1,14 @@
 ---
-title: 'Washington DC: A Monumental City'
+title: 'Washington, D.C.: A Monumental City'
 date: 2008-12-29T20:49:25Z
 summary: The final stop in my four-city tour of the US in October was Washington, D.C.
 collection: north_america_2008
 image: /images/2008/12/washington_dc/vietnam_memorial.jpg
 category:
-- architecture
-- travel
-- washington_dc
-- united_states
+- Architecture
+- Travel
+- Washington, D.C.
+- United States
 discussion: closed
 photoset:
 - url: /images/2008/12/washington_dc/iwo_jima_memorial.jpg
@@ -21,9 +21,9 @@ photoset:
   alignment: 'bleed'
 %}
 
-The final stop in my four-city tour of the US in October was Washington, DC I’ve spent a fair amount of time in the United States these past few years, so I thought it only appropriate to visit the nations capital, and see its iconic landmarks in the flesh.
+The final stop in my four-city tour of the US in October was Washington, D.C. I’ve spent a fair amount of time in the United States these past few years, so I thought it only appropriate to visit the nations capital, and see its iconic landmarks in the flesh.
 
-Perhaps unsurprisingly, I spent a good deal of time in DC taking photos of the many recognisable monuments erected to celebrate former presidents, as well as memorials for those involved during tragic events in the country’s history.
+Perhaps unsurprisingly, I spent a good deal of time in D.C. taking photos of the many recognisable monuments erected to celebrate former presidents, as well as memorials for those involved during tragic events in the country’s history.
 
 Whilst the presidential memorials were large and grandiose, I actually found the smaller [Vietnam Veterans Memorial][1] to be one of the most thoughtful. Like the Pentagon Memorial I would visit later in my trip, I was intrigued by the system that was devised for the arrangement of names of those who lost their lives.
 
@@ -34,7 +34,7 @@ Here two granite walls create a ‘V’ shaped opening in the ground, upon which
   image_preset: 'supporting'
 %}
 
-I was surprised to find the [US Marine Corps War Memorial][3] (better known as the Iwo Jima Memorial) situated outside of DC, in Arlington, Virginia. Far larger than I was expecting too, this iconic sculpture by [Felix W. de Weldon][4] depicts the scene captured by photographer Joe Rosenthal in [Raising the Flag on Iwo Jima][5] that was taken during World War II.
+I was surprised to find the [US Marine Corps War Memorial][3] (better known as the Iwo Jima Memorial) situated outside of D.C., in Arlington, Virginia. Far larger than I was expecting too, this iconic sculpture by [Felix W. de Weldon][4] depicts the scene captured by photographer Joe Rosenthal in [Raising the Flag on Iwo Jima][5] that was taken during World War II.
 
 Situated close by is the [Netherlands Carillon][6], a gift from the people of the Netherlands thanking the US for its aid during and after World War II — very European in flavour.
 
@@ -49,7 +49,7 @@ You are however allowed to take photos of the [9/11 memorial][8], in which the 1
 
 ## Architecture
 
-DC is still a relatively young capital, although the many neo-classical styled buildings, and the abundance of colonnades, columns and porticoes would suggest otherwise. In fact, it was often the buildings that looked the oldest — the Supreme Court and National Archives for example — that tended to built as recently as the 1930’s.
+D.C. is still a relatively young capital, although the many neo-classical styled buildings, and the abundance of colonnades, columns and porticoes would suggest otherwise. In fact, it was often the buildings that looked the oldest — the Supreme Court and National Archives for example — that tended to built as recently as the 1930’s.
 
 This pseudo-grandeur became a bit tiresome after a while, which is possibly why I spent one evening pointing my camera towards the main terminal building at [Washington Dulles][9] International Airport instead. Designed by [Eero Saarinen][10] in 1958, the building was planned specifically with new jet powered aircraft in mind — with a possible future use as a spaceport! As a sign of Saarinen’s foresight, he designed the terminal with a view towards future expansion, and indeed the building is now double the length of his original design.
 
@@ -77,5 +77,5 @@ The weirdest experience during my stay was visiting [L’Enfant Plaza][12]. Name
 [11]: https://en.wikipedia.org/wiki/Washington_Metro
 [12]: https://en.wikipedia.org/wiki/L'Enfant_Plaza
 
-*[DC]: District of Columbia
+*[D.C.]: District of Columbia
 *[US]: United States

@@ -3,8 +3,8 @@ title: Beige to Bondi-Blue
 date: 2000-04-01
 summary: A comparison between the Apple II (1977) and the iMac (1998).
 category:
-- apple
-- product_design
+- Apple
+- Product design
 tags:
 - source:academic_essays
 ---

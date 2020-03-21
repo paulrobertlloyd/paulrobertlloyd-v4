@@ -5,8 +5,8 @@ canonical:
   url: https://the-pastry-box-project.net/paul-lloyd/2015-may-12
 summary: 'For the last few years I’ve employed a little life hack: signing up my future self to things I would ordinarily avoid.'
 category:
-- london_2012
-- glasgow_2014
+- London 2012
+- Glasgow 2014
 tags:
 - source:the_pastry_box_project
 ---

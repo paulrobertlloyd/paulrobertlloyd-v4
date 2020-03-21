@@ -7,8 +7,9 @@ location:
 summary: The question on the ballot paper demands a simple black or white answer, yet a study of the issues only offers shades of grey.
 image: /images/2016/06/eu_referendum.jpg
 category:
-- politics
-- europe
+- Politics
+- European Union
+- Brexit
 tags:
 - featured
 ---

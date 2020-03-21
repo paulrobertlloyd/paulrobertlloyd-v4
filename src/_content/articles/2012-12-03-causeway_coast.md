@@ -7,11 +7,11 @@ location:
 summary: After attending Build in Belfast last month, Chris Armstrong gave Ethan Marcotte, Chris Shifflet and myself a tour of the Causeway Coast which, as the name suggests, is home to the famed Giant’s Causeway.
 image: /images/2012/12/causeway_coast/1.jpg
 category:
-- travel
-- photography
-- responsive_design
-- web
-- northern_ireland
+- Travel
+- Photography
+- Responsive design
+- Web
+- Northern Ireland
 photoset:
 - url: /images/2012/12/causeway_coast/4.jpg
 - url: /images/2012/12/causeway_coast/5.jpg

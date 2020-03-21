@@ -3,8 +3,8 @@ title: Graphic Design on UK Terrestrial Television & the Effects of Multi-Channe
 date: 2002-06-01
 summary: Influenced by the launch of Britain’s first new television station in almost 20 years, Channel 4, television design in the eighties saw experimentation with computer originated graphics. The graphic style during the nineties was also influenced by the launch of new channels — this time hundreds. The advent of multi-channel television meant the traditional terrestrial broadcasters, who for years had little competition, quickly needed to re-invent themselves, and branding played a key role.
 category:
-- design
-- television
+- Design
+- Television
 tags:
 - source:academic_essays
 figures:

@@ -3,7 +3,7 @@ title: Steve Jobs’ Best Quotes
 date: 2011-08-29T22:14:18+01:00
 bookmark-of: https://blogs.wsj.com/digits/2011/08/24/steve-jobss-best-quotes/
 category:
-- steve_jobs
+- Steve Jobs
 ---
 August has been a crazy month in the technology press, but no story has had the same impact than Steve Job’s resignation as CEO of Apple. Whilst I’ve been enjoying [commentary][1] and [many][2] [stories][3] regarding his 14-year tenure, it’s the man’s own words that have been most insightful. From this collection of Steve Job’s quotes, an answer given during an [interview with Wired][4] caught my eye:
 

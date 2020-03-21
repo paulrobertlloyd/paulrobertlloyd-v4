@@ -6,8 +6,8 @@ location:
   country-name: United Kingdom
 summary: Last weekend I took part in the Brighton Half Marathon. With an official chip time of 2:31:27, had I not stopped twice to relieve myself, I would have completed it in under two and a half hours. That I ran the entire distance is what I’m most proud of however — although the same can’t be said of my non-existant training schedule prior to the event.
 category:
-- running
-- brighton_half_marathon
+- Running
+- Brighton Half Marathon
 ---
 Last weekend I took part in the 21st [Brighton Half Marathon][1]. With an official chip time of [2:31:27][2], had I not stopped twice to relieve myself, I would have completed it in under two and a half hours. That **I ran the entire distance** is what I’m most proud of however — although the same can’t be said of my non-existant training schedule prior to the event.
 

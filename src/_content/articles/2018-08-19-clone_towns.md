@@ -6,14 +6,14 @@ location:
   country-name: United Kingdom
 summary: What does the future hold for small towns like Walsall?
 category:
-- architecture
-- travel
-- newcastle_upon_tyne
-- manchester
-- preston
-- walsall
-- planning
-- england
+- Architecture
+- Travel
+- Newcastle upon Tyne
+- Manchester
+- Preston
+- Walsall
+- Town planning
+- England
 ---
 This year has seen me visit several cities around the UK that had eluded me until now. I’m not entirely sure why; maybe its a need to survey my homeland before Brexit hits. Be it coastal Oban crowned by [a curious tower][1], or the cathedral cities of Norwich, Leicester or Exeter, each has presented its unique gems. Yet all resolve to a familiar aesthetic. In [clone town][2] Britain, chain store signage dominates street level, while labyrinthine shopping malls twist and turn behind the pedestrianised high streets where outlets of Costa and Pret fill the gaps between competing banks and pound stores.
 

@@ -6,8 +6,8 @@ location:
   country-name: United Kingdom
 summary: For this month’s net magazine, Martin Cooper asked me to provide some thoughts on this question prompted by a recent exchange between Jeff Croft and Jeffrey Zeldman.
 category:
-- web
-- net_magazine
+- Web
+- net (magazine)
 ---
 For this month’s [net magazine][1], Martin Cooper asked me to provide some thoughts on this question prompted by a recent exchange between Jeff Croft and Jeffrey Zeldman.
 

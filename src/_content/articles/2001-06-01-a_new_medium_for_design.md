@@ -3,8 +3,8 @@ title: 'The World Wide Web: A New Medium for Design'
 date: 2001-06-01
 summary: The development of graphic design on the Internet, the problems associated with designing for this medium and some of the solutions.
 category:
-- web
-- design
+- Web
+- Design
 tags:
 - source:academic_essays
 ---

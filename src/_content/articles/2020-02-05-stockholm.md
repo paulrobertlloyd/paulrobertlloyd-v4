@@ -8,11 +8,11 @@ summary: Cloudy with a chance of meatballs.
 image: /images/2020/02/stockholm/gamla_stan.jpg
 collection: scandinavian_sojourn
 category:
-- stockholm
-- sweden
-- europe
-- travel
-- railways
+- Stockholm
+- Sweden
+- Europe
+- Travel
+- Railways
 tags:
 - featured
 ---

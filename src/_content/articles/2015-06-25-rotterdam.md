@@ -7,9 +7,9 @@ location:
 summary: Some thoughts after spending a few days in the Netherlands’ second city.
 image: /images/2015/06/rotterdam/centraal_station.jpg
 category:
-- travel
-- europe
-- the_netherlands
+- Travel
+- Europe
+- The Netherlands
 photoset:
 - url: /images/2015/06/rotterdam/kpn_tower.jpg
   alt: KPN Tower

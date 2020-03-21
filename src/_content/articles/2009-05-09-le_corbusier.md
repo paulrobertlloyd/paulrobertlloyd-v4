@@ -7,9 +7,9 @@ location:
 summary: Yesterday I went to see the Le Corbusier exhibition, currently showing at the Barbican Art Gallery in London.
 image: /images/2009/05/le_corbusier/portrait.jpg
 category:
-- architecture
-- le_corbusier
-- exhibitions
+- Architecture
+- Le Corbusier
+- Exhibitions
 ---
 {% render 'figure' with '/images/2009/05/le_corbusier/portrait.jpg'
   caption: 'Le Corbusier. Photograph: Willy Rizzo.'

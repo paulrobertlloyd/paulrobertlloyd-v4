@@ -6,10 +6,10 @@ location:
   country-name: United Kingdom
 summary: I’m a huge supporter of the BBC, yet for many years I was unimpressed with much of it’s online output, where inconsistent design and poor implementation reflected badly upon one of our country’s greatest institutions.
 category:
-- design
-- web
-- bbc
-- user_experience
+- Design
+- Web
+- BBC
+- User experience
 tags:
 - featured
 discussion: closed

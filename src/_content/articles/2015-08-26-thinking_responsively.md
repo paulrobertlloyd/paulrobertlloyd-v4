@@ -7,10 +7,10 @@ location:
 summary: Three years after the Web Aesthetic, comes my second article for A List Apart. Intended to inform a broader discussion about the principles that underline our work, I thought I would share some background as to how this article came about.
 image: /images/2015/08/thinking_responsively.png
 category:
-- writing
-- web
-- responsive_design
-- a_list_apart
+- A List Apart
+- Responsive design
+- Web
+- Writing
 ---
 Three years after [The Web Aesthetic][1], comes my second article for <cite>A List Apart</cite>, [Thinking Responsively: A Framework for Future Learning][2]. From the introduction:
 

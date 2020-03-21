@@ -24,8 +24,8 @@ product:
     Supports
     : OS X 10.6 Snow Leopard or higher.
 category:
-- review
-- software
+- Review
+- Software
 tags:
 - source:digital_arts
 ---

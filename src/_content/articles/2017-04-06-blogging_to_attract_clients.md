@@ -6,8 +6,8 @@ location:
   country-name: United Kingdom
 summary: Blogging is a great way to showcase your expertise and raise your profile. But can you achieve this without drawing on manipulative methods of generating traffic?
 category:
-- writing
-- web
+- Writing
+- Web
 ---
 [This week’s article][1] on <cite>A List Apart</cite> caught my attention:
 

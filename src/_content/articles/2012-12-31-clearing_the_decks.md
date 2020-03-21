@@ -6,9 +6,9 @@ location:
   country-name: United Kingdom
 summary: As the page turns on another year, just enough time to close the book on a few personal projects and responsibilities. In doing so, I hope to free up some time (and mind space) for new projects to be unveiled in the new year.
 category:
-- projects
-- social_media_icons
-- net_magazine
+- Projects
+- Social media icons
+- net (magazine)
 ---
 As the page turns on another year, just enough time to close the book on a few personal projects and responsibilities. In doing so, I hope to free up some time (and mind space) for new projects to be unveiled in the new year.
 

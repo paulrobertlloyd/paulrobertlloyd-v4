@@ -6,6 +6,9 @@
     url_class: 'bookmark-of'
   -%}
   {%- render 'content' with content -%}
+  {%- if category.size > 0 -%}
+    {%- render 'categories' with category -%}
+  {%- endif -%}
   {%- render 'footer'
     date: date
   -%}

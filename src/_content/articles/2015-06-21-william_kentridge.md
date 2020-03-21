@@ -7,9 +7,9 @@ location:
 summary: The work of celebrated illustrator and artist William Kentridge is showcased at the EYE Film Institute in Amsterdam.
 image: /images/2015/06/william_kentridge.jpg
 category:
-- art
-- exhibitions
-- william_kentridge
+- Art
+- Exhibitions
+- William Kentridge
 tags:
 - venue:9f469wm2+pg
 ---

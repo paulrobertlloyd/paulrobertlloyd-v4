@@ -3,9 +3,9 @@ title: Built to Not Last
 date: 2012-06-26T00:00:45+01:00
 bookmark-of: https://www.subtraction.com/2012/06/19/built-to-not-last/
 category:
-- apple
-- sustainability
-- product_design
+- Apple
+- Austainability
+- Product design
 ---
 Khoi Vinh:
 

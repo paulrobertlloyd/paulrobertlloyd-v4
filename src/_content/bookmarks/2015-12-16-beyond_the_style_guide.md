@@ -3,8 +3,8 @@ title: Beyond the Style Guide
 date: 2015-12-17T23:30:00Z
 bookmark-of: https://24ways.org/2015/beyond-the-style-guide/
 category:
-- writing
-- 24_ways
+- Writing
+- 24 ways
 ---
 With [Drew][1] kind enough to let me write for [24 ways][2] again, this year’s contribution was an opportunity to bring together a series of thoughts that had been languishing in my drafts folder. These centered around modular design, in particular the growing use of front-end style guides:
 

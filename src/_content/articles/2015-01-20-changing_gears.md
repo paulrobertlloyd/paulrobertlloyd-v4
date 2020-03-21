@@ -6,9 +6,9 @@ location:
   country-name: United Kingdom
 summary: I’m leaving the Guardian and going freelance in March.
 category:
-- clearleft
-- formula_1
-- the_guardian
+- Clearleft
+- Formula 1
+- The Guardian
 ---
 My interest in Formula One was reignited in 2009. Back on the BBC after 12 Schumacher-dominated, ad-interrupted years on ITV, this was the season that saw Brawn GP emerge from the ashes of the old Honda factory team, with their brilliant white car delivering Jenson Button his first world championship.
 

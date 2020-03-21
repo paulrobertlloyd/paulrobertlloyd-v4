@@ -7,9 +7,9 @@ location:
 summary: As I approach the end of my latest trip to America, I continue to fight the losing battle that is getting people to understand me when I say my first name.
 image: /images/2009/02/thats_not_my_name.jpg
 category:
-- personal
-- travel
-- united_states
+- Personal
+- Travel
+- United States
 discussion: closed
 ---
 {% render 'figure' with '/images/2009/02/thats_not_my_name.jpg'

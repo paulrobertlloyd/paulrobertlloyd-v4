@@ -8,13 +8,13 @@ summary: Like all great railway journeys, this one starts with a cancellation.
 image: /images/2020/01/brighton_to_copenhagen/wanderer_above_the_sea_of_fog.jpg
 collection: scandinavian_sojourn
 category:
-- hamburg
-- germany
-- copenhagen
-- denmark
-- europe
-- travel
-- railways
+- Hamburg
+- Germany
+- Copenhagen
+- Denmark
+- Europe
+- Travel
+- Railways
 tags:
 - featured
 ---

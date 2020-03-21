@@ -6,11 +6,11 @@ location:
   country-name: United States
 summary: My short break in California has so far included four hour-long trips on Caltrain as I hop between the cities of San Francisco and Palo Alto. These short periods disconnected from the web, have allowed me to catch up on my reading list.
 category:
-- facebook
-- google
-- san_francisco
-- silicon_valley
-- technology
+- Dacebook
+- Google
+- San Francisco
+- Silicon Valley
+- Technology
 tags:
 - featured
 ---

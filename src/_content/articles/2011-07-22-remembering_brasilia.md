@@ -7,10 +7,10 @@ location:
 summary: Thoughts on Brasília, which I visited back in March.
 image: /images/2011/07/remembering_brasilia/dom_bosco.jpg
 category:
-- travel
-- brazil
-- brasilia
-- oscar_niemeyer
+- Travel
+- Brazil
+- Brasília
+- Oscar Niemeyer
 tags:
 - featured
 ---

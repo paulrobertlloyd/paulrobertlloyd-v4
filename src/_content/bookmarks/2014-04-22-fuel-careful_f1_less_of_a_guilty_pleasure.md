@@ -3,7 +3,7 @@ title: Fuel-Careful F1 Less of a Guilty Pleasure
 date: 2014-04-22T21:51:23Z
 bookmark-of: https://apnews.com/b56e431cca0f4bccbd980675084ee9bf
 category:
-- formula_1
+- Formula 1
 ---
 John Leicester provides a considered view on the new energy-conscious regulations governing Formula 1:
 

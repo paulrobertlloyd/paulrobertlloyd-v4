@@ -7,9 +7,9 @@ location:
 summary: In thinking about the fabric of the web, I unpick a few threads and tie myself in knots.
 image: /images/photos/1542802386.jpg
 category:
-- blogging
-- indieweb
-- web
+- Blogging
+- IndieWeb
+- Web
 tags:
 - featured
 ---

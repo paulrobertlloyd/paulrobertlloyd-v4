@@ -3,10 +3,10 @@ title: Yosemite HD
 date: 2012-01-24T19:47:07Z
 bookmark-of: https://vimeo.com/35396305
 category:
-- video
-- photography
-- yosemite_national_park
-- united_states
+- Video
+- Photography
+- Yosemite National Park
+- United States
 ---
 {% render 'embed' with bookmark-of
   poster: 'https://i.vimeocdn.com/video/254218511'

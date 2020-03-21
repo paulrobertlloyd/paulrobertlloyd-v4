@@ -8,14 +8,14 @@ summary: Finding plenty of colour amidst the grey.
 image: /images/2020/01/copenhagen/nyhavn.jpg
 collection: scandinavian_sojourn
 category:
-- copenhagen
-- denmark
-- malmo
-- trolleborg
-- sweden
-- europe
-- travel
-- railways
+- Copenhagen
+- Denmark
+- Malmo
+- Trolleborg
+- Sweden
+- Europe
+- Travel
+- Railways
 tags:
 - featured
 photoset:

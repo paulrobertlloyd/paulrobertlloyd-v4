@@ -7,10 +7,10 @@ location:
 summary: Nine stations. Seven trains. Four countries. 27 and half hours.
 image: /images/2019/09/brighton_to_lisbon/lisbon_metro.jpg
 category:
-- travel
-- france
-- portugal
-- railways
+- Travel
+- France
+- Portugal
+- Railways
 tags:
 - featured
 ---

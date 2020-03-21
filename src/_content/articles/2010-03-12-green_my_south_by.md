@@ -6,8 +6,8 @@ location:
   country-name: United Kingdom
 summary: Once again, I feel the duty falls upon me to remind those attending this year’s SXSW festival in Austin, that you really need not pick up that big, heavy, cumbersome and frankly useless bag of marketing junk.
 category:
-- sustainability
-- sxsw
+- Sustainability
+- SXSW
 ---
 Once again, I feel the duty falls upon me to remind those attending this year’s SXSW festival in Austin, that you really need not pick up that big, heavy, cumbersome and frankly useless bag of marketing junk.
 

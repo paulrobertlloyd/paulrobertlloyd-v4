@@ -5,8 +5,8 @@ canonical:
   url: https://the-pastry-box-project.net/clearleft/2013-june-6
 summary: A brief thought about collaboration.
 category:
-- personal
-- web
+- Personal
+- Web
 tags:
 - source:the_pastry_box_project
 ---

@@ -6,9 +6,9 @@ location:
   country-name: United Kingdom
 summary: Disorientating nostalgia.
 category:
-- television
-- technology
-- culture
+- Television
+- Technology
+- Culture
 ---
 Disorientating at first, I love that <cite>[Sex Education][1]</cite> has an opinion about where it is set. *Moredale* seems to be a colourful mid-Atlantic backwater, one where fashion was paused around 1985. It’s also a place where some technologies appear to face slower adoption than others — the internet, laptops and smartphones exist, but Ford Cortinas and cathode-ray tubes are still in wide use as well. I want to live in that kinda world.
 

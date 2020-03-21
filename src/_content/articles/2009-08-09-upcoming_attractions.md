@@ -6,9 +6,9 @@ location:
   country-name: United Kingdom
 summary: As Summer hurtles towards it’s conclusion (and let’s assume for a second that it actually started) so the anticipation for two very special geeky events can begin.
 category:
-- conferences
-- geek_in_the_park
-- dconstruct
+- Conferences
+- Geek in the Park
+- dConstruct
 ---
 As Summer hurtles towards its conclusion (and let’s assume for a second that it actually started) so the anticipation for two very special geeky events can begin.
 

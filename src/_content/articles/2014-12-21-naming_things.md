@@ -5,8 +5,8 @@ canonical:
   url: https://24ways.org/2014/naming-things/
 summary: I perch my partridge in the CSS pear tree to discuss naming methodologies, ontologies and semantics. What’s in a name? That which we call a cherub by any other name would smell as sweet.
 category:
-- programming
-- web
+- Programming
+- Web
 tags:
 - source:24_ways
 ---
