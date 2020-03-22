@@ -813,7 +813,7 @@ module.exports = function () {
     url: 'https://www.london-stadium.com',
     address: {
       'street-address': 'Stratford Walk',
-      locality: 'Old Ford',
+      locality: 'Stratford',
       region: 'Greater London',
       'country-name': 'United Kingdom',
       'postal-code': 'E15 2NG',
