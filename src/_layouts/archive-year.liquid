@@ -4,7 +4,7 @@
 {%- block 'main' -%}
   <h1 class="main__title">Archive</h1>
   <div class="main__introduction">{{ title }}</div>
-  {%- render 'section-months' with archive.months
+  {%- render 'section-months' with months
     year: year
   -%}
   {%- render 'section' with featured
