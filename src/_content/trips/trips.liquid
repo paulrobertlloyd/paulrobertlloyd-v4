@@ -3,7 +3,7 @@ layout: page
 title: Trips
 permalink: /trips/index.html
 ---
-<p>Over the course of {{ trips.data.size }} trips, I’ve travelled {{ trips.total.distance }} km and emitted approximately {{ trips.total.co2 }} kg of CO<sub>2</sub>.</p>
+<p>Over the course of {{ total.trips }} trips, I’ve travelled {{ total.distance }} km and emitted approximately {{ total.co2 }} kg of CO<sub>2</sub>.</p>
 
 <table>
   <thead>
@@ -15,7 +15,7 @@ permalink: /trips/index.html
     </tr>
   </thead>
   <tbody>
-  {%- for trip in trips.data -%}
+  {%- for trip in trips -%}
     <tr>
       <th>
         <time datetime="{{ trip.date }}">{{ trip.date | date: dates.date_short }}</time>

@@ -12,7 +12,7 @@ const getDistance = (from, to) => {
 };
 
 module.exports = function () {
-  const trips = [{
+  let trips = [{
     date: '2003-11-02',
     from: 'LHR',
     to: 'SYD',
@@ -343,7 +343,7 @@ module.exports = function () {
   }];
 
   // Calculate trips data
-  const data = trips.map(trip => {
+  trips = trips.map(trip => {
     const from = trip.from;
     const to = trip.to;
     const via = trip.via || [];
@@ -375,7 +375,7 @@ module.exports = function () {
   });
 
   // Calculate totals
-  const total = data.reduce((acc, n) => {
+  const total = trips.reduce((acc, n) => {
     for (const prop in n) {
       if (Object.prototype.hasOwnProperty.call(acc, prop)) {
         acc[prop] += n[prop];
@@ -389,8 +389,9 @@ module.exports = function () {
 
   // Return data object
   return {
-    data,
+    trips,
     total: {
+      trips: trips.length,
       distance: total.distance,
       co2: total.co2
     }
