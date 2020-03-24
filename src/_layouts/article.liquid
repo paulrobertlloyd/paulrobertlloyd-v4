@@ -28,16 +28,14 @@
       {%- assign related = collections.collection | where: 'fileSlug',this_collection | first -%}
       {%- capture title %}More from the <a href="{{ related.url }}">{{ related.data.title }}</a> collection{%- endcapture -%}
       {%- assign articles = collections.article | related: this_collection,page | reverse -%}
-      {%- if articles.size > 0 %}
-        {%- render 'section' with articles
-          id: 'related'
-          title: title
-          scrollable: true
-          items_limit: 6
-          grid_size: '16rem'
-          component: 'card'
-        -%}
-      {%- endif -%}
+      {%- render 'section' with articles
+        id: 'related'
+        title: title
+        scrollable: true
+        items_limit: 6
+        grid_size: '16rem'
+        component: 'card'
+      -%}
     {%- endfor -%}
   {%- endif -%}
 {%- endblock -%}

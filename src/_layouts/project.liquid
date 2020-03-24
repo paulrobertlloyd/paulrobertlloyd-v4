@@ -6,11 +6,9 @@
   -%}
   {%- render 'content' with content -%}
   {%- assign related = collections.article | includes: 'data.category',title -%}
-  {%- if related.size > 0 %}
-    {%- render 'section' with related
-      id: 'related'
-      title: 'Related articles'
-      grid_size: '16rem'
-    -%}
-  {%- endif -%}
+  {%- render 'section' with related
+    id: 'related'
+    title: 'Related articles'
+    grid_size: '16rem'
+  -%}
 {%- endblock -%}

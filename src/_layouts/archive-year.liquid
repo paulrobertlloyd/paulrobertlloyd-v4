@@ -7,14 +7,12 @@
   {%- render 'section-months' with archive.months
     year: year
   -%}
-  {%- if featured.size >= 1 -%}
-    {%- render 'section' with featured
-      id: 'featured'
-      title: 'Select articles from this year'
-      scrollable: true
-      items_limit: 3
-      grid_size: '16rem'
-      component: 'card'
-    -%}
-  {%- endif -%}
+  {%- render 'section' with featured
+    id: 'featured'
+    title: 'Select articles from this year'
+    scrollable: true
+    items_limit: 3
+    grid_size: '16rem'
+    component: 'card'
+  -%}
 {%- endblock -%}

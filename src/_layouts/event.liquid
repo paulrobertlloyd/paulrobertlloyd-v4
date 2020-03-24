@@ -29,12 +29,10 @@
   {% for cat in category %}
     {%- capture title %}Other events in the {{ cat }} series{%- endcapture -%}
     {%- assign related = collections.event | includes: 'data.category',cat | reverse -%}
-    {%- if related.size > 0 %}
-      {%- render 'section' with related
-        id: 'related'
-        title: title
-        item_modifier: 'inline'
-      -%}
-    {%- endif -%}
+    {%- render 'section' with related
+      id: 'related'
+      title: title
+      item_modifier: 'inline'
+    -%}
   {%- endfor -%}
 {%- endblock -%}
