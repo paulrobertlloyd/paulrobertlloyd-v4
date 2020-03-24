@@ -9,6 +9,7 @@ module.exports = {
     title: 'Reply: {{ date | date: dates.datetime_full }}',
     excludeTitleFromFeed: true,
     image: '{{ photo[0].url }}',
-    target: '{{ page.url | prepend: app.url | pretty }}'
+    target: '{{ page.url | prepend: app.url | pretty }}',
+    in_reply_to: data => data['in-reply-to']
   }
 };
