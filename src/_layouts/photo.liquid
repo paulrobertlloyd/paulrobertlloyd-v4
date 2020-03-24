@@ -19,11 +19,9 @@
   -%}
   {%- render 'categories' with category -%}
   {%- assign webmentions = webmentions.children | webmentions_for_url: target -%}
-  {%- if webmentions.size > 0 -%}
-    {%- render 'section-remarks' with webmentions
-      id: 'webmentions'
-      title: 'Webmentions'
-      item_modifier: 'inline'
-    -%}
-  {%- endif -%}
+  {%- render 'section-remarks' with webmentions
+    id: 'webmentions'
+    title: 'Webmentions'
+    item_modifier: 'inline'
+  -%}
 {%- endblock -%}

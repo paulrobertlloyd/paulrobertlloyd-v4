@@ -12,21 +12,17 @@
   -%}
   {%- render 'content' with content -%}
   {%- render 'categories' with category -%}
-  {%- if remarks.size > 0 -%}
-    {%- render 'section-remarks' with remarks
-      id: 'remarks'
-      title: 'Remarks'
-      item_modifier: 'inline'
-    -%}
-  {%- endif -%}
+  {%- render 'section-remarks' with remarks
+    id: 'remarks'
+    title: 'Remarks'
+    item_modifier: 'inline'
+  -%}
   {%- assign webmentions = webmentions.children | webmentions_for_url: target -%}
-  {%- if webmentions.size > 0 -%}
-    {%- render 'section-remarks' with webmentions
-      id: 'webmentions'
-      title: 'Webmentions'
-      item_modifier: 'inline'
-    -%}
-  {%- endif -%}
+  {%- render 'section-remarks' with webmentions
+    id: 'webmentions'
+    title: 'Webmentions'
+    item_modifier: 'inline'
+  -%}
   {%- if collection -%}
     {%- for this_collection in collection -%}
       {%- assign related = collections.collection | where: 'fileSlug',this_collection | first -%}

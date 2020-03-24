@@ -1,19 +1,21 @@
-<section class="section" aria-labelledby="{{ id }}">
-  <div class="section__container">
-    <header class="section__header">
-      <h2 class="section__title" id="{{ id }}">{{ title }}</h2>
-    </header>
+{%- if section-remarks.size > 0 -%}
+  <section class="section" aria-labelledby="{{ id }}">
+    <div class="section__container">
+      <header class="section__header">
+        <h2 class="section__title" id="{{ id }}">{{ title }}</h2>
+      </header>
 
-    <details class="section__main">
-      <summary>
-        {% render 'facepile' with section-remarks
-          type: title
-        %}
-      </summary>
+      <details class="section__main">
+        <summary>
+          {% render 'facepile' with section-remarks
+            type: title
+          %}
+        </summary>
 
-      <div style="--grid-size: {{ grid_size | default: '100%' }}">
-        {% render 'item/remark' for section-remarks as item %}
-      </div>
-    </details>
-  </div>
-</section>
+        <div style="--grid-size: {{ grid_size | default: '100%' }}">
+          {% render 'item/remark' for section-remarks as item %}
+        </div>
+      </details>
+    </div>
+  </section>
+{%- endif -%}
