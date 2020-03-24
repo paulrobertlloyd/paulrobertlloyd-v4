@@ -1,5 +1,4 @@
-{%- assign collection = page.fileSlug -%}
-{%- assign items = collections.all | includes: 'data.collection',collection -%}
+{%- assign items = collections.all | includes: 'data.collection',page.fileSlug -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'header'

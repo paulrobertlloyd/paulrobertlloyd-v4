@@ -1,6 +1,3 @@
-{%- capture title %}Reply: {{ date | date: dates.datetime_full }}{% endcapture -%}
-{%- capture target -%}{{ page.url | prepend: app.url | pretty }}{%- endcapture -%}
-{%- assign webmentions = webmentions.children | webmentions_for_url: target -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'footer'
@@ -16,6 +13,7 @@
   {%- if category.size > 0 -%}
     {%- render 'categories' with category -%}
   {%- endif -%}
+  {%- assign webmentions = webmentions.children | webmentions_for_url: target -%}
   {%- if webmentions.size > 0 -%}
     {%- render 'section-remarks' with webmentions
       id: 'webmentions'

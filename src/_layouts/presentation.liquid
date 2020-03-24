@@ -8,7 +8,7 @@
     summary: summary
   -%}
   {%- capture content -%}
-    {{ content }}
+    {{- content -}}
     {%- for slide in slides -%}
       {%- render 'figure' with slide.image
         caption: slide.notes

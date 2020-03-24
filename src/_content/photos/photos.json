@@ -1,9 +1,0 @@
-{
-  "title": "",
-  "layout": "photo",
-  "permalink": "photos/{{ page.fileSlug }}.html",
-  "tags": ["post", "photo"],
-  "vocab": "entry",
-  "changefreq": "monthly",
-  "priority": "0.8"
-}

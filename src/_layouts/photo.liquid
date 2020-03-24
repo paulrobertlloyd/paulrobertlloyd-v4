@@ -1,14 +1,3 @@
-{%- capture title %}Photo{% if photo.size > 1 -%}s{% endif %}: {{ date | date: dates.datetime_full }}{% endcapture -%}
-{%- assign image = photo[0].url -%}
-{%- capture target -%}{{ page.url | prepend: app.url | pretty }}{%- endcapture -%}
-{%- assign webmentions = webmentions.children | webmentions_for_url: target -%}
-{%- capture content -%}
-  {{- content -}}
-  {%- render 'photos' with photo
-    columns: 1
-    image_class: 'u-photo'
-  -%}
-{%- endcapture -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'footer'
@@ -18,12 +7,20 @@
     in-reply-to: in-reply-to
     canonical: canonical
   -%}
+  {%- capture content -%}
+    {{- content -}}
+    {%- render 'photos' with photo
+      columns: 1
+      image_class: 'u-photo'
+    -%}
+  {%- endcapture -%}
   {%- render 'content' with content
     properties: 'e-content p-name'
   -%}
   {%- if category.size > 0 -%}
     {%- render 'categories' with category -%}
   {%- endif -%}
+  {%- assign webmentions = webmentions.children | webmentions_for_url: target -%}
   {%- if webmentions.size > 0 -%}
     {%- render 'section-remarks' with webmentions
       id: 'webmentions'

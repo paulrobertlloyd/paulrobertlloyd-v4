@@ -1,4 +1,3 @@
-{%- assign related = collections.article | includes: 'data.category',title -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'header'
@@ -6,6 +5,7 @@
     summary: summary
   -%}
   {%- render 'content' with content -%}
+  {%- assign related = collections.article | includes: 'data.category',title -%}
   {%- if related.size > 0 %}
     {%- render 'section' with related
       id: 'related'
