@@ -10,9 +10,7 @@
   {%- render 'content' with content
     properties: 'e-content p-name'
   -%}
-  {%- if category.size > 0 -%}
-    {%- render 'categories' with category -%}
-  {%- endif -%}
+  {%- render 'categories' with category -%}
   {%- assign webmentions = webmentions.children | webmentions_for_url: target -%}
   {%- if webmentions.size > 0 -%}
     {%- render 'section-remarks' with webmentions

@@ -11,9 +11,7 @@
     summary: false
   -%}
   {%- render 'content' with content -%}
-  {%- if category.size > 0 -%}
-    {%- render 'categories' with category -%}
-  {%- endif -%}
+  {%- render 'categories' with category -%}
   {%- if remarks.size > 0 -%}
     {%- render 'section-remarks' with remarks
       id: 'remarks'

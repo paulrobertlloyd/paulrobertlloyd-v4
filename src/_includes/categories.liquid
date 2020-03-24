@@ -1,5 +1,7 @@
-<ul class="categories">
-{%- for category in categories %}
-  <li><a class="p-category" href="/categories/{{ category | slugify }}" rel="tag" aria-label="{{ category }}">{{ category | hashtagify }}</a></li>
-{%- endfor -%}
-</ul>
+{%- if categories.size > 0 -%}
+  <ul class="categories">
+  {%- for category in categories %}
+    <li><a class="p-category" href="/categories/{{ category | slugify }}" rel="tag" aria-label="{{ category }}">{{ category | hashtagify }}</a></li>
+  {%- endfor -%}
+  </ul>
+{%- endif -%}
