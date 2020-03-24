@@ -21,7 +21,7 @@ permalink: /feed.json
       "url": "{{ item.url | prepend: app.url | pretty }}",
       {% if item.data.bookmark-of %}"external_url": "{{ item.data.bookmark-of }}",{% endif %}
       {% if item.data.in-reply-to %}"external_url": "{{ item.data.in-reply-to }}",{% endif %}
-      "title": "{{ item.data.title | markdownify: 'inline' }}",
+      "title": "{% unless item.data.excludeTitleFromFeed %}{{ item.data.title | markdownify: 'inline' }}{% endunless %}",
       {% if item.data.summary %}"summary": {{ item.data.summary | markdownify: 'inline' | jsonify }},{% endif %}
       {% if item.data.category %}"tags": {{ item.data.category | jsonify }},{% endif %}
       {% if item.data.image %}"image": {{ item.data.image | prepend: app.url | append: '?w=1280&q=90&auto=format' | jsonify }},{% endif %}
