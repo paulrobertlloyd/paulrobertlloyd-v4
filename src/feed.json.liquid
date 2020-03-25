@@ -24,7 +24,6 @@ permalink: /feed.json
       "title": "{% unless item.data.exclude_title_from_feed %}{{ item.data.title | markdownify: 'inline' }}{% endunless %}",
       {% if item.data.summary %}"summary": {{ item.data.summary | markdownify: 'inline' | jsonify }},{% endif %}
       {% if item.data.category %}"tags": {{ item.data.category | jsonify }},{% endif %}
-      {% if item.data.image %}"image": {{ item.data.image | prepend: app.url | append: '?w=1280&q=90&auto=format' | jsonify }},{% endif %}
       "content_html": {% capture content_html %}{% if item.data.in_reply_to %}<p><small>↪︎ In reply to <a class="u-in-reply-to" href="{{ item.data.in_reply_to }}">a post on {{ item.data.in_reply_to | hostname }}</a></small></p>{% endif %}{{ item.templateContent | strip_mentions }}{% if item.data.photo %}{% include 'photos' with item.data.photo image_class: 'u-photo' image_preset: 'feed' %}{% endif %}{% endcapture %}{{ content_html | strip | jsonify }},
       "date_published": {{ item.data.date | jsonify }}
     }{% unless forloop.last %},{% endunless %}

@@ -1,4 +1,3 @@
-/* eslint-disable camelcase */
 module.exports = {
   title: 'Paul Robert Lloyd',
   short_title: 'PRL',
