@@ -73,6 +73,7 @@
   @extend %reference;
 
   inline-size: 100%;
+  max-inline-size: 100%;
 }
 
 .s-linear th,

@@ -1,10 +1,11 @@
 ---
-layout: page
+layout: index
 title: Trips
 permalink: /trips/index.html
+eleventyComputed:
+  introduction: Over the course of {{ total.trips }} trips, I’ve travelled {{ total.distance }} km and emitted approximately {{ total.co2 }} kg of CO<sub>2</sub>.
 ---
-<p>Over the course of {{ total.trips }} trips, I’ve travelled {{ total.distance }} km and emitted approximately {{ total.co2 }} kg of CO<sub>2</sub>.</p>
-
+{%- capture content -%}
 <table>
   <thead>
     <tr>
@@ -31,3 +32,5 @@ permalink: /trips/index.html
   {%- endfor -%}
   </tbody>
 </table>
+{%- endcapture -%}
+{%- render 'content' with content -%}
