@@ -8,7 +8,6 @@ module.exports = {
   eleventyComputed: {
     title: 'Photo{% if photo.size > 1 -%}s{% endif %}: {{ date | date: dates.datetime_full }}',
     exclude_title_from_feed: true,
-    image: '{{ photo[0].url }}',
-    target: '{{ page.url | prepend: app.url | pretty }}'
+    image: '{{ photo[0].url }}'
   }
 };

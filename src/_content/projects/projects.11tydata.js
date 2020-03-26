@@ -1,0 +1,8 @@
+module.exports = {
+  layout: 'project',
+  permalink: 'projects/{{ page.fileSlug }}.html',
+  tags: ['post', 'project'],
+  vocab: 'entry',
+  changefreq: 'monthly',
+  priority: 0.9
+};

@@ -22,8 +22,7 @@ module.exports = {
     avatar: 'https://gravatar.com/avatar/15091a37bacfa4bdd011282627eaca2b?s=512'
   },
   token: {
-    mapbox: 'pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg',
-    ombdapi: 'e2e2ef5c'
+    mapbox: 'pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg'
   },
   environment: process.env.NODE_ENV
 };

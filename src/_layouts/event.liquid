@@ -13,10 +13,7 @@
     url: url
   -%}
   {%- capture content -%}
-    {%- if url contains 'imdb.com' -%}
-      {%- assign imdb_id = url | remove: 'https://www.imdb.com/title/' | remove: '/' -%}
-      {%- capture image %}https://img.omdbapi.com/?apikey={{ app.token.ombdapi }}&i={{ imdb_id }}&h=560{% endcapture -%}
-      {%- assign alt = title | prepend: 'Poster for ' -%}
+    {%- if image -%}
       {%- render 'image' with image
         class: 'align-start'
         preset: 'thumbnail'

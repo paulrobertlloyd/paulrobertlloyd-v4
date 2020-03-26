@@ -7,7 +7,6 @@ module.exports = {
   priority: 0.8,
   eleventyComputed: {
     title: 'Note: {{ date | date: dates.datetime_full }}',
-    exclude_title_from_feed: true,
-    target: '{{ page.url | prepend: app.url | pretty }}'
+    exclude_title_from_feed: true
   }
 };

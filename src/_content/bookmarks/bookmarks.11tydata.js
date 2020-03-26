@@ -6,7 +6,6 @@ module.exports = {
   changefreq: 'monthly',
   priority: 0.8,
   eleventyComputed: {
-    url: data => data['bookmark-of'],
-    target: '{{ page.url | prepend: app.url | pretty }}'
+    url: data => data['bookmark-of']
   }
 };

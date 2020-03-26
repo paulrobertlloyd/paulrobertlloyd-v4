@@ -5,11 +5,10 @@
   <meta property="og:title" content="{% if title != '' %}{{ title | markdownify: 'inline' | strip_html }}{% else %}{{ app.title }}{% endif %}">
   <meta property="og:description" name="description" content="{% if summary %}{{ summary | markdownify | strip_html | strip_newlines | strip }}{% else %}{{ app.description }}{% endif %}">
   <meta property="og:url" content="{% if url %}{{ url }}{% else %}{{ page.url | prepend: app.url | pretty }}{% endif %}">
+  <meta property="og:image" content="{{ share_image }}">
 {%- if image -%}
-  <meta property="og:image" content="https://res.cloudinary.com/paulrobertlloyd/image/fetch/c_fill%2Cf_auto%2Cq_auto%2Cw_1200%2Ch_630/{{ app.url }}{{ image }}">
   <meta name="twitter:card" content="summary_large_image">
 {%- else -%}
-  <meta property="og:image" content="{{ app.icon | prepend: app.url }}">
   <meta name="twitter:card" content="summary">
 {%- endif -%}
   <meta name="twitter:site" content="@paulrobertlloyd">

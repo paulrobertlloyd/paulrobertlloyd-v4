@@ -4,8 +4,5 @@ module.exports = {
   tags: ['post', 'article'],
   vocab: 'entry',
   changefreq: 'monthly',
-  priority: 0.9,
-  eleventyComputed: {
-    target: '{{ page.url | prepend: app.url | pretty }}'
-  }
+  priority: 0.9
 };
