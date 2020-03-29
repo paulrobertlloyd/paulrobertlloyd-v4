@@ -2,11 +2,11 @@
 {%- if embed contains 'mapbox' -%}
   {%- capture img %}{{ poster }}960x540@2x?access_token={{ app.token.mapbox }}{% endcapture -%}
 {%- elsif embed contains 'vimeo' -%}
-  {%- capture src %}{{ embed | replace: 'vimeo.com','player.vimeo.com/video' }}?color=fff&title=0&byline=0&badge=0&portrait=0&autoplay=1{% endcapture -%}
-  {%- capture img %}{{ poster }}?mw=1920&q=80{% endcapture -%}
+  {%- capture src %}{{ embed | replace: 'vimeo.com','player.vimeo.com/video' }}?color=fff%26title=0%26byline=0%26badge=0%26portrait=0%26autoplay=1{% endcapture -%}
+  {%- capture img %}{{ poster }}?mw=1920%26q=80{% endcapture -%}
 {%- elsif embed contains 'youtube' -%}
   {%- assign poster = embed | replace: 'www.youtube.com/watch?v=','i.ytimg.com/vi/' -%}
-  {%- capture src %}{{ embed | replace: 'www.youtube.com/watch?v=','www.youtube-nocookie.com/embed/' }}?modestbranding=1&autoplay=1{% endcapture -%}
+  {%- capture src %}{{ embed | replace: 'www.youtube.com/watch?v=','www.youtube-nocookie.com/embed/' }}?modestbranding=1%26autoplay=1{% endcapture -%}
   {%- capture img %}{{ poster }}/hqdefault.jpg{% endcapture -%}
 {%- else -%}
   {%- capture img %}https://res.cloudinary.com/paulrobertlloyd/image/fetch/c_fill%2Cf_auto%2Cq_auto%2Cw_1920/{{ app.url }}/images/{{ poster }}{% endcapture -%}
