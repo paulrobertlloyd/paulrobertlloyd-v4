@@ -1,5 +1,5 @@
 {
-  "iso": "%Y-%m-%dT%H:%M:%S.%L%z",
+  "iso": "%Y-%m-%dT%H:%M:%S.%L%:z",
   "date_short": "%d %b %Y",
   "date_long": "%e %B %Y",
   "datetime_full": "%e %B %Y, %l:%M %P",
