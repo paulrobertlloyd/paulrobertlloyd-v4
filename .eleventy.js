@@ -11,13 +11,13 @@ module.exports = function (eleventy) {
   // Filters
   eleventy.addFilter('colorify', require('./lib/filters/colorify.js'));
   eleventy.addFilter('contrastify', require('./lib/filters/contrastify.js'));
+  eleventy.addFilter('excludes', require('./lib/filters/excludes.js'));
   eleventy.addFilter('hashtagify', require('./lib/filters/hashtagify.js'));
   eleventy.addFilter('hostname', require('./lib/filters/hostname.js'));
   eleventy.addFilter('includes', require('./lib/filters/includes.js'));
   eleventy.addFilter('jsonify', require('./lib/filters/jsonify.js'));
   eleventy.addFilter('markdownify', require('./lib/filters/markdownify.js'));
   eleventy.addFilter('pretty', require('./lib/filters/pretty.js'));
-  eleventy.addFilter('related', require('./lib/filters/related.js'));
   eleventy.addFilter('slugify', require('./lib/filters/slugify.js'));
   eleventy.addFilter('sort_by', require('./lib/filters/sort-by.js'));
   eleventy.addFilter('strip_mentions', require('./lib/filters/strip-mentions.js'));

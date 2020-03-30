@@ -73,17 +73,6 @@
 }
 
 @media (--from-medium-viewport) {
-  .item--inline[data-type="bookmark"] .item__main,
-  .item--inline[data-type="event"] .item__main,
-  .item--inline[data-type="venue"] .item__main {
-    @extend %caption;
-
-    grid-area: meta;
-    justify-content: end;
-    max-inline-size: 16rem;
-    text-align: end;
-  }
-
   .item--inline[data-type="photo"] .item__main img {
     max-inline-size: 21rem;
   }

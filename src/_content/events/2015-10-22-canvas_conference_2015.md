@@ -2,7 +2,7 @@
 title: Canvas Conference 2015
 date: 2015-10-22T09:00:00+01:00
 url: http://2015.canvasconference.co.uk
-summary: Insider stories from product people
+summary: Insider stories from product people.
 start: 2015-10-22T09:00:00+01:00
 end: 2015-10-22T17:00:00+01:00
 venue: 9c4wf3hr+vj

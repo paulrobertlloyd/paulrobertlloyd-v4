@@ -26,9 +26,9 @@
   {%- endcapture -%}
   {%- render 'content' with content -%}
 
-  {% for cat in category %}
-    {%- capture title %}Other events in the {{ cat }} series{%- endcapture -%}
-    {%- assign related = collections.event | includes: 'data.category',cat | reverse -%}
+  {% for this in category %}
+    {%- capture title %}Other {{ this }} events{%- endcapture -%}
+    {%- assign related = collections.event | includes: 'data.category',this | excludes: 'url',page.url | reverse -%}
     {%- render 'section' with related
       id: 'related'
       title: title

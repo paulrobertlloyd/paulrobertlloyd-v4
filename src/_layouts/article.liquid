@@ -23,19 +23,17 @@
     title: 'Webmentions'
     item_modifier: 'inline'
   -%}
-  {%- if collection -%}
-    {%- for this_collection in collection -%}
-      {%- assign related = collections.collection | where: 'fileSlug',this_collection | first -%}
-      {%- capture title %}More from the <a href="{{ related.url }}">{{ related.data.title }}</a> collection{%- endcapture -%}
-      {%- assign articles = collections.article | related: this_collection,page | reverse -%}
-      {%- render 'section' with articles
-        id: 'related'
-        title: title
-        scrollable: true
-        items_limit: 6
-        grid_size: '16rem'
-        component: 'card'
-      -%}
-    {%- endfor -%}
-  {%- endif -%}
+  {%- for this in collection -%}
+    {%- assign related = collections.collection | where: 'fileSlug',this | first -%}
+    {%- capture title %}More from the <a href="{{ related.url }}">{{ related.data.title }}</a> collection{%- endcapture -%}
+    {%- assign articles = collections.article | includes: 'data.collection', this | excludes: 'url',page.url | reverse -%}
+    {%- render 'section' with articles
+      id: 'related'
+      title: title
+      scrollable: true
+      items_limit: 6
+      grid_size: '16rem'
+      component: 'card'
+    -%}
+  {%- endfor -%}
 {%- endblock -%}

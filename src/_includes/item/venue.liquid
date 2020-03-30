@@ -6,9 +6,7 @@
   </header>
 
   <p class="item__main s-linear | h-adr">
-    <a class="u-url" rel="bookmark" href="{{ item.url | prepend: app.url | pretty }}" tabindex="-1">
-      <span class="p-locality">{{ item.data.address.locality }}</span>,
-      <span class="p-country-name">{{ item.data.address.country-name }}</span>
-    </a>
+    <span class="p-locality">{{ item.data.address.locality }}</span>,
+    <span class="p-country-name">{{ item.data.address.country-name }}</span>
   </p>
 </article>

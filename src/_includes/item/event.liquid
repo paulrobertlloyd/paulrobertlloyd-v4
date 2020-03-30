@@ -10,10 +10,10 @@
     </h3>
   </header>
 
-{%- if item.data.venue -%}
+{%- if item.data.venue and hide_summary != true -%}
   {%- assign venue = venues | where: 'fileSlug',item.data.venue | first -%}
   <p class="item__main s-linear | h-card">
-    <a class="p-name" href="{{ venue.url | pretty }}">{{ venue.data.title | markdownify: 'inline' }}</a>
+    at <span class="p-name">{{ venue.data.title }}</span>
   </p>
 {%- endif -%}
 
