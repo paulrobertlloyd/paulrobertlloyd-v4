@@ -4,7 +4,7 @@
     {%- assign date-start = start | date: '%Y%m%d' -%}
     {%- assign date-end = end | date: '%Y%m%d' -%}
     <dd>
-      <a class="u-url" rel="bookmark" href="{{ page.url | prepend: app.url | pretty }}">
+      <a class="u-url" rel="bookmark" href="{{ bookmark }}">
       {%- if date-start != date-end -%}
         <time class="dt-start" datetime="{{ start | date: dates.iso }}">{{ start | date: dates.date_long }}</time> -
         <time class="dt-end" datetime="{{ end | date: dates.iso }}">{{ end | date: dates.date_long }}</time>
@@ -17,7 +17,7 @@
 {%- if venue -%}
     <dt class="visually-hidden">Venue</dt>
     <dd class="p-location h-card">
-      <a class="u-url" href="{{ venue.url | pretty }}">
+      <a class="u-url" href="{{ venue.data.bookmark }}">
         <span class="p-name">{{ venue.data.title | markdownify: 'inline' }}</span>, <span class="p-adr h-adr p-locality">{{ venue.data.address.locality }}</span>
       </a>
     </dd>

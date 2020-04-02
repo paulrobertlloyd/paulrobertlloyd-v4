@@ -1681,15 +1681,17 @@ module.exports = function () {
 
   return venues.map(venue => {
     const fileSlug = venue.address['plus-code'].toLowerCase();
+    const permalink = `/events/venues/${fileSlug}`;
 
     return {
       date: new Date(),
       fileSlug,
-      url: `/events/venues/${fileSlug}`,
+      url: permalink,
       data: {
         layout: 'venue',
         title: venue.title,
         url: venue.url,
+        bookmark: permalink,
         content: venue.content,
         address: venue.address,
         geo: decode(venue.address['plus-code']),

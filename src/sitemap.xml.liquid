@@ -9,7 +9,7 @@ permalink: /sitemap.xml
 {%- assign items = collections.all | sort_by: 'data.priority' | reverse -%}
 {%- for item in items -%}
   <url>
-    <loc>{{ item.url | prepend: app.url | pretty }}</loc>
+    <loc>{{ item.data.bookmark }}</loc>
     <lastmod>{{ item.date | date: '%Y-%m-%d' }}</lastmod>
     <changefreq>{{ item.data.changefreq }}</changefreq>
     <priority>{{ item.data.priority }}</priority>

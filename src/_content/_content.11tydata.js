@@ -8,6 +8,10 @@ module.exports = {
 
       return `${data.app.url}${data.app.icon}`;
     },
-    target: '{{ page.url | prepend: app.url | pretty }}'
+    bookmark: data => {
+      let {url} = data.page;
+      url = url.replace(/(?:index)?\.html/g, '');
+      return `${data.app.url}${url}`;
+    }
   }
 };

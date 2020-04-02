@@ -17,7 +17,7 @@
     title: 'Remarks'
     item_modifier: 'inline'
   -%}
-  {%- assign webmentions = webmentions.children | webmentions_for_url: target -%}
+  {%- assign webmentions = webmentions.children | webmentions_for_url: bookmark -%}
   {%- render 'section-remarks' with webmentions
     id: 'webmentions'
     title: 'Webmentions'
