@@ -1,5 +1,6 @@
 ---
-layout: archive-month
+layout: index
+title: Archive
 pagination:
   data: months
   size: 1
@@ -9,5 +10,10 @@ permalink: "{{ month | date: '%Y/%m' }}/"
 changefreq: monthly
 priority: 0.2
 eleventyComputed:
-  title: "{{ month | date: '%B %Y' }}"
+  introduction: "{{ month | date: '%B %Y' }}"
 ---
+{%- assign items = collections.post | includes: 'data.date',month -%}
+{%- render 'items' with items
+  item_modifier: 'inline'
+  no_items_content: 'Nothing was published during this month.'
+-%}
