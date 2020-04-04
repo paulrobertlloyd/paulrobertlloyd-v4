@@ -17,4 +17,6 @@ eleventyComputed:
   component: 'photo-simple'
   image_preset: 'thumbnail'
 -%}
-{%- render 'pagination' with pagination -%}
+{%- render 'traverse' with pagination
+  label: 'photos'
+-%}
