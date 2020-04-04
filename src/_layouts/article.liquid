@@ -17,7 +17,6 @@
     id: 'remarks'
     title: 'Remarks'
   -%}
-  {%- assign webmentions = webmentions.children | webmentions_for_url: page.url -%}
   {%- render 'section-remarks' with webmentions
     id: 'webmentions'
     title: 'Webmentions'

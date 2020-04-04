@@ -22,7 +22,6 @@ module.exports = function (eleventy) {
   eleventy.addFilter('sort_by', require('./lib/filters/sort-by.js'));
   eleventy.addFilter('strip_mentions', require('./lib/filters/strip-mentions.js'));
   eleventy.addFilter('tokenize', require('./lib/filters/tokenize.js'));
-  eleventy.addFilter('webmentions_for_url', require('./lib/filters/webmentions-for-url.js'));
 
   // Plugins
   eleventy.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));

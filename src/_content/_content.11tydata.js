@@ -1,3 +1,5 @@
+const getWebmentions = require('../../lib/utils/get-webmentions');
+
 module.exports = {
   eleventyComputed: {
     share_image: data => {
@@ -7,6 +9,10 @@ module.exports = {
       }
 
       return `${data.app.url}${data.app.icon}`;
+    },
+    webmentions: data => {
+      const url = `${data.app.url}${data.page.url}`;
+      return getWebmentions(data.webmentions.children, url);
     }
   }
 };

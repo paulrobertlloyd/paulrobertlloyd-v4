@@ -8,6 +8,10 @@
   -%}
   {%- render 'content' with content -%}
   {%- render 'categories' with category -%}
+  {%- render 'section-remarks' with webmentions
+    id: 'webmentions'
+    title: 'Webmentions'
+  -%}
   {%- render 'footer'
     date: date
   -%}

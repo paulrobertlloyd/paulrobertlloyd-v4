@@ -12,7 +12,6 @@
     properties: 'e-content p-name'
   -%}
   {%- render 'categories' with category -%}
-  {%- assign webmentions = webmentions.children | webmentions_for_url: page.url -%}
   {%- render 'section-remarks' with webmentions
     id: 'webmentions'
     title: 'Webmentions'
