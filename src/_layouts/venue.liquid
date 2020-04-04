@@ -1,5 +1,4 @@
 {%- assign geo = page.data.geo -%}
-{%- assign events = collections.event | includes: 'data.venue',page.fileSlug | reverse -%}
 {%- assign title = page.data.title -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
@@ -32,6 +31,7 @@
     {% endif %}
   {%- endcapture -%}
   {%- render 'content' with content -%}
+  {%- assign events = collections.event | includes: 'data.venue',page.fileSlug | reverse -%}
   {%- render 'section' with events
     id: 'events'
     title: 'Other events at this venue'

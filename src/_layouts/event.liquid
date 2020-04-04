@@ -26,11 +26,11 @@
   {%- render 'content' with content -%}
 
   {% for this in category %}
-    {%- capture title %}Other {{ this }} events{%- endcapture -%}
+    {%- capture section_title %}Other {{ this }} events{%- endcapture -%}
     {%- assign related = collections.event | includes: 'data.category',this | excludes: 'url',page.url | reverse -%}
     {%- render 'section' with related
       id: 'related'
-      title: title
+      title: section_title
       item_modifier: 'inline'
     -%}
   {%- endfor -%}
