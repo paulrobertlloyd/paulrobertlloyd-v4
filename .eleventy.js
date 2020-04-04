@@ -9,14 +9,14 @@ module.exports = function (eleventy) {
   eleventy.setLibrary('md', require('./lib/libraries/markdown.js'));
 
   // Filters
-  eleventy.addFilter('colorify', require('./lib/filters/colorify.js'));
-  eleventy.addFilter('contrastify', require('./lib/filters/contrastify.js'));
+  eleventy.addFilter('color', require('./lib/filters/color.js'));
+  eleventy.addFilter('contrast_with', require('./lib/filters/contrast-with.js'));
   eleventy.addFilter('excludes', require('./lib/filters/excludes.js'));
-  eleventy.addFilter('hashtagify', require('./lib/filters/hashtagify.js'));
+  eleventy.addFilter('hashtag', require('./lib/filters/hashtag.js'));
   eleventy.addFilter('hostname', require('./lib/filters/hostname.js'));
   eleventy.addFilter('includes', require('./lib/filters/includes.js'));
-  eleventy.addFilter('markdownify', require('./lib/filters/markdownify.js'));
-  eleventy.addFilter('slugify', require('./lib/filters/slugify.js'));
+  eleventy.addFilter('markdown', require('./lib/filters/markdown.js'));
+  eleventy.addFilter('slug', require('./lib/filters/slug.js'));
   eleventy.addFilter('sort_by', require('./lib/filters/sort-by.js'));
   eleventy.addFilter('strip_mentions', require('./lib/filters/strip-mentions.js'));
   eleventy.addFilter('tokenize', require('./lib/filters/tokenize.js'));

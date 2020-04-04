@@ -23,7 +23,7 @@
         {%- render 'address' with address -%}
       </figcaption>
     </figure>
-    {{ content | markdownify }}
+    {{ content | markdown }}
   {%- endcapture -%}
   {%- render 'content' with content -%}
   {%- assign events = collections.event | includes: 'data.venue',page.fileSlug | reverse -%}

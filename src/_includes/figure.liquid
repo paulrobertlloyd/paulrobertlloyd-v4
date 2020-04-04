@@ -1,6 +1,6 @@
 <figure class="align-{{ alignment | default: 'none' }}">
 {%- if content %}
-  {{ content | markdownify }}
+  {{ content | markdown }}
 {%- else %}
   {%- render 'image' with figure
     preset: image_preset
@@ -9,7 +9,7 @@
 {%- endif %}
 {%- if caption %}
   <figcaption>
-    {{ caption | markdownify }}
+    {{ caption | markdown }}
   </figcaption>
 {%- endif %}
 </figure>

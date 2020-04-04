@@ -1,11 +1,11 @@
 <article class="item item--{{ modifier | default: 'block'}}" data-type="source">
   <header class="item__header">
     <h3 class="item__title">
-      <a href="{{ item.url }}">{{ item.data.title | markdownify: 'inline' }}</a>
+      <a href="{{ item.url }}">{{ item.data.title | markdown: 'inline' }}</a>
     </h3>
   </header>
 
   <div class="item__main s-linear">
-    {{ item.data.summary | markdownify }}
+    {{ item.data.summary | markdown }}
   </div>
 </article>

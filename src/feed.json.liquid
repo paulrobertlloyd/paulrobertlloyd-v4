@@ -21,8 +21,8 @@ permalink: /feed.json
       "url": "{{ item.url }}",
       {% if item.data.url %}"external_url": "{{ item.data.url }}",{% endif %}
       {% if item.data.in_reply_to %}"external_url": "{{ item.data.in_reply_to }}",{% endif %}
-      "title": "{% unless item.data.exclude_title_from_feed %}{{ item.data.title | markdownify: 'inline' }}{% endunless %}",
-      {% if item.data.summary %}"summary": {{ item.data.summary | markdownify: 'inline' | json }},{% endif %}
+      "title": "{% unless item.data.exclude_title_from_feed %}{{ item.data.title | markdown: 'inline' }}{% endunless %}",
+      {% if item.data.summary %}"summary": {{ item.data.summary | markdown: 'inline' | json }},{% endif %}
       {% if item.data.category %}"tags": {{ item.data.category | json }},{% endif %}
       "content_html": {% capture content_html %}{% if item.data.in_reply_to %}<p><small>↪︎ In reply to <a class="u-in-reply-to" href="{{ item.data.in_reply_to }}">a post on {{ item.data.in_reply_to | hostname }}</a></small></p>{% endif %}{{ item.templateContent | strip_mentions }}{% if item.data.photo %}{% include 'photos' with item.data.photo image_class: 'u-photo' image_preset: 'feed' %}{% endif %}{% endcapture %}{{ content_html | strip | json }},
       "date_published": {{ item.data.date | json }}

@@ -2,8 +2,8 @@
 <html lang="en-gb" prefix="og: http://ogp.me/ns#">
 <head>
   <meta charset="utf-8">
-  <meta property="og:title" content="{% if title != '' %}{{ title | markdownify: 'inline' | strip_html }}{% else %}{{ app.title }}{% endif %}">
-  <meta property="og:description" name="description" content="{% if summary %}{{ summary | markdownify | strip_html | strip_newlines | strip }}{% else %}{{ app.description }}{% endif %}">
+  <meta property="og:title" content="{% if title != '' %}{{ title | markdown: 'inline' | strip_html }}{% else %}{{ app.title }}{% endif %}">
+  <meta property="og:description" name="description" content="{% if summary %}{{ summary | markdown | strip_html | strip_newlines | strip }}{% else %}{{ app.description }}{% endif %}">
   <meta property="og:url" content="{{ page.url }}">
   <meta property="og:image" content="{{ share_image }}">
 {%- if image -%}
@@ -38,12 +38,12 @@
     {%- if style.color-accent -%}
       {%- assign accent = style.color-accent -%}
     {%- elsif date -%}
-      {%- assign accent = date | colorify -%}
+      {%- assign accent = date | color -%}
     {%- else -%}
       {%- assign accent = app.accent_color -%}
     {%- endif -%}
-      --color-accent-light: {{ accent | contrastify: 'black' }};
-      --color-accent-dark: {{ accent | contrastify: 'white' }};
+      --color-accent-light: {{ accent | contrast_with: 'black' }};
+      --color-accent-dark: {{ accent | contrast_with: 'white' }};
     {%- for var in style -%}
       {%- unless var[0] == 'color-accent' -%}
       --{{ var[0]}}: {{ var[1] }};
@@ -66,7 +66,7 @@
     }
   </script>
 
-  <title>{% if type != 'homepage' %}{{ title | markdownify: 'inline' | strip_html }} – {% endif %}{{ app.title }}</title>
+  <title>{% if type != 'homepage' %}{{ title | markdown: 'inline' | strip_html }} – {% endif %}{{ app.title }}</title>
 </head>
 <body data-type="{{ type }}">
 {%- render 'banner' -%}

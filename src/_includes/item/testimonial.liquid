@@ -1,6 +1,6 @@
 <figure class="item item--{{ modifier | default: 'block'}} | h-review" data-type="testimonial">
   <blockquote class="item__main | e-content p-name">
-    {{ item.data.content | markdownify }}
+    {{ item.data.content | markdown }}
   </blockquote>
   <figcaption class="item__footer | p-author h-card">
     <span class="p-name">{{ item.data.name }},</span>

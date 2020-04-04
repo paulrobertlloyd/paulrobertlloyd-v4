@@ -1,7 +1,7 @@
 <article class="item item--{{ modifier | default: 'block' }} | h-card" data-type="venue">
   <header class="item__header">
     <h3 class="item__title | p-name">
-      <a href="{{ item.url }}">{{ item.data.title | markdownify: 'inline' }}</a>
+      <a href="{{ item.url }}">{{ item.data.title | markdown: 'inline' }}</a>
     </h3>
   </header>
 

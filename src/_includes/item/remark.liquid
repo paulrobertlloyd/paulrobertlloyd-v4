@@ -20,6 +20,6 @@
   </header>
 
   <div class="remark__main s-linear | p-summary">
-    {{ item.content.value | default: item.content | markdownify | strip_mentions }}
+    {{ item.content.value | default: item.content | markdown | strip_mentions }}
   </div>
 </article>

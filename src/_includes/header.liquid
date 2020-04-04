@@ -2,7 +2,7 @@
   <h1 class="header__title{% if vocab %} | p-name{% endif %}">{{ title }}</h1>
 {%- if summary -%}
   <div class="header__summary{% if vocab %} | p-summary{% endif %}">
-    {{ summary | markdownify }}
+    {{ summary | markdown }}
   </div>
 {%- endif -%}
 {%- if url -%}

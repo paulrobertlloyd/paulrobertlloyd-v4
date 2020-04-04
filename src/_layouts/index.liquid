@@ -3,7 +3,7 @@
 <h1 class="main__title">{{ title }}</h1>
 {%- if introduction -%}
 <div class="main__introduction">
-  {{ introduction | markdownify }}
+  {{ introduction | markdown }}
 </div>
 {%- endif -%}
 {{ layoutContent }}

@@ -5,9 +5,9 @@
     preset: 'thumbnail'
   %}
 {%- endif -%}
-  <h3><cite class="p-name">{{ product.title | markdownify: 'inline' }}</cite></h3>
+  <h3><cite class="p-name">{{ product.title | markdown: 'inline' }}</cite></h3>
 {%- if product.rating -%}
   <p>{% render 'rating' with product.rating %}</p>
 {%- endif -%}
-  {{ product.info | markdownify }}
+  {{ product.info | markdown }}
 </aside>
