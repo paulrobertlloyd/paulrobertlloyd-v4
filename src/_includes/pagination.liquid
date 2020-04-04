@@ -1,9 +1,8 @@
-{%- if pagination.links.size > 1 -%}
+{%- if pagination.hrefs.size > 1 -%}
 <nav class="pagination" aria-label="page">
   <ol>
-  {%- for item in pagination.links -%}
-    {%- assign url = item | pretty | replace: 'page/','?page=' -%}
-    <li><a href="{{ url }}"{% if pagination.pageNumber == forloop.index0 %} aria-current="page"{% endif %} aria-label="Go to page {{ forloop.index }}">{{ forloop.index }}</a></li>
+  {%- for item in pagination.pages -%}
+    <li><a href="{{ pagination.hrefs[forloop.index0] | remove: '.html' | replace: 'page/','?page=' }}"{% if pagination.pageNumber == forloop.index0 %} aria-current="page"{% endif %} aria-label="Go to page {{ forloop.index }}">{{ forloop.index }}</a></li>
   {%- endfor -%}
   </ol>
 </nav>

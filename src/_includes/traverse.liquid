@@ -1,14 +1,12 @@
-{%- if traverse.links.size > 1 -%}
+{%- if traverse.hrefs.size > 1 -%}
 <nav class="traverse" aria-label="page">
-{%- if traverse.nextPageLink -%}
-  {%- assign nextPageLink = traverse.nextPageLink | pretty | replace: 'page/','?page=' -%}
-  <a href="{{ nextPageLink }}" rel="prev">
+{%- if traverse.href.next -%}
+  <a href="{{ traverse.href.next | remove: '.html' | replace: 'page/','?page=' }}" rel="prev">
     <span aria-hidden="true">&larr;</span> Older {{ label }}
   </a>
 {%- endif -%}
-{%- if traverse.previousPageLink -%}
-  {%- assign previousPageLink = traverse.previousPageLink | pretty | replace: 'page/','?page=' -%}
-  <a href="{{ previousPageLink }}" rel="next">
+{%- if traverse.href.previous -%}
+  <a href="{{ traverse.href.previous | remove: '.html' | replace: 'page/','?page=' }}" rel="next">
     Newer {{ label }} <span aria-hidden="true">&rarr;</span>
   </a>
 {%- endif -%}
