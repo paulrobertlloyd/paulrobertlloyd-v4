@@ -61,20 +61,6 @@ module.exports = function () {
       'plus-code': '9F4MG9HP+5M'
     }
   }, {
-    title: 'Arena Birmingham',
-    url: 'https://www.arenabham.co.uk',
-    address: {
-      'street-address': 'King Edwards Road',
-      locality: 'Birmingham',
-      region: 'West Midlands',
-      'country-name': 'United Kingdom',
-      'postal-code': 'B1 2AA',
-      'plus-code': '9C4WF3HM+WX'
-    },
-    'former-names': [
-      'National Indoor Arena'
-    ]
-  }, {
     title: 'Assembly Buildings Conference Centre',
     address: {
       'street-address': '2-10 Fisherwick Place',
@@ -206,9 +192,7 @@ module.exports = function () {
       'postal-code': '95112',
       'plus-code': '849W849J+VM'
     },
-    'former-names': [
-      'Spartan Stadium'
-    ]
+    content: 'Formerly known as Spartan Stadium (1933-2015)'
   }, {
     title: 'Cardinal Place',
     address: {
@@ -494,7 +478,7 @@ module.exports = function () {
     }
   }, {
     title: 'Exeter Picturehouse',
-    url: 'https://www.picturehouses.com/cinema/Exeter_Picturehouse',
+    url: 'https://www.picturehouses.com/cinema/exeter-picturehouse',
     address: {
       'street-address': '51 Bartholomew Street West',
       locality: 'Exeter',
@@ -819,10 +803,7 @@ module.exports = function () {
       'postal-code': 'E15 2NG',
       'plus-code': '9C3XGXQM+F9'
     },
-    'former-names': [
-      'Olympic Stadium',
-      'The Stadium at Queen Elizabeth Olympic Park'
-    ]
+    content: 'Formerly known as The Stadium at Queen Elizabeth Olympic Park (2013–2016) and Olympic Stadium (2012)'
   }, {
     title: 'London Transport Museum',
     url: 'https://www.ltmuseum.co.uk',
@@ -1024,9 +1005,7 @@ module.exports = function () {
       'postal-code': 'CF10 1NS',
       'plus-code': '9C3RFRH8+7W'
     },
-    'former-names': [
-      'Millennium Stadium'
-    ]
+    content: 'Formerly known as the Millennium Stadium.'
   }, {
     title: 'Proud Camden',
     address: {
@@ -1143,9 +1122,7 @@ module.exports = function () {
       'postal-code': 'M5J 2X2',
       'plus-code': '87M2JJVC+99'
     },
-    'former-names': [
-      'Air Canada Centre'
-    ]
+    content: 'Formerly known as Air Canada Centre'
   }, {
     title: 'Scottish National Gallery of Modern Art, Modern Two',
     url: 'https://www.nationalgalleries.org',
@@ -1585,11 +1562,19 @@ module.exports = function () {
       'postal-code': 'NE4 7NA',
       'plus-code': '9C6WX97G+HQ'
     },
-    'former-names': [
-      'Newcastle Arena (1995–1997)',
-      'Telewest Arena (1997–2004)',
-      'Metro Radio Arena'
-    ]
+    content: 'Formerly known as Metro Radio Arena (2004–2019), Telewest Arena (1997–2004) and Newcastle Arena (1995–1997)'
+  }, {
+    title: 'Utilita Arena Birmingham',
+    url: 'https://www.arenabham.co.uk',
+    address: {
+      'street-address': 'King Edwards Road',
+      locality: 'Birmingham',
+      region: 'West Midlands',
+      'country-name': 'United Kingdom',
+      'postal-code': 'B1 2AA',
+      'plus-code': '9C4WF3HM+WX'
+    },
+    content: 'Formerly known as Arena Birmingham (2017-2020), The Barclaycard Arena (2014-2017) and National Indoor Arena (1991-2014)'
   }, {
     title: 'Victoria and Albert Museum',
     url: 'https://www.vam.ac.uk',
@@ -1682,6 +1667,7 @@ module.exports = function () {
   return venues.map(venue => {
     const fileSlug = venue.address['plus-code'].toLowerCase();
     const permalink = `/events/venues/${fileSlug}`;
+    const geo = decode(venue.address['plus-code']);
 
     return {
       date: new Date(),
@@ -1694,8 +1680,7 @@ module.exports = function () {
         bookmark: permalink,
         content: venue.content,
         address: venue.address,
-        geo: decode(venue.address['plus-code']),
-        'former-names': venue['former-names']
+        geo
       }
     };
   });

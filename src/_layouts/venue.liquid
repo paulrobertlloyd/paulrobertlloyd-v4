@@ -1,20 +1,18 @@
-{%- assign geo = page.data.geo -%}
-{%- assign title = page.data.title -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'header'
     title: title
-    url: page.data.url
+    url: url
     vocab: vocab
   -%}
   {%- capture content -%}
     <figure class="align-bleed">
       <a href="https://duckduckgo.com/?q={{ geo.latitude }},{{ geo.longitude }}&iaxm=places">
         {%- capture overlay -%}
-          pin-l+{{ app.accent_color | remove: '#' }}({{ geo.longitude }},{{ geo.latitude }})
+          pin-l+{{ app.accent_color | remove: '#' }}({{ page.data.geo.longitude }},{{ page.data.geo.latitude }})
         {%- endcapture -%}
         {%- capture position -%}
-          {{ geo.longitude }},{{ geo.latitude }},15,0.00,0.00
+          {{ page.data.geo.longitude }},{{ page.data.geo.latitude }},15,0.00,0.00
         {%- endcapture -%}
         {%- render 'map'
           overlay: overlay
@@ -22,13 +20,10 @@
         -%}
       </a>
       <figcaption>
-        {%- render 'address' with page.data.address -%}
+        {%- render 'address' with address -%}
       </figcaption>
     </figure>
-    {{ page.data.content | markdownify }}
-    {% if page.data.former-names %}
-      <p>Formerly known as: {{ page.data.former-names | join:", " }}.</p>
-    {% endif %}
+    {{ content | markdownify }}
   {%- endcapture -%}
   {%- render 'content' with content -%}
   {%- assign events = collections.event | includes: 'data.venue',page.fileSlug | reverse -%}

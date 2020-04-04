@@ -1,11 +1,10 @@
-{%- assign title = page.data.title -%}
-{%- assign items = collections.project | includes: 'data.category',title -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'header'
     title: title
-    summary: page.data.summary
+    summary: summary
   -%}
+  {%- assign items = collections.project | includes: 'data.category',title -%}
   {%- render 'items' with items
     grid_size: '12rem'
     component: 'card'

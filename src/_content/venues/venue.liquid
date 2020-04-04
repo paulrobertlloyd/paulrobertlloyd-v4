@@ -1,6 +1,5 @@
 ---
 layout: venue
-title: Venue
 pagination:
   data: venues
   size: 1
@@ -10,4 +9,9 @@ permalink: "events/venues/{{ page.fileSlug }}/"
 vocab: card
 changefreq: monthly
 priority: 0.2
+eleventyComputed:
+  title: "{{ page.data.title }}"
+  url: "{{ page.data.url }}"
+  content: "{{ page.data.content }}"
+  address: "{{ page.data.address }}"
 ---

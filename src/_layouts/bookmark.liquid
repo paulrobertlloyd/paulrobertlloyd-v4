@@ -1,5 +1,8 @@
 {%- layout 'default' -%}
 {%- block 'main' -%}
+  {%- render 'footer'
+    date: date
+  -%}
   {%- render 'header'
     title: title
     url: url
@@ -11,8 +14,5 @@
   {%- render 'section-remarks' with webmentions
     id: 'webmentions'
     title: 'Webmentions'
-  -%}
-  {%- render 'footer'
-    date: date
   -%}
 {%- endblock -%}

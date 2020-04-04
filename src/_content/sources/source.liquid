@@ -1,6 +1,5 @@
 ---
 layout: source
-title: Source
 pagination:
   data: sources
   size: 1
@@ -9,4 +8,9 @@ pagination:
 permalink: "articles/sources/{{ page.fileSlug }}/"
 changefreq: monthly
 priority: 0.2
+eleventyComputed:
+  title: "{{ page.data.title }}"
+  summary: "{{ page.data.summary }}"
+  url: "{{ page.data.url }}"
+  tag: "source:{{ page.fileSlug }}"
 ---

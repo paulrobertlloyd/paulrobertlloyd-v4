@@ -1,4 +1,3 @@
-{%- assign items = collections.all | includes: 'data.collection',page.fileSlug -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'header'
@@ -6,6 +5,7 @@
     summary: summary
   -%}
   {%- render 'content' with content -%}
+  {%- assign items = collections.all | includes: 'data.collection',page.fileSlug -%}
   {%- render 'section' with items
     id: 'items'
     title: 'Items in this collection'

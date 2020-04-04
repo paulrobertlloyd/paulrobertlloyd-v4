@@ -1,6 +1,5 @@
 ---
 layout: skill
-title: Skill
 pagination:
   data: skills
   size: 1
@@ -9,4 +8,7 @@ pagination:
 permalink: "projects/skills/{{ page.fileSlug }}/"
 changefreq: monthly
 priority: 0.2
+eleventyComputed:
+  title: "{{ page.data.title }}"
+  summary: "{{ page.data.summary }}"
 ---
