@@ -16,7 +16,7 @@ category:
 tags:
 - featured
 ---
-{%- capture overlay %}geojson({{ geojson | jsonify | escape }}){% endcapture -%}
+{%- capture overlay %}geojson({{ geojson | json | escape }}){% endcapture -%}
 {%- capture map -%}
 {%- render 'map'
   overlay: overlay

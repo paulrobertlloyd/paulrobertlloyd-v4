@@ -15,7 +15,6 @@ module.exports = function (eleventy) {
   eleventy.addFilter('hashtagify', require('./lib/filters/hashtagify.js'));
   eleventy.addFilter('hostname', require('./lib/filters/hostname.js'));
   eleventy.addFilter('includes', require('./lib/filters/includes.js'));
-  eleventy.addFilter('jsonify', require('./lib/filters/jsonify.js'));
   eleventy.addFilter('markdownify', require('./lib/filters/markdownify.js'));
   eleventy.addFilter('slugify', require('./lib/filters/slugify.js'));
   eleventy.addFilter('sort_by', require('./lib/filters/sort-by.js'));
