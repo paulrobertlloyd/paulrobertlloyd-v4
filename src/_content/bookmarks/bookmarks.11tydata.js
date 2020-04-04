@@ -1,6 +1,6 @@
 module.exports = {
   layout: 'bookmark',
-  permalink: 'bookmarks/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}.html',
+  permalink: 'bookmarks/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
   tags: ['post', 'bookmark'],
   vocab: 'entry',
   changefreq: 'monthly',

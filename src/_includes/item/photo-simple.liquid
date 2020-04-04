@@ -1,5 +1,5 @@
 <article class="card | h-entry" data-type="photo">
-  <a class="card__image | u-url" rel="bookmark" href="{{ item.data.bookmark }}">
+  <a class="card__image | u-url" rel="bookmark" href="{{ item.url }}">
     {%- render 'image' with item.data.photo[0].url
       alt: item.data.photo[0].alt
       class: 'u-photo'

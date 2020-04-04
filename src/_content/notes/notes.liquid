@@ -4,7 +4,7 @@ pagination:
   data: collections.note
   reverse: true
   size: 24
-permalink: "notes/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}{% else %}index{% endif %}.html"
+permalink: "notes/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}.html{% else %}/{% endif %}"
 tags: false
 changefreq: daily
 priority: 0.9

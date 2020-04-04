@@ -2,7 +2,7 @@
 eleventyExcludeFromCollections: true
 title: Styleguide
 summary: An overview of the typographic and layout styles available for content pages
-permalink: /styleguide.html
+permalink: styleguide/
 ---
 The content on this page lies within the `.s-linear` scope[^1].
 

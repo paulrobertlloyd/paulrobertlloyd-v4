@@ -1,6 +1,6 @@
 module.exports = {
   layout: 'event',
-  permalink: 'events/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}.html',
+  permalink: 'events/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
   tags: ['event'],
   vocab: 'event',
   rsvp: 'yes',

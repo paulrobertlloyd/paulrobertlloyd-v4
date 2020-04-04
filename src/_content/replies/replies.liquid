@@ -4,7 +4,7 @@ pagination:
   data: collections.reply
   reverse: true
   size: 24
-permalink: "replies/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}{% else %}index{% endif %}.html"
+permalink: "replies/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}{% else %}index{% endif %}/"
 tags: false
 changefreq: daily
 priority: 0.9

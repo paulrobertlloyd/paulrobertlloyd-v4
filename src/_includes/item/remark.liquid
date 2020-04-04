@@ -1,6 +1,5 @@
 {%- assign id = item.wm-id | default: forloop.rindex | prepend: 'remark-' -%}
 {%- assign permalink = id | prepend: '#' -%}
-{%- assign url = item.url | default: permalink -%}
 <article class="remark | p-comment h-cite" id="{{ id }}">
   <div class="remark__image">
     <img class="avatar | u-photo" src="{{ item.author.photo | default: '/assets/vectors/avatar.svg' }}?s=96&d=identicon" alt="" width="48" height="48">
@@ -14,7 +13,7 @@
     </h3>
 
     <p class="remark__meta">
-      <a class="u-url" rel="bookmark" href="{{ url }}">
+      <a class="u-url" rel="bookmark" href="{{ item.url | default: permalink }}">
         <time class="dt-published" datetime="{{ item.published | date: dates.iso }}">{{ item.published | date: dates.datetime_full }}</time>
       </a>
     </p>

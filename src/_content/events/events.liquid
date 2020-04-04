@@ -7,7 +7,7 @@ pagination:
   data: collections.attended
   reverse: true
   size: 48
-permalink: "events/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}{% else %}index{% endif %}.html"
+permalink: "events/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}.html{% else %}/{% endif %}"
 tags: false
 changefreq: weekly
 priority: 0.9

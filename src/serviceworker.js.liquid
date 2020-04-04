@@ -26,7 +26,7 @@ const offlinePage = '/offline.html';
 const offlinePages = [
 {%- assign saved = collections.article | reverse -%}
 {%- for item in saved limit: 6 -%}
-  '{{ item.data.bookmark }}',
+  '{{ item.url }}',
 {%- endfor -%}
 {%- for item in navigation.primary -%}
   '{{ item.url }}',

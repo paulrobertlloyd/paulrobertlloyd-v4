@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta property="og:title" content="{% if title != '' %}{{ title | markdownify: 'inline' | strip_html }}{% else %}{{ app.title }}{% endif %}">
   <meta property="og:description" name="description" content="{% if summary %}{{ summary | markdownify | strip_html | strip_newlines | strip }}{% else %}{{ app.description }}{% endif %}">
-  <meta property="og:url" content="{{ bookmark }}">
+  <meta property="og:url" content="{{ page.url }}">
   <meta property="og:image" content="{{ share_image }}">
 {%- if image -%}
   <meta name="twitter:card" content="summary_large_image">
@@ -21,7 +21,7 @@
   <link rel="dns-prefetch" href="https://res.cloudinary.com">
   <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="RSS (Atom) Feed">
   <link rel="alternate" href="/feed.json" type="application/json" title="JSON Feed">
-  <link rel="canonical" href="{% if canonical.url %}{{ canonical.url }}{% else %}{{ bookmark }}{% endif %}">
+  <link rel="canonical" href="{% if canonical.url %}{{ canonical.url }}{% else %}{{ page.url }}{% endif %}">
   <link rel="manifest" href="/app.webmanifest">
   <link rel="apple-touch-icon" href="{{ app.icon }}" type="image/png">
   <link rel="authorization_endpoint" href="{{ app.endpoint.auth }}">

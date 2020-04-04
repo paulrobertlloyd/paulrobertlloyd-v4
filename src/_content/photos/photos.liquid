@@ -4,7 +4,7 @@ pagination:
   data: collections.photo
   reverse: true
   size: 24
-permalink: "photos/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}{% else %}index{% endif %}.html"
+permalink: "photos/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}.html{% else %}/{% endif %}"
 tags: false
 changefreq: daily
 priority: 0.9

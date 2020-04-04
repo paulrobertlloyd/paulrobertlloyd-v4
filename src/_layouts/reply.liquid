@@ -1,7 +1,6 @@
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'footer'
-    bookmark: bookmark
     date: date
     location: location
     geo: geo
@@ -13,7 +12,7 @@
     properties: 'e-content p-name'
   -%}
   {%- render 'categories' with category -%}
-  {%- assign webmentions = webmentions.children | webmentions_for_url: bookmark -%}
+  {%- assign webmentions = webmentions.children | webmentions_for_url: page.url -%}
   {%- render 'section-remarks' with webmentions
     id: 'webmentions'
     title: 'Webmentions'

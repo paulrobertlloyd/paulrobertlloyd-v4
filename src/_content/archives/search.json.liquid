@@ -8,6 +8,6 @@ permalink: /archive/search.json
     "title": {{ title | jsonify }},
     "layout": {{ item.data.layout | capitalize | jsonify }},
     "content": {{ item.templateContent | tokenize | jsonify }},
-    "url": {{ item.data.bookmark | jsonify }}
+    "url": {{ item.url | jsonify }}
   }{% unless forloop.last %},{% endunless %}
 {% endfor %}]

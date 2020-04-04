@@ -7,11 +7,6 @@ module.exports = {
       }
 
       return `${data.app.url}${data.app.icon}`;
-    },
-    bookmark: data => {
-      let {url} = data.page;
-      url = url.replace(/(?:index)?\.html/g, '');
-      return `${data.app.url}${url}`;
     }
   }
 };
