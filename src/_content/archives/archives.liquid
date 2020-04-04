@@ -6,4 +6,8 @@ changefreq: weekly
 priority: 0.9
 ---
 {% render 'form/search' %}
-{% render 'section-years' with years %}
+{% assign archive = years | reverse %}
+{% render 'section-archives' with archive
+  id: 'browse',
+  title: 'Browse by year'
+%}
