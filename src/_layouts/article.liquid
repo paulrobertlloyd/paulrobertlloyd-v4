@@ -17,13 +17,11 @@
   {%- render 'section-remarks' with remarks
     id: 'remarks'
     title: 'Remarks'
-    item_modifier: 'inline'
   -%}
   {%- assign webmentions = webmentions.children | webmentions_for_url: bookmark -%}
   {%- render 'section-remarks' with webmentions
     id: 'webmentions'
     title: 'Webmentions'
-    item_modifier: 'inline'
   -%}
   {%- for this in collection -%}
     {%- assign related = collections.collection | where: 'fileSlug',this | first -%}
