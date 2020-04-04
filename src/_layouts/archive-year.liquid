@@ -1,4 +1,3 @@
-{%- assign title = year -%}
 {%- assign featured = collections.article | includes: 'data.tags','featured' | includes: 'data.date',year -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
