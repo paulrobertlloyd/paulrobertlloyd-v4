@@ -68,7 +68,7 @@
 
   <title>{{ page_title | markdown: 'inline' | strip_html }}</title>
 </head>
-<body data-type="{{ layout }}">
+<body data-type="{{ type | default: layout }}">
 {%- render 'banner' -%}
 <main class="main{% if vocab %} | {% for root in vocab %} h-{{ root }}{% endfor %}{% endif %}">
   <div class="main__container">

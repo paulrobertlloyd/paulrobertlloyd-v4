@@ -12,9 +12,9 @@ eleventyComputed:
   title: Photos
 ---
 {%- render 'items' with pagination.items
+  component: 'card-photo'
   modifier: 'photos'
   grid_size: '16rem'
-  component: 'card-photo'
   image_preset: 'thumbnail'
 -%}
 {%- render 'traverse' with pagination

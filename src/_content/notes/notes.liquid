@@ -12,6 +12,7 @@ eleventyComputed:
   title: Notes
 ---
 {%- render 'items' with pagination.items
+  component: 'entry-untitled'
   item_modifier: 'inline'
 -%}
 {%- render 'traverse' with pagination

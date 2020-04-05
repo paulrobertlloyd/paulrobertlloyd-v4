@@ -1,5 +1,6 @@
 module.exports = {
   layout: 'article',
+  type: 'entry',
   permalink: '{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
   tags: ['post', 'article'],
   vocab: 'entry',

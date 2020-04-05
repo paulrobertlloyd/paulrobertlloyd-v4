@@ -1,7 +1,7 @@
 <div class="items{% if modifier %} items--{{ modifier }}{% endif %}" style="--grid-size: {{ grid_size | default: '100%' }}">
 {%- if items.size > 0 -%}
   {%- for item in items limit: limit -%}
-    {%- render 'item/{{ component | default: item.data.layout }}'
+    {%- render 'item/{{ component | default: item.data.type | default: item.data.layout }}'
       item: item
       modifier: item_modifier
       card_image_ratio: card_image_ratio
