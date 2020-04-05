@@ -4,8 +4,8 @@
   </div>
 
   <footer class="item__footer">
-    <a class="u-url" rel="bookmark" href="{{ item.url }}">
-      <time class="dt-published" datetime="{{ item.data.date | date: dates.iso }}" aria-label="{{ item.data.date | date: dates.date_long }}">
+    <a class="u-url" rel="bookmark" href="{{ item.url }}" aria-label="{{ item.data.date | date: dates.date_long }}">
+      <time class="dt-published" datetime="{{ item.data.date | date: dates.iso }}">
         <span>{{ item.data.date | date: dates.date_short }}</span>
         <span>{{ item.data.date | date: dates.time }}</span>
       </time>
