@@ -1,7 +1,7 @@
 ---
 title: Fantasies of the Future
 date: 2017-06-30T15:30:00+01:00
-summary: In an attempt to understand our work, digital designers may look towards architectural practice for inspiration. As much as we can learn from where architecture has been successful, we can also draw lessons from its failures, too.
+summary: In an attempt to understand our work, digital designers may look towards architects for inspiration. But as much as we can learn from their success, we should also draw lessons from their failures, too.
 image: /images/2017/06/patterns_day/image.jpg
 tags:
 - featured

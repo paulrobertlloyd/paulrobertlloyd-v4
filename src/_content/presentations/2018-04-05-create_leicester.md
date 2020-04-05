@@ -1,7 +1,7 @@
 ---
 title: 'Fantasies of the Future: Design in a World Being Eaten by Software'
 date: 2018-04-05T19:30:00+01:00
-summary: When the prevailing technocratic culture permits the creation of products that undermine and exploit users, who will protect citizens within the digital spaces they now inhabit?
+summary: When the prevailing culture permits the creation of products that undermine and exploit users, will designers stand up to protect them?
 image: /images/2018/04/create_leicester/image.jpg
 tags:
 - featured

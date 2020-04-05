@@ -1,7 +1,7 @@
 ---
 title: Fear, Uncertainty and Doubt
 date: 2013-09-19T20:30:00+01:00
-summary: 'We have become increasingly reliant upon a small number of web services. Many of the companies that operate them emanate from a small centre of innovation: Silicon Valley.'
+summary: 'We have become increasingly reliant upon a small number of web services, most of which emanate from a small centre of innovation: Silicon Valley.'
 image: /images/2013/09/mk_geek_night_6/image.jpg
 tags:
 - featured
