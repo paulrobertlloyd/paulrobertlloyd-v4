@@ -21,7 +21,7 @@
   <link rel="dns-prefetch" href="https://res.cloudinary.com">
   <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="RSS (Atom) Feed">
   <link rel="alternate" href="/feed.json" type="application/json" title="JSON Feed">
-  <link rel="canonical" href="{% if canonical.url %}{{ canonical.url }}{% else %}{{ page.url }}{% endif %}">
+  <link rel="canonical" href="{{ canonical_url }}">
   <link rel="manifest" href="/app.webmanifest">
   <link rel="apple-touch-icon" href="{{ app.icon }}" type="image/png">
   <link rel="authorization_endpoint" href="{{ app.endpoint.auth }}">
