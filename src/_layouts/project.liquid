@@ -6,7 +6,6 @@
     vocab: vocab
   -%}
   {%- render 'content' with content -%}
-  {%- assign related = collections.article | includes: 'data.category',title -%}
   {%- render 'section' with related
     id: 'related'
     title: 'Related articles'
