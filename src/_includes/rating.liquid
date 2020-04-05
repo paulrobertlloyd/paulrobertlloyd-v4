@@ -1,8 +1,9 @@
-<data class="p-rating" value="{{ rating }}" aria-label="{{ rating }} stars out of 5">
-{%- if rating == 5 %}★★★★★{% endif -%}
-{%- if rating == 4 %}★★★★☆{% endif -%}
-{%- if rating == 3 %}★★★☆☆{% endif -%}
-{%- if rating == 2 %}★★☆☆☆{% endif -%}
-{%- if rating == 1 %}★☆☆☆☆{% endif -%}
-{%- if rating == 0 %}☆☆☆☆☆{% endif -%}
+<data class="p-rating" value="{{ rating }}">
+  <span class="visually-hidden">{{ rating }} stars out of 5</span>
+  {%- if rating == 5 %}★★★★★{% endif -%}
+  {%- if rating == 4 %}★★★★☆{% endif -%}
+  {%- if rating == 3 %}★★★☆☆{% endif -%}
+  {%- if rating == 2 %}★★☆☆☆{% endif -%}
+  {%- if rating == 1 %}★☆☆☆☆{% endif -%}
+  {%- if rating == 0 %}☆☆☆☆☆{% endif -%}
 </data>
