@@ -24,12 +24,12 @@ permalink: /feed.xml
     <updated>{{ item.data.date | date: dates.iso }}</updated>
     {% if item.data.url %}
     <link href="{{ item.data.url }}" rel="alternate" type="text/html"/>
-    <link href="{{ item.url }}" rel="related" type="text/html"/>
+    <link href="{{ item.url | prepend: app.url }}" rel="related" type="text/html"/>
     {% elsif item.data.in_reply_to %}
     <link href="{{ item.data.in_reply_to }}" rel="alternate" type="text/html"/>
-    <link href="{{ item.url }}" rel="related" type="text/html"/>
+    <link href="{{ item.url | prepend: app.url }}" rel="related" type="text/html"/>
     {% else %}
-    <link href="{{ item.url }}" rel="alternate" type="text/html"/>
+    <link href="{{ item.url | prepend: app.url }}" rel="alternate" type="text/html"/>
     {% endif %}
     <content type="html"><![CDATA[
       {% capture content_html %}{% if item.data.in_reply_to %}<p><small>↪︎ In reply to <a class="u-in-reply-to" href="{{ item.data.in_reply_to }}">a post on {{ item.data.in_reply_to | hostname }}</a></small></p>{% endif %}{{ item.templateContent | strip_mentions }}{% if item.data.category %}<p>{% for category in item.data.category %}#{{ category }} {% endfor %}</p>{% endif %}{% if item.data.photo %}{% include 'photos' with item.data.photo image_class: 'u-photo' image_preset: 'feed' %}{% endif %}{% endcapture %}{{ content_html | strip_newlines }}

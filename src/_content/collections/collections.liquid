@@ -6,7 +6,7 @@ tags: false
 changefreq: weekly
 priority: 0.9
 ---
-{%- assign collections = collections.collection | sort_by: 'fileSlug' -%}
+{%- assign collections = collections.collection | sort_natural: 'fileSlug' -%}
 {%- render 'items' with collections
   item_modifier: 'inline'
 -%}

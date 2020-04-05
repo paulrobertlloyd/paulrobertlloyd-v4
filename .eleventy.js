@@ -17,7 +17,6 @@ module.exports = function (eleventy) {
   eleventy.addFilter('includes', require('./lib/filters/includes.js'));
   eleventy.addFilter('markdown', require('./lib/filters/markdown.js'));
   eleventy.addFilter('slug', require('./lib/filters/slug.js'));
-  eleventy.addFilter('sort_by', require('./lib/filters/sort-by.js'));
   eleventy.addFilter('strip_mentions', require('./lib/filters/strip-mentions.js'));
   eleventy.addFilter('tokenize', require('./lib/filters/tokenize.js'));
 
