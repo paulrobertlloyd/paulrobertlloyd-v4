@@ -1,5 +1,5 @@
 .item {
-  --footer-inline-size: 8rem;
+  --footer-inline-size: 7rem;
   align-items: start;
   display: grid;
   grid-template:
@@ -78,20 +78,15 @@
   }
 }
 
+/* Footer */
 .item__footer {
   @extend %caption;
-
   --anchor-decoration: none;
   grid-area: footer;
-  min-inline-size: var(--footer-inline-size);
-}
-
-.item--inline .item__footer span:first-child {
-  margin-inline-end: var(--space-inline-small);
 }
 
 @media (--from-small-viewport) {
-  .item--inline .item__footer span {
-    display: block;
+  .item--inline .item__footer {
+    inline-size: var(--footer-inline-size);
   }
 }
