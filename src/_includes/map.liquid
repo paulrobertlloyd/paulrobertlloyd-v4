@@ -8,5 +8,5 @@
 {%- assign props = props | strip | strip_newlines | remove: ' ' -%}
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://api.mapbox.com/styles/v1/mapbox/dark-v10/static/{{ props }}">
-  <img src="https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/static/{{ props }}">
+  <img src="https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/static/{{ props }}" alt="Map">
 </picture>
