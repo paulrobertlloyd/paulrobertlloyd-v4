@@ -8,5 +8,6 @@ priority: 0.9
 ---
 {%- assign collections = collections.collection | sort_natural: 'fileSlug' -%}
 {%- render 'items' with collections
+  component: 'section'
   item_modifier: 'inline'
 -%}
