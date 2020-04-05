@@ -1,7 +1,8 @@
 .item {
-  --footer-inline-size: 7rem;
+  --anchor-decoration: none;
+  --footer-inline-size: 8rem;
   align-items: start;
-  border-block-start: var(--border-width-thin) solid var(--color-rule);
+  border-block-start: var(--border-width-thick) solid var(--color-rule);
   display: grid;
   grid-template:
     "meta" auto
@@ -9,7 +10,7 @@
     "main" auto
     "footer" 1fr /
     minmax(auto, 45rem);
-  padding-block-start: var(--space-block-xsmall);
+  padding-block-start: var(--space-block-small);
   position: relative;
 }
 
@@ -68,6 +69,10 @@
   grid-area: main;
 }
 
+.item__header + .item__main {
+  color: var(--color-neutral-darker);
+}
+
 .item--testimonial {
   border-block-start: none;
 }
@@ -86,6 +91,8 @@
 .item__footer {
   @extend %caption;
   --anchor-decoration: none;
+  color: var(--color-neutral);
+  font-variant-numeric: tabular-nums diagonal-fractions;
   grid-area: footer;
 }
 

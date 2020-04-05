@@ -1,5 +1,5 @@
 [data-type="entry-untitled"] .content {
   --font-size-body: var(--font-size-lede);
-  --flow-space: var(--space-block-small);
+  --line-height-body: var(--line-height-tight);
   --section-space: var(--space-block-small);
 }

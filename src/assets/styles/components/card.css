@@ -1,7 +1,7 @@
 .card {
   --anchor-decoration: none;
   --color-accent: var(--color-accent-light);
-  --card-growth: var(--space-block-xsmall);
+  --card-growth: var(--space-block-small);
   --card-shadow: var(--color-alpha-highest);
 
   background: var(--color-offset);
@@ -75,8 +75,10 @@
   @extend %reference;
 
   --flow-space: 0;
+  color: var(--color-neutral-dark);
   grid-area: main;
-  padding: var(--inset);
+  padding: var(--inset-squished);
+  padding-block-end: var(--space-block-small);
 }
 
 .card__footer {

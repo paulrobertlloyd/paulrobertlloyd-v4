@@ -1,6 +1,6 @@
 :root {
   /* Neutral palette */
-  --color-neutral: hsla(228, 8%, 64%, 1);
+  --color-neutral: hsla(228, 8%, 50%, 1);
   --color-neutral-darkest: color-mod(var(--color-neutral) l(16%));
   --color-neutral-darker: color-mod(var(--color-neutral) l(32%));
   --color-neutral-dark: color-mod(var(--color-neutral) l(40%));
@@ -35,9 +35,9 @@
   --font-size-lede: calc(1.125rem);
   --font-size-heading: calc(1.25rem + 0.75vmin);
   --font-size-subhead: calc(1.125rem + 0.25vmin);
-  --font-size-body: calc(1rem + 0.375vmin);
-  --font-size-reference: calc(0.875rem + 0.25vmin);
-  --font-size-caption: calc(0.75rem + 0.125vmin);
+  --font-size-body: calc(1.125rem + 0.25vmin);
+  --font-size-reference: calc(1rem + 0.25vmin);
+  --font-size-caption: calc(0.9375rem + 0.125vmin);
   --font-size-default: 1rem;
   --line-height-solid: 1em;
   --line-height-tight: calc(1.25em + 0.25vw);
@@ -49,7 +49,7 @@
   --border-radius-xsmall: 0.125rem;
   --border-radius-small: 0.25rem;
   --border-width-thin: 1px;
-  --border-width-thick: 0.125rem;
+  --border-width-thick: 0.09375rem;
   --border-width-thickest: 0.5rem;
 
   /* Sizing */
@@ -58,10 +58,10 @@
   --size-icon-large: 3rem;
 
   /* Spacing > Block */
-  --space-block-large: calc(2rem + 6vh);
-  --space-block-medium: calc(1rem + 3vh);
-  --space-block-small: calc(0.5rem + 1.5vmin);
-  --space-block-xsmall: calc(0.25rem + 0.5vh);
+  --space-block-large: calc(2rem + 4vh);
+  --space-block-medium: calc(1rem + 2vh);
+  --space-block-small: calc(0.75rem);
+  --space-block-xsmall: calc(0.25rem);
 
   /* Spacing > Inline */
   --space-inline-xsmall: 0.25rem;

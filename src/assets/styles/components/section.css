@@ -18,7 +18,7 @@
 }
 
 .section__header {
-  padding-block-end: var(--space-block-small);
+  padding-block-end: var(--space-block-medium);
   padding-block-start: var(--space-block-medium);
 }
 

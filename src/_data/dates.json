@@ -1,7 +1,7 @@
 {
   "iso": "%Y-%m-%dT%H:%M:%S.%L%:z",
-  "date_short": "%d&nbsp;%b&nbsp;%Y",
+  "date_short": "%d·%m·%Y",
   "date_long": "%e %B %Y",
   "datetime_full": "%e %B %Y, %l:%M&nbsp;%P",
-  "time": "%l:%M&nbsp;%P"
+  "time": "%H:%M"
 }
