@@ -2,6 +2,7 @@ const getWebmentions = require('../../lib/utils/get-webmentions');
 
 module.exports = {
   eleventyComputed: {
+    page_title: data => data.title, // Value overridden for homepage
     share_image: data => {
       const {image} = data;
       if (image) {
