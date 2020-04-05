@@ -5,7 +5,9 @@
     </h3>
   </header>
 
+{%- if item.data.summary -%}
   <div class="item__main s-linear">
     {{ item.data.summary | markdown }}
   </div>
+{%- endif -%}
 </article>
