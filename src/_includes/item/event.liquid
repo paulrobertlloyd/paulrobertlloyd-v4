@@ -17,7 +17,7 @@
 {%- endif -%}
 
   <footer class="item__footer">
-    <a class="u-url" rel="bookmark" href="{{ item.url }}" tabindex="-1">
+    <a class="u-url" rel="bookmark" href="{{ item.url }}" tabindex="-1" aria-label="{{ item.data.date | date: dates.date_long }}">
       <time class="dt-start" datetime="{{ item.data.start | date: dates.iso }}">{{ item.data.start | date: dates.date_short }}</time>
       <time class="dt-end" datetime="{{ item.data.end | date: dates.iso }}"></time>
     </a>
