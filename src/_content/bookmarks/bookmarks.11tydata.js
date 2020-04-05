@@ -6,6 +6,7 @@ module.exports = {
   changefreq: 'monthly',
   priority: 0.8,
   eleventyComputed: {
-    url: data => data['bookmark-of']
+    url: data => data['bookmark-of'],
+    summary: '{{ url | hostname }}'
   }
 };

@@ -17,7 +17,7 @@ permalink: /feed.json
   },
   "items": [{% for item in collections.post limit: 25 %}
     {
-      "id": "{{ item.url }}",
+      "id": "{{ item.url | prepend: app.url }}",
       "url": "{{ item.url | prepend: app.url }}",
       {% if item.data.url %}"external_url": "{{ item.data.url }}",{% endif %}
       {% if item.data.in_reply_to %}"external_url": "{{ item.data.in_reply_to }}",{% endif %}

@@ -1,6 +1,6 @@
 {%- assign date_color = item.data.date | color -%}
 {%- assign card_accent = item.data.style.color-accent | default: date_color -%}
-<article class="card |{% for root in item.data.vocab %} h-{{ root }}{% endfor %}" data-type="{{ item.data.layout }}" style="--color-accent-light: {{ card_accent | contrast_with: 'black' }}; --color-accent-dark: {{ card_accent | contrast_with: 'white' }}">
+<article class="card |{% for root in item.data.vocab %} h-{{ root }}{% endfor %}" style="--color-accent-light: {{ card_accent | contrast_with: 'black' }}; --color-accent-dark: {{ card_accent | contrast_with: 'white' }}">
 {%- if item.data.image -%}
   <div class="card__image"{%- if item.data.layout != 'project' %} style="--image-color: var(--color-accent)"{% endif %}>
     {%- assign ratio = card_image_ratio | default: 1.5 -%}

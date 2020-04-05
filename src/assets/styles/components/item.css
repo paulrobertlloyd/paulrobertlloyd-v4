@@ -68,12 +68,12 @@
   grid-area: main;
 }
 
-[data-type="testimonial"] .item__main {
+.item--testimonial .item__main {
   font-size: var(--font-size-body);
 }
 
 @media (--from-medium-viewport) {
-  .item--inline[data-type="photo"] .item__main img {
+  .item--inline .item__main img {
     max-inline-size: 21rem;
   }
 }

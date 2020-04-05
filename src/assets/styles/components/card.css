@@ -44,7 +44,7 @@
   position: relative;
 }
 
-.card:not([data-type="photo"]) .card__image {
+.card__image:not(:last-child) {
   margin-block-end: 0;
 }
 
