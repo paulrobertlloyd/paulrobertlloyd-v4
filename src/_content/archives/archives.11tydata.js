@@ -84,8 +84,30 @@ module.exports = function () {
     };
   });
 
+  // Other archives
+  const otherArchives = [{
+    url: '/categories',
+    data: {
+      title: 'Categories',
+      summary: 'Content across the site grouped by common topics.'
+    }
+  }, {
+    url: '/collections',
+    data: {
+      title: 'Collections',
+      summary: 'Curated series of articles, each covering a particular theme.'
+    }
+  }, {
+    url: 'http://lloydyweb.paulrobertlloyd.com/blog/archive/',
+    data: {
+      title: '1999-2007',
+      summary: 'Content written prior to 2008 can be found on my previous website.'
+    }
+  }];
+
   return {
     years: yearArchives,
-    months: monthArchives
+    months: monthArchives,
+    other: otherArchives
   };
 };
