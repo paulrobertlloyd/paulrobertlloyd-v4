@@ -27,21 +27,16 @@
     </dd>
 {%- endif -%}
 {%- if canonical -%}
-  {%- for item in collections.source -%}
+  {%- for item in sources -%}
     {%- if canonical.source == item.fileSlug -%}
     <dt>Originally appeared in</dt>
     <dd><cite>{{ item.data.title }}</cite>, {{ canonical.edition }}</dd>
     {%- endif -%}
     {%- if canonical.url contains item.data.url -%}
-    <dt>Originally published at</dt>
+    <dt>Originally published by</dt>
     <dd><a rel="canonical external" href="{{ canonical.url }}"><cite>{{ item.data.title }}</cite></a></dd>
-    {%- assign processed = true -%}
     {%- endif -%}
   {%- endfor -%}
-  {%- if canonical.url and processed != true -%}
-    <dt>Also published at</dt>
-    <dd><a rel="canonical external" href="{{ canonical.url }}">{{ canonical.url | hostname }}</cite></a></dd>
-  {%- endif -%}
 {%- endif -%}
   </dl>
 </footer>
