@@ -11,7 +11,10 @@ changefreq: monthly
 priority: 0.2
 eleventyComputed:
   title: "{{ page.data.title }}"
-  url: "{{ page.data.url }}"
   content: "{{ page.data.content }}"
-  address: "{{ page.data.address }}"
 ---
+<!--
+  Additional values to compute: `url`, `address`, `geo`
+  11ty converts computed Liquid variables to strings
+  See: https://github.com/11ty/eleventy/issues/1069
+-->

@@ -1,8 +1,12 @@
 {%- layout 'default' -%}
 {%- block 'main' -%}
+  {%- render 'footer'
+    date: false
+    geo: page.data.geo
+  -%}
   {%- render 'header'
     title: title
-    url: url
+    url: page.data.url
     vocab: vocab
   -%}
   {%- capture content -%}
@@ -20,7 +24,7 @@
         -%}
       </a>
       <figcaption>
-        {%- render 'address' with address -%}
+        {%- render 'address' with page.data.address -%}
       </figcaption>
     </figure>
     {{ content | markdown }}

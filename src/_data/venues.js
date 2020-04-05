@@ -1677,7 +1677,6 @@ module.exports = function () {
         layout: 'venue',
         title: venue.title,
         url: venue.url,
-        bookmark: permalink,
         content: venue.content,
         address: venue.address,
         geo
