@@ -6,5 +6,5 @@ category:
 - Async
 start: 2013-03-14T19:15:00Z
 end: 2013-03-14T21:00:00Z
-venue: 9c2xrvg7+m9
+venue_id: 9c2xrvg7+m9
 ---

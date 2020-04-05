@@ -30,8 +30,8 @@
     {{ content | markdown }}
   {%- endcapture -%}
   {%- render 'content' with content -%}
-  {%- assign events = collections.event | includes: 'data.venue',page.fileSlug | reverse -%}
-  {%- render 'section' with events
+  {%- assign related = collections.event | includes: 'data.venue_id',page.fileSlug | reverse -%}
+  {%- render 'section' with related
     id: 'events'
     title: 'Other events at this venue'
     item_modifier: 'inline'

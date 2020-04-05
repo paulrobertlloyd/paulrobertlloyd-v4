@@ -8,5 +8,5 @@ category:
 start: 2013-01-16T10:30:00Z
 end: 2013-01-16T16:30:00Z
 participant: true
-venue: 9f32f32g+3g
+venue_id: 9f32f32g+3g
 ---

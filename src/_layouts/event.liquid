@@ -1,6 +1,5 @@
 {%- layout 'default' -%}
 {%- block 'main' -%}
-  {%- assign venue = venues | where: 'fileSlug',venue | first -%}
   {%- render 'footer-event'
     date: date
     start: start

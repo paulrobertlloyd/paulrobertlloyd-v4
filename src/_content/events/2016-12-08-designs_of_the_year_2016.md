@@ -5,5 +5,5 @@ url: https://designmuseum.org/exhibitions/beazley-designs-of-the-year-2016
 summary: Experience up close this year’s nominated projects across fashion, architecture, digital, transport, product and graphic design.
 start: 2016-11-24
 end: 2017-02-19
-venue: 9c3xfqxx+xw
+venue_id: 9c3xfqxx+xw
 ---

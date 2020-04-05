@@ -7,5 +7,5 @@ category:
 - Front-end London
 start: 2015-08-27T19:00:00+01:00
 end: 2015-08-27T21:30:00+01:00
-venue: 9c3xgwj2+x8
+venue_id: 9c3xgwj2+x8
 ---

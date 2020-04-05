@@ -8,5 +8,5 @@ category:
 start: 2013-03-01T09:00:00
 end: 2013-03-01T17:30:00
 participant: true
-venue: 9c2xrvf6+fg
+venue_id: 9c2xrvf6+fg
 ---

@@ -4,5 +4,5 @@ date: 2018-09-07T18:00:00+01:00
 summary: Hosted by D&AD London in partnership with Adobe Stock.
 start: 2018-09-07T18:00:00+01:00
 end: 2018-09-07T22:00:00+01:00
-venue: 9c3xgwfj+cc
+venue_id: 9c3xgwfj+cc
 ---

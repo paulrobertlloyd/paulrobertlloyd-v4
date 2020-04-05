@@ -11,9 +11,8 @@
   </header>
 
 {%- if item.data.venue and hide_summary != true -%}
-  {%- assign venue = venues | where: 'fileSlug',item.data.venue | first -%}
   <p class="item__main s-linear | h-card">
-    at <span class="p-name">{{ venue.data.title }}</span>
+    at <span class="p-name">{{ item.data.venue.data.title }}</span>
   </p>
 {%- endif -%}
 

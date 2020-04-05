@@ -14,6 +14,7 @@ module.exports = {
         return `https://img.omdbapi.com/?apikey=e2e2ef5c&i=${imdbId}&h=560`;
       }
     },
-    share_image: data => data.image
+    share_image: data => data.image,
+    venue: data => data.venues.find(venue => venue.fileSlug === data.venue_id)
   }
 };

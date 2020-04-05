@@ -6,5 +6,5 @@ category:
 - London 2012
 start: 2012-08-04T12:00:00+01:00
 end: 2012-08-04T18:30:00+01:00
-venue: 9c3xcqmp+p6
+venue_id: 9c3xcqmp+p6
 ---

@@ -5,5 +5,5 @@ summary: A series of talks in Central London.
 start: 2013-08-21T18:30:00+01:00
 end: 2013-08-21T21:30:00+01:00
 participant: true
-venue: 9c3xgwff+g6
+venue_id: 9c3xgwff+g6
 ---

@@ -8,5 +8,5 @@ category:
 start: 2012-11-10T14:00:00Z
 end: 2012-11-10T19:30:00Z
 participant: true
-venue: 9c4wf4q7+f2
+venue_id: 9c4wf4q7+f2
 ---

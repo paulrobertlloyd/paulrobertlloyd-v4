@@ -7,5 +7,5 @@ category:
 - An Event Apart
 start: 2011-10-24
 end: 2011-10-26
-venue: 87c4rw3m+7r
+venue_id: 87c4rw3m+7r
 ---

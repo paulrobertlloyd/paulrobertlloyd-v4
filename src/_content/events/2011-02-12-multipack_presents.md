@@ -8,5 +8,5 @@ category:
 start: 2011-02-12T16:15:00Z
 end: 2011-02-12T19:20:00Z
 participant: true
-venue: 9c4wf4q7+f2
+venue_id: 9c4wf4q7+f2
 ---
