@@ -5,7 +5,10 @@ introduction: Venues
 permalink: events/venues/
 changefreq: weekly
 priority: 0.9
+eleventyComputed:
+  page_title: "{{ introduction }} · {{ app.title }}"
 ---
 {%- render 'items' with venues
-  item_modifier: 'inline'
+  component: 'venue'
+  grid_size: '12rem'
 -%}

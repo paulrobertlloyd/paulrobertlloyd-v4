@@ -2,7 +2,7 @@ const getWebmentions = require('../../lib/utils/get-webmentions');
 
 module.exports = {
   eleventyComputed: {
-    page_title: data => data.title, // Value overridden for homepage
+    page_title: data => `${data.title} · ${data.app.title}`,
     canonical_url: data => {
       if (data.canonical && data.canonical.url) {
         return data.canonical.url;

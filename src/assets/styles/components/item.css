@@ -1,6 +1,7 @@
 .item {
   --footer-inline-size: 7rem;
   align-items: start;
+  border-block-start: var(--border-width-thin) solid var(--color-rule);
   display: grid;
   grid-template:
     "meta" auto
@@ -8,18 +9,17 @@
     "main" auto
     "footer" 1fr /
     minmax(auto, 45rem);
+  padding-block-start: var(--space-block-xsmall);
   position: relative;
 }
 
 .item--inline {
   align-items: baseline;
-  border-block-start: var(--border-width-thin) solid var(--color-rule);
   grid-template:
     "header meta" auto
     "main meta" 1fr
     "footer footer" auto /
     1fr min-content;
-  padding-block-start: var(--space-block-xsmall);
 }
 
 @media (--from-small-viewport) {
@@ -66,6 +66,10 @@
 
   --section-space: var(--space-block-xsmall);
   grid-area: main;
+}
+
+.item--testimonial {
+  border-block-start: none;
 }
 
 .item--testimonial .item__main {

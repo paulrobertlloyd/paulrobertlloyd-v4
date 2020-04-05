@@ -7,7 +7,6 @@ module.exports = {
   changefreq: 'monthly',
   priority: 0.8,
   eleventyComputed: {
-    title: 'Note: {{ date | date: dates.datetime_full }}',
-    exclude_title_from_feed: true
+    page_title: 'Note: {{ date | date: dates.datetime_full }} · {{ app.title }}'
   }
 };

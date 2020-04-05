@@ -20,7 +20,7 @@ permalink: /feed.xml
 {% for item in collections.post limit: 25 %}
   <entry>
     <id>{{ item.url | prepend: app.url }}</id>
-    <title>{% unless item.data.exclude_title_from_feed %}{{ item.data.title | markdown: 'inline' | escape | strip_html | strip_newlines }}{% endunless %}</title>
+    <title>{{ item.data.title | markdown: 'inline' | escape | strip_html | strip_newlines }}</title>
     <updated>{{ item.data.date | date: dates.iso }}</updated>
     {% if item.data.url %}
     <link href="{{ item.data.url }}" rel="alternate" type="text/html"/>

@@ -1,15 +1,14 @@
 ---
 layout: index
+title: Replies
 pagination:
   data: collections.reply
   reverse: true
-  size: 24
+  size: 36
 permalink: "replies/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}.html{% else %}/{% endif %}"
 tags: false
 changefreq: daily
 priority: 0.9
-eleventyComputed:
-  title: Replies
 ---
 {%- render 'items' with pagination.items
   component: 'entry-untitled'

@@ -5,6 +5,8 @@ introduction: Skills
 permalink: projects/skills/
 changefreq: weekly
 priority: 0.9
+eleventyComputed:
+  page_title: "{{ introduction }} · {{ app.title }}"
 ---
 {%- render 'items' with skills
   component: 'section'

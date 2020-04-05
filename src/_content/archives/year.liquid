@@ -10,6 +10,7 @@ permalink: "{{ page.url }}"
 changefreq: monthly
 priority: 0.2
 eleventyComputed:
+  page_title: "{{ page.data.title }} · {{ app.title }}"
   introduction: "{{ page.data.title }}"
 ---
 {%- assign archive = months | includes: 'date',page.fileSlug -%}
