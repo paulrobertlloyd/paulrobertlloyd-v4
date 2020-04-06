@@ -116,7 +116,7 @@
 .s-linear h3:not([class]) {
   @extend %subhead;
 
-  margin-block-end: var(--space-block-xsmall);
+  margin-block-end: var(--space-block-small);
 }
 
 .s-linear h4:not([class]) {

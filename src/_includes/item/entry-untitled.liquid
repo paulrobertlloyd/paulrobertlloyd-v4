@@ -10,7 +10,7 @@
 
   <footer class="item__footer">
     <a class="u-url" rel="bookmark" href="{{ item.url }}" aria-label="{{ item.data.date | date: dates.datetime_full }}">
-      <time class="dt-published" datetime="{{ item.data.date | date: dates.iso }}">{{ item.data.date | date: dates.date_short }}<wbr>{{ item.data.date | date: dates.time }}</time>
+      <time class="dt-published" datetime="{{ item.data.date | date: dates.iso }}">{{ item.data.date | date: dates.date_short }} {{ item.data.date | date: dates.time }}</time>
     </a>
   </footer>
 </article>

@@ -1,6 +1,6 @@
 .item {
   --anchor-decoration: none;
-  --footer-inline-size: 8rem;
+  --footer-inline-size: 10rem;
   align-items: start;
   border-block-start: var(--border-width-thick) solid var(--color-rule);
   display: grid;
@@ -99,5 +99,6 @@
 @media (--from-small-viewport) {
   .item--inline .item__footer {
     inline-size: var(--footer-inline-size);
+    padding-inline-end: var(--space-inline-large);
   }
 }

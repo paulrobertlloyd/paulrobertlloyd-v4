@@ -1,7 +1,7 @@
 /* Typographic styles */
 %title {
   font-size: var(--font-size-title);
-  font-weight: var(--font-weight-title, 600);
+  font-weight: var(--font-weight-title, 500);
   hanging-punctuation: first;
   letter-spacing: -0.025em;
   line-height: var(--line-height-title, var(--line-height-solid));
@@ -25,9 +25,10 @@
 
 %subhead {
   font-size: var(--font-size-subhead);
-  font-weight: 600;
+  text-shadow: 0.02em 0 0.0025em currentColor;
+  font-weight: 500;
   hanging-punctuation: first;
-  letter-spacing: -0.0125em;
+  letter-spacing: -0.025em;
   line-height: var(--line-height-subhead, var(--line-height-tight));
 }
 

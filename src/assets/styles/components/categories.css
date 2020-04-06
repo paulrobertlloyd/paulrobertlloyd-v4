@@ -1,6 +1,6 @@
 .categories {
   @extend %reference;
-  color: var(--color-neutral-dark);
+  color: var(--color-accent);
 }
 
 .categories li {
