@@ -3,9 +3,8 @@ eleventyExcludeFromCollections: true
 permalink: /archive/search.json
 ---
 [{% for item in collections.post %}
-{%- capture title %}{% if item.data.title != '' %}{{ item.data.title | markdown: 'inline' }}{% else %}{{ item.data.date | date: dates.date_short }}{% endif %}{% endcapture -%}
   {
-    "title": {{ title | json }},
+    "title": {{ item.data.title | default: item.data.page_title | split: '·' | first | json }},
     "layout": {{ item.data.layout | capitalize | json }},
     "content": {{ item.templateContent | tokenize | json }},
     "url": {{ item.url | json }}

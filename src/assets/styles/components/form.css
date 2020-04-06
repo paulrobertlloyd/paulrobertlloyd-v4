@@ -1,5 +1,9 @@
+.form {
+  margin-block-end: var(--space-block-medium);
+}
+
 .form__header {
-  margin-block-end: var(--space-block-small);
+  margin-block-end: var(--space-block-medium);
 }
 
 .form__title {
@@ -31,7 +35,7 @@
 
 .form__input:focus {
   border-color: var(--color-accent);
-  outline: var(--border-width-thin) solid var(--color-accent);
+  outline: var(--border-width-thick) solid var(--color-accent);
 }
 
 textarea.form__input {
@@ -95,10 +99,9 @@ textarea.form__input {
 }
 
 .form__option-title {
-  @extend %reference;
+  @extend %subhead;
   --line-height-reference: 1;
   flex: 1;
-  font-weight: bold;
 }
 
 .form__option-summary {
