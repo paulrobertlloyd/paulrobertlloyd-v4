@@ -1,5 +1,4 @@
 .item {
-  --footer-inline-size: 10rem;
   align-items: start;
   border-block-start: var(--border-width-thick) solid var(--color-rule);
   display: grid;
@@ -58,7 +57,7 @@
   display: block;
   grid-area: footer;
   margin-inline-end: var(--space-inline);
-  max-inline-size: calc(var(--footer-inline-size) - var(--space-inline));
+  max-inline-size: calc(var(--logo-inline-size) - var(--space-inline));
 }
 
 /* Main */
@@ -75,6 +74,7 @@
 
 .item--testimonial {
   border-block-start: none;
+  padding-block-start: 0;
 }
 
 .item--testimonial .item__main {
@@ -98,7 +98,7 @@
 
 @media (--from-small-viewport) {
   .item--inline .item__footer {
-    inline-size: var(--footer-inline-size);
+    inline-size: var(--logo-inline-size);
     padding-inline-end: var(--space-inline-large);
   }
 }

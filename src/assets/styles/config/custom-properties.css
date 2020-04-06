@@ -92,12 +92,16 @@
   /* Sticky title */
   --sticky-title-block-size: 0;
 
+  /* Align items with logo */
+  --logo-inline-size: 0;
+
   /* Indicate the presence of dark mode styles */
   color-scheme: light dark;
 }
 
 @media (--from-small-viewport) {
   :root {
+    --logo-inline-size: 10rem;
     --font-size-title: calc(1.75rem + 2vmin);
     --font-size-lede: calc(1.125rem + 1.25vmin);
     --sticky-title-block-size: calc(var(--font-size-title) + var(--grid-column-gap));
