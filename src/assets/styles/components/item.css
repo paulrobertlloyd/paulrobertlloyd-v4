@@ -1,5 +1,4 @@
 .item {
-  --anchor-decoration: none;
   --footer-inline-size: 10rem;
   align-items: start;
   border-block-start: var(--border-width-thick) solid var(--color-rule);
@@ -34,6 +33,7 @@
 
 /* Header */
 .item__header {
+  --anchor-decoration: none;
   grid-area: header;
 }
 
