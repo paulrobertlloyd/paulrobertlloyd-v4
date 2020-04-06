@@ -14,3 +14,8 @@ eleventyComputed:
   url: "{{ page.data.url }}"
   tag: "source:{{ page.fileSlug }}"
 ---
+<!--
+  Additional value to compute: `url`
+  11ty converts computed Liquid variables to strings
+  See: https://github.com/11ty/eleventy/issues/1069
+-->
