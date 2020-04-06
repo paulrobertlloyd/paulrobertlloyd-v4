@@ -95,7 +95,7 @@
   content: "";
   display: block;
   inline-size: var(--size-icon-small);
-  inset-block-end: calc(var(--space-block-xsmall) * 2);
-  inset-inline-end: calc(var(--space-block-xsmall) * 2);
+  inset-block-end: calc(var(--space-block-small) * 2);
+  inset-inline-end: calc(var(--space-block-small) * 2);
   position: absolute;
 }
