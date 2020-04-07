@@ -10,11 +10,11 @@
     {%- comment %}Only transform local images{% endcomment -%}
     {% unless src contains 'https://' %}
       {%- assign base = 'https://res.cloudinary.com/paulrobertlloyd/image/fetch' -%}
-      {%- capture transformations %}{% if ratio %}ar_{{ ratio }}%2C{% endif %}c_fill%2Cf_auto%2Cq_auto{% endcapture -%}
+      {%- capture transformations %}{% if ratio %}ar_{{ ratio }},{% endif %}c_fill,f_auto,q_auto{% endcapture -%}
       {%- assign public_id = src | prepend: app.url -%}
-      {%- capture src %}{{ base }}/{{ transformations }}%2Cw_{{ setting.width }}/{{ public_id }}{% endcapture -%}
-      {%- capture srcset %}{% for width in setting.widths %}{{ base }}/{{ transformations }}%2Cw_{{ width }}/{{ public_id }} {{ width }}w{% unless forloop.last %}, {% endunless%}{% endfor %}{% endcapture -%}
+      {%- capture src %}{{ base }}/{{ transformations }},w_{{ setting.width }}/{{ public_id }}{% endcapture -%}
+      {%- capture srcset %}{% for width in setting.widths %}{{ base }}/{{ transformations }},w_{{ width }}/{{ public_id }} {{ width }}w{% unless forloop.last %}, {% endunless%}{% endfor %}{% endcapture -%}
     {%- endunless -%}
   {%- endif -%}
-<img{% if class %} class="{{ class }}"{% endif %} src="{{ src }}"{% if srcset %} srcset="{{ srcset }}"{% endif %} sizes="{{ sizes | default: setting.sizes }}" width="{{ setting.width }}" alt="{{ alt }}" loading="lazy">
+<img{% if class %} class="{{ class }}"{% endif %} src="{{ src }}"{% if srcset %} srcset="{{ srcset }}"{% endif %}{% if srcset %} sizes="{{ sizes | default: setting.sizes }}"{% endif %} width="{{ setting.width }}" alt="{{ alt }}" loading="lazy">
 {%- endif -%}
