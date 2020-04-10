@@ -111,8 +111,3 @@ textarea.form__input {
   flex: 0;
   opacity: 0.75;
 }
-
-/* Status */
-.form__status {
-  @extend %visually-hidden;
-}
