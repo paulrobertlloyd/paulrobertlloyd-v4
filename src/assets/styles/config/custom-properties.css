@@ -29,7 +29,6 @@
 
   /* Typography */
   --font-family-sans: "Untitled", sans-serif;
-  --font-family-system: system-ui;
   --font-family-monospace: "Source Code Pro", monospace;
   --font-size-title: calc(1.875rem);
   --font-size-lede: calc(1.125rem);
