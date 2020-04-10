@@ -95,6 +95,6 @@
 @media (--from-small-viewport) {
   .item--inline .item__footer {
     inline-size: var(--logo-inline-size);
-    padding-inline-end: var(--space-inline-large);
+    padding-inline-end: calc(var(--inset) * 2);
   }
 }
