@@ -64,10 +64,7 @@
   --space-block-xsmall: calc(0.25rem);
 
   /* Spacing > Inline */
-  --space-inline-small: 0.375rem;
-  --space-inline-xsmall: 0.25rem;
   --space-inline: 0.75rem;
-  --space-inline-large: 2rem;
 
   /* Inset spacing */
   --inset: calc(0.5rem + 0.25vw);

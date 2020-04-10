@@ -43,7 +43,7 @@
 }
 
 .item__title-icon {
-  margin-inline-start: var(--space-inline-xsmall);
+  margin-inline-start: 0.25ch;
   opacity: 0.5;
 }
 
