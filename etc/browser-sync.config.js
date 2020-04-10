@@ -1,5 +1,4 @@
 module.exports = {
-  files: 'www',
   https: {
     key: './ssl/localhost.key',
     cert: './ssl/localhost.crt'
@@ -9,10 +8,6 @@ module.exports = {
   ],
   rewriteRules: [{
     match: /\?page=(\d+)/g,
-    replace: 'page/$1'
-  }],
-  serveStatic: ['www'],
-  serveStaticOptions: {
-    extensions: ['html']
-  }
+    replace: 'page/$1.html'
+  }]
 };
