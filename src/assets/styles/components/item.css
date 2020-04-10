@@ -36,10 +36,6 @@
   grid-area: header;
 }
 
-.item--inline .item__header {
-  padding-inline-end: var(--space-inline-small);
-}
-
 .item__title {
   @extend %subhead;
   align-items: center;
