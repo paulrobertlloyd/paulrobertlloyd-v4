@@ -4,7 +4,7 @@
   align-items: baseline;
   color: var(--color-neutral);
   display: flex;
-  padding-block-end: var(--space-block-xsmall);
+  padding-block-end: var(--space-block-small);
 }
 
 [data-type="note"] .c-footer,
@@ -22,7 +22,6 @@
 
 .footer dt,
 .footer dd {
-  --flow-space: 0;
   display: inline;
   white-space: nowrap;
 }

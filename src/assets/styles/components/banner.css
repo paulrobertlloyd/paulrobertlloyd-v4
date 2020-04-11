@@ -6,7 +6,6 @@
   @extend %container;
   @extend %reference;
 
-  --flow-space: 0;
   align-items: baseline;
   display: flex;
   flex-wrap: wrap;

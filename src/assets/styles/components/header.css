@@ -1,25 +1,22 @@
 .header {
-  --flow-space: var(--space-block-xsmall);
+  margin-block-end: var(--space-block-large);
+  max-inline-size: var(--line-measure);
+}
 
-  padding-block-end: var(--space-block-large);
+.header > * + * {
+  margin-block-start: var(--space-block-small);
 }
 
 .header__title {
   @extend %title;
-
-  margin-block-end: var(--space-block-small);
-  max-inline-size: var(--line-measure);
 }
 
 .header__summary {
   @extend %lede;
-
-  max-inline-size: var(--line-measure);
 }
 
 .header__url {
   @extend %body;
 
   color: var(--color-accent);
-  max-inline-size: var(--line-measure);
 }

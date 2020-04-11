@@ -74,7 +74,6 @@
 .card__main {
   @extend %reference;
 
-  --flow-space: 0;
   color: var(--color-neutral-dark);
   grid-area: main;
   padding: var(--inset-squished);

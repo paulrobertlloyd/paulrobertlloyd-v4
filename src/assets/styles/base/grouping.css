@@ -22,7 +22,7 @@ pre {
 figure,
 blockquote,
 :--flow {
-  margin: 0 0 var(--flow-space, 0) 0;
+  margin: 0;
   orphans: 2;
   widows: 2;
 }
@@ -37,8 +37,4 @@ li {
 
 dd {
   margin-inline-start: var(--flow-inset, 0);
-}
-
-dd + dt {
-  margin-block-start: calc(var(--flow-space, 0) / 2);
 }

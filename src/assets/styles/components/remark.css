@@ -33,7 +33,6 @@
 /* Main */
 .remark__main {
   @extend %reference;
-  --section-space: var(--space-block-xsmall);
   grid-area: main;
   max-inline-size: var(--line-measure);
 }

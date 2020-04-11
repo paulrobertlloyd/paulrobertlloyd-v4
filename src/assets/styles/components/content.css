@@ -1,5 +1,9 @@
+.content {
+  padding-block-end: var(--space-block-medium);
+}
+
 [data-type="entry-untitled"] .content {
+  --flow-space: 0.5em;
   --font-size-body: var(--font-size-lede);
   --line-height-body: var(--line-height-tight);
-  --section-space: var(--space-block-small);
 }

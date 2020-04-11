@@ -60,7 +60,7 @@
 .item__main {
   @extend %reference;
 
-  --section-space: var(--space-block-xsmall);
+  --flow-space: 0.5em;
   grid-area: main;
 }
 
@@ -74,7 +74,12 @@
 }
 
 .item--testimonial .item__main {
-  font-size: var(--font-size-body);
+  --font-size-reference: var(--font-size-body);
+}
+
+.item--testimonial .item__main blockquote {
+  border-inline-start: 0;
+  padding-inline-start: 0;
 }
 
 @media (--from-medium-viewport) {

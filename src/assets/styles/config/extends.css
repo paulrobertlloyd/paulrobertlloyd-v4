@@ -8,6 +8,7 @@
 }
 
 %lede {
+  --flow-space: 0.5em;
   color: var(--color-neutral-darker);
   font-size: var(--font-size-lede);
   hanging-punctuation: first;
@@ -39,34 +40,32 @@
 }
 
 %body {
-  --flow-space: var(--line-height-body);
-  --line-height-body: var(--line-height-loose);
+  --flow-space: 1em;
   font-size: var(--font-size-body);
   font-variant: oldstyle-nums;
   hanging-punctuation: first;
   hyphens: auto;
   line-height: var(--line-height-body);
+  line-height: var(--line-height-body, var(--line-height-loose));
   word-spacing: var(--word-spacing);
 }
 
 %reference {
-  --flow-space: calc(var(--line-height-reference) / 2);
-  --line-height-reference: var(--line-height-tight);
+  --flow-space: 1em;
   font-size: var(--font-size-reference);
   font-variant: oldstyle-nums;
   hanging-punctuation: first;
   hyphens: auto;
-  line-height: var(--line-height-reference);
+  line-height: var(--line-height-reference, var(--line-height-tight));
   word-spacing: var(--word-spacing);
 }
 
 %caption {
-  --flow-space: calc(var(--line-height-caption) / 3);
-  --line-height-caption: var(--line-height-tight);
+  --flow-space: 1em;
   color: var(--color-neutral-dark);
   font-size: var(--font-size-caption);
   font-variant: tabular-nums;
-  line-height: var(--line-height-caption);
+  line-height: var(--line-height-caption, var(--line-height-tight));
 }
 
 /* Layout */

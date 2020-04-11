@@ -50,7 +50,6 @@ img.align-start {
 /* Pull alignment */
 @media (--from-small-viewport) {
   .align-pull {
-    --section-space: 0;
     float: inline-end;
     inline-size: 33%;
     margin-inline-end: calc(var(--grid-column-gap) * -1);
@@ -66,6 +65,11 @@ img.align-start {
 .align-slide {
   align-items: start;
   max-inline-size: 100vw !important;
+}
+
+.align-slide figcaption {
+  margin-block-start: 0;
+  padding-block-start: var(--flow-space);
 }
 
 .align-slide figcaption :--flow {

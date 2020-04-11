@@ -4,32 +4,33 @@
   --flow-inset: 1.5em;
   --list-display: list-item;
   --linear-measure: var(--line-measure);
-  --section-space: var(--space-block-medium);
 }
 
 .s-linear > * {
   max-inline-size: var(--linear-measure);
 }
 
+.s-linear * + * {
+  margin-block-start: var(--flow-space);
+}
+
 .s-linear > hr {
   border-block-end: var(--border-width-thin) solid var(--color-rule);
   inline-size: 25%;
+  margin-block: calc(var(--flow-space) * 2);
   margin-inline-start: 0;
 }
 
-.s-linear > hr,
 .s-linear > pre,
 .s-linear > aside,
 .s-linear > blockquote,
 .s-linear > figure,
 .s-linear > table {
-  margin-block-end: var(--section-space);
+  margin-block-end: calc(var(--flow-space) * 2);
 }
 
 .s-linear :--caption {
   @extend %caption;
-
-  padding-block-start: var(--caption-block-start, var(--space-block-small));
 }
 
 .s-linear > aside :--flow {
@@ -47,19 +48,14 @@
 }
 
 .s-linear blockquote {
-  --flow-space: var(--space-block-small);
   border-inline-start: var(--border-width-thickest) solid var(--color-rule);
   margin-inline-start: 0;
-  padding-inline: var(--flow-inset) var(--inset);
+  padding-inline-start: var(--flow-inset);
 }
 
 .s-linear blockquote li {
   list-style-position: outside;
   margin-inline-start: var(--flow-inset);
-}
-
-.s-linear blockquote + figcaption {
-  --caption-block-start: var(--space-block-xsmall);
 }
 
 .s-linear pre {
@@ -125,8 +121,8 @@
   margin-block-end: 0;
 }
 
-.s-linear :--list :--flow {
-  --flow-space: var(--space-block-small);
+.s-linear li :--list {
+  margin-block-start: var(--flow-space);
 }
 
 @media (--upto-large-viewport) {
@@ -177,11 +173,6 @@
 .s-linear samp {
   border: var(--border-width-thin) solid var(--color-offset);
   padding: var(--inset-small-squished);
-}
-
-/* TODO: Review flow spacing; this selector shouldn’t be needed */
-.s-linear .cp_embed_wrapper {
-  margin-block-end: var(--flow-space);
 }
 
 .s-linear .caps {

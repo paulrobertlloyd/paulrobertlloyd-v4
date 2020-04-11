@@ -53,7 +53,6 @@
 .main__introduction {
   @extend %lede;
 
-  --flow-space: calc(var(--line-height-lede) / 2);
   --line-height-lede: var(--line-height-tight);
   margin-block-end: var(--space-block-medium);
   max-inline-size: var(--line-measure);
