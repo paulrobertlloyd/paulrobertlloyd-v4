@@ -9,6 +9,8 @@ permalink: "notes/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumbe
 tags: false
 changefreq: daily
 priority: 0.9
+eleventyComputed:
+  page_title: "{{ title }} · {{ app.title }}"
 ---
 {%- render 'items' with pagination.items
   component: 'entry-untitled'
