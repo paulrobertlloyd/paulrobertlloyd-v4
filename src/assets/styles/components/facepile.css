@@ -19,7 +19,14 @@
 
 .facepile__title {
   margin-inline-end: var(--space-inline);
+  text-decoration: underline;
+  text-decoration-color: var(--color-link-underline);
   white-space: nowrap;
+}
+
+.facepile__title:hover {
+  color: var(--color-accent);
+  text-decoration-color: var(--color-accent);
 }
 
 .facepile__main {

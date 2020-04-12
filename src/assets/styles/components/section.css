@@ -6,6 +6,7 @@
     [container-start] auto
     [content-start] 1fr [content-end]
     var(--sticky-title-block-size) [container-end];
+  margin-block-start: var(--space-block-large);
   margin-inline: calc(var(--grid-column-gap) * -1);
 }
 
@@ -19,7 +20,6 @@
 
 .section__header {
   padding-block-end: var(--space-block-medium);
-  padding-block-start: var(--space-block-medium);
 }
 
 .section__title {

@@ -33,7 +33,6 @@
 .main__title {
   @extend %title;
 
-  --font-weight-title: normal;
   grid-area: title;
   grid-column: content-end;
   grid-row: 1;
@@ -52,12 +51,4 @@
 
 .main__introduction {
   @extend %lede;
-
-  --line-height-lede: var(--line-height-tight);
-  margin-block-end: var(--space-block-medium);
-  max-inline-size: var(--line-measure);
-}
-
-.main a {
-  @extend %text-decoration;
 }

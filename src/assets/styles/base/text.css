@@ -7,6 +7,12 @@
 a {
   color: var(--anchor-color, inherit);
   text-decoration: var(--anchor-decoration, none);
+  text-decoration-color: var(--color-link-underline);
+}
+
+a:hover {
+  color: var(--color-accent);
+  text-decoration-color: var(--color-accent);
 }
 
 a[aria-current] {
@@ -57,7 +63,7 @@ var {
 
 code,
 samp {
-  font-size: var(--font-size-default);
+  font-size: 1rem;
 }
 
 del {

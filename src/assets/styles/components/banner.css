@@ -9,7 +9,7 @@
   align-items: baseline;
   display: flex;
   flex-wrap: wrap;
-  padding-block: 4vw;
+  padding-block: var(--space-block-medium);
 }
 
 .banner__title {

@@ -183,8 +183,6 @@
 
 .s-linear .footnotes {
   @extend %reference;
-
-  margin-block-end: var(--space-block-large);
 }
 
 .s-linear .footnote-backref {

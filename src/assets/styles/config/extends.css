@@ -76,15 +76,6 @@
 }
 
 /* Visual effects */
-%text-decoration {
-  text-decoration-color: var(--color-link-underline);
-}
-
-%text-decoration:hover {
-  color: var(--color-accent);
-  text-decoration-color: var(--color-accent);
-}
-
 %wallpaper {
   background-image: radial-gradient(var(--color-offset) 15%, transparent 15%);
   background-position: 0 0, 8px 8px;

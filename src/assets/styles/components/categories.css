@@ -1,6 +1,7 @@
 .categories {
   @extend %reference;
   color: var(--color-accent);
+  margin-block-start: var(--space-block-large);
 }
 
 .categories li {

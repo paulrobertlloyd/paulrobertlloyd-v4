@@ -5,10 +5,8 @@
  */
 
 summary {
-  @extend %text-decoration;
   color: var(--anchor-color, inherit);
   cursor: pointer;
-  display: block;
 }
 
 summary::-webkit-details-marker {

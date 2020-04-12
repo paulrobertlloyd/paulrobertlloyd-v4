@@ -1,5 +1,5 @@
 .content {
-  padding-block-end: var(--space-block-medium);
+  margin-block-start: var(--space-block-large));
 }
 
 [data-type="entry-untitled"] .content {
