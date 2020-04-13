@@ -11,7 +11,7 @@
 .align-start,
 .align-end {
   inline-size: var(--inline-size, 33%);
-  margin-block-end: var(--space-block-xsmall);
+  margin-block-start: 0;
   min-inline-size: 6rem;
 }
 
@@ -23,12 +23,12 @@ img.align-start {
 
 .align-start {
   float: inline-start;
-  margin-inline-end: var(--space-block-small);
+  margin-inline-end: var(--step-0);
 }
 
 .align-end {
   float: inline-end;
-  margin-inline-start: var(--space-block-small);
+  margin-inline-start: var(--step-0);
 }
 
 /* Bleed alignment */
@@ -73,7 +73,8 @@ img.align-start {
 }
 
 .align-slide figcaption :--flow {
-  @extend %reference;
+  @extend %caption;
+  --caption-line-height: var(--line-height-prose);
 
   color: var(--color-text);
 }
@@ -86,6 +87,6 @@ img.align-start {
   }
 
   .align-slide figcaption {
-    border-block-start: var(--border-width-thin) solid var(--color-rule);
+    border-block-start: var(--border-width-thick) solid var(--color-rule);
   }
 }

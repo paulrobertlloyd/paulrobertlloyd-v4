@@ -24,13 +24,14 @@ tags:
   height: 360
 -%}
 {%- endcapture -%}
+
+## Day 6
+
 {% render 'figure'
   content: map
   caption: 'Route map: Hässleholm to Stockholm, continuing on to Oslo via Gothenburg.'
   alignment: 'pull'
 %}
-
-## Day 6
 
 I arrive in Stockholm just before 6am having experienced a restless night. Passengers needn’t leave their cabins until 7am, but since everyone else has left, I feel obliged to do the same. I wearily make my way through [Stockholm Central][1] station, unsure how to spend the next 9 hours before I can check in. Leaving the station, the first thing I notice is the gravel underfoot and what will soon become the familiar sound of cars travelling along heavily gritted roads. It’s feeling a lot more like winter now.
 

@@ -7,7 +7,7 @@
     "image header" auto
     "image main" 1fr /
     auto 1fr;
-  padding-block-start: var(--space-block-xsmall);
+  padding-block-start: var(--space-block);
 }
 
 /* Image */
@@ -26,13 +26,13 @@
 .remark__title {
   @extend %subhead;
   align-items: center;
-  margin-block-end: var(--space-block-xsmall);
+  margin-block-end: var(--space-block);
   margin-inline-end: var(--space-inline);
 }
 
 /* Main */
 .remark__main {
-  @extend %reference;
+  @extend %body;
   grid-area: main;
   max-inline-size: var(--line-measure);
 }

@@ -3,13 +3,13 @@
     --grid-column-gap: var(--border-width-thick);
     --grid-row-gap: var(--border-width-thick);
     grid-template-columns: repeat(auto-fit, minmax(calc(33% - calc(var(--border-width-thick) * 2)), 1fr));
-    margin-inline: calc(var(--space-block-medium) * -1);
+    margin-inline: calc(var(--step-3) * -1);
   }
 }
 
 @media (--from-small-viewport) {
   .items--photos {
-    --grid-column-gap: var(--space-block-medium);
-    --grid-row-gap: var(--space-block-medium);
+    --grid-column-gap: var(--step-3);
+    --grid-row-gap: var(--step-3);
   }
 }

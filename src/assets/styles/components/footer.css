@@ -2,9 +2,8 @@
   @extend %caption;
 
   align-items: baseline;
-  color: var(--color-neutral);
   display: flex;
-  padding-block-end: var(--space-block-small);
+  padding-block-end: var(--step-0);
 }
 
 [data-type="note"] .c-footer,

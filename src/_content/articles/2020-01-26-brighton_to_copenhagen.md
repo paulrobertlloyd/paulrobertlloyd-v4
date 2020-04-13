@@ -26,13 +26,14 @@ tags:
   height: 360
 -%}
 {%- endcapture -%}
+
+## Day 1: Brighton to Hamburg
+
 {% render 'figure'
   content: map
   caption: 'Route map: Brighton to Copenhagen via Hamburg.'
   alignment: 'pull'
 %}
-
-## Day 1: Brighton to Hamburg
 
 Like all great railway journeys, this one starts with a cancellation. The Brighton Main Line has been closed due to [an incident near Three Bridges][1], so the only way to reach any destination north of Brighton is via Barnham, 27 miles to the west. This includes Gatwick Airport. A lady from Denver is going to miss her flight; flustered and bewildered at first, she soon settles into an unexpected detour via the unremarkable landscape of urban West Sussex.
 

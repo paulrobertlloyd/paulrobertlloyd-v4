@@ -30,36 +30,25 @@
   /* Typography */
   --font-family-sans: "Untitled", sans-serif;
   --font-family-monospace: "Source Code Pro", monospace;
-  --font-size-title: calc(1.875rem);
-  --font-size-lede: calc(1.125rem);
-  --font-size-heading: calc(1.25rem + 0.75vmin);
-  --font-size-subhead: calc(1.125rem + 0.25vmin);
-  --font-size-body: calc(1.125rem + 0.25vmin);
-  --font-size-reference: calc(1rem + 0.25vmin);
-  --font-size-caption: calc(0.9375rem + 0.125vmin);
-  --line-height-solid: 1em;
-  --line-height-tight: calc(1.25em + 0.25vw);
-  --line-height-loose: calc(1.4em + 0.25vw);
+  --line-height-solid: 1.067;
+  --line-height-tight: 1.25;
+  --line-height-loose: 1.414;
+  --line-height-prose: 1.667;
   --line-measure: 42.5rem;
   --word-spacing: 0;
 
   /* Borders */
   --border-width-thin: 1px;
   --border-width-thick: 0.09375rem;
-  --border-width-thickest: 0.5rem;
+  --border-width-thickest: 0.5em;
 
   /* Sizing */
   --size-icon-small: 1rem;
   --size-icon-medium: 2rem;
   --size-icon-large: 3rem;
 
-  /* Spacing > Block */
-  --space-block-large: calc(2rem + 4.5vh);
-  --space-block-medium: calc(1rem + 2.25vh);
-  --space-block-small: calc(0.75rem);
-  --space-block-xsmall: calc(0.25rem);
-
-  /* Spacing > Inline */
+  /* Spacing */
+  --space-block: 0.5rem;
   --space-inline: 0.75rem;
 
   /* Inset spacing */
@@ -71,8 +60,8 @@
   --inset-large-squished: calc(var(--inset-large) / 2) var(--inset-large);
 
   /* Grids */
-  --grid-column-gap: var(--space-block-medium);
-  --grid-row-gap: var(--space-block-medium);
+  --grid-column-gap: var(--step-3);
+  --grid-row-gap: var(--step-3);
 
   /* Animation */
   --transition-short: 0.15s;
@@ -95,9 +84,7 @@
 @media (--from-small-viewport) {
   :root {
     --logo-inline-size: 10rem;
-    --font-size-title: calc(1.75rem + 2vmin);
-    --font-size-lede: calc(1.125rem + 1.25vmin);
-    --sticky-title-block-size: calc(var(--font-size-title) + var(--grid-column-gap));
+    --sticky-title-block-size: calc(var(--step-4) + var(--grid-column-gap));
   }
 }
 

@@ -32,13 +32,14 @@ photoset:
   height: 360
 -%}
 {%- endcapture -%}
+
+## Day 3
+
 {% render 'figure'
   content: map
   caption: 'Route map: Copenhagen to Humlebæk, Malmö, Trelleborg and Hässleholm.'
   alignment: 'pull'
 %}
-
-## Day 3
 
 Having stayed up late completing [the first post in this series][1], my first full day in Copenhagen gets off to a late start.
 

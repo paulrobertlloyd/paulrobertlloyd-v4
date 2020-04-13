@@ -12,7 +12,7 @@
   display: flex;
   flex-flow: row-reverse wrap;
   justify-content: space-around;
-  padding-block: var(--space-block-medium);
+  padding-block: var(--step-3);
 }
 
 @media print {

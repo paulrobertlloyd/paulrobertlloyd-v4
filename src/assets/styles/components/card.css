@@ -1,7 +1,7 @@
 .card {
   --anchor-decoration: none;
   --color-accent: var(--color-accent-light);
-  --card-growth: var(--space-block-small);
+  --card-growth: var(--step-0);
   --card-shadow: var(--color-alpha-highest);
 
   background: var(--color-offset);
@@ -62,6 +62,7 @@
 
 .card__title {
   @extend %subhead;
+  --subhead-font-size: var(--step-1);
 }
 
 .card__title a::before {
@@ -72,12 +73,13 @@
 }
 
 .card__main {
-  @extend %reference;
+  @extend %body;
+  --body-line-height: var(--line-height-tight);
 
   color: var(--color-neutral-dark);
   grid-area: main;
   padding: var(--inset-squished);
-  padding-block-end: var(--space-block-small);
+  padding-block-end: var(--step-0);
 }
 
 .card__footer {
@@ -94,7 +96,7 @@
   content: "";
   display: block;
   inline-size: var(--size-icon-small);
-  inset-block-end: calc(var(--space-block-small) * 2);
-  inset-inline-end: calc(var(--space-block-small) * 2);
+  inset-block-end: calc(var(--step-0) * 2);
+  inset-inline-end: calc(var(--step-0) * 2);
   position: absolute;
 }

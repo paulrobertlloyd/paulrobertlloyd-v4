@@ -1,71 +1,55 @@
 /* Typographic styles */
 %title {
-  font-size: var(--font-size-title);
-  font-weight: var(--font-weight-title, 500);
+  font-size: var(--title-font-size, var(--step-5));
+  font-weight: 500;
   hanging-punctuation: first;
   letter-spacing: -0.025em;
-  line-height: var(--line-height-title, var(--line-height-solid));
+  line-height: var(--line-height-solid);
+}
+
+%heading {
+  --flow-space: 2em;
+  font-size: var(--step-3);
+  font-weight: normal;
+  hanging-punctuation: first;
+  letter-spacing: -0.025em;
+  line-height: var(--line-height-tight);
 }
 
 %lede {
   --flow-space: 0.5em;
-  color: var(--color-neutral-darker);
-  font-size: var(--font-size-lede);
+  font-size: var(--step-2);
   hanging-punctuation: first;
   letter-spacing: -0.025em;
-  line-height: var(--line-height-lede, var(--line-height-tight));
-}
-
-%heading {
-  font-size: var(--font-size-heading);
-  font-weight: normal;
-  hanging-punctuation: first;
-  letter-spacing: -0.025em;
-  line-height: var(--line-height-heading, var(--line-height-tight));
+  line-height: var(--line-height-loose);
 }
 
 %subhead {
-  font-size: var(--font-size-subhead);
-  text-shadow: 0.02em 0 0.0025em currentColor;
+  --flow-space: 1.5em;
+  font-size: var(--subhead-font-size, var(--step-2));
   font-weight: 500;
   hanging-punctuation: first;
   letter-spacing: -0.025em;
-  line-height: var(--line-height-subhead, var(--line-height-tight));
-}
-
-%overline {
-  color: var(--color-neutral-dark);
-  font-size: var(--font-size-reference);
-  font-weight: 500;
+  line-height: var(--line-height-tight);
+  text-shadow: 0.01em 0 0.0025em currentColor;
 }
 
 %body {
   --flow-space: 1em;
-  font-size: var(--font-size-body);
+  font-size: var(--step-1);
   font-variant: oldstyle-nums;
   hanging-punctuation: first;
   hyphens: auto;
-  line-height: var(--line-height-body);
-  line-height: var(--line-height-body, var(--line-height-loose));
-  word-spacing: var(--word-spacing);
-}
-
-%reference {
-  --flow-space: 1em;
-  font-size: var(--font-size-reference);
-  font-variant: oldstyle-nums;
-  hanging-punctuation: first;
-  hyphens: auto;
-  line-height: var(--line-height-reference, var(--line-height-tight));
+  line-height: var(--body-line-height, var(--line-height-loose));
   word-spacing: var(--word-spacing);
 }
 
 %caption {
-  --flow-space: 1em;
+  --flow-space: 0.5em;
   color: var(--color-neutral-dark);
-  font-size: var(--font-size-caption);
+  font-size: var(--step-0);
   font-variant: tabular-nums;
-  line-height: var(--line-height-caption, var(--line-height-tight));
+  line-height: var(--caption-line-height, var(--line-height-loose));
 }
 
 /* Layout */

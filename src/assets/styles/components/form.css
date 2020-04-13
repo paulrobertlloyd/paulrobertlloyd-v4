@@ -1,13 +1,14 @@
 .form {
-  margin-block-end: var(--space-block-medium);
+  margin-block-end: var(--step-3);
 }
 
 .form__header {
-  margin-block-end: var(--space-block-medium);
+  margin-block-end: var(--step-0);
 }
 
 .form__title {
-  @extend %overline;
+  @extend %body;
+  color: var(--color-neutral-dark);
 }
 
 .form__field {
@@ -17,8 +18,9 @@
 }
 
 .form__label {
+  @extend %body;
+
   flex: 1 0 25%;
-  font-weight: 500;
   min-width: 8em;
   padding-block: var(--inset);
 }
@@ -26,7 +28,7 @@
 /* Input */
 .form__input {
   background-color: var(--color-background);
-  border: var(--border-width-thin) solid var(--color-alpha-high);
+  border: var(--border-width-thick) solid var(--color-alpha-high);
   flex: 1 0 75%;
   margin-block-start: 0;
   padding: var(--inset);
@@ -99,14 +101,12 @@ textarea.form__input {
 }
 
 .form__option-title {
-  @extend %subhead;
-  --line-height-reference: 1;
+  @extend %body;
   flex: 1;
 }
 
 .form__option-summary {
   @extend %caption;
-  --line-height-caption: 1;
   color: inherit;
   flex: 0;
   opacity: 0.75;

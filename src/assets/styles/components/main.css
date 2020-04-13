@@ -17,7 +17,7 @@
     [container-start] auto
     [content-start] 1fr [content-end]
     var(--sticky-title-block-size) [container-end];
-  padding-block: var(--space-block-medium);
+  padding-block: var(--step-3);
 }
 
 @media (--from-small-viewport) {
@@ -30,8 +30,13 @@
   grid-column: content;
 }
 
+.main__container > * + * {
+  margin-block-start: var(--step-5);
+}
+
 .main__title {
   @extend %title;
+  --title-font-size: var(--step-4);
 
   grid-area: title;
   grid-column: content-end;
@@ -42,13 +47,19 @@
 @media (--from-small-viewport) {
   .main__title {
     block-size: 1px; /* Force stickiness */
-    inset-block-start: var(--space-block-small);
+    inset-block-start: var(--step-0);
     padding-inline-start: var(--grid-column-gap);
     position: sticky;
     writing-mode: vertical-rl;
+  }
+
+  .main__title + .main__introduction,
+  .main__title + .items {
+    margin-block-start: 0;
   }
 }
 
 .main__introduction {
   @extend %lede;
+  color: var(--color-neutral-darker);
 }

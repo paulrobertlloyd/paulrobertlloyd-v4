@@ -2,7 +2,7 @@
   --anchor-decoration: none;
   align-items: center;
   display: flex;
-  margin-block-end: var(--space-block-small);
+  margin-block-end: var(--step-0);
 }
 
 .facepile .avatar {

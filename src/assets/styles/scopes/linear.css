@@ -3,6 +3,7 @@
 
   --flow-inset: 1.5em;
   --list-display: list-item;
+  --body-line-height: var(--line-height-prose);
   --linear-measure: var(--line-measure);
 }
 
@@ -14,9 +15,14 @@
   margin-block-start: var(--flow-space);
 }
 
+.s-linear source + img,
+.s-linear dt + dd {
+  margin-block-start: 0;
+}
+
 .s-linear > hr {
-  border-block-end: var(--border-width-thin) solid var(--color-rule);
-  inline-size: 25%;
+  border-block-end: var(--border-width-thick) solid var(--color-rule);
+  inline-size: calc(33% - calc(var(--grid-column-gap) / 2));
   margin-block: calc(var(--flow-space) * 2);
   margin-inline-start: 0;
 }
@@ -24,17 +30,19 @@
 .s-linear > pre,
 .s-linear > aside,
 .s-linear > blockquote,
-.s-linear > figure,
+.s-linear > figure.align-none,
+.s-linear > figure.align-bleed,
 .s-linear > table {
-  margin-block-end: calc(var(--flow-space) * 2);
+  margin-block: calc(var(--flow-space) * 2);
 }
 
 .s-linear :--caption {
   @extend %caption;
+  margin-block-start: calc(var(--flow-space) * 2);
 }
 
 .s-linear > aside :--flow {
-  @extend %reference;
+  @extend %caption;
 
   --list-display: block;
   --flow-inset: 0;
@@ -66,23 +74,19 @@
 }
 
 .s-linear table {
-  @extend %reference;
-
+  font-size: var(--step-0);
   inline-size: 100%;
   max-inline-size: 100%;
 }
 
 .s-linear th,
 .s-linear td {
-  padding: var(--inset);
+  padding: var(--inset-squished);
+  padding-block-end: 1em;
 }
 
 .s-linear tr *:first-child {
   padding-inline-start: 0;
-}
-
-.s-linear thead th {
-  @extend %overline;
 }
 
 .s-linear tbody th,
@@ -94,31 +98,17 @@
   color: var(--color-neutral);
 }
 
-.s-linear *:not([class]) + h2 {
-  margin-block-start: var(--space-block-large);
-}
-
 .s-linear h2:not([class]) {
   @extend %heading;
-
-  margin-block-end: var(--space-block-small);
-}
-
-.s-linear * + h3,
-.s-linear :--list h3 {
-  margin-block-start: var(--space-block-medium);
 }
 
 .s-linear h3:not([class]) {
   @extend %subhead;
-
-  margin-block-end: var(--space-block-small);
 }
 
 .s-linear h4:not([class]) {
-  @extend %overline;
-
-  margin-block-end: 0;
+  color: var(--color-neutral-dark);
+  margin-block-end: calc(var(--flow-space) * -0.5);
 }
 
 .s-linear li :--list {
@@ -147,7 +137,7 @@
 }
 
 .s-linear small {
-  font-size: 75%;
+  font-size: var(--step-0);
 }
 
 .s-linear img {
@@ -175,14 +165,8 @@
   padding: var(--inset-small-squished);
 }
 
-.s-linear .caps {
-  font-size: 90%;
-  letter-spacing: 0.05em;
-  line-height: 0.8;
-}
-
 .s-linear .footnotes {
-  @extend %reference;
+  @extend %caption;
 }
 
 .s-linear .footnote-backref {

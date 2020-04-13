@@ -4,12 +4,11 @@
 
 .banner__container {
   @extend %container;
-  @extend %reference;
 
   align-items: baseline;
   display: flex;
   flex-wrap: wrap;
-  padding-block: var(--space-block-medium);
+  padding-block: var(--step-4);
 }
 
 .banner__title {
