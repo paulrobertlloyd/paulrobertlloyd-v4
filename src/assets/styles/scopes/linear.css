@@ -177,9 +177,11 @@
   display: inline-flex;
   inline-size: 1.5em;
   justify-content: center;
+  line-height: 1.6667em;
   text-decoration: none;
 }
 
 .s-linear .footnote-backref:hover {
-  color: var(--color-accent);
+  background-color: var(--color-accent);
+  color: var(--color-background);
 }
