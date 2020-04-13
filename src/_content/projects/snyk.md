@@ -38,7 +38,9 @@ screenshots:
   alignment: 'bleed'
 %}
 
-{% render 'aside' %}
+{% render 'aside'
+  aside: aside
+%}
 
 With the belief that the open source community is a force for good, Snyk brought together a team of security experts and talented software developers to make it easier for everyone to use open source safely. Snyk enables developers to find, and more importantly fix, known vulnerabilities in their open source projects.
 

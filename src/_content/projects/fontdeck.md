@@ -39,7 +39,9 @@ screenshots:
   alignment: 'bleed'
 %}
 
-{% render 'aside' %}
+{% render 'aside'
+  aside: aside
+%}
 
 Fontdeck was a professional web font service that let designers and developers to choose from hundreds of web fonts and easily embed them in their websites.
 

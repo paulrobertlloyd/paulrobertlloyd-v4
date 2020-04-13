@@ -29,7 +29,9 @@ screenshots:
   alignment: 'bleed'
 %}
 
-{% render 'aside' %}
+{% render 'aside'
+  aside: aside
+%}
 
 [BookFHR][1] provides discounts on airport hotels, parking, lounges and other travel services in the UK.
 

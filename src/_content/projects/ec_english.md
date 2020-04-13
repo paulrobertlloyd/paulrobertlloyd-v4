@@ -27,7 +27,9 @@ screenshots:
   alignment: 'bleed'
 %}
 
-{% render 'aside' %}
+{% render 'aside'
+  aside: aside
+%}
 
 [EC English][1] specialises in the teaching English as part of a language/travel experience. It currently runs 21 English Language schools in five countries on three continents: the UK, USA, Canada, South Africa and Malta.
 

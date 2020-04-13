@@ -36,7 +36,9 @@ screenshots:
   alignment: 'bleed'
 %}
 
-{% render 'aside' %}
+{% render 'aside'
+  aside: aside
+%}
 
 Broadcast weeknights at 7pm, <cite>[Channel 4 News][1]</cite> is noted for its award-winning coverage of international news and extensive current affairs reporting.
 

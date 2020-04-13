@@ -37,7 +37,9 @@ screenshots:
   alignment: 'bleed'
 %}
 
-{% render 'aside' %}
+{% render 'aside'
+  aside: aside
+%}
 
 The brainchild of journalists Bobbie Johnson and Jim Giles, Matter was a home for in-depth journalism about the ideas shaping our future. Stories covered everything from corporate misdeeds and untold environmental scandals to radical new scientific discoveries and the people behind them. The company was acquired by Medium in April 2013.
 

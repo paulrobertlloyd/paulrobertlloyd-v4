@@ -39,7 +39,9 @@ photoset:
   alignment: 'bleed'
 %}
 
-{% render 'aside' %}
+{% render 'aside'
+  aside: aside
+%}
 
 [UNICEF UK][1] raises funds to protect children and the defend their rights worldwide.
 

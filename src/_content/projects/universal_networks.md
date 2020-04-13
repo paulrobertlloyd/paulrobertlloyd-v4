@@ -38,7 +38,9 @@ screenshots:
   alignment: 'bleed'
 %}
 
-{% render 'aside' %}
+{% render 'aside'
+  aside: aside
+%}
 
 [Universal Networks][1] encompasses NBCUniversal’s portfolio of over seventy international television channels. In 2009, these were consolidated into five brands – Syfy, Diva, 13th Street, Studio Universal and Universal Channel – and NBCUniversal wanted to create a holistic online user experience that all these brands could use within each territory in which they were operated.
 

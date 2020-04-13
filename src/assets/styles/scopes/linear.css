@@ -35,9 +35,9 @@
   margin-block: calc(var(--flow-space) * 2);
 }
 
-.s-linear * + .align-pull,
-.s-linear * + .align-start,
-.s-linear * + .align-end {
+.s-linear .align-pull,
+.s-linear .align-start,
+.s-linear .align-end {
   margin-block-start: var(--flow-space); /* Revert */
 }
 
@@ -52,12 +52,6 @@
   --list-display: block;
   --flow-inset: 0;
   color: var(--color-neutral-dark);
-}
-
-@media (--from-medium-viewport) {
-  .s-linear > aside {
-    @extend .align-pull;
-  }
 }
 
 .s-linear blockquote {

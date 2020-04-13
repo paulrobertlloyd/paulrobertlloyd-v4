@@ -43,7 +43,9 @@ screenshots:
   alignment: 'bleed'
 %}
 
-{% render 'aside' %}
+{% render 'aside'
+  aside: aside
+%}
 
 Each December, Drew McLellan and his small team of elves publish [24 ways][1], a daily dose of design and development goodness that delivers a little Christmas cheer to the web community during the period of advent.
 

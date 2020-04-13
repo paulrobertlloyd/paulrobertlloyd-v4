@@ -37,7 +37,9 @@ screenshots:
   alignment: 'bleed'
 %}
 
-{% render 'aside' %}
+{% render 'aside'
+  aside: aside
+%}
 
 [Bradshaw’s Guide][1] is a digital revival of George Bradshaw’s eponymous guide to Britain and Ireland’s nascent railway network as it existed in 1866.
 

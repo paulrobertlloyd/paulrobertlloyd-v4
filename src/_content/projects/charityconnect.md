@@ -43,7 +43,9 @@ photoset:
   alignment: 'bleed'
 %}
 
-{% render 'aside' %}
+{% render 'aside'
+  aside: aside
+%}
 
 [CharityConnect][1] is a social network for the charity sector that helps charity professionals, trustees and volunteers interact, share ideas and discover opportunities in the sector.
 

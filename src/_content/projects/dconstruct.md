@@ -32,7 +32,9 @@ screenshots:
   alignment: 'bleed'
 %}
 
-{% render 'aside' %}
+{% render 'aside'
+  aside: aside
+%}
 
 For the first Friday of September of each year from 2005 until 2015, Brighton played host to a one-day conference called dConstruct that explored topics around design, culture, technology and everything in-between. Each edition had a different theme, and to reflect this, the site was redesigned each year. I was responsible for the design in 2010, 2011 and 2013.
 

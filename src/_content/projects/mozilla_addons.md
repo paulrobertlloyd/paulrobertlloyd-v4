@@ -28,7 +28,9 @@ screenshots:
   alignment: 'bleed'
 %}
 
-{% render 'aside' %}
+{% render 'aside'
+  aside: aside
+%}
 
 Mozilla Add-ons is a catalogue of over 6,000 add-ons that allows Firefox users to customise the browser to suit their individual interests and needs.
 

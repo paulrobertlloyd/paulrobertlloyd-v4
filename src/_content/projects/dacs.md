@@ -35,7 +35,9 @@ screenshots:
   alignment: 'bleed'
 %}
 
-{% render 'aside' %}
+{% render 'aside'
+  aside: aside
+%}
 
 DACS (the [Design and Artists Copyright Society][1]) is a non-profit organisation that aims to protect the legal rights of artists through education, royalty-related legal services and government lobbying.
 

@@ -32,7 +32,9 @@ screenshots:
   alignment: 'bleed'
 %}
 
-{% render 'aside' %}
+{% render 'aside'
+  aside: aside
+%}
 
 [Nuts.com][1] is a family business founded over eighty years ago in Cranford, New Jersey. Employing sixty staff and turning over more than $20 million per year, the company is “more than just nuts”; it sells thousands of products including dried fruit, sweets, spices, coffees, teas and much more. Their success is built on a passion for quality food, a deep connection with their heritage and good old-fashioned customer service.
 

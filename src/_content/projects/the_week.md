@@ -52,7 +52,9 @@ photoset:
   alignment: 'bleed'
 %}
 
-{% render 'aside' %}
+{% render 'aside'
+  aside: aside
+%}
 
 [The Week][1] condenses the week’s news into lively and informative editorial, giving readers an insight into the most vital stories. With over 183,000 subscribers, it’s the UKs most popular weekly subscription magazine.
 

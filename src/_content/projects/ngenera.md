@@ -27,7 +27,9 @@ screenshots:
   alignment: 'bleed'
 %}
 
-{% render 'aside' %}
+{% render 'aside'
+  aside: aside
+%}
 
 nGenera Corporation (now [Moxie Software][1]) helps companies and governments transform themselves into forward thinking enterprises, that is to say organisations that enable employees to communicate via real-time social software platforms and tools.
 

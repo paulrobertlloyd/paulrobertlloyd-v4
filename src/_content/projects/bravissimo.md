@@ -36,7 +36,9 @@ screenshots:
   alignment: 'bleed'
 %}
 
-{% render 'aside' %}
+{% render 'aside'
+  aside: aside
+%}
 
 [Bravissimo][1] is a British retailer that provides lingerie and swimwear for big boobed women. The company aims to give their customers an uplifting and confidence boosting experience, be that online, on the phones or in one of their 29 stores.
 

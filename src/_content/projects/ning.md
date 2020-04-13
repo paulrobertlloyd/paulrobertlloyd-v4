@@ -27,7 +27,9 @@ screenshots:
   alignment: 'bleed'
 %}
 
-{% render 'aside' %}
+{% render 'aside'
+  aside: aside
+%}
 
 [Ning][1] is an online platform that allows people to create customised social networks. I was lead designer from January 2006 to October 2007.
 

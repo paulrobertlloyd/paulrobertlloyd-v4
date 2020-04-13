@@ -36,7 +36,9 @@ screenshots:
   alignment: 'bleed'
 %}
 
-{% render 'aside' %}
+{% render 'aside'
+  aside: aside
+%}
 
 Through Refigure, Rifa-Thorpe Tracey provides tailor-made mentoring and meditation services for individuals and teams, corporates and non-profits.
 
