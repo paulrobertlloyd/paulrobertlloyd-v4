@@ -4,7 +4,4 @@ summary: Interested in working with me on your next project? Want me to speak at
 permalink: contact/
 priority: 0.5
 ---
-{% render 'aside' with 'If you are looking for the type designer, Paul Lloyd, I am not he! You can contact him via <foundry@greater-albion.com>.'
-%}
-
 {% render 'form/contact' %}
