@@ -15,11 +15,6 @@
   margin-block-start: var(--flow-space);
 }
 
-.s-linear source + img,
-.s-linear dt + dd {
-  margin-block-start: 0;
-}
-
 .s-linear > hr {
   border-block-end: var(--border-width-thick) solid var(--color-rule);
   inline-size: calc(33% - calc(var(--grid-column-gap) / 2));
@@ -43,7 +38,7 @@
 
 .s-linear :--caption {
   @extend %caption;
-  margin-block-start: calc(var(--flow-space) * 2);
+  padding-block-start: var(--space-block);
 }
 
 .s-linear > aside :--flow {
@@ -130,6 +125,10 @@
   padding-inline-start: var(--flow-inset);
 }
 
+.s-linear dt + dd {
+  margin-block-start: 0;
+}
+
 .s-linear dt,
 .s-linear strong {
   font-weight: 600;
@@ -140,6 +139,7 @@
 }
 
 .s-linear img {
+  margin-block-start: 0;
   outline: var(--border-width-thin) solid var(--color-alpha-highest);
   outline-offset: calc(var(--border-width-thin) * -1);
 }

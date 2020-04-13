@@ -66,8 +66,8 @@
 }
 
 .item__header + .item__main {
-  color: var(--color-neutral-darker);
   --body-line-height: var(--line-height-tight);
+  color: var(--color-neutral-darker);
 }
 
 .item--testimonial {

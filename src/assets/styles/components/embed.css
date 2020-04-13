@@ -1,13 +1,13 @@
 .embed {
+  align-items: center;
   background-color: var(--color-offset);
   display: flex;
-  align-items: center;
   justify-content: center;
 }
 
 .embed::after {
-  backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
+  backdrop-filter: blur(2px);
   block-size: 100%;
   content: "";
   display: block;
