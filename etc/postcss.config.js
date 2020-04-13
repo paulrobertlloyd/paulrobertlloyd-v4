@@ -11,9 +11,7 @@ module.exports = ({
     require('postcss-media-minmax'),
     require('cssnano')({
       preset: ['default', {
-        calc: {
-          preserve: true // `false` removes required brackets
-        }
+        calc: false // postcss-calc duplicates rules
       }]
     })
   ]
