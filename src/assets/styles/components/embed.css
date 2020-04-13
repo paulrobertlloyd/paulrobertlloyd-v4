@@ -1,41 +1,37 @@
 .embed {
   background-color: var(--color-offset);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.embed img {
-  filter: blur(2px);
-  transform: scale(1.0125);
+.embed::after {
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  block-size: 100%;
+  content: "";
+  display: block;
+  inline-size: 100%;
+  position: absolute;
 }
 
 .embed__button {
-  align-items: center;
-  color: var(--color-neutral-lightest);
-  cursor: pointer;
-  display: flex;
-  font: 0/0 sans-serif;
-  inline-size: 100%;
-  inset-block: 0;
-  inset-inline: 0;
-  justify-content: center;
-  position: absolute;
-  z-index: 0;
-}
-
-/* Circle background */
-.embed__button::before {
-  background: var(--color-alpha-low) url("/assets/vectors/play.svg") no-repeat;
-  block-size: 10vmin;
+  background-color: var(--color-alpha-low);
+  block-size: 2em;
   border-radius: 100%;
   box-shadow: 0 0 0 1px hsla(0, 100%, 100%, 0.25);
-  content: "";
-  display: block;
-  inline-size: 10vmin;
-  position: absolute;
+  color: var(--color-neutral-lightest);
+  cursor: pointer;
+  font-size: var(--step-5);
+  inline-size: 2em;
+  margin: 0;
+  position: relative;
+  text-indent: 0.25em;
   transition-duration: var(--transition-short);
   transition-property: all;
-  z-index: -1;
+  z-index: 1;
 }
 
-.embed__button:hover::before {
+.embed__button:hover {
   background-color: var(--color-alpha-lowest);
 }
