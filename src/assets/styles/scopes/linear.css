@@ -27,13 +27,18 @@
   margin-inline-start: 0;
 }
 
-.s-linear > pre,
-.s-linear > aside,
-.s-linear > blockquote,
-.s-linear > figure.align-none,
-.s-linear > figure.align-bleed,
-.s-linear > table {
+.s-linear * + pre,
+.s-linear * + aside,
+.s-linear * + blockquote,
+.s-linear * + figure,
+.s-linear * + table {
   margin-block: calc(var(--flow-space) * 2);
+}
+
+.s-linear * + .align-pull,
+.s-linear * + .align-start,
+.s-linear * + .align-end {
+  margin-block-start: var(--flow-space); /* Revert */
 }
 
 .s-linear :--caption {

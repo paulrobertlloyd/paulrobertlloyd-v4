@@ -3,3 +3,7 @@
   grid-gap: var(--space-inline);
   grid-template-columns: repeat(var(--columns), 1fr);
 }
+
+.photos img + img {
+  margin-block-start: 0; /* Revert */
+}
