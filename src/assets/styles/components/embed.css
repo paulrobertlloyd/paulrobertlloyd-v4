@@ -15,6 +15,10 @@
   position: absolute;
 }
 
+.embed iframe {
+  z-index: 1;
+}
+
 .embed__button {
   background-color: var(--color-alpha-low);
   block-size: 2em;
