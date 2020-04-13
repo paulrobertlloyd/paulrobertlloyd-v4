@@ -31,7 +31,8 @@ These are reasonable points, but I’d suggest they are no less valid if I delay
 
 Indeed, this debate reminded me of <cite>The Story of Stuff</cite> and the cyclical nature of our consumer driven society, where profit is valued over the longterm sustainability of our planet. I’ve embedded the video below, and I encourage you to watch it too.
 
-{% render 'embed' with 'https://www.youtube.com/watch?v=9GorqroigqM'
+{% render 'figure'
+  embed: 'https://www.youtube.com/watch?v=9GorqroigqM'
   caption: '<cite>The Story of Stuff</cite>'
 %}
 

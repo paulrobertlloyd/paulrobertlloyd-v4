@@ -22,8 +22,9 @@ Many critics have mentioned the excellent acting by the younger cast members, wh
 
 The film shines a very honest light on Mumbai and India, and never seems to resort to stereotypes, the exception being perhaps the films closing credits which features a Bollywood type dance scene, yet this acts as a way to celebrate the story you have just witnessed more than anything else.
 
-{% render 'embed' with 'https://www.youtube.com/watch?v=AIzbwV7on6Q'
-  ratio: '12/5'
+{% render 'figure'
+  embed: 'https://www.youtube.com/watch?v=AIzbwV7on6Q'
+  embed_ratio: '12/5'
   caption: 'Official trailer for <cite>Slumdog Millionaire</cite>.'
 %}
 

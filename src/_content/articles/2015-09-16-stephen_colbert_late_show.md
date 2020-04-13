@@ -24,7 +24,8 @@ Now, having watched clips from his first week sat behind the desk inside a renov
 
 On any other show, an interview with Uber’s CEO [Travis Kalanick][5] would have been fawning and over congratulatory, but Colbert’s questions didn’t avoid the controversies surrounding this company. It also revealed Kalanick’s rather hollow and evasive personality:
 
-{% render 'embed' with 'https://www.youtube.com/watch?v=wGdjLv8neBs'
+{% render 'figure'
+  embed: 'https://www.youtube.com/watch?v=wGdjLv8neBs'
   caption: 'Stephen Colbert interviewing Travis Kalanick.'
 %}
 

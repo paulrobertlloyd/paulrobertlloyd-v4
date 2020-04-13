@@ -8,8 +8,9 @@ category:
 - United States
 - Canada
 ---
-{% render 'embed' with 'https://a.tiles.mapbox.com/v4/paulrobertlloyd.map-5tk2u4wo/attribution,zoompan.html?access_token=pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg#4/38/-98'
-  poster: 'https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/static/-98,38,2,0,0/'
+{% render 'figure'
+  embed: 'https://a.tiles.mapbox.com/v4/paulrobertlloyd.map-5tk2u4wo/attribution,zoompan.html?access_token=pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg#4/38/-98'
+  embed_poster: 'https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/static/-98,38,2,0,0/'
   caption: 'My itinerary plotted on a map'
   alignment: 'bleed'
 %}

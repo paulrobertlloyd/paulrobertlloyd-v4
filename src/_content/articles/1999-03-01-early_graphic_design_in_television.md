@@ -117,8 +117,9 @@ as well as <cite>Grand Prix</cite> and <cite>Walk on the Wild Side</cite>. Bass 
 
 Bass was also successful in designing many corporate identities with clients including AT&T, Exxon, Quaker Oats and Warner Communications.
 
-{% render 'embed' with 'https://www.youtube.com/watch?v=eGnpJ_KdqZE'
-  ratio: '4/3'
+{% render 'figure'
+  embed: 'https://www.youtube.com/watch?v=eGnpJ_KdqZE'
+  embed_ratio: '4/3'
   caption: 'Title sequence from <cite>The Man with the Golden Arm</cite>. (United Artists/Saul Bass, 1967)'
 %}
 
@@ -146,8 +147,9 @@ After its involvement, it became clear that the ‘experimental’ section had a
 
 Typical graphic design during the sixties saw a move to a greater use of photography and more detailed illustration, due mainly to the fact that 625-line transmissions when they were launched in 1964, allowed greater picture definition, allowing graphic designers more creativity. There was also a lot more innovation with the increasing knowledge of the effects a film rostrum camera could achieve. The greater use of calligraphy was apparent at this time too.
 
-{% render 'embed' with 'https://www.youtube.com/watch?v=tbIXxPt2YvY'
-  ratio: '4/3'
+{% render 'figure'
+  embed: 'https://www.youtube.com/watch?v=tbIXxPt2YvY'
+  embed_ratio: '4/3'
   caption: 'Title sequence from <cite>The Avengers</cite>. (ABC/Jerome Gask, 1963)'
 %}
 
@@ -163,8 +165,9 @@ The introduction, firstly of 625-line broadcasts and later colour, had obvious b
   image_preset: 'thumbnail'
 %}
 
-{% render 'embed' with 'https://www.youtube.com/watch?v=KNNAfzKwRn4'
-  ratio: '4/3'
+{% render 'figure'
+  embed: 'https://www.youtube.com/watch?v=KNNAfzKwRn4'
+  embed_ratio: '4/3'
   caption: 'Title sequence from <cite>The Old Grey Whistle Test</cite>. (BBC/Roger Ferrin, 1968)'
 %}
 
@@ -180,13 +183,15 @@ The history of graphic design in television has been relatively short yet it has
 
 After leaving the Royal College of Art, Bernard Lodge joined the BBC in 1959. It was here that he got the opportunity to design the title sequence for a new children’s series <cite>Doctor Who</cite> in 1963. By exploiting the effect that occurs when a television camera is pointed towards a monitor, he was able to convey the idea of time travel and space fiction and created what became the famous title sequence. When he reworked the sequence in 1973, he again used techniques that were new to the profession, by using a computer controlled rostrum camera. Lodge produced many more memorable title sequences before leaving the BBC in 1977 to form his own company which later became Lodge-Cheeseman when his former colleague, Colin Cheesman (who had become Head of Graphic Design at the BBC), joined him.
 
-{% render 'embed' with 'https://www.youtube.com/watch?v=sjDFvoRNpOM'
-  ratio: '4/3'
+{% render 'figure'
+  embed: 'https://www.youtube.com/watch?v=sjDFvoRNpOM'
+  embed_ratio: '4/3'
   caption: 'Title sequence from <cite>Doctor Who</cite>. (BBC/Bernard Lodge, 1963)'
 %}
 
-{% render 'embed' with 'https://www.youtube.com/watch?v=rMfB96pwcTA'
-  ratio: '4/3'
+{% render 'figure'
+  embed: 'https://www.youtube.com/watch?v=rMfB96pwcTA'
+  embed_ratio: '4/3'
   caption: 'Title sequence from <cite>Doctor Who</cite>. (BBC/Bernard Lodge 1973)'
 %}
 
@@ -210,8 +215,9 @@ It was here that Martin Lambie-Nairn was to find his big break. <cite>Weekend Wo
 
 This was traditionally based on newspaper cartoons — for example, if there was a story about the pound being weak, a cartoon drawing of a pound sign wearing bandages and using crutches was shown. Realising that this was at odds with communicating a serious news item, Lambie-Nairn developed a new method of presenting this sort of information in a more appropriate graphical manner. It was with this new approach that <cite>Weekend World</cite> became more successful, and this meant more work for Robinson Lambie-Nairn who found themselves “leaders in a field of one” (Lambie-Nairn, 1997).
 
-{% render 'embed' with 'https://www.youtube.com/watch?v=Nsf6zIxlOd8'
-  ratio: '4/3'
+{% render 'figure'
+  embed: 'https://www.youtube.com/watch?v=Nsf6zIxlOd8'
+  embed_ratio: '4/3'
   caption: 'Title sequence from <cite>Weekend World</cite>. (LWT/Robinson Lambie-Nairn, 1982)'
 %}
 
@@ -221,8 +227,9 @@ He created a series of animations that were all based on the coming together of 
 
 Channel Four also had consistent on-screen branding, with programme menus, weather charts, on-screen promotions etc. all having the same look and feel often with the Channel Four logo used like a postage stamp in the top right hand corner of the screen. However prior to launch, it wasn’t liked by some of the channels executives, one of which wanted the logo to be rendered with a chrome effect and have the appearance of a turned off television. This showed that graphic design in television still wasn’t fully understood even by 1982. The Channel’s identity was so far ahead of its time, that it remained largely unchanged for 14 years, unheard of in today’s rapidly changing industry.
 
-{% render 'embed' with 'https://www.youtube.com/watch?v=R86_TLuI51w'
-  ratio: '4/3'
+{% render 'figure'
+  embed: 'https://www.youtube.com/watch?v=R86_TLuI51w'
+  embed_ratio: '4/3'
   caption: '<cite>Round and Back</cite>. (Channel Four/Robinson Lambie-Nairn, 1982)'
 %}
 
@@ -264,8 +271,9 @@ In 1958, the BBC adapted the film rostrum camera so that it was able to record s
 
 As for lettering this became easier and less time consuming than the original hand drawn methods, first of with the Masseeley hot press printing machine in 1955, and then with Letraset four years later, before character generators began to take over in 1969. Television graphics have reached a point now in which the vast majority in all aspects of graphic design is created on computer, and is becoming increasingly more integrated.
 
-{% render 'embed' with 'https://www.youtube.com/watch?v=fDT_-CpiNKI'
-  ratio: '4/3'
+{% render 'figure'
+  embed: 'https://www.youtube.com/watch?v=fDT_-CpiNKI'
+  embed_ratio: '4/3'
   caption: '<cite>Liquid Gold</cite>. (Yorkshire Television/Jeff Parr, 1986)'
 %}
 

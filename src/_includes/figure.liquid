@@ -1,6 +1,12 @@
 <figure class="align-{{ alignment | default: 'none' }}">
 {%- if content %}
   {{ content | markdown }}
+{%- elsif embed %}
+  {%- render 'embed'
+    embed: embed
+    poster: embed_poster
+    ratio: embed_ratio | default: false
+  -%}
 {%- else %}
   {%- render 'image' with figure
     preset: image_preset

@@ -25,8 +25,9 @@ With half of the UK and Ireland now covered by the guide — that’s 1497 stati
 
 With all this location data in place, the next logical step was to plot it on a series of maps. Such was my excitement, at one point I was displaying anything and everything this way. I eventually settled on using maps primarily to supplement route descriptions, where this visualisation is most helpful.
 
-{% render 'embed' with 'https://beta.bradshaws.guide/map?geojson=routes.geojson'
-  poster: '2018/01/bradshaws_guide/poster.png'
+{% render 'figure'
+  embed: 'https://beta.bradshaws.guide/map?geojson=routes.geojson'
+  embed_poster: '2018/01/bradshaws_guide/poster.png'
   caption: 'Routes currently covered by Bradshaw’s Guide.'
 %}
 

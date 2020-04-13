@@ -20,8 +20,9 @@ Firstly, the naming strategy. Including “Partners” in the store names seems 
 
 Looking at the logos, I despair. Previously, each chain used a customised version of Gill Sans, with ascenders featuring angled cutoffs. The effect was to create something that felt familiar, but unique; timeless, yet modern. Retaining Gill Sans but rending the new names in uppercase is route one stuff; wholly unoriginal, and only serves to reduce their readability further. And when every other department store has slavishly adopted a monochrome colour palette, John Lewis sheds it’s dark green and follows suit. Never has an industry been so mundane in its collective approach to brand identity.
 
-{% render 'embed' with 'https://vimeo.com/288323929'
-  poster: 'https://i.vimeocdn.com/video/723701449'
+{% render 'figure'
+  embed: 'https://vimeo.com/288323929'
+  embed_poster: 'https://i.vimeocdn.com/video/723701449'
   caption: 'The brandlines were inspired by a Peter Hatch pattern created for the John Lewis Partnership in the 1960s.'
 %}
 

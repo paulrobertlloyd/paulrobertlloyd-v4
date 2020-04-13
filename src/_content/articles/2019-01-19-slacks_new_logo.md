@@ -62,7 +62,8 @@ But Slack is not Flickr. [Looking to trade publicly][16] and facing competition 
 
 The most disappointing aspect of Slack’s new logo is that it looks like that of every other technology company. Having shed their glossy bubbles and esoteric typefaces, most have now settled upon a combination of primary colours and a stark geometric sans with simple, open letterforms. A broader critique would ask why technology brands tend toward such a childish and infantile appearance.
 
-{% render 'embed' with 'https://www.youtube.com/watch?v=6c7_TpPUpL0'
+{% render 'figure'
+  embed: 'https://www.youtube.com/watch?v=6c7_TpPUpL0'
   caption: 'With its bright colours, simple shapes and short sentences spoken slowly, this introduction to Slack wouldn’t look out of place on an episode of Sesame Street.'
 %}
 

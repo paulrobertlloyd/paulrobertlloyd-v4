@@ -34,8 +34,9 @@ The landscape you travel across is one of the most scenic routes run by Amtrak, 
 
 Although these guides step of at [Reno][3], the commentary is continued by the conductors, who pass through the mixed terrain that is the [Rocky Mountains][4] and [Continental Divide][5] several times a week.
 
-{% render 'embed' with 'https://a.tiles.mapbox.com/v4/paulrobertlloyd.map-tw61ntxz/attribution,zoompan.html?access_token=pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg#5/40.5/-105.5'
-  poster: 'https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/static/-105.5,40.5,5,0,0/'
+{% render 'figure'
+  embed: 'https://a.tiles.mapbox.com/v4/paulrobertlloyd.map-tw61ntxz/attribution,zoompan.html?access_token=pk.eyJ1IjoicGF1bHJvYmVydGxsb3lkIiwiYSI6Ik54cHBhS0UifQ.bNN4HG8gg9JMj_Dr_hkdLg#5/40.5/-105.5'
+  embed_poster: 'https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/static/-105.5,40.5,5,0,0/'
   caption: 'Route of the California Zephyr.'
   alignment: 'bleed'
 %}

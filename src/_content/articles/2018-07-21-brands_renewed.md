@@ -28,9 +28,10 @@ Under Consideration’s [_Brand New_][1] is a blog that critiques corporate and 
 
 I wish more designers would take such a selfless approach. While I could spend hours studying such refinements, I have nothing but admiration for the team at INSTID that [created this new identity for Irkutsk][6], a Russian city in southeastern Siberia:
 
-{% render 'embed' with 'https://vimeo.com/265662317'
-  poster: 'https://i.vimeocdn.com/video/695729633'
-  ratio: '8/5'
+{% render 'figure'
+  embed: 'https://vimeo.com/265662317'
+  embed_poster: 'https://i.vimeocdn.com/video/695729633'
+  embed_ratio: '8/5'
   caption: 'Irkutsk identity presentation.'
 %}
 

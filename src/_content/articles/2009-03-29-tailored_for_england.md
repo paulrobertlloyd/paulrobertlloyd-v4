@@ -35,7 +35,8 @@ The star representing England’s solitary 1966 Word Cup win remains, but now sh
 
 Finally, the crest is based on that used on the 1953 shirt (meaning it no longer shares the FA’s corporate logo), and players shirts will be embroidered with game insignias in the same way they were then:
 
-{% render 'embed' with 'https://www.youtube.com/watch?v=J60s_ftlerU'
+{% render 'figure'
+  embed: 'https://www.youtube.com/watch?v=J60s_ftlerU'
   caption: 'The New England Kit: The New Crest.'
 %}
 
