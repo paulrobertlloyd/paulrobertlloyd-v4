@@ -6,5 +6,188 @@
     },
     "published": "2010-09-05T07:34:30+01:00",
     "content": "Thanks for the review. My spouse and I are considering this trip. I appreciate the review."
-  }]
+  }],
+  "geojson": {
+    "features": [{
+      "type": "Feature",
+      "properties": {
+        "stroke": "%23e02",
+        "stroke-opacity": 0.5,
+        "stroke-width": 5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-122.2925, 37.8407],
+          [-122.3531, 37.9368],
+          [-122.1388, 38.0193],
+          [-121.7375, 38.5435],
+          [-121.5005, 38.5848],
+          [-121.2862, 38.75],
+          [-120.9531, 39.0994],
+          [-120.1855, 39.3275],
+          [-119.8116, 39.5287],
+          [-117.7314, 40.9694],
+          [-115.7502, 40.8364],
+          [-111.9085, 40.7628],
+          [-111.6639, 40.2258],
+          [-110.8538, 39.6839],
+          [-110.1653, 38.9921],
+          [-108.5705, 39.0646],
+          [-107.3233, 39.548],
+          [-105.9355, 40.0841],
+          [-105.8175, 39.9476],
+          [-105.0001, 39.7532],
+          [-103.8029, 40.247],
+          [-100.6256, 40.1975],
+          [-99.3706, 40.4358],
+          [-98.3875, 40.5841],
+          [-96.7114, 40.8151],
+          [-95.9272, 41.2498],
+          [-94.3614, 41.057],
+          [-93.765, 41.0372],
+          [-92.4149, 41.0186],
+          [-91.5506, 40.9713],
+          [-91.1018, 40.8057],
+          [-90.364, 40.9443],
+          [-89.4669, 41.3852],
+          [-88.1455, 41.7796],
+          [-87.6403, 41.8786]
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "title": "Emeryville, CA",
+        "marker-color": "%23e02",
+        "marker-size": "large",
+        "marker-symbol": "rail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-122.2925, 37.8407]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "title": "Sacramento, CA",
+        "marker-color": "%23e02",
+        "marker-size": "small",
+        "marker-symbol": "rail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.5005, 38.5848]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "title": "Reno, NV",
+        "marker-color": "%23e02",
+        "marker-size": "small",
+        "marker-symbol": "rail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.8116, 39.5287]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "title": "Salt Lake City, UT",
+        "marker-color": "%23e02",
+        "marker-size": "small",
+        "marker-symbol": "rail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-111.9085, 40.7628]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "title": "Grand Junction, CO",
+        "marker-color": "%23e02",
+        "marker-size": "small",
+        "marker-symbol": "rail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-108.5705, 39.0646]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "title": "Denver, CO",
+        "marker-color": "%23e02",
+        "marker-size": "small",
+        "marker-symbol": "rail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.0001, 39.7532]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "title": "Lincoln, NE",
+        "marker-color": "%23e02",
+        "marker-size": "small",
+        "marker-symbol": "rail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-96.7114, 40.8151]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "title": "Omaha, NE",
+        "marker-color": "%23e02",
+        "marker-size": "small",
+        "marker-symbol": "rail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-95.9272, 41.2498]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "title": "Ottumwa, IA",
+        "marker-color": "%23e02",
+        "marker-size": "small",
+        "marker-symbol": "rail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.4149, 41.0186]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "title": "Burlington, IA",
+        "marker-color": "%23e02",
+        "marker-size": "small",
+        "marker-symbol": "rail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-91.1018, 40.8057]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "title": "Chicago, IL",
+        "marker-color": "%23e02",
+        "marker-size": "large",
+        "marker-symbol": "rail"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-87.6403, 41.8786]
+      }
+    }],
+    "type": "FeatureCollection"
+  }
 }

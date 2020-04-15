@@ -1,6 +1,6 @@
 <figure class="align-{{ alignment | default: 'none' }}">
 {%- if content %}
-  {{ content | markdown }}
+  {{- content | markdown -}}
 {%- elsif embed %}
   {%- render 'embed'
     embed: embed

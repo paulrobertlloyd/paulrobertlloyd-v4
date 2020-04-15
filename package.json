@@ -30,7 +30,7 @@
     "debug": "DEBUG=* npx eleventy"
   },
   "dependencies": {
-    "@11ty/eleventy": "github:11ty/eleventy",
+    "@11ty/eleventy": "github:11ty/eleventy#645a76",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
     "@remy/webmention": "^1.4.3",
     "@sindresorhus/slugify": "^0.11.0",
