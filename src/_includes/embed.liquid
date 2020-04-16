@@ -5,8 +5,6 @@
 {%- elsif embed contains 'youtube' -%}
   {%- assign src = embed | replace: 'www.youtube.com/watch?v=','www.youtube-nocookie.com/embed/' | append: '?modestbranding=1&autoplay=1' -%}
   {%- assign img = embed | replace: 'www.youtube.com/watch?v=','i.ytimg.com/vi/' | append: '/hqdefault.jpg' -%}
-{%- else -%}
-  {%- capture img %}https://res.cloudinary.com/paulrobertlloyd/image/fetch/c_fill%2Cf_auto%2Cq_auto%2Cw_1920/{{ app.url }}/images/{{ poster }}{% endcapture -%}
 {%- endif -%}
 <a href="{{ embed }}" data-embed-src="{{ src }}" style="--aspect-ratio: {{ ratio | default: '16/9' }}">
   <img src="{{ img }}" alt="">
