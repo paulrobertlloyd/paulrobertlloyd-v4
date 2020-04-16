@@ -1,7 +1,7 @@
 ---
 title: Continuing Adventures in America
 date: 2011-12-18T23:09:35Z
-summary: Having tried so diligently last year to reduce the amount of flying I do, I hoped to keep this year’s long-haul flights to one. With an important part of my family now settled in São Paulo, and some of my best friends based in San Francisco, maybe such lofty goals are foolhardy. Before I write about my most recent travels, I address the hypocrisy in taking such a trip.
+summary: Before I write about my most recent travels across Canada and the United States, I address the hypocrisy of taking such a trip.
 collection: north_america_2011
 category:
 - Travel
