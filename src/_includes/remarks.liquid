@@ -1,0 +1,15 @@
+{%- if remarks.size > 0 -%}
+  <details class="remarks">
+    <summary>
+      {% render 'facepile' with remarks
+        type: title
+      %}
+    </summary>
+
+    <div style="--grid-size: {{ grid_size | default: '100%' }}">
+      {% render 'item/remark' for remarks as item
+        item_modifier: 'inline'
+      %}
+    </div>
+  </details>
+{%- endif -%}
