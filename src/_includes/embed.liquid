@@ -1,7 +1,5 @@
 {%- assign src = embed -%}
-{%- if embed contains 'mapbox' -%}
-  {%- assign img = poster | append: '960x540@2x?access_token=' | append: app.token.mapbox -%}
-{%- elsif embed contains 'vimeo' -%}
+{%- if embed contains 'vimeo' -%}
   {%- assign src = embed | replace: 'vimeo.com','player.vimeo.com/video' | append: '?color=fff&title=0&byline=0&badge=0&portrait=0&autoplay=1' -%}
   {%- assign img = poster | append: '?mw=1920&q=80' -%}
 {%- elsif embed contains 'youtube' -%}
