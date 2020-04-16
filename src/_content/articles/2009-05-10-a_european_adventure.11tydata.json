@@ -1,0 +1,163 @@
+{
+  "geojson": {
+    "features": [{
+      "type": "Feature",
+      "properties": {
+        "stroke": "%23e02",
+        "stroke-opacity": 0.5,
+        "stroke-width": 5
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [-0.125, 51.53],
+          [0.8745, 51.1436],
+          [1.1558, 51.0971],
+          [1.7806, 50.9228],
+          [3.0753, 50.6394],
+          [4.3352, 50.8352],
+          [5.567, 50.624],
+          [6.958, 50.9432],
+          [8.6625, 50.1069],
+          [8.4697, 49.4797],
+          [9.1817, 48.7839],
+          [9.9833, 48.4],
+          [10.8869, 48.3656],
+          [11.555, 48.1408],
+          [11.4008, 47.2639],
+          [9.5983, 47.2381],
+          [9.4667, 47.1667],
+          [9.4333, 47.0333],
+          [8.5403, 47.3778],
+          [8.5667, 47.2833],
+          [8.5167, 47.1667],
+          [8.3106, 47.0489],
+          [6.6292, 46.5164],
+          [6.15, 46.2],
+          [3.8772, 43.6119],
+          [2.8956, 42.6986],
+          [2.8211, 41.9844],
+          [2.186, 41.384],
+          [1.2496, 41.1157],
+          [-0.377, 39.4675],
+          [-0.5211, 38.9903],
+          [-1.8558, 38.9956],
+          [-3.6917, 40.4072],
+          [-4.7167, 41.6333],
+          [-1.6442, 42.8183],
+          [2.3553, 48.8809],
+          [3.0753, 50.6394]
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "title": "Cologne, Germany",
+        "marker-color": "%23e02",
+        "marker-size": "large",
+        "marker-symbol": "lodging"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [6.9580, 50.9432]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "title": "Munich, Germany",
+        "marker-color": "%23e02",
+        "marker-size": "large",
+        "marker-symbol": "lodging"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.555, 48.1408]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "title": "Innsbruck, Austria",
+        "marker-color": "%23e02",
+        "marker-size": "large",
+        "marker-symbol": "lodging"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [11.4008, 47.2639]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "title": "Zurich, Switzerland",
+        "marker-color": "%23e02",
+        "marker-size": "large",
+        "marker-symbol": "lodging"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.5403, 47.3778]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "title": "Lucerne, Switzerland",
+        "marker-color": "%23e02",
+        "marker-size": "large",
+        "marker-symbol": "lodging"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [8.3106, 47.0489]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "title": "Barcelona, Spain",
+        "marker-color": "%23e02",
+        "marker-size": "large",
+        "marker-symbol": "lodging"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.186, 41.384]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "title": "Valencia, Spain",
+        "marker-color": "%23e02",
+        "marker-size": "large",
+        "marker-symbol": "lodging"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.377, 39.4675]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "title": "Madrid, Spain",
+        "marker-color": "%23e02",
+        "marker-size": "large",
+        "marker-symbol": "lodging"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-3.6917, 40.4072]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "title": "Paris, France",
+        "marker-color": "%23e02",
+        "marker-size": "large",
+        "marker-symbol": "lodging"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [2.3553, 48.8809]
+      }
+    }],
+    "type": "FeatureCollection"
+  }
+}
