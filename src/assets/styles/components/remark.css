@@ -25,6 +25,9 @@
 
 .remark__title {
   @extend %subhead;
+
+  --anchor-decoration: none;
+  --subhead-font-size: var(--step-1);
   align-items: center;
   margin-block-end: var(--space-block);
   margin-inline-end: var(--space-inline);
@@ -32,7 +35,9 @@
 
 /* Main */
 .remark__main {
-  @extend %body;
+  @extend %caption;
+
+  --caption-line-height: var(--line-height-prose);
   grid-area: main;
   max-inline-size: var(--line-measure);
 }
