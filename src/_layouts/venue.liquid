@@ -27,7 +27,7 @@
         {%- render 'address' with page.data.address -%}
       </figcaption>
     </figure>
-    {{ content | markdown }}
+    {{ page.data.content | markdown }}
   {%- endcapture -%}
   {%- render 'content' with content -%}
   {%- assign related = collections.event | includes: 'data.venue_id',page.fileSlug | reverse -%}
