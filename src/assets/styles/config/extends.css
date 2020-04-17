@@ -46,7 +46,7 @@
 
 %caption {
   --flow-space: 0.5em;
-  color: var(--color-neutral-dark);
+  color: var(--caption-color, var(--color-neutral-dark));
   font-size: var(--step-0);
   font-variant: tabular-nums;
   line-height: var(--caption-line-height, var(--line-height-loose));

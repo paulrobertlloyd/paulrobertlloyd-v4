@@ -38,6 +38,7 @@
   @extend %caption;
 
   --caption-line-height: var(--line-height-prose);
+  --caption-color: var(--color-text);
   grid-area: main;
   max-inline-size: var(--line-measure);
 }
