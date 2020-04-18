@@ -3,11 +3,11 @@
   border-block-start: var(--border-width-thick) solid var(--color-rule);
   display: grid;
   flex: 1;
-  grid-template: var(--item-grid-template);
-  position: relative;
   grid-column-gap: var(--gap);
   grid-row-gap: var(--space-block);
+  grid-template: var(--item-grid-template);
   padding-block-start: var(--space-block);
+  position: relative;
 }
 
 /* Header */
@@ -27,9 +27,9 @@
 }
 
 .item__title .avatar {
-  position: absolute;
   inset-block-start: var(--space-block);
   inset-inline-start: 0;
+  position: absolute;
 }
 
 /* Main */

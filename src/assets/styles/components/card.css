@@ -6,12 +6,12 @@
 
   background: var(--color-offset);
   display: grid;
+  grid-row-gap: var(--space-block);
   grid-template:
     "image" auto
     "header" auto
     "main" 1fr
     "footer" auto;
-  grid-row-gap: var(--space-block);
   overflow: hidden;
   position: relative;
   transition-duration: var(--transition-short);

@@ -58,8 +58,8 @@ textarea.form__input {
 
 /* Combobox */
 .form__combobox {
-  position: relative;
   flex: 1;
+  position: relative;
 }
 
 /* Listbox */
