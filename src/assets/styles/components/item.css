@@ -1,32 +1,14 @@
 .item {
-  align-items: start;
+  align-items: baseline;
   border-block-start: var(--border-width-thick) solid var(--color-rule);
   display: grid;
-  grid-template:
-    "header" auto
-    "main" auto
-    "footer" 1fr /
-    minmax(auto, 45rem);
+  flex: 1;
+  grid-template: var(--item-grid-template);
+  grid-auto-flow: column;
   position: relative;
-}
-
-.item--inline {
-  align-items: baseline;
-  grid-template:
-    "header" auto
-    "main" 1fr
-    "footer" auto /
-    1fr min-content;
-  margin-block-end: var(--step-1);
-}
-
-@media (--from-small-viewport) {
-  .item--inline {
-    grid-template:
-      "footer header meta" auto
-      "footer main meta" 1fr /
-      auto 1fr auto;
-  }
+  grid-column-gap: var(--column-gap);
+  grid-row-gap: var(--space-block);
+  padding-block-start: var(--space-block);
 }
 
 /* Header */
@@ -37,13 +19,7 @@
 .item__title {
   @extend %subhead;
   --anchor-decoration: none;
-
-  align-items: center;
-  padding-block-start: var(--space-block);
-}
-
-.item--block .item__title {
-  --subhead-font-size: var(--step-1);
+  --subhead-font-size: var(--item-title-font-size);
 }
 
 .item__title-icon {
@@ -51,27 +27,21 @@
   opacity: 0.5;
 }
 
-/* Image */
-.item__image {
-  align-self: start;
-  display: block;
-  grid-area: footer;
-  margin-inline-end: var(--space-inline);
-  max-inline-size: calc(var(--logo-inline-size) - var(--space-inline));
-}
-
 /* Main */
 .item__main {
   @extend %body;
 
   --flow-space: 0.5em;
-  grid-area: main;
-  padding-block-start: var(--space-block);
+  grid-column: main;
 }
 
 .item__header + .item__main {
   --body-line-height: var(--line-height-tight);
   color: var(--color-neutral-darker);
+}
+
+.item__main img {
+  max-inline-size: 25rem;
 }
 
 .item--testimonial {
@@ -84,12 +54,6 @@
   padding-inline-start: 0;
 }
 
-@media (--from-medium-viewport) {
-  .item--inline .item__main img {
-    max-inline-size: 21rem;
-  }
-}
-
 /* Footer */
 .item__footer {
   @extend %caption;
@@ -98,11 +62,4 @@
   font-variant-numeric: tabular-nums diagonal-fractions;
   grid-area: footer;
   padding-block-start: var(--space-block);
-}
-
-@media (--from-small-viewport) {
-  .item--inline .item__footer {
-    inline-size: var(--logo-inline-size);
-    padding-inline-end: calc(var(--inset) * 2);
-  }
 }

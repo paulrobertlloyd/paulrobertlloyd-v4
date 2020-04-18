@@ -26,11 +26,11 @@ priority: 0.9
   {%- render 'section' with pagination.items
     id: 'recent'
     title: 'Recent articles'
-    item_modifier: 'inline'
+    items_modifier: 'inline'
   -%}
 {%- else -%}
   {%- render 'items' with pagination.items
-    item_modifier: 'inline'
+    modifier: 'inline'
   -%}
 {%- endif %}
 {%- render 'traverse' with pagination

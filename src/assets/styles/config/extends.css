@@ -56,7 +56,7 @@
 %container {
   margin-inline: auto;
   max-inline-size: var(--container-inline-size);
-  padding-inline: var(--grid-column-gap);
+  padding-inline: var(--column-gap);
 }
 
 /* Visual effects */

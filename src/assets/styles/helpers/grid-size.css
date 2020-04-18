@@ -1,8 +1,8 @@
 [style^="--grid-size"] {
   display: grid;
-  grid-column-gap: var(--grid-column-gap);
-  grid-row-gap: var(--grid-row-gap);
-  padding-block-end: var(--grid-row-gap);
+  grid-column-gap: var(--column-gap);
+  grid-row-gap: var(--row-gap);
+  padding-block-end: var(--row-gap);
 }
 
 @media (--from-small-viewport) {

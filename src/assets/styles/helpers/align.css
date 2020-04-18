@@ -36,7 +36,7 @@ img.align-start {
   --linear-measure: auto;
   display: grid;
   grid-template-columns: [bleed-start] minmax(0, var(--line-measure)) [measure] 1fr [bleed-end];
-  margin-inline: calc(var(--grid-column-gap) * -1);
+  margin-inline: calc(var(--column-gap) * -1);
 }
 
 .align-bleed > *:first-child {
@@ -44,7 +44,7 @@ img.align-start {
 }
 
 .align-bleed > figcaption {
-  padding-inline: var(--grid-column-gap);
+  padding-inline: var(--column-gap);
 }
 
 /* Pull alignment */
@@ -52,12 +52,12 @@ img.align-start {
   .align-pull {
     float: inline-end;
     inline-size: 33%;
-    margin-inline-end: calc(var(--grid-column-gap) * -1);
-    margin-inline-start: var(--grid-column-gap);
+    margin-inline-end: calc(var(--column-gap) * -1);
+    margin-inline-start: var(--column-gap);
   }
 
   .align-pull :--flow {
-    padding-inline-end: var(--grid-column-gap);
+    padding-inline-end: var(--column-gap);
   }
 }
 
@@ -82,7 +82,7 @@ img.align-start {
 @media (--from-large-viewport) {
   .align-slide {
     display: grid;
-    grid-column-gap: var(--grid-column-gap);
+    grid-column-gap: var(--column-gap);
     grid-template-columns: 2fr 3fr;
   }
 

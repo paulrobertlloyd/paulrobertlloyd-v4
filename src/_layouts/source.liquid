@@ -7,6 +7,6 @@
   -%}
   {%- assign items = collections.article | includes: 'data.tags',tag -%}
   {%- render 'items' with items
-    item_modifier: 'inline'
+    items_modifier: 'inline'
   -%}
 {%- endblock -%}

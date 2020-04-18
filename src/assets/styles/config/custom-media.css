@@ -1,7 +1,7 @@
 @custom-media --upto-smallest-viewport (width < 16em);
 @custom-media --from-smallest-viewport (width >= 16em);
-@custom-media --upto-small-viewport (width < 32em);
-@custom-media --from-small-viewport (width >= 32em);
+@custom-media --upto-small-viewport (width < 27.5em);
+@custom-media --from-small-viewport (width >= 27.5em);
 @custom-media --upto-medium-viewport (width < 40em);
 @custom-media --from-medium-viewport (width >= 40em);
 @custom-media --upto-large-viewport (width <= 64em);

@@ -15,15 +15,16 @@
   color: var(--color-text);
   flex: 0;
   font-weight: 600;
-  margin-inline-end: var(--inset);
+  margin-inline-end: var(--column-gap);
   white-space: nowrap;
+  min-inline-size: var(--logo-inline-size);
 }
 
 .banner__title a {
   color: var(--color-text);
   display: inline-flex;
-  margin-inline-start: calc(var(--inset) * -1);
-  padding: var(--inset-squished);
+  margin-inline-start: calc(var(--inset-large) * -1);
+  padding: var(--inset-large-squished);
 }
 
 .banner__title a:hover {

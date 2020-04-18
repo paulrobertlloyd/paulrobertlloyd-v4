@@ -3,7 +3,6 @@
   <li class="items__item">
     {%- render 'item/{{ component | default: item.data.type | default: item.data.layout }}'
       item: item
-      modifier: item_modifier
       hide_summary: item_hide_summary
       image_ratio: item_image_ratio
       image_preset: item_image_preset

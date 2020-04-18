@@ -17,7 +17,7 @@
 
 .s-linear > hr {
   border-block-end: var(--border-width-thick) solid var(--color-rule);
-  inline-size: calc(33% - calc(var(--grid-column-gap) / 2));
+  inline-size: calc(33% - calc(var(--column-gap) / 2));
   margin-block: calc(var(--flow-space) * 2);
   margin-inline-start: 0;
 }

@@ -7,7 +7,7 @@
   @extend %container;
   @extend %caption;
 
-  --container-padding-inline: calc(var(--grid-column-gap) - var(--inset));
+  --container-padding-inline: calc(var(--column-gap) - var(--inset));
   align-items: center;
   display: flex;
   flex-flow: row-reverse wrap;

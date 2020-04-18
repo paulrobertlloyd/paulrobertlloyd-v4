@@ -60,8 +60,8 @@
   --inset-large-squished: calc(var(--inset-large) / 2) var(--inset-large);
 
   /* Grids */
-  --grid-column-gap: var(--step-3);
-  --grid-row-gap: var(--step-3);
+  --column-gap: var(--step-3);
+  --row-gap: var(--step-3);
 
   /* Animation */
   --transition-short: 0.15s;
@@ -75,7 +75,7 @@
   --sticky-title-block-size: 0;
 
   /* Align items with logo */
-  --logo-inline-size: 0;
+  --logo-inline-size: 9rem;
 
   /* Indicate the presence of dark mode styles */
   color-scheme: light dark;
@@ -83,8 +83,7 @@
 
 @media (--from-small-viewport) {
   :root {
-    --logo-inline-size: 10rem;
-    --sticky-title-block-size: calc(var(--step-4) + var(--grid-column-gap));
+    --sticky-title-block-size: calc(var(--step-4) + var(--column-gap));
   }
 }
 
