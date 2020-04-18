@@ -2,18 +2,9 @@
   --item-grid-template:
     "header" auto
     "main" auto
-    "footer" 1fr /
-    minmax(auto, 45rem);
-  --item-title-font-size: var(--step-1);
-}
-
-.items--inline {
-  --item-grid-template:
-    "header" auto
-    "main" 1fr
     "footer" auto /
     1fr;
-  --item-title-font-size: var(--step-2);
+  --item-title-font-size: var(--step-1);
 }
 
 @media (--from-medium-viewport) {
@@ -22,6 +13,7 @@
       "footer header" auto
       "footer main" 1fr /
       var(--logo-inline-size) 1fr;
+    --item-title-font-size: var(--step-2);
   }
 }
 

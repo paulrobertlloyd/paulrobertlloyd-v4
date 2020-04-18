@@ -27,7 +27,7 @@
 }
 
 @media (--upto-medium-viewport) {
-  .section__main--scrollable [style^="--grid-size"] {
+  .section__main--scrollable .items {
     --row-gap: 0;
     display: flex;
     inline-size: 100vw;
@@ -38,13 +38,13 @@
     padding: var(--step-0) var(--column-gap);
   }
 
-  .section__main--scrollable [style^="--grid-size"]::after {
+  .section__main--scrollable .items::after {
     content: "";
     display: block;
     flex: 1 0 1px; /* Force end padding */
   }
 
-  .section__main--scrollable .card {
+  .section__main--scrollable .items__item {
     flex: 1 0 75vw;
     margin-inline-end: var(--column-gap);
   }
