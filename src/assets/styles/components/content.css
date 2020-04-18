@@ -1,3 +1,7 @@
+.content {
+  --body-line-height: var(--line-height-prose);
+}
+
 [data-type="entry-untitled"] .content {
   @extend %lede;
 }

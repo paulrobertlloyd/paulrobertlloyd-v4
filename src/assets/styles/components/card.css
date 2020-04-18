@@ -74,7 +74,6 @@
 
 .card__main {
   @extend %body;
-  --body-line-height: var(--line-height-tight);
 
   color: var(--color-neutral-dark);
   grid-area: main;

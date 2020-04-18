@@ -16,7 +16,7 @@
   --item-title-font-size: var(--step-2);
 }
 
-@media (--from-small-viewport) {
+@media (--from-medium-viewport) {
   .items--inline {
     --item-grid-template:
       "footer header" auto

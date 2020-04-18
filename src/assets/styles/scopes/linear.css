@@ -3,12 +3,12 @@
 
   --flow-inset: 1.5em;
   --list-display: list-item;
-  --body-line-height: var(--line-height-prose);
   --linear-measure: var(--line-measure);
 }
 
 .s-linear > * {
   max-inline-size: var(--linear-measure);
+  word-break: break-word;
 }
 
 .s-linear * + * {

@@ -36,7 +36,7 @@
 
 %body {
   --flow-space: 1em;
-  font-size: var(--step-1);
+  font-size: var(--body-font-size, var(--step-1));
   font-variant: oldstyle-nums;
   hanging-punctuation: first;
   hyphens: auto;

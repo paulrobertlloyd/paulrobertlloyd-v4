@@ -1,25 +1,22 @@
 {%- assign id = item.wm-id | default: forloop.rindex | prepend: 'remark-' -%}
 {%- assign permalink = id | prepend: '#' -%}
-<article class="remark | p-comment h-cite" id="{{ id }}">
-  <div class="remark__image">
-    <img class="avatar | u-photo" src="{{ item.author.photo | default: '/assets/vectors/avatar.svg' }}?s=96&d=identicon" alt="" width="48" height="48">
-  </div>
-
-  <header class="remark__header">
-    <h3 class="remark__title | p-author h-card">
+<article class="item | p-comment h-cite" id="{{ id }}">
+  <header class="item__header">
+    <h3 class="item__title | p-author h-card">
       {%- if item.author.url %}<a class="u-url" href="{{ item.author.url }}" target="_blank" rel="noopener noreferrer">{% endif -%}
-      <span class="p-name">{{ item.author.name | default: 'Anonymous' }}</span>
+        <span class="p-name">{{ item.author.name | default: 'Anonymous' }}</span>
+        <img class="avatar | u-photo" src="{{ item.author.photo | default: '/assets/vectors/avatar.svg' }}?s=96&d=identicon" alt="" width="48" height="48">
       {%- if item.author.url %}</a>{% endif -%}
     </h3>
-
-    <p class="remark__meta">
-      <a class="u-url" rel="bookmark" href="{{ item.url | default: permalink }}">
-        <time class="dt-published" datetime="{{ item.published | date: dates.iso }}">{{ item.published | date: dates.datetime_full }}</time>
-      </a>
-    </p>
   </header>
 
-  <div class="remark__main s-linear | p-summary">
+  <div class="item__main s-linear | p-summary">
     {{ item.content.value | default: item.content | markdown | strip_mentions }}
   </div>
+
+  <footer class="item__footer">
+    <a class="u-url" rel="bookmark" href="{{ item.url | default: permalink }}">
+      <time class="dt-published" datetime="{{ item.published | date: dates.iso }}">{{ item.published | date: dates.datetime_full }}</time>
+    </a>
+  </footer>
 </article>
