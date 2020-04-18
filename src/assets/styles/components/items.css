@@ -1,3 +1,8 @@
+.items__item {
+  align-items: stretch;
+  display: flex;
+}
+
 @media (--upto-small-viewport) {
   .items--photos {
     --grid-column-gap: var(--border-width-thick);

@@ -1,5 +1,6 @@
 <ul class="items{% if modifier %} items--{{ modifier }}{% endif %}" style="--grid-size: {{ grid_size | default: '100%' }}">
-  {%- for item in items limit: limit -%}<li>
+{%- for item in items limit: limit -%}
+  <li class="items__item">
     {%- render 'item/{{ component | default: item.data.type | default: item.data.layout }}'
       item: item
       modifier: item_modifier
@@ -7,7 +8,8 @@
       image_ratio: item_image_ratio
       image_preset: item_image_preset
     -%}
-  {%- else -%}
-    {%- render 'content' with no_items_content -%}
-  </li>{%- endfor -%}
+  </li>
+{%- else -%}
+  <li class="items__item">{{ no_items_content | markdown: 'inline' }}</li>
+{%- endfor -%}
 </ul>
