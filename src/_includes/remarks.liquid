@@ -6,10 +6,9 @@
       %}
     </summary>
 
-    <div style="--grid-size: {{ items_grid_size | default: '100%' }}">
-      {% render 'item/remark' for remarks as item
-        item_modifier: 'inline'
-      %}
-    </div>
+    {%- include 'items' with remarks
+      component: 'remark'
+      item_modifier: 'inline'
+    -%}
   </details>
 {%- endif -%}
