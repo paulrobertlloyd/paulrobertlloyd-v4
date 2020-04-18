@@ -28,14 +28,13 @@
 
 @media (--upto-medium-viewport) {
   .section__main--scrollable .items {
-    --gap: 0;
     display: flex;
+    gap: 0;
     inline-size: 100vw;
-    margin-block-start: calc(var(--step-0) * -1);
-    margin-inline-start: calc(var(--gap) * -1);
+    margin: calc(var(--gap) * -1);
     -webkit-overflow-scrolling: touch;
     overflow-x: scroll;
-    padding: var(--step-0) var(--gap);
+    padding: var(--gap);
   }
 
   .section__main--scrollable .items::after {
@@ -47,13 +46,5 @@
   .section__main--scrollable .items__item {
     flex: 1 0 75vw;
     margin-inline-end: var(--gap);
-  }
-}
-
-@media (--from-medium-viewport) {
-  .section__main--scrollable {
-    display: grid;
-    grid-gap: var(--gap);
-    grid-template-columns: repeat(auto-fit, minmax(var(--grid-size), 1fr));
   }
 }
