@@ -11,9 +11,10 @@
     "header" auto
     "main" 1fr
     "footer" auto;
+  grid-row-gap: var(--space-block);
   overflow: hidden;
   position: relative;
-  transition-duration: 0.15s;
+  transition-duration: var(--transition-short);
   transition-property: background-color, box-shadow, margin, padding;
 }
 
@@ -56,8 +57,7 @@
 
 .card__header {
   grid-area: header;
-  padding: var(--inset);
-  padding-block-end: 0;
+  padding-inline: var(--space-inline);
 }
 
 .card__title {
@@ -77,8 +77,7 @@
 
   color: var(--color-neutral-dark);
   grid-area: main;
-  padding: var(--inset-squished);
-  padding-block-end: var(--step-0);
+  padding-inline: var(--space-inline);
 }
 
 .card__footer {
@@ -86,7 +85,7 @@
 
   grid-area: footer;
   margin-block-start: auto;
-  padding: var(--inset);
+  padding: var(--space-block) var(--space-inline);
 }
 
 .card__icon {
@@ -95,7 +94,7 @@
   content: "";
   display: block;
   inline-size: var(--size-icon-small);
-  inset-block-end: calc(var(--step-0) * 2);
-  inset-inline-end: calc(var(--step-0) * 2);
+  inset-block-end: var(--gap);
+  inset-inline-end: var(--gap);
   position: absolute;
 }
