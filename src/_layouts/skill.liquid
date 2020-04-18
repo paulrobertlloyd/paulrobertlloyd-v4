@@ -6,8 +6,9 @@
   -%}
   {%- assign items = collections.project | includes: 'data.category',title -%}
   {%- render 'items' with items
-    grid_size: '12rem'
     component: 'card'
-    card_image_present: 'card-square'
+    grid_size: '12rem'
+    item_image_ratio: 1.0
+    item_image_preset: 'card'
   -%}
 {%- endblock -%}

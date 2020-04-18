@@ -6,7 +6,7 @@
       %}
     </summary>
 
-    <div style="--grid-size: {{ grid_size | default: '100%' }}">
+    <div style="--grid-size: {{ items_grid_size | default: '100%' }}">
       {% render 'item/remark' for remarks as item
         item_modifier: 'inline'
       %}

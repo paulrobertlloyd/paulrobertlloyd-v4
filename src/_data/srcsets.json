@@ -7,16 +7,16 @@
   "supporting": {
     "sizes": "50vw",
     "width": 480,
-    "widths": [240, 480, 720]
+    "widths": [320, 480, 720]
   },
   "card": {
     "width": 360,
-    "widths": [180, 360, 540]
+    "widths": [240, 360, 540]
   },
   "thumbnail": {
     "sizes": "20vw",
     "width": 240,
-    "widths": [120, 240, 360, 540]
+    "widths": [240, 360]
   },
   "feed": {
     "width": 960

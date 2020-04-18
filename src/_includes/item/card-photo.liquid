@@ -4,7 +4,8 @@
       alt: item.data.photo[0].alt
       class: 'u-photo'
       ratio: 1.0
-      sizes: grid_size
+      sizes: items_grid_size
+      preset: image_preset
     -%}
     {%- if item.data.photo.size > 1 -%}
       <span class="card__icon" aria-label="{{ item.data.photo.size }} photos in this post"></span>

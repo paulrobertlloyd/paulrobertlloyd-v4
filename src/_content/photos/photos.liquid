@@ -14,9 +14,9 @@ eleventyComputed:
 ---
 {%- render 'items' with pagination.items
   component: 'card-photo'
-  modifier: 'photos'
   grid_size: '15rem'
-  image_preset: 'thumbnail'
+  modifier: 'photos'
+  item_image_preset: 'card'
 -%}
 {%- render 'traverse' with pagination
   label: 'photos'

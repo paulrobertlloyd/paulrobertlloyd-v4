@@ -8,8 +8,11 @@
       <div class="section__main{% if scrollable %} section__main--scrollable{% endif %}">
         {%- include 'items' with section
           limit: items_limit
-          card_image_ratio: card_image_ratio:
-          hide_summary: hide_summary
+          component: items_component
+          grid_size: items_grid_size
+          modifier: items_modifier
+          item_image_ratio: item_image_ratio:
+          item_hide_summary: item_hide_summary
         -%}
       </div>
     </div>

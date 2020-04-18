@@ -16,20 +16,20 @@ priority: 0.9
   id: 'featured'
   title: 'Select case studies'
   scrollable: true
-  grid_size: '15rem'
-  component: 'card'
-  card_image_ratio: 1.0
-  image_preset: 'card'
+  items_component: 'card'
+  items_grid_size: '15rem'
+  item_image_ratio: 1.0
+  item_image_preset: 'card'
 -%}
 {%- render 'section' with testimonials
   id: 'testimonials'
   title: 'Nice words said about my work'
-  grid_size: '20rem',
-  component: 'testimonial'
+  items_component: 'testimonial'
+  items_grid_size: '20rem',
 -%}
 {%- render 'section' with skills
   id: 'skills'
   title: 'The work that I do'
-  component: 'section'
-  grid_size: '15rem'
+  items_component: 'section'
+  items_grid_size: '15rem'
 -%}
