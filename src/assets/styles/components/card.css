@@ -14,7 +14,7 @@
   overflow: hidden;
   position: relative;
   transition-duration: 0.15s;
-  transition-property: background, box-shadow, margin, padding;
+  transition-property: background-color, box-shadow, margin, padding;
 }
 
 @media (prefers-color-scheme: dark) {
