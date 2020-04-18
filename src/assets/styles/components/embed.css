@@ -24,7 +24,7 @@
   block-size: 2em;
   border-radius: 100%;
   box-shadow: 0 0 0 1px hsla(0, 100%, 100%, 0.25);
-  color: var(--color-neutral-lightest);
+  color: white;
   cursor: pointer;
   font-size: var(--step-5);
   inline-size: 2em;
