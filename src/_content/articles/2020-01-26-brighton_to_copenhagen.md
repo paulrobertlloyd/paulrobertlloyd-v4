@@ -37,7 +37,7 @@ tags:
 
 Like all great railway journeys, this one starts with a cancellation. The Brighton Main Line has been closed due to [an incident near Three Bridges][1], so the only way to reach any destination north of Brighton is via Barnham, 27 miles to the west. This includes Gatwick Airport. A lady from Denver is going to miss her flight; flustered and bewildered at first, she soon settles into an unexpected detour via the unremarkable landscape of urban West Sussex.
 
-I too will miss my connection. Thankfully, I know from previous experience that Eurostar will rebook passengers on to a later train if there’s disruption elsewhere on the network. They are less accommodating if you arrive after the check-in gates have closed, 30 minutes before departure. This is the situation I clumsily find myself in, having miscalculated the time I needed to wait for the next train to Brussels. A member of staff takes pity and helps me get through check-in, while another allows me to jump the queue for border control (only for the passport scanner to repeatedly fail just as the final boarding announcement is being made). Panicked and slightly breathless, I manage to board the train with minutes to spare. I’m back on track.
+I too will miss my connection. Thankfully, I know from previous experience that Eurostar will rebook passengers on to a later train if there’s disruption elsewhere on the network. They’re less accommodating should you arrive at check-in gates after they have closed, which is 30 minutes before departure. This is the situation I clumsily find myself in, having miscalculated the time I needed to wait for the next train to Brussels. A member of staff takes pity and helps me get through check-in, while another allows me to jump the queue for border control (only for the passport scanner to repeatedly fail just as the final boarding announcement is being made). Panicked and slightly breathless, I manage to board the train with minutes to spare. I’m back on track.
 
 * * *
 
@@ -63,7 +63,7 @@ Stretched across three buildings, this one houses a mix of 19th century, modern 
 
 I meet Sandra and Andy for lunch at [_Mei Moon_][7], a popular Chinese restaurant close to the station. The portions here are generous and delicious, and on this occasion, washed down with a beer or two.
 
-We talk about Sandra’s recent move to Hamburg (or more precisely, one of its nearby towns), different attitudes around healthcare (apparently the German’s take a far more preventative approach than the British), all while trying not to worry too much about how Brexit might affect everything. Having considered moving to Germany myself, I’m slightly put off when I hear about all the paperwork and bureaucracy such a move can involve.
+We talk about Sandra’s recent move to Hamburg (or more precisely, one of its nearby towns), different attitudes around healthcare (apparently the German’s take a far more preventative approach than the British), all while trying not to worry too much about how Brexit may affect everything. Having considered moving to Germany myself, I’m slightly put off when I hear about all the paperwork and bureaucracy that’s involved.
 
 After a coffee to offset the beer, I say my goodbyes, and again offer myself to the Hauptbahnhof, which this time should spit me out in the direction of Copenhagen.
 
@@ -71,7 +71,7 @@ After a coffee to offset the beer, I say my goodbyes, and again offer myself to 
 
 [Dutch Intercity trains][8] are curious-looking vehicles, their dated interior amenable only due to their comfort. My journey is improved by having the first-class cabin all to myself. When the train manager offers me a hot drink, I'm not expecting him to bring back a kettle full of boiling water, but that’s what I end up with, along with a few individually boxed tea bags, some tiny milk cartons and a large handful of [_Santa’s Favorite_][9], a chocolate that’s dangerously moreish, even after a filling lunch.
 
-Arriving in Copenhagen, the train manager spots the remaining unopened chocolate. “Go on, have one more; it’s been a long journey”.
+Arriving in Copenhagen, the train manager spots the last unopened chocolate. “Go on, have one more; it’s been a long journey”.
 
 [1]: https://twitter.com/GatwickExpress/status/1220630996774723585
 [2]: https://www.interrail.eu/en/interrail-passes
