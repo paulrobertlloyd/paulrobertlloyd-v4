@@ -60,8 +60,7 @@
   --inset-large-squished: calc(var(--inset-large) / 2) var(--inset-large);
 
   /* Grids */
-  --column-gap: var(--step-3);
-  --row-gap: var(--step-3);
+  --gap: var(--step-3);
 
   /* Animation */
   --transition-short: 0.15s;
@@ -83,7 +82,7 @@
 
 @media (--from-small-viewport) {
   :root {
-    --sticky-title-block-size: calc(var(--step-4) + var(--column-gap));
+    --sticky-title-block-size: calc(var(--step-4) + var(--gap));
   }
 }
 

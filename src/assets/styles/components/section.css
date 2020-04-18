@@ -1,12 +1,12 @@
 .section {
   display: grid;
   grid-column: container;
-  grid-column-gap: var(--column-gap);
+  grid-column-gap: var(--gap);
   grid-template-columns:
     [container-start] auto
     [content-start] 1fr [content-end]
     var(--sticky-title-block-size) [container-end];
-  margin-inline: calc(var(--column-gap) * -1);
+  margin-inline: calc(var(--gap) * -1);
 }
 
 .section[aria-labelledby="testimonials"] {
@@ -28,14 +28,14 @@
 
 @media (--upto-medium-viewport) {
   .section__main--scrollable .items {
-    --row-gap: 0;
+    --gap: 0;
     display: flex;
     inline-size: 100vw;
     margin-block-start: calc(var(--step-0) * -1);
-    margin-inline-start: calc(var(--column-gap) * -1);
+    margin-inline-start: calc(var(--gap) * -1);
     -webkit-overflow-scrolling: touch;
     overflow-x: scroll;
-    padding: var(--step-0) var(--column-gap);
+    padding: var(--step-0) var(--gap);
   }
 
   .section__main--scrollable .items::after {
@@ -46,14 +46,14 @@
 
   .section__main--scrollable .items__item {
     flex: 1 0 75vw;
-    margin-inline-end: var(--column-gap);
+    margin-inline-end: var(--gap);
   }
 }
 
 @media (--from-medium-viewport) {
   .section__main--scrollable {
     display: grid;
-    grid-gap: var(--column-gap);
+    grid-gap: var(--gap);
     grid-template-columns: repeat(auto-fit, minmax(var(--grid-size), 1fr));
   }
 }

@@ -15,7 +15,7 @@
   color: var(--color-text);
   flex: 0;
   font-weight: 600;
-  margin-inline-end: var(--column-gap);
+  margin-inline-end: var(--gap);
   white-space: nowrap;
   min-inline-size: var(--logo-inline-size);
 }

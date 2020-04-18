@@ -3,15 +3,15 @@
   background: var(--screenshot-offset, var(--color-offset)) url("/assets/vectors/noise.svg") repeat;
   background-size: 400px;
   display: grid;
-  grid-column-gap: var(--column-gap);
+  grid-gap: var(--gap);
   grid-template-columns: 1fr;
   overflow: hidden;
-  padding: calc(var(--row-gap) / 2) var(--column-gap);
+  padding: calc(var(--gap) * 1.5) var(--gap);
 }
 
 .screenshots img {
   box-shadow: 1.5vw 2vw 4vw 1vw var(--screenshot-shadow, var(--color-rule));
-  margin: var(--row-gap) auto;
+  margin: 0 auto;
   outline-offset: 0;
 }
 

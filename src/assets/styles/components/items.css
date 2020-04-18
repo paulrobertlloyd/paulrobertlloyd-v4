@@ -19,8 +19,7 @@
 
 @media (--upto-small-viewport) {
   .items--photos {
-    --column-gap: var(--border-width-thick);
-    --row-gap: var(--border-width-thick);
+    --gap: var(--border-width-thick);
     grid-template-columns: repeat(auto-fit, minmax(calc(33% - calc(var(--border-width-thick) * 2)), 1fr));
     margin-inline: calc(var(--step-3) * -1);
   }
