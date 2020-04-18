@@ -25,19 +25,12 @@
   }
 }
 
-media (--upto-small-viewport) {
+@media (--upto-small-viewport) {
   .items--photos {
     --column-gap: var(--border-width-thick);
     --row-gap: var(--border-width-thick);
     grid-template-columns: repeat(auto-fit, minmax(calc(33% - calc(var(--border-width-thick) * 2)), 1fr));
     margin-inline: calc(var(--step-3) * -1);
-  }
-}
-
-@media (--from-small-viewport) {
-  .items--photos {
-    --column-gap: var(--step-3);
-    --row-gap: var(--step-3);
   }
 }
 
