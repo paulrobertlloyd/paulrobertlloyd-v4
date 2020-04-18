@@ -1,9 +1,17 @@
 {%- if pagination.hrefs.size > 1 -%}
 <nav class="pagination" aria-label="page">
-  <ol>
-  {%- for item in pagination.pages -%}
-    <li><a href="{{ pagination.hrefs[forloop.index0] | remove: '.html' | replace: 'page/','?page=' }}"{% if pagination.pageNumber == forloop.index0 %} aria-current="page"{% endif %} aria-label="Go to page {{ forloop.index }}">{{ forloop.index }}</a></li>
-  {%- endfor -%}
-  </ol>
+  <ul class="pagination__items">
+  {%- if pagination.href.next -%}
+    <li><a href="{{ pagination.href.next | remove: '.html' | replace: 'page/','?page=' }}" rel="prev">Previous</a></li>
+  {%- endif -%}
+  {%- if show_pages == true -%}
+    {%- for item in pagination.pages -%}
+      <li><a href="{{ pagination.hrefs[forloop.index0] | remove: '.html' | replace: 'page/','?page=' }}"{% if pagination.pageNumber == forloop.index0 %} aria-current="page"{% endif %} aria-label="Go to page {{ forloop.index }}">{{ forloop.index }}</a></li>
+    {%- endfor -%}
+  {%- endif -%}
+  {%- if pagination.href.previous -%}
+    <li><a href="{{ pagination.href.previous | remove: '.html' | replace: 'page/','?page=' }}" rel="next">Next</span></a></li>
+  {%- endif -%}
+  </ul>
 </nav>
 {%- endif -%}

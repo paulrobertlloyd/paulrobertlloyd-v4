@@ -3,16 +3,40 @@
   border-block-start: var(--border-width-thick) solid var(--color-rule);
 }
 
-.pagination ol {
+.pagination__items {
   display: flex;
   flex: 1;
 }
 
 .pagination a {
-  display: block;
+  align-items: center;
+  display: flex;
   padding: var(--inset-large-squished);
 }
 
 .pagination a[aria-current] {
   background-color: var(--color-offset);
+}
+
+.pagination a[rel~="prev"],
+.pagination a[rel~="next"] {
+  margin-inline-start: calc(var(--inset-large) * -1);
+}
+
+.pagination a[rel~="prev"]::before,
+.pagination a[rel~="next"]::after {
+  block-size: 0.5em;
+  border-style: solid;
+  content: "";
+  inline-size: 0.5em;
+  margin: 0.25em;
+  transform: rotate(-45deg);
+}
+
+.pagination a[rel="prev"]::before {
+  border-width: var(--border-width-thick) 0 0 var(--border-width-thick);
+}
+
+.pagination a[rel="next"]::after {
+  border-width: 0 var(--border-width-thick) var(--border-width-thick) 0;
 }
