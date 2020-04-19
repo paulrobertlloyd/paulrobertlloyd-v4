@@ -44,6 +44,7 @@
 
 .card__header {
   padding: var(--inset);
+  padding-block-end: 0;
 }
 
 .card__title {
@@ -62,7 +63,7 @@
   @extend %body;
 
   color: var(--color-neutral-dark);
-  padding-inline: var(--inset);
+  padding: var(--inset);
 }
 
 .card__footer {
