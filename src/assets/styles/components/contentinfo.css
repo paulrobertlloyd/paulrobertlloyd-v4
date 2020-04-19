@@ -16,11 +16,14 @@
 }
 
 .contentinfo__legal {
-  padding: var(--inset);
-  padding-inline-start: 0;
+  padding: var(--inset-squished);
 }
 
-@media (--from-small-viewport) {
+@media (--from-medium-viewport) {
+  .contentinfo__legal {
+    margin-inline-start: calc(var(--inset) * -1);
+  }
+
   .contentinfo .navigation--elsewhere {
     margin-inline-start: auto;
   }

@@ -4,7 +4,7 @@
   font-weight: 500;
   hanging-punctuation: first;
   letter-spacing: -0.025em;
-  line-height: var(--line-height-solid);
+  line-height: var(--line-height-tight);
 }
 
 %heading {

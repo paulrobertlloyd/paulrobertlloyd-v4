@@ -4,6 +4,6 @@
 
 .navigation a {
   display: inline-flex;
-  padding: var(--inset);
+  padding: var(--inset-squished);
   white-space: nowrap;
 }

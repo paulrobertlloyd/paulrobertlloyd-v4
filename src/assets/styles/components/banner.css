@@ -23,8 +23,8 @@
 .banner__title a {
   color: var(--color-text);
   display: inline-flex;
-  margin-inline-start: calc(var(--inset-large) * -1);
-  padding: var(--inset-large-squished);
+  margin-inline-start: calc(var(--inset) * -1);
+  padding: var(--inset-squished);
 }
 
 .banner__title a:hover {
