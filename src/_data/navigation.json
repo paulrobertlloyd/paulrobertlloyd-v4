@@ -1,23 +1,29 @@
 {
   "primary": [{
     "label": "Writing",
-    "url": "/articles/"
+    "url": "/articles/",
+    "tag": "article"
   },{
     "label": "Speaking",
-    "url": "/presentations/"
+    "url": "/presentations/",
+    "tag": "presentation"
   },{
     "label": "Projects",
-    "url": "/projects/"
+    "url": "/projects/",
+    "tag": "project"
   }],
   "secondary": [{
     "label": "Notes",
-    "url": "/notes/"
+    "url": "/notes/",
+    "tag": "note"
   },{
     "label": "Photos",
-    "url": "/photos/"
+    "url": "/photos/",
+    "photo": "note"
   },{
     "label": "Bookmarks",
-    "url": "/bookmarks/"
+    "url": "/bookmarks/",
+    "tag": "bookmark"
   }],
   "tertiary": [{
     "label": "Contact",

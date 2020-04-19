@@ -7,3 +7,7 @@
   padding: var(--inset-squished);
   white-space: nowrap;
 }
+
+.navigation a[aria-current] {
+  color: var(--color-accent);
+}

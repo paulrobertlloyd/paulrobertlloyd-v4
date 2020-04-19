@@ -40,11 +40,6 @@
   margin-inline: calc(var(--inset) * -1);
 }
 
-.banner__navigation [aria-current] {
-  color: var(--color-text);
-  text-decoration: var(--color-rule) underline;
-}
-
 @media print {
   .banner__navigation {
     display: none;
