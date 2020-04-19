@@ -18,7 +18,6 @@ priority: 0.9
   scrollable: true
   items_component: 'card'
   items_grid_size: '15rem'
-  item_image_preset: 'card'
 -%}
 {%- assign appearances = collections.event | where: 'data.participant' | reverse -%}
 {%- render 'section' with appearances
