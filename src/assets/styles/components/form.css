@@ -21,7 +21,7 @@
   @extend %body;
 
   flex: 1 0 25%;
-  min-width: 8em;
+  min-inline-size: 8em;
   padding-block: var(--inset);
 }
 
@@ -30,9 +30,9 @@
   background-color: var(--color-background);
   border: var(--border-width-thick) solid var(--color-alpha-high);
   flex: 1 0 75%;
+  inline-size: 100%;
   margin-block-start: 0;
   padding: var(--inset);
-  width: 100%;
 }
 
 .form__input:focus {
