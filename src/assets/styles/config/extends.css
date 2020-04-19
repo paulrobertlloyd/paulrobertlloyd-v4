@@ -55,7 +55,8 @@
 /* Layout */
 %container {
   margin-inline: auto;
-  max-inline-size: var(--container-inline-size);
+  inline-size: var(--container-inline-size);
+  max-inline-size: var(--container-max-inline-size);
   padding-inline: var(--gap);
 }
 

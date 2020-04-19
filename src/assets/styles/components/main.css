@@ -12,12 +12,11 @@
 
   align-content: start;
   background-color: var(--color-background);
-  flex: 1;
   grid-template-columns:
     [container-start] auto
     [content-start] 1fr [content-end]
     var(--sticky-title-block-size) [container-end];
-  padding-block: var(--step-3);
+  padding-block: var(--step-3) var(--step-5);
 }
 
 @media (--from-medium-viewport) {
