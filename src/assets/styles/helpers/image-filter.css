@@ -3,6 +3,6 @@
 }
 
 [style^="--image-color"] img {
-  filter: grayscale(100%) contrast(0.75) brightness(1.25);
+  filter: contrast(0.75) brightness(1.25);
   mix-blend-mode: luminosity;
 }
