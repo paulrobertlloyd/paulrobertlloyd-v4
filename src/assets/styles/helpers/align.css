@@ -15,12 +15,6 @@
   min-inline-size: 6rem;
 }
 
-/* TODO: Refactor outlines on aligned images */
-img.align-end,
-img.align-start {
-  outline: 0 !important;
-}
-
 .align-start {
   float: inline-start;
   margin-inline-end: var(--step-0);

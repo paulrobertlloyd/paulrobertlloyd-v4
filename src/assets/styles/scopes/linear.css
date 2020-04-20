@@ -140,18 +140,6 @@
 
 .s-linear img {
   margin-block-start: 0;
-  outline: var(--border-width-thin) solid var(--color-alpha-highest);
-  outline-offset: calc(var(--border-width-thin) * -1);
-}
-
-.s-linear img[src$=".svg"] {
-  outline: 0;
-}
-
-@media (prefers-color-scheme: dark) {
-  .s-linear img {
-    outline: 0;
-  }
 }
 
 .s-linear :not(pre) code {
