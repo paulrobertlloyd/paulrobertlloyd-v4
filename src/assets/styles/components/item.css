@@ -52,8 +52,6 @@
 .item__footer {
   @extend %caption;
   --anchor-decoration: none;
-  color: var(--color-neutral);
-  font-variant-numeric: tabular-nums diagonal-fractions;
   grid-area: footer;
 }
 
