@@ -16,7 +16,7 @@
     [container-start] auto
     [content-start] 1fr [content-end]
     auto [container-end];
-  padding-block: var(--step-3) var(--step-5);
+  padding-block: var(--gap) calc(var(--gap) * 2);
 }
 
 @media (--from-medium-viewport) {
@@ -30,7 +30,7 @@
 }
 
 .main__container > * + * {
-  margin-block-start: var(--step-5);
+  margin-block-start: calc(var(--gap) * 2);
 }
 
 .main__title {
@@ -53,7 +53,8 @@
   }
 
   .main__title + .main__introduction,
-  .main__title + .items {
+  .main__title + .items,
+  .main__title + .form {
     margin-block-start: 0;
   }
 }
