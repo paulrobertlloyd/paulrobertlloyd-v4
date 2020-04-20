@@ -1,10 +1,5 @@
 [style^="--grid-size"] {
   display: grid;
   grid-gap: var(--gap);
-}
-
-@media (--from-small-viewport) {
-  [style^="--grid-size"] {
-    grid-template-columns: repeat(auto-fit, minmax(var(--grid-size), 1fr));
-  }
+  grid-template-columns: repeat(auto-fit, minmax(var(--grid-size), 1fr));
 }
