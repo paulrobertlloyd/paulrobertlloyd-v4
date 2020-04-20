@@ -15,7 +15,7 @@
   grid-template-columns:
     [container-start] auto
     [content-start] 1fr [content-end]
-    var(--sticky-title-block-size) [container-end];
+    auto [container-end];
   padding-block: var(--step-3) var(--step-5);
 }
 
