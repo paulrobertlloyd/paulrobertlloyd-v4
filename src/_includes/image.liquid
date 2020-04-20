@@ -16,5 +16,5 @@
       {%- capture srcset %}{% for width in setting.widths %}{{ base }}/{{ transformations }},w_{{ width }}/{{ public_id }} {{ width }}w{% unless forloop.last %}, {% endunless%}{% endfor %}{% endcapture -%}
     {%- endunless -%}
   {%- endif -%}
-<img{% if class %} class="{{ class }}"{% endif %} src="{{ src }}"{% if srcset %} srcset="{{ srcset }}"{% endif %}{% if srcset %} sizes="{{ sizes | default: setting.sizes }}"{% endif %} width="{{ setting.width }}" alt="{{ alt }}" loading="lazy">
+<img{% if class %} class="{{ class }}"{% endif %} src="{{ src }}"{% if srcset %} srcset="{{ srcset }}"{% endif %}{% if srcset %} sizes="{{ sizes | default: setting.sizes }}"{% endif %} width="{{ setting.width }}"{% if ratio %} height="{{ setting.width | divided_by: ratio }}"{% endif %} alt="{{ alt }}" loading="lazy">
 {%- endif -%}
