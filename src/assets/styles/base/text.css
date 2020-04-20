@@ -19,6 +19,21 @@ a[aria-current] {
   font-weight: 500;
 }
 
+a[rel="tag"] {
+  text-decoration: none;
+  white-space: nowrap;
+  word-spacing: -0.25ch;
+}
+
+a[rel="tag"]::before {
+  content: "#";
+  opacity: 0.5;
+}
+
+a[rel="tag"]:hover::before {
+  opacity: 1;
+}
+
 /* Reset font size for smallprint/legal text */
 small {
   font-size: 100%;
