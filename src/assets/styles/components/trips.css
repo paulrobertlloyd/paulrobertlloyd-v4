@@ -1,0 +1,23 @@
+.trips {
+  max-inline-size: 100%;
+}
+
+.trips__summary {
+  @extend %caption;
+}
+
+summary.trips__summary {
+  --caption-color: var(--color-accent);
+  text-decoration: underline;
+  text-decoration-color: var(--color-link-underline);
+}
+
+.trips__list {
+  max-width: 100%;
+  overflow: auto;
+}
+
+.trips__list th,
+.trips__list td {
+  white-space: nowrap;
+}

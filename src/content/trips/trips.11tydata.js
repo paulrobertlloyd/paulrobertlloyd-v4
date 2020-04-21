@@ -218,6 +218,42 @@ module.exports = function () {
     to: 'AUS',
     via: ['ATL']
   }, {
+    date: '2010-11-08',
+    from: {
+      name: 'Port of Holyhead',
+      city: 'Holyhead',
+      country: 'United Kingdom',
+      latitude: '53.309312',
+      longitude: '-4.628937',
+      type: 'port'
+    },
+    to: {
+      name: 'Dublin Port',
+      city: 'Dublin',
+      country: 'Ireland',
+      latitude: '53.345312',
+      longitude: '-6.194312',
+      type: 'port'
+    }
+  }, {
+    date: '2010-11-14',
+    from: {
+      name: 'Dublin Port',
+      city: 'Dublin',
+      country: 'Ireland',
+      latitude: '53.345312',
+      longitude: '-6.194312',
+      type: 'port'
+    },
+    to: {
+      name: 'Port of Holyhead',
+      city: 'Holyhead',
+      country: 'United Kingdom',
+      latitude: '53.309312',
+      longitude: '-4.628937',
+      type: 'port'
+    }
+  }, {
     date: '2011-03-15',
     from: 'AUS',
     to: 'SFO',
@@ -276,6 +312,42 @@ module.exports = function () {
     from: 'CPH',
     to: 'LGW'
   }, {
+    date: '2012-06-02',
+    from: {
+      name: 'Poole Ferry Terminal',
+      city: 'Poole',
+      country: 'United Kingdom',
+      latitude: '50.708062',
+      longitude: '-1.995437',
+      type: 'port'
+    },
+    to: {
+      name: 'Guernsey Ferry Port',
+      city: 'St. Peter Port',
+      country: 'Guernsey',
+      latitude: '49.457312',
+      longitude: '-2.529062',
+      type: 'port'
+    }
+  }, {
+    date: '2012-06-05',
+    from: {
+      name: 'Guernsey Ferry Port',
+      city: 'St. Peter Port',
+      country: 'Guernsey',
+      latitude: '49.457312',
+      longitude: '-2.529062',
+      type: 'port'
+    },
+    to: {
+      name: 'Poole Ferry Terminal',
+      city: 'Poole',
+      country: 'United Kingdom',
+      latitude: '50.708062',
+      longitude: '-1.995437',
+      type: 'port'
+    }
+  }, {
     date: '2012-09-12',
     from: 'LHR',
     to: 'PDX',
@@ -315,6 +387,14 @@ module.exports = function () {
     from: 'EWR',
     to: 'LGW'
   }, {
+    date: '2014-11-12',
+    from: 'LGW',
+    to: 'BFS'
+  }, {
+    date: '2014-11-15',
+    from: 'BFS',
+    to: 'LGW'
+  }, {
     date: '2015-02-04',
     from: 'LGW',
     to: 'GRU',
@@ -325,6 +405,78 @@ module.exports = function () {
     to: 'SXF',
     via: ['LIS']
   }, {
+    date: '2017-05-10',
+    from: {
+      name: 'Port of Holyhead',
+      city: 'Holyhead',
+      country: 'United Kingdom',
+      latitude: '53.309312',
+      longitude: '-4.628937',
+      type: 'port'
+    },
+    to: {
+      name: 'Dublin Port',
+      city: 'Dublin',
+      country: 'Ireland',
+      latitude: '53.345312',
+      longitude: '-6.194312',
+      type: 'port'
+    }
+  }, {
+    date: '2017-05-13',
+    from: {
+      name: 'Dublin Port',
+      city: 'Dublin',
+      country: 'Ireland',
+      latitude: '53.345312',
+      longitude: '-6.194312',
+      type: 'port'
+    },
+    to: {
+      name: 'Port of Holyhead',
+      city: 'Holyhead',
+      country: 'United Kingdom',
+      latitude: '53.309312',
+      longitude: '-4.628937',
+      type: 'port'
+    }
+  }, {
+    date: '2017-07-19',
+    from: {
+      name: 'Port of Newhaven',
+      city: 'Newhaven',
+      country: 'United Kingdom',
+      latitude: '50.78961',
+      longitude: '0.05437',
+      type: 'port'
+    },
+    to: {
+      name: 'Port of Dieppe',
+      city: 'Dieppe',
+      country: 'France',
+      latitude: '49.933563',
+      longitude: '1.088062',
+      type: 'port'
+    }
+  }, {
+    date: '2017-07-24',
+    from: {
+      name: 'Port of Dieppe',
+      city: 'Dieppe',
+      country: 'France',
+      latitude: '49.933563',
+      longitude: '1.088062',
+      type: 'port'
+    },
+    to: {
+      name: 'Port of Newhaven',
+      city: 'Newhaven',
+      country: 'United Kingdom',
+      latitude: '50.78961',
+      longitude: '0.05437',
+      type: 'port'
+    }
+  }, {
     date: '2018-01-03',
     from: 'LHR',
     to: 'GRU'
@@ -332,6 +484,88 @@ module.exports = function () {
     date: '2018-01-14',
     from: 'GRU',
     to: 'LHR'
+  }, {
+    date: '2018-06-04',
+    from: {
+      name: 'Southampton Cruise Terminal',
+      city: 'Southampton',
+      country: 'United Kingdom',
+      latitude: '50.900976',
+      longitude: '-1.413975',
+      type: 'port'
+    },
+    via: [{
+      name: 'Haugesund',
+      city: 'Haugesund',
+      country: 'Norway',
+      latitude: '59.446389',
+      longitude: '5.298333',
+      type: 'port'
+    }, {
+      name: 'Flåm',
+      city: 'Flåm',
+      country: 'Norway',
+      latitude: '60.8633304',
+      longitude: '7.1164061',
+      type: 'port'
+    }, {
+      name: 'Ålesund',
+      city: 'Ålesund',
+      country: 'Norway',
+      latitude: '62.470062',
+      longitude: '6.153438',
+      type: 'port'
+    }, {
+      name: 'Åndalsnes',
+      city: 'Åndalsnes',
+      country: 'Norway',
+      latitude: '62.567563',
+      longitude: '7.694312',
+      type: 'port'
+    }, {
+      name: 'Trondheim',
+      city: 'Trondheim',
+      country: 'Norway',
+      latitude: '63.440813',
+      longitude: '10.399688',
+      type: 'port'
+    }, {
+      name: 'Hellesylt',
+      city: 'Hellesylt',
+      country: 'Norway',
+      latitude: '62.087438',
+      longitude: '6.870312',
+      type: 'port'
+    }, {
+      name: 'Geiranger',
+      city: 'Geiranger',
+      country: 'Norway',
+      latitude: '62.102187',
+      longitude: '7.204812',
+      type: 'port'
+    }, {
+      name: 'Olden',
+      city: 'Olden',
+      country: 'Norway',
+      latitude: '61.842687',
+      longitude: '6.810688',
+      type: 'port'
+    }, {
+      name: 'Strevanger',
+      city: 'Strevanger',
+      country: 'Norway',
+      latitude: '58.972562',
+      longitude: '5.729812',
+      type: 'port'
+    }],
+    to: {
+      name: 'Southampton Cruise Terminal',
+      city: 'Southampton',
+      country: 'United Kingdom',
+      latitude: '50.900976',
+      longitude: '-1.413975',
+      type: 'port'
+    }
   }, {
     date: '2018-11-15',
     from: 'LGW',
@@ -342,19 +576,31 @@ module.exports = function () {
     to: 'LGW'
   }];
 
+  const emissions = {
+    airport: 0.158,
+    port: 0.4
+  };
+
+  const icons = {
+    airport: 'plane',
+    port: 'ferry',
+    station: 'train'
+  };
+
   // Calculate trips data
   trips = trips.map(trip => {
     const from = trip.from;
     const to = trip.to;
     const via = trip.via || [];
+    const {type} = openflights[from] || from;
 
     let distance = 0;
     const stops = [from, ...via, to];
     const stopsData = [];
 
     stops.forEach((stop, index) => {
-      const thisStop = openflights[stop];
-      const nextStop = openflights[stops[index + 1]];
+      const thisStop = openflights[stop] || stop;
+      const nextStop = openflights[stops[index + 1]] || stops[index + 1];
 
       if (nextStop) {
         const legDistance = getDistance(thisStop, nextStop);
@@ -365,11 +611,13 @@ module.exports = function () {
     });
 
     distance = Math.ceil(distance / 1000);
-    const co2 = Math.ceil(distance * 0.158);
+
+    const co2 = Math.ceil(distance * emissions[type]);
 
     trip.stops = stopsData;
     trip.distance = distance;
     trip.co2 = co2;
+    trip.icon = icons[type];
 
     return trip;
   });

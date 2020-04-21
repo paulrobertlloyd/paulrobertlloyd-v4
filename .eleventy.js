@@ -16,8 +16,10 @@ module.exports = function (eleventy) {
   eleventy.addFilter('hostname', require('./lib/filters/hostname.js'));
   eleventy.addFilter('includes', require('./lib/filters/includes.js'));
   eleventy.addFilter('markdown', require('./lib/filters/markdown.js'));
+  eleventy.addFilter('percentage_of', require('./lib/filters/percentage-of.js'));
   eleventy.addFilter('slug', require('./lib/filters/slug.js'));
   eleventy.addFilter('strip_mentions', require('./lib/filters/strip-mentions.js'));
+  eleventy.addFilter('sum', require('./lib/filters/sum.js'));
   eleventy.addFilter('tokenize', require('./lib/filters/tokenize.js'));
 
   // Plugins

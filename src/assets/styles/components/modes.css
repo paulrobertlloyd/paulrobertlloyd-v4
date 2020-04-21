@@ -1,0 +1,27 @@
+.modes {
+  --flow-inset: 0;
+  display: grid;
+  grid-gap: var(--gap);
+  grid-template-columns: repeat(auto-fit, minmax(12rem, calc(33% - var(--gap))));
+  max-inline-size: 100%;
+}
+
+.modes__item {
+  margin-block-start: 0;
+}
+
+.modes__title {
+  @extend %subhead;
+}
+
+.modes__distance {
+  @extend %body;
+  font-variant: tabular-nums;
+  margin-block-start: 0;
+}
+
+.modes__co2 {
+  @extend %caption;
+  font-variant: tabular-nums;
+  margin-block-start: 0;
+}
