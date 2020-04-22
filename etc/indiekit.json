@@ -15,19 +15,19 @@
   "post-types": {
     "bookmark": {
       "post": {
-        "path": "src/_content/bookmarks/{{ published | date('yyyy-MM-dd') }}-{{ slug }}.md",
+        "path": "src/content/bookmarks/{{ published | date('yyyy-MM-dd') }}-{{ slug }}.md",
         "url": "bookmarks/{{ published | date('yyyy/MM') }}/{{ slug }}"
       }
     },
     "note": {
       "post": {
-        "path": "src/_content/notes/{{ published | date('X') }}.md",
+        "path": "src/content/notes/{{ published | date('X') }}.md",
         "url": "notes/{{ published | date('X') }}"
       }
     },
     "photo": {
       "post": {
-        "path": "src/_content/photos/{{ published | date('X') }}.md",
+        "path": "src/content/photos/{{ published | date('X') }}.md",
         "url": "photos/{{ published | date('X') }}"
       },
       "media": {
@@ -37,7 +37,7 @@
     },
     "reply": {
       "post": {
-        "path": "src/_content/replies/{{ published | date('X') }}.md",
+        "path": "src/content/replies/{{ published | date('X') }}.md",
         "url": "replies/{{ published | date('X') }}"
       }
     }
