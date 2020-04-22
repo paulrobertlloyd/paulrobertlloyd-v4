@@ -38,7 +38,7 @@
     "label": "Trips",
     "url": "/trips/"
   }],
-  "elsewhere": [{
+  "social": [{
     "label": "Twitter",
     "url": "https://twitter.com/paulrobertlloyd",
     "rel": "me"

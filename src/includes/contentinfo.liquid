@@ -1,7 +1,13 @@
 <footer class="contentinfo">
   <div class="contentinfo__container">
-    {%- render 'navigation-elsewhere' with navigation.elsewhere -%}
-    {%- render 'navigation' with navigation.tertiary -%}
+    {%- render 'navigation' with navigation.social
+      icons: true
+      modifier: 'social'
+    -%}
+    {%- render 'navigation' with navigation.tertiary
+      page: page
+      tags: tags
+    -%}
     <p class="contentinfo__legal">
       <small>© <time>{{ 'now' | date: '%Y' }}</time></small>
     </p>

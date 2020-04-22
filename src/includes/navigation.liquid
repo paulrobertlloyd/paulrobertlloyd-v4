@@ -1,5 +1,17 @@
-<ul class="navigation">
+<ul class="navigation{% if modifier %} navigation--{{ modifier }}{% endif %}">
 {%- for item in navigation -%}
-  <li><a href="{{ item.url }}"{% if tags contains item.tag %} aria-current="true"{% endif %}>{{ item.label }}</a></li>
+  <li>
+    <a href="{{ item.url }}"{% if tags contains item.tag or page.url contains item.url %} aria-current="true"{% endif %}{% if item.rel %} rel="{{ item.rel }}"{% endif %}>
+    {%- if icons -%}
+      {%- assign id = item.label | downcase | remove: '.' -%}
+      <svg width="20" height="20" role="img" aria-labelledby="{{ id }}-title" focusable="false">
+        <title id="{{ id }}-title">{{ item.label }}</title>
+        <use href="/assets/vectors/app.svg#{{ id }}"></use>
+      </svg>
+    {%- else -%}
+      {{ item.label }}
+    {%- endif -%}
+    </a>
+  </li>
 {%- endfor -%}
 </ul>

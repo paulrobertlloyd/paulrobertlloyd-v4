@@ -19,7 +19,7 @@
   padding: var(--inset-squished);
 }
 
-.contentinfo .navigation--elsewhere {
+.contentinfo .navigation--social {
   color: var(--color-neutral-darker);
 }
 
@@ -28,7 +28,7 @@
     margin-inline-start: calc(var(--inset) * -1);
   }
 
-  .contentinfo .navigation--elsewhere {
+  .contentinfo .navigation--social {
     margin-inline-start: auto;
   }
 }

@@ -5,9 +5,11 @@
     </div>
     <nav class="banner__navigation" aria-label="site">
       {%- render 'navigation' with navigation.primary
+        page: page
         tags: tags
       -%}
       {%- render 'navigation' with navigation.secondary
+        page: page
         tags: tags
       -%}
     </nav>
