@@ -1,42 +1,13 @@
 <ul class="navigation navigation--elsewhere">
+{%- for item in navigation-elsewhere -%}
+  {%- assign id = item.label | downcase | remove: '.' -%}
   <li>
-    <a href="https://twitter.com/paulrobertlloyd" rel="me">
-      <svg width="24" height="24" role="img" aria-labelledby="twitter-title" focusable="false">
-        <title id="twitter-title">Twitter</title>
-        <use href="/assets/vectors/app.svg#twitter"></use>
+    <a href="{{ item.url }}" rel="{{ item.rel }}">
+      <svg width="24" height="24" role="img" aria-labelledby="{{ id }}-title" focusable="false">
+        <title id="{{ id }}-title">{{ item.label }}</title>
+        <use href="/assets/vectors/app.svg#{{ id | slug }}"></use>
       </svg>
     </a>
   </li>
-  <li>
-    <a href="https://micro.blog/paulrobertlloyd" rel="me">
-      <svg width="24" height="24" role="img" aria-labelledby="microblog-title" focusable="false">
-        <title id="microblog-title">Micro.blog</title>
-        <use href="/assets/vectors/app.svg#microblog"></use>
-      </svg>
-    </a>
-  </li>
-  <li>
-    <a href="https://flickr.com/people/paulrobertlloyd" rel="me">
-      <svg width="24" height="24" role="img" aria-labelledby="flickr-title" focusable="false">
-        <title id="flickr-title">Flickr</title>
-        <use href="/assets/vectors/app.svg#flickr"></use>
-      </svg>
-    </a>
-  </li>
-  <li>
-    <a href="https://github.com/paulrobertlloyd" rel="me authn">
-      <svg width="24" height="24" role="img" aria-labelledby="github-title" focusable="false">
-        <title id="github-title">GitHub</title>
-        <use href="/assets/vectors/app.svg#github"></use>
-      </svg>
-    </a>
-  </li>
-  <li>
-    <a href="https://www.linkedin.com/in/paulrobertlloyd" rel="me">
-      <svg width="24" height="24" role="img" aria-labelledby="linkedin-title" focusable="false">
-        <title id="linkedin-title">LinkedIn</title>
-        <use href="/assets/vectors/app.svg#linkedin"></use>
-      </svg>
-    </a>
-  </li>
+{%- endfor -%}
 </ul>
