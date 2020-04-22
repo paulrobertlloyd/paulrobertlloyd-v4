@@ -19,6 +19,10 @@
   padding: var(--inset-squished);
 }
 
+.contentinfo .navigation--elsewhere {
+  color: var(--color-neutral-darker);
+}
+
 @media (--from-medium-viewport) {
   .contentinfo__legal {
     margin-inline-start: calc(var(--inset) * -1);
