@@ -21,9 +21,8 @@
   --subhead-font-size: var(--item-title-font-size);
 }
 
-.item__title-icon {
-  margin-inline-start: 0.25ch;
-  opacity: 0.5;
+.item__title svg {
+  margin-inline-start: 0.2ex;
 }
 
 .item__title .avatar {

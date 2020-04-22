@@ -74,12 +74,8 @@
   padding: var(--inset);
 }
 
-.card__icon {
-  background: url("/assets/vectors/multi-photo.svg") no-repeat;
-  block-size: var(--size-icon-small);
-  content: "";
-  display: block;
-  inline-size: var(--size-icon-small);
+.card svg {
+  color: white;
   inset-block-end: var(--space-inline);
   inset-inline-end: var(--space-inline);
   position: absolute;

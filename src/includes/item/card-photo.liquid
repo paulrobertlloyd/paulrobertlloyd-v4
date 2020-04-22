@@ -8,7 +8,10 @@
       preset: 'supporting'
     -%}
     {%- if item.data.photo.size > 1 -%}
-      <span class="card__icon"><span class="visually-hidden">{{ item.data.photo.size }} photos in this post</span></span>
+      <svg width="20" height="20" role="img" aria-labelledby="photos-title" focusable="false">
+        <title id="photos-title">{{ item.data.photo.size }} photos in this post</title>
+        <use href="/assets/vectors/app.svg#photos"></use>
+      </svg>
     {%- endif -%}
   </a>
 </article>

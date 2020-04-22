@@ -22,9 +22,9 @@ eleventyComputed:
         <time datetime="{{ trip.date }}">{{ trip.date | date: dates.date_short }}</time>
       </th>
       <td>
-        {% for stop in trip.stops %}
-          {% unless forloop.first %}&#9992; {% endunless %}{{ stop.city }}, {{ stop.country }}<br>
-        {% endfor %}
+      {% for stop in trip.stops %}
+        <span>{% unless forloop.first %}<svg width="12" height="12" aria-hidden="true" focusable="false"><use href="/assets/vectors/app.svg#plane"></use></svg> {% endunless %}{{ stop.city }}, {{ stop.country }}</span><br>
+      {% endfor %}
       </td>
       <td>{{ trip.distance }}</td>
       <td>{{ trip.co2 }}</td>

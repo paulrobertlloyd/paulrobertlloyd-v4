@@ -1,12 +1,14 @@
 <article class="item | h-event">
   <header class="item__header">
     <h3 class="item__title | p-name">
-      <a class="u-url" rel="bookmark" href="{{ item.url }}">{{ item.data.title | markdown: 'inline' }}</a>
+      <a class="u-url" rel="bookmark" href="{{ item.url }}">{{ item.data.title | markdown: 'inline' }}
       {% if item.data.url contains 'imdb.com' %}
-        <svg class="item__title-icon" width="16" height="16" viewBox="0 0 32 32" aria-label="(Film)" focusable="false">
-          <path fill="currentColor" d="M31 0v32H1V0h30zM6 27H3v3h3v-3zm23 0h-3v3h3v-3zM6 22H3v3h3v-3zm23 0h-3v3h3v-3zM6 17H3v3h3v-3zm23 0h-3v3h3v-3zM6 12H3v3h3v-3zm23 0h-3v3h3v-3zM6 7H3v3h3V7zm23 0h-3v3h3V7zM6 2H3v3h3V2zm23 0h-3v3h3V2zm-5 13V2H8v13h16zm0 15V17H8v13h16z"/>
+        <svg width="20" height="20" role="img" aria-labelledby="film-title" focusable="false">
+          <title id="film-title">(Film)</title>
+          <use href="/assets/vectors/app.svg#film"></use>
         </svg>
       {% endif %}
+      </a>
     </h3>
   </header>
 
