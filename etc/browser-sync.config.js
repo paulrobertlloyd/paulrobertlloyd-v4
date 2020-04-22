@@ -9,5 +9,6 @@ module.exports = {
   rewriteRules: [{
     match: /\?page=(\d+)/g,
     replace: 'page/$1.html'
-  }]
+  }],
+  ui: false
 };
