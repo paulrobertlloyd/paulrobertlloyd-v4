@@ -2,5 +2,6 @@
 title: Look to Europe
 summary: In the countdown to Britain leaving the European Union, in January 2020 I shared 31 images from my travels around Europe.
 image: /images/photos/1579334400.jpg
+items_component: card-photo
 ---
 Of the countries I’ve visited, many are members of the EU while some are members of its related institutions and agreements. Throughout, I’ve learnt that we have more in common than that which divides us, and realised that I am and always will be, culturally and emotionally, European.

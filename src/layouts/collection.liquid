@@ -6,9 +6,11 @@
   -%}
   {%- render 'content' with content -%}
   {%- assign items = collections.all | includes: 'data.collection',page.fileSlug | reverse -%}
+  {%- assign items_component = items_component | default: 'card' -%}
   {%- render 'section' with items
     id: 'items'
     title: 'Items in this collection'
-    items_modifier: 'inline'
+    items_component: items_component
+    items_grid_size: '15rem'
   -%}
 {%- endblock -%}
