@@ -5,7 +5,7 @@
     summary: summary
   -%}
   {%- render 'content' with content -%}
-  {%- assign items = collections.all | includes: 'data.collection',page.fileSlug | reverse -%}
+  {%- assign items = collections.all | includes: 'data.collection',page.fileSlug -%}
   {%- assign items_component = items_component | default: 'card' -%}
   {%- render 'section' with items
     id: 'items'
