@@ -39,7 +39,6 @@
     "cssnano": "^4.1.10",
     "geolib": "^3.2.1",
     "liquidjs": "^9.11.10",
-    "lodash": "^4.17.14",
     "markdown-it": "^10.0.0",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-anchor": "^5.2.7",
