@@ -1,105 +1,22 @@
-const fs = require('fs');
-const fetch = require('node-fetch');
-const unionBy = require('lodash/unionBy');
-const metadata = require('./app');
-
-// Configuration Parameters
-const CACHE_DIR = '.cache';
-const API_ORIGIN = 'https://webmention.io/api/mentions.jf2';
-const TOKEN = process.env.WEBMENTION_IO_TOKEN;
-
-async function fetchWebmentions(since) {
-  const {url} = metadata;
-  const domain = url.replace(/(^\w+:|^)\/\/(?:www\.)?/g, '');
-
-  if (!domain) {
-    console.warn('Unable to fetch webmentions: no domain specified.');
-    return false;
-  }
-
-  if (!TOKEN) {
-    console.warn('Unable to fetch webmentions: no access token specified.');
-    return false;
-  }
-
-  let endpoint = `${API_ORIGIN}?domain=${domain}&token=${TOKEN}`;
-  if (since) {
-    endpoint += `&per-page=100&&since=${since}`;
-  } else {
-    endpoint += '&per-page=999';
-  }
-
-  const response = await fetch(endpoint);
-  if (response.ok) {
-    const feed = await response.json();
-    console.log(`${feed.children.length} webmentions fetched from ${API_ORIGIN}`);
-    return feed;
-  }
-
-  return null;
-}
-
-// Merge fresh webmentions with cached entries, unique per id
-function mergeWebmentions(a, b) {
-  return unionBy(a.children, b.children, 'wm-id');
-}
-
-// Save combined webmentions in cache file
-function writeToCache(data) {
-  const filePath = `${CACHE_DIR}/webmentions.json`;
-  const fileContent = JSON.stringify(data, null, 2);
-
-  // Create cache folder if it doesnt exist already
-  if (!fs.existsSync(CACHE_DIR)) {
-    fs.mkdirSync(CACHE_DIR);
-  }
-
-  // Write data to cache json file
-  fs.writeFile(filePath, fileContent, err => {
-    if (err) {
-      throw err;
-    }
-
-    console.log(`Webmentions cached to ${filePath}`);
-  });
-}
-
-// Get cache contents from json file
-function readFromCache() {
-  const filePath = `${CACHE_DIR}/webmentions.json`;
-
-  if (fs.existsSync(filePath)) {
-    const cacheFile = fs.readFileSync(filePath);
-    return JSON.parse(cacheFile);
-  }
-
-  return {
-    lastFetched: null,
-    children: []
-  };
-}
+const cache = require('@11ty/eleventy-cache-assets');
 
 module.exports = async function () {
-  const cache = readFromCache();
+  const ENDPOINT = 'https://webmention.io/api/mentions.jf2';
+  const TOKEN = process.env.WEBMENTION_IO_TOKEN;
 
-  if (cache.children.length > 0) {
-    console.log(`${cache.children.length} webmentions loaded from cache`);
+  const url = `${ENDPOINT}?token=${TOKEN}&per-page=999`;
+
+  try {
+    const webmentions = await cache(url, {
+      duration: '1d',
+      type: 'json'
+    });
+
+    return webmentions;
+  } catch (error) {
+    console.warn(error.message);
+    return {
+      children: []
+    };
   }
-
-  // Only fetch new mentions in production
-  if (process.env.NODE_ENV === 'production') {
-    const feed = await fetchWebmentions(cache.lastFetched);
-
-    if (feed) {
-      const webmentions = {
-        lastFetched: new Date().toISOString(),
-        children: mergeWebmentions(cache, feed)
-      };
-
-      writeToCache(webmentions);
-      return webmentions;
-    }
-  }
-
-  return cache;
 };
