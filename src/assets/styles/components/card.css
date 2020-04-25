@@ -2,7 +2,6 @@
   --anchor-decoration: none;
   --color-accent: var(--color-accent-light);
   --card-growth: var(--step-0);
-  --card-shadow: var(--color-alpha-highest);
 
   background: var(--color-offset);
   display: flex;
@@ -17,15 +16,14 @@
 @media (prefers-color-scheme: dark) {
   .card {
     --color-accent: var(--color-accent-dark);
-    --card-shadow: black;
   }
 }
 
 .card:hover {
   background-color: var(--color-background);
   box-shadow:
-    0 0 0 1px var(--color-rule),
-    0 0 4vw var(--card-shadow);
+    inset 0 0 0 1px var(--color-neutral-lighter),
+    0 0 4vw var(--color-shadow);
 }
 
 @media (--from-small-viewport) {

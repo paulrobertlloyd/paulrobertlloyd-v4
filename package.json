@@ -52,7 +52,6 @@
     "openflights-cached": "^1.2.8",
     "pluscodes": "^2.5.0",
     "postcss-cli": "^7.1.0",
-    "postcss-color-mod-function": "^3.0.0",
     "postcss-custom-media": "^7.0.8",
     "postcss-custom-selectors": "^5.1.2",
     "postcss-easy-import": "^3.0.0",

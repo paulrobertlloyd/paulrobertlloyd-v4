@@ -1,27 +1,26 @@
 :root {
   /* Neutral palette */
-  --color-neutral: hsl(228 8% 50%);
-  --color-neutral-darkest: color-mod(var(--color-neutral) l(16%));
-  --color-neutral-darker: color-mod(var(--color-neutral) l(36%));
-  --color-neutral-dark: color-mod(var(--color-neutral) l(44%));
-  --color-neutral-light: color-mod(var(--color-neutral) l(80%));
-  --color-neutral-lighter: color-mod(var(--color-neutral) s(7%) l(88%));
-  --color-neutral-lightest: color-mod(var(--color-neutral) s(2%) l(96%));
-
-  /* Alpha palette */
-  --color-alpha-highest: color-mod(var(--color-neutral-darkest) a(0.1));
-  --color-alpha-high: color-mod(var(--color-neutral-darkest) a(0.33));
-  --color-alpha-low: color-mod(var(--color-neutral-darkest) a(0.67));
-  --color-alpha-lowest: color-mod(var(--color-neutral-darkest) a(0.9));
+  --tint: 228 8%;
+  --color-neutral-darkest: hsl(var(--tint) 16%);
+  --color-neutral-darker: hsl(var(--tint) 36%);
+  --color-neutral-dark: hsl(var(--tint) 44%);
+  --color-neutral: hsl(var(--tint) 50%);
+  --color-neutral-light: hsl(var(--tint) 80%);
+  --color-neutral-lighter: hsl(var(--tint) 88%);
+  --color-neutral-lightest: hsl(var(--tint) 96%);
 
   /* Colour assignments */
   --color-accent: var(--color-accent-light);
   --color-background: white;
+  --color-offset: var(--color-neutral-lightest);
+  --color-outline: hsl(var(--tint) 16% / 20%);
+  --color-shadow: hsl(var(--tint) 16% / 10%);
+  --color-rule: var(--color-neutral-lightest);
+
   --color-text: var(--color-neutral-darkest);
   --color-link: var(--color-accent);
-  --color-link-underline: var(--color-alpha-high);
-  --color-rule: var(--color-alpha-highest);
-  --color-offset: var(--color-neutral-lightest);
+  --color-link-underline: var(--color-neutral-light);
+
   --color-delete: hsl(0 100% 80% / 75%);
   --color-highlight: hsl(60 100% 80% / 75%);
   --color-insert: hsl(120 100% 80% / 75%);
@@ -100,18 +99,16 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-neutral: hsl(228 8% 64% / 15%);
-    --color-neutral-darkest: color-mod(var(--color-neutral) s(2%) l(96%));
-    --color-neutral-darker: color-mod(var(--color-neutral) s(7%) l(88%));
-    --color-neutral-dark: color-mod(var(--color-neutral) l(80%));
-    --color-neutral-light: color-mod(var(--color-neutral) l(40%));
-    --color-neutral-lighter: color-mod(var(--color-neutral) l(32%));
-    --color-neutral-lightest: color-mod(var(--color-neutral) l(16%));
-    --color-alpha-highest: color-mod(var(--color-neutral-lightest) a(0.1));
-    --color-alpha-high: color-mod(var(--color-neutral-lightest) a(0.33));
+    --color-neutral-darkest: hsl(var(--tint) 96%);
+    --color-neutral-darker: hsl(var(--tint) 88%);
+    --color-neutral-dark: hsl(var(--tint) 80%);
+    --color-neutral: hsl(var(--tint) 50%);
+    --color-neutral-light: hsl(var(--tint) 44%);
+    --color-neutral-lighter: hsl(var(--tint) 36%);
+    --color-neutral-lightest: hsl(var(--tint) 16%);
     --color-accent: var(--color-accent-dark);
-    --color-background: color-mod(var(--color-neutral) l(8%));
-    --color-link-underline: var(--color-alpha-high);
+    --color-background: hsl(var(--tint) 8%);
+    --color-shadow: black;
     --color-highlight: hsl(60 100% 70% / 15%);
     --line-height-tight: calc(1.25em + 0.5vw);
     --line-height-loose: calc(1.414em + 0.5vw);

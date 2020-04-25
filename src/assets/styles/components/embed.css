@@ -20,7 +20,7 @@
 }
 
 .embed__button {
-  background-color: var(--color-alpha-low);
+  background-color: hsl(var(--tint) 8% / 67%);
   block-size: 2em;
   border-radius: 100%;
   box-shadow: 0 0 0 1px hsl(0 100% 100% / 25%);
@@ -37,7 +37,7 @@
 }
 
 .embed__button:hover {
-  background-color: var(--color-alpha-lowest);
+  background-color: hsl(var(--tint) 8% / 90%);
 }
 
 .embed__button:focus {

@@ -13,11 +13,11 @@
 }
 
 [style^="--chart-width"]::before {
-  background-color: var(--color-rule);
+  background-color: var(--color-outline);
   content: "";
   display: block;
   inline-size: var(--chart-width);
-  inset-block: calc(var(--space-inline) / 2);
+  inset-block: calc(var(--space-block) / 2);
   inset-inline: 0;
   position: absolute;
 }

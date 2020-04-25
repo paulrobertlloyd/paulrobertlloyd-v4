@@ -58,38 +58,27 @@ textarea.form__input {
 
 /* Listbox */
 .form__listbox {
-  --listbox-shadow: var(--color-alpha-highest);
   background-color: var(--color-background);
-  border: var(--border-width-thin) solid var(--color-rule);
-  box-shadow: 0 0 4px var(--listbox-shadow);
-  inset-inline: 0;
-  margin-block-start: calc(var(--border-width-thin) * -1);
+  border: var(--border-width-thick) solid var(--color-neutral-darker);
+  margin-block-start: calc(var(--border-width-thick) * -1);
   max-block-size: 60vh;
   overflow-y: scroll;
-  position: absolute;
-  z-index: 1;
 }
 
 .form__listbox [aria-selected="true"] {
   background-color: var(--color-accent);
-  color: white; /* Do not adapt based on theme */
+  color: white;
 }
 
 .form__listbox :focus {
   outline: 0;
 }
 
-@media (prefers-color-scheme: dark) {
-  .form__listbox {
-    --listbox-shadow: black;
-  }
-}
-
 /* Option */
 .form__option {
   --anchor-decoration: none;
   align-items: baseline;
-  border-block-end: var(--border-width-thin) solid var(--color-rule);
+  border-block-end: var(--border-width-thin) solid var(--color-outline);
   display: flex;
   padding: var(--inset);
 }
@@ -99,7 +88,6 @@ textarea.form__input {
 }
 
 .form__option-title {
-  @extend %body;
   flex: 1;
 }
 
