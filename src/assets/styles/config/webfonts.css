@@ -1,28 +1,28 @@
 @font-face {
   font-display: swap;
-  font-family: "Untitled";
+  font-family: "Söhne Mono";
   font-weight: normal;
-  src: url("/assets/fonts/untitled-regular.woff2") format("woff2");
+  src: url("/assets/fonts/soehne-mono-buch.woff2") format("woff2");
 }
 
 @font-face {
   font-display: swap;
-  font-family: "Untitled";
+  font-family: "Söhne";
+  font-weight: normal;
+  src: url("/assets/fonts/soehne-buch.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Söhne";
   font-style: italic;
   font-weight: normal;
-  src: url("/assets/fonts/untitled-italic.woff2") format("woff2");
+  src: url("/assets/fonts/soehne-buch-kursiv.woff2") format("woff2");
 }
 
 @font-face {
   font-display: swap;
-  font-family: "Untitled";
+  font-family: "Söhne";
   font-weight: 600;
-  src: url("/assets/fonts/untitled-medium.woff2") format("woff2");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "Source Code Pro";
-  font-weight: normal;
-  src: url("/assets/fonts/sourcecodepro-regular.woff2") format("woff2");
+  src: url("/assets/fonts/soehne-kraftig.woff2") format("woff2");
 }

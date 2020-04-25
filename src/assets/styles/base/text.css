@@ -31,7 +31,6 @@ a[rel="tag"] {
 
 a[rel="tag"]::before {
   content: "#";
-  opacity: 0.5;
 }
 
 a[rel="tag"]:hover::before {
@@ -79,11 +78,6 @@ var {
   font-family: var(--font-family-monospace);
   font-variant-numeric: tabular-nums;
   hanging-punctuation: none;
-}
-
-code,
-samp {
-  font-size: 1rem;
 }
 
 del {

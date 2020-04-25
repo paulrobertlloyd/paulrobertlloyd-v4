@@ -27,11 +27,11 @@
   --color-focus: hsl(40 100% 50%);
 
   /* Typography */
-  --font-family-sans: "Untitled", sans-serif;
-  --font-family-monospace: "Source Code Pro", monospace;
-  --line-height-tight: 1.25;
+  --font-family-sans: "Söhne", sans-serif;
+  --font-family-monospace: "Söhne Mono", monospace;
+  --line-height-tight: 1.125;
   --line-height-loose: 1.414;
-  --line-height-prose: 1.667;
+  --line-height-prose: 1.75;
   --line-measure: 42.5rem;
   --word-spacing: 0;
 
@@ -73,7 +73,7 @@
   --sticky-title-block-size: 0;
 
   /* Align items with logo */
-  --logo-inline-size: 9rem;
+  --logo-inline-size: 8rem;
 
   /* Indicate the presence of dark mode styles */
   color-scheme: light dark;

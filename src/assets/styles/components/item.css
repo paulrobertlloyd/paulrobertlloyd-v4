@@ -18,7 +18,6 @@
 .item__title {
   @extend %subhead;
   --anchor-decoration: none;
-  --subhead-font-size: var(--item-title-font-size);
 }
 
 .item__title svg {

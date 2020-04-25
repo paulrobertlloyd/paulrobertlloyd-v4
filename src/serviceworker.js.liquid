@@ -41,10 +41,10 @@ function updateStaticCache() {
   return caches.open(staticCacheName).then(staticCache => {
     // Assets that won't block installation
     staticCache.addAll([
-      '/assets/fonts/untitled-regular.woff2',
-      '/assets/fonts/untitled-italic.woff2',
-      '/assets/fonts/untitled-medium.woff2',
-      '/assets/fonts/sourcecodepro-regular.woff2'
+      '/assets/fonts/soehne-buch.woff2',
+      '/assets/fonts/soehne-buch-kursiv.woff2',
+      '/assets/fonts/soehne-kraftig.woff2',
+      '/assets/fonts/soehne-mono-buch.woff2'
     ].concat(offlinePages));
     // Assets required for installation to complete
     return staticCache.addAll([

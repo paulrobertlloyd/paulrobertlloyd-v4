@@ -41,6 +41,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: var(--font-family-sans);
+  letter-spacing: 0.0125em;
   margin: 0;
   min-block-size: 100vh;
   overflow-x: hidden;

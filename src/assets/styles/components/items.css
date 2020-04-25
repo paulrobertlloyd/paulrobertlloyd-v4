@@ -4,7 +4,6 @@
     "main" auto
     "footer" 1fr /
     1fr;
-  --item-title-font-size: var(--step-1);
 }
 
 @media (--from-medium-viewport) {
@@ -13,7 +12,6 @@
       "footer header" auto
       "footer main" 1fr /
       var(--logo-inline-size) 1fr;
-    --item-title-font-size: var(--step-2);
   }
 }
 

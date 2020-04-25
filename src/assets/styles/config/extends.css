@@ -1,18 +1,20 @@
 /* Typographic styles */
 %title {
+  font-feature-settings: "ss02" 1, "case" 1;
   font-size: var(--title-font-size, var(--step-5));
   font-weight: 500;
   hanging-punctuation: first;
-  letter-spacing: -0.025em;
+  letter-spacing: 0;
   line-height: var(--line-height-tight);
 }
 
 %heading {
   --flow-space: 2em;
+  font-feature-settings: "ss02" 1, "case" 1;
   font-size: var(--step-3);
   font-weight: normal;
   hanging-punctuation: first;
-  letter-spacing: -0.025em;
+  letter-spacing: 0;
   line-height: var(--line-height-tight);
 }
 
@@ -20,18 +22,17 @@
   --flow-space: 0.5em;
   font-size: var(--step-2);
   hanging-punctuation: first;
-  letter-spacing: -0.025em;
   line-height: var(--line-height-loose);
 }
 
 %subhead {
   --flow-space: 1.5em;
+  font-feature-settings: "ss02" 1, "case" 1;
   font-size: var(--subhead-font-size, var(--step-2));
   font-weight: 500;
   hanging-punctuation: first;
-  letter-spacing: -0.025em;
+  letter-spacing: 0;
   line-height: var(--line-height-tight);
-  text-shadow: 0.01em 0 0.0025em currentColor;
 }
 
 %body {
