@@ -9,11 +9,6 @@ summary {
   cursor: pointer;
 }
 
-summary::-webkit-details-marker {
-  display: none;
-}
-
-/* TODO: Better focus styles */
 summary:focus {
-  outline: 0;
+  outline-offset: var(--border-width-thick);
 }

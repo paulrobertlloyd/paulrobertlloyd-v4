@@ -39,3 +39,9 @@
 .embed__button:hover {
   background-color: var(--color-alpha-lowest);
 }
+
+.embed__button:focus {
+  background-color: var(--color-focus);
+  border: var(--border-width-thicker) solid white;
+  outline: 0;
+}

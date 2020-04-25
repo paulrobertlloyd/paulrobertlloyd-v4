@@ -25,7 +25,7 @@
   --color-delete: hsla(0, 100%, 80%, 0.75);
   --color-highlight: hsla(60, 100%, 80%, 0.75);
   --color-insert: hsla(120, 100%, 80%, 0.75);
-  --color-focus: var(--color-accent);
+  --color-focus: hsla(40, 100%, 50%, 1);
 
   /* Typography */
   --font-family-sans: "Untitled", sans-serif;
@@ -38,8 +38,8 @@
 
   /* Borders */
   --border-width-thin: 1px;
-  --border-width-thick: 0.09375rem;
-  --border-width-thickest: 0.5em;
+  --border-width-thick: 2px;
+  --border-width-thicker: 3px;
 
   /* Sizing */
   --size-icon-small: 1rem;

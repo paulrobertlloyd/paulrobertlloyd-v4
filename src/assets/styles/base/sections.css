@@ -22,7 +22,16 @@ html {
 }
 
 :focus {
-  outline-color: var(--color-focus);
+  outline: var(--border-width-thicker) solid var(--color-focus);
+  z-index: 1;
+}
+
+:focus:not(:-moz-focusring) {
+  outline: 0;
+}
+
+:-moz-focusring {
+  outline: var(--border-width-thicker) solid var(--color-focus);
 }
 
 body {

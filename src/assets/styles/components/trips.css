@@ -8,8 +8,6 @@
 
 summary.trips__summary {
   --caption-color: var(--color-accent);
-  text-decoration: underline;
-  text-decoration-color: var(--color-link-underline);
 }
 
 .trips__list {

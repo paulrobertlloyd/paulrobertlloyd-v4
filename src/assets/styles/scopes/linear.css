@@ -50,7 +50,7 @@
 }
 
 .s-linear blockquote {
-  border-inline-start: var(--border-width-thickest) solid var(--color-rule);
+  border-inline-start: 0.5em solid var(--color-rule);
   margin-inline-start: 0;
   padding-inline-start: var(--flow-inset);
 }

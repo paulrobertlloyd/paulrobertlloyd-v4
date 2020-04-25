@@ -1,8 +1,8 @@
 .facepile {
   --anchor-decoration: none;
   align-items: center;
-  display: flex;
-  margin-block-end: var(--step-0);
+  display: inline-flex;
+  padding-block: var(--inset-small);
 }
 
 .facepile .avatar {
@@ -19,8 +19,6 @@
 
 .facepile__title {
   margin-inline-end: var(--space-inline);
-  text-decoration: underline;
-  text-decoration-color: var(--color-link-underline);
   white-space: nowrap;
 }
 

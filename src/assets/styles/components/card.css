@@ -60,6 +60,15 @@
   z-index: 2;
 }
 
+.card__title a:focus {
+  outline: 0;
+}
+
+.card__title a:focus::before {
+  outline: var(--border-width-thicker) solid var(--color-focus);
+  outline-offset: calc(var(--border-width-thicker) * -1);
+}
+
 .card__main {
   @extend %body;
 

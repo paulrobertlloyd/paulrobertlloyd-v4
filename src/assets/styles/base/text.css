@@ -15,6 +15,10 @@ a:hover {
   text-decoration-color: var(--color-accent);
 }
 
+/* a:focus {
+  outline-offset: var(--border-width-thick);
+} */
+
 a[aria-current] {
   font-weight: 500;
 }

@@ -8,7 +8,8 @@
  * 1. Reset rounded corners on Safari iOS
  * 2. Reset font properties to `inherit`
  * 3. Reset the margin in Firefox and Safari
- * 4. Show overflow in IE and Edge
+ * 4. Consistent outline offset in Safari
+ * 5. Show overflow in IE and Edge
  */
 button,
 input,
@@ -18,7 +19,8 @@ textarea {
   color: inherit;
   font: inherit; /* 2 */
   margin: 0; /* 3 */
-  overflow: visible; /* 4 */
+  outline-offset: 0; /* 4 */
+  overflow: visible; /* 5 */
 }
 
 /*
@@ -35,13 +37,11 @@ button,
 }
 
 /*
- * 1. Correct odd appearance in Chrome and Safari
- * 2. Correct outline style in Safari
+ * Correct odd appearance in Chrome and Safari
  */
 [type="search"] {
-  -webkit-appearance: none; /* 1 */
-  border-radius: 0; /* 1 */
-  outline-offset: 0; /* 2 */
+  -webkit-appearance: none;
+  border-radius: 0;
 }
 
 /*

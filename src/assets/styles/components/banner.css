@@ -9,6 +9,25 @@
   display: flex;
   flex-wrap: wrap;
   padding-block: var(--step-4);
+  position: relative;
+}
+
+.banner__skip {
+  display: block;
+  background-color: var(--color-focus);
+  inset-block-start: 0;
+  inset-inline-start: calc(var(--gap) - var(--inset));
+  outline-offset: 0;
+  padding: var(--inset-squished);
+  position: absolute;
+  transform: translateY(0);
+}
+
+.banner__skip:not(:focus) {
+  @extend .visually-hidden;
+
+  transform: translateY(-100%);
+  transition: transform 0.5s ease-out;
 }
 
 .banner__title {

@@ -14,8 +14,6 @@
 }
 
 .form__label {
-  @extend %body;
-
   flex: 1 0 25%;
   min-inline-size: 8em;
   padding-block: var(--inset);
@@ -24,7 +22,7 @@
 /* Input */
 .form__input {
   background-color: var(--color-background);
-  border: var(--border-width-thick) solid var(--color-alpha-high);
+  border: var(--border-width-thick) solid var(--color-neutral-lighter);
   flex: 1 0 75%;
   inline-size: 100%;
   margin-block-start: 0;
@@ -32,8 +30,8 @@
 }
 
 .form__input:focus {
-  border-color: var(--color-accent);
-  outline: var(--border-width-thick) solid var(--color-accent);
+  border-color: var(--color-neutral-darker);
+  outline: var(--border-width-thicker) solid var(--color-focus);
 }
 
 textarea.form__input {
@@ -42,7 +40,7 @@ textarea.form__input {
 
 /* Button */
 .form__button {
-  background-color: var(--color-neutral-darkest);
+  background-color: var(--color-text);
   color: var(--color-neutral-lightest);
   font-weight: 500;
   padding: var(--inset-large-squished);
@@ -75,6 +73,10 @@ textarea.form__input {
 .form__listbox [aria-selected="true"] {
   background-color: var(--color-accent);
   color: white; /* Do not adapt based on theme */
+}
+
+.form__listbox :focus {
+  outline: 0;
 }
 
 @media (prefers-color-scheme: dark) {

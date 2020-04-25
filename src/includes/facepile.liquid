@@ -1,5 +1,5 @@
 <span class="facepile">
-  <span class="facepile__title">Show all {{ type | downcase }}</span>
+  <span class="facepile__title">{{ type }}</span>
   <span class="facepile__main">
     {% for item in facepile limit: 5 %}
       <img class="avatar" src="{{ item.author.photo | default: '/assets/vectors/avatar.svg' }}?s=48&d=identicon" title="{{ item.author.name }}" alt="{{ item.author.name }}" width="48" height="48">
