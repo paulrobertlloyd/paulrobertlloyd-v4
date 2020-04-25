@@ -1,6 +1,6 @@
 :root {
   /* Neutral palette */
-  --color-neutral: hsla(228, 8%, 50%, 1);
+  --color-neutral: hsl(228 8% 50%);
   --color-neutral-darkest: color-mod(var(--color-neutral) l(16%));
   --color-neutral-darker: color-mod(var(--color-neutral) l(36%));
   --color-neutral-dark: color-mod(var(--color-neutral) l(44%));
@@ -22,10 +22,10 @@
   --color-link-underline: var(--color-alpha-high);
   --color-rule: var(--color-alpha-highest);
   --color-offset: var(--color-neutral-lightest);
-  --color-delete: hsla(0, 100%, 80%, 0.75);
-  --color-highlight: hsla(60, 100%, 80%, 0.75);
-  --color-insert: hsla(120, 100%, 80%, 0.75);
-  --color-focus: hsla(40, 100%, 50%, 1);
+  --color-delete: hsl(0 100% 80% / 75%);
+  --color-highlight: hsl(60 100% 80% / 75%);
+  --color-insert: hsl(120 100% 80% / 75%);
+  --color-focus: hsl(40 100% 50%);
 
   /* Typography */
   --font-family-sans: "Untitled", sans-serif;
@@ -100,7 +100,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-neutral: hsla(228, 8%, 64%, 1);
+    --color-neutral: hsl(228 8% 64% / 15%);
     --color-neutral-darkest: color-mod(var(--color-neutral) s(2%) l(96%));
     --color-neutral-darker: color-mod(var(--color-neutral) s(7%) l(88%));
     --color-neutral-dark: color-mod(var(--color-neutral) l(80%));
@@ -112,7 +112,7 @@
     --color-accent: var(--color-accent-dark);
     --color-background: color-mod(var(--color-neutral) l(8%));
     --color-link-underline: var(--color-alpha-high);
-    --color-highlight: hsla(60, 100%, 70%, 0.15);
+    --color-highlight: hsl(60 100% 70% / 15%);
     --line-height-tight: calc(1.25em + 0.5vw);
     --line-height-loose: calc(1.414em + 0.5vw);
     --line-height-prose: calc(1.667em + 0.5vw);

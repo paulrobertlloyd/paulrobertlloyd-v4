@@ -23,7 +23,7 @@
   background-color: var(--color-alpha-low);
   block-size: 2em;
   border-radius: 100%;
-  box-shadow: 0 0 0 1px hsla(0, 100%, 100%, 0.25);
+  box-shadow: 0 0 0 1px hsl(0 100% 100% / 25%);
   color: white;
   cursor: pointer;
   font-size: var(--step-5);
