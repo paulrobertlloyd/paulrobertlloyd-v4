@@ -22,9 +22,9 @@
   --color-link-underline: var(--color-neutral-light);
 
   --color-delete: hsl(0 100% 80% / 75%);
-  --color-highlight: hsl(60 100% 80% / 75%);
+  --color-highlight: hsl(48 100% 80% / 75%);
   --color-insert: hsl(120 100% 80% / 75%);
-  --color-focus: hsl(40 100% 50%);
+  --color-focus: hsl(48 100% 50%);
 
   /* Typography */
   --font-family-sans: "Söhne", sans-serif;
