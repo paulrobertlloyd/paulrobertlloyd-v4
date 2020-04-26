@@ -18,16 +18,16 @@
 .s-linear > hr {
   border-block-end: var(--border-width-thick) solid var(--color-rule);
   inline-size: calc(33% - calc(var(--gap) / 2));
-  margin-block: calc(var(--flow-space) * 2);
+  margin-block: var(--gap);
   margin-inline-start: 0;
 }
 
-.s-linear * + pre,
-.s-linear * + aside,
-.s-linear * + blockquote,
-.s-linear * + figure,
-.s-linear * + table {
-  margin-block: calc(var(--flow-space) * 2);
+.s-linear pre,
+.s-linear aside,
+.s-linear blockquote,
+.s-linear figure,
+.s-linear table {
+  margin-block: var(--gap);
 }
 
 .s-linear .align-pull,
