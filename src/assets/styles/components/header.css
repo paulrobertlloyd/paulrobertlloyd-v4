@@ -17,7 +17,7 @@
 
 .header__summary {
   @extend %lede;
-  color: var(--color-neutral-darker);
+  color: var(--color-neutral-dark);
 }
 
 .header__url {

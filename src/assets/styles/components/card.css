@@ -4,6 +4,7 @@
   --card-growth: var(--step-0);
 
   background: var(--color-offset);
+  border-radius: var(--border-radius);
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -42,7 +43,7 @@
 }
 
 .card__header {
-  padding: var(--inset);
+  padding: var(--inset-small);
   padding-block-end: 0;
 }
 
@@ -69,16 +70,16 @@
 
 .card__main {
   @extend %body;
-
+  --body-line-height: var(--line-height-tight);
   color: var(--color-neutral-dark);
-  padding: var(--inset);
+  padding: var(--inset-small);
 }
 
 .card__footer {
   @extend %caption;
 
   margin-block-start: auto;
-  padding: var(--inset);
+  padding: var(--inset-small);
 }
 
 .card svg {

@@ -72,7 +72,7 @@
 .token.bold,
 .token.function,
 .token.important {
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .token.italic {

@@ -5,6 +5,6 @@
 
 .categories li {
   display: inline-block;
-  padding: var(--inset-squished);
+  padding: var(--inset-small-squished);
   padding-inline-start: 0;
 }

@@ -2,7 +2,6 @@
 %title {
   font-feature-settings: "ss02" 1, "case" 1;
   font-size: var(--title-font-size, var(--step-5));
-  font-weight: 500;
   hanging-punctuation: first;
   letter-spacing: 0;
   line-height: var(--line-height-tight);
@@ -12,7 +11,7 @@
   --flow-space: 2em;
   font-feature-settings: "ss02" 1, "case" 1;
   font-size: var(--step-3);
-  font-weight: normal;
+  font-weight: 500;
   hanging-punctuation: first;
   letter-spacing: 0;
   line-height: var(--line-height-tight);
@@ -20,6 +19,7 @@
 
 %lede {
   --flow-space: 0.5em;
+  font-feature-settings: "ss02" 1, "case" 1;
   font-size: var(--step-2);
   hanging-punctuation: first;
   line-height: var(--line-height-loose);
@@ -29,7 +29,6 @@
   --flow-space: 1.5em;
   font-feature-settings: "ss02" 1, "case" 1;
   font-size: var(--subhead-font-size, var(--step-2));
-  font-weight: 500;
   hanging-punctuation: first;
   letter-spacing: 0;
   line-height: var(--line-height-tight);

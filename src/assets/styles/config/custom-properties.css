@@ -1,6 +1,6 @@
 :root {
   /* Neutral palette */
-  --tint: 228 8%;
+  --tint: 228 6%;
   --color-neutral-darkest: hsl(var(--tint) 16%);
   --color-neutral-darker: hsl(var(--tint) 36%);
   --color-neutral-dark: hsl(var(--tint) 44%);
@@ -29,16 +29,18 @@
   /* Typography */
   --font-family-sans: "Söhne", sans-serif;
   --font-family-monospace: "Söhne Mono", monospace;
-  --line-height-tight: 1.125;
-  --line-height-loose: 1.414;
+  --line-height-tight: 1.25;
+  --line-height-loose: 1.5;
   --line-height-prose: 1.75;
   --line-measure: 42.5rem;
   --word-spacing: 0;
+  --text-spacing: 0 0.25em 0.125em 0.25em;
 
   /* Borders */
   --border-width-thin: 1px;
   --border-width-thick: 2px;
   --border-width-thicker: 3px;
+  --border-radius: 4px;
 
   /* Sizing */
   --size-icon-small: 1rem;
@@ -50,11 +52,9 @@
   --space-inline: 0.75rem;
 
   /* Inset spacing */
-  --inset: var(--space-inline);
-  --inset-squished: calc(var(--inset) / 2) var(--inset);
-  --inset-small: calc(var(--inset) / 2);
+  --inset-small: var(--space-inline);
   --inset-small-squished: calc(var(--inset-small) / 2) var(--inset-small);
-  --inset-large: calc(var(--inset) * 2);
+  --inset-large: calc(var(--inset-small) * 2);
   --inset-large-squished: calc(var(--inset-large) / 2) var(--inset-large);
 
   /* Grids */
@@ -111,8 +111,8 @@
     --color-shadow: black;
     --color-highlight: hsl(60 100% 70% / 15%);
     --line-height-tight: calc(1.25em + 0.5vw);
-    --line-height-loose: calc(1.414em + 0.5vw);
-    --line-height-prose: calc(1.667em + 0.5vw);
+    --line-height-loose: calc(1.5em + 0.5vw);
+    --line-height-prose: calc(1.75em + 0.5vw);
     --word-spacing: 0.05em;
   }
 }

@@ -16,9 +16,9 @@
   display: block;
   background-color: var(--color-focus);
   inset-block-start: 0;
-  inset-inline-start: calc(var(--gap) - var(--inset));
+  inset-inline-start: calc(var(--gap) - var(--inset-small));
   outline-offset: 0;
-  padding: var(--inset-squished);
+  padding: var(--inset-small-squished);
   position: absolute;
   transform: translateY(0);
 }
@@ -33,7 +33,7 @@
 .banner__title {
   color: var(--color-text);
   flex: 0;
-  font-weight: 600;
+  font-weight: 500;
   margin-inline-end: var(--gap);
   min-inline-size: var(--logo-inline-size);
   white-space: nowrap;
@@ -42,8 +42,8 @@
 .banner__title a {
   color: var(--color-text);
   display: inline-flex;
-  margin-inline-start: calc(var(--inset) * -1);
-  padding: var(--inset-squished);
+  margin-inline-start: calc(var(--inset-small) * -1);
+  padding: var(--inset-small-squished);
 }
 
 .banner__title a:hover {
@@ -56,7 +56,7 @@
   flex: 1;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-inline: calc(var(--inset) * -1);
+  margin-inline: calc(var(--inset-small) * -1);
 }
 
 @media print {

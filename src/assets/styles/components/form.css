@@ -4,7 +4,6 @@
 
 .form__title {
   @extend %body;
-  color: var(--color-neutral-dark);
 }
 
 .form__field {
@@ -16,7 +15,7 @@
 .form__label {
   flex: 1 0 25%;
   min-inline-size: 8em;
-  padding-block: var(--inset);
+  padding-block: var(--inset-small);
 }
 
 /* Input */
@@ -26,7 +25,7 @@
   flex: 1 0 75%;
   inline-size: 100%;
   margin-block-start: 0;
-  padding: var(--inset);
+  padding: var(--inset-small);
 }
 
 .form__input:focus {
@@ -80,7 +79,7 @@ textarea.form__input {
   align-items: baseline;
   border-block-end: var(--border-width-thin) solid var(--color-outline);
   display: flex;
-  padding: var(--inset);
+  padding: var(--inset-small);
 }
 
 .form__option:hover {

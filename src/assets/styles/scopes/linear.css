@@ -1,7 +1,7 @@
 .s-linear {
   @extend %body;
 
-  --flow-inset: 1.5em;
+  --flow-inset: 1.25em;
   --list-display: list-item;
   --linear-measure: var(--line-measure);
 }
@@ -50,7 +50,7 @@
 }
 
 .s-linear blockquote {
-  border-inline-start: 0.5em solid var(--color-rule);
+  border-inline-start: var(--border-width-thicker) solid var(--color-accent);
   margin-inline-start: 0;
   padding-inline-start: var(--flow-inset);
 }
@@ -62,9 +62,11 @@
 
 .s-linear pre {
   background-color: var(--color-offset);
+  border-radius: var(--border-radius);
   display: block;
+  font-size: var(--step-0);
   overflow-x: scroll;
-  padding: var(--inset);
+  padding: var(--inset-small);
 }
 
 .s-linear table {
@@ -75,7 +77,7 @@
 
 .s-linear th,
 .s-linear td {
-  padding: var(--inset-squished);
+  padding: var(--inset-small-squished);
   padding-block-end: 1em;
 }
 
@@ -131,7 +133,7 @@
 
 .s-linear dt,
 .s-linear strong {
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .s-linear small {
@@ -142,14 +144,20 @@
   margin-block-start: 0;
 }
 
-.s-linear :not(pre) code {
+.s-linear :not(pre) code,
+.s-linear samp,
+.s-linear del,
+.s-linear ins {
+  border-radius: var(--border-radius);
+  padding: var(--text-spacing);
+}
+
+.s-linear code {
   background-color: var(--color-offset);
-  padding: var(--inset-small-squished);
 }
 
 .s-linear samp {
   border: var(--border-width-thin) solid var(--color-offset);
-  padding: var(--inset-small-squished);
 }
 
 .s-linear .footnotes {
