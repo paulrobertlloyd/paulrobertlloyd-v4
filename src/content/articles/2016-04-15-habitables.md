@@ -18,6 +18,7 @@ photoset:
 {% render 'figure' with '/images/2016/04/habitables/sideboard.jpg'
   caption: 'Sideboard, designed by Manuel Barrera/Habitables.'
   alignment: 'bleed'
+  image_ratio: 1.7778
 %}
 
 Having lived in my current flat for just over two years, I’m determined for this to be the year that I finally make it feel like a home.
