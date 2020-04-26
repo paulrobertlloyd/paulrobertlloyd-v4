@@ -13,8 +13,8 @@
 }
 
 .banner__skip {
-  display: block;
   background-color: var(--color-focus);
+  display: block;
   inset-block-start: 0;
   inset-inline-start: calc(var(--gap) - var(--inset-small));
   outline-offset: 0;

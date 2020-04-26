@@ -144,16 +144,16 @@
   margin-block-start: 0;
 }
 
+.s-linear code {
+  background-color: var(--color-offset);
+}
+
 .s-linear :not(pre) code,
 .s-linear samp,
 .s-linear del,
 .s-linear ins {
   border-radius: var(--border-radius);
   padding: var(--text-spacing);
-}
-
-.s-linear code {
-  background-color: var(--color-offset);
 }
 
 .s-linear samp {
