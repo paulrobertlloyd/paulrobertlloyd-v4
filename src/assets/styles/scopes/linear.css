@@ -156,6 +156,15 @@
   @extend %caption;
 }
 
+.s-linear .footnotes :target {
+  color: var(--color-text);
+}
+
+.s-linear .footnote-ref {
+  font-variant: tabular-nums;
+  padding: var(--text-spacing);
+}
+
 .s-linear .footnote-backref {
   align-items: baseline;
   background-color: var(--color-offset);
