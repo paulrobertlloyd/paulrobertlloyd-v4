@@ -1,5 +1,4 @@
-{%- assign id = item.wm-id | default: forloop.rindex | prepend: 'remark-' -%}
-{%- assign permalink = id | prepend: '#' -%}
+{%- assign permalink = id | prepend: '#remark-' -%}
 <article class="item | p-comment h-cite" id="{{ id }}">
   <header class="item__header">
     <h3 class="item__title | p-author h-card">
