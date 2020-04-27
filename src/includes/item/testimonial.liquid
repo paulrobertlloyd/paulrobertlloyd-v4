@@ -1,12 +1,12 @@
 <figure class="item item--testimonial | h-review">
   <div class="item__main s-linear | e-content p-name">
     <blockquote>
-      {{ item.data.content | markdown }}
+      {{ item.content | markdown }}
     </blockquote>
     <figcaption class="p-author h-card">
-      <span class="p-name">{{ item.data.name }},</span>
-      <span class="p-role">{{ item.data.role }},</span>
-      <span class="p-org">{{ item.data.org }}</span>
+      <span class="p-name">{{ item.name }},</span>
+      <span class="p-role">{{ item.role }},</span>
+      <span class="p-org">{{ item.org }}</span>
     </figcaption>
   </div>
 </figure>
