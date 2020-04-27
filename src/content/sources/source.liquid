@@ -3,20 +3,14 @@ layout: source
 pagination:
   data: sources
   size: 1
-  alias: page
+  alias: source
   addAllPagesToCollections: true
-permalink: "articles/sources/{{ page.fileSlug }}/"
+permalink: "articles/sources/{{ source.title | slug }}/"
+tags: source
 changefreq: monthly
 priority: 0.2
 eleventyComputed:
-  title: "{{ page.data.title }}"
-  page_title: "{{ title }} · {{ app.title }}"
-  summary: "{{ page.data.summary }}"
-  url: "{{ page.data.url }}"
-  tag: "source:{{ page.fileSlug }}"
+  title: "{{ source.title }}"
+  summary: "{{ source.summary }}"
+  tag: "source:{{ title | slug }}"
 ---
-<!--
-  Additional value to compute: `url`
-  11ty converts computed Liquid variables to strings
-  See: https://github.com/11ty/eleventy/issues/1069
--->

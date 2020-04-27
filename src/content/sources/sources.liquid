@@ -8,7 +8,7 @@ priority: 0.9
 eleventyComputed:
   page_title: "{{ introduction }} · {{ app.title }}"
 ---
-{%- render 'items' with sources
+{%- render 'items' with collections.source
   component: 'section'
   grid_size: '12rem'
 -%}

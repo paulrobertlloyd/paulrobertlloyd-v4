@@ -29,14 +29,14 @@
     </dd>
 {%- endif -%}
 {%- if canonical -%}
-  {%- for item in sources -%}
-    {%- if canonical.source == item.fileSlug -%}
+  {%- for source in sources -%}
+    {%- if canonical.source == source.title | slug -%}
     <dt>Originally appeared in</dt>
-    <dd><cite>{{ item.data.title }}</cite>, {{ canonical.edition }}</dd>
+    <dd><cite>{{ source.title }}</cite>, {{ canonical.edition }}</dd>
     {%- endif -%}
-    {%- if canonical.url contains item.data.url -%}
+    {%- if canonical.url contains source.url -%}
     <dt>Originally published by</dt>
-    <dd><a rel="canonical external" href="{{ canonical.url }}"><cite>{{ item.data.title }}</cite></a></dd>
+    <dd><a rel="canonical external" href="{{ canonical.url }}"><cite>{{ source.title }}</cite></a></dd>
     {%- endif -%}
   {%- endfor -%}
 {%- endif -%}
