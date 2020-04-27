@@ -3,13 +3,13 @@ layout: skill
 pagination:
   data: skills
   size: 1
-  alias: page
+  alias: skill
   addAllPagesToCollections: true
-permalink: "projects/skills/{{ page.fileSlug }}/"
+permalink: "projects/skills/{{ skill.title | slug }}/"
+tags: skill
 changefreq: monthly
 priority: 0.2
 eleventyComputed:
-  title: "{{ page.data.title }}"
-  page_title: "{{ title }} · {{ app.title }}"
-  summary: "{{ page.data.summary }}"
+  title: "{{ skill.title }}"
+  summary: "{{ skill.summary }}"
 ---
