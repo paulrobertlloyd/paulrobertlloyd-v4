@@ -14,6 +14,7 @@
 
 .banner__skip {
   background-color: var(--color-focus);
+  color: var(--color-text-focus);
   display: block;
   inset-block-start: 0;
   inset-inline-start: calc(var(--gap) - var(--inset-small));
