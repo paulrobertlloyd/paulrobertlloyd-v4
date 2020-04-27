@@ -16,7 +16,7 @@
     <dt class="visually-hidden">Venue</dt>
     <dd class="p-location h-card">
       <a class="u-url" href="{{ venue.url }}">
-        <span class="p-name">{{ venue.data.title | markdown: 'inline' }}</span>, <span class="p-adr h-adr p-locality">{{ venue.data.address.locality }}</span>
+        <span class="p-name">{{ venue.data.title | markdown: 'inline' }}</span>, <span class="p-adr h-adr p-locality">{{ venue.data.venue.address.locality }}</span>
       </a>
     </dd>
 {%- endif -%}

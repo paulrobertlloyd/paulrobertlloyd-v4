@@ -15,6 +15,14 @@ module.exports = {
       }
     },
     share_image: data => data.image,
-    venue: data => data.venues.find(venue => venue.fileSlug === data.venue_id)
+    venue: data => {
+      const venues = data.collections.venue;
+      if (venues) {
+        return venues.find(venue => {
+          const venue_id = venue.data.venue.address['plus-code'].toLowerCase();
+          return venue_id === data.venue_id;
+        });
+      }
+    },
   }
 };

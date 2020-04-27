@@ -18,9 +18,22 @@ module.exports = {
 
       return data.app.url + data.app.icon;
     },
+    related_articles: data => {
+      const articles = data.collections.article;
+      if (articles) {
+        return articles.filter(article => {
+          const {related} = data;
+          if (related) {
+            return related.includes(article.url);
+          }
+        });
+      }
+    },
     webmentions: data => {
       const url = data.app.url + data.page.url;
-      return getWebmentions(data.webmentions.children, url);
+      if (data.webmentions.children) {
+        return getWebmentions(data.webmentions.children, url);
+      }
     }
   }
 };

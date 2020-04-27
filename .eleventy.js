@@ -17,6 +17,7 @@ module.exports = function (eleventy) {
   eleventy.addFilter('includes', require('./lib/filters/includes.js'));
   eleventy.addFilter('markdown', require('./lib/filters/markdown.js'));
   eleventy.addFilter('percentage_of', require('./lib/filters/percentage-of.js'));
+  eleventy.addFilter('pluscode_to_geo', require('./lib/filters/pluscode-to-geo.js'));
   eleventy.addFilter('slug', require('./lib/filters/slug.js'));
   eleventy.addFilter('strip_mentions', require('./lib/filters/strip-mentions.js'));
   eleventy.addFilter('sum', require('./lib/filters/sum.js'));
