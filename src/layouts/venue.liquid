@@ -1,22 +1,25 @@
+{%- assign geo = venue.address['plus-code'] | pluscode_to_geo -%}
+{%- assign venue_id = venue.address['plus-code'] | downcase -%}
+
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'footer'
     date: false
-    geo: page.data.geo
+    geo: geo
   -%}
   {%- render 'header'
     title: title
-    url: page.data.url
+    url: venue.url
     vocab: vocab
   -%}
   {%- capture content -%}
     <figure class="align-bleed">
       <a href="https://duckduckgo.com/?q={{ geo.latitude }},{{ geo.longitude }}&iaxm=places">
         {%- capture overlay -%}
-          pin-l+{{ app.accent_color | remove: '#' }}({{ page.data.geo.longitude }},{{ page.data.geo.latitude }})
+          pin-l+{{ app.accent_color | remove: '#' }}({{ geo.longitude }},{{ geo.latitude }})
         {%- endcapture -%}
         {%- capture position -%}
-          {{ page.data.geo.longitude }},{{ page.data.geo.latitude }},15,0.00,0.00
+          {{ geo.longitude }},{{ geo.latitude }},15,0.00,0.00
         {%- endcapture -%}
         {%- render 'map'
           overlay: overlay
@@ -24,13 +27,14 @@
         -%}
       </a>
       <figcaption>
-        {%- render 'address' with page.data.address -%}
+        {%- render 'address' with venue.address -%}
       </figcaption>
     </figure>
-    {{ page.data.content | markdown }}
+    {{ venue.content | markdown }}
   {%- endcapture -%}
   {%- render 'content' with content -%}
-  {%- assign related = collections.event | includes: 'data.venue_id',page.fileSlug | reverse -%}
+  {{ venue.venue_id }}
+  {%- assign related = collections.event | includes: 'data.venue_id',venue_id | reverse -%}
   {%- render 'section' with related
     id: 'events'
     title: 'Other events at this venue'

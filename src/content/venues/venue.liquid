@@ -3,19 +3,13 @@ layout: venue
 pagination:
   data: venues
   size: 1
-  alias: page
+  alias: venue
   addAllPagesToCollections: true
-permalink: "events/venues/{{ page.fileSlug }}/"
+permalink: "venues/{{ venue.address['plus-code'] | downcase }}/"
+tags: venue
 vocab: card
 changefreq: monthly
 priority: 0.2
 eleventyComputed:
-  title: "{{ page.data.title }}"
-  page_title: "{{ title }} · {{ app.title }}"
-  content: "{{ page.data.content }}"
+  title: "{{ venue.title }}"
 ---
-<!--
-  Additional values to compute: `url`, `address`, `geo`
-  11ty converts computed Liquid variables to strings
-  See: https://github.com/11ty/eleventy/issues/1069
--->
