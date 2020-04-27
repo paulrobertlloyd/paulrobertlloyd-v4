@@ -1,4 +1,4 @@
-{%- assign setting = srcsets[preset] | default: srcsets['default'] -%}
+{%- assign setting = srcsets[preset] | default: srcsets.default -%}
 {%- comment %}IndieKit includes app.url in image path{% endcomment -%}
 {%- assign src = image | replace: app.url, '' -%}
 {%- assign srcset = false -%}
