@@ -26,6 +26,8 @@ module.exports = {
           if (related) {
             return related.includes(article.url);
           }
+
+          return false;
         });
       }
     },

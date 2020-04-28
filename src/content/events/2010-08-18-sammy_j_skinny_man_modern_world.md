@@ -6,5 +6,5 @@ category:
 - Edinburgh Festival Fringe 2010
 start: 2010-08-18T21:50:00+01:00
 end: 2010-08-18T22:50:00+01:00
-venue_id: 9c7rwrx4+8x
+place_id: 9c7rwrx4+8x
 ---

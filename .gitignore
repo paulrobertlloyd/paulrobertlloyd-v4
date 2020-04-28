@@ -1,5 +1,5 @@
 # Workspace
-.vscode
+*.vscode
 
 # Files to ignore
 *.crt

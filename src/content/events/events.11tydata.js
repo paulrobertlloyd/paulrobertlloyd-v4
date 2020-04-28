@@ -15,14 +15,14 @@ module.exports = {
       }
     },
     share_image: data => data.image,
-    venue: data => {
-      const venues = data.collections.venue;
-      if (venues) {
-        return venues.find(venue => {
-          const venue_id = venue.data.venue.address['plus-code'].toLowerCase();
-          return venue_id === data.venue_id;
+    place: data => {
+      const places = data.collections.place;
+      if (places) {
+        return places.find(place => {
+          const placeId = place.data.place.address['plus-code'].toLowerCase();
+          return placeId === data.place_id;
         });
       }
-    },
+    }
   }
 };

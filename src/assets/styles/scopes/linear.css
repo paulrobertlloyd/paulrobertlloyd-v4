@@ -22,14 +22,6 @@
   margin-inline-start: 0;
 }
 
-.s-linear pre,
-.s-linear aside,
-.s-linear blockquote,
-.s-linear figure,
-.s-linear table {
-  margin-block: var(--gap);
-}
-
 .s-linear .align-pull,
 .s-linear .align-start,
 .s-linear .align-end {
@@ -79,9 +71,6 @@
 .s-linear td {
   padding: var(--inset-small-squished);
   padding-block-end: 1em;
-}
-
-.s-linear tr *:first-child {
   padding-inline-start: 0;
 }
 
@@ -92,6 +81,22 @@
 
 .s-linear tbody th {
   color: var(--color-neutral);
+}
+
+.s-linear * + pre,
+.s-linear * + aside,
+.s-linear * + blockquote,
+.s-linear * + figure,
+.s-linear * + table {
+  margin-block-start: var(--gap);
+}
+
+.s-linear pre:not(:last-child),
+.s-linear aside:not(:last-child),
+.s-linear blockquote:not(:last-child),
+.s-linear figure:not(:last-child),
+.s-linear table:not(:last-child) {
+  margin-block-end: var(--gap);
 }
 
 .s-linear h2:not([class]) {

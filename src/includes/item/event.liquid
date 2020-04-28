@@ -1,20 +1,21 @@
 <article class="item | h-event">
   <header class="item__header">
     <h3 class="item__title | p-name">
-      <a class="u-url" rel="bookmark" href="{{ item.url }}">{{ item.data.title | markdown: 'inline' }}
-      {% if item.data.url contains 'imdb.com' %}
-        <svg width="20" height="20" role="img" aria-labelledby="film-title" focusable="false">
-          <title id="film-title">(Film)</title>
-          <use href="/assets/vectors/app.svg#film"></use>
-        </svg>
-      {% endif %}
+      <a class="u-url" rel="bookmark" href="{{ item.url }}">
+        {{ item.data.title | markdown: 'inline' }}
+        {% if item.data.url contains 'imdb.com' %}
+          <svg width="20" height="20" role="img" aria-labelledby="film-title" focusable="false">
+            <title id="film-title">(Film)</title>
+            <use href="/assets/vectors/app.svg#film"></use>
+          </svg>
+        {% endif %}
       </a>
     </h3>
   </header>
 
-{%- if item.data.venue and hide_summary != true -%}
+{%- if item.data.place and hide_summary != true -%}
   <div class="item__main s-linear | p-location">
-    <p class="h-card">at <span class="p-name">{{ item.data.venue.data.venue.title }}</span></p>
+    <p class="h-card">at <span class="p-name">{{ item.data.place.data.place.title }}</span></p>
   </div>
 {%- endif -%}
 

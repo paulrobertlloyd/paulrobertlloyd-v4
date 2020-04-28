@@ -19,7 +19,7 @@ module.exports = {
   }, {
     label: 'Photos',
     url: '/photos/',
-    'photo': 'note'
+    tag: 'photo'
   }, {
     label: 'Bookmarks',
     url: '/bookmarks/',
@@ -32,11 +32,11 @@ module.exports = {
     label: 'Archive',
     url: '/archive/'
   }, {
+    label: 'Travel',
+    url: '/travel/'
+  }, {
     label: 'Events',
     url: '/events/'
-  }, {
-    label: 'Trips',
-    url: '/trips/'
   }],
   social: [{
     label: 'Twitter',
@@ -59,4 +59,4 @@ module.exports = {
     url: 'https://www.linkedin.com/in/paulrobertlloyd',
     rel: 'me'
   }]
-}
+};

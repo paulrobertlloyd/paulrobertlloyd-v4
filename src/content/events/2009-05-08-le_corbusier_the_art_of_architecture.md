@@ -6,5 +6,5 @@ start: 2009-02-19
 end: 2009-05-25
 related:
 - /2009/05/le_corbusier/
-venue_id: 9c3xgwc4+3f
+place_id: 9c3xgwc4+3f
 ---

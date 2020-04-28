@@ -6,5 +6,5 @@ summary: Speak the Web is back; taking the web on tour in July 2013. Bringing so
 start: 2013-07-16T20:00:00+01:00
 end: 2013-07-16T22:00:00+01:00
 participant: true
-venue_id: 9c5w9gjj+7r
+place_id: 9c5w9gjj+7r
 ---

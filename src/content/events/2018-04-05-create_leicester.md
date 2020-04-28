@@ -6,5 +6,5 @@ summary: A free quarterly event for digital creators, producers, managers and ad
 start: 2018-04-05T19:00:00+01:00
 end: 2018-04-05T21:00:00+01:00
 participant: true
-venue_id: 9c4wjvmc+rq
+place_id: 9c4wjvmc+rq
 ---

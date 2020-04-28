@@ -26,7 +26,12 @@
 
 {%- if item.data.layout != 'project' -%}
   <footer class="card__footer">
+  {%- if item.data.layout == 'travel' -%}
+    <time class="dt-start" datetime="{{ item.data.start | date: dates.iso }}">{{ item.data.start | date: '%B %Y' }}</time>
+    <time class="dt-end" datetime="{{ item.data.end | date: dates.iso }}"></time>
+  {%- else -%}
     <time class="dt-published" datetime="{{ item.data.date | date: dates.iso }}">{{ item.data.date | date: dates.date_long }}</time>
+  {%- endif -%}
   </footer>
 {%- endif -%}
 </article>

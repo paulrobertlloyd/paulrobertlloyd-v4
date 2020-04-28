@@ -5,5 +5,5 @@ category:
 - Skillswap
 start: 2010-10-27T19:00:00Z
 end: 2010-10-27T21:00:00Z
-venue_id: 9c2xrvg6+9m
+place_id: 9c2xrvg6+9m
 ---

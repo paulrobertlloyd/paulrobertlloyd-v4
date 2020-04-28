@@ -5,89 +5,10 @@ permalink: trips/
 eleventyComputed:
   introduction: "Over the course of {{ trips | size }} trips, I’ve travelled {{ trips | sum: 'distance' }} km and emitted approximately {{ trips | sum: 'co2' }} kg of CO<sub>2</sub>."
 ---
-{%- capture content -%}
-  {%- assign totalDistance = trips | sum: 'distance' -%}
-  {%- assign totalCo2 = trips | sum: 'co2' -%}
-  {%- for year in (2003..2020) reversed -%}
-    {%- assign thisYear = trips | includes: 'date',year -%}
-    <h2>{{ year }}</h2>
-    {%- if thisYear.size > 0 -%}
-      <dl class="modes">
-        <div class="modes__item">
-          {% assign allKm = thisYear | sum: 'distance' %}
-          {% assign allKg = thisYear | sum: 'co2' %}
-          <dt class="modes__title">Total travel</dt>
-          <dd class="modes__distance">{{ allKm }} km <small>({{ allKm | percentage_of: totalDistance | round: 1 }}%)</small></dd>
-          <dd class="modes__co2">{{ allKg }} kg CO<sub>2</sub> ({{ allKg | percentage_of: totalCo2 | round: 1 }}%)</dd>
-        </div>
-
-        {% assign air = thisYear | where: 'icon','plane' %}
-        {% if air.size > 0 %}
-        <div class="modes__item">
-          {% assign airKm = air | sum: 'distance' %}
-          {% assign airKg = air | sum: 'co2' %}
-          <dt class="modes__title">
-            <svg width="1em" height="1em" role="img" aria-labelledby="{{ year }}-air-title" focusable="false">
-              <title id="{{ year }}-air-title">Trips by plane</title>
-              <use href="/assets/vectors/app.svg#plane"></use>
-            </svg>
-          </dt>
-          <dd class="modes__distance">{{ airKm }} km</small></dd>
-          <dd class="modes__co2">{{ airKg }} kg CO<sub>2</sub></dd>
-        </div>
-        {% endif %}
-
-        {% assign sea = thisYear | where: 'icon','ferry' %}
-        {% if sea.size > 0 %}
-        <div class="modes__item">
-          {% assign seaKm = sea | sum: 'distance' %}
-          {% assign seaKg = sea | sum: 'co2' %}
-          <dt class="modes__title">
-            <svg width="1em" height="1em" role="img" aria-labelledby="{{ year }}-sea-title" focusable="false">
-              <title id="{{ year }}-sea-title">Trips by ferry or boat</title>
-              <use href="/assets/vectors/app.svg#ferry"></use>
-            </svg>
-          </dt>
-          <dd class="modes__distance">{{ seaKm }} km</dd>
-          <dd class="modes__co2">{{ seaKg }} kg CO<sub>2</sub></dd>
-        </div>
-        {% endif %}
-      </dl>
-
-      <details class="trips">
-        <summary class="trips__summary">See {{ thisYear.size }} trips taken in {{ year }}</summary>
-        <div class="trips__list">
-          <table>
-            <thead>
-              <tr>
-                <th>Date</th>
-                <th>Trip</th>
-                <th>Distance (<abbr title="kilometers">km</abbr>)</th>
-                <th>CO<sub>2</sub> (<abbr title="kilograms">kg</abbr>)</th>
-              </tr>
-            </thead>
-            <tbody>
-            {%- for trip in thisYear -%}
-              <tr>
-                <th>
-                  <time datetime="{{ trip.date }}">{{ trip.date | date: dates.date_short }}</time>
-                </th>
-                <td>
-                {% for stop in trip.stops %}
-                  <span>{% unless forloop.first %}<svg width="12" height="12" aria-hidden="true" focusable="false"><use href="/assets/vectors/app.svg#{{ trip.icon }}"></use></svg> {% endunless %}{{ stop.city }}, {{ stop.country }}</span><br>
-                {% endfor %}
-                </td>
-                <td>{{ trip.distance }}</td>
-                <td>{{ trip.co2 }}</td>
-              </tr>
-            {%- endfor -%}
-            </tbody>
-          </table>
-        </div>
-      </details>
-    {%- else -%}
-      <p class="trips__summary">No trips taken</p>
-    {%- endif -%}
-  {%- endfor -%}
-{%- endcapture -%}
-{%- render 'content' with content -%}
+{%- for year in (2003..2020) reversed -%}
+  {%- assign thisYear = collections.trip | includes: 'data.trip.date',year -%}
+  {%- render 'section-trips' with thisYear
+    id: year
+    title: year
+  -%}
+{%- endfor -%}

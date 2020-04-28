@@ -1,0 +1,20 @@
+---
+layout: index
+title: Travel
+summary: Travel intineries
+permalink: travel/
+tags: false
+changefreq: weekly
+priority: 0.9
+eleventyComputed:
+  introduction: "Travel itineraries, made up of [individual {{ collections.trip.size }} trips](/trips/)."
+---
+{%- for year in (2003..2020) reversed -%}
+  {%- assign thisYear = collections.travel | includes: 'date',year -%}
+  {%- render 'section' with thisYear
+    id: year
+    title: year
+    items_component: 'card'
+    items_grid_size: '15rem'
+  -%}
+{%- endfor -%}

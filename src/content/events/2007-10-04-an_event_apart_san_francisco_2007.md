@@ -7,5 +7,5 @@ category:
 - An Event Apart
 start: 2007-10-04
 end: 2007-10-05
-venue_id: 849vqhqx+67
+place_id: 849vqhqx+67
 ---

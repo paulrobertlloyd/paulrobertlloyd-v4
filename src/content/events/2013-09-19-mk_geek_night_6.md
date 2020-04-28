@@ -6,5 +6,5 @@ summary: A quarterly evening event for the digital and creative communities. MKG
 start: 2013-09-19T19:00:00+01:00
 end: 2013-09-19T22:00:00+01:00
 participant: true
-venue_id: 9c4x26mh+qq
+place_id: 9c4x26mh+qq
 ---

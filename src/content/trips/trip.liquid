@@ -1,0 +1,16 @@
+---
+layout: trip
+pagination:
+  data: trips
+  size: 1
+  alias: trip
+  addAllPagesToCollections: true
+permalink: "trips/{{ trip.id }}/"
+tags: trip
+vocab: event
+changefreq: monthly
+priority: 0.2
+eleventyComputed:
+  title: "{{ trip.title }}"
+  summary: "{{ trip.summary }}"
+---

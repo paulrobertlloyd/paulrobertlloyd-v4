@@ -8,5 +8,5 @@ category:
 - Bug
 start: 2011-08-27T22:30:00+01:00
 end: 2011-08-27T23:59:00+01:00
-venue_id: 9c7rwrx9+35
+place_id: 9c7rwrx9+35
 ---

@@ -20,7 +20,7 @@ module.exports = function () {
     const firstYear = new Date(startDate).getFullYear();
     const lastYear = new Date(endDate).getFullYear();
 
-    return [...range(firstYear, lastYear)].map(String);
+    return [...range(firstYear, lastYear)].map(year => String(year));
   }
 
   /**
@@ -37,7 +37,7 @@ module.exports = function () {
     const lastMonth = new Date(endDate).getMonth() + 1;
 
     const dates = [];
-    const years = [...range(firstYear, lastYear)].map(String);
+    const years = [...range(firstYear, lastYear)].map(year => String(year));
     years.forEach((year, i) => {
       let months = [];
       if (i === 0) {
@@ -96,6 +96,12 @@ module.exports = function () {
     data: {
       title: 'Collections',
       summary: 'Curated series of articles, each covering a particular theme.'
+    }
+  }, {
+    url: '/places',
+    data: {
+      title: 'Places',
+      summary: 'Venues, airports, stations and other places I’ve visited.'
     }
   }, {
     url: 'http://lloydyweb.paulrobertlloyd.com/blog/archive/',

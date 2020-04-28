@@ -6,5 +6,5 @@ category:
 - Bug
 start: 2016-10-13T20:00:00+01:00
 end: 2016-10-13T22:00:00+01:00
-venue_id: 9c2xrj7h+fr
+place_id: 9c2xrj7h+fr
 ---

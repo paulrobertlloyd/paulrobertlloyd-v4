@@ -8,5 +8,5 @@ category:
 - Richard Herring
 start: 2011-08-27T20:50:00+01:00
 end: 2011-08-27T21:50:00+01:00
-venue_id: 9c7rwrv6+x6
+place_id: 9c7rwrv6+x6
 ---

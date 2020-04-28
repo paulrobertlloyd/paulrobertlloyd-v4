@@ -1,0 +1,13 @@
+{%- if section-trips.size > 0 -%}
+  <section class="section section--trips" aria-labelledby="{{ id }}">
+    <div class="section__container">
+      <header class="section__header">
+        <h2 class="section__title" id="{{ id }}">{{ title }}</h2>
+      </header>
+
+      <div class="section__main s-linear">
+        {%- render 'trips' with section-trips -%}
+      </div>
+    </div>
+  </section>
+{%- endif -%}

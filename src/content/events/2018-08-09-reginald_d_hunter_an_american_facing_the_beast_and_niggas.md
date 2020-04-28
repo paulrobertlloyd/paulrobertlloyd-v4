@@ -7,5 +7,5 @@ category:
 - Edinburgh Festival Fringe 2018
 start: 2018-08-09T20:30:00+01:00
 end: 2018-08-09T21:30:00+01:00
-venue_id: 9c7rxqwr+c2
+place_id: 9c7rxqwr+c2
 ---

@@ -1,0 +1,27 @@
+{%- layout 'default' -%}
+{%- block 'main' -%}
+  {%- render 'footer'
+    date: trip.date
+  -%}
+  {%- render 'header'
+    title: title
+    summary: summary
+    vocab: vocab
+  -%}
+  {%- capture content -%}
+    <figure class="align-bleed">
+      {%- capture overlay %}geojson({{ trip.geojson | json | escape }}){% endcapture -%}
+      {%- render 'map'
+        overlay: overlay
+        position: position
+      -%}
+      <figcaption>
+        {% for stop in trip.stops %}
+          <a href="/places/{{ stop.id }}">{% unless forloop.first %}<svg width="12" height="12" aria-hidden="true" focusable="false"><use href="/assets/vectors/app.svg#{{ stop.icon }}"></use></svg> {% endunless %}{{ stop.title }}{% if stop.iata %} ({{ stop.iata }}) {% endif %}</a><br>
+        {% endfor %}
+      </figcaption>
+    </figure>
+    {{ trip.content | markdown }}
+  {%- endcapture -%}
+  {%- render 'content' with content -%}
+{%- endblock -%}

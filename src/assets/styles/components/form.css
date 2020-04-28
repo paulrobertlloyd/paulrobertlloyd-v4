@@ -4,6 +4,8 @@
 
 .form__title {
   @extend %body;
+
+  color: var(--color-neutral-dark);
 }
 
 .form__field {

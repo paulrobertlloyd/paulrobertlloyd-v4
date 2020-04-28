@@ -13,7 +13,7 @@ eleventyComputed:
   page_title: "{{ page.data.title }} · {{ app.title }}"
   introduction: "{{ page.data.title }}"
 ---
-{%- assign items = collections.post | includes: 'data.date',page.data.date -%}
+{%- assign items = collections.post | includes: 'date',page.data.date -%}
 {%- render 'items' with items
   modifier: 'inline'
   no_items_content: 'Nothing was published during this month.'

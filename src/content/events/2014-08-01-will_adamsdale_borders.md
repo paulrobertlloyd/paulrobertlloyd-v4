@@ -7,5 +7,5 @@ category:
 - Edinburgh Festival Fringe 2014
 start: 2014-07-31
 end: 2014-08-24
-venue_id: 9c7rwrx4+8x
+place_id: 9c7rwrx4+8x
 ---

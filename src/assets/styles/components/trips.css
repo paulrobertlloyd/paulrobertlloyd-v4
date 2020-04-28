@@ -1,21 +1,17 @@
 .trips {
-  max-inline-size: 100%;
-}
-
-.trips__summary {
-  @extend %caption;
-}
-
-summary.trips__summary {
-  --caption-color: var(--color-accent);
-}
-
-.trips__list {
-  max-width: 100%;
-  overflow: auto;
-}
-
-.trips__list th,
-.trips__list td {
   white-space: nowrap;
+}
+
+.trips tbody th,
+.trips tbody td {
+  border-block-start-width: var(--border-width-thick);
+}
+
+.trips * th:first-child {
+  inline-size: calc(var(--logo-inline-size) + var(--gap));
+}
+
+.trips svg {
+  color: var(--color-neutral-dark);
+  margin-block-end: -0.15em;
 }

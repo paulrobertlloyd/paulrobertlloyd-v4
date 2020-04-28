@@ -7,5 +7,5 @@ category:
 - Multipack Presents
 start: 2011-05-14T16:00:00Z
 end: 2011-05-14T19:00:00Z
-venue_id: 9c4wf4q7+f2
+place_id: 9c4wf4q7+f2
 ---

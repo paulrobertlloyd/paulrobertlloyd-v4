@@ -6,5 +6,5 @@ start: 2015-04-25
 end: 2015-08-30
 related:
 - /2015/06/william_kentridge/
-venue_id: 9f469wm2+pg
+place_id: 9f469wm2+pg
 ---

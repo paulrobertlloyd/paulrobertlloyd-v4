@@ -23,6 +23,8 @@
 
 .section__title {
   @extend %body;
+
+  color: var(--color-neutral-dark);
 }
 
 @media (--upto-medium-viewport) {
@@ -47,4 +49,9 @@
     margin-inline-end: var(--gap);
     max-inline-size: var(--grid-size);
   }
+}
+
+/* Trips section adaptions */
+.section--trips .section__container {
+  overflow-x: auto;
 }

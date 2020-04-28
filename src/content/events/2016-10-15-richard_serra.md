@@ -5,5 +5,5 @@ url: https://gagosian.com/exhibitions/2016/richard-serra-nj-2-rounds-equal-weigh
 summary: 'NJ-2, Rounds: Equal Weight, Unequal Measure, Rotate.'
 start: 2016-10-01
 end: 2017-04-13
-venue_id: 9c3xgvjj+2q
+place_id: 9c3xgvjj+2q
 ---

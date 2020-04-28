@@ -1,0 +1,13 @@
+---
+title: Walsall, Chorley, Newcastle and Edinburgh
+summary: Birthday celebrations in Walsall, visting Simon in Chorley, a Great Exhibition in Newcastle and a return to the Edinburgh festivals.
+related:
+- /2018/08/tyne_deck/
+- /2018/08/clone_towns/
+trip_id:
+- 4vm1
+- 4vn1
+- 4vo1
+- 4vq1
+- 4vt1
+---

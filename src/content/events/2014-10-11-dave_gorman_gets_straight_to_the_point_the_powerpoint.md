@@ -8,5 +8,5 @@ category:
 - Edinburgh Festival Fringe 2014
 start: 2014-10-11T20:00:00+01:00
 end: 2014-10-11T21:00:00+01:00
-venue_id: 9c2xrvf6+fr
+place_id: 9c2xrvf6+fr
 ---

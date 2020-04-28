@@ -19,6 +19,10 @@
   font-style: normal;
 }
 
+.footer dl {
+  flex: 1;
+}
+
 .footer dt,
 .footer dd {
   display: inline;
