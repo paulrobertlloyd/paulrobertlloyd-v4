@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 module.exports = function (eleventy) {
   // Browser Sync
   eleventy.setBrowserSyncConfig(require('./etc/browser-sync.config.js'));

@@ -1,5 +1,6 @@
 # Files to ignore
 *.crt
+*.env
 *.key
 
 # Folders to ignore
