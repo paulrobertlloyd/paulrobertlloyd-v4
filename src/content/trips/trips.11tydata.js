@@ -622,26 +622,8 @@ module.exports = function () {
     return trip;
   });
 
-  // Calculate totals
-  const total = trips.reduce((acc, n) => {
-    for (const prop in n) {
-      if (Object.prototype.hasOwnProperty.call(acc, prop)) {
-        acc[prop] += n[prop];
-      } else {
-        acc[prop] = n[prop];
-      }
-    }
-
-    return acc;
-  }, {});
-
   // Return data object
   return {
-    trips,
-    total: {
-      trips: trips.length,
-      distance: total.distance,
-      co2: total.co2
-    }
+    trips
   };
 };

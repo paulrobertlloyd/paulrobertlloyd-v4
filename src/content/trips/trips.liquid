@@ -3,9 +3,11 @@ layout: index
 title: Trips
 permalink: trips/
 eleventyComputed:
-  introduction: Over the course of {{ total.trips }} trips, I’ve travelled {{ total.distance }} km and emitted approximately {{ total.co2 }} kg of CO<sub>2</sub>.
+  introduction: "Over the course of {{ trips | size }} trips, I’ve travelled {{ trips | sum: 'distance' }} km and emitted approximately {{ trips | sum: 'co2' }} kg of CO<sub>2</sub>."
 ---
 {%- capture content -%}
+  {%- assign totalDistance = trips | sum: 'distance' -%}
+  {%- assign totalCo2 = trips | sum: 'co2' -%}
   {%- for year in (2003..2020) reversed -%}
     {%- assign thisYear = trips | includes: 'date',year -%}
     <h2>{{ year }}</h2>
@@ -15,8 +17,8 @@ eleventyComputed:
           {% assign allKm = thisYear | sum: 'distance' %}
           {% assign allKg = thisYear | sum: 'co2' %}
           <dt class="modes__title">Total travel</dt>
-          <dd class="modes__distance">{{ allKm }} km <small>({{ allKm | percentage_of: total.distance | round: 1 }}%)</small></dd>
-          <dd class="modes__co2">{{ allKg }} kg CO<sub>2</sub> ({{ allKg | percentage_of: total.co2 | round: 1 }}%)</dd>
+          <dd class="modes__distance">{{ allKm }} km <small>({{ allKm | percentage_of: totalDistance | round: 1 }}%)</small></dd>
+          <dd class="modes__co2">{{ allKg }} kg CO<sub>2</sub> ({{ allKg | percentage_of: totalCo2 | round: 1 }}%)</dd>
         </div>
 
         {% assign air = thisYear | where: 'icon','plane' %}
