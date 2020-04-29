@@ -2,7 +2,7 @@
   --flow-inset: 0;
   display: grid;
   grid-gap: var(--gap);
-  grid-template-columns: repeat(auto-fit, minmax(12rem, calc(33% - var(--gap))));
+  grid-template-columns: repeat(auto-fit, minmax(calc(25% - var(--gap)), 12rem));
   max-inline-size: 100%;
 }
 
