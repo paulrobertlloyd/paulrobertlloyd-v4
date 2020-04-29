@@ -10,8 +10,6 @@ category:
 - Art
 - Exhibitions
 - William Kentridge
-tags:
-- venue:9f469wm2+pg
 ---
 Amsterdam is a strikingly beautiful city, every street a picture postcard. This beauty is somewhat undermined by the city’s famed seedy underbelly, which could be ignored were it not for the type of tourist it attracts.
 
@@ -34,4 +32,4 @@ A second room contains eight screens for <cite>I Am Not Me, the Horse Is Not Min
 
 [1]: https://www.eyefilm.nl/en
 [2]: https://en.wikipedia.org/wiki/William_Kentridge
-[3]: https://www.eyefilm.nl/en/exhibition/william-kentridge
+[3]: https://www.eyefilm.nl/en/exhibition/william-kentridge-if-we-ever-get-to-heaven

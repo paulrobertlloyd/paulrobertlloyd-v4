@@ -9,6 +9,9 @@ category:
 - Interaction design
 tags:
 - featured
+related:
+- /2013/12/redesigning_24_ways/
+- /2018/01/improving_the_accessibility_of_24_ways/
 style:
   color-accent: '#f04'
   screenshot-shadow: '#b01'

@@ -8,6 +8,10 @@ category:
 - Interaction design
 tags:
 - featured
+related:
+- /2013/04/bradshaws_guide/
+- /2013/05/web_typography/
+- /2018/01/bradshaws_guide/
 style:
   color-accent: '#e6772e'
   screenshot-shadow: '#e6772e'

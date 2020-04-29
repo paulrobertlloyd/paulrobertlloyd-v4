@@ -22,11 +22,15 @@
     {{ content }}
   {%- endcapture -%}
   {%- render 'content' with content -%}
-
+  {%- render 'section' with related_articles
+    id: 'related'
+    title: 'Related articles'
+    items_grid_size: '15rem'
+  -%}
   {% for this in category %}
     {%- capture section_title %}Other {{ this }} events{%- endcapture -%}
     {%- assign related = collections.event | includes: 'data.category',this | excludes: 'url',page.url | reverse -%}
-    {%- render 'section' with related
+    {%- render 'section' with related_events
       id: 'related'
       title: section_title
       items_modifier: 'inline'
