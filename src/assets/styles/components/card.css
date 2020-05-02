@@ -42,6 +42,15 @@
   }
 }
 
+.card[style^="--color-accent"] .card__image {
+  background-color: var(--color-accent);
+}
+
+.card[style^="--color-accent"] .card__image img {
+  filter: contrast(0.75) brightness(1.25);
+  mix-blend-mode: luminosity;
+}
+
 .card__header {
   padding: var(--inset-small);
   padding-block-end: 0;

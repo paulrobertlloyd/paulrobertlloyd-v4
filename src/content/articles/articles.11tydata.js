@@ -5,5 +5,6 @@ module.exports = {
   tags: ['post', 'article'],
   vocab: 'entry',
   changefreq: 'monthly',
-  priority: 0.9
+  priority: 0.9,
+  duotone_card_image: true
 };

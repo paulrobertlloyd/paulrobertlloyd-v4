@@ -1,8 +1,0 @@
-[style^="--image-color"] {
-  background-color: var(--image-color);
-}
-
-[style^="--image-color"] img {
-  filter: contrast(0.75) brightness(1.25);
-  mix-blend-mode: luminosity;
-}
