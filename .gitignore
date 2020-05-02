@@ -1,3 +1,6 @@
+# Workspace
+.vscode
+
 # Files to ignore
 *.crt
 *.env
