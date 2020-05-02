@@ -37,7 +37,6 @@ module.exports = function (eleventy) {
 
   // Passthrough
   eleventy.addPassthroughCopy('./src/key.txt');
-  eleventy.addPassthroughCopy('./src/subscriptions.opml');
   eleventy.addPassthroughCopy('./src/images');
   eleventy.addPassthroughCopy('./src/assets/fonts');
   eleventy.addPassthroughCopy('./src/assets/vectors');
