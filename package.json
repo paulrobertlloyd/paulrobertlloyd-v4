@@ -39,7 +39,7 @@
     "cssnano": "^4.1.10",
     "dotenv": "^8.2.0",
     "geolib": "^3.2.1",
-    "liquidjs": "^9.11.10",
+    "liquidjs": "^9.11.11",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-anchor": "^5.2.7",
     "markdown-it-attrs": "^3.0.2",
