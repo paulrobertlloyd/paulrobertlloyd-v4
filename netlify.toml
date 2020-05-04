@@ -54,7 +54,7 @@
 # Favicon
 [[redirects]]
   from = "/favicon.ico"
-  to = "/images/app.ico"
+  to = "/images/app/favicon.ico"
   status = 200
   force = true
 
