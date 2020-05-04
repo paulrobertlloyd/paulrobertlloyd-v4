@@ -114,6 +114,20 @@ module.exports = [{
     'plus-code': '9FC7XPFH+2W'
   }
 }, {
+  title: 'Puttgarden',
+  address: {
+    locality: 'Puttgarden',
+    'country-name': 'Germany',
+    'plus-code': '9F6HG63H+4F'
+  }
+}, {
+  title: 'Rødbyhavn',
+  address: {
+    locality: 'Rødby',
+    'country-name': 'Denmark',
+    'plus-code': '9F6HM932+VH'
+  }
+}, {
   title: 'Southampton Cruise Terminal',
   url: 'http://southamptonvts.co.uk',
   address: {

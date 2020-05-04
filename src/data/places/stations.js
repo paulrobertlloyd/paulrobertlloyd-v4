@@ -123,6 +123,13 @@ module.exports = [{
     'plus-code': '8FMHQ6GX+H4'
   }
 }, {
+  title: 'Fredericia',
+  address: {
+    locality: 'Fredericia',
+    'country-name': 'Denmark',
+    'plus-code': '9F7FHP9R+75'
+  }
+}, {
   title: 'Gare de Hendaye',
   address: {
     locality: 'Hendaye',
@@ -358,6 +365,13 @@ module.exports = [{
   },
   icon: 'national-rail'
 }, {
+  title: 'Puttgarden',
+  address: {
+    locality: 'Puttgarden',
+    'country-name': 'Germany',
+    'plus-code': '9F6HG62G+9F'
+  }
+}, {
   title: 'Reading',
   address: {
     locality: 'Reading',
@@ -365,6 +379,13 @@ module.exports = [{
     'plus-code': '9C3XF25H+8C'
   },
   icon: 'national-rail'
+}, {
+  title: 'Rødby Færge',
+  address: {
+    locality: 'Rødby',
+    'country-name': 'Denmark',
+    'plus-code': '9F6HM943+3W'
+  }
 }, {
   title: 'Roma Termini',
   iata: 'XRJ',
