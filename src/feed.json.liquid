@@ -25,7 +25,7 @@ permalink: /feed.json
       {% if item.data.summary %}"summary": {{ item.data.summary | markdown: 'inline' | json }},{% endif %}
       {% if item.data.category %}"tags": {{ item.data.category | json }},{% endif %}
       "content_html": {% capture content_html %}{% render 'item/feed' item: item %}{% endcapture %}{{ content_html | json }},
-      "date_published": {{ item.data.date | json }}
+      "date_published": {{ item.date | date: dates.iso | json }}
     }{% unless forloop.last %},{% endunless %}
   {% endfor %}]
 }

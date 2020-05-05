@@ -21,7 +21,7 @@ permalink: /feed.xml
   <entry>
     <id>{{ item.url | prepend: app.url }}</id>
     <title>{{ item.data.title | markdown: 'inline' | escape | strip_html | strip_newlines }}</title>
-    <updated>{{ item.data.date | date: dates.iso }}</updated>
+    <updated>{{ item.date | date: dates.iso }}</updated>
     {% if item.data.url %}
     <link href="{{ item.data.url }}" rel="alternate" type="text/html"/>
     <link href="{{ item.url | prepend: app.url }}" rel="related" type="text/html"/>

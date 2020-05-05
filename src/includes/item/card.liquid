@@ -1,4 +1,4 @@
-{%- assign date_color = item.data.date | color -%}
+{%- assign date_color = item.date | color -%}
 {%- assign accent_color = item.data.style.color-accent | default: date_color -%}
 <article class="card |{% for root in item.data.vocab %} h-{{ root }}{% endfor %}"{% if item.data.duotone_card_image %} style="--color-accent-light: {{ accent_color | contrast_with: 'black' }}; --color-accent-dark: {{ accent_color | contrast_with: 'white' }}"{% endif %}>
 {%- if item.data.image -%}
@@ -30,7 +30,7 @@
     <time class="dt-start" datetime="{{ item.data.start | date: dates.iso }}">{{ item.data.start | date: '%B %Y' }}</time>
     <time class="dt-end" datetime="{{ item.data.end | date: dates.iso }}"></time>
   {%- else -%}
-    <time class="dt-published" datetime="{{ item.data.date | date: dates.iso }}">{{ item.data.date | date: dates.date_long }}</time>
+    <time class="dt-published" datetime="{{ item.date | date: dates.iso }}">{{ item.date | date: dates.date_long }}</time>
   {%- endif -%}
   </footer>
 {%- endif -%}
