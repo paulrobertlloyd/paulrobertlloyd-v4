@@ -74,6 +74,14 @@ module.exports = [{
   },
   icon: 'national-rail'
 }, {
+  title: 'Chester',
+  address: {
+    locality: 'Chester',
+    'country-name': 'United Kingdom',
+    'plus-code': '9C5V54W9+JW'
+  },
+  icon: 'national-rail'
+}, {
   title: 'Chorley',
   address: {
     locality: 'Chorley',
@@ -96,6 +104,21 @@ module.exports = [{
     locality: 'Copenhagen',
     'country-name': 'Denmark',
     'plus-code': '9F7JMHF7+4X'
+  }
+}, {
+  title: 'Crewe',
+  address: {
+    locality: 'Crewe',
+    'country-name': 'United Kingdom',
+    'plus-code': '9C5V3HQ8+RH'
+  },
+  icon: 'national-rail'
+}, {
+  title: 'Den Haag Centraal',
+  address: {
+    locality: 'The Hague',
+    'country-name': 'Denmark',
+    'plus-code': '9F4638JG+68'
   }
 }, {
   title: 'Edinburgh Waverley',
@@ -130,6 +153,20 @@ module.exports = [{
     'plus-code': '9F7FHP9R+75'
   }
 }, {
+  title: 'Galway',
+  address: {
+    locality: 'Galway',
+    'country-name': 'Ireland',
+    'plus-code': '9C5G7XF3+C5'
+  }
+}, {
+  title: 'Gare de Dieppe',
+  address: {
+    locality: 'Dieppe',
+    'country-name': 'France',
+    'plus-code': '8FX3W3CJ+HC'
+  }
+}, {
   title: 'Gare de Hendaye',
   address: {
     locality: 'Hendaye',
@@ -137,11 +174,26 @@ module.exports = [{
     'plus-code': '8CMW9639+67'
   }
 }, {
+  title: 'Gare de Lille Europe',
+  iata: 'XDB',
+  address: {
+    locality: 'Lille',
+    'country-name': 'France',
+    'plus-code': '9F25J3QG+J7'
+  }
+}, {
   title: 'Gare do Oriente',
   address: {
     locality: 'Lisbon',
     'country-name': 'Portugal',
     'plus-code': '8CCGQW92+47'
+  }
+}, {
+  title: 'Gare du Harve',
+  address: {
+    locality: 'Le Harve',
+    'country-name': 'France',
+    'plus-code': '8FX2F4VF+3W'
   }
 }, {
   title: 'Gare du Nord',
@@ -152,6 +204,13 @@ module.exports = [{
     'plus-code': '8FW4V9J4+94'
   }
 }, {
+  title: 'Gare de Rouen-Rive-Droite',
+  address: {
+    locality: 'Rouen',
+    'country-name': 'France',
+    'plus-code': '8FX3C3XV+GM'
+  }
+}, {
   title: 'Gare Montparnasse',
   iata: 'XGB',
   address: {
@@ -159,6 +218,14 @@ module.exports = [{
     'country-name': 'France',
     'plus-code': '8FW4R8RC+F6'
   }
+}, {
+  title: 'Gatwick',
+  address: {
+    locality: 'Gatwick',
+    'country-name': 'United Kingdom',
+    'plus-code': '9C3X5R4Q+MG'
+  },
+  icon: 'national-rail'
 }, {
   title: 'Glasgow Central',
   iata: 'ZGG',
@@ -205,6 +272,21 @@ module.exports = [{
     locality: 'Hastings',
     'country-name': 'United Kingdom',
     'plus-code': '9F22VH5G+5P'
+  },
+  icon: 'national-rail'
+}, {
+  title: 'Heuston',
+  address: {
+    locality: 'Dublin',
+    'country-name': 'Ireland',
+    'plus-code': '9C5M8PW4+G8'
+  }
+}, {
+  title: 'Holyhead',
+  address: {
+    locality: 'Holyhead',
+    'country-name': 'United Kingdom',
+    'plus-code': '9C5Q8959+3H'
   },
   icon: 'national-rail'
 }, {
@@ -333,6 +415,22 @@ module.exports = [{
   },
   icon: 'national-rail'
 }, {
+  title: 'Newhaven Harbour',
+  address: {
+    locality: 'Newhaven',
+    'country-name': 'United Kingdom',
+    'plus-code': '9F22Q3Q4+V4'
+  },
+  icon: 'national-rail'
+}, {
+  title: 'Newquay',
+  address: {
+    locality: 'Newquay',
+    'country-name': 'United Kingdom',
+    'plus-code': '9C2PCW8F+2P'
+  },
+  icon: 'national-rail'
+}, {
   title: 'Norwich',
   address: {
     locality: 'Norwich',
@@ -356,6 +454,22 @@ module.exports = [{
     'country-name': 'Norway',
     'plus-code': '9FFGWQ62+CX'
   }
+}, {
+  title: 'Par',
+  address: {
+    locality: 'Par',
+    'country-name': 'United Kingdom',
+    'plus-code': '9C2Q974W+96'
+  },
+  icon: 'national-rail'
+}, {
+  title: 'Penzance',
+  address: {
+    locality: 'Penzance',
+    'country-name': 'United Kingdom',
+    'plus-code': '9C2P4FC8+MX'
+  },
+  icon: 'national-rail'
 }, {
   title: 'Preston',
   address: {
@@ -403,6 +517,14 @@ module.exports = [{
   },
   icon: 'national-rail'
 }, {
+  title: 'St Ives',
+  address: {
+    locality: 'St Ives',
+    'country-name': 'United Kingdom',
+    'plus-code': '9C2P6G5C+HR'
+  },
+  icon: 'national-rail'
+}, {
   title: 'Stockholm Central',
   iata: 'XEV',
   address: {
@@ -410,6 +532,14 @@ module.exports = [{
     'country-name': 'Sweden',
     'plus-code': '9FFW83J5+28'
   }
+}, {
+  title: 'Truro',
+  address: {
+    locality: 'Truro',
+    'country-name': 'United Kingdom',
+    'plus-code': '9C2P7W7P+J8'
+  },
+  icon: 'national-rail'
 }, {
   title: 'Walsall',
   address: {
