@@ -348,16 +348,105 @@ module.exports = function () {
     to: 'SXF',
     via: ['LIS']
   }, {
+    date: '2015-02-22',
+    from: 'GRU',
+    to: 'SXF',
+    via: ['LIS']
+  }, {
+    date: '2016-01-22',
+    from: '9C2XRVH5+GJ',
+    to: 'QQY',
+    via: ['ZEP', 'QQK']
+  }, {
+    date: '2016-01-24',
+    from: 'QQY',
+    to: '9C2XRVH5+GJ',
+    via: ['QQK', '9C3X4R9Q+68']
+  }, {
+    date: '2016-03-17',
+    from: '9C2XRVH5+GJ',
+    to: 'BRS',
+    via: ['ZEP', 'QQP']
+  }, {
+    date: '2016-03-18',
+    from: 'BRS',
+    to: '9C3V9JHV+36'
+  }, {
+    date: '2016-03-18',
+    from: '9C3V9JHV+36',
+    to: 'BRS'
+  }, {
+    date: '2016-03-19',
+    from: 'BRS',
+    to: '9C2XRVH5+GJ',
+    via: ['QQP', 'ZEP', '9C3X4R9Q+68']
+  }, {
+    date: '2016-04-29',
+    from: '9C2XRVH5+GJ',
+    to: '9C4VJXGJ+4W',
+    via: ['ZEP', '9C4WF4H4+HX', 'QQN']
+  }, {
+    date: '2016-05-02',
+    from: '9C4VJXGJ+4W',
+    to: '9C2XRVH5+GJ',
+    via: ['QQN', '9C4WF4H4+HX', '9C3XGW38+P3']
+  }, {
+    date: '2016-06-15',
+    from: '9C2XRVH5+GJ',
+    to: '9F468WW9+M8',
+    via: ['QQS', 'ZYR', 'ZYA']
+  }, {
+    date: '2016-06-18',
+    from: '9F468WW9+M8',
+    to: '9F4734Q5+QX'
+  }, {
+    date: '2016-06-18',
+    from: '9F4734Q5+QX',
+    to: '9F468WW9+M8'
+  }, {
+    date: '2016-06-22',
+    from: '9F468WW9+M8',
+    to: '9C2XRVH5+GJ',
+    via: ['ZYA', 'ZYR', 'QQS', 'ZEP']
+  }, {
+    date: '2016-08-10',
+    from: '9C2XRVH5+GJ',
+    to: '9C4WWVW3+R7',
+    via: ['ZEP', 'QQS']
+  }, {
+    date: '2016-08-11',
+    from: '9C4WWVW3+R7',
+    to: '9C2XRVH5+GJ',
+    via: ['QQS', 'ZEP']
+  }, {
+    date: '2016-09-10',
+    from: '9C2XRVH5+GJ',
+    to: '8FV9XRWR+J5',
+    via: ['QQS', 'XPG', '8FW4V9G5+PP', '8FW9HPPM+2Q']
+  }, {
+    date: '2016-09-14',
+    from: '8FV9XRWR+J5',
+    to: 'ZDH'
+  }, {
+    date: '2016-09-16',
+    from: 'ZDH',
+    to: '8FW9HPPM+2Q'
+  }, {
+    date: '2016-09-19',
+    from: '8FW9HPPM+2Q',
+    to: '9C2XRVH5+GJ',
+    via: ['XDB', 'QQS']
+  }, {
     date: '2017-05-10',
     from: '9C2XRVH5+GJ',
+    to: '9C5M8RW3+2G',
     via: [
       'ZEP',
       'QQU',
       '9C5V54W9+JW',
       '9C5Q8959+3H',
       '9C5Q895C+PC'
-    ],
-    to: '9C5M8RW3+2G'
+    ]
   }, {
     date: '2017-05-11',
     from: '9C5M8PW4+G8',
@@ -365,6 +454,7 @@ module.exports = function () {
   }, {
     date: '2017-05-13',
     from: '9C5G7XF3+C5',
+    to: '9C2XRVH5+GJ',
     via: [
       '9C5M8PW4+G8',
       '9C5M8RW3+2G',
@@ -374,13 +464,12 @@ module.exports = function () {
       '9C5V3HQ8+RH',
       'QQU',
       'ZEP'
-    ],
-    to: '9C2XRVH5+GJ'
+    ]
   }, {
     date: '2017-06-14',
     from: '9C2XRVH5+GJ',
-    via: ['QQS', 'ZYR'],
-    to: 'ZYA'
+    to: 'ZYA',
+    via: ['QQS', 'ZYR']
   }, {
     date: '2017-06-17',
     from: 'ZYA',
@@ -388,19 +477,19 @@ module.exports = function () {
   }, {
     date: '2017-06-19',
     from: '9F4638JG+68',
-    via: ['ZYA', 'ZYR', 'QQS'],
-    to: '9C2XRVH5+GJ'
+    to: '9C2XRVH5+GJ',
+    via: ['ZYA', 'ZYR', 'QQS']
   }, {
     date: '2017-07-19',
     from: '9C2XRVH5+GJ',
+    to: '8FX2F4VF+3W',
     via: [
       '9F22Q3Q4+V4',
       '9F22Q3R3+4V',
       '8FX3W3MQ+F6',
       '8FX3W3CJ+HC',
       '8FX3C3XV+GM'
-    ],
-    to: '8FX2F4VF+3W'
+    ]
   }, {
     date: '2017-07-22',
     from: '8FX2F4VF+3W',
@@ -412,53 +501,49 @@ module.exports = function () {
   }, {
     date: '2017-07-24',
     from: '8FX2F4VF+3W',
+    to: '9C2XRVH5+GJ',
     via: [
       '8FX3C3XV+GM',
       '8FX3W3CJ+HC',
       '8FX3W3MQ+F6',
       '9F22Q3R3+4V',
       '9F22Q3Q4+V4'
-    ],
-    to: '9C2XRVH5+GJ'
+    ]
   }, {
     date: '2017-08-27',
     from: '9C2XRVH5+GJ',
-    via: [
-      'ZEP',
-      'QQP',
-      '9C2RPFH4+PH'
-    ],
-    to: '9C2P4FC8+MX'
+    to: '9C2P4FC8+MX',
+    via: ['ZEP', 'QQP', '9C2RPFH4+PH']
   }, {
     date: '2017-08-29',
     from: '9C2P4FC8+MX',
-    via: ['9C2P5HC4+67'],
-    to: '9C2P6G5C+HR'
+    to: '9C2P6G5C+HR',
+    via: ['9C2P5HC4+67']
   }, {
     date: '2017-08-29',
     from: '9C2P6G5C+HR',
-    via: ['9C2P5HC4+67'],
-    to: '9C2P4FC8+MX'
+    to: '9C2P4FC8+MX',
+    via: ['9C2P5HC4+67']
   }, {
     date: '2017-08-30',
     from: '9C2P4FC8+MX',
-    via: ['9C2P7W7P+J8', '9C2Q974W+96'],
-    to: '9C2PCW8F+2P'
+    to: '9C2PCW8F+2P',
+    via: ['9C2P7W7P+J8', '9C2Q974W+96']
   }, {
     date: '2017-09-01',
     from: '9C2PCW8F+2P',
-    via: ['9C2Q974W+96', '9C3XF25H+8C', '9C3X5R4Q+MG'],
-    to: '9C2XRVH5+GJ'
+    to: '9C2XRVH5+GJ',
+    via: ['9C2Q974W+96', '9C3XF25H+8C', '9C3X5R4Q+MG']
   }, {
     date: '2017-11-04',
     from: '9C2XRVH5+GJ',
-    via: ['ZEP', 'QQS', 'ZYR', 'QKL'],
-    to: 'QPP'
+    to: 'QPP',
+    via: ['ZEP', 'QQS', 'ZYR', 'QKL']
   }, {
     date: '2017-11-09',
     from: 'QPP',
-    via: ['QKL', 'XHN', 'ZYR', 'XDB', 'QQS'],
-    to: '9C2XRVH5+GJ'
+    to: '9C2XRVH5+GJ',
+    via: ['QKL', 'XHN', 'ZYR', 'XDB', 'QQS']
   }, {
     date: '2018-01-03',
     from: 'LHR',
@@ -470,8 +555,8 @@ module.exports = function () {
   }, {
     date: '2018-02-07',
     from: '9C2XRVH5+GJ',
-    via: ['ZEP', 'QQU'],
-    to: 'ZGG'
+    to: 'ZGG',
+    via: ['ZEP', 'QQU']
   }, {
     date: '2018-02-08',
     from: '9C7QVP6X+XG',
@@ -487,51 +572,47 @@ module.exports = function () {
   }, {
     date: '2018-02-12',
     from: '9C8PCG7G+2C',
-    via: ['9C7QVP6X+XG', 'ZGG', 'QQU', 'ZEP'],
-    to: '9C2XRVH5+GJ'
+    to: '9C2XRVH5+GJ',
+    via: ['9C7QVP6X+XG', 'ZGG', 'QQU', 'ZEP']
   }, {
     date: '2018-02-17',
     from: '9C2XRVH5+GJ',
-    via: ['ZEP', 'QQK', 'CBG'],
-    to: '9F43J8G4+QJ'
+    to: '9F43J8G4+QJ',
+    via: ['ZEP', 'QQK', 'CBG']
   }, {
     date: '2018-02-18',
     from: '9F43J8G4+QJ',
-    via: ['CBG', 'QQK', 'ZEP'],
-    to: '9C2XRVH5+GJ'
+    to: '9C2XRVH5+GJ',
+    via: ['CBG', 'QQK', 'ZEP']
   }, {
     date: '2018-04-05',
     from: '9C2XRVH5+GJ',
-    via: ['ZEP', 'QQS'],
-    to: '9C4WJVJF+FW'
+    to: '9C4WJVJF+FW',
+    via: ['ZEP', 'QQS']
   }, {
     date: '2018-04-06',
     from: '9C4WJVJF+FW',
-    via: ['QQS'],
-    to: '9C2XRVH5+GJ'
+    to: '9C2XRVH5+GJ',
+    via: ['QQS']
   }, {
     date: '2018-05-15',
     from: '9C2XRVH5+GJ',
-    via: ['ZEP', 'QQP'],
-    to: '9C2RPFH4+PH'
+    to: '9C2RPFH4+PH',
+    via: ['ZEP', 'QQP']
   }, {
     date: '2018-05-17',
     from: '9C2RPFH4+PH',
-    via: ['9C2P5HC4+67'],
-    to: '9C2P5GWP+R9'
+    to: '9C2P5GWP+R9',
+    via: ['9C2P5HC4+67']
   }, {
     date: '2018-05-20',
     from: '9C2P5GWP+R9',
-    via: [
-      '9C2P5HC4+67',
-      '9C3XF25H+8C',
-      '9C3XFR8H+3M',
-      '9C2XRRPH+2H'
-    ],
-    to: '9C2XRVH5+GJ'
+    to: '9C2XRVH5+GJ',
+    via: ['9C2P5HC4+67', '9C3XF25H+8C', '9C3XFR8H+3M', '9C2XRRPH+2H']
   }, {
     date: '2018-06-04',
     from: '9C2WVHVX+CX',
+    to: '9C2WVHVX+CX',
     via: [
       '9FF7C764+CW',
       '9FG9V479+FH',
@@ -542,23 +623,22 @@ module.exports = function () {
       '9FJ94623+VW',
       '9FH8RRV6+37',
       '9FC7XPFH+2W'
-    ],
-    to: '9C2WVHVX+CX'
+    ]
   }, {
     date: '2018-08-03',
     from: '9C2XRVH5+GJ',
-    via: ['ZEP', 'QQU', 'QQN'],
-    to: '9C4WH2M7+PQ'
+    to: '9C4WH2M7+PQ',
+    via: ['ZEP', 'QQU', 'QQN']
   }, {
     date: '2018-08-04',
     from: '9C4WH2M7+PQ',
-    via: ['QQN', '9C5VQ74V+44'],
-    to: '9C5VM93F+26'
+    to: '9C5VM93F+26',
+    via: ['QQN', '9C5VQ74V+44']
   }, {
     date: '2018-08-05',
     from: '9C5VM93F+26',
-    via: ['9C5VFQQ5+24', 'QQY'],
-    to: 'NCL'
+    to: 'NCL',
+    via: ['9C5VFQQ5+24', 'QQY']
   }, {
     date: '2018-08-07',
     from: 'NCL',
@@ -566,36 +646,38 @@ module.exports = function () {
   }, {
     date: '2018-08-10',
     from: 'ZXE',
-    via: ['QQK', 'ZEP'],
-    to: '9C2XRVH5+GJ'
+    to: '9C2XRVH5+GJ',
+    via: ['QQK', 'ZEP']
   }, {
     date: '2018-09-21',
     from: '9C2XRVH5+GJ',
-    via: ['ZEP', 'QQS', 'ZYR', 'QKL'],
-    to: 'QPP'
+    to: 'QPP',
+    via: ['ZEP', 'QQS', 'ZYR', 'QKL']
   }, {
     date: '2018-10-04',
     from: 'QPP',
-    via: ['ZMB', '9F6HG62G+9F', '9F6HG63H+4F', '9F6HM932+VH', '9F6HM943+3W', 'ZGH'],
-    to: 'XFP'
+    to: 'XFP',
+    via: ['ZMB', '9F6HG62G+9F', '9F6HG63H+4F', '9F6HM932+VH', '9F6HM943+3W', 'ZGH']
   }, {
     date: '2018-10-07',
     from: 'XFP',
-    via: ['ZGH', '9F7FHP9R+75'],
-    to: 'ZMB'
+    to: 'ZMB',
+    via: ['ZGH', '9F7FHP9R+75']
   }, {
     date: '2018-10-10',
     from: 'ZMB',
-    via: ['QKL', 'ZYR', 'QQS'],
-    to: '9C2XRVH5+GJ'
+    to: '9C2XRVH5+GJ',
+    via: ['QKL', 'ZYR', 'QQS']
   }, {
     date: '2018-11-15',
-    from: 'LGW',
-    to: 'KEF'
+    from: '9C2XRVH5+GJ',
+    to: 'KEF',
+    via: ['9C3X5R4Q+MG', 'LGW']
   }, {
     date: '2018-11-20',
     from: 'KEF',
-    to: 'LGW'
+    to: '9C2XRVH5+GJ',
+    via: ['LGW', '9C3X5R4Q+MG']
   }, {
     date: '2019-04-12',
     from: '9C2XRVH5+GJ',
@@ -604,13 +686,13 @@ module.exports = function () {
   }, {
     date: '2019-04-14',
     from: '9F3399PC+5W',
-    via: ['QDH', '9F22VH5G+5P', '9F22V2C6+6H'],
-    to: '9C2XRVH5+GJ'
+    to: '9C2XRVH5+GJ',
+    via: ['QDH', '9F22VH5G+5P', '9F22V2C6+6H']
   }, {
     date: '2019-06-09',
     from: '9C2XRVH5+GJ',
-    via: ['QQS', 'ZYR', 'XHN'],
-    to: '9F27RPX4+V4'
+    to: '9F27RPX4+V4',
+    via: ['QQS', 'ZYR', 'XHN']
   }, {
     date: '2019-06-12',
     from: '9F27RPX4+V4',
@@ -618,23 +700,23 @@ module.exports = function () {
   }, {
     date: '2019-06-16',
     from: 'ZYA',
-    via: ['ZYR', 'QQS'],
-    to: '9C2XRVH5+GJ'
+    to: '9C2XRVH5+GJ',
+    via: ['ZYR', 'QQS']
   }, {
     date: '2019-09-01',
     from: '9C2XRVH5+GJ',
-    via: ['QQS', 'XPG', 'XGB', '8CMW9639+67'],
-    to: '8CCGQW92+47'
+    to: '8CCGQW92+47',
+    via: ['QQS', 'XPG', 'XGB', '8CMW9639+67']
   }, {
     date: '2019-09-08',
     from: '8CCGQW92+47',
-    via: ['8CMW9639+67', 'XGB', 'XPG', 'QQS'],
-    to: '9C2XRVH5+GJ'
+    to: '9C2XRVH5+GJ',
+    via: ['8CMW9639+67', 'XGB', 'XPG', 'QQS']
   }, {
     date: '2020-01-24',
     from: '9C2XRVH5+GJ',
-    via: ['9C2XR9J5+9X', 'QQS', 'ZYR', 'QKL'],
-    to: 'ZMB'
+    to: 'ZMB',
+    via: ['9C2XR9J5+9X', 'QQS', 'ZYR', 'QKL']
   }, {
     date: '2020-01-25',
     from: 'ZMB',
@@ -642,28 +724,28 @@ module.exports = function () {
   }, {
     date: '2020-01-28',
     from: 'ZGH',
-    via: ['9F8M5Q57+47'],
-    to: 'XEV'
+    to: 'XEV',
+    via: ['9F8M5Q57+47']
   }, {
     date: '2020-02-01',
     from: 'XEV',
-    via: ['XWL'],
-    to: 'XZO'
+    to: 'XZO',
+    via: ['XWL']
   }, {
     date: '2020-02-05',
     from: 'XZO',
-    via: ['XWL'],
-    to: 'ZGH'
+    to: 'ZGH',
+    via: ['XWL']
   }, {
     date: '2020-02-06',
     from: 'ZGH',
-    via: ['ZMB'],
-    to: 'QKL'
+    to: 'QKL',
+    via: ['ZMB']
   }, {
     date: '2020-02-08',
     from: 'QKL',
-    via: ['ZYR', 'QQS'],
-    to: '9C2XRVH5+GJ'
+    to: '9C2XRVH5+GJ',
+    via: ['ZYR', 'QQS']
   }];
 
   // Trip mode types

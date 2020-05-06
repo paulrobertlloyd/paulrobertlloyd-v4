@@ -7,12 +7,28 @@ module.exports = [{
     'plus-code': '9F469WH2+M4'
   }
 }, {
+  title: 'Amsterdam Amstel',
+  address: {
+    locality: 'Amsterdam',
+    'country-name': 'Netherlands',
+    'plus-code': '9F468WW9+M8'
+  }
+}, {
   title: 'Ashford International',
   iata: 'QDH',
   address: {
     locality: 'Ashford',
     'country-name': 'United Kingdom',
     'plus-code': '9F324VVG+FG'
+  },
+  icon: 'national-rail'
+}, {
+  title: 'Bahnhof Basel SBB',
+  iata: 'ZDH',
+  address: {
+    locality: 'Basel',
+    'country-name': 'Switzerland',
+    'plus-code': '8FV9GHXQ+2V'
   },
   icon: 'national-rail'
 }, {
@@ -24,6 +40,14 @@ module.exports = [{
   },
   icon: 'national-rail'
 }, {
+  title: 'Bath Spa',
+  address: {
+    locality: 'Bath',
+    'country-name': 'United Kingdom',
+    'plus-code': '9C3V9JHV+36'
+  },
+  icon: 'national-rail'
+}, {
   title: 'Berlin Hauptbahnhof',
   iata: 'QPP',
   address: {
@@ -32,12 +56,28 @@ module.exports = [{
     'plus-code': '9F4MG9G9+2Q'
   }
 }, {
+  title: 'Birmingham Moor Street',
+  address: {
+    locality: 'Birmingham',
+    'country-name': 'United Kingdom',
+    'plus-code': '9C4WF4H4+HX'
+  },
+  icon: 'national-rail'
+}, {
   title: 'Birmingham New Street',
   iata: 'QQN',
   address: {
-    locality: 'Barnham',
+    locality: 'Birmingham',
     'country-name': 'United Kingdom',
     'plus-code': '9C4WF4H2+4C'
+  },
+  icon: 'national-rail'
+}, {
+  title: 'Bloxwich North',
+  address: {
+    locality: 'Walsall',
+    'country-name': 'United Kingdom',
+    'plus-code': '9C4VJXGJ+4W'
   },
   icon: 'national-rail'
 }, {
@@ -46,6 +86,15 @@ module.exports = [{
     locality: 'Brighton',
     'country-name': 'United Kingdom',
     'plus-code': '9C2XRVH5+GJ'
+  },
+  icon: 'national-rail'
+}, {
+  title: 'Bristol Temple Meads',
+  iata: 'BRS',
+  address: {
+    locality: 'Bristol',
+    'country-name': 'United Kingdom',
+    'plus-code': '9C3VCCX9+VH'
   },
   icon: 'national-rail'
 }, {
@@ -153,6 +202,13 @@ module.exports = [{
     'plus-code': '9F7FHP9R+75'
   }
 }, {
+  title: 'Freiburg Hauptbahnhof',
+  address: {
+    locality: 'Freiburg im Breisgau',
+    'country-name': 'Germany',
+    'plus-code': '8FV9XRWR+J5'
+  }
+}, {
   title: 'Galway',
   address: {
     locality: 'Galway',
@@ -167,11 +223,25 @@ module.exports = [{
     'plus-code': '8FX3W3CJ+HC'
   }
 }, {
+  title: 'Gare de Strasbourg-Ville',
+  address: {
+    locality: 'Strasbourg',
+    'country-name': 'France',
+    'plus-code': '8FW9HPPM+2Q'
+  }
+}, {
   title: 'Gare de Hendaye',
   address: {
     locality: 'Hendaye',
     'country-name': 'France',
     'plus-code': '8CMW9639+67'
+  }
+}, {
+  title: 'Gare de l’Est',
+  address: {
+    locality: 'Paris',
+    'country-name': 'France',
+    'plus-code': '8FW4V9G5+PP'
   }
 }, {
   title: 'Gare de Lille Europe',
@@ -221,7 +291,7 @@ module.exports = [{
 }, {
   title: 'Gatwick',
   address: {
-    locality: 'Gatwick',
+    locality: 'Gatwick Airport',
     'country-name': 'United Kingdom',
     'plus-code': '9C3X5R4Q+MG'
   },
@@ -330,6 +400,14 @@ module.exports = [{
     'plus-code': '9F27JHF8+QM'
   }
 }, {
+  title: 'London Bridge',
+  address: {
+    locality: 'London',
+    'country-name': 'United Kingdom',
+    'plus-code': '9C3XGW38+P3'
+  },
+  icon: 'national-rail'
+}, {
   title: 'London Euston',
   iata: 'QQU',
   address: {
@@ -354,6 +432,14 @@ module.exports = [{
     locality: 'London',
     'country-name': 'United Kingdom',
     'plus-code': '9C3XGR8F+M6'
+  },
+  icon: 'national-rail'
+}, {
+  title: 'London Marylebone',
+  address: {
+    locality: 'London',
+    'country-name': 'United Kingdom',
+    'plus-code': '9C3XGRCP+XP'
   },
   icon: 'national-rail'
 }, {
@@ -436,6 +522,14 @@ module.exports = [{
     locality: 'Norwich',
     'country-name': 'United Kingdom',
     'plus-code': '9F43J8G4+QJ'
+  },
+  icon: 'national-rail'
+}, {
+  title: 'Nottingham',
+  address: {
+    locality: 'Nottingham',
+    'country-name': 'United Kingdom',
+    'plus-code': '9C4WWVW3+R7'
   },
   icon: 'national-rail'
 }, {
@@ -533,6 +627,14 @@ module.exports = [{
     'plus-code': '9FFW83J5+28'
   }
 }, {
+  title: 'Three Bridges',
+  address: {
+    locality: 'Three Bridges',
+    'country-name': 'United Kingdom',
+    'plus-code': '9C3X4R9Q+68'
+  },
+  icon: 'national-rail'
+}, {
   title: 'Truro',
   address: {
     locality: 'Truro',
@@ -548,6 +650,13 @@ module.exports = [{
     'plus-code': '9C4WH2M7+PQ'
   },
   icon: 'national-rail'
+}, {
+  title: 'Utrecht Centraal',
+  address: {
+    locality: 'Utrecht',
+    'country-name': 'Netherlands',
+    'plus-code': '9F4734Q5+QX'
+  }
 }, {
   title: 'York',
   iata: 'QQY',
