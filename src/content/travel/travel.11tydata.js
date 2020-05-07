@@ -7,18 +7,8 @@ module.exports = {
   changefreq: 'yearly',
   priority: 0.8,
   eleventyComputed: {
-    start: data => {
-      const relatedTrips = data.related_trips;
-      if (relatedTrips) {
-        return relatedTrips[0].data.trip.date;
-      }
-    },
-    end: data => {
-      const relatedTrips = data.related_trips;
-      if (relatedTrips) {
-        return relatedTrips[relatedTrips.length - 1].data.trip.date;
-      }
-    },
+    start: data => data.related_trips ? data.related_trips[0].data.trip.date : false,
+    end: data => data.related_trips ? data.related_trips[data.related_trips.length - 1].data.trip.date : false,
     geojson: data => {
       const relatedTrips = data.related_trips;
       if (relatedTrips) {
