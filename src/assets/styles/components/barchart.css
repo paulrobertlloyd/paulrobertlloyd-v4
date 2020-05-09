@@ -1,0 +1,109 @@
+.barchart {
+  display: flex;
+  flex-direction: column-reverse;
+  max-inline-size: 100%;
+  overflow-x: auto;
+}
+
+@media (--from-medium-viewport) {
+  .barchart {
+    overflow-x: visible;
+  }
+}
+
+.barchart__caption {
+  @extend %caption;
+
+  padding-block: var(--space-block);
+  text-align: center;
+}
+
+.barchart__caption abbr::before {
+  content: "◼︎ ";
+}
+
+.barchart__caption abbr:first-of-type::before {
+  color: var(--color-accent);
+}
+
+.barchart__caption abbr:last-of-type::before {
+  color: var(--color-complement);
+}
+
+.barchart__items {
+  display: flex;
+  inline-size: 100%;
+  min-inline-size: 32rem;
+}
+
+.barchart__item {
+  display: flex;
+  flex: 1;
+  flex-direction: column-reverse;
+  height: 33vh;
+}
+
+.barchart__key {
+  @extend %caption;
+
+  border-block-start: var(--border-width-thin) solid var(--color-neutral-lighter);
+  text-align: center;
+}
+
+.barchart__value {
+  align-items: flex-end;
+  block-size: 100%;
+  display: flex;
+  position: relative;
+}
+
+.barchart__value a {
+  display: contents;
+}
+
+.barchart__value [style^="--chart-size"] {
+  block-size: var(--chart-size);
+  display: block;
+  position: absolute;
+}
+
+.barchart__value [style^="--chart-size"]:first-of-type {
+  background-color: var(--color-accent);
+  inline-size: 67%;
+  inset-inline-end: 10%;
+}
+
+.barchart__value [style^="--chart-size"]:last-of-type {
+  background-color: var(--color-complement);
+  inline-size: 33%;
+  inset-inline-start: 10%;
+}
+
+.barchart__value .barchart__value-label {
+  background-color: var(--color-background);
+  border: var(--border-width-thicker) solid var(--color-background);
+  color: var(--color-text);
+  display: none;
+  filter: invert();
+  font-size: 90%;
+  inset-block-start: -2.5em;
+  padding: var(--text-spacing);
+  position: absolute;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+.barchart__value .barchart__value-label::after {
+  border: var(--border-width-thicker) solid var(--color-background);
+  border-block-end-color: transparent;
+  border-inline-end-color: transparent;
+  content: "";
+  display: block;
+  inset-block-end: calc(var(--border-width-thicker) * 3 * -1);
+  inset-inline-start: calc(var(--border-width-thicker) * -1);
+  position: absolute;
+}
+
+.barchart__value [style^="--chart-size"]:hover .barchart__value-label {
+  display: block;
+}

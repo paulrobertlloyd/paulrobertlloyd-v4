@@ -11,6 +11,7 @@
 
   /* Colour assignments */
   --color-accent: var(--color-accent-light);
+  --color-complement: hsl(320 100% 44%);
   --color-background: white;
   --color-offset: var(--color-neutral-lightest);
   --color-outline: hsl(var(--tint) 16% / 20%);
