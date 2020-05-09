@@ -36,7 +36,7 @@ This article is intended to be a comma, not a full stop. If you haven’t alread
 
 [1]: https://alistapart.com/article/the-web-aesthetic
 [2]: https://alistapart.com/article/thinking-responsively-a-framework-for-future-learning/
-[3]: /talks/
+[3]: /presentations/
 [4]: http://responsiveconf.com.s3.amazonaws.com/2014/audio/13-ethan-marcotte-responsiveconf2014.mp3
 [5]: /2014/07/responsive_day_out
 [6]: https://cssday.nl/2015/programme#paul-robert-lloyd

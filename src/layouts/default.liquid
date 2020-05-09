@@ -23,9 +23,9 @@
   <link rel="alternate" href="/feed.json" type="application/json" title="JSON Feed">
   <link rel="canonical" href="{{ canonical_url }}">
   <link rel="manifest" href="/app.webmanifest">
-  <link rel="icon" href="{{ app.favicon }}">
-  <link rel="mask-icon" href="{{ app.favicon }}" color="{{ app.theme_color }}">
-  <link rel="apple-touch-icon" href="{{ app.icon }}">
+  <link rel="icon" href="{{ app.favicon | | prepend: app.url }}">
+  <link rel="mask-icon" href="{{ app.favicon | prepend: app.url }}" color="{{ app.theme_color }}">
+  <link rel="apple-touch-icon" href="{{ app.icon | prepend: app.url }}">
   <link rel="authorization_endpoint" href="{{ app.endpoint.auth }}">
   <link rel="token_endpoint" href="{{ app.endpoint.token }}">
   <link rel="micropub" href="{{ app.endpoint.micropub }}">

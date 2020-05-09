@@ -23,6 +23,8 @@
     "watch:scripts": "rollup --silent --config etc/rollup.config.js --watch",
     "watch:styles": "postcss src/assets/styles/app.css -o www/assets/styles/app.css --config etc/postcss.config.js --watch",
     "watch": "npm-run-all --parallel watch:*",
+    "prelint:hyperlinks": "npm run build:files",
+    "lint:hyperlinks": "hyperlink www --canonicalroot https://paulrobertlloyd.com -r -i | tee hyperlink.tap | tap-spot",
     "lint:markdown": "markdownlint 'src/**/*.md'",
     "lint:scripts": "xo 'src/**/*.js'",
     "lint:styles": "stylelint 'src/**/*.css'",
@@ -63,10 +65,12 @@
     "string-to-color": "^2.1.3"
   },
   "devDependencies": {
+    "hyperlink": "^4.5.0",
     "markdownlint-cli": "^0.23.0",
     "stylelint": "^13.3.3",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.0.0",
+    "tap-spot": "^1.1.1",
     "xo": "^0.30.0"
   },
   "xo": {

@@ -76,7 +76,7 @@ Clearly, I have a lot of questions, so I’ll need to find answers before contin
 [1]: https://www.theguardian.com/science/2016/mar/14/february-breaks-global-temperature-records-by-shocking-amount
 [2]: https://www.theguardian.com/environment/climate-consensus-97-per-cent/2016/aug/22/historical-documents-reveal-arctic-sea-ice-is-disappearing-at-record-speed
 [3]: https://en.wikipedia.org/wiki/Boiling_frog
-[4]: /links/2016/04/easter_island
+[4]: /bookmarks/2016/04/easter_island
 [5]: https://www.freeagent.com/fieldguide/
 [6]: http://www.generateconf.com
 [7]: https://twitter.com/paulrobertlloyd/status/768395089395781632

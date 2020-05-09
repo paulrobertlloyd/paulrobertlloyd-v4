@@ -46,7 +46,7 @@ My last day in San Francisco was also the last of this trip. With my flight depa
 [7]: https://nest.com
 [8]: https://foundationcapital.com/people/profile/steve-vassallo/
 [9]: https://www.gravitywinebar.com
-[10]: /links/2011/10/stay_hungry_stay_foolish
+[10]: /bookmarks/2011/10/stay_hungry_stay_foolish
 [11]: https://twitter.com/tomdzk
 [12]: http://universalcafe.net/
 [13]: https://www.haas-lilienthalhouse.org

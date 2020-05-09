@@ -5,6 +5,7 @@
 *.crt
 *.env
 *.key
+*.tap
 
 # Folders to ignore
 .cache
