@@ -673,6 +673,14 @@ module.exports = [{
   },
   icon: 'national-rail'
 }, {
+  title: 'Stirling',
+  address: {
+    locality: 'Stirling',
+    'country-name': 'United Kingdom',
+    'plus-code': '9C8R4397+WR'
+  },
+  icon: 'national-rail'
+}, {
   title: 'Stockholm Central',
   iata: 'XEV',
   address: {

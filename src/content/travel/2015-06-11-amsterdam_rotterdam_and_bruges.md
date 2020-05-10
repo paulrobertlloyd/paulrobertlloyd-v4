@@ -1,6 +1,6 @@
 ---
 title: Amsterdam, Rotterdam and Bruges
-summary: CSS Day and an architectural expedition.
+summary: Speaking at CSS Day and an architectural expedition.
 related:
 - /2015/06/william_kentridge/
 - /2015/06/rotterdam/

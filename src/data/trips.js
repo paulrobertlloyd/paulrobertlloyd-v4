@@ -330,13 +330,49 @@ module.exports = function () {
     from: 'EWR',
     to: 'LGW'
   }, {
+    date: '2014-03-08',
+    from: '9C2XRVH5+GJ',
+    to: 'ZGG',
+    via: ['ZEP', 'QQU']
+  }, {
+    date: '2014-03-09',
+    from: 'ZGG',
+    to: '9C2XRVH5+GJ',
+    via: ['QQU', 'ZEP']
+  }, {
+    date: '2014-06-07',
+    from: '9C2XRVH5+GJ',
+    to: 'ZGG',
+    via: ['ZEP', 'QQU']
+  }, {
+    date: '2014-06-09',
+    from: '9C7QVP6X+XG',
+    to: '9C8R4397+WR'
+  }, {
+    date: '2014-06-10',
+    from: '9C8R4397+WR',
+    to: '9C2XRVH5+GJ',
+    via: ['9C7QVP6X+XG', 'ZGG', 'QQU', 'ZEP']
+  }, {
+    date: '2014-06-27',
+    from: '9C2XRVH5+GJ',
+    to: 'ZGG',
+    via: ['ZEP', 'QQU']
+  }, {
+    date: '2014-06-29',
+    from: 'ZGG',
+    to: '9C2XRVH5+GJ',
+    via: ['QQU', 'ZEP']
+  }, {
     date: '2014-11-12',
-    from: 'LGW',
-    to: 'BFS'
+    from: '9C2XRVH5+GJ',
+    to: 'BFS',
+    via: ['9C3X5R4Q+MG', 'LGW']
   }, {
     date: '2014-11-15',
     from: 'BFS',
-    to: 'LGW'
+    to: '9C2XRVH5+GJ',
+    via: ['LGW', '9C3X5R4Q+MG']
   }, {
     date: '2015-02-04',
     from: '9C2XRVH5+GJ',
