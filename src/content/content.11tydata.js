@@ -21,9 +21,7 @@ module.exports = {
     related_articles: data => {
       const articles = data.collections.article;
       const related = data.related ? data.related : [];
-      if (articles) {
-        return articles.filter(article => related.includes(article.url));
-      }
+      return articles.filter(article => related.includes(article.url));
     },
     webmentions: data => {
       const url = data.app.url + data.page.url;

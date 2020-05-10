@@ -32,7 +32,7 @@
     "debug": "DEBUG=* npx eleventy"
   },
   "dependencies": {
-    "@11ty/eleventy": "11ty/eleventy#master",
+    "@11ty/eleventy": "github:11ty/eleventy#master",
     "@11ty/eleventy-cache-assets": "^2.0.2",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.0.1",
     "@remy/webmention": "^1.4.4",
