@@ -5,8 +5,8 @@ summary: Incremental redesign for family run, customer-focused food retailer.
 image: /images/projects/nuts/image.jpg
 category:
 - Interaction design
+accentColor: '#c50'
 style:
-  color-accent: '#c50'
   screenshot-shadow: '#920'
   screenshot-offset: '#c50'
 aside: |

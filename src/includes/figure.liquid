@@ -4,13 +4,13 @@
 {%- elsif embed %}
   {%- render 'embed'
     embed: embed
-    poster: embed_poster
-    ratio: embed_ratio | default: false
+    poster: embedPoster
+    ratio: embedRatio | default: false
   -%}
 {%- else %}
   {%- render 'image' with figure
-    preset: image_preset
-    ratio: image_ratio | default: false
+    preset: imagePreset
+    ratio: imageRatio | default: false
   -%}
 {%- endif %}
 {%- if caption %}

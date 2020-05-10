@@ -33,7 +33,7 @@ In 1951, part of the building was given over to commercial air travel. Like else
 {% render 'figure' with '/images/2018/10/tempelhof/facade.jpg'
   caption: 'Behind the limestone facade.'
   alignment: 'pull'
-  image_preset: 'supporting'
+  imagePreset: 'supporting'
 %}
 
 Before returning to the reception hall, we move into a small, unassuming entrance area featuring a low-hung ceiling. Our guide points to a series of thick pillars that line the walls and suggests that they appear out of place given the room’s meagre proportions. Only upon visiting the floor above do these make sense. This entrance was originally a much taller hall, and these pillars reached up to a decorated ceiling 15 meters above (since blackened and damaged during the terminal’s brief Soviet occupation). The floor was added by the Americans in an attempt to denazify the space else “Germans might enter the building and unconsciously raise their hand”.

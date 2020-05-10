@@ -156,7 +156,7 @@ Frank Pick’s successful management of London Transport was possible due to the
 {% render 'figure' with '/images/2017/01/designing_systems_part_2/underground_1997.jpg'
   caption: 'The Underground in 1997 — very different from how it looks today. Photograph: [Kirk Bauer](http://pics.kaybee.org/Vacations/Europe1997/England/London/tube2.jpg).'
   alignment: 'pull'
-  image_preset: 'supporting'
+  imagePreset: 'supporting'
 %}
 
 Thankfully the last 15 years have seen these factors reverse, with the network again getting the attention it deserves. New lines are being built, while existing stations are being upgraded and repaired. Transport for London are managing this renewal by following the <cite>[Station Design Idiom][17]</cite>, a set of nine principles that underpin design across the Underground network. These are referred to on every project, be it a small-scale repair, a major refurbishment or a brand new station.

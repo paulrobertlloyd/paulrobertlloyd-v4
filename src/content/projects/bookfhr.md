@@ -5,8 +5,8 @@ summary: Visual and user experience design for provider of airport travel servic
 image: /images/projects/bookfhr/image.jpg
 category:
 - Interaction design
+accentColor: '#002f70'
 style:
-  color-accent: '#002f70'
   screenshot-shadow: '#f16d01'
   screenshot-offset: '#f5aa00'
 aside: |

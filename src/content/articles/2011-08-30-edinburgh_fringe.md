@@ -20,7 +20,7 @@ Having enjoyed the Edinburgh Fringe when I attended for the first time last Augu
 
 {% render 'figure' with '/images/2011/08/edinburgh_fringe/andy_parsons.jpg'
   alt: 'Photo of Andy Parsons'
-  image_preset: 'thumbnail'
+  imagePreset: 'thumbnail'
   alignment: 'pull'
 %}
 
@@ -36,7 +36,7 @@ A perfectly entertaining evening but after seeing other acts, his felt weak in c
 
 {% render 'figure' with '/images/2011/08/edinburgh_fringe/chris_tt.jpg'
   alt: 'Illustration of Chris T-T'
-  image_preset: 'thumbnail'
+  imagePreset: 'thumbnail'
   alignment: 'pull'
 %}
 
@@ -54,7 +54,7 @@ This show reminded me that I should broaden my selection when looking for things
 
 {% render 'figure' with '/images/2011/08/edinburgh_fringe/sammy_j_and_randy.jpg'
   alt: 'Photo of Sammy J and Randy'
-  image_preset: 'thumbnail'
+  imagePreset: 'thumbnail'
   alignment: 'pull'
 %}
 
@@ -72,7 +72,7 @@ I still preferred Sammy J’s performance, but saw enough to buy a ticket for Ra
 
 {% render 'figure' with '/images/2011/08/edinburgh_fringe/richard_herring.jpg'
   alt: 'Photo of Richard Herring'
-  image_preset: 'thumbnail'
+  imagePreset: 'thumbnail'
   alignment: 'pull'
 %}
 
@@ -90,7 +90,7 @@ Herring sets out to destroy love, but by the end of the show he has probably rei
 
 {% render 'figure' with '/images/2011/08/edinburgh_fringe/adam_buxton.jpg'
   alt: 'Photo of Adam Buxton'
-  image_preset: 'thumbnail'
+  imagePreset: 'thumbnail'
   alignment: 'pull'
 %}
 
@@ -110,7 +110,7 @@ For 90-minutes we were truly spoiled, even more so thanks to Adam’s set pieces
 
 {% render 'figure' with '/images/2011/08/edinburgh_fringe/foil_arms_and_hog.jpg'
   alt: 'Photo of Foil, Arms and Hog'
-  image_preset: 'thumbnail'
+  imagePreset: 'thumbnail'
   alignment: 'pull'
 %}
 
@@ -128,7 +128,7 @@ It was also where I enjoyed perhaps the funniest moment of my festival. When an 
 
 {% render 'figure' with '/images/2011/08/edinburgh_fringe/dave_gorman.jpg'
   alt: 'Photo of Dave Gorman'
-  image_preset: 'thumbnail'
+  imagePreset: 'thumbnail'
   alignment: 'pull'
 %}
 
@@ -144,7 +144,7 @@ When these two things come together, stupid things can happen, opening themselve
 
 {% render 'figure' with '/images/2011/08/edinburgh_fringe/randy.jpg'
   alt: 'Photo of Randy'
-  image_preset: 'thumbnail'
+  imagePreset: 'thumbnail'
   alignment: 'pull'
 %}
 

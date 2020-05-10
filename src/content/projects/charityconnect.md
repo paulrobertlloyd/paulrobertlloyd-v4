@@ -7,8 +7,8 @@ category:
 - Interaction design
 tags:
 - featured
+accentColor: '#402031'
 style:
-  color-accent: '#402031'
   screenshot-shadow: '#402031'
   screenshot-offset: '#662949'
 aside: |
@@ -54,7 +54,7 @@ I was asked to conduct an expert review of some earlier designs that had been pr
 {% render 'photos' with photoset.workshop
   caption: 'A series of workshop exercises teased out requirements for the project, and provided an introduction to the type of people using the site.'
   alignment: 'bleed'
-  image_preset: 'thumbnail'
+  imagePreset: 'thumbnail'
 %}
 
 With these findings uncovered, I created a set of detailed visual design compositions. I evolved the existing design language, allowing it to convey a higher degree of user activity, while creating an identity that would stand out among popular mainstream networks.

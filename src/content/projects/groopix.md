@@ -6,8 +6,8 @@ image: /images/projects/groopix/image.jpg
 category:
 - Brand identity
 - Interaction design
+accentColor: '#6e9d00'
 style:
-  color-accent: '#6e9d00'
   screenshot-shadow: '#6e9d00'
   screenshot-offset: '#cc0'
 aside: |

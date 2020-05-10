@@ -5,8 +5,8 @@ summary: Design for NBCUniversal’s international channel portfolio.
 image: /images/projects/universal_networks/image.jpg
 category:
 - Interaction design
+accentColor: '#527'
 style:
-  color-accent: '#527'
   screenshot-shadow: '#afaaa2'
   screenshot-offset: '#d9d7d4'
 aside: |
@@ -49,7 +49,7 @@ Working with James Box at Clearleft, I devised the underlying user experience an
 {% render 'screenshots' with screenshots.networks
   caption: 'The library of design patterns could be customised to support different channel brands.'
   alignment: 'bleed'
-  image_preset: 'thumbnail'
+  imagePreset: 'thumbnail'
 %}
 
 [1]: https://en.wikipedia.org/wiki/NBCUniversal_International_Networks

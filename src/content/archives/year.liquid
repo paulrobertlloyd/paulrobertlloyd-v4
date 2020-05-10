@@ -10,7 +10,7 @@ permalink: "{{ page.url }}"
 changefreq: monthly
 priority: 0.2
 eleventyComputed:
-  page_title: "{{ page.data.title }} · {{ app.title }}"
+  pageTitle: "{{ page.data.title }} · {{ app.title }}"
   introduction: "{{ page.data.title }}"
 ---
 {%- assign archive = months | includes: 'date',page.fileSlug -%}
@@ -23,7 +23,7 @@ eleventyComputed:
   id: 'featured'
   title: 'Select articles from this year'
   scrollable: true
-  items_limit: 3
-  items_grid_size: '15rem'
+  itemsLimit: 3
+  itemsGridSize: '15rem'
   items_component: 'card'
 -%}

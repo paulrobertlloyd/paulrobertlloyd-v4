@@ -38,7 +38,7 @@ _This article is [also available in Italian][it-IT]{hreflang="it-IT" rel="altern
 {% render 'figure' with '/images/2012/09/the_web_aesthetic/illustration.png'
   caption: 'Illustration: [Kevin Cornell](http://alistapart.com/authors/c/kevincornell) for A List Apart.'
   alignment: 'bleed'
-  image_ratio: 2.25
+  imageRatio: 2.25
 %}
 
 {% render 'figure'
@@ -74,7 +74,7 @@ This was especially true in the 1970s and early 1980s. Although programs were re
 
 {% render 'photos' with photoset.1
   caption: 'BBC1 idents from 1974 and 1981.'
-  image_preset: 'thumbnail'
+  imagePreset: 'thumbnail'
 %}
 
 Television is facing another period of transition, this time toward a high-definition widescreen format. Because many viewers own standard-definition 4:3 televisions, designers again need to compromise, working within a “safe area” to ensure graphics don’t get cropped on older sets. As such, graphics on widescreen televisions tend to float in the middle of the screen, not yet able to make use of the full width.
@@ -115,7 +115,7 @@ The [dConstruct Archive][6] is a small site where people can listen to talks giv
 
 {% render 'photos' with photoset.2
   caption: 'Original image: 9kb. Optimized image: 4kb.'
-  image_preset: 'thumbnail'
+  imagePreset: 'thumbnail'
 %}
 
 To work out which image sizes to use, the smallest and largest displays were taken into account. We can already see a failing in current responsive image proposals. If you visit this site, you will notice that larger viewports sometimes display smaller images, because the size of the image required is often dependent on the size of its containing block, *not* the size of the viewport. Yet viewport is the value the proposed standards would have us query.
@@ -128,7 +128,7 @@ With a theme of “playing with the future,” the [dConstruct 2012][7] conferen
 
 {% render 'photos' with photoset.3
   caption: 'Original image: 14kb. Optimized image: 11kb.'
-  image_preset: 'thumbnail'
+  imagePreset: 'thumbnail'
 %}
 
 As we saw in the television example, the constraints of a medium can impact the resulting aesthetic. In that case, should images with fewer colors or blurred backgrounds — and perhaps even noticeable compression artifacts — become an accepted norm on the web? Surely the popularity of services like Instagram (itself a product born of constraints) has proven that [photography is judged by its content][8], not by its resolution.
@@ -145,7 +145,7 @@ When accessed on more powerful devices like newer smartphones, tablets, and desk
 
 {% render 'photos' with photoset.4
   caption: 'Simple and enhanced experiences for the BBC News mobile site'
-  image_preset: 'thumbnail'
+  imagePreset: 'thumbnail'
 %}
 
 Progressive enhancement has long featured in the developer’s toolbox, but it should now feature throughout the design process. By thinking about websites in less binary terms (desktop versus mobile; IE6 versus “modern” browsers), we can create experiences that adapt to the diverse landscape of the web.

@@ -25,8 +25,8 @@ Ethan proposed the development of a broader framework, one that guides the work 
 
 {% render 'figure'
   embed: 'https://vimeo.com/93206523'
-  embed_poster: 'https://i.vimeocdn.com/video/474456112'
-  embed_ratio: '48/19'
+  embedPoster: 'https://i.vimeocdn.com/video/474456112'
+  embedRatio: '48/19'
   caption: 'The illusion of life.'
 %}
 

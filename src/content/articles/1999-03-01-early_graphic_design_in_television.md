@@ -86,12 +86,12 @@ This meant graphics produced for television had a huge number of restrictions pu
 
 {% render 'photos' with figures.1
   caption: 'Title sequence from <cite>Wednesday Magazine</cite>. (BBC/Bernard Lodge, 1958)'
-  image_preset: 'thumbnail'
+  imagePreset: 'thumbnail'
 %}
 
 {% render 'photos' with figures.2
   caption: 'Title sequence from <cite>Kingsley Amis Goes Pop</cite>. (Associated Rediffusion/John Tribe, 1962)'
-  image_preset: 'thumbnail'
+  imagePreset: 'thumbnail'
 %}
 
 In America, William Golden was making a name for himself in television and was arguably the medium’s first graphic designer. Golden was born in 1911 in New York, where he attended a vocational high school in which he studied commercial design and photoengraving. In 1937, he joined the CBS Radio Network and soon became their art director.
@@ -119,7 +119,7 @@ Bass was also successful in designing many corporate identities with clients inc
 
 {% render 'figure'
   embed: 'https://www.youtube.com/watch?v=eGnpJ_KdqZE'
-  embed_ratio: '4/3'
+  embedRatio: '4/3'
   caption: 'Title sequence from <cite>The Man with the Golden Arm</cite>. (United Artists/Saul Bass, 1967)'
 %}
 
@@ -149,25 +149,25 @@ Typical graphic design during the sixties saw a move to a greater use of photogr
 
 {% render 'figure'
   embed: 'https://www.youtube.com/watch?v=tbIXxPt2YvY'
-  embed_ratio: '4/3'
+  embedRatio: '4/3'
   caption: 'Title sequence from <cite>The Avengers</cite>. (ABC/Jerome Gask, 1963)'
 %}
 
 {% render 'photos' with figures.6
   caption: 'Title sequence from <cite>Darkness at Noon</cite>. (Associated Rediffusion/Arnold Schwartzman, 1964)'
-  image_preset: 'thumbnail'
+  imagePreset: 'thumbnail'
 %}
 
 The introduction, firstly of 625-line broadcasts and later colour, had obvious benefits to designers although in a way they were also a hindrance. It has to be remembered that even though these improvements were available, they were being broadcast alongside the old 405-line transmissions (which even with their quality weren’t suspended until early 1985). It was up to the audience to upgrade their sets and sales of colour receivers were unexpectedly low when colour television broadcasts began. Before the majority of viewers had 625-line and colour receivers, the designer still had to consider those watching on 405-lines and monochrome sets.
 
 {% render 'photos' with figures.7
   caption: 'Title sequence from <cite>I, Claudius</cite>. (BBC/Richard Bailey, 1976)'
-  image_preset: 'thumbnail'
+  imagePreset: 'thumbnail'
 %}
 
 {% render 'figure'
   embed: 'https://www.youtube.com/watch?v=KNNAfzKwRn4'
-  embed_ratio: '4/3'
+  embedRatio: '4/3'
   caption: 'Title sequence from <cite>The Old Grey Whistle Test</cite>. (BBC/Roger Ferrin, 1968)'
 %}
 
@@ -185,13 +185,13 @@ After leaving the Royal College of Art, Bernard Lodge joined the BBC in 1959. It
 
 {% render 'figure'
   embed: 'https://www.youtube.com/watch?v=sjDFvoRNpOM'
-  embed_ratio: '4/3'
+  embedRatio: '4/3'
   caption: 'Title sequence from <cite>Doctor Who</cite>. (BBC/Bernard Lodge, 1963)'
 %}
 
 {% render 'figure'
   embed: 'https://www.youtube.com/watch?v=rMfB96pwcTA'
-  embed_ratio: '4/3'
+  embedRatio: '4/3'
   caption: 'Title sequence from <cite>Doctor Who</cite>. (BBC/Bernard Lodge 1973)'
 %}
 
@@ -208,7 +208,7 @@ Here he worked on the on-screen graphics for the Apollo space missions including
 {% render 'figure' with '/images/1999/03/early_graphic_design_in_television/11.png'
   caption: 'Typical still used up until the late 1970’s to illustrate current affairs or news items. If the item were to complicated to convey in a single still, it would be animated.'
   alignment: 'pull'
-  image_preset: 'supporting'
+  imagePreset: 'supporting'
 %}
 
 It was here that Martin Lambie-Nairn was to find his big break. <cite>Weekend World</cite> was LWT’s current affairs programme, was broadcast on Sunday lunchtimes and due to its topicality, required a graphic designer to work from midday Saturday to midday Sunday. As it was such an antisocial shift, the contract to produce its graphics was placed outside of LWT. At this time Lambie-Nairn had set up his own company with a fellow colleague Colin Robinson, and the contract presented a golden opportunity for Robinson Lambie-Nairn. They won the contract, and it was here that Lambie-Nairn revolutionised the graphic conventions used in presenting current-affairs related information graphically.
@@ -217,7 +217,7 @@ This was traditionally based on newspaper cartoons — for example, if there was
 
 {% render 'figure'
   embed: 'https://www.youtube.com/watch?v=Nsf6zIxlOd8'
-  embed_ratio: '4/3'
+  embedRatio: '4/3'
   caption: 'Title sequence from <cite>Weekend World</cite>. (LWT/Robinson Lambie-Nairn, 1982)'
 %}
 
@@ -229,7 +229,7 @@ Channel Four also had consistent on-screen branding, with programme menus, weath
 
 {% render 'figure'
   embed: 'https://www.youtube.com/watch?v=R86_TLuI51w'
-  embed_ratio: '4/3'
+  embedRatio: '4/3'
   caption: '<cite>Round and Back</cite>. (Channel Four/Robinson Lambie-Nairn, 1982)'
 %}
 
@@ -262,7 +262,7 @@ Engineers at ITN, later designed their own system, the VT80 which helped to grea
 {% render 'figure' with '/images/1999/03/early_graphic_design_in_television/14.jpg'
   caption: 'A film rostrum camera. Computer controlled rostrum cameras were introduced around the late 1970’s.'
   alignment: 'pull'
-  image_preset: 'supporting'
+  imagePreset: 'supporting'
 %}
 
 The computers use throughout the rest of television graphics has followed a path of ever-increased usage — from its control of the rostrum camera, to being able to generate images for on-screen. Before computers, the film rostrum camera was used in many areas of television graphics. The rostrum camera is a vertically mounted camera that is able move up and down above a bench on which the artwork is placed, and it is the bench that is able to produce the majority of the movement. Used mostly in the filming of animated title sequences, it was also used for the filming compilations of stills (be them photographs, paintings or prepared artwork) and shooting cells or drawings a frame at a time ready for animation.
@@ -273,7 +273,7 @@ As for lettering this became easier and less time consuming than the original ha
 
 {% render 'figure'
   embed: 'https://www.youtube.com/watch?v=fDT_-CpiNKI'
-  embed_ratio: '4/3'
+  embedRatio: '4/3'
   caption: '<cite>Liquid Gold</cite>. (Yorkshire Television/Jeff Parr, 1986)'
 %}
 
@@ -281,7 +281,7 @@ However it was the eighties in which the computers use was more obvious to the v
 
 {% render 'photos' with figures.16
   caption: 'Title sequence from <cite>Ghosts in the Machine II</cite>. (Channel Four/Richard Markell, 1988)'
-  image_preset: 'thumbnail'
+  imagePreset: 'thumbnail'
 %}
 
 As for programme titles, they all seemed to embrace colour in a way that was not seen during the previous decade with the influence from Channel Four’s identity on graphic designers particularly evident at this time. Using a similar palette to that of new channels identity, designers and often mixed photographs with illustrations which were usually very stylistic and sometimes of a cartoon nature. It also saw a return of the familiar black background in titles — last seen in the fifties — and on most occasions, titles ended with a simple title on black.

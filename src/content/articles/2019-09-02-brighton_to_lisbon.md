@@ -32,7 +32,7 @@ tags:
 {% render 'figure' with '/images/2019/09/brighton_to_lisbon/paris_rer.jpg'
   caption: 'Passengers on the Paris RER'
   alignment: 'bleed'
-  image_ratio: 1.5
+  imageRatio: 1.5
 %}
 
 **12:34, Paris-Montparnasse.** After a brisk walk from the *Port-Royal* RER station, I arrive at this [modern carbuncle][3] with about 10 minutes to spare. The French railway system is now a mishmash of different brands, so I board an <span lang="fr">SNCF TGV INOUI</span> service to Hendaye. The [double-decker Duplex][4]’s are incredibly spacious. My reclining seat has a large pulldown table, desk light, USB and power sockets. All undone by a low-hung luggage rack which I repeatedly hit my head against.

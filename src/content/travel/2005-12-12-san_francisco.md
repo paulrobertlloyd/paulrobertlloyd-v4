@@ -1,7 +1,7 @@
 ---
 title: San Francisco
 summary: Meeting Ning.
-trip_id:
+tripId:
 - 3dp1
 - 3dv1
 ---

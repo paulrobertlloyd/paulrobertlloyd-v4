@@ -28,7 +28,7 @@ Their modernist creation was to replace the Brazil’s previous capital, Rio de 
 {% render 'figure' with '/images/2017/01/designing_systems_part_1/costa_niemeyer.jpg'
   caption: 'Oscar Niemeyer and Lucio Costa pictured in 1957.'
   alignment: 'pull'
-  image_preset: 'supporting'
+  imagePreset: 'supporting'
 %}
 
 Kubitschek invited the architect Oscar Niemeyer to design the city’s civic buildings — the Presidential Palace, National Congress, Supreme Court and its Cathedral — and Niemeyer’s friend Lúcio Costa won the contest to arrange its urban plan.
@@ -71,7 +71,7 @@ Pick’s first initiative was to improve the appearance of stations. He standard
 {% render 'figure' with '/images/2017/01/designing_systems_part_1/dover_street.jpg'
   caption: 'Dover Street (now Green Park) station in 1923. Photograph: [Transport for London](https://www.flickr.com/photos/tflpress/22122745593).'
   alignment: 'pull'
-  image_preset: 'supporting'
+  imagePreset: 'supporting'
 %}
 
 Pick then commissioned artists to design beautiful posters. Rather than nag passengers, these would inspire, suggesting places in London people could visit and attractions they might attend. Pick thought art needed to come down from its pedestal and earn a living. These posters humanised the network, with people referring to the tube as London’s longest art gallery.
@@ -90,7 +90,7 @@ As UERL merged with its competitors to become the Underground Group, Pick rose t
 {% render 'figure' with '/images/2017/01/designing_systems_part_1/pick.jpg'
   caption: 'Portrait of Frank Pick (Howard Coster, 1939). Photograph: [National Portrait Gallery](http://www.npg.org.uk/collections/search/portrait/mw165033/Frank-Pick?LinkID=mp52004&search=sas&sText=frank+pick&role=sit&rNo=0).'
   alignment: 'pull'
-  image_preset: 'supporting'
+  imagePreset: 'supporting'
 %}
 
 Pick would remain in charge until shortly before his death in 1941. During the 30 years he managed London’s transport, Pick had instigated what today we might call a corporate identity programme — dare I say, a design system — and its core tenets remain in place to this day.

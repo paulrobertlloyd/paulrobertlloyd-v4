@@ -4,7 +4,7 @@
   {%- if pagination.href.next -%}
     <li><a href="{{ pagination.href.next | remove: '.html' | replace: 'page/','?page=' }}" rel="prev">Previous</a></li>
   {%- endif -%}
-  {%- if show_pages == true -%}
+  {%- if showPages == true -%}
     {%- for item in pagination.pages -%}
       <li><a href="{{ pagination.hrefs[forloop.index0] | remove: '.html' | replace: 'page/','?page=' }}"{% if pagination.pageNumber == forloop.index0 %} aria-current="page"{% endif %} aria-label="Go to page {{ forloop.index }}">{{ forloop.index }}</a></li>
     {%- endfor -%}

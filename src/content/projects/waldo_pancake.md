@@ -6,8 +6,8 @@ image: /images/projects/waldo_pancake/image.jpg
 category:
 - Front-end development
 - Interaction design
+accentColor: '#ffef3e'
 style:
-  color-accent: '#ffef3e'
   screenshot-shadow: '#e6c939'
   screenshot-offset: '#ffef3e'
 aside: |

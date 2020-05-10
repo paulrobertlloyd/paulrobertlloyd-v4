@@ -6,7 +6,7 @@ category:
 - IndieWebCamp
 start: 2019-10-19T09:30:00+01:00
 end: 2019-10-20T18:00:00+01:00
-place_id: 9c2xrvc4+cq
+placeId: 9c2xrvc4+cq
 ---
 > IndieWebCamp Brighton is an all-levels BarCamp-like collaboration in Brighton, England for two days of keynotes, brainstorming, creating, teaching, and helping gain more control over our data and lives online!
 >

@@ -23,15 +23,15 @@
   -%}
   {%- for this in collection -%}
     {%- assign related = collections.collection | where: 'fileSlug',this | first -%}
-    {%- capture section_title %}More from the <a href="{{ related.url }}">{{ related.data.title }}</a> collection{%- endcapture -%}
+    {%- capture sectionTitle %}More from the <a href="{{ related.url }}">{{ related.data.title }}</a> collection{%- endcapture -%}
     {%- assign articles = collections.article | includes: 'data.collection', this | excludes: 'url',page.url | reverse -%}
     {%- render 'section' with articles
       id: 'related'
-      title: section_title
+      title: sectionTitle
       scrollable: true
       items_component: 'card'
-      items_grid_size: '15rem'
-      items_limit: 3
+      itemsGridSize: '15rem'
+      itemsLimit: 3
     -%}
   {%- endfor -%}
 {%- endblock -%}

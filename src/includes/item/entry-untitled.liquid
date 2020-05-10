@@ -4,8 +4,8 @@
     {% if item.data.photo %}
       {%- if item.data.photo.size > 1 %}{% assign ratio = 1 %}{% endif -%}
       {%- render 'photos' with item.data.photo
-        image_class: 'u-photo'
-        image_ratio: ratio | default: false
+        imageClass: 'u-photo'
+        imageRatio: ratio | default: false
       -%}
     {% endif %}
   </div>

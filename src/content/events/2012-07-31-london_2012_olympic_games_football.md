@@ -7,5 +7,5 @@ category:
 - London 2012
 start: 2012-07-31T19:45:00+01:00
 end: 2012-07-31T21:30:00+01:00
-place_id: 9c3xhp4c+c5
+placeId: 9c3xhp4c+c5
 ---

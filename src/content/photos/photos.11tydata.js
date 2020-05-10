@@ -7,7 +7,7 @@ module.exports = {
   changefreq: 'monthly',
   priority: 0.8,
   eleventyComputed: {
-    page_title: 'Photo{% if photo.size > 1 -%}s{% endif %}: {{ date | date: dates.datetime_full }} · {{ app.title }}',
+    pageTitle: 'Photo{% if photo.size > 1 -%}s{% endif %}: {{ date | date: dates.datetime_full }} · {{ app.title }}',
     image: '{{ photo[0].url }}'
   }
 };

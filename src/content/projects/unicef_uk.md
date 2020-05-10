@@ -6,8 +6,8 @@ image: /images/projects/unicef_uk/image.jpg
 category:
 - Front-end development
 - Interaction design
+accentColor: '#00aeef'
 style:
-  color-accent: '#00aeef'
   screenshot-shadow: '#aae6f9'
   screenshot-offset: '#e6f6fc'
 aside: |
@@ -56,7 +56,7 @@ The site needed to degrade gracefully on older mobile devices and take into acco
 {% render 'photos' with photoset.workshop
   caption: 'Prioritising homepage components, highlighting common patterns on desktop site and breaking them down into responsive patterns we could use on the mobile site.'
   alignment: 'bleed'
-  image_preset: 'thumbnail'
+  imagePreset: 'thumbnail'
 %}
 
 We asked key stakeholders on the project to dissect the homepage and a key internal page, placing component parts in order of importance. Working with UNICEF’s content editor, we pulled out common patterns, noting those which were essential and those that were superfluous. The relevant patterns were then sketched on a whiteboard where we imagined how they would adapt on smaller screens. These were then used as the basis for the front-end build. This pattern-based approach allowed us to simplify what was already there, rather than start again from scratch.

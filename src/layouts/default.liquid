@@ -2,17 +2,17 @@
 <html lang="en-gb" prefix="og: http://ogp.me/ns#">
 <head>
   <meta charset="utf-8">
-  <meta property="og:title" content="{{ page_title | markdown: 'inline' | strip_html }}">
+  <meta property="og:title" content="{{ pageTitle | markdown: 'inline' | strip_html }}">
   <meta property="og:description" name="description" content="{{ summary | default: app.description | markdown | strip_html | strip_newlines | strip }}">
   <meta property="og:url" content="{{ page.url }}">
-  <meta property="og:image" content="{{ share_image }}">
+  <meta property="og:image" content="{{ shareImage }}">
 {%- if image -%}
   <meta name="twitter:card" content="summary_large_image">
 {%- else -%}
   <meta name="twitter:card" content="summary">
 {%- endif -%}
   <meta name="twitter:site" content="@paulrobertlloyd">
-  <meta name="theme-color" content="{{ app.theme_color }}">
+  <meta name="theme-color" content="{{ app.themeColor }}">
   <meta name="supported-color-schemes" content="light dark">
   <meta name="monetization" content="$pay.stronghold.co/1a11cfb7e3eb2434a1aa726ff7aed69b9a4">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,10 +21,10 @@
   <link rel="dns-prefetch" href="https://res.cloudinary.com">
   <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="RSS (Atom) Feed">
   <link rel="alternate" href="/feed.json" type="application/json" title="JSON Feed">
-  <link rel="canonical" href="{{ canonical_url }}">
+  <link rel="canonical" href="{{ canonicalUrl }}">
   <link rel="manifest" href="/app.webmanifest">
   <link rel="icon" href="{{ app.favicon | | prepend: app.url }}">
-  <link rel="mask-icon" href="{{ app.favicon | prepend: app.url }}" color="{{ app.theme_color }}">
+  <link rel="mask-icon" href="{{ app.favicon | prepend: app.url }}" color="{{ app.themeColor }}">
   <link rel="apple-touch-icon" href="{{ app.icon | prepend: app.url }}">
   <link rel="authorization_endpoint" href="{{ app.endpoint.auth }}">
   <link rel="token_endpoint" href="{{ app.endpoint.token }}">
@@ -37,19 +37,17 @@
 
   <style>
     :root {
-    {%- if style.color-accent -%}
-      {%- assign accent = style.color-accent -%}
+    {%- if accentColor -%}
+      {%- assign accentColor = accentColor -%}
     {%- elsif date -%}
-      {%- assign accent = date | color -%}
+      {%- assign accentColor = date | color -%}
     {%- else -%}
-      {%- assign accent = app.accent_color -%}
+      {%- assign accentColor = app.accentColor -%}
     {%- endif -%}
-      --color-accent-light: {{ accent | contrast_with: 'black' }};
-      --color-accent-dark: {{ accent | contrast_with: 'white' }};
+      --color-accent-light: {{ accentColor | contrast_with: 'black' }};
+      --color-accent-dark: {{ accentColor | contrast_with: 'white' }};
     {%- for var in style -%}
-      {%- unless var[0] == 'color-accent' -%}
       --{{ var[0]}}: {{ var[1] }};
-      {%- endunless -%}
     {%- endfor -%}
     }
   </style>
@@ -68,7 +66,7 @@
     }
   </script>
 
-  <title>{{ page_title | markdown: 'inline' | strip_html }}</title>
+  <title>{{ pageTitle | markdown: 'inline' | strip_html }}</title>
 </head>
 <body data-type="{{ type | default: layout }}">
 {%- render 'banner'

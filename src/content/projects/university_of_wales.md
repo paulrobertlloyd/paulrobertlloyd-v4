@@ -5,8 +5,8 @@ summary: Modular design language for international university.
 image: /images/projects/university_of_wales/image.jpg
 category:
 - Interaction design
+accentColor: '#913'
 style:
-  color-accent: '#913'
   screenshot-shadow: '#014'
   screenshot-offset: '#14a'
 aside: |

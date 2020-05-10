@@ -8,7 +8,7 @@ related:
 - /2020/02/stockholm/
 - /2020/02/oslo/
 - /2020/04/cologne_to_brighton/
-trip_id:
+tripId:
 - 54k1
 - 54m1
 - 54t1

@@ -5,8 +5,8 @@ summary: Reinventing Channel 4’s news presence on the iPad.
 image: /images/projects/channel_4_news/image.jpg
 category:
 - Interaction design
+accentColor: '#42246e'
 style:
-  color-accent: '#42246e'
   screenshot-shadow: '#5b1c46'
   screenshot-offset: '#a94989'
 aside: |
@@ -48,7 +48,7 @@ Shortly after its launch Apple featured the app as App of the Week. In a few sho
 
 {% render 'screenshots' with screenshots.sections
   caption: 'Category, article and catch-up screens within the app.'
-  image_preset: 'supporting'
+  imagePreset: 'supporting'
   alignment: 'bleed'
 %}
 

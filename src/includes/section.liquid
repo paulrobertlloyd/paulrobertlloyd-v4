@@ -7,12 +7,12 @@
 
       <div class="section__main{% if scrollable %} section__main--scrollable{% endif %}">
         {%- include 'items' with section
-          limit: items_limit
+          limit: itemsLimit
           component: items_component
-          grid_size: items_grid_size
-          modifier: items_modifier
-          item_image_ratio: item_image_ratio:
-          item_hide_summary: item_hide_summary
+          gridSize: itemsGridSize
+          modifier: itemsModifier
+          itemImageRatio: itemImageRatio:
+          itemHideSummary: itemHideSummary
         -%}
       </div>
     </div>

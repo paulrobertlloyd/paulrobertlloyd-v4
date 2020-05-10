@@ -5,8 +5,8 @@ summary: Distinctive lead design for purveyor of the finest web fonts.
 image: /images/projects/fontdeck/image.jpg
 category:
 - Interaction design
+accentColor: '#e9242e'
 style:
-  color-accent: '#e9242e'
   screenshot-shadow: '#aab'
   screenshot-offset: '#ccd'
 aside: |
@@ -66,7 +66,7 @@ As I explored different design directions, it became clear to me that the design
 {% render 'screenshots' with screenshots.typeface
   caption: 'Exposing different means of discovery made it easier for users to browse Fontdeck’s catalogue. Information about an individual typeface was available on one page, with meta data presentationed in the sidebar.'
   alignment: 'bleed'
-  image_preset: 'supporting'
+  imagePreset: 'supporting'
 %}
 
 Given the product’s focus, the type choice was clearly the overriding concern. Since the original brand font, FF Info, wasn’t in the catalogue, I looked for alternatives. I decided to pair Adelle (lots of character at different sizes) with PT Sans (legible at small sizes). Where web-safe alternatives were required (e.g. HTML newsletters), Georgia and Lucida Grande were used. The colour palette required only subtle changes; the signature dark blue colour was made slightly dustier, the saturated font category colours more muted.
@@ -76,7 +76,7 @@ Page layout was more considered, making heavy use of an underlying grid, with us
 {% render 'screenshots' with screenshots.ancillary
   caption: 'About page and foundry directory.'
   alignment: 'bleed'
-  image_preset: 'supporting'
+  imagePreset: 'supporting'
 %}
 
 The previous text-heavy about page was replaced by an expanded about section that included a video narrated by Richard, the story of the product’s development and introduced the team working behind the scenes. A dedicated pricing page was linked to from the main navigation which concisely explained how the various pricing tiers worked.

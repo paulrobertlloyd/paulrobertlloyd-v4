@@ -15,7 +15,7 @@ tags:
 {% render 'figure' with '/images/2019/02/illustration.png'
   caption: 'Illustration: [Geri Coady](http://hellogeri.com)'
   alignment: 'bleed'
-  image_ratio: 2.25
+  imageRatio: 2.25
 %}
 
 If the last few years have taught us anything, it’s that while designers have an amazing ability to change the world, it may not always be for the better.

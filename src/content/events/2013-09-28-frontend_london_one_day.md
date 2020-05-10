@@ -7,5 +7,5 @@ category:
 - Front-end London
 start: 2013-08-29T09:15:00+01:00
 end: 2013-08-29T17:30:00+01:00
-place_id: 9c3xgvhv+pf
+placeId: 9c3xgvhv+pf
 ---

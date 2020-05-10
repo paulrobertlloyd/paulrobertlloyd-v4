@@ -37,7 +37,7 @@ Besides showcasing some recent photography — something I’d like to do more o
 
 {% render 'photos' with photoset
   caption: '**Interlocking basalt columns:** 55% quality, 63 kB / 58% quality, 35 kB.'
-  image_preset: 'supporting'
+  imagePreset: 'supporting'
 %}
 
 {% render 'figure' with '/images/2012/12/causeway_coast/6.jpg'

@@ -1,9 +1,12 @@
-{%- if item.data.in_reply_to -%}
-  <p><small>↪︎ In reply to <a class="u-in-reply-to" href="{{ item.data.in_reply_to }}">a post on {{ item.data.in_reply_to | hostname }}</a></small></p>
+{%- if item.data.inReplyTo -%}
+  <p><small>↪︎ In reply to <a class="u-in-reply-to" href="{{ item.data.inReplyTo }}">a post on {{ item.data.inReplyTo | hostname }}</a></small></p>
 {%- endif -%}
 {{- item.templateContent | strip_mentions | strip_newlines -}}
 {%- if item.data.photo -%}
-  {%- include 'photos' with item.data.photo image_class: 'u-photo' image_preset: 'feed' -%}
+  {%- include 'photos' with item.data.photo
+    imageClass: 'u-photo'
+    imagePreset: 'feed'
+  -%}
 {%- endif -%}
 {%- if item.data.category -%}
   <p><small>{% for category in item.data.category %}{{ category | hashtag }} {% endfor %}</small></p>

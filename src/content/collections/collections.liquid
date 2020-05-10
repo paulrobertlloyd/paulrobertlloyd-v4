@@ -7,10 +7,10 @@ tags: false
 changefreq: weekly
 priority: 0.9
 eleventyComputed:
-  page_title: "{{ introduction }} · {{ app.title }}"
+  pageTitle: "{{ introduction }} · {{ app.title }}"
 ---
 {%- assign collections = collections.collection | sort_natural: 'fileSlug' -%}
 {%- render 'items' with collections
   component: 'section'
-  grid_size: '12rem'
+  gridSize: '12rem'
 -%}

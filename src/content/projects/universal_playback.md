@@ -5,8 +5,8 @@ summary: Modular design that showcased a library of television favourites.
 image: /images/projects/universal_playback/image.jpg
 category:
 - Interaction design
+accentColor: '#07B'
 style:
-  color-accent: '#07B'
   screenshot-shadow: '#888'
   screenshot-offset: '#bbb'
 aside: |

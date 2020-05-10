@@ -6,5 +6,5 @@ category:
 - IndieWebCamp
 start: 2015-07-11T10:00:00+01:00
 end: 2015-07-12T18:00:00+01:00
-place_id: 9c2xrvc4+cq
+placeId: 9c2xrvc4+cq
 ---

@@ -7,8 +7,8 @@ category:
 - Interaction design
 tags:
 - featured
+accentColor: '#333152'
 style:
-  color-accent: '#333152'
   screenshot-shadow: '#0f0d30'
   screenshot-offset: '#6b698e'
 aside: |

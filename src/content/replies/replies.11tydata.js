@@ -7,8 +7,8 @@ module.exports = {
   changefreq: 'monthly',
   priority: 0.8,
   eleventyComputed: {
-    page_title: 'Reply: {{ date | date: dates.datetime_full }} · {{ app.title }}',
+    pageTitle: 'Reply: {{ date | date: dates.datetime_full }} · {{ app.title }}',
     image: '{{ photo[0].url }}',
-    in_reply_to: data => data['in-reply-to']
+    inReplyTo: data => data['in-reply-to']
   }
 };

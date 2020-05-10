@@ -16,12 +16,12 @@ priority: 0.9
   {%- render 'section' with collections.attending
     id: 'attending'
     title: 'Attending'
-    items_modifier: 'inline'
+    itemsModifier: 'inline'
   -%}
 {%- endif %}
 {%- render 'section' with pagination.items
   id: 'attended'
   title: 'Attended'
-  items_modifier: 'inline'
+  itemsModifier: 'inline'
 -%}
 {%- render 'pagination' with pagination -%}

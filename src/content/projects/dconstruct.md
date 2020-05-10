@@ -5,8 +5,8 @@ summary: Collaborative design for grassroots digital conference.
 image: /images/projects/dconstruct/image.jpg
 category:
 - Interaction design
+accentColor: '#370'
 style:
-  color-accent: '#370'
   screenshot-shadow: '#370'
   screenshot-offset: '#8a1'
 aside: |

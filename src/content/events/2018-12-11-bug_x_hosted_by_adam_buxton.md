@@ -7,5 +7,5 @@ category:
 - Bug
 start: 2018-12-11T19:30:00Z
 end: 2018-12-11T20:40:00Z
-place_id: 9c2xrvf6+fr
+placeId: 9c2xrvf6+fr
 ---

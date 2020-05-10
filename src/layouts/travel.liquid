@@ -21,13 +21,13 @@
       -%}
     </figure>
     {{ place.content | markdown }}
-    {%- render 'trips' with related_trips -%}
+    {%- render 'trips' with relatedTrips -%}
   {%- endcapture -%}
   {%- render 'content' with content -%}
-  {%- render 'section' with related_articles
+  {%- render 'section' with relatedArticles
     id: 'related'
     title: 'Related articles'
     items_component: 'card'
-    items_grid_size: '15rem'
+    itemsGridSize: '15rem'
   -%}
 {%- endblock -%}

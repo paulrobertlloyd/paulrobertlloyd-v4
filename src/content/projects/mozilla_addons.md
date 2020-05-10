@@ -5,8 +5,8 @@ summary: Bringing browser add-ons to a mainstream audience.
 image: /images/projects/mozilla_addons/image.jpg
 category:
 - Interaction design
+accentColor: '#235'
 style:
-  color-accent: '#235'
   screenshot-shadow: '#235'
   screenshot-offset: '#2e5186'
 aside: |

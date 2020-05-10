@@ -7,5 +7,5 @@ category:
 start: 2013-06-13T19:15:00+01:00
 end: 2013-06-13T21:00:00+01:00
 participant: true
-place_id: 9c2xrvg7+rj
+placeId: 9c2xrvg7+rj
 ---

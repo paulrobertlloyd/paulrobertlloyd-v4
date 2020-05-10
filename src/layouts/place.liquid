@@ -31,11 +31,11 @@
     {{ place.content | markdown }}
   {%- endcapture -%}
   {%- render 'content' with content -%}
-  {%- assign related_events = collections.event | includes: 'data.place_id',place.id | reverse -%}
-  {%- render 'section' with related_events
+  {%- assign relatedEvents = collections.event | includes: 'data.placeId',place.id | reverse -%}
+  {%- render 'section' with relatedEvents
     id: 'events'
     title: 'Events at this location'
-    items_modifier: 'inline'
-    item_hide_summary: true
+    itemsModifier: 'inline'
+    itemHideSummary: true
   -%}
 {%- endblock -%}

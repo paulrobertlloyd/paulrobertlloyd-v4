@@ -6,7 +6,7 @@ module.exports = {
   vocab: 'entry',
   changefreq: 'monthly',
   priority: 0.9,
-  duotone_card_image: true,
+  duotoneCardImage: true,
   eleventyComputed: {
     url: data => data['bookmark-of']
   }

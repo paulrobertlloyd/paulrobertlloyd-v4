@@ -10,11 +10,11 @@ permalink: "{{ page.url }}"
 changefreq: monthly
 priority: 0.2
 eleventyComputed:
-  page_title: "{{ page.data.title }} · {{ app.title }}"
+  pageTitle: "{{ page.data.title }} · {{ app.title }}"
   introduction: "{{ page.data.title }}"
 ---
 {%- assign items = collections.post | includes: 'date',page.data.date -%}
 {%- render 'items' with items
   modifier: 'inline'
-  no_items_content: 'Nothing was published during this month.'
+  itemsNoContent: 'Nothing was published during this month.'
 -%}

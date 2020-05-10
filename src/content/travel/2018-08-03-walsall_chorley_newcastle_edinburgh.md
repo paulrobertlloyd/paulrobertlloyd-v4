@@ -4,7 +4,7 @@ summary: Birthday celebrations in Walsall, visting Simon in Chorley, a Great Exh
 related:
 - /2018/08/tyne_deck/
 - /2018/08/clone_towns/
-trip_id:
+tripId:
 - 4vm1
 - 4vn1
 - 4vo1

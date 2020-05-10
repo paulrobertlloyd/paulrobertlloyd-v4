@@ -14,7 +14,7 @@ Aged 13, and having recently moved to the West Midlands from Surrey, I was the n
 
 {% render 'figure' with '/images/2017/01/heres_to_the_doctor/james_dicks.jpg'
   alt: 'James at his wedding in 2009'
-  image_preset: 'supporting'
+  imagePreset: 'supporting'
   alignment: 'pull'
 %}
 

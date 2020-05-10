@@ -24,7 +24,7 @@ The film shines a very honest light on Mumbai and India, and never seems to reso
 
 {% render 'figure'
   embed: 'https://www.youtube.com/watch?v=AIzbwV7on6Q'
-  embed_ratio: '12/5'
+  embedRatio: '12/5'
   caption: 'Official trailer for <cite>Slumdog Millionaire</cite>.'
 %}
 

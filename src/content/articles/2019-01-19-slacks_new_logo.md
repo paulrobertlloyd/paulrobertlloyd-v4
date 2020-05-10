@@ -15,7 +15,7 @@ tags:
 {% render 'figure' with '/images/2019/01/slacks_new_logo/logo.jpg'
   caption: 'New logo for Slack. Image: [Pentagram](https://www.pentagram.com/work/slack/story)'
   alignment: 'bleed'
-  image_ratio: 2.25
+  imageRatio: 2.25
 %}
 
 Slack has a new logo, and in a society fuelled by outrage, everyone hates it.

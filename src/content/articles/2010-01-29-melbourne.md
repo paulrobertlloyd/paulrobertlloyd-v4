@@ -28,7 +28,7 @@ Given Australia’s passion for sport, it’s perhaps no surprise that the MCG �
 {% render 'figure' with '/images/2010/01/melbourne/olympic_cauldron.jpg'
   caption: 'The cauldron from the 1956 Olympic Games.'
   alignment: 'pull'
-  image_preset: 'supporting'
+  imagePreset: 'supporting'
 %}
 
 As a city that hosted the [Olympic Games of 1956][7], I was keen to see how many of the buildings from this time remained. Unfortunately much has changed, although the Olympic Park is still home to the [Olympic Pool][8] — the first fully indoor Olympic swimming venue. This is now an indoor training centre and office complex, and sadly the only major structure from the games to look much as it did in 1956. Many of the other buildings have since been replaced by motorways and car parks.

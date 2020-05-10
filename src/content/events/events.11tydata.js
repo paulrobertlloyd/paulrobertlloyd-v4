@@ -14,13 +14,13 @@ module.exports = {
         return `https://img.omdbapi.com/?apikey=e2e2ef5c&i=${imdbId}&h=560`;
       }
     },
-    share_image: data => data.image,
+    shareImage: data => data.image,
     place: data => {
       const places = data.collections.place;
       if (places) {
         return places.find(place => {
           const placeId = place.data.place.address['plus-code'].toLowerCase();
-          return placeId === data.place_id;
+          return placeId === data.placeId;
         });
       }
     }

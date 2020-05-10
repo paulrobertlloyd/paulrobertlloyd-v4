@@ -1,6 +1,6 @@
 ---
 title: Birmingham
-trip_id:
+tripId:
 - 4h01
 - 4h31
 ---

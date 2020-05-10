@@ -22,7 +22,7 @@ Looking at the logos, I despair. Previously, each chain used a customised versio
 
 {% render 'figure'
   embed: 'https://vimeo.com/288323929'
-  embed_poster: 'https://i.vimeocdn.com/video/723701449'
+  embedPoster: 'https://i.vimeocdn.com/video/723701449'
   caption: 'The brandlines were inspired by a Peter Hatch pattern created for the John Lewis Partnership in the 1960s.'
 %}
 

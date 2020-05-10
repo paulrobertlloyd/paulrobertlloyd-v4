@@ -5,5 +5,5 @@ url: https://www.imdb.com/title/tt1504320/
 summary: The story of King George VI, his impromptu ascension to the throne of the British Empire in 1936, and the speech therapist who helped the unsure monarch overcome his stammer.
 start: 2011-01-08T22:00:00Z
 end: 2011-01-08T23:58:00Z
-place_id: 9c4vhxjm+hc
+placeId: 9c4vhxjm+hc
 ---

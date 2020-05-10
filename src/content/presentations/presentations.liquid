@@ -17,13 +17,13 @@ priority: 0.9
   title: 'Select presentations'
   scrollable: true
   items_component: 'card'
-  items_grid_size: '15rem'
+  itemsGridSize: '15rem'
 -%}
 {%- assign appearances = collections.event | where: 'data.participant' | reverse -%}
 {%- render 'section' with appearances
   id: 'appearances'
   title: 'Events I’ve spoken at'
-  items_limit: 16
-  items_modifier: 'inline'
-  item_hide_summary: true
+  itemsLimit: 16
+  itemsModifier: 'inline'
+  itemHideSummary: true
 -%}

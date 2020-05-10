@@ -1,11 +1,11 @@
 module.exports = {
   title: 'Paul Robert Lloyd',
-  short_title: 'PRL',
+  shortTitle: 'PRL',
   description: 'The personal website of Paul Robert Lloyd',
   url: process.env.URL || '',
-  theme_color: '#212227',
-  accent_color: '#20e',
-  background_color: '#fff',
+  themeColor: '#212227',
+  accentColor: '#20e',
+  backgroundColor: '#fff',
   favicon: '/images/app/favicon.svg',
   icon: '/images/app/icon.png',
   endpoint: {

@@ -103,7 +103,7 @@ I’ve found that by thinking about an interface in terms of common interaction 
 {% render 'figure' with '/images/2018/01/improving_the_accessibility_of_24_ways/traverse.png'
   caption: 'Navigation component that allows users to move between articles in a series.'
   alignment: 'pull'
-  image_preset: 'supporting'
+  imagePreset: 'supporting'
 %}
 
 A good amount of accessibility comes down to labelling things that rely on visual appearance alone to convey meaning. Much like the `alt` attribute allows us to describe images, `aria-label` (and its relations) [extend this ability to other elements][13].

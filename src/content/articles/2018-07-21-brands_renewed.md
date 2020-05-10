@@ -30,8 +30,8 @@ I wish more designers would take such a selfless approach. While I could spend h
 
 {% render 'figure'
   embed: 'https://vimeo.com/265662317'
-  embed_poster: 'https://i.vimeocdn.com/video/695729633'
-  embed_ratio: '8/5'
+  embedPoster: 'https://i.vimeocdn.com/video/695729633'
+  embedRatio: '8/5'
   caption: 'Irkutsk identity presentation.'
 %}
 

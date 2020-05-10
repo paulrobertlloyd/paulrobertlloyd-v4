@@ -6,8 +6,8 @@ image: /images/projects/matter/image.jpg
 category:
 - Brand identity
 - Interaction design
+accentColor: '#006Aff'
 style:
-  color-accent: '#006Aff'
   screenshot-shadow: '#444'
   screenshot-offset: '#666'
 aside: |
@@ -50,7 +50,7 @@ After an enormously successful [Kickstarter campaign][1] proved there was a real
 {% render 'figure' with '/images/projects/matter/logo_sketches.jpg'
   caption: 'Early logo sketches'
   alignment: 'pull'
-  image_preset: 'supporting'
+  imagePreset: 'supporting'
 %}
 
 Much of my work for Matter focused on its visual identity. I thought a lot about how readers would recognise its publications in ebook stores, how articles might appear on the web and how these might be bookmarked on smartphone home screens. As the identity would play a supporting role to the articles being published, I envisaged the logo as a hallmark, one that identified an article as one meeting the high standards of journalism that Matter aims for.
@@ -70,7 +70,7 @@ One of the guiding principles established early on was to privilege the reading 
 {% render 'screenshots' with screenshots.type
   caption: 'Type samples/experimentation'
   alignment: 'bleed'
-  image_preset: 'thumbnail'
+  imagePreset: 'thumbnail'
 %}
 
 [1]: https://www.kickstarter.com/projects/readmatter/matter

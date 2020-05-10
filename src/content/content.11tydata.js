@@ -2,15 +2,15 @@ const getWebmentions = require('../../lib/utils/get-webmentions');
 
 module.exports = {
   eleventyComputed: {
-    page_title: data => `${data.title} · ${data.app.title}`,
-    canonical_url: data => {
+    pageTitle: data => `${data.title} · ${data.app.title}`,
+    canonicalUrl: data => {
       if (data.canonical && data.canonical.url) {
         return data.canonical.url;
       }
 
       return data.app.url + data.page.url;
     },
-    share_image: data => {
+    shareImage: data => {
       const {image} = data;
       if (image) {
         return `https://res.cloudinary.com/paulrobertlloyd/image/fetch/c_fill,f_auto,q_auto,w_1200,h_630/${data.app.url}${image}`;
@@ -18,7 +18,7 @@ module.exports = {
 
       return data.app.url + data.app.icon;
     },
-    related_articles: data => {
+    relatedArticles: data => {
       const articles = data.collections.article;
       const related = data.related ? data.related : [];
       return articles.filter(article => related.includes(article.url));

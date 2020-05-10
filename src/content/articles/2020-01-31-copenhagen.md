@@ -95,7 +95,7 @@ There’s a remarkable symmetry between Janssens’ work and that of Olafur Elia
 {% render 'photos' with photoset
   caption: '<cite>Blue, Red and Yellow</cite> and <cite>Gleaming Lights Of The Souls</cite>.'
   alignment: 'bleed'
-  image_preset: 'supporting'
+  imagePreset: 'supporting'
 %}
 
 If Janssens’ colourful smoke-filled cube isn’t enough Instagram fodder, then Yayoi Kusama’s permanent installation, <cite>Gleaming Lights Of The Souls</cite> does not disappoint either. This is a small room filled with hundreds of lights suspended from the ceiling, reflected by mirrors on five sides and a floor flooded with water. A small gangway allows viewers to experience this wonder from its very centre.

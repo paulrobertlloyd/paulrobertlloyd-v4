@@ -18,7 +18,7 @@ photoset:
 {% render 'figure' with '/images/2016/04/habitables/sideboard.jpg'
   caption: 'Sideboard, designed by Manuel Barrera/Habitables.'
   alignment: 'bleed'
-  image_ratio: 1.7778
+  imageRatio: 1.7778
 %}
 
 Having lived in my current flat for just over two years, I’m determined for this to be the year that I finally make it feel like a home.
@@ -33,7 +33,7 @@ I immediately fell in love with designer Manuel Barrera’s distinctive mid-cent
 
 {% render 'photos' with photoset
   caption: 'The two items of furniture I purchased; a TV table and desk, both made of solid oak board. They look — and smell — great!'
-  image_preset: 'supporting'
+  imagePreset: 'supporting'
 %}
 
 My order arrived last week. Appropriately packaged for its long trip from Madrid, opening and assembling these new pieces felt like Christmas Day all over again! Not so much a purchase but long-term investment, I’m left with two unique pieces of furniture that I will treasure for many years to come.

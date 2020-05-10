@@ -14,7 +14,7 @@ permalink: /sitemap.xml
     <priority>{{ item.data.priority }}</priority>
     {%- if item.data.image -%}
     <image:image>
-      <image:loc>{{ item.data.share_image | replace: '&','&amp;' }}</image:loc>
+      <image:loc>{{ item.data.shareImage | replace: '&','&amp;' }}</image:loc>
     </image:image>
     {%- endif -%}
   </url>

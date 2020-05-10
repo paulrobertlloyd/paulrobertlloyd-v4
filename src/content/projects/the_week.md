@@ -7,8 +7,8 @@ category:
 - Interaction design
 tags:
 - featured
+accentColor: '#b00'
 style:
-  color-accent: '#b00'
   screenshot-shadow: '#b00'
   screenshot-offset: '#e00'
 aside: |
@@ -66,7 +66,7 @@ A highly iterative approach saw the design evolve over the course of the project
 
 {% render 'photos' with photoset.workshop
   caption: 'Output from our workshop with key stakeholders included empathy maps for key users, and sketched ideas for important sections of the magazine.'
-  image_preset: 'supporting'
+  imagePreset: 'supporting'
 %}
 
 ## Creating a page turner
@@ -77,7 +77,7 @@ The predictable IA of the magazine was retained by creating overview pages for e
 
 {% render 'screenshots' with screenshots.ui
   caption: 'Progression through an issue of the magazine; from cover, to section to individual article. Double tapping on an article screen would bring up the ’scrubber’ enabling users to quickly advance through an issue.'
-  image_preset: 'thumbnail'
+  imagePreset: 'thumbnail'
   alignment: 'bleed'
 %}
 
@@ -91,7 +91,7 @@ Working closely with the development team at Kaldor, we honed the gestural inter
 
 {% render 'screenshots' with screenshots.styleguide
   caption: 'Example of the assets handed over to the team at Kaldor to aid development of the application.'
-  image_preset: 'supporting'
+  imagePreset: 'supporting'
   alignment: 'bleed'
 %}
 

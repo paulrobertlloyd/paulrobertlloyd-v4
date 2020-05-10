@@ -6,5 +6,5 @@ category:
 - IndieWebCamp
 start: 2013-09-07
 end: 2013-09-08
-place_id: 9c2xrvg6+9m
+placeId: 9c2xrvg6+9m
 ---

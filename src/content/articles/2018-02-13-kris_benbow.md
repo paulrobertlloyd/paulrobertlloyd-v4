@@ -28,7 +28,7 @@ Every summer, a group of us would head to Dolgellau in Wales. The stated aim was
 {% render 'figure' with '/images/2018/02/kris_benbow/sydney.jpg'
   caption: 'Fordy and Kris dancing on my grave. Manly Beach, Sydney, 2003.'
   alignment: 'pull'
-  image_preset: 'supporting'
+  imagePreset: 'supporting'
 %}
 
 So, it was quite the shock when in 2003, he and Fordy announced they had quit McDonald’s and were headed for Sydney! Intended as a means of getting over ex-girlfriends — jumping out of a plane hadn’t achieved the desired result — their trip would include a brief stopover in Bangkok; it took Kris several years to admit to a particular experience that took place there! They had suggested I join, but in the end I decided to visit for just five weeks instead, on what would be my first holiday abroad. With the Rugby World Cup being hosted in Australia that year, [we got to see England crowned champions][1] in a city packed full of upset Aussies. How we made it back to our hostel in one piece, I’ll never know. Here, we [got to know our fellow countrymen][2], and would later enjoy several Glebe reunions in [Bristol][3], [Bournemouth][4] and [Wimbledon][5].

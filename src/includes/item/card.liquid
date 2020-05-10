@@ -1,12 +1,12 @@
-{%- assign date_color = item.date | color -%}
-{%- assign accent_color = item.data.style.color-accent | default: date_color -%}
-<article class="card |{% for root in item.data.vocab %} h-{{ root }}{% endfor %}"{% if item.data.duotone_card_image %} style="--color-accent-light: {{ accent_color | contrast_with: 'black' }}; --color-accent-dark: {{ accent_color | contrast_with: 'white' }}"{% endif %}>
+{%- assign dateColor = item.data.date | color -%}
+{%- assign accentColor = item.data.accentColor | default: dateColor -%}
+<article class="card |{% for root in item.data.vocab %} h-{{ root }}{% endfor %}"{% if item.data.duotoneCardImage %} style="--color-accent-light: {{ accentColor | contrast_with: 'black' }}; --color-accent-dark: {{ accentColor | contrast_with: 'white' }}"{% endif %}>
 {%- if item.data.image -%}
   <div class="card__image">
-    {%- assign ratio = image_ratio | default: 1.5 -%}
+    {%- assign ratio = imageRatio | default: 1.5 -%}
     {%- render 'image' with item.data.image
       ratio: ratio
-      sizes: items_grid_size
+      sizes: itemsGridSize
       preset: 'supporting'
     -%}
   </div>
