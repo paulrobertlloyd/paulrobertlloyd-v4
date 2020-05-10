@@ -14,7 +14,7 @@
     <figure class="align-bleed">
       <a href="https://duckduckgo.com/?q={{ place.geo.latitude }},{{ place.geo.longitude }}&iaxm=places">
         {%- capture overlay -%}
-          pin-l+{{ app.accent_color | remove: '#' }}({{ place.geo.longitude }},{{ place.geo.latitude }})
+          pin-l+{{ app.accentColor | remove: '#' }}({{ place.geo.longitude }},{{ place.geo.latitude }})
         {%- endcapture -%}
         {%- capture position -%}
           {{ place.geo.longitude }},{{ place.geo.latitude }},15,0.00,0.00

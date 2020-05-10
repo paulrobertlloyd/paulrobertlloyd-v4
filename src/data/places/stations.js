@@ -14,6 +14,14 @@ module.exports = [{
     'plus-code': '9F468WW9+M8'
   }
 }, {
+  title: 'Antwerpen-Centraal',
+  iata: 'ZWE',
+  address: {
+    locality: 'Antwerp',
+    'country-name': 'Belgium',
+    'plus-code': '9F366C8C+VH'
+  }
+}, {
   title: 'Ashford International',
   iata: 'QDH',
   address: {
@@ -98,12 +106,26 @@ module.exports = [{
   },
   icon: 'national-rail'
 }, {
+  title: 'Bruges',
+  address: {
+    locality: 'Bruges',
+    'country-name': 'Belgium',
+    'plus-code': '9F3556X9+34'
+  }
+}, {
   title: 'Brussels-South',
   iata: 'ZYR',
   address: {
     locality: 'Brussels',
     'country-name': 'Belgium',
     'plus-code': '9F26R8PP+C5'
+  }
+}, {
+  title: 'Budapest Keleti',
+  address: {
+    locality: 'Budapest',
+    'country-name': 'Hungary',
+    'plus-code': '8FVXG32M+5H'
   }
 }, {
   title: 'Cabis Bay',
@@ -250,6 +272,13 @@ module.exports = [{
     locality: 'Lille',
     'country-name': 'France',
     'plus-code': '9F25J3QG+J7'
+  }
+}, {
+  title: 'Gare de Lyon',
+  address: {
+    locality: 'Paris',
+    'country-name': 'France',
+    'plus-code': '8FW4R9VF+PQ'
   }
 }, {
   title: 'Gare do Oriente',
@@ -484,6 +513,15 @@ module.exports = [{
   },
   icon: 'national-rail'
 }, {
+  title: 'Manchester Piccadilly',
+  iata: 'QQM',
+  address: {
+    locality: 'Manchester',
+    'country-name': 'United Kingdom',
+    'plus-code': '9C5VFQG9+XG'
+  },
+  icon: 'national-rail'
+}, {
   title: 'Margate',
   address: {
     locality: 'Margate',
@@ -565,6 +603,14 @@ module.exports = [{
   },
   icon: 'national-rail'
 }, {
+  title: 'Prague',
+  iata: 'XYG',
+  address: {
+    locality: 'Prague',
+    'country-name': 'Czechia',
+    'plus-code': '9F2P3CMP+74'
+  }
+}, {
   title: 'Preston',
   address: {
     locality: 'Preston',
@@ -601,6 +647,14 @@ module.exports = [{
     locality: 'Rome',
     'country-name': 'Italy',
     'plus-code': '8FHJWG22+CF'
+  }
+}, {
+  title: 'Rotterdam Centraal',
+  iata: 'QRH',
+  address: {
+    locality: 'Rotterdam',
+    'country-name': 'Netherlands',
+    'plus-code': '9F36WFFC+P2'
   }
 }, {
   title: 'St Erth',
@@ -666,4 +720,11 @@ module.exports = [{
     'plus-code': '9C5WXW54+5P'
   },
   icon: 'national-rail'
+}, {
+  title: 'Zürich Hauptbahnhof',
+  address: {
+    locality: 'Zurich',
+    'country-name': 'Switzerland',
+    'plus-code': '8FVC9GHR+44'
+  }
 }];
