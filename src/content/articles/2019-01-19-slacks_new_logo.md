@@ -11,6 +11,7 @@ category:
 - Brand identity
 tags:
 - featured
+accentColor: '#4a154b'
 ---
 {% render 'figure' with '/images/2019/01/slacks_new_logo/logo.jpg'
   caption: 'New logo for Slack. Image: [Pentagram](https://www.pentagram.com/work/slack/story)'

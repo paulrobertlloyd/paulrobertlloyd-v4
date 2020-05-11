@@ -12,6 +12,7 @@ category:
 tags:
 - featured
 discussion: closed
+accentColor: '#e6772e'
 ---
 {% render 'figure' with '/images/2013/04/bradshaws_guide/iphone.png'
   caption: 'Bradshaw’s Guide being viewed on an iPhone.'

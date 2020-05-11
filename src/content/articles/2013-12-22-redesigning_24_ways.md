@@ -12,6 +12,7 @@ category:
 - Web
 tags:
 - featured
+accentColor: '#f04'
 ---
 {% render 'figure' with '/images/2013/12/redesigning_24_ways/website.png'
   caption: '24 ways viewed on an iPad mini.'

@@ -13,6 +13,7 @@ tags:
 - source:css_tricks
 screenshots:
 - url: /images/2018/01/improving_the_accessibility_of_24_ways/homepage.png
+accentColor: '#f04'
 ---
 I’ve been thinking recently about the nature of my work and which aspects of it I enjoy the most. In a role that will often straddle the realms of design and development, whether editing copy, evaluating the design of an interface or refactoring code, I’ve come to realise that my interests lie in the act of review and refinement.
 
