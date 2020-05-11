@@ -314,13 +314,118 @@ module.exports = function () {
     from: 'BFS',
     to: 'LGW'
   }, {
+    date: '2013-04-09',
+    from: '9C2XRRWV+9X',
+    to: '9C3XFXHP+6P',
+    via: ['9C3XGW38+P3']
+  }, {
     date: '2013-04-11',
-    from: 'LHR',
-    to: 'SFO'
+    from: '9C3XFXHP+6P',
+    to: 'SFO',
+    via: ['9C3XGW38+P3', 'QQP', 'LHR']
   }, {
     date: '2013-04-20',
     from: 'SFO',
-    to: 'LHR'
+    to: '9C2XRRWV+9X',
+    via: ['LHR', 'QQP', 'ZEP']
+  }, {
+    date: '2013-05-09',
+    from: '9C2XRRWV+9X',
+    to: '9C3RHXQX+FG',
+    via: ['ZEP', 'QQP']
+  }, {
+    date: '2013-05-11',
+    from: '9C3RHXQX+FG',
+    to: '9C3RFRGC+F9'
+  }, {
+    date: '2013-05-12',
+    from: '9C3RFRGC+F9',
+    to: '9C2XRVH5+GJ',
+    via: ['QQP', 'ZEP']
+  }, {
+    date: '2013-05-24',
+    from: '9C2XRVH5+GJ',
+    to: '9C4WH2M7+PQ',
+    via: ['9C3XGRCP+XP', '9C4WF4H4+HX', 'QQN']
+  }, {
+    date: '2013-05-27',
+    from: '9C4WH2M7+PQ',
+    to: '9C2XRVH5+GJ',
+    via: ['QQN', '9C4WF4H4+HX', '9C3XGRCP+XP']
+  }, {
+    date: '2013-05-31',
+    from: '9C2XRVH5+GJ',
+    to: '9C6VV3R8+7P',
+    via: ['ZEP', 'QQU']
+  }, {
+    date: '2013-06-02',
+    from: '9C6VV3R8+7P',
+    to: '9C2XRVH5+GJ',
+    via: ['QQU', 'ZEP']
+  }, {
+    date: '2013-07-16',
+    from: '9C2XRVH5+GJ',
+    to: '9C5W9GHP+8R',
+    via: ['QQS']
+  }, {
+    date: '2013-07-17',
+    from: '9C5W9GHP+8R',
+    to: 'QQY'
+  }, {
+    date: '2013-07-17',
+    from: 'QQY',
+    to: '9C2XRRWV+9X',
+    via: ['9C4WWG8P+FM', 'QQS']
+  }, {
+    date: '2013-07-26',
+    from: '9C2XRRWV+9X',
+    to: 'ZGG',
+    via: ['ZEP', 'QQU']
+  }, {
+    date: '2013-07-30',
+    from: 'ZGG',
+    to: '9C2XRRWV+9X',
+    via: ['QQU', 'ZEP']
+  }, {
+    date: '2013-08-16',
+    from: '9C2XRRWV+9X',
+    to: '9C2WJRMC+G2',
+    via: ['9C2XV239+P9', '9C2WQVWR+VX', '9C2WQVWR+R7', '9C2WPRQQ+QQ', '9C2WPRQQ+MX']
+  }, {
+    date: '2013-08-18',
+    from: '9C2WJRMC+G2',
+    to: '9C2XRVH5+GJ',
+    via: ['9C2WPRQQ+MX', '9C2WPRQQ+QQ', '9C2WQVWR+R7', '9C2WQVWR+VX']
+  }, {
+    date: '2013-08-22',
+    from: '9C2XRVH5+GJ',
+    to: 'ZYR',
+    via: ['QQP']
+  }, {
+    date: '2013-08-26',
+    from: 'ZYR',
+    to: '9C2XRVH5+GJ',
+    via: ['QQP']
+  }, {
+    date: '2013-09-19',
+    from: '9C2XRVH5+GJ',
+    to: '9C4X26MG+QF',
+    via: ['9C3XFR8H+3M']
+  }, {
+    date: '2013-09-20',
+    from: '9C4X26MG+QF',
+    to: '9C2XRVH5+GJ',
+    via: ['9C3XFR8H+3M']
+  }, {
+    date: '2013-09-20',
+    from: '9C2XRVH5+GJ',
+    to: '9C4WF4H4+HX',
+    via: ['9C3XGRCP+XP']
+  }, {
+    date: '2013-09-22',
+    from: '9C4WF4H4+HX',
+    to: '9C2XRVH5+GJ',
+    via: ['9C3XGRCP+XP']
   }, {
     date: '2013-10-07',
     from: 'LGW',

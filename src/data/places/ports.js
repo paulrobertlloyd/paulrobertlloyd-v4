@@ -114,6 +114,13 @@ module.exports = [{
     'plus-code': '9FC7XPFH+2W'
   }
 }, {
+  title: 'Portsmouth Harbour Station Pier',
+  address: {
+    locality: 'Portsmouth',
+    'country-name': 'United Kingdom',
+    'plus-code': '9C2WQVWR+R7'
+  }
+}, {
   title: 'Puttgarden',
   address: {
     locality: 'Puttgarden',
@@ -126,6 +133,13 @@ module.exports = [{
     locality: 'Rødby',
     'country-name': 'Denmark',
     'plus-code': '9F6HM932+VH'
+  }
+}, {
+  title: 'Ryde Pier Head',
+  address: {
+    locality: 'Ryde',
+    'country-name': 'United Kingdom',
+    'plus-code': '9C2WPRQQ+QQ'
   }
 }, {
   title: 'Southampton Cruise Terminal',
