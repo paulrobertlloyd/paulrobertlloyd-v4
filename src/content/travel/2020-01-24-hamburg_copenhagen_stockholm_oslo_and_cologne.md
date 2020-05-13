@@ -1,5 +1,5 @@
 ---
-title: Hamburg, Copenhagen, Stockholm, Oslo, and Cologne
+title: Hamburg, Copenhagen, Stockholm, Oslo and Cologne
 summary: Itinerary for a scandinavian sojourn.
 collection: scandinavian_sojourn
 related:

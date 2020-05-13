@@ -1,3 +1,4 @@
+{%- assign itinerary = collections.travel | includes: 'data.tripId',trip.id | first -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'footer'
@@ -9,6 +10,7 @@
     vocab: vocab
   -%}
   {%- capture content -%}
+    <p>Part of a journey to <a href="{{ itinerary.url }}">{{ itinerary.data.title }}</a>.</p>
     <figure class="align-bleed">
       {%- capture overlay %}geojson({{ trip.geojson | json | escape }}){% endcapture -%}
       {%- render 'map'
