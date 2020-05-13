@@ -42,7 +42,7 @@
     "geolib": "^3.2.1",
     "liquidjs": "^9.11.11",
     "markdown-it-abbr": "^1.0.4",
-    "markdown-it-anchor": "^5.2.7",
+    "markdown-it-anchor": "^5.3.0",
     "markdown-it-attrs": "^3.0.2",
     "markdown-it-deflist": "^2.0.3",
     "markdown-it-footnote": "^3.0.2",
