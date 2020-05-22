@@ -6,7 +6,7 @@ location:
   country-name: United Kingdom
 summary: My relationship with JavaScript? It’s complicated.
 category:
-- Javascript
+- JavaScript
 - Learning
 - Web
 - Programming
