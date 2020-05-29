@@ -43,7 +43,7 @@
     "liquidjs": "^9.12.0",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-anchor": "^5.3.0",
-    "markdown-it-attrs": "^3.0.2",
+    "markdown-it-attrs": "^3.0.3",
     "markdown-it-deflist": "^2.0.3",
     "markdown-it-footnote": "^3.0.2",
     "markdown-it-mentions": "^1.0.0",
