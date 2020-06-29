@@ -61,7 +61,7 @@
     "rollup": "^2.18.0",
     "rollup-plugin-terser": "^6.1.0",
     "sanitize-html": "^1.27.0",
-    "slugify": "^1.4.2",
+    "slugify": "^1.4.4",
     "string-to-color": "^2.1.4"
   },
   "devDependencies": {
