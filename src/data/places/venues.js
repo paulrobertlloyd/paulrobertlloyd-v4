@@ -560,6 +560,15 @@ module.exports = [{
     'plus-code': '9C2XV65X+Q8'
   }
 }, {
+  title: 'Circuit de Monaco',
+  address: {
+    'street-address': '13 Boulevard Albert 1er',
+    locality: 'Monte Carlo',
+    'country-name': 'Monaco',
+    'postal-code': '98000',
+    'plus-code': '8FM9PCMC+RH'
+  }
+}, {
   title: 'Hampden Park',
   address: {
     'street-address': '36 Somerville Drive',
