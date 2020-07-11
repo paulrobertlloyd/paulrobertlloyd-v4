@@ -16,7 +16,7 @@ priority: 0.9
   id: 'featured'
   title: 'Select presentations'
   scrollable: true
-  items_component: 'card'
+  itemsComponent: 'card'
   itemsGridSize: '15rem'
 -%}
 {%- assign appearances = collections.event | where: 'data.participant' | reverse -%}
