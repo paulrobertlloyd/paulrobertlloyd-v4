@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en-gb" prefix="og: http://ogp.me/ns#">
+<html lang="{{ app.language }}" prefix="og: http://ogp.me/ns#">
 <head>
   <meta charset="utf-8">
   <meta property="og:title" content="{{ pageTitle | markdown: 'inline' | strip_html }}">
@@ -20,7 +20,7 @@
 
   <link rel="dns-prefetch" href="https://res.cloudinary.com">
   <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="RSS (Atom) Feed">
-  <link rel="alternate" href="/feed.json" type="application/json" title="JSON Feed">
+  <link rel="alternate" href="/feed.json" type="application/feed+json" title="JSON Feed">
   <link rel="canonical" href="{{ canonicalUrl }}">
   <link rel="manifest" href="/app.webmanifest">
   <link rel="icon" href="{{ app.favicon | | prepend: app.url }}">
