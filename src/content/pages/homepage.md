@@ -4,7 +4,7 @@ summary: an independent designer, writer and speaker based in Brighton, England.
 permalink: /
 priority: 1
 eleventyComputed:
-  pageTitle: "{{ app.title }}"
+  pageTitle: '{{ app.title }}'
 ---
 I’ve been building interfaces to the web since 2004. At renowned user experience agency **Clearleft** I designed websites for a variety of organisations and instigated a comprehensive redesign of the professional web font service, **Fontdeck**. At **The Guardian**, I was part of the team that launched their responsive website and next-generation mobile applications.
 
