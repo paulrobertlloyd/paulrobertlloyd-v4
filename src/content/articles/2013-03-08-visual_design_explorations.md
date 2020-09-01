@@ -21,7 +21,7 @@ As a number of new projects have kicked-off recently, and with my own thoughts t
 
 ## Mood boards
 
-{% render 'figure' with '/images/2013/08/visual_design_explorations/mood_board.png'
+{% render 'figure' with '/images/2013/03/visual_design_explorations/mood_board.png'
   caption: 'Mood board for Family Nest.'
 %}
 
@@ -31,7 +31,7 @@ We tend to use mood boards when there’s not a sense of any brand positioning o
 
 ## Style tiles
 
-{% render 'figure' with '/images/2013/08/visual_design_explorations/style_tiles.png'
+{% render 'figure' with '/images/2013/03/visual_design_explorations/style_tiles.png'
   caption: 'Style tiles for Channel 4 Scrapbook.'
 %}
 
@@ -47,7 +47,7 @@ Although unintentional, style tiles have started to feel a little too prescripti
 
 ## Element collages
 
-{% render 'figure' with '/images/2013/08/visual_design_explorations/element_collage.png'
+{% render 'figure' with '/images/2013/03/visual_design_explorations/element_collage.png'
   caption: 'Element collage for a current project.'
 %}
 
