@@ -10,6 +10,10 @@
   position: relative;
 }
 
+.item--no-content {
+  align-items: start;
+}
+
 /* Header */
 .item__header {
   grid-area: header;
