@@ -4,11 +4,19 @@ module.exports = function (eleventy) {
   // Browser Sync
   eleventy.setBrowserSyncConfig(require('./etc/browser-sync.config.js'));
 
-  // Template libraries
-  // Use own Liquid instance until 11ty upgrades to latest version
-  // https://github.com/11ty/eleventy/issues/469
-  eleventy.setLibrary('liquid', require('./lib/libraries/liquid.js'));
-  eleventy.setLibrary('md', require('./lib/libraries/markdown.js'));
+  // Liquid
+  eleventy.setLiquidOptions({
+    cache: true,
+    dynamicPartials: true,
+    globals: {
+      app: require('./src/data/app'),
+      dates: require('./src/data/dates'),
+      navigation: require('./src/data/navigation'),
+      places: require('./src/data/places')(),
+      srcsets: require('./src/data/srcsets')
+    },
+    strictFilters: true
+  });
 
   // Filters
   eleventy.addFilter('color', require('./lib/filters/color.js'));
@@ -24,6 +32,9 @@ module.exports = function (eleventy) {
   eleventy.addFilter('strip_mentions', require('./lib/filters/strip-mentions.js'));
   eleventy.addFilter('sum', require('./lib/filters/sum.js'));
   eleventy.addFilter('tokenize', require('./lib/filters/tokenize.js'));
+
+  // Libraries
+  eleventy.setLibrary('md', require('./lib/libraries/markdown.js'));
 
   // Plugins
   eleventy.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
