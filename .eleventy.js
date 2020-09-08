@@ -14,8 +14,7 @@ module.exports = function (eleventy) {
       navigation: require('./src/data/navigation'),
       places: require('./src/data/places')(),
       srcsets: require('./src/data/srcsets')
-    },
-    strictFilters: true
+    }
   });
 
   // Filters
@@ -64,7 +63,6 @@ module.exports = function (eleventy) {
       layouts: 'layouts',
       data: 'data'
     },
-    templateFormats: ['liquid', 'md'],
-    passthroughFileCopy: true
+    templateFormats: ['liquid', 'md']
   };
 };
