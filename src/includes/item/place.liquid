@@ -2,7 +2,7 @@
   <header class="item__header">
     <h3 class="item__title | p-name">
       <a href="{{ item.url }}">
-        {% if item.data.place.icon %}<svg width="1em" height="1em" aria-hidden="true" focusable="false"><use href="/assets/vectors/app.svg#{{ item.data.place.icon }}"></use></svg>{% endif %}
+        {% if item.data.place.icon %}{% icon item.data.place.icon %}{% endif %}
         {{ item.data.title | markdown: 'inline' }}
       </a>
     </h3>

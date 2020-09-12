@@ -32,6 +32,9 @@ module.exports = function (eleventy) {
   eleventy.addFilter('sum', require('./lib/filters/sum.js'));
   eleventy.addFilter('tokenize', require('./lib/filters/tokenize.js'));
 
+  // Shortcodes
+  eleventy.addShortcode('icon', require('./lib/shortcodes/icon.js'));
+
   // Libraries
   eleventy.setLibrary('md', require('./lib/libraries/markdown.js'));
 

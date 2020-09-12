@@ -17,7 +17,7 @@
       </th>
       <td>
       {% for stop in item.data.trip.stops %}
-        <span>{% unless forloop.first %}<svg width="1em" height="1em" aria-hidden="true" focusable="false"><use href="/assets/vectors/app.svg#{{ stop.icon }}"></use></svg> {% endunless %}{{ stop.title }}{% if stop.iata %} ({{ stop.iata }}){% endif %}</span><br>
+        <span>{% unless forloop.first %}{% icon stop.icon %} {% endunless %}{{ stop.title }}{% if stop.iata %} ({{ stop.iata }}){% endif %}</span><br>
       {% endfor %}
       </td>
       <td>{{ item.data.trip.distance }}</td>
