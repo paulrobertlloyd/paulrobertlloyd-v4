@@ -5,7 +5,7 @@ pagination:
   size: 1
   alias: trip
   addAllPagesToCollections: true
-permalink: "trips/{{ trip.date | date: '%Y/%m' }}/{{ trip.id }}/"
+permalink: "trips/{{ trip.date | date: 'yyyy/MM' }}/{{ trip.id }}/"
 tags: trip
 vocab: event
 changefreq: monthly

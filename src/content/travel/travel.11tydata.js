@@ -1,7 +1,7 @@
 module.exports = {
   layout: 'travel',
   type: 'entry',
-  permalink: 'travel/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
+  permalink: 'travel/{{ page.date | date: "yyyy/MM" }}/{{ page.fileSlug }}/',
   tags: ['post', 'travel'],
   vocab: 'event',
   changefreq: 'yearly',

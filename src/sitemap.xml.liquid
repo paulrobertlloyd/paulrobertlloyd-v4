@@ -9,7 +9,7 @@ permalink: /sitemap.xml
 {%- for item in collections.all reversed  -%}
   <url>
     <loc>{{ item.url | prepend: app.url }}</loc>
-    <lastmod>{{ item.date | date: '%Y-%m-%d' }}</lastmod>
+    <lastmod>{{ item.date | date: 'yyyy-MM-dd' }}</lastmod>
     <changefreq>{{ item.data.changefreq }}</changefreq>
     <priority>{{ item.data.priority }}</priority>
     {%- if item.data.image -%}

@@ -1,4 +1,4 @@
-const {DateTime} = require('luxon');
+const {format, parseISO} = require('date-fns');
 
 module.exports = function () {
   const now = new Date();
@@ -71,15 +71,15 @@ module.exports = function () {
   // Month archives
   const archivedMonths = generateMonths('2008-09', now);
   const monthArchives = archivedMonths.map(month => {
-    const date = DateTime.fromISO(month);
+    const date = parseISO(month);
 
     return {
       date: new Date(month),
-      fileSlug: date.toFormat('MM'),
-      url: date.toFormat('/yyyy/MM/'),
+      fileSlug: format(date, 'MM'),
+      url: format(date, '/yyyy/MM/'),
       data: {
-        date: date.toFormat('yyyy-MM'),
-        title: date.toFormat('MMMM yyyy')
+        date: format(date, 'yyyy-MM'),
+        title: format(date, 'MMMM yyyy')
       }
     };
   });

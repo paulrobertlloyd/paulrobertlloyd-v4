@@ -1,7 +1,7 @@
 module.exports = {
-  iso: '%Y-%m-%dT%H:%M:%S.%L%:z',
-  date_short: '%d %b %Y',
-  date_long: '%d %B %Y',
-  datetime_full: '%d %B %Y, %l:%M&nbsp;%P',
-  time: '%l:%M&nbsp;%P'
+  iso: 'yyyy-MM-dd\'T\'HH:mm:ss.SSSXXX',
+  date_short: 'dd MMM yyyy',
+  date_long: 'dd MMMM yyyy',
+  datetime_full: 'dd MMMM yyyy, h:mm\'&nbsp;\'aaaaa\'m\'',
+  time: 'h:mm\'&nbsp;\'aaaaa\'m\''
 };
