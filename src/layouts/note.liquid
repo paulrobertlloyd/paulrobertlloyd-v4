@@ -2,11 +2,12 @@
 {%- block 'main' -%}
   {%- render 'footer'
     date: date
-    type: type
+    timeZone: timeZone
     location: location
     geo: geo
     in_reply_to: in_reply_to
     canonical: canonical
+    type: type
     vocab: vocab
   -%}
   {%- render 'content' with content
