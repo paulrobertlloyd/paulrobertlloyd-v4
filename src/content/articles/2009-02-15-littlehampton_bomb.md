@@ -6,12 +6,12 @@ location:
   country-name: United Kingdom
 summary: On Friday evening I got a call from Jon on his way back to the house after a night out, asking if I had heard anything about a bomb found near Littlehampton station.
 category:
-- Personal
-- Littlehampton
+  - Personal
+  - Littlehampton
 discussion: closed
 photoset:
-- url: /images/2009/02/littlehampton_bomb/1.jpg
-- url: /images/2009/02/littlehampton_bomb/2.jpg
+  - url: /images/2009/02/littlehampton_bomb/1.jpg
+  - url: /images/2009/02/littlehampton_bomb/2.jpg
 ---
 On Friday evening I got a call from Jon on his way back to the house after a night out, asking if I had heard anything about a bomb found near Littlehampton station. Fearing I either was being stitched up, or just meters away from the scene, Jon suggested I check [Twitter][1] to see if the story could be confirmed. Sure enough [one single tweet][2] was there waiting for me: “Littlehampton train station closed and lots of police. What’s goin down twits?”
 

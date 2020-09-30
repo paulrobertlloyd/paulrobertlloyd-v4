@@ -6,10 +6,10 @@ canonical:
   edition: Issue 1
 summary: Interaction designer at Clearleft and design lead at Fontdeck.
 category:
-- Personal
-- Diary
+  - Personal
+  - Diary
 tags:
-- source:offscreen_magazine
+  - source:offscreen_magazine
 ---
 7am
 : I’m woken up early with an ambitiously set alarm. Quickly fall back to sleep.

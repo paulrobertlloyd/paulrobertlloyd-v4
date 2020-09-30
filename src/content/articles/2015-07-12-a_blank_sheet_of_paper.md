@@ -5,9 +5,9 @@ canonical:
   url: https://the-pastry-box-project.net/paul-lloyd/2015-july-12
 summary: Though memories of my time at university grow ever murkier, one incident still stands out.
 category:
-- Personal
+  - Personal
 tags:
-- source:the_pastry_box_project
+  - source:the_pastry_box_project
 ---
 Early one morning, members of my graphic design degree group assembled in a student common area, ready to present our latest work to the course leader. I think the brief asked us to envisage an item we could send to potential employers to pitch our collective talent, but I could be wrong. One by one, we explained the thinking behind our final outcome, before receiving critique from the group. Responses to the brief were varied as always; some ideas lacked clarity or were over-complex, while a few demonstrated a clear vision.
 

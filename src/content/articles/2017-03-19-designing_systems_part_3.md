@@ -8,9 +8,9 @@ summary: The final part of my three-part essay based on the talk I gave at Smash
 collection: designing_systems
 image: /images/2017/03/designing_systems_part_3/brasilia_motifs.jpg
 category:
-- Design
-- Design systems
-- Web
+  - Design
+  - Design systems
+  - Web
 ---
 {% render 'figure' with '/images/2017/03/designing_systems_part_3/brasilia_motifs.jpg'
   caption: 'Common architectural motifs can be seen across many of Brasília’s civic buildings.'
@@ -45,7 +45,7 @@ Reduce any webpage to its barest essentials, and you are left with text. Even th
 
 ```text
 ## Movie rating
-The average rating is 4 out of 5 stars, from a total  of [12 reviews](/reviews).
+The average rating is 4 out of 5 stars, from a total of [12 reviews](/reviews).
 
 ### Add your score
 Your name: [           ]

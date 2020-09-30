@@ -4,8 +4,8 @@ date: 2011-02-09
 summary: A new home for Jim Smith, illustrator and copywriter.
 image: /images/projects/waldo_pancake/image.jpg
 category:
-- Front-end development
-- Interaction design
+  - Front-end development
+  - Interaction design
 accentColor: '#ffef3e'
 style:
   screenshot-shadow: '#e6c939'
@@ -20,10 +20,10 @@ aside: |
   Website
   : '[waldopancake.com](http://waldopancake.com/)'
 screenshots:
-- url: /images/projects/waldo_pancake/screenshot_about.png
-  alt: Home page
-- url: /images/projects/waldo_pancake/screenshot_slideshow.png
-  alt: Slideshow of Waldo Pancake merchandise
+  - url: /images/projects/waldo_pancake/screenshot_about.png
+    alt: Home page
+  - url: /images/projects/waldo_pancake/screenshot_slideshow.png
+    alt: Slideshow of Waldo Pancake merchandise
 ---
 {% render 'screenshots' with screenshots
   alignment: 'bleed'

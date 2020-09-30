@@ -5,9 +5,9 @@ summary: In the front seat of a float plane, I enjoyed a breathtaking view of Va
 collection: north_america_2011
 image: /images/2011/12/vancouver/marina.jpg
 category:
-- Travel
-- Vancouver
-- Canada
+  - Travel
+  - Vancouver
+  - Canada
 ---
 {% render 'figure' with '/images/2011/12/vancouver/marina.jpg'
   caption: 'Vancouver waterfront from Stanley Park.'

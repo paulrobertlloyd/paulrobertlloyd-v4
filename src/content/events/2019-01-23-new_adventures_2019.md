@@ -4,7 +4,7 @@ date: 2019-01-24T09:30:00Z
 url: https://newadventuresconf.com/2019/
 summary: Nottingham’s essential digital design conference
 category:
-- New Adventures
+  - New Adventures
 start: 2019-01-23
 end: 2019-01-25
 placeId: 9c4wxr3v+qc

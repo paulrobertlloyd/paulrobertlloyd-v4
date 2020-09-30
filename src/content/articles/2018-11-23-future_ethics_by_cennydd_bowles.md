@@ -22,11 +22,11 @@ product:
     ISBN
     : <span class="u-identifier">978-1-9996019-1-1</span>
 category:
-- Books
-- Review
-- Design
-- Ethics
-- Technology
+  - Books
+  - Review
+  - Design
+  - Ethics
+  - Technology
 ---
 {% render 'product' with product %}
 

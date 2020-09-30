@@ -4,10 +4,10 @@ date: 2012-08-01
 summary: Responsive redesign for non-profit artists’ rights organisation.
 image: /images/projects/dacs/image.jpg
 category:
-- Front-end development
-- Interaction design
+  - Front-end development
+  - Interaction design
 tags:
-- featured
+  - featured
 accentColor: '#360446'
 style:
   screenshot-shadow: '#b4b6b8'
@@ -23,13 +23,13 @@ aside: |
   : Clearleft
 screenshots:
   homepage:
-  - url: /images/projects/dacs/screenshot_homepage.png
-    alt: Home page
+    - url: /images/projects/dacs/screenshot_homepage.png
+      alt: Home page
   payback:
-  - url: /images/projects/dacs/screenshot_payback.png
-    alt: Landing page for the Payback service
-  - url: /images/projects/dacs/screenshot_payback_furtherinfo.png
-    alt: Further information about the Payback service
+    - url: /images/projects/dacs/screenshot_payback.png
+      alt: Landing page for the Payback service
+    - url: /images/projects/dacs/screenshot_payback_furtherinfo.png
+      alt: Further information about the Payback service
 ---
 {% render 'screenshots' with screenshots.homepage
   alignment: 'bleed'

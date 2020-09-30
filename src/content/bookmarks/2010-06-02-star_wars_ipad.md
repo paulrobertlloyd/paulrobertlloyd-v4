@@ -3,9 +3,9 @@ title: Star Wars iPad Briefing
 date: 2010-06-02T20:15:00+01:00
 bookmark-of: https://www.dailymotion.com/video/xfgk3r
 category:
-- Video
-- Comedy
-- Apple
+  - Video
+  - Comedy
+  - Apple
 ---
 Another Adam Buxton YouTube classic:
 

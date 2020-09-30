@@ -3,8 +3,8 @@ title: 'Usable yet Useless: Why Every Business Needs Product Discovery'
 date: 2012-08-28T14:38:10+01:00
 bookmark-of: https://alistapart.com/article/usable-yet-useless-why-every-business-needs-product-discovery
 category:
-- Web
-- Design
+  - Web
+  - Design
 ---
 Rian van der Merwe for A List Apart:
 

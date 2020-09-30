@@ -7,11 +7,11 @@ location:
 summary: The tail end of this year has been rather hectic. If moving house and changing jobs weren’t enough to be getting on with, I was also busy redesigning 24 ways.
 image: /images/2013/12/redesigning_24_ways/website.png
 category:
-- 24 ways
-- Design
-- Web
+  - 24 ways
+  - Design
+  - Web
 tags:
-- featured
+  - featured
 accentColor: '#f04'
 ---
 {% render 'figure' with '/images/2013/12/redesigning_24_ways/website.png'

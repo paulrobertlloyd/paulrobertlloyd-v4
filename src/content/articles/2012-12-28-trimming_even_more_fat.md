@@ -6,9 +6,9 @@ location:
   country-name: United Kingdom
 summary: The Christmas break provides the time to tie up loose ends and make much needed progress on personal projects. At least, that was the plan. Once again I find myself distracted by the task of making this website just that little bit faster.
 category:
-- Website
-- Web
-- Web performance
+  - Website
+  - Web
+  - Web performance
 ---
 The Christmas break provides the time to tie up loose ends and make much needed progress on personal projects. At least, that was the plan. Once again I find myself distracted by the task of making this website just that little bit faster.
 

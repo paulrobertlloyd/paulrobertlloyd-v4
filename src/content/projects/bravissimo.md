@@ -4,9 +4,9 @@ date: 2016-08-19
 summary: Developing a component library for a lingerie and clothing company for big boobed women.
 image: /images/projects/bravissimo/image.jpg
 category:
-- Front-end development
+  - Front-end development
 tags:
-- featured
+  - featured
 accentColor: '#f4436d'
 style:
   screenshot-shadow: '#d6cfc9'
@@ -22,15 +22,15 @@ aside: |
   : Clearleft
 screenshots:
   product:
-  - url: /images/projects/bravissimo/screenshot_swimwear.png
-    alt: Page listing swimwear available for sale
-  - url: /images/projects/bravissimo/screenshot_product.png
-    alt: Product page
+    - url: /images/projects/bravissimo/screenshot_swimwear.png
+      alt: Page listing swimwear available for sale
+    - url: /images/projects/bravissimo/screenshot_product.png
+      alt: Product page
   brastrap:
-  - url: /images/projects/bravissimo/screenshot_brastrap_component.png
-    alt: Component preview and underlying code shown within Brastrap
-  - url: /images/projects/bravissimo/screenshot_brastrap_palette.png
-    alt: Brastrap styleguide page detailing colour palettes
+    - url: /images/projects/bravissimo/screenshot_brastrap_component.png
+      alt: Component preview and underlying code shown within Brastrap
+    - url: /images/projects/bravissimo/screenshot_brastrap_palette.png
+      alt: Brastrap styleguide page detailing colour palettes
 ---
 {% render 'screenshots' with screenshots.product
   alignment: 'bleed'

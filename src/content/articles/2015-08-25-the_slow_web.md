@@ -6,9 +6,9 @@ location:
   country-name: United Kingdom
 summary: Just as blogging began to democratise publishing, social media arrived to undermine it.
 category:
-- Web
-- History
-- Social media
+  - Web
+  - History
+  - Social media
 ---
 Reflecting on [Hossein Derakhshan’s recent article][1] about how the web has changed since he was incarcerated in an Iranian jail six years ago, [Cole Henley draws comparisons with the work of Fernand Braudel][2]:
 

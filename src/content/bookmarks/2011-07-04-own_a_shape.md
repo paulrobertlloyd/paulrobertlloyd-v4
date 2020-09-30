@@ -3,8 +3,8 @@ title: Own a Shape
 date: 2011-07-04T23:44:18+01:00
 bookmark-of: http://interuserface.net/2011/06/own-a-shape/
 category:
-- Design
-- User interface
+  - Design
+  - User interface
 ---
 Clayton Miller:
 

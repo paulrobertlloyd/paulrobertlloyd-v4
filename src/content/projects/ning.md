@@ -4,9 +4,9 @@ date: 2007-03-21
 summary: Lead design for customisable social media platform.
 image: /images/projects/ning/image.jpg
 category:
-- Brand identity
-- Front-end development
-- Interaction design
+  - Brand identity
+  - Front-end development
+  - Interaction design
 accentColor: '#060'
 style:
   screenshot-shadow: '#060'
@@ -18,10 +18,10 @@ aside: |
   Role
   : Interaction design, branding and front-end development
 screenshots:
-- url: /images/projects/ning/screenshot_networks.png
-  alt: Home page
-- url: /images/projects/ning/screenshot_help.png
-  alt: Help center
+  - url: /images/projects/ning/screenshot_networks.png
+    alt: Home page
+  - url: /images/projects/ning/screenshot_help.png
+    alt: Help center
 ---
 {% render 'screenshots' with screenshots
   alignment: 'bleed'

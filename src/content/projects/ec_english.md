@@ -4,10 +4,10 @@ date: 2016-03-11
 summary: Testable prototype for English language school.
 image: /images/projects/ec_english/image.jpg
 category:
-- Front-end development
-- Interaction design
+  - Front-end development
+  - Interaction design
 tags:
-- featured
+  - featured
 accentColor: '#f70'
 style:
   screenshot-shadow: '#e6772e'
@@ -20,8 +20,8 @@ aside: |
   : Design and front-end development
 screenshots:
   school:
-  - url: /images/projects/ec_english/screenshot_school.png
-    alt: New York school page
+    - url: /images/projects/ec_english/screenshot_school.png
+      alt: New York school page
 ---
 {% render 'screenshots' with screenshots.school
   alignment: 'bleed'

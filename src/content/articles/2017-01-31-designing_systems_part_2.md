@@ -7,9 +7,9 @@ location:
 summary: In this second part of my three-part essay based on the talk I gave at Smashing Conference, I propose a model for thinking about design systems.
 collection: designing_systems
 category:
-- Design
-- Design systems
-- Web
+  - Design
+  - Design systems
+  - Web
 ---
 As consumers grow ever reliant on digital products and services, designers are being asked to create experiences that work seamlessly across a multitude of platforms, all without slowing delivery or impeding their maintainability. Design systems address this need.
 

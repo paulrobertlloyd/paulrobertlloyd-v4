@@ -4,9 +4,9 @@ date: 2006-01-30
 summary: Property portal for independent estate agents in Coventry and Warwickshire.
 image: /images/projects/cwhomes/image.jpg
 category:
-- Brand identity
-- Front-end development
-- Interaction design
+  - Brand identity
+  - Front-end development
+  - Interaction design
 accentColor: '#f90'
 style:
   screenshot-shadow: '#003'
@@ -21,10 +21,10 @@ aside: |
   Agency
   : Orange Vision
 screenshots:
-- url: /images/projects/cwhomes/screenshot_homepage.png
-  alt: Home page
-- url: /images/projects/cwhomes/screenshot_property.png
-  alt: Property detail page
+  - url: /images/projects/cwhomes/screenshot_homepage.png
+    alt: Home page
+  - url: /images/projects/cwhomes/screenshot_property.png
+    alt: Property detail page
 ---
 {% render 'screenshots' with screenshots
   alignment: 'bleed'

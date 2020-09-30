@@ -4,7 +4,7 @@ date: 2009-01-19T01:08:41Z
 summary: Slumdog Millionaire is the story of an impoverished Indian teen who is one question away from winning the top prize in the Indian version of Who Wants To Be A Millionaire.
 image: /images/2009/01/slumdog_millionaire.jpg
 category:
-- Film
+  - Film
 discussion: closed
 ---
 {% render 'figure' with '/images/2009/01/slumdog_millionaire.jpg'

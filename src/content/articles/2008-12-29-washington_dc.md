@@ -5,16 +5,16 @@ summary: The final stop in my four-city tour of the US in October was Washington
 collection: north_america_2008
 image: /images/2008/12/washington_dc/vietnam_memorial.jpg
 category:
-- Architecture
-- Travel
-- Washington, D.C.
-- United States
+  - Architecture
+  - Travel
+  - Washington, D.C.
+  - United States
 discussion: closed
 photoset:
-- url: /images/2008/12/washington_dc/iwo_jima_memorial.jpg
-  alt: US Marine Corps War Memorial
-- url: /images/2008/12/washington_dc/netherlands_carillon.jpg
-  alt: Netherlands Carillon
+  - url: /images/2008/12/washington_dc/iwo_jima_memorial.jpg
+    alt: US Marine Corps War Memorial
+  - url: /images/2008/12/washington_dc/netherlands_carillon.jpg
+    alt: Netherlands Carillon
 ---
 {% render 'figure' with '/images/2008/12/washington_dc/vietnam_memorial.jpg'
   caption: 'The Vietnam Veterans Memorial.'

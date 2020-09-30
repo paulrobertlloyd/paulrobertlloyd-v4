@@ -6,9 +6,9 @@ location:
   country-name: United Kingdom
 summary: Justin Avery, who curates Responsive Design Weekly, asked me to revisit the four questions I answered as part of an interview series in 2013. Here are my answers.
 category:
-- Responsive design
-- Web
-- Interviews
+  - Responsive design
+  - Web
+  - Interviews
 ---
 Justin Avery, who curates [Responsive Design Weekly][1], asked me to revisit the four questions I answered as part of an interview series in 2013. My answers are below.
 

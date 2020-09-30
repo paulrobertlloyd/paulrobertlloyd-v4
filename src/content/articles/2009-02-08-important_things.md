@@ -4,9 +4,9 @@ date: 2009-02-08T11:44:27Z
 summary: One of my favourite comedians stars in a new show starting on Comedy Central this week.
 image: /images/2009/02/important_things.jpg
 category:
-- Comedy
-- Television
-- Demetri Martin
+  - Comedy
+  - Television
+  - Demetri Martin
 ---
 {% render 'figure' with '/images/2009/02/important_things.jpg'
   caption: 'Promotion for Important Things.'

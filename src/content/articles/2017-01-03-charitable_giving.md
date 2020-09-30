@@ -6,7 +6,7 @@ location:
   country-name: United Kingdom
 summary: I’m attempting to deal with the string of unfortunate events in current affairs by being more generous.
 category:
-- Charity
+  - Charity
 ---
 So, 2016. I’m not sure reviewing the last twelve months is a healthy activity, not least because its many political upsets will only begin to manifest themselves over the next year, if not longer.
 

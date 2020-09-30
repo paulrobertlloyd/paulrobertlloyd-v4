@@ -5,11 +5,11 @@ canonical:
   url: https://agreenfocus.tumblr.com/post/398648915
 summary: Just a quick reminder that Hack The Planet takes place tomorrow, starting at 10am.
 category:
-- Sustainability
-- Web
-- Projects
+  - Sustainability
+  - Web
+  - Projects
 tags:
-- source:a_green_focus
+  - source:a_green_focus
 ---
 Just a quick reminder that our [Hack The Planet][1] event takes place tomorrow, starting at 10am sharp. We’ll be wonderfully accommodated by [One Black Bear][2] at their offices at The Old School House, 191 Fazeley Street, Birmingham. It’s open to everyone and free to attend—all you need to bring is your ideas and a laptop!
 

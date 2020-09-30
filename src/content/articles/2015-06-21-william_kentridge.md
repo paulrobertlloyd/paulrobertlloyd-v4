@@ -7,9 +7,9 @@ location:
 summary: The work of celebrated illustrator and artist William Kentridge is showcased at the EYE Film Institute in Amsterdam.
 image: /images/2015/06/william_kentridge.jpg
 category:
-- Art
-- Exhibitions
-- William Kentridge
+  - Art
+  - Exhibitions
+  - William Kentridge
 ---
 Amsterdam is a strikingly beautiful city, every street a picture postcard. This beauty is somewhat undermined by the city’s famed seedy underbelly, which could be ignored were it not for the type of tourist it attracts.
 

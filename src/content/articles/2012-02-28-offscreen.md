@@ -7,8 +7,8 @@ location:
 summary: Offscreen is a new magazine edited, produced and beautifully designed by Kai Brach, focusing on the personalities behind the pixels — in a good way.
 image: /images/2012/02/offscreen.jpg
 category:
-- Writing
-- Offscreen Magazine
+  - Writing
+  - Offscreen Magazine
 ---
 {% render 'figure' with '/images/2012/02/offscreen.jpg'
   caption: 'Cover of Issue No1. Photograph: [Kai Brach](https://www.flickr.com/photos/brakai295/6873407277/).'

@@ -6,10 +6,10 @@ location:
   country-name: United Kingdom
 summary: Back in October, Ethan Marcotte asked me some questions about the design of my site. He was writing a round up of his twenty favourite responsive websites for .net Magazine and wanted quotes from each creator. In the spirit of blogging more I thought I’d share my answers here.
 category:
-- Web
-- Responsive design
-- Interviews
-- net (magazine)
+  - Web
+  - Responsive design
+  - Interviews
+  - net (magazine)
 ---
 Back in October, [Ethan Marcotte][1] asked me some questions about the design of my site. He was writing a round up of his [twenty favourite responsive websites][2] for .net Magazine and wanted quotes from each creator. In the spirit of [blogging more][3] I thought I’d share my answers here.
 

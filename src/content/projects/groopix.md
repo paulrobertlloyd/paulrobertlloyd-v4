@@ -4,8 +4,8 @@ date: 2008-08-22
 summary: A tool for curating and printing group-based photo albums.
 image: /images/projects/groopix/image.jpg
 category:
-- Brand identity
-- Interaction design
+  - Brand identity
+  - Interaction design
 accentColor: '#6e9d00'
 style:
   screenshot-shadow: '#6e9d00'
@@ -17,10 +17,10 @@ aside: |
   Role
   : UX, design and front-end development
 screenshots:
-- url: /images/projects/groopix/screenshot_groops.png
-  alt: Groops page
-- url: /images/projects/groopix/screenshot_collection.png
-  alt: Collection page
+  - url: /images/projects/groopix/screenshot_groops.png
+    alt: Groops page
+  - url: /images/projects/groopix/screenshot_collection.png
+    alt: Collection page
 ---
 {% render 'screenshots' with screenshots
   alignment: 'bleed'

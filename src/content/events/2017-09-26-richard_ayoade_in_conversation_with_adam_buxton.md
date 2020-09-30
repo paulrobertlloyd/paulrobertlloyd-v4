@@ -4,7 +4,7 @@ date: 2017-09-26T19:00:00+01:00
 url: https://membership.theguardian.com/event/36401348413
 summary: An evening with Richard Ayoade and Adam Buxton to celebrate the launch of Ayoade’s new book, <cite>The Grip of Film by Gordy LaSure</cite>.
 category:
-- Guardian Live
+  - Guardian Live
 start: 2017-09-26T19:00:00+01:00
 end: 2017-09-26T20:30:00+01:00
 placeId: 9c3xfvwc+h8

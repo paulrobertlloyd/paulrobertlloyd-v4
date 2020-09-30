@@ -6,11 +6,11 @@ location:
   country-name: United Kingdom
 summary: Twitter is a place I visit to get annoyed. I need an alternative. That alternative could be my very own website.
 category:
-- IndieWeb
-- Blogging
-- Micro.blog
-- Website
-- Web
+  - IndieWeb
+  - Blogging
+  - Micro.blog
+  - Website
+  - Web
 ---
 [I stopped using Facebook][1] because I didn’t trust the people behind Facebook. I had grown weary of the sly and underhand tactics used to grow their network and was unwilling to remain part of it. But if I’m honest, I couldn’t trust myself either. Visiting Facebook would elicit behaviour you could only describe as stalking; trawling through the feeds of my friends, seeking out people I vaguely knew. I had better things to do with my time.
 

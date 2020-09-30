@@ -4,10 +4,10 @@ date: 2016-12-07
 summary: Brand identity and application design for personalised meditation service.
 image: /images/projects/refigure/image.jpg
 category:
-- Brand identity
-- Interaction design
+  - Brand identity
+  - Interaction design
 tags:
-- featured
+  - featured
 accentColor: '#00e676'
 style:
   screenshot-shadow: '#ddd8eb'
@@ -20,17 +20,17 @@ aside: |
   : Brand identity and user experience design
 screenshots:
   app:
-  - url: /images/projects/refigure/screenshot_app_welcome.png
-    alt: Welcome screen
-  - url: /images/projects/refigure/screenshot_app_browse.png
-    alt: Browse meditations
-  - url: /images/projects/refigure/screenshot_app_meditation.png
-    alt: Meditation detail
-  - url: /images/projects/refigure/screenshot_app_player.png
-    alt: Meditation player
+    - url: /images/projects/refigure/screenshot_app_welcome.png
+      alt: Welcome screen
+    - url: /images/projects/refigure/screenshot_app_browse.png
+      alt: Browse meditations
+    - url: /images/projects/refigure/screenshot_app_meditation.png
+      alt: Meditation detail
+    - url: /images/projects/refigure/screenshot_app_player.png
+      alt: Meditation player
   homepage:
-  - url: /images/projects/refigure/screenshot_homepage.png
-    alt: Landing page for the new app.
+    - url: /images/projects/refigure/screenshot_homepage.png
+      alt: Landing page for the new app.
 ---
 {% render 'screenshots' with screenshots.app
   alignment: 'bleed'

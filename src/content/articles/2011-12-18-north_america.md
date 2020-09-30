@@ -4,9 +4,9 @@ date: 2011-12-18T23:09:35Z
 summary: Before I write about my most recent travels across Canada and the United States, I address the hypocrisy of taking such a trip.
 collection: north_america_2011
 category:
-- Travel
-- United States
-- Canada
+  - Travel
+  - United States
+  - Canada
 ---
 At the end of last year I stated that [I’d only be taking one long-haul trip this year][1], one that would take in Austin, San Francisco and Canada. Between then and March, my itinerary changed so that I could visit my brother in Brazil (and indulge in a [bit of utopian architecture][2] on the way) but it was a tough decision. Ever since visiting [Montreal in 2007][3], I’ve long wanted to see more of Canada.
 

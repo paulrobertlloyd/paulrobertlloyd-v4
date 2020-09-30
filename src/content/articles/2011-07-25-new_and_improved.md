@@ -6,8 +6,8 @@ location:
   country-name: United Kingdom
 summary: Unless you’re viewing this in your RSS reader, you may have noticed a few changes to the site. It’s been well over two years since the last redesign, but I’ve been working on this update on-and-off for the last 12 months. I could probably continue tweaking and refining, but as a wise man once said, “real artists ship”.
 category:
-- Website
-- Web
+  - Website
+  - Web
 discussion: closed
 ---
 Unless you’re viewing this in your RSS reader, you may have noticed a few changes to the site. It’s been more than two years since the last redesign, but I’ve been working on this update on-and-off for the last 12 months. I could probably continue tweaking and refining, but as a wise man once said, “real artists ship”.

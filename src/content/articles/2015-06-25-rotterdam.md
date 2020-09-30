@@ -7,14 +7,14 @@ location:
 summary: Some thoughts after spending a few days in the Netherlands’ second city.
 image: /images/2015/06/rotterdam/centraal_station.jpg
 category:
-- Travel
-- Europe
-- The Netherlands
+  - Travel
+  - Europe
+  - The Netherlands
 photoset:
-- url: /images/2015/06/rotterdam/kpn_tower.jpg
-  alt: KPN Tower
-- url: /images/2015/06/rotterdam/de_rotterdam.jpg
-  alt: De Rotterdam
+  - url: /images/2015/06/rotterdam/kpn_tower.jpg
+    alt: KPN Tower
+  - url: /images/2015/06/rotterdam/de_rotterdam.jpg
+    alt: De Rotterdam
 ---
 {% render 'figure' with '/images/2015/06/rotterdam/centraal_station.jpg'
   caption: 'Rotterdam Centraal Station.'

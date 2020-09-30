@@ -4,8 +4,8 @@ date: 2013-07-01
 summary: Mobile-first redesign for leading children’s charity.
 image: /images/projects/unicef_uk/image.jpg
 category:
-- Front-end development
-- Interaction design
+  - Front-end development
+  - Interaction design
 accentColor: '#00aeef'
 style:
   screenshot-shadow: '#aae6f9'
@@ -20,20 +20,20 @@ aside: |
   Agency
   : Clearleft
 screenshots:
-- url: /images/projects/unicef_uk/screenshot_home.png
-  alt: Home page
-- url: /images/projects/unicef_uk/screenshot_info.png
-  alt: Internal page
-- url: /images/projects/unicef_uk/screenshot_gallery.png
-  alt: Gallery page
+  - url: /images/projects/unicef_uk/screenshot_home.png
+    alt: Home page
+  - url: /images/projects/unicef_uk/screenshot_info.png
+    alt: Internal page
+  - url: /images/projects/unicef_uk/screenshot_gallery.png
+    alt: Gallery page
 photoset:
   workshop:
-  - url: /images/projects/unicef_uk/photo_homepage_prioritisation.jpg
-    alt: Home page prioritisation exercise
-  - url: /images/projects/unicef_uk/photo_pattern_identification.jpg
-    alt: Pattern identification exercise
-  - url: /images/projects/unicef_uk/photo_pattern_definition.jpg
-    alt: Pattern definition exercise
+    - url: /images/projects/unicef_uk/photo_homepage_prioritisation.jpg
+      alt: Home page prioritisation exercise
+    - url: /images/projects/unicef_uk/photo_pattern_identification.jpg
+      alt: Pattern identification exercise
+    - url: /images/projects/unicef_uk/photo_pattern_definition.jpg
+      alt: Pattern definition exercise
 ---
 {% render 'screenshots' with screenshots
   alignment: 'bleed'

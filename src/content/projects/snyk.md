@@ -4,9 +4,9 @@ date: 2017-06-02
 summary: Making it easier for developers to keep their projects secure and vulnerability free.
 image: /images/projects/snyk/image.jpg
 category:
-- Interaction design
+  - Interaction design
 tags:
-- featured
+  - featured
 accentColor: '#333152'
 style:
   screenshot-shadow: '#0f0d30'
@@ -19,20 +19,20 @@ aside: |
   : Design and user-experience
 screenshots:
   projects:
-  - url: /images/projects/snyk/screenshot_projects.png
-    alt: Projects page
+    - url: /images/projects/snyk/screenshot_projects.png
+      alt: Projects page
   flow:
-  - url: /images/projects/snyk/screenshot_flow_before.png
-    alt: Original user journey for adding projects
-  - url: /images/projects/snyk/screenshot_flow_after.png
-    alt: Proposed user journey for adding projects
-  - url: /images/projects/snyk/screenshot_add_repos.png
-    alt: Add repos screen
+    - url: /images/projects/snyk/screenshot_flow_before.png
+      alt: Original user journey for adding projects
+    - url: /images/projects/snyk/screenshot_flow_after.png
+      alt: Proposed user journey for adding projects
+    - url: /images/projects/snyk/screenshot_add_repos.png
+      alt: Add repos screen
   additional:
-  - url: /images/projects/snyk/screenshot_integrations.png
-    alt: Integrations page
-  - url: /images/projects/snyk/screenshot_usage.png
-    alt: Usage page
+    - url: /images/projects/snyk/screenshot_integrations.png
+      alt: Integrations page
+    - url: /images/projects/snyk/screenshot_usage.png
+      alt: Usage page
 ---
 {% render 'screenshots' with screenshots.projects
   alignment: 'bleed'

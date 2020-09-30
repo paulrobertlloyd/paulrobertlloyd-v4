@@ -5,10 +5,10 @@ canonical:
   url: https://the-pastry-box-project.net/clearleft/2013-june-6
 summary: A brief thought about collaboration.
 category:
-- Personal
-- Web
+  - Personal
+  - Web
 tags:
-- source:the_pastry_box_project
+  - source:the_pastry_box_project
 ---
 Four years ago, I was hired by Clearleft as a visual designer. Although it was recognised that I could write good front-end code, the nature of projects at that time meant different roles were segregated. After all, it is easier to manage projects when the component parts — user experience, visual design, and front-end development — can be pieced together like a jigsaw.
 

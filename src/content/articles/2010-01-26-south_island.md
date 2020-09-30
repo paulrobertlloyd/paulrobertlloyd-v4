@@ -5,10 +5,10 @@ summary: Having arranged my flights into and out of New Zealand before deciding 
 collection: australasia_2009
 image: /images/2010/01/south_island/overlander.jpg
 category:
-- Travel
-- New Zealand
-- Picton
-- Wellington
+  - Travel
+  - New Zealand
+  - Picton
+  - Wellington
 ---
 {% render 'figure' with '/images/2010/01/south_island/overlander.jpg'
   caption: 'The Overlander during its lunchtime stop at National Park railway station.'

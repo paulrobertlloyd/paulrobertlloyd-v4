@@ -6,9 +6,9 @@ location:
   country-name: United Kingdom
 summary: This weekend I will move into a new flat, the first I’ve owned rather than rented. While I’m trying not to see buying a property as an act of settling down, that I’ve bought somewhere in Brighton suggests I’ve found a city I’m happy to call home. This is partly thanks to Clearleft, the design agency I joined in 2009.
 category:
-- Personal
-- Clearleft
-- The Guardian
+  - Personal
+  - Clearleft
+  - The Guardian
 discussion: closed
 ---
 This weekend I will move into a new flat, the first I’ve owned rather than rented. Finding somewhere to buy was a drawn out affair — I began looking in January, and had my offer accepted in May — yet I still felt light-headed when the contracts were finally exchanged earlier this month.

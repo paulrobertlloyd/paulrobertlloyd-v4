@@ -6,8 +6,8 @@ location:
   country-name: United Kingdom
 summary: The first season of the Clearleft podcast concluded this week, and in what feels like a rare event these days, I need to have a little rant about what I heard.
 category:
-- Clearleft
-- Design
+  - Clearleft
+  - Design
 ---
 The first season of [the Clearleft podcast][1] concluded this week, and in what feels like a rare event these days, I need to have a little rant about what I heard.
 

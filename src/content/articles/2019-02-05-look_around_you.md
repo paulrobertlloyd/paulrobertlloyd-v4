@@ -6,11 +6,11 @@ canonical:
 summary: For all their claims of changing the world, it would seem designers have not only failed to address its more pressing problems, but exaggerated many of its existing ones.
 image: /images/2019/02/illustration.png
 category:
-- Design
-- Technology
+  - Design
+  - Technology
 tags:
-- featured
-- source:new_adventures_magazine
+  - featured
+  - source:new_adventures_magazine
 ---
 {% render 'figure' with '/images/2019/02/illustration.png'
   caption: 'Illustration: [Geri Coady](http://hellogeri.com)'

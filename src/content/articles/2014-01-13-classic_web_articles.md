@@ -6,10 +6,10 @@ location:
   country-name: United Kingdom
 summary: Vasilis van Gemert asked me to curate a list of classic articles for the Daily Nerd, but what constitutes a classic?
 category:
-- Web
-- Writing
+  - Web
+  - Writing
 tags:
-- featured
+  - featured
 ---
 [Vasilis van Gemert][0] asked me to curate a list of classic articles, but what constitutes a classic? In an industry as fast moving as ours, to choose articles of a certain vintage would mean excluding thought provoking articles published in more recent — and possibly more enlightened — years.
 

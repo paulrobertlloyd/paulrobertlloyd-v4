@@ -3,8 +3,8 @@ title: To Fly. To Serve.
 date: 2011-09-27T22:44:50+01:00
 bookmark-of: https://www.youtube.com/watch?v=a4JdQi60an0
 category:
-- Advertising
-- Video
+  - Advertising
+  - Video
 ---
 {% render 'embed' with bookmark-of %}
 

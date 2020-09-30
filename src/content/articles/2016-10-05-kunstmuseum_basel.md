@@ -7,10 +7,10 @@ location:
 summary: As I explored the exhibits in Basel’s recently extended art museum, I jotted down the artists whose work caught my attention. Here I share my findings.
 image: /images/2016/10/kunstmuseum_basel/extension.jpg
 category:
-- Art
-- Exhibitions
+  - Art
+  - Exhibitions
 tags:
-- featured
+  - featured
 ---
 {% render 'figure' with '/images/2016/10/kunstmuseum_basel/extension.jpg'
   caption: 'The new building of the Kunstmuseum Basel. Photograph: [Julian Salinas](https://kmb.picturepark.com/Go/JLVo8XZu).'

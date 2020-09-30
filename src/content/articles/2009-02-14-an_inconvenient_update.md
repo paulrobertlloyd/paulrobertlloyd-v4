@@ -6,8 +6,8 @@ location:
   country-name: United Kingdom
 summary: In what has become something of a rarity, I sat down in front of the television yesterday evening. Upon turning on the set-top box, I was greeted with an interesting message.
 category:
-- Technology
-- User experience
+  - Technology
+  - User experience
 ---
 In what has become something of a rarity, I sat down in front of the television yesterday evening. Upon turning on the set-top box, I was greeted with an interesting message:
 

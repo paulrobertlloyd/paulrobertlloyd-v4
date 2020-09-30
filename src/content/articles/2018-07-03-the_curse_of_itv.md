@@ -3,10 +3,10 @@ title: The Curse of ITV
 date: 2018-07-03T16:13:07+01:00
 summary: Worried? Me?
 category:
-- England men’s national football team
-- Football
-- ITV
-- FIFA World Cup
+  - England men’s national football team
+  - Football
+  - ITV
+  - FIFA World Cup
 ---
 Writing in 2010, Ambrose Heron wondered if the perceived [Curse of ITV][1] took hold after England’s campaign at France 98:
 

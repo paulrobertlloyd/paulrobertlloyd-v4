@@ -4,7 +4,7 @@ date: 2015-11-25T19:00:00Z
 url: https://membership.theguardian.com/event/19400168426
 summary: The launch of a new inquiry chaired by Lord Puttnam, examining the future of public service TV.
 category:
-- Guardian Live
+  - Guardian Live
 start: 2015-11-25T19:00:00Z
 end: 2015-11-25T20:30:00Z
 placeId: 9c3xgvmh+w7

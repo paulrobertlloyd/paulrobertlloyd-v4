@@ -7,12 +7,12 @@ location:
 summary: In need of a break, I headed to Galway and the far western reaches of the British Isles.
 image: /images/2017/05/away_to_galway/galway_harbour.jpg
 category:
-- Galway
-- Ireland
-- Europe
-- Travel
+  - Galway
+  - Ireland
+  - Europe
+  - Travel
 tags:
-- featured
+  - featured
 ---
 {% render 'figure' with '/images/2017/05/away_to_galway/galway_harbour.jpg'
   caption: 'Boats and swans in Galway harbour.'

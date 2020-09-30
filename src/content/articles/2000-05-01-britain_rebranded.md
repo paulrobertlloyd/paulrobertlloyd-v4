@@ -3,10 +3,10 @@ title: Brand New Britain
 date: 2000-05-01
 summary: A report published in September 1997 found that Britain’s image abroad was one of a backward looking country. In the eyes of consumers we produced goods of poor quality, while potential tourists saw a country were they would encounter bad weather and shoddy bed and breakfasts. Britain needed a new identity, but the country was unsure where its identity actually lay.
 category:
-- Brand identity
-- United Kingdom
+  - Brand identity
+  - United Kingdom
 tags:
-- source:academic_essays
+  - source:academic_essays
 ---
 The Union Flag is a powerful piece of design. Since its adoption in 1801, it has become associated with many aspects of Britain’s history and culture; from World War Two to the swinging sixties, Punk to Britpop, the monarchy and sporting victories. While also linked to the National Front movement and racism, it has remained popular with people of all ages and the design has proven itself to be timeless.
 

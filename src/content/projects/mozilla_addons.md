@@ -4,7 +4,7 @@ date: 2009-05-29
 summary: Bringing browser add-ons to a mainstream audience.
 image: /images/projects/mozilla_addons/image.jpg
 category:
-- Interaction design
+  - Interaction design
 accentColor: '#235'
 style:
   screenshot-shadow: '#235'
@@ -19,10 +19,10 @@ aside: |
   Agency
   : Clearleft
 screenshots:
-- url: /images/projects/mozilla_addons/screenshot_homepage.png
-  alt: Home page
-- url: /images/projects/mozilla_addons/screenshot_addon.png
-  alt: Add-on detail page
+  - url: /images/projects/mozilla_addons/screenshot_homepage.png
+    alt: Home page
+  - url: /images/projects/mozilla_addons/screenshot_addon.png
+    alt: Add-on detail page
 ---
 {% render 'screenshots' with screenshots
   alignment: 'bleed'

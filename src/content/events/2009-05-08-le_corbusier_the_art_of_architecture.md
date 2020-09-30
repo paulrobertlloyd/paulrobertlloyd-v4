@@ -5,6 +5,6 @@ summary: The first major survey in London of the internationally renowned archit
 start: 2009-02-19
 end: 2009-05-25
 related:
-- /2009/05/le_corbusier/
+  - /2009/05/le_corbusier/
 placeId: 9c3xgwc4+3f
 ---

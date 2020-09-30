@@ -4,14 +4,14 @@ date: 2013-12-01
 summary: Award-winning redesign for popular web geek advent calendar.
 image: /images/projects/24_ways/image.jpg
 category:
-- Brand identity
-- Front-end development
-- Interaction design
+  - Brand identity
+  - Front-end development
+  - Interaction design
 tags:
-- featured
+  - featured
 related:
-- /2013/12/redesigning_24_ways/
-- /2018/01/improving_the_accessibility_of_24_ways/
+  - /2013/12/redesigning_24_ways/
+  - /2018/01/improving_the_accessibility_of_24_ways/
 accentColor: '#f04'
 style:
   screenshot-shadow: '#b01'
@@ -27,20 +27,20 @@ aside: |
   : 'Awarded best collaborative project at the net Awards 2014'
 screenshots:
   article:
-  - url: /images/projects/24_ways/screenshot_article.png
-    alt: Article page
+    - url: /images/projects/24_ways/screenshot_article.png
+      alt: Article page
   mobile:
-  - url: /images/projects/24_ways/screenshot_archive_mobile.png
-    alt: Year archive page on mobile
-  - url: /images/projects/24_ways/screenshot_article_mobile.png
-    alt: Article page on mobile
-  - url: /images/projects/24_ways/screenshot_navigation_mobile.png
-    alt: Opened site navigation on mobile
+    - url: /images/projects/24_ways/screenshot_archive_mobile.png
+      alt: Year archive page on mobile
+    - url: /images/projects/24_ways/screenshot_article_mobile.png
+      alt: Article page on mobile
+    - url: /images/projects/24_ways/screenshot_navigation_mobile.png
+      alt: Opened site navigation on mobile
   homepage:
-  - url: /images/projects/24_ways/screenshot_homepage.png
-    alt: Home page
-  - url: /images/projects/24_ways/screenshot_navigation.png
-    alt: Opened site navigation
+    - url: /images/projects/24_ways/screenshot_homepage.png
+      alt: Home page
+    - url: /images/projects/24_ways/screenshot_navigation.png
+      alt: Opened site navigation
 ---
 {% render 'screenshots' with screenshots.article
   alignment: 'bleed'

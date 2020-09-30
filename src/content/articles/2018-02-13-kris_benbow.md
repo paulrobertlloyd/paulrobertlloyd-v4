@@ -6,9 +6,9 @@ location:
   country-name: United Kingdom
 summary: Kris Benbow, 1981-2018
 category:
-- Personal
-- Friends
-- In memoriam
+  - Personal
+  - Friends
+  - In memoriam
 ---
 Life is full of contrasts, but rarely are they so stark. Travelling back from Oban yesterday morning on the majestic West Highland Railway, I looked across a beautiful snow-covered landscape, thankful that after much dithering, I had decided to book this last-minute trip north. But it was here, in this winter wonderland, that I learnt of the tragic and untimely death of my good friend, Kris Benbow.
 

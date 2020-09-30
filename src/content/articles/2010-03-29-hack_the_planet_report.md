@@ -6,11 +6,11 @@ canonical:
 summary: A follow-up on Hack The Planet, our hack day held in Birmingham last month.
 image: /images/2010/03/hack_the_planet_report/event.jpg
 category:
-- Sustainability
-- Web
-- Projects
+  - Sustainability
+  - Web
+  - Projects
 tags:
-- source:a_green_focus
+  - source:a_green_focus
 screenshots:
   team-a:
   - url: /images/2010/03/hack_the_planet_report/team_a_event_page.png

@@ -5,6 +5,6 @@ url: https://www.eyefilm.nl/en/exhibition/william-kentridge-if-we-ever-get-to-he
 start: 2015-04-25
 end: 2015-08-30
 related:
-- /2015/06/william_kentridge/
+  - /2015/06/william_kentridge/
 placeId: 9f469wm2+pg
 ---

@@ -6,10 +6,10 @@ location:
   country-name: United Kingdom
 summary: With the British government now able to count itself among the few countries sporting a coherent identity programme, a follow up to my 2009 post on the subject.
 category:
-- Brand identity
-- Design
-- Government
-- United Kingdom
+  - Brand identity
+  - Design
+  - Government
+  - United Kingdom
 ---
 Recently [linked][1] to from Brand New, [Regierungen und ihre visuellen identitäten][2] ([Governments and their visual identities][3], the original article is in German) compares the visual identities of six European governments. Achim Schaffrinna:
 

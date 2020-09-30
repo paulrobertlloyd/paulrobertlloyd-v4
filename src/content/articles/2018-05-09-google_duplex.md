@@ -6,8 +6,8 @@ location:
   country-name: United Kingdom
 summary: In a society where truth and trust are a scarce resource, Google introduce an incredibly foolish product.
 category:
-- Technology
-- Google
+  - Technology
+  - Google
 ---
 Demoed using Silicon Valley’s favourite first-world problem — booking a table at a restaurant in San Francisco — [Google Duplex][1] instead opens a can of worms. [I agree with Ethan][2]:
 

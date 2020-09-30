@@ -8,9 +8,9 @@ location:
   country-name: United Kingdom
 summary: Returning to this project with a fresh perspective and desire to take a more managed approach to its development.
 category:
-- IndieKit
-- JavaScript
-- Programming
+  - IndieKit
+  - JavaScript
+  - Programming
 ---
 I am not a programmer, and [my journey to feeling comfortable writing JavaScript][1] has been a long and painful. When [I began writing IndieKit last year][2], it was with the expectation that I may not be up to the task. Instead, I found developing software to be a captivating — if not all-consuming — experience. Over the course of a month, I was able to build something with a feature set that not only served my needs but other people’s too, an encouraging if not bewildering situation to find myself in.
 

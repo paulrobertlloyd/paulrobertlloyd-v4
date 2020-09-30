@@ -23,10 +23,10 @@ product:
     ISBN
     : <span class="u-identifier">978-1-4087037-4-8</span>
 category:
-- Books
-- Review
-- Steve Jobs
-- Apple
+  - Books
+  - Review
+  - Steve Jobs
+  - Apple
 ---
 {% render 'product' with product %}
 

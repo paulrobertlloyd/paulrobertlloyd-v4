@@ -6,32 +6,32 @@ canonical:
 summary: 'When every device begs to be connected, it has become easier — almost necessary — to accept the adaptable nature of the web. Responsive web design is an emerging best practice, and our layouts are becoming more flexible. But often, innovation is focused on technical implementations while the visual aesthetic remains ignored. To put it another way, we’re embracing “responsive” but neglecting the second part: “design.” Now is the time to seek out an aesthetic that is truer to the medium.'
 image: /images/2012/09/the_web_aesthetic/illustration.png
 category:
-- Responsive design
-- Web
-- Design
+  - Responsive design
+  - Web
+  - Design
 tags:
-- source:a_list_apart
+  - source:a_list_apart
 photoset:
   1:
-  - url: /images/2012/09/the_web_aesthetic/bbc1_1974.png
-    alt: BBC ident from 1974
-  - url: /images/2012/09/the_web_aesthetic/bbc1_1981.png
-    alt: BBC ident from 1981
+    - url: /images/2012/09/the_web_aesthetic/bbc1_1974.png
+      alt: BBC ident from 1974
+    - url: /images/2012/09/the_web_aesthetic/bbc1_1981.png
+      alt: BBC ident from 1981
   2:
-  - url: /images/2012/09/the_web_aesthetic/dconstructarchive_original.jpg
-    alt: Original speaker portrait image
-  - url: /images/2012/09/the_web_aesthetic/dconstructarchive_optimised.jpg
-    alt: Optimized speaker portrait image
+    - url: /images/2012/09/the_web_aesthetic/dconstructarchive_original.jpg
+      alt: Original speaker portrait image
+    - url: /images/2012/09/the_web_aesthetic/dconstructarchive_optimised.jpg
+      alt: Optimized speaker portrait image
   3:
-  - url: /images/2012/09/the_web_aesthetic/dconstruct2012_original.jpg
-    alt: Original speaker portrait image
-  - url: /images/2012/09/the_web_aesthetic/dconstruct2012_monochrome.png
-    alt: Optimized speaker portrait image
+    - url: /images/2012/09/the_web_aesthetic/dconstruct2012_original.jpg
+      alt: Original speaker portrait image
+    - url: /images/2012/09/the_web_aesthetic/dconstruct2012_monochrome.png
+      alt: Optimized speaker portrait image
   4:
-  - url: /images/2012/09/the_web_aesthetic/bbc_news_simple.png
-    alt: Basic mobile experience
-  - url: /images/2012/09/the_web_aesthetic/bbc_news_enhanced.png
-    alt: Enhanced mobile experience
+    - url: /images/2012/09/the_web_aesthetic/bbc_news_simple.png
+      alt: Basic mobile experience
+    - url: /images/2012/09/the_web_aesthetic/bbc_news_enhanced.png
+      alt: Enhanced mobile experience
 ---
 _This article is [also available in Italian][it-IT]{hreflang="it-IT" rel="alternate external"}_
 

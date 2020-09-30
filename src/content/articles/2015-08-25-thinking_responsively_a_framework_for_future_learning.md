@@ -6,10 +6,10 @@ canonical:
 summary: Responsive web design changed everything about how we think and work on the web. Five years on, we’re still exploring the best ways to approach our practice. If we want a web that is truly universal, we must consider our users, our medium, and our teams in new, adaptable ways. Looking at where we’ve come from and where we’re going, I propose a philosophical framework for our work on the responsive web.
 image: /images/2015/08/thinking_responsively_a_framework_for_future_learning/illustration.png
 category:
-- Responsive design
-- Web
+  - Responsive design
+  - Web
 tags:
-- source:a_list_apart
+  - source:a_list_apart
 ---
 _This article is [also available in Italian][it-IT]{hreflang="it-IT" rel="alternate external"}_
 

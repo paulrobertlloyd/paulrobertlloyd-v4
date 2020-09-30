@@ -5,9 +5,9 @@ summary: My North American adventure started in Washington DC, ostensibly to att
 collection: north_america_2011
 image: /images/2011/12/washington_dc/lincoln_memorial.jpg
 category:
-- Travel
-- Washington, D.C.
-- United States
+  - Travel
+  - Washington, D.C.
+  - United States
 ---
 {% render 'figure' with '/images/2011/12/washington_dc/lincoln_memorial.jpg'
   caption: 'Shannon looking towards the Lincoln Memorial.'

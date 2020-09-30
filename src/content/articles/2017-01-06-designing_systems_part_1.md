@@ -8,13 +8,13 @@ summary: 'In the first part of a three-part essay about design systems, I review
 collection: designing_systems
 image: /images/2017/01/designing_systems_part_1/brasilia_satellite.jpg
 category:
-- Architecture
-- Brasília
-- London
-- Design
-- Design systems
+  - Architecture
+  - Brasília
+  - London
+  - Design
+  - Design systems
 tags:
-- featured
+  - featured
 ---
 {% render 'figure' with '/images/2017/01/designing_systems_part_1/brasilia_satellite.jpg'
   caption: 'Brasília, seen from above, looks like a bird or a plane. Image: [NASA Earth Observatory](http://earthobservatory.nasa.gov/IOTD/view.php?id=43743).'

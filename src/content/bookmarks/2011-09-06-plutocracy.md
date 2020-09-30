@@ -3,7 +3,7 @@ title: Osborne’s Version of Sustainable Development
 date: 2011-09-06T21:38:08+01:00
 bookmark-of: https://www.theguardian.com/commentisfree/2011/sep/05/george-osborne-motorway-sustainable-development
 category:
-- Politics
+  - Politics
 ---
 George Monbiot writes about another boneheaded reform from a Conservative-led government nobody voted for. He concludes:
 

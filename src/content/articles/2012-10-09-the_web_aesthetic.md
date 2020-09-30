@@ -6,10 +6,10 @@ location:
   country-name: United Kingdom
 summary: At the beginning of this year I was struck by a realisation, prompted in part by the discussions around responsive images but also the artistic ingenuity of the image optimisation techniques being used by Jeremy. How might the visual aesthetic of the web change if we were to acknowledge its nature and embrace its constraints?
 category:
-- Writing
-- Web
-- Responsive design
-- A List Apart
+  - Writing
+  - Web
+  - Responsive design
+  - A List Apart
 ---
 At the beginning of this year I was struck by a realisation, prompted in part by the discussions around [responsive images][1] but also the artistic ingenuity of the [image optimisation][2] techniques being used by Jeremy. If the capabilities of a medium can dictate how we design for it, how might the visual aesthetic of the web change if we were to acknowledge its nature and embrace its constraints?
 

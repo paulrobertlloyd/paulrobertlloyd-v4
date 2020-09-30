@@ -6,8 +6,8 @@ location:
   country-name: United Kingdom
 summary: It seems I have a new challenge for March.
 category:
-- Friends
-- Running
+  - Friends
+  - Running
 discussion: closed
 ---
 Americans are quite a competitive race, an admirable trait given the countless wars they’ve lost and their inability to build a desirable automobile. In fact, I’m inclined to believe the only American success is to be found at the all-you-can-eat buffet.

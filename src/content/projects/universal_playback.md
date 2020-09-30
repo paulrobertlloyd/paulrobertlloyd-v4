@@ -4,7 +4,7 @@ date: 2010-11-01
 summary: Modular design that showcased a library of television favourites.
 image: /images/projects/universal_playback/image.jpg
 category:
-- Interaction design
+  - Interaction design
 accentColor: '#07B'
 style:
   screenshot-shadow: '#888'
@@ -19,10 +19,10 @@ aside: |
   Agency
   : Clearleft
 screenshots:
-- url: /images/projects/universal_playback/screenshot_homepage.png
-  alt: Home page
-- url: /images/projects/universal_playback/screenshot_showpage.png
-  alt: Show page
+  - url: /images/projects/universal_playback/screenshot_homepage.png
+    alt: Home page
+  - url: /images/projects/universal_playback/screenshot_showpage.png
+    alt: Show page
 ---
 {% render 'screenshots' with screenshots
   alignment: 'bleed'

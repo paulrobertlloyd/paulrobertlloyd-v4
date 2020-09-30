@@ -6,9 +6,9 @@ location:
   country-name: United Kingdom
 summary: 'The hackability provided by Jekyll’s plugin architecture has brought about an unexpected consequence: I’m starting to learn Ruby.'
 category:
-- Jekyll
-- Ruby
-- Programming
+  - Jekyll
+  - Ruby
+  - Programming
 ---
 Writing about [the redesign of this site][1] in July, I mentioned why I decided to build it using [Jekyll][2]:
 

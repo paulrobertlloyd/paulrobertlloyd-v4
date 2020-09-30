@@ -5,10 +5,10 @@ canonical:
   url: https://24ways.org/2012/responsive-images-what-we-thought-we-needed/
 summary: I engage with the two main approaches to the matter of responsive images and finds them wanting. Could “Bah, humbug!” be a reasonable response to markup excess?
 category:
-- Responsive design
-- Web
+  - Responsive design
+  - Web
 tags:
-- source:24_ways
+  - source:24_ways
 ---
 If you were to read a web designer’s Christmas wish list, it would likely include a solution for displaying images responsively. For those concerned about users downloading unnecessary image data, or serving images that look blurry on high resolution displays, finding a solution has become a frustrating quest.
 

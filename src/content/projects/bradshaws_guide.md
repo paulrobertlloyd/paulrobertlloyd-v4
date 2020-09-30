@@ -4,14 +4,14 @@ date: 2018-01-02
 summary: Digital revival of a popular Victorian railway guide.
 image: /images/projects/bradshaws_guide/image.jpg
 category:
-- Front-end development
-- Interaction design
+  - Front-end development
+  - Interaction design
 tags:
-- featured
+  - featured
 related:
-- /2013/04/bradshaws_guide/
-- /2013/05/web_typography/
-- /2018/01/bradshaws_guide/
+  - /2013/04/bradshaws_guide/
+  - /2013/05/web_typography/
+  - /2018/01/bradshaws_guide/
 accentColor: '#e6772e'
 style:
   screenshot-shadow: '#e6772e'
@@ -24,18 +24,18 @@ aside: |
   : Design and front-end development
 screenshots:
   homepage:
-  - url: /images/projects/bradshaws_guide/screenshot_homepage.png
-    alt: Home page
+    - url: /images/projects/bradshaws_guide/screenshot_homepage.png
+      alt: Home page
   station:
-  - url: /images/projects/bradshaws_guide/screenshot_station.png
-    alt: Station page
+    - url: /images/projects/bradshaws_guide/screenshot_station.png
+      alt: Station page
   mobile:
-  - url: /images/projects/bradshaws_guide/screenshot_mobile_region.png
-    alt: Region page on mobile
-  - url: /images/projects/bradshaws_guide/screenshot_mobile_route.png
-    alt: Route page on mobile
-  - url: /images/projects/bradshaws_guide/screenshot_mobile_station.png
-    alt: Station page on mobile
+    - url: /images/projects/bradshaws_guide/screenshot_mobile_region.png
+      alt: Region page on mobile
+    - url: /images/projects/bradshaws_guide/screenshot_mobile_route.png
+      alt: Route page on mobile
+    - url: /images/projects/bradshaws_guide/screenshot_mobile_station.png
+      alt: Station page on mobile
 ---
 {% render 'screenshots' with screenshots.homepage
   alignment: 'bleed'

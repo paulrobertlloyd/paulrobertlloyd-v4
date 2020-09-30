@@ -8,21 +8,21 @@ summary: Finding colour amidst the grey.
 image: /images/2020/01/copenhagen/nyhavn.jpg
 collection: scandinavian_sojourn
 category:
-- Copenhagen
-- Denmark
-- Malmo
-- Trolleborg
-- Sweden
-- Europe
-- Travel
-- Railways
+  - Copenhagen
+  - Denmark
+  - Malmo
+  - Trolleborg
+  - Sweden
+  - Europe
+  - Travel
+  - Railways
 tags:
-- featured
+  - featured
 photoset:
-- url: /images/2020/01/copenhagen/blue_red_and_yellow.jpg
-  alt: Colourful, glowing box in the middle of a gallery.
-- url: /images/2020/01/copenhagen/gleaming_lights_of_the_souls.jpg
-  alt: Dark room with small bright red and blue lights.
+  - url: /images/2020/01/copenhagen/blue_red_and_yellow.jpg
+    alt: Colourful, glowing box in the middle of a gallery.
+  - url: /images/2020/01/copenhagen/gleaming_lights_of_the_souls.jpg
+    alt: Dark room with small bright red and blue lights.
 ---
 {%- capture overlay %}geojson({{ geojson | json | escape }}){% endcapture -%}
 {%- capture map -%}

@@ -6,8 +6,8 @@ location:
   country-name: United Kingdom
 summary: Who is this website for?
 category:
-- Website
-- Web
+  - Website
+  - Web
 ---
 Earlier this year I mentioned that [I was planning to document a redesign of this site][1]. In the intervening six months, client work, house decoration and various travels have conspired against me moving forward with this project, but another period of downtime provides an opportunity to forge ahead and hopefully complete this endeavour.
 

@@ -4,7 +4,7 @@ date: 2009-11-24
 summary: Visual and user experience design for provider of airport travel services.
 image: /images/projects/bookfhr/image.jpg
 category:
-- Interaction design
+  - Interaction design
 accentColor: '#002f70'
 style:
   screenshot-shadow: '#f16d01'
@@ -20,10 +20,10 @@ aside: |
   : Clearleft
 
 screenshots:
-- url: /images/projects/bookfhr/screenshot_homepage.png
-  alt: Home page
-- url: /images/projects/bookfhr/screenshot_parking.png
-  alt: Parking search results page
+  - url: /images/projects/bookfhr/screenshot_homepage.png
+    alt: Home page
+  - url: /images/projects/bookfhr/screenshot_parking.png
+    alt: Parking search results page
 ---
 {% render 'screenshots' with screenshots
   alignment: 'bleed'

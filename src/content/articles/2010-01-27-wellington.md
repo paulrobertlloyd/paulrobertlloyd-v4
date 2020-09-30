@@ -5,10 +5,10 @@ summary: Wellington will remain the most memorable stop on my brief tour of New 
 collection: australasia_2009
 image: /images/2010/01/wellington/cable_car.jpg
 category:
-- Travel
-- New Zealand
-- Wellington
-- Architecture
+  - Travel
+  - New Zealand
+  - Wellington
+  - Architecture
 ---
 {% render 'figure' with '/images/2010/01/wellington/cable_car.jpg'
   caption: 'The Wellington Cable Car takes passengers from Lambton Quay in the CBD to the suburb of Kelburn, and the Wellington Botanic Garden.'

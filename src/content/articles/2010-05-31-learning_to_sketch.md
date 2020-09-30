@@ -6,9 +6,9 @@ location:
   country-name: United Kingdom
 summary: With Dave Gray speaking at this year’s UX London, Andy asked if he would then visit Brighton and run a sketching workshop for everyone at Clearleft.
 category:
-- Clearleft
-- Design
-- Drawing
+  - Clearleft
+  - Design
+  - Drawing
 discussion: closed
 ---
 Quite often at Clearleft we like to do activities together as a company. In the past this has meant visiting museums in London, a night out at the Brighton Comedy Festival and of course our popular movie nights. Last week however it was time to do something a little more practical.

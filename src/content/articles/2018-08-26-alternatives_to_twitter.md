@@ -6,9 +6,9 @@ location:
   country-name: United Kingdom
 summary: As people look to replace Twitter as their social network of choice, Mastadon and Micro.blog have emerged as early contenders.
 category:
-- Web
-- IndieWeb
-- Social media
+  - Web
+  - IndieWeb
+  - Social media
 ---
 Twitter’s wayward and misguided leadership, with its overt tolerance of hate speech and disrespect for third-party developers, may have brought the service’s popularity to its tipping point. Some users have decided to [leave the network][1], while others like [Susan][2] are looking for alternatives:
 

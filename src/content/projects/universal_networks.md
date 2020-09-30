@@ -4,7 +4,7 @@ date: 2010-05-03
 summary: Design for NBCUniversal’s international channel portfolio.
 image: /images/projects/universal_networks/image.jpg
 category:
-- Interaction design
+  - Interaction design
 accentColor: '#527'
 style:
   screenshot-shadow: '#afaaa2'
@@ -20,19 +20,19 @@ aside: |
   : Clearleft
 screenshots:
   syfy:
-  - url: /images/projects/universal_networks/screenshot_syfy_homepage.png
-    alt: Home page
-  - url: /images/projects/universal_networks/screenshot_syfy_showpage.png
-    alt: Show page
+    - url: /images/projects/universal_networks/screenshot_syfy_homepage.png
+      alt: Home page
+    - url: /images/projects/universal_networks/screenshot_syfy_showpage.png
+      alt: Show page
   networks:
-  - url: /images/projects/universal_networks/screenshot_diva.png
-    alt: Diva home page
-  - url: /images/projects/universal_networks/screenshot_13th_street.png
-    alt: 13th Street Universal home page
-  - url: /images/projects/universal_networks/screenshot_studio.png
-    alt: Studio Universal home page
-  - url: /images/projects/universal_networks/screenshot_universal_channel.png
-    alt: Universal Channel home page
+    - url: /images/projects/universal_networks/screenshot_diva.png
+      alt: Diva home page
+    - url: /images/projects/universal_networks/screenshot_13th_street.png
+      alt: 13th Street Universal home page
+    - url: /images/projects/universal_networks/screenshot_studio.png
+      alt: Studio Universal home page
+    - url: /images/projects/universal_networks/screenshot_universal_channel.png
+      alt: Universal Channel home page
 ---
 {% render 'screenshots' with screenshots.syfy
   alignment: 'bleed'

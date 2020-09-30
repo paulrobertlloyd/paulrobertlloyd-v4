@@ -4,7 +4,7 @@ date: 2010-09-30
 summary: Reinventing Channel 4’s news presence on the iPad.
 image: /images/projects/channel_4_news/image.jpg
 category:
-- Interaction design
+  - Interaction design
 accentColor: '#42246e'
 style:
   screenshot-shadow: '#5b1c46'
@@ -20,17 +20,17 @@ aside: |
   : Clearleft
 screenshots:
   tablet:
-  - url: /images/projects/channel_4_news/screenshot_home.png
-    alt: Home screen
-  - url: /images/projects/channel_4_news/screenshot_special_report.png
-    alr: Special report
+    - url: /images/projects/channel_4_news/screenshot_home.png
+      alt: Home screen
+    - url: /images/projects/channel_4_news/screenshot_special_report.png
+      alr: Special report
   sections:
-  - url: /images/projects/channel_4_news/screenshot_category.png
-    alt: Category screen
-  - url: /images/projects/channel_4_news/screenshot_article.png
-    alt: News article
-  - url: /images/projects/channel_4_news/screenshot_catchup.png
-    alt: Catch-up screen
+    - url: /images/projects/channel_4_news/screenshot_category.png
+      alt: Category screen
+    - url: /images/projects/channel_4_news/screenshot_article.png
+      alt: News article
+    - url: /images/projects/channel_4_news/screenshot_catchup.png
+      alt: Catch-up screen
 ---
 {% render 'screenshots' with screenshots.tablet
   alignment: 'bleed'

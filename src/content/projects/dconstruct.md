@@ -4,7 +4,7 @@ date: 2013-05-02
 summary: Collaborative design for grassroots digital conference.
 image: /images/projects/dconstruct/image.jpg
 category:
-- Interaction design
+  - Interaction design
 accentColor: '#370'
 style:
   screenshot-shadow: '#370'
@@ -20,13 +20,13 @@ aside: |
   : Clearleft
 screenshots:
   latest:
-  - url: /images/projects/dconstruct/screenshot_2010.png
-    alt: Home page for the 2010 website
+    - url: /images/projects/dconstruct/screenshot_2010.png
+      alt: Home page for the 2010 website
   recent:
-  - url: /images/projects/dconstruct/screenshot_2011.png
-    alt: Home page for the 2011 website
-  - url: /images/projects/dconstruct/screenshot_2013.png
-    alt: Home page for the 2013 website
+    - url: /images/projects/dconstruct/screenshot_2011.png
+      alt: Home page for the 2011 website
+    - url: /images/projects/dconstruct/screenshot_2013.png
+      alt: Home page for the 2013 website
 ---
 {% render 'screenshots' with screenshots.latest
   alignment: 'bleed'

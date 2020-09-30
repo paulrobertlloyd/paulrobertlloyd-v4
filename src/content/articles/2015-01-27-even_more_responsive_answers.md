@@ -7,10 +7,10 @@ canonical:
 summary: Answers to questions about responsive design put to me by readers of <cite>net Magazine</cite>.
 image: /images/2015/01/guardian_navigation.png
 category:
-- Responsive design
-- Web
+  - Responsive design
+  - Web
 tags:
-- source:net_magazine
+  - source:net_magazine
 ---
 {% render 'figure' with '/images/2015/01/guardian_navigation.png'
   caption: 'The Guardian’s navigation on smaller displays prioritises page signposting, but all site sections can still be accessed with one tap.'

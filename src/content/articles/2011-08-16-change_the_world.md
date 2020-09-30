@@ -6,8 +6,8 @@ location:
   country-name: United Kingdom
 summary: Facebook’s continuing hoovering up of top design talent has been worrying me for some months. The shopping spree continued earlier this month with the acquisition of Push Pop Press, a promising start-up building an innovative digital publishing platform.
 category:
-- Design
-- Facebook
+  - Design
+  - Facebook
 ---
 A little bit late getting to this, but Facebook’s continuing hoovering up of top design talent (including [Nicholas Feltron][1], [Nathon Borror][2] and [Sofa][3]) has been worrying me for some months now. The shopping spree continued earlier this month with [the acquisition of Push Pop Press][4], a promising start-up building an innovative digital publishing platform.
 

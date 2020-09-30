@@ -4,7 +4,7 @@ date: 2011-05-27
 summary: Incremental redesign for family run, customer-focused food retailer.
 image: /images/projects/nuts/image.jpg
 category:
-- Interaction design
+  - Interaction design
 accentColor: '#c50'
 style:
   screenshot-shadow: '#920'
@@ -20,13 +20,13 @@ aside: |
   : Clearleft
 screenshots:
   showcase:
-  - url: /images/projects/nuts/screenshot_homepage.png
-    alt: Home page
-  - url: /images/projects/nuts/screenshot_product.png
-    alt: Product page
+    - url: /images/projects/nuts/screenshot_homepage.png
+      alt: Home page
+    - url: /images/projects/nuts/screenshot_product.png
+      alt: Product page
   customtray:
-  - url: /images/projects/nuts/screenshot_customtray.png
-    alt: Custom tray configuration
+    - url: /images/projects/nuts/screenshot_customtray.png
+      alt: Custom tray configuration
 ---
 {% render 'screenshots' with screenshots.showcase
   alignment: 'bleed'

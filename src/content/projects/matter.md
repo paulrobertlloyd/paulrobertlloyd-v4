@@ -4,8 +4,8 @@ date: 2012-11-14
 summary: Beautiful reading experience for publisher of unmissable journalism.
 image: /images/projects/matter/image.jpg
 category:
-- Brand identity
-- Interaction design
+  - Brand identity
+  - Interaction design
 accentColor: '#006Aff'
 style:
   screenshot-shadow: '#444'
@@ -21,17 +21,17 @@ aside: |
   : Clearleft
 screenshots:
   homepage:
-  - url: /images/projects/matter/screenshot_homepage.png
-    alt: Home page
+    - url: /images/projects/matter/screenshot_homepage.png
+      alt: Home page
   type:
-  - url: /images/projects/matter/screenshot_type_calluna.png
-    alt: Type specimen for Calluna
-  - url: /images/projects/matter/screenshot_type_centro.png
-    alt: Type specimen for Centro
-  - url: /images/projects/matter/screenshot_type_enigma.png
-    alt: Type specimen for Enigma
-  - url: /images/projects/matter/screenshot_type_ptsans.png
-    alt: Type specimen for PT Sans
+    - url: /images/projects/matter/screenshot_type_calluna.png
+      alt: Type specimen for Calluna
+    - url: /images/projects/matter/screenshot_type_centro.png
+      alt: Type specimen for Centro
+    - url: /images/projects/matter/screenshot_type_enigma.png
+      alt: Type specimen for Enigma
+    - url: /images/projects/matter/screenshot_type_ptsans.png
+      alt: Type specimen for PT Sans
 ---
 {% render 'screenshots' with screenshots.homepage
   alignment: 'bleed'

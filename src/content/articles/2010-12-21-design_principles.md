@@ -6,8 +6,8 @@ location:
   country-name: United Kingdom
 summary: I’ve been thinking about redesigning this website for the last six months, but haven’t been able to find a strategy for making these changes happen. To keep this project on course, I’ve defined a set of design principles.
 category:
-- Design
-- Web
+  - Design
+  - Web
 ---
 Over the Christmas break I’m hoping to find some time to redesign this site; it’s been two years since I last reviewed it in any great detail. I’ve been thinking about this project for the last six months, but hadn’t nailed down a strategy for making these changes happen.
 

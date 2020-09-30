@@ -6,9 +6,9 @@ location:
   country-name: United Kingdom
 summary: I ended my review of 2009 promising to write more about green issues and how I plan to lessen my impact on the environment. Now I expand on those ideas further.
 category:
-- Sustainability
-- Travel
-- Projects
+  - Sustainability
+  - Travel
+  - Projects
 discussion: closed
 ---
 As I reflected upon in [my yearly review][1], I made one substantial change in my behaviour, and a few smaller ones, that are hopefully reducing my carbon footprint. No longer relying on a car is something I can take a great deal of pride in, although I should confess that I still find driving desirable, especially since my discovery of the [Volvo C30][2].

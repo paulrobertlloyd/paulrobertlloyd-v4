@@ -7,8 +7,8 @@ location:
 summary: An appreciation for identity programmes that seek to refine rather than reinvent.
 image: /images/2018/07/brands_renewed/tate.png
 category:
-- Design
-- Brand identity
+  - Design
+  - Brand identity
 ---
 {% render 'figure' with '/images/2018/07/brands_renewed/tate.png'
   caption: 'Previous variations of Tate’s logo, versus the singular version that replaced it in 2016.'

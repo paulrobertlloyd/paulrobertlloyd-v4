@@ -3,7 +3,7 @@ title: Speaker Deck
 date: 2011-09-27T00:17:32+01:00
 bookmark-of: http://speakerdeck.com/
 category:
-- Social media
+  - Social media
 ---
 I quickly tired of posting my presentations to SlideShare as the service became increasingly laden with features and countless advertising.
 

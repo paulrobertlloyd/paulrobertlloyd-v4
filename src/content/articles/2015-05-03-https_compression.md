@@ -6,8 +6,8 @@ location:
   country-name: United Kingdom
 summary: I recently learnt about a security exploit that can occur when pages served over HTTPS use HTTP compression. Secure or fast, pick one?
 category:
-- Web
-- Web performance
+  - Web
+  - Web performance
 ---
 As I get closer to launching my redesigned website (this side of Christmas would be nice), I wanted to ensure pages were served over HTTPS. This reflects a broader community effort to make the web more secure and trustworthy, a move [encouraged by the W3C][1].
 

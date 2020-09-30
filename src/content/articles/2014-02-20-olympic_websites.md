@@ -7,11 +7,11 @@ location:
 summary: Whereas the world’s foremost architects, graphic artists, typographers, iconographers and illustrators are asked to create their best work to celebrate each Olympic Games, still we wait for the Olympic movement to give equal consideration to the design of its websites.
 image: /images/2014/02/olympic_websites/anastasiya_kuzmina.jpg
 category:
-- Brand identity
-- Design
-- Olympics
-- Sochi 2014
-- Web
+  - Brand identity
+  - Design
+  - Olympics
+  - Sochi 2014
+  - Web
 ---
 {% render 'figure' with '/images/2014/02/olympic_websites/anastasiya_kuzmina.jpg'
   caption: 'Gold medalist Anastasiya Kuzmina of Slovakia celebrates during the medal ceremony for the Biathlon Women’s 7.5 km Sprint.'

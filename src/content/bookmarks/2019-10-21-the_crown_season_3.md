@@ -3,8 +3,8 @@ title: The Crown - Season 3
 date: 2019-10-21T20:30:00+01:00
 bookmark-of: https://www.youtube.com/watch?v=vLXYfgpqb8A
 category:
-- Video
-- Television
+  - Video
+  - Television
 ---
 {% render 'embed' with bookmark-of %}
 

@@ -7,11 +7,11 @@ location:
 summary: The question on the ballot paper demands a simple black or white answer, yet a study of the issues only offers shades of grey.
 image: /images/2016/06/eu_referendum.jpg
 category:
-- Politics
-- European Union
-- Brexit
+  - Politics
+  - European Union
+  - Brexit
 tags:
-- featured
+  - featured
 ---
 {% render 'figure' with '/images/2016/06/eu_referendum.jpg'
   caption: 'Pastiche of Michelangelo’s <cite>The Creation of Adam</cite>, a modern reworking inspired by the same exercise I carried out twenty years ago.'

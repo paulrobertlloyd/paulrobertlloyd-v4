@@ -3,9 +3,9 @@ title: Election Expenses Exposed
 date: 2016-05-15T22:45:00+01:00
 bookmark-of: https://www.channel4.com/news/election-expenses-exposed
 category:
-- Politics
-- Corruption
-- Conservative Party
+  - Politics
+  - Corruption
+  - Conservative Party
 ---
 If the Conservative Party wasn’t already rigging the system in its favour, be that by [redrawing consistency boundaries][1] ([gerrymandering][2] by any other name) or [reforming party funding][3], it turns out they may have broken campaign spending rules as well.
 

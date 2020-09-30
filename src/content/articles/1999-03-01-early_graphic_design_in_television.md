@@ -3,41 +3,41 @@ title: Early Graphic Design in Television
 date: 1999-03-01
 summary: The launch of television in 1936 saw the birth of a medium that could be easily exploited and enhanced by graphic design. However the early story of graphic design in television was one of limited resources and under investment.
 category:
-- Design
-- Television
+  - Design
+  - Television
 tags:
-- source:academic_essays
+  - source:academic_essays
 figures:
   1:
-  - url: /images/1999/03/early_graphic_design_in_television/1a.png
-  - url: /images/1999/03/early_graphic_design_in_television/1b.png
-  - url: /images/1999/03/early_graphic_design_in_television/1c.png
-  - url: /images/1999/03/early_graphic_design_in_television/1d.png
-  - url: /images/1999/03/early_graphic_design_in_television/1e.png
+    - url: /images/1999/03/early_graphic_design_in_television/1a.png
+    - url: /images/1999/03/early_graphic_design_in_television/1b.png
+    - url: /images/1999/03/early_graphic_design_in_television/1c.png
+    - url: /images/1999/03/early_graphic_design_in_television/1d.png
+    - url: /images/1999/03/early_graphic_design_in_television/1e.png
   2:
-  - url: /images/1999/03/early_graphic_design_in_television/2a.png
-  - url: /images/1999/03/early_graphic_design_in_television/2b.png
-  - url: /images/1999/03/early_graphic_design_in_television/2c.png
-  - url: /images/1999/03/early_graphic_design_in_television/2d.png
-  - url: /images/1999/03/early_graphic_design_in_television/2e.png
+    - url: /images/1999/03/early_graphic_design_in_television/2a.png
+    - url: /images/1999/03/early_graphic_design_in_television/2b.png
+    - url: /images/1999/03/early_graphic_design_in_television/2c.png
+    - url: /images/1999/03/early_graphic_design_in_television/2d.png
+    - url: /images/1999/03/early_graphic_design_in_television/2e.png
   6:
-  - url: /images/1999/03/early_graphic_design_in_television/6a.png
-  - url: /images/1999/03/early_graphic_design_in_television/6b.png
-  - url: /images/1999/03/early_graphic_design_in_television/6c.png
-  - url: /images/1999/03/early_graphic_design_in_television/6d.png
-  - url: /images/1999/03/early_graphic_design_in_television/6e.png
+    - url: /images/1999/03/early_graphic_design_in_television/6a.png
+    - url: /images/1999/03/early_graphic_design_in_television/6b.png
+    - url: /images/1999/03/early_graphic_design_in_television/6c.png
+    - url: /images/1999/03/early_graphic_design_in_television/6d.png
+    - url: /images/1999/03/early_graphic_design_in_television/6e.png
   7:
-  - url: /images/1999/03/early_graphic_design_in_television/7a.png
-  - url: /images/1999/03/early_graphic_design_in_television/7b.png
-  - url: /images/1999/03/early_graphic_design_in_television/7c.png
-  - url: /images/1999/03/early_graphic_design_in_television/7d.png
-  - url: /images/1999/03/early_graphic_design_in_television/7e.png
+    - url: /images/1999/03/early_graphic_design_in_television/7a.png
+    - url: /images/1999/03/early_graphic_design_in_television/7b.png
+    - url: /images/1999/03/early_graphic_design_in_television/7c.png
+    - url: /images/1999/03/early_graphic_design_in_television/7d.png
+    - url: /images/1999/03/early_graphic_design_in_television/7e.png
   16:
-  - url: /images/1999/03/early_graphic_design_in_television/16a.png
-  - url: /images/1999/03/early_graphic_design_in_television/16b.png
-  - url: /images/1999/03/early_graphic_design_in_television/16c.png
-  - url: /images/1999/03/early_graphic_design_in_television/16d.png
-  - url: /images/1999/03/early_graphic_design_in_television/16e.png
+    - url: /images/1999/03/early_graphic_design_in_television/16a.png
+    - url: /images/1999/03/early_graphic_design_in_television/16b.png
+    - url: /images/1999/03/early_graphic_design_in_television/16c.png
+    - url: /images/1999/03/early_graphic_design_in_television/16d.png
+    - url: /images/1999/03/early_graphic_design_in_television/16e.png
 ---
 It was nearly 20 years after the launch of BBC Television, that its first full-time graphic designer was employed, John Sewell, in 1954. This saw the start of a commitment to the profession, but for a long time Graphic Design remained under the control of Scenic Design, when it really should have been its equal, considering the amount of airtime graphic design occupied.
 

@@ -6,11 +6,11 @@ location:
   country-name: United Kingdom
 summary: My love of detail is often reaffirmed by my noticing the almost inconsiderable tweaks in the designed environment around me.
 category:
-- Design
-- Brand identity
-- Network Rail
-- MTV
-- Melbourne
+  - Design
+  - Brand identity
+  - Network Rail
+  - MTV
+  - Melbourne
 ---
 On flicking through the newspaper on the train home yesterday, I spotted an advertisement for Network Rail, the semi-nationalised body responsible for much of Britain’s rail infrastructure.
 

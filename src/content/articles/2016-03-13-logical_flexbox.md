@@ -7,9 +7,9 @@ location:
 summary: Because it uses logical values, Flexbox layouts will automatically align according to a document’s text-direction. Well, almost.
 image: /images/2016/03/logical_flexbox/spock.jpg
 category:
-- Web
+  - Web
 tags:
-- featured
+  - featured
 ---
 {% render 'figure' with '/images/2016/03/logical_flexbox/spock.jpg'
   caption: 'Mr. Spock browsing the web on his tablet device. Photograph: [NBC Television](https://commons.wikimedia.org/wiki/File:Star_Trek_Spock.jpg).'

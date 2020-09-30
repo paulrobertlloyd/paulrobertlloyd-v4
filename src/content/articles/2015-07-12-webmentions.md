@@ -6,9 +6,9 @@ location:
   country-name: United Kingdom
 summary: I’m attending my second IndieWebCamp this weekend, with the sole aim of implementing webmentions. This has meant prematurely launching my new Jekyll-based website. That this has been in development since last February, many would say this moment is long overdue.
 category:
-- IndieWebCamp
-- Website
-- Web
+  - IndieWebCamp
+  - Website
+  - Web
 ---
 I’m attending my second [IndieWebCamp][1] this weekend, with the sole aim of implementing [webmentions][2]. This has meant prematurely launching my new [Jekyll][3]-based website. That this has been [in development since last February][4], many would say this moment is long overdue. I’ll write in more detail about the various changes made (and Jekyll plugins written) in a later post, but for now it feels good to finally get the monkey off my back.
 

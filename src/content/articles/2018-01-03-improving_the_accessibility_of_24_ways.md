@@ -5,14 +5,14 @@ canonical:
   url: https://css-tricks.com/improving-accessibility-24-ways/
 summary: Creating something new will always attract attention, but there’s an under celebrated nobility in improving what already exists.
 category:
-- 24 ways
-- Accessibility
-- Web
+  - 24 ways
+  - Accessibility
+  - Web
 tags:
-- featured
-- source:css_tricks
+  - featured
+  - source:css_tricks
 screenshots:
-- url: /images/2018/01/improving_the_accessibility_of_24_ways/homepage.png
+  - url: /images/2018/01/improving_the_accessibility_of_24_ways/homepage.png
 accentColor: '#f04'
 ---
 I’ve been thinking recently about the nature of my work and which aspects of it I enjoy the most. In a role that will often straddle the realms of design and development, whether editing copy, evaluating the design of an interface or refactoring code, I’ve come to realise that my interests lie in the act of review and refinement.

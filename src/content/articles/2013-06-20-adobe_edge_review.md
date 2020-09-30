@@ -24,10 +24,10 @@ product:
     Supports
     : Windows 7 or 8, OS X 10.7 or 10.8
 category:
-- Review
-- Software
+  - Review
+  - Software
 tags:
-- source:digital_arts
+  - source:digital_arts
 ---
 {% render 'product' with product %}
 

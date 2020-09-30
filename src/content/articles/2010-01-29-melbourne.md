@@ -5,10 +5,10 @@ summary: After two and a half weeks exploring various cities, it was finally on 
 collection: australasia_2009
 image: /images/2010/01/melbourne/royal_exhibition_building.jpg
 category:
-- Travel
-- Australia
-- Melbourne
-- Olympics
+  - Travel
+  - Australia
+  - Melbourne
+  - Olympics
 ---
 {% render 'figure' with '/images/2010/01/melbourne/royal_exhibition_building.jpg'
   caption: 'Royal Exhibition Building, Melbourne.'

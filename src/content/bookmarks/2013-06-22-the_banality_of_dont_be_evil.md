@@ -3,8 +3,8 @@ title: The Banality of ‘Don’t Be Evil’
 date: 2013-06-22T02:00:23+01:00
 bookmark-of: https://www.nytimes.com/2013/06/02/opinion/sunday/the-banality-of-googles-dont-be-evil.html
 category:
-- Google
-- Julian Assange
+  - Google
+  - Julian Assange
 ---
 Julian Assange reviews Eric Schmidt and Jared Cohen’s new book, <cite>The New Digital Age</cite>:
 

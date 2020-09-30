@@ -5,10 +5,10 @@ canonical:
   url: https://smashingmagazine.com/2014/04/after-editorially-alternative-collaborative-online-writing-tools/
 summary: With the announcement that Editorially service will close at the end of May, I’m left looking for an alternative. Can anything fill the void left by its untimely demise?
 category:
-- Review
-- Software
+  - Review
+  - Software
 tags:
-- source:smashing_magazine
+  - source:smashing_magazine
 ---
 I’m going to let you in on a little secret: the best writers, be it your favorite authors or those that write for Smashing Magazine, don’t do it alone. Often, they work with an editor (or two), who will help them coalesce their words into something more compelling or easier to understand.
 

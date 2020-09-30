@@ -4,9 +4,9 @@ date: 2008-04-25
 summary: Brand identity for on demand enterprise technology platform.
 image: /images/projects/ngenera/image.jpg
 category:
-- Brand identity
-- Front-end development
-- Interaction design
+  - Brand identity
+  - Front-end development
+  - Interaction design
 accentColor: '#00b6dd'
 style:
   screenshot-shadow: '#131319'
@@ -18,10 +18,10 @@ aside: |
   Role
   : Brand identity, design and front-end development
 screenshots:
-- url: /images/projects/ngenera/screenshot_homepage.png
-  alt: Home page
-- url: /images/projects/ngenera/screenshot_workshop.png
-  alt: Workshop description page
+  - url: /images/projects/ngenera/screenshot_homepage.png
+    alt: Home page
+  - url: /images/projects/ngenera/screenshot_workshop.png
+    alt: Workshop description page
 ---
 {% render 'screenshots' with screenshots
   alignment: 'bleed'

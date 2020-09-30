@@ -3,291 +3,291 @@ title: Graphic Design on UK Terrestrial Television & the Effects of Multi-Channe
 date: 2002-06-01
 summary: Influenced by the launch of Britain’s first new television station in almost 20 years, Channel 4, television design in the eighties saw experimentation with computer originated graphics. The graphic style during the nineties was also influenced by the launch of new channels — this time hundreds. The advent of multi-channel television meant the traditional terrestrial broadcasters, who for years had little competition, quickly needed to re-invent themselves, and branding played a key role.
 category:
-- Design
-- Television
+  - Design
+  - Television
 tags:
-- source:academic_essays
+  - source:academic_essays
 figures:
   1:
-  - url: /images/2002/06/dissertation/1a.png
-  - url: /images/2002/06/dissertation/1b.png
-  - url: /images/2002/06/dissertation/1c.png
-  - url: /images/2002/06/dissertation/1d.png
-  - url: /images/2002/06/dissertation/1e.png
+    - url: /images/2002/06/dissertation/1a.png
+    - url: /images/2002/06/dissertation/1b.png
+    - url: /images/2002/06/dissertation/1c.png
+    - url: /images/2002/06/dissertation/1d.png
+    - url: /images/2002/06/dissertation/1e.png
   2:
-  - url: /images/2002/06/dissertation/2a.png
-  - url: /images/2002/06/dissertation/2b.png
-  - url: /images/2002/06/dissertation/2c.png
-  - url: /images/2002/06/dissertation/2d.png
-  - url: /images/2002/06/dissertation/2e.png
+    - url: /images/2002/06/dissertation/2a.png
+    - url: /images/2002/06/dissertation/2b.png
+    - url: /images/2002/06/dissertation/2c.png
+    - url: /images/2002/06/dissertation/2d.png
+    - url: /images/2002/06/dissertation/2e.png
   3:
-  - url: /images/2002/06/dissertation/3a.png
-  - url: /images/2002/06/dissertation/3b.png
-  - url: /images/2002/06/dissertation/3c.png
-  - url: /images/2002/06/dissertation/3d.png
-  - url: /images/2002/06/dissertation/3e.png
+    - url: /images/2002/06/dissertation/3a.png
+    - url: /images/2002/06/dissertation/3b.png
+    - url: /images/2002/06/dissertation/3c.png
+    - url: /images/2002/06/dissertation/3d.png
+    - url: /images/2002/06/dissertation/3e.png
   4:
-  - url: /images/2002/06/dissertation/4a.png
-  - url: /images/2002/06/dissertation/4b.png
-  - url: /images/2002/06/dissertation/4c.png
-  - url: /images/2002/06/dissertation/4d.png
-  - url: /images/2002/06/dissertation/4e.png
+    - url: /images/2002/06/dissertation/4a.png
+    - url: /images/2002/06/dissertation/4b.png
+    - url: /images/2002/06/dissertation/4c.png
+    - url: /images/2002/06/dissertation/4d.png
+    - url: /images/2002/06/dissertation/4e.png
   5:
-  - url: /images/2002/06/dissertation/5a.png
-  - url: /images/2002/06/dissertation/5b.png
-  - url: /images/2002/06/dissertation/5c.png
-  - url: /images/2002/06/dissertation/5d.png
-  - url: /images/2002/06/dissertation/5e.png
+    - url: /images/2002/06/dissertation/5a.png
+    - url: /images/2002/06/dissertation/5b.png
+    - url: /images/2002/06/dissertation/5c.png
+    - url: /images/2002/06/dissertation/5d.png
+    - url: /images/2002/06/dissertation/5e.png
   6a:
-  - url: /images/2002/06/dissertation/6h.png
-  - url: /images/2002/06/dissertation/6i.png
-  - url: /images/2002/06/dissertation/6j.png
-  - url: /images/2002/06/dissertation/6d.png
+    - url: /images/2002/06/dissertation/6h.png
+    - url: /images/2002/06/dissertation/6i.png
+    - url: /images/2002/06/dissertation/6j.png
+    - url: /images/2002/06/dissertation/6d.png
   6b:
-  - url: /images/2002/06/dissertation/6a.png
-  - url: /images/2002/06/dissertation/6b.png
-  - url: /images/2002/06/dissertation/6c.png
-  - url: /images/2002/06/dissertation/6d.png
+    - url: /images/2002/06/dissertation/6a.png
+    - url: /images/2002/06/dissertation/6b.png
+    - url: /images/2002/06/dissertation/6c.png
+    - url: /images/2002/06/dissertation/6d.png
   6c:
-  - url: /images/2002/06/dissertation/6e.png
-  - url: /images/2002/06/dissertation/6f.png
-  - url: /images/2002/06/dissertation/6g.png
-  - url: /images/2002/06/dissertation/6h.png
+    - url: /images/2002/06/dissertation/6e.png
+    - url: /images/2002/06/dissertation/6f.png
+    - url: /images/2002/06/dissertation/6g.png
+    - url: /images/2002/06/dissertation/6h.png
   6d:
-  - url: /images/2002/06/dissertation/6d.png
-  - url: /images/2002/06/dissertation/6k.png
-  - url: /images/2002/06/dissertation/6l.png
-  - url: /images/2002/06/dissertation/6d.png
+    - url: /images/2002/06/dissertation/6d.png
+    - url: /images/2002/06/dissertation/6k.png
+    - url: /images/2002/06/dissertation/6l.png
+    - url: /images/2002/06/dissertation/6d.png
   7:
-  - url: /images/2002/06/dissertation/7a.png
-  - url: /images/2002/06/dissertation/7b.png
-  - url: /images/2002/06/dissertation/7c.png
-  - url: /images/2002/06/dissertation/7d.png
+    - url: /images/2002/06/dissertation/7a.png
+    - url: /images/2002/06/dissertation/7b.png
+    - url: /images/2002/06/dissertation/7c.png
+    - url: /images/2002/06/dissertation/7d.png
   8:
-  - url: /images/2002/06/dissertation/8a.png
-  - url: /images/2002/06/dissertation/8b.png
-  - url: /images/2002/06/dissertation/8c.png
+    - url: /images/2002/06/dissertation/8a.png
+    - url: /images/2002/06/dissertation/8b.png
+    - url: /images/2002/06/dissertation/8c.png
   9:
-  - url: /images/2002/06/dissertation/9a.png
-  - url: /images/2002/06/dissertation/9b.png
-  - url: /images/2002/06/dissertation/9c.png
-  - url: /images/2002/06/dissertation/9d.png
-  - url: /images/2002/06/dissertation/9e.png
-  - url: /images/2002/06/dissertation/9f.png
-  - url: /images/2002/06/dissertation/9g.png
-  - url: /images/2002/06/dissertation/9h.png
+    - url: /images/2002/06/dissertation/9a.png
+    - url: /images/2002/06/dissertation/9b.png
+    - url: /images/2002/06/dissertation/9c.png
+    - url: /images/2002/06/dissertation/9d.png
+    - url: /images/2002/06/dissertation/9e.png
+    - url: /images/2002/06/dissertation/9f.png
+    - url: /images/2002/06/dissertation/9g.png
+    - url: /images/2002/06/dissertation/9h.png
   10a:
-  - url: /images/2002/06/dissertation/10a.png
-  - url: /images/2002/06/dissertation/10b.png
-  - url: /images/2002/06/dissertation/10c.png
-  - url: /images/2002/06/dissertation/10d.png
+    - url: /images/2002/06/dissertation/10a.png
+    - url: /images/2002/06/dissertation/10b.png
+    - url: /images/2002/06/dissertation/10c.png
+    - url: /images/2002/06/dissertation/10d.png
   10b:
-  - url: /images/2002/06/dissertation/10e.png
-  - url: /images/2002/06/dissertation/10f.png
-  - url: /images/2002/06/dissertation/10g.png
-  - url: /images/2002/06/dissertation/10h.png
+    - url: /images/2002/06/dissertation/10e.png
+    - url: /images/2002/06/dissertation/10f.png
+    - url: /images/2002/06/dissertation/10g.png
+    - url: /images/2002/06/dissertation/10h.png
   11:
-  - url: /images/2002/06/dissertation/11a.png
-  - url: /images/2002/06/dissertation/11b.png
-  - url: /images/2002/06/dissertation/11c.png
+    - url: /images/2002/06/dissertation/11a.png
+    - url: /images/2002/06/dissertation/11b.png
+    - url: /images/2002/06/dissertation/11c.png
   12:
-  - url: /images/2002/06/dissertation/12a.png
-  - url: /images/2002/06/dissertation/12b.png
-  - url: /images/2002/06/dissertation/12c.png
-  - url: /images/2002/06/dissertation/12d.png
+    - url: /images/2002/06/dissertation/12a.png
+    - url: /images/2002/06/dissertation/12b.png
+    - url: /images/2002/06/dissertation/12c.png
+    - url: /images/2002/06/dissertation/12d.png
   13:
-  - url: /images/2002/06/dissertation/13a.png
-  - url: /images/2002/06/dissertation/13b.png
-  - url: /images/2002/06/dissertation/13c.png
-  - url: /images/2002/06/dissertation/13d.png
+    - url: /images/2002/06/dissertation/13a.png
+    - url: /images/2002/06/dissertation/13b.png
+    - url: /images/2002/06/dissertation/13c.png
+    - url: /images/2002/06/dissertation/13d.png
   14:
-  - url: /images/2002/06/dissertation/14a.png
-  - url: /images/2002/06/dissertation/14b.png
-  - url: /images/2002/06/dissertation/14c.png
-  - url: /images/2002/06/dissertation/14d.png
+    - url: /images/2002/06/dissertation/14a.png
+    - url: /images/2002/06/dissertation/14b.png
+    - url: /images/2002/06/dissertation/14c.png
+    - url: /images/2002/06/dissertation/14d.png
   15:
-  - url: /images/2002/06/dissertation/15a.png
-  - url: /images/2002/06/dissertation/15b.png
-  - url: /images/2002/06/dissertation/15c.png
-  - url: /images/2002/06/dissertation/15d.png
+    - url: /images/2002/06/dissertation/15a.png
+    - url: /images/2002/06/dissertation/15b.png
+    - url: /images/2002/06/dissertation/15c.png
+    - url: /images/2002/06/dissertation/15d.png
   16:
-  - url: /images/2002/06/dissertation/16a.png
-  - url: /images/2002/06/dissertation/16b.png
-  - url: /images/2002/06/dissertation/16c.png
-  - url: /images/2002/06/dissertation/16d.png
+    - url: /images/2002/06/dissertation/16a.png
+    - url: /images/2002/06/dissertation/16b.png
+    - url: /images/2002/06/dissertation/16c.png
+    - url: /images/2002/06/dissertation/16d.png
   18:
-  - url: /images/2002/06/dissertation/18a.png
-  - url: /images/2002/06/dissertation/18b.png
-  - url: /images/2002/06/dissertation/18c.png
-  - url: /images/2002/06/dissertation/18d.png
+    - url: /images/2002/06/dissertation/18a.png
+    - url: /images/2002/06/dissertation/18b.png
+    - url: /images/2002/06/dissertation/18c.png
+    - url: /images/2002/06/dissertation/18d.png
   19:
-  - url: /images/2002/06/dissertation/19a.png
-  - url: /images/2002/06/dissertation/19b.png
-  - url: /images/2002/06/dissertation/19c.png
-  - url: /images/2002/06/dissertation/19d.png
+    - url: /images/2002/06/dissertation/19a.png
+    - url: /images/2002/06/dissertation/19b.png
+    - url: /images/2002/06/dissertation/19c.png
+    - url: /images/2002/06/dissertation/19d.png
   20a:
-  - url: /images/2002/06/dissertation/20a.png
-  - url: /images/2002/06/dissertation/20b.png
-  - url: /images/2002/06/dissertation/20c.png
-  - url: /images/2002/06/dissertation/20d.png
+    - url: /images/2002/06/dissertation/20a.png
+    - url: /images/2002/06/dissertation/20b.png
+    - url: /images/2002/06/dissertation/20c.png
+    - url: /images/2002/06/dissertation/20d.png
   20b:
-  - url: /images/2002/06/dissertation/20e.png
-  - url: /images/2002/06/dissertation/20f.png
-  - url: /images/2002/06/dissertation/20g.png
-  - url: /images/2002/06/dissertation/20h.png
+    - url: /images/2002/06/dissertation/20e.png
+    - url: /images/2002/06/dissertation/20f.png
+    - url: /images/2002/06/dissertation/20g.png
+    - url: /images/2002/06/dissertation/20h.png
   20c:
-  - url: /images/2002/06/dissertation/20i.png
-  - url: /images/2002/06/dissertation/20j.png
-  - url: /images/2002/06/dissertation/20k.png
-  - url: /images/2002/06/dissertation/20l.png
+    - url: /images/2002/06/dissertation/20i.png
+    - url: /images/2002/06/dissertation/20j.png
+    - url: /images/2002/06/dissertation/20k.png
+    - url: /images/2002/06/dissertation/20l.png
   21:
-  - url: /images/2002/06/dissertation/21a.png
-  - url: /images/2002/06/dissertation/21b.png
-  - url: /images/2002/06/dissertation/21c.png
-  - url: /images/2002/06/dissertation/21d.png
+    - url: /images/2002/06/dissertation/21a.png
+    - url: /images/2002/06/dissertation/21b.png
+    - url: /images/2002/06/dissertation/21c.png
+    - url: /images/2002/06/dissertation/21d.png
   22:
-  - url: /images/2002/06/dissertation/22a.png
-  - url: /images/2002/06/dissertation/22b.png
-  - url: /images/2002/06/dissertation/22c.png
-  - url: /images/2002/06/dissertation/22d.png
+    - url: /images/2002/06/dissertation/22a.png
+    - url: /images/2002/06/dissertation/22b.png
+    - url: /images/2002/06/dissertation/22c.png
+    - url: /images/2002/06/dissertation/22d.png
   23:
-  - url: /images/2002/06/dissertation/23a.png
-  - url: /images/2002/06/dissertation/23b.png
-  - url: /images/2002/06/dissertation/23c.png
-  - url: /images/2002/06/dissertation/23d.png
+    - url: /images/2002/06/dissertation/23a.png
+    - url: /images/2002/06/dissertation/23b.png
+    - url: /images/2002/06/dissertation/23c.png
+    - url: /images/2002/06/dissertation/23d.png
   24:
-  - url: /images/2002/06/dissertation/24a.png
-  - url: /images/2002/06/dissertation/24b.png
-  - url: /images/2002/06/dissertation/24c.png
-  - url: /images/2002/06/dissertation/24d.png
+    - url: /images/2002/06/dissertation/24a.png
+    - url: /images/2002/06/dissertation/24b.png
+    - url: /images/2002/06/dissertation/24c.png
+    - url: /images/2002/06/dissertation/24d.png
   25:
-  - url: /images/2002/06/dissertation/25a.png
-  - url: /images/2002/06/dissertation/25b.png
-  - url: /images/2002/06/dissertation/25c.png
-  - url: /images/2002/06/dissertation/25d.png
+    - url: /images/2002/06/dissertation/25a.png
+    - url: /images/2002/06/dissertation/25b.png
+    - url: /images/2002/06/dissertation/25c.png
+    - url: /images/2002/06/dissertation/25d.png
   26:
-  - url: /images/2002/06/dissertation/26a.png
-  - url: /images/2002/06/dissertation/26b.png
-  - url: /images/2002/06/dissertation/26c.png
-  - url: /images/2002/06/dissertation/26d.png
+    - url: /images/2002/06/dissertation/26a.png
+    - url: /images/2002/06/dissertation/26b.png
+    - url: /images/2002/06/dissertation/26c.png
+    - url: /images/2002/06/dissertation/26d.png
   27:
-  - url: /images/2002/06/dissertation/27a.png
-  - url: /images/2002/06/dissertation/27b.png
-  - url: /images/2002/06/dissertation/27c.png
-  - url: /images/2002/06/dissertation/27d.png
+    - url: /images/2002/06/dissertation/27a.png
+    - url: /images/2002/06/dissertation/27b.png
+    - url: /images/2002/06/dissertation/27c.png
+    - url: /images/2002/06/dissertation/27d.png
   28:
-  - url: /images/2002/06/dissertation/28a.png
-  - url: /images/2002/06/dissertation/28b.png
-  - url: /images/2002/06/dissertation/28c.png
-  - url: /images/2002/06/dissertation/28d.png
+    - url: /images/2002/06/dissertation/28a.png
+    - url: /images/2002/06/dissertation/28b.png
+    - url: /images/2002/06/dissertation/28c.png
+    - url: /images/2002/06/dissertation/28d.png
   29:
-  - url: /images/2002/06/dissertation/29a.png
-  - url: /images/2002/06/dissertation/29b.png
-  - url: /images/2002/06/dissertation/29c.png
-  - url: /images/2002/06/dissertation/29d.png
+    - url: /images/2002/06/dissertation/29a.png
+    - url: /images/2002/06/dissertation/29b.png
+    - url: /images/2002/06/dissertation/29c.png
+    - url: /images/2002/06/dissertation/29d.png
   30a:
-  - url: /images/2002/06/dissertation/30a.png
-  - url: /images/2002/06/dissertation/30b.png
-  - url: /images/2002/06/dissertation/30c.png
-  - url: /images/2002/06/dissertation/30d.png
+    - url: /images/2002/06/dissertation/30a.png
+    - url: /images/2002/06/dissertation/30b.png
+    - url: /images/2002/06/dissertation/30c.png
+    - url: /images/2002/06/dissertation/30d.png
   30b:
-  - url: /images/2002/06/dissertation/30e.png
-  - url: /images/2002/06/dissertation/30f.png
-  - url: /images/2002/06/dissertation/30g.png
-  - url: /images/2002/06/dissertation/30h.png
+    - url: /images/2002/06/dissertation/30e.png
+    - url: /images/2002/06/dissertation/30f.png
+    - url: /images/2002/06/dissertation/30g.png
+    - url: /images/2002/06/dissertation/30h.png
   30c:
-  - url: /images/2002/06/dissertation/30i.png
-  - url: /images/2002/06/dissertation/30j.png
-  - url: /images/2002/06/dissertation/30k.png
-  - url: /images/2002/06/dissertation/30l.png
+    - url: /images/2002/06/dissertation/30i.png
+    - url: /images/2002/06/dissertation/30j.png
+    - url: /images/2002/06/dissertation/30k.png
+    - url: /images/2002/06/dissertation/30l.png
   31:
-  - url: /images/2002/06/dissertation/31a.png
-  - url: /images/2002/06/dissertation/31b.png
+    - url: /images/2002/06/dissertation/31a.png
+    - url: /images/2002/06/dissertation/31b.png
   32:
-  - url: /images/2002/06/dissertation/32a.png
-  - url: /images/2002/06/dissertation/32b.png
+    - url: /images/2002/06/dissertation/32a.png
+    - url: /images/2002/06/dissertation/32b.png
   33:
-  - url: /images/2002/06/dissertation/33a.png
-  - url: /images/2002/06/dissertation/33b.png
-  - url: /images/2002/06/dissertation/33c.png
-  - url: /images/2002/06/dissertation/33d.png
-  - url: /images/2002/06/dissertation/33e.png
+    - url: /images/2002/06/dissertation/33a.png
+    - url: /images/2002/06/dissertation/33b.png
+    - url: /images/2002/06/dissertation/33c.png
+    - url: /images/2002/06/dissertation/33d.png
+    - url: /images/2002/06/dissertation/33e.png
   34:
-  - url: /images/2002/06/dissertation/34a.png
-  - url: /images/2002/06/dissertation/34b.png
-  - url: /images/2002/06/dissertation/34c.png
-  - url: /images/2002/06/dissertation/34d.png
+    - url: /images/2002/06/dissertation/34a.png
+    - url: /images/2002/06/dissertation/34b.png
+    - url: /images/2002/06/dissertation/34c.png
+    - url: /images/2002/06/dissertation/34d.png
   35:
-  - url: /images/2002/06/dissertation/35a.png
-  - url: /images/2002/06/dissertation/35b.png
-  - url: /images/2002/06/dissertation/35c.png
-  - url: /images/2002/06/dissertation/35d.png
+    - url: /images/2002/06/dissertation/35a.png
+    - url: /images/2002/06/dissertation/35b.png
+    - url: /images/2002/06/dissertation/35c.png
+    - url: /images/2002/06/dissertation/35d.png
   36:
-  - url: /images/2002/06/dissertation/36a.png
-  - url: /images/2002/06/dissertation/36b.png
-  - url: /images/2002/06/dissertation/36c.png
-  - url: /images/2002/06/dissertation/36d.png
+    - url: /images/2002/06/dissertation/36a.png
+    - url: /images/2002/06/dissertation/36b.png
+    - url: /images/2002/06/dissertation/36c.png
+    - url: /images/2002/06/dissertation/36d.png
   37:
-  - url: /images/2002/06/dissertation/37a.png
-  - url: /images/2002/06/dissertation/37b.png
-  - url: /images/2002/06/dissertation/37c.png
-  - url: /images/2002/06/dissertation/37d.png
+    - url: /images/2002/06/dissertation/37a.png
+    - url: /images/2002/06/dissertation/37b.png
+    - url: /images/2002/06/dissertation/37c.png
+    - url: /images/2002/06/dissertation/37d.png
   38:
-  - url: /images/2002/06/dissertation/38a.png
-  - url: /images/2002/06/dissertation/38b.png
-  - url: /images/2002/06/dissertation/38c.png
-  - url: /images/2002/06/dissertation/38d.png
+    - url: /images/2002/06/dissertation/38a.png
+    - url: /images/2002/06/dissertation/38b.png
+    - url: /images/2002/06/dissertation/38c.png
+    - url: /images/2002/06/dissertation/38d.png
   39:
-  - url: /images/2002/06/dissertation/39a.png
-  - url: /images/2002/06/dissertation/39b.png
-  - url: /images/2002/06/dissertation/39c.png
-  - url: /images/2002/06/dissertation/39d.png
-  - url: /images/2002/06/dissertation/39e.png
+    - url: /images/2002/06/dissertation/39a.png
+    - url: /images/2002/06/dissertation/39b.png
+    - url: /images/2002/06/dissertation/39c.png
+    - url: /images/2002/06/dissertation/39d.png
+    - url: /images/2002/06/dissertation/39e.png
   40:
-  - url: /images/2002/06/dissertation/40a.png
-  - url: /images/2002/06/dissertation/40b.png
+    - url: /images/2002/06/dissertation/40a.png
+    - url: /images/2002/06/dissertation/40b.png
   41:
-  - url: /images/2002/06/dissertation/41a.png
-  - url: /images/2002/06/dissertation/41b.png
-  - url: /images/2002/06/dissertation/41c.png
-  - url: /images/2002/06/dissertation/41d.png
+    - url: /images/2002/06/dissertation/41a.png
+    - url: /images/2002/06/dissertation/41b.png
+    - url: /images/2002/06/dissertation/41c.png
+    - url: /images/2002/06/dissertation/41d.png
   42:
-  - url: /images/2002/06/dissertation/42a.png
-  - url: /images/2002/06/dissertation/42b.png
-  - url: /images/2002/06/dissertation/42c.png
-  - url: /images/2002/06/dissertation/42d.png
+    - url: /images/2002/06/dissertation/42a.png
+    - url: /images/2002/06/dissertation/42b.png
+    - url: /images/2002/06/dissertation/42c.png
+    - url: /images/2002/06/dissertation/42d.png
   43:
-  - url: /images/2002/06/dissertation/43a.png
-  - url: /images/2002/06/dissertation/43b.png
-  - url: /images/2002/06/dissertation/43c.png
-  - url: /images/2002/06/dissertation/43d.png
+    - url: /images/2002/06/dissertation/43a.png
+    - url: /images/2002/06/dissertation/43b.png
+    - url: /images/2002/06/dissertation/43c.png
+    - url: /images/2002/06/dissertation/43d.png
   44:
-  - url: /images/2002/06/dissertation/44a.png
-  - url: /images/2002/06/dissertation/44b.png
-  - url: /images/2002/06/dissertation/44c.png
-  - url: /images/2002/06/dissertation/44d.png
-  - url: /images/2002/06/dissertation/44e.png
-  - url: /images/2002/06/dissertation/44f.png
-  - url: /images/2002/06/dissertation/44g.png
-  - url: /images/2002/06/dissertation/44h.png
+    - url: /images/2002/06/dissertation/44a.png
+    - url: /images/2002/06/dissertation/44b.png
+    - url: /images/2002/06/dissertation/44c.png
+    - url: /images/2002/06/dissertation/44d.png
+    - url: /images/2002/06/dissertation/44e.png
+    - url: /images/2002/06/dissertation/44f.png
+    - url: /images/2002/06/dissertation/44g.png
+    - url: /images/2002/06/dissertation/44h.png
   45:
-  - url: /images/2002/06/dissertation/45a.png
-  - url: /images/2002/06/dissertation/45b.png
-  - url: /images/2002/06/dissertation/45c.png
-  - url: /images/2002/06/dissertation/45d.png
+    - url: /images/2002/06/dissertation/45a.png
+    - url: /images/2002/06/dissertation/45b.png
+    - url: /images/2002/06/dissertation/45c.png
+    - url: /images/2002/06/dissertation/45d.png
   46:
-  - url: /images/2002/06/dissertation/46a.png
-  - url: /images/2002/06/dissertation/46b.png
+    - url: /images/2002/06/dissertation/46a.png
+    - url: /images/2002/06/dissertation/46b.png
   47:
-  - url: /images/2002/06/dissertation/47a.png
-  - url: /images/2002/06/dissertation/47b.png
-  - url: /images/2002/06/dissertation/47c.png
-  - url: /images/2002/06/dissertation/47d.png
+    - url: /images/2002/06/dissertation/47a.png
+    - url: /images/2002/06/dissertation/47b.png
+    - url: /images/2002/06/dissertation/47c.png
+    - url: /images/2002/06/dissertation/47d.png
   48:
-  - url: /images/2002/06/dissertation/48a.png
-  - url: /images/2002/06/dissertation/48b.png
-  - url: /images/2002/06/dissertation/48c.png
-  - url: /images/2002/06/dissertation/48d.png
+    - url: /images/2002/06/dissertation/48a.png
+    - url: /images/2002/06/dissertation/48b.png
+    - url: /images/2002/06/dissertation/48c.png
+    - url: /images/2002/06/dissertation/48d.png
 ---
 The last ten years or so have seen rapid growth and fundamental change in the television landscape. Once a medium limited to transmitting only five channels to the majority of the UK, the 1990’s saw significant advances in broadcasting. This was a decade that started with the launch of satellite and cable television offering scores of channels, and ended with the development of digital television achieving hundreds of channels via satellite and meaning even the standard rooftop aerial could receive around 50. Digital television also brought with it a far more graphical form of Teletext, and interactivity within programmes — thus blurring the boundaries between television and the Internet.
 

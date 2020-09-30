@@ -3,8 +3,8 @@ title: 'Andy Higgs: Journey into Africa'
 date: 2013-06-22T02:09:48+01:00
 bookmark-of: https://justbeyondthebridge.co.uk/journey-into-africa-tanzania/
 category:
-- Travel
-- Africa
+  - Travel
+  - Africa
 ---
 Although it’s easy to feel envious of Andy’s travels around the world, his writing is vivid enough to make you believe you had joined him. His latest series of posts, detailing a trip trough Africa, are no different. It sounds like an amazing continent, one that offers the intrepid traveller [some incredible sights][1]:
 

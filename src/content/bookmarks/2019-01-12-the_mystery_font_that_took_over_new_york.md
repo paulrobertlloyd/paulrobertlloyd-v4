@@ -3,8 +3,8 @@ title: The Mystery Font That Took Over New York
 date: 2019-01-12T15:55:00Z
 bookmark-of: https://www.nytimes.com/interactive/2018/11/21/nyregion/new-york-storefronts-mystery-font.html
 category:
-- Typography
-- New York City
+  - Typography
+  - New York City
 ---
 Rumsey Taylor discovers why *Choc*, a quirky calligraphic typeface drawn by a French graphic designer in the 1950s, appears on storefronts throughout New York:
 

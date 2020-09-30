@@ -5,11 +5,11 @@ canonical:
   url: https://clearleft.com/posts/visual-design-explorations
 summary: Since Mikey joined us in February, the number of designers working at Clearleft is at an all time high. As the company grows, we want to maintain the same level of knowledge sharing and collaboration that happened more spontaneously with a smaller team.
 category:
-- Web
-- Design
-- Clearleft
+  - Web
+  - Design
+  - Clearleft
 tags:
-- source:clearleft
+  - source:clearleft
 ---
 Since [Mikey][1] joined us in February, the number of designers working at Clearleft is at an all time high. As the company grows, we want to maintain the same level of knowledge sharing and collaboration that happened more spontaneously with a smaller team.
 

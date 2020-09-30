@@ -5,13 +5,13 @@ canonical:
   url: http://smallbatchlist.com/archives/november-25th-2016/
 summary: In this week’s Small Batch List, I share five of my favourite things.
 category:
-- Culture
-- Comedy
-- Television
-- Transport
-- Photography
+  - Culture
+  - Comedy
+  - Television
+  - Transport
+  - Photography
 tags:
-- source:small_batch_list
+  - source:small_batch_list
 ---
 ## 1. Cold Feet
 

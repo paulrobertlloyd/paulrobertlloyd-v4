@@ -3,10 +3,10 @@ title: The Architecture of Brasília
 date: 2011-07-18T19:56:39+01:00
 summary: Designed by Oscar Niemeyer, Brasília’s distinctive buildings feature a number of recuring design patterns and motifs.
 category:
-- Architecture
-- Brasília
-- Brazil
-- Oscar Niemeyer
+  - Architecture
+  - Brasília
+  - Brazil
+  - Oscar Niemeyer
 ---
 Brasília is a planned city situated in the centre of Brazil’s vast and unpopulated interior. Built in the mid-fifties, it was inaugurated as the country’s capital on April 22, 1960.
 

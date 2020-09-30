@@ -4,7 +4,7 @@ date: 2010-11-30
 summary: Distinctive lead design for purveyor of the finest web fonts.
 image: /images/projects/fontdeck/image.jpg
 category:
-- Interaction design
+  - Interaction design
 accentColor: '#e9242e'
 style:
   screenshot-shadow: '#aab'
@@ -20,20 +20,20 @@ aside: |
   : Clearleft
 screenshots:
   homepage:
-  - url: /images/projects/fontdeck/screenshot_homepage.png
-    alt: Home page
+    - url: /images/projects/fontdeck/screenshot_homepage.png
+      alt: Home page
   typeface:
-  - url: /images/projects/fontdeck/screenshot_category.png
-    alt: Typeface category page
-  - url: /images/projects/fontdeck/screenshot_specimen.png
-    alt: Type specimen page
+    - url: /images/projects/fontdeck/screenshot_category.png
+      alt: Typeface category page
+    - url: /images/projects/fontdeck/screenshot_specimen.png
+      alt: Type specimen page
   ancillary:
-  - url: /images/projects/fontdeck/screenshot_about.png
-    alt: About page
-  - url: /images/projects/fontdeck/screenshot_foundries.png
-    alt: Foundries page
-  - url: /images/projects/fontdeck/screenshot_designer.png
-    alt: Type designer page
+    - url: /images/projects/fontdeck/screenshot_about.png
+      alt: About page
+    - url: /images/projects/fontdeck/screenshot_foundries.png
+      alt: Foundries page
+    - url: /images/projects/fontdeck/screenshot_designer.png
+      alt: Type designer page
 ---
 {% render 'screenshots' with screenshots.homepage
   alignment: 'bleed'

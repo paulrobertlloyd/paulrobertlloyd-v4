@@ -8,13 +8,13 @@ summary: Concluding my short adventure across Northern Europe.
 image: /images/2020/04/cologne_to_brighton/love_locks.jpg
 collection: scandinavian_sojourn
 category:
-- Cologne
-- Germany
-- Europe
-- Travel
-- Railways
+  - Cologne
+  - Germany
+  - Europe
+  - Travel
+  - Railways
 tags:
-- featured
+  - featured
 ---
 {%- capture overlay %}geojson({{ geojson | json | escape }}){% endcapture -%}
 {%- capture map -%}

@@ -4,9 +4,9 @@ date: 2016-08-19
 summary: Designing a tool to help people in the charity sector connect with each other to share ideas and resources.
 image: /images/projects/charityconnect/image.jpg
 category:
-- Interaction design
+  - Interaction design
 tags:
-- featured
+  - featured
 accentColor: '#402031'
 style:
   screenshot-shadow: '#402031'
@@ -19,25 +19,25 @@ aside: |
   : Interaction and user-experience design
 screenshots:
   homepage:
-  - url: /images/projects/charityconnect/screenshot_homepage.png
-    alt: Home page
+    - url: /images/projects/charityconnect/screenshot_homepage.png
+      alt: Home page
   mobile:
-  - url: /images/projects/charityconnect/screenshot_profile.png
-    alt: User profile page on mobile
-  - url: /images/projects/charityconnect/screenshot_following.png
-    alt: Followed users page on mobile
-  - url: /images/projects/charityconnect/screenshot_group.png
-    alt: Group profile page on mobile
-  - url: /images/projects/charityconnect/screenshot_post.png
-    alt: Article page on mobile
+    - url: /images/projects/charityconnect/screenshot_profile.png
+      alt: User profile page on mobile
+    - url: /images/projects/charityconnect/screenshot_following.png
+      alt: Followed users page on mobile
+    - url: /images/projects/charityconnect/screenshot_group.png
+      alt: Group profile page on mobile
+    - url: /images/projects/charityconnect/screenshot_post.png
+      alt: Article page on mobile
 photoset:
   workshop:
-  - url: /images/projects/charityconnect/photo_empathy_map.jpg
-    alt: Pattern identification exercise
-  - url: /images/projects/charityconnect/photo_personas.jpg
-    alt: Pattern definition exercise
-  - url: /images/projects/charityconnect/photo_prioritisation.jpg
-    alt: Page prioritisation exercise
+    - url: /images/projects/charityconnect/photo_empathy_map.jpg
+      alt: Pattern identification exercise
+    - url: /images/projects/charityconnect/photo_personas.jpg
+      alt: Pattern definition exercise
+    - url: /images/projects/charityconnect/photo_prioritisation.jpg
+      alt: Page prioritisation exercise
 ---
 {% render 'screenshots' with screenshots.homepage
   alignment: 'bleed'

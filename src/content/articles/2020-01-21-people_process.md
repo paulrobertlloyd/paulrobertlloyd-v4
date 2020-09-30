@@ -6,9 +6,9 @@ location:
   country-name: United Kingdom
 summary: Only one thing determines the quality of software.
 category:
-- Design
-- Technology
-- Apply
+  - Design
+  - Technology
+  - Apply
 ---
 In his post [Why Software is Slow and Shitty][1], Robin wonders if the structure of a company - perhaps with an over-reliance on process and planning - can affect the quality of the software it produces:
 

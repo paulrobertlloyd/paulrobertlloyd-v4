@@ -5,11 +5,11 @@ canonical:
   url: https://the-pastry-box-project.net/paul-lloyd/2015-january-12
 summary: For the last year I’ve been working at the Guardian under the leadership of a creative director.
 category:
-- Design
-- Leadership
-- The Guardian
+  - Design
+  - Leadership
+  - The Guardian
 tags:
-- source:the_pastry_box_project
+  - source:the_pastry_box_project
 ---
 I’ve never worked with a creative director before — at least not in the traditional sense — and have found this to be a fascinating yet also frustrating experience; for the first time in my career I’ve not the been the arbiter of good taste.
 

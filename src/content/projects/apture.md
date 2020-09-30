@@ -4,9 +4,9 @@ date: 2009-05-22
 summary: Designing a powerful publishing tool for the web’s content creators.
 image: /images/projects/apture/image.jpg
 category:
-- Brand identity
-- Front-end development
-- Interaction design
+  - Brand identity
+  - Front-end development
+  - Interaction design
 accentColor: '#05f'
 style:
   screenshot-shadow: '#0a0b0d'
@@ -18,10 +18,10 @@ aside: |
   Role
   : UX, design and front-end development
 screenshots:
-- url: /images/projects/apture/screenshot_bloggers.png
-  alt: Product marketing page
-- url: /images/projects/apture/screenshot_admin.png
-  alt: Site administration page
+  - url: /images/projects/apture/screenshot_bloggers.png
+    alt: Product marketing page
+  - url: /images/projects/apture/screenshot_admin.png
+    alt: Site administration page
 ---
 {% render 'screenshots' with screenshots
   alignment: 'bleed'

@@ -7,11 +7,11 @@ location:
 summary: In thinking about the fabric of the web, I unpick a few threads and tie myself in knots.
 image: /images/photos/1542802386.jpg
 category:
-- Blogging
-- IndieWeb
-- Web
+  - Blogging
+  - IndieWeb
+  - Web
 tags:
-- featured
+  - featured
 ---
 Earlier this month I had the good fortune to attend [Material][1], a conference that explores the concept of the web as a material and all the intrinsic characteristics that entails. The variety of talks provided new perspectives on what it means to build for — and with — the web, and prompted me to note down a few related thoughts.
 

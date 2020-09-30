@@ -6,9 +6,9 @@ location:
   country-name: United Kingdom
 summary: Fiddling around with RSS.
 category:
-- Blogging
-- RSS
-- Web
+  - Blogging
+  - RSS
+  - Web
 ---
 After reading [Robin’s re-introduction to RSS](https://robinrendle.com/notes/how-to-read-the-internet/), I decided to make [Feedbin](https://feedbin.com/) my feed manager of choice. I had been using a self-hosted instance of [Fever](https://feedafever.com) for many years, but since this is no longer supported, I moved[^1] my subscriptions over to [Feedly](https://feedly.com) at the beginning of the year.
 

@@ -4,7 +4,7 @@ date: 2009-10-29
 summary: Modular design language for international university.
 image: /images/projects/university_of_wales/image.jpg
 category:
-- Interaction design
+  - Interaction design
 accentColor: '#913'
 style:
   screenshot-shadow: '#014'
@@ -19,10 +19,10 @@ aside: |
   Agency
   : Clearleft
 screenshots:
-- url: /images/projects/university_of_wales/screenshot_homepage.png
-  alt: Home page
-- url: /images/projects/university_of_wales/screenshot_about.png
-  alt: About page
+  - url: /images/projects/university_of_wales/screenshot_homepage.png
+    alt: Home page
+  - url: /images/projects/university_of_wales/screenshot_about.png
+    alt: About page
 ---
 {% render 'screenshots' with screenshots
   alignment: 'bleed'

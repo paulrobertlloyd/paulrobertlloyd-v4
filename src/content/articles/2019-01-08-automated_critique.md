@@ -6,9 +6,9 @@ location:
   country-name: United Kingdom
 summary: A compelling 120-word critique regarding automated front-end development, as provided by a `class` attribute.
 category:
-- Automation
-- Development
-- Web
+  - Automation
+  - Development
+  - Web
 ---
 A compelling 120-word critique regarding automated front-end development, as provided by a `class` attribute inside this simple [Squarespace template][1]:
 

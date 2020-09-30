@@ -3,8 +3,8 @@ title: The Pixel Painter
 date: 2013-08-12T21:33:38+01:00
 bookmark-of: https://vimeo.com/70748579
 category:
-- Video
-- Art
+  - Video
+  - Art
 ---
 {% render 'embed' with bookmark-of
   poster: 'https://i.vimeocdn.com/video/444117881'

@@ -7,9 +7,9 @@ location:
 summary: With a worsening financial crisis and continued destruction of the world’s natural resources, there are undoubtedly more important things to worry about than Twitter’s slightly tweaked bird logo. Yet here we are.
 image: /images/2012/06/twitterbird/logo.jpg
 category:
-- Brand identity
-- Design
-- Twitter
+  - Brand identity
+  - Design
+  - Twitter
 ---
 With a [worsening financial crisis][1] and continued [destruction of the world’s natural resources][2], there are undoubtedly more important things to worry about than Twitter’s slightly tweaked bird logo. Yet here we are.
 
