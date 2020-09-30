@@ -12,6 +12,10 @@
   -%}
   {%- render 'content' with content -%}
   {%- render 'categories' with category -%}
+  {%- render 'remarks' with remarks
+    id: 'remarks'
+    title: 'Remarks'
+  -%}
   {%- render 'remarks' with webmentions
     id: 'webmentions'
     title: 'Webmentions'
