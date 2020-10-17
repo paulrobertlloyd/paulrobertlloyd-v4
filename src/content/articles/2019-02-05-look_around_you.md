@@ -3,6 +3,8 @@ title: Look Around You
 date: 2019-02-05T14:35:00Z
 canonical:
   url: https://newadventuresconf.com/articles/look-around-you
+syndication:
+  - http://web.archive.org/web/20190224205008/https://paulrobertlloyd.com/2019/02/look_around_you/
 summary: For all their claims of changing the world, it would seem designers have not only failed to address its more pressing problems, but exaggerated many of its existing ones.
 image: /images/2019/02/illustration.png
 category:

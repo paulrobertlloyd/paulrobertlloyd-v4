@@ -20,7 +20,10 @@
   {%- render 'content' with content
     properties: 'e-content p-name'
   -%}
-  {%- render 'categories' with category -%}
+  {%- render 'meta'
+    categories: category
+    syndication: syndication
+  -%}
   {%- render 'remarks' with webmentions
     id: 'webmentions'
     title: 'Webmentions'

@@ -1,7 +1,5 @@
-{%- if categories.size > 0 -%}
-  <ul class="categories">
-  {%- for category in categories %}
-    <li><a class="p-category" href="/categories/{{ category | slug }}" rel="tag">{{ category }}</a></li>
-  {%- endfor -%}
-  </ul>
-{%- endif -%}
+<ul class="categories">
+{%- for category in categories %}
+  <li><a class="p-category" rel="tag" href="/categories/{{ category | slug }}">{{ category }}</a></li>
+{%- endfor -%}
+</ul>

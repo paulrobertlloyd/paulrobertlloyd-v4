@@ -11,7 +11,10 @@
     vocab: vocab
   -%}
   {%- render 'content' with content -%}
-  {%- render 'categories' with category -%}
+  {%- render 'meta'
+    categories: category
+    syndication: syndication
+  -%}
   {%- render 'remarks' with remarks
     id: 'remarks'
     title: 'Remarks'

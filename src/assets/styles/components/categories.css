@@ -1,5 +1,4 @@
 .categories {
-  @extend %caption;
   color: var(--color-accent);
 }
 

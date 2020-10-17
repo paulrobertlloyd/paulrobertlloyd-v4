@@ -1,0 +1,23 @@
+.meta {
+  @extend %caption;
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-inline-size: var(--line-measure);
+}
+
+.meta a {
+  color: var(--color-accent);
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.meta div {
+  padding-block-end: var(--space-block);
+}
+
+.meta dt,
+.meta dd {
+  display: inline;
+}

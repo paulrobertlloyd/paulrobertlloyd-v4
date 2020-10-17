@@ -31,6 +31,7 @@ module.exports = function (eleventy) {
   eleventy.addFilter('slug', require('./lib/filters/slug.js'));
   eleventy.addFilter('strip_mentions', require('./lib/filters/strip-mentions.js'));
   eleventy.addFilter('sum', require('./lib/filters/sum.js'));
+  eleventy.addFilter('syndication_target', require('./lib/filters/syndication-target.js'));
   eleventy.addFilter('tokenize', require('./lib/filters/tokenize.js'));
 
   // Shortcodes

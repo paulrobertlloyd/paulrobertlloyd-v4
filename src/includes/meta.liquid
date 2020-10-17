@@ -1,0 +1,20 @@
+<dl class="meta">
+{%- if categories.size > 0 -%}
+  <div>
+    <dt class="visually-hidden">Categories</dt>
+    <dd>
+      {%- render 'categories' with categories -%}
+    </dd>
+  </div>
+{%- endif -%}
+{%- if syndication.size > 0 -%}
+  <div>
+    <dt>Also on</dt>
+    <dd>
+      {%- for site in syndication %}
+        <a class="u-syndication" rel="syndication external" href="{{ site }}">{{ site | syndication_target }}</a>{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
+    </dd>
+  </div>
+{%- endif -%}
+</dl>
