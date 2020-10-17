@@ -23,13 +23,13 @@ permalink: /feed.xml
     <title>{{ item.data.title | markdown: 'inline' | escape | strip_html | strip_newlines }}</title>
     <updated>{{ item.date | date: dates.iso }}</updated>
     {% if item.data.url %}
-    <link href="{{ item.data.url }}" rel="alternate" type="text/html"/>
-    <link href="{{ item.url | prepend: app.url }}" rel="related" type="text/html"/>
+    <link rel="alternate" href="{{ item.data.url }}" type="text/html"/>
+    <link rel="related" href="{{ item.url | prepend: app.url }}" type="text/html"/>
     {% elsif item.data.in_reply_to %}
-    <link href="{{ item.data.in_reply_to }}" rel="alternate" type="text/html"/>
-    <link href="{{ item.url | prepend: app.url }}" rel="related" type="text/html"/>
+    <link rel="alternate" href="{{ item.data.in_reply_to }}" type="text/html"/>
+    <link rel="related" href="{{ item.url | prepend: app.url }}" type="text/html"/>
     {% else %}
-    <link href="{{ item.url | prepend: app.url }}" rel="alternate" type="text/html"/>
+    <link rel="alternate" href="{{ item.url | prepend: app.url }}" type="text/html"/>
     {% endif %}
     <content type="html"><![CDATA[
       {% capture content_html %}{% render 'item/feed' item: item %}{% endcapture %}{{ content_html }}
