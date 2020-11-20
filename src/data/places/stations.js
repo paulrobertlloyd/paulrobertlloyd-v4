@@ -225,6 +225,13 @@ module.exports = [{
   },
   icon: 'national-rail'
 }, {
+  title: 'Emeryville',
+  address: {
+    locality: 'Emeryville',
+    'country-name': 'United States',
+    'plus-code': '849VRPR5+57'
+  }
+}, {
   title: 'Exeter St David’s',
   address: {
     locality: 'Exeter',
@@ -436,6 +443,13 @@ module.exports = [{
     'plus-code': '9C2XRRPH+2H'
   },
   icon: 'national-rail'
+}, {
+  title: 'King Street Station',
+  address: {
+    locality: 'Seattle',
+    'country-name': 'United States',
+    'plus-code': '84VVHMXC+92'
+  }
 }, {
   title: 'Köln Hauptbahnhof',
   iata: 'QKL',
@@ -808,6 +822,13 @@ module.exports = [{
     'plus-code': '9C4WH2M7+PQ'
   },
   icon: 'national-rail'
+}, {
+  title: 'Union Station',
+  address: {
+    locality: 'Chicago',
+    'country-name': 'United States',
+    'plus-code': '86HJV9H5+FR'
+  }
 }, {
   title: 'Utrecht Centraal',
   address: {

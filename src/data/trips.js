@@ -163,6 +163,10 @@ module.exports = function () {
     to: 'SJC',
     via: ['PHX']
   }, {
+    date: '2008-03-18',
+    from: '849VRPR5+57',
+    to: '86HJV9H5+FR'
+  }, {
     date: '2008-03-22',
     from: 'ORD',
     to: 'BHX',
@@ -172,6 +176,10 @@ module.exports = function () {
     from: 'BHX',
     to: 'SEA',
     via: ['CPH']
+  }, {
+    date: '2008-10-03',
+    from: '84VVHMXC+92',
+    to: '849VRPR5+57'
   }, {
     date: '2008-10-10',
     from: 'SFO',

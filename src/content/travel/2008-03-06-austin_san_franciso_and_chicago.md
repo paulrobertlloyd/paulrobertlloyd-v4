@@ -5,6 +5,7 @@ related:
   - /2008/09/california_zephyr/
 tripId:
   - 3sQ1
+  - 3sb1
   - 3sV1
   - 3sf1
 ---
