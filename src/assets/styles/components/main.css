@@ -17,8 +17,7 @@
     [container-start] auto
     [content-start] 1fr [content-end]
     auto [container-end];
-  grid-template-rows:
-    auto 1fr;
+  grid-template-rows: auto 1fr;
   padding-block: var(--gap) calc(var(--gap) * 2);
 }
 

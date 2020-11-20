@@ -1,6 +1,6 @@
 import aria from './aria';
 
-export default function () {
+export default function search() {
   const searchForm = document.querySelector('#search');
   const searchSubmit = document.querySelector('#search-submit');
   const endpoint = searchForm.dataset.searchIndex;

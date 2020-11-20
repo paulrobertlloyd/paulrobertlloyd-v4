@@ -6,7 +6,7 @@
  *   [Fallback content]
  * </a>
  */
-export default function () {
+export default function embed() {
   const embeds = document.querySelectorAll('[data-embed-src]');
 
   for (const embed of embeds) {
