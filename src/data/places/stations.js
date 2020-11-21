@@ -56,6 +56,13 @@ module.exports = [{
   },
   icon: 'national-rail'
 }, {
+  title: 'Belfast Lanyon Place',
+  address: {
+    locality: 'Belfast',
+    'country-name': 'United Kingdom',
+    'plus-code': '9C6PH3WM+34'
+  }
+}, {
   title: 'Berlin Hauptbahnhof',
   iata: 'QPP',
   address: {
@@ -105,6 +112,13 @@ module.exports = [{
     'plus-code': '9C3VCCX9+VH'
   },
   icon: 'national-rail'
+}, {
+  title: 'Britomart Transport Centre',
+  address: {
+    locality: 'Auckland',
+    'country-name': 'New Zealand',
+    'plus-code': '4VMP5Q49+84'
+  }
 }, {
   title: 'Bruges',
   address: {
@@ -215,6 +229,13 @@ module.exports = [{
     'plus-code': '9C4WWG8P+FM'
   },
   icon: 'national-rail'
+}, {
+  title: 'Dublin Connolly',
+  address: {
+    locality: 'Dublin',
+    'country-name': 'Ireland',
+    'plus-code': '9C5M9Q22+92'
+  }
 }, {
   title: 'Edinburgh Waverley',
   iata: 'ZXE',
@@ -815,14 +836,6 @@ module.exports = [{
   },
   icon: 'national-rail'
 }, {
-  title: 'Walsall',
-  address: {
-    locality: 'Walsall',
-    'country-name': 'United Kingdom',
-    'plus-code': '9C4WH2M7+PQ'
-  },
-  icon: 'national-rail'
-}, {
   title: 'Union Station',
   address: {
     locality: 'Chicago',
@@ -835,6 +848,21 @@ module.exports = [{
     locality: 'Utrecht',
     'country-name': 'Netherlands',
     'plus-code': '9F4734Q5+QX'
+  }
+}, {
+  title: 'Walsall',
+  address: {
+    locality: 'Walsall',
+    'country-name': 'United Kingdom',
+    'plus-code': '9C4WH2M7+PQ'
+  },
+  icon: 'national-rail'
+}, {
+  title: 'Wellington',
+  address: {
+    locality: 'Wellington',
+    'country-name': 'New Zealand',
+    'plus-code': '4VCPPQCJ+84'
   }
 }, {
   title: 'York',

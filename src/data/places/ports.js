@@ -77,6 +77,13 @@ module.exports = [{
     'plus-code': '9FH8RRV6+37'
   }
 }, {
+  title: 'Picton',
+  address: {
+    locality: 'Picton Ferry Terminal',
+    'country-name': 'New Zealand',
+    'plus-code': '4VCPP274+V4'
+  }
+}, {
   title: 'Poole Ferry Terminal',
   address: {
     locality: 'Poole',
@@ -155,5 +162,12 @@ module.exports = [{
     locality: 'Trondheim',
     'country-name': 'Norway',
     'plus-code': '9FMGC9QW+8R'
+  }
+}, {
+  title: 'Wellington',
+  address: {
+    locality: 'Wellington Ferry Terminal',
+    'country-name': 'New Zealand',
+    'plus-code': '4VCPPQPP+8R'
   }
 }];

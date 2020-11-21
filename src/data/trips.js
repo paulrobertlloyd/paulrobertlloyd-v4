@@ -207,6 +207,18 @@ module.exports = function () {
     to: 'AKL',
     via: ['LAX']
   }, {
+    date: '2009-12-21',
+    from: '4VMP5Q49+84',
+    to: '4VCPPQCJ+84'
+  }, {
+    date: '2009-12-22',
+    from: '4VCPPQPP+8R',
+    to: '4VCPP274+V4'
+  }, {
+    date: '2009-12-27',
+    from: '4VCPP274+V4',
+    to: '4VCPPQPP+8R'
+  }, {
     date: '2009-12-29',
     from: 'WLG',
     to: 'SYD'
@@ -221,12 +233,14 @@ module.exports = function () {
     via: ['DXB']
   }, {
     date: '2010-11-08',
-    from: '9C5Q895C+PC',
-    to: '9C5M8RW3+2G'
+    from: '9C2XRVH5+GJ',
+    to: '9C6PH3WM+34',
+    via: ['ZEP', 'QQU', '9C5Q8959+3H', '9C5Q895C+PC', '9C5M8RW3+2G', '9C5M9Q22+92']
   }, {
     date: '2010-11-14',
-    from: '9C5M8RW3+2G',
-    to: '9C5Q895C+PC'
+    from: '9C6PH3WM+34',
+    to: '9C2XRVH5+GJ',
+    via: ['9C5M9Q22+92', '9C5M8RW3+2G', '9C5Q895C+PC', '9C5Q8959+3H', 'QQU', 'ZEP']
   }, {
     date: '2011-03-10',
     from: 'LHR',
