@@ -678,6 +678,22 @@ module.exports = [{
     'plus-code': '9FFGWQ62+CX'
   }
 }, {
+  title: 'Ottawa Train Station',
+  iata: 'XDS',
+  address: {
+    locality: 'Ottawa',
+    'country-name': 'Canada',
+    'plus-code': '87Q6C88X+H8'
+  }
+}, {
+  title: 'Pacific Central Station',
+  iata: 'XEA',
+  address: {
+    locality: 'Vancouver',
+    'country-name': 'Canada',
+    'plus-code': '84XR7WF2+FR'
+  }
+}, {
   title: 'Par',
   address: {
     locality: 'Par',
@@ -788,6 +804,14 @@ module.exports = [{
   },
   icon: 'national-rail'
 }, {
+  title: 'Southampton Airport Parkway',
+  address: {
+    locality: 'Southampton',
+    'country-name': 'United Kingdom',
+    'plus-code': '9C2WXJ2P+8Q'
+  },
+  icon: 'national-rail'
+}, {
   title: 'St Erth',
   address: {
     locality: 'St Erth',
@@ -827,6 +851,14 @@ module.exports = [{
     'plus-code': '9C3X4R9Q+68'
   },
   icon: 'national-rail'
+}, {
+  title: 'Toronto Union Station',
+  iata: 'YBZ',
+  address: {
+    locality: 'Toronto',
+    'country-name': 'Canada',
+    'plus-code': '87M2JJW9+3P'
+  }
 }, {
   title: 'Truro',
   address: {

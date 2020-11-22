@@ -275,9 +275,17 @@ module.exports = function () {
     from: 'IAD',
     to: 'YOW'
   }, {
+    date: '2011-10-27',
+    from: 'XDS',
+    to: 'YBZ'
+  }, {
     date: '2011-10-30',
     from: 'YYZ',
     to: 'YVR'
+  }, {
+    date: '2011-11-03',
+    from: 'XEA',
+    to: '849VRPR5+57'
   }, {
     date: '2011-11-06',
     from: 'SFO',
@@ -285,38 +293,49 @@ module.exports = function () {
     via: ['YYZ']
   }, {
     date: '2012-03-08',
-    from: 'LHR',
+    from: '9C2XRVH5+GJ',
     to: 'AUS',
-    via: ['DFW']
+    via: ['ZEP', 'LHR', 'DFW']
   }, {
     date: '2012-03-20',
     from: 'SFO',
-    to: 'LHR'
+    to: '9C2XRVH5+GJ',
+    via: ['LHR', 'ZEP']
   }, {
     date: '2012-05-09',
-    from: 'LGW',
-    to: 'AMS'
+    from: '9C2XRVH5+GJ',
+    to: 'AMS',
+    via: ['LGW']
+  }, {
+    date: '2012-05-13',
+    from: 'ZYA',
+    to: '9C2XRVH5+GJ',
+    via: ['ZYR', 'QQS', 'ZEP']
   }, {
     date: '2012-05-16',
-    from: 'LGW',
-    to: 'CPH'
+    from: '9C2XRVH5+GJ',
+    to: 'CPH',
+    via: ['LGW']
   }, {
     date: '2012-05-17',
     from: 'CPH',
-    to: 'LGW'
+    to: '9C2XRVH5+GJ',
+    via: ['LGW']
   }, {
     date: '2012-06-02',
-    from: '9C2WP253+6R',
-    to: '8CXVFF4C+W9'
+    from: '9C2XRRWV+9X',
+    to: '8CXVFF4C+W9',
+    via: ['9C2XRRPH+2H', '9C2WXJ2P+8Q', '9C2WP253+6R']
   }, {
     date: '2012-06-05',
     from: '8CXVFF4C+W9',
-    to: '9C2WP253+6R'
+    to: '9C2XRRWV+9X',
+    via: ['9C2WP253+6R', '9C2WXJ2P+8Q', '9C2XRRPH+2H']
   }, {
     date: '2012-09-12',
-    from: 'LHR',
+    from: '9C2XRRWV+9X',
     to: 'PDX',
-    via: ['ORD']
+    via: ['ZEP', 'LHR', 'ORD']
   }, {
     date: '2012-09-19',
     from: 'PDX',
@@ -325,16 +344,18 @@ module.exports = function () {
   }, {
     date: '2012-09-28',
     from: 'GRU',
-    to: 'LHR',
-    via: ['FRA']
+    to: '9C2XRRWV+9X',
+    via: ['FRA', 'LHR', 'ZEP']
   }, {
     date: '2012-11-14',
-    from: 'LGW',
-    to: 'BFS'
+    from: '9C2XRRWV+9X',
+    to: 'BFS',
+    via: ['LGW']
   }, {
     date: '2012-11-17',
     from: 'BFS',
-    to: 'LGW'
+    to: '9C2XRRWV+9X',
+    via: ['LGW']
   }, {
     date: '2013-04-09',
     from: '9C2XRRWV+9X',
