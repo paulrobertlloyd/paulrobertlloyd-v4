@@ -73,7 +73,7 @@
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.1.0",
     "tap-spot": "^1.1.1",
-    "xo": "^0.34.2"
+    "xo": "^0.35.0"
   },
   "xo": {
     "space": true,
