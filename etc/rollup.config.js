@@ -8,7 +8,7 @@ module.exports = [{
   input: 'src/assets/scripts/app.js',
   output: {
     file: 'www/assets/scripts/app.js',
-    format: 'iife',
+    format: 'es',
     sourcemap: true,
     name: 'app'
   },
@@ -17,7 +17,7 @@ module.exports = [{
   input: 'src/assets/scripts/search.js',
   output: {
     file: 'www/assets/scripts/search.js',
-    format: 'iife',
+    format: 'es',
     sourcemap: true,
     name: 'search'
   },
