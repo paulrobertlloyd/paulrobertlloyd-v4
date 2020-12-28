@@ -10,7 +10,7 @@ module.exports = ({
     require('postcss-media-minmax'),
     require('cssnano')({
       preset: ['default', {
-        calc: false // postcss-calc duplicates rules
+        calc: false // Prevent postcss-calc from duplicating rules
       }]
     })
   ]

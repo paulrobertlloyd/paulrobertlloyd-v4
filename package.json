@@ -26,7 +26,7 @@
     "prelint:hyperlinks": "npm run build:files",
     "lint:hyperlinks": "hyperlink www --canonicalroot https://paulrobertlloyd.com -r -i | tee hyperlink.tap | tap-spot",
     "lint:markdown": "markdownlint 'src/**/*.md'",
-    "lint:scripts": "xo 'src/**/*.js'",
+    "lint:scripts": "xo '**/*.js'",
     "lint:styles": "stylelint 'src/**/*.css'",
     "lint": "npm-run-all lint:*",
     "debug": "DEBUG=* npx eleventy"
