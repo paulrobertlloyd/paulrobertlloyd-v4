@@ -1,6 +1,6 @@
 ---
 title: Look to Europe
-summary: In the countdown to Britain leaving the European Union, in January 2020 I shared 31 images from my travels around Europe.
+summary: In the countdown to Britain leaving the European Union, during January 2020 I shared 31 images from my travels around Europe.
 image: /images/photos/1579334400.jpg
 itemsComponent: card-photo
 ---
