@@ -1,3 +1,3 @@
-import search from './modules/search';
+import {search} from './modules/search.js';
 
 search();

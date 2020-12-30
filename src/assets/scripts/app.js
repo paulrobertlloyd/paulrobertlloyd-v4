@@ -1,3 +1,3 @@
-import embed from './modules/embed';
+import embed from './modules/embed.js';
 
 embed();

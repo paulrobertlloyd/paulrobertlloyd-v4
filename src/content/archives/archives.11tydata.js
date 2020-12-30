@@ -3,7 +3,7 @@ const {format, parseISO} = require('date-fns');
 module.exports = function () {
   const now = new Date();
 
-  function * range(start, end) {
+  function * range(start, end) { // eslint-disable-line jsdoc/require-jsdoc
     for (let i = start; i <= end; i++) {
       yield i;
     }
@@ -12,9 +12,9 @@ module.exports = function () {
   /**
    * Create an array of years
    *
-   * @param {Number} startDate e.g. '2008-09'
-   * @param {Number} endDate e.g. '2020-04'
-   * @return {String} ['2008',…,'2020']
+   * @param {number} startDate e.g. '2008-09'
+   * @param {number} endDate e.g. '2020-04'
+   * @returns {Array} ['2008',…,'2020']
    */
   function generateYears(startDate, endDate) {
     const firstYear = new Date(startDate).getFullYear();
@@ -26,9 +26,9 @@ module.exports = function () {
   /**
    * Create an array of months
    *
-   * @param {String} startDate e.g. '2008-09'
-   * @param {String} endDate e.g. '2020-04'
-   * @return {String} ['2008-09',…,'2020-01']
+   * @param {string} startDate e.g. '2008-09'
+   * @param {string} endDate e.g. '2020-04'
+   * @returns {string} ['2008-09',…,'2020-01']
    */
   function generateMonths(startDate, endDate) {
     const firstYear = new Date(startDate).getFullYear();

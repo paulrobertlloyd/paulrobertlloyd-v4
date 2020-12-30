@@ -1,19 +1,19 @@
-import aria from './aria';
+import aria from './aria.js';
 
-export default function search() {
+export const search = () => {
   const searchForm = document.querySelector('#search');
   const searchSubmit = document.querySelector('#search-submit');
   const endpoint = searchForm.dataset.searchIndex;
   const pages = [];
 
-  function findResults(termToMatch, pages) {
+  const findResults = (termToMatch, pages) => {
     return pages.filter(item => {
       const regex = new RegExp(termToMatch, 'gi');
       return item.title.match(regex) || item.content.match(regex);
     });
-  }
+  };
 
-  function displayResults(input) {
+  const displayResults = input => {
     const resultsArray = findResults(input, pages);
     const result = resultsArray.map(item => {
       const html = `
@@ -29,7 +29,7 @@ export default function search() {
     });
 
     return result;
-  }
+  };
 
   if (searchForm) {
     fetch(endpoint)
@@ -52,4 +52,4 @@ export default function search() {
       );
     });
   }
-}
+};
