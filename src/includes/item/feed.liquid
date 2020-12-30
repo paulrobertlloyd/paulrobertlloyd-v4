@@ -1,7 +1,7 @@
 {%- if item.data.inReplyTo -%}
   <p><small>↪︎ In reply to <a class="u-in-reply-to" href="{{ item.data.inReplyTo }}">a post on {{ item.data.inReplyTo | hostname }}</a></small></p>
 {%- endif -%}
-{{- item.templateContent | strip_mentions | strip_newlines -}}
+{{- item.templateContent | strip_newlines -}}
 {%- if item.data.photo -%}
   {%- include 'photos' with item.data.photo
     imageClass: 'u-photo'
