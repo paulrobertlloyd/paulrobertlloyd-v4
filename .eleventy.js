@@ -32,6 +32,8 @@ module.exports = function (eleventy) {
   eleventy.addFilter('slug', require('./lib/filters/slug.js'));
   eleventy.addFilter('sum', require('./lib/filters/sum.js'));
   eleventy.addFilter('syndication_target', require('./lib/filters/syndication-target.js'));
+  eleventy.addFilter('template_content_to_feed_html', require('./lib/filters/template-content-to-feed-html.js'));
+  eleventy.addFilter('template_content_to_feed_text', require('./lib/filters/template-content-to-feed-text.js'));
   eleventy.addFilter('tokenize', require('./lib/filters/tokenize.js'));
 
   // Shortcodes

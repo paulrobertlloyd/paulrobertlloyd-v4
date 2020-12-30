@@ -31,9 +31,7 @@ permalink: /feed.xml
     {% else %}
     <link rel="alternate" href="{{ item.url | absolute_url: app.url }}" type="text/html"/>
     {% endif %}
-    <content type="html"><![CDATA[
-      {% capture content_html %}{% render 'item/feed' item: item %}{% endcapture %}{{ content_html }}
-    ]]></content>
+    <content type="html"><![CDATA[{{ item | template_content_to_feed_html }}]]></content>
   </entry>
 {% endfor %}
 </feed>
