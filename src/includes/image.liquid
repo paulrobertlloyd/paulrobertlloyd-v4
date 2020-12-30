@@ -11,7 +11,7 @@
     {% unless src contains 'https://' %}
       {%- assign base = 'https://res.cloudinary.com/paulrobertlloyd/image/fetch' -%}
       {%- capture transformations %}{% if ratio %}ar_{{ ratio }},{% endif %}c_fill,f_auto,q_auto{% endcapture -%}
-      {%- assign publicId = src | prepend: app.url -%}
+      {%- assign publicId = src | absolute_url: app.url -%}
       {%- capture src %}{{ base }}/{{ transformations }},w_{{ setting.width }}/{{ publicId }}{% endcapture -%}
       {%- capture srcset %}{% for width in setting.widths %}{{ base }}/{{ transformations }},w_{{ width }}/{{ publicId }} {{ width }}w{% unless forloop.last %}, {% endunless%}{% endfor %}{% endcapture -%}
     {%- endunless -%}

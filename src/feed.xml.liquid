@@ -12,24 +12,24 @@ permalink: /feed.xml
     <email>{{ app.author.email }}</email>
     <uri>{{ app.author.url }}</uri>
   </author>
-  <link rel="self" href="{{ '/feed.xml' | prepend: app.url }}" type="application/atom+xml"/>
+  <link rel="self" href="{{ '/feed.xml' | absolute_url: app.url }}" type="application/atom+xml"/>
   <link rel="alternate" href="{{ app.url }}" type="text/html"/>
   <link rel="hub" href="http://pubsubhubbub.superfeedr.com/"/>
-  <icon>{{ app.icon | prepend: app.url }}</icon>
+  <icon>{{ app.icon | absolute_url: app.url }}</icon>
   <rights>&#169; {{ 'now' | date: 'yyyy' }} {{ app.author.name }}. Content Creative Commons licensed unless otherwise stated.</rights>
 {% for item in collections.post limit: 25 %}
   <entry>
-    <id>{{ item.url | prepend: app.url }}</id>
+    <id>{{ item.url | absolute_url: app.url }}</id>
     <title>{{ item.data.title | markdown: 'inline' | escape | strip_html | strip_newlines }}</title>
     <updated>{{ item.date | date: dates.iso }}</updated>
     {% if item.data.url %}
     <link rel="alternate" href="{{ item.data.url }}" type="text/html"/>
-    <link rel="related" href="{{ item.url | prepend: app.url }}" type="text/html"/>
+    <link rel="related" href="{{ item.url | absolute_url: app.url }}" type="text/html"/>
     {% elsif item.data.in_reply_to %}
     <link rel="alternate" href="{{ item.data.in_reply_to }}" type="text/html"/>
-    <link rel="related" href="{{ item.url | prepend: app.url }}" type="text/html"/>
+    <link rel="related" href="{{ item.url | absolute_url: app.url }}" type="text/html"/>
     {% else %}
-    <link rel="alternate" href="{{ item.url | prepend: app.url }}" type="text/html"/>
+    <link rel="alternate" href="{{ item.url | absolute_url: app.url }}" type="text/html"/>
     {% endif %}
     <content type="html"><![CDATA[
       {% capture content_html %}{% render 'item/feed' item: item %}{% endcapture %}{{ content_html }}
