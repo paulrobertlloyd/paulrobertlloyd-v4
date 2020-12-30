@@ -2,31 +2,4 @@
 eleventyExcludeFromCollections: true
 permalink: /feed.json
 ---
-{
-  "version": "https://jsonfeed.org/version/1.1",
-  "title": "{{ app.title }}",
-  "description": "{{ app.description }}",
-  "home_page_url": "{{ app.url }}",
-  "feed_url": "{{ '/feed.json' | prepend: app.url }}",
-  "favicon": "{{ app.favicon | prepend: app.url }}",
-  "icon": "{{ app.icon | prepend: app.url }}",
-  "language": "{{ app.language }}",
-  "authors": [{
-    "name": "{{ app.author.name }}",
-    "url": "{{ app.author.url }}",
-    "avatar": "{{ app.author.avatar }}"
-  }],
-  "items": [{% for item in collections.post limit: 25 %}
-    {
-      "id": "{{ item.url | prepend: app.url }}",
-      "url": "{{ item.url | prepend: app.url }}",
-      {% if item.data.url %}"external_url": "{{ item.data.url }}",{% endif %}
-      {% if item.data.in_reply_to %}"external_url": "{{ item.data.in_reply_to }}",{% endif %}
-      "title": "{{ item.data.title | markdown: 'inline' }}",
-      {% if item.data.summary %}"summary": {{ item.data.summary | markdown: 'inline' | json }},{% endif %}
-      {% if item.data.category %}"tags": {{ item.data.category | json }},{% endif %}
-      "content_html": {% capture content_html %}{% render 'item/feed' item: item %}{% endcapture %}{{ content_html | json }},
-      "date_published": {{ item.date | date: dates.iso | json }}
-    }{% unless forloop.last %},{% endunless %}
-  {% endfor %}]
-}
+{% jsonFeed collections.post, app, 25 %}

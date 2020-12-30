@@ -36,6 +36,7 @@ module.exports = function (eleventy) {
 
   // Shortcodes
   eleventy.addShortcode('icon', require('./lib/shortcodes/icon.js'));
+  eleventy.addShortcode('jsonFeed', require('./lib/shortcodes/json-feed.js'));
 
   // Libraries
   eleventy.setLibrary('md', require('./lib/libraries/markdown.js'));
