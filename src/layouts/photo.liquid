@@ -12,8 +12,9 @@
   -%}
   {%- capture content -%}
     {{- content -}}
+    {%- assign columns = columns | default: 1 -%}
     {%- render 'photos' with photo
-      columns: 1
+      columns: columns
       imageClass: 'u-photo'
     -%}
   {%- endcapture -%}
