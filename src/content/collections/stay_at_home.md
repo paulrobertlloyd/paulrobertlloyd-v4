@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 title: Stay at home
 summary: During January 2021, I shared 31 images from my travels around the UK.
 image: /images/photos/1609833600.jpg
