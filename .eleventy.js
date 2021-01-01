@@ -23,7 +23,6 @@ module.exports = function (eleventy) {
   eleventy.addFilter('contrast_with', require('./lib/filters/contrast-with.js'));
   eleventy.addFilter('date', require('./lib/filters/date.js'));
   eleventy.addFilter('excludes', require('./lib/filters/excludes.js'));
-  eleventy.addFilter('hashtag', require('./lib/filters/hashtag.js'));
   eleventy.addFilter('hostname', require('./lib/filters/hostname.js'));
   eleventy.addFilter('includes', require('./lib/filters/includes.js'));
   eleventy.addFilter('markdown', require('./lib/filters/markdown.js'));
