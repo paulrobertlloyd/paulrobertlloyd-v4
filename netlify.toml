@@ -27,6 +27,11 @@
     Content-Type = "image/x-icon"
 
 [[headers]]
+  for = "/*.jf2"
+  [headers.values]
+    Content-Type = "application/jf2feed+json; charset=utf-8"
+
+[[headers]]
   for = "/*.js"
   [headers.values]
     Content-Type = "text/javascript; charset=utf-8"
@@ -121,11 +126,6 @@
 [[redirects]]
   from = "/talks/smashing_conference_freiburg_2016"
   to = "/events/2016/09/smashing_conference_freiburg"
-  force = true
-
-[[redirects]]
-  from = "/feed"
-  to = "/feed.xml"
   force = true
 
 [[redirects]]
