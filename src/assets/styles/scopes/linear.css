@@ -161,6 +161,10 @@
   padding: var(--text-spacing);
 }
 
+.s-linear pre code{
+  padding: 0;
+}
+
 .s-linear samp {
   border: var(--border-width-thin) solid var(--color-offset);
 }
