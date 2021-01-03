@@ -23,7 +23,7 @@ module.exports = {
     },
     relatedTrips: data => {
       const trips = data.collections.trip;
-      const tripId = data.tripId ? data.tripId : [];
+      const tripId = data.tripId ? data.tripId.toString() : [];
       return trips.filter(trip => tripId.includes(trip.data.trip.id));
     }
   }
