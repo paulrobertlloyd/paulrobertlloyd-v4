@@ -1,6 +1,6 @@
 ---
 title: Hi, I’m Paul—
-summary: an independent designer, writer and occassional speaker based in Brighton, England. I help responsible organisations make purposeful digital products.
+summary: an independent designer, writer and occasional speaker based in Brighton, England. I help responsible organisations make purposeful digital products.
 permalink: /
 priority: 1
 eleventyComputed:
