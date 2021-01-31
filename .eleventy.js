@@ -18,7 +18,7 @@ module.exports = function (eleventy) {
   });
 
   // Filters
-  eleventy.addFilter('absolute_url', require('./lib/filters/absolute-url.js'));
+  eleventy.addFilter('absolute_url', require('@11ty/eleventy-plugin-rss').absoluteUrl);
   eleventy.addFilter('color', require('./lib/filters/color.js'));
   eleventy.addFilter('contrast_with', require('./lib/filters/contrast-with.js'));
   eleventy.addFilter('date', require('./lib/filters/date.js'));
