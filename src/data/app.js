@@ -12,7 +12,7 @@ module.exports = {
   endpoint: {
     auth: 'https://indieauth.com/auth',
     token: 'https://tokens.indieauth.com/token',
-    micropub: 'https://indiekit.herokuapp.com/micropub',
+    micropub: 'https://indiekit.paulrobertlloyd.com/micropub',
     microsub: 'https://aperture.p3k.io/microsub/32',
     webmention: 'https://webmention.io/paulrobertlloyd.com/webmention'
   },
