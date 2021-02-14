@@ -1,0 +1,17 @@
+---
+layout: index
+title: Archive
+permalink: archive/on-this-day/
+changefreq: daily
+tags: on-this-day
+priority: 0.5
+eleventyComputed:
+  pageTitle: "On this day · {{ app.title }}"
+  introduction: "{{ 'now' | date: 'dd MMMM' }}"
+---
+{%- assign today = 'now' | date: 'MM-dd' %}
+{%- assign items = collections.post | includes: 'date',today -%}
+{%- render 'items' with items
+  modifier: 'inline'
+  itemsNoContent: 'Nothing was published on this day.'
+-%}

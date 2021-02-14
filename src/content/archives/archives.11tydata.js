@@ -63,7 +63,7 @@ module.exports = function () {
       fileSlug: year,
       url: `/${year}/`,
       data: {
-        title: year
+        introduction: year
       }
     };
   });
@@ -79,7 +79,8 @@ module.exports = function () {
       url: format(date, '/yyyy/MM/'),
       data: {
         date: format(date, 'yyyy-MM'),
-        title: format(date, 'MMMM yyyy')
+        itemTitle: format(date, 'MMMM'),
+        introduction: format(date, 'MMMM yyyy')
       }
     };
   });

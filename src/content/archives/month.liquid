@@ -10,8 +10,8 @@ permalink: "{{ page.url }}"
 changefreq: monthly
 priority: 0.2
 eleventyComputed:
-  pageTitle: "{{ page.data.title }} · {{ app.title }}"
-  introduction: "{{ page.data.title }}"
+  pageTitle: "{{ page.data.introduction }} · {{ app.title }}"
+  introduction: "{{ page.data.introduction }}"
 ---
 {%- assign items = collections.post | includes: 'date',page.data.date -%}
 {%- render 'items' with items

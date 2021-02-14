@@ -6,6 +6,10 @@ changefreq: weekly
 priority: 0.9
 ---
 {% render 'form/search' %}
+{% render 'section-archives' with collections.on-this-day
+  id: 'on-this-day',
+  title: 'On this day'
+%}
 {% assign archive = years | reverse %}
 {% render 'section-archives' with archive
   id: 'browse',
