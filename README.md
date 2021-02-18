@@ -6,8 +6,8 @@
 
 1. `git clone git@github.com:paulrobertlloyd/paulrobertlloyd-v4.git`
 2. `cd paulrobertlloyd-v4`
-4. `npm install`
-5. `npm run build`
+3. `npm install`
+4. `npm run build`
 
 Generated files are written to the `www` directory.
 
@@ -56,21 +56,25 @@ paulrobertlloyd.com
 │   └── test.conf                # Local nginx server configuration
 │
 ├── lib
+│   ├── collections              # Eleventy collections
 │   ├── filters                  # Eleventy template filters
 │   ├── libraries                # Eleventy template libraries
-│   └── transforms               # Eleventy transforms
+│   ├── shortcodes               # Eleventy template shortcodes
+│   └── utils                    # Utility scripts
 │
 ├── src
-│   ├── _content                 # Content (Markdown)
-│   ├── _data                    # Global website data (JSON)
-│   ├── _includes                # Components and layout templates (Liquid)
 │   ├── assets                   # Assets (CSS, JavaScript, WOFF2, SVG)
+│   ├── content                  # Content (Markdown)
+│   ├── data                     # Global website data (JSON)
 │   ├── images                   # Content images
+│   ├── includes                 # Components (Liquid)
+│   ├── layouts                  # Layout templates (Liquid)
 │   ├── app.webmanifest.liquid   # Web App Manifest template
+│   ├── feed.jf2.liquid          # JF2 Feed template
 │   ├── feed.json.liquid         # RSS (JSON Feed) template
 │   ├── feed.xml.liquid          # RSS (Atom) template
+│   ├── key.txt                  # Public PGP key
 │   ├── robots.txt.liquid        # robots.txt template
-│   ├── search.json.liquid       # Search database template
 │   ├── serviceworker.js.liquid  # Service worker template
 │   └── sitemap.xml.liquid       # Sitemap template
 │
@@ -79,6 +83,7 @@ paulrobertlloyd.com
 ├── .gitattributes               # Files tracked by Git LFS
 ├── .gitignore                   # Files not tracked by Git
 ├── .markdownlintrc              # markdownlint configuration
+├── .nvmrc                       # NVM configuration
 ├── .stylelintrc                 # Stylelint configuration
 ├── netlify.toml                 # Netlify configuration
 ├── package.json                 # Node.js package manifest
