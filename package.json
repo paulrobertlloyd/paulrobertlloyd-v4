@@ -1,4 +1,5 @@
 {
+  "private": true,
   "name": "paulrobertlloyd.com",
   "version": "4.0.0",
   "description": "The personal website of Paul Robert Lloyd",
@@ -30,6 +31,9 @@
     "lint:styles": "stylelint 'src/**/*.css'",
     "lint": "npm-run-all lint:*",
     "debug": "DEBUG=* npx eleventy"
+  },
+  "engines": {
+    "node": "^14.0.0"
   },
   "dependencies": {
     "@11ty/eleventy": "^1.0.0-canary.6",
