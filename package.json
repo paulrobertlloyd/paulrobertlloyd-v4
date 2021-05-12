@@ -76,14 +76,14 @@
   },
   "devDependencies": {
     "eslint-plugin-import": "^2.22.1",
-    "eslint-plugin-jsdoc": "^33.1.0",
+    "eslint-plugin-jsdoc": "^34.0.2",
     "hyperlink": "^4.6.1",
     "markdownlint-cli": "^0.27.1",
     "stylelint": "^13.10.0",
     "stylelint-config-standard": "^22.0.0",
     "stylelint-order": "^4.1.0",
     "tap-spot": "^1.1.1",
-    "xo": "^0.39.1"
+    "xo": "^0.40.1"
   },
   "xo": {
     "space": true,
