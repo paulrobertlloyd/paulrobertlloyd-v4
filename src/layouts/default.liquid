@@ -12,7 +12,8 @@
   <meta name="twitter:card" content="summary">
 {%- endif -%}
   <meta name="twitter:site" content="@paulrobertlloyd">
-  <meta name="theme-color" content="{{ app.themeColor }}">
+  <meta name="theme-color" content="{{ app.themeColor }}" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="{{ app.themeColorDark }}" media="(prefers-color-scheme: dark)">
   <meta name="supported-color-schemes" content="light dark">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index, follow">
