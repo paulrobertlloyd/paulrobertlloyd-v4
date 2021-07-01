@@ -72,7 +72,7 @@
     "sanitize-html": "^2.4.0",
     "slugify": "^1.5.0",
     "string-to-color": "^2.2.2",
-    "turndown": "^7.0.0"
+    "turndown": "^7.1.1"
   },
   "devDependencies": {
     "eslint-plugin-import": "^2.23.3",
