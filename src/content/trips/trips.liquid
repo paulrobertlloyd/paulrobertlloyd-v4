@@ -12,7 +12,7 @@ eleventyComputed:
 <table class="barchart">
   <caption class="barchart__caption"><abbr title="kilometers">km</abbr> travelled / <abbr title="kilograms">kg</abbr> CO<sub>2</sub></caption>
   <tbody class="barchart__items">
-  {%- for year in (2003..2020) -%}
+  {%- for year in (2003..2021) -%}
     <tr class="barchart__item">
       {%- assign thisYear = trips | includes: 'date',year -%}
       {%- assign yearKm = thisYear | sum: 'distance' -%}
@@ -38,7 +38,7 @@ eleventyComputed:
   </tbody>
 </table>
 
-{%- for year in (2003..2020) reversed -%}
+{%- for year in (2003..2021) reversed -%}
   {%- assign thisYear = collections.trip | includes: 'data.trip.date',year -%}
   {%- render 'section-trips' with thisYear
     id: year

@@ -9,7 +9,7 @@ priority: 0.9
 eleventyComputed:
   introduction: "Travel itineraries, made up of [individual {{ collections.trip.size }} trips](/trips/)."
 ---
-{%- for year in (2003..2020) reversed -%}
+{%- for year in (2003..2021) reversed -%}
   {%- assign thisYear = collections.travel | includes: 'date',year -%}
   {%- render 'section' with thisYear
     id: year
