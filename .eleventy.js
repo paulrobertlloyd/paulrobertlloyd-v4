@@ -58,9 +58,6 @@ module.exports = function (eleventy) {
   eleventy.addPassthroughCopy('./src/assets/fonts');
   eleventy.addPassthroughCopy('./src/assets/vectors');
 
-  // Enable data deep merge
-  eleventy.setDataDeepMerge(true);
-
   // Config
   return {
     dir: {

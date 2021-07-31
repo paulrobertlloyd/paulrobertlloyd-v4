@@ -6,7 +6,7 @@ pagination:
   reverse: true
   size: 24
 permalink: "bookmarks/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}.html{% else %}/{% endif %}"
-tags: false
+override:tags: []
 changefreq: weekly
 priority: 0.9
 ---

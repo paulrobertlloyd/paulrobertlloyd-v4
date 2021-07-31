@@ -6,7 +6,7 @@ pagination:
   reverse: true
   size: 36
 permalink: "replies/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}.html{% else %}/{% endif %}"
-tags: false
+override:tags: []
 changefreq: daily
 priority: 0.9
 eleventyComputed:
