@@ -5,12 +5,12 @@ pagination:
   size: 1
   alias: source
   addAllPagesToCollections: true
-permalink: "articles/sources/{{ source.title | slug }}/"
+permalink: "articles/sources/{{ source.title | slugify }}/"
 tags: source
 changefreq: monthly
 priority: 0.2
 eleventyComputed:
   title: "{{ source.title }}"
   summary: "{{ source.summary }}"
-  tag: "source:{{ title | slug }}"
+  tag: "source:{{ title | slugify }}"
 ---

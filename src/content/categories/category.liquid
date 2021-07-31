@@ -4,7 +4,7 @@ pagination:
   data: collections.category
   size: 1
   alias: title
-permalink: "categories/{{ title | slug }}/"
+permalink: "categories/{{ title | slugify }}/"
 changefreq: monthly
 priority: 0.2
 ---

@@ -351,7 +351,7 @@ For example, to achieve the above for all content stored in the `_basic-syntax` 
 {
   "layout": "syntax",
   "tag": "basic-syntax",
-  "permalink": "basic-syntax/{% raw %}{{ title | slug }}{% endraw %}.html"
+  "permalink": "basic-syntax/{% raw %}{{ title | slugify }}{% endraw %}.html"
 }
 ```
 

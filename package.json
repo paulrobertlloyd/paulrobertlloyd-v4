@@ -70,7 +70,6 @@
     "rollup": "^2.55.1",
     "rollup-plugin-terser": "^7.0.2",
     "sanitize-html": "^2.4.0",
-    "slugify": "^1.6.0",
     "string-to-color": "^2.2.2",
     "turndown": "^7.1.1"
   },
