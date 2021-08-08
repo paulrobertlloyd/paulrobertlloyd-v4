@@ -103,7 +103,7 @@ Defining the core principles that support the work we do is an aspect of (respon
 A huge thank-you to Ethan for greasing the rusty cogs in my brain, the speakers for taking the time to share their work and experience, and Jeremy, Kate and Clearleft for putting on another fantastic event.
 
 [1]: http://responsiveconf.com
-[2]: /talks/responsive_day_out
+[2]: /events/2013/03/responsive_day_out/
 [3]: http://huffduffer.com/adactio/167841
 [4]: https://en.wikipedia.org/wiki/12_basic_principles_of_animation
 [5]: http://huffduffer.com/adactio/167829

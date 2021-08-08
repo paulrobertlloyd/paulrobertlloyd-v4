@@ -48,8 +48,8 @@ So, there we have it. Lots to look forward to, and still much to plan, yet I sus
 [2]: http://newadventuresconf.com/
 [3]: http://2011.uxlondon.com/
 [4]: http://multipack.co.uk/presents/mobile-development/
-[5]: /talks/multipack_presents_november_2010
-[6]: /talks/apa_digital_breakfast_march_2011
+[5]: /events/2010/11/multipack_presents
+[6]: /events/2011/03/apa_digital_breakfast
 [7]: http://www.apa.co.uk/news/digital-breakfast-web-design-trends-tues-08-march/
 [8]: http://oxford.geeknights.net/2011/apr-13th/
 [9]: https://adactio.com/journal/4557/

@@ -109,7 +109,7 @@ In essence, GEL is an example of systems level thinking. Design principles defin
 [2]: http://dev.opera.com/author/974138
 [3]: http://www.slideshare.net/chrisdavidmills/for-nondevelopers-html5-a-richer-web-for-everyone
 [4]: http://www.adambankin.com/
-[5]: /talks/multipack_presents_november_2010
+[5]: /events/2010/11/multipack_presents
 [6]: http://www.ftrain.com/wwic.html
 [7]: http://www.alistapart.com/articles/dao/
 [8]: https://www.flickr.com/groups/microcopy/
