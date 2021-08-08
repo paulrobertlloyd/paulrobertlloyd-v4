@@ -41,13 +41,13 @@
     "@11ty/eleventy-plugin-rss": "^1.1.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.2",
     "@remy/webmention": "^1.4.5",
-    "color": "^4.0.0",
+    "color": "^4.0.1",
     "cssnano": "^5.0.7",
     "date-fns": "^2.23.0",
     "date-fns-tz": "^1.1.6",
     "dotenv": "^10.0.0",
     "geolib": "^3.3.1",
-    "markdown-it": "^12.1.0",
+    "markdown-it": "^12.2.0",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-anchor": "^8.1.2",
     "markdown-it-attrs": "^4.0.0",
@@ -67,7 +67,7 @@
     "postcss-extend-rule": "^3.0.0",
     "postcss-logical": "^4.0.0",
     "postcss-media-minmax": "^5.0.0",
-    "rollup": "^2.55.1",
+    "rollup": "^2.56.0",
     "rollup-plugin-terser": "^7.0.2",
     "sanitize-html": "^2.4.0",
     "string-to-color": "^2.2.2",
@@ -82,7 +82,7 @@
     "stylelint-config-standard": "^22.0.0",
     "stylelint-order": "^4.1.0",
     "tap-spot": "^1.1.1",
-    "xo": "^0.42.0"
+    "xo": "^0.43.0"
   },
   "xo": {
     "space": true,
