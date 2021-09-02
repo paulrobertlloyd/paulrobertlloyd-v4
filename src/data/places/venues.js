@@ -337,6 +337,17 @@ module.exports = [{
     'plus-code': '9C3XGWFJ+CC'
   }
 }, {
+  title: 'Depot',
+  url: 'https://lewesdepot.org',
+  address: {
+    'street-address': 'Pinwell Road',
+    locality: 'Lewes',
+    region: 'Sussex',
+    'country-name': 'United Kingdom',
+    'postal-code': 'BN7 2JS',
+    'plus-code': '9F22V2C6+HP'
+  }
+}, {
   title: 'De Vere Grand Connaught Rooms',
   address: {
     'street-address': '61-65 Great Queen Street',
