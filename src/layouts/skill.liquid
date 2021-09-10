@@ -4,7 +4,7 @@
     title: title
     summary: summary
   -%}
-  {%- assign items = collections.project | includes: 'data.category',title -%}
+  {%- assign items = collections.project | includes: 'data.category',title | reverse -%}
   {%- render 'items' with items
     component: 'card'
     gridSize: '12rem'
