@@ -8,7 +8,7 @@ priority: 0.9
 eleventyComputed:
   pageTitle: "{{ introduction }} · {{ app.title }}"
 ---
-{%- render 'items' with skills
+{%- render 'items' with collections.skill
   component: 'section'
   gridSize: '12rem'
 -%}
