@@ -36,7 +36,7 @@
     "node": "^14.0.0"
   },
   "dependencies": {
-    "@11ty/eleventy": "^1.0.0-canary.41",
+    "@11ty/eleventy": "^1.0.0-canary.44",
     "@11ty/eleventy-cache-assets": "^2.3.0",
     "@11ty/eleventy-plugin-rss": "^1.1.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.2",
@@ -69,13 +69,13 @@
     "postcss-media-minmax": "^5.0.0",
     "rollup": "^2.56.3",
     "rollup-plugin-terser": "^7.0.2",
-    "sanitize-html": "^2.4.0",
+    "sanitize-html": "^2.5.0",
     "string-to-color": "^2.2.2",
     "turndown": "^7.1.1"
   },
   "devDependencies": {
     "eslint-plugin-import": "^2.24.2",
-    "eslint-plugin-jsdoc": "^36.0.8",
+    "eslint-plugin-jsdoc": "^36.1.0",
     "hyperlink": "^4.7.0",
     "markdownlint-cli": "^0.28.1",
     "stylelint": "^13.10.0",
