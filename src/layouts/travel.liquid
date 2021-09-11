@@ -13,13 +13,11 @@
     vocab: vocab
   -%}
   {%- capture content -%}
-    <figure class="align-bleed">
-      {%- capture overlay %}geojson({{ geojson | json | escape }}){% endcapture -%}
-      {%- render 'map'
-        overlay: overlay
-        position: position
-      -%}
-    </figure>
+    {%- render 'map'
+      geojson: geojson
+      position: position
+      alignment: 'bleed'
+    -%}
     {{ place.content | markdown }}
     {%- render 'trips' with relatedTrips -%}
   {%- endcapture -%}

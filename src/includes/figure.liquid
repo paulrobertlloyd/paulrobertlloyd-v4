@@ -1,7 +1,5 @@
 <figure class="align-{{ alignment | default: 'none' }}">
-{%- if content %}
-  {{- content | markdown -}}
-{%- elsif embed %}
+{%- if embed %}
   {%- embed embed embedPoster embedRatio -%}
 {%- else %}
   {%- render 'image' with figure

@@ -18,19 +18,12 @@ category:
 tags:
   - featured
 ---
-{%- capture overlay %}geojson({{ geojson | json | escape }}){% endcapture -%}
-{%- capture map -%}
-{%- render 'map'
-  overlay: overlay
-  width: 360
-  height: 360
--%}
-{%- endcapture -%}
-
 ## Day 1: Brighton to Hamburg
 
-{% render 'figure'
-  content: map
+{% render 'map'
+  geojson: geojson
+  width: 360
+  height: 360
   caption: 'Route map: Brighton to Copenhagen via Hamburg.'
   alignment: 'pull'
 %}

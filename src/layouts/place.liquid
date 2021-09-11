@@ -11,23 +11,21 @@
     vocab: vocab
   -%}
   {%- capture content -%}
-    <figure class="align-bleed">
-      <a href="https://duckduckgo.com/?q={{ place.geo.latitude }},{{ place.geo.longitude }}&iaxm=places">
-        {%- capture overlay -%}
-          pin-l+{{ app.accentColor | remove: '#' }}({{ place.geo.longitude }},{{ place.geo.latitude }})
-        {%- endcapture -%}
-        {%- capture position -%}
-          {{ place.geo.longitude }},{{ place.geo.latitude }},15,0.00,0.00
-        {%- endcapture -%}
-        {%- render 'map'
-          overlay: overlay
-          position: position
-        -%}
-      </a>
-      <figcaption>
-        {%- render 'address' with place.address -%}
-      </figcaption>
-    </figure>
+    {%- capture pin -%}
+      pin-l+{{ app.accentColor | remove: '#' }}({{ place.geo.longitude }},{{ place.geo.latitude }})
+    {%- endcapture -%}
+    {%- capture position -%}
+      {{ place.geo.longitude }},{{ place.geo.latitude }},15,0.00,0.00
+    {%- endcapture -%}
+    {%- capture caption -%}
+      {%- render 'address' with place.address -%}
+    {%- endcapture -%}
+    {%- render 'map'
+      pin: pin
+      position: position
+      caption: caption
+      alignment: 'bleed'
+    -%}
     {{ place.content | markdown }}
   {%- endcapture -%}
   {%- render 'content' with content -%}

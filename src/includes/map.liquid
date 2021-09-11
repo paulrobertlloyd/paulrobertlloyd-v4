@@ -1,12 +1,23 @@
 {%- capture props -%}
-  {% if overlay %}{{ overlay | strip | strip_newlines }}/{% endif %}
+  {%- if geojson %}geojson({{ geojson | json | escape }})/{% endif -%}
+  {%- if pin %}{{ pin | strip | strip_newlines }}/{% endif -%}
   {{ position | default: 'auto' | strip | strip_newlines }}/
   {{ width | default: '1200' }}x
   {{ height | default: '400' }}@2x
   ?access_token={{ app.token.mapbox }}
 {%- endcapture -%}
 {%- assign props = props | strip | strip_newlines | remove: ' ' -%}
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://api.mapbox.com/styles/v1/mapbox/dark-v10/static/{{ props }}">
-  <img src="https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/static/{{ props }}" alt="Map">
-</picture>
+{%- capture html -%}
+  <figure class="align-{{ alignment | default: 'none' }}">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.mapbox.com/styles/v1/mapbox/dark-v10/static/{{ props }}">
+      <img src="https://api.mapbox.com/styles/v1/mapbox/outdoors-v10/static/{{ props }}" alt="Map">
+    </picture>
+  {%- if caption %}
+    <figcaption>
+      {{ caption | markdown }}
+    </figcaption>
+  {%- endif %}
+  </figure>
+{%- endcapture -%}
+{{ html | strip_newlines }}
