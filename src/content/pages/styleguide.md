@@ -59,10 +59,8 @@ The `blockquote` element represents a section that is being quoted from another 
 
 If you wish to add a citation, enclose it within a `<figure>` tag:
 
-{% render 'figure'
-  content: '> Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.'
-  caption: 'Winston Churchill, in <cite>[a speech to the House of Commons](https://hansard.parliament.uk/Commons/1947-11-11/debates/ab1e1152-6b4a-4d04-ac38-954df6634b08/ParliamentBill#207)</cite>. 11th November 1947'
-%}
+> Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.
+— Winston Churchill, in <cite>[a speech to the House of Commons](https://hansard.parliament.uk/Commons/1947-11-11/debates/ab1e1152-6b4a-4d04-ac38-954df6634b08/ParliamentBill#207)</cite>. 11th November 1947
 
 ### Ordered list
 

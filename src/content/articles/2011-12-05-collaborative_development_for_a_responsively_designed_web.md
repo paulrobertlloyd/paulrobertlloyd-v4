@@ -28,10 +28,8 @@ Regardless of the exact process, it’s clear that the relationship between our 
 
 So how can we improve this relationship? Ultimately, we’ll need to adapt, but even within existing workflows we can start to overlap. Simply adjusting our attitude can effect change, and bring design and development teams closer together.
 
-{% render 'figure'
-  content: '> Good design is constant contact.'
-  caption: '[Mark Otto](http://markdotto.com/2011/09/20/good-design-is-constant-contact/)'
-%}
+> Good design is constant contact.
+— [Mark Otto](http://markdotto.com/2011/09/20/good-design-is-constant-contact/)
 
 The way we work needs to be more open and inclusive. For example, ensuring members of the development team attend initial kick-off meetings and design workshops will not only ensure technical concerns are raised, but mean that those implementing our designs better understand the problems we’re trying to solve.
 
@@ -47,10 +45,8 @@ It’s from collaboration like this that I’ve become fond of producing visual 
 
 Despite the amount of research and design produced, when it comes to the crunch, there will always be a need for compromise. As the old saying goes, “fast, cheap and good — pick two.” It’s important that you know which pieces are crucial to a design and which areas can allow for movement. Pick your battles wisely. Having an agreed set of design principles can be useful when making such decisions, as they help everyone focus on the goals of the project.
 
-{% render 'figure'
-  content: '> The best compromises are reached when both sides understand the issues of the other.'
-  caption: '[Richard Rutter](http://clagnut.com/blog/2315/)'
-%}
+> The best compromises are reached when both sides understand the issues of the other.
+— [Richard Rutter](http://clagnut.com/blog/2315/)
 
 Ultimately, better collaboration comes through a shared understanding of the different competencies required to build a website. Instead of viewing ourselves in terms of discrete roles, we should instead look to emphasize our range of abilities, and work with others whose skills are complementary.
 

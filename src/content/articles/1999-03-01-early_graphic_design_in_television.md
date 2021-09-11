@@ -63,10 +63,8 @@ The increase of license holders required a greater range of programming but it a
 
 Graphic design’s link with television however, began well before its launch in 1936:
 
-{% render 'figure'
-  content: '> Contemporary descriptions of Baird’s 1926 experiments with television broadcasts reveal that he used a variety of graphic forms to test legibility, including type script. Graphics and television were thus linked from the point of inception.'
-  caption: 'Crook, 1986'
-%}
+> Contemporary descriptions of Baird’s 1926 experiments with television broadcasts reveal that he used a variety of graphic forms to test legibility, including type script. Graphics and television were thus linked from the point of inception.
+— Crook, 1986
 
 The new medium of television followed a precedent set by the existing mediums of mass communication such as radio and print in that it provided a constantly changing content with programmes such as sport, newsreels, cookery demonstrations and plays. These all required some sort of graphic introduction and this usually consisted of hand drawn lettering for titles and credits. The graphic artist was also required for programme announcements, intermissions and interludes, as well as inter-programme information such as maps and charts. Much of televisions graphic needs (as in the feature film, newsreel and documentary industries) were met by sign-writers for lettering and commercial artists and card animators for illustrations.
 
@@ -108,10 +106,8 @@ It was Saul Bass though, who was to have the most influence on designers in the 
 
 His work on titles began almost by accident when working on an advertising campaign with the filmmaker Otto Preminger. Bass was designing a graphic symbol of a flame and a rose when he and Preminger came up with the idea of putting this image at the beginning of the film and animating it. Bass did this, adding credits to run over it, and from that moment on, Saul Bass became a title designer. He then went on to produce the titles for Preminger’s film <cite>The Man with the Golden Arm</cite> in which:
 
-{% render 'figure'
-  content: '> Bass used abstract shapes to portray the disjointed and unhappy life of an addict.'
-  caption: 'Montagu 1991: 5'
-%}
+> Bass used abstract shapes to portray the disjointed and unhappy life of an addict.
+— Montagu 1991: 5
 
 as well as <cite>Grand Prix</cite> and <cite>Walk on the Wild Side</cite>. Bass later produced the title sequence for Alfred Hitchcock’s film <cite>Psycho</cite>, in which he also directed the famous shower sequence. This is what he became more interested in and moved from the title sequence, to directing sequences in feature films. Saul Bass revolutionised film-making. He allowed the title sequence to become an integral part of the film — the prologue in which the mood could be set instead of just a series of captions.
 

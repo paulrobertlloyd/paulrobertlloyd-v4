@@ -30,10 +30,8 @@ However whether users would see these pages as the designer intended is another 
 
 For designers used to the control they have in print, designing for the web can be very frustrating.
 
-{% render 'figure'
-  content: '> Designers want what could be termed ‘What I See Is What You Get’, a system by which the typeface, colours and everything else that is determined by the designer appear as they were intended rather than as now, being customisable.'
-  caption: 'Burgoyne and Faber, 1999'
-%}
+> Designers want what could be termed ‘What I See Is What You Get’, a system by which the typeface, colours and everything else that is determined by the designer appear as they were intended rather than as now, being customisable.
+— Burgoyne and Faber, 1999
 
 The frustration of designing pages for different browsers as well as their different versions and platforms is set to get worse as different devices such as PDAs, telephones and television are all now have the ability to surf the web.
 
@@ -47,10 +45,8 @@ However, Flash is not an integral part of web browsers, and it requires users to
 
 This was one of the central reasons for the failure of Boo.com — an Internet only clothing retailer that became a casualty of the ‘dot com’ collapse.
 
-{% render 'figure'
-  content: '> From the day it launched technology was a problem for the online clothes retailer. Originally it was supposed to launch in May 1999 but technical hitches delayed the unveiling. When Boo.com finally went live last November it’s ambitious technology was there for all to see — if they could be bothered to wait for it to download.'
-  caption: 'Ward, 2000'
-%}
+> From the day it launched technology was a problem for the online clothes retailer. Originally it was supposed to launch in May 1999 but technical hitches delayed the unveiling. When Boo.com finally went live last November it’s ambitious technology was there for all to see — if they could be bothered to wait for it to download.
+— Ward, 2000
 
 But it wasn’t just the use of the technology that was to blame; it was in the way in which it was used. The site used an array of graphics, pop-up windows, and 3-D imagery that was all hard to navigate around, leaving its customers lost and unable to find their way back to a starting point.
 
@@ -58,10 +54,8 @@ The relative success of other online stores — Amazon being the most notable an
 
 The increasing use of Flash on websites has also sparked a debate as to whether it discourages usability. An expert in this field, Jakob Nielsen, is one person who thinks many designers are abusing Flash:
 
-{% render 'figure'
-  content: '> It’s poorly integrated into the hypertext medium, because you end up with two navigation spaces. You have the page navigation which is traditional hypertext, enabling you to click here to get to the next page, and click the back button to get to the previous one. But then you have the Flash navigation, which sort of sits inside of that other navigation — so if you click the back button, the entire Flash thing resets.'
-  caption: 'Jakob Nielsen, interview in <cite>Cre@teOnline</cite> magazine, September 2000'
-%}
+> It’s poorly integrated into the hypertext medium, because you end up with two navigation spaces. You have the page navigation which is traditional hypertext, enabling you to click here to get to the next page, and click the back button to get to the previous one. But then you have the Flash navigation, which sort of sits inside of that other navigation — so if you click the back button, the entire Flash thing resets.
+— Jakob Nielsen, interview in <cite>Cre@teOnline</cite> magazine, September 2000
 
 He has other concerns with the way designers use Flash, such as the use of non-standard navigation elements in their work, meaning that most users miss them or get confused, and how by designers insisting on the using Flash, distracts them from concentrating on a sites core values.
 
@@ -93,10 +87,8 @@ The site is built in Flash and contains no HTML alternative for those without th
 
 Some may see this as an example that only good sites can be created if they use technologies such as Flash. I would disagree, as the website for the band Radiohead aptly demonstrates. The design is regularly changed to coincide with the band’s album releases, and each time the site is very much an entity in its own right. The site always make the most out of the hypertext nature of the web, letting users make choices and find their own corridors through the site. As for content, this is usually in the form of
 
-{% render 'figure'
-  content: '> …sketches and ideas and images that don’t fit in anywhere… It has no news, no gig guide; no useful information at all. There are a lot of unofficial Radiohead sites that do what we don’t. We link to them because they’re useful and we aren’t.'
-  caption: 'Stanley Donwood, co-creator of radiohead.com'
-%}
+> …sketches and ideas and images that don’t fit in anywhere… It has no news, no gig guide; no useful information at all. There are a lot of unofficial Radiohead sites that do what we don’t. We link to them because they’re useful and we aren’t.
+— Stanley Donwood, co-creator of radiohead.com
 
 So as a site then, it’s pretty useless, but as a means of promoting the band’s image (the site contains a lot of links to sites such as ‘Jubilee2000’ and ‘Reclaim the Streets’) and driving fans into a community of other fans, the site works well, and does what it needs to do.
 

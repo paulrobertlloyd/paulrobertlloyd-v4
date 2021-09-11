@@ -10,10 +10,8 @@ category:
 tags:
   - source:24_ways
 ---
-{% render 'figure'
-  content: '> There are only two hard things in computer science: cache invalidation and naming things.'
-  caption: 'Phil Karlton'
-%}
+> There are only two hard things in computer science: cache invalidation and naming things.
+— Phil Karlton
 
 Being a professional web developer means taking responsibility for the code you write and ensuring it is comprehensible to others. Having a documented code style is one means of achieving this, although the size and type of project you’re working on will dictate the conventions used and how rigorously they are enforced.
 

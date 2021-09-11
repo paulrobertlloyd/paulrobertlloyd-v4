@@ -30,10 +30,8 @@ This use of repeating patterns is similar to the way we now build for the web. B
 
 Much like a design system, we can consider a front-end component as being made up of separate layers, or concerns.
 
-{% render 'figure'
-  content: '> I’ve found that thinking about my design as existing in broad experience tiers — in layers — is one of the best ways of designing for the modern web.'
-  caption: '[Ethan Marcotte](https://24ways.org/2015/putting-my-patterns-through-their-paces/)'
-%}
+> I’ve found that thinking about my design as existing in broad experience tiers — in layers — is one of the best ways of designing for the modern web.
+— [Ethan Marcotte](https://24ways.org/2015/putting-my-patterns-through-their-paces/)
 
 ## Component concerns
 

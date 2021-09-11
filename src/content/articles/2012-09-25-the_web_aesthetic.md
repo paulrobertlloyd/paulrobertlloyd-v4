@@ -41,10 +41,8 @@ _This article is [also available in Italian][it-IT]{hreflang="it-IT" rel="altern
   imageRatio: 2.25
 %}
 
-{% render 'figure'
-  content: '> It is the nature of the web to be flexible, and it should be our role as designers and developers to embrace this flexibility, and produce pages which, by being flexible, are accessible to all.'
-  caption: 'John Allsopp, <cite>[The Dao of Web Design](https://www.alistapart.com/articles/dao/)</cite>'
-%}
+> It is the nature of the web to be flexible, and it should be our role as designers and developers to embrace this flexibility, and produce pages which, by being flexible, are accessible to all.
+— John Allsopp, <cite>[The Dao of Web Design](https://www.alistapart.com/articles/dao/)</cite>
 
 Twelve years ago, John Allsopp asked us to embrace the adaptable nature of the web. We didn’t listen.
 

@@ -34,10 +34,8 @@ A second proposal put forward by Apple, the [`srcset` attribute][6], uses a more
 
 ## Enter Scrooge
 
-{% render 'figure'
-  content: '> Men’s courses will foreshadow certain ends, to which, if persevered in, they must lead.'
-  caption: '<cite>Ebenezer Scrooge</cite>'
-%}
+> Men’s courses will foreshadow certain ends, to which, if persevered in, they must lead.
+— Ebenezer Scrooge
 
 Given the complexity of this issue, there’s a heated debate about which is the best option. Yet code belies a certain truth. That both feature verbose and opaque syntax, I’m not sure either should find its way into the browser — especially as alternative approaches have yet to be fully explored.
 
