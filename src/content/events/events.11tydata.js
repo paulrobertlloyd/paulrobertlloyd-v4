@@ -11,7 +11,7 @@ module.exports = {
       const {url} = page;
       if (url && url.includes('imdb.com')) {
         const imdbId = url.replace(/https:\/\/www\.imdb\.com\/title\/(\w*)\/?/, '$1');
-        return `https://img.omdbapi.com/?apikey=e2e2ef5c&i=${imdbId}&h=560`;
+        return `https://img.omdbapi.com/?apikey=e2e2ef5c&i=${imdbId}&h=960`;
       }
     },
     shareImage: data => data.image,

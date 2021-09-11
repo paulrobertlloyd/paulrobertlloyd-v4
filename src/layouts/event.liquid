@@ -14,10 +14,7 @@
   -%}
   {%- capture content -%}
     {%- if image -%}
-      {%- render 'image' with image
-        class: 'align-start'
-        preset: 'thumbnail'
-      -%}
+      {%- image image 'thumbnail' -%}
     {%- endif -%}
     {{ content }}
   {%- endcapture -%}
