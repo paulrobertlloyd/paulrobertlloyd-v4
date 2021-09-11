@@ -5,9 +5,7 @@ bookmark-of: https://vimeo.com/36579366
 category:
   - Design
 ---
-{% render 'embed' with bookmark-of
-  poster: 'https://i.vimeocdn.com/video/251172173'
-%}
+{% embed bookmark-of 'https://i.vimeocdn.com/video/251172173' %}
 
 [Bret Victor][1] talks about why he is motivated to create creative tools, during his presentation at [CUSEC 2012][2]:
 

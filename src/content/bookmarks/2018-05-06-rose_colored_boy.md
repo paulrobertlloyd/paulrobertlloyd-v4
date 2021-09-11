@@ -6,9 +6,7 @@ category:
   - Video
   - Music videos
 ---
-{% render 'embed' with bookmark-of
-  ratio: '12/5'
-%}
+{% embed bookmark-of false '12/5' %}
 
 Turns out I’m a huge fan of <cite>Paramore</cite>. After seeing them [perform <cite>Rose-Colored Boy</cite> on the <cite>The Late Show</cite>][1] the other night, I’ve had [<cite>After Laughter</cite>][2] on repeat for most of this weekend.
 

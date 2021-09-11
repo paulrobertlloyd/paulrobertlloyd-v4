@@ -8,7 +8,7 @@ category:
   - Animation
 discussion: closed
 ---
-{% render 'embed' with bookmark-of %}
+{% embed bookmark-of %}
 
 I’ve not been able to get enough of [Christian Bale][1]’s recent rant on the set of Terminator 4, yet sadly there has only been audio available for this moment of madness.
 

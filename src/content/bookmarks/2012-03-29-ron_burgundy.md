@@ -7,6 +7,6 @@ category:
   - Film
   - Comedy
 ---
-{% render 'embed' with bookmark-of %}
+{% embed bookmark-of %}
 
 Best news I’ve heard all year.

@@ -7,9 +7,7 @@ category:
   - Olympics
   - Design
 ---
-{% render 'embed' with bookmark-of
-  poster: 'https://i.vimeocdn.com/video/663873356'
-%}
+{% embed bookmark-of 'https://i.vimeocdn.com/video/663873356' %}
 
 Canadian design super-duo [Hulse&Durrell][1], worked on what could only be described as [my dream project][2]. Researching 120 years of Olympic design heritage, they then [documented and digitised hundreds of assets][3] for use on officially licensed merchandise:
 

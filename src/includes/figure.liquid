@@ -2,11 +2,7 @@
 {%- if content %}
   {{- content | markdown -}}
 {%- elsif embed %}
-  {%- render 'embed'
-    embed: embed
-    poster: embedPoster
-    ratio: embedRatio | default: false
-  -%}
+  {%- embed embed embedPoster embedRatio -%}
 {%- else %}
   {%- render 'image' with figure
     preset: imagePreset

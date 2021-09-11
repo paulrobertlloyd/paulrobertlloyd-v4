@@ -5,7 +5,7 @@ bookmark-of: https://www.youtube.com/watch?v=UF8uR6Z6KLc
 category:
   - Steve Jobs
 ---
-{% render 'embed' with bookmark-of %}
+{% embed bookmark-of %}
 
 Steve Jobs’ 2005 Stanford commencement address is a lesson on how to lead a life of fulfilment:
 

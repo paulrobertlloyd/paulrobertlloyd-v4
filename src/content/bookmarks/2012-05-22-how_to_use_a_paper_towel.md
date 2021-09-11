@@ -6,6 +6,6 @@ category:
   - Video
   - Sustainability
 ---
-{% render 'embed' with bookmark-of %}
+{% embed bookmark-of %}
 
 A short yet entertaining TEDx presentation by Joe Smith on how to dry your hands using only a single paper towel.

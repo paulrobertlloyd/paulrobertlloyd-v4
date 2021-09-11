@@ -35,6 +35,7 @@ module.exports = function (eleventy) {
   eleventy.addFilter('tokenize', require('./lib/filters/tokenize.js'));
 
   // Shortcodes
+  eleventy.addShortcode('embed', require('./lib/shortcodes/embed.js'));
   eleventy.addShortcode('icon', require('./lib/shortcodes/icon.js'));
   eleventy.addShortcode('jf2Feed', require('./lib/shortcodes/jf2-feed.js'));
   eleventy.addShortcode('jsonFeed', require('./lib/shortcodes/json-feed.js'));
