@@ -16,19 +16,12 @@ category:
 tags:
   - featured
 ---
-{%- capture overlay %}geojson({{ geojson | json | escape }}){% endcapture -%}
-{%- capture map -%}
-{%- render 'map'
-  overlay: overlay
-  width: 360
-  height: 360
--%}
-{%- endcapture -%}
-
 ## Day 6
 
 {% render 'figure'
-  content: map
+  geojson: geojson
+  width: 360
+  height: 360
   caption: 'Route map: Hässleholm to Stockholm, continuing on to Oslo via Gothenburg.'
   alignment: 'pull'
 %}

@@ -16,15 +16,6 @@ category:
 tags:
   - featured
 ---
-{%- capture overlay %}geojson({{ geojson | json | escape }}){% endcapture -%}
-{%- capture map -%}
-{%- render 'map'
-  overlay: overlay
-  width: 360
-  height: 360
--%}
-{%- endcapture -%}
-
 *I was halfway through writing this post before getting distracted by, well, events. As I sit down to finally conclude this travelogue of my trip across Scandinavia, I’m thankful that I was able to spend at least a little time exploring foreign lands this year.*
 
 ## Day 14
@@ -71,8 +62,10 @@ The rest of the afternoon is spent inside the [Ludwig Museum][5], where I find m
 
 ## Day 16
 
-{% render 'figure'
-  content: map
+{% render 'map'
+  geojson: geojson
+  width: 360
+  height: 360
   caption: 'Route map: Copenhagen to Brighton via Cologne.'
   alignment: 'pull'
 %}
