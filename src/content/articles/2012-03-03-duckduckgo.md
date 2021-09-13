@@ -15,10 +15,8 @@ Even by ignoring these concerns, it’s hard to deny that their flagship product
 
 ## I want to break free (of your lies)
 
-{% render 'figure' with '/images/2012/03/duckduckgo.svg'
-  alt: 'DuckDuckGo logo'
-  alignment: 'pull'
-%}
+![DuckDuckGo logo.](/images/2012/03/duckduckgo.svg)
+{.align-pull}
 
 Fortunately, there’s an alternative. [DuckDuckGo][7] is a new(ish) search engine that’s gaining popularity in the same way Google did. I remember telling people during the late nineties “you should try this new search engine called Google… I know, it’s a funny name, but it’s much faster than Altavista/Yahoo/Excite, and the home page is really simple too”.
 

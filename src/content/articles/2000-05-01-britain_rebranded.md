@@ -18,9 +18,7 @@ Britain was in need of a new identity, yet this came at a time when the country 
 
 British companies operate on a global scale but many have decided that national associations are not good for business — looking at the number of privatised companies that changed their names will tell you that. British Telecom became BT in the early nineties, although other national telecom companies such as France Telecom and Deutsche Telekom hadn’t felt the same need. British Gas (now BG) and British Steel (now Corus) are two more recent examples.
 
-{% render 'figure' with '/images/2000/05/britain_rebranded/ba_logo.svg'
-  alt: 'New British Airways logo'
-%}
+![New British Airways logo.](/images/2000/05/britain_rebranded/ba_logo.svg)
 
 Another company finding itself in the media spotlight was British Airways. Preferring to be known as BA, it instigated a 60 million pound corporate re-branding that ditched its familiar Union Flag tail fins and replaced them with a number of multicultural designs instead. These represented the diversity of their passengers and destinations and would position the airline as “the undisputed leader in world travel”.
 
@@ -76,10 +74,8 @@ When a country like Britain spends 800 million pounds a year promoting itself ov
 
 ## What’s being done
 
-{% render 'figure' with '/images/2000/05/britain_rebranded/mp_logo.svg'
-  alt: 'Millennium Products logo'
-  alignment: 'pull'
-%}
+![Millennium Products logo.](/images/2000/05/britain_rebranded/mp_logo.svg)
+{.align-pull}
 
 With Labour in power, stars from the world of design, business and entertainment were often entertained at No. 10 and soon the idea of ‘Cool Britannia’ was alive and kicking. Whether ‘Cool Britannia’ was more for the benefit of the government than the country is debatable, but there was certainly a new sense of national optimism, helped in part by a renaissance in British film and fashion.
 

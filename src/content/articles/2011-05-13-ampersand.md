@@ -23,10 +23,8 @@ With that in mind, and excusing the obvious bias, I’m massively looking forwar
 
 > There’s so many interwoven, and sometimes adversarial, disciplines involved that I felt that everyone’s tale needed to be told. I wanted to try and tell the whole story in one day, from experts and practitioners of the different disciplines. I felt that if I, as primarily a website designer, knew more about the type design decisions, the hinting process, the issues browser makers have, then I could become a better designer.
 
-{% render 'figure' with '/images/2011/05/ampersand.svg'
-  alt: 'Ampersand logo'
-  alignment: 'pull'
-%}
+![Ampersand logo.](/images/2011/05/ampersand.svg)
+{.align-pull}
 
 Obviously web typography is a topic close to Clearleft’s heart, especially given our day-to-day experience working on [Fontdeck][12] and helping foundries bring their fonts to the web. Yet as Rich explains, there is something for everyone designing on the web — [the web is all about typography][13] after all. I think this event promises to be really special, even more so given the [giveaways][14], Phil Baines type tour and [$20 worth of free webfonts][15] for each attendee.
 

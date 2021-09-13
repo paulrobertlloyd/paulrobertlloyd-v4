@@ -55,6 +55,7 @@
     "markdown-it-attrs": "^4.0.0",
     "markdown-it-deflist": "^2.1.0",
     "markdown-it-footnote": "^3.0.3",
+    "markdown-it-image-figures": "^1.2.0",
     "markdown-it-mentions": "^1.0.0",
     "markdown-it-table-of-contents": "^0.5.2",
     "mime-type-check": "^2.0.0",

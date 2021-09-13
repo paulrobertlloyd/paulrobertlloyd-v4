@@ -33,9 +33,7 @@ Well, almost.
 
 Flexbox is most effective when creating micro layouts within parts of a page and positioning items in one dimension. Like for example, a page header:
 
-{% render 'figure' with '/images/2016/03/logical_flexbox/header-ltr.svg'
-  caption: 'Our header, with the site’s name on the left, and navigation items to the right.'
-%}
+![Screenshot of an example page header.](/images/2016/03/logical_flexbox/header-ltr.svg 'Our header, with the site’s name on the left, and navigation items to the right.')
 
 We can markup this header using the following HTML:
 
@@ -96,9 +94,7 @@ By giving the containing `<header>` the rule `display: flex`, its children will 
 
 *Whoa*{title="That’s English for stop a horse!"}, ring the assumption alarm! By adding this value, we’re making the assumption that the navigation will always appear on the right, but that’s not true if we need to support right-to-left text. Indeed, switching the document’s text direction will produce the following result:
 
-{% render 'figure' with '/images/2016/03/logical_flexbox/header-rtl-margin-left.svg'
-  caption: 'Our header as it appears when text direction is set right-to-left.'
-%}
+![Screenshot of example page header with items not appearing as intended.](/images/2016/03/logical_flexbox/header-rtl-margin-left.svg 'Our header as it appears when text direction is set right-to-left.')
 
 Because the left margin value hasn’t changed, the navigation will still be pushed as far to the right as it can go. What we actually want however, is for it pushed as far to the left, so that the header’s layout is now flipped.
 
@@ -140,9 +136,7 @@ nav a {
 
 With these adjustment in place, we get the desired result:
 
-{% render 'figure' with '/images/2016/03/logical_flexbox/header-rtl.svg'
-  caption: 'Our header now appears correctly when text direction is set right-to-left.'
-%}
+![Screenshot of example page header with items appearing as intended.](/images/2016/03/logical_flexbox/header-rtl.svg 'Our header now appears correctly when text direction is set right-to-left.')
 
 Including a `[dir]` selector in every rule featuring physical values soon makes our CSS overly verbose. Enter the [CSS Logical Properties][14] module. Rather than use physical `left` or `right` values, this module allows us to use values similar to those we’ve been using in Flexbox. Going back to my earlier example, instead of writing `text-align: left` we can write `text-align: start` — a value that already [has good support across most browsers][15].
 

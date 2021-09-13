@@ -15,10 +15,8 @@ As consumers grow ever reliant on digital products and services, designers are b
 
 _But what is a design system?_
 
-{% render 'figure' with '/images/2017/01/designing_systems_part_2/onion.svg'
-  alt: 'The layers of a design system. Radiating from a core set of principles, the next layer concerns guidance, the layer above that tools, with the final outer layer concerned with products'
-  alignment: 'pull'
-%}
+![The layers of a design system. Radiating from a core set of principles, the next layer concerns guidance, the layer above that tools, with the final outer layer concerned with products.](/images/2017/01/designing_systems_part_2/onion.svg)
+{.align-pull}
 
 Definitions vary, and the term is used somewhat interchangeably with related concepts like style guides. In highlighting the difference between the two, Nathan Curtis [arrived at one definition][1]:
 
@@ -47,9 +45,8 @@ Jared Spool has written about [creating meaningful principles][4] that can bette
 
 ## Guidance
 
-{% render 'figure' with '/images/2017/01/designing_systems_part_2/onion_r2.svg'
-  alignment: 'pull'
-%}
+![The layers of a design system with ‘Guidance’ layer highlighted.](/images/2017/01/designing_systems_part_2/onion_r2.svg)
+{.align-pull}
 
 With a set of guiding principles in place, you can then look to the creation of guidelines. Artifacts of a design process, these document how different practitioners should embody these principles in their own work.
 
@@ -91,9 +88,8 @@ Realising that passengers cared more about the connections between the various l
 
 ## Tools
 
-{% render 'figure' with '/images/2017/01/designing_systems_part_2/onion_r3.svg'
-  alignment: 'pull'
-%}
+![The layers of a design system with ‘Tools’ layer highlighted.](/images/2017/01/designing_systems_part_2/onion_r3.svg)
+{.align-pull}
 
 Guidance alone can’t help us build products. We need tools that go beyond this low-level direction (the ‘what’), and enable people to implement these rules in a meaningful way (the ‘how’). These are the concern of our next layer.
 
@@ -109,9 +105,7 @@ Somewhere in the middle, a solution needed to be found.
 
 Enter, [the container model][14]. A systematic approach to page composition, this proposed that **items** (each representing a story) could be arranged into different horizontal **slices**, which themselves could be combined to create **containers**.
 
-{% render 'figure' with '/images/2017/01/designing_systems_part_2/container_model.svg'
-  caption: 'The container model: items, slices and containers.'
-%}
+![Diagram of the container model.](/images/2017/01/designing_systems_part_2/container_model.svg 'The container model: items, slices and containers.')
 
 Building containers by combining items and slices allowed for an incredible range of flexibility *and* reduced the amount of code needed to support it. Each container could focus on a particular theme, say people in the news, the latest video content or a featured news story. Containers could also be shared across different pages and in varying positions, too. For example, the most popular stories container could be shown midway on the homepage, and also towards the foot of every article page.
 
@@ -131,17 +125,14 @@ In <cite>[101 Things I learned in Architecture School][15]</cite>, Mark Frederic
 
 * **Informed simplicity**: an enlightened world view, in which a person has developed the ability to recognise and create patterns within complex mixtures.
 
-{% render 'figure' with '/images/2017/01/designing_systems_part_2/three_levels_of_knowing.svg'
-  caption: '**Simplicity:** 3 elements used to create 3 spaces; **Complexity**: 12 elements used to create 12 spaces; **Informed simplicity:** 3 elements combined to create 12 spaces.'
-%}
+![Diagram depicting the three levels of knowing.](/images/2017/01/designing_systems_part_2/three_levels_of_knowing.svg '**Simplicity:** 3 elements used to create 3 spaces; **Complexity**: 12 elements used to create 12 spaces; **Informed simplicity:** 3 elements combined to create 12 spaces.')
 
 This perfectly encapsulates the process we went though at the Guardian, and one I’ve experienced many times since. Only by working with the different pieces long enough, experimenting with various combinations, can you devise a system (or *systems*) that sufficiently model the underhand complexity.
 
 ## Products
 
-{% render 'figure' with '/images/2017/01/designing_systems_part_2/onion_r4.svg'
-  alignment: 'pull'
-%}
+![The layers of a design system with ‘Products’ layer highlighted.](/images/2017/01/designing_systems_part_2/onion_r4.svg)
+{.align-pull}
 
 Returning to [the first part of this essay][2], systems need to survive contact with the real world. Writing about GE’s design system, Predix [Jeff Crossman noted that][16]:
 
@@ -169,9 +160,8 @@ Included in the idiom is a new map that gives contractors a station-by-station g
 
 ### Shearing layers
 
-{% render 'figure' with '/images/2017/01/designing_systems_part_2/shearing_layers.svg'
-  alignment: 'pull'
-%}
+![](/images/2017/01/designing_systems_part_2/shearing_layers.svg)
+{.align-pull}
 
 In <cite>[How Buildings Learn][18]</cite>, Stewart Brand expands upon Frank Duffy’s idea that different timescales can be seen to effect a building. Called shearing layers, he describes these as follows:
 
