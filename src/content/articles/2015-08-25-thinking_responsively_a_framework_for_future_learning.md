@@ -13,11 +13,8 @@ tags:
 ---
 _This article is [also available in Italian][it-IT]{hreflang="it-IT" rel="alternate external"}_
 
-{% render 'figure' with '/images/2015/08/thinking_responsively_a_framework_for_future_learning/illustration.png'
-  caption: 'Illustration: [Brad Colbow](http://alistapart.com/author/bradcolbow) for A List Apart.'
-  alignment: 'bleed'
-  imageRatio: 2.25
-%}
+![](/images/2015/08/thinking_responsively_a_framework_for_future_learning/illustration.png 'Illustration: [Brad Colbow](http://alistapart.com/author/bradcolbow) for A List Apart.'){data-responsiver="wide"}
+{.align-bleed}
 
 Before the arrival of smartphones and tablets, many of us took a position of blissful ignorance. Believing we could tame the web’s inherent unpredictability, we prescribed requirements for access, prioritizing our own needs above those of users.
 

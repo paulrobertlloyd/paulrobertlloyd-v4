@@ -9,10 +9,8 @@ category:
   - History
   - Politics
 ---
-{% render 'figure' with '/images/2011/02/the_kings_speech.jpg'
-  caption: 'Colin Firth in The King’s Speech.'
-  alignment: 'bleed'
-%}
+![](/images/2011/02/the_kings_speech.jpg 'Colin Firth in The King’s Speech.')
+{.align-bleed}
 
 However you wish to measure it, <cite>[The King’s Speech][1]</cite> is undoubtedly one of the most successful independent British films ever made. Fascinated by 20th century history, [I had been looking forward to this film][2] since last October, but didn’t imagine it achieving much wider appeal. However, some see such popularity as problematic given the artistic licence given to the events portrayed.
 

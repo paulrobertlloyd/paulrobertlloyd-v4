@@ -12,10 +12,8 @@ category:
   - England men’s national football team
 discussion: closed
 ---
-{% render 'figure' with '/images/2009/03/tailored_for_england/crest.jpg'
-  caption: 'The England crest as it appears on the new shirt.'
-  alignment: 'bleed'
-%}
+![](/images/2009/03/tailored_for_england/crest.jpg 'The England crest as it appears on the new shirt.')
+{.align-bleed}
 
 From humble beginnings where teams wore different strips only to tell themselves apart, today football kits have become a huge revenue opportunity for clubs and sportswear manufactures.
 
@@ -44,9 +42,7 @@ I really admire the braveness of this new design, one which is clearly revolutio
 
 Whilst I’m sure the design is still targeted at the consumer, perhaps it’s telling that the new shirts will be custom tailored for each player. With a design that harks back to a more respectful age, let’s hope it will remind players to perform to the standard expected of them, those few who have the rare opportunity to wear the three lions and play for England. [Early indications look positive][1]. You can learn more about the new kit at [umbro.com][2].
 
-{% render 'figure' with '/images/2009/03/tailored_for_england/shirt.jpg'
-  caption: 'The new 2009/11 England shirt.'
-%}
+![](/images/2009/03/tailored_for_england/shirt.jpg 'The new 2009/11 England shirt.')
 
 [1]: http://news.bbc.co.uk/sport1/hi/football/internationals/7967094.stm
 [2]: http://www.umbro.com/

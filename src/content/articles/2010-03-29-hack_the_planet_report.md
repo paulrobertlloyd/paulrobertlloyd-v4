@@ -23,10 +23,8 @@ screenshots:
   - url: /images/2010/03/hack_the_planet_report/team_b_rating_schwag.png
     alt: A form within the flow for rating schwag.
 ---
-{% render 'figure' with '/images/2010/03/hack_the_planet_report/event.jpg'
-  caption: 'The two teams at work.'
-  alignment: 'bleed'
-%}
+![](/images/2010/03/hack_the_planet_report/event.jpg 'The two teams at work.')
+{.align-bleed}
 
 As promised, here is a follow-up on [Hack The Planet](/2010/02/hack_the_planet), our hack day held in Birmingham last month.
 

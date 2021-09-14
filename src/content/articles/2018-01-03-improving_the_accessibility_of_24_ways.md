@@ -101,11 +101,8 @@ I’ve found that by thinking about an interface in terms of common interaction 
 
 ## Properly labelling elements
 
-{% render 'figure' with '/images/2018/01/improving_the_accessibility_of_24_ways/traverse.png'
-  caption: 'Navigation component that allows users to move between articles in a series.'
-  alignment: 'pull'
-  imagePreset: 'supporting'
-%}
+![](/images/2018/01/improving_the_accessibility_of_24_ways/traverse.png 'Navigation component that allows users to move between articles in a series.'){data-responsiver="supporting"}
+{.align-pull}
 
 A good amount of accessibility comes down to labelling things that rely on visual appearance alone to convey meaning. Much like the `alt` attribute allows us to describe images, `aria-label` (and its relations) [extend this ability to other elements][13].
 
@@ -210,9 +207,7 @@ Adding `speak: none` had no effect (CSS aural properties have little support). H
 }
 ```
 
-{% render 'figure' with '/images/2018/01/improving_the_accessibility_of_24_ways/continue.png'
-  caption: 'Continue links before and after improvements. While they look similar, the revised design sounds much better.'
-%}
+![](/images/2018/01/improving_the_accessibility_of_24_ways/continue.png 'Continue links before and after improvements. While they look similar, the revised design sounds much better.')
 
 I also made improvements to the styling of author names in article summaries. Originally, these were distinguished from the rest of the excerpt by styling them as uppercase text. Francis pointed out that some screen readers will spell out uppercase letters (regardless of whether they appear in the HTML or have been altered by CSS) if they don’t spell a known word. For example: VoiceOver and NVDA have trouble with Chris Coyier’s surname, so his name would be read aloud as <samp>Chris C-O-Y-I-E-R</samp>. The simple fix was to distinguish names using emboldened text instead.
 

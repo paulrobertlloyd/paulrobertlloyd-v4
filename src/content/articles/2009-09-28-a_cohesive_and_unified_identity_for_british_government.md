@@ -32,9 +32,7 @@ Other governments have a similar array of logos of course, but a few have implem
 
 Whilst there is no coordinated branding strategy within the US Federal Government, there is some consistency, largely the result of historical precedent than any centralised planning. Here government departments, federal agencies and programmes use round seals, basing their designs on that of the Great Seal, or referencing aspects of it such as the Bald Eagle or the Stars and Stripes.
 
-{% render 'figure' with '/images/2009/09/government_identity/united_states.png'
-  caption: '**Seals of US Federal Government:** The Great Seal of the United States and seals for the President, Department of State, Department of Education, NASA, Department of Homeland Security (DHS) and the Recovery.gov website. Both the DHS and Recovery.gov seals are recent creations, and whilst they have simpler designs, they still retain the circular format and visual language seen in other seals.'
-%}
+![](/images/2009/09/government_identity/united_states.png '**Seals of US Federal Government:** The Great Seal of the United States and seals for the President, Department of State, Department of Education, NASA, Department of Homeland Security (DHS) and the Recovery.gov website. Both the DHS and Recovery.gov seals are recent creations, and whilst they have simpler designs, they still retain the circular format and visual language seen in other seals.')
 
 ### Germany
 
@@ -46,9 +44,7 @@ The final identity was launched in June 1999 and [MetaDesign has been involved e
 
 [Design Documentation for the Federal Government](http://styleguide.bundesregierung.de/){hreflang="de-DE"} (in German)
 
-{% render 'figure' with '/images/2009/09/government_identity/germany.png'
-  caption: '**Logos used by the German Federal Government:** One single (and scalable) identity system is used across all federal ministries and agencies. Shown here are logos for the Federal Goverment, the Federal Ministry of Education and Research, the Federal Supervisory Authority for Air Navigation Services and the Federal Archives.'
-%}
+![](/images/2009/09/government_identity/germany.png '**Logos used by the German Federal Government:** One single (and scalable) identity system is used across all federal ministries and agencies. Shown here are logos for the Federal Goverment, the Federal Ministry of Education and Research, the Federal Supervisory Authority for Air Navigation Services and the Federal Archives.')
 
 ### Netherlands
 
@@ -58,25 +54,19 @@ The identity was created by Rotterdam based [Studio Dunbar][3] with a [custom ty
 
 [Project 1 Logo Design Guidelines](https://web.archive.org/web/20110228221006/http://rijkshuisstijl.communicatieplein.nl/){hreflang="nl-NL"} (retrieved from the Internet Archive, in Dutch)
 
-{% render 'figure' with '/images/2009/09/government_identity/netherlands.png'
-  caption: '**Logos for Dutch Government and ministries:** A single identity system is used across the different Dutch ministries. Shown here are the main government logo are those for ministries of Justice; Health, Welfare and Sport; Finance and Foreign Affairs.'
-%}
+![](/images/2009/09/government_identity/netherlands.png '**Logos for Dutch Government and ministries:** A single identity system is used across the different Dutch ministries. Shown here are the main government logo are those for ministries of Justice; Health, Welfare and Sport; Finance and Foreign Affairs.')
 
 ## Future approach
 
 Although a highly visible (and initially expensive) identity programme might meet some resistance in the UK, with a phased roll out, the long term benefits are clear. In fact, holistic branding exercises are already common within the public sector. The Northern Ireland Executive uses [a cohesive identity across its different departments][6] and the NHS in England has been using [strict branding guidelines][7] for several years.
 
-{% render 'figure' with '/images/2009/09/government_identity/ni_executive.png'
-  caption: '**Logos for the Northern Ireland Executive and departments.**'
-%}
+![](/images/2009/09/government_identity/ni_executive.png '**Logos for the Northern Ireland Executive and departments.**')
 
 ### Design
 
 The HM Government logo introduced earlier this decade could provide clues to what a unified identify might look like, with the government’s coat of arms sat alongside a word-mark set in Gill Sans Light. Logos for the Ministry of Justice, Treasury, Foreign and Cabinet Offices also feature this coat of arms, whilst the Treasury and the Department for Business Innovation and Skills use Gill Sans too.
 
-{% render 'figure' with '/images/2009/09/government_identity/uk_now.png'
-  caption: '**A selection of logos used by the British government today:** Whilst there is no coherent identity within British Government, a number of patterns emerge, with the coat of arms and Gill Sans being popular choices for some logos. However not every department shares this visual language, and all have implemented separate identity schemes.'
-%}
+![](/images/2009/09/government_identity/uk_now.png '**A selection of logos used by the British government today:** Whilst there is no coherent identity within British Government, a number of patterns emerge, with the coat of arms and Gill Sans being popular choices for some logos. However not every department shares this visual language, and all have implemented separate identity schemes.')
 
 Maintaining the coat of arms is probably a requirement for any future identity work, although it requires simplification; it clearly doesn’t resize well or reproduce cleanly enough on screen. While Gill Sans is often considered the de facto font for anything British, I would love to see a custom typeface designed in the same vein as that for the Dutch government. It would have to work across the wide spectrum of government activity, and heavy usage could result in it becoming a British classic (and arguably better suited to the requirements of the 21st Century too).
 
@@ -86,9 +76,7 @@ Personally, I would like to see departments named ministries again — partly be
 
 Below is a suggestion as to how a unified identity might look, although I’m sure there are far more creative solutions. I’ve no doubt this is a massive project, one that would require a lot of research, and the resulting identity system would need to adapt easily to continual government reorganisation.
 
-{% render 'figure' with '/images/2009/09/government_identity/uk_proposal.png'
-  caption: 'How a unified identity for the British government might look.'
-%}
+![](/images/2009/09/government_identity/uk_proposal.png 'How a unified identity for the British government might look.')
 
 Given the growing number of identity schemes implemented by other governments, it seems we are already behind. However there is still a massive opportunity for the British design community to think about how such a problem could be solved. That David Cameron [rebranded his own party][8] on becoming leader, I’m hopeful a similar exercise is soon seen at government level too.
 

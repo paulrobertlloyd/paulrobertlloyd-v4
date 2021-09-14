@@ -12,10 +12,8 @@ category:
   - Design systems
   - Web
 ---
-{% render 'figure' with '/images/2017/03/designing_systems_part_3/brasilia_motifs.jpg'
-  caption: 'Common architectural motifs can be seen across many of Brasília’s civic buildings.'
-  alignment: 'bleed'
-%}
+![](/images/2017/03/designing_systems_part_3/brasilia_motifs.jpg 'Common architectural motifs can be seen across many of Brasília’s civic buildings.')
+{.align-bleed}
 
 When I visited Brasilìa in 2011, I observed the [repeating architectural motifs][1] used by Oscar Niemeyer across his different signature buildings. Common themes included:
 
@@ -179,9 +177,7 @@ but instead producing something more akin to a design specification, from which 
 
 This is similar to the system used at the Guardian. [Guss][9] is a set of Sass mixins and helpers that allow components to be described using a language familiar to everyone on the team, be they designers, developers, product managers or other stakeholders.
 
-{% render 'figure' with '/images/2017/03/designing_systems_part_3/guss.png'
-  caption: 'An example of Guss being used to describe a featured story item.'
-%}
+![](/images/2017/03/designing_systems_part_3/guss.png 'An example of Guss being used to describe a featured story item.')
 
 There’s a temptation to over-use tools like [Sass][10] and other pre-processors, and I wasn’t so keen on them until I realised their true superpower: they allow us embed shared vocabularies in code.
 
@@ -197,10 +193,8 @@ That’s how I tend to approach building my components, and your millage my vary
 
 Let’s return to Brasília. While Niemeyer’s buildings are gorgeous, they suffer from an emphasis on form over function. For example, the National Congress has a huge ramp at the front that would appear to be its entrance. In fact it’s purely decorative; a point reinforced by a barrier that sits half way up to prevent the public clambering onto the roof, which itself occupied by armed guards!
 
-{% render 'figure' with '/images/2017/03/designing_systems_part_3/brasilia_national_congress.jpg'
-  caption: 'The National Congress building in Brasilìa. Photograph: [Juniorseropedica](https://commons.wikimedia.org/wiki/File:Congresso_nacional_Bras%C3%ADlia.jpg).'
-  alignment: 'bleed'
-%}
+![](/images/2017/03/designing_systems_part_3/brasilia_national_congress.jpg 'The National Congress building in Brasilìa. Photograph: [Juniorseropedica](https://commons.wikimedia.org/wiki/File:Congresso_nacional_Bras%C3%ADlia.jpg)')
+{.align-bleed}
 
 Costa’s layout suffers similarly. Along the city’s main axis exist large areas of green space. I’m sure these satisfied an objective of providing open areas for people to relax in, yet their simplistic placement ignores the fact that to reach them you need to cross six lanes of traffic.
 
@@ -234,9 +228,7 @@ A front-end component is…
 
 In our quest to build modular systems with a predictability like Lego, libraries and tools have sought to address these differences. Approaches to CSS deliberately undermine the cascade while [React][12] components combine HTML and JavaScript into a single JSX file. These approaches are understandable, and not necessarily wrong, but it does feel like we’re working against the grain of the of the web.
 
-{% render 'figure' with '/images/2017/03/designing_systems_part_3/lego_patent.png'
-  caption: 'A section of the original Lego patent.'
-%}
+![](/images/2017/03/designing_systems_part_3/lego_patent.png 'A section of the original Lego patent.')
 
 Perhaps Lego is the right example, we’ve just been looking at the wrong aspect of it. The most important aspect of Lego is not so much the bricks themselves, but the system of tubes and stubs that holds them to together. New bricks have been added to the system over the years, yet a brick manufactured today will still connect with one of the first produced in 1958.
 

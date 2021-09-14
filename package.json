@@ -46,6 +46,7 @@
     "cssnano": "^5.0.8",
     "date-fns-tz": "^1.1.6",
     "dotenv": "^10.0.0",
+    "eleventy-plugin-images-responsiver": "^1.9.1",
     "geolib": "^3.3.1",
     "ics": "^2.31.0",
     "liquidjs": "9.28.0",

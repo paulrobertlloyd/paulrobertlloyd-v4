@@ -35,11 +35,8 @@ photoset:
 ---
 _This article is [also available in Italian][it-IT]{hreflang="it-IT" rel="alternate external"}_
 
-{% render 'figure' with '/images/2012/09/the_web_aesthetic/illustration.png'
-  caption: 'Illustration: [Kevin Cornell](http://alistapart.com/authors/c/kevincornell) for A List Apart.'
-  alignment: 'bleed'
-  imageRatio: 2.25
-%}
+![](/images/2012/09/the_web_aesthetic/illustration.png 'Illustration: [Kevin Cornell](http://alistapart.com/authors/c/kevincornell) for A List Apart.'){data-responsiver="wide"}
+{.align-bleed}
 
 > It is the nature of the web to be flexible, and it should be our role as designers and developers to embrace this flexibility, and produce pages which, by being flexible, are accessible to all.
 — John Allsopp, <cite>[The Dao of Web Design](https://www.alistapart.com/articles/dao/)</cite>
@@ -85,9 +82,7 @@ Before “killer websites” and the desire to produce print-like layouts — wh
 
 In 1995, [Hotwired][4] used just sixteen colors. Navigation on the homepage consisted of little more than six four-color, 1kb GIFs representing each topic area. The layout was just those images, centered:
 
-{% render 'figure' with '/images/2012/09/the_web_aesthetic/hotwired_1995.png'
-  caption: 'Hotwired, circa 1995.'
-%}
+![](/images/2012/09/the_web_aesthetic/hotwired_1995.png 'Hotwired, circa 1995.')
 
 Surrounded by high-resolution displays and limitless bandwidth, it’s easy to forget that similar constraints still exist. Although devices are becoming ever more powerful and feature-rich, less capable devices continue to be developed as well; for example, the Amazon Kindle is a popular device, yet most of the line’s e-reader models feature cellular connectivity and a monochrome E Ink display.
 
@@ -164,37 +159,27 @@ That these apps can only be viewed using Chrome is an unnerving requirement, and
 
 When we think of websites inspired by print, those of newspapers spring to mind. The website for [_The New York Times_][12] features a fixed, densely packed, multi-column grid. Like many contemporary sites, content is suffocated by advertising, sharing widgets, and related links:
 
-{% render 'figure' with '/images/2012/09/the_web_aesthetic/nytimes_site.png'
-  caption: 'New York Times Website Interface'
-%}
+![](/images/2012/09/the_web_aesthetic/nytimes_site.png 'New York Times website interface.')
 
 The inappropriateness of this design becomes more apparent when compared to its [Chrome App][13] (which is thankfully accessible in other browsers). Content takes center stage, with a less cluttered, more focused interface that’s also responsive — to a point. Note that it also features less photographic imagery, supporting the idea that responsive images might only be a problem when web designers try to replicate print.
 
-{% render 'figure' with '/images/2012/09/the_web_aesthetic/nytimes_app.png'
-  caption: 'New York Times Application Interface'
-%}
+![](/images/2012/09/the_web_aesthetic/nytimes_app.png 'New York Times application interface.')
 
 ### Task-oriented sites
 
 Another website that suffers from similarly crowded layouts is [BBC Good Food:][14]
 
-{% render 'figure' with '/images/2012/09/the_web_aesthetic/bbc_good_food_site.png'
-  caption: 'BBC Good Food Website Interface'
-%}
+![](/images/2012/09/the_web_aesthetic/bbc_good_food_site.png 'BBC Good Food website interface.')
 
 Yet, when viewing a recipe page in its [Chrome app,][15] we again see a more considered, user-centered design; it’s far easier to follow a recipe when you don’t have to scroll the page.
 
-{% render 'figure' with '/images/2012/09/the_web_aesthetic/bbc_good_food_app.png'
-  caption: 'BBC Good Food Application Interface'
-%}
+![](/images/2012/09/the_web_aesthetic/bbc_good_food_app.png 'BBC Good Food application interface.')
 
 ### Content, not chrome
 
 A final example of this trend can be found on [Rdio][16]. As the music-streaming service has evolved, its designers have sought consistency between the website and desktop application. Where once these interfaces shared only a few components, now they are largely the same. This has resulted in a design that falls somewhere between the two: not quite a website, but not quite a desktop application either.
 
-{% render 'figure' with '/images/2012/09/the_web_aesthetic/rdio.png'
-  caption: 'Rdio Website Interface'
-%}
+![](/images/2012/09/the_web_aesthetic/rdio.png 'Rdio website interface.')
 
 Like the Chrome apps for <cite>The New York Times</cite> and BBC Good Food, this nudge toward a more app-like interface has resulted in a stronger focus on content (in this case, album covers), a more fluid layout, and less intrusive navigation.
 

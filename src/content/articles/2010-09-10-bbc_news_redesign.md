@@ -14,9 +14,7 @@ discussion: closed
 ---
 Earlier this year the BBC announced it was creating a new version of it’s Global Visual Language (GVL). Building upon the success of its predecessor, these new guidelines would give the organisation a consistent yet highly distinctive visual style to use online.
 
-{% render 'figure' with '/images/2010/09/bbc_news_redesign/homepage.jpg'
-  caption: 'The new BBC News website.'
-%}
+![](/images/2010/09/bbc_news_redesign/homepage.jpg 'The new BBC News website.')
 
 Developed alongside respected designer Neville Broody, the new version — [dubbed GVL3][1] — was based upon nine founding design principles, with outputs including a more flexible grid, controlled typography usage, specified colour palettes, iconography and documentation of common design patterns. Furthermore, the BBC website would slavishly adhere to these guidelines, meaning a site historically disparate and segregated would end up with a single, consistent and identifiable style.
 
@@ -46,9 +44,7 @@ The BBC is often careful to test new designs with its users, but this time it fe
 
 ## One page, a thousand interactions
 
-{% render 'figure' with '/images/2010/09/bbc_news_redesign/msnbc.jpg'
-  caption: 'An article page on the new MSNBC website.'
-%}
+![](/images/2010/09/bbc_news_redesign/msnbc.jpg 'An article page on the new MSNBC website.')
 
 A few weeks before the new BBC News site launched, American news organisation [MSNBC][9] launched a [redesign of its own][10]. In the commercial world, the needs of advertisers are often valued over those of users and page views rule (thankfully the the BBC is not bound by such constraints). As such, news articles tend to be split across several pages and have become surrounded by intrusive adverts — it’s easy to see why tools like [Readability][11] and Safari’s Reader feature are gaining popularity.
 
@@ -62,10 +58,8 @@ Whilst some of these interactions are interesting, it appears to be innovation f
 
 Perhaps the BBC should point disgruntled users to MSNBC, as I’m sure they would come running back. With GVL3 in full effect, the new site takes this approachable homogeneity, and infuses it with the strong BBC News brand.
 
-{% render 'figure' with '/images/2010/09/bbc_news_redesign/variations.png'
-  caption: 'Different layout variations available to editors on the new BBC News website.'
-  alignment: 'bleed'
-%}
+![](/images/2010/09/bbc_news_redesign/variations.png 'Different layout variations available to editors on the new BBC News website.')
+{.align-bleed}
 
 One of the key features of the new design is greater flexibility for editors, and this can clearly be seen on the new home page. Where previously strict templates required a main story be followed by two other leading stories (each with an associated images regardless how useful these may be), this new flexibility allows for a number of different page layouts, headline sizes and has no image requirements. **The design is dictated by the content**, rather than the other way round. This flexibility extends to section pages — flicking through these different pages perfectly demonstrates this new adaptability.
 

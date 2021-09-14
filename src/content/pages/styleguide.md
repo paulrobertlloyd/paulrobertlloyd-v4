@@ -109,21 +109,15 @@ Here is another term.
 
 The `figure` element is used to annotate illustrations, diagrams, photos, code listings or provide a citation for an excerpted piece of content. The following examples show a section of pre-formatted text, a quotation and an image:
 
-{% render 'figure' with '/images/2017/05/away_to_galway/wild_atlantic_way.jpg'
-  caption: 'Single image, with supporting caption.'
-%}
+![Photo taken during my drive on the Wild Atlantic Way.](/images/2017/05/away_to_galway/wild_atlantic_way.jpg 'Single image, with supporting caption.')
 
 For figures using the `.align-bleed` modifier, the content will stretch across the entire width of the page.
 
-{% render 'figure' with '/images/2017/05/away_to_galway/roundstone_quay.jpg'
-  caption: 'Single image, with supporting caption.'
-  alignment: 'bleed'
-%}
+![Photo of Salthill Diving Tower.](/images/2017/05/away_to_galway/salthill_diving_tower.jpg 'Single image, with supporting caption.')
+{.align-bleed}
 
-{% render 'figure' with '/images/2017/05/away_to_galway/roundstone_quay.jpg'
-  caption: 'Single image, with supporting caption.'
-  alignment: 'pull'
-%}
+![Photo of Roundstone Quay.](/images/2017/05/away_to_galway/roundstone_quay.jpg 'Single image, with supporting caption.')
+{.align-pull}
 
 For figures using the `.align-pull` utility, the content will be floated to the right side of the page. Note also that the classes `align-start` and `align-end` are available for floating content to the start or end of a passage of text.
 

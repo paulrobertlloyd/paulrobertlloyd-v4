@@ -79,15 +79,11 @@ These questions can be answered by our visual design language. More than a set o
 
 Whereas a style guide ensures conformity, having it underpinned by an effective design language will allow for flexibility; only by knowing the rules can you know how to break them!
 
-{% render 'figure' with '/images/2016/12/beyond_the_style_guide/us-web-standards-pairings.png'
-  caption: 'Type pairings in the US Web Design Standards guide.'
-%}
+![](/images/2016/12/beyond_the_style_guide/us-web-standards-pairings.png 'Type pairings in the US Web Design Standards guide.')
 
 For a style guide to thoroughly articulate a visual design system, the spectrum of choices it allows for should be acknowledged. A fantastic example of this can be found in the [US Web Design Standards][12]. By virtue of being a set of standards designed to apply to a number of different sites, this guide offers [a range of type pairings][13] (that take into account performance considerations) and provides primary, secondary and tertiary [palette relationships][14], with shades and tones thereof:
 
-{% render 'figure' with '/images/2016/12/beyond_the_style_guide/us-web-standards-palettes.png'
-  caption: 'Colour palettes in the US Web Design Standards guide.'
-%}
+![](/images/2016/12/beyond_the_style_guide/us-web-standards-palettes.png 'Colour palettes in the US Web Design Standards guide.')
 
 ## A visual language in code form
 
@@ -97,9 +93,7 @@ In Sass, methods like mixins and maps can help us represent relationships betwee
 
 Take this simple example, an article summary on a website counting down the best Christmas movies:
 
-{% render 'figure' with '/images/2016/12/beyond_the_style_guide/component.png'
-  caption: 'The design for our simple component example.'
-%}
+![](/images/2016/12/beyond_the_style_guide/component.png 'The design for our simple component example.')
 
 Our markup is as follows, using appropriate semantic HTML elements and incorporating the vocabulary from our collection of design patterns (expressed using the BEM methodology):
 
@@ -158,9 +152,7 @@ We can then describe the presentation of this HTML by using [Sass maps to define
 
 Of course, this is a simplistic example for the purposes of demonstration. However, such thinking was employed at a much larger scale at the Guardian. Using [a set of Sass components][17], complex patterns could be described [using a language familar to everyone on the product team][18], be they a designer, developer or product owner:
 
-{% render 'figure' with '/images/2016/12/beyond_the_style_guide/guardian-guss.png'
-  caption: 'The design of a component on the Guardian website, described in terms of its Sass-powered design system.'
-%}
+![](/images/2016/12/beyond_the_style_guide/guardian-guss.png 'The design of a component on the Guardian website, described in terms of its Sass-powered design system.')
 
 ## Unlocking possibility
 

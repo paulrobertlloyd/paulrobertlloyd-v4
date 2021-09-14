@@ -78,9 +78,7 @@ The final reason I question the need for container queries is that a change in l
 
 On a recent e-commerce project I worked on, this scenario occurred on a number of occasions. On product listings, results could be narrowed by selecting options from a series of facets: size, colour, type etc. On narrow viewports, we decided to show these options within a model dialog, with facets presented within a series of disclosures; on wider viewports however, these facets appeared within a set of menus above the results:
 
-{% render 'figure' with '/images/2017/04/container_queries/components.png'
-  caption: 'Search facets on a narrow and wide viewport. While the same information is being displayed, essentially two different components are required.'
-%}
+![Search facets on a narrow and wide viewport.](/images/2017/04/container_queries/components.png 'While the same information is being displayed, essentially two different components are required.')
 
 Another example appeared on the product item page. On narrower viewports, a gallery of images was presented as a swipeable carousel. On larger viewports, the increased screen estate meant not only could the selected image be shown larger, but that image could be tapped on to reveal a full-screen overlay within which a user could zoom-in to see more detail. Granted, both of these examples adapted their design based on the size of the viewport, but conceptually the same changes in behaviour might apply if their size was dependant on the dimensions of a parent container.
 

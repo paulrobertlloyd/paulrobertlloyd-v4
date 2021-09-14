@@ -46,9 +46,7 @@ The [theme for 2010][1] was fairly broad so I decided to make a feature of the s
 
 Prior to this event, Clearleft used plastic wallets to hold the combined conference programme and name badge. I advocated a different approach, one that would omit plastic, create less waste and be cheaper to produce. After extensive prototyping, and with help from Gareth Jones at Jack Design, this event featured [a greener, paper-only conference badge][2] directly attached to the lanyard by loop staples. This design served as a model for successive conferences run by Clearleft and other conference producers.
 
-{% render 'figure' with '/images/2010/08/dconstruct_conference_badge.jpg'
-  caption: 'Conference badge for dConstruct 2010. Photograph: [James Box](https://www.flickr.com/photos/b0xman/4929704982/).'
-%}
+![](/images/2010/08/dconstruct_conference_badge.jpg 'Conference badge for dConstruct 2010. Photograph: [James Box](https://www.flickr.com/photos/b0xman/4929704982/)')
 
 ## 2011: Designing Digital Products
 

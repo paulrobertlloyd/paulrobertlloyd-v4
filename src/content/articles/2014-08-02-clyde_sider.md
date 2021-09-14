@@ -13,10 +13,8 @@ category:
 tags:
   - featured
 ---
-{% render 'figure' with '/images/2014/08/clyde_sider/hampden.jpg'
-  caption: 'The team I worked with during my penultimate shift outside Hampden Park.'
-  alignment: 'bleed'
-%}
+![](/images/2014/08/clyde_sider/hampden.jpg 'The team I worked with during my penultimate shift outside Hampden Park.')
+{.align-bleed}
 
 Any conversation regarding the Commonwealth Games will often involve comparisons with the Olympic Games held in London two years ago; a tough act to follow given their prestige and success. Organisers in Glasgow were keen to point out that their games offered a different spectacle — an 11 day festival of sport and culture designed to promote goodwill between the 71 nations and territories that make up the Commonwealth — and should be judged on that basis. But with a number of popular athletes unable (or unwilling) to compete, questions were raised about the validity of this multi-sport event, which [many consider an anachronism][1].
 
@@ -30,9 +28,7 @@ For me, volunteering a second time was an opportunity to recapture [the magic I 
 
 Following a successful application interview, I spent a further three weekends in Glasgow for orientation and training events. I enjoyed exploring this vibrant and engaging city and admiring its abundance of stunning architecture. The River Clyde crossed by iconic bridges and framed by oddly shaped buildings. Shopping districts featuring exquisite Victorian shopping malls and department stores. The sometimes brutal landscape the result of driving the M8 motorway straight through the heart of the city in the 1960s.
 
-{% render 'figure' with '/images/2014/08/clyde_sider/bridge_to_nowhere.jpg'
-  caption: 'The recently completed Anderston pedestrian footbridge (in the background of this photo) sits among a number ‘[bridges to nowhere](https://en.wikipedia.org/wiki/M8_Bridge_to_Nowhere)’ that can be found around the M8.'
-%}
+![](/images/2014/08/clyde_sider/bridge_to_nowhere.jpg 'The recently completed Anderston pedestrian footbridge (in the background of this photo) sits among a number ‘[bridges to nowhere](https://en.wikipedia.org/wiki/M8_Bridge_to_Nowhere)’ that can be found around the M8.')
 
 ## Hearing Hampden roar
 
@@ -50,9 +46,7 @@ However, as I discovered when I attended the athletics as a spectator, nothing c
 
 Each shift began inside the stadium with everyone taking part in a [haka][7] (minus the dancing), before being dispatched to larger area groups. These groups were subdivided into smaller sub-teams, who were then briefed by their team leaders. A debrief at the end of the shift allowed us to relay any problems and suggest how things could be improved the next day.
 
-{% render 'figure' with '/images/2014/08/clyde_sider/papercut.png'
-  caption: 'Souvenir paper cut illustration by [Christine J Thomson](https://thepapercutartist.com).'
-%}
+![](/images/2014/08/clyde_sider/papercut.png 'Souvenir paper cut illustration by [Christine J Thomson](https://thepapercutartist.com).')
 
 The organisers went to great lengths to ensure Clyde-siders were looked after and appreciated. Between ingress and egress, volunteers were able to sit in the stadium and watch the action. The sandwiches available during lunch breaks were a particular highlight, with hot items available during evening shifts. Volunteers were also given limited edition gifts, including a beautiful commemorative print celebrating the journey Clyde-siders had been on (shown above). The uniform, while less distinctive (read: less embarrassing) than those worn in London was more rugged, and clearly designed with Glasgow’s weather in mind.
 

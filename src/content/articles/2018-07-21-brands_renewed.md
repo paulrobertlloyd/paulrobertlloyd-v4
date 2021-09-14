@@ -10,9 +10,7 @@ category:
   - Design
   - Brand identity
 ---
-{% render 'figure' with '/images/2018/07/brands_renewed/tate.png'
-  caption: 'Previous variations of Tate’s logo, versus the singular version that replaced it in 2016.'
-%}
+![](/images/2018/07/brands_renewed/tate.png 'Previous variations of Tate’s logo, versus the singular version that replaced it in 2016.')
 
 Under Consideration’s [_Brand New_][1] is a blog that critiques corporate and brand identity work. Over the years that I’ve been reading its reviews, I’ve noticed that the work I tend to appreciate most is that which seeks to refine an existing identity rather than reinvent it wholesale. While a logo may still receive a few nips and tucks, much of the work is instead focused on updating the accompanying design language, weeding out those areas where inconsistencies have crept in. Here are a few recent examples:
 

@@ -18,11 +18,8 @@ Having enjoyed the Edinburgh Fringe when I attended for the first time last Augu
 
 {% render 'rating' with 2 %}
 
-{% render 'figure' with '/images/2011/08/edinburgh_fringe/andy_parsons.jpg'
-  alt: 'Photo of Andy Parsons'
-  imagePreset: 'thumbnail'
-  alignment: 'pull'
-%}
+![Photo of Andy Parsons.](/images/2011/08/edinburgh_fringe/andy_parsons.jpg){data-responsiver="supporting"}
+{.align-pull}
 
 I think I was interested in seeing [Andy Parsons][1] more due a friends impression than his own appearances on <cite>Mock The Week</cite>. As a regular on this weekly satirical panel show, maybe I shouldn’t have been surprised that much of his comedy was politically themed. Whilst Parsons was well informed, he seemed unwilling to dive too deep into any particular topic. An oft-hand remark that people may think this was boring may have revealed why, but I would love to have heard more satire and less about his finding a pair of pants in a jar of mayonnaise.
 
@@ -34,11 +31,8 @@ A perfectly entertaining evening but after seeing other acts, his felt weak in c
 
 {% render 'rating' with 4 %}
 
-{% render 'figure' with '/images/2011/08/edinburgh_fringe/chris_tt.jpg'
-  alt: 'Illustration of Chris T-T'
-  imagePreset: 'thumbnail'
-  alignment: 'pull'
-%}
+![Illustration of Chris T-T.](/images/2011/08/edinburgh_fringe/chris_tt.jpg){data-responsiver="supporting"}
+{.align-pull}
 
 The only musical performance I heard was this set of songs based on and inspired by the writings of A.A. Milne sung by [Chris T-T][2] (the husband of Clearleft’s new project manager, [Rifa][3]).
 
@@ -52,11 +46,8 @@ This show reminded me that I should broaden my selection when looking for things
 
 {% render 'rating' with 4 %}
 
-{% render 'figure' with '/images/2011/08/edinburgh_fringe/sammy_j_and_randy.jpg'
-  alt: 'Photo of Sammy J and Randy'
-  imagePreset: 'thumbnail'
-  alignment: 'pull'
-%}
+![Photo of Sammy J and Randy.](/images/2011/08/edinburgh_fringe/sammy_j_and_randy.jpg){data-responsiver="supporting"}
+{.align-pull}
 
 I saw [Sammy J][4] at last year’s festival, but only if I’m honest because thought the show was free! It turned out to be my favourite show of last years Fringe. This year he was performing twice, and because I had booked a number of gigs I was only able to see his double act alongside a purple muppet-like puppet called Randy.
 
@@ -70,11 +61,8 @@ I still preferred Sammy J’s performance, but saw enough to buy a ticket for Ra
 
 {% render 'rating' with 5 %}
 
-{% render 'figure' with '/images/2011/08/edinburgh_fringe/richard_herring.jpg'
-  alt: 'Photo of Richard Herring'
-  imagePreset: 'thumbnail'
-  alignment: 'pull'
-%}
+![Photo of Richard Herring.](/images/2011/08/edinburgh_fringe/richard_herring.jpg){data-responsiver="supporting"}
+{.align-pull}
 
 I remember watching [Richard Herring][5] and Stewart Lee on <cite>Fist of Fun</cite> and <cite>TMWRNJ</cite> in the mid-nineties, and then mourning their passing from mainstream television. Yet I never seemed to progress on to their live work. After a recommendation on Twitter, I decided to see Herring’s latest show in which he “seeks to destroy love before it destroys him”.
 
@@ -88,11 +76,8 @@ Herring sets out to destroy love, but by the end of the show he has probably rei
 
 {% render 'rating' with 5 %}
 
-{% render 'figure' with '/images/2011/08/edinburgh_fringe/adam_buxton.jpg'
-  alt: 'Photo of Adam Buxton'
-  imagePreset: 'thumbnail'
-  alignment: 'pull'
-%}
+![Photo of Adam Buxton.](/images/2011/08/edinburgh_fringe/adam_buxton.jpg){data-responsiver="supporting"}
+{.align-pull}
 
 It was only on learning that [Adam Buxton][6] was bringing his sold-out <cite>BUG</cite> show to Edinburgh that I committed to buying tickets for this years festival. With expectations massively heightened, I was secretly preparing for disappointment. Instead I came away overjoyed and with a list of links and YouTube clips to watch again and share with friends.
 
@@ -108,11 +93,8 @@ For 90-minutes we were truly spoiled, even more so thanks to Adam’s set pieces
 
 {% render 'rating' with 3 %}
 
-{% render 'figure' with '/images/2011/08/edinburgh_fringe/foil_arms_and_hog.jpg'
-  alt: 'Photo of Foil, Arms and Hog'
-  imagePreset: 'thumbnail'
-  alignment: 'pull'
-%}
+![Photo of Foil, Arms and Hog.](/images/2011/08/edinburgh_fringe/foil_arms_and_hog.jpg){data-responsiver="supporting"}
+{.align-pull}
 
 Needing to find shelter from the pouring rain before a later show, I headed to Bristo Square and the Gilded Balloon (held in Teviot Row House, a building that resembles a fairy tale castle) to see what I could find. With little choice left, I bought tickets for the only show available, a comedy sketch show performed by an Irish three-piece called [Foil, Arms and Hog][7].
 
@@ -126,11 +108,8 @@ It was also where I enjoyed perhaps the funniest moment of my festival. When an 
 
 {% render 'rating' with 5 %}
 
-{% render 'figure' with '/images/2011/08/edinburgh_fringe/dave_gorman.jpg'
-  alt: 'Photo of Dave Gorman'
-  imagePreset: 'thumbnail'
-  alignment: 'pull'
-%}
+![Photo of Dave Gorman.](/images/2011/08/edinburgh_fringe/dave_gorman.jpg){data-responsiver="supporting"}
+{.align-pull}
 
 A performer that can only be described as a comedy genius, [Dave Gorman][8]’s latest show — his first at the fringe in 8 years — was end-to-end funny. I’m not sure if it was the title, or his previous work, but I definitely detected a strong geek strain running through the audience (and having briefly accepted that I may be one too) I was richly rewarded with a performance that largely focused on advertising and social media.
 
@@ -142,11 +121,8 @@ When these two things come together, stupid things can happen, opening themselve
 
 {% render 'rating' with 4 %}
 
-{% render 'figure' with '/images/2011/08/edinburgh_fringe/randy.jpg'
-  alt: 'Photo of Randy'
-  imagePreset: 'thumbnail'
-  alignment: 'pull'
-%}
+![Photo of Randy.](/images/2011/08/edinburgh_fringe/randy.jpg){data-responsiver="supporting"}
+{.align-pull}
 
 After seeing Randy in the double-act with Sammy J, I was interested to see his performance. As mentioned earlier, Randy is a purple (and often foul mouthed) muppet-like puppet, skilfully operated by [Heath McIvor][9]. The dexterity in which Randy is manipulated, meant that the audience totally brought into the illusion, happily entering (lengthy) conversations with him.
 

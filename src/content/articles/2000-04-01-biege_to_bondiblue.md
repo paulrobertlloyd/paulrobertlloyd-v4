@@ -16,11 +16,8 @@ A standard design for a personal computer did not exist — in fact the idea of 
 
 ## The Apple II
 
-{% render 'figure' with '/images/2000/04/beige_to_bondiblue/apple_ii_campaign.jpg'
-  caption: 'An Apple II Advertisement.'
-  alignment: 'pull'
-  imagePreset: 'thumbnail'
-%}
+![](/images/2000/04/beige_to_bondiblue/apple_ii_campaign.jpg 'An Apple II Advertisement.'){data-responsiver="supporting"}
+{.align-pull}
 
 The introduction of the Apple II in 1977 was the first step in changing this view. This was basically an improved version of the Apple I with a couple of additions. It also differed by enclosing the circuitry in a case. Made of plastic, this was the first personal computer to do so.
 
@@ -52,10 +49,8 @@ Apple’s acquisition of NeXT in 1996 brought Steve Jobs back to the company and
 
 The result was the iMac, and the man responsible for its design was London-born Jonathan Ive — Apple’s Vice President of Industrial Design.
 
-{% render 'figure' with '/images/2000/04/beige_to_bondiblue/apple_imac.png'
-  caption: 'The iMac.'
-  alignment: 'bleed'
-%}
+![](/images/2000/04/beige_to_bondiblue/apple_imac.png 'The iMac.')
+{.align-bleed}
 
 Key to the iMac’s design was the idea of simplicity and understanding of the emotional value of objects. Steve Jobs was looking for a design that looked futuristic yet (given that newness can often site uncomfortably with consumers) a design that was vaguely familiar which would conjure up memories of something you you may have seen before but were not quite sure. The design team was looking for a design that wasn’t like a computer, but also one that didn’t end up looking like a television. The final result was a curvy bubble like appliance that immediately caught the world’s attention.
 
@@ -73,9 +68,7 @@ Design cues of the CPU were also mirrored in the keyboard, which shared the same
 
 Later the Bondi-Blue colour was replaced with Blueberry (a lighter bluer colour), and four other colours were introduced. For the first time the consumer could decide the colour of their computer — something they were able to do with their cars decades ago. With the second major revision, a new graphite (grey) colour was introduced which was more transparent than the five other colours and was aimed at a more conservative user.
 
-{% render 'figure' with '/images/2000/04/beige_to_bondiblue/apple_imac_flowershot.png'
-  caption: 'A later revision to the iMac would introduced four additional colour options.'
-%}
+![](/images/2000/04/beige_to_bondiblue/apple_imac_flowershot.png 'A later revision to the iMac would introduced four additional colour options.')
 
 This second revision saw a refinement of the original design — a sleek slot loading CD/DVD drive replaced the cumbersome CD tray, the speakers became more rounded and the inner metal shielding was removed so you could see right through the case. The inside fan was also removed to ensure quieter operation.
 

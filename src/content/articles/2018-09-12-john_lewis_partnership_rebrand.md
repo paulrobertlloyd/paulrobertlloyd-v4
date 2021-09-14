@@ -12,9 +12,7 @@ category:
 ---
 Last week the John Lewis Partnership unveiled [a new look for John Lewis and Waitrose][1], with the name of each chain to now be suffixed by “& Partners”, emphasising the organisation’s ownership model. Underwhelmed but what I initially saw, unbeknown to me at the time, this was another identity from a team at Pentagram to elicit an assured *meh*. Now, with [more information available about the project][2], I shall turn the [annoyance meter][3] to *writing a blog post* and explore what I dislike about it.
 
-{% render 'figure' with '/images/2018/09/john_lewis_partnership_rebrand/logos.png'
-  caption: 'New logos and brandlines for John Lewis, Waitrose and the Partnership. Image: [Pentagram](https://www.pentagram.com/work/the-john-lewis-partnership/story)'
-%}
+![](/images/2018/09/john_lewis_partnership_rebrand/logos.png 'New logos and brandlines for John Lewis, Waitrose and the Partnership. Image: [Pentagram](https://www.pentagram.com/work/the-john-lewis-partnership/story)')
 
 Firstly, the naming strategy. Including “Partners” in the store names seems like a smart move, although I wonder if this was backed up by research suggesting consumers are unaware that these stores are employee-owned. However, people will still refer to the stores by their shorthand, and adding additional words to the logo makes them less readable when reduced to smaller sizes. Given that on the day the rebrand was announced, it was discovered that [270 jobs were being cut][4], with more staff likely to be outsourced, the brand starts to attain a degree of hypocrisy.
 

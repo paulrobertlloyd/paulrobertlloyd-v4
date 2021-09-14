@@ -44,11 +44,8 @@ Ideally, it would be possible to reach Copenhagen in a single day, but with no o
 
 I’m meeting my friend Sandra and her partner Andy for lunch, which gives me the morning to explore [Hamburger Kunsthalle][4], one of Hamburg’s many art galleries.
 
-{% render 'figure' with '/images/2020/01/brighton_to_copenhagen/wanderer_above_the_sea_of_fog.jpg'
-  caption: '<cite>Wanderer above the Sea of Fog</cite> (Caspar David Friedrich, 1818)'
-  alignment: 'pull'
-  image_present: 'supporting'
-%}
+![](/images/2020/01/brighton_to_copenhagen/wanderer_above_the_sea_of_fog.jpg '<cite>Wanderer above the Sea of Fog</cite> (Caspar David Friedrich, 1818).'){data-responsiver="supporting"}
+{.align-pull}
 
 Stretched across three buildings, this one houses a mix of 19th century, modern and contemporary art, as well as paintings from the old masters. I soon discover [<cite>Wanderer above the Sea of Fog</cite>][5], Caspar David Friedrich’s most well-known artwork and this institution’s signature exhibit. I only recognise this painting from having seen Stewart Lee recreate it in [his most recent stand-up show][6]. I rediscover this painting several more times as the near-endless and familiar-looking rooms see me walking in circles.
 

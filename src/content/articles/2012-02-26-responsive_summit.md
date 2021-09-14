@@ -13,9 +13,7 @@ tags:
   - featured
 discussion: closed
 ---
-{% render 'figure' with '/images/2012/02/responsive_summit/strangelove.jpg'
-  caption: 'Scene from Dr. Strangelove.'
-%}
+![](/images/2012/02/responsive_summit/strangelove.jpg 'Scene from Dr. Strangelove.')
 
 Last week I was invited to [Responsive Summit][1], a face-to-face discussion about Responsive Web Design. We talked about what we’ve learnt so far, the problems we’re continuing to face and things we’d like to change. And no, I didn’t get the [Dr. Strangelove][2] reference either.
 
@@ -37,9 +35,7 @@ On many topics we found agreement, yet thankfully, there were areas of disagreem
 
 Chris asked if we needed media query like behaviour in HTML. For example, a list of links might be better represented as a select menu in certain instances. I questioned whether such an approach would be a regression, taking us back to the bad old days of mixing together presentation, behaviour and content. I still believe that structuring documents semantically, with CSS and JavaScript manipulating that information, is the right approach. Progressive enhancement is forever revealed as a guiding principle when crafting web experiences. I’d hate to see that change.
 
-{% render 'figure' with '/images/2012/02/responsive_summit/josh.jpg'
-  caption: 'Josh Brewer facilitated the discussion. Photograph: [Chris Armstrong](https://www.flickr.com/photos/mr-armstrong/6924116705/in/set-72157629074652364/).'
-%}
+![](/images/2012/02/responsive_summit/josh.jpg 'Josh Brewer facilitated the discussion. Photograph: [Chris Armstrong](https://www.flickr.com/photos/mr-armstrong/6924116705/in/set-72157629074652364/)')
 
 ## The `picture` element
 
@@ -98,9 +94,7 @@ Perhaps what we’re really after is the image equivalent of variable bit-rate, 
 
 And with that, I’ve sufficiently demonstrated my naivety regarding image formats.
 
-{% render 'figure' with '/images/2012/02/responsive_summit/paul.jpg'
-  caption: 'Me, in deep pondering mode. Photograph: [Chris Armstrong](https://www.flickr.com/photos/mr-armstrong/6778001526/in/set-72157629074652364/).'
-%}
+![](/images/2012/02/responsive_summit/paul.jpg 'Me, in deep pondering mode. Photograph: [Chris Armstrong](https://www.flickr.com/photos/mr-armstrong/6778001526/in/set-72157629074652364/)')
 
 ## Immediate solutions
 

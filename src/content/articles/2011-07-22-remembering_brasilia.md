@@ -30,10 +30,8 @@ Armed with clean clothes and a fully charged camera, I bravely ventured into the
 
 Looking west, I spotted the distinctive [JK Memorial][4]. I decided to get there next on foot, although walking is definitely not recommended in a city built around the car. The memorial to [Juscelino Kubitschek][5], whose idea it was to build this city, gave me my first taste of the futuristic architecture Brasília is renowned for; this building could easily have been mistaken for a secret hideout for a James Bond villain.
 
-{% render 'figure' with '/images/2011/07/remembering_brasilia/dom_bosco.jpg'
-  caption: 'The breathtaking interior of Santuário Dom Bosco.'
-  alignment: 'bleed'
-%}
+![](/images/2011/07/remembering_brasilia/dom_bosco.jpg 'The breathtaking interior of Santuário Dom Bosco.')
+{.align-bleed}
 
 The [Catedral Metropolitana][6] often gets the most attention, but on reading about [Santuário Dom Bosco][7] I knew this would be too good to miss. Strikingly simple from the outside; a large square building covered in beautiful blue and purple stained glass, its interior — adorned with a large central hanging chandelier — left me entirely breathless. This may be the most impressive building I’ve ever seen.
 

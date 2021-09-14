@@ -40,9 +40,7 @@ Branding agencies achieve this by producing styleguides; documents that explain 
 
 I’ve been collecting styleguides for a number of years, partly as I’m interested in branding and corporate identity, but also to refer to when creating my own guidelines. One of my favourites is that created for Skype:
 
-{% render 'figure' with '/images/2010/12/styleguides_for_the_web/skype.png'
-  caption: 'A selection of pages from the Skype styleguide.'
-%}
+![](/images/2010/12/styleguides_for_the_web/skype.png 'A selection of pages from the Skype styleguide.')
 
 As a brand made up from a number of different elements (the logo, clouds, rainbows, illustrations and sometimes photography), it would be easy for the brand to become diluted should these not be consistently applied. Skype’s branding guidelines explain how each component is constructed before providing examples of these different pieces brought together. The visual styleguide, <cite>How We Look</cite>, is accompanied by a separate document called <cite>How We Think</cite> which focuses on messaging and tone of voice.
 
@@ -58,9 +56,7 @@ Until recently I hadn’t found many examples of styleguides designed especially
 
 * **Colour Palette:** A colour palette was created for use on non-branded areas of the site (such as the homepage and search pages). This has yet to appear in the final guidelines, but may do once these non-branded areas get redesigned.
 
-{% render 'figure' with '/images/2010/12/styleguides_for_the_web/gel.png'
-  caption: 'A page on the BBC website detailing the GEL typography guidelines.'
-%}
+![](/images/2010/12/styleguides_for_the_web/gel.png 'A page on the BBC website detailing the GEL typography guidelines.')
 
 When GVL3 was finally released in July, its name had changed to GEL ([Global Experience Language][4]), an acceptance that the web is equally as much about interaction and behaviour as it is visual design. The guidelines now included a pattern library documenting key interactions used across the site such as auto suggest in search fields, tool tips, carousels and photo slideshows.
 

@@ -16,10 +16,8 @@ photoset:
   - url: /images/2012/12/causeway_coast/4.jpg
   - url: /images/2012/12/causeway_coast/5.jpg
 ---
-{% render 'figure' with '/images/2012/12/causeway_coast/1.jpg'
-  caption: 'Causeway Coast.'
-  alignment: 'bleed'
-%}
+![Causeway Coast.](/images/2012/12/causeway_coast/1.jpg)
+{.align-bleed}
 
 After attending [Build][1] in Belfast last month, [Chris Armstrong][2] gave [Ethan Marcotte][3], [Chris Shifflet][4] and myself a tour of the Causeway Coast which, as the name suggests, is home to the famed [Giant’s Causeway][5]. Below is a selection of photos I took during our tour. [The full set can be viewed on Flickr][6].
 
@@ -27,38 +25,24 @@ In tandem with improving my proficiency with a camera, I’m trying to better un
 
 Besides showcasing some recent photography — something I’d like to do more often on this site — this is also an opportunity to experiment with the [compressive images][9] technique. The photos on this page have been saved with larger dimensions than required, but also lower quality levels than I would normally use. This should result in smaller file sizes and sharper imagery on high resolution displays. Daan Jobsis was the first to suggest this technique, and his [Retina Revolution][10] post is worth a read.
 
-{% render 'figure' with '/images/2012/12/causeway_coast/2.jpg'
-  caption: '**The Causeway Hotel:** 66% quality, 44 kB.'
-%}
+![](/images/2012/12/causeway_coast/2.jpg '**The Causeway Hotel:** 66% quality, 44 kB.')
 
-{% render 'figure' with '/images/2012/12/causeway_coast/3.jpg'
-  caption: '**Tourists besiege the causeway:** 57% quality, 108 kB.'
-%}
+![](/images/2012/12/causeway_coast/3.jpg '**Tourists besiege the causeway:** 57% quality, 108 kB.')
 
 {% render 'photos' with photoset
   caption: '**Interlocking basalt columns:** 55% quality, 63 kB / 58% quality, 35 kB.'
   imagePreset: 'supporting'
 %}
 
-{% render 'figure' with '/images/2012/12/causeway_coast/6.jpg'
-  caption: '**The Giant’s Causeway viewed from above:** 55% quality, 151 kB.'
-%}
+![](/images/2012/12/causeway_coast/6.jpg '**The Giant’s Causeway viewed from above:** 55% quality, 151 kB.')
 
-{% render 'figure' with '/images/2012/12/causeway_coast/7.jpg'
-  caption: '**Large basalt columns:** 55% quality, 167 kB.'
-%}
+![](/images/2012/12/causeway_coast/7.jpg '**Large basalt columns:** 55% quality, 167 kB.')
 
-{% render 'figure' with '/images/2012/12/causeway_coast/8.jpg'
-  caption: '**Anything that can be hexagonal, will be hexagonal:** 38% quality, 122 kB.'
-%}
+![](/images/2012/12/causeway_coast/8.jpg '**Anything that can be hexagonal, will be hexagonal:** 38% quality, 122 kB.')
 
-{% render 'figure' with '/images/2012/12/causeway_coast/9.jpg'
-  caption: '**A storm brewing:** 60% quality, 100 kB.'
-%}
+![](/images/2012/12/causeway_coast/9.jpg '**A storm brewing:** 60% quality, 100 kB.')
 
-{% render 'figure' with '/images/2012/12/causeway_coast/10.jpg'
-  caption: '**Ballintoy Harbour:** 57% quality, 91 kB.'
-%}
+![](/images/2012/12/causeway_coast/10.jpg '**Ballintoy Harbour:** 57% quality, 91 kB.')
 
 [1]: http://2012.buildconf.com/
 [2]: http://chris-armstrong.com/

@@ -10,10 +10,8 @@ category:
   - Olympics
   - London 2012
 ---
-{% render 'figure' with '/images/2012/08/now_that_the_games_have_gone.jpg'
-  caption: 'London 2012 Closing Ceremony.'
-  alignment: 'bleed'
-%}
+![](/images/2012/08/now_that_the_games_have_gone.jpg 'London 2012 Closing Ceremony.')
+{.align-bleed}
 
 **The last two weeks have been amazing**. I tried my best to sample as much of the Olympic fever as I could, but even having watched the [men’s cycling][1] on Box Hill, [women’s football][2] at Wembley, [mixed doubles tennis][3] at Wimbledon and the Closing Ceremony, I still felt like I was missing out. With so much going on, the spectacle was overwhelming. So much to see, so little time to see it.
 

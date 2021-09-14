@@ -78,9 +78,7 @@ The idea of working together to build a shared understanding brings to mind Mark
 
 The most recognisable piece of design created during Frank Pick’s leadership of London Transport, the Underground map, was not instigated by him or any other manager of the company, but put forward by Harry Beck, a young draftsman working on the network.
 
-{% render 'figure' with '/images/2017/01/designing_systems_part_2/beck.jpg'
-  caption: 'Harry Beck holds a copy of his diagram for the London Underground; he seems rightly chuffed with his idea!'
-%}
+![](/images/2017/01/designing_systems_part_2/beck.jpg 'Harry Beck holds a copy of his diagram for the London Underground; he seems rightly chuffed with his idea!')
 
 Realising that passengers cared more about the connections between the various lines below ground than they did about the street layout above, Beck did away with geographical accuracy, instead drawing tube lines on vertical, horizontal and diagonal axes, marking the intersections with a diamond.
 
@@ -111,9 +109,7 @@ Building containers by combining items and slices allowed for an incredible rang
 
 This model went some way to addressing the flexibility desired, yet further models were needed to deal with the variation inherent to effective editorial design. Tonality, newsworthiness, curation, information density, pacing, device considerations… all presented the design team with an array of concerns that needed to be reasoned with.
 
-{% render 'figure' with '/images/2017/01/designing_systems_part_2/guardian_front.png'
-  caption: 'A section front on the Guardian website.'
-%}
+![](/images/2017/01/designing_systems_part_2/guardian_front.png 'A section front on the Guardian website.')
 
 Working with so many moving parts became a struggle, and everyone on the team attempted to solve this puzzle in different ways. A solution was found eventually, although the imposition of a six-week deadline was the most effective tool in helping us reach a conclusion!
 
@@ -144,19 +140,14 @@ Jeff makes an important point; the products of a design system will be the ultim
 
 Frank Pick’s successful management of London Transport was possible due to the support he received from the company’s chairman, Lord Ashfield. The departure of both Pick and Ashfield — plus growing private car ownership and declining passenger numbers — soon costs were being prioritised over quality, and a period of neglect followed.
 
-{% render 'figure' with '/images/2017/01/designing_systems_part_2/underground_1997.jpg'
-  caption: 'The Underground in 1997 — very different from how it looks today. Photograph: [Kirk Bauer](http://pics.kaybee.org/Vacations/Europe1997/England/London/tube2.jpg).'
-  alignment: 'pull'
-  imagePreset: 'supporting'
-%}
+![](/images/2017/01/designing_systems_part_2/underground_1997.jpg 'The Underground in 1997 — very different from how it looks today. Photograph: [Kirk Bauer](http://pics.kaybee.org/Vacations/Europe1997/England/London/tube2.jpg)'){data-responsiver="supporting"}
+{.align-pull}
 
 Thankfully the last 15 years have seen these factors reverse, with the network again getting the attention it deserves. New lines are being built, while existing stations are being upgraded and repaired. Transport for London are managing this renewal by following the <cite>[Station Design Idiom][17]</cite>, a set of nine principles that underpin design across the Underground network. These are referred to on every project, be it a small-scale repair, a major refurbishment or a brand new station.
 
 Included in the idiom is a new map that gives contractors a station-by-station guide to the different architectural styles used throughout the network. Paint colours and decorative materials should now match the architectural style of each building, rather than adhere to an overarching corporate look. By deliberately maintaining a diversity of styles, Transport for London have chosen to make the network’s design history an integral part of their design system. To me, this seems like a pragmatic approach.
 
-{% render 'figure' with '/images/2017/01/designing_systems_part_2/station_design_idiom.jpg'
-  caption: 'The Station Design Idiom map and flashcard.'
-%}
+![](/images/2017/01/designing_systems_part_2/station_design_idiom.jpg 'The Station Design Idiom map and flashcard.')
 
 ### Shearing layers
 

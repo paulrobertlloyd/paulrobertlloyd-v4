@@ -43,15 +43,11 @@ At first sight, Edge Reflow is a confusing proposition: should it be used for pr
 
 The application itself is built on top of WebKit, and while it lacks native OS appearance and behaviour, this does mean documents are rendered accurately using HTML and CSS. Designs can be previewed in Chrome, although this output is not intended for public consumption — a point the application goes to great lengths to make. Edge Reflow also works with Edge Inspect, allowing you to preview your work on mobile devices, too.
 
-{% render 'figure' with '/images/2013/06/adobe_edge_review/edge_reflow_css_panel.png'
-  caption: 'For developers seeking code, CSS styles can be copied from Edge Reflow’s DOM inspector.'
-%}
+![](/images/2013/06/adobe_edge_review/edge_reflow_css_panel.png 'For developers seeking code, CSS styles can be copied from Edge Reflow’s DOM inspector.')
 
 Much of Edge Reflow’s interface is given over to altering the appearance of a page at different breakpoints. The presentation of these is clear, and undoubtedly helpful for those new to responsive design. Designers are free to use either pixel, percentage or em measurements. The interface is a little clunky — and downright confusing at times — and it may take a while to understand a WYSIWYG editor that’s so tightly coupled to CSS layout conventions.
 
-{% render 'figure' with '/images/2013/06/adobe_edge_review/edge_reflow_web_fonts.png'
-  caption: 'Edge Reflow includes integration with Edge Web Fonts (with TypeKit support coming soon). Selecting fonts can be a little tedious, but being able to use web fonts in a desktop application is a compelling feature.'
-%}
+![](/images/2013/06/adobe_edge_review/edge_reflow_web_fonts.png 'Edge Reflow includes integration with Edge Web Fonts (with TypeKit support coming soon). Selecting fonts can be a little tedious, but being able to use web fonts in a desktop application is a compelling feature.')
 
 Edge Reflow is clearly a product in its infancy, but its future looks bright. Although you can create complex layouts and designs already, future updates will allow a Photoshop or Illustrator file to be imported as a starting point, speeding up the responsive design process for users of those tools.
 
@@ -61,9 +57,7 @@ It could also be said that Adobe is over-thinking the problem. In my own experie
 
 No suite of web development tools would be complete without a code editor. Edge Code is based on the open source [Brackets][1] application, a genuinely innovative text editor with unique features such as live previewing in the browser (again, this only works with Chrome) and quick inline editing functions. It’s still in beta.
 
-{% render 'figure' with '/images/2013/06/adobe_edge_review/edge_code_quick_edit.png'
-  caption: 'Edge Code feature innovative editing features, such as inline editing of CSS within an HTML document.'
-%}
+![](/images/2013/06/adobe_edge_review/edge_code_quick_edit.png 'Edge Code feature innovative editing features, such as inline editing of CSS within an HTML document.')
 
 ## Edge Inspect
 
@@ -75,9 +69,7 @@ Although other similar (and cheaper) services are available, they can be complic
 
 A tool for creating animated, interactive web content, Edge Animate CC is undoubtedly the flagship application within the suite, and possible pretender to the Flash crown, too. The application looks incredibly polished, providing an endless supply of buttons and knobs for animators to tweak.
 
-{% render 'figure' with '/images/2013/06/adobe_edge_review/edge_animate_tutorial.png'
-  caption: 'While Edge Animate’s interface appears overwhelming, the included tutorials will help you get started in no time.'
-%}
+![](/images/2013/06/adobe_edge_review/edge_animate_tutorial.png 'While Edge Animate’s interface appears overwhelming, the included tutorials will help you get started in no time.')
 
 The timeline clearly breaks down the structure of an animation, to which complex easing transitions can be added. Interestingly, Edge Animate implements graphic effects (such as blurs and filters) using CSS3 styles, which are not supported in all browsers. This is a Good Thing — to my mind, websites don’t need to look the same in every browser — and it’s encouraging to see Adobe embrace progressive enhancement.
 

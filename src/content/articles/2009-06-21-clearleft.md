@@ -15,10 +15,8 @@ discussion: closed
 ---
 This month saw me become the ninth member of the Brighton based web agency [Clearleft][1].
 
-{% render 'figure' with '/images/2009/06/clearleft/team.jpg'
-  caption: 'The Clearleft team. Photograph: [Jack Barnes](https://www.flickr.com/photos/paulannett/3256245742/).'
-  alignment: 'bleed'
-%}
+![](/images/2009/06/clearleft/team.jpg 'The Clearleft team. Photograph: [Jack Barnes](https://www.flickr.com/photos/paulannett/3256245742/)')
+{.align-bleed}
 
 My relationship with Clearleft goes back to 2006 when they were contracted by my former employer [Ning][2] to design a video sharing application. This was against some pretty rigid requirements, not least a set of style guidelines created by yours truly. Thankfully they liked what they saw and this placed me firmly on the companies radar.
 

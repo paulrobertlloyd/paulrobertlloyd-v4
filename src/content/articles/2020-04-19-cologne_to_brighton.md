@@ -20,11 +20,8 @@ tags:
 
 ## Day 14
 
-{% render 'figure' with '/images/2020/04/cologne_to_brighton/astoria_hotel.jpg'
-  caption: 'From the bright, refined interior of the Astoria Hotel…'
-  preset: 'supporting'
-  alignment: 'pull'
-%}
+![](/images/2020/04/cologne_to_brighton/astoria_hotel.jpg 'From the bright, refined interior of the Astoria Hotel…'){data-responsiver="supporting"}
+{.align-pull}
 
 I’ve barely spent any time in the [Astoria][1], which is disappointing as its art deco stylings are difficult to ignore. With my suitcase in one hand, I try and take as many photos of its interior as I can, while keeping an eye on the time. This hotel is certainly high on my list of places to stay next time I’m in Copenhagen.
 
@@ -32,10 +29,8 @@ At the train station, I grab one last breakfast from *Espresso House* before boa
 
 Back at my old friend Hamburg’s Hauptbahnhof, there’s time some food and quick refreshment before I’m on another train, destination Cologne.
 
-{% render 'figure' with '/images/2020/04/cologne_to_brighton/hotel_im_wasserturm.jpg'
-  caption: '…to the dark, industrial vaults of *Hotel im Wasserturm*{lang="de"}.'
-  alignment: 'pull'
-%}
+![](/images/2020/04/cologne_to_brighton/hotel_im_wasserturm.jpg '…to the dark, industrial vaults of *Hotel im Wasserturm*{lang="de"}.'){data-responsiver="supporting"}
+{.align-pull}
 
 I arrive just after 9:30 pm, and head for [*Hotel im Wasserturm*{lang="de"}][3]. This building has the potential to be a highlight of this trip. I’ve read mixed reviews, but spending a few nights in a converted water tower seemed like too good an opportunity to miss.
 
@@ -49,10 +44,8 @@ Before bed, I head to the restaurant on the top floor, eager to enjoy a pint of 
 
 ## Day 15
 
-{% render 'figure' with '/images/2020/04/cologne_to_brighton/van_dyck_rosterei.jpg'
-  caption: '*Van Dyck Rosterei*{lang="de"} in Ehrenfeld.'
-  alignment: 'bleed'
-%}
+![](/images/2020/04/cologne_to_brighton/van_dyck_rosterei.jpg '*Van Dyck Rosterei*{lang="de"} in Ehrenfeld.')
+{.align-bleed}
 
 Tomorrow I return home, but I have an entire day to spend in a German city, and that makes me very happy. Cologne is the first city I stayed at during a tour of Europe in 2009, but I’ve only ever passed through since.
 
@@ -76,10 +69,8 @@ I had many hopes for this trip. It would be a creative expedition; I wanted to e
 
 And yet I ventured into this rushed and ill-prepared. Unable to decide, I picked too many destinations; three days is not nearly enough time to understand and appreciate a place. I also failed my golden rule of travel, which is to pack light. Who would have thought packing a suitcase the night before – and after several pints – would prove to be a bad idea! And frankly, I’ve spent way too much time on trains; even I have my limits. Yet, as the old saying goes, a change is as good as a rest, and I return remarkably rested.
 
-{% render 'figure' with '/images/2020/04/cologne_to_brighton/love_locks.jpg'
-  caption: 'Love locks on the Hohenzollern Bridge.'
-  alignment: 'bleed'
-%}
+![](/images/2020/04/cologne_to_brighton/love_locks.jpg 'Love locks on the Hohenzollern Bridge.')
+{.align-bleed}
 
 [1]: https://www.brochner-hotels.dk/hotel-astoria/
 [2]: https://en.wikipedia.org/wiki/Rendsburg_High_Bridge

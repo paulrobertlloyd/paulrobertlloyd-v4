@@ -29,9 +29,7 @@ category:
 tags:
   - source:digital_arts
 ---
-{% render 'figure' with '/images/2013/05/bohemian_coding_sketch_2_review/canvas_and_artboards.png'
-  caption: 'Canvas and artboards in Sketch'
-%}
+![](/images/2013/05/bohemian_coding_sketch_2_review/canvas_and_artboards.png 'Canvas and artboards in Sketch.')
 
 {% render 'product' with product %}
 
@@ -43,9 +41,7 @@ Like Dreamweaver before it, Fireworks feels like an application that’s no long
 
 Enter Sketch, from Bohemian Coding. After several years of development, this Mac-only application has matured enough to be seen as a viable alternative; one not bloated by a succession of features aimed at narrow markets (Photoshop, I’m looking at you).
 
-{% render 'figure' with '/images/2013/05/bohemian_coding_sketch_2_review/combined_shape.png'
-  caption: 'Combining shapes in Sketch'
-%}
+![](/images/2013/05/bohemian_coding_sketch_2_review/combined_shape.png 'Combining shapes in Sketch.')
 
 Sketch uses a single window. Layers and artboards are listed on the left of the main canvas, with an inspector to the right. This inspector is clearly inspired by iOS; if you want to edit a colour, a second palette slides in from the right providing all the relevant options. Once you’re done, clicking the back button returns you to the main inspector. The interface has clearly been designed to help you focus on creating stunning artwork, rather than manage windows.
 
@@ -61,9 +57,7 @@ There’s a deliberate relationship between these style options and what can be 
 
 Styles can also be linked; changing the appearance of one shape will affect linked shapes as well. However, with no support for symbols, reusing common elements within your designs is not currently possible.
 
-{% render 'figure' with '/images/2013/05/bohemian_coding_sketch_2_review/shape_styles.png'
-  caption: 'Shape styles in Sketch'
-%}
+![](/images/2013/05/bohemian_coding_sketch_2_review/shape_styles.png 'Shape styles in Sketch.')
 
 The ability to see a pixel preview of your work, comprehensive (including @​2x) export options and palettes that mimic CSS, hint at an app that was developed with web and iOS designers in mind. SVG vector images can be imported by dragging them to the canvas and remain editable. Documents can be exported as SVG, as well as PDF and EPS. JPEG, PNG and TIFF bitmap formats are also supported.
 

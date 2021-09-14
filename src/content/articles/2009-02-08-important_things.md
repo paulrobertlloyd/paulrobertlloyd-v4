@@ -8,9 +8,7 @@ category:
   - Television
   - Demetri Martin
 ---
-{% render 'figure' with '/images/2009/02/important_things.jpg'
-  caption: 'Promotion for Important Things.'
-%}
+![](/images/2009/02/important_things.jpg 'Promotion for Important Things.')
 
 One of my favourite comedians stars in a new show starting on Comedy Central this week. I first came across [Demetri Martin][1] as his role as a youth correspondent on [The Daily Show][2] — a segment in which he was also able to showcase his signature use of self-drawn illustrations, graphs and diagrams in his comedy.
 

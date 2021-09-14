@@ -20,20 +20,13 @@ tags:
 
 **07:18, London Victoria.** Wait 15 minutes for a Victoria line train to arrive, a feat of endurance given the oft-repeated announcement about escalator repairs.
 
-{% render 'figure' with '/images/2019/09/brighton_to_lisbon/london_underground.jpg'
-  caption: 'Passengers on the London Underground'
-  alignment: 'bleed'
-%}
+![](/images/2019/09/brighton_to_lisbon/london_underground.jpg 'Passengers on the London Underground.')
 
 **08:19, London St. Pancras.** Board the Eurostar. A rare chance to travel on one of the (not-so-new) [e320][1]s.
 
 **10:48, Paris-Nord.** [Gare du Nord][2] seems to get more beautiful with every visit. I have an hour to dash south to my next connection via the *RER*{lang="fr"} to *Port-Royal*. The ticket machine seems designed to test the patience of users, remaining unresponsive for just over a minute before serving the next customer. How French!
 
-{% render 'figure' with '/images/2019/09/brighton_to_lisbon/paris_rer.jpg'
-  caption: 'Passengers on the Paris RER'
-  alignment: 'bleed'
-  imageRatio: 1.5
-%}
+![](/images/2019/09/brighton_to_lisbon/paris_rer.jpg 'Passengers on the Paris RER.')
 
 **12:34, Paris-Montparnasse.** After a brisk walk from the *Port-Royal* RER station, I arrive at this [modern carbuncle][3] with about 10 minutes to spare. The French railway system is now a mishmash of different brands, so I board an *SNCF TGV INOUI*{lang="fr"} service to Hendaye. The [double-decker Duplex][4]’s are incredibly spacious. My reclining seat has a large pulldown table, desk light, USB and power sockets. All undone by a low-hung luggage rack which I repeatedly hit my head against.
 
@@ -43,10 +36,7 @@ tags:
 
 **07:55, Lisbon Oriente.** Arrive after a rough night with little sleep. My throat is sore, my nose stuffed up, and my ears have endured a night of rattling doors, squealing rails and the wheezing plumbing of an adjacent toilet. Sections of the route were so bumpy derailment seemed a distinct possibility. I briefly explore [another of Santiago Calatrava’s extravagant railway stations][6], before making my last connection via the Lisbon Metro.
 
-{% render 'figure' with '/images/2019/09/brighton_to_lisbon/lisbon_metro.jpg'
-  caption: 'Passengers on the Lisbon Metro'
-  alignment: 'bleed'
-%}
+![](/images/2019/09/brighton_to_lisbon/lisbon_metro.jpg 'Passengers on the Lisbon Metro.')
 
 **09:00, Saldanha.** Seven trains, four countries and 27 and half hours later, I arrive at my hotel, where I’m able to check-in early and have a shower. I do it all over again, but in reverse, in a week’s time.
 

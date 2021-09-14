@@ -15,9 +15,7 @@ tags:
   - featured
 discussion: closed
 ---
-{% render 'figure' with '/images/2012/09/games_maker/olympic_park.jpg'
-  caption: 'Me and my fellow Games Makers in the Olympic Park.'
-%}
+![](/images/2012/09/games_maker/olympic_park.jpg 'Me and my fellow Games Makers in the Olympic Park.')
 
 They say change is as good as a rest. With early morning commutes, a distinctive uniform and interaction with the general public, volunteering at the London 2012 Paralympic Games couldn’t have been further removed from the desk-bound job I’d become weary of.
 
@@ -49,9 +47,7 @@ Surrounded by colleagues of all ages, professions and backgrounds, I was using l
 
 A two-year journey had come to an abrupt end, the nervy expectation of two weeks prior replaced with an uneasy emptiness. Before our first shift, we were told to enjoy ourselves as it would be over before we knew it. And so it was proven.
 
-{% render 'figure' with '/images/2012/09/games_maker/last_night.jpg'
-  caption: 'A photo from the final Games Maker shift.'
-%}
+![](/images/2012/09/games_maker/last_night.jpg 'A photo from the final Games Maker shift.')
 
 ## A genuine act
 

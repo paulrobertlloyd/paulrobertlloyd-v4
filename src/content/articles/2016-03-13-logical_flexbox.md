@@ -11,9 +11,7 @@ category:
 tags:
   - featured
 ---
-{% render 'figure' with '/images/2016/03/logical_flexbox/spock.jpg'
-  caption: 'Mr. Spock browsing the web on his tablet device. Photograph: [NBC Television](https://commons.wikimedia.org/wiki/File:Star_Trek_Spock.jpg).'
-%}
+![](/images/2016/03/logical_flexbox/spock.jpg 'Mr. Spock browsing the web on his tablet device. Photograph: [NBC Television](https://commons.wikimedia.org/wiki/File:Star_Trek_Spock.jpg)')
 
 Given a maturing specification, and related concerns regarding browser support and compatibility, I had largely been ignoring [CSS Flexible Box Layout][1]. Yet with support for this module — aka Flexbox — [currently hovering around 96%][2] (82% if using un-prefixed values) there’s little excuse for developers like myself not to start using it.
 

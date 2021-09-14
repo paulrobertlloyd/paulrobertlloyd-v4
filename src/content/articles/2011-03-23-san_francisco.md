@@ -11,10 +11,8 @@ category:
   - San Francisco
   - United States
 ---
-{% render 'figure' with '/images/2011/03/san_francisco/fishermans_wharf.jpg'
-  caption: 'Boats docked in Fisherman’s Wharf.'
-  alignment: 'bleed'
-%}
+![](/images/2011/03/san_francisco/fishermans_wharf.jpg 'Boats docked in Fisherman’s Wharf.')
+{.align-bleed}
 
 Following five days in Austin, I ventured on to San Francisco. A quick stop arranged primarily to catch up with friends, I made sure my stay would be long enough to see all the sights I neglected to visit whilst I was a resident.
 
@@ -26,9 +24,7 @@ The following day I visited SFMoMA, a modern art museum that is far more spaciou
 
 Before going on to visit the equally impressive City Hall, I enjoyed a discussion about the role of technology with [Tristan][1] in South Park, whilst sipping an Iced Latte — when in Rome do as the Romans do. That evening I shared a selection of scrumptious pizzas at Zero Zero with David and Athena whilst catching up on the latest gossip and industry insight.
 
-{% render 'figure' with '/images/2011/03/san_francisco/stanford_university.jpg'
-  caption: 'Outdoor corridor at Stanford University.'
-%}
+![](/images/2011/03/san_francisco/stanford_university.jpg 'Outdoor corridor at Stanford University.')
 
 On Friday, I headed south to Palo Alto, where I wandered around the beautiful grounds of Stanford University — why I never did this whilst I lived so close I don’t know, as the free Marguerite shuttle made doing so all too easy. That evening I had dinner with Steve in a Redwood City pub that had a subtle British theme; the table service supplied a well prepared selection of dishes, including many inspired by traditional English faire, with the background music sourced from my side of the Atlantic.
 

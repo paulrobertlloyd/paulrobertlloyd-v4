@@ -16,10 +16,8 @@ photoset:
   - url: /images/2008/12/washington_dc/netherlands_carillon.jpg
     alt: Netherlands Carillon
 ---
-{% render 'figure' with '/images/2008/12/washington_dc/vietnam_memorial.jpg'
-  caption: 'The Vietnam Veterans Memorial.'
-  alignment: 'bleed'
-%}
+![](/images/2008/12/washington_dc/vietnam_memorial.jpg 'The Vietnam Veterans Memorial.')
+{.align-bleed}
 
 The final stop in my four-city tour of the US in October was Washington, D.C. I’ve spent a fair amount of time in the United States these past few years, so I thought it only appropriate to visit the nations capital, and see its iconic landmarks in the flesh.
 
@@ -42,10 +40,8 @@ Also located in Arlington is the [Pentagon][7]. As the headquarters for the US D
 
 You are however allowed to take photos of the [9/11 memorial][8], in which the 184 victims of that days attack on the Pentagon are remembered in the form of 184 beautifully illuminated benches. The arrangement of benches (positioned in a number of rows according to the victim’s ages, from 3 to 71) really brings home the reality of the tragedy.
 
-{% render 'figure' with '/images/2008/12/washington_dc/pentagon_memorial.jpg'
-  caption: 'The Pentagon Memorial.'
-  alignment: 'bleed'
-%}
+![](/images/2008/12/washington_dc/pentagon_memorial.jpg 'The Pentagon Memorial.')
+{.align-bleed}
 
 ## Architecture
 
@@ -53,10 +49,8 @@ D.C. is still a relatively young capital, although the many neo-classical styled
 
 This pseudo-grandeur became a bit tiresome after a while, which is possibly why I spent one evening pointing my camera towards the main terminal building at [Washington Dulles][9] International Airport instead. Designed by [Eero Saarinen][10] in 1958, the building was planned specifically with new jet powered aircraft in mind — with a possible future use as a spaceport! As a sign of Saarinen’s foresight, he designed the terminal with a view towards future expansion, and indeed the building is now double the length of his original design.
 
-{% render 'figure' with '/images/2008/12/washington_dc/dulles.jpg'
-  caption: 'The main terminal building at Washington Dulles International Airport.'
-  alignment: 'bleed'
-%}
+![](/images/2008/12/washington_dc/dulles.jpg 'The main terminal building at Washington Dulles International Airport.')
+{.align-bleed}
 
 I was particularly impressed by the city’s [Metro][11] system. Built towards the end of the 1970’s, it was able to learn from those systems that had gone before it; being built largely at the same time, means it has stations with a consistent design and layout. A key feature are lights that line the platform edges, and flash when trains are approaching. Each station is illuminated by fluorescent lighting hidden behind platforms offset from the vaulted walls, and from the top of information pylons centred along the length of the platform, resulting in a well lit, but calming and soft environment.
 

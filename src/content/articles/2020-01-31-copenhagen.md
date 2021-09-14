@@ -40,10 +40,8 @@ There’s a lot to see, but having visited once before — albeit briefly when I
 
 My stomach rumbling, I look for restaurants on Foursquare. Some former colleagues worked with a client here several years ago, so several recommendations have familiar faces beside them. The top suggestion is [*Paludan Bogcafé*{lang="da"}][3] located just off *Strøget*{lang="da"} — one of the longest shopping streets in Europe. This cafe come library is surprisingly roomy, despite its popularity. Food is ordered at the counter, which is hidden behind a lengthy queue; that no one wants to abandon it suggests the food is worth the wait. I order the chicken burger, which comes with lightly roasted potatoes and a pot of chilli mayo. Every mile of the 600 travelled so far is *totally* worth it as I savour my first bite.
 
-{% render 'figure' with '/images/2020/01/copenhagen/nyhavn.jpg'
-  caption: 'The brightly coloured townhouses at Nyhavn, a familiar image of Copenhagen'
-  alignment: 'bleed'
-%}
+![](/images/2020/01/copenhagen/nyhavn.jpg 'The brightly coloured townhouses at Nyhavn, a familiar image of Copenhagen.')
+{.align-bleed}
 
 One of the few attractions I’ve lined up on this trip is [*Designmuseum Danmark*{lang="da"}][4]. Heading in that direction I spot the [*Rundetårn*{lang="da"}][5] (Round Tower). Climbing to the top of tall buildings is a routine activity on my travels, one that typically requires clambering up a thousand or so narrow steps to a view that gives me sweaty hands. This tower – whose entry price is a very reasonable 25 DKK – features a gentle cylindrical slope with only a few steps at the top. It delivers a view over the local neighbourhood, but anything much further away is obscured by clouds.
 
@@ -57,9 +55,7 @@ I open my curtains and look through rain-splattered windows to see dark skies an
 
 The [Royal Danish Library][9] is open however, so I head there. Its modern extension was constructed at the turn of the century and has since been dubbed the *Black Diamond*. Much like its contemporary, [the Sage][10] in Gateshead, its interior attempts to imply magnificence with a large, well-lit atrium, yet feels vacant and soulless. The older part of the building with its reading room and shelves stuffed with books, directories and encyclopaedias, is far more interesting.
 
-{% render 'figure' with '/images/2020/01/copenhagen/krak.jpg'
-  caption: 'No idea what these are, but they make for a nice image.'
-%}
+![Red books on a bookshelf.](/images/2020/01/copenhagen/krak.jpg 'No idea what these are, but they make for a nice image.')
 
 Finding myself at a lose end, sat in the library’s cafe I look online for tips about taking photos in bad weather. Look for contrast. Pick out bright colours. Search for reflections. I set myself a mini assignment. However, back on *Strøget*{lang="da"} I end up engaging in some retail therapy instead. Expecting the need for warmer clothing before I travel further north, I buy a new jacket and a thick woollen jumper.
 

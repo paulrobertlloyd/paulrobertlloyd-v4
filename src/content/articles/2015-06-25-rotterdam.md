@@ -16,10 +16,8 @@ photoset:
   - url: /images/2015/06/rotterdam/de_rotterdam.jpg
     alt: De Rotterdam
 ---
-{% render 'figure' with '/images/2015/06/rotterdam/centraal_station.jpg'
-  caption: 'Rotterdam Centraal Station.'
-  alignment: 'bleed'
-%}
+![](/images/2015/06/rotterdam/centraal_station.jpg 'Rotterdam Centraal Station.')
+{.align-bleed}
 
 After [speaking at CSS Day in Amsterdam][1], I decided to head back to Brighton via a few cities in Europe’s low countries.
 
@@ -39,10 +37,8 @@ Skyscrapers are a familiar sight in Rotterdam. This is especially true of the ne
 
 Buildings here include [Maastoren][4], the tallest building in the Benelux region, and [De Rotterdam][5], whose four substantial towers, each offset half way up, combine to form the most densely built part of the Netherlands. The area is joined to the city by the [Erasmusbrug][6], a landmark nicknamed the Swan due the design of its asymmetric white pylon.
 
-{% render 'figure' with '/images/2015/06/rotterdam/erasmusbrug.jpg'
-  caption: 'Erasmusbrug or The Swan.'
-  alignment: 'bleed'
-%}
+![](/images/2015/06/rotterdam/erasmusbrug.jpg 'Erasmusbrug or The Swan.')
+{.align-bleed}
 
 Other parts of the city are more human scaled, although even the Cool district, with its tree lined streets, are framed by the sight of tower blocks in the distance. The location of many restaurants and bars, it was here that I decided that this is a very easy city to live in — although the delicious coffee and a Chorizo and Cheese tosti from [Hooper Coffee][7] may have swayed me!
 
@@ -52,9 +48,7 @@ At the [Museum Boijmans Van Beuningen][8] the work of celebrated Dutch and inter
 
 Their controversial history is told in [a multimedia presentation][9] that projects images onto the floor and onto the piece itself. The work Serra conceived as a reaction to the space it occupied was intended to direct viewers around the space in a specific way. When Wim Crouwel became director of the museum two years after it was installed, this space was enlarged and suddenly Serra’s work had the fortuitous effect of directing people into the museum shop. At one point, it even became part of the entrance foyer, much to the chagrin of its creator. This presentation tells the story of the space, and considers the way works of art can change over time, both as a result of the artist and the whims of those who commission them.
 
-{% render 'figure' with '/images/2015/06/rotterdam/boijmans.jpg'
-  caption: 'Museum Boijmans Van Beuningen.'
-%}
+![](/images/2015/06/rotterdam/boijmans.jpg 'Museum Boijmans Van Beuningen.')
 
 ## Euromast
 
@@ -66,16 +60,12 @@ While not as tall or as beautiful as other tall towers, it is more frightening t
 
 Another series of distinctive buildings can be found around Blaak railway station, the newest of which is the Markthal, a large arch-like structure enclosed with glass walls at each end and featuring ceiling art displaying enlarged fruits and vegetables. The strangest of Rotterdam’s buildings however must be the [Cube Houses][12], designed by [Piet Blom][13].
 
-{% render 'figure' with '/images/2015/06/rotterdam/cube_houses.jpg'
-  caption: 'Piet Blom’s Cube Houses.'
-  alignment: 'bleed'
-%}
+![](/images/2015/06/rotterdam/cube_houses.jpg 'Piet Blom’s Cube Houses.')
+{.align-bleed}
 
 Envisaged as an urban forest, this series of 40 cubes, each tilted at an angle of 45 degrees and perched upon hexagonal concrete trunks, allows residents to feel connected both to the street below, and the sky above. A show cube is open to the public, so I couldn’t resist peeking inside. As suspected, these homes are demonstrative of form over function; dangerously steep stairs lead up to a space divided into three floors, with small rooms constrained by steeply slopping ceilings.
 
-{% render 'figure' with '/images/2015/06/rotterdam/road.jpg'
-  caption: 'Wide thoroughfares though the city reminded me a little of Brasilia, although here they are straddled by segregated cycle lanes and footpaths.'
-%}
+![](/images/2015/06/rotterdam/road.jpg 'Wide thoroughfares though the city reminded me a little of Brasilia, although here they are straddled by segregated cycle lanes and footpaths.')
 
 As the Netherlands’ second largest city, and home to Europe’s largest port, Rotterdam has a lot to offer. It has a self-assuredness, a willingness to experiment and have some fun. Public art can be seen across the city, much of it intriguing, some of it just plain daft — I’m not sure most cities would have a 12 foot statue of Santa holding a butt plug in a main shopping district!
 

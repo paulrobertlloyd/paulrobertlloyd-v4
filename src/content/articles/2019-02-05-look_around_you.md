@@ -14,11 +14,8 @@ tags:
   - featured
   - source:new_adventures_magazine
 ---
-{% render 'figure' with '/images/2019/02/illustration.png'
-  caption: 'Illustration: [Geri Coady](http://hellogeri.com)'
-  alignment: 'bleed'
-  imageRatio: 2.25
-%}
+![](/images/2019/02/illustration.png 'Illustration: [Geri Coady](http://hellogeri.com)'){data-responsiver="wide"}
+{.align-bleed}
 
 If the last few years have taught us anything, it’s that while designers have an amazing ability to change the world, it may not always be for the better.
 

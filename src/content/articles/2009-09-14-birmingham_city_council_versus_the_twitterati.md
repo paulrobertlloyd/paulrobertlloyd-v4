@@ -15,9 +15,7 @@ category:
 ---
 Last week Birmingham City Council launched its new £2.8m website. Delayed, over budget and woefully inadequate, it rightly faced a storm of criticism on Twitter and from the local press.
 
-{% render 'figure' with '/images/2009/09/birmingham_city_council_versus_the_twitterati/website.png'
-  caption: 'The new Birmingham City Council Website.'
-%}
+![](/images/2009/09/birmingham_city_council_versus_the_twitterati/website.png 'The new Birmingham City Council Website.')
 
 Whether as a result of the [public service dating game][1] (the council choosing the outsourcing firm Capita rather than a specialist web design agency), or the single success criteria being a site better than the one it replaced (a low baseline), the whole affair only succeeded in demonstrating how not to handle a large scale web project.
 
@@ -37,9 +35,7 @@ Yet the relationship between a council and it’s residents online needn’t be 
 
 Let me give an example. Earlier this year [I wrote about their logo][8], and asked for information about who was responsible for its design, yet this yielded no response. However, on discovering the [@WalsallCouncil][9] account, [I asked the same question][10], and not only did I get an answer, but members of their Print and Design Unit and Press Office [commented on my post][11], giving me more information than I ever could have hoped for.
 
-{% render 'figure' with '/images/2009/09/birmingham_city_council_versus_the_twitterati/tweet.png'
-  caption: 'Walsall Council replying to a question from me on Twitter.'
-%}
+![](/images/2009/09/birmingham_city_council_versus_the_twitterati/tweet.png 'Walsall Council replying to a question from me on Twitter.')
 
 Yet aside from answering questions about a logo, their presence on Twitter is providing a real service to the community. Be it suggesting activities for families over the summer break, allowing users to report problems such as fly tipping or pot holes — or simply by [featuring images of the area][12] taken by local photographers — this is very much a two-way communication channel.
 

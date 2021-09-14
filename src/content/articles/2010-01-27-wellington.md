@@ -10,10 +10,8 @@ category:
   - Wellington
   - Architecture
 ---
-{% render 'figure' with '/images/2010/01/wellington/cable_car.jpg'
-  caption: 'The Wellington Cable Car takes passengers from Lambton Quay in the CBD to the suburb of Kelburn, and the Wellington Botanic Garden.'
-  alignment: 'bleed'
-%}
+![](/images/2010/01/wellington/cable_car.jpg 'The Wellington Cable Car takes passengers from Lambton Quay in the CBD to the suburb of Kelburn, and the Wellington Botanic Garden.')
+{.align-bleed}
 
 From Nelson I reluctantly headed back to Wellington, cursing myself for not having an itinerary that continued south. However, Wellington will remain the most memorable city of this trip, although perhaps not entirely for the right reasons.
 
@@ -23,10 +21,8 @@ Much of this madness can be attributed to the city’s architectural style, whic
 
 However, if you look closely, you can still find a number of fine examples of the Art Deco style. The [Prudential Assurance Building][2] on Lambton Quay is one of few such buildings I spotted in the CBD, and there are many more in the surrounding districts (the Central Fire Station is a particularly beautiful example). The bohemian buildings along [Cuba Street][3] also have their own unique charm, as do some of the newer developments around the waterfront. So, not all bad.
 
-{% render 'figure' with '/images/2010/01/wellington/parliament.jpg'
-  caption: 'The Beehive and Parliament House, Wellington.'
-  alignment: 'bleed'
-%}
+![](/images/2010/01/wellington/parliament.jpg 'The Beehive and Parliament House, Wellington.')
+{.align-bleed}
 
 As you can tell, most of my time was consumed by the built environment, but I did take time to tour many of the city’s other attractions such as the Cable Car and Botanic Gardens. Of particular interest were the [Parliament Buildings][4]. Unsurprisingly this complex is comprised of three buildings built to very different and distinct architectural styles, yet unlike the rest of the city, they sit wonderfully well next to each other.
 

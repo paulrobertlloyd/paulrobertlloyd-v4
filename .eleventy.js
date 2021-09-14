@@ -54,6 +54,49 @@ module.exports = function (eleventy) {
   eleventy.setLibrary('md', require('./lib/libraries/markdown.js'));
 
   // Plugins
+  const attributes = { loading: 'lazy' };
+  const cloudinaryBaseUrl = 'https://res.cloudinary.com/paulrobertlloyd/image/fetch/'
+
+  if (process.env.NODE_ENV === 'production') {
+    eleventy.addPlugin(require('eleventy-plugin-images-responsiver'), {
+      default: {
+        attributes,
+        sizes: '100vw',
+        fallbackWidth: 960,
+        minWidth: 320,
+        maxWidth: 1600,
+        steps: 3,
+        resizedImageUrl: (src, width) => `${cloudinaryBaseUrl}/c_fill,q_auto,f_auto,w_${width}/${process.env.URL}${src}`
+      },
+      wide: {
+        attributes,
+        sizes: '100vw',
+        fallbackWidth: 960,
+        minWidth: 320,
+        maxWidth: 1600,
+        steps: 3,
+        resizedImageUrl: (src, width) => `${cloudinaryBaseUrl}/c_fill,q_auto,f_auto,ar_2.25,w_${width}/${process.env.URL}${src}`
+      },
+      supporting: {
+        attributes,
+        sizes: '40vw',
+        fallbackWidth: 400,
+        minWidth: 200,
+        maxWidth: 800,
+        steps: 3,
+        resizedImageUrl: (src, width) => `${cloudinaryBaseUrl}/c_fill,q_auto,f_auto,w_${width}/${process.env.URL}${src}`
+      },
+      thumbnail: {
+        attributes,
+        sizes: '20vw',
+        fallbackWidth: 400,
+        minWidth: 200,
+        maxWidth: 600,
+        steps: 1,
+        resizedImageUrl: (src, width) => `${cloudinaryBaseUrl}/c_fill,q_auto,f_auto,w_${width}/${process.env.URL}${src}`
+      }
+    });
+  }
   eleventy.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
 
   // Collections

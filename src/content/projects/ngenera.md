@@ -41,9 +41,7 @@ With this intriguing new name, the logo needed to reflect the organisation’s b
 
 This distinctive mark could work at many sizes, with flat and rendered versions created to suit different applications. To account for a range of operating divisions, I created a brand architecture that meant future acquisitions could easily be integrated. With other in-house and third-party teams responsible for implementing the brand, I provided overall guidance and created example collateral pieces such as reports, signage and business cards. For the company’s web presence, I sought to distinguish nGenera by creating an immersive and premium experience, realised through the use of deep blues accented by highly saturated colours from the complementary palette.
 
-{% render 'figure' with '/images/projects/ngenera/collateral.png'
-  caption: 'Associated brand collateral, including presentation folders, report covers, letterheads and business cards.'
-  alignment: 'bleed'
-%}
+![](/images/projects/ngenera/collateral.png 'Associated brand collateral, including presentation folders, report covers, letterheads and business cards.')
+{.align-bleed}
 
 [1]: https://www.gomoxie.com
