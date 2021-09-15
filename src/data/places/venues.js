@@ -337,6 +337,17 @@ module.exports = [{
     'plus-code': '9C3XGWFJ+CC'
   }
 }, {
+  title: 'De La Warr Pavilion',
+  url: 'https://www.dlwp.com',
+  address: {
+    'street-address': 'Marina',
+    locality: 'Bexhill-on-Sea',
+    region: 'Sussex',
+    'country-name': 'United Kingdom',
+    'postal-code': 'TN40 1DP',
+    'plus-code': '9F22RFPC+XW'
+  }
+}, {
   title: 'Depot',
   url: 'https://lewesdepot.org',
   address: {
