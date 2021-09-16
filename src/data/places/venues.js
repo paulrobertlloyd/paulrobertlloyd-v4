@@ -139,6 +139,16 @@ module.exports = [{
     'plus-code': '9C4WF4Q7+F2'
   }
 }, {
+  title: 'Bison Beach Bar',
+  address: {
+    'street-address': 'Sea Lanes',
+    locality: 'Brighton',
+    region: 'Sussex',
+    'country-name': 'United Kingdom',
+    'postal-code': 'BN2 1EN',
+    'plus-code': '9C2XRV8G+VX'
+  }
+}, {
   title: 'Bricklayer’s Arms',
   address: {
     'street-address': '31 Gresse Street',
