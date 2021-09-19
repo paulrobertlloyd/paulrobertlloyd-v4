@@ -1434,6 +1434,16 @@ module.exports = [{
     'plus-code': '9C2XRVM6+GC'
   }
 }, {
+  title: 'The Lexington',
+  address: {
+    'street-address': '96-98 Pentonville Road',
+    locality: 'Pentonville',
+    region: 'Greater London',
+    'country-name': 'United Kingdom',
+    'postal-code': 'N1 9JB',
+    'plus-code': '9C3XGVJQ+PC'
+  }
+}, {
   title: 'The Library of Birmingham',
   address: {
     'street-address': 'Broad Street',
