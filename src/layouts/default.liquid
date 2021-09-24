@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta property="og:title" content="{{ pageTitle | markdown: 'inline' | strip_html }}">
   <meta property="og:description" name="description" content="{{ summary | default: app.description | markdown | strip_html | strip_newlines | strip }}">
-  <meta property="og:url" content="{{ page.url }}">
+  <meta property="og:url" content="{{ page.url | absolute_url: app.url }}">
   <meta property="og:image" content="{{ shareImage }}">
 {%- if image -%}
   <meta name="twitter:card" content="summary_large_image">
