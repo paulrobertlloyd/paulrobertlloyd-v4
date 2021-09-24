@@ -1,5 +1,3 @@
-export default aria;
-
 /**
  * @namespace aria
  */
@@ -314,3 +312,5 @@ aria.Combobox.prototype.defocusOption = function (element) {
 
   element.setAttribute('aria-selected', 'false');
 };
+
+export default aria;
