@@ -21,7 +21,7 @@ product:
     : 2011
 
     ISBN
-    : <span class="u-identifier">978-1-4087037-4-8</span>
+    : [978-1-4087037-4-8]{.u-identifier}
 category:
   - Books
   - Review

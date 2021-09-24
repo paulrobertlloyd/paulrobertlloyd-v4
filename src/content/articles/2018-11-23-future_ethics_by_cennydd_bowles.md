@@ -14,13 +14,13 @@ product:
     : Cennydd Bowles
 
     Publisher
-    : <span class="p-brand h-card">NowNext Press</span>
+    : [NowNext Press]{.p-brand .h-card}
 
     Year
     : 2018
 
     ISBN
-    : <span class="u-identifier">978-1-9996019-1-1</span>
+    : [978-1-9996019-1-1]{.u-identifier}
 category:
   - Books
   - Review
