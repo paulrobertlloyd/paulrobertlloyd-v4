@@ -35,6 +35,7 @@ module.exports = function (eleventy) {
   eleventy.addFilter('tokenize', require('./lib/filters/tokenize.js'));
 
   // Shortcodes
+  eleventy.addShortcode('avatar', require('./lib/shortcodes/avatar.js'));
   eleventy.addShortcode('embed', require('./lib/shortcodes/embed.js'));
   eleventy.addShortcode('icon', require('./lib/shortcodes/icon.js'));
   eleventy.addShortcode('image', require('./lib/shortcodes/image.js'));
