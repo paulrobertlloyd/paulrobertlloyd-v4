@@ -69,6 +69,7 @@
 </head>
 
 <body data-type="{{ type | default: layout }}">
+  {%- render 'icons' -%}
   {%- render 'banner', page: page, tags: tags -%}
   <main class="main{% if vocab %} | {% for root in vocab %} h-{{ root }}{% endfor %}{% endif %}" id="main">
     <div class="main__container">
