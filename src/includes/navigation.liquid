@@ -2,7 +2,14 @@
 {%- for item in navigation %}
   <li>
     <a {% if item.rel %}rel="{{ item.rel }}" {% endif %}href="{{ item.url }}"{% if tags contains item.tag or page.url contains item.url %} aria-current="true"{% endif %}>
-      {%- if item.icon %}{% icon item.icon 20 false %}{% else %}{{ item.label }}{% endif -%}
+      {%- if item.icon -%}
+        <svg width="20" height="20" focusable="false" aria-labelledby="{{ item.icon }}-title" role="img">
+          <title id="{{ item.icon }}-title">{{ item.label }}</title>
+          <use href="#_icon_{{ item.icon }}"></use>
+        </svg>
+      {%- else -%}
+        {{ item.label }}
+      {%- endif -%}
     </a>
   </li>
 {%- endfor %}

@@ -1,6 +1,6 @@
 <header class="header">
   <h1 class="header__title{% if vocab %} | p-name{% endif %}">
-    {% if icon %}{% icon icon %}{% endif %}
+    {% if icon %}<svg width="1em" height="1em" focusable="false" aria-hidden="true"><use href="#_icon_{{ icon }}"></use></svg>{% endif %}
     {{ title | newline_to_br }}
   </h1>
 {%- if summary -%}
