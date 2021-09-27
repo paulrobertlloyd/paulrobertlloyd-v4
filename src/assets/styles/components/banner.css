@@ -12,25 +12,6 @@
   position: relative;
 }
 
-.banner__skip {
-  background-color: var(--color-focus);
-  color: var(--color-text-focus);
-  display: block;
-  inset-block-start: 0;
-  inset-inline-start: calc(var(--gap) - var(--inset-small));
-  outline-offset: 0;
-  padding: var(--inset-small-squished);
-  position: absolute;
-  transform: translateY(0);
-}
-
-.banner__skip:not(:focus) {
-  @extend .visually-hidden;
-
-  transform: translateY(-100%);
-  transition: transform 0.5s ease-out;
-}
-
 .banner__title {
   color: var(--color-text);
   flex: 0;
