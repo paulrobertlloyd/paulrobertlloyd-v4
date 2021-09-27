@@ -2,22 +2,23 @@
 <html lang="{{ app.language }}" prefix="og: http://ogp.me/ns#">
 <head>
   <meta charset="utf-8">
-  <meta property="og:title" content="{{ pageTitle | markdown: 'inline' | strip_html }}">
-  <meta property="og:description" name="description" content="{{ summary | default: app.description | markdown | strip_html | strip_newlines | strip }}">
-  <meta property="og:url" content="{{ page.url | absolute_url: app.url }}">
-  <meta property="og:image" content="{{ shareImage }}">
-{%- if image -%}
-  <meta name="twitter:card" content="summary_large_image">
-{%- else -%}
-  <meta name="twitter:card" content="summary">
-{%- endif -%}
-  <meta name="twitter:site" content="@paulrobertlloyd">
-  <meta name="theme-color" content="{{ app.themeColor }}" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="{{ app.themeColorDark }}" media="(prefers-color-scheme: dark)">
-  <meta name="supported-color-schemes" content="light dark">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="robots" content="index, follow">
+  <title>{{ pageTitle | markdown: 'inline' | strip_html }}</title>
 
+  <script nonce="bVgyaDV6YU9tdThnZ2wwckZBNnFnc1Z6Wk40SnY2U0pmbjdTUjQ3MVg2RTFCbnEwN3g=">
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register('/serviceworker.js');
+      if (navigator.serviceWorker.controller) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.controller.postMessage({
+            command: 'trimCaches'
+          });
+        });
+      }
+    }
+  </script>
+
+  <link rel="preconnect" href="https://res.cloudinary.com">
   <link rel="dns-prefetch" href="https://res.cloudinary.com">
   <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="RSS (Atom) Feed">
   <link rel="alternate" href="/feed.json" type="application/feed+json" title="JSON Feed">
@@ -31,7 +32,6 @@
   <link rel="microsub" href="{{ app.endpoint.microsub }}">
   <link rel="webmention" href="{{ app.endpoint.webmention }}">
   <link rel="pgpkey" href="/key.txt">
-  <link rel="me" href="https://mastodon.social/@paulrobertlloyd">
   <link rel="stylesheet" href="/assets/styles/app.css">
 
   <style>
@@ -50,38 +50,33 @@
     {%- endfor -%}
     }
   </style>
-
   <script src="/assets/scripts/app.js" async></script>
-  <script nonce="bVgyaDV6YU9tdThnZ2wwckZBNnFnc1Z6Wk40SnY2U0pmbjdTUjQ3MVg2RTFCbnEwN3g=">
-    if (navigator.serviceWorker) {
-      navigator.serviceWorker.register('/serviceworker.js');
-      if (navigator.serviceWorker.controller) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.controller.postMessage({
-            command: 'trimCaches'
-          });
-        });
-      }
-    }
-  </script>
 
-  <title>{{ pageTitle | markdown: 'inline' | strip_html }}</title>
+  <meta property="og:title" content="{{ pageTitle | markdown: 'inline' | strip_html }}">
+  <meta property="og:description" name="description" content="{{ summary | default: app.description | markdown | strip_html | strip_newlines | strip }}">
+  <meta property="og:url" content="{{ page.url | absolute_url: app.url }}">
+  <meta property="og:image" content="{{ shareImage }}">
+{%- if image -%}
+  <meta name="twitter:card" content="summary_large_image">
+{%- else -%}
+  <meta name="twitter:card" content="summary">
+{%- endif -%}
+  <meta name="twitter:site" content="@paulrobertlloyd">
+  <meta name="theme-color" content="{{ app.themeColor }}" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="{{ app.themeColorDark }}" media="(prefers-color-scheme: dark)">
+  <meta name="supported-color-schemes" content="light dark">
+  <meta name="robots" content="index, follow">
 </head>
+
 <body data-type="{{ type | default: layout }}">
-{%- render 'banner'
-  page: page
-  tags: tags
--%}
-<main class="main{% if vocab %} | {% for root in vocab %} h-{{ root }}{% endfor %}{% endif %}" id="main">
-  <div class="main__container">
-  {%- block 'main' -%}
-    {{ layoutContent }}
-  {%- endblock -%}
-  </div>
-</main>
-{%- render 'contentinfo'
-  page: page
-  tags: tags
--%}
+  {%- render 'banner', page: page, tags: tags -%}
+  <main class="main{% if vocab %} | {% for root in vocab %} h-{{ root }}{% endfor %}{% endif %}" id="main">
+    <div class="main__container">
+    {%- block 'main' -%}
+      {{ layoutContent }}
+    {%- endblock -%}
+    </div>
+  </main>
+  {%- render 'contentinfo', page: page, tags: tags -%}
 </body>
 </html>
