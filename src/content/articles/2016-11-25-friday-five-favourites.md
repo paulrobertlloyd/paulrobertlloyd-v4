@@ -1,8 +1,6 @@
 ---
 title: Friday Five Favourites
 date: 2016-11-25
-canonical:
-  url: http://smallbatchlist.com/archives/november-25th-2016/
 summary: In this week’s Small Batch List, I share five of my favourite things.
 category:
   - Culture
