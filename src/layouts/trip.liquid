@@ -1,11 +1,12 @@
 {%- assign itinerary = collections.travel | includes: 'data.tripId',trip.id | first -%}
+{%- assign formattedTitle = title | replace: ' ➔','\n➔' -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'footer'
     date: trip.date
   -%}
   {%- render 'header'
-    title: title
+    title: formattedTitle
     summary: summary
     vocab: vocab
   -%}
