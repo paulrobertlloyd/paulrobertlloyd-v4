@@ -36,7 +36,7 @@
 
   <style>
     :root {
-    {%- if accentColor -%}
+    {% if accentColor -%}
       {%- assign accentColor = accentColor -%}
     {%- elsif date -%}
       {%- assign accentColor = date | color -%}
