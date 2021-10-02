@@ -3,7 +3,7 @@ title: British Triumph Coming Shortly
 date: 2009-03-01T22:39:26Z
 location:
   locality: Littlehampton
-  country-name: United Kingdom
+  country-name: England
 summary: It seems I have a new challenge for March.
 category:
   - Friends

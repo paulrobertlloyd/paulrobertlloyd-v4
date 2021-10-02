@@ -3,7 +3,7 @@ title: Away to Galway
 date: 2017-05-14T22:40:00+01:00
 location:
   locality: Brighton
-  country-name: United Kingdom
+  country-name: England
 summary: In need of a break, I headed to Galway and the far western reaches of the British Isles.
 image: /images/2017/05/away_to_galway/galway_harbour.jpg
 category:

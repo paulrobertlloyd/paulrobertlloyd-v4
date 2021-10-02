@@ -3,7 +3,7 @@ title: Thoughts on Adobe Muse
 date: 2011-08-18T00:18:00+01:00
 location:
   locality: Brighton
-  country-name: United Kingdom
+  country-name: England
 summary: This week Adobe revealed Muse, yet another web application but this time aimed at print designers looking to transfer their skills to the web. However this app has created some controversy, not only due the quality of the code it outputs, but also the claims made in the marketing videos.
 category:
   - Adobe

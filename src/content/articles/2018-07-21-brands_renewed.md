@@ -3,7 +3,7 @@ title: Brands Renewed
 date: 2018-07-21T21:30:00+01:00
 location:
   locality: Brighton
-  country-name: United Kingdom
+  country-name: England
 summary: An appreciation for identity programmes that seek to refine rather than reinvent.
 image: /images/2018/07/brands_renewed/tate.png
 category:

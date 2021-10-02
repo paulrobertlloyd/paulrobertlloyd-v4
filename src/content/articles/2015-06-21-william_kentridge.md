@@ -3,7 +3,7 @@ title: William Kentridge - If We Ever Get to Heaven
 date: 2015-06-21T13:54:51+01:00
 location:
   locality: Brighton
-  country-name: United Kingdom
+  country-name: England
 summary: The work of celebrated illustrator and artist William Kentridge is showcased at the EYE Film Institute in Amsterdam.
 image: /images/2015/06/william_kentridge.jpg
 category:

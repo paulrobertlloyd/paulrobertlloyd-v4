@@ -16,7 +16,7 @@ module.exports = [{
   title: 'Craignure Mull Ferry Terminal',
   address: {
     locality: 'Craignure',
-    'country-name': 'United Kingdom',
+    'country-name': 'Scotland',
     'plus-code': '9C8PF7CV+7F'
   }
 }, {
@@ -66,7 +66,7 @@ module.exports = [{
   title: 'Oban Ferry Terminal',
   address: {
     locality: 'Oban',
-    'country-name': 'United Kingdom',
+    'country-name': 'Scotland',
     'plus-code': '9C8PCG6F+VH'
   }
 }, {
@@ -87,7 +87,7 @@ module.exports = [{
   title: 'Poole Ferry Terminal',
   address: {
     locality: 'Poole',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C2WP253+6R'
   }
 }, {
@@ -102,7 +102,7 @@ module.exports = [{
   url: 'https://newhavenport.com',
   address: {
     locality: 'Newhaven',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9F22Q3R3+4V'
   }
 }, {
@@ -110,7 +110,7 @@ module.exports = [{
   url: 'https://holyheadport.co.uk',
   address: {
     locality: 'Holyhead',
-    'country-name': 'United Kingdom',
+    'country-name': 'Wales',
     'plus-code': '9C5Q895C+PC'
   }
 }, {
@@ -124,7 +124,7 @@ module.exports = [{
   title: 'Portsmouth Harbour Station Pier',
   address: {
     locality: 'Portsmouth',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C2WQVWR+R7'
   }
 }, {
@@ -145,7 +145,7 @@ module.exports = [{
   title: 'Ryde Pier Head',
   address: {
     locality: 'Ryde',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C2WPRQQ+QQ'
   }
 }, {
@@ -153,7 +153,7 @@ module.exports = [{
   url: 'http://southamptonvts.co.uk',
   address: {
     locality: 'Southampton',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C2WVHVX+CX'
   }
 }, {

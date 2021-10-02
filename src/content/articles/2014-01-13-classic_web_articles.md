@@ -3,7 +3,7 @@ title: Classic Web Articles
 date: 2014-01-13T23:13:13Z
 location:
   locality: Brighton
-  country-name: United Kingdom
+  country-name: England
 summary: Vasilis van Gemert asked me to curate a list of classic articles for the Daily Nerd, but what constitutes a classic?
 category:
   - Web

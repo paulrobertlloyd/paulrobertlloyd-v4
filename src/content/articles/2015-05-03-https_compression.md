@@ -3,7 +3,7 @@ title: HTTPS + Compression Considered Harmful?
 date: 2015-05-03T21:51:36+01:00
 location:
   locality: Brighton
-  country-name: United Kingdom
+  country-name: England
 summary: I recently learnt about a security exploit that can occur when pages served over HTTPS use HTTP compression. Secure or fast, pick one?
 category:
   - Web

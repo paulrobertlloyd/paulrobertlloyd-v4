@@ -3,7 +3,7 @@ title: A Bomb in Littlehampton?
 date: 2009-02-15T23:14:53Z
 location:
   locality: Littlehampton
-  country-name: United Kingdom
+  country-name: England
 summary: On Friday evening I got a call from Jon on his way back to the house after a night out, asking if I had heard anything about a bomb found near Littlehampton station.
 category:
   - Personal

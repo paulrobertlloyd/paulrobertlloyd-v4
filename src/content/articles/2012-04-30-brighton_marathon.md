@@ -3,7 +3,7 @@ title: Marathon Man
 date: 2012-04-30T23:48:01+01:00
 location:
   locality: Brighton
-  country-name: United Kingdom
+  country-name: England
 summary: Although I spent much of April writing a tutorial for .net Magazine, I did enjoy a brief respite while I ran the Brighton Marathon. Yep, it’s been quite the month.
 category:
   - Personal

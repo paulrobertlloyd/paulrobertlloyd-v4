@@ -31,7 +31,7 @@ module.exports = [{
   url: 'https://birminghamairport.co.uk',
   address: {
     locality: 'Birmingham',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C4WF724+XH'
   }
 }, {
@@ -40,7 +40,7 @@ module.exports = [{
   url: 'https://belfastairport.com',
   address: {
     locality: 'Belfast',
-    'country-name': 'United Kingdom',
+    'country-name': 'Northern Ireland',
     'plus-code': '9C6MMQ4M+G4'
   }
 }, {
@@ -130,7 +130,7 @@ module.exports = [{
   url: 'https://gatwickairport.com',
   address: {
     locality: 'Gatwick',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C3X5R39+F5'
   }
 }, {
@@ -175,7 +175,7 @@ module.exports = [{
   url: 'https://heathrow.com',
   address: {
     locality: 'London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C3XFGCW+27'
   }
 }, {
@@ -184,7 +184,7 @@ module.exports = [{
   url: 'https://www.london-luton.co.uk',
   address: {
     locality: 'Luton',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C3XVJGH+G8'
   }
 }, {

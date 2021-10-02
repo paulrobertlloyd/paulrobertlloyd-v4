@@ -3,7 +3,7 @@ title: 'Designing Systems, Part 1: Theory, Practice, and the Unfortunate In-betw
 date: 2017-01-06T12:00:00Z
 location:
   locality: Bexhill-on-Sea
-  country-name: United Kingdom
+  country-name: England
 summary: 'In the first part of a three-part essay about design systems, I review two approaches for the creation of something equally as complex: a city.'
 collection: designing_systems
 image: /images/2017/01/designing_systems_part_1/brasilia_satellite.jpg

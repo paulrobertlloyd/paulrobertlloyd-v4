@@ -3,7 +3,7 @@ title: Alternatives to Twitter
 date: 2018-08-26T13:25:00+01:00
 location:
   locality: Redditch
-  country-name: United Kingdom
+  country-name: England
 summary: As people look to replace Twitter as their social network of choice, Mastadon and Micro.blog have emerged as early contenders.
 category:
   - Web

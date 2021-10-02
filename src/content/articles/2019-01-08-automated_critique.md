@@ -3,7 +3,7 @@ title: 'Automated Front-end Development: A Critique'
 date: 2019-01-08T15:00:00Z
 location:
   locality: Brighton
-  country-name: United Kingdom
+  country-name: England
 summary: A compelling 120-word critique regarding automated front-end development, as provided by a `class` attribute.
 category:
   - Automation

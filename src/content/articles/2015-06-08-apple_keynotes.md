@@ -3,7 +3,7 @@ title: 'Apple: It’s Not You, It’s Me'
 date: 2015-06-08T22:36:06+01:00
 location:
   locality: Brighton
-  country-name: United Kingdom
+  country-name: England
 summary: I tuned in for just a few seconds, but had to turn it off. That’s not enough time to make a reasoned judgement about the content of Apple’s latest keynote of course, but I just couldn’t continue watching.
 category:
   - Apple

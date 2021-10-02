@@ -3,7 +3,7 @@ title: The Journey
 date: 2012-03-21T23:43:51Z
 location:
   locality: Brighton
-  country-name: United Kingdom
+  country-name: England
 summary: A new pair of jeans, the reignited love for a city and an inevitable answer to a surprisingly surprising question. Just some of the artefacts collected during two weeks in America.
 category:
   - Travel

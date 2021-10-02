@@ -3,7 +3,7 @@ title: Little Gems
 date: 2015-11-21T16:57:00Z
 location:
   locality: Brighton
-  country-name: United Kingdom
+  country-name: England
 summary: 'The hackability provided by Jekyll’s plugin architecture has brought about an unexpected consequence: I’m starting to learn Ruby.'
 category:
   - Jekyll

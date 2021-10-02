@@ -3,7 +3,7 @@ title: Landmark Olympic Websites, Where Art Thou?
 date: 2014-02-20T00:13:28Z
 location:
   locality: Brighton
-  country-name: United Kingdom
+  country-name: England
 summary: Whereas the world’s foremost architects, graphic artists, typographers, iconographers and illustrators are asked to create their best work to celebrate each Olympic Games, still we wait for the Olympic movement to give equal consideration to the design of its websites.
 image: /images/2014/02/olympic_websites/anastasiya_kuzmina.jpg
 category:

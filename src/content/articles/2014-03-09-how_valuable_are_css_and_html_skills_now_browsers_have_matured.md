@@ -3,7 +3,7 @@ title: How Valuable Are CSS and HTML Skills Now Browsers Have Matured?
 date: 2014-03-09T20:19:08Z
 location:
   locality: Brighton
-  country-name: United Kingdom
+  country-name: England
 summary: For this month’s net magazine, Martin Cooper asked me to provide some thoughts on this question prompted by a recent exchange between Jeff Croft and Jeffrey Zeldman.
 category:
   - Web

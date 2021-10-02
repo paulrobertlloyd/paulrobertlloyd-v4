@@ -3,7 +3,7 @@ title: Styleguides for the Web
 date: 2010-12-05T23:09:45Z
 location:
   locality: Birmingham
-  country-name: United Kingdom
+  country-name: England
 summary: Clearly communicating the fundamental aspects of your design at the different stages of a project can help you better communicate with clients, developers and your peers, ensuring your vision doesn’t get lost in the transformation from static comp to dynamic ever changing website.
 category:
   - Design

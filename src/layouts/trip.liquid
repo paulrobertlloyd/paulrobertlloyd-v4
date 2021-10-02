@@ -16,7 +16,7 @@
       {%- for stop in trip.stops -%}
         <a href="/places/{{ stop.id }}">
           {%- unless forloop.first %}<svg width="1em" height="1em" focusable="false" aria-hidden="true"><use href="#_icon_{{ stop.icon }}"></use></svg> {% endunless -%}
-          {{ stop.title }}{% if stop.address.country-name != "United Kingdom" %}, {{ stop.address.country-name }}{% endif %}{% if stop.iata %} ({{ stop.iata }}){% endif -%}
+          {{ stop.title }}, {{ stop.address.country-name }}{% if stop.iata %} ({{ stop.iata }}){% endif -%}
         </a><br>
       {%- endfor -%}
     {%- endcapture -%}

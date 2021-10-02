@@ -3,7 +3,7 @@ title: Moving In, Moving On
 date: 2013-10-29T14:20:00Z
 location:
   locality: Brighton
-  country-name: United Kingdom
+  country-name: England
 summary: This weekend I will move into a new flat, the first I’ve owned rather than rented. While I’m trying not to see buying a property as an act of settling down, that I’ve bought somewhere in Brighton suggests I’ve found a city I’m happy to call home. This is partly thanks to Clearleft, the design agency I joined in 2009.
 category:
   - Personal

@@ -3,7 +3,7 @@ module.exports = [{
   address: {
     locality: 'Brighton',
     region: 'Sussex',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'BN1 1AL',
     'plus-code': '9C2XRVC4+CQ'
   }
@@ -33,7 +33,7 @@ module.exports = [{
     'street-address': '56 Shoreditch High Street',
     locality: 'Hackney',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'E1 6PQ',
     'plus-code': '9C3XGWFF+G6'
   }
@@ -43,7 +43,7 @@ module.exports = [{
     'street-address': '9A Beck Street',
     locality: 'Nottingham',
     region: 'Nottinghamshire',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'NG1 1EQ',
     'plus-code': '9C4WXV44+7Q'
   }
@@ -63,7 +63,7 @@ module.exports = [{
     'street-address': '2-10 Fisherwick Place',
     locality: 'Belfast',
     region: 'County Antrim',
-    'country-name': 'United Kingdom',
+    'country-name': 'Northern Ireland',
     'postal-code': 'BT1 6DW',
     'plus-code': '9C6PH3W8+CF'
   }
@@ -73,7 +73,7 @@ module.exports = [{
     'street-address': 'Mound Place',
     locality: 'Edinburgh',
     region: 'Lothian',
-    'country-name': 'United Kingdom',
+    'country-name': 'Scotland',
     'postal-code': 'EH1 2LU',
     'plus-code': '9C7RWRX3+WV'
   }
@@ -93,7 +93,7 @@ module.exports = [{
     'street-address': '37 East Rd',
     locality: 'Hoxton',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'N1 6AZ',
     'plus-code': '9C3XGWH6+5M'
   }
@@ -103,7 +103,7 @@ module.exports = [{
     'street-address': 'Silk Street',
     locality: 'City of London',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'EC2Y 8DS',
     'plus-code': '9C3XGWC4+3F'
   }
@@ -113,7 +113,7 @@ module.exports = [{
     'street-address': 'Bescot Crescent',
     locality: 'Walsall',
     region: 'West Midlands',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'WS1 4SA',
     'plus-code': '9C4WH285+5J'
   }
@@ -134,7 +134,7 @@ module.exports = [{
     'street-address': 'Holt Street',
     locality: 'Birmingham',
     region: 'West Midlands',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'B7 4BB',
     'plus-code': '9C4WF4Q7+F2'
   }
@@ -144,7 +144,7 @@ module.exports = [{
     'street-address': 'Sea Lanes',
     locality: 'Brighton',
     region: 'Sussex',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'BN2 1EN',
     'plus-code': '9C2XRV8G+VX'
   }
@@ -154,7 +154,7 @@ module.exports = [{
     'street-address': '31 Gresse Street',
     locality: 'Fitzrovia',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'W1T 1QY',
     'plus-code': '9C3XGV98+4J'
   }
@@ -164,7 +164,7 @@ module.exports = [{
     'street-address': 'Church Street',
     locality: 'Brighton',
     region: 'Sussex',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'BN1 1UE',
     'plus-code': '9C2XRVF6+FR'
   }
@@ -174,7 +174,7 @@ module.exports = [{
     'street-address': 'Bristo Square',
     locality: 'Edinburgh',
     region: 'Lothian',
-    'country-name': 'United Kingdom',
+    'country-name': 'Scotland',
     'postal-code': 'EH8 9AL',
     'plus-code': '9C7RWRW6+6G'
   },
@@ -206,7 +206,7 @@ module.exports = [{
     'street-address': '3 Cardinal Walk',
     locality: 'Westminster',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'SW1E 5JE',
     'plus-code': '9C3XFVW5+RH'
   }
@@ -216,7 +216,7 @@ module.exports = [{
     'street-address': '39 Ditchling Road',
     locality: 'Brighton',
     region: 'Sussex',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'BN1 4SB',
     'plus-code': '9C2XRVJ8+75'
   }
@@ -227,7 +227,7 @@ module.exports = [{
     'street-address': 'Storey’s Gate',
     locality: 'Westminster',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'SW1H 9NH',
     'plus-code': '9C3XGV2C+24'
   }
@@ -257,7 +257,7 @@ module.exports = [{
     'street-address': 'Bentley Bridge Park, Wednesfield Way',
     locality: 'Wolverhampton',
     region: 'West Midlands',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'WV11 1TZ',
     'plus-code': '9C4VHWW5+F6'
   }
@@ -268,7 +268,7 @@ module.exports = [{
     'street-address': 'The Beacon, Terminus Road',
     locality: 'Eastbourne',
     region: 'Sussex',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'BN21 3NW',
     'plus-code': '9F22Q79J+JQ'
   }
@@ -289,7 +289,7 @@ module.exports = [{
     'street-address': '13-17 Coney Street',
     locality: 'York',
     region: 'North Yorkshire',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'YO1 9QL',
     'plus-code': '9C5WXW58+M4'
   }
@@ -300,7 +300,7 @@ module.exports = [{
     'street-address': '49 Carlisle Road',
     locality: 'Eastbourne',
     region: 'Sussex',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'BN21 4JR',
     'plus-code': '9F22Q77M+49'
   }
@@ -311,7 +311,7 @@ module.exports = [{
     'street-address': 'Union Place',
     locality: 'Worthing',
     region: 'Sussex',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'BN11 1LG',
     'plus-code': '9C2XRJ7H+FR'
   }
@@ -321,7 +321,7 @@ module.exports = [{
     'street-address': '25 Red Lion Square',
     locality: 'Bloomsbury',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'WC1R 4RL',
     'plus-code': '9C3XGV9J+VM'
   }
@@ -331,7 +331,7 @@ module.exports = [{
     'street-address': 'Church Street',
     locality: 'Brighton',
     region: 'Sussex',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'BN1 1UE',
     'plus-code': '9C2XRVF6+FG'
   }
@@ -342,7 +342,7 @@ module.exports = [{
     'street-address': '64 Cheshire Street',
     locality: 'Bethnal Green',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'E2 6EH',
     'plus-code': '9C3XGWFJ+CC'
   }
@@ -353,7 +353,7 @@ module.exports = [{
     'street-address': 'Marina',
     locality: 'Bexhill-on-Sea',
     region: 'Sussex',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'TN40 1DP',
     'plus-code': '9F22RFPC+XW'
   }
@@ -364,7 +364,7 @@ module.exports = [{
     'street-address': 'Pinwell Road',
     locality: 'Lewes',
     region: 'Sussex',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'BN7 2JS',
     'plus-code': '9F22V2C6+HP'
   }
@@ -374,7 +374,7 @@ module.exports = [{
     'street-address': '61-65 Great Queen Street',
     locality: 'Holborn',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'WC2B 5DA',
     'plus-code': '9C3XGV8H+6Q'
   }
@@ -385,7 +385,7 @@ module.exports = [{
     'street-address': '224-238 Kensington High Street',
     locality: 'Kensington',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'W8 6AG',
     'plus-code': '9C3XFQXX+XW'
   }
@@ -395,7 +395,7 @@ module.exports = [{
     'street-address': '38 Graham Street',
     locality: 'Islington',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'N1 8JX',
     'plus-code': '9C3XGWJ2+X8'
   }
@@ -406,7 +406,7 @@ module.exports = [{
     'street-address': '146 Brick Lane',
     locality: 'City of London',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'E1 6QL',
     'plus-code': '9C3XGWCH+C8'
   }
@@ -427,7 +427,7 @@ module.exports = [{
     'street-address': 'Preston Road',
     locality: 'Brighton',
     region: 'Sussex',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'BN1 4NA',
     'plus-code': '9C2XRVM6+HM'
   }
@@ -438,7 +438,7 @@ module.exports = [{
     'street-address': '44–47 Gardner Street',
     locality: 'Brighton',
     region: 'Sussex',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'BN1 1UN',
     'plus-code': '9C2XRVF6+X6'
   }
@@ -449,7 +449,7 @@ module.exports = [{
     'street-address': 'Gallery Road',
     locality: 'Dulwich',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'SE21 7AD',
     'plus-code': '9C3XCWW7+9C'
   }
@@ -460,7 +460,7 @@ module.exports = [{
     'street-address': 'The Exchange, 150 Morrison St',
     locality: 'Edinburgh',
     region: 'Lothian',
-    'country-name': 'United Kingdom',
+    'country-name': 'Scotland',
     'postal-code': 'EH3 8EE',
     'plus-code': '9C7RXQWR+C2'
   }
@@ -470,7 +470,7 @@ module.exports = [{
     'street-address': '18-22 Greenside Lane',
     locality: 'Edinburgh',
     region: 'Lothian',
-    'country-name': 'United Kingdom',
+    'country-name': 'Scotland',
     'postal-code': 'EH1 3AA',
     'plus-code': '9C7RXR48+P2'
   }
@@ -491,7 +491,7 @@ module.exports = [{
     'street-address': '9-23 Marsham Street',
     locality: 'Westminster',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'SW1P 3DW',
     'plus-code': '9C3XFVWC+H8'
   }
@@ -501,7 +501,7 @@ module.exports = [{
     'street-address': '286 Euston Road',
     locality: 'Camden',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'NW1 3DP',
     'plus-code': '9C3XGVG6+47'
   }
@@ -512,7 +512,7 @@ module.exports = [{
     'street-address': '51 Bartholomew Street West',
     locality: 'Exeter',
     region: 'Devon',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'EX4 3AJ',
     'plus-code': '9C2RPFC7+8C'
   }
@@ -533,7 +533,7 @@ module.exports = [{
     'street-address': 'King’s College London, 150 Stamford Street',
     locality: 'Lambeth',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'SE1 9NH',
     'plus-code': '9C3XGV4Q+55'
   }
@@ -544,7 +544,7 @@ module.exports = [{
     'street-address': '6–24 Britannia Street',
     locality: 'Clerkenwell',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'WC1X 9JD',
     'plus-code': '9C3XGVJJ+2Q'
   }
@@ -565,7 +565,7 @@ module.exports = [{
     'street-address': 'George Square',
     locality: 'Edinburgh',
     region: 'Lothian',
-    'country-name': 'United Kingdom',
+    'country-name': 'Scotland',
     'postal-code': 'EH8 9LH',
     'plus-code': '9C7RWRV6+4P'
   },
@@ -577,7 +577,7 @@ module.exports = [{
     'street-address': 'Drury Lane',
     locality: 'Holborn',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'WC2B 5PF',
     'plus-code': '9C3XGV8G+4W'
   }
@@ -587,7 +587,7 @@ module.exports = [{
   address: {
     locality: 'Chichester',
     region: 'Sussex',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'PO18 0PX',
     'plus-code': '9C2XV65X+Q8'
   }
@@ -606,7 +606,7 @@ module.exports = [{
     'street-address': '36 Somerville Drive',
     locality: 'Glasgow',
     region: 'Lanarkshire',
-    'country-name': 'United Kingdom',
+    'country-name': 'Scotland',
     'postal-code': 'G42 9BU',
     'plus-code': '9C7QRPGX+85'
   }
@@ -617,7 +617,7 @@ module.exports = [{
     'street-address': 'Southbank Centre, 337-338 Belvedere Rd',
     locality: 'Lambeth',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'SE1 8XX',
     'plus-code': '9C3XGV4M+FR'
   }
@@ -648,7 +648,7 @@ module.exports = [{
     'street-address': '66 Whitehall',
     locality: 'Westminster',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'SW1A 2AX',
     'plus-code': '9C3XGV3F+X6'
   }
@@ -658,7 +658,7 @@ module.exports = [{
     'street-address': 'Church Road',
     locality: 'Hove',
     region: 'Sussex',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'BN3 2AF',
     'plus-code': '9C2XRRHH+4V'
   }
@@ -668,7 +668,7 @@ module.exports = [{
     'street-address': '14 Macklin Street',
     locality: 'Bloomsbury',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'WC2B 5NF',
     'plus-code': '9C3XGV8H+72'
   }
@@ -678,7 +678,7 @@ module.exports = [{
     'street-address': '56 Walton Street',
     locality: 'Oxford',
     region: 'Oxfordshire',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'OX2 6AE',
     'plus-code': '9C3WQP6M+3C'
   }
@@ -688,7 +688,7 @@ module.exports = [{
     'street-address': '11 Bath St',
     locality: 'Royal Leamington Spa',
     region: 'Warwickshire',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'CV31 3AF',
     'plus-code': '9C4W7FP8+7R'
   }
@@ -699,7 +699,7 @@ module.exports = [{
     'street-address': 'Kensington Town Hall, Hornton St',
     locality: 'Kensington',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'W8 7NX',
     'plus-code': '9C3XGR24+Q4'
   }
@@ -710,7 +710,7 @@ module.exports = [{
     'street-address': '90 York Way',
     locality: 'Kings Cross',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'N1 9AG',
     'plus-code': '9C3XGVMH+X7'
   }
@@ -720,7 +720,7 @@ module.exports = [{
     'street-address': '45 Warwick Street',
     locality: 'Royal Leamington Spa',
     region: 'Warwickshire',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'CV32 5JX',
     'plus-code': '9C4W7FR7+R5'
   }
@@ -731,7 +731,7 @@ module.exports = [{
     'street-address': '1A Camden High Street',
     locality: 'Camden Town',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'NW1 7JE',
     'plus-code': '9C3XGVM6+VM'
   }
@@ -742,7 +742,7 @@ module.exports = [{
     'street-address': '44–47 Gardner Street',
     locality: 'Brighton',
     region: 'Sussex',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'BN1 1UN',
     'plus-code': '9C2XRVF6+X7'
   }
@@ -763,7 +763,7 @@ module.exports = [{
     'street-address': '31 Rutland Street',
     locality: 'Leicester',
     region: 'Leicestershire',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'LE1 1RE',
     'plus-code': '9C4WJVMC+RQ'
   }
@@ -773,7 +773,7 @@ module.exports = [{
     'street-address': '45 Gloucester Street',
     locality: 'Brighton',
     region: 'Sussex',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'BN1 4EW',
     'plus-code': '9C2XRVG7+RJ'
   }
@@ -783,7 +783,7 @@ module.exports = [{
     'street-address': 'Abercrombie Road, Queen Elizabeth Olympic Park',
     locality: 'Chobham Manor',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'E20 3AB',
     'plus-code': '9C3XHX2M+7V'
   }
@@ -794,7 +794,7 @@ module.exports = [{
     'street-address': '6 Leicester Place',
     locality: 'Soho',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'WC2H 7BX',
     'plus-code': '9C3XGV69+HW'
   }
@@ -804,7 +804,7 @@ module.exports = [{
     'street-address': '28 Kensington Street',
     locality: 'Brighton',
     region: 'Sussex',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'BN1 4AJ',
     'plus-code': '9C2XRVG6+9M'
   }
@@ -815,7 +815,7 @@ module.exports = [{
     'street-address': 'University College London, 20 Bedford Way',
     locality: 'Bloomsbury',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'WC1H 0AL',
     'plus-code': '9C3XGVFC+6R'
   }
@@ -826,7 +826,7 @@ module.exports = [{
     'street-address': 'Queen Elizabeth Olympic Park',
     locality: 'Old Ford',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'E20 2ZQ',
     'plus-code': '9C3XGXRQ+3Q'
   }
@@ -837,7 +837,7 @@ module.exports = [{
     'street-address': 'Stratford Walk',
     locality: 'Stratford',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'E15 2NG',
     'plus-code': '9C3XGXQM+F9'
   },
@@ -849,7 +849,7 @@ module.exports = [{
     'street-address': 'Covent Garden Piazza',
     locality: 'Covent Garden',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'WC2E 7BB',
     'plus-code': '9C3XGV6H+Q9'
   }
@@ -859,7 +859,7 @@ module.exports = [{
     'street-address': 'Oxford Road',
     locality: 'Manchester',
     region: 'Greater Manchester',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'M13 9PR',
     'plus-code': '9C5VFQ79+FC'
   }
@@ -870,7 +870,7 @@ module.exports = [{
     'street-address': 'Leeman Road',
     locality: 'York',
     region: 'North Yorkshire',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'YO26 4XJ',
     'plus-code': '9C5WXW63+6F'
   }
@@ -892,7 +892,7 @@ module.exports = [{
     'street-address': 'Kingswest',
     locality: 'Brighton',
     region: 'Sussex',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'BN1 2RE',
     'plus-code': '9C2XRVC3+CV'
   }
@@ -903,7 +903,7 @@ module.exports = [{
     'street-address': 'Bugsby Way',
     locality: 'Greenwich',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'SE10 0QJ',
     'plus-code': '9F32F2R7+64'
   }
@@ -914,7 +914,7 @@ module.exports = [{
     'street-address': '139 New Street',
     locality: 'Birmingham',
     region: 'West Midlands',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'B2 4NU',
     'plus-code': '9C4WF4H3+CC'
   }
@@ -925,7 +925,7 @@ module.exports = [{
     'street-address': '28 Shad Thames',
     locality: 'Wapping',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'SE1 2YD',
     'plus-code': '9C3XGW3G+H4'
   }
@@ -935,7 +935,7 @@ module.exports = [{
     'street-address': 'Fraternity House, 103-107 Norfolk Street',
     locality: 'Sheffield',
     region: 'Yorkshire',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'S1 2JE',
     'plus-code': '9C5W9GJJ+7R'
   }
@@ -945,7 +945,7 @@ module.exports = [{
     'street-address': 'Sir Matt Busby Way',
     locality: 'Old Trafford',
     region: 'Greater Manchester',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'M16 0QG',
     'plus-code': '9C5VFP75+6F'
   }
@@ -1008,7 +1008,7 @@ module.exports = [{
     'street-address': '60 Pleasance',
     locality: 'Edinburgh',
     region: 'Lothian',
-    'country-name': 'United Kingdom',
+    'country-name': 'Scotland',
     'postal-code': 'EH8 9TJ',
     'plus-code': '9C7RWRX9+35'
   }
@@ -1018,7 +1018,7 @@ module.exports = [{
     'street-address': '1 Bristo Square',
     locality: 'Edinburgh',
     region: 'Lothian',
-    'country-name': 'United Kingdom',
+    'country-name': 'Scotland',
     'postal-code': 'EH8 9AL',
     'plus-code': '9C7RWRW6+9M'
   },
@@ -1029,7 +1029,7 @@ module.exports = [{
     'street-address': 'Preston Road',
     locality: 'Brighton',
     region: 'Sussex',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'BN1 6SD',
     'plus-code': '9C2XRVQ3+WH'
   }
@@ -1039,7 +1039,7 @@ module.exports = [{
   address: {
     'street-address': '10 Millennium Walk',
     region: 'Cardiff',
-    'country-name': 'United Kingdom',
+    'country-name': 'Wales',
     'postal-code': 'CF10 1NS',
     'plus-code': '9C3RFRH8+7W'
   },
@@ -1050,7 +1050,7 @@ module.exports = [{
     'street-address': 'The Stables Market, Chalk Farm Road',
     locality: 'Camden Town',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'NW1 8AH',
     'plus-code': '9C3XGVR2+XG'
   }
@@ -1061,7 +1061,7 @@ module.exports = [{
     'street-address': 'Southbank Centre, 337-338 Belvedere Road',
     locality: 'Lambeth',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'SE1 8XX',
     'plus-code': '9C3XGV4M+MG'
   }
@@ -1071,7 +1071,7 @@ module.exports = [{
     'street-address': 'Broad Sanctuary',
     locality: 'Westminster',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'SW1P 3EE',
     'plus-code': '9C3XGV2C+3C'
   }
@@ -1081,7 +1081,7 @@ module.exports = [{
     'street-address': 'Bristo Square',
     locality: 'Edinburgh',
     region: 'Lothian',
-    'country-name': 'United Kingdom',
+    'country-name': 'Scotland',
     'postal-code': 'EH8 9AJ',
     'plus-code': '9C7RWRV6+X6'
   },
@@ -1093,7 +1093,7 @@ module.exports = [{
     'street-address': 'Burlington House',
     locality: 'Mayfair',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'W1J 0BD',
     'plus-code': '9C3XGV56+Q3'
   }
@@ -1104,7 +1104,7 @@ module.exports = [{
     'street-address': 'Kensington Gore',
     locality: 'South Kensington',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'SW7 2AP',
     'plus-code': '9C3XGR2F+93'
   }
@@ -1114,7 +1114,7 @@ module.exports = [{
   address: {
     locality: 'Richmond',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'TW9 3AE',
     'plus-code': '9C3XFPH3+FQ'
   }
@@ -1125,7 +1125,7 @@ module.exports = [{
     'street-address': 'Rosebery Avenue',
     locality: 'Clerkenwell',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'EC1R 4TN',
     'plus-code': '9C3XGVHV+PF'
   }
@@ -1135,7 +1135,7 @@ module.exports = [{
     'street-address': '58-67 Grand Parade',
     locality: 'Brighton',
     region: 'Sussex',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'BN2 0JY',
     'plus-code': '9C2XRVF7+PR'
   }
@@ -1146,7 +1146,7 @@ module.exports = [{
     'street-address': 'Exhibition Road',
     locality: 'Kensington',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'SW7 2DD',
     'plus-code': '9C3XFRXG+45'
   }
@@ -1168,7 +1168,7 @@ module.exports = [{
     'street-address': '73 Belford Rd',
     locality: 'Edinburgh',
     region: 'Lothian',
-    'country-name': 'United Kingdom',
+    'country-name': 'Scotland',
     'postal-code': 'EH4 3DS',
     'plus-code': '9C7RXQ2C+P8'
   }
@@ -1179,7 +1179,7 @@ module.exports = [{
     'street-address': 'Kensington Gardens',
     locality: 'Kensington',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'W2 3XA',
     'plus-code': '9C3XGR3F+VX'
   }
@@ -1201,7 +1201,7 @@ module.exports = [{
     'street-address': 'Edwinstowe',
     locality: 'Mansfield',
     region: 'Nottinghamshire',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'NG21 9JL',
     'plus-code': '9C5W5W73+WQ'
   }
@@ -1211,7 +1211,7 @@ module.exports = [{
     'street-address': 'Bentley Mill Way',
     locality: 'Walsall',
     region: 'West Midlands',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'WS2 0LE',
     'plus-code': '9C4VHXJM+HC'
   }
@@ -1221,7 +1221,7 @@ module.exports = [{
     'street-address': 'Silverstone',
     locality: 'Towcester',
     region: 'Northamptonshire',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'NN12 8TN',
     'plus-code': '9C4W3XFP+84'
   }
@@ -1243,7 +1243,7 @@ module.exports = [{
     'street-address': '21 Dean Street',
     locality: 'Soho',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'W1D 3NE',
     'plus-code': '9C3XGV78+QR'
   }
@@ -1264,7 +1264,7 @@ module.exports = [{
     'street-address': '14 Bride Lane',
     locality: 'City of London',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'EC4Y 8EQ',
     'plus-code': '9C3XGV7V+9X'
   }
@@ -1274,7 +1274,7 @@ module.exports = [{
   address: {
     locality: 'Bankside',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'SE1 9TG',
     'plus-code': '9C3XGW52+27'
   }
@@ -1284,7 +1284,7 @@ module.exports = [{
     'street-address': '13 Bristo Place',
     locality: 'Edinburgh',
     region: 'Lothian',
-    'country-name': 'United Kingdom',
+    'country-name': 'Scotland',
     'postal-code': 'EH8 9AJ',
     'plus-code': '9C7RWRW6+2C'
   },
@@ -1295,7 +1295,7 @@ module.exports = [{
     'street-address': 'North Circus Street',
     locality: 'Nottingham',
     region: 'Nottinghamshire',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'NG1 5AA',
     'plus-code': '9C4WXR3V+QC'
   }
@@ -1305,7 +1305,7 @@ module.exports = [{
     'street-address': '15 Suffolk Street',
     locality: 'Birmingham',
     region: 'West Midlands',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'B1 1LT',
     'plus-code': '9C4WF3GX+FF'
   }
@@ -1316,7 +1316,7 @@ module.exports = [{
     'street-address': '3 Church Road',
     locality: 'Wimbledon',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'SW19 5AG',
     'plus-code': '9C3XCQMP+P6'
   }
@@ -1326,7 +1326,7 @@ module.exports = [{
     'street-address': '401 Elder Gate',
     locality: 'Milton Keynes',
     region: 'Buckinghamshire',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'MK9 1LR',
     'plus-code': '9C4X26MH+QQ'
   }
@@ -1336,7 +1336,7 @@ module.exports = [{
     'street-address': 'Great Cumberland Place',
     locality: 'Marylebone',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'W1H 7AL',
     'plus-code': '9C3XGR7R+GH'
   }
@@ -1346,7 +1346,7 @@ module.exports = [{
     'street-address': 'St. Martin’s Lane',
     locality: 'Westminster',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'WC2N 4BG',
     'plus-code': '9C3XGV6F+35'
   }
@@ -1356,7 +1356,7 @@ module.exports = [{
     'street-address': 'White Hill',
     locality: 'Lewes',
     region: 'Sussex',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'BN7 2DJ',
     'plus-code': '9F22V2F5+XC'
   }
@@ -1377,7 +1377,7 @@ module.exports = [{
     'street-address': '1 Southwark Bridge',
     locality: 'Southwark',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'SE1 9HL',
     'plus-code': '9C3XGW44+X6'
   }
@@ -1387,7 +1387,7 @@ module.exports = [{
     'street-address': '70 Cowcross Street',
     locality: 'Farringdon',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'EC1M 6EJ',
     'plus-code': '9C3XGV9W+XM'
   }
@@ -1398,7 +1398,7 @@ module.exports = [{
     'street-address': 'Kings Place, 90 York Way',
     locality: 'Kings Cross',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'N1 9GU',
     'plus-code': '9C3XGVMH+W7'
   }
@@ -1419,7 +1419,7 @@ module.exports = [{
     'street-address': '47-58 Bastwick Street',
     locality: 'City of London',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'EC1V 3PS',
     'plus-code': '9C3XGWF2+WX'
   }
@@ -1429,7 +1429,7 @@ module.exports = [{
     'street-address': '2 Preston Road',
     locality: 'Brighton',
     region: 'Sussex',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'BN1 4QF',
     'plus-code': '9C2XRVM6+GC'
   }
@@ -1439,7 +1439,7 @@ module.exports = [{
     'street-address': '96-98 Pentonville Road',
     locality: 'Pentonville',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'N1 9JB',
     'plus-code': '9C3XGVJQ+PC'
   }
@@ -1449,7 +1449,7 @@ module.exports = [{
     'street-address': 'Broad Street',
     locality: 'Birmingham',
     region: 'West Midlands',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'B1 2ND',
     'plus-code': '9C4WF3HR+VJ'
   }
@@ -1460,7 +1460,7 @@ module.exports = [{
     'street-address': 'Peninsula Square',
     locality: 'Isle of Dogs',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'SE10 0DX',
     'plus-code': '9F32G233+67'
   }
@@ -1471,7 +1471,7 @@ module.exports = [{
     'street-address': '11 Upper Market Street',
     locality: 'Hove',
     region: 'Sussex',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'BN3 1AS',
     'plus-code': '9C2XRRFV+R2'
   }
@@ -1481,7 +1481,7 @@ module.exports = [{
     'street-address': '191 Fazeley Street',
     locality: 'Birmingham',
     region: 'West Midlands',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'B5 5SE',
     'plus-code': '9C4WF4H9+49'
   }
@@ -1492,7 +1492,7 @@ module.exports = [{
     'street-address': '21 Albemarle Street',
     locality: 'Mayfair',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'W1S 4BS',
     'plus-code': '9C3XGV55+R4'
   }
@@ -1502,7 +1502,7 @@ module.exports = [{
     'street-address': '127 Gloucester Road',
     locality: 'Brighton',
     region: 'Sussex',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'BN1 4AF',
     'plus-code': '9C2XRVG7+M9'
   }
@@ -1512,7 +1512,7 @@ module.exports = [{
     'street-address': '141 Regent Street',
     locality: 'Royal Leamington Spa',
     region: 'Warwickshire',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'CV32 4NX',
     'plus-code': '9C4W7FR8+7X'
   }
@@ -1545,7 +1545,7 @@ module.exports = [{
     'street-address': '30 Creekside',
     locality: 'Deptford',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'SE8 3DZ',
     'plus-code': '9C3XFXJJ+39'
   }
@@ -1555,7 +1555,7 @@ module.exports = [{
     'street-address': '66 Cowgate',
     locality: 'Edinburgh',
     region: 'Lothian',
-    'country-name': 'United Kingdom',
+    'country-name': 'Scotland',
     'postal-code': 'EH1 1JR',
     'plus-code': '9C7RWRX4+8X'
   }
@@ -1565,7 +1565,7 @@ module.exports = [{
     'street-address': '33 Stannary St',
     locality: 'Lambeth',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'SE11 4AA',
     'plus-code': '9C3XFVPR+C2'
   }
@@ -1575,7 +1575,7 @@ module.exports = [{
     'street-address': 'Southwood Site, Avery Hill Road',
     locality: 'Eltham',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'SE9 2UG',
     'plus-code': '9F32C3WH+9R'
   }
@@ -1585,7 +1585,7 @@ module.exports = [{
     'street-address': 'Mansion Site, Bexley Road',
     locality: 'Eltham',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'SE9 2PQ',
     'plus-code': '9F32F32G+3G'
   }
@@ -1595,7 +1595,7 @@ module.exports = [{
     'street-address': 'Usk Way',
     locality: 'Newport',
     region: 'Gwent',
-    'country-name': 'United Kingdom',
+    'country-name': 'Wales',
     'postal-code': 'NP20 2BP',
     'plus-code': '9C3VH2P5+8X'
   }
@@ -1606,7 +1606,7 @@ module.exports = [{
     'street-address': 'Arena Way',
     locality: 'Newcastle upon Tyne',
     region: 'Tyne and Wear',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'NE4 7NA',
     'plus-code': '9C6WX97G+HQ'
   },
@@ -1618,7 +1618,7 @@ module.exports = [{
     'street-address': 'King Edwards Road',
     locality: 'Birmingham',
     region: 'West Midlands',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'B1 2AA',
     'plus-code': '9C4WF3HM+WX'
   },
@@ -1630,7 +1630,7 @@ module.exports = [{
     'street-address': 'Cromwell Road',
     locality: 'Kensington',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'SW7 2RL',
     'plus-code': '9C3XFRWH+M4'
   }
@@ -1652,7 +1652,7 @@ module.exports = [{
     'street-address': '2 Lanyon Place',
     locality: 'Belfast',
     region: 'County Antrim',
-    'country-name': 'United Kingdom',
+    'country-name': 'Northern Ireland',
     'postal-code': 'BT1 3WH',
     'plus-code': '9C6PH3WJ+V2'
   }
@@ -1663,7 +1663,7 @@ module.exports = [{
     'street-address': 'Arena Square, Engineers Way',
     locality: 'Wembley',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'HA9 0AA',
     'plus-code': '9C3XHP58+6X'
   }
@@ -1674,7 +1674,7 @@ module.exports = [{
     'street-address': 'South Way',
     locality: 'Wembley',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'HA9 0WS',
     'plus-code': '9C3XHP4C+C5'
   }
@@ -1684,7 +1684,7 @@ module.exports = [{
     'street-address': '748 High Road',
     locality: 'Tottenham',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'N17 0AP',
     'plus-code': '9C3XJW3M+7P'
   }
@@ -1695,7 +1695,7 @@ module.exports = [{
     'street-address': 'Charing Cross Road',
     locality: 'Soho',
     region: 'Greater London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'postal-code': 'WC2H 0DA',
     'plus-code': '9C3XGV6C+FP'
   }

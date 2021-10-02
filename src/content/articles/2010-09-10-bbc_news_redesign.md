@@ -3,7 +3,7 @@ title: Thoughts on the BBC News Redesign
 date: 2010-09-10T15:17:49+01:00
 location:
   locality: Brighton
-  country-name: United Kingdom
+  country-name: England
 summary: There is often talk of there being no landmark design on the web, but I suggest it won’t be long before BBC News is considered one of the greatest design icons online today.
 category:
   - Design

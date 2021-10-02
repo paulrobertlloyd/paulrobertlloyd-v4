@@ -26,7 +26,7 @@ module.exports = [{
   iata: 'QDH',
   address: {
     locality: 'Ashford',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9F324VVG+FG'
   },
   icon: 'national_rail'
@@ -43,7 +43,7 @@ module.exports = [{
   title: 'Barnham',
   address: {
     locality: 'Barnham',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C2XR9J5+9X'
   },
   icon: 'national_rail'
@@ -51,7 +51,7 @@ module.exports = [{
   title: 'Bath Spa',
   address: {
     locality: 'Bath',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C3V9JHV+36'
   },
   icon: 'national_rail'
@@ -59,7 +59,7 @@ module.exports = [{
   title: 'Belfast Lanyon Place',
   address: {
     locality: 'Belfast',
-    'country-name': 'United Kingdom',
+    'country-name': 'Northern Ireland',
     'plus-code': '9C6PH3WM+34'
   }
 }, {
@@ -74,7 +74,7 @@ module.exports = [{
   title: 'Birmingham Moor Street',
   address: {
     locality: 'Birmingham',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C4WF4H4+HX'
   },
   icon: 'national_rail'
@@ -83,7 +83,7 @@ module.exports = [{
   iata: 'QQN',
   address: {
     locality: 'Birmingham',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C4WF4H2+4C'
   },
   icon: 'national_rail'
@@ -91,7 +91,7 @@ module.exports = [{
   title: 'Bloxwich North',
   address: {
     locality: 'Walsall',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C4VJXGJ+4W'
   },
   icon: 'national_rail'
@@ -99,7 +99,7 @@ module.exports = [{
   title: 'Brighton',
   address: {
     locality: 'Brighton',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C2XRVH5+GJ'
   },
   icon: 'national_rail'
@@ -108,7 +108,7 @@ module.exports = [{
   iata: 'BRS',
   address: {
     locality: 'Bristol',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C3VCCX9+VH'
   },
   icon: 'national_rail'
@@ -145,7 +145,7 @@ module.exports = [{
   title: 'Cabis Bay',
   address: {
     locality: 'St Ives',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C2P5GWP+R9'
   },
   icon: 'national_rail'
@@ -153,7 +153,7 @@ module.exports = [{
   title: 'Cardiff Central',
   address: {
     locality: 'Cardiff',
-    'country-name': 'United Kingdom',
+    'country-name': 'Wales',
     'plus-code': '9C3RFRGC+F9'
   },
   icon: 'national_rail'
@@ -161,7 +161,7 @@ module.exports = [{
   title: 'Carlisle',
   address: {
     locality: 'Carlisle',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C6VV3R8+7P'
   },
   icon: 'national_rail'
@@ -170,7 +170,7 @@ module.exports = [{
   iata: 'CBG',
   address: {
     locality: 'Cambridge',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9F4254VP+MX'
   },
   icon: 'national_rail'
@@ -178,7 +178,7 @@ module.exports = [{
   title: 'Chester',
   address: {
     locality: 'Chester',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C5V54W9+JW'
   },
   icon: 'national_rail'
@@ -186,7 +186,7 @@ module.exports = [{
   title: 'Chorley',
   address: {
     locality: 'Chorley',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C5VM93F+26'
   },
   icon: 'national_rail'
@@ -194,7 +194,7 @@ module.exports = [{
   title: 'Clapham Junction',
   address: {
     locality: 'Clapham',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C3XFR8H+3M'
   },
   icon: 'national_rail'
@@ -210,7 +210,7 @@ module.exports = [{
   title: 'Crewe',
   address: {
     locality: 'Crewe',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C5V3HQ8+RH'
   },
   icon: 'national_rail'
@@ -225,7 +225,7 @@ module.exports = [{
   title: 'Derby Midland',
   address: {
     locality: 'Derby',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C4WWG8P+FM'
   },
   icon: 'national_rail'
@@ -241,7 +241,7 @@ module.exports = [{
   iata: 'ZXE',
   address: {
     locality: 'Edinburgh',
-    'country-name': 'United Kingdom',
+    'country-name': 'Scotland',
     'plus-code': '9C7RXR26+Q2'
   },
   icon: 'national_rail'
@@ -256,7 +256,7 @@ module.exports = [{
   title: 'Exeter St David’s',
   address: {
     locality: 'Exeter',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C2RPFH4+PH'
   },
   icon: 'national_rail'
@@ -373,7 +373,7 @@ module.exports = [{
   title: 'Gatwick',
   address: {
     locality: 'Gatwick Airport',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C3X5R4Q+MG'
   },
   icon: 'national_rail'
@@ -382,7 +382,7 @@ module.exports = [{
   iata: 'ZGG',
   address: {
     locality: 'Glasgow',
-    'country-name': 'United Kingdom',
+    'country-name': 'Scotland',
     'plus-code': '9C7QVP5R+JQ'
   },
   icon: 'national_rail'
@@ -390,7 +390,7 @@ module.exports = [{
   title: 'Glasgow Queen Street',
   address: {
     locality: 'Glasgow',
-    'country-name': 'United Kingdom',
+    'country-name': 'Scotland',
     'plus-code': '9C7QVP6X+XG'
   },
   icon: 'national_rail'
@@ -406,7 +406,7 @@ module.exports = [{
   title: 'Greenwich',
   address: {
     locality: 'Greenwich',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C3XFXHP+6P'
   },
   icon: 'national_rail'
@@ -429,7 +429,7 @@ module.exports = [{
   title: 'Hastings',
   address: {
     locality: 'Hastings',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9F22VH5G+5P'
   },
   icon: 'national_rail'
@@ -437,7 +437,7 @@ module.exports = [{
   title: 'Havant',
   address: {
     locality: 'Havant',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C2XV239+P9'
   },
   icon: 'national_rail'
@@ -452,7 +452,7 @@ module.exports = [{
   title: 'Holyhead',
   address: {
     locality: 'Holyhead',
-    'country-name': 'United Kingdom',
+    'country-name': 'Wales',
     'plus-code': '9C5Q8959+3H'
   },
   icon: 'national_rail'
@@ -460,7 +460,7 @@ module.exports = [{
   title: 'Hove',
   address: {
     locality: 'Hove',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C2XRRPH+2H'
   },
   icon: 'national_rail'
@@ -483,7 +483,7 @@ module.exports = [{
   title: 'Leicester',
   address: {
     locality: 'Leicester',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C4WJVJF+FW'
   },
   icon: 'national_rail'
@@ -491,7 +491,7 @@ module.exports = [{
   title: 'Lewes',
   address: {
     locality: 'Lewes',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9F22V2C6+6H'
   },
   icon: 'national_rail'
@@ -507,7 +507,7 @@ module.exports = [{
   title: 'London Bridge',
   address: {
     locality: 'London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C3XGW38+P3'
   },
   icon: 'national_rail'
@@ -516,7 +516,7 @@ module.exports = [{
   iata: 'QQU',
   address: {
     locality: 'London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C3XGVH8+6P'
   },
   icon: 'national_rail'
@@ -525,7 +525,7 @@ module.exports = [{
   iata: 'QQK',
   address: {
     locality: 'London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C3XGVJG+RM'
   },
   icon: 'national_rail'
@@ -534,7 +534,7 @@ module.exports = [{
   iata: 'QQP',
   address: {
     locality: 'London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C3XGR8F+M6'
   },
   icon: 'national_rail'
@@ -542,7 +542,7 @@ module.exports = [{
   title: 'London Marylebone',
   address: {
     locality: 'London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C3XGRCP+XP'
   },
   icon: 'national_rail'
@@ -551,7 +551,7 @@ module.exports = [{
   iata: 'QQS',
   address: {
     locality: 'London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C3XGVJF+HG'
   },
   icon: 'national_rail'
@@ -560,7 +560,7 @@ module.exports = [{
   iata: 'ZEP',
   address: {
     locality: 'London',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C3XFVW4+3C'
   },
   icon: 'national_rail'
@@ -583,7 +583,7 @@ module.exports = [{
   title: 'Manchester Victoria',
   address: {
     locality: 'Manchester',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C5VFQQ5+24'
   },
   icon: 'national_rail'
@@ -592,7 +592,7 @@ module.exports = [{
   iata: 'QQM',
   address: {
     locality: 'Manchester',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C5VFQG9+XG'
   },
   icon: 'national_rail'
@@ -600,7 +600,7 @@ module.exports = [{
   title: 'Margate',
   address: {
     locality: 'Margate',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9F3399PC+5W'
   },
   icon: 'national_rail'
@@ -608,7 +608,7 @@ module.exports = [{
   title: 'Milton Keynes Central',
   address: {
     locality: 'Milton Keynes',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C4X26MG+QF'
   },
   icon: 'national_rail'
@@ -617,7 +617,7 @@ module.exports = [{
   iata: 'NCL',
   address: {
     locality: 'Newcastle',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C6WX99M+95'
   },
   icon: 'national_rail'
@@ -625,7 +625,7 @@ module.exports = [{
   title: 'Newhaven Harbour',
   address: {
     locality: 'Newhaven',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9F22Q3Q4+V4'
   },
   icon: 'national_rail'
@@ -633,7 +633,7 @@ module.exports = [{
   title: 'Newport',
   address: {
     locality: 'Newport',
-    'country-name': 'United Kingdom',
+    'country-name': 'Wales',
     'plus-code': '9C3RHXQX+FG'
   },
   icon: 'national_rail'
@@ -641,7 +641,7 @@ module.exports = [{
   title: 'Newquay',
   address: {
     locality: 'Newquay',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C2PCW8F+2P'
   },
   icon: 'national_rail'
@@ -649,7 +649,7 @@ module.exports = [{
   title: 'Norwich',
   address: {
     locality: 'Norwich',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9F43J8G4+QJ'
   },
   icon: 'national_rail'
@@ -657,7 +657,7 @@ module.exports = [{
   title: 'Nottingham',
   address: {
     locality: 'Nottingham',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C4WWVW3+R7'
   },
   icon: 'national_rail'
@@ -665,7 +665,7 @@ module.exports = [{
   title: 'Oban',
   address: {
     locality: 'Oban',
-    'country-name': 'United Kingdom',
+    'country-name': 'Scotland',
     'plus-code': '9C8PCG7G+2C'
   },
   icon: 'national_rail'
@@ -697,7 +697,7 @@ module.exports = [{
   title: 'Par',
   address: {
     locality: 'Par',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C2Q974W+96'
   },
   icon: 'national_rail'
@@ -705,7 +705,7 @@ module.exports = [{
   title: 'Penzance',
   address: {
     locality: 'Penzance',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C2P4FC8+MX'
   },
   icon: 'national_rail'
@@ -713,7 +713,7 @@ module.exports = [{
   title: 'Portsmouth Harbour',
   address: {
     locality: 'Portsmouth',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C2WQVWR+VX'
   },
   icon: 'national_rail'
@@ -729,7 +729,7 @@ module.exports = [{
   title: 'Preston',
   address: {
     locality: 'Preston',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C5VQ74V+44'
   },
   icon: 'national_rail'
@@ -737,7 +737,7 @@ module.exports = [{
   title: 'Preston Park',
   address: {
     locality: 'Brighton',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C2XRRWV+9X'
   },
   icon: 'national_rail'
@@ -752,7 +752,7 @@ module.exports = [{
   title: 'Reading',
   address: {
     locality: 'Reading',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C3XF25H+8C'
   },
   icon: 'national_rail'
@@ -783,7 +783,7 @@ module.exports = [{
   title: 'Ryde Pier Head',
   address: {
     locality: 'Ryde',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C2WPRQQ+MX'
   },
   icon: 'national_rail'
@@ -791,7 +791,7 @@ module.exports = [{
   title: 'Sheffield',
   address: {
     locality: 'Sheffield',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C5W9GHP+8R'
   },
   icon: 'national_rail'
@@ -799,7 +799,7 @@ module.exports = [{
   title: 'Shanklin',
   address: {
     locality: 'Shanklin',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C2WJRMC+G2'
   },
   icon: 'national_rail'
@@ -807,7 +807,7 @@ module.exports = [{
   title: 'Southampton Airport Parkway',
   address: {
     locality: 'Southampton',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C2WXJ2P+8Q'
   },
   icon: 'national_rail'
@@ -815,7 +815,7 @@ module.exports = [{
   title: 'St Erth',
   address: {
     locality: 'St Erth',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C2P5HC4+67'
   },
   icon: 'national_rail'
@@ -823,7 +823,7 @@ module.exports = [{
   title: 'St Ives',
   address: {
     locality: 'St Ives',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C2P6G5C+HR'
   },
   icon: 'national_rail'
@@ -831,7 +831,7 @@ module.exports = [{
   title: 'Stirling',
   address: {
     locality: 'Stirling',
-    'country-name': 'United Kingdom',
+    'country-name': 'Scotland',
     'plus-code': '9C8R4397+WR'
   },
   icon: 'national_rail'
@@ -847,7 +847,7 @@ module.exports = [{
   title: 'Three Bridges',
   address: {
     locality: 'Three Bridges',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C3X4R9Q+68'
   },
   icon: 'national_rail'
@@ -863,7 +863,7 @@ module.exports = [{
   title: 'Truro',
   address: {
     locality: 'Truro',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C2P7W7P+J8'
   },
   icon: 'national_rail'
@@ -885,7 +885,7 @@ module.exports = [{
   title: 'Walsall',
   address: {
     locality: 'Walsall',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C4WH2M7+PQ'
   },
   icon: 'national_rail'
@@ -901,7 +901,7 @@ module.exports = [{
   iata: 'QQY',
   address: {
     locality: 'York',
-    'country-name': 'United Kingdom',
+    'country-name': 'England',
     'plus-code': '9C5WXW54+5P'
   },
   icon: 'national_rail'

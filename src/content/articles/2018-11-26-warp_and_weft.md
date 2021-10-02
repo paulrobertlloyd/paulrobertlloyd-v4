@@ -3,7 +3,7 @@ title: Warp and Weft
 date: 2018-11-26T13:00:00Z
 location:
   locality: Brighton
-  country-name: United Kingdom
+  country-name: England
 summary: In thinking about the fabric of the web, I unpick a few threads and tie myself in knots.
 image: /images/photos/1542802386.jpg
 category:
