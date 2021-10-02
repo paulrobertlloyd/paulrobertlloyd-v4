@@ -34,6 +34,11 @@
     Content-Type = "image/x-icon"
 
 [[headers]]
+  for = "/*.ics"
+  [headers.values]
+    Content-Type = "text/calendar"
+
+[[headers]]
   for = "/*.jf2"
   [headers.values]
     Content-Type = "application/jf2feed+json; charset=utf-8"

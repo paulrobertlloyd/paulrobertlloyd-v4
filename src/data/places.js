@@ -37,16 +37,22 @@ module.exports = function () {
     ...airports,
     ...stations,
     ...ports,
-    ...venues
+    ...venues,
   ];
 
   // Add place metadata and sort alphabetically
   return places
     .map(place => {
+      place.index = place.title.charAt(0).toLowerCase();
+
+      // Get address as a formatted string
+      place.sructuredLocation = `${place.title}\n${place.address['street-address']}, ${place.address['postal-code']}, ${place.address['country-name']}`;
+
+      // Get geo and place id from plus code
       const plusCode = place.address['plus-code'];
       place.geo = decode(plusCode);
       place.id = plusCode.toLowerCase();
-      place.index = place.title.charAt(0).toLowerCase();
+
       return place;
     })
     .sort((a, b) => {
