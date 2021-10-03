@@ -4,7 +4,7 @@ date: 2010-06-28T19:30:00+01:00
 summary: In the past 25 years our use of technology has increased at an unprecedented rate, affecting our way of life and how we function in society. What’s next?
 start: 2010-06-28T19:30:00+01:00
 end: 2010-06-28T21:00:00+01:00
-placeId: 9c3xgv4m+mg
+placeId: 9C3XGV4M+MG
 ---
 The panel includes:
 

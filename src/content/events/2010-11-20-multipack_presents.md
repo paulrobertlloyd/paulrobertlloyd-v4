@@ -8,5 +8,5 @@ category:
 start: 2010-11-20T14:00:00Z
 end: 2010-11-20T20:00:00Z
 participant: true
-placeId: 9c4wf4h9+49
+placeId: 9C4WF4H9+49
 ---

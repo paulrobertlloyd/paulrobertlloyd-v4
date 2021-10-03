@@ -7,5 +7,5 @@ category:
   - Guardian Live
 start: 2018-05-31T19:00:00+01:00
 end: 2018-05-31T20:30:00+01:00
-placeId: 9c3xfvwc+h8
+placeId: 9C3XFVWC+H8
 ---

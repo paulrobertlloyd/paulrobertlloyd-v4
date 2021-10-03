@@ -7,5 +7,5 @@ category:
   - Responsive Day Out
 start: 2015-06-19T09:00:00+01:00
 end: 2015-06-19T17:30:00+01:00
-placeId: 9c2xrvf6+fg
+placeId: 9C2XRVF6+FG
 ---

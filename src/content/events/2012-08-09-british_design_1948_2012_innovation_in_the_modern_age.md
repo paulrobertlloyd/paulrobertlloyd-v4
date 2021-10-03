@@ -5,5 +5,5 @@ url: http://www.vam.ac.uk/content/exhibitions/exhibition-british-design/
 summary: Celebrating the best of British post-war art and design from the 1948 Austerity Games to the present day.
 start: 2012-03-31
 end: 2012-08-12
-placeId: 9c3xfrwh+m4
+placeId: 9C3XFRWH+M4
 ---

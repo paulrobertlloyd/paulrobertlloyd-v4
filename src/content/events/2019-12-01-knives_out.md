@@ -5,5 +5,5 @@ url: https://www.imdb.com/title/tt8946378/
 summary: A detective investigates the death of a patriarch of an eccentric, combative family.
 start: 2019-12-01T20:00:00Z
 end: 2019-12-01T22:10:00Z
-placeId: 9c2xrvf6+x6
+placeId: 9C2XRVF6+X6
 ---

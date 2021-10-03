@@ -6,5 +6,5 @@ category:
   - Async
 start: 2012-01-12T19:15:00Z
 end: 2012-01-12T21:30:00Z
-placeId: 9c2xrvg7+m9
+placeId: 9C2XRVG7+M9
 ---

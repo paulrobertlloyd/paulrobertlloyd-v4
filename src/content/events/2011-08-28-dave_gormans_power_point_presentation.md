@@ -8,5 +8,5 @@ category:
   - Edinburgh Festival Fringe 2011
 start: 2011-08-28T19:40:00+01:00
 end: 2011-08-28T18:40:00+01:00
-placeId: 9c7rwrv6+4p
+placeId: 9C7RWRV6+4P
 ---

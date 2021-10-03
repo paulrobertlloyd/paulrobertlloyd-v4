@@ -29,7 +29,7 @@
     {{ place.content | markdown }}
   {%- endcapture -%}
   {%- render 'content' with content -%}
-  {%- assign relatedEvents = collections.event | includes: 'data.placeId',place.id | reverse -%}
+  {%- assign relatedEvents = collections.event | includes: 'data.placeId',place.address['plus-code'] | reverse -%}
   {%- render 'section' with relatedEvents
     id: 'events'
     title: 'Events at this location'

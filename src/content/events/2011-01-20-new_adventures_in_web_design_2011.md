@@ -7,5 +7,5 @@ category:
   -  New Adventures
 start: 2011-01-20T09:00:00Z
 end: 2011-01-20T18:00:00Z
-placeId: 9c4wxr3v+qc
+placeId: 9C4WXR3V+QC
 ---

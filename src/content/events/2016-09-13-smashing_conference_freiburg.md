@@ -6,5 +6,5 @@ summary: A one track, two-days event, taking place in the Historic Merchants’ 
 start: 2016-09-12T08:00:00+02:00
 end: 2016-09-13T17:30:00+02:00
 participant: true
-placeId: 8fv9xvv3+x3
+placeId: 8FV9XVV3+X3
 ---

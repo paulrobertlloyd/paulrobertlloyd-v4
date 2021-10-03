@@ -7,5 +7,5 @@ category:
   - Geek in the Park
 start: 2006-08-27T17:00:00+01:00
 end: 2006-08-27T23:00:00+01:00
-placeId: 9c4w7fp8+7r
+placeId: 9C4W7FP8+7R
 ---

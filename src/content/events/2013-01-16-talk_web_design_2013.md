@@ -8,5 +8,5 @@ category:
 start: 2013-01-16T10:30:00Z
 end: 2013-01-16T16:30:00Z
 participant: true
-placeId: 9f32f32g+3g
+placeId: 9F32F32G+3G
 ---

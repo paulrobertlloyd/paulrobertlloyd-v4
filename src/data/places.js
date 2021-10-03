@@ -45,9 +45,7 @@ module.exports = function () {
       place.sructuredLocation = `${place.title}\n${place.address['street-address']}, ${place.address['postal-code']}, ${place.address['country-name']}`;
 
       // Get geo and place id from plus code
-      const plusCode = place.address['plus-code'];
-      place.geo = decode(plusCode);
-      place.id = plusCode.toLowerCase();
+      place.geo = decode(place.address['plus-code']);
 
       return place;
     })

@@ -7,5 +7,5 @@ category:
   - Connections
 start: 2014-02-04T19:00:00Z
 end: 2014-02-04T20:00:00Z
-placeId: 9c2xrvc4+cq
+placeId: 9C2XRVC4+CQ
 ---

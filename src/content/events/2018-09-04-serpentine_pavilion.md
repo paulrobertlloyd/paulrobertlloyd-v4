@@ -5,5 +5,5 @@ url: https://www.serpentinegalleries.org/exhibitions-events/serpentine-pavilion-
 summary: Architect Frida Escobedo, celebrated for dynamic projects that reactivate urban space is commissioned to design this year’s pavilion.
 start: 2018-06-15
 end: 2018-10-07
-placeId: 9c3xgr3f+vx
+placeId: 9C3XGR3F+VX
 ---

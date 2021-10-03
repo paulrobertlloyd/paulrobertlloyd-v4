@@ -8,5 +8,5 @@ category:
 start: 2017-06-30T09:00:00+01:00
 end: 2017-06-30T16:45:00+01:00
 participant: true
-placeId: 9c2xrvm6+hm
+placeId: 9C2XRVM6+HM
 ---

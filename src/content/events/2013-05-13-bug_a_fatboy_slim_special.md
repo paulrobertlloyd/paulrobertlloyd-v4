@@ -7,5 +7,5 @@ category:
   - Bug
 start: 2013-05-13T20:00:00+01:00
 end: 2013-05-13T21:00:00+01:00
-placeId: 9c2xrvf6+fr
+placeId: 9C2XRVF6+FR
 ---

@@ -5,5 +5,5 @@ url: https://www.imdb.com/title/tt2527338/
 summary: The surviving Resistance faces the First Order once more in the final chapter of the Skywalker saga.
 start: 2019-12-23T17:10:00Z
 end: 2019-12-23T19:32:00Z
-placeId: 9f22q79j+jq
+placeId: 9F22Q79J+JQ
 ---

@@ -5,5 +5,5 @@ category:
   - Brighton Comedy Festival 2010
 start: 2010-10-15T20:00:00+01:00
 end: 2010-10-15T21:00:00+01:00
-placeId: 9c2xrvf6+fr
+placeId: 9C2XRVF6+FR
 ---

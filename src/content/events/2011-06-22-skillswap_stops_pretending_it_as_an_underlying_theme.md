@@ -5,5 +5,5 @@ category:
   - Skillswap
 start: 2011-06-22T19:00:00Z
 end: 2011-06-22T21:00:00Z
-placeId: 9c2xrvg6+9m
+placeId: 9C2XRVG6+9M
 ---
