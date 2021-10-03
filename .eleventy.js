@@ -14,7 +14,6 @@ module.exports = function (eleventy) {
       app: require('./src/data/app.js'),
       dates: require('./src/data/dates.js'),
       navigation: require('./src/data/navigation.js'),
-      places: require('./src/data/places.js')(),
       srcsets: require('./src/data/srcsets.js'),
     },
     layouts: './src/layouts',
