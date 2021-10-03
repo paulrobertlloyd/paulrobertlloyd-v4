@@ -16,7 +16,7 @@ permalink: /feed.xml
   <link rel="alternate" href="{{ app.url }}" type="text/html"/>
   <link rel="hub" href="http://pubsubhubbub.superfeedr.com/"/>
   <icon>{{ app.icon | absolute_url: app.url }}</icon>
-  <rights>&#169; {{ 'now' | date: 'yyyy' }} {{ app.author.name }}. Content Creative Commons licensed unless otherwise stated.</rights>
+  <rights>&#169; {{ 'now' | date: '%Y' }} {{ app.author.name }}. Content Creative Commons licensed unless otherwise stated.</rights>
 {% for item in collections.post limit: 25 %}
   <entry>
     <id>{{ item.url | absolute_url: app.url }}</id>

@@ -1,5 +1,3 @@
-const {format, parseISO} = require('date-fns');
-
 module.exports = function () {
   const now = new Date();
 
@@ -71,16 +69,34 @@ module.exports = function () {
   // Month archives
   const archivedMonths = generateMonths('2008-09', now);
   const monthArchives = archivedMonths.map(month => {
-    const date = parseISO(month);
+    const date = new Date(month);
+    const monthNames = [
+      'January',
+      'February',
+      'March',
+      'April',
+      'May',
+      'June',
+      'July',
+      'August',
+      'September',
+      'October',
+      'November',
+      'December',
+    ];
+    const year = date.getFullYear();
+    let monthNumber = date.getMonth() + 1;
+    monthNumber = String(monthNumber).padStart(2, '0');
+    const monthName = monthNames[date.getMonth()];
 
     return {
-      date: new Date(month),
-      fileSlug: format(date, 'MM'),
-      url: format(date, '/yyyy/MM/'),
+      date,
+      fileSlug: monthNumber,
+      url: `/${year}/${monthNumber}/`,
       data: {
-        date: format(date, 'yyyy-MM'),
-        itemTitle: format(date, 'MMMM'),
-        introduction: format(date, 'MMMM yyyy'),
+        date: `${year}-${monthNumber}`,
+        itemTitle: monthName,
+        introduction: `${monthName} ${year}`,
       },
     };
   });

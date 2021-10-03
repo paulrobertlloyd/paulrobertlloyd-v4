@@ -19,13 +19,14 @@ module.exports = function (eleventy) {
     },
     layouts: './src/layouts',
     partials: './src/includes',
+    preserveTimezones: true,
   }));
 
   // Filters
   eleventy.addFilter('absolute_url', require('@11ty/eleventy-plugin-rss').absoluteUrl);
   eleventy.addFilter('color', require('./lib/filters/color.js'));
   eleventy.addFilter('contrast_with', require('./lib/filters/contrast-with.js'));
-  eleventy.addFilter('date', require('./lib/filters/date.js'));
+  eleventy.addFilter('date_with_time_zone', require('./lib/filters/date-with-time-zone.js'));
   eleventy.addFilter('excludes', require('./lib/filters/excludes.js'));
   eleventy.addFilter('hostname', require('./lib/filters/hostname.js'));
   eleventy.addFilter('includes', require('./lib/filters/includes.js'));

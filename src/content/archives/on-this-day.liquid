@@ -7,9 +7,9 @@ tags: on-this-day
 priority: 0.5
 eleventyComputed:
   pageTitle: "On this day · {{ app.title }}"
-  introduction: "{{ 'now' | date: 'dd MMMM' }}"
+  introduction: "{{ 'now' | date: '%d %B' }}"
 ---
-{%- assign today = 'now' | date: '-MM-dd' %}
+{%- assign today = 'now' | date: '-%m-%d' %}
 {%- assign items = collections.post | includes: 'date',today -%}
 {%- render 'items' with items
   modifier: 'inline'
