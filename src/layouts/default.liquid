@@ -52,7 +52,7 @@
   </style>
   <script src="/assets/scripts/app.js" async></script>
 
-  <meta property="og:title" content="{{ pageTitle | markdown: 'inline' | strip_html }}">
+  <meta property="og:title" content="{{ title | markdown: 'inline' | strip_html }}">
   <meta property="og:description" name="description" content="{{ summary | default: app.description | markdown | strip_html | strip_newlines | strip }}">
   <meta property="og:url" content="{{ page.url | absolute_url: app.url }}">
   <meta property="og:image" content="{{ shareImage }}">

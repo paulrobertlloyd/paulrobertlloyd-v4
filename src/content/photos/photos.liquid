@@ -1,6 +1,5 @@
 ---
 layout: index
-title: Photos
 pagination:
   data: collections.photo
   reverse: true
@@ -10,7 +9,7 @@ override:tags: []
 changefreq: daily
 priority: 0.9
 eleventyComputed:
-  pageTitle: "{{ title }} · {{ app.title }}"
+  title: Photos
 ---
 {%- render 'items' with pagination.items
   component: 'card-photo'

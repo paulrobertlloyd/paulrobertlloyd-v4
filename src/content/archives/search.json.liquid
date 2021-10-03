@@ -4,7 +4,7 @@ permalink: /archive/search.json
 ---
 [{% for item in collections.post %}
   {
-    "title": {{ item.data.title | default: item.data.pageTitle | split: '·' | first | json }},
+    "title": {{ item.data.title | json }},
     "layout": {{ item.data.layout | capitalize | json }},
     "content": {{ item.templateContent | tokenize | json }},
     "url": {{ item.url | json }}
