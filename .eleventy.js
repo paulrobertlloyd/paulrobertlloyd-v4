@@ -1,13 +1,15 @@
 require('dotenv').config();
+const {Liquid} = require('liquidjs');
 
 module.exports = function (eleventy) {
   // Browser Sync
   eleventy.setBrowserSyncConfig(require('./etc/browser-sync.config.js'));
 
-  // Liquid
-  eleventy.setLiquidOptions({
+  // Liquid (using own library instance, for now)
+  // See: https://github.com/harttle/liquidjs/issues/395
+  eleventy.setLibrary('liquid', new Liquid({
     cache: true,
-    dynamicPartials: true,
+    extname: '.liquid',
     globals: {
       app: require('./src/data/app.js'),
       dates: require('./src/data/dates.js'),
@@ -15,7 +17,9 @@ module.exports = function (eleventy) {
       places: require('./src/data/places.js')(),
       srcsets: require('./src/data/srcsets.js'),
     },
-  });
+    layouts: './src/layouts',
+    partials: './src/includes',
+  }));
 
   // Filters
   eleventy.addFilter('absolute_url', require('@11ty/eleventy-plugin-rss').absoluteUrl);
