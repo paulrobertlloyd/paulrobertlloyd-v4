@@ -8,6 +8,6 @@ module.exports = {
   priority: 0.8,
   eleventyComputed: {
     pageTitle: '{% if photo.size > 1 -%}{{ photo.size }} photos{% else %}Photo{% endif %}: {{ date | date: dates.datetime_full }} · {{ app.title }}',
-    image: '{{ photo[0].url }}'
-  }
+    image: '{{ photo[0].url }}',
+  },
 };

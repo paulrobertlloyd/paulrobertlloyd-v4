@@ -9,6 +9,6 @@ module.exports = {
   eleventyComputed: {
     pageTitle: 'Reply: {{ date | date: dates.datetime_full }} · {{ app.title }}',
     image: '{{ photo[0].url }}',
-    inReplyTo: data => data['in-reply-to']
-  }
+    inReplyTo: data => data['in-reply-to'],
+  },
 };

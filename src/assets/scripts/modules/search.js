@@ -1,17 +1,15 @@
 import aria from './aria.js';
 
-export const search = () => {
+export const search = async () => {
   const searchForm = document.querySelector('#search');
   const searchSubmit = document.querySelector('#search-submit');
   const endpoint = searchForm.dataset.searchIndex;
   const pages = [];
 
-  const findResults = (termToMatch, pages) => {
-    return pages.filter(item => {
-      const regex = new RegExp(termToMatch, 'gi');
-      return item.title.match(regex) || item.content.match(regex);
-    });
-  };
+  const findResults = (termToMatch, pages) => pages.filter(item => {
+    const regex = new RegExp(termToMatch, 'gi');
+    return item.title.match(regex) || item.content.match(regex);
+  });
 
   const displayResults = input => {
     const resultsArray = findResults(input, pages);
@@ -24,7 +22,7 @@ export const search = () => {
 
       return {
         value: item.title,
-        html
+        html,
       };
     });
 
@@ -32,9 +30,13 @@ export const search = () => {
   };
 
   if (searchForm) {
-    fetch(endpoint)
-      .then(blob => blob.json())
-      .then(data => pages.push(...data));
+    try {
+      const blob = await fetch(endpoint);
+      const data = await blob.json();
+      pages.push(...data);
+    } catch (error) {
+      console.error(error);
+    }
 
     searchForm.setAttribute('action', '#search');
     searchForm.removeAttribute('method');
@@ -44,12 +46,10 @@ export const search = () => {
       event.preventDefault();
     });
 
-    window.addEventListener('load', () => {
-      return new aria.Combobox(
-        document.querySelector('#search-combobox'),
-        document.querySelector('#search-input'),
-        displayResults
-      );
-    });
+    window.addEventListener('load', () => new aria.Combobox(
+      document.querySelector('#search-combobox'),
+      document.querySelector('#search-input'),
+      displayResults,
+    ));
   }
 };

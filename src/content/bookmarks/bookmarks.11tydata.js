@@ -8,6 +8,6 @@ module.exports = {
   priority: 0.8,
   eleventyComputed: {
     bookmarkOf: data => data['bookmark-of'],
-    summary: '{{ bookmarkOf | hostname }}'
-  }
+    summary: '{{ bookmarkOf | hostname }}',
+  },
 };

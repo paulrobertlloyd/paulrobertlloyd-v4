@@ -20,12 +20,11 @@ aria.key = {
   UP: 38,
   RIGHT: 39,
   DOWN: 40,
-  DELETE: 46
+  DELETE: 46,
 };
 
 /**
  * @class
- *
  * @description Combobox object representing the state and interactions for a combobox
  * @param {object} comboboxNode The DOM node pointing to the combobox
  * @param {object} inputNode The input node
@@ -34,7 +33,7 @@ aria.key = {
 aria.Combobox = function (
   comboboxNode,
   inputNode,
-  searchFn
+  searchFn,
 ) {
   this.combobox = comboboxNode;
   this.input = inputNode;

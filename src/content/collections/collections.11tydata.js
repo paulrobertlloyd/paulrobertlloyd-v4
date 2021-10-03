@@ -4,5 +4,5 @@ module.exports = {
   tags: ['collection'],
   vocab: 'entry',
   changefreq: 'monthly',
-  priority: 0.2
+  priority: 0.2,
 };

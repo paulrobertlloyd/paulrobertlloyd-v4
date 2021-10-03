@@ -7,6 +7,6 @@ module.exports = {
   changefreq: 'monthly',
   priority: 0.8,
   eleventyComputed: {
-    pageTitle: 'Note: {{ date | date: dates.datetime_full }} · {{ app.title }}'
-  }
+    pageTitle: 'Note: {{ date | date: dates.datetime_full }} · {{ app.title }}',
+  },
 };

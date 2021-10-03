@@ -5,8 +5,8 @@ module.exports = [{
   address: {
     locality: 'Amsterdam',
     'country-name': 'Netherlands',
-    'plus-code': '9F468Q69+68'
-  }
+    'plus-code': '9F468Q69+68',
+  },
 }, {
   title: 'Auckland Airport',
   iata: 'AKL',
@@ -14,8 +14,8 @@ module.exports = [{
   address: {
     locality: 'Auckland',
     'country-name': 'New Zealand',
-    'plus-code': '4VJPXQRP+P2'
-  }
+    'plus-code': '4VJPXQRP+P2',
+  },
 }, {
   title: 'Austin-Bergstrom International Airport',
   iata: 'AUS',
@@ -23,8 +23,8 @@ module.exports = [{
   address: {
     locality: 'Austin',
     'country-name': 'United States',
-    'plus-code': '862458WM+XF'
-  }
+    'plus-code': '862458WM+XF',
+  },
 }, {
   title: 'Birmingham Airport',
   iata: 'BHX',
@@ -32,8 +32,8 @@ module.exports = [{
   address: {
     locality: 'Birmingham',
     'country-name': 'England',
-    'plus-code': '9C4WF724+XH'
-  }
+    'plus-code': '9C4WF724+XH',
+  },
 }, {
   title: 'Belfast International Airport',
   iata: 'BFS',
@@ -41,8 +41,8 @@ module.exports = [{
   address: {
     locality: 'Belfast',
     'country-name': 'Northern Ireland',
-    'plus-code': '9C6MMQ4M+G4'
-  }
+    'plus-code': '9C6MMQ4M+G4',
+  },
 }, {
   title: 'Berlin Schönefeld Airport',
   iata: 'SXF',
@@ -50,8 +50,8 @@ module.exports = [{
   address: {
     locality: 'Berlin',
     'country-name': 'Germany',
-    'plus-code': '9F4M9GF4+8H'
-  }
+    'plus-code': '9F4M9GF4+8H',
+  },
 }, {
   title: 'Brasília–Presidente Juscelino Kubitschek International Airport',
   iata: 'BSB',
@@ -59,8 +59,8 @@ module.exports = [{
   address: {
     locality: 'Brasília',
     'country-name': 'Brazil',
-    'plus-code': '58PJ43JM+44'
-  }
+    'plus-code': '58PJ43JM+44',
+  },
 }, {
   title: 'Cairns International Airport',
   iata: 'CNS',
@@ -68,8 +68,8 @@ module.exports = [{
   address: {
     locality: 'Cairns',
     'country-name': 'Australia',
-    'plus-code': '5RM74PCX+VX'
-  }
+    'plus-code': '5RM74PCX+VX',
+  },
 }, {
   title: 'Chicago Midway International Airport',
   iata: 'MDW',
@@ -77,8 +77,8 @@ module.exports = [{
   address: {
     locality: 'Chicago',
     'country-name': 'United States',
-    'plus-code': '86HJQ6PX+P4'
-  }
+    'plus-code': '86HJQ6PX+P4',
+  },
 }, {
   title: 'Copenhagen Airport, Kastrup',
   iata: 'CPH',
@@ -86,8 +86,8 @@ module.exports = [{
   address: {
     locality: 'Kastrup',
     'country-name': 'Denmark',
-    'plus-code': '9F7JJM92+68'
-  }
+    'plus-code': '9F7JJM92+68',
+  },
 }, {
   title: 'Dallas/Fort Worth International Airport',
   iata: 'DFW',
@@ -95,8 +95,8 @@ module.exports = [{
   address: {
     locality: 'Dallas',
     'country-name': 'United States',
-    'plus-code': '8644VXX5+WV'
-  }
+    'plus-code': '8644VXX5+WV',
+  },
 }, {
   title: 'Dubai International Airport',
   iata: 'DXB',
@@ -104,8 +104,8 @@ module.exports = [{
   address: {
     locality: 'Dubai',
     'country-name': 'United Arab Emirates',
-    'plus-code': '7HQQ7938+77'
-  }
+    'plus-code': '7HQQ7938+77',
+  },
 }, {
   title: 'Dublin Airport',
   iata: 'DUB',
@@ -113,8 +113,8 @@ module.exports = [{
   address: {
     locality: 'Dublin',
     'country-name': 'Ireland',
-    'plus-code': '9C5MCQG2+H2'
-  }
+    'plus-code': '9C5MCQG2+H2',
+  },
 }, {
   title: 'Frankfurt Airport',
   iata: 'FRA',
@@ -122,8 +122,8 @@ module.exports = [{
   address: {
     locality: 'Frankfurt am Main',
     'country-name': 'Germany',
-    'plus-code': '9F2C2HQ6+5V'
-  }
+    'plus-code': '9F2C2HQ6+5V',
+  },
 }, {
   title: 'Gatwick Airport',
   iata: 'LGW',
@@ -131,8 +131,8 @@ module.exports = [{
   address: {
     locality: 'Gatwick',
     'country-name': 'England',
-    'plus-code': '9C3X5R39+F5'
-  }
+    'plus-code': '9C3X5R39+F5',
+  },
 }, {
   title: 'Hartsfield-Jackson Atlanta International Airport',
   iata: 'ATL',
@@ -140,8 +140,8 @@ module.exports = [{
   address: {
     locality: 'Atlanta',
     'country-name': 'United States',
-    'plus-code': '865QJHRC+7W'
-  }
+    'plus-code': '865QJHRC+7W',
+  },
 }, {
   title: 'John F. Kennedy International Airport',
   iata: 'JFK',
@@ -149,8 +149,8 @@ module.exports = [{
   address: {
     locality: 'New York',
     'country-name': 'United States',
-    'plus-code': '87G8J6RC+GP'
-  }
+    'plus-code': '87G8J6RC+GP',
+  },
 }, {
   title: 'Keflavík International Airport',
   iata: 'KEF',
@@ -158,8 +158,8 @@ module.exports = [{
   address: {
     locality: 'Keflavík',
     'country-name': 'Iceland',
-    'plus-code': '99MVX9H7+CX'
-  }
+    'plus-code': '99MVX9H7+CX',
+  },
 }, {
   title: 'Lisbon Portela Airport',
   iata: 'LIS',
@@ -167,8 +167,8 @@ module.exports = [{
   address: {
     locality: 'Lisbon',
     'country-name': 'Portugal',
-    'plus-code': '8CCGQVG7+6V'
-  }
+    'plus-code': '8CCGQVG7+6V',
+  },
 }, {
   title: 'London Heathrow Airport',
   iata: 'LHR',
@@ -176,8 +176,8 @@ module.exports = [{
   address: {
     locality: 'London',
     'country-name': 'England',
-    'plus-code': '9C3XFGCW+27'
-  }
+    'plus-code': '9C3XFGCW+27',
+  },
 }, {
   title: 'London Luton Airport',
   iata: 'LTN',
@@ -185,8 +185,8 @@ module.exports = [{
   address: {
     locality: 'Luton',
     'country-name': 'England',
-    'plus-code': '9C3XVJGH+G8'
-  }
+    'plus-code': '9C3XVJGH+G8',
+  },
 }, {
   title: 'Los Angeles International Airport',
   iata: 'LAX',
@@ -194,8 +194,8 @@ module.exports = [{
   address: {
     locality: 'Los Angeles',
     'country-name': 'United States',
-    'plus-code': '8553WHRR+JH'
-  }
+    'plus-code': '8553WHRR+JH',
+  },
 }, {
   title: 'McCarran International Airport',
   iata: 'LAS',
@@ -203,8 +203,8 @@ module.exports = [{
   address: {
     locality: 'Las Vegas',
     'country-name': 'United States',
-    'plus-code': '85863RMW+HG'
-  }
+    'plus-code': '85863RMW+HG',
+  },
 }, {
   title: 'Melbourne Airport',
   iata: 'MEL',
@@ -212,8 +212,8 @@ module.exports = [{
   address: {
     locality: 'Melbourne',
     'country-name': 'Australia',
-    'plus-code': '4RJ68RJR+9C'
-  }
+    'plus-code': '4RJ68RJR+9C',
+  },
 }, {
   title: 'Montréal–Trudeau International Airport',
   iata: 'YUL',
@@ -221,8 +221,8 @@ module.exports = [{
   address: {
     locality: 'Montréal',
     'country-name': 'Canada',
-    'plus-code': '87Q8F783+7R'
-  }
+    'plus-code': '87Q8F783+7R',
+  },
 }, {
   title: 'Munich International Airport',
   iata: 'MUC',
@@ -230,8 +230,8 @@ module.exports = [{
   address: {
     locality: 'Munich',
     'country-name': 'Germany',
-    'plus-code': '8FWH9Q3G+F2'
-  }
+    'plus-code': '8FWH9Q3G+F2',
+  },
 }, {
   title: 'Newark Liberty International Airport',
   iata: 'EWR',
@@ -239,8 +239,8 @@ module.exports = [{
   address: {
     locality: 'Newark',
     'country-name': 'United States',
-    'plus-code': '87G7MRQG+R6'
-  }
+    'plus-code': '87G7MRQG+R6',
+  },
 }, {
   title: 'Norman Y. Mineta San Jose International Airport',
   iata: 'SJC',
@@ -248,8 +248,8 @@ module.exports = [{
   address: {
     locality: 'San Jose',
     'country-name': 'United States',
-    'plus-code': '849W937C+HC'
-  }
+    'plus-code': '849W937C+HC',
+  },
 }, {
   title: 'O’Hare International Airport',
   iata: 'ORD',
@@ -257,8 +257,8 @@ module.exports = [{
   address: {
     locality: 'Chicago',
     'country-name': 'United States',
-    'plus-code': '86HJX3FV+M3'
-  }
+    'plus-code': '86HJX3FV+M3',
+  },
 }, {
   title: 'Ottawa International Airport',
   iata: 'YOW',
@@ -266,8 +266,8 @@ module.exports = [{
   address: {
     locality: 'Ottawa',
     'country-name': 'Canada',
-    'plus-code': '87Q6889J+M8'
-  }
+    'plus-code': '87Q6889J+M8',
+  },
 }, {
   title: 'Phoenix Sky Harbor International Airport',
   iata: 'PHX',
@@ -275,8 +275,8 @@ module.exports = [{
   address: {
     locality: 'Phoenix',
     'country-name': 'United States',
-    'plus-code': '8559CXPR+WV'
-  }
+    'plus-code': '8559CXPR+WV',
+  },
 }, {
   title: 'Portland International Airport',
   iata: 'PDX',
@@ -284,8 +284,8 @@ module.exports = [{
   address: {
     locality: 'Portland',
     'country-name': 'United States',
-    'plus-code': '84QVHCR5+G3'
-  }
+    'plus-code': '84QVHCR5+G3',
+  },
 }, {
   title: 'Rome Ciampino Giovan Battista Pastine Airport',
   iata: 'CIA',
@@ -293,8 +293,8 @@ module.exports = [{
   address: {
     locality: 'Rome',
     'country-name': 'Italy',
-    'plus-code': '8FHJQHXV+M4'
-  }
+    'plus-code': '8FHJQHXV+M4',
+  },
 }, {
   title: 'San Francisco International Airport',
   iata: 'SFO',
@@ -302,8 +302,8 @@ module.exports = [{
   address: {
     locality: 'San Francisco',
     'country-name': 'United States',
-    'plus-code': '849VJJCC+GC'
-  }
+    'plus-code': '849VJJCC+GC',
+  },
 }, {
   title: 'São Paulo-Guarulhos International Airport',
   iata: 'GRU',
@@ -311,8 +311,8 @@ module.exports = [{
   address: {
     locality: 'Guarulhos',
     'country-name': 'Brazil',
-    'plus-code': '588MHG9G+QQ'
-  }
+    'plus-code': '588MHG9G+QQ',
+  },
 }, {
   title: 'Seattle-Tacoma International Airport',
   iata: 'SEA',
@@ -320,8 +320,8 @@ module.exports = [{
   address: {
     locality: 'SeaTac',
     'country-name': 'United States',
-    'plus-code': '84VVFM2R+3F'
-  }
+    'plus-code': '84VVFM2R+3F',
+  },
 }, {
   title: 'Suvarnabhumi Airport',
   iata: 'BKK',
@@ -329,8 +329,8 @@ module.exports = [{
   address: {
     locality: 'Bang Phli',
     'country-name': 'Thailand',
-    'plus-code': '7P52MQQ2+X2'
-  }
+    'plus-code': '7P52MQQ2+X2',
+  },
 }, {
   title: 'Sydney Airport',
   iata: 'SYD',
@@ -338,8 +338,8 @@ module.exports = [{
   address: {
     locality: 'Sydney',
     'country-name': 'Australia',
-    'plus-code': '4RRH356G+24'
-  }
+    'plus-code': '4RRH356G+24',
+  },
 }, {
   title: 'Toronto Pearson International Airport',
   iata: 'YYZ',
@@ -347,8 +347,8 @@ module.exports = [{
   address: {
     locality: 'Toronto',
     'country-name': 'Canada',
-    'plus-code': '87M2M9HG+33'
-  }
+    'plus-code': '87M2M9HG+33',
+  },
 }, {
   title: 'Vancouver International Airport',
   iata: 'YVR',
@@ -356,8 +356,8 @@ module.exports = [{
   address: {
     locality: 'Richmond',
     'country-name': 'Canada',
-    'plus-code': '84XR5RW9+M9'
-  }
+    'plus-code': '84XR5RW9+M9',
+  },
 }, {
   title: 'Washington Dulles International Airport',
   iata: 'IAD',
@@ -365,8 +365,8 @@ module.exports = [{
   address: {
     locality: 'Dulles',
     'country-name': 'United States',
-    'plus-code': '87C4XH32+7V'
-  }
+    'plus-code': '87C4XH32+7V',
+  },
 }, {
   title: 'Wellington International Airport',
   iata: 'WLG',
@@ -374,6 +374,6 @@ module.exports = [{
   address: {
     locality: 'Wellington',
     'country-name': 'New Zealand',
-    'plus-code': '4VCPMRC5+X2'
-  }
+    'plus-code': '4VCPMRC5+X2',
+  },
 }];

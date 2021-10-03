@@ -5,5 +5,5 @@ module.exports = {
   tags: ['post', 'project'],
   vocab: 'entry',
   changefreq: 'monthly',
-  priority: 0.9
+  priority: 0.9,
 };

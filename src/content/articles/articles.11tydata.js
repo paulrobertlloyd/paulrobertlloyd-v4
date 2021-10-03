@@ -6,5 +6,5 @@ module.exports = {
   vocab: 'entry',
   changefreq: 'monthly',
   priority: 0.9,
-  duotoneCardImage: true
+  duotoneCardImage: true,
 };

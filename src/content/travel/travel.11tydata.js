@@ -12,19 +12,19 @@ module.exports = {
     geojson: data => {
       const relatedTrips = data.relatedTrips ? data.relatedTrips : [];
       const features = [];
-      relatedTrips.forEach(trip => {
+      for (const trip of relatedTrips) {
         features.push(...trip.data.trip.geojson.features);
-      });
+      }
 
       return {
         type: 'FeatureCollection',
-        features
+        features,
       };
     },
     relatedTrips: data => {
       const trips = data.collections.trip;
       const tripId = data.tripId ? data.tripId.toString() : [];
       return trips.filter(trip => tripId.includes(trip.data.trip.id));
-    }
-  }
+    },
+  },
 };

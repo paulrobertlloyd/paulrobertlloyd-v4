@@ -1,36 +1,32 @@
 const {decode} = require('pluscodes');
-const airports = require('./places/airports');
-const stations = require('./places/stations');
-const ports = require('./places/ports');
-const venues = require('./places/venues');
+const airports = require('./places/airports.js');
+const stations = require('./places/stations.js');
+const ports = require('./places/ports.js');
+const venues = require('./places/venues.js');
 
 module.exports = function () {
   // Add airport metadata
-  airports.forEach(airport => {
+  for (const airport of airports) {
     airport.type = 'airport';
     airport.icon = 'plane';
-    return airport;
-  });
+  }
 
   // Add station metadata
-  stations.forEach(station => {
+  for (const station of stations) {
     station.type = 'station';
     station.icon = station.icon || 'train';
-    return station;
-  });
+  }
 
   // Add port metadata
-  ports.forEach(port => {
+  for (const port of ports) {
     port.type = 'port';
     port.icon = 'ferry';
-    return port;
-  });
+  }
 
   // Add venue metadata
-  venues.forEach(venue => {
+  for (const venue of venues) {
     venue.type = 'venue';
-    return venue;
-  });
+  }
 
   // Merge place databases
   const places = [

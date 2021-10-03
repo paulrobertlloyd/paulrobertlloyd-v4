@@ -9,14 +9,14 @@ module.exports = async function () {
   try {
     const webmentions = await cache(url, {
       duration: '1d',
-      type: 'json'
+      type: 'json',
     });
 
     return webmentions;
   } catch (error) {
     console.warn(error.message);
     return {
-      children: []
+      children: [],
     };
   }
 };

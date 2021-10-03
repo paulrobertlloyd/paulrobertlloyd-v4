@@ -1,4 +1,4 @@
-const getWebmentions = require('../../lib/utils/get-webmentions');
+const getWebmentions = require('../../lib/utils/get-webmentions.js');
 
 module.exports = {
   eleventyComputed: {
@@ -26,6 +26,6 @@ module.exports = {
     webmentions: data => {
       const url = data.app.url + data.page.url;
       return getWebmentions(data.webmentions.children, url);
-    }
-  }
+    },
+  },
 };

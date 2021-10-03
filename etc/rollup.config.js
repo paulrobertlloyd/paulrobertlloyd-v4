@@ -1,7 +1,7 @@
 const {terser} = require('rollup-plugin-terser');
 
 const plugins = [
-  terser()
+  terser(),
 ];
 
 module.exports = [{
@@ -10,16 +10,16 @@ module.exports = [{
     file: 'www/assets/scripts/app.js',
     format: 'es',
     sourcemap: true,
-    name: 'app'
+    name: 'app',
   },
-  plugins
+  plugins,
 }, {
   input: 'src/assets/scripts/search.js',
   output: {
     file: 'www/assets/scripts/search.js',
     format: 'es',
     sourcemap: true,
-    name: 'search'
+    name: 'search',
   },
-  plugins
+  plugins,
 }];

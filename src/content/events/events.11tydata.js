@@ -23,6 +23,6 @@ module.exports = {
           return placeId === data.placeId;
         });
       }
-    }
-  }
+    },
+  },
 };

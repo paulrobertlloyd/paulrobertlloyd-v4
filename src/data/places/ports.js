@@ -3,171 +3,171 @@ module.exports = [{
   address: {
     locality: 'Ålesund',
     'country-name': 'Norway',
-    'plus-code': '9FJ8F592+RV'
-  }
+    'plus-code': '9FJ8F592+RV',
+  },
 }, {
   title: 'Åndalsnes',
   address: {
     locality: 'Åndalsnes',
     'country-name': 'Norway',
-    'plus-code': '9FJ9HM9V+2P'
-  }
+    'plus-code': '9FJ9HM9V+2P',
+  },
 }, {
   title: 'Craignure Mull Ferry Terminal',
   address: {
     locality: 'Craignure',
     'country-name': 'Scotland',
-    'plus-code': '9C8PF7CV+7F'
-  }
+    'plus-code': '9C8PF7CV+7F',
+  },
 }, {
   title: 'Dublin Port',
   url: 'https://dublinport.ie',
   address: {
     locality: 'Dublin',
     'country-name': 'Ireland',
-    'plus-code': '9C5M8RW3+2G'
-  }
+    'plus-code': '9C5M8RW3+2G',
+  },
 }, {
   title: 'Flåm',
   address: {
     locality: 'Flåm',
     'country-name': 'Norway',
-    'plus-code': '9FG9V479+FH'
-  }
+    'plus-code': '9FG9V479+FH',
+  },
 }, {
   title: 'Geiranger',
   address: {
     locality: 'Geiranger',
     'country-name': 'Norway',
-    'plus-code': '9FJ94623+VW'
-  }
+    'plus-code': '9FJ94623+VW',
+  },
 }, {
   title: 'Guernsey Ferry Port',
   address: {
     locality: 'St. Peter Port',
     'country-name': 'Guernsey',
-    'plus-code': '8CXVFF4C+W9'
-  }
+    'plus-code': '8CXVFF4C+W9',
+  },
 }, {
   title: 'Haugesund',
   address: {
     locality: 'Haugesund',
     'country-name': 'Norway',
-    'plus-code': '9FF7C764+CW'
-  }
+    'plus-code': '9FF7C764+CW',
+  },
 }, {
   title: 'Hellesylt',
   address: {
     locality: 'Hellesylt',
     'country-name': 'Norway',
-    'plus-code': '9FJ83VPF+6H'
-  }
+    'plus-code': '9FJ83VPF+6H',
+  },
 }, {
   title: 'Oban Ferry Terminal',
   address: {
     locality: 'Oban',
     'country-name': 'Scotland',
-    'plus-code': '9C8PCG6F+VH'
-  }
+    'plus-code': '9C8PCG6F+VH',
+  },
 }, {
   title: 'Olden',
   address: {
     locality: 'Olden',
     'country-name': 'Norway',
-    'plus-code': '9FH8RRV6+37'
-  }
+    'plus-code': '9FH8RRV6+37',
+  },
 }, {
   title: 'Picton',
   address: {
     locality: 'Picton Ferry Terminal',
     'country-name': 'New Zealand',
-    'plus-code': '4VCPP274+V4'
-  }
+    'plus-code': '4VCPP274+V4',
+  },
 }, {
   title: 'Poole Ferry Terminal',
   address: {
     locality: 'Poole',
     'country-name': 'England',
-    'plus-code': '9C2WP253+6R'
-  }
+    'plus-code': '9C2WP253+6R',
+  },
 }, {
   title: 'Port of Dieppe',
   address: {
     locality: 'Dieppe',
     'country-name': 'France',
-    'plus-code': '8FX3W3MQ+F6'
-  }
+    'plus-code': '8FX3W3MQ+F6',
+  },
 }, {
   title: 'Port of Newhaven',
   url: 'https://newhavenport.com',
   address: {
     locality: 'Newhaven',
     'country-name': 'England',
-    'plus-code': '9F22Q3R3+4V'
-  }
+    'plus-code': '9F22Q3R3+4V',
+  },
 }, {
   title: 'Port of Holyhead',
   url: 'https://holyheadport.co.uk',
   address: {
     locality: 'Holyhead',
     'country-name': 'Wales',
-    'plus-code': '9C5Q895C+PC'
-  }
+    'plus-code': '9C5Q895C+PC',
+  },
 }, {
   title: 'Port of Strevanger',
   address: {
     locality: 'Strevanger',
     'country-name': 'Norway',
-    'plus-code': '9FC7XPFH+2W'
-  }
+    'plus-code': '9FC7XPFH+2W',
+  },
 }, {
   title: 'Portsmouth Harbour Station Pier',
   address: {
     locality: 'Portsmouth',
     'country-name': 'England',
-    'plus-code': '9C2WQVWR+R7'
-  }
+    'plus-code': '9C2WQVWR+R7',
+  },
 }, {
   title: 'Puttgarden',
   address: {
     locality: 'Puttgarden',
     'country-name': 'Germany',
-    'plus-code': '9F6HG63H+4F'
-  }
+    'plus-code': '9F6HG63H+4F',
+  },
 }, {
   title: 'Rødbyhavn',
   address: {
     locality: 'Rødby',
     'country-name': 'Denmark',
-    'plus-code': '9F6HM932+VH'
-  }
+    'plus-code': '9F6HM932+VH',
+  },
 }, {
   title: 'Ryde Pier Head',
   address: {
     locality: 'Ryde',
     'country-name': 'England',
-    'plus-code': '9C2WPRQQ+QQ'
-  }
+    'plus-code': '9C2WPRQQ+QQ',
+  },
 }, {
   title: 'Southampton Cruise Terminal',
   url: 'http://southamptonvts.co.uk',
   address: {
     locality: 'Southampton',
     'country-name': 'England',
-    'plus-code': '9C2WVHVX+CX'
-  }
+    'plus-code': '9C2WVHVX+CX',
+  },
 }, {
   title: 'Trondheim',
   address: {
     locality: 'Trondheim',
     'country-name': 'Norway',
-    'plus-code': '9FMGC9QW+8R'
-  }
+    'plus-code': '9FMGC9QW+8R',
+  },
 }, {
   title: 'Wellington',
   address: {
     locality: 'Wellington Ferry Terminal',
     'country-name': 'New Zealand',
-    'plus-code': '4VCPPQPP+8R'
-  }
+    'plus-code': '4VCPPQPP+8R',
+  },
 }];

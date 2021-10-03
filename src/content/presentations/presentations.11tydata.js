@@ -8,6 +8,6 @@ module.exports = {
   priority: 0.9,
   duotoneCardImage: true,
   eleventyComputed: {
-    url: data => data['bookmark-of']
-  }
+    url: data => data['bookmark-of'],
+  },
 };

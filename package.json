@@ -115,7 +115,12 @@
       "import/extensions": [
         "error",
         "always"
-      ]
+      ],
+      "node/prefer-global/process": [
+        "error",
+        "always"
+      ],
+      "unicorn/prefer-module": 0
     },
     "settings": {
       "import/resolver": {

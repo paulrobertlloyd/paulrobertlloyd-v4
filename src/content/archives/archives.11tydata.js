@@ -38,7 +38,7 @@ module.exports = function () {
 
     const dates = [];
     const years = [...range(firstYear, lastYear)].map(year => String(year));
-    years.forEach((year, i) => {
+    for (const [i, year] of years.entries()) {
       let months = [];
       if (i === 0) {
         months = [...range(firstMonth, 12)];
@@ -49,24 +49,24 @@ module.exports = function () {
       }
 
       months = months.map(month => String(month).padStart(2, '0'));
-      months.forEach(month => dates.push(`${year}-${month}`));
-    });
+      for (const month of months) {
+        dates.push(`${year}-${month}`);
+      }
+    }
 
     return dates;
   }
 
   // Year archives
   const archivedYears = generateYears('2008-09', now);
-  const yearArchives = archivedYears.map(year => {
-    return {
-      date: new Date(year),
-      fileSlug: year,
-      url: `/${year}/`,
-      data: {
-        introduction: year
-      }
-    };
-  });
+  const yearArchives = archivedYears.map(year => ({
+    date: new Date(year),
+    fileSlug: year,
+    url: `/${year}/`,
+    data: {
+      introduction: year,
+    },
+  }));
 
   // Month archives
   const archivedMonths = generateMonths('2008-09', now);
@@ -80,8 +80,8 @@ module.exports = function () {
       data: {
         date: format(date, 'yyyy-MM'),
         itemTitle: format(date, 'MMMM'),
-        introduction: format(date, 'MMMM yyyy')
-      }
+        introduction: format(date, 'MMMM yyyy'),
+      },
     };
   });
 
@@ -90,31 +90,31 @@ module.exports = function () {
     url: '/categories',
     data: {
       title: 'Categories',
-      summary: 'Content across the site grouped by common topics.'
-    }
+      summary: 'Content across the site grouped by common topics.',
+    },
   }, {
     url: '/collections',
     data: {
       title: 'Collections',
-      summary: 'Curated series of articles, each covering a particular theme.'
-    }
+      summary: 'Curated series of articles, each covering a particular theme.',
+    },
   }, {
     url: '/places',
     data: {
       title: 'Places',
-      summary: 'Venues, airports, stations and other places I’ve visited.'
-    }
+      summary: 'Venues, airports, stations and other places I’ve visited.',
+    },
   }, {
     url: 'http://lloydyweb.paulrobertlloyd.com/blog/archive/',
     data: {
       title: '1999-2007',
-      summary: 'Content written prior to 2008 can be found on my previous website.'
-    }
+      summary: 'Content written prior to 2008 can be found on my previous website.',
+    },
   }];
 
   return {
     years: yearArchives,
     months: monthArchives,
-    other: otherArchives
+    other: otherArchives,
   };
 };
