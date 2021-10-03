@@ -81,7 +81,6 @@
     "turndown": "^7.1.1"
   },
   "devDependencies": {
-    "eslint-plugin-import": "^2.24.2",
     "eslint-plugin-jsdoc": "^36.1.0",
     "hyperlink": "^4.7.0",
     "markdownlint-cli": "^0.28.1",
@@ -89,21 +88,20 @@
     "stylelint-config-standard": "^22.0.0",
     "stylelint-order": "^4.1.0",
     "tap-spot": "^1.1.1",
-    "xo": "^0.44.0"
+    "xo": "^0.45.0"
   },
   "xo": {
     "space": true,
     "extends": [
-      "plugin:import/errors",
       "plugin:jsdoc/recommended"
     ],
     "plugins": [
-      "import",
       "jsdoc"
     ],
     "envs": "browser",
     "ignores": [
-      "www/**"
+      "www/**",
+      "!.eleventy.js"
     ],
     "rules": {
       "camelcase": [
@@ -112,26 +110,11 @@
           "properties": "never"
         }
       ],
-      "import/extensions": [
-        "error",
-        "always"
-      ],
       "node/prefer-global/process": [
         "error",
         "always"
       ],
       "unicorn/prefer-module": 0
-    },
-    "settings": {
-      "import/resolver": {
-        "node": {
-          "moduleDirectory": [
-            "node_modules",
-            "src/",
-            "lib/"
-          ]
-        }
-      }
     }
   }
 }

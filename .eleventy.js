@@ -9,12 +9,12 @@ module.exports = function (eleventy) {
     cache: true,
     dynamicPartials: true,
     globals: {
-      app: require('./src/data/app'),
-      dates: require('./src/data/dates'),
-      navigation: require('./src/data/navigation'),
-      places: require('./src/data/places')(),
-      srcsets: require('./src/data/srcsets')
-    }
+      app: require('./src/data/app.js'),
+      dates: require('./src/data/dates.js'),
+      navigation: require('./src/data/navigation.js'),
+      places: require('./src/data/places.js')(),
+      srcsets: require('./src/data/srcsets.js'),
+    },
   });
 
   // Filters
@@ -74,8 +74,8 @@ module.exports = function (eleventy) {
       output: 'www',
       includes: 'includes',
       layouts: 'layouts',
-      data: 'data'
+      data: 'data',
     },
-    templateFormats: ['liquid', 'md']
+    templateFormats: ['liquid', 'md'],
   };
 };
