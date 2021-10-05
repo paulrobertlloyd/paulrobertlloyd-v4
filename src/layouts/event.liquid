@@ -7,17 +7,23 @@
     place: place
     vocab: vocab
   -%}
-  {%- render 'header'
-    title: title
-    summary: summary
-    url: url
-  -%}
-  {%- capture content -%}
-    {%- if image -%}
-      {%- image image 'thumbnail' -%}
-    {%- endif -%}
-    {{ content }}
-  {%- endcapture -%}
+  {% if movie %}
+    {%- render 'header'
+      title: title
+      url: url
+    -%}
+    {%- capture content -%}
+      {% render 'product' with product %}
+      {{ summary | markdown }}
+      {{ content }}
+    {%- endcapture -%}
+  {%- else -%}
+    {%- render 'header'
+      title: title
+      summary: summary
+      url: url
+    -%}
+  {% endif %}
   {%- render 'content' with content -%}
   {%- render 'section' with relatedArticles
     id: 'related'

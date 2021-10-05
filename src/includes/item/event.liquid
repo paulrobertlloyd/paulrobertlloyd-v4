@@ -3,7 +3,7 @@
     <h3 class="item__title | p-name">
       <a class="u-url" rel="bookmark" href="{{ item.url }}">
         {{ item.data.title | markdown: 'inline' }}
-        {% if item.data.url contains 'imdb.com' %}
+        {% if item.data.movie %}
           <svg width="20" height="20" role="img" aria-labelledby="film-title" focusable="false">
             <title id="film-title">(Film)</title>
             <use href="#_icon_film"></use>

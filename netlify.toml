@@ -14,7 +14,7 @@
 [[plugins]]
   package = "netlify-plugin-11ty"
   [plugins.inputs]
-    cache_img = ["./images/avatars", "./images/generated"]
+    cache_img = ["./images/avatars", "./images/events"]
     cache_img_httpHeader = true
 
 # Headers
