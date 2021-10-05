@@ -9,9 +9,12 @@
 3. `npm install`
 4. `npm run build`
 
-Generated files are written to the `www` directory.
+Ensure the following environment variables are set:
 
-Then, ensure the `WEBMENTION_IO_TOKEN` environment variable is set, which should be populated with your [API key from webmention.io](https://webmention.io/settings).
+* `WEBMENTION_IO_TOKEN`: [API key from webmention.io](https://webmention.io)
+* `OMDBAPI_TOKEN`: [API key from OMDb API](http://omdbapi.com)
+
+Generated files are written to the `www` directory.
 
 ## Development
 
