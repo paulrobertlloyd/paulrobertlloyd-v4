@@ -30,7 +30,8 @@
 {%- endif -%}
 {%- if canonical -%}
   {%- for source in sources -%}
-    {%- if canonical.source == source.title | slugify -%}
+    {%- assign sourceTitle = source.title | slugify -%}
+    {%- if canonical.source == sourceTitle -%}
       <dt>Originally appeared in</dt>
       <dd><cite>{{ source.title }}</cite>, {{ canonical.edition }}</dd>
     {%- elsif canonical.url contains source.url -%}
