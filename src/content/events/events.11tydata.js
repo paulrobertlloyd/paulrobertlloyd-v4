@@ -44,5 +44,6 @@ module.exports = {
       }
     },
     summary: data => data.movie ? data.movie.Plot : data.summary,
+    summaryCard: 'summary',
   },
 };
