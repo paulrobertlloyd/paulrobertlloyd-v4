@@ -1,259 +1,242 @@
 [build]
-  command = "npm run build"
-  publish = "www"
+command = "npm run build"
+publish = "www"
 
 [context.production]
-  command = "npm run deploy" # Build then fetch webmentions
+command = "npm run deploy"
+
   [context.production.environment]
-    ELEVENTY_ENV = "production"
-    NODE_ENV = "production"
-    NODE_VERSION = "16"
-    TZ = "Europe/London"
+  ELEVENTY_ENV = "production"
+  NODE_ENV = "production"
+  NODE_VERSION = "16"
+  TZ = "Europe/London"
 
-# Plugins
 [[plugins]]
-  package = "netlify-plugin-11ty"
+package = "netlify-plugin-11ty"
+
   [plugins.inputs]
-    cache_img = ["./images/avatars", "./images/events"]
-    cache_img_httpHeader = true
-
-# Headers
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Content-Security-Policy = "script-src 'self' 'nonce-bVgyaDV6YU9tdThnZ2wwckZBNnFnc1Z6Wk40SnY2U0pmbjdTUjQ3MVg2RTFCbnEwN3g=' *.codepen.io; style-src 'self' 'unsafe-inline'; object-src 'self'; img-src 'self' *.amazonaws.com *.mapbox.com i.ytimg.com i.vimeocdn.com raw.githubusercontent.com res.cloudinary.com"
-    Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"
-    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
-    X-Content-Type-Options = "nosniff"
-    X-Frame-Options = "SAMEORIGIN"
-    X-XSS-Protection = "1; mode=block"
+  cache_img = [ "./images/avatars", "./images/events" ]
+  cache_img_httpHeader = true
 
 [[headers]]
-  for = "/*.ico"
+for = "/*"
+
   [headers.values]
-    Content-Type = "image/x-icon"
+  Content-Security-Policy = "script-src 'self' 'nonce-bVgyaDV6YU9tdThnZ2wwckZBNnFnc1Z6Wk40SnY2U0pmbjdTUjQ3MVg2RTFCbnEwN3g=' *.codepen.io; style-src 'self' 'unsafe-inline'; object-src 'self'; img-src 'self' *.amazonaws.com *.mapbox.com i.ytimg.com i.vimeocdn.com raw.githubusercontent.com res.cloudinary.com"
+  Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"
+  Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+  X-Content-Type-Options = "nosniff"
+  X-Frame-Options = "SAMEORIGIN"
+  X-XSS-Protection = "1; mode=block"
 
 [[headers]]
-  for = "/*.ics"
+for = "/*.ico"
+
   [headers.values]
-    Content-Type = "text/calendar"
+  Content-Type = "image/x-icon"
 
 [[headers]]
-  for = "/*.jf2"
+for = "/*.ics"
+
   [headers.values]
-    Content-Type = "application/jf2feed+json; charset=utf-8"
+  Content-Type = "text/calendar"
 
 [[headers]]
-  for = "/*.js"
+for = "/*.js"
+
   [headers.values]
-    Content-Type = "text/javascript; charset=utf-8"
+  Content-Type = "text/javascript; charset=utf-8"
 
 [[headers]]
-  for = "/*.json"
+for = "/*.json"
+
   [headers.values]
-    Content-Type = "application/json; charset=utf-8"
+  Content-Type = "application/json; charset=utf-8"
 
 [[headers]]
-  for = "/*.jsonld"
+for = "/*.webmanifest"
+
   [headers.values]
-    Content-Type = "application/ld+json; charset=utf-8"
-
-[[headers]]
-  for = "/*.jrd"
-  [headers.values]
-    Content-Type = "application/jrd+json; charset=utf-8"
-
-[[headers]]
-  for = "/*.webmanifest"
-  [headers.values]
-    Content-Type = "application/manifest+json; charset=utf-8"
-
-# Favicon
-[[redirects]]
-  from = "/favicon.ico"
-  to = "/images/app/favicon.ico"
-  status = 200
-  force = true
-
-# ActivityPub
-[[redirects]]
-  from = "/.well-known/webfinger"
-  to = "/.well-known/webfinger.jrd"
-  status = 200
-  force = true
+  Content-Type = "application/manifest+json; charset=utf-8"
 
 [[redirects]]
-  from = "/me.jsonld"
-  to = "/me"
-  status = 200
-  force = true
-
-# Redirect legacy URLs
-[[redirects]]
-  from = "/about/styleguide*"
-  to = "/styleguide"
+from = "/favicon.ico"
+to = "/images/app/favicon.ico"
+status = 200
+force = true
 
 [[redirects]]
-  from = "/articles/dissertation/*"
-  to = "/2002/06/dissertation"
+from = "/about/styleguide*"
+to = "/styleguide"
 
 [[redirects]]
-  from = "/articles/early_graphic_design_in_television/*"
-  to = "/1999/03/early_graphic_design_in_television"
+from = "/articles/dissertation/*"
+to = "/2002/06/dissertation"
 
 [[redirects]]
-  from = "/articles/fcplc/*"
-  to = "/2002/05/fcplc"
+from = "/articles/early_graphic_design_in_television/*"
+to = "/1999/03/early_graphic_design_in_television"
 
 [[redirects]]
-  from = "/talks/multipack_presents_november_2010"
-  to = "/events/2010/11/multipack_presents"
-  force = true
+from = "/articles/fcplc/*"
+to = "/2002/05/fcplc"
 
 [[redirects]]
-  from = "/talks/apa_digital_breakfast_march_2011"
-  to = "/events/2011/03/apa_digital_breakfast"
-  force = true
+from = "/talks/multipack_presents_november_2010"
+to = "/events/2010/11/multipack_presents"
+force = true
 
 [[redirects]]
-  from = "/talks/responsive_day_out"
-  to = "/events/2013/03/responsive_day_out"
-  force = true
+from = "/talks/apa_digital_breakfast_march_2011"
+to = "/events/2011/03/apa_digital_breakfast"
+force = true
 
 [[redirects]]
-  from = "/talks/webexpo_2015"
-  to = "/events/2015/09/webexpo"
-  force = true
+from = "/talks/responsive_day_out"
+to = "/events/2013/03/responsive_day_out"
+force = true
 
 [[redirects]]
-  from = "/talks/css_day_2015"
-  to = "/events/2015/06/css_day_2015"
-  force = true
+from = "/talks/webexpo_2015"
+to = "/events/2015/09/webexpo"
+force = true
 
 [[redirects]]
-  from = "/talks/frontend_london_may_2015"
-  to = "/events/2015/05/frontend_london_22"
-  force = true
+from = "/talks/css_day_2015"
+to = "/events/2015/06/css_day_2015"
+force = true
 
 [[redirects]]
-  from = "/talks/smashing_conference_freiburg_2016"
-  to = "/events/2016/09/smashing_conference_freiburg"
-  force = true
+from = "/talks/frontend_london_may_2015"
+to = "/events/2015/05/frontend_london_22"
+force = true
 
 [[redirects]]
-  from = "/feeds/*"
-  to = "/feed.xml"
+from = "/talks/smashing_conference_freiburg_2016"
+to = "/events/2016/09/smashing_conference_freiburg"
+force = true
 
 [[redirects]]
-  from = "/_xml/entries.*"
-  to = "/feed.xml"
+from = "/feeds/*"
+to = "/feed.xml"
 
 [[redirects]]
-  from = "/journal/feed.xml"
-  to = "/feed.xml"
-  force = true
+from = "/_xml/entries.*"
+to = "/feed.xml"
 
 [[redirects]]
-  from = "/journal/feed.json"
-  to = "/feed.json"
-  force = true
+from = "/journal/feed.xml"
+to = "/feed.xml"
+force = true
 
 [[redirects]]
-  from = "/journal/*"
-  to = "/articles/:splat"
+from = "/journal/feed.json"
+to = "/feed.json"
+force = true
 
 [[redirects]]
-  from = "/links/*"
-  to = "/bookmarks/:splat"
+from = "/journal/*"
+to = "/articles/:splat"
 
 [[redirects]]
-  from = "/talks/*"
-  to = "/presentations/:splat"
-
-# Redirect article URLs
-[[redirects]]
-  from = "/articles/"
-  query = {page = ":page"}
-  to = "/articles/page/:page"
-  status = 200
-  force = true
+from = "/links/*"
+to = "/bookmarks/:splat"
 
 [[redirects]]
-  from = "/articles/:year/:month/"
-  to = "/:year/:month/"
+from = "/talks/*"
+to = "/presentations/:splat"
 
 [[redirects]]
-  from = "/articles/:year/"
-  to = "/:year/"
+from = "/articles/"
+to = "/articles/page/:page"
+status = 200
+force = true
 
-# Redirect bookmark URLs
-[[redirects]]
-  from = "/bookmarks/"
-  query = {page = ":page"}
-  to = "/bookmarks/page/:page"
-  status = 200
-  force = true
+  [redirects.query]
+  page = ":page"
 
 [[redirects]]
-  from = "/bookmarks/:year/:month/"
-  to = "/:year/:month/"
+from = "/articles/:year/:month/"
+to = "/:year/:month/"
 
 [[redirects]]
-  from = "/bookmarks/:year/"
-  to = "/:year/"
-
-# Redirect event venue URLs
-[[redirects]]
-  from = "/places/"
-  query = {page = ":page"}
-  to = "/places/page/:page"
-  status = 200
-  force = true
-
-# Redirect event URLs
-[[redirects]]
-  from = "/events/"
-  query = {page = ":page"}
-  to = "/events/page/:page"
-  status = 200
-  force = true
+from = "/articles/:year/"
+to = "/:year/"
 
 [[redirects]]
-  from = "/events/:year/:month/"
-  to = "/:year/:month/"
+from = "/bookmarks/"
+to = "/bookmarks/page/:page"
+status = 200
+force = true
+
+  [redirects.query]
+  page = ":page"
 
 [[redirects]]
-  from = "/events/:year/"
-  to = "/:year/"
-
-# Redirect note URLs
-[[redirects]]
-  from = "/notes/"
-  query = {page = ":page"}
-  to = "/notes/page/:page"
-  status = 200
-  force = true
-
-# Redirect photo URLs
-[[redirects]]
-  from = "/photos/"
-  query = {page = ":page"}
-  to = "/photos/page/:page"
-  status = 200
-  force = true
-
-# Redirect presentation URLs
-[[redirects]]
-  from = "/presentations/"
-  query = {page = ":page"}
-  to = "/presentations/page/:page"
-  status = 200
-  force = true
+from = "/bookmarks/:year/:month/"
+to = "/:year/:month/"
 
 [[redirects]]
-  from = "/presentations/:year/:month/"
-  to = "/:year/:month/"
+from = "/bookmarks/:year/"
+to = "/:year/"
 
 [[redirects]]
-  from = "/presentations/:year/"
-  to = "/:year/"
+from = "/places/"
+to = "/places/page/:page"
+status = 200
+force = true
+
+  [redirects.query]
+  page = ":page"
+
+[[redirects]]
+from = "/events/"
+to = "/events/page/:page"
+status = 200
+force = true
+
+  [redirects.query]
+  page = ":page"
+
+[[redirects]]
+from = "/events/:year/:month/"
+to = "/:year/:month/"
+
+[[redirects]]
+from = "/events/:year/"
+to = "/:year/"
+
+[[redirects]]
+from = "/notes/"
+to = "/notes/page/:page"
+status = 200
+force = true
+
+  [redirects.query]
+  page = ":page"
+
+[[redirects]]
+from = "/photos/"
+to = "/photos/page/:page"
+status = 200
+force = true
+
+  [redirects.query]
+  page = ":page"
+
+[[redirects]]
+from = "/presentations/"
+to = "/presentations/page/:page"
+status = 200
+force = true
+
+  [redirects.query]
+  page = ":page"
+
+[[redirects]]
+from = "/presentations/:year/:month/"
+to = "/:year/:month/"
+
+[[redirects]]
+from = "/presentations/:year/"
+to = "/:year/"
