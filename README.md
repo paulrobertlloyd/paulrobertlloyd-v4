@@ -73,7 +73,6 @@ paulrobertlloyd.com
 │   ├── includes                 # Components (Liquid)
 │   ├── layouts                  # Layout templates (Liquid)
 │   ├── app.webmanifest.liquid   # Web App Manifest template
-│   ├── feed.jf2.liquid          # JF2 Feed template
 │   ├── feed.json.liquid         # RSS (JSON Feed) template
 │   ├── feed.xml.liquid          # RSS (Atom) template
 │   ├── key.txt                  # Public PGP key
