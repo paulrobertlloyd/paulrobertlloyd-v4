@@ -2,7 +2,7 @@
 {%- if product.photo -%}
   {% render 'image' with product.photo
     class: 'u-photo'
-    preset: 'thumbnail'
+    preset: 'supporting'
   %}
 {%- endif -%}
   <h3><cite class="p-name">{{ product.title | markdown: 'inline' }}</cite></h3>
