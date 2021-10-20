@@ -1,17 +1,10 @@
-<figure class="align-{{ alignment | default: 'none' }}">
-  <div class="photos" style="--columns: {{ columns | default: photos.size }}">
-  {%- for item in photos -%}
-    {%- render 'image' with item.url
-      alt: item.alt
-      class: imageClass
-      preset: imagePreset
-      ratio: imageRatio
-    -%}
-  {%- endfor -%}
-  </div>
-{%- if caption %}
-  <figcaption>
-    {{ caption | markdown }}
-  </figcaption>
-{%- endif %}
+<figure class="photos" style="--columns: {{ columns | default: photos.size }}">
+{%- for item in photos -%}
+  {%- render 'image' with item.url
+    alt: item.alt
+    class: imageClass
+    preset: imagePreset
+    ratio: imageRatio
+  -%}
+{%- endfor -%}
 </figure>

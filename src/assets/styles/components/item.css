@@ -1,5 +1,4 @@
 .item {
-  align-items: baseline;
   border-block-start: var(--border-width-thick) solid var(--color-rule);
   display: grid;
   flex: 1;
@@ -10,6 +9,14 @@
   position: relative;
 }
 
+/* Alignment breaks in Safari on smaller breakpoints */
+@media (--from-small-viewport) {
+  .item {
+    align-items: baseline;
+  }
+}
+
+/* No baseline to align with when there’s only an image */
 .item--no-content {
   align-items: start;
 }
@@ -42,8 +49,10 @@
   color: var(--color-neutral-darker);
 }
 
-.item__main img {
-  max-inline-size: 25rem;
+@media (--from-small-viewport) {
+  .item__main img {
+    max-inline-size: 25rem;
+  }
 }
 
 /* Footer */
