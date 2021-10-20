@@ -6,6 +6,16 @@ export const search = async () => {
   const endpoint = searchForm.dataset.searchIndex;
   const pages = [];
 
+  const getPages = async () => {
+    try {
+      const response = await fetch(endpoint);
+      const data = await response.json();
+      pages.push(...data);
+    } catch (error) {
+      console.error(error);
+    }
+  }
+
   const findResults = (termToMatch, pages) => pages.filter(item => {
     const regex = new RegExp(termToMatch, 'gi');
     return item.title.match(regex) || item.content.match(regex);
@@ -30,13 +40,7 @@ export const search = async () => {
   };
 
   if (searchForm) {
-    try {
-      const blob = await fetch(endpoint);
-      const data = await blob.json();
-      pages.push(...data);
-    } catch (error) {
-      console.error(error);
-    }
+    getPages()
 
     searchForm.setAttribute('action', '#search');
     searchForm.removeAttribute('method');
@@ -46,7 +50,7 @@ export const search = async () => {
       event.preventDefault();
     });
 
-    window.addEventListener('load', () => new aria.Combobox(
+    window.addEventListener('DOMContentLoaded', () => new aria.Combobox(
       document.querySelector('#search-combobox'),
       document.querySelector('#search-input'),
       displayResults,
