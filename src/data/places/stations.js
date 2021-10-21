@@ -504,6 +504,15 @@ module.exports = [{
     'plus-code': '9F27JHF8+QM',
   },
 }, {
+  title: 'Liverpool Lime Street',
+  iata: 'LPL',
+  address: {
+    locality: 'Liverpool',
+    'country-name': 'England',
+    'plus-code': '9C5VC25F+23',
+  },
+  icon: 'national_rail',
+}, {
   title: 'London Bridge',
   address: {
     locality: 'London',
