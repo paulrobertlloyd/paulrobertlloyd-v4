@@ -1,37 +1,55 @@
 {%- assign dateColor = item.data.date | color -%}
 {%- assign accentColor = item.data.accentColor | default: dateColor -%}
 <article class="card |{% for root in item.data.vocab %} h-{{ root }}{% endfor %}"{% if item.data.duotoneCardImage %} style="--color-accent-light: {{ accentColor | contrast_with: 'black' }}; --color-accent-dark: {{ accentColor | contrast_with: 'white' }}"{% endif %}>
-{%- if item.data.image -%}
-  <div class="card__image">
-    {%- assign ratio = imageRatio | default: 1.5 -%}
-    {%- render 'image' with item.data.image
-      ratio: ratio
-      sizes: itemsGridSize
-      preset: 'supporting'
-    -%}
-  </div>
-{%- endif -%}
-
-  <header class="card__header">
-    <h3 class="card__title | p-name">
-      <a class="u-url" rel="bookmark" href="{{ item.url }}">{{ item.data.title | markdown: 'inline' }}</a>
-    </h3>
-  </header>
-
-{%- if item.data.summary -%}
-  <div class="card__main s-linear | p-summary">
-    {{ item.data.summary | markdown }}
-  </div>
-{%- endif -%}
-
-{%- if item.data.layout != 'project' -%}
-  <footer class="card__footer">
-  {%- if item.data.layout == 'travel' -%}
-    <time class="dt-start" datetime="{{ item.data.start | date: dates.iso }}">{{ item.data.start | date: '%B %Y' }}</time>
-    <time class="dt-end" datetime="{{ item.data.end | date: dates.iso }}"></time>
+  {%- if item.data.layout == 'photo' -%}
+    <a class="card__image | u-url" rel="bookmark" href="{{ item.url }}">
+      {%- render 'image' with item.data.photo[0].url
+        alt: item.data.photo[0].alt
+        class: 'u-photo'
+        ratio: 1.0
+        sizes: itemsGridSize
+        preset: 'supporting'
+      -%}
+      {%- if item.data.photo.size > 1 -%}
+        <svg width="20" height="20" role="img" aria-labelledby="photos-title" focusable="false">
+          <title id="photos-title">{{ item.data.photo.size }} photos in this post</title>
+          <use href="#_icon_photos"></use>
+        </svg>
+      {%- endif -%}
+    </a>
   {%- else -%}
-    <time class="dt-published" datetime="{{ item.date | date: dates.iso }}">{{ item.date | date: dates.date_long }}</time>
+    {%- if item.data.image -%}
+      <div class="card__image">
+        {%- assign ratio = imageRatio | default: 1.5 -%}
+        {%- render 'image' with item.data.image
+          ratio: ratio
+          sizes: itemsGridSize
+          preset: 'supporting'
+        -%}
+      </div>
+    {%- endif -%}
+
+    <header class="card__header">
+      <h3 class="card__title | p-name">
+        <a class="u-url" rel="bookmark" href="{{ item.url }}">{{ item.data.title | markdown: 'inline' }}</a>
+      </h3>
+    </header>
+
+    {%- if item.data.summary -%}
+      <div class="card__main s-linear | p-summary">
+        {{ item.data.summary | markdown }}
+      </div>
+    {%- endif -%}
+
+    {%- if item.data.layout != 'project' -%}
+      <footer class="card__footer">
+      {%- if item.data.layout == 'travel' -%}
+        <time class="dt-start" datetime="{{ item.data.start | date: dates.iso }}">{{ item.data.start | date: '%B %Y' }}</time>
+        <time class="dt-end" datetime="{{ item.data.end | date: dates.iso }}"></time>
+      {%- else -%}
+        <time class="dt-published" datetime="{{ item.date | date: dates.iso }}">{{ item.date | date: dates.date_long }}</time>
+      {%- endif -%}
+      </footer>
+    {%- endif -%}
   {%- endif -%}
-  </footer>
-{%- endif -%}
 </article>
