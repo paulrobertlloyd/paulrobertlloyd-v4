@@ -1269,6 +1269,16 @@ module.exports = [{
     'plus-code': '9C3XGV7V+9X',
   },
 }, {
+  title: 'Tate Liverpool',
+  url: 'https://www.tate.org.uk/visit/tate-liverpool',
+  address: {
+    locality: 'Royal Albert Dock',
+    region: 'Liverpool',
+    'country-name': 'England',
+    'postal-code': 'L3 4BB',
+    'plus-code': '9C5VC224+88',
+  },
+}, {
   title: 'Tate Modern',
   url: 'https://www.tate.org.uk/visit/tate-modern',
   address: {
