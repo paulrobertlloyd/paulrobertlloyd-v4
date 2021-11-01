@@ -80,7 +80,7 @@
     "turndown": "^7.1.1"
   },
   "devDependencies": {
-    "eslint-plugin-jsdoc": "^37.0.0",
+    "eslint-plugin-jsdoc": "^37.0.3",
     "hyperlink": "^5.0.0",
     "markdownlint-cli": "^0.29.0",
     "stylelint": "^14.0.0",
