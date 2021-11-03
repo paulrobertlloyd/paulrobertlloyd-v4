@@ -159,6 +159,16 @@ module.exports = [{
     'plus-code': '9C3XGV98+4J',
   },
 }, {
+  title: 'Brighton Centre',
+  address: {
+    'street-address': 'Kings Road',
+    locality: 'Brighton',
+    region: 'Sussex',
+    'country-name': 'England',
+    'postal-code': 'BN1 2GR',
+    'plus-code': '9C2XRVC3+CC',
+  },
+}, {
   title: 'Brighton Dome',
   address: {
     'street-address': 'Church Street',
