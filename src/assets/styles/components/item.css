@@ -1,4 +1,5 @@
 .item {
+  align-items: start;
   border-block-start: var(--border-width-thick) solid var(--color-rule);
   display: grid;
   flex: 1;
@@ -7,18 +8,6 @@
   grid-template: var(--item-grid-template);
   padding-block-start: var(--space-block);
   position: relative;
-}
-
-/* Alignment breaks in Safari on smaller breakpoints */
-@media (--from-small-viewport) {
-  .item {
-    align-items: baseline;
-  }
-}
-
-/* No baseline to align with when there’s only an image */
-.item--no-content {
-  align-items: start;
 }
 
 /* Header */
@@ -49,8 +38,9 @@
   color: var(--color-neutral-darker);
 }
 
-@media (--from-small-viewport) {
+@media (--from-large-viewport) {
   .item__main img {
+    inline-size: 100%;
     max-inline-size: 25rem;
   }
 }
@@ -60,6 +50,7 @@
   @extend %caption;
   --anchor-decoration: none;
   grid-area: footer;
+  padding-block-start: calc(var(--space-block) / 2);
 }
 
 /* Remark item adaptions */
