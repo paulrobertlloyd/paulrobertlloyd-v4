@@ -13,7 +13,7 @@ category:
   - Television
 ---
 {% render 'figure' with '/images/2015/09/stephen_colbert_late_show.jpg'
-  caption: 'Stephen Colbert interviewing George Clooney on his first night as host of the new <cite>Late Show</cite>. Photo: CBS.'
+  caption: 'Stephen Colbert interviewing George Clooney on his first night as host of the new <cite>Late Show</cite>. Photograph: CBS.'
 %}
 
 A huge fan of [<cite>The Colbert Report</cite>][1], although living in the UK meant I was unable to watch full episodes, I could often be found howling with laughter as I gorged on the available clips on YouTube. Yet watching [video shorts][2] released prior to Colbert’s debut as new host of <cite>The Late Show</cite>, I sensed a change in comedic direction, and wondered whether the transition to a more mainstream slot would be a painful, and ultimately unsuccessful endeavour.
