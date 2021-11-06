@@ -4,10 +4,10 @@ module.exports = async function () {
   const ENDPOINT = 'https://webmention.io/api/mentions.jf2';
   const TOKEN = process.env.WEBMENTION_IO_TOKEN;
 
-  const url = `${ENDPOINT}?token=${TOKEN}&per-page=999`;
+  const endpoint = `${ENDPOINT}?token=${TOKEN}&per-page=999`;
 
   try {
-    const webmentions = await cache(url, {
+    const webmentions = await cache(endpoint, {
       duration: '1d',
       type: 'json',
     });
