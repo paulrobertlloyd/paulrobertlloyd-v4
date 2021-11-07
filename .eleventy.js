@@ -64,6 +64,9 @@ module.exports = function (eleventy) {
   eleventy.addCollection('photo', require('./lib/collections/photo.js'));
   eleventy.addCollection('post', require('./lib/collections/post.js'));
 
+  // Transforms
+  eleventy.addTransform('embed', require('./lib/transforms/embed.js'));
+
   // Passthrough
   eleventy.addPassthroughCopy('./src/key.txt');
   eleventy.addPassthroughCopy('./src/images');

@@ -1,37 +1,27 @@
 .embed {
-  align-items: center;
   background-color: var(--color-offset);
-  display: flex;
-  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.embed::before {
+  content: "";
+  display: block;
+  padding-block-end: 56.25%;
+}
+
+@supports (--custom:property) {
+  .embed::before {
+    padding-block-end: calc(var(--aspect-ratio) * 100%);
+  }
 }
 
 .embed iframe {
+  block-size: 100%;
+  display: block;
+  inline-size: 100%;
+  inset-block-start: 0;
+  position: absolute;
+  border: none;
   z-index: 1;
-}
-
-.embed__button {
-  background-color: hsl(var(--tint) 8% / 67%);
-  block-size: 2em;
-  border-radius: 100%;
-  box-shadow: 0 0 0 1px hsl(0 100% 100% / 25%);
-  color: white;
-  cursor: pointer;
-  font-size: var(--step-5);
-  inline-size: 2em;
-  margin: 0;
-  position: relative;
-  text-indent: 0.25em;
-  transition-duration: var(--transition-short);
-  transition-property: all;
-  z-index: 1;
-}
-
-.embed__button:hover {
-  background-color: hsl(var(--tint) 8% / 90%);
-}
-
-.embed__button:focus {
-  background-color: var(--color-focus);
-  border: var(--border-width-thicker) solid white;
-  outline: 0;
 }

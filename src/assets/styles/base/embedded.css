@@ -8,13 +8,19 @@ svg {
   fill: currentColor;
 }
 
+iframe,
+img,
+embed,
+object {
+  display: block;
+  page-break-inside: avoid;
+}
+
 img,
 embed,
 object {
   block-size: auto;
-  display: block;
   max-inline-size: 100%;
-  page-break-inside: avoid;
 }
 
 @media (prefers-color-scheme: dark) {
