@@ -18,11 +18,7 @@ Firstly, the naming strategy. Including “Partners” in the store names seems 
 
 Looking at the logos, I despair. Previously, each chain used a customised version of Gill Sans, with ascenders featuring angled cutoffs. The effect was to create something that felt familiar, but unique; timeless, yet modern. Retaining Gill Sans but rending the new names in uppercase is route one stuff; wholly unoriginal, and only serves to reduce their readability further. And when every other department store has slavishly adopted a monochrome colour palette, John Lewis sheds it’s dark green and follows suit. Never has an industry been so mundane in its collective approach to brand identity.
 
-{% render 'figure'
-  embed: 'https://vimeo.com/288323929'
-  embedPoster: 'https://i.vimeocdn.com/video/723701449'
-  caption: 'The brandlines were inspired by a Peter Hatch pattern created for the John Lewis Partnership in the 1960s.'
-%}
+[Watch the identity presentation on Vimeo](https://vimeo.com/288323929 'The brandlines were inspired by a Peter Hatch pattern created for the John Lewis Partnership in the 1960s.')
 
 Lloyd Northover’s intriguing [diagonal motif][5] has been replaced by a new “brandlines” concept, inspired not by [Spin’s idents for Channel 4][6] (1999-2004), but by the lively diamond pattern Peter Hatch created for the Partnership in the 1960s. This pattern remains engaging sixty years later, yet when turned into a series of vertical bars, the relationship is lost. Rather than enliven, these insipid lines suck the life out of everything they touch, not least the logos where they are used as holding shapes.
 

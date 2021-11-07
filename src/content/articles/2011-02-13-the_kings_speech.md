@@ -22,10 +22,7 @@ The closing speech is given by Prince Albert, Duke of York, second son of George
 
 The Prince tries several unsuccessful treatments to cure his impediment until his wife, the Duchess of York (Helena Bonham Carter) persuades him to see Lionel Logue (Geoffrey Rush), an unconventional Australian speech therapist. Logue discovers the psychological roots behind Bertie’s stammer, and with the aid of breathing techniques, tongue twisters and much swearing, helps him overcome his handicap.
 
-{% render 'figure'
-  embed: 'https://www.youtube.com/watch?v=EcxBrTvLbBM'
-  caption: 'Official trailer for <cite>The King’s Speech</cite>.'
-%}
+[Watch the official trailer for The King’s Speech on YouTube](https://www.youtube.com/watch?v=EcxBrTvLbBM)
 
 Firth’s portrayal of Bertie is sublime. His stammer feels genuine and lacking in any obvious method, instead drawing you into the emotions that result having such difficulty speaking. Whilst visibly distressing, and with a story set against the run up to war, there remained plenty of moments for comedy. In fact, much of the film depicts an underlying lightheartedness, especially in the exchanges between Bertie’s family and with Logue.
 

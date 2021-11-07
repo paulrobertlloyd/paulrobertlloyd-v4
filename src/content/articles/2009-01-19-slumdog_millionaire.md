@@ -20,11 +20,7 @@ Many critics have mentioned the excellent acting by the younger cast members, wh
 
 The film shines a very honest light on Mumbai and India, and never seems to resort to stereotypes, the exception being perhaps the films closing credits which features a Bollywood type dance scene, yet this acts as a way to celebrate the story you have just witnessed more than anything else.
 
-{% render 'figure'
-  embed: 'https://www.youtube.com/watch?v=AIzbwV7on6Q'
-  embedRatio: '12/5'
-  caption: 'Official trailer for <cite>Slumdog Millionaire</cite>.'
-%}
+[Watch the official trailer for Slumdog Millionaire on YouTube](https://www.youtube.com/watch?v=AIzbwV7on6Q)
 
 With awards season upon us there is a crop of good films I’m hopeful to catch in the coming weeks but of all of them, Slumdog seems to be the one that has caught the critics and publics imagination alike. It’s certainly one not to be missed.
 

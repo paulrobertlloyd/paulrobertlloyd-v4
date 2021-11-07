@@ -111,11 +111,7 @@ as well as <cite>Grand Prix</cite> and <cite>Walk on the Wild Side</cite>. Bass 
 
 Bass was also successful in designing many corporate identities with clients including AT&T, Exxon, Quaker Oats and Warner Communications.
 
-{% render 'figure'
-  embed: 'https://www.youtube.com/watch?v=eGnpJ_KdqZE'
-  embedRatio: '4/3'
-  caption: 'Title sequence from <cite>The Man with the Golden Arm</cite>. (United Artists/Saul Bass, 1967)'
-%}
+[Watch the title sequence from The Man with the Golden Arm on YouTube](https://www.youtube.com/watch?v=eGnpJ_KdqZE 'Title sequence from <cite>The Man with the Golden Arm</cite>. (United Artists/Saul Bass, 1967)')
 
 Bass had most influence on the early graphic designers in television due to the fact that it was a new medium with precedents for design having to be found elsewhere. Often this was from print but Bass was the only one who provided a potential influence. However, his influence was often hard to emulate on television with its many technical, time and budgetary constraints. In fact it was also difficult for them to find inspiration from anything they, their colleagues or their predecessors produced, because for a long time video was not used to keep a record of programme output. Advertisers also found they had the same problems when they encountered the moving image with the arrival of commercial television in 1955.
 
@@ -141,11 +137,7 @@ After its involvement, it became clear that the ‘experimental’ section had a
 
 Typical graphic design during the sixties saw a move to a greater use of photography and more detailed illustration, due mainly to the fact that 625-line transmissions when they were launched in 1964, allowed greater picture definition, allowing graphic designers more creativity. There was also a lot more innovation with the increasing knowledge of the effects a film rostrum camera could achieve. The greater use of calligraphy was apparent at this time too.
 
-{% render 'figure'
-  embed: 'https://www.youtube.com/watch?v=tbIXxPt2YvY'
-  embedRatio: '4/3'
-  caption: 'Title sequence from <cite>The Avengers</cite>. (ABC/Jerome Gask, 1963)'
-%}
+[Watch the title sequence from The Avengers on YouTube](https://www.youtube.com/watch?v=tbIXxPt2YvY 'Title sequence from <cite>The Avengers</cite>. (ABC/Jerome Gask, 1963)')
 
 {% render 'photos' with figures.6
   caption: 'Title sequence from <cite>Darkness at Noon</cite>. (Associated Rediffusion/Arnold Schwartzman, 1964)'
@@ -159,11 +151,7 @@ The introduction, firstly of 625-line broadcasts and later colour, had obvious b
   imagePreset: 'thumbnail'
 %}
 
-{% render 'figure'
-  embed: 'https://www.youtube.com/watch?v=KNNAfzKwRn4'
-  embedRatio: '4/3'
-  caption: 'Title sequence from <cite>The Old Grey Whistle Test</cite>. (BBC/Roger Ferrin, 1968)'
-%}
+[Watch the title sequence from The Old Grey Whistle Test on YouTube](https://www.youtube.com/watch?v=KNNAfzKwRn4 'Title sequence from <cite>The Old Grey Whistle Test</cite>. (BBC/Roger Ferrin, 1968)')
 
 These considerations were particularly true of the seventies, especially the early years. Colour wasn’t truly advantageous to the graphic designer as, although it allowed greater creativity, it had the major disadvantage in that mistakes were harder to conceal. Before colour and 625-lines, due to the quality of the medium, a lot of graphic designers managed to get things broadcast that wouldn’t be now with the mediums picture improvements. This meant graphic design wasn’t as straight forward, and designers had to think much more about what they were producing and pay much more attention to detail.
 
@@ -177,17 +165,9 @@ The history of graphic design in television has been relatively short yet it has
 
 After leaving the Royal College of Art, Bernard Lodge joined the BBC in 1959. It was here that he got the opportunity to design the title sequence for a new children’s series <cite>Doctor Who</cite> in 1963. By exploiting the effect that occurs when a television camera is pointed towards a monitor, he was able to convey the idea of time travel and space fiction and created what became the famous title sequence. When he reworked the sequence in 1973, he again used techniques that were new to the profession, by using a computer controlled rostrum camera. Lodge produced many more memorable title sequences before leaving the BBC in 1977 to form his own company which later became Lodge-Cheeseman when his former colleague, Colin Cheesman (who had become Head of Graphic Design at the BBC), joined him.
 
-{% render 'figure'
-  embed: 'https://www.youtube.com/watch?v=sjDFvoRNpOM'
-  embedRatio: '4/3'
-  caption: 'Title sequence from <cite>Doctor Who</cite>. (BBC/Bernard Lodge, 1963)'
-%}
+[Watch the title sequence from Doctor Who (1963) on YouTube](https://www.youtube.com/watch?v=sjDFvoRNpOM 'Title sequence from <cite>Doctor Who</cite>. (BBC/Bernard Lodge, 1963)')
 
-{% render 'figure'
-  embed: 'https://www.youtube.com/watch?v=rMfB96pwcTA'
-  embedRatio: '4/3'
-  caption: 'Title sequence from <cite>Doctor Who</cite>. (BBC/Bernard Lodge 1973)'
-%}
+[Watch the title sequence from Doctor Who (1973) on YouTube](https://www.youtube.com/watch?v=rMfB96pwcTA 'Title sequence from <cite>Doctor Who</cite>. (BBC/Bernard Lodge 1973)')
 
 Both Lodge and Cheesman were working at a time when the use of computers in the profession were being used to an ever greater extent, but both believed that the computer should be used “not as an end to itself, but as a key to open new creative doors”. (Merritt 1987: 10) Bernard Lodge enabled more doors to be opened by working with Filmflex Ltd. to develop new animation techniques with the computer controlled rostrum camera. These included ‘streak-timing’ to produce a drawn and blurred light effect and ‘slit-scan’, which could be used to create controlled distortions. Lodge-Cheeseman went on to produce work for television commercials and also graphic effects for the movies <cite>Alien</cite> and <cite>Bladerunner</cite>.
 
@@ -206,11 +186,7 @@ It was here that Martin Lambie-Nairn was to find his big break. <cite>Weekend Wo
 
 This was traditionally based on newspaper cartoons — for example, if there was a story about the pound being weak, a cartoon drawing of a pound sign wearing bandages and using crutches was shown. Realising that this was at odds with communicating a serious news item, Lambie-Nairn developed a new method of presenting this sort of information in a more appropriate graphical manner. It was with this new approach that <cite>Weekend World</cite> became more successful, and this meant more work for Robinson Lambie-Nairn who found themselves “leaders in a field of one” (Lambie-Nairn, 1997).
 
-{% render 'figure'
-  embed: 'https://www.youtube.com/watch?v=Nsf6zIxlOd8'
-  embedRatio: '4/3'
-  caption: 'Title sequence from <cite>Weekend World</cite>. (LWT/Robinson Lambie-Nairn, 1982)'
-%}
+[Watch the title sequence from Weekend World on YouTube](https://www.youtube.com/watch?v=Nsf6zIxlOd8 'Title sequence from <cite>Weekend World</cite>. (LWT/Robinson Lambie-Nairn, 1982)')
 
 It was with the launch of Channel Four though were Martin Lambie-Nairn was to create waves in the television industry. Taking the idea that this new channel didn’t make its own programmes, but commissioned them from independent programme makers, Lambie-Nairn designed the innovative coloured building blocks that came together to form the channel’s figure 4 logo. This had to be produced in the United States, whose computer animation technology was far more advanced than in Britain. Lambie-Nairn also introduced many new concepts that were new in 1982, but common place in television nowadays.
 
@@ -218,11 +194,7 @@ He created a series of animations that were all based on the coming together of 
 
 Channel Four also had consistent on-screen branding, with programme menus, weather charts, on-screen promotions etc. all having the same look and feel often with the Channel Four logo used like a postage stamp in the top right hand corner of the screen. However prior to launch, it wasn’t liked by some of the channels executives, one of which wanted the logo to be rendered with a chrome effect and have the appearance of a turned off television. This showed that graphic design in television still wasn’t fully understood even by 1982. The Channel’s identity was so far ahead of its time, that it remained largely unchanged for 14 years, unheard of in today’s rapidly changing industry.
 
-{% render 'figure'
-  embed: 'https://www.youtube.com/watch?v=R86_TLuI51w'
-  embedRatio: '4/3'
-  caption: '<cite>Round and Back</cite>. (Channel Four/Robinson Lambie-Nairn, 1982)'
-%}
+[Watch Round and Back on YouTube](https://www.youtube.com/watch?v=R86_TLuI51w '<cite>Round and Back</cite>. (Channel Four/Robinson Lambie-Nairn, 1982)')
 
 On the back of this success, Lambie-Nairn was asked to design many other corporate identities for television companies. These included Anglia, in which Lambie-Nairn was responsible for the removal of the then much loved, but out of date, revolving silver knight and the satellite company British Satellite Broadcasting (BSB). However all five channel identities he created were replaced after only a couple of months when the company merged with Sky.
 
@@ -259,11 +231,7 @@ In 1958, the BBC adapted the film rostrum camera so that it was able to record s
 
 As for lettering this became easier and less time consuming than the original hand drawn methods, first of with the Masseeley hot press printing machine in 1955, and then with Letraset four years later, before character generators began to take over in 1969. Television graphics have reached a point now in which the vast majority in all aspects of graphic design is created on computer, and is becoming increasingly more integrated.
 
-{% render 'figure'
-  embed: 'https://www.youtube.com/watch?v=fDT_-CpiNKI'
-  embedRatio: '4/3'
-  caption: '<cite>Liquid Gold</cite>. (Yorkshire Television/Jeff Parr, 1986)'
-%}
+[Watch Liquid Gold on YouTube](https://www.youtube.com/watch?v=fDT_-CpiNKI '<cite>Liquid Gold</cite>. (Yorkshire Television/Jeff Parr, 1986)')
 
 However it was the eighties in which the computers use was more obvious to the viewer due to the fact that it had reached a stage in which it could be successfully used to create title-sequences or station indents and present graphical information. Green monitor output and wireframe graphics were fashionable at the start of the decade for use in station or programme promotions. As the technology improved, and greater effects could be achieved, so the fashion changed, meaning that during the mid to late eighties 3D animated computer graphics (usually with metallic or chrome rendering) were more commonly used.
 

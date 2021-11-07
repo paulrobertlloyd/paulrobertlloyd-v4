@@ -26,12 +26,7 @@ Under Consideration’s [_Brand New_][1] is a blog that critiques corporate and 
 
 I wish more designers would take such a selfless approach. While I could spend hours studying such refinements, I have nothing but admiration for the team at INSTID that [created this new identity for Irkutsk][6], a Russian city in southeastern Siberia:
 
-{% render 'figure'
-  embed: 'https://vimeo.com/265662317'
-  embedPoster: 'https://i.vimeocdn.com/video/695729633'
-  embedRatio: '8/5'
-  caption: 'Irkutsk identity presentation.'
-%}
+[Watch ‘Irkutsk identity presentation’ on Vimeo](https://vimeo.com/265662317)
 
 Possibly inappropriate, undoubtedly nonconformist and certifiably bonkers, part of me wishes I could dream up something as loose and unrestrained. This project confirms my suspicion that objectively, good design is about a consistency of execution, and somewhere within the madness of this identity, there is an element of coherence. Similarly, maintaining a degree of consistency is the reason why many established and trusted organisations will choose to refine their identities rather than replace them.
 

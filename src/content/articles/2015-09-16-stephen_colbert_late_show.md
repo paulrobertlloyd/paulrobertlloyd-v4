@@ -22,10 +22,7 @@ Now, having watched clips from his first week sat behind the desk inside a renov
 
 On any other show, an interview with Uber’s CEO [Travis Kalanick][5] would have been fawning and over congratulatory, but Colbert’s questions didn’t avoid the controversies surrounding this company. It also revealed Kalanick’s rather hollow and evasive personality:
 
-{% render 'figure'
-  embed: 'https://www.youtube.com/watch?v=wGdjLv8neBs'
-  caption: 'Stephen Colbert interviewing Travis Kalanick.'
-%}
+[Watch Stephen Colbert interviewing Travis Kalanick on YouTube](https://www.youtube.com/watch?v=wGdjLv8neBs)
 
 With Colbert no longer playing the character of a “[well-intentioned, poorly informed, high-status idiot][6]”, and with the exaggerated conceit of political punditry stripped away, it appears we may still get the same satire and humour, but with a more open, honest and [warmer][7] host. I think it works.
 
