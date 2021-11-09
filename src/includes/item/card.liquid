@@ -6,9 +6,7 @@
       {%- render 'image' with item.data.photo[0].url
         alt: item.data.photo[0].alt
         class: 'u-photo'
-        ratio: 1.0
-        sizes: itemsGridSize
-        preset: 'supporting'
+        preset: 'card-square'
       -%}
       {%- if item.data.photo.size > 1 -%}
         <svg width="20" height="20" role="img" aria-labelledby="photos-title" focusable="false">
@@ -20,11 +18,9 @@
   {%- else -%}
     {%- if item.data.image -%}
       <div class="card__image">
-        {%- assign ratio = imageRatio | default: 1.5 -%}
+        {%- assign preset = imagePreset | default: 'card-rectangle' -%}
         {%- render 'image' with item.data.image
-          ratio: ratio
-          sizes: itemsGridSize
-          preset: 'supporting'
+          preset: preset
         -%}
       </div>
     {%- endif -%}

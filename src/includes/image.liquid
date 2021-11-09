@@ -1,16 +1,1 @@
-{%- assign setting = srcsets[preset] | default: srcsets.default -%}
-{%- comment %}IndieKit includes app.url in image path{% endcomment -%}
-{%- assign src = image | replace: app.url, '' -%}
-{%- assign srcset = false -%}
-{%- comment %}Only use Cloudinary in production{% endcomment -%}
-{% if app.environment == 'production' %}
-  {%- comment %}Only transform local images{% endcomment -%}
-  {% unless src contains 'https://' %}
-    {%- assign base = 'https://res.cloudinary.com/paulrobertlloyd/image/fetch' -%}
-    {%- capture transformations %}{% if ratio %}ar_{{ ratio }}%2C{% endif %}c_fill%2Cf_auto%2Cq_auto{% endcapture -%}
-    {%- assign publicId = src | absolute_url: app.url -%}
-    {%- capture src %}{{ base }}/{{ transformations }},w_{{ setting.width }}/{{ publicId }}{% endcapture -%}
-    {%- capture srcset %}{% for width in setting.widths %}{{ base }}/{{ transformations }}%2Cw_{{ width }}/{{ publicId }} {{ width }}w{% unless forloop.last %}, {% endunless%}{% endfor %}{% endcapture -%}
-  {%- endunless -%}
-{%- endif -%}
-<img{% if class %} class="{{ class }}"{% endif %} src="{{ src }}"{% if srcset %} srcset="{{ srcset }}" sizes="{{ sizes | default: setting.sizes }}"{% endif %} width="{{ setting.width }}"{% if ratio %} height="{{ setting.width | divided_by: ratio }}"{% endif %} alt="{{ alt }}" loading="lazy">
+<img{% if class %} class="{{ class }}"{% endif %} src="{{ image | replace: app.url, '' }}" data-responsiver="{{ preset | default: 'default' }}" alt="{{ alt }}" loading="lazy">
