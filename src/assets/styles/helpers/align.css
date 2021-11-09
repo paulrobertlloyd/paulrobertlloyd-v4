@@ -54,33 +54,3 @@
     padding-inline-end: var(--gap);
   }
 }
-
-/* Slide alignment */
-.align-slide {
-  align-items: start;
-  max-inline-size: 100vw !important;
-}
-
-.align-slide figcaption {
-  margin-block-start: 0;
-  padding-block-start: var(--flow-space);
-}
-
-.align-slide figcaption :--flow {
-  @extend %caption;
-  --caption-line-height: var(--line-height-prose);
-
-  color: var(--color-text);
-}
-
-@media (--from-large-viewport) {
-  .align-slide {
-    display: grid;
-    grid-column-gap: var(--gap);
-    grid-template-columns: 2fr 3fr;
-  }
-
-  .align-slide figcaption {
-    border-block-start: var(--border-width-thick) solid var(--color-rule);
-  }
-}

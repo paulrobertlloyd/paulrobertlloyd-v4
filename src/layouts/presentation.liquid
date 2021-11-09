@@ -10,13 +10,7 @@
   -%}
   {%- capture content -%}
     {{- content -}}
-    {%- for slide in slides -%}
-      {%- render 'figure' with slide.image
-        caption: slide.notes
-        alignment: 'slide'
-        imagePreset: 'thumbnail'
-      -%}
-    {%- endfor -%}
+    {% render 'slide' for slides as slide %}
   {%- endcapture -%}
   {%- render 'content' with content -%}
 {%- endblock -%}

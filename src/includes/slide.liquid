@@ -1,0 +1,8 @@
+<figure class="slide">
+  {%- render 'image' with slide.image
+    preset: 'supporting'
+  -%}
+  <figcaption class="slide__caption">
+    {{ slide.notes | markdown }}
+  </figcaption>
+</figure>
