@@ -15,7 +15,7 @@
   }
 }
 
-@media (--upto-small-viewport) {
+@media (--upto-medium-viewport) {
   .items--photos {
     --border-radius: 0;
     --gap: var(--border-width-thick);
