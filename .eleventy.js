@@ -43,7 +43,6 @@ module.exports = function (eleventy) {
 
   // Shortcodes
   eleventy.addShortcode('avatar', require('./lib/shortcodes/avatar.js'));
-  eleventy.addShortcode('embed', require('./lib/shortcodes/embed.js'));
   eleventy.addShortcode('icsFeed', require('./lib/shortcodes/ics-feed.js'));
   eleventy.addShortcode('jsonFeed', require('./lib/shortcodes/json-feed.js'));
 
