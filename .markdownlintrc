@@ -2,8 +2,7 @@
   "default": true,
   "whitespace": false,
   "line-length": false,
-  "first-line-h1": false,
-  "first-heading-h1": false,
+  "first-line-heading": "front_matter_title",
   "no-bare-urls": false,
   "no-inline-html": false,
   "no-trailing-punctuation": {
