@@ -6,6 +6,4 @@ category:
   - Video
   - Music videos
 ---
-{% embed bookmark-of %}
-
 This was the final video shown during Adam Buxton’s BUG show in Edinburgh. I’ve been “fucking the replay button” (you had to be there) ever since.

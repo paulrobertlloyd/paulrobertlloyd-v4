@@ -8,6 +8,4 @@ category:
   - BBC
   - London 2012
 ---
-{% embed bookmark-of %}
-
 The games are so close, I can almost taste them.

@@ -6,6 +6,4 @@ category:
   - Video
   - Music videos
 ---
-{% embed bookmark-of %}
-
 Another video showcased by Adam Buxton at last month’s Edinburgh BUG. You can find a complete archive of BUG videos at <http://www.bugvideos.co.uk/>.

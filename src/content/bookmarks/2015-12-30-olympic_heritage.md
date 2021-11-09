@@ -7,8 +7,6 @@ category:
   - Olympics
   - Design
 ---
-{% embed bookmark-of 'https://i.vimeocdn.com/video/663873356' %}
-
 Canadian design super-duo [Hulse&Durrell][1], worked on what could only be described as [my dream project][2]. Researching 120 years of Olympic design heritage, they then [documented and digitised hundreds of assets][3] for use on officially licensed merchandise:
 
 > Beginning with the core elements of each Olympic Games identity (emblems, pictograms, mascots, and official posters), we set out to find their most authentic sources. The journey took us from the Olympic Museum archives in Switzerland to Olympic historians, private collections, and past-Games design directors around the world.

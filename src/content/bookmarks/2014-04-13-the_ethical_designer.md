@@ -7,8 +7,6 @@ category:
   - Ethics
   - Design
 ---
-{% embed bookmark-of %}
-
 Possibly the most important design talk you’ll hear this year:
 
 > For decades, the spaces we live in have been built by consensus. Planners, architects, councils, consultation; and always the watchful eye of the regulators and elected officials. But the world’s favourite digital spaces are largely in the hands of people like you and me. We have to oversee ourselves – and it’s not going very well.

@@ -8,8 +8,6 @@ category:
   - Yosemite National Park
   - United States
 ---
-{% embed bookmark-of 'https://i.vimeocdn.com/video/254218511' %}
-
 A truly stunning timelapse of Yosemite National Park, a collaboration between [Sheldon Neill][1] and [Colin Delehanty][2]. More information about the project can be found at [projectyose.com][3].
 
 [1]: http://www.sheldonneill.com

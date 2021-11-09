@@ -10,6 +10,12 @@
     url_class: 'bookmark-of'
     vocab: vocab
   -%}
+  {%- if bookmarkOf -%}
+    {%- capture content -%}
+      <p><a href="{{ bookmarkOf }}">Watch ‘{{ title }}’</a></p>
+      {{ content }}
+    {%- endcapture -%}
+  {%- endif -%}
   {%- render 'content' with content -%}
   {%- render 'meta'
     categories: category
