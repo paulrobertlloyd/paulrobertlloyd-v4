@@ -1,15 +1,12 @@
 require('dotenv').config();
-const {Liquid} = require('liquidjs');
 
 module.exports = function (eleventy) {
   // Browser Sync
   eleventy.setBrowserSyncConfig(require('./etc/browser-sync.config.js'));
 
-  // Liquid (using own library instance, for now)
-  // See: https://github.com/harttle/liquidjs/issues/395
-  eleventy.setLibrary('liquid', new Liquid({
+  // Liquid
+  eleventy.setLiquidOptions({
     cache: true,
-    extname: '.liquid',
     globals: {
       app: require('./src/data/app.js'),
       dates: require('./src/data/dates.js'),
@@ -18,8 +15,7 @@ module.exports = function (eleventy) {
     },
     layouts: './src/layouts',
     partials: './src/includes',
-    preserveTimezones: true,
-  }));
+  });
 
   // Filters
   eleventy.addFilter('absolute_url', require('@11ty/eleventy-plugin-rss').absoluteUrl);
@@ -54,8 +50,8 @@ module.exports = function (eleventy) {
   eleventy.setLibrary('md', require('./lib/libraries/markdown.js'));
 
   // Plugins
-  const attributes = { loading: 'lazy' };
-  const cloudinaryBaseUrl = 'https://res.cloudinary.com/paulrobertlloyd/image/fetch/'
+  const attributes = {loading: 'lazy'};
+  const cloudinaryBaseUrl = 'https://res.cloudinary.com/paulrobertlloyd/image/fetch/';
 
   if (process.env.NODE_ENV === 'production') {
     eleventy.addPlugin(require('eleventy-plugin-images-responsiver'), {
@@ -66,7 +62,7 @@ module.exports = function (eleventy) {
         minWidth: 320,
         maxWidth: 1600,
         steps: 3,
-        resizedImageUrl: (src, width) => `${cloudinaryBaseUrl}/c_fill,q_auto,f_auto,w_${width}/${process.env.URL}${src}`
+        resizedImageUrl: (src, width) => `${cloudinaryBaseUrl}/c_fill,q_auto,f_auto,w_${width}/${process.env.URL}${src}`,
       },
       wide: {
         attributes,
@@ -75,7 +71,7 @@ module.exports = function (eleventy) {
         minWidth: 320,
         maxWidth: 1600,
         steps: 3,
-        resizedImageUrl: (src, width) => `${cloudinaryBaseUrl}/c_fill,q_auto,f_auto,ar_2.25,w_${width}/${process.env.URL}${src}`
+        resizedImageUrl: (src, width) => `${cloudinaryBaseUrl}/c_fill,q_auto,f_auto,ar_2.25,w_${width}/${process.env.URL}${src}`,
       },
       supporting: {
         attributes,
@@ -84,7 +80,7 @@ module.exports = function (eleventy) {
         minWidth: 200,
         maxWidth: 800,
         steps: 3,
-        resizedImageUrl: (src, width) => `${cloudinaryBaseUrl}/c_fill,q_auto,f_auto,w_${width}/${process.env.URL}${src}`
+        resizedImageUrl: (src, width) => `${cloudinaryBaseUrl}/c_fill,q_auto,f_auto,w_${width}/${process.env.URL}${src}`,
       },
       thumbnail: {
         attributes,
@@ -93,10 +89,11 @@ module.exports = function (eleventy) {
         minWidth: 200,
         maxWidth: 600,
         steps: 1,
-        resizedImageUrl: (src, width) => `${cloudinaryBaseUrl}/c_fill,q_auto,f_auto,w_${width}/${process.env.URL}${src}`
-      }
+        resizedImageUrl: (src, width) => `${cloudinaryBaseUrl}/c_fill,q_auto,f_auto,w_${width}/${process.env.URL}${src}`,
+      },
     });
   }
+
   eleventy.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
 
   // Collections
