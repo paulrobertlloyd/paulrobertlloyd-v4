@@ -9,7 +9,9 @@ image: /images/2012/01/steve_jobs_by_walter_isaacson/image.jpg
 vocab: [entry, review]
 product:
   title: Steve Jobs
-  photo: /images/2012/01/steve_jobs_by_walter_isaacson/978-1-4087037-4-8.jpg
+  photo:
+    url: /images/2012/01/steve_jobs_by_walter_isaacson/978-1-4087037-4-8.jpg
+    alt: Cover of ‘Steve Jobs’
   info: |
     Author
     : Walter Isaacson

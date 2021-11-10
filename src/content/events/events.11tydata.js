@@ -32,7 +32,10 @@ module.exports = {
       const {movie} = data;
       if (movie) {
         return {
-          photo: data.image,
+          photo: {
+            url: data.image,
+            alt: `Poster for ‘${data.title}’`
+          },
           title: data.title,
           rating: data.rating,
           info: [
