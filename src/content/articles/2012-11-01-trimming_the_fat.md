@@ -230,7 +230,7 @@ Arguably, many of these optimisations are overkill, especially given some of the
 Website optimisation can be a cruel game; everything has a number that begs to be reduced, but doing so requires a lot of experimentation, research and testing. And when you’re playing with the last hundred or so kilobytes, there’s little reward for your effort. Hopefully this overview will save you from playing the same game.
 
 [^1]: Fonts served previously (via Fontdeck): Akagi Book, SemiBold; Magenta Book, Book Italic. Fonts served now (via Adobe Edge Web Fonts): Source Sans Pro Light, Regular, Italic; Source Code Pro Regular.
-[^2]: WebPagetest results for homepage comparison: [22 February (before)](http://webpagetest.org/result/120222_QC_3B11V/1/details/), [30 October (after)](http://webpagetest.org/result/121030_06_GZC/1/details/)
+[^2]: WebPagetest results for homepage comparison: [22 February (before)](https://webpagetest.org/result/120222_QC_3B11V/1/details/), [30 October (after)](https://webpagetest.org/result/121030_06_GZC/1/details/)
 
 [1]: /2011/07/new_and_improved
 [2]: /2012/02/niptuck
