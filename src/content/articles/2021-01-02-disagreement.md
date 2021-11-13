@@ -14,7 +14,7 @@ While working on [Indiekit](https://getindiekit.com) over Christmas, I’ve been
 
 Take for example how 3 related specifications allow you to represent plaintext and HTML content in a post:
 
-1. [MF2](http://microformats.org/wiki/microformats2):
+1. [MF2](https://microformats.org/wiki/microformats2):
 
     ```json
     "content": [{
