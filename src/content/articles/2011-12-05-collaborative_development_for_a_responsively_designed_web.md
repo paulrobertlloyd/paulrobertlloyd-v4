@@ -29,7 +29,7 @@ Regardless of the exact process, it’s clear that the relationship between our 
 So how can we improve this relationship? Ultimately, we’ll need to adapt, but even within existing workflows we can start to overlap. Simply adjusting our attitude can effect change, and bring design and development teams closer together.
 
 > Good design is constant contact.
-— [Mark Otto](http://markdotto.com/2011/09/20/good-design-is-constant-contact/)
+— [Mark Otto](https://markdotto.com/2011/09/20/good-design-is-constant-contact/)
 
 The way we work needs to be more open and inclusive. For example, ensuring members of the development team attend initial kick-off meetings and design workshops will not only ensure technical concerns are raised, but mean that those implementing our designs better understand the problems we’re trying to solve.
 
