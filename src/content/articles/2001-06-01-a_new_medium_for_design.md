@@ -103,7 +103,7 @@ From the areas of discussion above, it would seem there are two main issues. The
 * Dredge, S (2000, September). Interview with Jakob Nielsen. <cite>Cre@teOnline</cite>, 26-29
 * Drew, K (2000, August). Remote Control — Diary of a Launch: MTV2. <cite>Cre@teOnline</cite>, 36-40
 * Franklin, D and Patton, B (2000). <cite>Flash 4! Creative Web Animation</cite>. San Francisco: Macromedia Press
-* Nielsen, J (2000, October 29). [Flash: 99% Bad](http://www.useit.com/alertbox/20001029.html). <cite>Useit.com</cite>
+* Nielsen, J (2000, October 29). [Flash: 99% Bad](https://web.archive.org/web/20010603203612/http://www.useit.com:80/alertbox/20001029.html). <cite>Useit.com</cite>
 * Ward, M (2000, May 18). [From Boo.com to Boo.gone](http://news.bbc.co.uk/hi/english/business/newsid_753000/753782.stm). <cite>BBC News Online</cite>
 
 [1]: http://news.bbc.co.uk/

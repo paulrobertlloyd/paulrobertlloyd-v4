@@ -23,7 +23,7 @@ The tutorial is split into five parts:
 4. [Getting to Grips with Media Queries][6]
 5. [Going Further with Responsive Design][7]
 
-These follow the development of a simple media gallery, the finished example of which can be found here: <http://paulrobertlloyd.github.io/roadtrip/>
+These follow the development of a simple media gallery, the finished example of which can be found here: <https://paulrobertlloyd.github.io/roadtrip/>
 
 The distinction between design and development is becoming increasingly blurred, so I start by illustrating how one might design a website that could have infinite layouts. The next three chapters describe each component of responsive design: fluid grids, flexible images and media queries, before I finish by covering testing, optimisation and performance.
 

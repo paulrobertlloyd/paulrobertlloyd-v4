@@ -126,7 +126,7 @@ If a single lesson is to be taken from all this, it’s that often the biggest g
 
 I dare say further improvements could be made, and I wouldn’t be surprised if I’m writing a similar blog post again soon.
 
-[^1]: WebPagetest results: [19 December (using CloudFlare)](http://webpagetest.org/result/121219_DH_DDQ/), [27 December (using Fastly)](http://webpagetest.org/result/121227_BD_GR8/)
+[^1]: WebPagetest results: [19 December (using CloudFlare)](https://webpagetest.org/result/121219_DH_DDQ/), [27 December (using Fastly)](https://webpagetest.org/result/121227_BD_GR8/)
 
 [1]: /2012/11/trimming_the_fat
 [2]: http://www.netmagazine.com/tutorials/build-smart-mobile-navigation-without-hacks
