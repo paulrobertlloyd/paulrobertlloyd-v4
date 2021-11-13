@@ -1,0 +1,45 @@
+name: notfoundbot
+on:
+  schedule:
+    - cron: '0 0 1 * *' # https://crontab.guru/#0_0_1_*_*
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Fix article links
+        uses: tmcw/notfoundbot@v2.2.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          content-folder: 'src/content/articles'
+      - name: Fix bookmark links
+        uses: tmcw/notfoundbot@v2.2.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          content-folder: 'src/content/bookmarks'
+      - name: Fix event links
+        uses: tmcw/notfoundbot@v2.2.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          content-folder: 'src/content/events'
+      - name: Fix note links
+        uses: tmcw/notfoundbot@v2.2.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          content-folder: 'src/content/notes'
+      - name: Fix presentation links
+        uses: tmcw/notfoundbot@v2.2.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          content-folder: 'src/content/presentations'
+      - name: Fix project links
+        uses: tmcw/notfoundbot@v2.2.0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          content-folder: 'src/content/projects'
