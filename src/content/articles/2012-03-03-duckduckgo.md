@@ -26,7 +26,7 @@ If you’re like me, using Google for searching the web has become a deeply ingr
 
 ### Google Chrome
 
-1. Visit <http://duckduckgo.com/>
+1. Visit [http://duckduckgo.com/](https://duckduckgo.com/)
 
 2. Right-click the address bar
 
@@ -44,7 +44,7 @@ If you’re like me, using Google for searching the web has become a deeply ingr
 
 ### Mozilla Firefox
 
-1. Visit <http://duckduckgo.com/>
+1. Visit [http://duckduckgo.com/](https://duckduckgo.com/)
 
 2. Go to the search box in the upper right of the browser window. Click the down arrow, and select *Add DuckDuckGo*
 
@@ -68,7 +68,7 @@ However, changing the default provider isn’t enough as search terms entered in
 
 ### Opera
 
-1. Visit <http://duckduckgo.com/>
+1. Visit [http://duckduckgo.com/](https://duckduckgo.com/)
 
 2. Right-click DuckDuckGo’s search box in the middle of the page, and select *Create Search*
 
