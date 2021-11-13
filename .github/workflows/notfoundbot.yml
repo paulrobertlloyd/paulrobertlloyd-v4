@@ -1,5 +1,8 @@
 name: notfoundbot
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: '0 0 1 * *' # https://crontab.guru/#0_0_1_*_*
 jobs:
@@ -11,3 +14,5 @@ jobs:
         uses: tmcw/notfoundbot@v2.0.2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          content-folder: src/content
