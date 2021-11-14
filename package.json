@@ -15,13 +15,11 @@
   "scripts": {
     "prebuild": "rm -rf www && mkdir -p www/assets",
     "build:files": "eleventy --quiet",
-    "build:scripts": "rollup --silent --config etc/rollup.config.js",
     "build:styles": "postcss src/assets/styles/app.css -o www/assets/styles/app.css --config etc/postcss.config.js",
-    "build": "npm run build:styles && npm run build:scripts && npm run build:files",
+    "build": "npm-run-all --parallel build:*",
     "deploy": "npm run build",
     "postdeploy": "webmention www/feed.xml --limit 1 --send",
     "watch:files": "eleventy --quiet --serve",
-    "watch:scripts": "rollup --silent --config etc/rollup.config.js --watch",
     "watch:styles": "postcss src/assets/styles/app.css -o www/assets/styles/app.css --config etc/postcss.config.js --watch",
     "watch": "npm-run-all --parallel watch:*",
     "lint:markdown": "markdownlint 'src/**/*.md'",
@@ -72,8 +70,6 @@
     "postcss-extend-rule": "^3.0.0",
     "postcss-logical": "^5.0.0",
     "postcss-media-minmax": "^5.0.0",
-    "rollup": "^2.60.0",
-    "rollup-plugin-terser": "^7.0.2",
     "sanitize-html": "^2.5.2",
     "string-to-color": "^2.2.2",
     "turndown": "^7.1.1"
