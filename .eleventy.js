@@ -4,7 +4,12 @@ const srcsets = require('./lib/utils/get-srcsets.js');
 
 module.exports = function (eleventy) {
   // Browser Sync
-  eleventy.setBrowserSyncConfig(require('./etc/browser-sync.config.js'));
+  eleventy.setBrowserSyncConfig({
+    rewriteRules: [{
+      match: /\?page=(\d+)/g,
+      replace: 'page/$1.html',
+    }],
+  });
 
   // Liquid
   eleventy.setLiquidOptions({
@@ -17,6 +22,9 @@ module.exports = function (eleventy) {
     layouts: './src/layouts',
     partials: './src/includes',
   });
+
+  // Libraries
+  eleventy.setLibrary('md', require('./lib/libraries/markdown.js'));
 
   // Filters
   eleventy.addFilter('absolute_url', require('@11ty/eleventy-plugin-rss').absoluteUrl);
@@ -45,9 +53,6 @@ module.exports = function (eleventy) {
   eleventy.addShortcode('avatar', require('./lib/shortcodes/avatar.js'));
   eleventy.addShortcode('icsFeed', require('./lib/shortcodes/ics-feed.js'));
   eleventy.addShortcode('jsonFeed', require('./lib/shortcodes/json-feed.js'));
-
-  // Libraries
-  eleventy.setLibrary('md', require('./lib/libraries/markdown.js'));
 
   // Plugins
   if (process.env.NODE_ENV === 'production') {
