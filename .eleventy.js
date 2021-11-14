@@ -73,6 +73,9 @@ module.exports = function (eleventy) {
   eleventy.addPassthroughCopy('./src/assets/scripts');
   eleventy.addPassthroughCopy('./src/assets/vectors');
 
+  // Watch targets
+  eleventy.addWatchTarget('./src/assets/styles');
+
   // Config
   return {
     dir: {
@@ -82,6 +85,6 @@ module.exports = function (eleventy) {
       layouts: 'layouts',
       data: 'data',
     },
-    templateFormats: ['liquid', 'md'],
+    templateFormats: ['liquid', 'md', '11ty.js'],
   };
 };
