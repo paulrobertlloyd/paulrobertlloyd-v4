@@ -20,30 +20,6 @@ Generated files are written to the `www` directory.
 
 When developing the site, you may want files automatically compiled and the browser to refresh automatically. To do this, run `npm run watch`.
 
-### Running locally with HTTPS
-
-To run with HTTPS locally on macOS first [follow the setup steps described here](https://gist.github.com/jed/6147872). To create the required SSL certificates, follow these steps:
-
-1. Change into the correct directory: `cd etc`
-2. Create the certificate files:
-
-   ```
-   openssl req \
-   -new \
-   -newkey rsa:2048 \
-   -sha256 \
-   -days 3650 \
-   -nodes \
-   -x509 \
-   -keyout etc/test.key \
-   -out etc/test.crt \
-   -subj /CN=v4.paulrobertlloyd.test \
-   -reqexts SAN \
-   -extensions SAN \
-   -config <(cat /System/Library/OpenSSL/openssl.cnf \
-   <(printf '[SAN]\nsubjectAltName=DNS:v4.paulrobertlloyd.test'))
-   ```
-
 ## Deployment
 
 This site is deployed automatically by Netlify whenever files are pushed to the `master` branch.
@@ -52,17 +28,12 @@ This site is deployed automatically by Netlify whenever files are pushed to the 
 
 ```bash
 paulrobertlloyd.com
-├── etc
-│   ├── browser-sync.config.js   # BrowserSync configuration
-│   ├── postcss.config.js        # PostCSS configuration
-│   ├── rollup.config.js         # Rollup configuration
-│   └── test.conf                # Local nginx server configuration
-│
 ├── lib
 │   ├── collections              # Eleventy collections
 │   ├── filters                  # Eleventy template filters
 │   ├── libraries                # Eleventy template libraries
 │   ├── shortcodes               # Eleventy template shortcodes
+│   ├── transforms               # Eleventy template transforms
 │   └── utils                    # Utility scripts
 │
 ├── src
