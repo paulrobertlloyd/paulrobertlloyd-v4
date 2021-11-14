@@ -11,7 +11,7 @@
 
   /* Colour assignments */
   --color-accent: var(--color-accent-light);
-  --color-complement: hsl(320 100% 44%);
+  --color-complement: hsl(320deg 100% 44%);
   --color-background: white;
   --color-offset: var(--color-neutral-lightest);
   --color-outline: hsl(var(--tint) 16% / 20%);
@@ -23,10 +23,10 @@
   --color-link: var(--color-accent);
   --color-link-underline: var(--color-neutral-light);
 
-  --color-delete: hsl(0 100% 80% / 75%);
-  --color-highlight: hsl(48 100% 80% / 75%);
-  --color-insert: hsl(120 100% 80% / 75%);
-  --color-focus: hsl(48 100% 50%);
+  --color-delete: hsl(0deg 100% 80% / 75%);
+  --color-highlight: hsl(48deg 100% 80% / 75%);
+  --color-insert: hsl(120deg 100% 80% / 75%);
+  --color-focus: hsl(48deg 100% 50%);
 
   /* Typography */
   --font-family-sans: "Söhne", sans-serif;
@@ -111,7 +111,7 @@
     --color-accent: var(--color-accent-dark);
     --color-background: hsl(var(--tint) 8%);
     --color-shadow: black;
-    --color-highlight: hsl(60 100% 70% / 15%);
+    --color-highlight: hsl(60deg 100% 70% / 15%);
     --line-height-tight: calc(1.25em + 0.5vw);
     --line-height-loose: calc(1.5em + 0.5vw);
     --line-height-prose: calc(1.75em + 0.5vw);

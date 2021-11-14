@@ -3,8 +3,7 @@
   border-block-start: var(--border-width-thick) solid var(--color-rule);
   display: grid;
   flex: 1;
-  grid-column-gap: var(--gap);
-  grid-row-gap: var(--space-block);
+  grid-gap: var(--space-block) var(--gap);
   grid-template: var(--item-grid-template);
   padding-block-start: var(--space-block);
   position: relative;

@@ -5,7 +5,7 @@ a[rel~="external"]::after {
   display: inline-block;
   inline-size: 0.5em;
   margin-inline: 0.125em;
-  opacity: 0.4;
+  opacity: 40%;
   vertical-align: baseline;
 }
 
@@ -16,5 +16,5 @@ a[rel~="external"]::after {
 }
 
 a[rel~="external"]:hover::after {
-  opacity: 1;
+  opacity: 100%;
 }

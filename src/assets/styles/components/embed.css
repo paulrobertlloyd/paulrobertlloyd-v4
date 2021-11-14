@@ -18,10 +18,10 @@
 
 .embed iframe {
   block-size: 100%;
+  border: none;
   display: block;
   inline-size: 100%;
   inset-block-start: 0;
   position: absolute;
-  border: none;
   z-index: 1;
 }

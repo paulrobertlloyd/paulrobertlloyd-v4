@@ -30,7 +30,7 @@ a[rel="tag"]::before {
 }
 
 a[rel="tag"]:hover::before {
-  opacity: 1;
+  opacity: 100%;
 }
 
 /* Reset font size for smallprint/legal text */
