@@ -1,0 +1,58 @@
+---
+title: 'Seattle: Finding Gems in the Emerald City'
+date: 2008-10-06T06:23:36+01:00
+summary: The first stop in my four city tour of America was Seattle in the north-western state of Washington. Best known for its iconic Space Needle, it’s perhaps no surprise that I spent most of my time fixated on this slender looking tower.
+collection: north_america_2008
+image:
+  url: /articles/2008/10/seattle/seattle_center.jpg
+  alt: The Space Needle with the Experience Music Project in the foreground.
+category:
+  - Architecture
+  - Travel
+  - Seattle
+  - United States
+tags:
+  - featured
+---
+![](seattle_center.jpg 'The Space Needle with the Experience Music Project in the foreground.')
+{.align-bleed}
+
+The first stop in my four city tour of America was Seattle in the north-western state of Washington. Probably best known for it’s iconic Space Needle, it’s perhaps no surprise that I spent most of my time fixated on this slender looking tower.
+
+The [Space Needle][1] is Seattle’s signature landmark built for the 1962 Century 21 Exposition, a World’s Fair held to promote American innovation in space and future technologies.
+
+The grounds exist today as *Seattle Center*, an arts and entertainment complex with museums, parkland and fairground rides. Key buildings from the exposition such as the Pacific Science Museum, Key Arena and Center House exist largely as they did almost 50 years ago, alongside newer buildings such as the [Experience Music Project][2] and McCaw Hall.
+
+The Space Needle retains its original [‘Googie’ architectural style][3], but latterly a number of improvements have been made. Renovation early this century saw the addition of a spiralling entrance way, and a beam of light can now be emitted from it’s tip. Both of these were depicted in the official poster for the fair, but missing from the final design.
+
+With this structure dominating the northern suburbs where I was staying, peaking over and between buildings at every turn, it was hard to resist dinner in it’s revolving restaurant. As the central core and windows stay fixed as the floor rotates, a slight juddering movement and dimmed lighting in the restaurant made me quite queazy by the end of my meal. The food served was expertly prepared, with a wide selection of Pacific Northwest cuisine, good portion sizes and a courteous waiting service.
+
+Linking the Seattle Center with downtown Seattle, is a monorail also built for the fair. Given the exposition was focused on an exciting scientific future I found it a little ironic that the monorail now terminates at a shopping mall — consumerism, not science surely the dominating force in the 21st Century.
+
+## Downtown and Pioneer Square
+
+![](pike_place.jpg 'Pike Place market.')
+
+The downtown area of the city is much like others in the US — dominated by tall sky scrappers of failing banks like Washington Mutual — but to the west is [Pike Place Market][4], a warren of small shops, fish mongers, tourist traps and restaurants, and home to the first Starbucks. To the south lies Pioneer Square, a leafy and laid back historic district, home to preserved buildings from the early 20th Century, most notably Smith Tower.
+
+However, I didn’t explore these areas as much as I would have liked, mainly due to an entire afternoon spent in the city’s new [Central Library][5].
+
+Here a daring steel and glass design wraps itself around public reading and research spaces, lounges and an innovative ‘book spiral’. This continuous spiral allows visitors to browse the library’s entire non-fiction collection without breaking up the Dewey Decimal classification system onto different floors.
+
+![](central_library.jpg 'Inside Seattle Central Library.')
+
+## Impression
+
+From the two days I spent in this small metropolis, what then of my overall impression?
+
+My feeling was that this city is a lot like San Francisco, but without the attitude — or the weather. It’s citizens have the same liberal sensibilities, is home to a vibrant technology scene (Microsoft, Amazon and Boeing all based here), and has a shopping district taken up by cheering hobos at one end. A far greener city, its hills may not be as picturesque as their southerly cousin’s, but their summits provide more enjoyable views thanks to the Space Needle and Puget Sound.
+
+When viewing the city from needle however, I was looking for landmarks, yet few were to be found, giving you the sense there is little else iconic about the city. Perhaps the most interesting destinations actually lie in the surrounding suburbs and mountainous national parks, so on my next visit, it’s likely I’ll be spending more time there.
+
+[1]: https://en.wikipedia.org/wiki/Space_Needle
+[2]: https://en.wikipedia.org/wiki/Experience_Music_Project
+[3]: https://en.wikipedia.org/wiki/Googie_architecture
+[4]: https://en.wikipedia.org/wiki/Pike_Place_Market
+[5]: https://en.wikipedia.org/wiki/Seattle_Central_Library
+
+*[US]: United States
