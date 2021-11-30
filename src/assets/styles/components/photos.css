@@ -1,5 +1,9 @@
 .photos {
   display: grid;
-  grid-gap: var(--space-inline);
+  grid-gap: 0 var(--space-inline);
   grid-template-columns: repeat(var(--columns), 1fr);
+}
+
+.photos__caption {
+  grid-column: 1/-1;
 }

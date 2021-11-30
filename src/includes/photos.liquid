@@ -3,4 +3,7 @@
     class: imageClass
     preset: imagePreset
   -%}
+  {%- if caption -%}
+    <figcaption class="photos__caption">{{ caption | markdown }}</figcaption>
+  {%- endif -%}
 </figure>
