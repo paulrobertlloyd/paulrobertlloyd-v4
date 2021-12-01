@@ -55,6 +55,7 @@
   <meta property="og:description" name="description" content="{{ summary | default: app.description | markdown | strip_html | strip_newlines | strip }}">
   <meta property="og:url" content="{{ page.url | absolute_url: app.url }}">
   <meta property="og:image" content="{{ summaryImage }}">
+  <meta property="og:image:alt" content="{{ summaryImageAlt }}">
   <meta name="twitter:card" content="{{ summaryCard }}">
   <meta name="twitter:site" content="@paulrobertlloyd">
   <meta name="theme-color" content="{{ app.themeColor }}" media="(prefers-color-scheme: light)">

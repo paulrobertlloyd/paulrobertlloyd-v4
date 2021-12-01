@@ -9,13 +9,10 @@ module.exports = {
 
     return data.app.url + data.page.url;
   },
-  image: data => data.image ? {
-    url: data.image.url || data.image,
-    alt: data.image.alt || ''
-  } : false,
   summaryCard: data => data.image ? 'summary_large_image' : 'summary',
-  summaryImage: data => data.image ? `https://res.cloudinary.com/paulrobertlloyd/image/fetch/c_fill,f_auto,q_auto,w_1200,h_630/${data.app.url}${data.image}`
+  summaryImage: data => data.image ? `https://res.cloudinary.com/paulrobertlloyd/image/fetch/c_fill,f_auto,q_auto,w_1200,h_630/${data.app.url}${data.image.url}`
     : `${data.app.url}${data.app.icon}`,
+  summaryImageAlt: data => data.image ? data.image.alt : 'Logo',
   related: data => {
     const posts = data.collections.post;
     const related = data.related ? data.related : [];
