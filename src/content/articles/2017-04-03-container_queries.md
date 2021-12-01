@@ -50,7 +50,7 @@ As a way of demonstration, let’s return to one of the components Ethan describ
 
 With Flexbox, we can build components such that their layout will adapt to the available space. Using Grid, we can name areas of a grid container, and then assign components to those areas:
 
-[View this code example on CodePen](https://codepen.io/paulrobertlloyd/pen/PpXygo/).
+[View this code example on CodePen](https://web.archive.org/web/20201025144127/https://codepen.io/paulrobertlloyd/pen/PpXygo).
 {data-height="480" data-slug-hash="PpXygo" data-preview="true" class="codepen bleed"}
 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
