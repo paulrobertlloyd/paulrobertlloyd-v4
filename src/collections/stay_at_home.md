@@ -2,7 +2,9 @@
 eleventyExcludeFromCollections: true
 title: Stay at home
 summary: During January 2021, I shared 31 images from my travels around the UK.
-image: /images/photos/1609833600.jpg
+image:
+  url: /images/photos/1609833600.jpg
+  alt: Atmospheric sky over the Palace of Westminster and Westminster Bridge.
 itemsComponent: card
 itemsModifier: photos
 ---

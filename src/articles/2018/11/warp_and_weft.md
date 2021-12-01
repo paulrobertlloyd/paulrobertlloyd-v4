@@ -5,7 +5,9 @@ location:
   locality: Brighton
   country-name: England
 summary: In thinking about the fabric of the web, I unpick a few threads and tie myself in knots.
-image: /images/photos/1542802386.jpg
+image:
+  url: /images/photos/1542802386.jpg
+  alt: Close-up of stacked grey fish nets.
 category:
   - Blogging
   - IndieWeb

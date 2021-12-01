@@ -1,7 +1,9 @@
 ---
 title: On the run during lockdown
 summary: Photos from my runs during the lockdown of 2020.
-image: /images/photos/1586888100.jpg
+image:
+  url: /images/photos/1586888100.jpg
+  alt: Sun setting over the Level.
 itemsComponent: card
 itemsModifier: photos
 ---
