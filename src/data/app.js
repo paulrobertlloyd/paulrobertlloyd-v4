@@ -7,8 +7,8 @@ module.exports = {
   themeColorDark: '#26272b',
   accentColor: '#20e',
   backgroundColor: '#fff',
-  favicon: '/images/app/favicon.svg',
-  icon: '/images/app/icon.png',
+  favicon: '/favicon.svg',
+  icon: '/icon.png',
   language: 'en-GB',
   endpoint: {
     auth: 'https://indieauth.com/auth',
