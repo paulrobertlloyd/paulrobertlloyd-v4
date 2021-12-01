@@ -46,7 +46,7 @@ Oslo turned out to be the highlight of this trip, delivering the beautiful snow-
 
 I’m pleased with how [my travelogue][8] turned out. While it doesn’t match the calibre of Palin’s writing, I’m glad I recorded the one opportunity I got to travel in 2020.
 
-![](/images/2020/02/stockholm/departure.jpg 'At Stockholm Central Station before boarding the train to Gothenburg.')
+![](/articles/2020/02/stockholm/departure.jpg 'At Stockholm Central Station before boarding the train to Gothenburg.')
 {.align-bleed}
 
 ## The gathering storm

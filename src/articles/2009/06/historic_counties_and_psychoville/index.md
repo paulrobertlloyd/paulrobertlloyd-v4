@@ -37,13 +37,13 @@ Such confusion was evident when I sat down to watch [Psychoville][10] last Frida
 
 ### Salford, Manchester
 
-![Psychoville onscreen title for Salford, Manchester](/images/2009/06/historic_counties_and_psychoville/salford.jpg)
+![Psychoville onscreen title for Salford, Manchester](salford.jpg)
 
 The first location named was technically wrong (but no doubt commonly used) in that it should have read “Salford, Greater Manchester”. Had it used an historic county, this would have been “Salford, Lancashire”.
 
 ### Bristol, Avon
 
-![Psychoville onscreen title for Bristol, Avon](/images/2009/06/historic_counties_and_psychoville/bristol.jpg)
+![Psychoville onscreen title for Bristol, Avon](bristol.jpg)
 
 This graphic is perhaps the best example as to why we should return to using historic counties in addresses given that Avon no longer exists! Created as part of the 1972 reorganisation, it was abolished in 1996 and replaced with four unitary authorities, three of which returned to their ceremonial counties of Somerset and Gloucestershire (whilst Bristol became a ceremonial county in its own right).
 
@@ -51,19 +51,19 @@ Using an historic county would have resulted in the location referred to as “B
 
 ### Ilkley, Yorkshire
 
-![Psychoville onscreen title for Ilkley, Yorkshire](/images/2009/06/historic_counties_and_psychoville/ilkley.jpg)
+![Psychoville onscreen title for Ilkley, Yorkshire](ilkley.jpg)
 
 The third location given is actually shown on-screen using an historic county, but if you watch closely you will see the actual letter has the address written down as North Yorkshire — an unfortunate error as Ilkley is in the West Riding.
 
 ### Eastbourne, Sussex
 
-![Psychoville onscreen title for Eastbourne, Sussex](/images/2009/06/historic_counties_and_psychoville/eastbourne.jpg)
+![Psychoville onscreen title for Eastbourne, Sussex](eastbourne.jpg)
 
 This location was also referenced using a historic county, with Sussex displayed instead of the current ceremonial county of East Sussex. I suspect this may have been due to the space available on screen.
 
 ### Wood Green, London
 
-![Psychoville onscreen title for Wood Green, London](/images/2009/06/historic_counties_and_psychoville/wood_green.jpg)
+![Psychoville onscreen title for Wood Green, London](wood_green.jpg)
 
 Formally Wood Green was a municipal borough within the county of Middlesex, but is now part of the London Borough of Haringey, one of 32 London boroughs within Greater London. This is a bit of an anomaly, as Greater London is formerly classed as an *administrative area* and *local government region*, but *not* a county.
 
