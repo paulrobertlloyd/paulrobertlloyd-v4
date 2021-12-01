@@ -164,6 +164,10 @@ from = "/articles/:year/"
 to = "/:year/"
 
 [[redirects]]
+from = "/:year/:month/*"
+to = "/articles/:year/:month/:splat"
+
+[[redirects]]
 from = "/bookmarks/"
 to = "/bookmarks/page/:page"
 status = 200
