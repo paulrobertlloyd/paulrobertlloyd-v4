@@ -1,14 +1,14 @@
 ---
 eleventyExcludeFromCollections: true
+layout: page
 title: Styleguide
 summary: An overview of the typographic and layout styles available for content pages
-permalink: styleguide/
 ---
 The content on this page lies within the `.s-linear` scope[^1].
 
 ## Second-level heading
 
-Main page headings are `h1` elements, so futher headings within this scope should start with `h2`, an example of which appears directly above. More than one may be used per page. Consider using an `h2` unless you need a header level of less importance, or as a sub-header to an existing `h2` element.
+Main page headings are `h1` elements, so further headings within this scope should start with `h2`, an example of which appears directly above. More than one may be used per page. Consider using an `h2` unless you need a header level of less importance, or as a sub-header to an existing `h2` element.
 
 ### Third-level heading
 
