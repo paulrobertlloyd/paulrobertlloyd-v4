@@ -2,12 +2,14 @@
 title: 'Fantasies of the Future: Design in a World Being Eaten by Software'
 date: 2018-04-05T19:30:00+01:00
 summary: When the prevailing culture permits the creation of products that undermine and exploit users, will designers stand up to protect them?
-image: /images/2018/04/create_leicester/image.jpg
+image:
+  url: /presentations/2018/04/create_leicester/image.jpg
+  alt: Mark Zuckerberg.
 tags:
   - featured
 slides:
   - image:
-      url: /images/2018/04/create_leicester/1.png
+      url: 1.png
     notes: |
       Imagine you were designing a city. Where would you start? Perhaps with its layout?
 
@@ -17,13 +19,13 @@ slides:
 
       A city with such a layout exists. It is called Brasília, and it is the capital of Brazil.
   - image:
-      url: /images/2018/04/create_leicester/2.jpg
+      url: 2.jpg
     notes: |
       Until 1960, Brazil’s capital was Rio de Janeiro. A coastal city, it was seen as vulnerable to attack, with the country’s republican constitution of 1891 stating that the capital should move inland.
 
       It wasn’t until [Juscelino Kubitschek](https://en.wikipedia.org/wiki/Juscelino_Kubitschek) became President in 1956, that its construction would be ordered. His election campaign had promised “fifty years of prosperity in five” and building a new capital was a key pledge. By this point, moving the capital for defensive reasons made little sense. No, this was more of a political gesture; a means of announcing Brazil to the world as an optimistic and forward-looking country, ready to move on from its colonial past.
   - image:
-      url: /images/2018/04/create_leicester/3.jpg
+      url: 3.jpg
     notes: |
       Kubitschek invited the architect [Oscar Niemeyer](https://en.wikipedia.org/wiki/Oscar_Niemeyer) to design the capital’s landmark civic buildings, with [Lúcio Costa](https://en.wikipedia.org/wiki/Lucio_Costa) winning the contest to arrange it’s urban plan.
 
@@ -31,7 +33,7 @@ slides:
 
       Le Corbusier – considered the pioneer of modern urbanism – believed that good architecture could produce good societies. He advocated ideas like organising cities around zones within which different activities would take place, and lifting residential areas off from the ground so that cars and other services could run underneath.
   - image:
-      url: /images/2018/04/create_leicester/4.png
+      url: 4.png
     notes: |
       Adopting these ideas as the basis for their project, and with Brazil’s vast and unpopulated central plateau as their canvas, Costa and Niemeyer got to work.
 
@@ -39,7 +41,7 @@ slides:
 
       Beyond acting as a symbol for a bold and modern country, they hoped their design could help transform Brazil’s heavily stratified society into a more egalitarian one. They imagined governors and ambassadors, living next to janitors and labourers, with everyone using the same entrances and sharing the same spaces.
   - image:
-      url: /images/2018/04/create_leicester/5.jpg
+      url: 5.jpg
     notes: |
       After just 41 months of construction, their new city was born.
 
@@ -49,7 +51,7 @@ slides:
 
       Built around the car, distances between buildings are often too large and everything just feels disconnected. Its environment is somewhat stark and sterile – to the extent that many residents will head to the airport on a Friday evening to escape to the more vibrant cities of São Paulo and Rio.
   - image:
-      url: /images/2018/04/create_leicester/6.jpg
+      url: 6.jpg
     notes: |
       But the city has much bigger problems, and they stem from Costa’s distinctive bird-like layout that you saw earlier.
 
@@ -57,7 +59,7 @@ slides:
 
       My brother lives in Brazil. He told me that most citizens consider Brasília to be a city built for the rich, by the rich. Quite different from the egalitarian aspirations of its two architects.
   - image:
-      url: /images/2018/04/create_leicester/7.jpg
+      url: 7.jpg
     notes: |
       In 1980, [the art critic Robert Hughes said](https://www.youtube.com/watch?v=C04JZsoqs1A)…
 
@@ -67,7 +69,7 @@ slides:
 
       But what of the political aspirations that surround our work?
   - image:
-      url: /images/2018/04/create_leicester/8.png
+      url: 8.png
     notes: |
       In 2011, Marc Andreessen penned [an essay for the Wall Street Journal](https://a16z.com/2011/08/20/why-software-is-eating-the-world/), in which he suggested that every company needed to become a software company for it to remain relevant:
 
@@ -75,7 +77,7 @@ slides:
 
       He was right. We’re now in the midst of a cultural shift in which technology companies are dictating large parts of our economy. And they have largely benefited from two phenomena.
   - image:
-      url: /images/2018/04/create_leicester/9.jpg
+      url: 9.jpg
     notes: |
       The first is network effects.
 
@@ -83,13 +85,13 @@ slides:
 
       The Internet has clearly benefitted from this effect, and by extension so have the companies built upon it.
   - image:
-      url: /images/2018/04/create_leicester/10.jpg
+      url: 10.jpg
     notes: |
       The second phenomenon has been the decreasing cost of hardware. This has essentially been driven down to zero – even more so since companies like Amazon have commoditised the infrastructure required for data storage and delivery.
 
       So, with a low cost base, a potential audience of billions, and exponential growth an inherent trait of the platform, the Internet has become a haven for investors, with limitless venture capital made available to those who believe they can take advantage of these factors.
   - image:
-      url: /images/2018/04/create_leicester/11.jpg
+      url: 11.jpg
     notes: |
       Given this emphasis on technology, Silicon Valley has become the epicentre of our industry.
 
@@ -97,7 +99,7 @@ slides:
 
       It’s a place where the only question that matters is can it be done, never should it be done.
   - image:
-      url: /images/2018/04/create_leicester/12.png
+      url: 12.png
     notes: |
       That many of these companies were founded by engineers, means they suffer from intensely technocratic cultures. Within it, design was regarded as little more than decoration; an activity you would tack on to the end of a product’s development, once the important work had been done.
 
@@ -105,7 +107,7 @@ slides:
 
       At Yahoo, its former CEO Marissa Mayer, talked about how she and a small team of in-house designers [came up with the company’s new logo during a weekend](https://marissamayr.tumblr.com/post/60336044815/geeking-out-on-the-logo) – and you could tell! I wonder if they tested 41 shades of purple, too?
   - image:
-      url: /images/2018/04/create_leicester/13.jpg
+      url: 13.jpg
     notes: |
       It wasn’t until Steve Jobs led Apple to become the largest publicly traded corporation in the world, that other technology companies started to take design seriously. His incessant focus on design was exemplified by the launch of the iPod and later the iPhone. Proof – if it were needed – that consumers valued good design.
 
@@ -113,7 +115,7 @@ slides:
 
       Designers had finally found themselves a seat at the top table.
   - image:
-      url: /images/2018/04/create_leicester/14.png
+      url: 14.png
     notes: |
       But what of the companies in which that table sat?
 
@@ -121,7 +123,7 @@ slides:
 
       As I’ve watched these companies grow ever more dominant and successful, so I have seen the ideas they promote percolate through into the wider digital design and development communities. Look at these ideas in any detail, and you will see a number of priorities emerge. Once you notice them, like the dodgy kerning on Yahoo’s logo, they can’t be unseen.
   - image:
-      url: /images/2018/04/create_leicester/15.png
+      url: 15.png
     notes: |
       The first of these priorities is growth and the desire to build at scale.
 
@@ -129,7 +131,7 @@ slides:
 
       Yet these monetary reasons have been obscured and reframed by the sort of idealism that often creeps into Silicon Valley’s groupthink, with its leaders seeing growth as a moral imperative.
   - image:
-      url: /images/2018/04/create_leicester/16.png
+      url: 16.png
     notes: |
       In [an internal memo](https://www.buzzfeed.com/ryanmac/growth-at-any-cost-top-facebook-executive-defended-data) written in 2016, a senior executive at Facebook attempted to justify the company’s growth at all cost strategy:
 
@@ -139,7 +141,7 @@ slides:
 
       Over at Twitter, its a fundamental belief in free-speech – whatever that speech may contain – has been used as cover for its desire to grow, yet the result has been to create a network distinguished by its poisonous and unpleasant atmosphere.
   - image:
-      url: /images/2018/04/create_leicester/17.png
+      url: 17.png
     notes: |
       On a more practical level, designing at scale requires skill, patience and an acceptance that the more users means accounting for greater diversity.
 
@@ -147,7 +149,7 @@ slides:
 
       To approach design with the same mindset is problematic. A decision that may adversely affect 0.001% of users can be dismissed as an edge case, but if your product serves 2 billion users, that decision will still affect 2 million people. People are not edge cases.
   - image:
-      url: /images/2018/04/create_leicester/18.png
+      url: 18.png
     notes: |
       The second priority is speed, by which I mean the desire to ship new features quickly.
 
@@ -157,7 +159,7 @@ slides:
 
       This focus on speed has led to a variety of processes and workflows being adopted.
   - image:
-      url: /images/2018/04/create_leicester/19.jpg
+      url: 19.jpg
     notes: |
       Chief among these is Agile. A product of software delivery, it’s a process designers often need to slot into. They will talk about the difficulty of making long-term decisions or being able to look holistically at problems, when this process demands small pieces of separated work.
 
@@ -165,7 +167,7 @@ slides:
 
       If designing for an audience of billions encourages you to make generalisations, then operating at speed leaves you little time to consider the potential ramifications.
   - image:
-      url: /images/2018/04/create_leicester/20.jpg
+      url: 20.jpg
     notes: |
       This emphasis on speed has also dictated the shape of our tools.
 
@@ -173,25 +175,25 @@ slides:
 
       There is also a growing sense that these tools are being adopted primarily for the benefit of internal team dynamics – the rise of the term *developer experience* being just one signifier.
   - image:
-      url: /images/2018/04/create_leicester/21.png
+      url: 21.png
     notes: |
       Finally, there’s this compulsive deference to data, and the idea that the more of it you can collate, the better informed you will be about your customers and how they use your product.
 
       Data acquisition has become an addiction. Companies collect and hoard data even if they don’t need it. Further still, they have been poor custodians. Last month it was a breach at Facebook. Before that it was Equifax, LinkedIn and Yahoo. If data is the new oil, then storing large amounts means building your company on top of a highly flammable material.
   - image:
-      url: /images/2018/04/create_leicester/22.png
+      url: 22.png
     notes: |
       At this year’s Webstock in New Zealand, Nat Dudley gave [a powerful talk about inclusive design](https://medium.com/@natdudley/d28324b7c348). She noted that storing data about people, especially those in minorities or in vulnerable situations, can put them at risk ~~should it~~ when it leaks.
 
       > You cannot design an inclusive-first system if you’re not thinking about the threat models of your most vulnerable users.
   - image:
-      url: /images/2018/04/create_leicester/23.jpg
+      url: 23.jpg
     notes: |
       Besides, focus too hard on the numbers, and you end up making incremental changes and optimising within local maximums. Rather than seek out new approaches, ultimately this can result in a company becoming vulnerable to disruption from competitors who *have* chosen to experiment.
 
       And let’s not forget that data can very be easily manipulated. Depending on how you choose to query or present it, different stories can be told.
   - image:
-      url: /images/2018/04/create_leicester/24.jpg
+      url: 24.jpg
     notes: |
       You needn’t look far to find the effects these priorities can have on the design of digital products. Perhaps there’s no better example than that of Booking.com.
 
@@ -199,19 +201,19 @@ slides:
 
       How on earth does a design team end up producing such a user-hostile product like this?
   - image:
-      url: /images/2018/04/create_leicester/25.png
+      url: 25.png
     notes: |
       Stuart Frisby, Booking.com’s Director of Design, [speaking at Leading Design conference last year](https://vimeo.com/243670568), talked about how he joined an engineering-led company heavily invested in A/B testing. Rather than question if this was the right approach, he saw this as a means of measuring the value his team could provide to the company.
 
       At [an earlier talk he gave in 2015](https://www.youtube.com/watch?v=VQpQ0YHSfqM), he talked about how and why booking.com uses A/B testing…
   - image:
-      url: /images/2018/04/create_leicester/26.jpg
+      url: 26.jpg
     notes: |
       > One of the core principles and core cultures of our organisation is that we want to be very customer focused, and **A/B testing is really a way for us to institutionalise that customer focus in a way that makes it very difficult for us to be anything else**. All of the features that we deliver are designed, developed and tested in order to validate that they are already better than what we have for customers.
 
       Having a focus on the customer sounds great. Yet, here’s what Stuart said just a few moments later:
   - image:
-      url: /images/2018/04/create_leicester/27.jpg
+      url: 27.jpg
     notes: |
       > So you have a hypothesis. The next step is to figure out how you prove if that hypothesis or true or not, so we go through a process of metric setting. For us as an e-commerce company, it’s pretty straight-forward: **that key metric is always do we earn more money doing this or less**.
 
@@ -219,7 +221,7 @@ slides:
 
       Making more money and treating customers with respect are not mutually exclusive; you need to find the sweet spot between making money and having happy customers. Booking.com have decided to focus exclusively on the former, [with predictable results](https://thenextweb.com/contributors/2017/09/21/booking-com-uses-stress-rush-decisions/).
   - image:
-      url: /images/2018/04/create_leicester/28.png
+      url: 28.png
     notes: |
       [Dark patterns](https://darkpatterns.org) are interfaces purposely designed to trick you into doing something you hadn’t intended. Unsurprisingly, Booking.com is drowning in them. They manipulate customers by:
 
@@ -230,13 +232,13 @@ slides:
 
       The site is a visual cacophony of popups and banners, notifications and suggestive microcopy. It’s a disgrace.
   - image:
-      url: /images/2018/04/create_leicester/29.png
+      url: 29.png
     notes: |
       *This* is what you get when you design for political aspirations and not real human needs. You get endlessly click-tracked pages infested with Dark Patterns.
 
       However much a company says it values customers – and most companies say they do – what matters is what’s being measured. If a culture priorities speed, cost and engagement, over quality, value and suitability, then we need to be mindful of the middle-to-long term effects the resulting decisions may have.
   - image:
-      url: /images/2018/04/create_leicester/30.png
+      url: 30.png
     notes: |
       If “culture eats strategy for breakfast”,
 
@@ -246,7 +248,7 @@ slides:
 
       * how do you craft tone-of-voice guidelines for a company that also [produces guidance on how to refer to employees](https://www.theguardian.com/business/2017/apr/05/deliveroo-couriers-employees-managers) such that their rights can be undermined?
   - image:
-      url: /images/2018/04/create_leicester/31.png
+      url: 31.png
     notes: |
       Earlier this year, Joel Califa, a designer at GitHub, described [how internal cultures can subvert designers](http://joelcalifa.com/blog/subverted-design/) such that they end up working in service of business goals at the expense of user needs.
 
@@ -256,7 +258,7 @@ slides:
 
       Joel concluded his piece by arguing that designers could repent before pledging allegiance to users once again. But if we’ve been subverted once, what’s to say we won’t be again?
   - image:
-      url: /images/2018/04/create_leicester/32.jpg
+      url: 32.jpg
     notes: |
       It seems as if designers have been tricked into thinking we have a seat at table, when in fact we’ve been taken hostage, only to develop Stockholm syndrome. Eager to demonstrate that we can do more than make things pretty, we brought our cognitive insights to the table and talked about persuasive design in order to bolster our credibility. In doing so, we became complicit in exploiting users.
 
@@ -264,7 +266,7 @@ slides:
 
       Fortunately, a conversation is emerging around possible solutions.
   - image:
-      url: /images/2018/04/create_leicester/33.png
+      url: 33.png
     notes: |
       Some are [making the case for a code of ethics](https://medium.com/@monteiro/ac7289549017), perhaps some a kind of Hippocratic Oath for designers.
 
@@ -272,7 +274,7 @@ slides:
 
       Others argue that design is already a fairly exclusive cabal, and such a scheme would only serve to make design less accessible and exaggerate its elitist tendancies. Surely, far better to educate people about what design is and how it can be used to achieve both good and bad outcomes?
   - image:
-      url: /images/2018/04/create_leicester/34.png
+      url: 34.png
     notes: |
       This is an approach people like Khoi Vinh are advocating. Rather than seeking accreditation, he’s been [advocating for digital design to become subject to thoughtful, critical journalism](https://www.fastcompany.com/90155005/design-discourse-is-in-a-state-of-arrested-development).
 
@@ -280,7 +282,7 @@ slides:
 
       Therefore, such journalism would require writers that are independent of the industry. Only that way can their words carry any credibility.
   - image:
-      url: /images/2018/04/create_leicester/35.png
+      url: 35.png
     notes: |
       Almost every other creative and commercial endeavour tends to be supported by a critical body of review and critique. Most of us will be familiar with film reviews – [hello to Jason Isaacs](http://witterpedia.net/wiki/index.php/Jason_Isaacs) – but there are examples closer to home too.
 
@@ -290,7 +292,7 @@ slides:
 
       Like the companies they work for, corporate designers need some form of oversight too.
   - image:
-      url: /images/2018/04/create_leicester/36.jpg
+      url: 36.jpg
     notes: |
       Until such independent appraisal exists, we need to take it upon ourselves to be more critical and introspective. This shouldn’t be too hard. After all, design is all about questioning what already exists and asking how it could be improved for the better.
 
@@ -298,7 +300,7 @@ slides:
 
       Perhaps we need a new set of motivational posters. Rather than “move fast and break things”, perhaps “slow down and ask more questions”.
   - image:
-      url: /images/2018/04/create_leicester/37.jpg
+      url: 37.jpg
     notes: |
       As digital designers, we tend to suffer from the firewall that exists between us the people who experience our work. Regardless of how much user testing and research we undertake, we rarely get to experience first hand what customers’ day-to-day experience is really like.
 
@@ -308,7 +310,7 @@ slides:
 
       The first step is awareness. But to change our culture for the better, we need to take action. Each of us has work to do.
   - image:
-      url: /images/2018/04/create_leicester/38.png
+      url: 38.png
     notes: |
       I want to finish tonight with [this thought from Mark Zuckerberg](https://www.facebook.com/notes/mark-zuckerberg/10155448869996634):
 
@@ -318,7 +320,7 @@ slides:
 
       We have every reason to be optimistic, but at what point does this optimism become blind? The open and democratic futures we imagined the Internet enabling seem quite distant now. Fantasies of a world accepting of the sort of radical transparency Zuckerberg hoped for hasn’t exactly been met with reality.
   - image:
-      url: /images/2018/04/create_leicester/39.jpg
+      url: 39.jpg
     notes: |
       As my friend [Cennydd likes to says](https://twitter.com/Cennydd/status/227862829343059969):
 
