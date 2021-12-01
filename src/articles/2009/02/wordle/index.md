@@ -8,7 +8,7 @@ image:
 category:
   - Blogging
 ---
-![](/images/2009/02/wordle.png 'Wordle.')
+![](image.png 'Wordle.')
 
 This is a word cloud generated from content that has appeared on my site over the last few months. You can create your own word clouds at [wordle.net][1]
 
