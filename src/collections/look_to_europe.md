@@ -2,7 +2,7 @@
 title: Look to Europe
 summary: In the countdown to Britain leaving the European Union, during January 2020 I shared 31 images from my travels around Europe.
 image:
-  url: /images/photos/1579334400.jpg
+  url: /media/1579334400.jpg
   alt: A female figure holds aloft a ring of 12 stars.
 itemsComponent: card
 itemsModifier: photos
