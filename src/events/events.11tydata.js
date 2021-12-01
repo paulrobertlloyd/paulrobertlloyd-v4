@@ -1,5 +1,5 @@
-const getImagePath = require('../../../lib/utils/get-image-path.js');
-const getMovie = require('../../../lib/utils/get-movie.js');
+const getImagePath = require('../../lib/utils/get-image-path.js');
+const getMovie = require('../../lib/utils/get-movie.js');
 
 module.exports = {
   layout: 'event',
