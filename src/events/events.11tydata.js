@@ -2,8 +2,6 @@ const getImagePath = require('../../lib/utils/get-image-path.js');
 const getMovie = require('../../lib/utils/get-movie.js');
 
 module.exports = {
-  layout: 'event',
-  permalink: 'events/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
   tags: ['event'],
   vocab: 'event',
   rsvp: 'yes',
@@ -13,10 +11,10 @@ module.exports = {
     image: async data => {
       const {movie, page} = data;
       if (movie) {
-        return getImagePath(movie.Poster, page.fileSlug, 'events');
+        return getImagePath(movie.Poster, data.event.slug, 'events');
       }
     },
-    movie: data => {
+    movie: async data => {
       const {url} = data;
       if (url && url.includes('imdb.com')) {
         return getMovie(url);
@@ -24,8 +22,11 @@ module.exports = {
     },
     place: data => {
       const places = data.collections.place;
-      if (places) {
-        return places.find(place => place.data.place.address['plus-code'] === data.placeId);
+      const {placeId} = data.event;
+      if (places && placeId) {
+        return places
+           .map(place => place.data.place)
+           .find(place => place.address['plus-code'] === placeId)
       }
     },
     product: async data => {
@@ -46,7 +47,11 @@ module.exports = {
         };
       }
     },
-    summary: data => data.movie ? data.movie.Plot : data.summary,
-    summaryCard: 'summary',
+    slug: data => data.event.slug,
+    summary: data => data.movie ? data.movie.Plot : data.event.summary,
+    url: data => data.event.url,
+    end: data => data.event.end,
+    start: data => data.event.start,
+    category: data => data.event.category || [],
   },
 };

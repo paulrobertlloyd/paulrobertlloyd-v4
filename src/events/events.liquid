@@ -9,6 +9,7 @@ pagination:
   size: 48
 permalink: "events/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}.html{% else %}/{% endif %}"
 override:tags: []
+override:event: {}
 changefreq: weekly
 priority: 0.9
 ---
@@ -16,12 +17,14 @@ priority: 0.9
   {%- render 'section' with collections.attending
     id: 'attending'
     title: 'Attending'
+    itemsComponent: 'event'
     itemsModifier: 'inline'
   -%}
 {%- endif %}
 {%- render 'section' with pagination.items
   id: 'attended'
   title: 'Attended'
-  itemsModifier: 'inline'
+  itemsComponent: 'event'
+  itemsModifier: 'inline',
 -%}
 {%- render 'pagination' with pagination -%}

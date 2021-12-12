@@ -15,12 +15,12 @@
 
 {%- if item.data.place and hideSummary != true -%}
   <div class="item__main s-linear | p-location">
-    <p class="h-card">at <span class="p-name">{{ item.data.place.data.place.title }}</span></p>
+    <p class="h-card">at <span class="p-name">{{ item.data.place.title }}</span></p>
   </div>
 {%- endif -%}
 
   <footer class="item__footer">
-    <time class="dt-published" datetime="{{ item.date | date: dates.iso }}">{{ item.date | date: dates.date_short }}</time>
+    <time class="dt-published" datetime="{{ item.data.start | date: dates.iso }}">{{ item.data.start | date: dates.date_short }}</time>
     <time class="dt-start" datetime="{{ item.data.start | date: dates.iso }}"></time>
     <time class="dt-end" datetime="{{ item.data.end | date: dates.iso }}"></time>
   </footer>

@@ -668,7 +668,7 @@ module.exports = [{
     locality: 'Monte Carlo',
     'country-name': 'Monaco',
     'postal-code': '98000',
-    'plus-code': '8FM9PCMC+RH',
+    'plus-code': '8FM9PCMC+VG',
   },
 }, {
   title: 'Hampden Park',

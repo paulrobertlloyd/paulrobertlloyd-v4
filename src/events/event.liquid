@@ -1,0 +1,11 @@
+---
+layout: event
+pagination:
+  data: events
+  size: 1
+  alias: event
+  addAllPagesToCollections: true
+permalink: "events/{{ event.start | date: '%Y/%m' }}/{{ event.slug }}/"
+eleventyComputed:
+  title: "{{ event.title }}"
+---
