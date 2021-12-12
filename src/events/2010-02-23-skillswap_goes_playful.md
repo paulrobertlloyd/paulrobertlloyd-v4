@@ -6,5 +6,5 @@ category:
   - Skillswap
 start: 2010-02-23T19:00:00Z
 end: 2010-02-23T21:00:00Z
-placeId: 9C2XRVG6+9M
+placeId: 9C2XRVG6+CP
 ---

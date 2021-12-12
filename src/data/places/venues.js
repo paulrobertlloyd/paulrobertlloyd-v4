@@ -78,6 +78,36 @@ module.exports = [{
     'plus-code': '9C7RWRX3+WV',
   },
 }, {
+  title: 'Badoo',
+  address: {
+    'street-address': '2 Sheraton Street',
+    locality: 'Soho',
+    region: 'Greater London',
+    'country-name': 'England',
+    'postal-code': 'W1F 8BH',
+    'plus-code': '9C3XGV88+25',
+  },
+}, {
+  title: 'Battersea Park',
+  address: {
+    'street-address': 'Central Avenue',
+    locality: 'Battersea',
+    region: 'Greater London',
+    'country-name': 'England',
+    'postal-code': 'SW11 4NJ',
+    'plus-code': '9C3XFRHR+PP',
+  },
+}, {
+  title: 'BBC Television Centre',
+  address: {
+    'street-address': 'Wood Lane',
+    locality: 'White City',
+    region: 'Greater London',
+    'country-name': 'England',
+    'postal-code': 'W12 7RJ',
+    'plus-code': '9C3XGQ7C+9R',
+  },
+}, {
   title: 'Bernard B. Jacobs Theatre',
   address: {
     'street-address': '242 West 45th Street',
@@ -159,6 +189,16 @@ module.exports = [{
     'plus-code': '9C3XGV98+4J',
   },
 }, {
+  title: 'Brighthelm Church & Community Centre United Reformed Church',
+  address: {
+    'street-address': 'North Road',
+    locality: 'Brighton',
+    region: 'Sussex',
+    'country-name': 'England',
+    'postal-code': 'BN1 1YD',
+    'plus-code': '9C2XRVG5+96',
+  },
+}, {
   title: 'Brighton Centre',
   address: {
     'street-address': 'Kings Road',
@@ -166,7 +206,7 @@ module.exports = [{
     region: 'Sussex',
     'country-name': 'England',
     'postal-code': 'BN1 2GR',
-    'plus-code': '9C2XRVC3+CC',
+    'plus-code': '9C2XRVC3+JF',
   },
 }, {
   title: 'Brighton Dome',
@@ -186,7 +226,7 @@ module.exports = [{
     region: 'Lothian',
     'country-name': 'Scotland',
     'postal-code': 'EH8 9AL',
-    'plus-code': '9C7RWRW6+6G',
+    'plus-code': '9C7RWRW6+5G',
   },
   content: 'Operates under the name _Underbelly Bristo Square_ during the Edinburgh Festival Fringe.',
 }, {
@@ -198,6 +238,16 @@ module.exports = [{
     'country-name': 'United States',
     'postal-code': '11205',
     'plus-code': '87G8P22H+RM',
+  },
+}, {
+  title: 'BT Tower',
+  address: {
+    'street-address': '60 Cleveland Mews',
+    locality: 'Fitzrovia',
+    region: 'Greater London',
+    'country-name': 'England',
+    'postal-code': 'W1T 4JZ',
+    'plus-code': '9C3XGVC6+FG',
   },
 }, {
   title: 'CEFCU Stadium',
@@ -346,7 +396,7 @@ module.exports = [{
     'plus-code': '9C2XRVF6+FG',
   },
 }, {
-  title: 'D&amp;AD',
+  title: 'D&AD',
   url: 'https://www.dandad.org/',
   address: {
     'street-address': '64 Cheshire Street',
@@ -365,7 +415,7 @@ module.exports = [{
     region: 'Sussex',
     'country-name': 'England',
     'postal-code': 'TN40 1DP',
-    'plus-code': '9F22RFPC+XW',
+    'plus-code': '9F22RFQC+2G',
   },
 }, {
   title: 'Depot',
@@ -548,6 +598,16 @@ module.exports = [{
     'plus-code': '9C3XGV4Q+55',
   },
 }, {
+  title: 'Friends Meeting House',
+  address: {
+    'street-address': 'Ship Street',
+    locality: 'Brighton',
+    region: 'Sussex',
+    'country-name': 'England',
+    'postal-code': 'BN1 1AF',
+    'plus-code': '9C2XRVC5+J6',
+  },
+}, {
   title: 'Gagosian',
   url: 'https://gagosian.com/locations/london-britannia-street/',
   address: {
@@ -663,6 +723,16 @@ module.exports = [{
     'plus-code': '9C3XGV3F+X6',
   },
 }, {
+  title: 'Hotel Mundial',
+  address: {
+    'street-address': '4 Dray Walk',
+    locality: 'Whitechapel',
+    region: 'Greater London',
+    'country-name': 'England',
+    'postal-code': 'E1 6QL',
+    'plus-code': '9C3XGWCG+8X',
+  },
+}, {
   title: 'Hove Town Hall',
   address: {
     'street-address': 'Church Road',
@@ -693,14 +763,14 @@ module.exports = [{
     'plus-code': '9C3WQP6M+3C',
   },
 }, {
-  title: 'Jug &amp; Jester',
+  title: 'Jug & Jester',
   address: {
-    'street-address': '11 Bath St',
+    'street-address': '11-13 Bath St',
     locality: 'Royal Leamington Spa',
     region: 'Warwickshire',
     'country-name': 'England',
     'postal-code': 'CV31 3AF',
-    'plus-code': '9C4W7FP8+7R',
+    'plus-code': '9C4W7FP8+6V',
   },
 }, {
   title: 'Kensington Conference and Events Centre',
@@ -816,7 +886,7 @@ module.exports = [{
     region: 'Sussex',
     'country-name': 'England',
     'postal-code': 'BN1 4AJ',
-    'plus-code': '9C2XRVG6+9M',
+    'plus-code': '9C2XRVG6+CP',
   },
 }, {
   title: 'Logan Hall',
@@ -896,6 +966,16 @@ module.exports = [{
     'plus-code': '99PW43Q3+79',
   },
 }, {
+  title: 'O2 Shepherd’s Bush Empire',
+  address: {
+    'street-address': 'Shepherd’s Bush Green',
+    locality: 'Shepherd’s Bush',
+    region: 'Greater London',
+    'country-name': 'England',
+    'postal-code': 'W12 8TT',
+    'plus-code': '9C3XGQ3G+96',
+  },
+}, {
   title: 'Odeon Cinema',
   url: 'https://www.odeon.co.uk/cinemas/brighton/71/',
   address: {
@@ -904,7 +984,7 @@ module.exports = [{
     region: 'Sussex',
     'country-name': 'England',
     'postal-code': 'BN1 2RE',
-    'plus-code': '9C2XRVC3+CV',
+    'plus-code': '9C2XRVC3+CW',
   },
 }, {
   title: 'Odeon Cinema',
@@ -915,7 +995,7 @@ module.exports = [{
     region: 'Greater London',
     'country-name': 'England',
     'postal-code': 'SE10 0QJ',
-    'plus-code': '9F32F2R7+64',
+    'plus-code': '9F32F2R7+65',
   },
 }, {
   title: 'Odeon Cinema',
@@ -958,6 +1038,16 @@ module.exports = [{
     'country-name': 'England',
     'postal-code': 'M16 0QG',
     'plus-code': '9C5VFP75+6F',
+  },
+}, {
+  title: 'Open House',
+  address: {
+    'street-address': '146 Springfield Road',
+    locality: 'Brighton',
+    region: 'Sussex',
+    'country-name': 'England',
+    'postal-code': 'BN1 6BZ',
+    'plus-code': '9C2XRVP7+VF',
   },
 }, {
   title: 'Oslo Opera House',
@@ -1086,6 +1176,16 @@ module.exports = [{
     'plus-code': '9C3XGV2C+3C',
   },
 }, {
+  title: 'Queen’s Park',
+  address: {
+    'street-address': 'East Drive',
+    locality: 'Brighton',
+    region: 'Sussex',
+    'country-name': 'England',
+    'postal-code': 'SW1P 3EE',
+    'plus-code': '9C2XRVFF+WR',
+  },
+}, {
   title: 'Reid Concert Hall',
   address: {
     'street-address': 'Bristo Square',
@@ -1126,7 +1226,16 @@ module.exports = [{
     region: 'Greater London',
     'country-name': 'England',
     'postal-code': 'TW9 3AE',
-    'plus-code': '9C3XFPH3+FQ',
+    'plus-code': '9C3XFPH3+26',
+  },
+}, {
+  title: 'Ryan’s Bar',
+  address: {
+    locality: '2 Hope Street',
+    region: 'Edinburgh',
+    'country-name': 'Scotland',
+    'postal-code': 'EH2 4DB',
+    'plus-code': '9C7RXQ2R+5H',
   },
 }, {
   title: 'Sadler’s Wells Theatre',
@@ -1327,10 +1436,10 @@ module.exports = [{
     region: 'West Midlands',
     'country-name': 'England',
     'postal-code': 'B1 1LT',
-    'plus-code': '9C4WF3GX+FF',
+    'plus-code': '9C4WF3GX+CG',
   },
 }, {
-  title: 'The All England Lawn Tennis &amp; Croquet Club',
+  title: 'The All England Lawn Tennis & Croquet Club',
   url: 'https://www.wimbledon.com',
   address: {
     'street-address': '3 Church Road',
@@ -1338,7 +1447,7 @@ module.exports = [{
     region: 'Greater London',
     'country-name': 'England',
     'postal-code': 'SW19 5AG',
-    'plus-code': '9C3XCQMP+P6',
+    'plus-code': '9C3XCQMP+P5',
   },
 }, {
   title: 'The Buszy',
@@ -1349,6 +1458,16 @@ module.exports = [{
     'country-name': 'England',
     'postal-code': 'MK9 1LR',
     'plus-code': '9C4X26MH+QQ',
+  },
+}, {
+  title: 'The Comedy Store',
+  address: {
+    'street-address': 'Whitworth Street West',
+    locality: 'Manchester',
+    region: 'Greater Manchester',
+    'country-name': 'England',
+    'postal-code': 'M1 5LH',
+    'plus-code': '9C5VFPFX+RR',
   },
 }, {
   title: 'The Cumberland Hotel',
@@ -1371,14 +1490,14 @@ module.exports = [{
     'plus-code': '9C3XGV6F+35',
   },
 }, {
-  title: 'The Elephant &amp; Castle',
+  title: 'The Elephant & Castle',
   address: {
     'street-address': 'White Hill',
     locality: 'Lewes',
     region: 'Sussex',
     'country-name': 'England',
     'postal-code': 'BN7 2DJ',
-    'plus-code': '9F22V2F5+XC',
+    'plus-code': '9F22V2F5+XF',
   },
 }, {
   title: 'The Fillmore',
@@ -1461,7 +1580,7 @@ module.exports = [{
     region: 'Greater London',
     'country-name': 'England',
     'postal-code': 'N1 9JB',
-    'plus-code': '9C3XGVJQ+PC',
+    'plus-code': '9C3XGVJQ+MC',
   },
 }, {
   title: 'The Library of Birmingham',
@@ -1587,7 +1706,7 @@ module.exports = [{
     region: 'Greater London',
     'country-name': 'England',
     'postal-code': 'SE11 4AA',
-    'plus-code': '9C3XFVPR+C2',
+    'plus-code': '9C3XFVPR+C3',
   },
 }, {
   title: 'University of Greenwich, Avery Hill Campus',
