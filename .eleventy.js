@@ -1,7 +1,5 @@
 require('dotenv').config();
 
-const srcsets = require('./lib/utils/get-srcsets.js');
-
 module.exports = function (eleventy) {
   // Browser Sync
   eleventy.setBrowserSyncConfig({
@@ -54,10 +52,6 @@ module.exports = function (eleventy) {
   eleventy.addShortcode('jsonFeed', require('./lib/shortcodes/json-feed.js'));
 
   // Plugins
-  if (process.env.NODE_ENV === 'production') {
-    eleventy.addPlugin(require('eleventy-plugin-images-responsiver'), srcsets);
-  }
-
   eleventy.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
 
   // Collections
@@ -69,6 +63,9 @@ module.exports = function (eleventy) {
 
   // Transforms
   eleventy.addTransform('embed', require('./lib/transforms/embed.js'));
+  if (process.env.NODE_ENV === 'production') {
+    eleventy.addTransform('image', require('./lib/transforms/image.js'));
+  }
 
   // Passthrough
   eleventy.addPassthroughCopy('./src/key.txt');
