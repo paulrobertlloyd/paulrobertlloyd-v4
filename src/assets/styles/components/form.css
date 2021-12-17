@@ -96,5 +96,5 @@ textarea.form__input {
   @extend %caption;
   color: inherit;
   flex: 0;
-  opacity: 75%;
+  opacity: 0.75;
 }

@@ -32,6 +32,6 @@
 .footer dd:not(:last-of-type)::after {
   content: "·";
   display: inline;
-  opacity: 50%;
+  opacity: 0.5;
   padding-inline: calc(var(--space-inline) / 2);
 }
