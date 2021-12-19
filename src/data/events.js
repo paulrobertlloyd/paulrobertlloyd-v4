@@ -1,7 +1,7 @@
 const cache = require('@11ty/eleventy-cache-assets');
 const {encode} = require('pluscodes');
 const ical = require('node-ical');
-const slugify = require('@sindresorhus/slugify')
+const slugify = require('@sindresorhus/slugify');
 
 /**
  * Convert date to ISO8601
@@ -22,7 +22,7 @@ module.exports = async function () {
 
   try {
     const ics = await cache(url, {
-      duration: '1d',
+      duration: '1s',
       type: 'text',
     });
 
@@ -46,6 +46,11 @@ module.exports = async function () {
           event.category = hashtags.map(tag => tag.replace('#', ''))
           event.description = description.replace(hashtagRegex, '')
         }
+      }
+
+      // Some events have URLs with no value
+      if (event.url && event.url.val === '') {
+        delete event.url
       }
 
       // Event data

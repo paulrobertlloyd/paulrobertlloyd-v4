@@ -5,7 +5,7 @@ module.exports = [{
     region: 'Sussex',
     'country-name': 'England',
     'postal-code': 'BN1 1AL',
-    'plus-code': '9C2XRVC4+CQ',
+    'plus-code': '9C2XRVC4+CV',
   },
 }, {
   title: 'AMC Mercado 20',
