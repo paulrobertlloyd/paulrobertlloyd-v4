@@ -1,6 +1,7 @@
 .s-linear {
   @extend %body;
 
+  --color-link-underline: var(--color-neutral);
   --flow-inset: 1.25em;
   --list-display: list-item;
   --linear-measure: var(--line-measure);
@@ -16,9 +17,9 @@
 }
 
 .s-linear > hr {
-  border-block-end: var(--border-width-thick) solid var(--color-rule);
+  border-block-end: var(--border-width-thick) solid var(--color-accent);
   inline-size: calc(33% - calc(var(--gap) / 2));
-  margin-block: var(--gap);
+  margin-block: calc(var(--flow-space) * 3);
   margin-inline-start: 0;
 }
 
@@ -88,7 +89,7 @@
 .s-linear * + blockquote,
 .s-linear * + figure,
 .s-linear * + table {
-  margin-block-start: var(--gap);
+  margin-block-start: calc(var(--flow-space) * 3);
 }
 
 .s-linear pre:not(:last-child),
@@ -96,7 +97,7 @@
 .s-linear blockquote:not(:last-child),
 .s-linear figure:not(:last-child),
 .s-linear table:not(:last-child) {
-  margin-block-end: var(--gap);
+  margin-block-end: calc(var(--flow-space) * 3);
 }
 
 .s-linear h2:not([class]) {
