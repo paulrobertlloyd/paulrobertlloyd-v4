@@ -8,11 +8,14 @@ a {
   color: var(--anchor-color, inherit);
   text-decoration: var(--anchor-decoration, none);
   text-decoration-color: var(--color-link-underline);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 1.5px;
 }
 
 a:hover {
   color: var(--color-accent);
   text-decoration-color: var(--color-accent);
+  text-decoration-thickness: 2px;
 }
 
 a[aria-current] {

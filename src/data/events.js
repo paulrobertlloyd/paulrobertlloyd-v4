@@ -22,7 +22,7 @@ module.exports = async function () {
 
   try {
     const ics = await cache(url, {
-      duration: '1s',
+      duration: '1d',
       type: 'text',
     });
 
