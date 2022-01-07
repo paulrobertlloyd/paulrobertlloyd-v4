@@ -1,4 +1,5 @@
 ---
+eleventyExcludeFromCollections: true
 title: 'All at Sea: 2021 in Review'
 date: 2022-01-03T22:30:00Z
 location:
@@ -11,8 +12,6 @@ image:
 category:
  - Personal
  - Review of the year
-tags:
- - featured
 accentColor: '#a4d'
 ---
 As the gently rolling waves shimmered in the late summer sunlight, I waded into the Solent. I had taken up sea swimming at the start of the second lockdown, but only now could I enjoy warmer waters. It was a rare moment of peace in a year of heartbreak and loss.
@@ -121,7 +120,7 @@ The atmosphere at work was eerie and strange, her absence keenly felt. “Does t
 
 Bank holiday Monday had given me space to come to terms with her answer. The outcome wasn’t inevitable but it was predictable and supported my working hypothesis of ‘possible, but unlikely’. I knew going into our pact where it might lead. I felt relieved to have got my feelings off my chest and was ready to move on. Plus, we still had our open water swim to look forward to, and I’d be seeing her again on Thursday.
 
-Early on Wednesday morning, I was informed of the heartbreaking news: her dad had passed away. What felt like the right thing to have said on Sunday evening, felt like the absolute worst thing to have said 72 hours later. I wrestled for days with what message to send and how it might be perceived.
+Early on Wednesday morning, I was informed of some heartbreaking news. What felt like the right thing to have said to her on Sunday evening, felt like the absolute worst thing to have said 72 hours later. I wrestled for days with what message to send and how it might be perceived.
 
 From this point forward, these 2 events became frustratingly intertwined.
 
