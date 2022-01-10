@@ -11,7 +11,10 @@ module.exports = {
     image: async data => {
       const {movie, page} = data;
       if (movie) {
-        return getImagePath(movie.Poster, data.event.slug, 'events');
+        return {
+          url: await getImagePath(movie.Poster, data.event.slug, 'events'),
+          alt: `Poster for ‘${data.title}’`
+        }
       }
     },
     movie: async data => {
@@ -33,10 +36,7 @@ module.exports = {
       const {movie} = data;
       if (movie) {
         return {
-          photo: {
-            url: data.image,
-            alt: `Poster for ‘${data.title}’`
-          },
+          photo: data.image,
           title: data.title,
           rating: data.rating,
           info: [
