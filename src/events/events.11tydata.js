@@ -27,9 +27,10 @@ module.exports = {
       const places = data.collections.place;
       const {placeId} = data.event;
       if (places && placeId) {
+        const placeIdStart = placeId.split('+')[0]
         return places
            .map(place => place.data.place)
-           .find(place => place.address['plus-code'] === placeId)
+           .find(place => place.address['plus-code'].startsWith(placeIdStart))
       }
     },
     product: async data => {
