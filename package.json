@@ -41,7 +41,7 @@
     "geolib": "^3.3.1",
     "images-responsiver": "^1.9.1",
     "lodash": "^4.17.21",
-    "markdown-it": "^12.2.0",
+    "markdown-it": "^12.3.2",
     "markdown-it-abbr": "^1.0.4",
     "markdown-it-anchor": "^8.3.1",
     "markdown-it-attribution": "^0.1.4",
