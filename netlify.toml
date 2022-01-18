@@ -147,27 +147,6 @@ from = "/talks/*"
 to = "/presentations/:splat"
 
 [[redirects]]
-from = "/articles/"
-to = "/articles/page/:page"
-status = 200
-force = true
-
-  [redirects.query]
-  page = ":page"
-
-[[redirects]]
-from = "/articles/:year/:month/"
-to = "/:year/:month/"
-
-[[redirects]]
-from = "/articles/:year/"
-to = "/:year/"
-
-[[redirects]]
-from = "/:year/:month/*"
-to = "/articles/:year/:month/:splat"
-
-[[redirects]]
 from = "/bookmarks/"
 to = "/bookmarks/page/:page"
 status = 200
@@ -244,3 +223,24 @@ to = "/:year/:month/"
 [[redirects]]
 from = "/presentations/:year/"
 to = "/:year/"
+
+[[redirects]]
+from = "/articles/"
+to = "/articles/page/:page"
+status = 200
+force = true
+
+  [redirects.query]
+  page = ":page"
+
+[[redirects]]
+from = "/articles/:year/:month/"
+to = "/:year/:month/"
+
+[[redirects]]
+from = "/articles/:year/"
+to = "/:year/"
+
+[[redirects]]
+from = "/:year/:month/*"
+to = "/articles/:year/:month/:splat"
