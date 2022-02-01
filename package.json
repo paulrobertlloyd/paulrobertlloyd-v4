@@ -71,7 +71,7 @@
   "devDependencies": {
     "eslint-plugin-jsdoc": "^37.1.0",
     "markdownlint-cli": "^0.30.0",
-    "stylelint": "^14.0.0",
+    "stylelint": "^14.3.0",
     "stylelint-config-standard": "^24.0.0",
     "stylelint-order": "^5.0.0",
     "xo": "^0.47.0"
