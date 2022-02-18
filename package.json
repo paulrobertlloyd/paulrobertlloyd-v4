@@ -32,12 +32,12 @@
     "@11ty/eleventy-cache-assets": "^2.3.0",
     "@11ty/eleventy-img": "^1.0.0",
     "@11ty/eleventy-plugin-rss": "^1.1.1",
-    "@11ty/eleventy-plugin-syntaxhighlight": "^3.1.2",
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
     "@remy/webmention": "^1.4.5",
     "color": "^4.0.1",
     "cssnano": "^5.0.8",
     "date-fns-tz": "^1.1.6",
-    "dotenv": "^14.0.0",
+    "dotenv": "^16.0.0",
     "geolib": "^3.3.1",
     "images-responsiver": "^1.9.1",
     "lodash": "^4.17.21",
@@ -61,7 +61,7 @@
     "postcss-custom-media": "^8.0.0",
     "postcss-custom-selectors": "^6.0.0",
     "postcss-easy-import": "^3.0.0",
-    "postcss-extend-rule": "^3.0.0",
+    "postcss-extend-rule": "^4.0.0",
     "postcss-logical": "^5.0.0",
     "postcss-media-minmax": "^5.0.0",
     "sanitize-html": "^2.5.2",
@@ -70,11 +70,11 @@
   },
   "devDependencies": {
     "eslint-plugin-jsdoc": "^37.1.0",
-    "markdownlint-cli": "^0.30.0",
+    "markdownlint-cli": "^0.31.1",
     "stylelint": "^14.0.0",
-    "stylelint-config-standard": "^24.0.0",
+    "stylelint-config-standard": "^25.0.0",
     "stylelint-order": "^5.0.0",
-    "xo": "^0.47.0"
+    "xo": "^0.48.0"
   },
   "xo": {
     "space": true,
