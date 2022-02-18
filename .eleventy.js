@@ -18,7 +18,6 @@ module.exports = function (eleventy) {
       navigation: require('./src/data/navigation.js'),
     },
     layouts: './src/layouts',
-    partials: './src/includes',
   });
 
   // Libraries
