@@ -200,4 +200,4 @@ slides:
 ---
 This presentation was delivered at [Discuss a design challenge][1] as part of Services Week 2021.
 
-[1]: /events/2021/03/discuss_a_design_challenge
+[1]: /events/2021/03/04/discuss_a_design_challenge/
