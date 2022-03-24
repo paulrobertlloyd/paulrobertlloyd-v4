@@ -1,4 +1,4 @@
-const cache = require('@11ty/eleventy-cache-assets');
+const EleventyFetch = require('@11ty/eleventy-fetch');
 const {encode} = require('pluscodes');
 const ical = require('node-ical');
 const slugify = require('@sindresorhus/slugify');
@@ -21,7 +21,7 @@ module.exports = async function () {
   const url = `${ENDPOINT}${TOKEN}`;
 
   try {
-    const ics = await cache(url, {
+    const ics = await EleventyFetch(url, {
       duration: '1d',
       type: 'text',
     });

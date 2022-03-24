@@ -1,4 +1,4 @@
-const cache = require('@11ty/eleventy-cache-assets');
+const EleventyFetch = require('@11ty/eleventy-fetch');
 
 module.exports = async function () {
   const ENDPOINT = 'https://webmention.io/api/mentions.jf2';
@@ -7,7 +7,7 @@ module.exports = async function () {
   const endpoint = `${ENDPOINT}?token=${TOKEN}&per-page=999`;
 
   try {
-    const webmentions = await cache(endpoint, {
+    const webmentions = await EleventyFetch(endpoint, {
       duration: '1d',
       type: 'json',
     });
