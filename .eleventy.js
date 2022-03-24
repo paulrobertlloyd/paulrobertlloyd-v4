@@ -1,14 +1,6 @@
 require('dotenv').config();
 
 module.exports = function (eleventy) {
-  // Browser Sync
-  eleventy.setBrowserSyncConfig({
-    rewriteRules: [{
-      match: /\?page=(\d+)/g,
-      replace: 'page/$1.html',
-    }],
-  });
-
   // Liquid
   eleventy.setLiquidOptions({
     cache: true,
