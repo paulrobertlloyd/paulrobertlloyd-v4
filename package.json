@@ -8,7 +8,6 @@
     "personal-website"
   ],
   "author": "Paul Robert Lloyd",
-  "license": "SEE LICENSE IN LICENSE",
   "homepage": "https://github.com/paulrobertlloyd/paulrobertlloyd-v4#readme",
   "repository": "github:paulrobertlloyd/paulrobertlloyd-v4",
   "bugs": "https://github.com/paulrobertlloyd/paulrobertlloyd-v4/issues",
@@ -24,13 +23,10 @@
     "lint": "npm run lint:markdown && npm run lint:scripts && npm run lint:styles",
     "debug": "DEBUG=* npx eleventy"
   },
-  "engines": {
-    "node": "^16.0.0"
-  },
   "dependencies": {
     "@11ty/eleventy": "github:11ty/eleventy",
     "@11ty/eleventy-cache-assets": "^2.3.0",
-    "@11ty/eleventy-img": "^1.0.0",
+    "@11ty/eleventy-img": "^2.0.0",
     "@11ty/eleventy-plugin-rss": "^1.1.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
     "@remy/webmention": "^1.4.5",
@@ -55,7 +51,7 @@
     "mime-type-check": "^2.0.0",
     "netlify-plugin-11ty": "^1.1.0",
     "newbase60": "^1.3.1",
-    "node-ical": "^0.14.1",
+    "node-ical": "^0.15.1",
     "pluscodes": "^2.5.1",
     "postcss": "^8.3.11",
     "postcss-custom-media": "^8.0.0",
@@ -69,12 +65,15 @@
     "turndown": "^7.1.1"
   },
   "devDependencies": {
-    "eslint-plugin-jsdoc": "^37.1.0",
+    "eslint-plugin-jsdoc": "^38.0.6",
     "markdownlint-cli": "^0.31.1",
     "stylelint": "^14.0.0",
     "stylelint-config-standard": "^25.0.0",
     "stylelint-order": "^5.0.0",
     "xo": "^0.48.0"
+  },
+  "engines": {
+    "node": "^16.0.0"
   },
   "xo": {
     "space": true,
