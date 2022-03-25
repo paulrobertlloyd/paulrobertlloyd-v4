@@ -3,10 +3,8 @@
 <article class="card |{% for root in item.data.vocab %} h-{{ root }}{% endfor %}"{% if item.data.duotoneCardImage %} style="--color-accent-light: {{ accentColor | contrast_with: 'black' }}; --color-accent-dark: {{ accentColor | contrast_with: 'white' }}"{% endif %}>
   {%- if item.data.layout == 'photo' -%}
     <a class="card__image | u-url" rel="bookmark" href="{{ item.url }}">
-      {%- render 'image' with item.data.photo[0]
-        class: 'u-photo'
-        preset: 'card-square'
-      -%}
+      {%- assign photo = item.data.photo | first -%}
+      {%- image photo, "card-square", "u-photo" -%}
       {%- if item.data.photo.size > 1 -%}
         <svg width="20" height="20" role="img" aria-labelledby="photos-title" focusable="false">
           <title id="photos-title">{{ item.data.photo.size }} photos in this post</title>

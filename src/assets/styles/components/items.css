@@ -24,6 +24,11 @@
   }
 }
 
+.items--photos img {
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
 .items--inline > * + * {
   margin-block-start: var(--step-1);
 }
