@@ -1,4 +1,12 @@
 module.exports = [{
+  title: 'Aberdeen',
+  address: {
+    locality: 'Aberdeen',
+    'country-name': 'Scotland',
+    'plus-code': '9C9V4WV2+FF',
+  },
+  icon: 'national_rail',
+}, {
   title: 'Amsterdam Centraal',
   iata: 'ZYA',
   address: {
@@ -236,6 +244,14 @@ module.exports = [{
     'country-name': 'Ireland',
     'plus-code': '9C5M9Q22+92',
   },
+}, {
+  title: 'Dundee',
+  address: {
+    locality: 'Dundee',
+    'country-name': 'Scotland',
+    'plus-code': '9C8VF25J+36',
+  },
+  icon: 'national_rail',
 }, {
   title: 'Edinburgh Waverley',
   iata: 'ZXE',

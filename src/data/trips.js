@@ -1017,6 +1017,20 @@ module.exports = function () {
     from: 'LPL',
     to: '9C2XRVH5+GJ',
     via: ['QQU', 'QQS'],
+  }, {
+    date: '2022-04-11',
+    from: '9C2XRVH5+GJ',
+    to: '9C9V4WV2+FF',
+    via: ['ZEP', 'QQU'],
+  }, {
+    date: '2022-04-14',
+    from: '9C9V4WV2+FF',
+    to: '9C8VF25J+36',
+  }, {
+    date: '2022-04-16',
+    from: '9C8VF25J+36',
+    to: '9C2XRVH5+GJ',
+    via: ['QQK', 'QQS'],
   }];
 
   // Trip mode types
