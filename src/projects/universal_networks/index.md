@@ -2,7 +2,7 @@
 title: Universal Networks
 date: 2010-05-03
 summary: Design for NBCUniversal’s international channel portfolio.
-image:
+photo:
   url: /projects/universal_networks/image.jpg
   alt: Universal Networks logo
 category:

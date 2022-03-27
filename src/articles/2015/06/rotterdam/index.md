@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: Some thoughts after spending a few days in the Netherlands’ second city.
-image:
+photo:
   url: /articles/2015/06/rotterdam/centraal_station.jpg
   alt: Rotterdam Centraal Station.
 category:

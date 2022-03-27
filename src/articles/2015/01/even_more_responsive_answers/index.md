@@ -5,7 +5,7 @@ canonical:
   source: net_magazine
   edition: Issue 264
 summary: Answers to questions about responsive design put to me by readers of <cite>net Magazine</cite>.
-image:
+photo:
   url: /articles/2015/01/even_more_responsive_answers/image.png
   alt: The Guardian’s website navigation on a small displays.
 category:

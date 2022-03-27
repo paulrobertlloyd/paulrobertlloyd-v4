@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: Lanyards — the piece of fabric that allows you to hang a conference badge from your neck — have a lifespan of just a few hours. How can we change that?
-image:
+photo:
   url: /articles/2015/07/lanyards/image.jpg
   alt: A collection of lanyards.
 category:

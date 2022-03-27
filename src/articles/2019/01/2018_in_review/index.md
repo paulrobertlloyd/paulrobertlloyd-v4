@@ -5,7 +5,7 @@ location:
   locality: Bexhill-on-Sea
   country-name: England
 summary: Looking back on a well-travelled yet otherwise directionless year.
-image:
+photo:
   url: /articles/2019/01/2018_in_review/oban_bay.jpg
   alt: Peaceful Oban Bay.
 category:

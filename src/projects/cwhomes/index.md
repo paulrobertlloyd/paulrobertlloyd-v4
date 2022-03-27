@@ -2,7 +2,7 @@
 title: cwhomes.co.uk
 date: 2006-01-30
 summary: Property portal for independent estate agents in Coventry and Warwickshire.
-image:
+photo:
   url: /projects/cwhomes/image.jpg
   alt: cwhomes.co.uk logo
 category:

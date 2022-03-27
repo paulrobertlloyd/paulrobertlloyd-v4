@@ -5,7 +5,7 @@ location:
   locality: Littlehampton
   country-name: England
 summary: Growing up, my brother was always the one in our family more interested in American culture. Whilst he followed the NBA and listened to Public Enemy, Wu-Tang Clan and Eminem, I stood to the National Anthem and worried about Britain’s growing closeness to Europe. America was of little importance to me.
-image:
+photo:
   url: /articles/2009/01/obama/rally.jpg
   alt: Barack Obama at a campaign rally in Pueblo, Colorado.
 category:

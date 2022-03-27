@@ -2,7 +2,7 @@
 title: Apture
 date: 2009-05-22
 summary: Designing a powerful publishing tool for the web’s content creators.
-image:
+photo:
   url: /projects/apture/image.jpg
   alt: Apture logo
 category:

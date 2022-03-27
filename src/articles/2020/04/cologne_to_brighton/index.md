@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: Concluding my short adventure across Northern Europe.
-image:
+photo:
   url: /articles/2020/04/cologne_to_brighton/love_locks.jpg
   alt: Love locks on the Hohenzollern Bridge.
 collection: scandinavian_sojourn

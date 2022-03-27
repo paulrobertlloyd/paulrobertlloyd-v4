@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: Good things come to those who wait.
-image:
+photo:
   url: /articles/2021/11/macbook_pro/image.jpg
   alt: The 14- and 16-inch MacBook Pro.
 category:

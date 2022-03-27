@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: A page on my website, dedicated to a cat.
-image:
+photo:
   url: /articles/2012/10/dessie/image.jpg
   alt: Dessie.
 category:

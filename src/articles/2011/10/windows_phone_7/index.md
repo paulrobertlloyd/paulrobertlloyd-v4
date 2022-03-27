@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: With three years of iPhone ownership I’ve become accustomed to the design and behaviour of iOS, yet at the same time ignorant of other smartphone platforms. Thanks to Clearleft’s new mobile testing environment, I can now spend a week or so with different operating systems to get a feel for how they differ. First up; Windows Phone 7.
-image:
+photo:
   url: /articles/2011/10/windows_phone_7/image.jpg
   alt: Windows Phone 7.
 category:

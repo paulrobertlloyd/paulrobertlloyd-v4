@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: Fifty years after the release of <cite>Dr. No</cite>, James Bond returns in <cite>Skyfall</cite>, the twenty-third instalment of the longest continually-running film series in history.
-image:
+photo:
   url: /articles/2012/11/skyfall/image.jpg
   alt: Daniel Craig in Skyfall.
 category:

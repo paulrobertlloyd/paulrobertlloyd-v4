@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: A remarkable present for my 40th birthday.
-image:
+photo:
   url: /articles/2020/08/angels/image.png
   alt: Stills of 10 performers from the video.
 category:

@@ -6,7 +6,7 @@ canonical:
 syndication:
   - http://web.archive.org/web/20190224205008/https://paulrobertlloyd.com/2019/02/look_around_you/
 summary: For all their claims of changing the world, it would seem designers have not only failed to address its more pressing problems, but exaggerated many of its existing ones.
-image:
+photo:
   url: /articles/2019/02/look_around_you/image.png
 category:
   - Design

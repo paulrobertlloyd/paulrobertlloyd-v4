@@ -2,7 +2,7 @@
 title: 24 ways
 date: 2013-12-01
 summary: Award-winning redesign for popular web geek advent calendar.
-image:
+photo:
   url: /projects/24_ways/image.jpg
   alt: 24 ways logo
 category:

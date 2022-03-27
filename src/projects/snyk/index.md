@@ -2,7 +2,7 @@
 title: Snyk
 date: 2017-06-02
 summary: Making it easier for developers to keep their projects secure and vulnerability free.
-image:
+photo:
   url: /projects/snyk/image.jpg
   alt: Snyk logo
 category:

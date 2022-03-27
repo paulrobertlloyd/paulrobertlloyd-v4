@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: Earlier this month I spent a week volunteering at the XX Commonwealth Games in Glasgow.
-image:
+photo:
   url: /articles/2014/08/clyde_sider/hampden.jpg
   alt: The team I worked with during my penultimate shift outside Hampden Park.
 category:

@@ -3,7 +3,7 @@ title: 'Auckland: A City in Search of Itself'
 date: 2010-01-25T23:44:04Z
 summary: Before the tan disappears I’d like to record my short journey across New Zealand and Australia. So over the next few days, I’ll describe how I ended the decade down-under.
 collection: australasia_2009
-image:
+photo:
   url: /articles/2010/01/auckland/cbd.jpg
   alt: Auckland’s CBD viewed from atop Mount Eden.
 category:

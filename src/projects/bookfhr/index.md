@@ -2,7 +2,7 @@
 title: BookFHR
 date: 2009-11-24
 summary: Visual and user experience design for provider of airport travel services.
-image:
+photo:
   url: /projects/bookfhr/image.jpg
   alt: BookFHR logo
 category:

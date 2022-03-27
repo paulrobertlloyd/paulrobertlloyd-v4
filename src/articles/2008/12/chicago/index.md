@@ -3,7 +3,7 @@ title: 'Chicago: A City Apart'
 date: 2008-12-01T02:02:21Z
 summary: I briefly encountered Chicago in March, relaxing there for two nights after three long days aboard the California Zephyr. At that time it was a snow covered, cold and blustery city, but I saw enough to want to come back.
 collection: north_america_2008
-image:
+photo:
   url: /articles/2008/12/chicago/cloud_gate.jpg
   alt: Chicago buildings reflected in the Cloud Gate sculpture.
 category:

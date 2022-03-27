@@ -2,7 +2,7 @@
 title: Channel 4 News
 date: 2010-09-30
 summary: Reinventing Channel 4’s news presence on the iPad.
-image:
+photo:
   url: /projects/channel_4_news/image.jpg
   alt: Channel 4 logo
 category:

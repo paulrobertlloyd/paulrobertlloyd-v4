@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: Because it uses logical values, Flexbox layouts will automatically align according to a document’s text-direction. Well, almost.
-image:
+photo:
   url: /articles/2016/03/logical_flexbox/image.jpg
   alt: Mr. Spock browsing the web on his tablet device.
 category:

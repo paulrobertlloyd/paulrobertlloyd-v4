@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: SVGOMG is a wonderful example of how to build a web app in a responsible and accessible way. I asked its creator, Jake Archibald, a few questions about how he designed and developed this native-feeling SVG optimisation app.
-image:
+photo:
   url: /articles/2015/03/svgomg/image.png
   alt: Screenshot of SVGOMG.
 category:

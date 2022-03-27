@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: Banks aren’t the most likeable organisations, but I’m developing a soft spot for Kiwibank, a New Zealand-based bank competing against larger Australian-based rivals. Their latest advertising campaign suggests they’re willing to stand up for something new “and even a bit crazy”, and in the world of banking, a responsive website is just that.
-image:
+photo:
   url: /articles/2012/05/kiwibank/image.jpg
   alt: The new Kiwibank homepage viewed on different devices.
 category:

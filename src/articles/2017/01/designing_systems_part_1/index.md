@@ -6,7 +6,7 @@ location:
   country-name: England
 summary: 'In the first part of a three-part essay about design systems, I review two approaches for the creation of something equally as complex: a city.'
 collection: designing_systems
-image:
+photo:
   url: /articles/2017/01/designing_systems_part_1/brasilia_satellite.jpg
   alt: Brasília, seen from above, looks like a bird or a plane.
 category:

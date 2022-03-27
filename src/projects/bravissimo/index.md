@@ -2,7 +2,7 @@
 title: Bravissimo
 date: 2016-08-19
 summary: Developing a component library for a lingerie and clothing company for big boobed women.
-image:
+photo:
   url: /projects/bravissimo/image.jpg
   alt: Bravissimo logo
 category:

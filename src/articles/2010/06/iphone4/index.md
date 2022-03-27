@@ -5,7 +5,7 @@ location:
   locality: Walsall
   country-name: England
 summary: I can wait another year before upgrading my iPhone.
-image:
+photo:
   url: /articles/2010/06/iphone4/image.jpg
   alt: The iPhone 4.
 category:

@@ -2,7 +2,7 @@
 title: EC English
 date: 2016-03-11
 summary: Testable prototype for English language school.
-image:
+photo:
   url: /projects/ec_english/image.jpg
   alt: EC English logo
 category:

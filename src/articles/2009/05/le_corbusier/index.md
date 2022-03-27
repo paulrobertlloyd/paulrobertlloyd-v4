@@ -5,7 +5,7 @@ location:
   locality: Littlehampton
   country-name: England
 summary: Yesterday I went to see the Le Corbusier exhibition, currently showing at the Barbican Art Gallery in London.
-image:
+photo:
   url: /articles/2009/05/le_corbusier/image.jpg
   alt: Photo of Le Corbusier.
 category:

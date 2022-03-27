@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: After enough subtle hints, I was happy to unwrap a copy of the Steve Jobs biography at Christmas.
-image:
+photo:
   url: /articles/2012/01/steve_jobs_by_walter_isaacson/image.jpg
   alt: Steve Jobs by Walter Isaacson
 vocab: [entry, review]

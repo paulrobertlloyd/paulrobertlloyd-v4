@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: The work of celebrated illustrator and artist William Kentridge is showcased at the EYE Film Institute in Amsterdam.
-image:
+photo:
   url: /articles/2015/06/william_kentridge/image.jpg
   alt: Still image from ‘Other Faces’.
 category:

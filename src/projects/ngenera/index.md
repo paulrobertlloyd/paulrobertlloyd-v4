@@ -2,7 +2,7 @@
 title: nGenera
 date: 2008-04-25
 summary: Brand identity for on demand enterprise technology platform.
-image:
+photo:
   url: /projects/ngenera/image.jpg
   alt: nGenera logo
 category:

@@ -3,7 +3,7 @@ title: Celebrating the New Year in Sydney
 date: 2010-01-28T23:35:00Z
 summary: Since visiting Sydney in 2003, often considered which city  in the world might be my favourite. As I flew over Sydney Harbour I realised there was no contest.
 collection: australasia_2009
-image:
+photo:
   url: /articles/2010/01/sydney/harbour.jpg
   alt: View of Sydney Harbour on the approach to Sydney Airport.
 category:

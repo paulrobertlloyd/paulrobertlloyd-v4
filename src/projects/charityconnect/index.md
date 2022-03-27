@@ -2,7 +2,7 @@
 title: CharityConnect
 date: 2016-08-19
 summary: Designing a tool to help people in the charity sector connect with each other to share ideas and resources.
-image:
+photo:
   url: /projects/charityconnect/image.jpg
   alt: CharityConnect logo
 category:

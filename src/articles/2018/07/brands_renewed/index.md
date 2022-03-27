@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: An appreciation for identity programmes that seek to refine rather than reinvent.
-image:
+photo:
   url: /articles/2018/07/brands_renewed/image.png
   alt: Previous variations of Tate’s logo, versus the singular version that replaced it in 2016.
 category:

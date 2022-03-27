@@ -2,7 +2,7 @@
 title: UNICEF UK
 date: 2013-07-01
 summary: Mobile-first redesign for leading children’s charity.
-image:
+photo:
   url: /projects/unicef_uk/image.jpg
   alt: UNICEF logo
 category:

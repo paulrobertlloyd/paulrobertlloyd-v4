@@ -2,7 +2,7 @@
 title: DACS
 date: 2012-08-01
 summary: Responsive redesign for non-profit artists’ rights organisation.
-image:
+photo:
   url: /projects/dacs/image.jpg
   alt: DACS logo
 category:

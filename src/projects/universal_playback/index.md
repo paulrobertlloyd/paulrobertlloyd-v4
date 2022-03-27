@@ -2,7 +2,7 @@
 title: Universal Playback
 date: 2010-11-01
 summary: Modular design that showcased a library of television favourites.
-image:
+photo:
   url: /projects/universal_playback/image.jpg
   alt: Universal Playback logo
 category:

@@ -4,7 +4,7 @@ date: 2010-03-29T09:59:52Z
 canonical:
   url: https://agreenfocus.tumblr.com/post/481315894
 summary: A follow-up on Hack The Planet, our hack day held in Birmingham last month.
-image:
+photo:
   url: /articles/2010/03/hack_the_planet_report/image.jpg
   alt: The two teams at work.
 category:

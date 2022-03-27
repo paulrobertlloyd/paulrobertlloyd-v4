@@ -5,7 +5,7 @@ location:
   locality: Amsterdam
   country-name: Netherlands
 summary: The question on the ballot paper demands a simple black or white answer, yet a study of the issues only offers shades of grey.
-image:
+photo:
   url: /articles/2016/06/eu_referendum/image.jpg
   alt: Pastiche of Michelangelo’s ‘The Creation of Adam’.
 category:

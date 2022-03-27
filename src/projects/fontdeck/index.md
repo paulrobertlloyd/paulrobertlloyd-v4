@@ -2,7 +2,7 @@
 title: Fontdeck
 date: 2010-11-30
 summary: Distinctive lead design for purveyor of the finest web fonts.
-image:
+photo:
   url: /projects/fontdeck/image.jpg
   alt: Fontdeck logo
 category:

@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: A few thoughts on the new <cite>Late Show with Stephen Colbert</cite>.
-image:
+photo:
   url: /articles/2015/09/stephen_colbert_late_show/image.jpg
   alt: Stephen Colbert interviewing George Clooney on his first night as host of the new ’Late Show‘.
 category:

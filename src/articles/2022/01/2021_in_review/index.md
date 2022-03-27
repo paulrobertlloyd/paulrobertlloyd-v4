@@ -3,15 +3,15 @@ eleventyExcludeFromCollections: true
 title: 'All at Sea: 2021 in Review'
 date: 2022-01-03T22:30:00Z
 location:
- locality: Bexhill-on-Sea
- country-name: England
+  locality: Bexhill-on-Sea
+  country-name: England
 summary: Nothing lasts forever.
-image:
- url: /articles/2022/01/2021_in_review/west_pier.jpg
- alt: A dilapidated West Pier.
+photo:
+  url: /articles/2022/01/2021_in_review/west_pier.jpg
+  alt: A dilapidated West Pier.
 category:
- - Personal
- - Review of the year
+  - Personal
+  - Review of the year
 accentColor: '#a4d'
 ---
 As the gently rolling waves shimmered in the late summer sunlight, I waded into the Solent. I had taken up sea swimming at the start of the second lockdown, but only now could I enjoy warmer waters. It was a rare moment of peace in a year of heartbreak and loss.

@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: Slack has a new logo, and everyone hates it.
-image:
+photo:
   url: /articles/2019/01/slacks_new_logo/image.jpg
   alt: The new logo for Slack.
 category:

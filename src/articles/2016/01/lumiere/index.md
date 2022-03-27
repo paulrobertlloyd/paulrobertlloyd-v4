@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: Last Friday I jumped on the train to London to see Lumiere, a four-day festival of illuminated art.
-image:
+photo:
   url: /articles/2016/01/lumiere/centre_point_lights.jpg
   alt: Centre Point lights temporarily positioned in front of the National Gallery in Trafalgar Square.
 category:

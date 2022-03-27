@@ -5,7 +5,7 @@ location:
   locality: Littlehampton
   country-name: England
 summary: Continuing the trend of this blog documenting events that happened several weeks ago, this month saw me become the ninth member of the Brighton based web agency Clearleft.
-image:
+photo:
   url: /articles/2009/06/clearleft/image.jpg
   alt: The Clearleft team.
 category:

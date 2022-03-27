@@ -5,7 +5,7 @@ location:
   locality: Copenhagen
   country-name: Denmark
 summary: Like all great railway journeys, this one starts with a cancellation.
-image:
+photo:
   url: /articles/2020/01/brighton_to_copenhagen/wanderer_above_the_sea_of_fog.jpg
   alt: ‘Wanderer above the Sea of Fog’ by Caspar David Friedrich
 collection: scandinavian_sojourn

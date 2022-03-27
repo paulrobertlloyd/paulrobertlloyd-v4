@@ -3,7 +3,7 @@ title: 'San Francisco: There and Back Again'
 date: 2012-01-01T23:44:07Z
 summary: Transcending America’s Pacific coastline aboard Amtrak’s Coast Starlight.
 collection: north_america_2011
-image:
+photo:
   url: /articles/2012/01/san_francisco/ocean_beach.jpg
   alt: Three surfers walking into the sunset on Ocean Beach.
 category:

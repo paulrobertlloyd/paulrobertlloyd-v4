@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: Finding the unexpected in Le Havre, the French seaside city that’s full of surprises.
-image:
+photo:
   url: /articles/2017/07/le_havre/concrete_chic.jpg
   alt: Detailing on concrete column.
 category:

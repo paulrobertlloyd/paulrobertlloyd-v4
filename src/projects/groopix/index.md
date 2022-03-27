@@ -2,7 +2,7 @@
 title: Groopix
 date: 2008-08-22
 summary: A tool for curating and printing group-based photo albums.
-image:
+photo:
   url: /projects/groopix/image.jpg
   alt: Groopix logo
 category:

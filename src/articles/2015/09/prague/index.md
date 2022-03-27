@@ -5,7 +5,7 @@ location:
   locality: Budapest
   country-name: Hungary
 summary: Comparing a city with those previously visited might not be the best means of appraisal, but that’s what I found myself doing during a three-night stay in Prague.
-image:
+photo:
   url: /articles/2015/09/prague/st_vitrus_cathedral.jpg
   alt: Prague Castle and St. Vitus Cathedral viewed from the Charles Bridge.
 category:

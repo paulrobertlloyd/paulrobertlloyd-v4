@@ -2,7 +2,7 @@
 title: Matter
 date: 2012-11-14
 summary: Beautiful reading experience for publisher of unmissable journalism.
-image:
+photo:
   url: /projects/matter/image.jpg
   alt: Matter logo
 category:

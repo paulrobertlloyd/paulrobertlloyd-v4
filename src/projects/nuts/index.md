@@ -2,7 +2,7 @@
 title: Nuts.com
 date: 2011-05-27
 summary: Incremental redesign for family run, customer-focused food retailer.
-image:
+photo:
   url: /projects/nuts/image.jpg
   alt: Nuts logo
 category:

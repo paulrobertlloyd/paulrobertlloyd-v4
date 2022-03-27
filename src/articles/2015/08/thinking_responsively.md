@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: Three years after the Web Aesthetic, comes my second article for A List Apart. Intended to inform a broader discussion about the principles that underline our work, I thought I would share some background as to how this article came about.
-image:
+photo:
   url: /articles/2015/08/thinking_responsively_a_framework_for_future_learning/image.png
   alt: Illustration by Brad Colbow.
 category:

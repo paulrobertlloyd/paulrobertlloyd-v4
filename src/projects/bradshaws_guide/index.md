@@ -2,7 +2,7 @@
 title: Bradshaw’s Guide
 date: 2018-01-02
 summary: Digital revival of a popular Victorian railway guide.
-image:
+photo:
   url: /projects/bradshaws_guide/image.jpg
   alt: Bradshaw’s Guide logo
 category:

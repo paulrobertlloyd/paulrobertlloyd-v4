@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: As I explored the exhibits in Basel’s recently extended art museum, I jotted down the artists whose work caught my attention. Here I share my findings.
-image:
+photo:
   url: /articles/2016/10/kunstmuseum_basel/extension.jpg
   alt: The new building of the Kunstmuseum Basel.
 category:

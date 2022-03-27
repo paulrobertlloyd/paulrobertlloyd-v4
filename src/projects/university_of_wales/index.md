@@ -2,7 +2,7 @@
 title: University of Wales
 date: 2009-10-29
 summary: Modular design language for international university.
-image:
+photo:
   url: /projects/university_of_wales/image.jpg
   alt: University of Wales logo
 category:

@@ -2,7 +2,7 @@
 title: Ning
 date: 2007-03-21
 summary: Lead design for customisable social media platform.
-image:
+photo:
   url: /projects/ning/image.jpg
   alt: Ning logo
 category:

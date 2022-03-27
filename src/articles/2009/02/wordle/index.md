@@ -2,7 +2,7 @@
 title: Wordle
 date: 2009-02-09T10:04:40Z
 summary: A word cloud generated from content that has appeared on my site over the last few months.
-image:
+photo:
   url: /articles/2009/02/wordle/image.png
   alt: Worldle.
 category:

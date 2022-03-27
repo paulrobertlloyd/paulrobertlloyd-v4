@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: In need of a break, I headed to Galway and the far western reaches of the British Isles.
-image:
+photo:
   url: /articles/2017/05/away_to_galway/galway_harbour.jpg
   alt: Boats and swans in Galway harbour.
 category:

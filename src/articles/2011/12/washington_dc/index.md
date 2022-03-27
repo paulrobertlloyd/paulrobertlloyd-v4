@@ -3,7 +3,7 @@ title: Back in the District
 date: 2011-12-19T22:00:28Z
 summary: My North American adventure started in Washington DC, ostensibly to attend a conference, but it was also an excuse to see Shannon, who graciously planned a tour of the city.
 collection: north_america_2011
-image:
+photo:
   url: /articles/2011/12/washington_dc/lincoln_memorial.jpg
   alt: Shannon looking towards the Lincoln Memorial.
 category:

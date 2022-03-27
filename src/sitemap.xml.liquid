@@ -12,7 +12,7 @@ permalink: /sitemap.xml
     <lastmod>{{ item.date | date: '%F' }}</lastmod>
     <changefreq>{{ item.data.changefreq }}</changefreq>
     <priority>{{ item.data.priority }}</priority>
-    {%- if item.data.image -%}
+    {%- if item.data.pageImage -%}
     <image:image>
       <image:loc>{{ item.data.summaryImage | replace: '&','&amp;' }}</image:loc>
     </image:image>

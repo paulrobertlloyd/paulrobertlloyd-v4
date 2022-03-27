@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: Before going freelance, I decided to take some time off during February. Part of this included spending a few days in Berlin.
-image:
+photo:
   url: /articles/2015/03/berlin/brandenburg_gate.jpg
   alt: The Brandeburg Gate.
 category:

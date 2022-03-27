@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: Having lived in my current flat for just over two years, I’m determined for this to be the year I finally make it feel like a home.
-image:
+photo:
   url: /articles/2016/04/habitables/sideboard.jpg
   alt: Sideboard, designed by Manuel Barrera/Habitables.
 category:

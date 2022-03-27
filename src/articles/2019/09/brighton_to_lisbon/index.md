@@ -5,7 +5,7 @@ location:
   locality: Lisbon
   country-name: Portugal
 summary: Nine stations. Seven trains. Four countries. 27 and half hours.
-image:
+photo:
   url: /articles/2019/09/brighton_to_lisbon/lisbon_metro.jpg
   alt: Passengers on the Lisbon Metro.
 category:

@@ -2,7 +2,7 @@
 title: The Week
 date: 2011-11-18
 summary: Award-winning iPad app for weekly current affairs magazine.
-image:
+photo:
   url: /projects/the_week/image.jpg
   alt: The Week logo
 category:

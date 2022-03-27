@@ -2,7 +2,7 @@
 title: Refigure
 date: 2016-12-07
 summary: Brand identity and application design for personalised meditation service.
-image:
+photo:
   url: /projects/refigure/image.jpg
   alt: Refigure logo
 category:

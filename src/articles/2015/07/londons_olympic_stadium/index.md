@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: Having undergone a £272m conversion, London’s Olympic Stadium is ready to host Premier League football and world-class athletics. With its future secured, what hopes remain for its legacy?
-image:
+photo:
   url: /articles/2015/07/londons_olympic_stadium/exploded.jpg
   alt: Exploded view of the Olympic Stadium’s construction, showing the permanent and temporary components of its design.
 category:

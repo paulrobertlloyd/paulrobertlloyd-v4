@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: Thoughts on Brasília, which I visited back in March.
-image:
+photo:
   url: /articles/2011/07/remembering_brasilia/dom_bosco.jpg
   alt: The breathtaking interior of Santuário Dom Bosco.
 category:

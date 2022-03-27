@@ -3,7 +3,7 @@ title: My LA Ex
 date: 2010-01-23T19:07:09Z
 summary: I hoped that almost missing my flight would be the worst my trip to New Zealand would have to offer, but thanks to overzealous immigration officials at LAX, that was nothing but a minor blip.
 collection: australasia_2009
-image:
+photo:
   url: /articles/2010/01/lax/image.jpg
   alt: The Encounter Restaurant at LAX, where I would have eaten that evening had I not been interviewed by immigration officers.
 category:

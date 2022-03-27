@@ -2,7 +2,7 @@
 title: dConstruct
 date: 2013-05-02
 summary: Collaborative design for grassroots digital conference.
-image:
+photo:
   url: /projects/dconstruct/image.jpg
   alt: dConstruct logo
 category:

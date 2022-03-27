@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: Finding a sanctuary but losing my voice.
-image:
+photo:
   url: /articles/2020/01/2019_in_review/image.jpg
   alt: Sun setting over a canal in Amsterdam.
 category:

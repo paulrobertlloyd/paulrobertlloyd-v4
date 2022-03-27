@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country-name: England
 summary: Whereas the world’s foremost architects, graphic artists, typographers, iconographers and illustrators are asked to create their best work to celebrate each Olympic Games, still we wait for the Olympic movement to give equal consideration to the design of its websites.
-image:
+photo:
   url: /articles/2014/02/olympic_websites/image.jpg
   alt: Gold medalist Anastasiya Kuzmina of Slovakia celebrates during the medal ceremony for the Biathlon Women’s 7.5 km Sprint.
 category:

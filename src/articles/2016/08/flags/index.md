@@ -5,7 +5,7 @@ location:
   locality: Royal Leamington Spa
   country-name: England
 summary: There’s a lot of them around. Here are some more.
-image:
+photo:
   url: /articles/2016/08/flags/golden_wattle_1.jpg
   alt: An athlete holding up the Golden Wattle Flag.
 category:

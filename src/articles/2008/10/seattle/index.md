@@ -3,7 +3,7 @@ title: 'Seattle: Finding Gems in the Emerald City'
 date: 2008-10-06T06:23:36+01:00
 summary: The first stop in my four city tour of America was Seattle in the north-western state of Washington. Best known for its iconic Space Needle, it’s perhaps no surprise that I spent most of my time fixated on this slender looking tower.
 collection: north_america_2008
-image:
+photo:
   url: /articles/2008/10/seattle/seattle_center.jpg
   alt: The Space Needle with the Experience Music Project in the foreground.
 category:
