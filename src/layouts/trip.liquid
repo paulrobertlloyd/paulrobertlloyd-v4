@@ -14,7 +14,7 @@
     <p>Part of a journey to <a href="{{ itinerary.url }}">{{ itinerary.data.title }}</a>.</p>
     {%- capture caption -%}
       {%- for stop in trip.stops -%}
-        <a href="/places/{{ stop.id }}">
+        <a href="/places/{{ stop.address.plus-code }}">
           {%- unless forloop.first %}<svg width="1em" height="1em" focusable="false" aria-hidden="true"><use href="#_icon_{{ stop.icon }}"></use></svg> {% endunless -%}
           {{ stop.title }}, {{ stop.address.country-name }}{% if stop.iata %} ({{ stop.iata }}){% endif -%}
         </a><br>
