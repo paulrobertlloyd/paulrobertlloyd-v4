@@ -349,6 +349,13 @@ module.exports = [{
     'plus-code': '8FW4R9VF+PQ',
   },
 }, {
+  title: 'Gare de Nice-Ville',
+  address: {
+    locality: 'Nice',
+    'country-name': 'France',
+    'plus-code': '8FM9P736+PQ',
+  },
+}, {
   title: 'Gare do Oriente',
   address: {
     locality: 'Lisbon',
