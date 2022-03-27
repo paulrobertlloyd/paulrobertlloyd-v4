@@ -1,10 +1,10 @@
 <footer class="footer">
   <dl>
     <dt class="visually-hidden">Date</dt>
-    {%- assign date-start = start | date: '%F' -%}
-    {%- assign date-end = end | date: '%F' -%}
+    {%- assign dateStart = start | date: dates.date_long -%}
+    {%- assign dateEnd = end | date: dates.date_long -%}
     <dd>
-      {%- if date-start != date-end -%}
+      {%- if dateStart != dateEnd -%}
         <time class="dt-start" datetime="{{ start | date: dates.iso }}">{{ start | date: dates.date_long }}</time> -
         <time class="dt-end" datetime="{{ end | date: dates.iso }}">{{ end | date: dates.date_long }}</time>
       {%- else -%}
