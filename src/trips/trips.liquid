@@ -9,10 +9,11 @@ eleventyComputed:
 {%- assign totalCo2 = trips | sum: 'co2' -%}
 {%- assign meanKm = totalKm | divided_by: 13 -%}
 {%- assign meanCo2 = totalCo2 | divided_by: 13 -%}
+{%- assign now = 'now' | date: '%Y' -%}
 <table class="barchart">
   <caption class="barchart__caption"><abbr title="kilometers">km</abbr> travelled / <abbr title="kilograms">kg</abbr> CO<sub>2</sub></caption>
   <tbody class="barchart__items">
-  {%- for year in (2003..2021) -%}
+  {%- for year in (2003..now) -%}
     <tr class="barchart__item">
       {%- assign thisYear = trips | includes: 'date',year -%}
       {%- assign yearKm = thisYear | sum: 'distance' -%}
@@ -38,7 +39,7 @@ eleventyComputed:
   </tbody>
 </table>
 
-{%- for year in (2003..2021) reversed -%}
+{%- for year in (2003..now) reversed -%}
   {%- assign thisYear = collections.trip | includes: 'data.trip.date',year -%}
   {%- render 'section-trips' with thisYear
     id: year
