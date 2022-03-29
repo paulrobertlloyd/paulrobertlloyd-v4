@@ -47,8 +47,10 @@
 }
 
 .card[style^="--color-accent"] .card__image img {
+  aspect-ratio: 1.5;
   filter: contrast(0.75) brightness(1.25);
   mix-blend-mode: luminosity;
+  object-fit: cover;
 }
 
 .card__header {

@@ -1,9 +1,6 @@
 <aside class="align-pull | h-product" role="complementary">
 {%- if product.photo -%}
-  {% render 'image' with product.photo
-    class: 'u-photo'
-    preset: 'supporting'
-  %}
+  {%- image product.photo, 'supporting', 'u-photo' -%}
 {%- endif -%}
   <h3><cite class="p-name">{{ product.title | markdown: 'inline' }}</cite></h3>
 {%- if product.rating -%}

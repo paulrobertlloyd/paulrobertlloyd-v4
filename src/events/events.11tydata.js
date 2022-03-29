@@ -1,4 +1,3 @@
-const getImagePath = require('../../lib/utils/get-image-path.js');
 const getMovie = require('../../lib/utils/get-movie.js');
 
 module.exports = {
@@ -8,15 +7,13 @@ module.exports = {
   changefreq: 'monthly',
   priority: 0.4,
   eleventyComputed: {
-    image: async data => {
-      const {movie, page} = data;
-      if (movie) {
-        return {
-          url: await getImagePath(movie.Poster, data.event.slug, 'events'),
+    photo: data => data.movie
+      ? {
+          url: data.movie.Poster,
           alt: `Poster for ‘${data.title}’`
         }
-      }
-    },
+      : false,
+
     movie: async data => {
       const {url} = data;
       if (url && url.includes('imdb.com')) {
@@ -37,7 +34,7 @@ module.exports = {
       const {movie} = data;
       if (movie) {
         return {
-          photo: data.image,
+          photo: data.photo,
           title: data.title,
           rating: data.rating,
           info: [

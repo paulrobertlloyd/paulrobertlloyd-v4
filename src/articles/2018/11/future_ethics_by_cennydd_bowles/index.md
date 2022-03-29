@@ -9,7 +9,7 @@ vocab: [entry, review]
 product:
   title: Future Ethics
   photo:
-    url: 978-1-9996019-1-1.jpg
+    url: /articles/2018/11/future_ethics_by_cennydd_bowles/978-1-9996019-1-1.jpg
     alt: Cover of ‘Future Ethics’
   info: |
     Author
