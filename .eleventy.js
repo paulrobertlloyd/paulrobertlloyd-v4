@@ -3,7 +3,6 @@ require('dotenv').config();
 module.exports = function (eleventy) {
   // Liquid
   eleventy.setLiquidOptions({
-    cache: true,
     globals: {
       app: require('./src/data/app.js'),
       dates: require('./src/data/dates.js'),
