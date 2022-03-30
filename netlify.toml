@@ -16,9 +16,7 @@ package = "netlify-plugin-cache"
 
   [plugins.inputs]
   paths = [
-    "www/images/avatars",
-    "www/images/events",
-    "www/images/card-square",
+    "www/images",
     ".cache"
   ]
 
