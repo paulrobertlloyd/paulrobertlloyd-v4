@@ -1,7 +1,5 @@
 <figure class="slide">
-  {%- render 'image' with slide.image
-    preset: 'supporting'
-  -%}
+  {% image slide.photo, 'supporting' %}
   <figcaption class="slide__caption">
     {{ slide.notes | markdown }}
   </figcaption>

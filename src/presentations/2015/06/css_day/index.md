@@ -9,7 +9,7 @@ tags:
   - featured
 slides:
   - photo:
-      url: 1.png
+      url: /presentations/2015/06/css_day/1.png
     notes: |
       In his article, [The Web’s Grain](https://frankchimero.com/writing/the-webs-grain/), Frank Chimero remarked that:
 
@@ -21,7 +21,7 @@ slides:
 
       Do smart watches really solve a pressing need? Has our obsession with devices become a distraction?
   - photo:
-      url: 2.png
+      url: /presentations/2015/06/css_day/2.png
     notes: |
       2° celsius is the politically agreed figure for how much more the planet can warm post industrialisation, without facing disastrous consequences (the temperature has already risen 0.8°C within that timescale).
 
@@ -29,7 +29,7 @@ slides:
 
       At the G7 meeting earlier this week, leaders agreed to stop burning fossil fuels by 2100. By then, it will be too late.
   - photo:
-      url: 3.png
+      url: /presentations/2015/06/css_day/3.png
     notes: |
       You a probably asking at this point why I am talking about climate change at a CSS conference?
 
@@ -41,7 +41,7 @@ slides:
 
       > Software, like all technologies, is inherently political… code inevitably reflects the choices, biases, and desires of its creators.
   - photo:
-      url: 4.png
+      url: /presentations/2015/06/css_day/4.png
     notes: |
       So, here are some of my own choices and biases:
 
@@ -51,13 +51,13 @@ slides:
 
       * I prefer to think about the needs of users. If their device happens to be part of that consideration, so be it, but it’s not my primary concern. I prefer to think of an internet of people, not an internet of things.
   - photo:
-      url: 5.png
+      url: /presentations/2015/06/css_day/5.png
     notes: |
       Thankfully, these choices align well with those of the web. At the opening ceremony of the Olympic Games in London three years ago, Tim Berners-Lee spelt this out in just four words:
 
       > This is for everyone
   - photo:
-      url: 6.png
+      url: /presentations/2015/06/css_day/6.png
     notes: |
       Tim later [expanded on this point in an article for Scientific American](https://www.scientificamerican.com/article/long-live-the-web/):
 
@@ -65,7 +65,7 @@ slides:
 
       Universality – or universal access – is the web’s killer feature. By their very nature, this is something native platforms cannot provide.
   - photo:
-      url: 7.png
+      url: /presentations/2015/06/css_day/7.png
     notes: |
       Responsive Web Design gets us a little closer to this vision. This is [an approach that combines three simple techniques](https://alistapart.com/article/responsive-web-design) to produce something greater than the sum of those parts.
 
@@ -73,7 +73,7 @@ slides:
 
       Not since the move away from table-based layouts or the adoption of web standards, has our industry undergone such radical realignment of both thought and application.
   - photo:
-      url: 8.png
+      url: /presentations/2015/06/css_day/8.png
     notes: |
       Given this upheaval, we needed to collectively convince ourselves this was the correct approach, worthy of continued investment and investigation. We looked at [the first website](http://info.cern.ch/hypertext/WWW/TheProject.html), and told ourselves, hey that’s responsive – we were right in the first place!
 
@@ -81,7 +81,7 @@ slides:
 
       But there is something about this website that I find magical. *It has endured*. It has shown great adaptability, while remaining relevant and accessible. It speaks to that sustainable quality I mentioned before.
   - photo:
-      url: 9.png
+      url: /presentations/2015/06/css_day/9.png
     notes: |
       So… on the one hand we have this strict definition of responsive, on the other we have sites that display responsive characteristics.
 
@@ -89,7 +89,7 @@ slides:
 
       Performance considerations have become part of the discussion too: how can we make a responsive site actually… er… responsive! If a site has a fluid layout, but requires a user to download 20Mb of assets, can we still consider that site to be responsive?
   - photo:
-      url: 10.png
+      url: /presentations/2015/06/css_day/10.png
     notes: |
       Last year, on this very stage in fact, [Ethan spoke about the need for](https://vimeo.com/channels/cssday/106869929):
 
@@ -97,7 +97,7 @@ slides:
 
       Such a framework could help us frame the ongoing discussion about our practice and act as a reference point for measuring the appropriateness of our work. I love this idea. So, perhaps foolishly, I’m going to attempt to provide you with one today.
   - photo:
-      url: 11.png
+      url: /presentations/2015/06/css_day/11.png
     notes: |
       I believe we can form the beginnings of this framework by creating an agreed set of overarching design principles.
 
@@ -107,7 +107,7 @@ slides:
 
       Remember, our long term strategy is universal access. This is for everyone.
   - photo:
-      url: 12.png
+      url: /presentations/2015/06/css_day/12.png
     notes: |
       The principles we create need to be in service of this grander vision, and they need to address three primary concerns:
 
@@ -119,17 +119,17 @@ slides:
 
       So, let’s begin.
   - photo:
-      url: 13.png
+      url: /presentations/2015/06/css_day/13.png
     notes: |
       Given the multiple avenues that can be explored when a design needs to incorporate a range of concerns – context, content, device capabilities – where to begin has confounded opinion.
 
       This is the concern of our first principle.
   - photo:
-      url: 14.png
+      url: /presentations/2015/06/css_day/14.png
     notes: |
       In 2009, Luke Wroblewski put forward [the case for designing websites mobile first](https://www.lukew.com/ff/entry.asp?933); that is, considering the capabilities and features of mobile phones, before considering how an experience may manifest itself within a desktop browser.
   - photo:
-      url: 15.png
+      url: /presentations/2015/06/css_day/15.png
     notes: |
       This approach was partly driven by the rapid growth of mobile, but it also had a side benefit. [Luke stated that](https://www.lukew.com/ff/entry.asp?1117):
 
@@ -137,7 +137,7 @@ slides:
 
       Thinking mobile-first requires us to undertake prioritisation exercises, and to make decisions about which parts of an interface are critical or not. The non-critical parts can be loaded later, perhaps conditionally – or not at all.
   - photo:
-      url: 16.png
+      url: /presentations/2015/06/css_day/16.png
     notes: |
       Luke’s article was introduced when smartphone displays were small and the market was still developing.
 
@@ -145,7 +145,7 @@ slides:
 
       Another tenet of mobile-first was recognising the additional capabilities these devices have: location, multi-touch, cameras and a multitude of other sensors. As a proxy for constraint, mobile has been spoiling us.
   - photo:
-      url: 17.png
+      url: /presentations/2015/06/css_day/17.png
     notes: |
       It might be tempting to suggest we now think watch first. In terms of screen size, this would reset at least one constraint.
 
@@ -153,7 +153,7 @@ slides:
 
       To build truly universal and accessible websites, we need to look beyond visual design.
   - photo:
-      url: 18.png
+      url: /presentations/2015/06/css_day/18.png
     notes: |
       Maybe we shift our attention away from devices, and look instead to the network as our primary constraint, and design for the resulting scenarios?
 
@@ -161,7 +161,7 @@ slides:
 
       As much as I like this approach, I think it’s concerned more with robustness and reliability than it is adaptability.
   - photo:
-      url: 19.png
+      url: /presentations/2015/06/css_day/19.png
     notes: |
       Maybe we start with content? After all, for years we’ve repeated the mantra that content is king, only to draw rectangles and pour in placeholder text.
 
@@ -169,17 +169,17 @@ slides:
 
       Mark Boulton went as far as to suggest that we [design from the content out, rather than the canvas in](https://markboulton.co.uk/journal/a-richer-canvas).
   - photo:
-      url: 20.png
+      url: /presentations/2015/06/css_day/20.png
     notes: |
       However, as much as we would love to have content in place before we design a page, this is can be unreasonable request.
 
       Mark later clarified his position, suggesting we consider [Structure first. Content always](https://markboulton.co.uk/journal/structure-first-content-always). By evaluating the type of content we need (what task it needs to perform, or information it should convey), we can start by using content representative of the final form. Meanwhile, we can help clients think about their more detailed requirements.
   - photo:
-      url: 21.png
+      url: /presentations/2015/06/css_day/21.png
     notes: |
       This focus on content means we can start designing text first, and this is an approach I often employ in my own work.
   - photo:
-      url: 22.png
+      url: /presentations/2015/06/css_day/22.png
     notes: |
       This is an approach advocated Stephen Hay. [He wrote](http://www.peachpit.com/articles/article.aspx?p=2040824):
 
@@ -187,7 +187,7 @@ slides:
 
       Given that other media types we use on the web can also be represented by plain text – images can include descriptive alt text, videos can provide transcripts – thinking this way can help us build products that are accessible from the very start.
   - photo:
-      url: 23.png
+      url: /presentations/2015/06/css_day/23.png
     notes: |
       I’ve recently started to take this approach a bit further, by thinking about how an interface might be read out as part of a conversation.
 
@@ -197,7 +197,7 @@ slides:
 
       With our graphic design hat on, we might think about this purely in visual terms: the rating shown as a series of stars, with the filled in stars representing a rating.
   - photo:
-      url: 24.png
+      url: /presentations/2015/06/css_day/24.png
     notes: |
       We could mark this up as follows.
 
@@ -205,7 +205,7 @@ slides:
 
       Unsurprisingly, this is not very accessible, either.
   - photo:
-      url: 25.png
+      url: /presentations/2015/06/css_day/25.png
     notes: |
       What if we were to think of this page as a conversation instead?
 
@@ -215,7 +215,7 @@ slides:
 
       “This movie is rated 3 out of 5 stars”
   - photo:
-      url: 26.png
+      url: /presentations/2015/06/css_day/26.png
     notes: |
       Additional markup then allows us to add extra visual embellishment.
 
@@ -223,29 +223,29 @@ slides:
 
       This simple piece of markup, demonstrates a layered experience; a core piece of content that allows for a degree of enhancement.
   - photo:
-      url: 27.png
+      url: /presentations/2015/06/css_day/27.png
     notes: |
       Our first principle can be summed up as follows:
 
       > Start from a position that makes few assumptions about context and interface, and instead focus on the information users wish to acquire and the tasks they wish to accomplish.
   - photo:
-      url: 28.png
+      url: /presentations/2015/06/css_day/28.png
     notes: |
       The fluidity of the device landscape can be frustrating, but this fragmentation is a reflection of human diversity and consumers exercising their right to choose. This diversity is the concern of our second principle.
   - photo:
-      url: 29.png
+      url: /presentations/2015/06/css_day/29.png
     notes: |
       This is a vegetable peeler. It was [designed in 1990 by Sam Farber](https://smartdesignworldwide.com/projects/oxo-partnership/), a veteran of the kitchenware business. He spotted an opportunity when he saw that his wife, Betsey, an arthritis sufferer, struggled to use a conventional metal vegetable peeler.
 
       He prototyped a number of handle designs, trying to create one with a more comfortable grip. Perhaps unsurprisingly, those without arthritis enjoyed using his peeler as well, and this peeler went on to win design and business innovation awards.
   - photo:
-      url: 30.png
+      url: /presentations/2015/06/css_day/30.png
     notes: |
       He went on to found OXO, a consumer goods company [founded on the principles of universal design](https://www.oxo.com/aboutus). OXO say:
 
       > When all users’ needs are taken into consideration in the initial design process, the result is a product that can be used by the broadest spectrum of users. In the case of OXO, it means designing products for young and old, male and female, left- and right-handed and many with special needs.
   - photo:
-      url: 31.png
+      url: /presentations/2015/06/css_day/31.png
     notes: |
       Universal design has greater recognition within architecture and product design fields, but I think it can apply to products built with pixels as well. When you look at [the principles of universal design](https://projects.ncsu.edu/ncsu/design/cud/about_ud/udprinciplestext.htm), they include recommendations like:
 
@@ -255,7 +255,7 @@ slides:
 
       Universal, accessible design is just good design, full stop.
   - photo:
-      url: 32.png
+      url: /presentations/2015/06/css_day/32.png
     notes: |
       You can see similar principles reflected in the design of the web.
 
@@ -265,7 +265,7 @@ slides:
 
       This is a principle we can and should use in our work, too.
   - photo:
-      url: 33.png
+      url: /presentations/2015/06/css_day/33.png
     notes: |
       Too often we see technology choices made that prioritise developer convenience over user experience.
 
@@ -275,13 +275,13 @@ slides:
 
       Sitting at a large high-resolution Apple display, with a new laptop and super-fast broadband connection, it can be difficult to visualise a user experiencing the resulting product on a low-powered mobile device on an unreliable 3G connection.
   - photo:
-      url: 34.png
+      url: /presentations/2015/06/css_day/34.png
     notes: |
       Practising user-centred design helps us bridge this gap. By running activities like user research and usability testing, we can learn how users interact with our products and help us understand whether we are serving their needs.
 
       Involving clients in the design process, we can learn about their requirements, and also uncover insights they’ve gleaned about their customers, too.
   - photo:
-      url: 35.png
+      url: /presentations/2015/06/css_day/35.png
     notes: |
       Involving different disciplines (developers, researchers, other practitioners) early in the design process, can ensure that this learning is a shared among everyone responsible for building a product.
 
@@ -289,7 +289,7 @@ slides:
 
       But, there’s another aspect effective, empathetic teams that is often overlooked…
   - photo:
-      url: 36.png
+      url: /presentations/2015/06/css_day/36.png
     notes: |
       In her article [Universal Design IRL](https://alistapart.com/article/universal-design-irl), Sara Wachter-Boettcher states:
 
@@ -299,7 +299,7 @@ slides:
 
       Once your eyes have been opened to its monoculture, our white, male dominated industry becomes hard to ignore. This is a problem, and it is one worth fixing.
   - photo:
-      url: 37.png
+      url: /presentations/2015/06/css_day/37.png
     notes: |
       How else can we involve universal design principles within our day-to-day work?
 
@@ -311,7 +311,7 @@ slides:
 
       It might be tempting to create a separate persona, one exhibiting several disabilities. However, personas need to be grounded in a degree of reality, and backed up with research, so such a persona could be easily dismissed.
   - photo:
-      url: 38.png
+      url: /presentations/2015/06/css_day/38.png
     notes: |
       Instead, we can give enhance our existing personas by giving them short-term disability concerns:
 
@@ -321,13 +321,13 @@ slides:
 
       * Maybe one lives in a loud household, so exhibits the same characteristics as someone with hearing loss?
   - photo:
-      url: 39.png
+      url: /presentations/2015/06/css_day/39.png
     notes: |
       So our second principle reads as follows:
 
       > The web is accessed by users with individual needs and desires. Multi-disciplinary and inclusive teams working together have a better chance of reflecting this diversity.
   - photo:
-      url: 40.png
+      url: /presentations/2015/06/css_day/40.png
     notes: |
       Previously all you needed to build a website was a text editor and a working knowledge of HTML and CSS.
 
@@ -335,7 +335,7 @@ slides:
 
       Our third principle concerns itself with those who build the web, and how they might navigate this elaborate landscape.
   - photo:
-      url: 41.png
+      url: /presentations/2015/06/css_day/41.png
     notes: |
       We have seen the growing use of automation within front-end development. It’s easy to be dismissive of these tools, but they do have many benefits:
 
@@ -345,7 +345,7 @@ slides:
 
       Some view this as maturity, others as madness. Whether we’ve become too reliant on these tools is open to debate. And while they do have many benefits, they come at a cost…
   - photo:
-      url: 42.png
+      url: /presentations/2015/06/css_day/42.png
     notes: |
       Complexity.
 
@@ -353,7 +353,7 @@ slides:
 
       Example: Sass can act as an interface between designers and developers, ensuring named elements of a visual design language are shared across a project. At worst, it turns a declarative language into a programming language, removing a key design feature of CSS.
   - photo:
-      url: 43.png
+      url: /presentations/2015/06/css_day/43.png
     notes: |
       In many ways, our third principle is an extension of the second.
 
@@ -365,7 +365,7 @@ slides:
 
       While complexity can be unavoidable, we should seek to reduce the opacity of the systems being used. Without doing so we risk leaving colleagues behind with further opportunities for collaboration missed.
   - photo:
-      url: 44.png
+      url: /presentations/2015/06/css_day/44.png
     notes: |
       Of course, this works both ways: designers need to make their work accessible to developers too.
 
@@ -375,7 +375,7 @@ slides:
 
       Instead we need to design fluid components able to adapt to different variables that work as part of a broader system.
   - photo:
-      url: 45.png
+      url: /presentations/2015/06/css_day/45.png
     notes: |
       Modular design is a widely accepted software engineering practice.
 
@@ -383,7 +383,7 @@ slides:
 
       Modular design invokes principles like DRY (Don’t Repeat Yourself), the single responsibility principle, and object-oriented design methods. These principles have been advocated for many years, especially by people like Nicole Sullivan and Harry Roberts. It’s worth noting how they arrived at these recommendations; they are a product of working in large, often distributed teams.
   - photo:
-      url: 46.png
+      url: /presentations/2015/06/css_day/46.png
     notes: |
       We can debate the pros and cons of such engineering approaches, but again it’s worth recognising the benefits:
 
@@ -395,7 +395,7 @@ slides:
 
       And remember our constituents: consider authors over theoretical purity!
   - photo:
-      url: 47.png
+      url: /presentations/2015/06/css_day/47.png
     notes: |
       Last year, [Jeremy Keith talked about refactoring the code he and Anna Debenham developed](https://adactio.com/journal/7276) for Code for America.
 
@@ -405,7 +405,7 @@ slides:
 
       > It’s worth remembering why we’re aiming for maintainability in what we write. It’s not for any technical reason. It’s for people… if the priority for those people is to have simple HTML, then more complex CSS may be an acceptable price to pay.
   - photo:
-      url: 48.png
+      url: /presentations/2015/06/css_day/48.png
     notes: |
       I believe that by approaching the design of websites in a more modular way, we can invoke “it depends” more liberally than we might otherwise.
 
@@ -415,7 +415,7 @@ slides:
 
       It really does depend!
   - photo:
-      url: 49.png
+      url: /presentations/2015/06/css_day/49.png
     notes: |
       Let’s look at an example.
 
@@ -427,28 +427,28 @@ slides:
 
       We can then choose an appropriate—but possibly different—approach to CSS.
   - photo:
-      url: 50.png
+      url: /presentations/2015/06/css_day/50.png
     notes: |
       Looking at the BBC News website, we can broadly identify two types of component being used:
 
       * Interface elements like the primary navigation. Likely to remain unchanged, their design determined by those who build the product.
       * Content on the other hand, may be input via a CMS or come from a third party API, and therefore generally be more fluid and unpredictable.
   - photo:
-      url: 51.png
+      url: /presentations/2015/06/css_day/51.png
     notes: |
       Knowing this, for the navigation, we can use an object orientated approach with a BEM naming method, and use shared utility classes like clearfix.
   - photo:
-      url: 52.png
+      url: /presentations/2015/06/css_day/52.png
     notes: |
       The content component contains markup, perhaps output from a CMS or API, so relying on the cascade may be more appropriate – not least because we can’t add any classes to the marked-up content.
   - photo:
-      url: 53.png
+      url: /presentations/2015/06/css_day/53.png
     notes: |
       This navigation component uses classes for each part of the component, parents and children.
 
       However the content component uses a more defensive approach, and uses different CSS selectors, which are often needed when dealing with the unpredictable nature of such content.
   - photo:
-      url: 54.png
+      url: /presentations/2015/06/css_day/54.png
     notes: |
       For a system to be maintainable, robust and error-free, anyone contributing to it should understand the consequences of changing an aspect of it.
 
@@ -458,13 +458,13 @@ slides:
 
       How do you know which approach is being used, when?
   - photo:
-      url: 55.png
+      url: /presentations/2015/06/css_day/55.png
     notes: |
       One way we can self-document code, is to use namespaces. I’ve recently starting using [an approach advocated by Harry Roberts](https://csswizardry.com/2015/03/more-transparent-ui-code-with-namespaces/).
 
       A namespace will tell us exactly how classes behave in a more global sense. A namespace tells us exactly what a class (or suite of classes) does in non-relative terms.
   - photo:
-      url: 56.png
+      url: /presentations/2015/06/css_day/56.png
     notes: |
       His post goes into more detail than I am able to here. But, what I like about this approach, is that recognises the multiple ways CSS may be used in a project and allows us to identify them.
 
@@ -473,27 +473,27 @@ slides:
       * **Utility**: Classes with a single specific role (Single Responsibility Principle)
       * **Scope**: Classless HTML (Be liberal in what you receive…)
   - photo:
-      url: 57.png
+      url: /presentations/2015/06/css_day/57.png
     notes: |
       Returning to our earlier example, we can now update it as follows:
 
       Our navigation component uses the list object pattern and the clearfix utility.
   - photo:
-      url: 58.png
+      url: /presentations/2015/06/css_day/58.png
     notes: |
       And this is our content markup.
   - photo:
-      url: 59.png
+      url: /presentations/2015/06/css_day/59.png
     notes: |
       And these are the associated styles.
   - photo:
-      url: 60.png
+      url: /presentations/2015/06/css_day/60.png
     notes: |
       We can take a similar approach to images.
 
       The discussion around responsive images has largely focused on how to serve images based on the size of the viewport. It has rarely focused on the different types of imagery we use on the web; not all images are created equal.
   - photo:
-      url: 61.png
+      url: /presentations/2015/06/css_day/61.png
     notes: |
       Thinking in a more modular way, we can invoke “it depends”, and use different implementation techniques for our images, depending on their purpose:
 
@@ -503,7 +503,7 @@ slides:
 
       There is actually a fourth option that is often overlooked: we just don’t include an image at all.
   - photo:
-      url: 62.png
+      url: /presentations/2015/06/css_day/62.png
     notes: |
       The implementation we choose depends just as much on the surrounding context as it does upon the actual image.
 
@@ -513,13 +513,13 @@ slides:
 
       * Were the same image to appear on a page about the Job Centre Plus brand, this image provides essential information.
   - photo:
-      url: 63.png
+      url: /presentations/2015/06/css_day/63.png
     notes: |
       These are just a few examples, but there are many more. So to recap, this is our third and final principle:
 
       > Given the complexity of the technology we use to build the web, aim to keep things simple. We can achieve this by building modular systems, made up of discrete, self-documented components that can be adapted and improved over time.
   - photo:
-      url: 64.png
+      url: /presentations/2015/06/css_day/64.png
     notes: |
       So, to recap:
 

@@ -9,13 +9,13 @@ tags:
   - featured
 slides:
   - photo:
-      url: 1.png
+      url: /presentations/2013/09/mk_geek_night_6/1.png
     notes: |
       Much of what I’m going to say tonight could be described as pure FUD – cynical nonsense and fear-mongering. Yet fear, uncertainty and doubt – these are real human emotions that can be too easily brushed aside in the face of valid concerns or criticism.
 
       We have entered into relationships with powerful organisations. These are organisations we will declare our undying love for, but I want to question whether we’ve taken the time to consider the consequences of doing so.
   - photo:
-      url: 2.jpg
+      url: /presentations/2013/09/mk_geek_night_6/2.jpg
     notes: |
       I fear for the future of the World Wide Web.
 
@@ -23,7 +23,7 @@ slides:
 
       That it’s been hijacked by commercial interests shouldn’t surprise us, but the way it’s been hijacked should. Not only is our behaviour constantly monitored and tracked, sites like Facebook, Google+ and Twitter are actively manipulating our behaviour as well.
   - photo:
-      url: 3.png
+      url: /presentations/2013/09/mk_geek_night_6/3.png
     notes: |
       In an article entitled [Modern Medicine](https://farmerandfarmer.org/medicine/social.html), Jonathan Harris described social software design. He wrote:
 
@@ -33,7 +33,7 @@ slides:
       >
       > At Facebook, for example, they use a term called “Serotonin”, which refers to the bonding hormone released by the brain in moments of intimacy. In design reviews, Facebook designers are asked, “Where is the serotonin in this design?” meaning, “how will this new feature release bonding hormones in the brains of our users, to keep them coming back for more?”
   - photo:
-      url: 4.png
+      url: /presentations/2013/09/mk_geek_night_6/4.png
     notes: |
       When seen in this context, you wonder how entities like Facebook are able to operate without any degree of oversight. Is it right that one company can affect the lives of so many people, so freely? Facebook’s leadership may say they are being disruptive; challenging social norms.
 
@@ -41,7 +41,7 @@ slides:
 
       > The conference stage was filled with brash, Millennial entrepreneurs vowing to “Disrupt” real-world laws and regulations in the same way that me stealing your dog is Disrupting the idea of pet ownership. On more than one occasion a judge would ask an entrepreneur “"Is this legal?” to which the reply would inevitably come: “Not yet.” The audience would laugh and applaud.
   - photo:
-      url: 5.png
+      url: /presentations/2013/09/mk_geek_night_6/5.png
     notes: |
       In the real world, regulation is recognised as an essential part of well-functioning economy, to combat excessive behaviour, and maintain a level playing field.
 
@@ -49,7 +49,7 @@ slides:
 
       The web however goes largely unregulated, which is why it has become so attractive to believers in the free-market and those that have little time for anything that gets in the way of them increasing their personal wealth.
   - photo:
-      url: 6.png
+      url: /presentations/2013/09/mk_geek_night_6/6.png
     notes: |
       I probably have an unhealthy interest in Silicon Valley, having worked for there a few years ago.
 
@@ -61,11 +61,11 @@ slides:
 
       While the Edward Snowden leaks have been disturbing, I find it hugely encouraging there was someone working for the NSA that had the moral integrity – and courage – to leak this information. My hope is that there are others like him.
   - photo:
-      url: 7.jpg
+      url: /presentations/2013/09/mk_geek_night_6/7.jpg
     notes: |
       I am uncertain that having Silicon Valley be the home to so many of the services we use every day is that healthy.
   - photo:
-      url: 8.png
+      url: /presentations/2013/09/mk_geek_night_6/8.png
     notes: |
       On a superficial level, I’m not sure Silicon Valley has a healthy culture of design. To me, it appears to be seen as a mean of styling, or manipulating, but not to producing things of any inherent value.
 
@@ -75,7 +75,7 @@ slides:
 
       > A team at Google couldn’t decide between two blues, so they’re testing 41 shades between each blue to see which one performs better. I had a recent debate over whether a border should be 3, 4 or 5 pixels wide, and was asked to prove my case. I can’t operate in an environment like that. I’ve grown tired of debating such minuscule design decisions.
   - photo:
-      url: 9.png
+      url: /presentations/2013/09/mk_geek_night_6/9.png
     notes: |
       He was of course referring to Marissa Meyer. When not wanting to test which shade of blue to use at Google, she went on to design Yahoo’s new logo, with somewhat predictable results.
 
@@ -83,13 +83,13 @@ slides:
 
       How prevalent is this thinking within the Valley. Is it confined to Google?
   - photo:
-      url: 10.png
+      url: /presentations/2013/09/mk_geek_night_6/10.png
     notes: |
       Yet more importantly, these companies are founded and operate under US law, which is very different from English and European law.
 
       Charles Stross, [writing in 2011](https://www.antipope.org/charlie/blog-static/2011/11/evil-social-networks.html), noted that the California-based web service Klout had a privacy policy that was almost certainly illegal under the UK Data Protection Act, not least because they asserted the right to collect information about you, if you simply visited their website.
   - photo:
-      url: 11.png
+      url: /presentations/2013/09/mk_geek_night_6/11.png
     notes: |
       Perhaps more damaging is the lifestyle to which engineers at well-funded start-ups are able to enjoy.
 
@@ -101,7 +101,7 @@ slides:
 
       Is this just a symptom of the broader American work-ethic?
   - photo:
-      url: 12.png
+      url: /presentations/2013/09/mk_geek_night_6/12.png
     notes: |
       You can argue the merits for and against employees of large tech firms being rewarded so handsomely, as much as you can for footballers and bankers. A shortage of talented engineers and designers means rewards will be high. But I wonder if this is creating an environment in which the people building products we use every day have little empathy for how the rest of us live.
 
@@ -109,7 +109,7 @@ slides:
 
       > The well-documented lack of diversity in the Valley would be comical if it wasn’t so harmful. It feels like, and often is, a bunch of Stanford guys making tools to fix their own problems. Sometimes they stumble into a groundbreaking new app that has a more far-reaching impact (see: Twitter) and sometimes they try and shoehorn a social good mission into their business plan (see: a thousand other companies). Barely any of them start from an entrenched social problem and work backwards from there. Very few of them are really fundamentally improving society. They’re making widgets or iterating on things that already exist.
   - photo:
-      url: 13.png
+      url: /presentations/2013/09/mk_geek_night_6/13.png
     notes: |
       Here in lies the opportunity. There are very few technical constraints forcing companies to relocate to the Valley anymore. Companies that exist outside the bubble have a greater chance I believe of designing products more empathetic to the wider world.
 
@@ -119,11 +119,11 @@ slides:
 
       However, I worry that there is a desire to replicate Silicon Valley, which is a futile endeavour; Silicon Valley is the result of a century of good fortune and happy accidents. Digital hubs should be true to themselves, not facsimiles of a rotting model.
   - photo:
-      url: 14.jpg
+      url: /presentations/2013/09/mk_geek_night_6/14.jpg
     notes: |
       I doubt many of us really think about the amount of trust we place in the small number of services on which we rely on a daily basis.
   - photo:
-      url: 15.png
+      url: /presentations/2013/09/mk_geek_night_6/15.png
     notes: |
       I host all my photos on Flickr, but why have I decided to trust Yahoo!, a company that has consistently proved itself a poor custodian of user data, not least when it deleted the 38 million pages it once hosted on Geocities.
 
@@ -131,13 +131,13 @@ slides:
 
       We’ve come to rely on these services so much that there’s an implicit trust in the companies that operate them. Do they deserve our trust?
   - photo:
-      url: 16.png
+      url: /presentations/2013/09/mk_geek_night_6/16.png
     notes: |
       Smaller start-ups are worse of course, especially at the moment they get acquired.
 
       Phil Gyford has been curating [a blog listing companies blog posts in which they exclaim their excitement of being acquired](https://www.gyford.com/phil/writing/2013/02/27/our-incredible-journey/), and the inevitable posts that follow a few months later which backtrack on any promises regarding content users have uploaded.
   - photo:
-      url: 17.png
+      url: /presentations/2013/09/mk_geek_night_6/17.png
     notes: |
       In its [manifesto for how companies should treat our data](https://contentsmagazine.com/data/), Contents magazine suggested all services should:
 
@@ -145,13 +145,13 @@ slides:
       2. No upload without download: Build in export capabilities from day one.
       3. If you close a system, support data rescue. Provide one financial quarter’s notice between announcing the shutdown and destroying any user-contributed content, public or private, and offer data export during this period.
   - photo:
-      url: 18.png
+      url: /presentations/2013/09/mk_geek_night_6/18.png
     notes: |
       In a similar vein, the Electronic Freedom Foundation conducts an annual survey in which it measures how well companies protect your data from the government. It has six criteria.
 
       Of the big internet services, [only Twitter scored six stars out of six. Apple got one](https://www.eff.org/sites/default/files/who-has-your-back-2013-report-20130513.pdf). This year’s survey was conducted before the Snowden leaks, so it’ll be interesting to see how these ratings change. However, since the EFF started publishing this report two years ago, the scores have been improving.
   - photo:
-      url: 19.png
+      url: /presentations/2013/09/mk_geek_night_6/19.png
     notes: |
       I think it’s important to recognise, that as early adopters of a lot of these products, we wield excessive power. We shaped products like Twitter, and we can shape future products too!
 
@@ -159,7 +159,7 @@ slides:
 
       If they don’t treat us with respect, we should choose to use a competing service.
   - photo:
-      url: 20.jpg
+      url: /presentations/2013/09/mk_geek_night_6/20.jpg
     notes: |
       It’s easier to change services if you own and control your own data. The nascent Indie Web movement promotes publishing content on your own site, and optionally syndicating it to the third-parties.
 
@@ -167,20 +167,20 @@ slides:
 
       There is also a good deal of pragmatism running through this initiative; many of the contributors realised that the best tools for creating this content were built by the third parties, but we can use their tools, and then store the definitive copies on our own servers.
   - photo:
-      url: 21.jpg
+      url: /presentations/2013/09/mk_geek_night_6/21.jpg
     notes: |
       I think we have reached a pivotal point in our use of web-based services, and now face a fork in the road. We have two choices:
 
       1. We continue to let our lives be governed by a few powerful companies, and accept the consequences this brings.
       2. Or, we start to take back control of our data, and control of the web.
   - photo:
-      url: 22.png
+      url: /presentations/2013/09/mk_geek_night_6/22.png
     notes: |
       I’m sure, like many of you, the recent revelations about mass online surveillance undertaken by the NSA and GCHQ have made using the internet less exciting than it used to be. Not least because the companies running the services we have come to rely on appear to have been complicit in aiding these programmes.
 
       Thankfully, everyone in this room has the ability to make a difference, to build the web we want to see. Although the web has matured considerably in the last 20 years, a text editor, an FTP client and some web space is all you need to publish on the web.
   - photo:
-      url: 23.png
+      url: /presentations/2013/09/mk_geek_night_6/23.png
     notes: |
       I’ll leave you with a quote from Bruce Schneier, [from this article in the Guardian](https://www.theguardian.com/commentisfree/2013/sep/05/government-betrayed-internet-nsa-spying):
 
