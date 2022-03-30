@@ -15,24 +15,24 @@ tags:
   - source:a_list_apart
 photoset:
   1:
-    - url: bbc1_1974.png
+    - url: /articles/2012/09/the_web_aesthetic/bbc1_1974.png
       alt: BBC ident from 1974
-    - url: bbc1_1981.png
+    - url: /articles/2012/09/the_web_aesthetic/bbc1_1981.png
       alt: BBC ident from 1981
   2:
-    - url: dconstructarchive_original.jpg
+    - url: /articles/2012/09/the_web_aesthetic/dconstructarchive_original.jpg
       alt: Original speaker portrait image
-    - url: dconstructarchive_optimised.jpg
+    - url: /articles/2012/09/the_web_aesthetic/dconstructarchive_optimised.jpg
       alt: Optimized speaker portrait image
   3:
-    - url: dconstruct2012_original.jpg
+    - url: /articles/2012/09/the_web_aesthetic/dconstruct2012_original.jpg
       alt: Original speaker portrait image
-    - url: dconstruct2012_monochrome.png
+    - url: /articles/2012/09/the_web_aesthetic/dconstruct2012_monochrome.png
       alt: Optimized speaker portrait image
   4:
-    - url: bbc_news_simple.png
+    - url: /articles/2012/09/the_web_aesthetic/bbc_news_simple.png
       alt: Basic mobile experience
-    - url: bbc_news_enhanced.png
+    - url: /articles/2012/09/the_web_aesthetic/bbc_news_enhanced.png
       alt: Enhanced mobile experience
 ---
 _This article is [also available in Italian][it-IT]{hreflang="it-IT" rel="alternate external"}_

@@ -19,12 +19,12 @@ photoset:
   1:
     - url: /media/1582756201.jpg
       alt: Mocking Sam’s appearance in the New York Times with Mario and Chris.
-    - url: post_karaoke.jpg
+    - url: /articles/2021/01/2020_in_review/post_karaoke.jpg
       alt: Post karaoke, pre street sing-off with Matt, Duncan, Matilde and Sarah.
   2:
-    - url: rob.jpg
+    - url: /articles/2021/01/2020_in_review/rob.jpg
       alt: Rob bringing me a birthday cake.
-    - url: jon_and_me.jpg
+    - url: /articles/2021/01/2020_in_review/jon_and_me.jpg
       alt: Biking with Jon.
 ---
 I’m not sure why I recap some years and not others, but if any year needs recording, it is 2020. With a worsening climate, global pandemic and collapsing economy, [Cennydd was right to point out][1] that this was the year that the future began making good on its threats.

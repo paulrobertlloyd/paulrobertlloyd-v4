@@ -13,13 +13,13 @@ category:
   - Identity
   - Olympics
 photoset:
-  - url: florianopolis_1.jpg
+  - url: /articles/2016/08/flags/florianopolis_1.jpg
     alt: Resident waving a blue flag
-  - url: florianopolis_2.jpg
+  - url: /articles/2016/08/flags/florianopolis_2.jpg
     alt: Resident waving a green flag
-  - url: florianopolis_3.jpg
+  - url: /articles/2016/08/flags/florianopolis_3.jpg
     alt: Resident waving a pink flag
-  - url: florianopolis_4.jpg
+  - url: /articles/2016/08/flags/florianopolis_4.jpg
     alt: Resident holding an orange flag
 ---
 ![](golden_wattle_1.jpg 'An athlete holding up the Golden Wattle Flag. Photograph: [The Golden Wattle Flag](http://www.goldenwattleflag.com)'){data-responsiver="wide"}

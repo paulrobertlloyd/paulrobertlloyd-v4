@@ -9,11 +9,11 @@ category:
   - Personal
   - Review of the year
 photoset:
-  - url: berlin.jpg
+  - url: /articles/2016/01/2015_in_review/berlin.jpg
     alt: Fernsehturm in Berlin
-  - url: amsterdam.jpg
+  - url: /articles/2016/01/2015_in_review/amsterdam.jpg
     alt: A’DAM in Amsterdam
-  - url: rotterdam.jpg
+  - url: /articles/2016/01/2015_in_review/rotterdam.jpg
     alt: Cube Houses in Rotterdam
 ---
 I wasn’t going to write about 2015, but reading a few end-of-year reviews has encouraged me to attempt the same, so here goes…

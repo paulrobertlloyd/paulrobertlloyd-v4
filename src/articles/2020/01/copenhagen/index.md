@@ -21,9 +21,9 @@ category:
 tags:
   - featured
 photoset:
-  - url: blue_red_and_yellow.jpg
+  - url: /articles/2020/01/copenhagen/blue_red_and_yellow.jpg
     alt: Colourful, glowing box in the middle of a gallery.
-  - url: gleaming_lights_of_the_souls.jpg
+  - url: /articles/2020/01/copenhagen/gleaming_lights_of_the_souls.jpg
     alt: Dark room with small bright red and blue lights.
 ---
 ## Day 3

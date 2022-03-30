@@ -10,29 +10,29 @@ category:
   - Drawing
   - Freelancing
 photoset:
-  - url: 100_days/1.jpg
+  - url: /articles/2015/04/100_days/1.jpg
     alt: New bus for London
-  - url: 100_days/2.jpg
+  - url: /articles/2015/04/100_days/2.jpg
     alt: Plug
-  - url: 100_days/3.jpg
+  - url: /articles/2015/04/100_days/3.jpg
     alt: ITV Digital monkey
-  - url: 100_days/4.jpg
+  - url: /articles/2015/04/100_days/4.jpg
     alt: House keys
-  - url: 100_days/5.jpg
+  - url: /articles/2015/04/100_days/5.jpg
     alt: Glass
-  - url: 100_days/6.jpg
+  - url: /articles/2015/04/100_days/6.jpg
     alt: Wallet
-  - url: 100_days/7.jpg
+  - url: /articles/2015/04/100_days/7.jpg
     alt: Running shoe
-  - url: 100_days/8.jpg
+  - url: /articles/2015/04/100_days/8.jpg
     alt: Lego TV van
-  - url: 100_days/9.jpg
+  - url: /articles/2015/04/100_days/9.jpg
     alt: Fish and chips
-  - url: 100_days/10.jpg
+  - url: /articles/2015/04/100_days/10.jpg
     alt: Television remote
-  - url: 100_days/11.jpg
+  - url: /articles/2015/04/100_days/11.jpg
     alt: Petrified wood
-  - url: 100_days/12.jpg
+  - url: /articles/2015/04/100_days/12.jpg
     alt: Apple power brick
 ---
 Although Clearleft was first on the list of companies I’d like to freelance for, I was hesitant about having them be my first client, as it might throw into question [why I left in the first place][1]. Thankfully doing so has actually validated my decision to spend [14 months at the Guardian][2]; I’ve been surprised by just how often that experience has enabled me to contribute more meaningfully to our work with [John Lewis][3].

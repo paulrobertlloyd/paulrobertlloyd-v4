@@ -13,8 +13,8 @@ category:
   - New Years
 discussion: closed
 photoset:
-  - url: cannock_chase_3.jpg
-  - url: cannock_chase_4.jpg
+  - url: /articles/2009/01/day_one/cannock_chase_3.jpg
+  - url: /articles/2009/01/day_one/cannock_chase_4.jpg
 ---
 ![](cannock_chase_1.jpg 'Cannock Chase German Military Cemetery.')
 {.align-bleed}

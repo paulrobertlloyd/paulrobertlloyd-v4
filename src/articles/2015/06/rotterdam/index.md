@@ -13,9 +13,9 @@ category:
   - Europe
   - The Netherlands
 photoset:
-  - url: kpn_tower.jpg
+  - url: /articles/2015/06/rotterdam/kpn_tower.jpg
     alt: KPN Tower
-  - url: de_rotterdam.jpg
+  - url: /articles/2015/06/rotterdam/de_rotterdam.jpg
     alt: De Rotterdam
 ---
 ![](centraal_station.jpg 'Rotterdam Centraal Station.')

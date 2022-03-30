@@ -11,9 +11,9 @@ category:
   - Ottawa
   - Canada
 photoset:
-  - url: confederation_hall.jpg
+  - url: /articles/2011/12/ottawa/confederation_hall.jpg
     alt: Confederation Hall
-  - url: senate.jpg
+  - url: /articles/2011/12/ottawa/senate.jpg
     alt: Senate Room
 ---
 ![](parliament.jpg 'Canadian parliament buildings in Ottawa.')

@@ -12,9 +12,9 @@ category:
   - Furniture
   - Design
 photoset:
-  - url: tv_table.jpg
+  - url: /articles/2016/04/habitables/tv_table.jpg
     alt: Table
-  - url: desk.jpg
+  - url: /articles/2016/04/habitables/desk.jpg
     alt: Desk
 ---
 ![](sideboard.jpg 'Sideboard, designed by Manuel Barrera/Habitables.')

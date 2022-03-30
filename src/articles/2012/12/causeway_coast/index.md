@@ -15,8 +15,8 @@ category:
   - Web
   - Northern Ireland
 photoset:
-  - url: 4.jpg
-  - url: 5.jpg
+  - url: /articles/2012/12/causeway_coast/4.jpg
+  - url: /articles/2012/12/causeway_coast/5.jpg
 ---
 ![Causeway Coast.](1.jpg)
 {.align-bleed}

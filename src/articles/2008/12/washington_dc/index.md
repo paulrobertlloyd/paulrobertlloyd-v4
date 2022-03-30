@@ -13,9 +13,9 @@ category:
   - United States
 discussion: closed
 photoset:
-  - url: iwo_jima_memorial.jpg
+  - url: /articles/2008/12/washington_dc/iwo_jima_memorial.jpg
     alt: US Marine Corps War Memorial
-  - url: netherlands_carillon.jpg
+  - url: /articles/2008/12/washington_dc/netherlands_carillon.jpg
     alt: Netherlands Carillon
 ---
 ![](vietnam_memorial.jpg 'The Vietnam Veterans Memorial.')

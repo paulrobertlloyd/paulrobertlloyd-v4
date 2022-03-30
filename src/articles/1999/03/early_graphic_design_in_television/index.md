@@ -9,35 +9,35 @@ tags:
   - source:academic_essays
 figures:
   1:
-    - url: 1a.png
-    - url: 1b.png
-    - url: 1c.png
-    - url: 1d.png
-    - url: 1e.png
+    - url: /articles/1999/03/early_graphic_design_in_television/1a.png
+    - url: /articles/1999/03/early_graphic_design_in_television/1b.png
+    - url: /articles/1999/03/early_graphic_design_in_television/1c.png
+    - url: /articles/1999/03/early_graphic_design_in_television/1d.png
+    - url: /articles/1999/03/early_graphic_design_in_television/1e.png
   2:
-    - url: 2a.png
-    - url: 2b.png
-    - url: 2c.png
-    - url: 2d.png
-    - url: 2e.png
+    - url: /articles/1999/03/early_graphic_design_in_television/2a.png
+    - url: /articles/1999/03/early_graphic_design_in_television/2b.png
+    - url: /articles/1999/03/early_graphic_design_in_television/2c.png
+    - url: /articles/1999/03/early_graphic_design_in_television/2d.png
+    - url: /articles/1999/03/early_graphic_design_in_television/2e.png
   6:
-    - url: 6a.png
-    - url: 6b.png
-    - url: 6c.png
-    - url: 6d.png
-    - url: 6e.png
+    - url: /articles/1999/03/early_graphic_design_in_television/6a.png
+    - url: /articles/1999/03/early_graphic_design_in_television/6b.png
+    - url: /articles/1999/03/early_graphic_design_in_television/6c.png
+    - url: /articles/1999/03/early_graphic_design_in_television/6d.png
+    - url: /articles/1999/03/early_graphic_design_in_television/6e.png
   7:
-    - url: 7a.png
-    - url: 7b.png
-    - url: 7c.png
-    - url: 7d.png
-    - url: 7e.png
+    - url: /articles/1999/03/early_graphic_design_in_television/7a.png
+    - url: /articles/1999/03/early_graphic_design_in_television/7b.png
+    - url: /articles/1999/03/early_graphic_design_in_television/7c.png
+    - url: /articles/1999/03/early_graphic_design_in_television/7d.png
+    - url: /articles/1999/03/early_graphic_design_in_television/7e.png
   16:
-    - url: 16a.png
-    - url: 16b.png
-    - url: 16c.png
-    - url: 16d.png
-    - url: 16e.png
+    - url: /articles/1999/03/early_graphic_design_in_television/16a.png
+    - url: /articles/1999/03/early_graphic_design_in_television/16b.png
+    - url: /articles/1999/03/early_graphic_design_in_television/16c.png
+    - url: /articles/1999/03/early_graphic_design_in_television/16d.png
+    - url: /articles/1999/03/early_graphic_design_in_television/16e.png
 ---
 It was nearly 20 years after the launch of BBC Television, that its first full-time graphic designer was employed, John Sewell, in 1954. This saw the start of a commitment to the profession, but for a long time Graphic Design remained under the control of Scenic Design, when it really should have been its equal, considering the amount of airtime graphic design occupied.
 

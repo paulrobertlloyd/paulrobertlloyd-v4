@@ -14,11 +14,11 @@ category:
 tags:
   - featured
 photoset:
-  - url: museum_of_the_moon.jpg
+  - url: /articles/2020/01/2019_in_review/museum_of_the_moon.jpg
     alt: Museum of the Moon in Queens Park, Brighton.
-  - url: antony_gormley.jpg
+  - url: /articles/2020/01/2019_in_review/antony_gormley.jpg
     alt: Antony Gormley exhibition at the Royal Academy.
-  - url: olafur_eliasson.jpg
+  - url: /articles/2020/01/2019_in_review/olafur_eliasson.jpg
     alt: Olafur Eliasson exhibition at Tate Modern in November.
 ---
 2019 began as 2018 ended; fatigued by freelancing and fed up with an increasingly inward-looking industry. A half-hearted search for work continued, but with little urgency and a stringent set of criteria that limited my options.

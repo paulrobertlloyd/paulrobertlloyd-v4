@@ -12,9 +12,9 @@ category:
   - London
   - Festivals
 photoset:
-  - url: 1_8_london.jpg
+  - url: /articles/2016/01/lumiere/1_8_london.jpg
     alt: ‘1.8 London’ by Janet Echelman
-  - url: light_of_the_spirit.jpg
+  - url: /articles/2016/01/lumiere/light_of_the_spirit.jpg
     alt: ‘The Light of The Spirit’ by Patrice Warrener
 ---
 Whenever I’m working for a client based in or near London, I try to find things to see and do in the capital after work. With that in mind, last Friday I jumped on the train to Waterloo to see [Lumiere][1], a festival of illuminated art.
