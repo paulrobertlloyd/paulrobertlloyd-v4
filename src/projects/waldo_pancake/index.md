@@ -22,9 +22,9 @@ aside: |
   Website
   : '[waldopancake.com](http://waldopancake.com/)'
 screenshots:
-  - url: screenshot_about.png
+  - url: /projects/waldo_pancake/screenshot_about.png
     alt: Home page
-  - url: screenshot_slideshow.png
+  - url: /projects/waldo_pancake/screenshot_slideshow.png
     alt: Slideshow of Waldo Pancake merchandise
 ---
 {% render 'screenshots' with screenshots

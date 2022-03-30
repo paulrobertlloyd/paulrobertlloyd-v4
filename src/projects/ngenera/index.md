@@ -20,9 +20,9 @@ aside: |
   Role
   : Brand identity, design and front-end development
 screenshots:
-  - url: screenshot_homepage.png
+  - url: /projects/ngenera/screenshot_homepage.png
     alt: Home page
-  - url: screenshot_workshop.png
+  - url: /projects/ngenera/screenshot_workshop.png
     alt: Workshop description page
 ---
 {% render 'screenshots' with screenshots

@@ -22,19 +22,19 @@ aside: |
   : Clearleft
 screenshots:
   homepage:
-    - url: screenshot_homepage.png
+    - url: /projects/fontdeck/screenshot_homepage.png
       alt: Home page
   typeface:
-    - url: screenshot_category.png
+    - url: /projects/fontdeck/screenshot_category.png
       alt: Typeface category page
-    - url: screenshot_specimen.png
+    - url: /projects/fontdeck/screenshot_specimen.png
       alt: Type specimen page
   ancillary:
-    - url: screenshot_about.png
+    - url: /projects/fontdeck/screenshot_about.png
       alt: About page
-    - url: screenshot_foundries.png
+    - url: /projects/fontdeck/screenshot_foundries.png
       alt: Foundries page
-    - url: screenshot_designer.png
+    - url: /projects/fontdeck/screenshot_designer.png
       alt: Type designer page
 ---
 {% render 'screenshots' with screenshots.homepage

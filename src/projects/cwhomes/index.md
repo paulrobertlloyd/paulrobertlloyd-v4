@@ -23,9 +23,9 @@ aside: |
   Agency
   : Orange Vision
 screenshots:
-  - url: screenshot_homepage.png
+  - url: /projects/cwhomes/screenshot_homepage.png
     alt: Home page
-  - url: screenshot_property.png
+  - url: /projects/cwhomes/screenshot_property.png
     alt: Property detail page
 ---
 {% render 'screenshots' with screenshots

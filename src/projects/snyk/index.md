@@ -21,19 +21,19 @@ aside: |
   : Design and user-experience
 screenshots:
   projects:
-    - url: screenshot_projects.png
+    - url: /projects/snyk/screenshot_projects.png
       alt: Projects page
   flow:
-    - url: screenshot_flow_before.png
+    - url: /projects/snyk/screenshot_flow_before.png
       alt: Original user journey for adding projects
-    - url: screenshot_flow_after.png
+    - url: /projects/snyk/screenshot_flow_after.png
       alt: Proposed user journey for adding projects
-    - url: screenshot_add_repos.png
+    - url: /projects/snyk/screenshot_add_repos.png
       alt: Add repos screen
   additional:
-    - url: screenshot_integrations.png
+    - url: /projects/snyk/screenshot_integrations.png
       alt: Integrations page
-    - url: screenshot_usage.png
+    - url: /projects/snyk/screenshot_usage.png
       alt: Usage page
 ---
 {% render 'screenshots' with screenshots.projects

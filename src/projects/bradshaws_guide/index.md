@@ -26,17 +26,17 @@ aside: |
   : Design and front-end development
 screenshots:
   homepage:
-    - url: screenshot_homepage.png
+    - url: /projects/bradshaws_guide/screenshot_homepage.png
       alt: Home page
   station:
-    - url: screenshot_station.png
+    - url: /projects/bradshaws_guide/screenshot_station.png
       alt: Station page
   mobile:
-    - url: screenshot_mobile_region.png
+    - url: /projects/bradshaws_guide/screenshot_mobile_region.png
       alt: Region page on mobile
-    - url: screenshot_mobile_route.png
+    - url: /projects/bradshaws_guide/screenshot_mobile_route.png
       alt: Route page on mobile
-    - url: screenshot_mobile_station.png
+    - url: /projects/bradshaws_guide/screenshot_mobile_station.png
       alt: Station page on mobile
 ---
 {% render 'screenshots' with screenshots.homepage

@@ -29,19 +29,19 @@ aside: |
   : 'Awarded best collaborative project at the net Awards 2014'
 screenshots:
   article:
-    - url: screenshot_article.png
+    - url: /projects/24_ways/screenshot_article.png
       alt: Article page
   mobile:
-    - url: screenshot_archive_mobile.png
+    - url: /projects/24_ways/screenshot_archive_mobile.png
       alt: Year archive page on mobile
-    - url: screenshot_article_mobile.png
+    - url: /projects/24_ways/screenshot_article_mobile.png
       alt: Article page on mobile
-    - url: screenshot_navigation_mobile.png
+    - url: /projects/24_ways/screenshot_navigation_mobile.png
       alt: Opened site navigation on mobile
   homepage:
-    - url: screenshot_homepage.png
+    - url: /projects/24_ways/screenshot_homepage.png
       alt: Home page
-    - url: screenshot_navigation.png
+    - url: /projects/24_ways/screenshot_navigation.png
       alt: Opened site navigation
 ---
 {% render 'screenshots' with screenshots.article

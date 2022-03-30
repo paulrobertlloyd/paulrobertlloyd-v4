@@ -21,9 +21,9 @@ aside: |
   Agency
   : Clearleft
 screenshots:
-  - url: screenshot_homepage.png
+  - url: /projects/universal_playback/screenshot_homepage.png
     alt: Home page
-  - url: screenshot_showpage.png
+  - url: /projects/universal_playback/screenshot_showpage.png
     alt: Show page
 ---
 {% render 'screenshots' with screenshots

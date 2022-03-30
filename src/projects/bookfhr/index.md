@@ -22,9 +22,9 @@ aside: |
   : Clearleft
 
 screenshots:
-  - url: screenshot_homepage.png
+  - url: /projects/bookfhr/screenshot_homepage.png
     alt: Home page
-  - url: screenshot_parking.png
+  - url: /projects/bookfhr/screenshot_parking.png
     alt: Parking search results page
 ---
 {% render 'screenshots' with screenshots

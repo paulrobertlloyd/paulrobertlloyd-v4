@@ -22,7 +22,7 @@ aside: |
   : Design and front-end development
 screenshots:
   school:
-    - url: screenshot_school.png
+    - url: /projects/ec_english/screenshot_school.png
       alt: New York school page
 ---
 {% render 'screenshots' with screenshots.school

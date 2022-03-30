@@ -22,19 +22,19 @@ aside: |
   Agency
   : Clearleft
 screenshots:
-  - url: screenshot_home.png
+  - url: /projects/unicef_uk/screenshot_home.png
     alt: Home page
-  - url: screenshot_info.png
+  - url: /projects/unicef_uk/screenshot_info.png
     alt: Internal page
-  - url: screenshot_gallery.png
+  - url: /projects/unicef_uk/screenshot_gallery.png
     alt: Gallery page
 photoset:
   workshop:
-    - url: photo_homepage_prioritisation.jpg
+    - url: /projects/unicef_uk/photo_homepage_prioritisation.jpg
       alt: Home page prioritisation exercise
-    - url: photo_pattern_identification.jpg
+    - url: /projects/unicef_uk/photo_pattern_identification.jpg
       alt: Pattern identification exercise
-    - url: photo_pattern_definition.jpg
+    - url: /projects/unicef_uk/photo_pattern_definition.jpg
       alt: Pattern definition exercise
 ---
 {% render 'screenshots' with screenshots

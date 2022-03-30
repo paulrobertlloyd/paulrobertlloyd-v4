@@ -20,9 +20,9 @@ aside: |
   Role
   : Interaction design, branding and front-end development
 screenshots:
-  - url: screenshot_networks.png
+  - url: /projects/ning/screenshot_networks.png
     alt: Home page
-  - url: screenshot_help.png
+  - url: /projects/ning/screenshot_help.png
     alt: Help center
 ---
 {% render 'screenshots' with screenshots

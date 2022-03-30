@@ -22,12 +22,12 @@ aside: |
   : Clearleft
 screenshots:
   showcase:
-    - url: screenshot_homepage.png
+    - url: /projects/nuts/screenshot_homepage.png
       alt: Home page
-    - url: screenshot_product.png
+    - url: /projects/nuts/screenshot_product.png
       alt: Product page
   customtray:
-    - url: screenshot_customtray.png
+    - url: /projects/nuts/screenshot_customtray.png
       alt: Custom tray configuration
 ---
 {% render 'screenshots' with screenshots.showcase

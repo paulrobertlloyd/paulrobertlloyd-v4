@@ -22,16 +22,16 @@ aside: |
   : Brand identity and user experience design
 screenshots:
   app:
-    - url: screenshot_app_welcome.png
+    - url: /projects/refigure/screenshot_app_welcome.png
       alt: Welcome screen
-    - url: screenshot_app_browse.png
+    - url: /projects/refigure/screenshot_app_browse.png
       alt: Browse meditations
-    - url: screenshot_app_meditation.png
+    - url: /projects/refigure/screenshot_app_meditation.png
       alt: Meditation detail
-    - url: screenshot_app_player.png
+    - url: /projects/refigure/screenshot_app_player.png
       alt: Meditation player
   homepage:
-    - url: screenshot_homepage.png
+    - url: /projects/refigure/screenshot_homepage.png
       alt: Landing page for the new app.
 ---
 {% render 'screenshots' with screenshots.app

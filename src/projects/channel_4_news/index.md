@@ -22,16 +22,16 @@ aside: |
   : Clearleft
 screenshots:
   tablet:
-    - url: screenshot_home.png
+    - url: /projects/channel_4_news/screenshot_home.png
       alt: Home screen
-    - url: screenshot_special_report.png
+    - url: /projects/channel_4_news/screenshot_special_report.png
       alr: Special report
   sections:
-    - url: screenshot_category.png
+    - url: /projects/channel_4_news/screenshot_category.png
       alt: Category screen
-    - url: screenshot_article.png
+    - url: /projects/channel_4_news/screenshot_article.png
       alt: News article
-    - url: screenshot_catchup.png
+    - url: /projects/channel_4_news/screenshot_catchup.png
       alt: Catch-up screen
 ---
 {% render 'screenshots' with screenshots.tablet

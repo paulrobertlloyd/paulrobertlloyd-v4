@@ -23,16 +23,16 @@ aside: |
   : Clearleft
 screenshots:
   homepage:
-    - url: screenshot_homepage.png
+    - url: /projects/matter/screenshot_homepage.png
       alt: Home page
   type:
-    - url: screenshot_type_calluna.png
+    - url: /projects/matter/screenshot_type_calluna.png
       alt: Type specimen for Calluna
-    - url: screenshot_type_centro.png
+    - url: /projects/matter/screenshot_type_centro.png
       alt: Type specimen for Centro
-    - url: screenshot_type_enigma.png
+    - url: /projects/matter/screenshot_type_enigma.png
       alt: Type specimen for Enigma
-    - url: screenshot_type_ptsans.png
+    - url: /projects/matter/screenshot_type_ptsans.png
       alt: Type specimen for PT Sans
 ---
 {% render 'screenshots' with screenshots.homepage

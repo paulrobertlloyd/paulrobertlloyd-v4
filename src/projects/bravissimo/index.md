@@ -24,14 +24,14 @@ aside: |
   : Clearleft
 screenshots:
   product:
-    - url: screenshot_swimwear.png
+    - url: /projects/bravissimo/screenshot_swimwear.png
       alt: Page listing swimwear available for sale
-    - url: screenshot_product.png
+    - url: /projects/bravissimo/screenshot_product.png
       alt: Product page
   brastrap:
-    - url: screenshot_brastrap_component.png
+    - url: /projects/bravissimo/screenshot_brastrap_component.png
       alt: Component preview and underlying code shown within Brastrap
-    - url: screenshot_brastrap_palette.png
+    - url: /projects/bravissimo/screenshot_brastrap_palette.png
       alt: Brastrap styleguide page detailing colour palettes
 ---
 {% render 'screenshots' with screenshots.product

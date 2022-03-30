@@ -21,24 +21,24 @@ aside: |
   : Interaction and user-experience design
 screenshots:
   homepage:
-    - url: screenshot_homepage.png
+    - url: /projects/charityconnect/screenshot_homepage.png
       alt: Home page
   mobile:
-    - url: screenshot_profile.png
+    - url: /projects/charityconnect/screenshot_profile.png
       alt: User profile page on mobile
-    - url: screenshot_following.png
+    - url: /projects/charityconnect/screenshot_following.png
       alt: Followed users page on mobile
-    - url: screenshot_group.png
+    - url: /projects/charityconnect/screenshot_group.png
       alt: Group profile page on mobile
-    - url: screenshot_post.png
+    - url: /projects/charityconnect/screenshot_post.png
       alt: Article page on mobile
 photoset:
   workshop:
-    - url: photo_empathy_map.jpg
+    - url: /projects/charityconnect/photo_empathy_map.jpg
       alt: Pattern identification exercise
-    - url: photo_personas.jpg
+    - url: /projects/charityconnect/photo_personas.jpg
       alt: Pattern definition exercise
-    - url: photo_prioritisation.jpg
+    - url: /projects/charityconnect/photo_prioritisation.jpg
       alt: Page prioritisation exercise
 ---
 {% render 'screenshots' with screenshots.homepage

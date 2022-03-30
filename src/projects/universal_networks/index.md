@@ -22,18 +22,18 @@ aside: |
   : Clearleft
 screenshots:
   syfy:
-    - url: screenshot_syfy_homepage.png
+    - url: /projects/universal_networks/screenshot_syfy_homepage.png
       alt: Home page
-    - url: screenshot_syfy_showpage.png
+    - url: /projects/universal_networks/screenshot_syfy_showpage.png
       alt: Show page
   networks:
-    - url: screenshot_diva.png
+    - url: /projects/universal_networks/screenshot_diva.png
       alt: Diva home page
-    - url: screenshot_13th_street.png
+    - url: /projects/universal_networks/screenshot_13th_street.png
       alt: 13th Street Universal home page
-    - url: screenshot_studio.png
+    - url: /projects/universal_networks/screenshot_studio.png
       alt: Studio Universal home page
-    - url: screenshot_universal_channel.png
+    - url: /projects/universal_networks/screenshot_universal_channel.png
       alt: Universal Channel home page
 ---
 {% render 'screenshots' with screenshots.syfy

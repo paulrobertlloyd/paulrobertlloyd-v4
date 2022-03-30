@@ -25,12 +25,12 @@ aside: |
   : Clearleft
 screenshots:
   homepage:
-    - url: screenshot_homepage.png
+    - url: /projects/dacs/screenshot_homepage.png
       alt: Home page
   payback:
-    - url: screenshot_payback.png
+    - url: /projects/dacs/screenshot_payback.png
       alt: Landing page for the Payback service
-    - url: screenshot_payback_furtherinfo.png
+    - url: /projects/dacs/screenshot_payback_furtherinfo.png
       alt: Further information about the Payback service
 ---
 {% render 'screenshots' with screenshots.homepage

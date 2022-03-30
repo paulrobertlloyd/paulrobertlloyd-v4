@@ -21,9 +21,9 @@ aside: |
   Agency
   : Clearleft
 screenshots:
-  - url: screenshot_homepage.png
+  - url: /projects/mozilla_addons/screenshot_homepage.png
     alt: Home page
-  - url: screenshot_addon.png
+  - url: /projects/mozilla_addons/screenshot_addon.png
     alt: Add-on detail page
 ---
 {% render 'screenshots' with screenshots

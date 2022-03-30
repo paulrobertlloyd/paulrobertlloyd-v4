@@ -22,12 +22,12 @@ aside: |
   : Clearleft
 screenshots:
   latest:
-    - url: screenshot_2010.png
+    - url: /projects/dconstruct/screenshot_2010.png
       alt: Home page for the 2010 website
   recent:
-    - url: screenshot_2011.png
+    - url: /projects/dconstruct/screenshot_2011.png
       alt: Home page for the 2011 website
-    - url: screenshot_2013.png
+    - url: /projects/dconstruct/screenshot_2013.png
       alt: Home page for the 2013 website
 ---
 {% render 'screenshots' with screenshots.latest

@@ -27,27 +27,27 @@ aside: |
   : [Download on the App Store](https://itunes.apple.com/gb/app/id468108781)
 screenshots:
   showcase:
-    - url: screenshot_cover.png
+    - url: /projects/the_week/screenshot_cover.png
       alt: Cover screen
-    - url: screenshot_story.png
+    - url: /projects/the_week/screenshot_story.png
       alt: Screen showing the first page of the featured news story
   ui:
-    - url: screenshot_cover.png
+    - url: /projects/the_week/screenshot_cover.png
       alt: Cover screen
-    - url: screenshot_index.png
+    - url: /projects/the_week/screenshot_index.png
       alt: Politics index
-    - url: screenshot_article.png
+    - url: /projects/the_week/screenshot_article.png
       alt: Screen showing the first page of the selected politics story
   styleguide:
-    - url: screenshot_grid.png
+    - url: /projects/the_week/screenshot_grid.png
       alt: Design overlaid with red grid lines
-    - url: screenshot_type.png
+    - url: /projects/the_week/screenshot_type.png
       alt: Example screen featuring dummy content
 photoset:
   workshop:
-    - url: photo_empathy_map.jpg
+    - url: /projects/the_week/photo_empathy_map.jpg
       alt: Empathy map created during the workshop
-    - url: photo_workshop_sketches.jpg
+    - url: /projects/the_week/photo_workshop_sketches.jpg
       alt: Four sketches from the workshop
 ---
 {% render 'screenshots' with screenshots.showcase

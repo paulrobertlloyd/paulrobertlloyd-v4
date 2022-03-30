@@ -15,14 +15,14 @@ tags:
   - source:a_green_focus
 screenshots:
   team-a:
-  - url: team_a_event_page.png
+  - url: /articles/2010/03/hack_the_planet_report/team_a_event_page.png
     alt: Event page.
-  - url: team_a_profile_page.png
+  - url: /articles/2010/03/hack_the_planet_report/team_a_profile_page.png
     alt: Profile page.
   team-b:
-  - url: team_b_home_page.png
+  - url: /articles/2010/03/hack_the_planet_report/team_b_home_page.png
     alt: Home page.
-  - url: team_b_rating_schwag.png
+  - url: /articles/2010/03/hack_the_planet_report/team_b_rating_schwag.png
     alt: A form within the flow for rating schwag.
 ---
 ![](/image.jpg 'The two teams at work.')

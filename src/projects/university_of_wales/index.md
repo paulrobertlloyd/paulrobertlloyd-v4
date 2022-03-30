@@ -21,9 +21,9 @@ aside: |
   Agency
   : Clearleft
 screenshots:
-  - url: screenshot_homepage.png
+  - url: /projects/university_of_wales/screenshot_homepage.png
     alt: Home page
-  - url: screenshot_about.png
+  - url: /projects/university_of_wales/screenshot_about.png
     alt: About page
 ---
 {% render 'screenshots' with screenshots

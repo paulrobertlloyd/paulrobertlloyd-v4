@@ -1,6 +1,8 @@
 <figure class="align-{{ alignment | default: 'none' }}">
   <div class="screenshots" style="--columns: {{ columns | default: screenshots.size }}">
-    {% render 'image' for screenshots as image %}
+  {%- for image in screenshots %}
+    {% image image %}
+  {%- endfor %}
   </div>
 {%- if caption %}
   <figcaption>

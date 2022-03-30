@@ -20,9 +20,9 @@ aside: |
   Role
   : UX, design and front-end development
 screenshots:
-  - url: screenshot_bloggers.png
+  - url: /projects/apture/screenshot_bloggers.png
     alt: Product marketing page
-  - url: screenshot_admin.png
+  - url: /projects/apture/screenshot_admin.png
     alt: Site administration page
 ---
 {% render 'screenshots' with screenshots

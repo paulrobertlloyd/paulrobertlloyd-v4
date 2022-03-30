@@ -19,9 +19,9 @@ aside: |
   Role
   : UX, design and front-end development
 screenshots:
-  - url: screenshot_groops.png
+  - url: /projects/groopix/screenshot_groops.png
     alt: Groops page
-  - url: screenshot_collection.png
+  - url: /projects/groopix/screenshot_collection.png
     alt: Collection page
 ---
 {% render 'screenshots' with screenshots
