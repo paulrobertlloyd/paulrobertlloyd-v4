@@ -18,6 +18,9 @@ module.exports = {
   summaryImageAlt: data => data.pageImage
     ? data.pageImage.alt
     : 'Logo',
+  photos: data => data.photo
+    ? Array.isArray(data.photo) ? data.photo : [data.photo]
+    : false,
   related: data => {
     const posts = data.collections.post;
     const events = data.collections.event;
