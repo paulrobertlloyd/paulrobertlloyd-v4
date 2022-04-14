@@ -61,4 +61,8 @@ module.exports = [{
   title: 'Workspiration',
   summary: 'A website about how professional work, their tools and strategies.',
   url: 'https://workspiration.org',
+}, {
+  title: 'X-GOVUK',
+  summary: 'A community-maintained collection of resources which are useful for working on GOV.UK services.',
+  url: 'https://x-govuk.github.io',
 }];
