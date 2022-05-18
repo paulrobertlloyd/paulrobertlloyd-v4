@@ -23,11 +23,16 @@ module.exports = {
     place: data => {
       const places = data.collections.place;
       const {placeId} = data.event;
+      const {venue} = data.event;
       if (places && placeId) {
         const placeIdStart = placeId.split('+')[0]
+        const venueHint = venue.toLowerCase()
         return places
            .map(place => place.data.place)
-           .find(place => place.address['plus-code'].startsWith(placeIdStart))
+           .find(place =>
+              place.address['plus-code'].startsWith(placeIdStart) &&
+              place.title.toLowerCase().startsWith(venueHint)
+           )
       }
     },
     product: async data => {
