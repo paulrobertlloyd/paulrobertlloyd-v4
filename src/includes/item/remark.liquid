@@ -4,7 +4,7 @@
     <h3 class="item__title | p-author h-card">
       {%- if item.author.url %}<a class="u-url" href="{{ item.author.url }}" target="_blank" rel="noopener noreferrer">{% endif -%}
         <span class="p-name">{{ item.author.name | default: 'Anonymous' }}</span>
-        {% avatar item.author.photo %}
+        {% image item.author.photo, 'avatar' %}
       {%- if item.author.url %}</a>{% endif -%}
     </h3>
   </header>

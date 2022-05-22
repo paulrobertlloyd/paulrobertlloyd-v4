@@ -38,7 +38,6 @@ module.exports = function (eleventy) {
   }));
 
   // Shortcodes
-  eleventy.addShortcode('avatar', require('./lib/shortcodes/avatar.js'));
   eleventy.addShortcode('image', require('./lib/shortcodes/image.js'));
   eleventy.addShortcode('jsonFeed', require('./lib/shortcodes/json-feed.js'));
 

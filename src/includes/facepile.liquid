@@ -2,7 +2,7 @@
   <span class="facepile__title">{{ type }}</span>
   <span class="facepile__main">
     {% for item in facepile limit: 5 %}
-      {% avatar item.author.photo item.author.name %}
+      {% image item.author.photo, 'avatar', 'avatar | u-photo' %}
     {% endfor %}
     {% if items.size > 5 %}
       <span class="facepile__counter">+{{ items.size | minus: 5 }}</span>
