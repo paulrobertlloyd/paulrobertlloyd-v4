@@ -36,7 +36,7 @@ A few cities have bucked this trend — [Los Angeles Memorial Coliseum][11] and 
 
 ## London’s plan
 
-![](exploded.jpg 'Exploded view of the Olympic Stadium’s construction, showing the permanent and temporary components of its design.'){data-responsiver="supporting"}
+![](exploded.jpg 'Exploded view of the Olympic Stadium’s construction, showing the permanent and temporary components of its design.')
 {.align-pull}
 
 Organisers of London 2012, with aborted attempts to build a national athletics stadium at [Picketts Lock][17] and [Wembley][18] fresh in the memory, hoped to learn from these mistakes.

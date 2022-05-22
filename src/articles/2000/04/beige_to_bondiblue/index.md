@@ -16,7 +16,7 @@ A standard design for a personal computer did not exist — in fact the idea of 
 
 ## The Apple II
 
-![](apple_ii_campaign.jpg 'An Apple II Advertisement.'){data-responsiver="supporting"}
+![](apple_ii_campaign.jpg 'An Apple II Advertisement.')
 {.align-pull}
 
 The introduction of the Apple II in 1977 was the first step in changing this view. This was basically an improved version of the Apple I with a couple of additions. It also differed by enclosing the circuitry in a case. Made of plastic, this was the first personal computer to do so.

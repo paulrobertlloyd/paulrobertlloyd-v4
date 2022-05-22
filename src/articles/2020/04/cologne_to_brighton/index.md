@@ -22,7 +22,7 @@ tags:
 
 ## Day 14
 
-![](astoria_hotel.jpg 'From the bright, refined interior of the Astoria Hotel…'){data-responsiver="supporting"}
+![](astoria_hotel.jpg 'From the bright, refined interior of the Astoria Hotel…')
 {.align-pull}
 
 I’ve barely spent any time in the [Astoria][1], which is disappointing as its art deco stylings are difficult to ignore. With my suitcase in one hand, I try and take as many photos of its interior as I can, while keeping an eye on the time. This hotel is certainly high on my list of places to stay next time I’m in Copenhagen.
@@ -31,7 +31,7 @@ At the train station, I grab one last breakfast from *Espresso House* before boa
 
 Back at my old friend Hamburg’s Hauptbahnhof, there’s time some food and quick refreshment before I’m on another train, destination Cologne.
 
-![](hotel_im_wasserturm.jpg '…to the dark, industrial vaults of *Hotel im Wasserturm*{lang="de"}.'){data-responsiver="supporting"}
+![](hotel_im_wasserturm.jpg '…to the dark, industrial vaults of *Hotel im Wasserturm*{lang="de"}.')
 {.align-pull}
 
 I arrive just after 9:30 pm, and head for [*Hotel im Wasserturm*{lang="de"}][3]. This building has the potential to be a highlight of this trip. I’ve read mixed reviews, but spending a few nights in a converted water tower seemed like too good an opportunity to miss.

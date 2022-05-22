@@ -20,7 +20,7 @@ I wasn’t going to write about 2015, but reading a few end-of-year reviews has 
 
 Last year started with some unfinished business, seeing out the remainder of [my contract at the Guardian][1] in January. Then, after [a month spent with family in Brazil][2], I was able to start my second stint at freelancing in March. I wrote about some of the [tribulations of this endeavour][3] a few months ago; thankfully things have picked up since writing that post.
 
-![](nieces.jpg 'Visiting family in February meant I could spend some quality time with my brother and two nieces, Maria and Ana.'){data-responsiver="supporting"}
+![](nieces.jpg 'Visiting family in February meant I could spend some quality time with my brother and two nieces, Maria and Ana.')
 {.align-pull}
 
 Besides the trip to São Paulo, the year featured plenty of other destinations: [Berlin][4], [Bath][5], [Manchester][6], [Amsterdam][7], [Rotterdam][8], [Bruges][9], [Prague][10], [Budapest][11], [Paris][12] and [Birmingham][13]. Most of my travel was concentrated on cities in Britain or on the Continent; I see no reason why that shouldn’t continue into this year, as well.

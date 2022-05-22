@@ -11,7 +11,7 @@ category:
   - United States
 discussion: closed
 ---
-![](image.jpg 'Flight information screen.'){data-responsiver="supporting"}
+![](image.jpg 'Flight information screen.')
 {.align-pull}
 
 Today was largely taken up by a flight back to London from San Francisco, where I spent the last ten days. Very much a work-focused trip, the ten days were spent with the growing team at [Apture][1], discussing upcoming improvements to the Media Hub and other aspects of the product. The Media Hub is a tool that allows users to search for multimedia from a number of different sources, from which they can pick content to add to their webpages. Designing an interface to accomplish this, and faced with a large number of technical constraints, is certainly a challenge!

@@ -25,7 +25,7 @@ Before I really started to explore the city, I met up with friend and former col
 
 Given Australia’s passion for sport, it’s perhaps no surprise that the MCG — whilst outside the CBD — still forms an integral part of the city. Its six large light towers dominate the landscape around Melbourne’s sports and entertainment precinct, a huge section of parkland littered with sporting venues of every size and description.
 
-![](olympic_cauldron.jpg 'The cauldron from the 1956 Olympic Games.'){data-responsiver="supporting"}
+![](olympic_cauldron.jpg 'The cauldron from the 1956 Olympic Games.'
 {.align-pull}
 
 As a city that hosted the [Olympic Games of 1956][7], I was keen to see how many of the buildings from this time remained. Unfortunately much has changed, although the Olympic Park is still home to the [Olympic Pool][8] — the first fully indoor Olympic swimming venue. This is now an indoor training centre and office complex, and sadly the only major structure from the games to look much as it did in 1956. Many of the other buildings have since been replaced by motorways and car parks.

@@ -15,7 +15,7 @@ tags:
   - featured
 accentColor: '#4a154b'
 ---
-![](image.jpg 'The new logo for Slack. Image: [Pentagram](https://www.pentagram.com/work/slack/story)'){data-responsiver="wide"}
+![](image.jpg 'The new logo for Slack. Image: [Pentagram](https://www.pentagram.com/work/slack/story)')
 {.align-bleed}
 
 Slack has a new logo, and in a society fuelled by outrage, everyone hates it.

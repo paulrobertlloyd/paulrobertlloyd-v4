@@ -33,7 +33,7 @@ I’m not sure why I recap some years and not others, but if any year needs reco
 
 The year was abysmal from the start, with fearsome bush fires in Australia, the imminent departure of the UK from the EU, and the threat of another war in the Middle East, all jostling for front-page headlines.
 
-![](/media/1580652554.jpg 'George Bradshaw’s gravestone in *Gamlebyen*{lang="no"} graveyard, Oslo.'){data-responsiver="supporting"}
+![](/media/1580652554.jpg 'George Bradshaw’s gravestone in *Gamlebyen*{lang="no"} graveyard, Oslo.')
 {.align-pull}
 
 Regardless of current affairs, or perhaps because of them, I spent Christmas watching [<cite>Around the World in 80 Days with Michael Palin</cite>][2]. It gave me itchy feet, and I dreamt of a similar adventure, albeit over fewer days. Buying an [Interrail][3] pass would allow me to change plans on a whim. Travelling around Scandinavia during the winter months would inspire captivating journal entries, with thoughtful insights about Europe at the start of this new decade.
@@ -61,7 +61,7 @@ The trip to Scotland was cancelled, I never returned to the office.
 
 ## WFH
 
-![](/media/1584972648.jpg 'My new home office.'){data-responsiver="supporting"}
+![](/media/1584972648.jpg 'My new home office.')
 {.align-pull}
 
 I had always found remote working difficult, but with a 12-week lockdown announced on 23 March, I would have to make working from home, work.

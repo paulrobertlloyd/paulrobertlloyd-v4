@@ -28,7 +28,7 @@ I was amazed by the level of political awareness and activism that existed, perh
 
 Whilst I was now quite immersed in (some sort of) American way of life, I’m not sure when Obama first came to my attention. I do distinctly remember watching his announcement from Springfield, IL, in which he confirmed he was running for President, and already knew that he was the candidate I’d be supporting. Over time, his non-combative style, grace under pressure and call for change cemented that decision, whilst the way in which he embraced design, technology and the internet was encouraging given my interest in those areas.
 
-![](hope_poster.png 'Barack Obama <cite>Hope</cite> poster by Shepard Fairey.'){data-responsiver="supporting"}
+![](hope_poster.png 'Barack Obama ‘Hope’ poster by Shepard Fairey.')
 {.align-pull}
 
 By the time of the [Iowa Caucuses][3], and [New Hampshire primaries][4] I decided that I’d be returning to the UK. Yet I continued to watch the election with a keen interest, watching every debate, every concession speech, every victory rally.

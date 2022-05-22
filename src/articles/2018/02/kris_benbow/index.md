@@ -23,7 +23,7 @@ Thankfully, my memories of Kris aren’t limited to him being a manager. Having 
 
 Every summer, a group of us would head to Dolgellau in Wales. The stated aim was to tackle the Red Bull mountain bike course at nearby Coed-y-Brenin, but over the years this trip devolved into something less adventurous; pitching our tents around a campfire, drinking beer and barbecuing meat. For Kris, a man known for his fondness of creature comforts and the easy life, this wasn’t as appealing; he’d much rather spend the weekend at a health spa, or better still, at home, surrounded by various gadgets.
 
-![](sydney.jpg 'Fordy and Kris dancing on my grave. Manly Beach, Sydney, 2003.'){data-responsiver="supporting"}
+![](sydney.jpg 'Fordy and Kris dancing on my grave. Manly Beach, Sydney, 2003.')
 {.align-pull}
 
 So, it was quite the shock when in 2003, he and Fordy announced they had quit McDonald’s and were headed for Sydney! Intended as a means of getting over ex-girlfriends — jumping out of a plane hadn’t achieved the desired result — their trip would include a brief stopover in Bangkok; it took Kris several years to admit to a particular experience that took place there! They had suggested I join, but in the end I decided to visit for just five weeks instead, on what would be my first holiday abroad. With the Rugby World Cup being hosted in Australia that year, [we got to see England crowned champions][1] in a city packed full of upset Aussies. How we made it back to our hostel in one piece, I’ll never know. Here, we [got to know our fellow countrymen][2], and would later enjoy several Glebe reunions in [Bristol][3], [Bournemouth][4] and [Wimbledon][5].

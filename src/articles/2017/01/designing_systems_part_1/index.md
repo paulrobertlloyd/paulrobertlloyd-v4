@@ -25,7 +25,7 @@ Imagine you were asked to design a city. How might you layout its roads and majo
 
 Their modernist creation was to replace the Brazil’s previous capital, Rio de Janeiro. Its coastal location meant it was vulnerable to attack, and the country’s constitution had long stated that the capital should be located closer to the country’s hinterland. It wasn’t until Juscelino Kubitschek was elected President in 1956 that this aim would be finally realised. He had campaigned on a promise of “fifty years of prosperity in five”, and the creation of Brasilìa was a key pledge.
 
-![](costa_niemeyer.jpg 'Oscar Niemeyer and Lucio Costa pictured in 1957.'){data-responsiver="supporting"}
+![](costa_niemeyer.jpg 'Oscar Niemeyer and Lucio Costa pictured in 1957.')
 {.align-pull}
 
 Kubitschek invited the architect Oscar Niemeyer to design the city’s civic buildings — the Presidential Palace, National Congress, Supreme Court and its Cathedral — and Niemeyer’s friend Lúcio Costa won the contest to arrange its urban plan.
@@ -59,7 +59,7 @@ You might describe the prevailing aesthetic as eclectic, if you were being gener
 
 Pick’s first initiative was to improve the appearance of stations. He standardised the different poster sizes, limited their number, and arranged them on a grid. To ensure station names would stand out he placed large red circles behind name boards, a layout that would inform the design of the now familiar underground logo, the Roundel.
 
-![](dover_street.jpg 'Dover Street (now Green Park) station in 1923. Photograph: [Transport for London](https://www.flickr.com/photos/tflpress/22122745593)'){data-responsiver="supporting"}
+![](dover_street.jpg 'Dover Street (now Green Park) station in 1923. Photograph: [Transport for London](https://www.flickr.com/photos/tflpress/22122745593)')
 {.align-pull}
 
 Pick then commissioned artists to design beautiful posters. Rather than nag passengers, these would inspire, suggesting places in London people could visit and attractions they might attend. Pick thought art needed to come down from its pedestal and earn a living. These posters humanised the network, with people referring to the tube as London’s longest art gallery.
@@ -73,7 +73,7 @@ Johnston sought inspiration for his typeface from hand drawn letters he had seen
 
 As UERL merged with its competitors to become the Underground Group, Pick rose through the ranks, and his influence grew. In 1927 he commissioned the architect Charles Holden to design a new head office at 55 Broadway, as well as a series of new stations for the extended Piccadilly line. By 1933, when the capital’s transit companies were combined into a public body — the London Passenger Transport Board — Pick was appointed its chief executive.
 
-![](pick.jpg 'Portrait of Frank Pick (Howard Coster, 1939). Photograph: [National Portrait Gallery](http://www.npg.org.uk/collections/search/portrait/mw165033/Frank-Pick?LinkID=mp52004&search=sas&sText=frank+pick&role=sit&rNo=0)'){data-responsiver="supporting"}
+![](pick.jpg 'Portrait of Frank Pick (Howard Coster, 1939). Photograph: [National Portrait Gallery](http://www.npg.org.uk/collections/search/portrait/mw165033/Frank-Pick?LinkID=mp52004&search=sas&sText=frank+pick&role=sit&rNo=0)')
 {.align-pull}
 
 Pick would remain in charge until shortly before his death in 1941. During the 30 years he managed London’s transport, Pick had instigated what today we might call a corporate identity programme — dare I say, a design system — and its core tenets remain in place to this day.

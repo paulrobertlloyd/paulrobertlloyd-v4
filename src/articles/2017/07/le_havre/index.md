@@ -24,7 +24,7 @@ My friend [James][1] once told me about what he calls the Ayres Rock effect. Thi
 
 Having read [Oliver Wainwright’s article][2] in the Guardian, I fear the same may be true when describing [Le Havre][3], a medium-sized coastal city in Normandy that lies at the mouth of the Seine. Flattened by German bombs in 1944, today it is home to a large container port and a dull, stoney beach that offers nothing but unobstructed views of cross-channel ferries. As such, it’s a curious destination for tourists, except perhaps those interested in urban renewal and modern architecture — or ferry spotting!
 
-![](canene_de_containers.jpg '<cite lang="fr">Canène de containers</cite> (Vincent Ganivet, 2017).'){data-responsiver="supporting"}
+![](canene_de_containers.jpg '<cite lang="fr">Canène de containers</cite> (Vincent Ganivet, 2017).')
 {.align-pull}
 
 This year however there’s a more compelling reason to visit. To celebrate 500 years since its founding, *Un Été au Havre*{lang="fr"} ([A Summer in Le Havre][4]) sees the city host a festival of art and culture, with events, exhibitions and guided tours. A number of public spaces have been made home to dramatic installations, many of which would ideally become permanent.
@@ -58,7 +58,7 @@ The other architecturally significant sight is that of the *[Le Volcan][10]*{lan
 
 Unlike his work in Brasília — a city built from nothing and where the imagination of its planners ran wild — here the destroyed city provided a foundation upon which the new layout was aligned. Important civic buildings remained in the locations they sat previously, and this complex sits where the former *Grand-Théâtre*{lang="fr"} stood. Niemeyer again defined his canvas from above, with the two peaks sitting either side of a sunken area whose walls, when viewed from the air, suggest the outline of a dove.
 
-![](bibliotheque_oscar_niemeyer.jpg '*Bibliotheque Oscar Niemeyer*{lang="fr"}.'){data-responsiver="supporting"}
+![](bibliotheque_oscar_niemeyer.jpg '*Bibliotheque Oscar Niemeyer*{lang="fr"}.')
 {.align-pull}
 
 Like its larger sibling, the smaller of the two buildings was originally a performance venue. In 2015 it was reconfigured to serve as the city’s library. And oh my, what a library! Set among curvaceous spaces set below the public square above, from the entrance I found myself drawn through the body of the building towards a reading room bathed in light from its clear glass roof. A generous pine central staircase winds up to a second floor, from which readers (and people watchers) can sit in small glass boxes that reach out into this intriguing space.

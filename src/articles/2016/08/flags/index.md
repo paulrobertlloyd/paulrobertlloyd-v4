@@ -22,7 +22,7 @@ photoset:
   - url: /articles/2016/08/flags/florianopolis_4.jpg
     alt: Resident holding an orange flag
 ---
-![](golden_wattle_1.jpg 'An athlete holding up the Golden Wattle Flag. Photograph: [The Golden Wattle Flag](http://www.goldenwattleflag.com)'){data-responsiver="wide"}
+![](golden_wattle_1.jpg 'An athlete holding up the Golden Wattle Flag. Photograph: [The Golden Wattle Flag](http://www.goldenwattleflag.com)')
 {.align-bleed}
 
 With British success at the Olympics in Rio, so the procedural photos of medalling athletes holding aloft the Union Flag. But, with the growing likelihood of a second independence referendum in Scotland post-Brexit, this could be the last games contested under the Team GB banner.

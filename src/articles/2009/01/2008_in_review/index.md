@@ -36,7 +36,7 @@ Summer was a little less hectic on the travel front, but after visiting my frien
 
 Of course the highlight of each summer, is a weekend spent with many friends on a camp site Dolgellau, North Wales. What started as an event focused on cycling (the nearby Coed-y-Brenin Forest is famed for its mountain bike trails) has since become more about getting away from it all, and relaxing in the [beautiful Welsh country side][15]. That and of course firing bottle rockets, chopping down trees, and [playing with boats in the river][16]!
 
-![](seattle.jpg 'Seattle’s Space Needle, taken from Queen Anne Hill.'){data-responsiver="supporting"}
+![](seattle.jpg 'Seattle’s Space Needle, taken from Queen Anne Hill.')
 {.align-pull}
 
 By October I was back on a plane heading stateside, this time with a plan to visit [Seattle][17], San Francisco, [Chicago][10] and [Washington DC][18]. A somewhat mixed trip, mainly due to a few mishaps on my part (I missed both my flight from San Francisco to Chicago, and my Amtrak connection from Chicago to DC) it was still chock-full of highlights. Dinning at the top of the Space Needle, sailing with the team from Apture on San Francisco Bay (with the [Blue Angels][19] flying only feet above us as they practised for Fleet Week) and an Architecture Boat Tour on the Chicago River stand out as some of the many memorable moments from this three week jaunt.

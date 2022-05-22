@@ -34,7 +34,6 @@
     "date-fns-tz": "^1.1.6",
     "dotenv": "^16.0.0",
     "geolib": "^3.3.1",
-    "images-responsiver": "^1.9.1",
     "lodash": "^4.17.21",
     "markdown-it": "^13.0.0",
     "markdown-it-abbr": "^1.0.4",

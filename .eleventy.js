@@ -53,9 +53,6 @@ module.exports = function (eleventy) {
 
   // Transforms
   eleventy.addTransform('embed', require('./lib/transforms/embed.js'));
-  if (process.env.NODE_ENV === 'production') {
-    eleventy.addTransform('image', require('./lib/transforms/image.js'));
-  }
 
   // Passthrough
   eleventy.addPassthroughCopy('./src/key.txt');

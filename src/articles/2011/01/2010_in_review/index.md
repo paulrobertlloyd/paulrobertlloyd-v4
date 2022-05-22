@@ -47,7 +47,7 @@ Gripped by the previous year’s Formula One season, it was with much anticipati
 
 ## April
 
-![](ashes_to_ashes.jpg 'Gene Hunt and Jim Keats from the final series of Ashes to Ashes.'){data-responsiver="supporting"}
+![](ashes_to_ashes.jpg 'Gene Hunt and Jim Keats from the final series of Ashes to Ashes.')
 {.align-pull}
 
 April saw the concluding series of [Ashes to Ashes][11], leading up to the reveal of who, or what, Gene Hunt really was in May. Its testament to the writing and excellent cast that the final episode has stayed with me since — possibly the finest ending to a drama series I’ve ever seen. If only the same could have been said for the Leaders debates,  that was also essential viewing throughout the month.
@@ -102,7 +102,7 @@ As ever, September kicked off with dConstruct, and this was widely regarded as [
 
 Thanks to Clearleft’s work on the Radio 4 site earlier in the year, me and [Andy][28] were invited to a night at the Proms — a first for me, although it may have been more enjoyable had I remembered my glasses!
 
-![](maria.jpg 'Maria.'){data-responsiver="supporting"}
+![](maria.jpg 'Maria.')
 {.align-pull}
 
 However September will forever be marked for another reason, as I became an uncle for the first time. My brother and wife had their first child, Maria; it’s going to be fascinating watching her grow over the coming years, and it’s certainly given me a new perspective on the world.

@@ -23,7 +23,7 @@ With the Czech Republic located in Central Europe, formerly a constituent of the
 
 Seeing streets populated with multinational companies is a common experience, and while Prague has no shortage of McDonald’s and Starbucks, the city was not as saturated with American chains as you might expect. However, established British brands like Debenhams, Tesco, Marks & Spencer and Costa Coffee were ever present, and only served to increase my general sense of displacement; I would love to know why so many British companies choose to operate in the Czech Republic.
 
-![](pavement_construction.jpg 'Construction workers laying a new pavement.'){data-responsiver="supporting"}
+![](pavement_construction.jpg 'Construction workers laying a new pavement.')
 {.align-pull}
 
 Walking along black and white tiled pavements bought back memories of similar surfaces seen in Brazil. On streets with greater footfall, my shoes would quietly squeak as I stepped on their polished surface. Constructing such pavements must take a considerable amount of time, and can only reflect a wider commitment to beauty and detail. In Britain pavements are often constructed using large concrete slabs — even when patterned brickwork is used, it’s a matter of time before parts are replaced with patches of tarmac.

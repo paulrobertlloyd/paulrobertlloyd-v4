@@ -30,7 +30,7 @@ The following Saturday I was back on another train, this time bound for Norwich 
 
 Reminders of our mortality can be cruel, but the only way to proceed is to take stock and recommit to making the most of the present. Unsurprisingly, I made a concerted effort to spend more time with friends. Be it karting with Ben, marching with Kate, fishing with Emil, dining with Jon and Katie, discovering Brixton’s gastronomic delights with Andy or subjecting Chris, Frank, Mario and Sam to various rants; the year had plenty of memorable moments.
 
-![](/media/1530718801.jpg 'Me celebrating England’s win against Columbia.'){data-responsiver="supporting"}
+![](/media/1530718801.jpg 'Me celebrating England’s win against Columbia.')
 {.align-pull}
 
 All were incomparable to the unexpected thrill of watching England win a World Cup penalty shoot-out against Columbia. As Cennydd will attest, I spent the entire evening convinced fate would decide the result, not least because [ITV was broadcasting the match][4]. Well, to hell with fate, I was in dreamland! Cennydd was also alongside me at Silverstone where we watched England beat Sweden in the quarter-finals, but absent for England’s semi-final loss to Croatia. Were it not for my previous suspicions being proven wrong, I might conclude that watching an England match with Rob was bad luck!

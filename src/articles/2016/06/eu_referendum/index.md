@@ -15,7 +15,7 @@ category:
 tags:
   - featured
 ---
-![](image.jpg 'Pastiche of Michelangelo’s <cite>The Creation of Adam</cite>, a modern reworking inspired by the same exercise I carried out twenty years ago.'){data-responsiver="wide"}
+![](image.jpg 'Pastiche of Michelangelo’s <cite>The Creation of Adam</cite>, a modern reworking inspired by the same exercise I carried out twenty years ago.')
 {.align-bleed}
 
 Tomorrow is the referendum on Britain’s membership of the European Union. I’ve wanted to write about this for some time, but I’ve delayed and delayed in the hope I could offer a tidy summary and clear reasoning behind my decision to remain.
