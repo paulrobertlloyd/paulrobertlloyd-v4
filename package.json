@@ -12,7 +12,6 @@
   "repository": "github:paulrobertlloyd/paulrobertlloyd-v4",
   "bugs": "https://github.com/paulrobertlloyd/paulrobertlloyd-v4/issues",
   "scripts": {
-    "prebuild": "rm -rf www && mkdir -p www/assets",
     "build": "eleventy --quiet",
     "deploy": "npm run build",
     "postdeploy": "webmention www/feed.xml --limit 1 --send",
