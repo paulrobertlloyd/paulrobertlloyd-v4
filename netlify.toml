@@ -12,13 +12,11 @@ command = "npm run deploy"
   TZ = "Europe/London"
 
 [[plugins]]
-package = "netlify-plugin-cache"
+package = "netlify-plugin-11ty"
 
   [plugins.inputs]
-  paths = [
-    "www/images",
-    ".cache"
-  ]
+  cache_img = "./images"
+  cache_img_httpHeader = true
 
 [[headers]]
 for = "/*"
