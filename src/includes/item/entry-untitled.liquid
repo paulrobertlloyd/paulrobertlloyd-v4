@@ -2,7 +2,7 @@
   <div class="item__main s-linear | e-content p-name">
     {{ item._templateContent -}}
     {% if item.data.photo %}
-      {%- if item.data.photo.size > 1 %}{% assign preset = 'card-square' %}{% endif -%}
+      {%- if item.data.photo.size > 1 %}{% assign preset = 'card' %}{% endif -%}
       {%- render 'photos' with item.data.photo
         imageClass: 'u-photo'
         imagePreset: preset | default: false

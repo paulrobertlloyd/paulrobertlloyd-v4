@@ -1,5 +1,5 @@
-const getWebmentions = require('../../lib/utils/get-webmentions.js');
-const getImagePath = require('../../lib/utils/get-image-path.js')
+const webmentions = require('../../lib/utils/get-webmentions.js');
+const summaryImagePath = require('../../lib/utils/get-summary-image-path.js');
 
 module.exports = {
   pageTitle: data => `${data.title} · ${data.app.title}`,
@@ -13,7 +13,7 @@ module.exports = {
     ? 'summary_large_image'
     : 'summary',
   summaryImage: data => data.pageImage
-    ? getImagePath(data.pageImage.url, 'summary')
+    ? summaryImagePath(data.pageImage.url)
     : data.app.url + data.app.icon,
   summaryImageAlt: data => data.pageImage
     ? data.pageImage.alt
@@ -30,6 +30,6 @@ module.exports = {
   },
   webmentions: data => {
     const url = data.app.url + data.page.url;
-    return getWebmentions(data.webmentions.children, url);
+    return webmentions(data.webmentions.children, url);
   },
 };
