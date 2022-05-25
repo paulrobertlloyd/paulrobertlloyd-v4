@@ -32,6 +32,7 @@ screenshots:
 ---
 {% render 'screenshots' with screenshots.showcase
   alignment: 'bleed'
+  imagePreset: 'supporting'
 %}
 
 {% render 'aside'

@@ -67,7 +67,7 @@ One of the guiding principles established early on was to privilege the reading 
 {% render 'screenshots' with screenshots.type
   caption: 'Type samples/experimentation'
   alignment: 'bleed'
-  imagePreset: 'thumbnail'
+  imagePreset: 'supporting'
 %}
 
 [1]: https://www.kickstarter.com/projects/readmatter/matter

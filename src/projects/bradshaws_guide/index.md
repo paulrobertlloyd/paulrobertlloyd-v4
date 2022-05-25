@@ -62,6 +62,7 @@ Producing content for the guide involved transcribing and correcting copy origin
 {% render 'screenshots' with screenshots.mobile
   caption: 'The design is optimised for small screen devices.'
   alignment: 'bleed'
+  imagePreset: 'supporting'
 %}
 
 [1]: https://bradshaws.guide

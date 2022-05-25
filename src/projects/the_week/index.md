@@ -52,6 +52,7 @@ photoset:
 ---
 {% render 'screenshots' with screenshots.showcase
   alignment: 'bleed'
+  imagePreset: 'supporting'
 %}
 
 {% render 'aside'
@@ -79,8 +80,8 @@ The predictable IA of the magazine was retained by creating overview pages for e
 
 {% render 'screenshots' with screenshots.ui
   caption: 'Progression through an issue of the magazine; from cover, to section to individual article. Double tapping on an article screen would bring up the ’scrubber’ enabling users to quickly advance through an issue.'
-  imagePreset: 'thumbnail'
   alignment: 'bleed'
+  imagePreset: 'supporting'
 %}
 
 A challenging aspect of this project was conveying the familiarity of the magazine within the confined space of an iPad, which is physically smaller, and with a lower resolution. Simply transferring the content of one page to a single screen would not be an option. While competing products often used pinch and zoom, we created bespoke layouts for both portrait and landscape device orientation.
@@ -93,8 +94,8 @@ Working closely with the development team at Kaldor, we honed the gestural inter
 
 {% render 'screenshots' with screenshots.styleguide
   caption: 'Example of the assets handed over to the team at Kaldor to aid development of the application.'
-  imagePreset: 'supporting'
   alignment: 'bleed'
+  imagePreset: 'supporting'
 %}
 
 ## Success

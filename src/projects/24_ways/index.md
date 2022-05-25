@@ -70,6 +70,7 @@ Keen to exploit the very idea of 24 ways – different articles, written by diff
 {% render 'screenshots' with screenshots.mobile
   caption: 'The site benefited from a mobile-first design approach.'
   alignment: 'bleed'
+  imagePreset: 'supporting'
 %}
 
 Where the previous design used a rigid template across all sections of the site, which often dominated the content, I created a series of responsive templates each suited the task in hand. These were supported by application-like navigation conventions, with subtle animation to add delight to the interface.
@@ -81,6 +82,7 @@ Keen to exploit the very idea of 24 ways – different articles, written by diff
 {% render 'screenshots' with screenshots.homepage
   caption: 'The home and other archival pages showcase articles by placing them within a grid, evoking the feel of a calendar. To account for the growing archive and improve the discoverability of content, I recommended categorising articles by topic, and exposing these within the navigation.'
   alignment: 'bleed'
+  imagePreset: 'supporting'
 %}
 
 ## Continual refinement

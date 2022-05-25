@@ -36,6 +36,7 @@ screenshots:
 ---
 {% render 'screenshots' with screenshots.tablet
   alignment: 'bleed'
+  imagePreset: 'supporting'
 %}
 
 {% render 'aside'
@@ -50,8 +51,8 @@ Shortly after its launch Apple featured the app as App of the Week. In a few sho
 
 {% render 'screenshots' with screenshots.sections
   caption: 'Category, article and catch-up screens within the app.'
-  imagePreset: 'supporting'
   alignment: 'bleed'
+  imagePreset: 'supporting'
 %}
 
 [1]: https://news.channel4.com

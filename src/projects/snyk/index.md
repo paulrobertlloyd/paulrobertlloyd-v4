@@ -51,6 +51,7 @@ I was brought on-board to address three critical areas of the product to improve
 {% render 'screenshots' with screenshots.flow
   caption: 'The original project creation flow took users to a dead end that provided too many options. The revised journey closed the loop, and ensured the project overview page was the single place to view information and a project and manage its settings. This also required the creation of a task focused screen for adding new repos to a project.'
   alignment: 'bleed'
+  imagePreset: 'supporting'
 %}
 
 I reviewed the project creation flow, addressing areas of friction and confusion, clarifying and simplifying the journey from connecting a code source to monitoring a project for vulnerabilities. I initially focused my attention on redesigning the overview page for projects where I consolidated functionality previously spread across different parts of the product. I then went on to devise the flows and interfaces for integrating third-party tools and partner services and pages that reported usage and displayed billing information.
@@ -58,6 +59,7 @@ I reviewed the project creation flow, addressing areas of friction and confusion
 {% render 'screenshots' with screenshots.additional
   caption: 'Integrations and reporting screens.'
   alignment: 'bleed'
+  imagePreset: 'supporting'
 %}
 
 Throughout my engagement I also advised on the development of the company’s nascent component library. I advocated for developing patterns that carried few assumptions about their intended use, enabling them to be applied more broadly across the product.

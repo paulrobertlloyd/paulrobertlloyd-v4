@@ -56,6 +56,7 @@ Like the previous year's design, the [homepage featured prominent images of the 
 
 {% render 'screenshots' with screenshots.recent
   alignment: 'bleed'
+  imagePreset: 'supporting'
 %}
 
 ## 2013: Communicating with Machines

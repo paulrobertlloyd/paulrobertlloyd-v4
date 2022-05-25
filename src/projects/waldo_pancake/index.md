@@ -29,6 +29,7 @@ screenshots:
 ---
 {% render 'screenshots' with screenshots
   alignment: 'bleed'
+  imagePreset: 'supporting'
 %}
 
 {% render 'aside'

@@ -67,6 +67,7 @@ With these findings uncovered, I created a set of detailed visual design composi
 {% render 'screenshots' with screenshots.mobile
   caption: 'The product benefited from a mobile-first design approach.'
   alignment: 'bleed'
+  imagePreset: 'supporting'
 %}
 
 [1]: https://www.charityconnect.co.uk

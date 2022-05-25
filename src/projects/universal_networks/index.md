@@ -38,6 +38,7 @@ screenshots:
 ---
 {% render 'screenshots' with screenshots.syfy
   alignment: 'bleed'
+  imagePreset: 'supporting'
 %}
 
 {% render 'aside'
@@ -51,7 +52,7 @@ Working with James Box at Clearleft, I devised the underlying user experience an
 {% render 'screenshots' with screenshots.networks
   caption: 'The library of design patterns could be customised to support different channel brands.'
   alignment: 'bleed'
-  imagePreset: 'thumbnail'
+  imagePreset: 'supporting'
 %}
 
 [1]: https://en.wikipedia.org/wiki/NBCUniversal_International_Networks
