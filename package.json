@@ -30,7 +30,7 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
     "@remy/webmention": "^1.4.5",
     "color": "^4.0.1",
-    "cssnano": "^5.1.6",
+    "cssnano": "^5.1.10",
     "date-fns-tz": "^1.1.6",
     "dotenv": "^16.0.0",
     "geolib": "^3.3.1",
