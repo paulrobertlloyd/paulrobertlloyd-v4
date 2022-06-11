@@ -35,7 +35,7 @@ photoset:
     - url: /articles/2012/09/the_web_aesthetic/bbc_news_enhanced.png
       alt: Enhanced mobile experience
 ---
-_This article is [also available in Italian][it-IT]{hreflang="it-IT" rel="alternate external"}_
+*This article is [also available in Italian][it-IT]{hreflang="it-IT" rel="alternate external"}*
 
 ![](illustration.png 'Illustration: [Kevin Cornell](http://alistapart.com/authors/c/kevincornell) for A List Apart.')
 {.align-bleed}
@@ -159,7 +159,7 @@ That these apps can only be viewed using Chrome is an unnerving requirement, and
 
 ### Only the news that’s fit to print
 
-When we think of websites inspired by print, those of newspapers spring to mind. The website for [_The New York Times_][12] features a fixed, densely packed, multi-column grid. Like many contemporary sites, content is suffocated by advertising, sharing widgets, and related links:
+When we think of websites inspired by print, those of newspapers spring to mind. The website for [<cite>The New York Times</cite>][12] features a fixed, densely packed, multi-column grid. Like many contemporary sites, content is suffocated by advertising, sharing widgets, and related links:
 
 ![](nytimes_site.png 'New York Times website interface.')
 

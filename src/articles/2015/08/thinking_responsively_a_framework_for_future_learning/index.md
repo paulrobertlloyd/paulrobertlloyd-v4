@@ -13,7 +13,7 @@ category:
 tags:
   - source:a_list_apart
 ---
-_This article is [also available in Italian][it-IT]{hreflang="it-IT" rel="alternate external"}_
+*This article is [also available in Italian][it-IT]{hreflang="it-IT" rel="alternate external"}*
 
 ![](image.png 'Illustration: [Brad Colbow](http://alistapart.com/author/bradcolbow) for A List Apart.')
 {.align-bleed}

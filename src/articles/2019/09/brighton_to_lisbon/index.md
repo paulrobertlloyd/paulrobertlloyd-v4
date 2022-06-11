@@ -32,7 +32,7 @@ tags:
 
 **12:34, Paris-Montparnasse.** After a brisk walk from the *Port-Royal* RER station, I arrive at this [modern carbuncle][3] with about 10 minutes to spare. The French railway system is now a mishmash of different brands, so I board an *SNCF TGV INOUI*{lang="fr"} service to Hendaye. The [double-decker Duplex][4]’s are incredibly spacious. My reclining seat has a large pulldown table, desk light, USB and power sockets. All undone by a low-hung luggage rack which I repeatedly hit my head against.
 
-**18:35, Hendaye.** Having arrived 45 minutes earlier, I board the [_Sud Express_][5], a *Renfe*{lang="es"}/*CP*{lang="pt"} operated train hotel that has seen better days. In one of the carriages is a small bar/restaurant, lorded over by portly gentleman fond of rules. No photos. No video. No card payments. I inadvertently break the first rule before seeing the sign. The third rule is not apparent until I try to pay for my meal. I have visions of doing the washing up as payment. Fortunately, the train manager is able to bring a card payment machine to my compartment later in the evening.
+**18:35, Hendaye.** Having arrived 45 minutes earlier, I board the [*Sud Express*][5], a *Renfe*{lang="es"}/*CP*{lang="pt"} operated train hotel that has seen better days. In one of the carriages is a small bar/restaurant, lorded over by portly gentleman fond of rules. No photos. No video. No card payments. I inadvertently break the first rule before seeing the sign. The third rule is not apparent until I try to pay for my meal. I have visions of doing the washing up as payment. Fortunately, the train manager is able to bring a card payment machine to my compartment later in the evening.
 
 ## Monday, 2 September 2019
 

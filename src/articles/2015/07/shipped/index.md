@@ -20,7 +20,7 @@ This year’s Indie Web Camp in Brighton was the latest deadline I’d set for m
 
 The previous version of this site [launched in July 2011][5], and while it’d seen many improvements over that time (not least in terms of [performance][6]), the publishing platform I was using — [Movable Type][7] — was burdensome: just publishing a new post meant rebuilding three different sections of the site. I’ve used Movable Type for almost a decade, but in that time the community has diminished and the product is [no longer open source][8] or designed for personal publishers.
 
-One of the reasons I liked this platform however, was that it generated static pages. People used to laugh at this feature, but today static site generators are in vogue. After researching the [_many_ different options available][9], I decided to use [Jekyll][10]. Not only is this software [actively developed][11], but I find it to be incredibly configurable and — once I get the hang of [Ruby][12] — infinitely hackable.
+One of the reasons I liked this platform however, was that it generated static pages. People used to laugh at this feature, but today static site generators are in vogue. After researching the [*many* different options available][9], I decided to use [Jekyll][10]. Not only is this software [actively developed][11], but I find it to be incredibly configurable and — once I get the hang of [Ruby][12] — infinitely hackable.
 
 Since making this choice, Jekyll has matured considerably, and the team is not far from launching the next major version, [Jekyll 3.0][13]. All that’s missing is smarter pagination options and faster rebuild times; even with the new incremental generation feature, rebuilds can still sometimes take around 180 seconds.
 

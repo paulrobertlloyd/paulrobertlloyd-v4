@@ -13,7 +13,7 @@ category:
 ---
 As consumers grow ever reliant on digital products and services, designers are being asked to create experiences that work seamlessly across a multitude of platforms, all without slowing delivery or impeding their maintainability. Design systems address this need.
 
-_But what is a design system?_
+*But what is a design system?*
 
 ![The layers of a design system. Radiating from a core set of principles, the next layer concerns guidance, the layer above that tools, with the final outer layer concerned with products.](onion.svg)
 {.align-pull}
