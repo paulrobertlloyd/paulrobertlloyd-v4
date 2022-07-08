@@ -32,7 +32,7 @@
   -%}
   {% for this in category %}
     {%- capture sectionTitle %}Other {{ this }} events{%- endcapture -%}
-    {%- assign relatedEvents = collections.event | includes: 'data.category',this | excludes: 'url',page.url | reverse -%}
+    {%- assign relatedEvents = collections.attended | includes: 'data.category',this | excludes: 'url',page.url | reverse -%}
     {%- render 'section' with relatedEvents
       id: 'related'
       title: sectionTitle
