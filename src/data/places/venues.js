@@ -668,7 +668,7 @@ module.exports = [{
     locality: 'Monte Carlo',
     'country-name': 'Monaco',
     'postal-code': '98000',
-    'plus-code': '8FM9PCMC+VG',
+    'plus-code': '8FM9PCMC+VM',
   },
 }, {
   title: 'Hampden Park',
@@ -1131,7 +1131,7 @@ module.exports = [{
     region: 'Sussex',
     'country-name': 'England',
     'postal-code': 'BN1 6SD',
-    'plus-code': '9C2XRVQ3+WH',
+    'plus-code': '9C2XRVQ3+XF',
   },
 }, {
   title: 'Principality Stadium',
