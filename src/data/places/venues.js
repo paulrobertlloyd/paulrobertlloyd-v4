@@ -313,16 +313,17 @@ module.exports = [{
   },
 }, {
   title: 'Cineworld Cinema',
+  url: 'https://www.cineworld.co.uk/cinemas/wolverhampton',
   address: {
     'street-address': 'Bentley Bridge Park, Wednesfield Way',
     locality: 'Wolverhampton',
     region: 'West Midlands',
     'country-name': 'England',
     'postal-code': 'WV11 1TZ',
-    'plus-code': '9C4VHWW5+F6',
+    'plus-code': '9C4VHWW4+9V',
   },
 }, {
-  title: 'Cineworld Eastbourne at The Beacon',
+  title: 'Cineworld Cinema',
   url: 'https://www.cineworld.co.uk/cinemas/eastbourne-at-the-beacon',
   address: {
     'street-address': 'The Beacon, Terminus Road',
@@ -330,7 +331,7 @@ module.exports = [{
     region: 'Sussex',
     'country-name': 'England',
     'postal-code': 'BN21 3NW',
-    'plus-code': '9F22Q79J+JQ',
+    'plus-code': '9F22Q79M+J6',
   },
 }, {
   title: 'Circuit de Spa-Francorchamps',

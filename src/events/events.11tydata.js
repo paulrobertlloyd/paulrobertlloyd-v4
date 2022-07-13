@@ -26,12 +26,12 @@ module.exports = {
       const {venue} = data.event;
       if (places && placeId) {
         const placeIdStart = placeId.split('+')[0]
-        const venueHint = venue.toLowerCase()
+        const venueStart = venue.toLowerCase().split(' ')[0]
         return places
            .map(place => place.data.place)
            .find(place =>
               place.address['plus-code'].startsWith(placeIdStart) &&
-              place.title.toLowerCase().startsWith(venueHint)
+              place.title.toLowerCase().startsWith(venueStart)
            )
       }
     },
