@@ -9,6 +9,6 @@ summary {
   cursor: pointer;
 }
 
-summary:focus {
+summary:focus-visible {
   outline-offset: var(--border-width-thick);
 }

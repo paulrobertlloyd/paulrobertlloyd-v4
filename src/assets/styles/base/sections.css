@@ -50,17 +50,9 @@ body.stand-with-ukraine {
   background-color: var(--color-highlight);
 }
 
-:focus {
+:focus-visible {
   outline: var(--border-width-thicker) solid var(--color-focus);
   z-index: 1;
-}
-
-:-moz-focusring {
-  outline: var(--border-width-thicker) solid var(--color-focus);
-}
-
-:focus:not(:-moz-focusring) {
-  outline: 0;
 }
 
 @media print {
