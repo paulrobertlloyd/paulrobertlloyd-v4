@@ -62,7 +62,7 @@ History doesn’t repeat itself, but it does rhyme. In the aftermath of a deep e
 
 Given this situation, why make a decision that could have seismic consequences? Why spend the next ten years negotiating trade deals and our relationship with Europe, when instead we could be combating climate change, encouraging stability in Syria and the Middle East and soothing relations with Russia?
 
-A vote to remain means we still have the option to leave in the future, and future European treaties require a referendum before Britain can them anyway. A vote to leave is irreversible and potentially damaging.
+A vote to remain means we still have the option to leave in the future, and future European treaties require a referendum before Britain can sign up to them anyway. A vote to leave is irreversible and potentially damaging.
 
 ***
 
