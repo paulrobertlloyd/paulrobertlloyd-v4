@@ -52,7 +52,7 @@ New to me however was the work of **[Ernst Ludwig Kirchner][12]**, whose blocky 
 ![](hodler.jpg 'Ferdinand Hodler, <cite>The Dents Blanches In Champéry At The Morning Sun</cite>, 1916.')
 {.align-bleed}
 
-Finally, I was drawn to this painting by **[Ferdinand Hodler][14]**. Again, the expressionist style appealed to me, not least its vivid palette and the contrasting highlights along the mountainside. I’d experiment with this style myself, if I painted. Hmmm, maybe I should start?
+Finally, I was drawn to this painting by **[Ferdinand Hodler][13]**. Again, the expressionist style appealed to me, not least its vivid palette and the contrasting highlights along the mountainside. I’d experiment with this style myself, if I painted. Hmmm, maybe I should start?
 
 [1]: http://smashingconf.com/freiburg-2016/
 [2]: https://www.vitra.com/en-us/campus
@@ -66,5 +66,4 @@ Finally, I was drawn to this painting by **[Ferdinand Hodler][14]**. Again, the 
 [10]: https://www.wikiart.org/en/josef-albers
 [11]: http://albersfoundation.org/
 [12]: https://www.wikiart.org/en/ernst-ludwig-kirchner
-[13]: http://www.spectator.co.uk/2014/01/delegates-at-the-world-economic-forum-should-take-time-out-to-visit-the-kirchner-museum-in-davos/
-[14]: https://www.wikiart.org/en/ferdinand-hodler
+[13]: https://www.wikiart.org/en/ferdinand-hodler

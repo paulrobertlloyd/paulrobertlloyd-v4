@@ -30,7 +30,7 @@ For me, volunteering a second time was an opportunity to recapture [the magic I 
 
 Following a successful application interview, I spent a further three weekends in Glasgow for orientation and training events. I enjoyed exploring this vibrant and engaging city and admiring its abundance of stunning architecture. The River Clyde crossed by iconic bridges and framed by oddly shaped buildings. Shopping districts featuring exquisite Victorian shopping malls and department stores. The sometimes brutal landscape the result of driving the M8 motorway straight through the heart of the city in the 1960s.
 
-![](bridge_to_nowhere.jpg 'The recently completed Anderston pedestrian footbridge (in the background of this photo) sits among a number ‘[bridges to nowhere](https://en.wikipedia.org/wiki/M8_Bridge_to_Nowhere)’ that can be found around the M8.')
+![](bridge_to_nowhere.jpg 'The recently completed Anderston pedestrian footbridge (in the background of this photo) sits among a number ‘[bridges to nowhere][3]’ that can be found around the M8.')
 
 ## Hearing Hampden roar
 
@@ -48,7 +48,7 @@ However, as I discovered when I attended the athletics as a spectator, nothing c
 
 Each shift began inside the stadium with everyone taking part in a [haka][7] (minus the dancing), before being dispatched to larger area groups. These groups were subdivided into smaller sub-teams, who were then briefed by their team leaders. A debrief at the end of the shift allowed us to relay any problems and suggest how things could be improved the next day.
 
-![](papercut.png 'Souvenir paper cut illustration by [Christine J Thomson](https://thepapercutartist.com).')
+![](papercut.png 'Souvenir paper cut illustration by [Christine J Thomson][8].')
 
 The organisers went to great lengths to ensure Clyde-siders were looked after and appreciated. Between ingress and egress, volunteers were able to sit in the stadium and watch the action. The sandwiches available during lunch breaks were a particular highlight, with hot items available during evening shifts. Volunteers were also given limited edition gifts, including a beautiful commemorative print celebrating the journey Clyde-siders had been on (shown above). The uniform, while less distinctive (read: less embarrassing) than those worn in London was more rugged, and clearly designed with Glasgow’s weather in mind.
 

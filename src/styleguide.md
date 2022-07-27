@@ -129,7 +129,7 @@ There are a number of inline HTML elements you may use anywhere within other ele
 
 The `a` element is used to hyperlink text, be that to another page, a named fragment on the current page or any other location on the web. Example:
 
-[Go to the home page](/) or [return to the top of this page](#top).
+[Go to the home page](/).
 
 ### Stressed emphasis
 

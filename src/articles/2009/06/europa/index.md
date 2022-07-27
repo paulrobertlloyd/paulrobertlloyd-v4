@@ -32,7 +32,7 @@ Possibly more for my benefit than yours, I’d like to finish up with a few less
 
  2. **Be a tourist:** I’ve often thought the best way to get a feel for a large city is by jumping on the metro (just get a day ticket, pick a destination and head towards it), rather than use the more touristy forms of transport, but this trip finally saw me embrace my inner tourist! The ‘Batobus’ along the River Shine in Paris (€12 for a hop-on/hop-off day pass), and Barcelona’s open-top ‘Bus Turístic’ (€21 for a one-day ticket valid on all three routes) both turned out to be quite useful for getting an overview of these cities and seeing the main sights.
 
- 3. **Pack half, and then pack half again:** This tip is one [I read a few years ago][4] but still seem to have trouble perfecting. Each successive holiday I try to do this, and each time I realise I could have packed even less still. I spent most of this holiday carrying a laptop with a burnt out logic board, and a rarely used tripod, both of which I debated whether or not to take with me. The lesson here is if you’re not sure if need something, you definitely won’t. Keep to the bare essentials only.
+ 3. **Pack half, and then pack half again:** This tip is one [I read a few years ago][5] but still seem to have trouble perfecting. Each successive holiday I try to do this, and each time I realise I could have packed even less still. I spent most of this holiday carrying a laptop with a burnt out logic board, and a rarely used tripod, both of which I debated whether or not to take with me. The lesson here is if you’re not sure if need something, you definitely won’t. Keep to the bare essentials only.
 
  4. **Check roaming charges for data before you go:** Guess who didn’t. Ouch.
 
@@ -40,4 +40,4 @@ Possibly more for my benefit than yours, I’d like to finish up with a few less
 [2]: http://www.weisseskreuz.at/
 [3]: http://blog.aiama.com/
 [4]: https://en.wikipedia.org/wiki/Ciutat_de_les_Arts_i_les_Ciències
-[4]: http://www.37signals.com/svn/posts/1268-pack-half-of-what-you-think-you-need
+[5]: http://www.37signals.com/svn/posts/1268-pack-half-of-what-you-think-you-need

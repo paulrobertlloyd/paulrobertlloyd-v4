@@ -39,7 +39,7 @@ Want my advice? Write about what you love! And the stuff you don’t, but probab
 
 And so with that, I begrudgingly acknowledge that I’ve accepted Dmitry’s closing challenge, to write one article in the next three weeks. Was this the sort of thing you were expecting Dmitry? 😉
 
-[^1]: [Ben Terret][5] is another blogger whose (loose and conversational) writing style I admire.
+[^1]: [Ben Terret](http://noisydecentgraphics.typepad.com) is another blogger whose (loose and conversational) writing style I admire.
 [^2]: I assume these posts rank highly, but as I don’t use analytics or tracking on my site, I can’t be certain.
 [^3]: Note to self.
 
@@ -47,6 +47,5 @@ And so with that, I begrudgingly acknowledge that I’ve accepted Dmitry’s clo
 [2]: https://www.susanjeanrobertson.com/
 [3]: https://www.susanjeanrobertson.com/self/writing-my-tweets/
 [4]: https://adactio.com/
-[5]: http://noisydecentgraphics.typepad.com
 
 *[SEO]: Search engine optimisation

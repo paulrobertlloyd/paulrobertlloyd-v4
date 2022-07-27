@@ -31,9 +31,9 @@ My new website serves only static resources (pages are generated using [Jekyll][
 
 In the meantime, perhaps there needs to be a discussion about which approaches will help us build websites that are both secure *and* fast.
 
-[^1]: I originally thought I wasn’t able to override this behaviour because requests to my custom-configured nginx instance are proxied via WebFaction’s [own front-end nginx process][12]. After considerable head scratching, I realised several conflicting nginx processes were running. Quitting these and starting a new single process fixed the issue.
+[^1]: I originally thought I wasn’t able to override this behaviour because requests to my custom-configured nginx instance are proxied via WebFaction’s [own front-end nginx process](http://docs.webfaction.com/user-guide/websites.html#creating-a-website). After considerable head scratching, I realised several conflicting nginx processes were running. Quitting these and starting a new single process fixed the issue.
 
-[^2]: Compression has to be [enabled in nginx][13] regardless of protocol.
+[^2]: Compression has to be [enabled in nginx](http://nginx.com/resources/admin-guide/compression-and-decompression/) regardless of protocol.
 
 [1]: http://w3ctag.github.io/web-https/
 [2]: https://www.joshemerson.co.uk/blog/secure-your-site
@@ -46,8 +46,6 @@ In the meantime, perhaps there needs to be a discussion about which approaches w
 [9]: http://breachattack.com/#mitigations
 [10]: https://jekyllrb.com
 [11]: https://formspree.io
-[12]: http://docs.webfaction.com/user-guide/websites.html#creating-a-website
-[13]: http://nginx.com/resources/admin-guide/compression-and-decompression/
 
 *[HTTP]: Hypertext Transfer Protocol
 *[HTTPS]: HTTP Secure
