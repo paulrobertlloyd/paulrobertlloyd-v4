@@ -4,6 +4,7 @@ summary: A week in Porto, reached via several stops in Spain.
 related:
   - /photos/1661267486/
   - /photos/1661340797/
+  - /articles/2022/08/trains_in_spain/
 tripId:
   - 5LS1
   - 5LT1
