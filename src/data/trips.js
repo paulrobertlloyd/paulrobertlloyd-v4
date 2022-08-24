@@ -1041,6 +1041,43 @@ module.exports = function () {
     from: '8FM9P736+PQ',
     to: '9C2XRVH5+GJ',
     via: ['8FW4R9VF+PQ', 'XPG', 'QQS'],
+  }, {
+    date: '2022-08-22',
+    from: '9C2XRVH5+GJ',
+    to: 'XPG',
+    via: ['QQS'],
+  }, {
+    date: '2022-08-23',
+    from: 'XGB',
+    to: '8CMW8279+78',
+    via: ['8CMW9639+67'],
+  }, {
+    date: '2022-08-26',
+    from: '8CMW828F+F2',
+    to: '8CJH67PQ+4J',
+    via: ['8CGRF8C8+QX'],
+  }, {
+    date: '2022-08-27',
+    from: '8CJH67QQ+P5',
+    to: '8CHH4CX7+GR'
+  }, {
+    date: '2022-09-04',
+    from: '8CHH4CX7+GR',
+    to: '8CJH67QQ+P5'
+  }, {
+    date: '2022-09-05',
+    from: '8CJH67PQ+4J',
+    to: '8CGRF8C8+QX'
+  }, {
+    date: '2022-09-07',
+    from: '8CGRC846+2M',
+    to: '8FW4R9VF+PQ',
+    via: ['8FH494HQ+HX'],
+  }, {
+    date: '2022-09-08',
+    from: 'XPG',
+    to: '9C2XRVH5+GJ',
+    via: ['QQS']
   }];
 
   // Trip mode types

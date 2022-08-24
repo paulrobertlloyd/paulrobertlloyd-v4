@@ -7,6 +7,13 @@ module.exports = [{
   },
   icon: 'national_rail',
 }, {
+  title: 'Amara Donostia',
+  address: {
+    locality: 'Donostia-San Sebastián',
+    'country-name': 'Spain',
+    'plus-code': '8CMW8279+78',
+  },
+}, {
   title: 'Amsterdam Centraal',
   iata: 'ZYA',
   address: {
@@ -55,6 +62,13 @@ module.exports = [{
     'plus-code': '9C2XR9J5+9X',
   },
   icon: 'national_rail',
+}, {
+  title: 'Barcelona Sants',
+  address: {
+    locality: 'Barcelona',
+    'country-name': 'Spain',
+    'plus-code': '8FH494HQ+HX',
+  }
 }, {
   title: 'Bath Spa',
   address: {
@@ -604,6 +618,21 @@ module.exports = [{
     'plus-code': '9F27RPX4+V4',
   },
 }, {
+  title: 'Madrid Chamartín',
+  address: {
+    locality: 'Madrid',
+    'country-name': 'Spain',
+    'plus-code': '8CGRF8C8+QX',
+  },
+}, {
+  title: 'Madrid Atocha',
+  iata: 'XOC',
+  address: {
+    locality: 'Madrid',
+    'country-name': 'Spain',
+    'plus-code': '8CGRC846+2M',
+  },
+}, {
   title: 'Malmö Central',
   iata: 'XFP',
   address: {
@@ -742,6 +771,13 @@ module.exports = [{
   },
   icon: 'national_rail',
 }, {
+  title: 'Porto Campanha',
+  address: {
+    locality: 'Porto',
+    'country-name': 'Portugal',
+    'plus-code': '8CHH4CX7+GR',
+  },
+}, {
   title: 'Portsmouth Harbour',
   address: {
     locality: 'Portsmouth',
@@ -819,6 +855,13 @@ module.exports = [{
     'plus-code': '9C2WPRQQ+MX',
   },
   icon: 'national_rail',
+}, {
+  title: 'San Sebastián',
+  address: {
+    locality: 'Donostia-San Sebastián',
+    'country-name': 'Spain',
+    'plus-code': '8CMW828F+F2',
+  },
 }, {
   title: 'Sheffield',
   address: {
@@ -913,6 +956,20 @@ module.exports = [{
     'country-name': 'Netherlands',
     'plus-code': '9F4734Q5+QX',
   },
+}, {
+  title: 'Vigo-Guixar',
+  address: {
+    locality: 'Vigo',
+    'country-name': 'Spain',
+    'plus-code': '8CJH67QQ+P5',
+  }
+}, {
+  title: 'Vigo-Urzáiz',
+  address: {
+    locality: 'Vigo',
+    'country-name': 'Spain',
+    'plus-code': '8CJH67PQ+4J',
+  }
 }, {
   title: 'Walsall',
   address: {
