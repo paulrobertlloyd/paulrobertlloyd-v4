@@ -63,6 +63,14 @@ module.exports = [{
   },
   icon: 'national_rail',
 }, {
+  title: 'Barcelona França',
+  iata: 'YJD',
+  address: {
+    locality: 'Barcelona',
+    'country-name': 'Spain',
+    'plus-code': '8FH495MP+HH',
+  }
+}, {
   title: 'Barcelona Sants',
   address: {
     locality: 'Barcelona',
@@ -502,6 +510,14 @@ module.exports = [{
   },
   icon: 'national_rail',
 }, {
+  title: 'Innsbruck',
+  iata: 'IOB',
+  address: {
+    locality: 'Innsbruck',
+    'country-name': 'Austria',
+    'plus-code': '8FVH7C72+89',
+  }
+}, {
   title: 'King Street Station',
   address: {
     locality: 'Seattle',
@@ -540,6 +556,14 @@ module.exports = [{
     'country-name': 'Belgium',
     'plus-code': '9F27JHF8+QM',
   },
+}, {
+  title: 'Littlehampton',
+  address: {
+    locality: 'Littlehampton',
+    'country-name': 'England',
+    'plus-code': '9C2XRF63+2J',
+  },
+  icon: 'national_rail',
 }, {
   title: 'Liverpool Lime Street',
   iata: 'LPL',
@@ -611,6 +635,13 @@ module.exports = [{
   },
   icon: 'national_rail',
 }, {
+  title: 'Lucerne',
+  address: {
+    locality: 'Lucerne',
+    'country-name': 'Switzerland',
+    'plus-code': '8FVC3826+54',
+  },
+}, {
   title: 'Maastricht',
   address: {
     locality: 'Maastricht',
@@ -673,6 +704,13 @@ module.exports = [{
     'plus-code': '9C4X26MG+QF',
   },
   icon: 'national_rail',
+}, {
+  title: 'Munich Pasing',
+  address: {
+    locality: 'Munich',
+    'country-name': 'Germany',
+    'plus-code': '8FWH5F26+2J',
+  }
 }, {
   title: 'Newcastle',
   iata: 'NCL',
@@ -762,6 +800,13 @@ module.exports = [{
     'plus-code': '9C2Q974W+96',
   },
   icon: 'national_rail',
+}, {
+  title: 'Paris-Austerlitz',
+  address: {
+    locality: 'Paris',
+    'country-name': 'France',
+    'plus-code': '8FW4R9R8+PC',
+  },
 }, {
   title: 'Penzance',
   address: {
@@ -956,6 +1001,13 @@ module.exports = [{
     'country-name': 'Netherlands',
     'plus-code': '9F4734Q5+QX',
   },
+}, {
+  title: 'Velencia',
+  address: {
+    locality: 'Velencia',
+    'country-name': 'Spain',
+    'plus-code': '8CFXFJ8F+C2',
+  }
 }, {
   title: 'Vigo-Guixar',
   address: {

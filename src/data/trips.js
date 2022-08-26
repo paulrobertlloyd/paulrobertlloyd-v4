@@ -202,6 +202,46 @@ module.exports = function () {
     from: 'SFO',
     to: 'LHR',
   }, {
+    date: '2009-05-10',
+    from: '9C2XRF63+2J',
+    to: '9F28WXV5+7C',
+    via: ['QQS', 'ZYR']
+  }, {
+    date: '2009-05-12',
+    from: '9F28WXV5+7C',
+    to: '8FWH5F26+2J'
+  }, {
+    date: '2009-05-15',
+    from: '8FWH5F26+2J',
+    to: 'IOB'
+  }, {
+    date: '2009-05-17',
+    from: 'IOB',
+    to: '8FVC3826+54',
+    via: ['8FVC9GHR+44']
+  }, {
+    date: '2009-05-21',
+    from: '8FVC3826+54',
+    to: '8FVC9GHR+44'
+  }, {
+    date: '2009-05-22',
+    from: '8FVC9GHR+44',
+    to: 'YJD'
+  }, {
+    date: '2009-05-25',
+    from: '8FH494HQ+HX',
+    to: '8CFXFJ8F+C2'
+  }, {
+    date: '2009-05-28',
+    from: '8CFXFJ8F+C2', // Valencia
+    to: '8FW4R9R8+PC', // 'Paris-Austerlitz
+    via: ['XOC']
+  }, {
+    date: '2009-05-30',
+    from: 'XPG',
+    to: '9C2XRF63+2J',
+    via: ['QQS']
+  }, {
     date: '2009-12-17',
     from: 'LHR',
     to: 'AKL',
