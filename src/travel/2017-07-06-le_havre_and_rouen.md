@@ -2,7 +2,7 @@
 title: Le Harve and Rouen
 summary: Admiring architecture, both modernist and gothic.
 related:
-  - /2017/07/le_havre/
+  - /articles/2017/07/le_havre/
 tripId:
   - 4pS1
   - 4pV1

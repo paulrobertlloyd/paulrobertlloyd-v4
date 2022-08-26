@@ -2,7 +2,7 @@
 title: São Paulo and Berlin
 summary: Visiting my family in Brazil, then home via long awaited trip to Berlin.
 related:
-  - /2015/03/berlin/
+  - /articles/2015/03/berlin/
   - /photos/1425330000/
   - /photos/1425329100/
 tripId:
