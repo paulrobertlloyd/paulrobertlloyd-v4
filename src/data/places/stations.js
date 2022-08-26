@@ -260,11 +260,25 @@ module.exports = [{
   },
   icon: 'national_rail',
 }, {
+  title: 'Dieppe',
+  address: {
+    locality: 'Dieppe',
+    'country-name': 'France',
+    'plus-code': '8FX3W3CJ+HC',
+  },
+}, {
   title: 'Dublin Connolly',
   address: {
     locality: 'Dublin',
     'country-name': 'Ireland',
     'plus-code': '9C5M9Q22+92',
+  },
+}, {
+  title: 'Dublin Heuston',
+  address: {
+    locality: 'Dublin',
+    'country-name': 'Ireland',
+    'plus-code': '9C5M8PW4+G8',
   },
 }, {
   title: 'Dundee',
@@ -326,93 +340,6 @@ module.exports = [{
     locality: 'Galway',
     'country-name': 'Ireland',
     'plus-code': '9C5G7XF3+C5',
-  },
-}, {
-  title: 'Gare de Dieppe',
-  address: {
-    locality: 'Dieppe',
-    'country-name': 'France',
-    'plus-code': '8FX3W3CJ+HC',
-  },
-}, {
-  title: 'Gare de Strasbourg-Ville',
-  address: {
-    locality: 'Strasbourg',
-    'country-name': 'France',
-    'plus-code': '8FW9HPPM+2Q',
-  },
-}, {
-  title: 'Gare de Hendaye',
-  address: {
-    locality: 'Hendaye',
-    'country-name': 'France',
-    'plus-code': '8CMW9639+67',
-  },
-}, {
-  title: 'Gare de l’Est',
-  address: {
-    locality: 'Paris',
-    'country-name': 'France',
-    'plus-code': '8FW4V9G5+PP',
-  },
-}, {
-  title: 'Gare de Lille Europe',
-  iata: 'XDB',
-  address: {
-    locality: 'Lille',
-    'country-name': 'France',
-    'plus-code': '9F25J3QG+J7',
-  },
-}, {
-  title: 'Gare de Lyon',
-  address: {
-    locality: 'Paris',
-    'country-name': 'France',
-    'plus-code': '8FW4R9VF+PQ',
-  },
-}, {
-  title: 'Gare de Nice-Ville',
-  address: {
-    locality: 'Nice',
-    'country-name': 'France',
-    'plus-code': '8FM9P736+PQ',
-  },
-}, {
-  title: 'Gare do Oriente',
-  address: {
-    locality: 'Lisbon',
-    'country-name': 'Portugal',
-    'plus-code': '8CCGQW92+47',
-  },
-}, {
-  title: 'Gare du Harve',
-  address: {
-    locality: 'Le Harve',
-    'country-name': 'France',
-    'plus-code': '8FX2F4VF+3W',
-  },
-}, {
-  title: 'Gare du Nord',
-  iata: 'XPG',
-  address: {
-    locality: 'Paris',
-    'country-name': 'France',
-    'plus-code': '8FW4V9J4+94',
-  },
-}, {
-  title: 'Gare de Rouen-Rive-Droite',
-  address: {
-    locality: 'Rouen',
-    'country-name': 'France',
-    'plus-code': '8FX3C3XV+GM',
-  },
-}, {
-  title: 'Gare Montparnasse',
-  iata: 'XGB',
-  address: {
-    locality: 'Paris',
-    'country-name': 'France',
-    'plus-code': '8FW4R8RC+F6',
   },
 }, {
   title: 'Gatwick',
@@ -487,11 +414,11 @@ module.exports = [{
   },
   icon: 'national_rail',
 }, {
-  title: 'Heuston',
+  title: 'Hendaye',
   address: {
-    locality: 'Dublin',
-    'country-name': 'Ireland',
-    'plus-code': '9C5M8PW4+G8',
+    locality: 'Hendaye',
+    'country-name': 'France',
+    'plus-code': '8CMW9639+67',
   },
 }, {
   title: 'Holyhead',
@@ -533,6 +460,13 @@ module.exports = [{
     'plus-code': '9F28WXV5+7C',
   },
 }, {
+  title: 'Le Havre',
+  address: {
+    locality: 'Le Harve',
+    'country-name': 'France',
+    'plus-code': '8FX2F4VF+3W',
+  },
+}, {
   title: 'Leicester',
   address: {
     locality: 'Leicester',
@@ -555,6 +489,21 @@ module.exports = [{
     locality: 'Liège',
     'country-name': 'Belgium',
     'plus-code': '9F27JHF8+QM',
+  },
+}, {
+  title: 'Lille-Europe',
+  iata: 'XDB',
+  address: {
+    locality: 'Lille',
+    'country-name': 'France',
+    'plus-code': '9F25J3QG+J7',
+  },
+}, {
+  title: 'Lisbon Orient',
+  address: {
+    locality: 'Lisbon',
+    'country-name': 'Portugal',
+    'plus-code': '8CCGQW92+47',
   },
 }, {
   title: 'Littlehampton',
@@ -745,6 +694,13 @@ module.exports = [{
   },
   icon: 'national_rail',
 }, {
+  title: 'Nice-Ville',
+  address: {
+    locality: 'Nice',
+    'country-name': 'France',
+    'plus-code': '8FM9P736+PQ',
+  },
+}, {
   title: 'Norwich',
   address: {
     locality: 'Norwich',
@@ -806,6 +762,36 @@ module.exports = [{
     locality: 'Paris',
     'country-name': 'France',
     'plus-code': '8FW4R9R8+PC',
+  },
+}, {
+  title: 'Paris-Est',
+  address: {
+    locality: 'Paris',
+    'country-name': 'France',
+    'plus-code': '8FW4V9G5+PP',
+  },
+}, {
+  title: 'Paris-Gare-de-Lyon',
+  address: {
+    locality: 'Paris',
+    'country-name': 'France',
+    'plus-code': '8FW4R9VF+PQ',
+  },
+}, {
+  title: 'Paris-Montparnasse',
+  iata: 'XGB',
+  address: {
+    locality: 'Paris',
+    'country-name': 'France',
+    'plus-code': '8FW4R8RC+F6',
+  },
+}, {
+  title: 'Paris-Nord',
+  iata: 'XPG',
+  address: {
+    locality: 'Paris',
+    'country-name': 'France',
+    'plus-code': '8FW4V9J4+94',
   },
 }, {
   title: 'Penzance',
@@ -875,6 +861,13 @@ module.exports = [{
     locality: 'Rødby',
     'country-name': 'Denmark',
     'plus-code': '9F6HM943+3W',
+  },
+}, {
+  title: 'Rouen-Rive-Droite',
+  address: {
+    locality: 'Rouen',
+    'country-name': 'France',
+    'plus-code': '8FX3C3XV+GM',
   },
 }, {
   title: 'Roma Termini',
@@ -962,6 +955,13 @@ module.exports = [{
     locality: 'Stockholm',
     'country-name': 'Sweden',
     'plus-code': '9FFW83J5+28',
+  },
+}, {
+  title: 'Strasbourg-Ville',
+  address: {
+    locality: 'Strasbourg',
+    'country-name': 'France',
+    'plus-code': '8FW9HPPM+2Q',
   },
 }, {
   title: 'Three Bridges',
