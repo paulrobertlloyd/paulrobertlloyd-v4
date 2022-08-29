@@ -18,7 +18,6 @@ tags:
   - featured
 accentColor: '#ff8000'
 ---
-
 ![The McLaren pit garage, with a mountainous landscape in the distance.](image.jpg "The McLaren garage on the Monaco pit lane.")
 {.align-bleed}
 
@@ -52,9 +51,9 @@ Not being the owner of a helicopter or yacht, this would be a slightly arduous a
 
 To do this, we’d need to get a tender at *Port de Fontvieille*{lang="fr"}. Hidden away on the other side of [The Rock][6], walking through *Fontvieille*{lang="fr"} led to my first realisation; Monaco is bigger than I imagined. Not much bigger, but large enough to have a few distinct districts, of which Monte Carlo is but one.
 
-Our tender – a sleek black mini-yacht that wouldn’t look out of place in a Bond film – raced around The Rock before delivering us to *Port Hercule*{lang="fr"}. After a short wait among all the traffic, we embarked upon our larger yacht via a gruesome ladder.
+Our tender – a sleek black mini-yacht that wouldn’t look out of place in a Bond film – raced around The Rock before delivering us to *Port Hercule*{lang="fr"}. After a short wait among all the traffic, we boarded our larger yacht via a gruesome ladder.
 
-Over three decks,fans were fed and fuelled while waiting for the free practice sessions to start. Once underway, we headed to the stern to watch the cars as they exited the tunnel, down the straight and towards the *Nouvelle Chicane*{lang="fr"}. It was the usual blink and you’d miss it stuff of watching live motor sport – but on a boat!
+Over three decks, fans were fed and fuelled while waiting for the free practice sessions to start. Once underway, we headed to the stern to watch the cars as they exited the tunnel, down the straight and towards the *Nouvelle Chicane*{lang="fr"}. It was the usual blink and you’d miss it stuff of watching live motor sport – but on a boat!
 
 The new regulation cars are noticeably larger, an impression undoubtedly aided by the minuscule track. The engines – always a topic for debate – still sound horrendous. I’m not one for arguing they should be louder, but they currently give the impression that these cars are lumbering hulks of partially decorated carbon fibre, groaning as they approach each corner. I love the new design, but the engines need fine-tuning.
 
@@ -72,7 +71,7 @@ The whole city had a brilliant party atmosphere. One of the benefits of hosting 
 
 Monaco is notorious for its ability to produce processional races where overtaking is next to impossible, so qualifying on Saturday is considered the main event.
 
-We would reach our seats via the entrance to a primary school, passing over the start/finish straight on a footbridge, down a temporary staircase, under the pit lane via a tunnel (hidden away for the remainder of the year) before emerging under a grandstand [constructed only a few weeks earlier][9]. This mix of temporary and permanent adds to the general feel of this event. It’s hard to imagine what this city looks like once all this infrastructure is removed.
+We would reach our seats via the entrance to a primary school, passing over the start/finish straight on a footbridge, down a temporary staircase, under the pit lane via a tunnel (hidden away for the remainder of the year) before emerging under a grandstand [constructed only a few weeks earlier][9]. This mix of temporary and permanent adds to the unique feel of this event. It’s hard to imagine what this city looks like once all this infrastructure is removed.
 
 Much like any other Grand Prix, I soon found myself in a long queue for the toilets or in a poorly managed line for food. Unlike other events, once at my seat, I was close enough to the track to be almost able to shake hands with each driver. Our seats were situated directly opposite the pit lane adding further intrigue and interest, and a nearby screen meant we could follow the action in its entirety.
 
@@ -82,11 +81,11 @@ Charles Leclerc clinched pole position. Would his Monaco curse – never finishi
 
 On our final day in the principality we hoped that some light rain might arrive to liven up the race. While the temperature was notably cooler, the sun was shining, so this seemed unlikely.
 
-The Monaco Grand Prix is the place to see and be seen, or so they say, but this year’s event seemed light on the ground when it came to celebrities. The Cannes Film Festival had just taken place further along the coast and Tom Cruise was taking any available opportunity to shill his latest movie. Yet the only notable people I spotted were Pamela Anderson, Conor McGregor[^1] and Zinedine Zidane. Still, it was fun seeing the drivers, team principles and other familiar faces (David Coulthard’s tan looked painfully red).
+The Monaco Grand Prix is the place to see and be seen, but this year’s event seemed light on the ground when it came to celebrities. The Cannes Film Festival had just taken place further along the coast and Tom Cruise was taking any available opportunity to shill his latest movie, yet the only notable people I spotted were Pamela Anderson, Conor McGregor[^1] and Zinedine Zidane. Still, it was fun seeing the drivers, team principles and other familiar faces (David Coulthard’s tan looked painfully red).
 
-As the drivers paraded around the track an hour or so before the race, the sun was still shining, although clouds were forming around the mountains above. Only once the cars lined up on the grid did the heavens open. Out came the waterproofs, umbrellas and ponchos. With the start postponed, everyone sought shelter under the grandstand. Such was the ferocity of the passing storm, here wasn’t much drier.
+As the drivers paraded around the track an hour or so before the race, the sun was still shining, although clouds were forming around the mountains above. Only once the cars lined up on the grid did the heavens open. Out came the waterproofs, umbrellas and ponchos. With the start postponed, everyone sought shelter under the grandstand. Such was the ferocity of the passing storm it wasn’t much drier here, either.
 
-The race restarted, we saw a few overtakes and witnessed Ferrari’s incompetent pit strategy first-hand. We were also within earshot of Mick Schumacher’s accident.
+One the race restarted we saw a few overtakes and witnessed Ferrari’s incompetent pit strategy first-hand. We were also within earshot of Mick Schumacher’s accident.
 
 Leclerc’s Monaco voodoo was partially lifted; he completed the race but crossed the line in fourth. Sergio Perez was a popular winner, with a large group of spectators on our grandstand loudly singing the Mexican national anthem.
 
