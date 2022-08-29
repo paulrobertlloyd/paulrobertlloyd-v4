@@ -1,9 +1,11 @@
 ---
-title: Iberia
+title: Paris, San Sebastián, Vigo, Porto and Madrid
 summary: A week in Porto, reached via several stops in Spain.
 related:
   - /photos/1661267486/
   - /photos/1661340797/
+  - /photos/1661522614/
+  - /photos/1661623467/
   - /articles/2022/08/trains_in_spain/
 tripId:
   - 5LS1
