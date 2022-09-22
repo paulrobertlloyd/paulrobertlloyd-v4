@@ -4,8 +4,8 @@
     {% for item in facepile limit: 5 %}
       {% image item.author.photo, 'avatar', 'avatar | u-photo' %}
     {% endfor %}
-    {% if items.size > 5 %}
-      <span class="facepile__counter">+{{ items.size | minus: 5 }}</span>
+    {% if facepile.size > 5 %}
+      <span class="facepile__counter">+{{ facepile.size | minus: 5 }}</span>
     {% endif %}
   </span>
 </span>
