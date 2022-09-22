@@ -11,8 +11,6 @@
 }
 
 .skip-link:not(:focus) {
-  @extend .visually-hidden;
-
   transform: translateY(-100%);
   transition: transform 0.5s ease-out;
 }
