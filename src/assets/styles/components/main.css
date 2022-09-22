@@ -15,8 +15,6 @@
 }
 
 .main__container {
-  @extend %container;
-
   align-content: start;
   background-color: var(--color-background);
   border-radius: 0 var(--border-radius) var(--border-radius) 0;

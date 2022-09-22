@@ -5,7 +5,6 @@
 }
 
 .contentinfo__container {
-  @extend %container;
   @extend %caption;
 
   --container-padding-inline: calc(var(--gap) - var(--inset-small));

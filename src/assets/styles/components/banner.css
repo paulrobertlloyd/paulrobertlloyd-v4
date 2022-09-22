@@ -3,8 +3,6 @@
 }
 
 .banner__container {
-  @extend %container;
-
   align-items: baseline;
   display: flex;
   flex-wrap: wrap;
