@@ -1,4 +1,4 @@
-.visually-hidden:not(:focus) {
+.u-visually-hidden:not(:focus) {
   block-size: 1px;
   border: 0;
   clip: rect(0 0 0 0);

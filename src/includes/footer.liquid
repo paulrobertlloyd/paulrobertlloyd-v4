@@ -1,20 +1,20 @@
 <footer class="footer">
   <dl>
 {%- if date -%}
-    <dt class="visually-hidden">Published on</dt>
+    <dt class="u-visually-hidden">Published on</dt>
     <dd>
       <time class="dt-published" datetime="{{ date | date: dates.iso }}">{% if type == 'entry-untitled' %}{{ date | date_with_time_zone: timeZone }}{% else %}{{ date | date: dates.date_long }}{% endif %}</time>
     </dd>
 {%- endif -%}
 {%- if location -%}
-    <dt class="visually-hidden">Published in</dt>
+    <dt class="u-visually-hidden">Published in</dt>
     <dd class="p-location h-adr">
       <span class="p-locality">{{ location.locality }}</span>,
       <span class="p-country-name">{{ location.country-name }}</span>
     </dd>
 {%- endif -%}
 {%- if geo -%}
-    <dt class="visually-hidden">Coordinates</dt>
+    <dt class="u-visually-hidden">Coordinates</dt>
     <dd class="p-location h-geo">
       <a href="https://duckduckgo.com/?q={{ geo.latitude }},{{ geo.longitude }}&iaxm=places">
         <data class="p-latitude" value="{{ geo.latitude }}">{{ geo.latitude | round: 2 }}<abbr title="degrees">°</abbr> <abbr title="North">N</abbr></data>,

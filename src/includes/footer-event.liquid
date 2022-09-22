@@ -1,6 +1,6 @@
 <footer class="footer">
   <dl>
-    <dt class="visually-hidden">Date</dt>
+    <dt class="u-visually-hidden">Date</dt>
     {%- assign dateStart = start | date: dates.date_long -%}
     {%- assign dateEnd = end | date: dates.date_long -%}
     <dd>
@@ -13,7 +13,7 @@
       {%- endif -%}
     </dd>
 {%- if place -%}
-    <dt class="visually-hidden">Location</dt>
+    <dt class="u-visually-hidden">Location</dt>
     <dd class="p-location h-card">
       <a class="u-url" href="/places/{{ place.address['plus-code'] | downcase }}">
         <span class="p-name">{{ place.title | markdown: 'inline' }}</span>, <span class="p-adr h-adr p-locality">{{ place.address.locality }}</span>
