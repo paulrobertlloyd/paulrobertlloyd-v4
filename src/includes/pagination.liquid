@@ -10,7 +10,7 @@
     {%- endfor -%}
   {%- endif -%}
   {%- if pagination.href.previous -%}
-    <li><a href="{{ pagination.href.previous | remove: '.html' | replace: 'page/','?page=' }}" rel="next">Next</span></a></li>
+    <li><a href="{{ pagination.href.previous | remove: '.html' | replace: 'page/','?page=' }}" rel="next">Next</a></li>
   {%- endif -%}
   </ul>
 </nav>
