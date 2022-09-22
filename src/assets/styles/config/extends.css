@@ -51,11 +51,3 @@
   font-variant: tabular-nums;
   line-height: var(--caption-line-height, var(--line-height-loose));
 }
-
-/* Visual effects */
-%wallpaper {
-  background-image: radial-gradient(var(--color-offset) 15%, transparent 15%);
-  background-position: 0 0, 8px 8px;
-  background-repeat: repeat;
-  background-size: 16px 16px;
-}
