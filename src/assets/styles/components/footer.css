@@ -6,11 +6,6 @@
   padding-block-end: var(--step-0);
 }
 
-[data-type="note"] .c-footer,
-[data-type="photo"] .c-footer {
-  margin-block-start: auto;
-}
-
 .footer a {
   text-decoration: none;
 }
