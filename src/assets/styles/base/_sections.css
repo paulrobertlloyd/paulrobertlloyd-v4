@@ -37,8 +37,7 @@ body {
   body.stand-with-ukraine {
     box-shadow:
       inset 0 0.25em 0 0 hsl(211deg 100% 36%),
-      inset 0 0.5em 0 0 hsl(51deg 100% 50%),
-      inset 0 0.5625em 0 0 var(--color-outline);
+      inset 0 0.5em 0 0 hsl(51deg 100% 50%);
     padding-block-start: var(--space-2xs);
   }
 }
