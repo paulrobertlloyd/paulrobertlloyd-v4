@@ -190,7 +190,7 @@ Navigating the site using a screen reader lead to me making a few other small ch
 
 However, screen-readers typically announce generated content. When these links were read out, you’d hear nonsense like this:
 
-<samp>link, more articles by drew single right-pointing angle quotation mark</samp>.
+> <samp>link, more articles by drew single right-pointing angle quotation mark</samp>.
 
 Adding `speak: none` had no effect (CSS aural properties have little support). However, I could create a similar arrow using CSS borders:
 

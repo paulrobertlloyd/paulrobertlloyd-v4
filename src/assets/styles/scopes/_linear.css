@@ -178,32 +178,3 @@
 .s-linear pre code {
   padding: 0;
 }
-
-.s-linear samp {
-  border: var(--border-width-thin) solid var(--color-offset);
-}
-
-.s-linear .footnotes :target {
-  background-color: var(--color-highlight);
-}
-
-.s-linear .footnote-ref {
-  font-variant: tabular-nums;
-  padding: var(--text-spacing);
-}
-
-.s-linear .footnote-backref {
-  align-items: baseline;
-  block-size: 1.5em;
-  border-radius: 100%;
-  display: inline-flex;
-  inline-size: 1.5em;
-  justify-content: center;
-  line-height: 1.6667em;
-  margin: 0;
-  text-decoration: none;
-}
-
-.s-linear .footnote-backref:hover {
-  background-color: var(--color-offset);
-}

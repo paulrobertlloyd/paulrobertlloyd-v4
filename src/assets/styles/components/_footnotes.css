@@ -1,0 +1,24 @@
+.footnotes :target {
+  background-color: var(--color-highlight);
+}
+
+.footnote-ref {
+  font-variant: tabular-nums;
+  padding: var(--text-spacing);
+}
+
+.footnote-backref {
+  align-items: baseline;
+  block-size: 1.5em;
+  border-radius: 100%;
+  display: inline-flex;
+  inline-size: 1.5em;
+  justify-content: center;
+  line-height: 1.6667em;
+  margin: 0;
+  text-decoration: none;
+}
+
+.footnote-backref:hover {
+  background-color: var(--color-shadow);
+}
