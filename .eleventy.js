@@ -1,6 +1,9 @@
 require('dotenv').config();
 
 module.exports = function (eleventy) {
+  // Extensions
+  eleventy.addExtension('css', require('./lib/extensions/css.js'));
+
   // Liquid
   eleventy.setLiquidOptions({
     globals: {
@@ -72,6 +75,6 @@ module.exports = function (eleventy) {
       layouts: 'layouts',
       data: 'data',
     },
-    templateFormats: ['liquid', 'md', '11ty.js'],
+    templateFormats: ['css', 'liquid', 'md', '11ty.js'],
   };
 };

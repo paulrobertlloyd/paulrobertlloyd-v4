@@ -31,21 +31,20 @@
   margin-block-start: 0; /* Revert */
 }
 
-.s-linear caption,
-.s-linear figcaption {
+.s-linear :is(caption, figcaption) {
   color: var(--color-neutral-dark);
   font-size: var(--step-0);
   line-height: var(--line-height-loose);
   padding-block-start: var(--space-block);
 }
 
-.s-linear :--flow {
+.s-linear :is(p, dl, ol, ul, address) {
   font-variant: oldstyle-nums;
   hyphens: auto;
   word-spacing: var(--word-spacing);
 }
 
-.s-linear > aside :--flow {
+.s-linear > aside :is(p, dl, ol, ul, address) {
   --flow-inset: 0;
   color: var(--color-neutral-dark);
   font-size: var(--step-0);
@@ -133,23 +132,23 @@
   margin-block-end: calc(var(--linear-flow-space) * -0.5);
 }
 
-.s-linear li :--list {
+.s-linear li :is(ol, ul) {
   margin-block-start: var(--linear-flow-space);
 }
 
 @media (--upto-large-viewport) {
-  .s-linear :--list {
+  .s-linear :is(ol, ul) {
     list-style-position: inside;
   }
 }
 
 @media (--from-large-viewport) {
-  .s-linear :--list {
+  .s-linear :is(ol, ul) {
     padding-inline-start: 0;
   }
 }
 
-.s-linear :--list :--list {
+.s-linear :is(ol, ul) :is(ol, ul) {
   padding-inline-start: var(--flow-inset);
 }
 

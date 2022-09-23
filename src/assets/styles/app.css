@@ -1,8 +1,50 @@
-@import "./config/*.css";
-@import "./helpers/*.css";
-@import "./utilities/*.css";
-@import "./base/*.css";
-@import "./scopes/*.css";
-@import "./layouts/*.css";
-@import "./components/*.css";
-@import "./vendor/*.css";
+@import "config/_custom-media.css";
+@import "config/_custom-properties.css";
+@import "config/_scale.css";
+@import "config/_webfonts.css";
+
+@import "helpers/_align.css";
+@import "helpers/_chart-width.css";
+@import "helpers/_external.css";
+@import "helpers/_grid-size.css";
+
+@import "utilities/_container.css";
+@import "utilities/_visually-hidden.css";
+
+@import "base/_embedded.css";
+@import "base/_forms.css";
+@import "base/_grouping.css";
+@import "base/_interaction.css";
+@import "base/_interactive.css";
+@import "base/_sections.css";
+@import "base/_tables.css";
+@import "base/_text.css";
+
+@import "scopes/_linear.css";
+
+@import "components/_avatar.css";
+@import "components/_banner.css";
+@import "components/_barchart.css";
+@import "components/_card.css";
+@import "components/_categories.css";
+@import "components/_content.css";
+@import "components/_contentinfo.css";
+@import "components/_embed.css";
+@import "components/_facepile.css";
+@import "components/_footer.css";
+@import "components/_form.css";
+@import "components/_header.css";
+@import "components/_item.css";
+@import "components/_items.css";
+@import "components/_main.css";
+@import "components/_meta.css";
+@import "components/_navigation.css";
+@import "components/_pagination.css";
+@import "components/_photos.css";
+@import "components/_screenshots.css";
+@import "components/_section.css";
+@import "components/_skip-link.css";
+@import "components/_slide.css";
+@import "components/_trips.css";
+
+@import "vendor/_prism.css";

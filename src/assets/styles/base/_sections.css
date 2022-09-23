@@ -37,7 +37,13 @@ body.stand-with-ukraine {
     inset 0 0.5625em 0 0 var(--color-outline);
 }
 
-:--heading {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+legend {
   break-after: avoid;
   font-feature-settings: "ss02" 1, "case" 1;
   font-size: inherit;

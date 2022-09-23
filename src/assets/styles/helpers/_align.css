@@ -50,7 +50,7 @@
     margin-inline-start: var(--gap);
   }
 
-  .align-pull :--flow {
+  .align-pull :is(p, dl, ol, ul, address) {
     padding-inline-end: var(--gap);
   }
 }
