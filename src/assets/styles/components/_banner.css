@@ -22,8 +22,9 @@
 .banner__title a {
   color: var(--color-text);
   display: inline-flex;
-  margin-inline-start: calc(var(--inset-small) * -1);
-  padding: var(--inset-small-squished);
+  margin-inline-start: calc(var(--space-s) * -1);
+  padding-block: var(--space-2xs);
+  padding-inline: var(--space-s);
 }
 
 .banner__title a:hover {
@@ -36,7 +37,7 @@
   flex: 1;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-inline: calc(var(--inset-small) * -1);
+  margin-inline: calc(var(--space-s) * -1);
 }
 
 @media print {

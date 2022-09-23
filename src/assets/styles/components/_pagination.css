@@ -11,7 +11,7 @@
 .pagination a {
   align-items: center;
   display: flex;
-  padding: var(--inset-large-squished);
+  padding: var(--space-2xs) var(--space-s);
 }
 
 .pagination a[aria-current] {
@@ -20,7 +20,7 @@
 
 .pagination a[rel~="prev"],
 .pagination a[rel~="next"] {
-  margin-inline-start: calc(var(--inset-large) * -1);
+  margin-inline-start: calc(var(--space-s) * -1);
 }
 
 .pagination a[rel~="prev"]::before,

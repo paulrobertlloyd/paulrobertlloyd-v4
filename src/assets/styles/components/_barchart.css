@@ -15,7 +15,7 @@
 .barchart__key {
   color: var(--color-neutral-dark);
   font-size: var(--font-size-s);
-  padding-block: var(--space-block);
+  padding-block: var(--space-2xs);
   text-align: center;
 }
 

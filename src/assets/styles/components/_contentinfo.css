@@ -5,7 +5,7 @@
 }
 
 .contentinfo__container {
-  --container-padding-inline: calc(var(--gap) - var(--inset-small));
+  --container-padding-inline: calc(var(--gap) - var(--space-s));
   align-items: center;
   display: flex;
   flex-flow: row-reverse wrap;
@@ -14,12 +14,13 @@
 }
 
 .contentinfo__legal {
-  padding: var(--inset-small-squished);
+  padding-block: var(--space-2xs);
+  padding-inline: var(--space-s);
 }
 
 @media (--from-medium-viewport) {
   .contentinfo__legal {
-    margin-inline-start: calc(var(--inset-small) * -1);
+    margin-inline-start: calc(var(--space-s) * -1);
   }
 
   .contentinfo .navigation--social {

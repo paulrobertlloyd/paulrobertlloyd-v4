@@ -3,9 +3,9 @@
   border-block-start: var(--border-width-thick) solid var(--color-rule);
   display: grid;
   flex: 1;
-  grid-gap: var(--space-block) var(--gap);
+  grid-gap: var(--space-2xs) var(--gap);
   grid-template: var(--item-grid-template);
-  padding-block-start: var(--space-block);
+  padding-block-start: var(--space-2xs);
   position: relative;
 }
 
@@ -22,14 +22,14 @@
 }
 
 .item__title .avatar {
-  inset-block-start: var(--space-block);
+  inset-block-start: var(--space-2xs);
   inset-inline-start: 0;
   position: absolute;
 }
 
 /* Main */
 .item__main {
-  --linear-flow-space: var(--space-block);
+  --linear-flow-space: var(--space-2xs);
   --linear-line-height: var(--line-height-loose);
 
   grid-column: main;
@@ -52,7 +52,7 @@
   color: var(--color-neutral-dark);
   grid-area: footer;
   line-height: var(--line-height-loose);
-  padding-block-start: calc(var(--space-block) / 2);
+  padding-block-start: calc(var(--space-2xs) / 2);
 }
 
 /* Remark item adaptions */

@@ -54,7 +54,7 @@
 }
 
 .card__header {
-  padding: var(--inset-small);
+  padding: var(--space-s);
   padding-block-end: 0;
 }
 
@@ -84,18 +84,18 @@
   --linear-line-height: var(--line-height-tight);
 
   color: var(--color-neutral-dark);
-  padding: var(--inset-small);
+  padding: var(--space-s);
 }
 
 .card__footer {
   color: var(--color-neutral-dark);
   margin-block-start: auto;
-  padding: var(--inset-small);
+  padding: var(--space-s);
 }
 
 .card svg {
   color: white;
-  inset-block-end: var(--space-inline);
-  inset-inline-end: var(--space-inline);
+  inset-block-end: var(--space-xs);
+  inset-inline-end: var(--space-xs);
   position: absolute;
 }

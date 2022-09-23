@@ -8,7 +8,7 @@
       transparent 5%
     );
   inline-size: 80%;
-  padding-inline: var(--space-inline);
+  padding-inline: var(--space-xs);
   position: relative;
 }
 
@@ -17,7 +17,7 @@
   content: "";
   display: block;
   inline-size: var(--chart-width);
-  inset-block: calc(var(--space-block) / 2);
+  inset-block: calc(var(--space-2xs) / 2);
   inset-inline: 0;
   position: absolute;
 }

@@ -35,7 +35,7 @@
   color: var(--color-neutral-dark);
   font-size: var(--font-size-s);
   line-height: var(--line-height-loose);
-  padding-block-start: var(--space-block);
+  padding-block-start: var(--space-2xs);
 }
 
 .s-linear :is(p, dl, ol, ul, address) {
@@ -71,7 +71,7 @@
   display: block;
   font-size: var(--font-size-s);
   overflow-x: scroll;
-  padding: var(--inset-small);
+  padding: var(--space-s);
 }
 
 .s-linear table {
@@ -82,7 +82,7 @@
 
 .s-linear th,
 .s-linear td {
-  padding: var(--inset-small-squished);
+  padding: var(--space-s);
   padding-block-end: 1em;
   padding-inline-start: 0;
 }

@@ -72,5 +72,5 @@
 }
 
 .main__introduction * + * {
-  margin-block-start: var(--space-block);
+  margin-block-start: var(--space-2xs);
 }

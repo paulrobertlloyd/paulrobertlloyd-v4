@@ -5,7 +5,7 @@
   color: var(--color-text-focus);
   display: block;
   outline-offset: 0;
-  padding: var(--inset-small);
+  padding: var(--space-s);
   position: static;
   width: 100%;
 }

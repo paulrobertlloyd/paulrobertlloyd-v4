@@ -3,11 +3,11 @@
   --avatar-size: var(--space-l);
   align-items: center;
   display: inline-flex;
-  padding-block: var(--inset-small);
+  padding-block: var(--space-s);
 }
 
 .facepile .avatar {
-  margin-inline-end: calc(var(--space-inline) * -1);
+  margin-inline-end: calc(var(--space-xs) * -1);
   transition: 0.15s ease-in;
   transition-property: margin;
 }
@@ -18,7 +18,7 @@
 }
 
 .facepile__title {
-  margin-inline-end: var(--space-inline);
+  margin-inline-end: var(--space-xs);
   white-space: nowrap;
 }
 
@@ -39,5 +39,5 @@
   border-radius: var(--avatar-size);
   display: inline-flex;
   justify-content: center;
-  padding-inline: var(--space-inline);
+  padding-inline: var(--space-xs);
 }

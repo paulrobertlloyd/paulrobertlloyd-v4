@@ -1,6 +1,6 @@
 .photos {
   display: grid;
-  grid-gap: 0 var(--space-inline);
+  grid-gap: 0 var(--space-xs);
   grid-template-columns: repeat(var(--columns), 1fr);
 }
 

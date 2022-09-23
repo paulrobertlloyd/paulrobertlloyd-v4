@@ -28,5 +28,5 @@
   content: "·";
   display: inline;
   opacity: 0.5;
-  padding-inline: calc(var(--space-inline) / 2);
+  padding-inline: calc(var(--space-xs) / 2);
 }

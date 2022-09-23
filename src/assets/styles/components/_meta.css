@@ -15,7 +15,7 @@
 }
 
 .meta div {
-  padding-block-end: var(--space-block);
+  padding-block-end: var(--space-2xs);
 }
 
 .meta dt,

@@ -17,7 +17,7 @@
 .form__label {
   flex: 1 0 25%;
   min-inline-size: 8em;
-  padding-block: var(--inset-small);
+  padding-block: var(--space-2xs);
 }
 
 /* Input */
@@ -27,7 +27,7 @@
   flex: 1 0 75%;
   inline-size: 100%;
   margin-block-start: 0;
-  padding: var(--inset-small);
+  padding: var(--space-2xs);
 }
 
 .form__input:focus {
@@ -44,7 +44,7 @@ textarea.form__input {
   background-color: var(--color-text);
   color: var(--color-neutral-lightest);
   font-weight: 500;
-  padding: var(--inset-large-squished);
+  padding: var(--space-2xs) var(--space-s);
 }
 
 .form__button:hover {
@@ -81,7 +81,7 @@ textarea.form__input {
   align-items: baseline;
   border-block-end: var(--border-width-thin) solid var(--color-outline);
   display: flex;
-  padding: var(--inset-small);
+  padding: var(--space-s);
 }
 
 .form__option:hover {
