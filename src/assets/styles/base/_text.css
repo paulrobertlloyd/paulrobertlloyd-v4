@@ -46,21 +46,16 @@ abbr[title] {
   text-decoration: none;
 }
 
-/* Prevent `sub` and `sup` from affecting line height */
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
+sub, sup {
+  font-size: small;
 }
 
 sub {
-  inset-block-end: -0.25em;
+  font-variant-position: sub;
 }
 
 sup {
-  inset-block-start: -0.5em;
+  font-variant-position: super;
 }
 
 cite {
@@ -75,16 +70,12 @@ code,
 samp,
 var {
   font-family: var(--font-family-monospace);
+  font-style: normal;
   font-variant-numeric: tabular-nums;
 }
 
-del {
-  background-color: var(--color-delete);
-}
-
 ins {
-  background-color: var(--color-insert);
-  text-decoration: none;
+  text-decoration: underline double;
 }
 
 mark {
