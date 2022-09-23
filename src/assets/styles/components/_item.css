@@ -57,7 +57,7 @@
 
 /* Remark item adaptions */
 .items--remarks .item {
-  padding-inline-start: calc(3rem + var(--space-inline)); /* Avatar width */
+  padding-inline-start: var(--space-3xl);
 }
 
 .items--remarks .s-linear {

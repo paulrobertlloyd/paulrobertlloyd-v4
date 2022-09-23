@@ -1,12 +1,12 @@
 .facepile {
   --anchor-decoration: none;
+  --avatar-size: var(--space-l);
   align-items: center;
   display: inline-flex;
   padding-block: var(--inset-small);
 }
 
 .facepile .avatar {
-  --avatar-size: var(--size-icon-medium);
   margin-inline-end: calc(var(--space-inline) * -1);
   transition: 0.15s ease-in;
   transition-property: margin;
@@ -35,8 +35,8 @@
 .facepile__counter {
   align-items: center;
   background-color: var(--color-offset);
-  block-size: var(--size-icon-medium);
-  border-radius: var(--size-icon-medium);
+  block-size: var(--avatar-size);
+  border-radius: var(--avatar-size);
   display: inline-flex;
   justify-content: center;
   padding-inline: var(--space-inline);
