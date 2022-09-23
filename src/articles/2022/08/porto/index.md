@@ -40,14 +40,12 @@ Anyway, here’s a photo I took of the Dom Luís I Bridge during golden hour ear
 ![A small yellow boat sits below the Dom Luís I Bridge during golden hour.](image.jpg "Dom Luís I Bridge, Porto.")
 {.align-bleed}
 
-[^1]: The city’s brand on the other hand is applied diligently, consistently and thoughtfully. I’d write a separate post, but [Gareth Strange said everything I’d ever want to say on the topic][7].
+[^1]: The city’s brand on the other hand is applied diligently, consistently and thoughtfully. I’d write a separate post, but [Gareth Strange said everything I’d ever want to say on the topic](https://johnandjane.agency/journal/place-branding).
 
-[^2]: A [bridge designed and engineered by Eiffel][6] can be found a little further down the river.
+[^2]: A [bridge designed and engineered by Eiffel](https://en.wikipedia.org/wiki/Maria_Pia_Bridge) can be found a little further down the river.
 
 [1]: https://www.youtube.com/c/AMMONYCdotcom
 [2]: https://www.youtube.com/watch?v=WI-iPJehcZc
 [3]: https://en.wikipedia.org/wiki/Church_of_São_Francisco_%28Porto%29
 [4]: https://en.wikipedia.org/wiki/São_Bento_railway_station
 [5]: https://en.wikipedia.org/wiki/Dom_Lu%C3%ADs_I_Bridge
-[6]: https://en.wikipedia.org/wiki/Maria_Pia_Bridge
-[7]: https://johnandjane.agency/journal/place-branding
