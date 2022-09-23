@@ -1,8 +1,8 @@
 .footer {
-  @extend %caption;
-
   align-items: baseline;
+  color: var(--color-neutral-dark);
   display: flex;
+  line-height: var(--line-height-loose);
   padding-block-end: var(--step-0);
 }
 

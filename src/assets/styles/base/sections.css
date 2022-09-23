@@ -24,7 +24,6 @@ body {
   display: flex;
   flex-direction: column;
   font-family: var(--font-family-sans);
-  letter-spacing: 0.0125em;
   margin: 0;
   min-block-size: 100vh;
   overflow-x: hidden;
@@ -40,8 +39,10 @@ body.stand-with-ukraine {
 
 :--heading {
   break-after: avoid;
+  font-feature-settings: "ss02" 1, "case" 1;
   font-size: inherit;
   font-weight: inherit;
+  hanging-punctuation: first;
   margin: 0;
   text-rendering: optimizelegibility;
 }

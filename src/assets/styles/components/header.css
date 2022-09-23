@@ -12,7 +12,8 @@
 }
 
 .header__title {
-  @extend %title;
+  font-size: var(--step-5);
+  line-height: var(--line-height-tight);
 }
 
 .header__title svg {
@@ -20,12 +21,12 @@
 }
 
 .header__summary {
-  @extend %lede;
   color: var(--color-neutral-dark);
+  font-size: var(--step-2);
+  line-height: var(--line-height-loose);
+  max-inline-size: var(--line-measure);
 }
 
 .header__url {
-  @extend %body;
-
   color: var(--color-accent);
 }

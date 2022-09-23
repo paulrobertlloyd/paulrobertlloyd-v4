@@ -1,7 +1,5 @@
-.content {
-  --body-line-height: var(--line-height-prose);
-}
-
 [data-type="entry-untitled"] .content {
-  @extend %lede;
+  --linear-flow-space: 0.5em;
+  --linear-font-size: var(--step-2);
+  --linear-line-height: var(--line-height-loose);
 }

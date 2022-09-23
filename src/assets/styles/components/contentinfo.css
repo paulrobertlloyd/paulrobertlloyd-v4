@@ -5,8 +5,6 @@
 }
 
 .contentinfo__container {
-  @extend %caption;
-
   --container-padding-inline: calc(var(--gap) - var(--inset-small));
   align-items: center;
   display: flex;

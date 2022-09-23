@@ -25,9 +25,9 @@
 }
 
 .section__title {
-  @extend %body;
-
   color: var(--color-neutral-dark);
+  font-size: var(--step-1);
+  line-height: var(--line-height-loose);
 }
 
 @media (--upto-medium-viewport) {

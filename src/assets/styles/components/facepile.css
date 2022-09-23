@@ -33,12 +33,11 @@
 }
 
 .facepile__counter {
-  @extend %caption;
   align-items: center;
   background-color: var(--color-offset);
   block-size: var(--size-icon-medium);
-  border-radius: 100%;
+  border-radius: var(--size-icon-medium);
   display: inline-flex;
-  inline-size: var(--size-icon-medium);
   justify-content: center;
+  padding-inline: var(--space-inline);
 }

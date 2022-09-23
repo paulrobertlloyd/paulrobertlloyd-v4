@@ -3,9 +3,9 @@
 }
 
 .form__title {
-  @extend %body;
-
   color: var(--color-neutral-dark);
+  font-size: var(--step-1);
+  line-height: var(--line-height-loose);
 }
 
 .form__field {
@@ -93,7 +93,6 @@ textarea.form__input {
 }
 
 .form__option-summary {
-  @extend %caption;
   color: inherit;
   flex: 0;
   opacity: 0.75;

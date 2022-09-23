@@ -15,8 +15,10 @@
 }
 
 .item__title {
-  @extend %subhead;
   --anchor-decoration: none;
+
+  font-size: var(--step-2);
+  line-height: var(--line-height-tight);
 }
 
 .item__title .avatar {
@@ -27,9 +29,9 @@
 
 /* Main */
 .item__main {
-  @extend %body;
+  --linear-flow-space: var(--space-block);
+  --linear-line-height: var(--line-height-loose);
 
-  --flow-space: 0.5em;
   grid-column: main;
 }
 
@@ -46,9 +48,10 @@
 
 /* Footer */
 .item__footer {
-  @extend %caption;
   --anchor-decoration: none;
+  color: var(--color-neutral-dark);
   grid-area: footer;
+  line-height: var(--line-height-loose);
   padding-block-start: calc(var(--space-block) / 2);
 }
 
@@ -57,9 +60,10 @@
   padding-inline-start: calc(3rem + var(--space-inline)); /* Avatar width */
 }
 
-.items--remarks .item__main {
-  --body-font-size: var(--step-0);
-  --body-line-height: var(--line-height-prose);
+.items--remarks .s-linear {
+  --linear-font-size: var(--step-0);
+  --linear-line-height: var(--line-height-prose);
+
   color: var(--color-text);
 }
 
@@ -76,8 +80,6 @@
 
 /* Place item adaptions */
 .item--place .item__header {
-  --subhead-font-size: var(--step-1);
-
   flex: 1;
 }
 

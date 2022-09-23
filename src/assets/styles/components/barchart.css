@@ -11,9 +11,10 @@
   }
 }
 
-.barchart__caption {
-  @extend %caption;
-
+.barchart__caption,
+.barchart__key {
+  color: var(--color-neutral-dark);
+  font-size: var(--step-0);
   padding-block: var(--space-block);
   text-align: center;
 }
@@ -44,10 +45,7 @@
 }
 
 .barchart__key {
-  @extend %caption;
-
   border-block-start: var(--border-width-thin) solid var(--color-neutral-lighter);
-  text-align: center;
 }
 
 .barchart__value {

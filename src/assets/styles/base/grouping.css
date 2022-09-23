@@ -13,7 +13,6 @@ hr {
 }
 
 pre {
-  hanging-punctuation: none;
   hyphens: none;
   tab-size: 2;
   white-space: pre;
@@ -22,6 +21,9 @@ pre {
 figure,
 blockquote,
 :--flow {
+  font-feature-settings: "ss02" 1, "case" 1;
+  hanging-punctuation: first;
+  letter-spacing: 0.0125em;
   margin: 0;
   orphans: 2;
   widows: 2;

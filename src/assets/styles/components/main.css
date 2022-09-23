@@ -41,12 +41,11 @@
 }
 
 .main__title {
-  @extend %title;
-  --title-font-size: var(--step-4);
-
+  font-size: var(--step-4);
   grid-area: title;
   grid-column: content-end;
   grid-row: 1;
+  line-height: var(--line-height-tight);
   margin-block-end: var(--gap);
 }
 
@@ -67,6 +66,12 @@
 }
 
 .main__introduction {
-  @extend %lede;
   color: var(--color-neutral-dark);
+  font-size: var(--step-2);
+  line-height: var(--line-height-loose);
+  max-inline-size: var(--line-measure);
+}
+
+.main__introduction * + * {
+  margin-block-start: var(--space-block);
 }

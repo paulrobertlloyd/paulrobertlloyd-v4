@@ -1,9 +1,10 @@
 .meta {
-  @extend %caption;
   align-items: baseline;
+  color: var(--color-neutral-dark);
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  line-height: var(--line-height-loose);
   max-inline-size: var(--line-measure);
 }
 

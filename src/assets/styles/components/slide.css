@@ -3,18 +3,6 @@
   max-inline-size: 100vw !important;
 }
 
-.slide__caption {
-  margin-block-start: 0;
-  padding-block-start: var(--flow-space);
-}
-
-.slide__caption :--flow {
-  @extend %caption;
-  --caption-line-height: var(--line-height-prose);
-
-  color: var(--color-text);
-}
-
 @media (--from-large-viewport) {
   .slide {
     display: grid;

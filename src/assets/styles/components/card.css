@@ -59,8 +59,8 @@
 }
 
 .card__title {
-  @extend %subhead;
-  --subhead-font-size: var(--step-1);
+  font-size: var(--step-1);
+  line-height: var(--line-height-tight);
 }
 
 .card__title a::before {
@@ -80,15 +80,15 @@
 }
 
 .card__main {
-  @extend %body;
-  --body-line-height: var(--line-height-tight);
+  --linear-font-size: var(--step-1);
+  --linear-line-height: var(--line-height-tight);
+
   color: var(--color-neutral-dark);
   padding: var(--inset-small);
 }
 
 .card__footer {
-  @extend %caption;
-
+  color: var(--color-neutral-dark);
   margin-block-start: auto;
   padding: var(--inset-small);
 }

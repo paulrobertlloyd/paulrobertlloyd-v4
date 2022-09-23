@@ -76,7 +76,6 @@ samp,
 var {
   font-family: var(--font-family-monospace);
   font-variant-numeric: tabular-nums;
-  hanging-punctuation: none;
 }
 
 del {
@@ -90,4 +89,8 @@ ins {
 
 mark {
   background-color: var(--color-highlight);
+}
+
+time {
+  font-variant: tabular-nums;
 }
