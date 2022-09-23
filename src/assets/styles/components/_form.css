@@ -79,7 +79,6 @@ textarea.form__input {
 .form__option {
   --anchor-decoration: none;
   align-items: baseline;
-  border-block-end: var(--border-width-thin) solid var(--color-outline);
   display: flex;
   padding: var(--space-s);
 }
