@@ -59,6 +59,10 @@
   --space-2xl: clamp(3.75rem, calc(3.63rem + 0.50vw), 4.00rem);
   --space-3xl: clamp(5.63rem, calc(5.44rem + 0.75vw), 6.00rem);
 
+  /* Fluid size scale pairs */
+  --space-s-l: clamp(0.94rem, calc(0.41rem + 2.13vw), 2.00rem);
+  --space-m-xl: clamp(1.44rem, calc(0.66rem + 3.13vw), 3.00rem);
+
   /* Borders */
   --border-width-thin: 1px;
   --border-width-thick: 2px;
@@ -66,7 +70,7 @@
   --border-radius: 4px;
 
   /* Grids */
-  --gap: var(--font-size-xl);
+  --gap: var(--space-s-l);
 
   /* Animation */
   --transition-short: 0.15s;

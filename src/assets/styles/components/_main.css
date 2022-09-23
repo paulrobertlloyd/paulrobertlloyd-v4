@@ -23,7 +23,7 @@
     [content-start] 1fr [content-end]
     auto [container-end];
   grid-template-rows: auto 1fr;
-  padding-block: var(--gap) calc(var(--gap) * 2);
+  padding-block: var(--gap);
 }
 
 @media (--from-medium-viewport) {
@@ -37,7 +37,7 @@
 }
 
 .main__container > * + * {
-  margin-block-start: calc(var(--gap) * 2);
+  margin-block-start: var(--gap);
 }
 
 .main__title {

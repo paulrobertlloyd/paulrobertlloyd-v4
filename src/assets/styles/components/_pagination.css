@@ -11,7 +11,7 @@
 .pagination a {
   align-items: center;
   display: flex;
-  padding: var(--space-2xs) var(--space-s);
+  padding: var(--space-s);
 }
 
 .pagination a[aria-current] {

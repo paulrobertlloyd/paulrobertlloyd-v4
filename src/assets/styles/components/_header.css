@@ -3,12 +3,12 @@
 }
 
 .footer + .header {
-  margin-block-end: var(--font-size-3xl);
+  margin-block-end: var(--space-m-xl);
   margin-block-start: 0;
 }
 
 .header > * + * {
-  margin-block-start: var(--font-size-s);
+  margin-block-start: var(--space-s);
 }
 
 .header__title {

@@ -1,10 +1,10 @@
 .form__header {
-  margin-block-end: var(--font-size-s);
+  margin-block-end: var(--space-s);
 }
 
 .form__title {
   color: var(--color-neutral-dark);
-  font-size: var(--font-size-m);
+  font-size: var(--space-m);
   line-height: var(--line-height-loose);
 }
 

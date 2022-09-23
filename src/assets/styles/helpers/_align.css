@@ -17,12 +17,12 @@
 
 .align-start {
   float: inline-start;
-  margin-inline-end: var(--font-size-s);
+  margin-inline-end: var(--space-s);
 }
 
 .align-end {
   float: inline-end;
-  margin-inline-start: var(--font-size-s);
+  margin-inline-start: var(--space-s);
 }
 
 /* Bleed alignment */

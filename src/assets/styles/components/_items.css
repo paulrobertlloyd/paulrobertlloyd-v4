@@ -20,7 +20,7 @@
     --border-radius: 0;
     --gap: var(--border-width-thick);
     grid-template-columns: repeat(auto-fit, minmax(calc(33% - calc(var(--border-width-thick) * 2)), 1fr));
-    margin-inline: calc(var(--font-size-xl) * -1);
+    margin-inline: calc(var(--space-l) * -1);
   }
 }
 
@@ -30,7 +30,7 @@
 }
 
 .items--inline > * + * {
-  margin-block-start: var(--font-size-m);
+  margin-block-start: var(--space-m);
 }
 
 .items__item {

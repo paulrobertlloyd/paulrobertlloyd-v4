@@ -21,7 +21,7 @@
 }
 
 .section__header {
-  padding-block-end: var(--font-size-s);
+  padding-block-end: var(--space-s);
 }
 
 .section__title {
