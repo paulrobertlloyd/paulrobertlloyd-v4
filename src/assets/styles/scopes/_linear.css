@@ -183,12 +183,8 @@
   border: var(--border-width-thin) solid var(--color-offset);
 }
 
-.s-linear .footnotes {
-  font-size: var(--font-size-s);
-}
-
 .s-linear .footnotes :target {
-  color: var(--color-text);
+  background-color: var(--color-highlight);
 }
 
 .s-linear .footnote-ref {
@@ -198,7 +194,6 @@
 
 .s-linear .footnote-backref {
   align-items: baseline;
-  background-color: var(--color-offset);
   block-size: 1.5em;
   border-radius: 100%;
   display: inline-flex;
@@ -210,6 +205,5 @@
 }
 
 .s-linear .footnote-backref:hover {
-  background-color: var(--color-accent);
-  color: var(--color-background);
+  background-color: var(--color-offset);
 }

@@ -59,11 +59,11 @@ legend {
   text-rendering: optimizelegibility;
 }
 
-::selection {
-  background-color: var(--color-highlight);
-}
-
 :focus-visible {
   outline: var(--border-width-thicker) solid var(--color-focus);
   z-index: 1;
+}
+
+::selection {
+  background-color: var(--color-highlight);
 }
