@@ -1,15 +1,19 @@
+/* Configuration */
 @import "config/_custom-media.css";
 @import "config/_custom-properties.css";
 @import "config/_webfonts.css";
 
+/* Helpers */
 @import "helpers/_align.css";
 @import "helpers/_chart-width.css";
 @import "helpers/_external.css";
 @import "helpers/_grid-size.css";
 
+/* Utilities */
 @import "utilities/_container.css";
 @import "utilities/_visually-hidden.css";
 
+/* Base */
 @import "base/_embedded.css";
 @import "base/_forms.css";
 @import "base/_grouping.css";
@@ -19,8 +23,10 @@
 @import "base/_tables.css";
 @import "base/_text.css";
 
+/* Scopes */
 @import "scopes/_linear.css";
 
+/* Components */
 @import "components/_avatar.css";
 @import "components/_banner.css";
 @import "components/_barchart.css";
@@ -46,4 +52,5 @@
 @import "components/_slide.css";
 @import "components/_trips.css";
 
+/* Vendor */
 @import "vendor/_prism.css";

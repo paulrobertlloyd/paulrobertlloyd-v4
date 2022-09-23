@@ -1,3 +1,4 @@
+/* stylelint-disable number-no-trailing-zeros */
 :root {
   /* Neutral palette */
   --tint: 228 6%;
@@ -38,8 +39,10 @@
   --word-spacing: 0;
   --text-spacing: 0 0.25em 0.125em 0.25em;
 
-  /* Fluid type scale */
-  /* @link https://utopia.fyi/type/calculator?c=400,15,1.125,1200,16,1.25,5,0,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
+  /*
+   * Fluid type scale
+   * @link https://utopia.fyi/type/calculator?c=400,15,1.125,1200,16,1.25,5,0,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l
+   */
   --font-size-s: clamp(0.94rem, calc(0.91rem + 0.13vw), 1.00rem);
   --font-size-m: clamp(1.06rem, calc(0.96rem + 0.39vw), 1.25rem);
   --font-size-l: clamp(1.19rem, calc(1.00rem + 0.75vw), 1.56rem);
@@ -47,8 +50,10 @@
   --font-size-2xl: clamp(1.50rem, calc(1.03rem + 1.88vw), 2.44rem);
   --font-size-3xl: clamp(1.69rem, calc(1.01rem + 2.72vw), 3.05rem);
 
-  /* Fluid size scale */
-  /* @link https://utopia.fyi/space/calculator?c=400,15,1.2,1200,16,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
+  /*
+   * Fluid size scale
+   * @link https://utopia.fyi/space/calculator?c=400,15,1.2,1200,16,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l
+   */
   --space-3xs: clamp(0.25rem, calc(0.25rem + 0.00vw), 0.25rem);
   --space-2xs: clamp(0.50rem, calc(0.50rem + 0.00vw), 0.50rem);
   --space-xs: clamp(0.69rem, calc(0.66rem + 0.13vw), 0.75rem);
