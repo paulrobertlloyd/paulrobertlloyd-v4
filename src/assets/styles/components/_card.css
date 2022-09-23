@@ -1,7 +1,7 @@
 .card {
   --anchor-decoration: none;
   --color-accent: var(--color-accent-light);
-  --card-growth: var(--font-size-s);
+  --card-growth: var(--space-s);
 
   background: var(--color-offset);
   border-radius: var(--border-radius);
