@@ -12,7 +12,7 @@
 }
 
 .header__title {
-  font-size: var(--font-size-3xl);
+  font-size: var(--font-size-2xl);
   line-height: var(--line-height-tight);
 }
 

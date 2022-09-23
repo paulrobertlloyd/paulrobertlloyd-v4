@@ -45,8 +45,7 @@
   --font-size-m: clamp(1.06rem, calc(0.96rem + 0.39vw), 1.25rem);
   --font-size-l: clamp(1.19rem, calc(1.00rem + 0.75vw), 1.56rem);
   --font-size-xl: clamp(1.34rem, calc(1.03rem + 1.24vw), 1.95rem);
-  --font-size-2xl: clamp(1.50rem, calc(1.03rem + 1.88vw), 2.44rem);
-  --font-size-3xl: clamp(1.69rem, calc(1.01rem + 2.72vw), 3.05rem);
+  --font-size-2xl: clamp(1.69rem, calc(1.01rem + 2.72vw), 3.05rem);
 
   /*
    * Fluid size scale
