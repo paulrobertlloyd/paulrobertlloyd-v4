@@ -20,5 +20,5 @@
 }
 
 .footnote-backref:hover {
-  background-color: var(--color-shadow);
+  background-color: var(--color-offset);
 }

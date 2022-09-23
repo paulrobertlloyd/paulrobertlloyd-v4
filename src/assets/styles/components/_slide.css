@@ -11,7 +11,7 @@
   }
 
   .slide__caption {
-    border-block-start: var(--border-width-thick) solid var(--color-rule);
+    border-block-start: var(--border-rule);
     margin-block-start: 0;
   }
 }

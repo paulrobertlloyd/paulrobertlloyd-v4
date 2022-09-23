@@ -13,7 +13,7 @@
 }
 
 [style^="--chart-width"]::before {
-  background-color: var(--color-outline);
+  background-color: var(--color-neutral-darkest-alpha);
   content: "";
   display: block;
   inline-size: var(--chart-width);

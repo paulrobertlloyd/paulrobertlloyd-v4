@@ -1,6 +1,6 @@
 .item {
   align-items: start;
-  border-block-start: var(--border-width-thick) solid var(--color-rule);
+  border-block-start: var(--border-rule);
   display: grid;
   flex: 1;
   grid-gap: var(--space-2xs) var(--gap);
