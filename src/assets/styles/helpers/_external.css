@@ -1,9 +1,9 @@
 a[rel~="external"]::after {
   background: url("/assets/vectors/external.svg") no-repeat;
-  block-size: 0.75em;
+  block-size: var(--space-xs);
   content: "";
   display: inline-block;
-  inline-size: 0.5em;
+  inline-size: var(--space-2xs);
   margin-inline: 0.125em;
   opacity: 0.4;
   vertical-align: baseline;

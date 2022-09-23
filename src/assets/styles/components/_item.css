@@ -57,7 +57,7 @@
 
 /* Remark item adaptions */
 .items--remarks .item {
-  padding-inline-start: var(--space-3xl);
+  padding-inline-start: calc(var(--space-l) + var(--gap));
 }
 
 .items--remarks .s-linear {

@@ -1,9 +1,9 @@
 .avatar {
   background-color: var(--color-offset);
-  block-size: var(--avatar-size, var(--space-2xl));
+  block-size: var(--avatar-size, var(--space-l));
   border: var(--border-width-thin) solid var(--color-background);
   border-radius: 100%;
-  inline-size: var(--avatar-size, var(--space-2xl));
+  inline-size: var(--avatar-size, var(--space-l));
   max-inline-size: none;
   object-fit: cover;
 }

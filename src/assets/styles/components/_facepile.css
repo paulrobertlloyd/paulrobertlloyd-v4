@@ -1,6 +1,6 @@
 .facepile {
   --anchor-decoration: none;
-  --avatar-size: var(--space-l);
+  --avatar-size: var(--space-m);
   align-items: center;
   display: inline-flex;
   padding-block: var(--space-s);

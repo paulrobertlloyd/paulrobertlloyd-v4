@@ -1,6 +1,6 @@
 .s-linear {
   --color-link-underline: var(--color-neutral);
-  --flow-inset: 1.25em;
+  --flow-inset: var(--font-size-m);
   --linear-flow-space: 1em;
   --linear-font-size: var(--font-size-m);
   --linear-line-height: var(--line-height-prose);
@@ -59,10 +59,6 @@
 .s-linear blockquote li {
   list-style-position: outside;
   margin-inline-start: var(--flow-inset);
-}
-
-.s-linear figure :first-child {
-  margin-block-start: var(--linear-flow-space);
 }
 
 .s-linear pre {
@@ -174,9 +170,7 @@
 }
 
 .s-linear :not(pre) code,
-.s-linear samp,
-.s-linear del,
-.s-linear ins {
+.s-linear samp {
   border-radius: var(--border-radius);
   padding: var(--text-spacing);
 }

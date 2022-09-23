@@ -37,7 +37,7 @@
 }
 
 .main__container > * + * {
-  margin-block-start: var(--gap);
+  margin-block-start: var(--space-m-l);
 }
 
 .main__title {

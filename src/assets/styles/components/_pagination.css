@@ -25,11 +25,11 @@
 
 .pagination a[rel~="prev"]::before,
 .pagination a[rel~="next"]::after {
-  block-size: 0.5em;
+  block-size: var(--space-2xs);
   border-style: solid;
   content: "";
-  inline-size: 0.5em;
-  margin: 0.25em;
+  inline-size: var(--space-2xs);
+  margin-inline: var(--space-2xs);
   transform: rotate(-45deg);
 }
 

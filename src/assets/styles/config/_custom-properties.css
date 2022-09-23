@@ -24,9 +24,7 @@
   --color-link: var(--color-accent);
   --color-link-underline: var(--color-neutral-light);
 
-  --color-delete: hsl(0deg 100% 80% / 75%);
   --color-highlight: hsl(48deg 100% 80% / 75%);
-  --color-insert: hsl(120deg 100% 80% / 75%);
   --color-focus: hsl(48deg 100% 50%);
 
   /* Typography */
@@ -52,21 +50,18 @@
 
   /*
    * Fluid size scale
-   * @link https://utopia.fyi/space/calculator?c=400,15,1.2,1200,16,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l
+   * @link https://utopia.fyi/space/calculator/?c=400,15,1.2,1200,16,1.25,5,2,&s=0.75|0.5,1.5|2|3|4|6,m-xl|s-l
    */
-  --space-3xs: clamp(0.25rem, calc(0.25rem + 0.00vw), 0.25rem);
   --space-2xs: clamp(0.50rem, calc(0.50rem + 0.00vw), 0.50rem);
   --space-xs: clamp(0.69rem, calc(0.66rem + 0.13vw), 0.75rem);
   --space-s: clamp(0.94rem, calc(0.91rem + 0.13vw), 1.00rem);
-  --space-m: clamp(1.44rem, calc(1.41rem + 0.13vw), 1.50rem);
-  --space-l: clamp(1.88rem, calc(1.81rem + 0.25vw), 2.00rem);
-  --space-xl: clamp(2.81rem, calc(2.72rem + 0.38vw), 3.00rem);
-  --space-2xl: clamp(3.75rem, calc(3.63rem + 0.50vw), 4.00rem);
-  --space-3xl: clamp(5.63rem, calc(5.44rem + 0.75vw), 6.00rem);
+  --space-m: clamp(1.88rem, calc(1.81rem + 0.25vw), 2.00rem);
+  --space-l: clamp(3.75rem, calc(3.63rem + 0.50vw), 4.00rem);
 
   /* Fluid size scale pairs */
-  --space-s-l: clamp(0.94rem, calc(0.41rem + 2.13vw), 2.00rem);
-  --space-m-xl: clamp(1.44rem, calc(0.66rem + 3.13vw), 3.00rem);
+  --space-s-m: clamp(0.94rem, calc(0.41rem + 2.13vw), 2.00rem);
+  --space-s-l: clamp(0.94rem, calc(-0.59rem + 6.13vw), 4.00rem);
+  --space-m-l: clamp(1.88rem, calc(0.81rem + 4.25vw), 4.00rem);
 
   /* Borders */
   --border-width-thin: 1px;
@@ -75,7 +70,7 @@
   --border-radius: 4px;
 
   /* Grids */
-  --gap: var(--space-s-l);
+  --gap: var(--space-s-m);
 
   /* Animation */
   --transition-short: 0.15s;
