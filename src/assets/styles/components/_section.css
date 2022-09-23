@@ -21,12 +21,12 @@
 }
 
 .section__header {
-  padding-block-end: var(--step-0);
+  padding-block-end: var(--font-size-s);
 }
 
 .section__title {
   color: var(--color-neutral-dark);
-  font-size: var(--step-1);
+  font-size: var(--font-size-m);
   line-height: var(--line-height-loose);
 }
 

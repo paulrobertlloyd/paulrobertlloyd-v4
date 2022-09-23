@@ -17,7 +17,7 @@
 .item__title {
   --anchor-decoration: none;
 
-  font-size: var(--step-2);
+  font-size: var(--font-size-l);
   line-height: var(--line-height-tight);
 }
 
@@ -61,7 +61,7 @@
 }
 
 .items--remarks .s-linear {
-  --linear-font-size: var(--step-0);
+  --linear-font-size: var(--font-size-s);
   --linear-line-height: var(--line-height-prose);
 
   color: var(--color-text);

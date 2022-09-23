@@ -41,7 +41,7 @@
 }
 
 .main__title {
-  font-size: var(--step-4);
+  font-size: var(--font-size-2xl);
   grid-area: title;
   grid-column: content-end;
   grid-row: 1;
@@ -52,7 +52,7 @@
 @media (--from-medium-viewport) {
   .main__title {
     block-size: 1px; /* Force stickiness */
-    inset-block-start: var(--step-0);
+    inset-block-start: var(--font-size-s);
     padding-inline-start: var(--gap);
     position: sticky;
     writing-mode: vertical-rl;
@@ -67,7 +67,7 @@
 
 .main__introduction {
   color: var(--color-neutral-dark);
-  font-size: var(--step-2);
+  font-size: var(--font-size-l);
   line-height: var(--line-height-loose);
   max-inline-size: var(--line-measure);
 }

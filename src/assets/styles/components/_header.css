@@ -3,16 +3,16 @@
 }
 
 .footer + .header {
-  margin-block-end: var(--step-5);
+  margin-block-end: var(--font-size-3xl);
   margin-block-start: 0;
 }
 
 .header > * + * {
-  margin-block-start: var(--step-0);
+  margin-block-start: var(--font-size-s);
 }
 
 .header__title {
-  font-size: var(--step-5);
+  font-size: var(--font-size-3xl);
   line-height: var(--line-height-tight);
 }
 
@@ -22,7 +22,7 @@
 
 .header__summary {
   color: var(--color-neutral-dark);
-  font-size: var(--step-2);
+  font-size: var(--font-size-l);
   line-height: var(--line-height-loose);
   max-inline-size: var(--line-measure);
 }

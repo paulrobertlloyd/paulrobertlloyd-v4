@@ -2,7 +2,7 @@
   --color-link-underline: var(--color-neutral);
   --flow-inset: 1.25em;
   --linear-flow-space: 1em;
-  --linear-font-size: var(--step-1);
+  --linear-font-size: var(--font-size-m);
   --linear-line-height: var(--line-height-prose);
   --linear-line-measure: var(--line-measure);
 }
@@ -33,7 +33,7 @@
 
 .s-linear :is(caption, figcaption) {
   color: var(--color-neutral-dark);
-  font-size: var(--step-0);
+  font-size: var(--font-size-s);
   line-height: var(--line-height-loose);
   padding-block-start: var(--space-block);
 }
@@ -47,7 +47,7 @@
 .s-linear > aside :is(p, dl, ol, ul, address) {
   --flow-inset: 0;
   color: var(--color-neutral-dark);
-  font-size: var(--step-0);
+  font-size: var(--font-size-s);
 }
 
 .s-linear blockquote {
@@ -69,13 +69,13 @@
   background-color: var(--color-offset);
   border-radius: var(--border-radius);
   display: block;
-  font-size: var(--step-0);
+  font-size: var(--font-size-s);
   overflow-x: scroll;
   padding: var(--inset-small);
 }
 
 .s-linear table {
-  font-size: var(--step-0);
+  font-size: var(--font-size-s);
   inline-size: 100%;
   max-inline-size: 100%;
 }
@@ -115,7 +115,7 @@
 .s-linear h2:not([class]) {
   --linear-flow-space: 2em;
 
-  font-size: var(--step-3);
+  font-size: var(--font-size-xl);
   font-weight: 500;
   line-height: var(--line-height-tight);
 }
@@ -123,7 +123,7 @@
 .s-linear h3:not([class]) {
   --linear-flow-space: 1.5em;
 
-  font-size: var(--step-2);
+  font-size: var(--font-size-l);
   line-height: var(--line-height-tight);
 }
 
@@ -162,7 +162,7 @@
 }
 
 .s-linear small {
-  font-size: var(--step-0);
+  font-size: var(--font-size-s);
 }
 
 .s-linear img {
@@ -190,7 +190,7 @@
 }
 
 .s-linear .footnotes {
-  font-size: var(--step-0);
+  font-size: var(--font-size-s);
 }
 
 .s-linear .footnotes :target {

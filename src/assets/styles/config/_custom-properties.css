@@ -28,15 +28,6 @@
   --color-insert: hsl(120deg 100% 80% / 75%);
   --color-focus: hsl(48deg 100% 50%);
 
-  /* Type scale */
-  /* @link https://utopia.fyi/type/calculator?c=400,15,1.125,1200,16,1.25,5,0,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
-  --step-0: clamp(0.94rem, calc(0.91rem + 0.13vw), 1.00rem);
-  --step-1: clamp(1.06rem, calc(0.96rem + 0.39vw), 1.25rem);
-  --step-2: clamp(1.19rem, calc(1.00rem + 0.75vw), 1.56rem);
-  --step-3: clamp(1.34rem, calc(1.03rem + 1.24vw), 1.95rem);
-  --step-4: clamp(1.50rem, calc(1.03rem + 1.88vw), 2.44rem);
-  --step-5: clamp(1.69rem, calc(1.01rem + 2.72vw), 3.05rem);
-
   /* Typography */
   --font-family-sans: "Söhne", sans-serif;
   --font-family-monospace: "Söhne Mono", monospace;
@@ -46,6 +37,15 @@
   --line-measure: 42.5rem;
   --word-spacing: 0;
   --text-spacing: 0 0.25em 0.125em 0.25em;
+
+  /* Fluid type scale */
+  /* @link https://utopia.fyi/type/calculator?c=400,15,1.125,1200,16,1.25,5,0,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
+  --font-size-s: clamp(0.94rem, calc(0.91rem + 0.13vw), 1.00rem);
+  --font-size-m: clamp(1.06rem, calc(0.96rem + 0.39vw), 1.25rem);
+  --font-size-l: clamp(1.19rem, calc(1.00rem + 0.75vw), 1.56rem);
+  --font-size-xl: clamp(1.34rem, calc(1.03rem + 1.24vw), 1.95rem);
+  --font-size-2xl: clamp(1.50rem, calc(1.03rem + 1.88vw), 2.44rem);
+  --font-size-3xl: clamp(1.69rem, calc(1.01rem + 2.72vw), 3.05rem);
 
   /* Borders */
   --border-width-thin: 1px;
@@ -69,7 +69,7 @@
   --inset-large-squished: calc(var(--inset-large) / 2) var(--inset-large);
 
   /* Grids */
-  --gap: var(--step-3);
+  --gap: var(--font-size-xl);
 
   /* Animation */
   --transition-short: 0.15s;
@@ -92,7 +92,7 @@
 
 @media (--from-medium-viewport) {
   :root {
-    --sticky-title-block-size: calc(var(--step-4) + var(--gap));
+    --sticky-title-block-size: calc(var(--font-size-2xl) + var(--gap));
   }
 }
 

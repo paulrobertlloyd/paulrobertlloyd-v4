@@ -6,7 +6,7 @@
   align-items: baseline;
   display: flex;
   flex-wrap: wrap;
-  padding-block: var(--step-4);
+  padding-block: var(--font-size-2xl);
   position: relative;
 }
 

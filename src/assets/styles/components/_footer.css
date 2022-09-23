@@ -3,7 +3,7 @@
   color: var(--color-neutral-dark);
   display: flex;
   line-height: var(--line-height-loose);
-  padding-block-end: var(--step-0);
+  padding-block-end: var(--font-size-s);
 }
 
 .footer a {

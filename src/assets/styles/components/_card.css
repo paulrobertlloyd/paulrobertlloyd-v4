@@ -1,7 +1,7 @@
 .card {
   --anchor-decoration: none;
   --color-accent: var(--color-accent-light);
-  --card-growth: var(--step-0);
+  --card-growth: var(--font-size-s);
 
   background: var(--color-offset);
   border-radius: var(--border-radius);
@@ -59,7 +59,7 @@
 }
 
 .card__title {
-  font-size: var(--step-1);
+  font-size: var(--font-size-m);
   line-height: var(--line-height-tight);
 }
 
@@ -80,7 +80,7 @@
 }
 
 .card__main {
-  --linear-font-size: var(--step-1);
+  --linear-font-size: var(--font-size-m);
   --linear-line-height: var(--line-height-tight);
 
   color: var(--color-neutral-dark);
