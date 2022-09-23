@@ -1,6 +1,6 @@
 {%- if pagination.hrefs.size > 1 -%}
 <nav class="pagination" aria-label="page">
-  <ul class="pagination__items">
+  <ul class="pagination__items" role="list">
   {%- if pagination.href.next -%}
     <li><a href="{{ pagination.href.next | remove: '.html' | replace: 'page/','?page=' }}" rel="prev">Previous</a></li>
   {%- endif -%}

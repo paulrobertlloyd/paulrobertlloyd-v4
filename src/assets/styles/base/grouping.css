@@ -29,12 +29,11 @@ blockquote,
   widows: 2;
 }
 
-:--list {
+ol[role="list"],
+ul[role="list"],
+ul[role="listbox"] {
+  list-style: none;
   padding: 0; /* Reset default list padding */
-}
-
-li {
-  display: var(--list-display, block);
 }
 
 dd {
