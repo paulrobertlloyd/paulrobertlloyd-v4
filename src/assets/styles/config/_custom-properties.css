@@ -28,6 +28,15 @@
   --color-insert: hsl(120deg 100% 80% / 75%);
   --color-focus: hsl(48deg 100% 50%);
 
+  /* Type scale */
+  /* @link https://utopia.fyi/type/calculator?c=400,15,1.125,1200,16,1.25,5,0,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
+  --step-0: clamp(0.94rem, calc(0.91rem + 0.13vw), 1.00rem);
+  --step-1: clamp(1.06rem, calc(0.96rem + 0.39vw), 1.25rem);
+  --step-2: clamp(1.19rem, calc(1.00rem + 0.75vw), 1.56rem);
+  --step-3: clamp(1.34rem, calc(1.03rem + 1.24vw), 1.95rem);
+  --step-4: clamp(1.50rem, calc(1.03rem + 1.88vw), 2.44rem);
+  --step-5: clamp(1.69rem, calc(1.01rem + 2.72vw), 3.05rem);
+
   /* Typography */
   --font-family-sans: "Söhne", sans-serif;
   --font-family-monospace: "Söhne Mono", monospace;
