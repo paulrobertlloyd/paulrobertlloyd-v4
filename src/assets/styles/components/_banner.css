@@ -27,10 +27,6 @@
   padding-inline: var(--space-s);
 }
 
-.banner__title a:hover {
-  text-decoration: var(--color-rule) underline;
-}
-
 .banner__navigation {
   color: var(--color-neutral-dark);
   display: flex;
