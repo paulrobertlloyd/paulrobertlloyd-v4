@@ -8,7 +8,3 @@ summary {
   color: var(--anchor-color, inherit);
   cursor: pointer;
 }
-
-summary:focus-visible {
-  outline-offset: var(--border-width-thick);
-}

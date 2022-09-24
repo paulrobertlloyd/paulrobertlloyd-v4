@@ -4,7 +4,6 @@
   --card-growth: var(--space-s);
 
   background: var(--color-offset);
-  border-radius: var(--border-radius);
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -75,8 +74,8 @@
 }
 
 .card__title a:focus::before {
-  outline: var(--border-width-thicker) solid var(--color-focus);
-  outline-offset: calc(var(--border-width-thicker) * -1);
+  outline: var(--border-width-focus) solid var(--color-focus);
+  outline-offset: calc(var(--border-width-focus) * -1);
 }
 
 .card__main {

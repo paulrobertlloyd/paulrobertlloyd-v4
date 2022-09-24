@@ -19,7 +19,7 @@
 }
 
 .s-linear > hr {
-  border-block-end: var(--border-width-thick) solid var(--color-accent);
+  border-block-end: var(--border-width-rule) solid var(--color-accent);
   inline-size: calc(33% - calc(var(--gap) / 2));
   margin-block: calc(var(--linear-flow-space) * 3);
   margin-inline-start: 0;
@@ -44,14 +44,13 @@
 }
 
 .s-linear blockquote {
-  border-inline-start: var(--border-width-thicker) solid var(--color-accent);
+  border-inline-start: var(--border-width-rule) solid var(--color-accent);
   margin-inline-start: 0;
   padding-inline-start: var(--flow-inset);
 }
 
 .s-linear pre {
   background-color: var(--color-offset);
-  border-radius: var(--border-radius);
   display: block;
   font-size: var(--font-size-s);
   overflow-x: scroll;
@@ -73,7 +72,7 @@
 
 .s-linear tbody th,
 .s-linear tbody td {
-  border-block-start: var(--border-width-thin) solid var(--color-neutral-lighter);
+  border-block-start: var(--border-width-rule) solid var(--color-neutral-lighter);
 }
 
 .s-linear [style^="--chart-width"] {
@@ -158,7 +157,6 @@
 
 .s-linear :not(pre) code,
 .s-linear samp {
-  border-radius: var(--border-radius);
   padding: var(--text-spacing);
 }
 

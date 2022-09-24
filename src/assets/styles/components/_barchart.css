@@ -45,7 +45,7 @@
 }
 
 .barchart__key {
-  border-block-start: var(--border-width-thin) solid var(--color-neutral-lighter);
+  border-block-start: var(--border-width-rule) solid var(--color-neutral-lighter);
 }
 
 .barchart__value {
@@ -67,19 +67,19 @@
 
 .barchart__value [style^="--chart-size"]:first-of-type {
   background-color: var(--color-accent);
-  inline-size: 67%;
+  inline-size: 40%;
   inset-inline-end: 10%;
 }
 
 .barchart__value [style^="--chart-size"]:last-of-type {
   background-color: var(--color-complement);
-  inline-size: 33%;
+  inline-size: 40%;
   inset-inline-start: 10%;
 }
 
 .barchart__value .barchart__value-label {
   background-color: var(--color-background);
-  border: var(--border-width-thicker) solid var(--color-background);
+  border: var(--border-width-rule) solid var(--color-background);
   color: var(--color-text);
   display: none;
   filter: invert();
@@ -92,13 +92,13 @@
 }
 
 .barchart__value .barchart__value-label::after {
-  border: var(--border-width-thicker) solid var(--color-background);
+  border: var(--border-width-rule) solid var(--color-background);
   border-block-end-color: transparent;
   border-inline-end-color: transparent;
   content: "";
   display: block;
-  inset-block-end: calc(var(--border-width-thicker) * 3 * -1);
-  inset-inline-start: calc(var(--border-width-thicker) * -1);
+  inset-block-end: calc(var(--border-width-rule) * 3 * -1);
+  inset-inline-start: calc(var(--border-width-rule) * -1);
   position: absolute;
 }
 

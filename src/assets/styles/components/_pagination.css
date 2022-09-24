@@ -34,9 +34,9 @@
 }
 
 .pagination a[rel="prev"]::before {
-  border-width: var(--border-width-thick) 0 0 var(--border-width-thick);
+  border-width: var(--border-width-rule) 0 0 var(--border-width-rule);
 }
 
 .pagination a[rel="next"]::after {
-  border-width: 0 var(--border-width-thick) var(--border-width-thick) 0;
+  border-width: 0 var(--border-width-rule) var(--border-width-rule) 0;
 }

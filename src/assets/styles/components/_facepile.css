@@ -7,6 +7,7 @@
 }
 
 .facepile .avatar {
+  border: var(--border-width-rule) solid var(--color-background);
   margin-inline-end: calc(var(--space-xs) * -1);
   transition: 0.15s ease-in;
   transition-property: margin;
@@ -36,6 +37,7 @@
   align-items: center;
   background-color: var(--color-offset);
   block-size: var(--avatar-size);
+  border: var(--border-width-rule) solid var(--color-background);
   border-radius: var(--avatar-size);
   display: inline-flex;
   justify-content: center;

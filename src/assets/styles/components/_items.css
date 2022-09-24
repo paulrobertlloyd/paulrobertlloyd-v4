@@ -17,9 +17,8 @@
 
 @media (--upto-medium-viewport) {
   .items--photos {
-    --border-radius: 0;
-    --gap: var(--border-width-thick);
-    grid-template-columns: repeat(auto-fit, minmax(calc(33% - calc(var(--border-width-thick) * 2)), 1fr));
+    --gap: var(--border-width-rule);
+    grid-template-columns: repeat(auto-fit, minmax(calc(33% - calc(var(--border-width-rule) * 2)), 1fr));
     margin-inline: calc(var(--space-s-m) * -1);
   }
 }

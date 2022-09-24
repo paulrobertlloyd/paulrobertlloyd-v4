@@ -23,7 +23,7 @@
 /* Input */
 .form__input {
   background-color: var(--color-background);
-  border: var(--border-width-thick) solid var(--color-neutral-lighter);
+  border: var(--border-width-rule) solid var(--color-neutral-lighter);
   flex: 1 0 75%;
   inline-size: 100%;
   margin-block-start: 0;
@@ -32,7 +32,7 @@
 
 .form__input:focus {
   border-color: var(--color-neutral-darker);
-  outline: var(--border-width-thicker) solid var(--color-focus);
+  outline: var(--border-width-focus) solid var(--color-focus);
 }
 
 textarea.form__input {
@@ -60,8 +60,8 @@ textarea.form__input {
 /* Listbox */
 .form__listbox {
   background-color: var(--color-background);
-  border: var(--border-width-thick) solid var(--color-neutral-darker);
-  margin-block-start: calc(var(--border-width-thick) * -1);
+  border: var(--border-width-rule) solid var(--color-neutral-darker);
+  margin-block-start: calc(var(--border-width-rule) * -1);
   max-block-size: 60vh;
   overflow-y: scroll;
 }

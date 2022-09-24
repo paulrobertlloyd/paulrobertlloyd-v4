@@ -63,11 +63,9 @@
   --space-m-l: clamp(1.88rem, calc(0.81rem + 4.25vw), 4.00rem);
 
   /* Borders */
-  --border-width-thin: 1px;
-  --border-width-thick: 2px;
-  --border-width-thicker: 3px;
-  --border-radius: 4px;
-  --border-rule: var(--border-width-thick) solid var(--color-offset);
+  --border-width-focus: 3px;
+  --border-width-rule: 2px;
+  --border-rule: var(--border-width-rule) solid var(--color-offset);
 
   /* Grids */
   --gap: var(--space-s-m);

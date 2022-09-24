@@ -59,7 +59,7 @@ legend {
 }
 
 :focus-visible {
-  outline: var(--border-width-thicker) solid var(--color-focus);
+  outline: var(--border-width-focus) solid var(--color-focus);
   z-index: 1;
 }
 

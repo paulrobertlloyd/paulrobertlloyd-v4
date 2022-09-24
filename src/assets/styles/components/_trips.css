@@ -4,7 +4,7 @@
 
 .trips tbody th,
 .trips tbody td {
-  border-block-start-width: var(--border-width-thick);
+  border-block-start-width: var(--border-width-rule);
 }
 
 .trips * th:first-child {
