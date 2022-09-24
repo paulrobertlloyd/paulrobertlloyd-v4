@@ -29,49 +29,16 @@ Prior to my move to California in 2006, I had flown only once, on a long haul re
 
 However, thanks to [Dopplr][4]’s ability to track the carbon generated from all these trips I’ve taken, you can see that since returning from America in 2007, there has been a year-on-year reduction of my footprint:
 
-<table>
-  <caption>My carbon footprint since 2003 as measured by Dopplr</caption>
-  <thead>
-    <tr>
-      <th>Year</th>
-      <th>Kg CO<sub>2</sub></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>2003</th>
-      <td style="--chart-width: 46.60%;">4660</td>
-    </tr>
-    <tr>
-      <th>2004</th>
-      <td style="--chart-width: 10.21%;">1021</td>
-    </tr>
-    <tr>
-      <th>2005</th>
-      <td style="--chart-width: 31.22%;">3122</td>
-    </tr>
-    <tr>
-      <th>2006</th>
-      <td style="--chart-width: 57.18%;">5718</td>
-    </tr>
-    <tr>
-      <th>2007</th>
-      <td style="--chart-width: 94.32%;">9432</td>
-    </tr>
-    <tr>
-      <th>2008</th>
-      <td style="--chart-width: 76.45%;">7645</td>
-    </tr>
-    <tr>
-      <th>2009</th>
-      <td style="--chart-width: 57.67%;">5767</td>
-    </tr>
-    <tr>
-      <th>2010</th>
-      <td style="--chart-width: 28.40%;">2840</td>
-    </tr>
-  </tbody>
-</table>
+| Year {width="20"} | Kg CO₂ |
+| ---- | ------ |
+| 2003 | [4660]{style="--chart-width: 46.60%"} |
+| 2004 | [1021]{style="--chart-width: 10.21%"} |
+| 2005 | [3122]{style="--chart-width: 31.22%"} |
+| 2006 | [5718]{style="--chart-width: 57.18%"} |
+| 2007 | [9432]{style="--chart-width: 94.32%"} |
+| 2008 | [7645]{style="--chart-width: 76.45%"} |
+| 2009 | [5767]{style="--chart-width: 57.67%"} |
+| 2010 | [2840]{style="--chart-width: 28.40%"} |
 
 Still, my friends are right; flying so often undermines my ability to advocate a greener lifestyle. It also dawned on me just how unpleasant the entire experience is anyway. Endless queuing, administration and [frustration][5], just to travel in pretty appalling conditions — I can’t think of any other situation in which waking up two strangers and crawling across a row of seats, just to visit the toilet would be tolerated, but it is here.
 

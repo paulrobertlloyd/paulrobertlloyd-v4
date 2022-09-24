@@ -34,17 +34,10 @@ In order to keep the size of this file down, fallbacks (PNG for the logo, EOT an
 
 In addition to these changes, refactoring the remaining styles meant the new CSS file is slightly smaller than the three previous files it replaces:
 
-<table>
-  <caption>Bytes downloaded (requests)</caption>
-  <tr>
-    <th>Before&nbsp;(CSS+JS+SVG)</th>
-    <td style="--chart-width: 100%;">11.47 kB (3)</td>
-  </tr>
-  <tr>
-    <th>After&nbsp;(CSS only)</th>
-    <td style="--chart-width: 93.80%;">10.76 kB (1)</td>
-  </tr>
-</table>
+| Stage {width="20%"} | Bytes downloaded (requests) |
+| ----- | --------------------------- |
+| Before (CSS+JS+SVG) | [11.47 kB (3)]{style="--chart-width: 100%"} |
+| After (CSS only) | [10.76 kB (1)]{style="--chart-width: 93.80%"} |
 
 ## Improved time to first byte
 
@@ -52,73 +45,37 @@ In my previous post, I mentioned that I was now serving the site via [CloudFlare
 
 I really like CloudFlare, but it came with a notable downside: Time to First Byte times were longer than they ought to be. This issue has been [dismissed by CloudFlare][6], yet real world usage suggested the responsiveness of this site was indeed impacted. [Andy Hume][7] recommended I try [Fastly][8]. While it doesn’t optimise files or provide security protection, it provides the same core service as CloudFlare more effectively[^1]:
 
-### First view
+### First view - CloudFlare
 
-<table>
-  <caption>CloudFlare</caption>
-  <tr>
-    <th>First&nbsp;byte</th>
-    <td style="--chart-width:12.25%;">1,225 ms</td>
-  </tr>
-  <tr>
-    <th>Document&nbsp;complete</th>
-    <td style="--chart-width:67.22%;">6,722 ms</td>
-  </tr>
-  <tr>
-    <th>Fully&nbsp;loaded</th>
-    <td style="--chart-width:67.98%;">6,798 ms</td>
-  </tr>
-</table>
+| Value {width="20%"} | Time |
+| ----- | --------------------------- |
+| First byte | [1,225 ms]{style="--chart-width: 12.25%;"} |
+| Document complete | [6,722 ms]{style="--chart-width: 67.22%"} |
+| Fully loaded | [6,798 ms]{style="--chart-width: 67.98%"} |
 
-<table>
-  <caption>Fastly</caption>
-  <tr>
-    <th>First&nbsp;byte</th>
-    <td style="--chart-width:1.89%;">189 ms</td>
-  </tr>
-  <tr>
-    <th>Document&nbsp;complete</th>
-    <td style="--chart-width:29.88%;">2,988 ms</td>
-  </tr>
-  <tr>
-    <th>Fully&nbsp;loaded</th>
-    <td style="--chart-width:30.64%;">3,064 ms</td>
-  </tr>
-</table>
+### First view - Fastly
 
-### Repeat view
+| Value {width="20%"} | Time |
+| ----- | --------------------------- |
+| First byte | [189 ms]{style="--chart-width: 1.89%;"} |
+| Document complete | [2,988 ms]{style="--chart-width: 29.88%"} |
+| Fully loaded | [3,064 ms]{style="--chart-width: 30.64%"} |
 
-<table>
-  <caption>CloudFlare</caption>
-  <tr>
-    <th>First&nbsp;byte</th>
-    <td style="--chart-width:11.88%;">1,188 ms</td>
-  </tr>
-  <tr>
-    <th>Document&nbsp;complete</th>
-    <td style="--chart-width:19.61%;">1,961 ms</td>
-  </tr>
-  <tr>
-    <th>Fully&nbsp;loaded</th>
-    <td style="--chart-width:34.45%;">3,445 ms</td>
-  </tr>
-</table>
+### Repeat view - CloudFlare
 
-<table>
-  <caption>Fastly</caption>
-  <tr>
-    <th>First&nbsp;byte</th>
-    <td style="--chart-width:3.87%;">387 ms</td>
-  </tr>
-  <tr>
-    <th>Document&nbsp;complete</th>
-    <td style="--chart-width:7.43%;">743 ms</td>
-  </tr>
-  <tr>
-    <th>Fully&nbsp;loaded</thtd>
-    <td style="--chart-width:7.43%;">743 ms</td>
-  </tr>
-</table>
+| Value {width="20%"} | Time |
+| ----- | --------------------------- |
+| First byte | [1,188 ms]{style="--chart-width: 11.88%;"} |
+| Document complete | [1,961 ms]{style="--chart-width: 19.61%"} |
+| Fully loaded | [3,445 ms]{style="--chart-width: 34.45%"} |
+
+### Repeat view - Fastly
+
+| Value {width="20%"} | Time |
+| ----- | --------------------------- |
+| First byte | [387 ms]{style="--chart-width: 3.87%;"} |
+| Document complete | [743 ms]{style="--chart-width: 7.43%"} |
+| Fully loaded | [743 ms]{style="--chart-width: 7.43%"} |
 
 By moving away from CloudFlare, the site now loads twice as fast. On repeated views the response is four times faster, although that figure is also helped by the optimisations I described earlier, and by the fact that I’m now caching my PHP files.
 
@@ -126,7 +83,7 @@ If a single lesson is to be taken from all this, it’s that often the biggest g
 
 I dare say further improvements could be made, and I wouldn’t be surprised if I’m writing a similar blog post again soon.
 
-[^1]: WebPagetest results: [19 December (using CloudFlare)](https://webpagetest.org/result/121219_DH_DDQ/), [27 December (using Fastly)](https://webpagetest.org/result/121227_BD_GR8/)
+[^1]: webpagetest.org results: [19 December (using CloudFlare)](https://webpagetest.org/result/121219_DH_DDQ/), [27 December (using Fastly)](https://webpagetest.org/result/121227_BD_GR8/)
 
 [1]: /2012/11/trimming_the_fat
 [2]: http://www.netmagazine.com/tutorials/build-smart-mobile-navigation-without-hacks

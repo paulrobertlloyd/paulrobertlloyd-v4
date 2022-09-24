@@ -16,11 +16,11 @@ An update in February [improved the responsive layout][2] and saw some initial p
 
 ## JavaScript
 
-Uncomfortable with having 30kB of jQuery as a dependancy, JavaScript was my first target for weight loss. In reviewing the jQuery functions I was using, I realised many were unnecessary:
+Uncomfortable with having 30kB of jQuery as a dependency, JavaScript was my first target for weight loss. In reviewing the jQuery functions I was using, I realised many were unnecessary:
 
 * The [Awesomersands][3] function that allowed me to style ampersands was actually replacing the original glyph with a much uglier version. It also produced a distracting ‘flash of unstyled ampersand’.
 
-* A function that added thin spaces around emdashes could instead be incorporated into my Movable Type templates. In making this change, I decided to now use spaced endashes instead.
+* A function that added thin spaces around em dashes could instead be incorporated into my Movable Type templates. In making this change, I decided to now use spaced en dashes instead.
 
 * The HTML5 `history.pushState` function used on journal entry pages was fragile at best, so became a candidate for removal.
 
@@ -28,19 +28,12 @@ Uncomfortable with having 30kB of jQuery as a dependancy, JavaScript was my firs
 
 * Using [MapBox][4] embeds in place of [Leaflets JS][5] meant I could simplify adding interactive maps to pages. Well, almost. To display paths requires an additional layer to be created in [TileMill][6] — hopefully the ability to add vector lines in MapBox isn’t too far off.
 
-With this code removed, the only behavioural enhancement required was for the responsive navigation. I’d like to thank [Anthony Williams][7] for helping me rewrite this using pure JavaScript. However, I’m still calling jQuery on pages displaying slideshows, so actively looking for an alternative that will allow me to shed this dependancy entirely.
+With this code removed, the only behavioural enhancement required was for the responsive navigation. I’d like to thank [Anthony Williams][7] for helping me rewrite this using pure JavaScript. However, I’m still calling jQuery on pages displaying slide shows, so actively looking for an alternative that will allow me to shed this dependency entirely.
 
-<table>
-  <caption>Javascript: Bytes downloaded (requests)</caption>
-  <tr>
-    <th>Before</th>
-    <td style="--chart-width: 100%;">35.00 kB (2)</span></td>
-  </tr>
-  <tr>
-    <th>After</th>
-    <td style="--chart-width: 3.66%;">1.28 kB (1)</span></td>
-  </tr>
-</table>
+| Stage {width="20%"} | JavaScript: Bytes downloaded (requests) |
+| ----- | --------------------------- |
+| Before | [35.00 kB (2)]{style="--chart-width: 100%"} |
+| After | [1.28 kB (1)]{style="--chart-width: 3.66%"} |
 
 ## CSS
 
@@ -48,17 +41,10 @@ While helping out on a recent project at Clearleft, [Mark][8] introduced me to [
 
 By removing unused style rules and refactoring others, my raw stylesheet shrunk by 19kB. Yet you’ll note that the compressed CSS file is still larger that it was before. That’s because the small background [noise texture][11] shown on larger viewports has been embedded as a base64 string, removing a further request.
 
-<table>
-  <caption>CSS: Bytes downloaded</caption>
-  <tr>
-    <th>Before</th>
-    <td style="--chart-width: 91.46%;">8.25 kB</span></td>
-  </tr>
-  <tr>
-    <th>After</th>
-    <td style="--chart-width: 100%;">9.02 kB</span></td>
-  </tr>
-</table>
+| Stage {width="20%"} | CSS: Bytes downloaded |
+| ----- | --------------------------- |
+| Before | [8.25 kB]{style="--chart-width: 91.46%"} |
+| After | [9.02 kB]{style="--chart-width: 100%"} |
 
 ## SVG
 
@@ -88,7 +74,7 @@ If support for SVG is detected, an `svg` class is added to the `<html>` element.
 
 ### Going further
 
-Besides stripping out the metacruft added by software like Illustrator, further optimisation can be found by using the `<defs>` and `<use>` elements. These allow you to define common objects, reducing the number of shape descriptions appearing in your document.
+Besides stripping out the meta cruft added by software like Illustrator, further optimisation can be found by using the `<defs>` and `<use>` elements. These allow you to define common objects, reducing the number of shape descriptions appearing in your document.
 
 To demonstrate how this works, I’ll use three icons from my sprite image: a grey RSS feed icon (`#feed`), a Flickr icon (`#flickr`) and an orange and white feed icon (`#feeds`). In my original file, each was defined separately:
 
@@ -139,41 +125,24 @@ Note how the square shape, the feed icon and the circles used within the Flickr 
 
 It’s easy to assume that gzip will take care of reducing file sizes, but manual optimisation beforehand can result in even larger reductions. For example, I was able to reduce my original SVG sprite (9.48kB, 3.36kB gzipped) to 7.34kB, which compressed down to just 2.84kB — comparable in size to the PNG sprite. 500 bytes seems like a small reduction, but using this technique on larger SVG images will have an even greater impact.
 
-<table>
-  <caption>Image sprite: Bytes downloaded</caption>
-  <tr>
-    <th>PNG</th>
-    <td style="--chart-width: 79.41%;">3.42 kB</span></td>
-  </tr>
-  <tr>
-    <th>SVG&nbsp;before</th>
-    <td style="--chart-width: 100%;">4.31 kB</span></td>
-  </tr>
-  <tr>
-    <th>SVG&nbsp;after</th>
-    <td style="--chart-width: 87.23%;">3.80 kB</span></td>
-  </tr>
-</table>
+| Stage {width="20%"} | Image sprite: Bytes downloaded |
+| ----- | --------------------------- |
+| PNG | [3.42 kB]{style="--chart-width: 79.41%"} |
+| SVG before | [4.31 kB]{style="--chart-width: 100%"} |
+| SVG after | [3.80 kB kB]{style="--chart-width: 87.23%"} |
 
 ## Fonts
 
-Earlier this year I cut the number of webfonts I was using from four to three by using a single font family. This reduced page download sizes a little, but changing my web font provider to [Adobe Edge Web Fonts][12] produced a far greater saving, although at the cost of being able to use [Akagi][13] (I’m now using [Source Sans Pro][14]). Such was the reduction, I decided to include a forth font again, choosing the monospaced [Source Code Pro][15] which is useful on code heavy pages such as this[^1].
+Earlier this year I cut the number of web fonts I was using from four to three by using a single font family. This reduced page download sizes a little, but changing my web font provider to [Adobe Edge Web Fonts][12] produced a far greater saving, although at the cost of being able to use [Akagi][13] (I’m now using [Source Sans Pro][14]). Such was the reduction, I decided to include a forth font again, choosing the monospaced [Source Code Pro][15] which is useful on code heavy pages such as this[^1].
 
 A free service without limitations or account management, Adobe’s new service is [stupidly easy to set up][16]. A single line of JavaScript provides a neat URL interface to various settings, and as the script includes WebFont Loader, there’s no need to add a chunk of JavaScript to the top of each page. Load times are brilliantly fast, and with fonts combined into a single file, the number of requests is the same regardless of how many you decide to use.
 
-Of course, there is a trade-off here. Services like Fontdeck provide an extensive library of premium webfonts while free services like Adobe’s only offer a small selection of open source fonts. Yet with simpler set-up and greater performance, they’re an attractive option.
+Of course, there is a trade-off here. Services like Fontdeck provide an extensive library of premium web fonts while free services like Adobe’s only offer a small selection of open source fonts. Yet with simpler set-up and greater performance, they’re an attractive option.
 
-<table>
-  <caption>Webfonts: Bytes downloaded (requests)</caption>
-  <tr>
-    <th>Before</th>
-    <td style="--chart-width: 100%;">325.9 kB (6)</span></td>
-  </tr>
-  <tr>
-    <th>After</th>
-    <td style="--chart-width: 25.22%;">82.2 kB (3)</span></td>
-  </tr>
-</table>
+| Stage {width="20%"} | Web fonts: Bytes downloaded (requests) |
+| ----- | --------------------------- |
+| Before | [325.9 kB (6)]{style="--chart-width: 100%"} |
+| After | [82.2 kB (3)]{style="--chart-width: 25.22%"} |
 
 ## Other optimisations
 
@@ -187,41 +156,20 @@ There have been a few design related tweaks too. I simplified the IA by moving l
 
 In February, I concluded the results of my performance optimisation by including results from Google Page Speed, YSlow and webpagetest.org. This means I can measure the effectiveness of these latest changes. Both Google Page Speed and YSlow scores have increased by two points, to 96 and 98 respectively. Comparing results saved from webpagetest.org, the following improvements to the homepage can be recorded[^2]:
 
-<table>
-  <caption>Requests</caption>
-  <tr>
-    <th>Before</th>
-    <td style="--chart-width: 100%;">23</span></td>
-  </tr>
-  <tr>
-    <th>After</th>
-    <td style="--chart-width: 65.22%;">15</span></td>
-  </tr>
-</table>
+| Stage {width="20%"} | Requests |
+| ----- | --------------------------- |
+| Before | [23 requests]{style="--chart-width: 100%"} |
+| After | [15 requests]{style="--chart-width: 65.22%"} |
 
-<table>
-  <caption>Bytes downloaded</caption>
-  <tr>
-    <th>Before</th>
-    <td style="--chart-width: 100%;">500 kB</span></td>
-  </tr>
-  <tr>
-    <th>After</th>
-    <td style="--chart-width: 33.8%;">169 kB</span></td>
-  </tr>
-</table>
+| Stage {width="20%"} | Bytes downloaded |
+| ----- | --------------------------- |
+| Before | [500 kB]{style="--chart-width: 100%"} |
+| After | [169 kB]{style="--chart-width: 33.8%"} |
 
-<table>
-  <caption>Time to fully load document</caption>
-  <tr>
-    <th>Before</th>
-    <td style="--chart-width: 100%;">4.684 seconds</span></td>
-  </tr>
-  <tr>
-    <th>After</th>
-    <td style="--chart-width: 73.68%;">3.304 seconds</span></td>
-  </tr>
-</table>
+| Stage {width="20%"} | Time to fully load document |
+| ----- | --------------------------- |
+| Before | [4.684 seconds]{style="--chart-width: 100%"} |
+| After | [3.304 seconds]{style="--chart-width: 73.68%"} |
 
 ## If I had more time, I would make the website quicker
 
@@ -230,7 +178,7 @@ Arguably, many of these optimisations are overkill, especially given some of the
 Website optimisation can be a cruel game; everything has a number that begs to be reduced, but doing so requires a lot of experimentation, research and testing. And when you’re playing with the last hundred or so kilobytes, there’s little reward for your effort. Hopefully this overview will save you from playing the same game.
 
 [^1]: Fonts served previously (via Fontdeck): Akagi Book, SemiBold; Magenta Book, Book Italic. Fonts served now (via Adobe Edge Web Fonts): Source Sans Pro Light, Regular, Italic; Source Code Pro Regular.
-[^2]: WebPagetest results for homepage comparison: [22 February (before)](https://webpagetest.org/result/120222_QC_3B11V/1/details/), [30 October (after)](https://webpagetest.org/result/121030_06_GZC/1/details/)
+[^2]: webpagetest.org results for homepage comparison: [22 February (before)](https://webpagetest.org/result/120222_QC_3B11V/1/details/), [30 October (after)](https://webpagetest.org/result/121030_06_GZC/1/details/)
 
 [1]: /2011/07/new_and_improved
 [2]: /2012/02/niptuck
