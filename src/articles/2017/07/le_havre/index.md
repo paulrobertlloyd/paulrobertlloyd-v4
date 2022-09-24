@@ -18,14 +18,14 @@ tags:
   - featured
 ---
 ![](up3.jpg '<cite>UP#3</cite> (Lang/Baumann, 2017) on Le Havre’s stoney beach.')
-{.align-bleed}
+{.u-align-bleed}
 
 My friend [James][1] once told me about what he calls the Ayres Rock effect. This is the situation in which somebody will describe their visit to *Uluru*{lang="pjt"} as being magical and moving, thus setting expectations so high, that your own experience is underwhelming. Hearing your disappointment, subsequent visitors’ low expectations will ensure their own experience is one of wonder and joy. And so the cycle continues.
 
 Having read [Oliver Wainwright’s article][2] in the Guardian, I fear the same may be true when describing [Le Havre][3], a medium-sized coastal city in Normandy that lies at the mouth of the Seine. Flattened by German bombs in 1944, today it is home to a large container port and a dull, stoney beach that offers nothing but unobstructed views of cross-channel ferries. As such, it’s a curious destination for tourists, except perhaps those interested in urban renewal and modern architecture — or ferry spotting!
 
 ![](canene_de_containers.jpg '<cite lang="fr">Canène de containers</cite> (Vincent Ganivet, 2017).')
-{.align-pull}
+{.u-align-pull}
 
 This year however there’s a more compelling reason to visit. To celebrate 500 years since its founding, *Un Été au Havre*{lang="fr"} ([A Summer in Le Havre][4]) sees the city host a festival of art and culture, with events, exhibitions and guided tours. A number of public spaces have been made home to dramatic installations, many of which would ideally become permanent.
 
@@ -54,12 +54,12 @@ It’s within this context that Perret’s plan should be viewed. While nothing 
 The other architecturally significant sight is that of the *[Le Volcan][10]*{lang="fr"} (The Volcano), designed by Oscar Niemeyer. His two sculpted white peaks bring welcome relief to the visitor tiring of rectangular buildings conforming to Perret’s rigid grid.
 
 ![](le_volcan.jpg '*Le Volcan* with Saint Joseph’s Church in the distance.')
-{.align-bleed}
+{.u-align-bleed}
 
 Unlike his work in Brasília — a city built from nothing and where the imagination of its planners ran wild — here the destroyed city provided a foundation upon which the new layout was aligned. Important civic buildings remained in the locations they sat previously, and this complex sits where the former *Grand-Théâtre*{lang="fr"} stood. Niemeyer again defined his canvas from above, with the two peaks sitting either side of a sunken area whose walls, when viewed from the air, suggest the outline of a dove.
 
 ![](bibliotheque_oscar_niemeyer.jpg '*Bibliotheque Oscar Niemeyer*{lang="fr"}.')
-{.align-pull}
+{.u-align-pull}
 
 Like its larger sibling, the smaller of the two buildings was originally a performance venue. In 2015 it was reconfigured to serve as the city’s library. And oh my, what a library! Set among curvaceous spaces set below the public square above, from the entrance I found myself drawn through the body of the building towards a reading room bathed in light from its clear glass roof. A generous pine central staircase winds up to a second floor, from which readers (and people watchers) can sit in small glass boxes that reach out into this intriguing space.
 
@@ -76,7 +76,7 @@ Prior to my arrival, I had built up expectations of an entire city rebuilt to th
 Instead, I found a quiet, coastal city with a small modernist quarter whose spaciousness did little to disguise a declining population and deserted streets. [Unlike Rotterdam][12], a Dutch city with a similar post-war history, there was no ‘starchitecture’ to be found. Nor could I find any bohemian, artistic outposts, or hipster coffee shops serving flat whites. Walking around the city on Sunday afternoon, the only noise was that of a gentle breeze rustling the rigging of fishing boats moored in the docks. That this wasn’t much different to any other day or time of the week, gives some indication how desolate parts of the city felt.
 
 ![](salon_des_navigateurs.jpg '*Salon des Navigateurs*{lang="fr"} is all kinds of weird and wonderful.')
-{.align-bleed}
+{.u-align-bleed}
 
 And yet, tucked away, a few gems could be found. [<cite>The Seine at Samois</cite>][13], a captivating painting by Armand Guillaumin hanging in the *Musée d'art moderne André Malraux*{lang="fr"}. A short [funicular railway][14] that transported me to the higher (and largely unexplored) part of the city where the [Tetris][15]{hreflang="fr"} arts venue had a robot drawing portraits with a biro. Or the fish market decorated with murals of sea creatures and landscapes. And, most bizarrely, *Salon des Navigateurs*{lang="fr"}, a hair salon that is part maritime museum — and part horror show, frankly!
 

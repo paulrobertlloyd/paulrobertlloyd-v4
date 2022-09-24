@@ -15,7 +15,7 @@ category:
 discussion: closed
 ---
 ![](crest.jpg 'The England crest as it appears on the new shirt.')
-{.align-bleed}
+{.u-align-bleed}
 
 From humble beginnings where teams wore different strips only to tell themselves apart, today football kits have become a huge revenue opportunity for clubs and sportswear manufactures.
 

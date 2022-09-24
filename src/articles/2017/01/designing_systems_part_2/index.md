@@ -16,7 +16,7 @@ As consumers grow ever reliant on digital products and services, designers are b
 *But what is a design system?*
 
 ![The layers of a design system. Radiating from a core set of principles, the next layer concerns guidance, the layer above that tools, with the final outer layer concerned with products.](onion.svg)
-{.align-pull}
+{.u-align-pull}
 
 Definitions vary, and the term is used somewhat interchangeably with related concepts like style guides. In highlighting the difference between the two, Nathan Curtis [arrived at one definition][1]:
 
@@ -46,7 +46,7 @@ Jared Spool has written about [creating meaningful principles][4] that can bette
 ## Guidance
 
 ![The layers of a design system with ‘Guidance’ layer highlighted.](onion_r2.svg)
-{.align-pull}
+{.u-align-pull}
 
 With a set of guiding principles in place, you can then look to the creation of guidelines. Artifacts of a design process, these document how different practitioners should embody these principles in their own work.
 
@@ -87,7 +87,7 @@ Realising that passengers cared more about the connections between the various l
 ## Tools
 
 ![The layers of a design system with ‘Tools’ layer highlighted.](onion_r3.svg)
-{.align-pull}
+{.u-align-pull}
 
 Guidance alone can’t help us build products. We need tools that go beyond this low-level direction (the ‘what’), and enable people to implement these rules in a meaningful way (the ‘how’). These are the concern of our next layer.
 
@@ -128,7 +128,7 @@ This perfectly encapsulates the process we went though at the Guardian, and one 
 ## Products
 
 ![The layers of a design system with ‘Products’ layer highlighted.](onion_r4.svg)
-{.align-pull}
+{.u-align-pull}
 
 Returning to [the first part of this essay][2], systems need to survive contact with the real world. Writing about GE’s design system, Predix [Jeff Crossman noted that][16]:
 
@@ -141,7 +141,7 @@ Jeff makes an important point; the products of a design system will be the ultim
 Frank Pick’s successful management of London Transport was possible due to the support he received from the company’s chairman, Lord Ashfield. The departure of both Pick and Ashfield — plus growing private car ownership and declining passenger numbers — soon costs were being prioritised over quality, and a period of neglect followed.
 
 ![](underground_1997.jpg 'The Underground in 1997 — very different from how it looks today. Photograph: [Kirk Bauer](http://pics.kaybee.org/Vacations/Europe1997/England/London/tube2.jpg)')
-{.align-pull}
+{.u-align-pull}
 
 Thankfully the last 15 years have seen these factors reverse, with the network again getting the attention it deserves. New lines are being built, while existing stations are being upgraded and repaired. Transport for London are managing this renewal by following the <cite>[Station Design Idiom][17]</cite>, a set of nine principles that underpin design across the Underground network. These are referred to on every project, be it a small-scale repair, a major refurbishment or a brand new station.
 
@@ -152,7 +152,7 @@ Included in the idiom is a new map that gives contractors a station-by-station g
 ### Shearing layers
 
 ![](shearing_layers.svg)
-{.align-pull}
+{.u-align-pull}
 
 In <cite>[How Buildings Learn][18]</cite>, Stewart Brand expands upon Frank Duffy’s idea that different timescales can be seen to effect a building. Called shearing layers, he describes these as follows:
 

@@ -19,7 +19,7 @@ tags:
 discussion: closed
 ---
 ![](image.jpg 'The Brasília Palace Hotel.')
-{.align-bleed}
+{.u-align-bleed}
 
 Alongside the [Palace of Planalto][1] and Our Lady Fatima Church, the [Brasília Palace Hotel][2] was one of the first buildings constructed in Brazil’s new capital. Designed by [Oscar Niemeyer][3] and inaugurated in 1958, it hosted important dignitaries like Queen Elizabeth, Indira Ghandi, Dwight Eisenhower and Che Guevara before being devastated by fire in 1978. After facing decades of abandonment and neglect, it was modernised and reopened in 2006.
 

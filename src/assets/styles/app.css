@@ -4,10 +4,10 @@
 @import "config/_webfonts.css";
 
 /* Helpers */
-@import "helpers/_align.css";
 @import "helpers/_grid-size.css";
 
 /* Utilities */
+@import "utilities/_align.css";
 @import "utilities/_container.css";
 @import "utilities/_visually-hidden.css";
 

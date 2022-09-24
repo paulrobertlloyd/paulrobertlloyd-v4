@@ -15,14 +15,14 @@ tags:
   - featured
 ---
 ![](cloud_gate.jpg '<cite>Cloud Gate</cite> by Anish Kapoor.')
-{.align-bleed}
+{.u-align-bleed}
 
 I briefly encountered Chicago in March after three long days aboard the California Zephyr. At that time it was a snow covered, cold and blustery city, but I saw enough to want to come back. With Chicago hosting the last [An Event Apart][1] conference of 2008, it was too easy to warrant a return visit six months later, and became the third of my four city tour of the US in October.
 
 Having spent the previous week in the smaller cities of [Seattle][2] and San Francisco, I was quickly overwhelmed by the shear enormity of Chicago. Given her size, it’s easy to make comparisons with New York, yet Chicago has a more varied spread of buildings, and whilst there are many skyscrapers, they don’t compete with each other for space as much, giving the streets a less intimidating feel.
 
 ![](sears_tower.jpg 'Sears Tower as viewed during an architecture boat tour.')
-{.align-pull}
+{.u-align-pull}
 
 I was more surprised by how layered in nature Chicago is. Streets above streets, bridges across rivers and subways that tunnel underground as well as elevate themselves along the central section known as the ‘[Loop][3]’. It might have been easy to forget this multi-layering of transportation modes if it wasn’t for the way roads flexed and bounced when heavy traffic passed over them, or how the elevated stations swayed slightly in the wind.
 

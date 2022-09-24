@@ -1,4 +1,4 @@
-<figure class="align-{{ alignment | default: 'none' }}">
+<figure class="u-align-{{ alignment | default: 'none' }}">
   <div class="screenshots" style="--columns: {{ columns | default: screenshots.size }}">
   {%- for image in screenshots %}
     {% image image, imagePreset %}

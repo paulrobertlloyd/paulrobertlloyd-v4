@@ -1,31 +1,23 @@
-[class*="align-"] img {
-  inline-size: 100%;
-}
-
-/* Default alignment */
-.align-none {
-  max-inline-size: var(--line-measure);
-}
-
 /* Bleed alignment */
-.align-bleed {
+.u-align-bleed {
   --linear-line-measure: auto;
   display: grid;
   grid-template-columns: [bleed-start] minmax(0, var(--line-measure)) [measure] 1fr [bleed-end];
   margin-inline: calc(var(--gap) * -1);
 }
 
-.align-bleed > *:first-child {
+.u-align-bleed > img {
   grid-column: bleed;
+  inline-size: 100%;
 }
 
-.align-bleed > figcaption {
+.u-align-bleed > figcaption {
   padding-inline: var(--gap);
 }
 
 /* Pull alignment */
 @media (--from-small-viewport) {
-  .align-pull {
+  .u-align-pull {
     float: inline-end;
     inline-size: 33%;
     margin-block-start: 0 !important;

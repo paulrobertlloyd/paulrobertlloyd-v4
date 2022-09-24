@@ -13,7 +13,7 @@ category:
 discussion: closed
 ---
 ![](cbd.jpg 'Auckland’s CBD viewed from atop Mount Eden.')
-{.align-bleed}
+{.u-align-bleed}
 
 The first stop on my quick sprint around New Zealand was Auckland, where I spent just a day and a half. This could have been considered longer than necessary — friends told me I should avoid it all together — yet I viewed this brief stop as an opportunity to acclimatise after a gruelling 24 hours of travel (and [related interrogation][1]).
 

@@ -15,7 +15,7 @@ Over the past few years, I’ve often meant to write about the location-based so
 ## The eye of the beholder
 
 ![Gowalla logo.](logo.png)
-{.align-pull}
+{.u-align-pull}
 
 Gowalla was a service that entertained and mystified me in equal measure. Had I written those earlier posts, I could point to a story about how my fondness for a product gradually became an exercise in frustration.
 

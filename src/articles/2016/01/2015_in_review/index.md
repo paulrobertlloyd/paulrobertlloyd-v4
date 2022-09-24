@@ -21,7 +21,7 @@ I wasn’t going to write about 2015, but reading a few end-of-year reviews has 
 Last year started with some unfinished business, seeing out the remainder of [my contract at the Guardian][1] in January. Then, after [a month spent with family in Brazil][2], I was able to start my second stint at freelancing in March. I wrote about some of the [tribulations of this endeavour][3] a few months ago; thankfully things have picked up since writing that post.
 
 ![](nieces.jpg 'Visiting family in February meant I could spend some quality time with my brother and two nieces, Maria and Ana.')
-{.align-pull}
+{.u-align-pull}
 
 Besides the trip to São Paulo, the year featured plenty of other destinations: [Berlin][4], [Bath][5], [Manchester][6], [Amsterdam][7], [Rotterdam][8], [Bruges][9], [Prague][10], [Budapest][11], [Paris][12] and [Birmingham][13]. Most of my travel was concentrated on cities in Britain or on the Continent; I see no reason why that shouldn’t continue into this year, as well.
 
@@ -40,7 +40,7 @@ Oh, and [I launched my redesigned website][32]. Finally.
 %}
 
 ![](bruges.jpg '…and the stunningly beautiful Belgium city of Bruges.')
-{.align-bleed}
+{.u-align-bleed}
 
 So onwards, and on to 2016. Work wise, I’ve identified two improvements that need instigating. Firstly, I need to make better use of any periods of downtime, or better still, be in a position to dictate when they occur. I also want to work on projects that are more creatively rewarding. My ideal project would be 3-6 months long, possibly involve working in Europe, and have a positive social impact. I need to try much harder to seek out work that meets this criteria.
 
@@ -49,7 +49,7 @@ Last year I started working with a personal trainer. While this has seen an impr
 Finally, I’m determined to spend less time in 2016 hunched over my aforementioned laptop writing long form articles or preparing talks, instead writing shorter posts, more often. Hopefully this should mean I can spend more time reviving [Bradshaw’s Guide][33] (my somewhat neglected side-project) and pursuing exhibitions and events that take me away from the screen.
 
 ![](ubatuba.jpg 'Boats sat on still Atlantic waters, just off the coast of Ubatuba, Brazil.')
-{.align-bleed}
+{.u-align-bleed}
 
 [1]: /2015/01/changing_gears
 [2]: https://www.flickr.com/photos/paulrobertlloyd/albums/72157651139544056

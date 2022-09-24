@@ -34,7 +34,7 @@ Therefore we need to elect governments that actively serve the electorate over t
 With this in mind, I can’t seriously consider a vote for the Conservatives. This party is not only supported by an array of unscrupulous and powerful figures (Lord Ashcroft, Rupert Murdoch et. al.) but its centre-right beliefs mean it exists to defend capitalism, the market economy and limit government regulation, the very things that got us into this mess in the first place.
 
 ![Conservative party logo.](conservatives.svg)
-{.align-pull}
+{.u-align-pull}
 
 Its allegiance with business could be clearly seen from the outset of the campaign. As party leader David Cameron rolled out a long list of business leaders who supported his call to scrap Labour’s planned 1% national insurance rise (a tax that both employer and employee have to pay), it was no surprise their response was the same as if he had asked if they wanted free ice-cream.
 
@@ -75,7 +75,7 @@ On examining every part of the Conservative offer, I see no benefit to me, wider
 I’ve never voted Labour, and although my political views have moved further to the left, an unjustified war in Iraq and support for George W. Bush means I still find it difficult to place a cross beside a Labour candidate. While 13 years in power saw them do some great things (investment in public services, equal rights, less crime, reduced child poverty etc.) the gap between rich and poor has increased, civil liberties have been eroded, and the economy is in tatters, primarily thanks to the stewardship of former Chancellor and current Prime Minister, Gordon Brown.
 
 ![Labour party logo.](labour.svg)
-{.align-pull}
+{.u-align-pull}
 
 I actually welcomed Gordon Brown’s eventual succession over Tony Blair. I liked that we might have a Prime Minister less concerned with presentation, more focused on substance. Yet it soon became apparent that what he lacks in charisma, he also lacks in leadership ability. His cabinet has splintered and disintegrated to the point that is now made up of a number of unelected peers running departments within the executive.
 
@@ -90,7 +90,7 @@ If I was to vote for a party that respects the will of the people then by that m
 Whilst it always seemed probable that Labour wouldn’t win this years campaign outright, nobody predicted the surge in support for Britain’s often overlooked third party, the Liberal Democrats. I believe the polls still show them with a considerable proportion of support because many of their policies are credible, even though the other two parties and the media cabal continue to discredit them.
 
 ![Liberal Democrats party logo.](liberal_democrats.svg)
-{.align-pull}
+{.u-align-pull}
 
 On the Trident nuclear deterrent, the Liberal Democrats position is that it should be looked at as part of a wider defence review. Given the massive deficit, how can such a costly line item be ignored? It’s worth noting that no party wishes to argue the case for full disarmament. If you’ve been asking yourself why, it’s because this round-the-clock nuclear deterrent ensures we keep our seat on the UN Security Council.
 

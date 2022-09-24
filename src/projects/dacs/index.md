@@ -60,7 +60,7 @@ DACS had already undergone an extensive rebranding exercise for print but it nee
 I drew on DACS’s photographic library of artists to give the organisation a human face. This imagery was combined with a restrained typographic pallet to ensure legibility and visual consistency, and supported by a selection of monochromatic patterns used to differentiate sections of the site.
 
 ![](responsive.jpg 'A responsive layout meant the same content could be served to different devices, regardless of display size.')
-{.align-bleed}
+{.u-align-bleed}
 
 A pattern portfolio helped to ease handover to the development agency Cognite. Towards the end of the project I worked at their offices, helping them integrate these design patterns, making adjustments where necessary given the constraints of the CMS.
 

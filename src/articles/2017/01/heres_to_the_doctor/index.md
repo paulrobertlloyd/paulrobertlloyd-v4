@@ -13,7 +13,7 @@ category:
 Aged 13, and having recently moved to the West Midlands from Surrey, I was the new kid at school with a funny sounding accent and below average height. If adolescence wasn’t enough to be getting on with, this confounding and unsettling situation had to be dealt with as well.
 
 ![James at his wedding in 2009.](james_dicks.jpg)
-{.align-pull}
+{.u-align-pull}
 
 Thankfully, help was at hand. Placed in form group 9H, I was sat next to a boy called James Dicks. James was already a well-known character in the school, largely thanks to some of his strange ideas. For example, convinced that we should have workbooks from previous school years to hand, he carried all his around in a tightly packed bag — and it weighed a ton!!
 

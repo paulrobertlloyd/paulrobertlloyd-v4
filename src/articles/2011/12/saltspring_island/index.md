@@ -12,7 +12,7 @@ category:
   - Canada
 ---
 ![](approach.jpg 'Looking across the Salish Sea.')
-{.align-bleed}
+{.u-align-bleed}
 
 After eight days [exploring North America][1], it was time to visit some more westerly extremities. Flying [out from Toronto][2], my first stop was Saltspring Island, via Vancouver Airport and a float plane. This is the more expensive means of reaching the Gulf Islands (the other being a succession of ferries) but it’s by far the quickest — and the most exciting. I saw views to die for. For small propellor driven aircraft that use harbours to take off and land, float planes are surprising comfortable.
 

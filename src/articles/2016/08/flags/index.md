@@ -23,7 +23,7 @@ photoset:
     alt: Resident holding an orange flag
 ---
 ![](golden_wattle_1.jpg 'An athlete holding up the Golden Wattle Flag. Photograph: [The Golden Wattle Flag](http://www.goldenwattleflag.com)')
-{.align-bleed}
+{.u-align-bleed}
 
 With British success at the Olympics in Rio, so the procedural photos of medalling athletes holding aloft the Union Flag. But, with the growing likelihood of a second independence referendum in Scotland post-Brexit, this could be the last games contested under the Team GB banner.
 
@@ -38,7 +38,7 @@ That said, the people of New Zealand recently [voted to keep their current Blue 
 Designing a flag to represent typically diverse and divided post-colonial countries like Australia is a tall order, but not impossible. The flags of [Canada][4] and [South Africa][5] are notable examples, and to my ignorant eyes, the Golden Wattle flag follows in their footsteps. Unique and distinctive while avoiding overt symbolism, look closely and you’ll spot the familiar seven-pointed [Commonwealth Star][6]:
 
 ![](golden_wattle_2.jpg 'The Golden Wattle Flag.')
-{.align-bleed}
+{.u-align-bleed}
 
 With a considered and attractive design, inspiration was primarily drawn from the official floral emblem of Australia:
 
@@ -53,7 +53,7 @@ Another proposal, this time for the city of Milwaukee. Robert Lenz’s design ha
 > The sun rising over Lake Michigan symbolizes a new day. The light blue bars in its reflection represent the city’s three rivers and founding towns. Gold symbolizes our brewing history and white represents the city united.
 
 ![](milwaukee_peoples_flag.jpg 'Milwaukee’s Peoples Flag.')
-{.align-bleed}
+{.u-align-bleed}
 
 The [People’s Flag of Milwaukee][10] also has an impressive website, with plenty of photos showing the new flag in situ.
 
@@ -66,7 +66,7 @@ Another feature of the Rio Olympics has been [a team of ten refugees][11]. Compe
 [The Refugee Nation][12] initiative also involved the creation of an anthem, and an image filter you can apply to your social media avatar, if that’s your thing.
 
 ![](refugee_nation.jpg 'Flag for the Refugee Nation.')
-{.align-bleed}
+{.u-align-bleed}
 
 ## Jà! (Now), a project from Thonik
 

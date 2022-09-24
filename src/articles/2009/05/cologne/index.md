@@ -16,7 +16,7 @@ category:
 discussion: closed
 ---
 ![](image.jpg 'Cologne Cathedral and Hohenzollern Bridge.')
-{.align-bleed}
+{.u-align-bleed}
 
 The first stop on my nine city tour of Europe, was Cologne in Northern Germany. Cologne is Germany’s forth largest city, yet you’d never guess given its small town feel. I only had one day to spend here, so most of my time was spent in the immediate vicinity of the cathedral and an area north of the Hohenzollern bridge. This bridge has become somewhat of an attraction in itself, as couples have recently begun attaching padlocks to it as a sign of their affection for each other.
 

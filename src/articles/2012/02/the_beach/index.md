@@ -9,7 +9,7 @@ category:
   - Creative writing
 ---
 ![Sunset over a sandy beach.](image.jpg 'Ocean Beach, San Francisco.')
-{.align-bleed}
+{.u-align-bleed}
 
 They call this place Ocean Beach, perhaps because both take up most of the view. The sky is hard to truly make out, with only a faint line separating two sweeping blue canvases, each in many ways a reflection of the other.
 

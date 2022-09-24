@@ -7,7 +7,7 @@ permalink: /404.html
 ---
 You may have an incorrect URL, or the file could have been moved or renamed. Either way, if you’re having problems finding a particular page, try [searching the archive](/archive). Perhaps it will turn up there.
 
-<figure class="align-bleed">
+<figure class="u-align-bleed">
   <object data="/404/image.svg" type="image/svg+xml">
     <img src="/404/image.svg">
   </object>

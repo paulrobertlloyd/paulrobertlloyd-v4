@@ -24,7 +24,7 @@ Having got so much from working with my team, when lockdown came into effect, I 
 I’ve enjoyed working on these little creations. They’ve probably reignited a set of creative abilities long suppressed by years of working to client briefs. However, I did begin to wonder if my efforts had been fully acknowledged. Even more so when it seemed nobody wanted to mark my birthday like we had done for others.
 
 [Watch ‘Apply: Angels’ on Vimeo](https://vimeo.com/450172631)
-{.align-pull}
+{.u-align-pull}
 
 Unbeknown to me, the team was beavering away on a creation of their own: [a 4-minute video][6] with everyone miming the words to Robbie Williams’ <cite>Angels</cite>, our go-to karaoke song. When we met up yesterday — for just the second time since lockdown began — the video (and all the behind the scenes scheming) was revealed.
 

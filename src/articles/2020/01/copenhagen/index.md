@@ -43,7 +43,7 @@ There’s a lot to see, but having visited once before — albeit briefly when I
 My stomach rumbling, I look for restaurants on Foursquare. Some former colleagues worked with a client here several years ago, so several recommendations have familiar faces beside them. The top suggestion is [*Paludan Bogcafé*{lang="da"}][3] located just off *Strøget*{lang="da"} — one of the longest shopping streets in Europe. This cafe come library is surprisingly roomy, despite its popularity. Food is ordered at the counter, which is hidden behind a lengthy queue; that no one wants to abandon it suggests the food is worth the wait. I order the chicken burger, which comes with lightly roasted potatoes and a pot of chilli mayo. Every mile of the 600 travelled so far is *totally* worth it as I savour my first bite.
 
 ![](nyhavn.jpg 'The brightly coloured  houses at Nyhavn, a familiar image of Copenhagen.')
-{.align-bleed}
+{.u-align-bleed}
 
 One of the few attractions I’ve lined up on this trip is [*Designmuseum Danmark*{lang="da"}][4]. Heading in that direction I spot the [*Rundetårn*{lang="da"}][5] (Round Tower). Climbing to the top of tall buildings is a routine activity on my travels, one that typically requires clambering up a thousand or so narrow steps to a view that gives me sweaty hands. This tower – whose entry price is a very reasonable 25 DKK – features a gentle cylindrical slope with only a few steps at the top. It delivers a view over the local neighbourhood, but anything much further away is obscured by clouds.
 

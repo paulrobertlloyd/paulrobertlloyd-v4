@@ -26,7 +26,7 @@ screenshots:
     alt: A form within the flow for rating schwag.
 ---
 ![](/image.jpg 'The two teams at work.')
-{.align-bleed}
+{.u-align-bleed}
 
 As promised, here is a follow-up on [Hack The Planet](/2010/02/hack_the_planet), our hack day held in Birmingham last month.
 

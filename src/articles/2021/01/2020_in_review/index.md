@@ -34,7 +34,7 @@ I’m not sure why I recap some years and not others, but if any year needs reco
 The year was abysmal from the start, with fearsome bush fires in Australia, the imminent departure of the UK from the EU, and the threat of another war in the Middle East, all jostling for front-page headlines.
 
 ![](/media/1580652554.jpg 'George Bradshaw’s gravestone in *Gamlebyen*{lang="no"} graveyard, Oslo.')
-{.align-pull}
+{.u-align-pull}
 
 Regardless of current affairs, or perhaps because of them, I spent Christmas watching [<cite>Around the World in 80 Days with Michael Palin</cite>][2]. It gave me itchy feet, and I dreamt of a similar adventure, albeit over fewer days. Buying an [Interrail][3] pass would allow me to change plans on a whim. Travelling around Scandinavia during the winter months would inspire captivating journal entries, with thoughtful insights about Europe at the start of this new decade.
 
@@ -47,7 +47,7 @@ Oslo turned out to be the highlight of this trip, delivering the beautiful snow-
 I’m pleased with how [my travelogue][8] turned out. While it doesn’t match the calibre of Palin’s writing, I’m glad I recorded the one opportunity I got to travel in 2020.
 
 ![](/articles/2020/02/stockholm/departure.jpg 'At Stockholm Central Station before boarding the train to Gothenburg.')
-{.align-bleed}
+{.u-align-bleed}
 
 ## The gathering storm
 
@@ -62,7 +62,7 @@ The trip to Scotland was cancelled, I never returned to the office.
 ## WFH
 
 ![](/media/1584972648.jpg 'My new home office.')
-{.align-pull}
+{.u-align-pull}
 
 I had always found remote working difficult, but with a 12-week lockdown announced on 23 March, I would have to make working from home, work.
 
@@ -77,7 +77,7 @@ Instead of the daily trudge to Pret, I prepared my own sandwiches or got lunch f
 Beyond the constant worry about my parents health, I thoroughly enjoyed the first lockdown. At last, I could indulge in introverted activities without feeling the usual guilt about needing to be outside. Although it felt like Groundhog Day — days passed by with alarming speed — if any day was to be repeated over and over, I didn’t mind too much if it was this one. Foolishly, I welcomed the prospect of a second lockdown. That was until I realised being stuck at home in winter was — is — much less fun.
 
 ![](/media/1589993580.jpg 'One of the many posters that appeared around Brighton during the first lockdown.')
-{.align-bleed}
+{.u-align-bleed}
 
 ## Exploring the mind
 

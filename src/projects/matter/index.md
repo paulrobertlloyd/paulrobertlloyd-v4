@@ -50,7 +50,7 @@ After an enormously successful [Kickstarter campaign][1] proved there was a real
 ## Identity
 
 ![](logo_sketches.jpg 'Early logo sketches.')
-{.align-pull}
+{.u-align-pull}
 
 Much of my work for Matter focused on its visual identity. I thought a lot about how readers would recognise its publications in ebook stores, how articles might appear on the web and how these might be bookmarked on smartphone home screens. As the identity would play a supporting role to the articles being published, I envisaged the logo as a hallmark, one that identified an article as one meeting the high standards of journalism that Matter aims for.
 

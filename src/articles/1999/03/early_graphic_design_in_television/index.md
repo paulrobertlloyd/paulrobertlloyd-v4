@@ -180,7 +180,7 @@ In 1967, he left the BBC to join Associated Rediffusion however, when Rediffusio
 Here he worked on the on-screen graphics for the Apollo space missions including the near-disastrous Apollo 13 mission. An opportunity came up in 1970 with an open-brief for the design of a new company logo and title sequence for ITN’s flagship programme <cite>News at Ten</cite>. However, the senior designer, Malcolm Beatson, had cornered the brief, but Lambie-Nairn had been asked to have ago at the brief himself by ITN’s Editor in Chief. When his ideas were chosen over Beatson’s, he was seen to be undermining him and resulted with the whole design department refusing to speak to him for a while. It was because of this, that he left ITN and joined LWT.
 
 ![](11.png 'Typical still used up until the late 1970’s to illustrate current affairs or news items. If the item were to complicated to convey in a single still, it would be animated.')
-{.align-pull}
+{.u-align-pull}
 
 It was here that Martin Lambie-Nairn was to find his big break. <cite>Weekend World</cite> was LWT’s current affairs programme, was broadcast on Sunday lunchtimes and due to its topicality, required a graphic designer to work from midday Saturday to midday Sunday. As it was such an antisocial shift, the contract to produce its graphics was placed outside of LWT. At this time Lambie-Nairn had set up his own company with a fellow colleague Colin Robinson, and the contract presented a golden opportunity for Robinson Lambie-Nairn. They won the contract, and it was here that Lambie-Nairn revolutionised the graphic conventions used in presenting current-affairs related information graphically.
 
@@ -223,7 +223,7 @@ ITN led the way in 1959, with the introduction of the ‘Swingometer’ and intr
 Engineers at ITN, later designed their own system, the VT80 which helped to greatly improve the appearance of the on-screen graphics during the 1980  American elections. It was these advances that made the BBC realise how far behind it was in its use of computer technology. The need for this increased investment was made more apparent with the soon to be launched early morning service <cite>Breakfast Time</cite> in January 1982 (a result of the expansion of television broadcasting laws — ITV launched its own service, TVam in the February of that year). It was only then that the BBC employed a further 20 designers and invested in the much needed computer hardware and software.
 
 ![](14.jpg 'A film rostrum camera. Computer controlled rostrum cameras were introduced around the late 1970’s.')
-{.align-pull}
+{.u-align-pull}
 
 The computers use throughout the rest of television graphics has followed a path of ever-increased usage — from its control of the rostrum camera, to being able to generate images for on-screen. Before computers, the film rostrum camera was used in many areas of television graphics. The rostrum camera is a vertically mounted camera that is able move up and down above a bench on which the artwork is placed, and it is the bench that is able to produce the majority of the movement. Used mostly in the filming of animated title sequences, it was also used for the filming compilations of stills (be them photographs, paintings or prepared artwork) and shooting cells or drawings a frame at a time ready for animation.
 

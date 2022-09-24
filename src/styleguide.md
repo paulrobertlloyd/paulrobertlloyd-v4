@@ -111,15 +111,15 @@ The `figure` element is used to annotate illustrations, diagrams, photos, code l
 
 ![Photo taken during my drive on the Wild Atlantic Way.](/articles/2017/05/away_to_galway/wild_atlantic_way.jpg 'Single image, with supporting caption.')
 
-For figures using the `.align-bleed` modifier, the content will stretch across the entire width of the page.
+For figures using the `.u-align-bleed` modifier, the content will stretch across the entire width of the page.
 
 ![Photo of Salthill Diving Tower.](/articles/2017/05/away_to_galway/salthill_diving_tower.jpg 'Single image, with supporting caption.')
-{.align-bleed}
+{.u-align-bleed}
 
 ![Photo of Roundstone Quay.](/articles/2017/05/away_to_galway/roundstone_quay.jpg 'Single image, with supporting caption.')
-{.align-pull}
+{.u-align-pull}
 
-For figures using the `.align-pull` utility, the content will be floated to the right side of the page.
+For figures using the `.u-align-pull` utility, the content will be floated to the right side of the page.
 
 ## Text-level semantics
 

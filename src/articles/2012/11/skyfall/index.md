@@ -14,7 +14,7 @@ category:
   - James Bond
 ---
 ![](image.jpg 'Daniel Craig in Skyfall.')
-{.align-bleed}
+{.u-align-bleed}
 
 With so many films in the canon, it’s surprising that it has taken this long for a Bond film to be directed by an Oscar-winning director. With Sam Mendes has assembled a cast most movie goers will recognise: Ralph Fiennes, Javier Bardem and Albert Finney play key characters in the movie.
 

@@ -17,7 +17,7 @@ tags:
 accentColor: '#f04'
 ---
 ![](website.png '24 ways viewed on an iPad mini.')
-{.align-bleed}
+{.u-align-bleed}
 
 The tail end of this year has been [rather hectic][1]. If moving house and changing jobs weren’t enough to be getting on with, I was also busy redesigning *[24 ways][2]*.
 

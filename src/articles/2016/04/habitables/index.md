@@ -18,7 +18,7 @@ photoset:
     alt: Desk
 ---
 ![](sideboard.jpg 'Sideboard, designed by Manuel Barrera/Habitables.')
-{.align-bleed}
+{.u-align-bleed}
 
 Having lived in my current flat for just over two years, I’m determined for this to be the year that I finally make it feel like a home.
 

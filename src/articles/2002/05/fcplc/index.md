@@ -13,7 +13,7 @@ tags:
 Football is often regarded as the people’s game but it was in public schools and universities that the modern game was developed. A game that can trace its roots as far back to the fourteenth century where opposing villages and towns battled over an inflated bladder, fighting and maiming each other as players raged through the streets. The nineteenth century saw games with rudimentary sets of rules regarding taking and attacking opposing villages territory — these being the ‘goal’. The industrial revolution, the formation of a police force and the shift of people into the cities saw the end to these games.
 
 ![The Football Association logo.](football_association_logo.svg)
-{.align-pull}
+{.u-align-pull}
 
 They remained in the privileged and cocooned world of the public school system however, and with the reforms brought in by headmasters the game became toned down and regulated. Football was seen as a method of encouraging sportsmanship and teamwork. It was here that The Football Association (The FA) was formed in 1863 as a means of creating a standard set of rules. It was a firmly amateur organisation that believed in the game being played for the competition and the sport alone.
 
@@ -22,7 +22,7 @@ They remained in the privileged and cocooned world of the public school system h
 Graduates from the universities, as well as churches and schools promoted the sport, as it would encourage physical health and moral values. The game caught on massively with clubs sprouting up across the country — especially in the North and Midlands. As the game popularised and competition increased between clubs, illegal payments started to be made to players. In 1885, and against its beliefs, the FA was forced by threat of a breakaway to legalise professionalism, but in doing so it continued to regulate the excesses and protect the game from the effects of commercialism.
 
 ![Football League logo.](football_league_logo.svg)
-{.align-pull}
+{.u-align-pull}
 
 Now that clubs were able to pay players, they needed regular fixtures in order provide an income. It was with this in mind that William McGregor of Aston Villa formed the Football League in 1888, starting with 12 clubs. From the start, the league thought it important to maintain equity between the clubs that played in it. Gate receipts were shared between clubs that meant the bigger clubs couldn’t dominate just because they could make more money through the gates. Later a four percent levy of overall gate money was collected into a central pot and shared equally between the clubs. Another action that maintained equity between clubs was that of a maximum wage. However this is now seen today as a restriction by the upper class FA on the working class players, and was eventually scraped in 1961.
 
@@ -85,7 +85,7 @@ The Football Association at this time was preparing its own response to Hillsbor
 * backed Super League proposal in the form of an 18-member Premier League tied to a system to promote excellence, that would ultimately lead to success for the England team.
 
 ![FA Premier League logo.](premier_league_logo.svg)
-{.align-pull}
+{.u-align-pull}
 
 So 1992 saw the first games being played in The FA Carling Premiership. However, with all the former Division One clubs realising the benefits of Premiership membership, all 22 First Division clubs resigned from Football League. This was against the FA’s proposals as a greater number of teams meant more games — detrimental to the national team and promotion of excellence. It could of forced the membership of only 18 clubs, but decided not to bother. However, the number of clubs was later reduced to 20.
 
@@ -120,7 +120,7 @@ As for the grassroots of the game, where tomorrows players are to be found, ther
 ### Football Foundation
 
 ![Football Foundation logo.](football_foundation_logo.svg)
-{.align-pull}
+{.u-align-pull}
 
 The Football Foundation was formed in 2000 by the Government, replaced The Football Trust. It has a 53m investment programme with money sourced from The FA Premier League, The FA, Sport England and the Department of Culture, Media and Sport. The foundation — the UK’s biggest sporting charity — is based at FA Headquarters in London. It aims to deliver:
 
@@ -177,7 +177,7 @@ Rule 34 was still in existence, and yet even though it was fully aware that club
 Ten years ago Northampton Town Football Club was faced with extinction after continual financial mismanagement. Supporters of the club decided that enough was enough, and with the future of the football club that they loved and supported resting on a knife-edge, decided it was time that ordinary supporters did something to help save professional football in the town. They succeeded in raising £60,000 with the help of local businessmen and the clubs administrators, and in return set up a trust owning 18,000 shares (8% of the club), and can elect a director to the board.
 
 ![Supporters Direct logo.](supporters_direct_logo.svg)
-{.align-pull}
+{.u-align-pull}
 
 Successes have included moving the club to Sixfields Stadium in 1994, a ground that was built and owned by the council and rented by the club. This saved the club from the major expenses of its upkeep and made the club less venerable to potential asset-stripping businessmen interested in the ground. The trust has remained vital to the health of the club, especially this year when the club has gone up for sale, by ensuring any potential owner of the club has its best interests at heart.
 

@@ -71,7 +71,7 @@ When a country like Britain spends 800 million pounds a year promoting itself ov
 ## What’s being done
 
 ![Millennium Products logo.](mp_logo.svg)
-{.align-pull}
+{.u-align-pull}
 
 With Labour in power, stars from the world of design, business and entertainment were often entertained at No. 10 and soon the idea of ‘Cool Britannia’ was alive and kicking. Whether ‘Cool Britannia’ was more for the benefit of the government than the country is debatable, but there was certainly a new sense of national optimism, helped in part by a renaissance in British film and fashion.
 

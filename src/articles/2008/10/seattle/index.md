@@ -15,7 +15,7 @@ tags:
   - featured
 ---
 ![](seattle_center.jpg 'The Space Needle with the Experience Music Project in the foreground.')
-{.align-bleed}
+{.u-align-bleed}
 
 The first stop in my four city tour of America was Seattle in the north-western state of Washington. Probably best known for it’s iconic Space Needle, it’s perhaps no surprise that I spent most of my time fixated on this slender looking tower.
 

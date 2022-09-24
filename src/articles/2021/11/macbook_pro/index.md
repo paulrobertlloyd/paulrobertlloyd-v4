@@ -24,7 +24,7 @@ I’ve timed my upgrade perfectly, having forgone the MacBook Pro’s wilderness
 There’s something to be said for patience. I think back to when I got my very first Mac in 1999. While waiting for my student loan to arrive, I would revisit the product page on Apple’s website, read countless articles in magazines and pore over every detail. The eventual arrival of a large and extremely heavy square box – and the beautifully sculptured translucent plastic computer it contained – was all the sweeter for the wait I’d endured.
 
 ![](image.jpg 'The 14- and 16-inch MacBook Pro. Photograph: Apple')
-{.align-bleed}
+{.u-align-bleed}
 
 I’d forgotten about the new Mac smell. Lifting this slab of cold aluminium from its box meant I could appreciate this new model’s heft and thickness first hand. It’s great to see Apple embrace function over form for once. I like the squared-off design too, but the vents along each side seem like a regression; while not uncomfortable, they are noticeable when holding the laptop in your hands.
 

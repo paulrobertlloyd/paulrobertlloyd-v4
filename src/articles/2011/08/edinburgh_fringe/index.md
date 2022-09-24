@@ -19,7 +19,7 @@ Having enjoyed the Edinburgh Fringe when I attended for the first time last Augu
 {% render 'rating' with 2 %}
 
 ![Photo of Andy Parsons.](andy_parsons.jpg)
-{.align-pull}
+{.u-align-pull}
 
 I think I was interested in seeing [Andy Parsons][1] more due a friends impression than his own appearances on <cite>Mock The Week</cite>. As a regular on this weekly satirical panel show, maybe I shouldn’t have been surprised that much of his comedy was politically themed. Whilst Parsons was well informed, he seemed unwilling to dive too deep into any particular topic. An oft-hand remark that people may think this was boring may have revealed why, but I would love to have heard more satire and less about his finding a pair of pants in a jar of mayonnaise.
 
@@ -32,7 +32,7 @@ A perfectly entertaining evening but after seeing other acts, his felt weak in c
 {% render 'rating' with 4 %}
 
 ![Illustration of Chris T-T.](chris_tt.jpg)
-{.align-pull}
+{.u-align-pull}
 
 The only musical performance I heard was this set of songs based on and inspired by the writings of A.A. Milne sung by [Chris T-T][2] (the husband of Clearleft’s new project manager, [Rifa][3]).
 
@@ -47,7 +47,7 @@ This show reminded me that I should broaden my selection when looking for things
 {% render 'rating' with 4 %}
 
 ![Photo of Sammy J and Randy.](sammy_j_and_randy.jpg)
-{.align-pull}
+{.u-align-pull}
 
 I saw [Sammy J][4] at last year’s festival, but only if I’m honest because thought the show was free! It turned out to be my favourite show of last years Fringe. This year he was performing twice, and because I had booked a number of gigs I was only able to see his double act alongside a purple muppet-like puppet called Randy.
 
@@ -62,7 +62,7 @@ I still preferred Sammy J’s performance, but saw enough to buy a ticket for Ra
 {% render 'rating' with 5 %}
 
 ![Photo of Richard Herring.](richard_herring.jpg)
-{.align-pull}
+{.u-align-pull}
 
 I remember watching [Richard Herring][5] and Stewart Lee on <cite>Fist of Fun</cite> and <cite>TMWRNJ</cite> in the mid-nineties, and then mourning their passing from mainstream television. Yet I never seemed to progress on to their live work. After a recommendation on Twitter, I decided to see Herring’s latest show in which he “seeks to destroy love before it destroys him”.
 
@@ -77,7 +77,7 @@ Herring sets out to destroy love, but by the end of the show he has probably rei
 {% render 'rating' with 5 %}
 
 ![Photo of Adam Buxton.](adam_buxton.jpg)
-{.align-pull}
+{.u-align-pull}
 
 It was only on learning that [Adam Buxton][6] was bringing his sold-out <cite>BUG</cite> show to Edinburgh that I committed to buying tickets for this years festival. With expectations massively heightened, I was secretly preparing for disappointment. Instead I came away overjoyed and with a list of links and YouTube clips to watch again and share with friends.
 
@@ -94,7 +94,7 @@ For 90-minutes we were truly spoiled, even more so thanks to Adam’s set pieces
 {% render 'rating' with 3 %}
 
 ![Photo of Foil, Arms and Hog.](foil_arms_and_hog.jpg)
-{.align-pull}
+{.u-align-pull}
 
 Needing to find shelter from the pouring rain before a later show, I headed to Bristo Square and the Gilded Balloon (held in Teviot Row House, a building that resembles a fairy tale castle) to see what I could find. With little choice left, I bought tickets for the only show available, a comedy sketch show performed by an Irish three-piece called [Foil, Arms and Hog][7].
 
@@ -109,7 +109,7 @@ It was also where I enjoyed perhaps the funniest moment of my festival. When an 
 {% render 'rating' with 5 %}
 
 ![Photo of Dave Gorman.](dave_gorman.jpg)
-{.align-pull}
+{.u-align-pull}
 
 A performer that can only be described as a comedy genius, [Dave Gorman][8]’s latest show — his first at the fringe in 8 years — was end-to-end funny. I’m not sure if it was the title, or his previous work, but I definitely detected a strong geek strain running through the audience (and having briefly accepted that I may be one too) I was richly rewarded with a performance that largely focused on advertising and social media.
 
@@ -122,7 +122,7 @@ When these two things come together, stupid things can happen, opening themselve
 {% render 'rating' with 4 %}
 
 ![Photo of Randy.](randy.jpg)
-{.align-pull}
+{.u-align-pull}
 
 After seeing Randy in the double-act with Sammy J, I was interested to see his performance. As mentioned earlier, Randy is a purple (and often foul mouthed) muppet-like puppet, skilfully operated by [Heath McIvor][9]. The dexterity in which Randy is manipulated, meant that the audience totally brought into the illusion, happily entering (lengthy) conversations with him.
 

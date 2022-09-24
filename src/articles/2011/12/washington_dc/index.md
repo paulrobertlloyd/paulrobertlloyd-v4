@@ -12,7 +12,7 @@ category:
   - United States
 ---
 ![](lincoln_memorial.jpg 'Shannon looking towards the Lincoln Memorial.')
-{.align-bleed}
+{.u-align-bleed}
 
 [Yesterday I wrote][1] about how I found myself on a second extended tour of North America. This was a journey that started in Washington DC; ostensibly so I could attend an edition of this year’s An Event Apart conference. Yet it was also a good excuse to catch up with [Shannon][2], who graciously planned a tour of the city for me and [Andy][3].
 

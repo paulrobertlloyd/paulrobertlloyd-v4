@@ -38,7 +38,7 @@ photoset:
 *This article is [also available in Italian][it-IT]{hreflang="it-IT" rel="alternate external"}*
 
 ![](illustration.png 'Illustration: [Kevin Cornell](http://alistapart.com/authors/c/kevincornell) for A List Apart.')
-{.align-bleed}
+{.u-align-bleed}
 
 > It is the nature of the web to be flexible, and it should be our role as designers and developers to embrace this flexibility, and produce pages which, by being flexible, are accessible to all.
 — John Allsopp, <cite>[The Dao of Web Design](https://www.alistapart.com/articles/dao/)</cite>

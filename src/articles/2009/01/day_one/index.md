@@ -17,7 +17,7 @@ photoset:
   - url: /articles/2009/01/day_one/cannock_chase_4.jpg
 ---
 ![](cannock_chase_1.jpg 'Cannock Chase German Military Cemetery.')
-{.align-bleed}
+{.u-align-bleed}
 
 Perhaps one of the most enjoyable aspects of 2008, was listening to [the Adam & Joe show][1] on BBC 6 Music. During their ‘inter-festive’ show, Joe asked guest [Garth Jennings][2] how he likes to spend New Year’s Eve, to which he replied:
 
@@ -28,7 +28,7 @@ This sounded right up my street, so shortly after midnight I headed straight to 
 I haven’t spent nearly enough time in this *Area of Outstanding Natural Beauty*, especially when you consider it’s close proximity to my parents home in Walsall. Of course in the early January frost, the landscape was just incredible. With the crisp ground crunching beneath my feet, and clean fresh air filling my lungs, I couldn’t have asked for a better start to 2009.
 
 ![](cannock_chase_2.jpg 'Frost over Cannock Chase.')
-{.align-bleed}
+{.u-align-bleed}
 
 {% render 'photos' with photoset
   caption: 'Paths through frost-tinged woods.'
