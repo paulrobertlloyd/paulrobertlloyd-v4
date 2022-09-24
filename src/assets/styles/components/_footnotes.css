@@ -1,3 +1,8 @@
+.footnotes {
+  list-style-position: inside;
+  padding-inline-start: 0;
+}
+
 .footnotes :target {
   background-color: var(--color-highlight);
 }
