@@ -37,7 +37,7 @@ ol[role="list"],
 ul[role="list"],
 ul[role="listbox"] {
   list-style: none;
-  padding: 0; /* Reset default list padding */
+  padding-inline-start: var(--flow-inset, 0);
 }
 
 dd {

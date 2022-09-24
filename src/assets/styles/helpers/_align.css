@@ -32,8 +32,4 @@
     margin-inline-end: calc(var(--gap) * -1);
     margin-inline-start: var(--gap);
   }
-
-  .align-pull :is(p, dl, ol, ul, address) {
-    padding-inline-end: var(--gap);
-  }
 }

@@ -12,6 +12,7 @@
 
   .slide__caption {
     border-block-start: var(--border-rule);
+    padding-block-start: var(--space-s);
     margin-block-start: 0;
   }
 }

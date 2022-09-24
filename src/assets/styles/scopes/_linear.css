@@ -27,9 +27,7 @@
 
 .s-linear :is(caption, figcaption) {
   color: var(--color-neutral-dark);
-  font-size: var(--font-size-s);
   line-height: var(--line-height-loose);
-  padding-block-start: var(--space-2xs);
 }
 
 .s-linear :is(p, dl, ol, ul, address) {
@@ -42,17 +40,13 @@
   --flow-inset: 0;
   color: var(--color-neutral-dark);
   font-size: var(--font-size-s);
+  padding-inline-end: var(--gap);
 }
 
 .s-linear blockquote {
   border-inline-start: var(--border-width-thicker) solid var(--color-accent);
   margin-inline-start: 0;
   padding-inline-start: var(--flow-inset);
-}
-
-.s-linear blockquote li {
-  list-style-position: outside;
-  margin-inline-start: var(--flow-inset);
 }
 
 .s-linear pre {
@@ -73,17 +67,13 @@
 .s-linear th,
 .s-linear td {
   padding: var(--space-s);
-  padding-block-end: 1em;
+  padding-block-end: var(--space-s);
   padding-inline-start: 0;
 }
 
 .s-linear tbody th,
 .s-linear tbody td {
   border-block-start: var(--border-width-thin) solid var(--color-neutral-lighter);
-}
-
-.s-linear tbody th {
-  color: var(--color-neutral);
 }
 
 .s-linear [style^="--chart-width"] {
@@ -112,35 +102,25 @@
   position: absolute;
 }
 
-.s-linear * + pre,
-.s-linear * + aside,
-.s-linear * + blockquote,
-.s-linear * + figure,
-.s-linear * + table {
+.s-linear :is(pre, aside, figure, table):not(:first-child) {
   margin-block-start: calc(var(--linear-flow-space) * 3);
 }
 
-.s-linear pre:not(:last-child),
-.s-linear aside:not(:last-child),
-.s-linear blockquote:not(:last-child),
-.s-linear figure:not(:last-child),
-.s-linear table:not(:last-child) {
+.s-linear :is(pre, aside, figure, table) {
   margin-block-end: calc(var(--linear-flow-space) * 3);
 }
 
 .s-linear h2:not([class]) {
-  --linear-flow-space: 2em;
-
   font-size: var(--font-size-xl);
   font-weight: 500;
   line-height: var(--line-height-tight);
+  margin-block-start: var(--space-m-l);
 }
 
 .s-linear h3:not([class]) {
-  --linear-flow-space: 1.5em;
-
   font-size: var(--font-size-l);
   line-height: var(--line-height-tight);
+  margin-block-start: var(--space-m-l);
 }
 
 .s-linear h4:not([class]) {
@@ -155,24 +135,12 @@
   min-inline-size: 6rem;
 }
 
+.s-linear ol, ul {
+  --flow-inset: calc(var(--flow-inset) * 2);
+}
+
 .s-linear li :is(ol, ul) {
   margin-block-start: var(--linear-flow-space);
-}
-
-@media (--upto-large-viewport) {
-  .s-linear :is(ol, ul) {
-    list-style-position: inside;
-  }
-}
-
-@media (--from-large-viewport) {
-  .s-linear :is(ol, ul) {
-    padding-inline-start: 0;
-  }
-}
-
-.s-linear :is(ol, ul) :is(ol, ul) {
-  padding-inline-start: var(--flow-inset);
 }
 
 .s-linear dt + dd {
@@ -182,14 +150,6 @@
 .s-linear dt,
 .s-linear strong {
   font-weight: 500;
-}
-
-.s-linear small {
-  font-size: var(--font-size-s);
-}
-
-.s-linear img {
-  margin-block-start: 0;
 }
 
 .s-linear code {
