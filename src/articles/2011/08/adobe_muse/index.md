@@ -9,7 +9,7 @@ category:
   - Adobe
   - net (magazine)
 ---
-![Adobe Muse icon](adobe_muse.png){.align-end} Earlier this month Adobe released a preview of their new web animation tool called [Edge][1]. Marketed as using HTML5, it actually included little from that specification and ignored technologies more suited to animation like Canvas and SVG, opting to use jQuery instead.
+![Adobe Muse icon](adobe_muse.png) Earlier this month Adobe released a preview of their new web animation tool called [Edge][1]. Marketed as using HTML5, it actually included little from that specification and ignored technologies more suited to animation like Canvas and SVG, opting to use jQuery instead.
 
 This week Adobe revealed [Muse][2], another web application but this time aimed at print designers looking to transfer their skills to the web. This app created more controversy than Edge, not only due the quality of the code it outputs, but also the claims made in the marketing videos.
 

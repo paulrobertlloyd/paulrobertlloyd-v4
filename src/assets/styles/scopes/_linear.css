@@ -25,12 +25,6 @@
   margin-inline-start: 0;
 }
 
-.s-linear .align-pull,
-.s-linear .align-start,
-.s-linear .align-end {
-  margin-block-start: 0; /* Revert */
-}
-
 .s-linear :is(caption, figcaption) {
   color: var(--color-neutral-dark);
   font-size: var(--font-size-s);
@@ -152,6 +146,13 @@
 .s-linear h4:not([class]) {
   color: var(--color-neutral-dark);
   margin-block-end: calc(var(--linear-flow-space) * -0.5);
+}
+
+.s-linear p > img:only-of-type:first-of-type {
+  float: inline-end;
+  inline-size: var(--inline-size, 33%);
+  margin-inline-start: var(--space-s);
+  min-inline-size: 6rem;
 }
 
 .s-linear li :is(ol, ul) {

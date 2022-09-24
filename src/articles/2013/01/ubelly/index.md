@@ -13,7 +13,7 @@ Last week I attended [New Adventures][1] in Nottingham. This year’s line-up fe
 
 In addition to the main track, conference sponsors [Ubelly][2] hosted [The Soapbox][3], a series of five 10-minute talks held during the lunch break. A well attended session, this proved a great opportunity for new (and not so new) speakers to take to the smallest stage in the venue — an *actual* soapbox — to present an idea or explain a topic concisely. It was a lot of fun.
 
-![Ubelly logo](ubelly.png){.align-end} Yet, beyond all the good stuff Ubelly is doing, I find the underlying proposition a little strange. Pitched as “the unofficial official Microsoft blog for developers who love the web”, I sense a degree of embarrassment in being a Microsoft programme. When many developers consider their relationship with Internet Explorer to be painful and enduring, perhaps that’s not surprising.
+![Ubelly logo](ubelly.png) Yet, beyond all the good stuff Ubelly is doing, I find the underlying proposition a little strange. Pitched as “the unofficial official Microsoft blog for developers who love the web”, I sense a degree of embarrassment in being a Microsoft programme. When many developers consider their relationship with Internet Explorer to be painful and enduring, perhaps that’s not surprising.
 
 Having once dominated the market, the corporation is now playing catch up. Ubelly is tasked with not only re-engaging the web community, but also encouraging developers to build software for Microsoft’s new — and often innovative — platforms. This can lead to odd scenarios, like that at the Soapbox event, where presenters had to use Powerpoint and Windows 8; cue apologies for fonts looking wrong and misplaced.
 

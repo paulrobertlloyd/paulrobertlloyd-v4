@@ -7,24 +7,6 @@
   max-inline-size: var(--line-measure);
 }
 
-/* Float alignment */
-.align-start,
-.align-end {
-  inline-size: var(--inline-size, 33%);
-  margin-block-start: 0;
-  min-inline-size: 6rem;
-}
-
-.align-start {
-  float: inline-start;
-  margin-inline-end: var(--space-s);
-}
-
-.align-end {
-  float: inline-end;
-  margin-inline-start: var(--space-s);
-}
-
 /* Bleed alignment */
 .align-bleed {
   --linear-line-measure: auto;
@@ -46,6 +28,7 @@
   .align-pull {
     float: inline-end;
     inline-size: 33%;
+    margin-block-start: 0 !important;
     margin-inline-end: calc(var(--gap) * -1);
     margin-inline-start: var(--gap);
   }

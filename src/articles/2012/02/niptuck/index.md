@@ -22,7 +22,7 @@ I’d originally intended to use [Bliss][5] for headings and [Skolar][6] for bod
 
 ### Navigation
 
-![Navigation icons](navigation_icons.svg){.align-end} One of the biggest changes to the design is around the header. As [I wrote previously][9], the old design had a large footer that contained links to the *About* and *Archive* sections as well as a site search, social links and copyright information. This meant I could hide the two duplicated links in the header when they no longer fit.
+![Navigation icons](navigation_icons.svg) One of the biggest changes to the design is around the header. As [I wrote previously][9], the old design had a large footer that contained links to the *About* and *Archive* sections as well as a site search, social links and copyright information. This meant I could hide the two duplicated links in the header when they no longer fit.
 
 Yet much of this footer was superfluous. Linearised at narrower sizes, it became taller, gained unintended prominence and increased the length of every page. The site search was difficult to access, and it seemed pointless duplicating the *About* and *Archive* links. I realised the footer needn’t be more than a one line copyright statement, and a handful of social media links.
 

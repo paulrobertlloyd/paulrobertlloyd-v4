@@ -14,7 +14,7 @@ As Summer hurtles towards its conclusion (and let’s assume for a second that i
 
 ## Geek in the Park
 
-![Geek in the Park logo](geek_in_the_park.png){.align-end} A free family-friendly gathering for web designers and developers, Geek in the Park is a day long event held every year in Royal Leamington Spa. The day starts with a picnic in Jephson Gardens, before heading indoors for an evening of illuminating talks by respected industry leaders.
+![Geek in the Park logo](geek_in_the_park.png) A free family-friendly gathering for web designers and developers, Geek in the Park is a day long event held every year in Royal Leamington Spa. The day starts with a picnic in Jephson Gardens, before heading indoors for an evening of illuminating talks by respected industry leaders.
 
 This years event takes place on the 15th August (that’s next weekend!), with the picnic beginning at 12 noon and the evening talks starting at 7pm, held in the rather impressive Royal Pump Rooms.
 
@@ -28,7 +28,7 @@ For more details visit [this years event site][8], and let us know if you can ma
 
 ## dConstruct
 
-![dConstruct 2009 logo](dconstruct.png){.align-end} Of the many paid for conferences available each year, I’ve always maintained that [dConstruct][10] and [An Event Apart][11] are the two not to missed. Both have an unrivaled focus on quality, both in terms of the overall conference experience, as well as the content provided by the featured speakers.
+![dConstruct 2009 logo](dconstruct.png) Of the many paid for conferences available each year, I’ve always maintained that [dConstruct][10] and [An Event Apart][11] are the two not to missed. Both have an unrivaled focus on quality, both in terms of the overall conference experience, as well as the content provided by the featured speakers.
 
 Unfortunately I won’t be able to attend An Event Apart this year, but being a fully paid up member of the [Elf Cartel][12], means I can once again revel in the unbounded geek-fest that is dConstruct.
 

@@ -119,7 +119,7 @@ For figures using the `.align-bleed` modifier, the content will stretch across t
 ![Photo of Roundstone Quay.](/articles/2017/05/away_to_galway/roundstone_quay.jpg 'Single image, with supporting caption.')
 {.align-pull}
 
-For figures using the `.align-pull` utility, the content will be floated to the right side of the page. Note also that the classes `align-start` and `align-end` are available for floating content to the start or end of a passage of text.
+For figures using the `.align-pull` utility, the content will be floated to the right side of the page.
 
 ## Text-level semantics
 
