@@ -3,9 +3,6 @@
 @import "config/_custom-properties.css";
 @import "config/_webfonts.css";
 
-/* Helpers */
-@import "helpers/_grid-size.css";
-
 /* Utilities */
 @import "utilities/_align.css";
 @import "utilities/_container.css";

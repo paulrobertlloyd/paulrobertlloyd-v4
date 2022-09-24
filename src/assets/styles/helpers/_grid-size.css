@@ -1,5 +1,0 @@
-[style^="--grid-size"] {
-  display: grid;
-  grid-gap: var(--gap);
-  grid-template-columns: repeat(auto-fit, minmax(var(--grid-size), 1fr));
-}
