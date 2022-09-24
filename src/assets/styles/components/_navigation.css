@@ -8,3 +8,9 @@
   padding-inline: var(--space-s);
   white-space: nowrap;
 }
+
+@media print {
+  .navigation {
+    display: none;
+  }
+}

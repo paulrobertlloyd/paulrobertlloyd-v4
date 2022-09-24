@@ -11,7 +11,6 @@
 }
 
 .banner__title {
-  color: var(--color-text);
   flex: 0;
   font-weight: 500;
   margin-inline-end: var(--gap);
@@ -34,10 +33,4 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin-inline: calc(var(--space-s) * -1);
-}
-
-@media print {
-  .banner__navigation {
-    display: none;
-  }
 }
