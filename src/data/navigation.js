@@ -39,9 +39,9 @@ module.exports = {
     url: '/events/',
   }],
   social: [{
-    label: 'Twitter',
-    icon: 'twitter',
-    url: 'https://twitter.com/paulrobertlloyd',
+    label: 'Mastodon',
+    icon: 'mastodon',
+    url: 'https://mastodon.social/@paulrobertlloyd',
     rel: 'me',
   }, {
     label: 'Micro.blog',
