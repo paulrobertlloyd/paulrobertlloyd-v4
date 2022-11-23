@@ -11,8 +11,8 @@ module.exports = {
   icon: '/icon.png',
   language: 'en-GB',
   endpoint: {
-    auth: 'https://indieauth.com/auth',
-    token: 'https://kit.paulrobertlloyd.com/token',
+    auth: 'https://kit.paulrobertlloyd.com/auth',
+    token: 'https://kit.paulrobertlloyd.com/auth/token',
     micropub: 'https://kit.paulrobertlloyd.com/micropub',
     microsub: 'https://aperture.p3k.io/microsub/32',
     webmention: 'https://webmention.io/paulrobertlloyd.com/webmention',
