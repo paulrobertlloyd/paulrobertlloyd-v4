@@ -8,6 +8,16 @@ module.exports = [{
     'plus-code': '9C2XRVC4+CV',
   },
 }, {
+  title: 'ABBA Arena',
+  address: {
+    'street-address': 'Pudding Mill Lane',
+    locality: 'Stratford',
+    region: 'Greater London',
+    'country-name': 'England',
+    'postal-code': 'E15 2PJ',
+    'plus-code': '9C3XGXMP+9Q',
+  },
+}, {
   title: 'AMC Mercado 20',
   address: {
     'street-address': '3111 Mission College Boulevard',
