@@ -7,7 +7,7 @@ module.exports = {
   changefreq: 'monthly',
   priority: 0.4,
   eleventyComputed: {
-    photo: data => data.movie
+    photo: data => data.movie && data.movie.Poster
       ? {
           url: data.movie.Poster,
           alt: `Poster for ‘${data.title}’`
