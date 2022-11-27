@@ -270,7 +270,7 @@ If you use these elements, you must use every element. They should appear in thi
 
 *[ASCII]: American Standard Code for Information Interchange
 *[HTML]: HyperText Markup Language
-*[BBC]: British Broadcasting Corportation
+*[BBC]: British Broadcasting Corporation
 *[Staffs.]: Staffordshire
 
 [^1]: This scope may also include footnotes.
