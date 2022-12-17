@@ -8,7 +8,7 @@ summary: A welcome moment of reflection regarding Indiekit.
 category:
   - Blogging
   - Projects
-  - IndieKit
+  - Indiekit
   - IndieWeb
   - Micro.blog
   - Twitter

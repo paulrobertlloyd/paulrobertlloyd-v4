@@ -8,7 +8,7 @@ location:
   country-name: England
 summary: Returning to this project with a fresh perspective and desire to take a more managed approach to its development.
 category:
-  - IndieKit
+  - Indiekit
   - JavaScript
   - Programming
 ---
