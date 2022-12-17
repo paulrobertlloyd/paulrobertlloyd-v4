@@ -28,6 +28,7 @@
 .s-linear :is(caption, figcaption) {
   color: var(--color-neutral-dark);
   line-height: var(--line-height-loose);
+  margin-block-start: var(--linear-flow-space);
 }
 
 .s-linear :is(p, dl, ol, ul, address) {

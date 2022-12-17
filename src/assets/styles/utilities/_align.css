@@ -2,11 +2,11 @@
 .u-align-bleed {
   --linear-line-measure: auto;
   display: grid;
-  grid-template-columns: [bleed-start] minmax(0, var(--line-measure)) [measure] 1fr [bleed-end];
+  grid-template-columns: [bleed-start] minmax(0, var(--linear-line-measure)) [measure] 1fr [bleed-end];
   margin-inline: calc(var(--gap) * -1);
 }
 
-.u-align-bleed > img {
+.u-align-bleed > *:first-child {
   grid-column: bleed;
   inline-size: 100%;
 }
