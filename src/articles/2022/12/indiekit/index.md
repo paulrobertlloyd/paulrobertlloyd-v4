@@ -62,13 +62,13 @@ Services like [Micro.blog][21] are helpful as they make joining the IndieWeb muc
 
 Indiekit’s approach is to provide an easy to use server that can be hosted anywhere, one that is:
 
-* **Accessible:** the web is for everyone, and so is Indiekit. I have considered accessibility in all its guises; colour contrast, keyboard navigation, adaptive layout, localisation and have used clear, understandable language throughout.
+* **Accessible:** the web is for everyone, and so is Indiekit. I have considered accessibility in all its guises; colour contrast, keyboard navigation, adaptive layout, localisation and have used clear, understandable language throughout. The same applies to the codebase: I’m not using TypeScript as this adds complexity for anyone wanting to contribute.
 
 * **Adaptable:** no two people are the same, and neither are personal websites. Indiekit makes no assumptions about the structure of your website, and offers as much customisation as possible.
 
-* **Approachable:** all the code is documented and tested (integration and unit). I’m not using TypeScript as that adds unhelpful complexity for anyone wanting to contribute.
+* **Reliable:** all code is documented and thoroughly tested (over 600 integration and unit tests provide ~95% code coverage) and the web application is built using good ol’ fashioned progressive enhancement.
 
-* **Extensible:** there are only so many features I can – and want to – build, but this shouldn’t prevent others from doing so. A [plug-in API][4] allows developers to add support for more social networks, content stores and static site generators. Adding new features is possible too, as endpoint plug-ins are Express middleware.
+* **Extensible:** there are only so many integrations I can – and want to – build, but this shouldn’t prevent others from doing so. A [plug-in API][4] allows developers to add support for more social networks, content stores and static site generators. Adding new features is possible too, as endpoint plug-ins are Express middleware.
 
 No software is un-opinionated. Indiekit is firmly of the opinion that everyone should be able to enjoy the full benefits of independent web publishing.
 
@@ -84,7 +84,7 @@ Then there’s Webmention, the IndieWeb protocol that lets you surface replies, 
 
 Finally, while I’ve designed Indiekit with static site generators in mind, I’d like to investigate integrating with database-driven content management systems like [WordPress][23] and other publishing tools like [Kirby][24] (sounds like a good idea for an IndieWebCamp hack project).
 
-There’s [a rough roadmap][7] if you’re interested. I’m hoping some features may come sooner if I’m able to build a community around Indiekit and others contribute to the project. I’d also love to work with a content designer to improve the messaging around the project, review the documentation and refine the microcopy within the application.
+There’s [a rough roadmap][7] if you’re interested. I’m hoping some features may come sooner if I’m able to build a community around Indiekit and have others contribute to the project. I’d also love to work with a content designer to improve the messaging around the project, review the documentation and refine the microcopy within the application.
 
 To that end, I’ve set up [a sponsorship programme to fund Indiekit’s continued development][25]. I have no idea if people will be interested in this, but I know I’d have happily contributed to such a thing 5 years ago – if only in begrudging appreciation that it would mean not needing to become a programmer.
 
@@ -92,12 +92,12 @@ To that end, I’ve set up [a sponsorship programme to fund Indiekit’s continu
 * [Learn how Indiekit works](https://getindiekit.com/introduction)
 * [Follow Indiekit on GitHub](http://github.com/getindiekit/indiekit)
 
-[^1]: Look, I added Twitter support 2 years ago, but that’s increasingly looking like wasted effort, thanks to Space Karen.
+[^1]: Look, I added Twitter support 2 years ago, but that appears to have been a wasted effort, thanks to Space Karen.
 
 [^2]: Indiekit uses the Micropub API internally rather than direct communication with the database; it’s the endpoint discovery bit that’s missing.
 
+*[API]: Application Programming Interface
 *[W3C]: World Wide Web Consortium
-*[CMS]: content management system
 
 [1]: https://getindiekit.com
 [2]: https://indieweb.org
