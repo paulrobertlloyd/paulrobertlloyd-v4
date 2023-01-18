@@ -1,52 +1,52 @@
 /* Configuration */
-@import "config/_custom-media.css";
-@import "config/_custom-properties.css";
-@import "config/_webfonts.css";
+@import url("config/_custom-media.css");
+@import url("config/_custom-properties.css");
+@import url("config/_webfonts.css");
 
 /* Utilities */
-@import "utilities/_align.css";
-@import "utilities/_container.css";
-@import "utilities/_visually-hidden.css";
+@import url("utilities/_align.css");
+@import url("utilities/_container.css");
+@import url("utilities/_visually-hidden.css");
 
 /* Base */
-@import "base/_embedded.css";
-@import "base/_forms.css";
-@import "base/_grouping.css";
-@import "base/_interaction.css";
-@import "base/_interactive.css";
-@import "base/_sections.css";
-@import "base/_tables.css";
-@import "base/_text.css";
+@import url("base/_embedded.css");
+@import url("base/_forms.css");
+@import url("base/_grouping.css");
+@import url("base/_interaction.css");
+@import url("base/_interactive.css");
+@import url("base/_sections.css");
+@import url("base/_tables.css");
+@import url("base/_text.css");
 
 /* Scopes */
-@import "scopes/_linear.css";
+@import url("scopes/_linear.css");
 
 /* Components */
-@import "components/_avatar.css";
-@import "components/_banner.css";
-@import "components/_barchart.css";
-@import "components/_card.css";
-@import "components/_categories.css";
-@import "components/_content.css";
-@import "components/_contentinfo.css";
-@import "components/_embed.css";
-@import "components/_facepile.css";
-@import "components/_footer.css";
-@import "components/_footnotes.css";
-@import "components/_form.css";
-@import "components/_header.css";
-@import "components/_item.css";
-@import "components/_items.css";
-@import "components/_main.css";
-@import "components/_meta.css";
-@import "components/_navigation.css";
-@import "components/_pagination.css";
-@import "components/_photos.css";
-@import "components/_screenshots.css";
-@import "components/_section.css";
-@import "components/_skip-link.css";
-@import "components/_slide.css";
-@import "components/_trips.css";
+@import url("components/_avatar.css");
+@import url("components/_banner.css");
+@import url("components/_barchart.css");
+@import url("components/_card.css");
+@import url("components/_categories.css");
+@import url("components/_content.css");
+@import url("components/_contentinfo.css");
+@import url("components/_embed.css");
+@import url("components/_facepile.css");
+@import url("components/_footer.css");
+@import url("components/_footnotes.css");
+@import url("components/_form.css");
+@import url("components/_header.css");
+@import url("components/_item.css");
+@import url("components/_items.css");
+@import url("components/_main.css");
+@import url("components/_meta.css");
+@import url("components/_navigation.css");
+@import url("components/_pagination.css");
+@import url("components/_photos.css");
+@import url("components/_screenshots.css");
+@import url("components/_section.css");
+@import url("components/_skip-link.css");
+@import url("components/_slide.css");
+@import url("components/_trips.css");
 
 /* Vendor */
-@import "vendor/_prism.css";
+@import url("vendor/_prism.css");

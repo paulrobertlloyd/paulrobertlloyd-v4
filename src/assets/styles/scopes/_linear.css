@@ -139,8 +139,13 @@
   min-inline-size: 6rem;
 }
 
-.s-linear ol, ul {
+.s-linear :is(ol, ul) {
   --flow-inset: calc(var(--flow-inset) * 2);
+}
+
+.s-linear dt,
+.s-linear strong {
+  font-weight: 500;
 }
 
 .s-linear li:has(p),
@@ -150,11 +155,6 @@
 
 .s-linear dt + dd {
   margin-block-start: 0;
-}
-
-.s-linear dt,
-.s-linear strong {
-  font-weight: 500;
 }
 
 .s-linear code {
