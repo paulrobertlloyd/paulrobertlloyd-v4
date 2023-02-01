@@ -31,7 +31,7 @@
     "@remy/webmention": "^1.4.5",
     "browserslist": "^4.21.4",
     "color": "^4.0.1",
-    "date-fns-tz": "^1.1.6",
+    "date-fns-tz": "^2.0.0",
     "dotenv": "^16.0.0",
     "geolib": "^3.3.1",
     "lightningcss": "^1.16.0",
