@@ -25,13 +25,13 @@
   "dependencies": {
     "@11ty/eleventy": "^2.0.0-beta.1",
     "@11ty/eleventy-fetch": "^3.0.0",
-    "@11ty/eleventy-img": "^2.0.0",
+    "@11ty/eleventy-img": "^3.0.0",
     "@11ty/eleventy-plugin-rss": "^1.1.1",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.0.0",
     "@remy/webmention": "^1.4.5",
     "browserslist": "^4.21.4",
     "color": "^4.0.1",
-    "date-fns-tz": "^1.1.6",
+    "date-fns-tz": "^2.0.0",
     "dotenv": "^16.0.0",
     "geolib": "^3.3.1",
     "lightningcss": "^1.16.0",
@@ -57,10 +57,10 @@
     "turndown": "^7.1.1"
   },
   "devDependencies": {
-    "eslint-plugin-jsdoc": "^39.2.1",
+    "eslint-plugin-jsdoc": "^40.0.0",
     "markdownlint-cli": "^0.33.0",
-    "stylelint": "^14.0.0",
-    "stylelint-config-standard": "^29.0.0",
+    "stylelint": "^15.0.0",
+    "stylelint-config-standard": "^30.0.0",
     "stylelint-order": "^6.0.0",
     "xo": "^0.53.0"
   },
