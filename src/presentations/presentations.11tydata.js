@@ -1,6 +1,7 @@
 module.exports = {
   layout: 'presentation',
   type: 'entry',
+  type_prefix: 's',
   permalink: '/presentations/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
   tags: ['post', 'presentation'],
   vocab: 'entry',

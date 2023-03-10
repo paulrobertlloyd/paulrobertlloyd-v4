@@ -1,8 +1,8 @@
 ---
 title: Freiburg, Basel and Strasbourg
 summary: Speaking at Smashing Conference.
-related:
-  - /articles/2016/10/kunstmuseum_basel/
+article_id:
+  - a4je1
 trip_id:
   - t4jE1
   - t4jJ1

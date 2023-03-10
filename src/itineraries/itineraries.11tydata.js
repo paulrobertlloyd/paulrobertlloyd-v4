@@ -1,6 +1,7 @@
 module.exports = {
   layout: 'itinerary',
   type: 'entry',
+  type_prefix: 'i',
   permalink: '/travel/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
   tags: ['post', 'itinerary'],
   vocab: 'event',
@@ -24,7 +25,7 @@ module.exports = {
     relatedTrips: data => {
       const trips = data.collections.trip;
       const trip_id = data.trip_id ? data.trip_id.toString() : [];
-      return trips.filter(trip => trip_id.includes(trip.data.trip.id));
+      return trips.filter(trip => trip_id.includes(trip.data.trip.uid));
     },
   },
 };

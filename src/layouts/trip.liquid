@@ -1,4 +1,4 @@
-{%- assign itinerary = collections.itinerary | includes: 'data.trip_id',trip.id | first -%}
+{%- assign itinerary = collections.itinerary | includes: 'data.trip_id',trip.uid | first -%}
 {%- assign formattedTitle = title | replace: ' ➔','\n➔' -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}

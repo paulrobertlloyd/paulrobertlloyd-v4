@@ -1,13 +1,15 @@
 ---
 title: Paris, San Sebastián, Vigo, Porto and Madrid
 summary: A week in Porto, reached via several stops in Spain.
-related:
-  - /photos/1661267486/
-  - /photos/1661340797/
-  - /photos/1661522614/
-  - /photos/1661623467/
-  - /articles/2022/08/trains_in_spain/
-  - /articles/2022/08/porto/
+article_id:
+  - a5LU1
+  - a5LZ1
+photo_id:
+  - p5Lh1
+  - p5LX1
+  - p5LW1
+  - p5LU1
+  - p5LT1
 trip_id:
   - t5LS1
   - t5LT1

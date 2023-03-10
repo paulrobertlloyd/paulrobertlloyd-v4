@@ -1,10 +1,10 @@
 ---
 title: Liverpool
 summary: Because.
-related:
-  - /photos/1634926907/
-  - /photos/1635072397/
-  - /photos/1635188013/
+photo_id:
+  - p5FN1
+  - p5FQ1
+  - p5FR1
 trip_id:
   - t5FN1
   - t5FQ1

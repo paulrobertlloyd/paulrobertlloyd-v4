@@ -1,7 +1,12 @@
+const { DateToSxg } = require('newbase60');
 const webmentions = require('../../lib/utils/get-webmentions.js');
 const summaryImagePath = require('../../lib/utils/get-summary-image-path.js');
 
 module.exports = {
+  published: data => data.start || data.date,
+  date_sxg: data => DateToSxg(new Date(data.published)),
+  type_index: data => data.type_index || 1,
+  uid: data => data.type_prefix && `${data.type_prefix}${data.date_sxg}${data.type_index}`,
   page_title: data => `${data.title} · ${data.app.name}`,
   page_image: data => data.photo
     ? (data.photo[0] || data.photo)
@@ -22,9 +27,13 @@ module.exports = {
     ? Array.isArray(data.photo) ? data.photo : [data.photo]
     : false,
   related: data => {
-    const posts = data.collections.post;
-    const related = data.related ? data.related : [];
-    return posts.filter(post => related.includes(post.url));
+    const { collections, article_id, photo_id } = data;
+    const related = collections.post.filter(item => {
+      const { uid } = item.data;
+      return uid && article_id?.includes(uid) || photo_id?.includes(uid);
+    })
+
+    return related;
   },
   webmentions: data => {
     const url = data.app.url + data.page.url;

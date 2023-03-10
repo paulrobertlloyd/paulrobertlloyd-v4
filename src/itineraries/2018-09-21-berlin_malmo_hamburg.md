@@ -1,10 +1,14 @@
 ---
 title: Berlin, Malmö and Hamburg
 summary: Investigating a move to Berlin, a conference in Malmö, and falling in love with Hamburg.
-related:
-  - /articles/2018/09/berlin/
-  - /articles/2018/10/tempelhof/
-  - /articles/2018/10/crisis/
+article_id:
+  - a4wX1
+  - a4wn1
+  - a4wu1
+photo_id:
+  - p4wm1
+  - p4ws1
+  - p4wu1
 trip_id:
   - t4wa1
   - t4wo1

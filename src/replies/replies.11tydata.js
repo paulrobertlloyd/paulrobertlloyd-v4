@@ -1,6 +1,7 @@
 module.exports = {
   layout: 'reply',
   type: 'entry-untitled',
+  type_prefix: 'r',
   permalink: '/replies/{{ page.fileSlug }}/',
   tags: ['post', 'reply'],
   vocab: 'entry',

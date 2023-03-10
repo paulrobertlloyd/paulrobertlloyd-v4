@@ -1202,7 +1202,7 @@ module.exports = function () {
     const kg = Math.ceil(km * types[toPlace.type].emissions);
 
     // Trip metadata
-    trip.id = `t${dateBase60}${tripCount}`;
+    trip.uid = `t${dateBase60}${tripCount}`;
     trip.title = `${fromAddress} ➔ ${toAddress}`;
     trip.summary = `A trip of ${km} km that emitted roughly ${kg} kg of CO₂.`;
     trip.distance = km;

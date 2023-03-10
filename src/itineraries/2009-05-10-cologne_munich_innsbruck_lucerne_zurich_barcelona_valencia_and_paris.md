@@ -1,10 +1,10 @@
 ---
 title: Cologne, Munich, Innsbruck, Lucerne, Zurich, Barcelona, Valencia and Paris
 summary: A great European railway adventure.
-related:
-  - /articles/2009/05/a_european_adventure/
-  - /articles/2009/05/brussels/
-  - /articles/2009/05/cologne/
+article_id:
+  - a3zZ1
+  - a3z_1
+  - a3ze1
 trip_id:
   - t3z_1
   - t3zb1

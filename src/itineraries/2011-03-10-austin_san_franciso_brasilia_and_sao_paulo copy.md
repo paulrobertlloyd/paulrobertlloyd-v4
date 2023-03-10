@@ -1,10 +1,10 @@
 ---
 title: Austin, San Francisco, Brasília and São Paulo
 summary: SXSW 2011, visiting friends in California and family in Brazil.
-related:
-  - /articles/2011/03/sxsw/
-  - /articles/2011/03/san_francisco/
-  - /articles/2011/03/brasilia_palace_hotel/
+article_id:
+  - a4Ap1
+  - a4Aw1
+  - a4B11
 trip_id:
   - t4Ai1
   - t4Ao1

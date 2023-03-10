@@ -11,9 +11,9 @@ category:
   - Interaction design
 tags:
   - featured
-related:
-  - /2013/12/redesigning_24_ways/
-  - /2018/01/improving_the_accessibility_of_24_ways/
+article_id:
+  - a4Tg1
+  - a4sE1
 accent_color: '#f04'
 style:
   screenshot-shadow: '#b01'
