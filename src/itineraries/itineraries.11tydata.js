@@ -1,8 +1,8 @@
 module.exports = {
-  layout: 'travel',
+  layout: 'itinerary',
   type: 'entry',
   permalink: 'travel/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
-  tags: ['post', 'travel'],
+  tags: ['post', 'itinerary'],
   vocab: 'event',
   changefreq: 'yearly',
   priority: 0.8,
