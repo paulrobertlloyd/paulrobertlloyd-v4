@@ -3,7 +3,7 @@ title: A Peek Behind the Curtain
 date: 2018-05-14T16:57:47+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: GDPR can’t come soon enough.
 category:
   - Regulation

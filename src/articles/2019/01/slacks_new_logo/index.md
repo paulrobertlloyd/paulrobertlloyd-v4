@@ -3,7 +3,7 @@ title: Several People Are Outraged
 date: 2019-01-19T18:30:00Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Slack has a new logo, and everyone hates it.
 photo:
   url: /articles/2019/01/slacks_new_logo/image.jpg

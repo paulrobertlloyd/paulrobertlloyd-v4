@@ -3,7 +3,7 @@ title: Porto’s Paradox
 date: 2022-08-29T23:00:00+01:00
 location:
   locality: Porto
-  country-name: Portugal
+  country_name: Portugal
 summary: So wrong it’s right.
 photo:
  url: /articles/2022/08/porto/image.jpg

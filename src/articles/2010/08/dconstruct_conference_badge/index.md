@@ -3,7 +3,7 @@ title: A Greener Conference Badge for dConstruct
 date: 2010-08-31T23:58:46+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: dConstruct has long combined its conference programme with the name badge, a simple yet cost-effective design. This year we hope to go one better.
 photo:
   url: /articles/2010/08/dconstruct_conference_badge/image.jpg

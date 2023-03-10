@@ -3,7 +3,7 @@ title: 2020 in Review
 date: 2021-01-03T13:00:00Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Living for the weekday.
 photo:
   url: /media/1589993580.jpg

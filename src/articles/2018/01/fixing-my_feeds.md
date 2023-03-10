@@ -3,7 +3,7 @@ title: Fixing my Feeds
 date: 2018-01-25T01:20:00Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Fiddling around with RSS.
 category:
   - Blogging

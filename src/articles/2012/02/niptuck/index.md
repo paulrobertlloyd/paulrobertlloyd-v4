@@ -3,7 +3,7 @@ title: Nip/Tuck
 date: 2012-02-23T01:33:57Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Following on from last July’s extensive redesign of this site, the last few weeks have seen me revisit the design and implementation. In light of today’s Responsive Summit, and with a few people asking about the changes, I thought I should provide a little more detail.
 category:
   - Website

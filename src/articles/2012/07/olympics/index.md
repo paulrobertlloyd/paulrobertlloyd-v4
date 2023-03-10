@@ -3,7 +3,7 @@ title: Once In A Lifetime
 date: 2012-07-27T17:53:23+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Olympics happen once every four years. Most are unlikely to ever experience them in their own country. I get shivers whenever I see banners with the Olympic Rings on them. This is once in a lifetime event, and I intend to make the very most of it.
 photo:
   url: /articles/2012/07/olympics/image.jpg

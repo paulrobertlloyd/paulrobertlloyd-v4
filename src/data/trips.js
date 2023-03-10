@@ -1193,9 +1193,9 @@ module.exports = function () {
 
     // Trip to/from addresses
     const fromPlace = getPlace(from);
-    const fromAddress = `${fromPlace.address.locality}, ${fromPlace.address['country-name']}`;
+    const fromAddress = `${fromPlace.address.locality}, ${fromPlace.address.country_name}`;
     const toPlace = getPlace(to);
-    const toAddress = `${toPlace.address.locality}, ${toPlace.address['country-name']}`;
+    const toAddress = `${toPlace.address.locality}, ${toPlace.address.country_name}`;
 
     // Distance travelled and CO₂ emitted
     const km = Math.ceil(distance / 1000);

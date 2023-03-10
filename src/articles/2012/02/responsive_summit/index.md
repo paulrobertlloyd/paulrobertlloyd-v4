@@ -3,7 +3,7 @@ title: How I Learned to Stop Worrying and Love Responsive Images
 date: 2012-02-26T23:21:55Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Last week I was invited to Responsive Summit, a face-to-face discussion about Responsive Web Design. We talked about what we’ve learnt so far, the problems we’re continuing to face and things we’d like to change.
 photo:
   url: /articles/2012/02/responsive_summit/image.jpg

@@ -3,7 +3,7 @@ title: 'Weeknotes #11'
 date: 2019-03-24T23:15:00Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Come back next week.
 collection: weeknotes
 ---

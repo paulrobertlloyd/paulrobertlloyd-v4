@@ -30,7 +30,7 @@ module.exports = {
         return places
            .map(place => place.data.place)
            .find(place =>
-              place.address['plus-code'].startsWith(placeIdStart) &&
+              place.address.plus_code.startsWith(placeIdStart) &&
               place.title.toLowerCase().startsWith(venueStart)
            )
       }

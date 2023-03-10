@@ -3,7 +3,7 @@ title: Flying The Flag
 date: 2012-06-25T22:51:42+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Andrew Mitchell, the International Development secretary, has unveiled a new logo that will appear on overseas aid provided by his department; be it grain packets, schools or water pumps.
 category:
   - Brand identity

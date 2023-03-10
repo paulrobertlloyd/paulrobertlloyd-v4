@@ -3,7 +3,7 @@ title: Entry Archives, Grouped by Month in Movable Type
 date: 2009-02-04T20:27:23Z
 location:
   locality: San Francisco
-  country-name: United States
+  country_name: United States
 summary: I have been using Movable Type for a number of years, yet the template code required to present an archived list of entries, grouped by month has always evaded me.
 category:
   - Web

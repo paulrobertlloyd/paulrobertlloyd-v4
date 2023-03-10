@@ -3,7 +3,7 @@ title: 'Scandinavian Sojourn: Copenhagen'
 date: 2020-01-31T14:00:00+01:00
 location:
   locality: Stockholm
-  country-name: Sweden
+  country_name: Sweden
 summary: Finding colour amidst the grey.
 photo:
   url: /articles/2020/01/copenhagen/nyhavn.jpg

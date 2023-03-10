@@ -3,7 +3,7 @@ title: Learning to Sketch
 date: 2010-05-31T14:01:17+01:00
 location:
   locality: Littlehampton
-  country-name: England
+  country_name: England
 summary: With Dave Gray speaking at this year’s UX London, Andy asked if he would then visit Brighton and run a sketching workshop for everyone at Clearleft.
 category:
   - Clearleft

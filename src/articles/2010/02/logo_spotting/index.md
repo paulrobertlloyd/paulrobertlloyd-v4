@@ -3,7 +3,7 @@ title: Logo Spotting
 date: 2010-02-12T00:10:20Z
 location:
   locality: Littlehampton
-  country-name: England
+  country_name: England
 summary: My love of detail is often reaffirmed by my noticing the almost inconsiderable tweaks in the designed environment around me.
 category:
   - Design

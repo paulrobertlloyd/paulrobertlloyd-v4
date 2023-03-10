@@ -3,7 +3,7 @@ title: Do Something Funny for Money
 date: 2009-03-08T11:20:04Z
 location:
   locality: Littlehampton
-  country-name: England
+  country_name: England
 summary: This Friday is Red Nose Day, the main fundraising event in support of Comic Relief, a charity that supports projects in the UK and Africa.
 category:
   - Comedy

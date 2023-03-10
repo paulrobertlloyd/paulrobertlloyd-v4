@@ -3,7 +3,7 @@ title: At IndieWebCamp, Playing With Webmentions
 date: 2015-07-12T12:22:00+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: I’m attending my second IndieWebCamp this weekend, with the sole aim of implementing webmentions. This has meant prematurely launching my new Jekyll-based website. That this has been in development since last February, many would say this moment is long overdue.
 category:
   - IndieWebCamp

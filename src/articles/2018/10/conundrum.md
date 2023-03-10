@@ -3,7 +3,7 @@ title: 'Redesign Diary: Conundrum'
 date: 2018-10-17T18:18:00+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Who is this website for?
 category:
   - Website

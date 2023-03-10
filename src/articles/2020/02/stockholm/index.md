@@ -3,7 +3,7 @@ title: 'Scandinavian Sojourn: Stockholm'
 date: 2020-02-05T19:10:00+01:00
 location:
   locality: Gothenburg
-  country-name: Sweden
+  country_name: Sweden
 summary: Cloudy with a chance of meatballs.
 photo:
   url: /articles/2020/02/stockholm/gamla_stan.jpg

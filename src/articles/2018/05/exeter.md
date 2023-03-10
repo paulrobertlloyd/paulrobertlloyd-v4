@@ -3,7 +3,7 @@ title: What Goes Up, Must Come Down
 date: 2018-05-16T19:45:00+01:00
 location:
   locality: Exeter
-  country-name: England
+  country_name: England
 summary: From its Roman walls to a series of modern carbuncles, Exeter has a curious mix of architecture, but not nearly as much as it once did.
 category:
   - Exeter

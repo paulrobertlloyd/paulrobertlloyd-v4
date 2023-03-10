@@ -3,7 +3,7 @@ title: Learning to Commit
 date: 2022-11-27T21:15:00Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: How I achieve the perfect commit.
 category:
   - Git

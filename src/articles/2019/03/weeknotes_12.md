@@ -3,7 +3,7 @@ title: 'Weeknotes #12'
 date: 2019-03-31T23:00:00+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Technologies erode, relationships endure.
 collection: weeknotes
 ---

@@ -3,7 +3,7 @@ title: Undersold
 date: 2018-09-12T14:00:00+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Another identity from the offices of Pentagram that elicits a feeling somewhere between despair and indifference.
 photo:
   url: /articles/2018/09/john_lewis_partnership_rebrand/logos.png

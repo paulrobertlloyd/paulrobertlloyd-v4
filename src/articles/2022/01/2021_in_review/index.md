@@ -4,7 +4,7 @@ title: 'All at Sea: 2021 in Review'
 date: 2022-01-03T22:30:00Z
 location:
   locality: Bexhill-on-Sea
-  country-name: England
+  country_name: England
 summary: Nothing lasts forever.
 photo:
   url: /articles/2022/01/2021_in_review/west_pier.jpg

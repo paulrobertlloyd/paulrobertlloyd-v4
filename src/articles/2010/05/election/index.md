@@ -3,7 +3,7 @@ title: An Opportunity For Change
 date: 2010-05-04T02:30:00+01:00
 location:
   locality: Littlehampton
-  country-name: England
+  country_name: England
 summary: As an era of Labour government led by Gordon Brown surely comes to an end, I reflect on my changing political attitudes and the decision I’ll be making at the ballot box this coming Thursday.
 category:
   - Politics

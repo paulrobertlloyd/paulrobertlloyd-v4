@@ -3,7 +3,7 @@ title: Death of a Clone Town
 date: 2018-08-19T21:30:00+01:00
 location:
   locality: Bexhill-on-Sea
-  country-name: England
+  country_name: England
 summary: What does the future hold for small towns like Walsall?
 category:
   - Architecture

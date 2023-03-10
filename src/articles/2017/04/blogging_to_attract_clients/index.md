@@ -3,7 +3,7 @@ title: Using Your Blog to Attract New Clients
 date: 2017-04-06T02:00:00+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Blogging is a great way to showcase your expertise and raise your profile. But can you achieve this without drawing on manipulative methods of generating traffic?
 category:
   - Writing

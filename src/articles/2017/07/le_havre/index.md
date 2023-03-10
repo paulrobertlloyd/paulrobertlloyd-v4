@@ -3,7 +3,7 @@ title: A Summer in Le Havre
 date: 2017-07-25T20:55:00+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Finding the unexpected in Le Havre, the French seaside city that’s full of surprises.
 photo:
   url: /articles/2017/07/le_havre/concrete_chic.jpg

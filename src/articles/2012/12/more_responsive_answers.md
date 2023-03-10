@@ -3,7 +3,7 @@ title: More Responsive Answers
 date: 2012-12-09T17:55:00Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Justin Avery, who curates the Responsive Design Weekly newsletter, asked me four questions as part of his December Interview Series. Here are my answers.
 category:
   - Responsive design

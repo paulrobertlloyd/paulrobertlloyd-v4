@@ -3,7 +3,7 @@ title: 'Jake Archibald: Building SVGO’s Missing GUI'
 date: 2015-03-23T13:26:25Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: SVGOMG is a wonderful example of how to build a web app in a responsible and accessible way. I asked its creator, Jake Archibald, a few questions about how he designed and developed this native-feeling SVG optimisation app.
 photo:
   url: /articles/2015/03/svgomg/image.png

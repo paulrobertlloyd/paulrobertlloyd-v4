@@ -3,7 +3,7 @@ title: Now That The Games Have Gone
 date: 2012-08-14T03:02:30+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: The last two weeks have been amazing. I tried my best to sample as much ofthe Olympic fever as I could, but with so much going on, the spectacle was overwhelming. So much to see, so little time to see it.
 photo:
   url: /articles/2012/08/now_that_the_games_have_gone/image.jpg

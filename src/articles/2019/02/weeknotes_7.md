@@ -3,7 +3,7 @@ title: 'Weeknotes #7'
 date: 2019-02-24T23:10:00Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Intead of writing these weeknotes, I could be writing code.
 collection: weeknotes
 ---

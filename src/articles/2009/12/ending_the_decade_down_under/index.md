@@ -3,7 +3,7 @@ title: Ending the Decade Down Under
 date: 2009-12-02T02:02:02Z
 location:
   locality: Littlehampton
-  country-name: England
+  country_name: England
 summary: 'I’ve long held two ambitions. The first: to return to Australia before this decade is out. The second: to welcome in a New Year on Sydney Harbour before I turn 30.'
 collection: australasia_2009
 category:

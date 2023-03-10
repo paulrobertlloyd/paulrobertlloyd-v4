@@ -3,7 +3,7 @@ title: Moving Slowly and Fixing Things
 date: 2018-02-27T00:34:00Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Three aspects of my personality have proven pertinent.
 category:
   - Design

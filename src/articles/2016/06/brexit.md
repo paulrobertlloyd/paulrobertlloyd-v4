@@ -3,7 +3,7 @@ title: Not Funny
 date: 2016-06-24T19:15:00+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: On this clear, sunny Friday, the weather belies the fact that the UK has undertaken an unprecedented and improbable act of self-harm.
 category:
   - Politics

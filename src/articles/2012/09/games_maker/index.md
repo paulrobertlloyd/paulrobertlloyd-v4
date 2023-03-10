@@ -3,7 +3,7 @@ title: My Life as a Games Maker
 date: 2012-09-21T21:02:44+01:00
 location:
   locality: São Paulo
-  country-name: Brazil
+  country_name: Brazil
 summary: They say change is as good as a rest. With early morning commutes, a distinctive uniform and interaction with the general public, volunteering at the London 2012 Paralympic Games couldn’t have been further removed from the desk-bound job I’d become weary of.
 photo:
   url: /articles/2012/09/games_maker/olympic_park.jpg

@@ -3,7 +3,7 @@ title: 'Enough: A Counter Argument'
 date: 2010-10-23T14:53:30+01:00
 location:
   locality: Walsall
-  country-name: England
+  country_name: England
 summary: A few months ago I wrote about not upgrading to the iPhone 4, regardless of the fact I’m eligible for a free upgrade. This turned out to be something of a radical position but I enjoyed the debate that followed.
 category:
   - Environment

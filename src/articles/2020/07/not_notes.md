@@ -3,7 +3,7 @@ title: Not notes
 date: 2020-07-27T18:48:00+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: 10 random things I avoided saying over the last six months.
 ---
 This website is a place where I can share [short thoughts][1], but as they also appear in other places (as ‘[tweets][2]’, ‘[toots][3]’ or ‘[microblogs][4]’), I often decide it’s probably best to keep some of these to myself.

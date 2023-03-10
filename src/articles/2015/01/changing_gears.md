@@ -3,7 +3,7 @@ title: Changing Gears
 date: 2015-01-20T00:06:42Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: I’m leaving the Guardian and going freelance in March.
 category:
   - Clearleft

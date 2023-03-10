@@ -3,7 +3,7 @@ title: Lanyards. What Are They Good For?
 date: 2015-07-06T20:46:36+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Lanyards — the piece of fabric that allows you to hang a conference badge from your neck — have a lifespan of just a few hours. How can we change that?
 photo:
   url: /articles/2015/07/lanyards/image.jpg

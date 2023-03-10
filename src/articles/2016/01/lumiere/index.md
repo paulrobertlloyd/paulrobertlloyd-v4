@@ -3,7 +3,7 @@ title: Lumiere London
 date: 2016-01-18T22:00:00Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Last Friday I jumped on the train to London to see Lumiere, a four-day festival of illuminated art.
 photo:
   url: /articles/2016/01/lumiere/centre_point_lights.jpg

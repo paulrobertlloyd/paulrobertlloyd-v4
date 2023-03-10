@@ -3,7 +3,7 @@ title: Something in the Air
 date: 2023-01-27T15:15:00Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: After a 6 month break I’ve started a new contract with the Department for Environment, Food and Rural Affairs.
 category:
   - Personal

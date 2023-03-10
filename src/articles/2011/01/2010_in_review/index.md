@@ -3,7 +3,7 @@ title: 2010 in Review
 date: 2011-01-10T00:16:26Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Last year was notable for a running theme on sustainability; both in the topics I was writing about and my decision not to make any flights as part of a 10:10 pledge to reduce my carbon emissions by 10%. This meant travel was based around the British Isles, and for the first time I visited all four constituent countries of the United Kingdom in one year.
 category:
   - Personal

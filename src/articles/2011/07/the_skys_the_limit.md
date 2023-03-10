@@ -3,7 +3,7 @@ title: The Sky’s the Limit
 date: 2011-07-29T10:58:45+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Some disappointing news today for fans of Formula 1. The BBC will only be showing half of next year’s races live, as a new deal means it will be sharing broadcasting rights with BSkyB.
 category:
   - Sport

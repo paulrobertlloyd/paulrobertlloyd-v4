@@ -3,7 +3,7 @@ title: 'Weeknotes #3'
 date: 2019-01-27T19:30:00Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Well, that was a shitty week.
 collection: weeknotes
 ---

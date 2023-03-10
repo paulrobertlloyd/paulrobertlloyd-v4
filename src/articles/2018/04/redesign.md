@@ -3,7 +3,7 @@ title: Time for a Redesign
 date: 2018-04-25T20:40:24+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: It’s that time again.
 category:
   - Website

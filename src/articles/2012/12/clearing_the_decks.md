@@ -3,7 +3,7 @@ title: Clearing the Decks
 date: 2012-12-31T20:00:00Z
 location:
   locality: Walsall
-  country-name: England
+  country_name: England
 summary: As the page turns on another year, just enough time to close the book on a few personal projects and responsibilities. In doing so, I hope to free up some time (and mind space) for new projects to be unveiled in the new year.
 category:
   - Projects

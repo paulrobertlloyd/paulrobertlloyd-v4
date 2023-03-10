@@ -3,7 +3,7 @@ title: 'Weeknotes #5'
 date: 2019-02-10T23:20:00Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: This week has been a rollercoaster of emotions but ended with me feeling hopeful about my job prospects and position within the industry.
 collection: weeknotes
 ---

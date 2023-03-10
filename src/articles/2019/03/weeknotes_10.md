@@ -3,7 +3,7 @@ title: 'Weeknotes #10'
 date: 2019-03-17T14:55:00Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Is nonsense the new normal?
 collection: weeknotes
 ---

@@ -3,7 +3,7 @@ title: Memory Almost Full
 date: 2022-06-27T22:15:00+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Wings? Only the band the Beatles could have been.
 category:
   - Music

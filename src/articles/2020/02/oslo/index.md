@@ -3,7 +3,7 @@ title: 'Scandinavian Sojourn: Oslo'
 date: 2020-02-16T15:15:00Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Saved by the snow.
 photo:
   url: /articles/2020/02/oslo/barcode_project.jpg

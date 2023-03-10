@@ -3,7 +3,7 @@ title: A European Adventure
 date: 2009-05-10T00:33:58+01:00
 location:
   locality: Littlehampton
-  country-name: England
+  country_name: England
 summary: After a number of years focusing my travels around big American cities, today I start a three week jaunt across Europe.
 category:
   - Travel

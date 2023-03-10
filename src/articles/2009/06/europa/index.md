@@ -3,7 +3,7 @@ title: Europa!
 date: 2009-06-13T01:39:10+01:00
 location:
   locality: Walsall
-  country-name: England
+  country_name: England
 summary: As predicted, I was unable to blog during my travels across Europe last month, although less predictable was this being due to the death of my laptop mid-trip. I’ll be posting reports and photos from the cities I visited over the coming weeks, but here are a few general thoughts to start off with.
 category:
   - Travel

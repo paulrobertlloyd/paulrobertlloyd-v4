@@ -3,7 +3,7 @@ title: Flags
 date: 2016-08-19T01:50:00+01:00
 location:
   locality: Royal Leamington Spa
-  country-name: England
+  country_name: England
 summary: There’s a lot of them around. Here are some more.
 photo:
   url: /articles/2016/08/flags/golden_wattle_1.jpg

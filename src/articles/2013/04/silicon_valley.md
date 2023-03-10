@@ -3,7 +3,7 @@ title: Don’t Be Evil, and Get Rich Trying
 date: 2013-04-17T17:57:10+01:00
 location:
   locality: San Francisco
-  country-name: United States
+  country_name: United States
 summary: My short break in California has so far included four hour-long trips on Caltrain as I hop between the cities of San Francisco and Palo Alto. These short periods disconnected from the web, have allowed me to catch up on my reading list.
 category:
   - Facebook

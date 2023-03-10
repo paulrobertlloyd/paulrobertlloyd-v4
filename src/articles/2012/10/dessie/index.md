@@ -3,7 +3,7 @@ title: Dessie
 date: 2012-10-08T19:56:32+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: A page on my website, dedicated to a cat.
 photo:
   url: /articles/2012/10/dessie/image.jpg

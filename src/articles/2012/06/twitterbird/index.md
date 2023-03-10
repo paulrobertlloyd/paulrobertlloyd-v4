@@ -3,7 +3,7 @@ title: Flipping The Bird
 date: 2012-06-08T00:17:17+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: With a worsening financial crisis and continued destruction of the world’s natural resources, there are undoubtedly more important things to worry about than Twitter’s slightly tweaked bird logo. Yet here we are.
 photo:
   url: /articles/2012/06/twitterbird/logo.jpg

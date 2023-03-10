@@ -3,7 +3,7 @@ title: 'Introducing Indiekit: The IndieWeb for Everyone'
 date: 2022-12-17T18:45:00Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Indiekit is the little Node.js server with all the parts needed to publish content to your personal website and share it on social networks.
 category:
   - Projects

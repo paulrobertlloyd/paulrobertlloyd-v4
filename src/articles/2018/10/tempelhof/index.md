@@ -3,7 +3,7 @@ title: Tempelhof
 date: 2018-10-03T23:25:00+02:00
 location:
   locality: Berlin
-  country-name: Germany
+  country_name: Germany
 summary: On German Unity Day, a tour of Tempelhof Airport proved to be a powerful act of remembrance.
 photo:
   url: /articles/2018/10/tempelhof/reception.jpg

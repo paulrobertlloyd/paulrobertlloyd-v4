@@ -3,7 +3,7 @@ title: 'Weeknotes #8'
 date: 2019-03-03T22:10:00Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: New boss, same as the old boss.
 collection: weeknotes
 ---

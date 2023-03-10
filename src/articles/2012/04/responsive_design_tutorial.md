@@ -3,7 +3,7 @@ title: Build a Responsive Website in a Week
 date: 2012-04-27T00:04:26+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Since returning from San Francisco, much of my spare time has been spent writing a tutorial for .net magazine. Published as part of their *Responsive Week*, this is for developers who want to learn about responsive web design but don’t know where to start.
 category:
   - Writing

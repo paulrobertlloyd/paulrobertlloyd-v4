@@ -3,7 +3,7 @@ title: 'Prague: An Adventure in Space and Time'
 date: 2015-09-21T20:49:00+01:00
 location:
   locality: Budapest
-  country-name: Hungary
+  country_name: Hungary
 summary: Comparing a city with those previously visited might not be the best means of appraisal, but that’s what I found myself doing during a three-night stay in Prague.
 photo:
   url: /articles/2015/09/prague/st_vitrus_cathedral.jpg

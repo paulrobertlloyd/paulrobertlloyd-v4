@@ -3,7 +3,7 @@ title: Brighton to Lisbon by Train
 date: 2019-09-02T22:50:00+01:00
 location:
   locality: Lisbon
-  country-name: Portugal
+  country_name: Portugal
 summary: Nine stations. Seven trains. Four countries. 27 and half hours.
 photo:
   url: /articles/2019/09/brighton_to_lisbon/lisbon_metro.jpg

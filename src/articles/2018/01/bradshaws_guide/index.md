@@ -3,7 +3,7 @@ title: Back to Bradshaw’s
 date: 2018-01-02T13:00:00Z
 location:
   locality: Bexhill-on-Sea
-  country-name: England
+  country_name: England
 summary: Having copied, pasted and formatted another 115 pages of OCR’d text, <cite>Bradshaw’s Guide</cite> now contains tours throughout South West England, the West Midlands, Wales and Ireland.
 photo:
   url: /articles/2018/01/bradshaws_guide/map.png

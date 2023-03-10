@@ -3,7 +3,7 @@ title: Briefly Berlin
 date: 2015-03-02T20:44:41Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Before going freelance, I decided to take some time off during February. Part of this included spending a few days in Berlin.
 photo:
   url: /articles/2015/03/berlin/brandenburg_gate.jpg

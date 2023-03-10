@@ -34,7 +34,7 @@ module.exports = async function () {
         const geoString = event['APPLE-STRUCTURED-LOCATION'].val;
         const geoRegex = /geo:(?<latitude>[+-]?\d*\.\d+),(?<longitude>[+-]?\d*\.\d+)/;
         const {latitude, longitude} = geoString.match(geoRegex).groups;
-        event['plus-code'] = encode({latitude, longitude});
+        event.plus_code = encode({latitude, longitude});
         event.venue = event.location.split('\n')[0];
       }
 
@@ -67,7 +67,7 @@ module.exports = async function () {
         rsvp: 'yes',
         category: event.category,
         venue: event.venue,
-        ...(event['plus-code'] && {placeId: event['plus-code']}),
+        ...(event.plus_code && {placeId: event.plus_code}),
       };
     });
 

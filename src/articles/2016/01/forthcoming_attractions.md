@@ -3,7 +3,7 @@ title: Forthcoming Attractions
 date: 2016-01-23T23:20:00Z
 location:
   locality: York
-  country-name: England
+  country_name: England
 summary: With a New Year resolution to get out more, I share a few events I’ve recently bought tickets for. Who knows, you might be interested in them too.
 category:
   - Conferences

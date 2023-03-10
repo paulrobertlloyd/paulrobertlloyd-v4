@@ -3,7 +3,7 @@ title: 'October: So Far, So Fun'
 date: 2011-10-21T00:30:00+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: October has been a crazy month, and I’m not even done with it yet!
 category:
   - Demetri Martin

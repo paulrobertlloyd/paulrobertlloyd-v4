@@ -3,7 +3,7 @@ title: (Re)introducing Bradshaw’s Guide
 date: 2013-04-17T00:48:12+01:00
 location:
   locality: San Francisco
-  country-name: United States
+  country_name: United States
 summary: Based on the 1866 edition of George Bradshaw’s handbook for tourists using Britain’s nascent railway network, my latest project puts his historical insights into the hands of a new generation, many of whom use the same routes he described 150 years ago.
 photo:
   url: /articles/2013/04/bradshaws_guide/iphone.png

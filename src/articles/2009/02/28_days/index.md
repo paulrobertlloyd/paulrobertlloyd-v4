@@ -3,7 +3,7 @@ title: 28 Days
 date: 2009-02-01T22:21:25Z
 location:
   locality: San Francisco
-  country-name: United States
+  country_name: United States
 summary: With January over, and having completed the month without drinking coffee, so on to February and a far more ambitious challenge.
 category:
   - Website

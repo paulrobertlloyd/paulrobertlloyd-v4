@@ -3,7 +3,7 @@ title: Why I’m Voting Yes to AV
 date: 2011-05-05T01:30:51+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Whilst I no longer want to tactically vote or have my MP hold on to a safe seat, I’d much rather see continued reform towards fairer representation across all parts of government.
 category:
   - Politics

@@ -3,7 +3,7 @@ title: Climbing the IndieWeb
 date: 2021-01-02T20:30:00Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: The web is agreement?
 category:
   - IndieWeb

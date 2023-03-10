@@ -3,7 +3,7 @@ title: Bird’s-eye View
 date: 2022-11-14T02:25:00Z
 location:
   locality: Bexhill-on-Sea
-  country-name: England
+  country_name: England
 summary: A welcome moment of reflection regarding Indiekit.
 category:
   - Blogging

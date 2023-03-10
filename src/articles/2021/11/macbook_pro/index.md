@@ -3,7 +3,7 @@ title: The new MacBook Pro
 date: 2021-11-05T21:00:00Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Good things come to those who wait.
 photo:
   url: /articles/2021/11/macbook_pro/image.jpg

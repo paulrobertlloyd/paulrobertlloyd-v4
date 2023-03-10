@@ -3,7 +3,7 @@ title: Cologne
 date: 2009-05-15T23:23:18+01:00
 location:
   locality: Innsbruck
-  country-name: Austria
+  country_name: Austria
 summary: The first stop on my nine city tour of Europe, was Cologne in Northern Germany.
 photo:
   url: /articles/2009/05/cologne/image.jpg

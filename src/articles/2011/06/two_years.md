@@ -3,7 +3,7 @@ title: Two Years
 date: 2011-06-08T23:46:23+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Two years ago I joined Clearleft. Now with the responsive design movement in full swing, I look back over the last two years to see how much my approach to web design has changed.
 category:
   - Clearleft

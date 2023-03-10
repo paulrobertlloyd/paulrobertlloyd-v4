@@ -3,7 +3,7 @@ title: Stephen Colbert’s Late Show
 date: 2015-09-16T20:49:00+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: A few thoughts on the new <cite>Late Show with Stephen Colbert</cite>.
 photo:
   url: /articles/2015/09/stephen_colbert_late_show/image.jpg

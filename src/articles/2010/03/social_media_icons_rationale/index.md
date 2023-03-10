@@ -3,7 +3,7 @@ title: 'Social Media Icons: A Rationale'
 date: 2010-03-15T09:30:00Z
 location:
   locality: Littlehampton
-  country-name: England
+  country_name: England
 summary: I’ve finally released the long awaited update to my popular social media icon set adding 12 new icons and a few design tweaks for good measure.
 category:
   - Projects

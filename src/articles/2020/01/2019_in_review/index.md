@@ -3,7 +3,7 @@ title: 2019 in Review
 date: 2020-01-06T00:15:00Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Finding a sanctuary but losing my voice.
 photo:
   url: /articles/2020/01/2019_in_review/image.jpg

@@ -3,7 +3,7 @@ title: 'Raising the Games: Volunteering at Glasgow 2014'
 date: 2014-08-09T17:51:10Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Earlier this month I spent a week volunteering at the XX Commonwealth Games in Glasgow.
 photo:
   url: /articles/2014/08/clyde_sider/hampden.jpg

@@ -42,10 +42,10 @@ module.exports = function () {
       place.index = place.title.charAt(0).toLowerCase();
 
       // Get address as a formatted string
-      place.sructuredLocation = `${place.title}\n${place.address['street-address']}, ${place.address['postal-code']}, ${place.address['country-name']}`;
+      place.structuredLocation = `${place.title}\n${place.address.street_address}, ${place.address.postal_code}, ${place.address.country_name}`;
 
       // Get geo and place id from plus code
-      place.geo = decode(place.address['plus-code']);
+      place.geo = decode(place.address.plus_code);
 
       return place;
     })

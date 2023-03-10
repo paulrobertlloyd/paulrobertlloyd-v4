@@ -3,7 +3,7 @@ title: Conferences Shouldn’t Cost the Earth
 date: 2016-08-25T14:30:00+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Given the worsening ecological situation, can showering conference attendees with gifts still be seen as an act of thoughtfulness?
 category:
   - Sustainability

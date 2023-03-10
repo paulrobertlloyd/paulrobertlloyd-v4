@@ -5,7 +5,7 @@ pagination:
   size: 1
   alias: place
   addAllPagesToCollections: true
-permalink: "places/{{ place.address['plus-code'] | downcase }}/"
+permalink: "places/{{ place.address.plus_code | downcase }}/"
 tags: place
 vocab: card
 changefreq: monthly

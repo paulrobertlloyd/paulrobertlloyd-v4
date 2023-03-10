@@ -3,7 +3,7 @@ title: An Inconvenient Update
 date: 2009-02-14T23:37:18Z
 location:
   locality: Littlehampton
-  country-name: England
+  country_name: England
 summary: In what has become something of a rarity, I sat down in front of the television yesterday evening. Upon turning on the set-top box, I was greeted with an interesting message.
 category:
   - Technology

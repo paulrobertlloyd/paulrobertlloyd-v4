@@ -3,7 +3,7 @@ title: Thinking out loud about static site generators
 date: 2023-02-23T22:30:00Z
 location:
   locality: Bristol
-  country-name: England
+  country_name: England
 summary: Choosing a new static site generator to power this website.
 category:
   - Website

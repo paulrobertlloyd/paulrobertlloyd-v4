@@ -15,7 +15,7 @@
 {%- if place -%}
     <dt class="u-visually-hidden">Location</dt>
     <dd class="p-location h-card">
-      <a class="u-url" href="/places/{{ place.address['plus-code'] | downcase }}">
+      <a class="u-url" href="/places/{{ place.address.plus_code | downcase }}">
         <span class="p-name">{{ place.title | markdown: 'inline' }}</span>, <span class="p-adr h-adr p-locality">{{ place.address.locality }}</span>
       </a>
     </dd>

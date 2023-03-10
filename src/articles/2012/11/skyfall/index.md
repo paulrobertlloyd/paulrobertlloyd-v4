@@ -3,7 +3,7 @@ title: Skyfall
 date: 2012-11-04T21:35:20Z
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Fifty years after the release of <cite>Dr. No</cite>, James Bond returns in <cite>Skyfall</cite>, the twenty-third instalment of the longest continually-running film series in history.
 photo:
   url: /articles/2012/11/skyfall/image.jpg

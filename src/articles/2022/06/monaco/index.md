@@ -3,7 +3,7 @@ title: The Monaco Grand Prix
 date: 2022-06-03T16:45:00+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: At the third time of asking, myself and Cennydd went to the Monaco Grand Prix.
 photo:
  url: /articles/2022/06/monaco/image.jpg

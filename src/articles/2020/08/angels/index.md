@@ -3,7 +3,7 @@ title: I’m Loving Angels Instead
 date: 2020-08-21T20:50:00+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: A remarkable present for my 40th birthday.
 photo:
   url: /articles/2020/08/angels/image.png

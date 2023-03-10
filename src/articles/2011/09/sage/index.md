@@ -3,7 +3,7 @@ title: Sage
 date: 2011-09-27T23:26:56+01:00
 location:
   locality: Brighton
-  country-name: England
+  country_name: England
 summary: Today I was told the sudden and unexpected news that one of my family’s pets, Sage, had been put to sleep. Unbeknown to us, his body was being ravaged by a cancerous tumour so aggressive, that it only made itself visible last weekend. He had days to live.
 photo:
   url: /articles/2011/09/sage/image.jpg
