@@ -20,7 +20,7 @@ photoset:
 Whenever I’m working for a client based in or near London, I try to find things to see and do in the capital after work. With that in mind, last Friday I jumped on the train to Waterloo to see [Lumiere][1], a festival of illuminated art.
 
 ![](centre_point_lights.jpg '<cite>Centre Point Lights</cite>, temporarily positioned in front of the National Gallery in Trafalgar Square.')
-{.u-align-bleed}
+{.align-bleed}
 
 Of course, this being London, many of the pieces were undermined by the shear number of people attracted to them like moths to a flame — the sculptures situated in Grosvenor Square proving particularly difficult to appreciate. The most effective were those that took account of the need to address a large audience without being obstructed by it; Janet Echelman’s <cite>1.8 London</cite>, a large illuminated net floating above Oxford Circus like an alien Jellyfish, was possibly the best example of this. So too was Patrice Warrener’s <cite>The Light of The Spirit</cite>, a gorgeous projection onto the facade of Westminster Abbey.
 

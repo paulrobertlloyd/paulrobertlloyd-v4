@@ -14,7 +14,7 @@ Given the obsessive compulsive behaviour I exhibit when it comes to tinkering wi
 This year’s Indie Web Camp in Brighton was the latest deadline I’d set for myself to launch the damn thing. Wanting to play with webmentions, and with [Jeremy][3] on hand to provide adequate peer pressure, this was the spur needed to [push me across the finish line][4]. What I launched felt pretty embarrassing, so I’ve spent last week revising and polishing to the point that I can finally say: “okay, you can look now”.
 
 ![](blue_marlin.jpg 'The [MV Blue Marlin](https://en.wikipedia.org/wiki/MV_Blue_Marlin), a ship that can ship shipping ships.')
-{.u-align-bleed}
+{.align-bleed}
 
 ## Moving on from Movable Type
 

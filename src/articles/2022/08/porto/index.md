@@ -38,7 +38,7 @@ Perhaps that’s why here, especially, the iPhone’s camera isn’t up to the t
 Anyway, here’s a photo I took of the Dom Luís I Bridge during golden hour earlier. Goddamnit, it was so much more awesome than this.
 
 ![A small yellow boat sits below the Dom Luís I Bridge during golden hour.](image.jpg "Dom Luís I Bridge, Porto.")
-{.u-align-bleed}
+{.align-bleed}
 
 [^1]: The city’s brand on the other hand is applied diligently, consistently and thoughtfully. I’d write a separate post, but [Gareth Strange said everything I’d ever want to say on the topic](https://johnandjane.agency/journal/place-branding).
 

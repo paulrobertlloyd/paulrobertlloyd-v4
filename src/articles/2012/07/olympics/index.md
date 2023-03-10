@@ -15,7 +15,7 @@ tags:
   - featured
 ---
 ![](image.jpg 'Olympic Opening Ceremony rehearsals.')
-{.u-align-bleed}
+{.align-bleed}
 
 I’ve always been fascinated by the Olympics. I vaguely remember the Seoul games of 1988, but I do recall watching cycling and athletics in Barcelona four years later. I’ve been glued to the television for subsequent games, although Athens 2004 has faded from memory. Beijing was magical, made sweeter by a surprising British medal haul. Heightened expectations have followed our athletes ever since.
 

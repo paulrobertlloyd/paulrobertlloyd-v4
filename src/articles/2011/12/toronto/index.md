@@ -12,7 +12,7 @@ category:
   - Canada
 ---
 ![](skyline.jpg 'Toronto’s skyline, as seen from Casa Loma.')
-{.u-align-bleed}
+{.align-bleed}
 
 Some cities are best arrived at by air; only by flying over Sydney, London or New York do you get a sense of their scale and majesty. Some of the best views of San Francisco can be seen as you cross the Bay Bridge by car. Others cities beg for arrival by train.
 

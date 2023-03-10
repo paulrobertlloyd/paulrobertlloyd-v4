@@ -30,7 +30,7 @@ Moral of the story? If you want to travel across Spain using an Interrail pass, 
 Anyway, it’s not all bad. Here’s the view from my bedroom window. Hopefully, the remainder of my trip will be as idyllic.
 
 ![Looking across over a beach and enclosed bay, bathed in bright sunlight.](san_sebastian.jpg 'La Concha beach and bay, San Sebastián.')
-{.u-align-bleed}
+{.align-bleed}
 
 [1]: /travel/2022/08/paris_donostia_vigo_porto_and_madrid/
 [2]: https://www.interrail.eu

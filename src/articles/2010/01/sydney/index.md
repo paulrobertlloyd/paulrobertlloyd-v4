@@ -13,7 +13,7 @@ category:
   - New Years
 ---
 ![](harbour.jpg 'View of Sydney Harbour on the approach to Sydney Airport.')
-{.u-align-bleed}
+{.align-bleed}
 
 Since visiting Sydney in 2003 I’ve been longing to return. In the intervening years I’ve visited more cities and for a time considered Chicago to be my new favourite — understandable given my love of architecture. As I flew over Sydney Harbour I quickly realised I was wrong.
 
@@ -24,7 +24,7 @@ Indeed, I was surprised by just how much this city has a hold over me. I was gid
 The main reason I returned was to see the famous New Year firework display over Sydney Harbour, but lack of planning was soon evident. I arrived at the Domain to gain entry into Mrs. Macquaries Point just after noon, but with twelve hours still to pass before midnight, I was met with a snaking queue that took over two hours to complete. This viewpoint had capacity for 20,000 people, yet the entire Harbour was home to an estimated 1.5 million spectators.
 
 ![](nye.jpg 'The crowds patiently wait to see the firework display from Mrs. Macquaries Point.')
-{.u-align-bleed}
+{.align-bleed}
 
 Not the most sociable of people, I eventually got talking to a family of Danes who were kind enough to watch over my small spot of turf whilst I went in search of refreshment, and laughed at a nearby Brit who was not only entertaining his friends but those sat around him also. Yet without any of my own friends, or a radio to hear the soundtrack that accompanied the display, it felt like an anti-climatic affair.
 

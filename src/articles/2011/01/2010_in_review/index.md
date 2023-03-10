@@ -17,7 +17,7 @@ Last year was notable for a [running theme on sustainability][1]; both in the to
 2010 began [watching Sydney’s famed firework display][2] from a crowded viewpoint near Mrs. Macquarie’s Chair. Large crowds and the absence of friends meant it was somewhat anti-climatic, but I’m still glad to have experienced the event first-hand.
 
 ![](melbourne.jpg 'Reflection of Melbourne’s CBD in a window at Albert Park.')
-{.u-align-bleed}
+{.align-bleed}
 
 I ended my three weeks down under in [Melbourne][3]. As the cultural capital of Australia, I happily spent half a day engrossing myself in the exhibits on display in the Olympic Museum at the National Museum of Sport. I could have spent the rest of the day there, but the rare opportunity to be given a tour of the city by friend and former colleague [Phil McCluskey][4] was too good to miss.
 
@@ -48,7 +48,7 @@ Gripped by the previous year’s Formula One season, it was with much anticipati
 ## April
 
 ![](ashes_to_ashes.jpg 'Gene Hunt and Jim Keats from the final series of Ashes to Ashes.')
-{.u-align-pull}
+{.align-pull}
 
 April saw the concluding series of [Ashes to Ashes][11], leading up to the reveal of who, or what, Gene Hunt really was in May. Its testament to the writing and excellent cast that the final episode has stayed with me since — possibly the finest ending to a drama series I’ve ever seen. If only the same could have been said for the Leaders debates,  that was also essential viewing throughout the month.
 
@@ -67,7 +67,7 @@ With Dave Gray, one of UX London’s speakers staying in the UK after the confer
 ## June
 
 ![](lomo_workshop.jpg 'My favourite photo taken during Lomo Workshop.')
-{.u-align-bleed}
+{.align-bleed}
 
 One weekend in June saw the entire web development community descend on Brighton to celebrate [Nat and Simon’s wedding][16], which was notable if only for the wildlife on display.
 
@@ -90,7 +90,7 @@ I started this month not knowing whether I was coming or going. Moving into my n
 The [annual weekend in Wales][21] felt a bit strange this year as we could no longer use the same field in Dollgeau we had camped on for the last seven years. Marred by bad weather and the new surroundings, I have mixed feelings as to whether the tradition should continue, but I’m prepared to give it another go this year just to be sure.
 
 ![](isle_of_skye.jpg 'Quiraing, Isle of Skye.')
-{.u-align-bleed}
+{.align-bleed}
 
 Having decided earlier in the year that I wasn’t going to fly, my holiday was always going involve travelling somewhere by train. After briefly considering a trip around northern Europe, I instead opted for a tour of Scotland, taking in the [Isle of Skye][22], the [Highlands][23] and ending with four days in [Edinburgh][24] where I enjoyed its many sights by day and the Fringe Festival by night. The whole trip was magical and a useful reminder that you don’t need to travel halfway round the world to find great scenery, culture and entertainment.
 
@@ -103,7 +103,7 @@ As ever, September kicked off with dConstruct, and this was widely regarded as [
 Thanks to Clearleft’s work on the Radio 4 site earlier in the year, me and [Andy][28] were invited to a night at the Proms — a first for me, although it may have been more enjoyable had I remembered my glasses!
 
 ![](maria.jpg 'Maria.')
-{.u-align-pull}
+{.align-pull}
 
 However September will forever be marked for another reason, as I became an uncle for the first time. My brother and wife had their first child, Maria; it’s going to be fascinating watching her grow over the coming years, and it’s certainly given me a new perspective on the world.
 
@@ -118,7 +118,7 @@ I also went to see Jimmy Carr, whose show was hilarious to start with, but becam
 November saw me attend my niece’s Christening, a bittersweet affair knowing my brother’s family would be leaving for a new life in Brazil soon after.
 
 ![](belfast_city_hall.jpg 'Belfast City Hall.')
-{.u-align-bleed}
+{.align-bleed}
 
 I also attended Build Conference, an event that has quickly earned a reputation for both its speakers and the surrounding fringe events. I left with plenty of ideas on how Clearleft can improve our own conferences, yet also mindful that Build could take lessons from our own events too. I was surprised by just how much [I enjoyed Belfast][29], and was glad I could grab lunch with an old friend form Uni whilst I was there too. Given that it was a 17 hour long train ride to Northern Ireland, I wanted to make sure I spent [a few days in Dublin][30] on the way back. I was pre-warned that the city was neither interesting or that representative of Ireland, and I think that was proven.
 

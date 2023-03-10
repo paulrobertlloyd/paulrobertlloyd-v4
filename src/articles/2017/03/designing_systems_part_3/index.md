@@ -15,7 +15,7 @@ category:
   - Web
 ---
 ![](brasilia_motifs.jpg 'Common architectural motifs can be seen across many of Brasília’s civic buildings.')
-{.u-align-bleed}
+{.align-bleed}
 
 When I visited Brasilìa in 2011, I observed the [repeating architectural motifs][1] used by Oscar Niemeyer across his different signature buildings. Common themes included:
 
@@ -196,7 +196,7 @@ That’s how I tend to approach building my components, and your millage my vary
 Let’s return to Brasília. While Niemeyer’s buildings are gorgeous, they suffer from an emphasis on form over function. For example, the National Congress has a huge ramp at the front that would appear to be its entrance. In fact it’s purely decorative; a point reinforced by a barrier that sits half way up to prevent the public clambering onto the roof, which itself occupied by armed guards!
 
 ![](brasilia_national_congress.jpg 'The National Congress building in Brasilìa. Photograph: [Juniorseropedica](https://commons.wikimedia.org/wiki/File:Congresso_nacional_Bras%C3%ADlia.jpg)')
-{.u-align-bleed}
+{.align-bleed}
 
 Costa’s layout suffers similarly. Along the city’s main axis exist large areas of green space. I’m sure these satisfied an objective of providing open areas for people to relax in, yet their simplistic placement ignores the fact that to reach them you need to cross six lanes of traffic.
 

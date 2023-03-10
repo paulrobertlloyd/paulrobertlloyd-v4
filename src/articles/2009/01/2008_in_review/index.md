@@ -28,7 +28,7 @@ One benefit of this new capacity for self-determination was that it allowed for 
 In anticipation of my travels, I purchased a more professional camera in the shape of the [Canon Powershot G9][7]. With a large set of manual controls, the capacity to shoot raw, and the ability to add lens filters, whilst small enough to fit in my pocket, this camera seemed most suited to my needs when compared to a larger dSLR that I would have to lug around.
 
 ![](nebraska.jpg 'Waking up on the third day of my trip on the California Zephyr, I was greeted by this amazing sunrise over Nebraskan farmland.')
-{.u-align-bleed}
+{.align-bleed}
 
 My itinerary in March took in the [SXSW Interactive festival][8] in Austin, Texas, then San Francisco to catch up with friends, from where I jumped onto an Amtrak bus to Emeryville, and then onwards to Chicago via the splendid [California Zephyr][9]. Whilst I was only in Chicago for two nights, it left enough of an impression for me to [return in October][10].
 
@@ -37,7 +37,7 @@ Summer was a little less hectic on the travel front, but after visiting my frien
 Of course the highlight of each summer, is a weekend spent with many friends on a camp site Dolgellau, North Wales. What started as an event focused on cycling (the nearby Coed-y-Brenin Forest is famed for its mountain bike trails) has since become more about getting away from it all, and relaxing in the [beautiful Welsh country side][15]. That and of course firing bottle rockets, chopping down trees, and [playing with boats in the river][16]!
 
 ![](seattle.jpg 'Seattle’s Space Needle, taken from Queen Anne Hill.')
-{.u-align-pull}
+{.align-pull}
 
 By October I was back on a plane heading stateside, this time with a plan to visit [Seattle][17], San Francisco, [Chicago][10] and [Washington DC][18]. A somewhat mixed trip, mainly due to a few mishaps on my part (I missed both my flight from San Francisco to Chicago, and my Amtrak connection from Chicago to DC) it was still chock-full of highlights. Dinning at the top of the Space Needle, sailing with the team from Apture on San Francisco Bay (with the [Blue Angels][19] flying only feet above us as they practised for Fleet Week) and an Architecture Boat Tour on the Chicago River stand out as some of the many memorable moments from this three week jaunt.
 

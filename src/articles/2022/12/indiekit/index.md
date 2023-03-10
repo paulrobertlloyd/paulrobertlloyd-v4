@@ -29,7 +29,7 @@ Here’s a quick feature overview:
 Indiekit is extensible via a [plug-in API][4] and localised for use in [a growing number of languages][5].
 
 ![The Indiekit interface in a browser window, showing a grid of published posts.](posts.png "Indiekit’s content management interface.")
-{.u-align-bleed}
+{.align-bleed}
 
 This project has been in development for over 3 years (it’s 40 months to the day since [I released v0.0.1][6]), and there’s still more work to do. But as the saying goes, if you’re not embarrassed by your first release, you’ve waited too long.
 
@@ -50,7 +50,7 @@ Building functional prototypes using the [GOV.UK Prototype Kit][17] – with hel
 Working in government also influenced Indiekit’s design. Sometimes I feel like I’ve undergone a re-education programme, my taste having evolved from minimalist to functional. You’ll notice similarities to Indiekit if you’ve ever used a service on GOV.UK, but if not, you’ll appreciate its uncomplicated design.
 
 ![The Design Museum’s website in a browser window with a smaller window floating above it, displaying a form to save this link with a title and supporting content.](bookmarklet.png "Creating a bookmark post with Indiekit’s bookmarklet.")
-{.u-align-bleed}
+{.align-bleed}
 
 ## Born of frustration
 

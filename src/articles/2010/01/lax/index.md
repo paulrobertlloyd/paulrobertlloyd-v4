@@ -14,7 +14,7 @@ category:
 discussion: closed
 ---
 ![](image.jpg 'The Encounter Restaurant at LAX, where I would have eaten that evening had I not been interviewed by immigration officers. Photograph: [J Brew](https://www.flickr.com/photos/brewbooks/225876606/)')
-{.u-align-bleed}
+{.align-bleed}
 
 I hoped that almost missing my flight would be the worst my trip to New Zealand would have to offer, but thanks to overzealous immigration officials at LAX, that was nothing but a minor blip.
 

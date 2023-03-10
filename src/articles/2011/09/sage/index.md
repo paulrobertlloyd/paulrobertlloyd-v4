@@ -13,7 +13,7 @@ category:
   - Family
 ---
 ![](image.jpg 'Sage.')
-{.u-align-bleed}
+{.align-bleed}
 
 Today I was told the sudden and unexpected news that one of my family’s pets, [Sage][1], had been put to sleep. Unbeknown to us, his body was being ravaged by a cancerous tumour so aggressive, that it only made itself visible last weekend. He had days to live.
 

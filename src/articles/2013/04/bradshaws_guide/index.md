@@ -17,7 +17,7 @@ discussion: closed
 accent_color: '#e6772e'
 ---
 ![](iphone.png 'Bradshaw’s Guide being viewed on an iPhone.')
-{.u-align-bleed}
+{.align-bleed}
 
 This blog has been fairly quiet over the last few months. Not because I’ve got a shortage of things to say, far from it. In fact, such is the backlog of posts, I’m dedicating much of my week-short break here in San Francisco to catching up.
 

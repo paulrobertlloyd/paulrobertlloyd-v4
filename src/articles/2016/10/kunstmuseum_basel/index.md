@@ -15,7 +15,7 @@ tags:
   - featured
 ---
 ![](extension.jpg 'The new building of the Kunstmuseum Basel. Photograph: [Julian Salinas](https://kmb.picturepark.com/Go/JLVo8XZu)')
-{.u-align-bleed}
+{.align-bleed}
 
 After speaking at [Smashing Conference in Freiburg][1] last month, I spent the following 6 days visiting the nearby cities of Basel and Strasbourg. Of the three, Freiburg was the most enjoyable — a reminder of my fondness for Germany — while Strasbourg took the prize for being the most beautiful. Basel however, felt somewhat soulless and bland, recalling memories of a previous visit to Zurich. Perhaps unsurprisingly, I spent a good portion of my time in Basel actually a couple of miles away at the [Vitra campus][2], situated across the border in Weil am Rhein, Germany.
 
@@ -50,7 +50,7 @@ Moving on to the original building, art of the classical periods was abundant, w
 New to me however was the work of **[Ernst Ludwig Kirchner][12]**, whose blocky and colourful expressionist style was used to describe the appearance of a snow covered Davos. This was one of his many paintings of the Swiss municipality, this being the place that [rekindled his love of art][12], having suffered a much darker existence in his native Berlin.
 
 ![](hodler.jpg 'Ferdinand Hodler, <cite>The Dents Blanches In Champéry At The Morning Sun</cite>, 1916.')
-{.u-align-bleed}
+{.align-bleed}
 
 Finally, I was drawn to this painting by **[Ferdinand Hodler][13]**. Again, the expressionist style appealed to me, not least its vivid palette and the contrasting highlights along the mountainside. I’d experiment with this style myself, if I painted. Hmmm, maybe I should start?
 

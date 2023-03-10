@@ -19,7 +19,7 @@ photoset:
     alt: De Rotterdam
 ---
 ![](centraal_station.jpg 'Rotterdam Centraal Station.')
-{.u-align-bleed}
+{.align-bleed}
 
 After [speaking at CSS Day in Amsterdam][1], I decided to head back to Brighton via a few cities in Europe’s low countries.
 
@@ -40,7 +40,7 @@ Skyscrapers are a familiar sight in Rotterdam. This is especially true of the ne
 Buildings here include [Maastoren][4], the tallest building in the Benelux region, and [De Rotterdam][5], whose four substantial towers, each offset half way up, combine to form the most densely built part of the Netherlands. The area is joined to the city by the [Erasmusbrug][6], a landmark nicknamed the Swan due the design of its asymmetric white pylon.
 
 ![](erasmusbrug.jpg 'Erasmusbrug or The Swan.')
-{.u-align-bleed}
+{.align-bleed}
 
 Other parts of the city are more human scaled, although even the Cool district, with its tree lined streets, are framed by the sight of tower blocks in the distance. The location of many restaurants and bars, it was here that I decided that this is a very easy city to live in — although the delicious coffee and a Chorizo and Cheese tosti from [Hooper Coffee][7] may have swayed me!
 
@@ -63,7 +63,7 @@ While not as tall or as beautiful as other tall towers, it is more frightening t
 Another series of distinctive buildings can be found around Blaak railway station, the newest of which is the Markthal, a large arch-like structure enclosed with glass walls at each end and featuring ceiling art displaying enlarged fruits and vegetables. The strangest of Rotterdam’s buildings however must be the [Cube Houses][12], designed by [Piet Blom][13].
 
 ![](cube_houses.jpg 'Piet Blom’s Cube Houses.')
-{.u-align-bleed}
+{.align-bleed}
 
 Envisaged as an urban forest, this series of 40 cubes, each tilted at an angle of 45 degrees and perched upon hexagonal concrete trunks, allows residents to feel connected both to the street below, and the sky above. A show cube is open to the public, so I couldn’t resist peeking inside. As suspected, these homes are demonstrative of form over function; dangerously steep stairs lead up to a space divided into three floors, with small rooms constrained by steeply slopping ceilings.
 

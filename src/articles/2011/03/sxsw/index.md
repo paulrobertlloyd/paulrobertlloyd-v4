@@ -15,7 +15,7 @@ tags:
   - featured
 ---
 ![](austin_sign.jpg 'A sign reading Austin.')
-{.u-align-bleed}
+{.align-bleed}
 
 It’s been three years since I last visited the United States. For a small but considerable part of my life this place was home; an experience that’s left me as equally fascinated by its people and culture as I remain frustrated.
 

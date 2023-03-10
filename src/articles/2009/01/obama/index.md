@@ -14,7 +14,7 @@ category:
   - United States
 ---
 ![](rally.jpg 'Barack Obama at a campaign rally in Pueblo, Colorado. Photograph: [Criz Stoddard](https://www.flickr.com/photos/zyrc/2993189541/)')
-{.u-align-bleed}
+{.align-bleed}
 
 Growing up, my brother was always the one in our family more interested in American culture. Whilst he followed the NBA and listened to Public Enemy, Wu-Tang Clan and Eminem, I stood to the National Anthem and worried about Britain’s growing closeness to Europe. America was of little importance to me.
 
@@ -29,7 +29,7 @@ I was amazed by the level of political awareness and activism that existed, perh
 Whilst I was now quite immersed in (some sort of) American way of life, I’m not sure when Obama first came to my attention. I do distinctly remember watching his announcement from Springfield, IL, in which he confirmed he was running for President, and already knew that he was the candidate I’d be supporting. Over time, his non-combative style, grace under pressure and call for change cemented that decision, whilst the way in which he embraced design, technology and the internet was encouraging given my interest in those areas.
 
 ![](hope_poster.png 'Barack Obama ‘Hope’ poster by Shepard Fairey.')
-{.u-align-pull}
+{.align-pull}
 
 By the time of the [Iowa Caucuses][3], and [New Hampshire primaries][4] I decided that I’d be returning to the UK. Yet I continued to watch the election with a keen interest, watching every debate, every concession speech, every victory rally.
 

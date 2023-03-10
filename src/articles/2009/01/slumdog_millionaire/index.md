@@ -10,7 +10,7 @@ category:
 discussion: closed
 ---
 ![](image.jpg 'Ayush Mahesh Khedekar as the young Jamal Malik.')
-{.u-align-bleed}
+{.align-bleed}
 
 Slumdog Millionaire is the story of an impoverished Indian teen who is one question away from winning the top prize in the Indian version of Who Wants To Be A Millionaire. As further explained in the [IMDb synopsis][1]:
 

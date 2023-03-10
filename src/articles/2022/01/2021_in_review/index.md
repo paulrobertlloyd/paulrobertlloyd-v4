@@ -17,7 +17,7 @@ accent_color: '#a4d'
 As the gently rolling waves shimmered in the late summer sunlight, I waded into the Solent. I had taken up sea swimming at the start of the second lockdown, but only now could I enjoy warmer waters. It was a rare moment of peace in a year of heartbreak and loss.
 
 ![Two people walk near the West Pier as dusk sets in.](west_pier_sunset.jpg 'Two people walk near the West Pier as dusk sets in. 23 January 2021.')
-{.u-align-bleed}
+{.align-bleed}
 
 I began the new year confident and happy, if not a little guilty [to have thrived so thoroughly][1] when others had found 2020 to be so challenging. It seemed implausible that 2021 would be as good, but expectations were high.
 
@@ -112,7 +112,7 @@ As we all parted ways, I was faced with a choice: walk with Rachael, where I wou
 After several weeks of intrigue and misdirection, the conclusion to <cite>Line of Duty</cite> was disappointing and made little sense. The same was true of our conversation.
 
 ![Stormy weather around the West Pier.](west_pier_storm.jpg 'Stormy weather around the West Pier. 21 May 2021.')
-{.u-align-bleed}
+{.align-bleed}
 
 And then everything dramatically changed.
 
@@ -187,7 +187,7 @@ That evening, Jon and Katie put together a small birthday party for me. Outside 
 For all the misery and sadness the year delivered, it was gestures like this that brought moments of joy. I’m thankful to have such wonderful and thoughtful friends.
 
 ![Weeds grow around railings on Brighton’s beachfront.](weeds.jpg 'It feels like I only go backwards, baby. 4 August 2021')
-{.u-align-bleed}
+{.align-bleed}
 
 Birthdays out of the way and summer nearing its end, I hoped to draw a line under everything and finally move forward. “I always thought you two should just talk” Rachael told me. For all of our messages and conversations earlier in the year, I’m not sure we ever really communicated properly. A lot was left unsaid, certainly from my perspective.
 
@@ -240,7 +240,7 @@ My heart sank as I entered the venue. Everybody was there, even colleagues who h
 I sent her a message the next day but got no reply.
 
 ![A dilapidated West Pier.](west_pier.jpg 'All things must pass. 11 August 2021.')
-{.u-align-bleed}
+{.align-bleed}
 
 > Just because I’m hurting\
 > Doesn’t mean I’m hurt\

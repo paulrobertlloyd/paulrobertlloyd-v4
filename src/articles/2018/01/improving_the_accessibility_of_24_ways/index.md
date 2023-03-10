@@ -102,7 +102,7 @@ I’ve found that by thinking about an interface in terms of common interaction 
 ## Properly labelling elements
 
 ![](traverse.png 'Navigation component that allows users to move between articles in a series.')
-{.u-align-pull}
+{.align-pull}
 
 A good amount of accessibility comes down to labelling things that rely on visual appearance alone to convey meaning. Much like the `alt` attribute allows us to describe images, `aria-label` (and its relations) [extend this ability to other elements][13].
 

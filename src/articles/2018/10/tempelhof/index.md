@@ -31,7 +31,7 @@ Venturing onwards, we find ourselves below the terminal where several additional
 In 1951, part of the building was given over to commercial air travel. Like elsewhere in Berlin, dividing walls could be found as passengers were not permitted access to areas occupied by the US Air Force. While civilians were checking-in for flights on the lower levels, above them G.I.s might be playing basketball in part of the building originally intended as a ballroom for Hitler and his entourage.
 
 ![](facade.jpg 'Behind the limestone facade.')
-{.u-align-pull}
+{.align-pull}
 
 Before returning to the reception hall, we move into a small, unassuming entrance area featuring a low-hung ceiling. Our guide points to a series of thick pillars that line the walls and suggests that they appear out of place given the room’s meagre proportions. Only upon visiting the floor above do these make sense. This entrance was originally a much taller hall, and these pillars reached up to a decorated ceiling 15 meters above (since blackened and damaged during the terminal’s brief Soviet occupation). The floor was added by the Americans in an attempt to denazify the space else “Germans might enter the building and unconsciously raise their hand”.
 

@@ -17,7 +17,7 @@ photoset:
     alt: Senate Room
 ---
 ![](parliament.jpg 'Canadian parliament buildings in Ottawa.')
-{.u-align-bleed}
+{.align-bleed}
 
 After [four days in Washington][1], it was on to another North American capital, Ottawa.
 

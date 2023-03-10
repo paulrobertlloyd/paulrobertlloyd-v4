@@ -16,7 +16,7 @@ I’d like to think I’m mellowing with age, but if there’s one topic that st
 You only need to look at the [record temperatures][1] we’ve been seeing this year, or [the rate at which Arctic sea ice is disappearing][2]. Climate change is real, happening, and pretty much inescapable.
 
 [Watch ‘Five-year global temperature anomalies from 1880 to 2015’ on YouTube](https://www.youtube.com/watch?v=SWPzGo_C010 'Five-year global temperature anomalies from 1880 to 2015.')
-{.u-align-pull}
+{.align-pull}
 
 To call this a crisis isn’t hyperbole, yet some still protest against the facts. With these seeds of doubt planted, we’ve yet to see any behavioural shifts, like a return to the wartime spirit of make-do-and-mend and a culture of thriftiness. Alternatively, and whatever analogy you wish to use, be it [boiling frogs][3], or [the fate of settlers on Easter Island][4], maybe humans have an innate bias towards short-term gains over long-term losses, with anything beyond the horizon easily ignored. Either way, I find this mis-match deeply puzzling.
 

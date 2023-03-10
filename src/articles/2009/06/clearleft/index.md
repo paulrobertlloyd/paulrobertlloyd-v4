@@ -16,7 +16,7 @@ tags:
 discussion: closed
 ---
 ![](image.jpg 'The Clearleft team. Photograph: [Jack Barnes](https://www.flickr.com/photos/paulannett/3256245742/)')
-{.u-align-bleed}
+{.align-bleed}
 
 This month saw me become the ninth member of the Brighton based web agency [Clearleft][1].
 

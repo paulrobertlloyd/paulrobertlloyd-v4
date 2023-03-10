@@ -16,7 +16,7 @@ tags:
 *This article is [also available in Italian][it-IT]{hreflang="it-IT" rel="alternate external"}*
 
 ![](image.png 'Illustration: [Brad Colbow](http://alistapart.com/author/bradcolbow) for A List Apart.')
-{.u-align-bleed}
+{.align-bleed}
 
 Before the arrival of smartphones and tablets, many of us took a position of blissful ignorance. Believing we could tame the web’s inherent unpredictability, we prescribed requirements for access, prioritizing our own needs above those of users.
 

@@ -18,7 +18,7 @@ tags:
 discussion: closed
 ---
 ![](artists_impression_1.jpg 'Artists impression of the new Library of Birmingham.')
-{.u-align-bleed}
+{.align-bleed}
 
 Having looked fondly on previous visits to Birmingham Central Library, it was with much excitement that I returned again on Saturday, hoping to find some reference material for a forthcoming post.
 

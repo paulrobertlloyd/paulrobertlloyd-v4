@@ -34,7 +34,7 @@ In the final week of my contract, I took part in the beta service assessment. Th
 Now it was [time for a well-earned break][3].
 
 ![Purple-tinged buildings arranged on the side of hill, above a river at dusk.](porto.jpg "Porto being its ridiculously beautiful self.")
-{.u-align-bleed}
+{.align-bleed}
 
 I stayed with my brother for the first two weeks of August to look after my two eldest nieces. We held a baking competition and a karaoke show, binged all four seasons of <cite>Stranger Things</cite>, enjoyed an afternoon at an adventure park and spent a few evenings eating out. I even managed the odd parenting win.
 
@@ -47,7 +47,7 @@ Also, turns out getting to Porto by train is non-trivial. Thanks to the permanen
 Soon after returning from Porto, it was onto the wetter, greyer climbs of Bembridge on the Isle of Wight. In what is now a yearly tradition, Jon and I saw off summer with another cycling trip, this time south of the Solent. The hills are even steeper here, but lunch at the [Garlic Farm][6] and stops at [Pedallers Cafe][7] were welcome recompense (less so [getting stuck in stinky seaweed][8] trying to walk along Whitecliff Bay).
 
 ![The sun setting over an empty beach.](dunnet_bay.jpg "Dunnet Bay, near Thurso on the north coast of Scotland.")
-{.u-align-bleed}
+{.align-bleed}
 
 2022 was also the year of making good on pre-pandemic plans.
 

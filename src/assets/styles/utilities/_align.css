@@ -1,23 +1,23 @@
 /* Bleed alignment */
-.u-align-bleed {
+.align-bleed {
   --linear-line-measure: auto;
   display: grid;
   grid-template-columns: [bleed-start] minmax(0, var(--linear-line-measure)) [measure] 1fr [bleed-end];
   margin-inline: calc(var(--gap) * -1);
 }
 
-.u-align-bleed > *:first-child {
+.align-bleed > *:first-child {
   grid-column: bleed;
   inline-size: 100%;
 }
 
-.u-align-bleed > figcaption {
+.align-bleed > figcaption {
   padding-inline: var(--gap);
 }
 
 /* Pull alignment */
 @media (--from-small-viewport) {
-  .u-align-pull {
+  .align-pull {
     float: inline-end;
     inline-size: 33%;
     margin-block-start: 0 !important;

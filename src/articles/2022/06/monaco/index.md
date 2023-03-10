@@ -19,7 +19,7 @@ tags:
 accent_color: '#ff8000'
 ---
 ![The McLaren pit garage, with a mountainous landscape in the distance.](image.jpg "The McLaren garage on the Monaco pit lane.")
-{.u-align-bleed}
+{.align-bleed}
 
 Planned for 2020 and postponed again last year, at the third time of asking, myself and Cennydd finally headed to the French Riviera; [Monaco baby, yeah][1]!
 

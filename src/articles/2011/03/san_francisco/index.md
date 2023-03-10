@@ -14,7 +14,7 @@ category:
   - United States
 ---
 ![](fishermans_wharf.jpg 'Boats docked in Fisherman’s Wharf.')
-{.u-align-bleed}
+{.align-bleed}
 
 Following five days in Austin, I ventured on to San Francisco. A quick stop arranged primarily to catch up with friends, I made sure my stay would be long enough to see all the sights I neglected to visit whilst I was a resident.
 
