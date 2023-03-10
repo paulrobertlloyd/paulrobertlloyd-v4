@@ -12,7 +12,7 @@
         <time class="dt-end" datetime="{{ end | date: dates.iso }}"></time>
       {%- endif -%}
     </dd>
-{%- if location -%}
+{%- if location.name -%}
     <dt class="u-visually-hidden">Location</dt>
     <dd class="p-location h-card">
       <span class="p-name">{{ location.name }}</span>
