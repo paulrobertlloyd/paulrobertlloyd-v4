@@ -77,8 +77,7 @@
     ],
     "envs": "browser",
     "ignores": [
-      "www/**",
-      "!.eleventy.js"
+      "www/**"
     ],
     "rules": {
       "camelcase": [
