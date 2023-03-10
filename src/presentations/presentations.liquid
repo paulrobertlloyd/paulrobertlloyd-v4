@@ -19,11 +19,9 @@ priority: 0.9
   itemsComponent: 'card'
   itemsGridSize: '15rem'
 -%}
-{%- assign appearances = collections.event | where: 'data.participant' | reverse -%}
-{%- render 'section' with appearances
+{%- render 'section' with collections.presented
   id: 'appearances'
   title: 'Events I’ve spoken at'
-  itemsLimit: 16
+  itemsLimit: 12
   itemsModifier: 'inline'
-  itemHideSummary: true
 -%}
