@@ -6,7 +6,7 @@ related:
   - /photos/1635072397/
   - /photos/1635188013/
   - /events/2021/10/24/river_of_light_2021/
-tripId:
-  - 5FN1
-  - 5FQ1
+trip_id:
+  - t5FN1
+  - t5FQ1
 ---

@@ -8,13 +8,13 @@ related:
   - /photos/1661623467/
   - /articles/2022/08/trains_in_spain/
   - /articles/2022/08/porto/
-tripId:
-  - 5LS1
-  - 5LT1
-  - 5LW1
-  - 5LX1
-  - 5Le1
-  - 5Lf1
-  - 5Lh1
-  - 5Li1
+trip_id:
+  - t5LS1
+  - t5LT1
+  - t5LW1
+  - t5LX1
+  - t5Le1
+  - t5Lf1
+  - t5Lh1
+  - t5Li1
 ---

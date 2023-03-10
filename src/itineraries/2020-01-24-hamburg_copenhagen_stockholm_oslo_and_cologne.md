@@ -8,11 +8,11 @@ related:
   - /articles/2020/02/stockholm/
   - /articles/2020/02/oslo/
   - /articles/2020/04/cologne_to_brighton/
-tripId:
-  - 54k1
-  - 54m1
-  - 54t1
-  - 54x1
-  - 54y1
-  - 5501
+trip_id:
+  - t54k1
+  - t54m1
+  - t54t1
+  - t54x1
+  - t54y1
+  - t5501
 ---

@@ -2,8 +2,8 @@
 title: Dublin and Galway
 related:
   - /articles/2017/05/away_to_galway/
-tripId:
-  - 4oG1
-  - 4oH1
-  - 4oK1
+trip_id:
+  - t4oG1
+  - t4oH1
+  - t4oK1
 ---

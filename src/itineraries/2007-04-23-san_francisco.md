@@ -1,7 +1,7 @@
 ---
 title: San Francisco
 summary: Summer with Ning.
-tripId:
-  - 3n61
-  - 3pG1
+trip_id:
+  - t3n61
+  - t3pG1
 ---

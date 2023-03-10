@@ -8,11 +8,11 @@ related:
   - /articles/2011/12/toronto/
   - /articles/2011/12/saltspring_island/
   - /articles/2011/12/vancouver/
-tripId:
-  - 4EU1
-  - 4EY1
-  - 4E_1
-  - 4Ec1
-  - 4Eg1
-  - 4Ej1
+trip_id:
+  - t4EU1
+  - t4EY1
+  - t4E_1
+  - t4Ec1
+  - t4Eg1
+  - t4Ej1
 ---

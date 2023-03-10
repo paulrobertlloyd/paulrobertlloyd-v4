@@ -6,10 +6,10 @@ related:
   - /articles/2008/10/seattle/
   - /articles/2008/12/chicago/
   - /articles/2008/12/washington_dc/
-tripId:
-  - 3vs1
-  - 3vv1
-  - 3w21
-  - 3w81
-  - 3wD1
+trip_id:
+  - t3vs1
+  - t3vv1
+  - t3w21
+  - t3w81
+  - t3wD1
 ---

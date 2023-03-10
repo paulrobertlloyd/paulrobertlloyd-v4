@@ -5,15 +5,15 @@ related:
   - /articles/2009/05/a_european_adventure/
   - /articles/2009/05/brussels/
   - /articles/2009/05/cologne/
-tripId:
-  - 3z_1
-  - 3zb1
-  - 3ze1
-  - 3zg1
-  - 3zk1
-  - 3zm1
-  - 3zp1
-  - 3zs1
-  - 3zt1
-  - 3zu1
+trip_id:
+  - t3z_1
+  - t3zb1
+  - t3ze1
+  - t3zg1
+  - t3zk1
+  - t3zm1
+  - t3zp1
+  - t3zs1
+  - t3zt1
+  - t3zu1
 ---

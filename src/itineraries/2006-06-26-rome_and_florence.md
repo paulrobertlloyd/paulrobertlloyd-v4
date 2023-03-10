@@ -1,9 +1,9 @@
 ---
 title: Rome and Florence
 summary: A Roman holiday with Nancy and Christine.
-tripId:
-  - 3h51
-  - 3h81
-  - 3h82
-  - 3hA1
+trip_id:
+  - t3h51
+  - t3h81
+  - t3h82
+  - t3hA1
 ---

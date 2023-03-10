@@ -1,7 +1,7 @@
 ---
 title: St. Peter Port
 summary: A weekend in Guernsey.
-tripId:
-  - 4JD1
-  - 4JG1
+trip_id:
+  - t4JD1
+  - t4JG1
 ---

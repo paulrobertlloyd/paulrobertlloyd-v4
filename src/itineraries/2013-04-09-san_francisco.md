@@ -1,8 +1,8 @@
 ---
 title: San Francisco
 summary: Leaving UX London early to attend David and Athena’s wedding.
-tripId:
-  - 4PQ1
-  - 4PS1
-  - 4Pa1
+trip_id:
+  - t4PQ1
+  - t4PS1
+  - t4Pa1
 ---

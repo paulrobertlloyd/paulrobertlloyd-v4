@@ -1,7 +1,7 @@
 ---
 title: Leicester
 summary: Speaking at Create Leicester.
-tripId:
-  - 4tm1
-  - 4tn1
+trip_id:
+  - t4tm1
+  - t4tn1
 ---

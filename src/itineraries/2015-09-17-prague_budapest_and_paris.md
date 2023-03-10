@@ -3,9 +3,9 @@ title: Prague, Budapest and Paris
 summary: Speaking at WebExpo, before returning home the long way round.
 related:
   - /articles/2015/09/prague/
-tripId:
-  - 4dF1
-  - 4dK1
-  - 4dP1
-  - 4dR1
+trip_id:
+  - t4dF1
+  - t4dK1
+  - t4dP1
+  - t4dR1
 ---

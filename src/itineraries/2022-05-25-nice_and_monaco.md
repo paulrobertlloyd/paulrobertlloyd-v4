@@ -10,8 +10,8 @@ related:
   - /photos/1653645296/
   - /photos/1653682071/
   - /photos/1653743565/
-tripId:
-  - 5Jx1
-  - 5K21
+trip_id:
+  - t5Jx1
+  - t5K21
 ---
 Monaco baby, yeah!

@@ -1,8 +1,8 @@
 ---
 title: Newport and Cardiff
 summary: Speaking at Port 80 and Mark’s 40th.
-tripId:
-  - 4Pu1
-  - 4Pw1
-  - 4Px1
+trip_id:
+  - t4Pu1
+  - t4Pw1
+  - t4Px1
 ---

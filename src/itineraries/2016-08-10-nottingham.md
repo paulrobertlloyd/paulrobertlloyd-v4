@@ -1,7 +1,7 @@
 ---
 title: Nottingham
 summary: Speaking at Design Exchange Nottingham.
-tripId:
-  - 4ii1
-  - 4ij1
+trip_id:
+  - t4ii1
+  - t4ij1
 ---

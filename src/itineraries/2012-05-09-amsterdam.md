@@ -1,7 +1,7 @@
 ---
 title: Amsterdam
 summary: Mobilism 2012.
-tripId:
-  - 4Hp1
-  - 4Ht1
+trip_id:
+  - t4Hp1
+  - t4Ht1
 ---

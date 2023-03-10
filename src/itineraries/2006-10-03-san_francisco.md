@@ -1,7 +1,7 @@
 ---
 title: San Francisco
 summary: Autumn with Ning.
-tripId:
-  - 3ij1
-  - 3k51
+trip_id:
+  - t3ij1
+  - t3k51
 ---

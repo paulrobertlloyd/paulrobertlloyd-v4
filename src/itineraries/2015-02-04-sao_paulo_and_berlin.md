@@ -5,8 +5,8 @@ related:
   - /articles/2015/03/berlin/
   - /photos/1425330000/
   - /photos/1425329100/
-tripId:
-  - 4_W1
-  - 4_o1
-  - 4_s1
+trip_id:
+  - t4_W1
+  - t4_o1
+  - t4_s1
 ---

@@ -1,6 +1,6 @@
 ---
 title: Norwegian Fjords
 summary: Cruising with Mum and Dad.
-tripId:
-  - 4um1
+trip_id:
+  - t4um1
 ---

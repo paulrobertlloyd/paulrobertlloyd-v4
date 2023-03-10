@@ -5,9 +5,9 @@ related:
   - /articles/2018/09/berlin/
   - /articles/2018/10/tempelhof/
   - /articles/2018/10/crisis/
-tripId:
-  - 4wa1
-  - 4wo1
-  - 4wr1
-  - 4wu1
+trip_id:
+  - t4wa1
+  - t4wo1
+  - t4wr1
+  - t4wu1
 ---

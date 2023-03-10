@@ -1,7 +1,7 @@
 ---
 title: Milton Keynes
 summary: Speaking at MK Geek Night.
-tripId:
-  - 4S71
-  - 4S81
+trip_id:
+  - t4S71
+  - t4S81
 ---

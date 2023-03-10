@@ -1,8 +1,8 @@
 ---
 title: Bristol and Bath
-tripId:
-  - 4gH1
-  - 4gJ1
-  - 4gJ2
-  - 4gK1
+trip_id:
+  - t4gH1
+  - t4gJ1
+  - t4gJ2
+  - t4gK1
 ---

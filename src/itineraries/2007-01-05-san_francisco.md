@@ -1,7 +1,7 @@
 ---
 title: San Francisco
 summary: Spring with Ning.
-tripId:
-  - 3kJ1
-  - 3mw1
+trip_id:
+  - t3kJ1
+  - t3mw1
 ---
