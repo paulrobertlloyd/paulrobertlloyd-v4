@@ -24,6 +24,10 @@ module.exports = {
     label: 'Bookmarks',
     url: '/bookmarks/',
     tag: 'bookmark',
+  }, {
+    label: 'With Ukraine',
+    url: 'https://www.withukraine.org/',
+    icon: 'flag_ukraine',
   }],
   tertiary: [{
     label: 'Contact',
