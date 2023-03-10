@@ -12,7 +12,7 @@ category:
   - IndieWeb
   - Micro.blog
   - Twitter
-accentColor: '#60c'
+accent_color: '#60c'
 ---
 
 [Indiekit][1] is a Node.js application that helps people connect their websites to the [independent web][2]. A prominent side-project since 2019, I’ve recently been focusing on fixing bugs and implementing [IndieAuth][3] and [ActivityPub][4] endpoints. Or, to put it another way, actively avoiding updating the project’s getting started guide or writing other much needed documentation.

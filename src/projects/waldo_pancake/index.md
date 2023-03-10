@@ -8,7 +8,7 @@ photo:
 category:
   - Front-end development
   - Interaction design
-accentColor: '#ffef3e'
+accent_color: '#ffef3e'
 style:
   screenshot-shadow: '#e6c939'
   screenshot-offset: '#ffef3e'

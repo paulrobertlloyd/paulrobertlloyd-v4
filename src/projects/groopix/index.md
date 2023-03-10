@@ -8,7 +8,7 @@ photo:
 category:
   - Brand identity
   - Interaction design
-accentColor: '#6e9d00'
+accent_color: '#6e9d00'
 style:
   screenshot-shadow: '#6e9d00'
   screenshot-offset: '#cc0'

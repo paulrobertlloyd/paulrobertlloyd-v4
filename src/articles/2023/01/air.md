@@ -9,7 +9,7 @@ category:
   - Personal
 syndication:
   - https://www.linkedin.com/posts/paulrobertlloyd_doingmybit-activity-7024748336196775936-veq7
-accentColor: '#00a33b'
+accent_color: '#00a33b'
 ---
 
 Some exciting news; I’m back in government! After a 6 month break (and with [the first version of Indiekit released in beta][1]) I’ve started a new contract with the Department for Environment, Food and Rural Affairs.

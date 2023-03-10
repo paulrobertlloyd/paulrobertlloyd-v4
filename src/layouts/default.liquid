@@ -37,15 +37,15 @@
 
   <style>
     :root {
-    {% if accentColor -%}
-      {%- assign accentColor = accentColor -%}
+    {% if accent_color -%}
+      {%- assign accent_color = accent_color -%}
     {%- elsif date -%}
-      {%- assign accentColor = date | color -%}
+      {%- assign accent_color = date | color -%}
     {%- else -%}
-      {%- assign accentColor = app.accentColor -%}
+      {%- assign accent_color = app.accent_color -%}
     {%- endif -%}
-      --color-accent-light: {{ accentColor | contrast_with: 'black' }};
-      --color-accent-dark: {{ accentColor | contrast_with: 'white' }};
+      --color-accent-light: {{ accent_color | contrast_with: 'black' }};
+      --color-accent-dark: {{ accent_color | contrast_with: 'white' }};
     {%- for var in style -%}
       --{{ var[0]}}: {{ var[1] }};
     {%- endfor -%}
@@ -59,8 +59,8 @@
   <meta property="og:image:alt" content="{{ summaryImageAlt }}">
   <meta name="twitter:card" content="{{ summaryCard }}">
   <meta name="twitter:site" content="@paulrobertlloyd">
-  <meta name="theme-color" content="{{ app.themeColor }}" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="{{ app.themeColorDark }}" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="{{ app.theme_color }}" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="{{ app.theme_color_dark }}" media="(prefers-color-scheme: dark)">
   <meta name="supported-color-schemes" content="light dark">
   <meta name="robots" content="index, follow">
 </head>

@@ -9,7 +9,7 @@ category:
   - Brand identity
   - Front-end development
   - Interaction design
-accentColor: '#060'
+accent_color: '#060'
 style:
   screenshot-shadow: '#060'
   screenshot-offset: '#390'

@@ -16,7 +16,7 @@ category:
   - Travel
 tags:
   - featured
-accentColor: '#ff8000'
+accent_color: '#ff8000'
 ---
 ![The McLaren pit garage, with a mountainous landscape in the distance.](image.jpg "The McLaren garage on the Monaco pit lane.")
 {.u-align-bleed}

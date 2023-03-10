@@ -7,7 +7,7 @@ photo:
   alt: Universal Playback logo
 category:
   - Interaction design
-accentColor: '#07B'
+accent_color: '#07B'
 style:
   screenshot-shadow: '#888'
   screenshot-offset: '#bbb'

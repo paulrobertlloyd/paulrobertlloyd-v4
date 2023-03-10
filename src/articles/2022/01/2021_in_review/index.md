@@ -12,7 +12,7 @@ photo:
 category:
   - Personal
   - Review of the year
-accentColor: '#a4d'
+accent_color: '#a4d'
 ---
 As the gently rolling waves shimmered in the late summer sunlight, I waded into the Solent. I had taken up sea swimming at the start of the second lockdown, but only now could I enjoy warmer waters. It was a rare moment of peace in a year of heartbreak and loss.
 

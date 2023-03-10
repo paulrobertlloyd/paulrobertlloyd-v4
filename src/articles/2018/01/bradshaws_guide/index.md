@@ -11,7 +11,7 @@ photo:
 category:
   - Bradshaw’s Guide
   - Travel
-accentColor: '#e6772e'
+accent_color: '#e6772e'
 ---
 [<cite>Bradshaw’s Guide</cite>][1] is a hyperlinked revival of a popular Victorian guide to Britain and Ireland’s nascent railway network. It’s also a personal project that lies at the intersection of my interests: design, technology, trains… the preservation of [historic English counties][2].
 

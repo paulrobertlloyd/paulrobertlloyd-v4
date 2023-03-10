@@ -7,7 +7,7 @@ photo:
   alt: dConstruct logo
 category:
   - Interaction design
-accentColor: '#370'
+accent_color: '#370'
 style:
   screenshot-shadow: '#370'
   screenshot-offset: '#8a1'

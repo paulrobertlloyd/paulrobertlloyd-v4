@@ -14,7 +14,7 @@ tags:
 related:
   - /2013/12/redesigning_24_ways/
   - /2018/01/improving_the_accessibility_of_24_ways/
-accentColor: '#f04'
+accent_color: '#f04'
 style:
   screenshot-shadow: '#b01'
   screenshot-offset: '#f04'

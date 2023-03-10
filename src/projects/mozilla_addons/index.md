@@ -7,7 +7,7 @@ photo:
   alt: Mozilla logo
 category:
   - Interaction design
-accentColor: '#235'
+accent_color: '#235'
 style:
   screenshot-shadow: '#235'
   screenshot-offset: '#2e5186'

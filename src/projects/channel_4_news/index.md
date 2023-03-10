@@ -7,7 +7,7 @@ photo:
   alt: Channel 4 logo
 category:
   - Interaction design
-accentColor: '#42246e'
+accent_color: '#42246e'
 style:
   screenshot-shadow: '#5b1c46'
   screenshot-offset: '#a94989'

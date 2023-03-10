@@ -9,7 +9,7 @@ category:
   - Front-end development
 tags:
   - featured
-accentColor: '#f4436d'
+accent_color: '#f4436d'
 style:
   screenshot-shadow: '#d6cfc9'
   screenshot-offset: '#f0ecec'

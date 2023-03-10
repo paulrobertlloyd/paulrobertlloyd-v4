@@ -11,7 +11,7 @@ category:
   - IndieWeb
 tags:
   - featured
-accentColor: '#60c'
+accent_color: '#60c'
 ---
 
 Today I’m formally launching [Indiekit][1], the little Node.js server with all the parts needed to publish content to your personal website and share it on social networks.

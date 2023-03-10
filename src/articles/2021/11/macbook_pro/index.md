@@ -13,7 +13,7 @@ category:
   - Design
   - Review
   - Technology
-accentColor: '#702'
+accent_color: '#702'
 ---
 After 7 years, I have a new laptop.
 

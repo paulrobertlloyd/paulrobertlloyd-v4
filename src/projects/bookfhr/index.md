@@ -7,7 +7,7 @@ photo:
   alt: BookFHR logo
 category:
   - Interaction design
-accentColor: '#002f70'
+accent_color: '#002f70'
 style:
   screenshot-shadow: '#f16d01'
   screenshot-offset: '#f5aa00'

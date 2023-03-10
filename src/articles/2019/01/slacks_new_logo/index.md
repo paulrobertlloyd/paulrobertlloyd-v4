@@ -13,7 +13,7 @@ category:
   - Brand identity
 tags:
   - featured
-accentColor: '#4a154b'
+accent_color: '#4a154b'
 ---
 ![](image.jpg 'The new logo for Slack. Image: [Pentagram](https://www.pentagram.com/work/slack/story)')
 {.u-align-bleed}

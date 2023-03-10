@@ -14,7 +14,7 @@ category:
   - Web
 tags:
   - featured
-accentColor: '#f04'
+accent_color: '#f04'
 ---
 ![](website.png '24 ways viewed on an iPad mini.')
 {.u-align-bleed}

@@ -7,7 +7,7 @@ photo:
   alt: Fontdeck logo
 category:
   - Interaction design
-accentColor: '#e9242e'
+accent_color: '#e9242e'
 style:
   screenshot-shadow: '#aab'
   screenshot-offset: '#ccd'

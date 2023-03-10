@@ -9,7 +9,7 @@ category:
   - Interaction design
 tags:
   - featured
-accentColor: '#b00'
+accent_color: '#b00'
 style:
   screenshot-shadow: '#b00'
   screenshot-offset: '#e00'

@@ -7,7 +7,7 @@ photo:
   alt: A collection of spiral bound notebooks.
 tags:
   - featured
-accentColor: '#1d70b8'
+accent_color: '#1d70b8'
 slides:
   - photo:
       url: /presentations/2021/03/discuss_a_design_challenge/1.png

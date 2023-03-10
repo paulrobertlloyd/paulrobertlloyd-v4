@@ -1,6 +1,6 @@
-{%- assign dateColor = item.data.date | color -%}
-{%- assign accentColor = item.data.accentColor | default: dateColor -%}
-<article class="card |{% for root in item.data.vocab %} h-{{ root }}{% endfor %}"{% if item.data.duotoneCardImage %} style="--color-accent-light: {{ accentColor | contrast_with: 'black' }}; --color-accent-dark: {{ accentColor | contrast_with: 'white' }}"{% endif %}>
+{%- assign date_color = item.data.date | color -%}
+{%- assign accent_color = item.data.accent_color | default: date_color -%}
+<article class="card |{% for root in item.data.vocab %} h-{{ root }}{% endfor %}"{% if item.data.duotoneCardImage %} style="--color-accent-light: {{ accent_color | contrast_with: 'black' }}; --color-accent-dark: {{ accent_color | contrast_with: 'white' }}"{% endif %}>
   {%- if item.data.layout == 'photo' -%}
     <a class="card__image | u-url" rel="bookmark" href="{{ item.url }}">
       {%- image item.data.pageImage, 'card', 'u-photo' -%}

@@ -7,7 +7,7 @@ photo:
   alt: Nuts logo
 category:
   - Interaction design
-accentColor: '#c50'
+accent_color: '#c50'
 style:
   screenshot-shadow: '#920'
   screenshot-offset: '#c50'

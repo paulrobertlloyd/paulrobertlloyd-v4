@@ -15,7 +15,7 @@ category:
   - Travel
 tags:
   - featured
-accentColor: '#0f2f7f'
+accent_color: '#0f2f7f'
 ---
 One of the many YouTube channels I watch without quite knowing why is [Drive + Protect with Larry Kosilla][1]. It’s basically a guy detailing cars in order to flog cleaning products, but it’s weirdly captivating.
 

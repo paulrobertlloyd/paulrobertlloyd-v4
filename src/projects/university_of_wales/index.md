@@ -7,7 +7,7 @@ photo:
   alt: University of Wales logo
 category:
   - Interaction design
-accentColor: '#913'
+accent_color: '#913'
 style:
   screenshot-shadow: '#014'
   screenshot-offset: '#14a'

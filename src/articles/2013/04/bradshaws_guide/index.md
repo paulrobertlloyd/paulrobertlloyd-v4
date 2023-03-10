@@ -14,7 +14,7 @@ category:
 tags:
   - featured
 discussion: closed
-accentColor: '#e6772e'
+accent_color: '#e6772e'
 ---
 ![](iphone.png 'Bradshaw’s Guide being viewed on an iPhone.')
 {.u-align-bleed}

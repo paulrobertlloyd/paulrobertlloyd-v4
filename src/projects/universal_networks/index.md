@@ -7,7 +7,7 @@ photo:
   alt: Universal Networks logo
 category:
   - Interaction design
-accentColor: '#527'
+accent_color: '#527'
 style:
   screenshot-shadow: '#afaaa2'
   screenshot-offset: '#d9d7d4'

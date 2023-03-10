@@ -10,7 +10,7 @@ photo:
 category:
   - Design
   - Web
-accentColor: "#28a"
+accent_color: "#28a"
 ---
 
 ![The homepage illustration for the GOV.UK Eleventy Plugin.](image.png)

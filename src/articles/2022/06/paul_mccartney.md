@@ -9,7 +9,7 @@ category:
   - Music
   - Family
   - London 2012
-accentColor: '#c09'
+accent_color: '#c09'
 ---
 
 [Watch ‘Paul McCartney - I’ve Got a Feeling (feat. John Lennon)’ on YouTube](https://www.youtube.com/watch?v=g4UsXksoGNg)
