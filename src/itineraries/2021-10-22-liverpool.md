@@ -5,7 +5,6 @@ related:
   - /photos/1634926907/
   - /photos/1635072397/
   - /photos/1635188013/
-  - /events/2021/10/24/river_of_light_2021/
 trip_id:
   - t5FN1
   - t5FQ1

@@ -23,10 +23,8 @@ module.exports = {
     : false,
   related: data => {
     const posts = data.collections.post;
-    const events = data.collections.event;
-    const relatedItems = posts.concat(events);
     const related = data.related ? data.related : [];
-    return relatedItems.filter(post => related.includes(post.url));
+    return posts.filter(post => related.includes(post.url));
   },
   webmentions: data => {
     const url = data.app.url + data.page.url;
