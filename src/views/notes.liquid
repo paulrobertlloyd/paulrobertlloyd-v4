@@ -5,7 +5,6 @@ pagination:
   reverse: true
   size: 36
 permalink: "/notes/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}.html{% else %}/{% endif %}"
-override:tags: []
 changefreq: daily
 priority: 0.9
 eleventyComputed:
