@@ -3,9 +3,9 @@ eleventyExcludeFromCollections: true
 permalink: /app.webmanifest
 ---
 {
-  "lang": "en-gb",
-  "name": "{{ app.title }}",
-  "short_name": "{{ app.shortTitle }}",
+  "lang": "{{ app.lang }}",
+  "name": "{{ app.name }}",
+  "short_name": "{{ app.short_name }}",
   "icons": [{
     "src": "{{ app.icon }}",
     "sizes": "512x512",

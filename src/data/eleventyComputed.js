@@ -2,7 +2,7 @@ const webmentions = require('../../lib/utils/get-webmentions.js');
 const summaryImagePath = require('../../lib/utils/get-summary-image-path.js');
 
 module.exports = {
-  pageTitle: data => `${data.title} · ${data.app.title}`,
+  pageTitle: data => `${data.title} · ${data.app.name}`,
   pageImage: data => data.photo
     ? (data.photo[0] || data.photo)
     : false,

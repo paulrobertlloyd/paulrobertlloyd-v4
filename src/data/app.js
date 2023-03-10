@@ -1,6 +1,7 @@
 module.exports = {
-  title: 'Paul Robert Lloyd',
-  shortTitle: 'PRL',
+  lang: 'en-GB',
+  name: 'Paul Robert Lloyd',
+  short_name: 'PRL',
   description: 'The personal website of Paul Robert Lloyd',
   url: process.env.URL || '',
   theme_color: '#f4f4f5',
@@ -9,7 +10,6 @@ module.exports = {
   background_color: '#fff',
   favicon: '/favicon.svg',
   icon: '/icon.png',
-  language: 'en-GB',
   endpoint: {
     auth: 'https://kit.paulrobertlloyd.com/auth',
     token: 'https://kit.paulrobertlloyd.com/auth/token',

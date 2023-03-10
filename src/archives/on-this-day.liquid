@@ -6,7 +6,7 @@ changefreq: daily
 tags: on-this-day
 priority: 0.5
 eleventyComputed:
-  pageTitle: "On this day · {{ app.title }}"
+  pageTitle: "On this day · {{ app.name }}"
   introduction: "{{ 'now' | date: '%d %B' }}"
 ---
 {%- assign today = 'now' | date: '-%m-%d' %}
