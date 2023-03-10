@@ -1,0 +1,19 @@
+---
+layout: collection
+pagination:
+  data: archives.collections
+  size: 1
+  alias: page
+  addAllPagesToCollections: true
+permalink: "collections/{{ page.title | slugify }}/"
+tags:
+  - collection
+vocab: entry
+changefreq: monthly
+priority: 0.2
+eleventyComputed:
+  title: "{{ page.title }}"
+  summary: "{{ page.summary }}"
+  id: "{{ page.title | slugify }}"
+  itemsModifier: "{{ page.itemsModifier }}"
+---

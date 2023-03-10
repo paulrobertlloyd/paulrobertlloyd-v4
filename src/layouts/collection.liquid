@@ -5,12 +5,11 @@
     summary: summary
   -%}
   {%- render 'content' with content -%}
-  {%- assign items = collections.all | includes: 'data.collection',page.fileSlug -%}
-  {%- assign itemsComponent = itemsComponent | default: 'card' -%}
+  {%- assign items = collections.all | includes: 'data.collection',id -%}
   {%- render 'section' with items
     id: 'items'
     title: 'Items in this collection'
-    itemsComponent: itemsComponent
+    itemsComponent: 'card'
     itemsGridSize: '15rem'
     itemsModifier: itemsModifier
   -%}

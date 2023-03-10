@@ -1,7 +1,7 @@
 ---
 layout: index
-title: Archive
 permalink: archive/
+title: Archive
 changefreq: weekly
 priority: 0.9
 ---
@@ -10,12 +10,12 @@ priority: 0.9
   id: 'on-this-day',
   title: 'On this day'
 %}
-{% assign archive = years | reverse %}
+{% assign archive = archives.years | reverse %}
 {% render 'section-archives' with archive
   id: 'browse',
   title: 'Browse by year'
 %}
-{%- render 'section' with other
+{%- render 'section' with archives.other
   id: 'other'
   title: 'Other archives'
   itemsComponent: 'section'

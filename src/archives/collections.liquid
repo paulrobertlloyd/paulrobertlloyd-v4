@@ -1,16 +1,14 @@
 ---
 layout: index
 title: Archive
-introduction: Collections
 permalink: collections/
-override:tags: []
+introduction: Collections
 changefreq: weekly
 priority: 0.9
 eleventyComputed:
   page_title: "{{ introduction }} · {{ app.name }}"
 ---
-{%- assign collections = collections.collection | sort_natural: 'fileSlug' -%}
-{%- render 'items' with collections
+{%- render 'items' with collections.collection
   component: 'section'
   gridSize: '12rem'
 -%}

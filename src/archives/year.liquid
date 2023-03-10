@@ -2,7 +2,7 @@
 layout: index
 title: Archive
 pagination:
-  data: years
+  data: archives.years
   size: 1
   alias: page
   addAllPagesToCollections: true
@@ -13,8 +13,8 @@ eleventyComputed:
   page_title: "{{ page.data.introduction }} · {{ app.name }}"
   introduction: "{{ page.data.introduction }}"
 ---
-{%- assign archive = months | includes: 'date',page.fileSlug -%}
-{%- render 'section-archives' with archive
+{%- assign months = archives.months | includes: 'date',page.fileSlug -%}
+{%- render 'section-archives' with months
   id: 'browse',
   title: 'Browse by month'
 -%}
