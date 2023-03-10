@@ -3,11 +3,11 @@ const EleventyFetch = require('@11ty/eleventy-fetch');
 const slugify = require('@sindresorhus/slugify');
 const ICalParser = require('ical-js-parser');
 const { DateTime } = require('luxon');
+const getMovie = require('../../lib/utils/get-movie.js');
 
 const { WEBCAL_TOKEN } = process.env;
 const ENDPOINT = 'https://p28-caldav.icloud.com/published/2/';
 const REGEX_GEO = /geo:(?<latitude>[+-]?\d*\.\d+),(?<longitude>[+-]?\d*\.\d+)/;
-const REGEX_HASHTAGS = /#[\w\d\-\_\s]+/gm;
 
 /**
  * Parse iCal text string
@@ -30,7 +30,7 @@ module.exports = async function () {
 
     const { events } = ICalParser.default.toJSON(ics);
 
-    const data = events.map(event => {
+    const data = events.map(async event => {
       const item = {
         title: parseString(event.summary),
         location: {
@@ -43,6 +43,10 @@ module.exports = async function () {
           ],
           separator: '_',
         }),
+        tags: ['event'],
+        vocab: 'event',
+        changefreq: 'monthly',
+        priority: 0.4,
       };
 
       // Location (name and address)
@@ -86,13 +90,6 @@ module.exports = async function () {
       if (event.description) {
         item.summary = parseString(event.description);
 
-        // Get category tags from hashtags in event description
-        const hashtags = item.summary.match(REGEX_HASHTAGS);
-        if (hashtags) {
-          item.category = hashtags.map((tag) => tag.replace("#", ""));
-          item.summary = item.summary.replace(REGEX_HASHTAGS, "");
-        }
-
         if (item.summary === "") {
           delete item.summary;
         }
@@ -125,7 +122,23 @@ module.exports = async function () {
         item.url = event.url.VALUE.replace("URI:", "");
 
         if (item.url.includes("imdb.com")) {
+          const movie = await getMovie(item.url);
+
           item.icon = "film"
+          item.summary = movie.Plot || item.summary;
+          item.photo = movie.Poster && {
+            url: movie.Poster,
+            alt: `Poster for ‘${item.title}’`
+          };
+          item.product = {
+            photo: item.photo,
+            title: item.title,
+            info: [
+              `Director\n: ${movie.Director}`,
+              `Writer\n: ${movie.Writer}`,
+              `Actors\n: ${movie.Actors}`,
+            ].join('\n\n'),
+          };
         }
       }
 
@@ -133,8 +146,6 @@ module.exports = async function () {
 
       return item
     })
-
-    // console.log('data', data)
 
     return data;
   } catch (error) {

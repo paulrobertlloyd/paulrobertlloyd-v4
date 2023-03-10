@@ -1,45 +1,24 @@
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'footer-event'
-    date: date
-    location: location
-    start: start
-    end: end
-    place: place
-    vocab: vocab
+    date: event.date
+    location: event.location
+    start: event.start
+    end: event.end
+    place: event.place
+    vocab: event.vocab
   -%}
-  {% if movie %}
-    {%- render 'header'
-      title: title
-      icon: icon
-      url: url
-    -%}
+  {%- render 'header'
+    title: title
+    icon: event.icon
+    summary: event.summary
+    url: event.url
+  -%}
+  {% if event.product %}
     {%- capture content -%}
-      {% render 'product' with product %}
-      {{ summary | markdown }}
+      {% render 'product' with event.product %}
       {{ content }}
     {%- endcapture -%}
-  {%- else -%}
-    {%- render 'header'
-      title: title
-      icon: icon
-      summary: summary
-      url: url
-    -%}
   {% endif %}
   {%- render 'content' with content -%}
-  {%- render 'section' with related
-    id: 'related'
-    title: 'Related'
-    itemsGridSize: '15rem'
-  -%}
-  {% for this in category %}
-    {%- capture sectionTitle %}Other {{ this }} events{%- endcapture -%}
-    {%- assign relatedEvents = collections.attended | includes: 'data.category',this | excludes: 'url',page.url | reverse -%}
-    {%- render 'section' with relatedEvents
-      id: 'related'
-      title: sectionTitle
-      itemsModifier: 'inline'
-    -%}
-  {%- endfor -%}
 {%- endblock -%}
