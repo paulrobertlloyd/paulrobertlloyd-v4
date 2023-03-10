@@ -13,26 +13,10 @@ module.exports = {
           alt: `Poster for ‘${data.title}’`
         }
       : false,
-
     movie: async data => {
       const {url} = data;
       if (url && url.includes('imdb.com')) {
         return getMovie(url);
-      }
-    },
-    place: data => {
-      const places = data.collections.place;
-      const {placeId} = data.event;
-      const {venue} = data.event;
-      if (places && placeId) {
-        const placeIdStart = placeId.split('+')[0]
-        const venueStart = venue.toLowerCase().split(' ')[0]
-        return places
-           .map(place => place.data.place)
-           .find(place =>
-              place.address.plus_code.startsWith(placeIdStart) &&
-              place.title.toLowerCase().startsWith(venueStart)
-           )
       }
     },
     product: async data => {
@@ -50,11 +34,13 @@ module.exports = {
         };
       }
     },
+    icon: data => data.event.icon,
     slug: data => data.event.slug,
     summary: data => data.movie ? data.movie.Plot : data.event.summary,
     url: data => data.event.url,
     end: data => data.event.end,
     start: data => data.event.start,
+    location: data => data.event.location,
     category: data => data.event.category || [],
   },
 };

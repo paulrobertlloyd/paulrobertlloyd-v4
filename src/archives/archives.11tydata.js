@@ -118,7 +118,7 @@ module.exports = function () {
     url: '/places',
     data: {
       title: 'Places',
-      summary: 'Venues, airports, stations and other places I’ve visited.',
+      summary: 'Airports, stations and other places I’ve visited.',
     },
   }, {
     url: 'http://lloydyweb.paulrobertlloyd.com/blog/archive/',

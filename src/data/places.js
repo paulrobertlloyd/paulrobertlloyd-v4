@@ -2,7 +2,6 @@ const {decode} = require('pluscodes');
 const airports = require('./places/airports.js');
 const stations = require('./places/stations.js');
 const ports = require('./places/ports.js');
-const venues = require('./places/venues.js');
 
 module.exports = function () {
   // Add airport metadata
@@ -23,17 +22,11 @@ module.exports = function () {
     port.icon = 'ferry';
   }
 
-  // Add venue metadata
-  for (const venue of venues) {
-    venue.type = 'venue';
-  }
-
   // Merge place databases
   const places = [
     ...airports,
     ...stations,
     ...ports,
-    ...venues,
   ];
 
   // Add place metadata and sort alphabetically

@@ -1,12 +1,11 @@
 const EleventyFetch = require('@11ty/eleventy-fetch');
 
+const ENDPOINT = 'https://webmention.io/api/mentions.jf2';
+const TOKEN = process.env.WEBMENTION_IO_TOKEN;
+
 module.exports = async function () {
-  const ENDPOINT = 'https://webmention.io/api/mentions.jf2';
-  const TOKEN = process.env.WEBMENTION_IO_TOKEN;
-
-  const endpoint = `${ENDPOINT}?token=${TOKEN}&per-page=999`;
-
   try {
+    const endpoint = `${ENDPOINT}?token=${TOKEN}&per-page=999`;
     const webmentions = await EleventyFetch(endpoint, {
       duration: '1d',
       type: 'json',

@@ -12,12 +12,11 @@
         <time class="dt-end" datetime="{{ end | date: dates.iso }}"></time>
       {%- endif -%}
     </dd>
-{%- if place -%}
+{%- if location -%}
     <dt class="u-visually-hidden">Location</dt>
     <dd class="p-location h-card">
-      <a class="u-url" href="/places/{{ place.address.plus_code | downcase }}">
-        <span class="p-name">{{ place.title | markdown: 'inline' }}</span>, <span class="p-adr h-adr p-locality">{{ place.address.locality }}</span>
-      </a>
+      <span class="p-name">{{ location.name }}</span>
+      {%- if location.locality %}, <span class="p-adr h-adr p-locality">{{ location.locality }}</span>{% endif %}
     </dd>
 {%- endif -%}
   </dl>

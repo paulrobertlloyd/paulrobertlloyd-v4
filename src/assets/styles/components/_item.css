@@ -27,6 +27,10 @@
   position: absolute;
 }
 
+.item__title svg {
+  margin-block-end: -0.1em;
+}
+
 /* Main */
 .item__main {
   --linear-flow-space: var(--space-2xs);
