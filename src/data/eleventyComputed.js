@@ -2,21 +2,21 @@ const webmentions = require('../../lib/utils/get-webmentions.js');
 const summaryImagePath = require('../../lib/utils/get-summary-image-path.js');
 
 module.exports = {
-  pageTitle: data => `${data.title} · ${data.app.name}`,
-  pageImage: data => data.photo
+  page_title: data => `${data.title} · ${data.app.name}`,
+  page_image: data => data.photo
     ? (data.photo[0] || data.photo)
     : false,
-  canonicalUrl: data => data.canonical && data.canonical.url
+  canonical_url: data => data.canonical && data.canonical.url
     ? data.canonical.url
     : data.app.url + data.page.url,
-  summaryCard: data => data.pageImage
+  summary_card: data => data.page_image
     ? 'summary_large_image'
     : 'summary',
-  summaryImage: data => data.pageImage
-    ? summaryImagePath(data.pageImage.url)
+  summary_image: data => data.page_image
+    ? summaryImagePath(data.page_image.url)
     : data.app.url + data.app.icon,
-  summaryImageAlt: data => data.pageImage
-    ? data.pageImage.alt
+  summary_image_alt: data => data.page_image
+    ? data.page_image.alt
     : 'Logo',
   photos: data => data.photo
     ? Array.isArray(data.photo) ? data.photo : [data.photo]

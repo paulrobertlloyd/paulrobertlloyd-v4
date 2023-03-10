@@ -6,7 +6,7 @@ permalink: categories/
 changefreq: weekly
 priority: 0.9
 eleventyComputed:
-  pageTitle: "{{ introduction }} · {{ app.name }}"
+  page_title: "{{ introduction }} · {{ app.name }}"
 ---
 {%- assign categories = collections.category | sort_natural -%}
 {%- render 'categories' with categories -%}

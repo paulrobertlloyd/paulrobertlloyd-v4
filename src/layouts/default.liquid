@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ pageTitle | markdown: 'inline' | strip_html }}</title>
+  <title>{{ page_title | markdown: 'inline' | strip_html }}</title>
 
   <script nonce="bVgyaDV6YU9tdThnZ2wwckZBNnFnc1Z6Wk40SnY2U0pmbjdTUjQ3MVg2RTFCbnEwN3g=">
     if (navigator.serviceWorker) {
@@ -22,7 +22,7 @@
   <link rel="dns-prefetch" href="https://kit.paulrobertlloyd.com">
   <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="RSS (Atom) Feed">
   <link rel="alternate" href="/feed.json" type="application/feed+json" title="JSON Feed">
-  <link rel="canonical" href="{{ canonicalUrl }}">
+  <link rel="canonical" href="{{ canonical_url }}">
   <link rel="manifest" href="/app.webmanifest">
   <link rel="icon" href="{{ app.favicon | absolute_url: app.url }}">
   <link rel="apple-touch-icon" href="{{ app.icon | absolute_url: app.url }}">
@@ -55,9 +55,9 @@
   <meta property="og:title" content="{{ title | markdown: 'inline' | strip_html }}">
   <meta property="og:description" name="description" content="{{ summary | default: app.description | markdown | strip_html | strip_newlines | strip }}">
   <meta property="og:url" content="{{ page.url | absolute_url: app.url }}">
-  <meta property="og:image" content="{{ summaryImage | absolute_url: app.url }}">
-  <meta property="og:image:alt" content="{{ summaryImageAlt }}">
-  <meta name="twitter:card" content="{{ summaryCard }}">
+  <meta property="og:image" content="{{ summary_image | absolute_url: app.url }}">
+  <meta property="og:image:alt" content="{{ summary_image_alt }}">
+  <meta name="twitter:card" content="{{ summary_card }}">
   <meta name="twitter:site" content="@paulrobertlloyd">
   <meta name="theme-color" content="{{ app.theme_color }}" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="{{ app.theme_color_dark }}" media="(prefers-color-scheme: dark)">

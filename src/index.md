@@ -5,7 +5,7 @@ summary: an independent designer, writer and occasional speaker based in Brighto
 priority: 1
 changefreq: yearly
 eleventyComputed:
-  pageTitle: '{{ app.name }}'
+  page_title: '{{ app.name }}'
 ---
 Having worked with start-ups, design agencies and in-house teams, I now partner with public sector organisations to help them deliver purposeful digital products and services.
 

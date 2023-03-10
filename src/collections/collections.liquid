@@ -7,7 +7,7 @@ override:tags: []
 changefreq: weekly
 priority: 0.9
 eleventyComputed:
-  pageTitle: "{{ introduction }} · {{ app.name }}"
+  page_title: "{{ introduction }} · {{ app.name }}"
 ---
 {%- assign collections = collections.collection | sort_natural: 'fileSlug' -%}
 {%- render 'items' with collections
