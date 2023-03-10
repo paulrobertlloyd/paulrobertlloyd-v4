@@ -115,12 +115,6 @@ module.exports = function () {
       summary: 'Curated series of articles, each covering a particular theme.',
     },
   }, {
-    url: '/places',
-    data: {
-      title: 'Places',
-      summary: 'Airports, stations and other places I’ve visited.',
-    },
-  }, {
     url: 'http://lloydyweb.paulrobertlloyd.com/blog/archive/',
     data: {
       title: '1999-2007',

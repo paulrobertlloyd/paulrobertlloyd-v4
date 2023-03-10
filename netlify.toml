@@ -164,15 +164,6 @@ from = "/bookmarks/:year/"
 to = "/:year/"
 
 [[redirects]]
-from = "/places/"
-to = "/places/page/:page"
-status = 200
-force = true
-
-  [redirects.query]
-  page = ":page"
-
-[[redirects]]
 from = "/events/"
 to = "/events/page/:page"
 status = 200

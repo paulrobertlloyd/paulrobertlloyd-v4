@@ -113,7 +113,7 @@ In December, Sarah and I decided to commemorate Rachael and Emma’s birthdays, 
 
 ## Polishing the worry stones
 
-Time spent at home meant ample time to spend on personal projects. If [a website is a worry stone][18], then boy did mine get polished. I revisited the typography, [making the sizing fluid][19] and replacing the featureless [*Untitled Sans*][20] with another Klim font, the slightly more characterful [*Söhne*][21]. I added [category][22], [collection][23], and [place][24] archives, the later in support of the more ambitious task of recording [all previous travel itineraries][25] and their component [trips][26].
+Time spent at home meant ample time to spend on personal projects. If [a website is a worry stone][18], then boy did mine get polished. I revisited the typography, [making the sizing fluid][19] and replacing the featureless [*Untitled Sans*][20] with another Klim font, the slightly more characterful [*Söhne*][21]. I added [category][22], [collection][23], and place archives, the later in support of the more ambitious task of recording [all previous travel itineraries][25] and their component [trips][26].
 
 Once I was happy with these changes, [attention returned to Indiekit][27]. After rearchitecting it for the third time, I was able to start building features I’d long wanted such as saving posts to the Internet Archive and syndicating them to Twitter. That I’ve not rebuilt the service a fourth time is thanks to mentoring from [Aron][28]. Over several evenings, he reviewed my code, answered questions, explained programming concepts and gave me feedback. The underlying architecture is much less complex thanks to his involvement.
 
@@ -170,7 +170,6 @@ Undoubtedly, this comes from a position of privilege — I remained healthy, emp
 [21]: https://klim.co.nz/retail-fonts/soehne/
 [22]: /categories/
 [23]: /collections/
-[24]: /places/
 [25]: /travel/
 [26]: /trips/
 [27]: /2020/05/indiekit_future/
