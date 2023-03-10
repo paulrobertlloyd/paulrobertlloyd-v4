@@ -1,42 +1,42 @@
-const process = require('node:process')
-const EleventyFetch = require('@11ty/eleventy-fetch');
+const process = require('node:process');
+const eleventyFetch = require('@11ty/eleventy-fetch');
 const slugify = require('@sindresorhus/slugify');
 const ICalParser = require('ical-js-parser');
-const { DateTime } = require('luxon');
+const {DateTime} = require('luxon');
 const getMovie = require('../../lib/utils/get-movie.js');
 
-const { WEBCAL_TOKEN } = process.env;
+const {WEBCAL_TOKEN} = process.env;
 const ENDPOINT = 'https://p28-caldav.icloud.com/published/2/';
 const REGEX_GEO = /geo:(?<latitude>[+-]?\d*\.\d+),(?<longitude>[+-]?\d*\.\d+)/;
 
 /**
  * Parse iCal text string
  *
- * @param {string} string
- * @returns
+ * @param {string} string - String to parse
+ * @returns {string} Parsed string
  */
-function parseString (string) {
+function parseString(string) {
   return string
-    .replace(/\u{5C}\u{6E}/gu, "\n") // New lines (\n)
-    .replace(/\u{5C}(\W{1})/gu, "$1"); // Punctuation (\, \;)
-};
+    .replace(/\u{5C}\u{6E}/gu, '\n') // New lines (\n)
+    .replace(/\u{5C}(\W{1})/gu, '$1'); // Punctuation (\, \;)
+}
 
 module.exports = async function () {
   try {
-    const ics = await EleventyFetch(`${ENDPOINT}${WEBCAL_TOKEN}`, {
+    const ics = await eleventyFetch(`${ENDPOINT}${WEBCAL_TOKEN}`, {
       duration: '1d',
       type: 'text',
     });
 
-    const { events } = ICalParser.default.toJSON(ics);
+    const {events} = ICalParser.default.toJSON(ics);
 
     const data = events.map(async event => {
       const item = {
         title: parseString(event.summary),
         location: {
-          type: "card",
+          type: 'card',
         },
-        rsvp: "yes",
+        rsvp: 'yes',
         slug: slugify(event.summary, {
           customReplacements: [
             ['@', 'at'],
@@ -54,20 +54,25 @@ module.exports = async function () {
         const venue = event.location.split(/\u{5C}\u{6E}/u); // \n
         item.location.name = venue[0];
 
-        const address = venue[1] ? venue[1].split(/\u{5C}\u{2C}\s?/u) : ""; // \,
+        const address = venue[1] ? venue[1].split(/\u{5C}\u{2C}\s?/u) : ''; // \,
         switch (address.length) {
-          case 3:
-            item.location.street_address = address.at(0);
-            break;
-          case 4:
+          case 4: {
             item.location.street_address = address.at(0);
             item.location.locality = address.at(1);
             break;
-          case 5:
+          }
+
+          case 5: {
             item.location.street_address = address.at(0);
             item.location.locality = address.at(1);
             item.location.region = address.at(2);
             break;
+          }
+
+          default: {
+            item.location.street_address = address.at(0);
+            break;
+          }
         }
 
         if (address.length > 1) {
@@ -80,7 +85,7 @@ module.exports = async function () {
       // Location (geo)
       if (event.xAppleStructuredLocation) {
         const geoString = event.xAppleStructuredLocation.XTITLE;
-        const { latitude, longitude } = geoString.match(REGEX_GEO).groups;
+        const {latitude, longitude} = geoString.match(REGEX_GEO).groups;
 
         item.location.latitude = Number(latitude);
         item.location.longitude = Number(longitude);
@@ -90,14 +95,14 @@ module.exports = async function () {
       if (event.description) {
         item.summary = parseString(event.description);
 
-        if (item.summary === "") {
+        if (item.summary === '') {
           delete item.summary;
         }
       }
 
       // Speaking event
       // Invitation to presentations@paulrobertlloyd.com indicates speaking event
-      if (event?.attendee?.[1].EMAIL === "presentations@paulrobertlloyd.com") {
+      if (event?.attendee?.[1].EMAIL === 'presentations@paulrobertlloyd.com') {
         item.presented = true;
       }
 
@@ -118,17 +123,17 @@ module.exports = async function () {
       }
 
       // URL
-      if (event.url && event.url.VALUE.includes("URI:")) {
-        item.url = event.url.VALUE.replace("URI:", "");
+      if (event.url && event.url.VALUE.includes('URI:')) {
+        item.url = event.url.VALUE.replace('URI:', '');
 
-        if (item.url.includes("imdb.com")) {
+        if (item.url.includes('imdb.com')) {
           const movie = await getMovie(item.url);
 
-          item.icon = "film"
+          item.icon = 'film';
           item.summary = movie.Plot || item.summary;
           item.photo = movie.Poster && {
             url: movie.Poster,
-            alt: `Poster for ‘${item.title}’`
+            alt: `Poster for ‘${item.title}’`,
           };
           item.product = {
             photo: item.photo,
@@ -144,8 +149,8 @@ module.exports = async function () {
 
       item.attended = new Date(item.end) < new Date();
 
-      return item
-    })
+      return item;
+    });
 
     return data;
   } catch (error) {

@@ -205,42 +205,42 @@ module.exports = function () {
     date: '2009-05-10',
     from: '9C2XRF63+2J',
     to: '9F28WXV5+7C',
-    via: ['QQS', 'ZYR']
+    via: ['QQS', 'ZYR'],
   }, {
     date: '2009-05-12',
     from: '9F28WXV5+7C',
-    to: '8FWH5F26+2J'
+    to: '8FWH5F26+2J',
   }, {
     date: '2009-05-15',
     from: '8FWH5F26+2J',
-    to: 'IOB'
+    to: 'IOB',
   }, {
     date: '2009-05-17',
     from: 'IOB',
     to: '8FVC3826+54',
-    via: ['8FVC9GHR+44']
+    via: ['8FVC9GHR+44'],
   }, {
     date: '2009-05-21',
     from: '8FVC3826+54',
-    to: '8FVC9GHR+44'
+    to: '8FVC9GHR+44',
   }, {
     date: '2009-05-22',
     from: '8FVC9GHR+44',
-    to: 'YJD'
+    to: 'YJD',
   }, {
     date: '2009-05-25',
     from: '8FH494HQ+HX',
-    to: '8CFXFJ8F+C2'
+    to: '8CFXFJ8F+C2',
   }, {
     date: '2009-05-28',
     from: '8CFXFJ8F+C2', // Valencia
     to: '8FW4R9R8+PC', // 'Paris-Austerlitz
-    via: ['XOC']
+    via: ['XOC'],
   }, {
     date: '2009-05-30',
     from: 'XPG',
     to: '9C2XRF63+2J',
-    via: ['QQS']
+    via: ['QQS'],
   }, {
     date: '2009-12-17',
     from: 'LHR',
@@ -1099,15 +1099,15 @@ module.exports = function () {
   }, {
     date: '2022-08-27',
     from: '8CJH67QQ+P5',
-    to: '8CHH4CX7+GR'
+    to: '8CHH4CX7+GR',
   }, {
     date: '2022-09-04',
     from: '8CHH4CX7+GR',
-    to: '8CJH67QQ+P5'
+    to: '8CJH67QQ+P5',
   }, {
     date: '2022-09-05',
     from: '8CJH67PQ+4J',
-    to: '8CGRF8C8+QX'
+    to: '8CGRF8C8+QX',
   }, {
     date: '2022-09-07',
     from: '8CGRC846+2M',
@@ -1117,7 +1117,7 @@ module.exports = function () {
     date: '2022-09-08',
     from: 'XPG',
     to: '9C2XRVH5+GJ',
-    via: ['QQS']
+    via: ['QQS'],
   }];
 
   // Trip mode types

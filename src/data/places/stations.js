@@ -69,14 +69,14 @@ module.exports = [{
     locality: 'Barcelona',
     country_name: 'Spain',
     plus_code: '8FH495MP+HH',
-  }
+  },
 }, {
   title: 'Barcelona Sants',
   address: {
     locality: 'Barcelona',
     country_name: 'Spain',
     plus_code: '8FH494HQ+HX',
-  }
+  },
 }, {
   title: 'Bath Spa',
   address: {
@@ -443,7 +443,7 @@ module.exports = [{
     locality: 'Innsbruck',
     country_name: 'Austria',
     plus_code: '8FVH7C72+89',
-  }
+  },
 }, {
   title: 'King Street Station',
   address: {
@@ -659,7 +659,7 @@ module.exports = [{
     locality: 'Munich',
     country_name: 'Germany',
     plus_code: '8FWH5F26+2J',
-  }
+  },
 }, {
   title: 'Newcastle',
   iata: 'NCL',
@@ -1007,21 +1007,21 @@ module.exports = [{
     locality: 'Velencia',
     country_name: 'Spain',
     plus_code: '8CFXFJ8F+C2',
-  }
+  },
 }, {
   title: 'Vigo-Guixar',
   address: {
     locality: 'Vigo',
     country_name: 'Spain',
     plus_code: '8CJH67QQ+P5',
-  }
+  },
 }, {
   title: 'Vigo-Urzáiz',
   address: {
     locality: 'Vigo',
     country_name: 'Spain',
     plus_code: '8CJH67PQ+4J',
-  }
+  },
 }, {
   title: 'Walsall',
   address: {

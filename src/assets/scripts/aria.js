@@ -98,11 +98,14 @@ aria.Combobox.prototype.checkKey = function (event) {
     case aria.key.END:
     case aria.key.HOME:
     case aria.key.UP:
-    case aria.key.DOWN:
+    case aria.key.DOWN: {
       event.preventDefault();
       return;
-    default:
+    }
+
+    default: {
       this.updateResults();
+    }
   }
 };
 
@@ -124,7 +127,7 @@ aria.Combobox.prototype.setActiveOption = function (event) {
   let activeOption;
 
   switch (key) {
-    case aria.key.UP:
+    case aria.key.UP: {
       if (activeIndex === 0) {
         // Enable focus to be drawn back up to search input
         this.defocusOption(previousActive);
@@ -135,30 +138,43 @@ aria.Combobox.prototype.setActiveOption = function (event) {
 
       activeIndex--;
       break;
-    case aria.key.DOWN:
+    }
+
+    case aria.key.DOWN: {
       if (activeIndex === this.resultsCount - 1) {
         return;
       }
 
       activeIndex++;
       break;
+    }
+
     case aria.key.HOME:
-    case aria.key.PAGE_UP:
+    case aria.key.PAGE_UP: {
       activeIndex = 0;
       break;
+    }
+
     case aria.key.END:
-    case aria.key.PAGE_DOWN:
+    case aria.key.PAGE_DOWN: {
       activeIndex = this.resultsCount - 1;
       break;
-    case aria.key.RETURN:
+    }
+
+    case aria.key.RETURN: {
       activeOption = this.getOptionAt(activeIndex);
       this.selectOption(activeOption);
       return;
-    case aria.key.TAB:
+    }
+
+    case aria.key.TAB: {
       this.hideListbox();
       return;
-    default:
+    }
+
+    default: {
       return;
+    }
   }
 
   event.preventDefault();

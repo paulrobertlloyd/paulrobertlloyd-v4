@@ -86,10 +86,6 @@
           "properties": "never"
         }
       ],
-      "node/prefer-global/process": [
-        "error",
-        "always"
-      ],
       "unicorn/prefer-module": 0
     }
   }

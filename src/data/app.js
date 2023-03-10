@@ -1,3 +1,5 @@
+const process = require('node:process');
+
 module.exports = {
   lang: 'en-GB',
   name: 'Paul Robert Lloyd',

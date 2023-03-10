@@ -1,59 +1,57 @@
 import aria from './aria.js';
 
-(async () => {
-  const searchForm = document.querySelector('#search');
-  const searchSubmit = document.querySelector('#search-submit');
-  const endpoint = searchForm.dataset.searchIndex;
-  const pages = [];
+const searchForm = document.querySelector('#search');
+const searchSubmit = document.querySelector('#search-submit');
+const endpoint = searchForm.dataset.searchIndex;
+const pages = [];
 
-  const getPages = async () => {
-    try {
-      const response = await fetch(endpoint);
-      const data = await response.json();
-      pages.push(...data);
-    } catch (error) {
-      console.error(error);
-    }
+const getPages = async () => {
+  try {
+    const response = await fetch(endpoint);
+    const data = await response.json();
+    pages.push(...data);
+  } catch (error) {
+    console.error(error);
   }
+};
 
-  const findResults = (termToMatch, pages) => pages.filter(item => {
-    const regex = new RegExp(termToMatch, 'gi');
-    return item.title.match(regex) || item.content.match(regex);
+const findResults = (termToMatch, pages) => pages.filter(item => {
+  const regex = new RegExp(termToMatch, 'gi');
+  return item.title.match(regex) || item.content.match(regex);
+});
+
+const displayResults = input => {
+  const resultsArray = findResults(input, pages);
+  const result = resultsArray.map(item => {
+    const html = `
+      <a class="form__option" href="${item.url}" aria-label="${item.title} (${item.layout})">
+        <h3 class="form__option-title">${item.title}</h3>
+        <p class="form__option-summary">${item.layout}</p>
+      </a>`;
+
+    return {
+      value: item.title,
+      html,
+    };
   });
 
-  const displayResults = input => {
-    const resultsArray = findResults(input, pages);
-    const result = resultsArray.map(item => {
-      const html = `
-        <a class="form__option" href="${item.url}" aria-label="${item.title} (${item.layout})">
-          <h3 class="form__option-title">${item.title}</h3>
-          <p class="form__option-summary">${item.layout}</p>
-        </a>`;
+  return result;
+};
 
-      return {
-        value: item.title,
-        html,
-      };
-    });
+if (searchForm) {
+  getPages();
 
-    return result;
-  };
+  searchForm.setAttribute('action', '#search');
+  searchForm.removeAttribute('method');
+  searchSubmit.remove(searchSubmit);
 
-  if (searchForm) {
-    getPages()
+  searchForm.addEventListener('submit', event => {
+    event.preventDefault();
+  });
 
-    searchForm.setAttribute('action', '#search');
-    searchForm.removeAttribute('method');
-    searchSubmit.remove(searchSubmit);
-
-    searchForm.addEventListener('submit', event => {
-      event.preventDefault();
-    });
-
-    window.addEventListener('DOMContentLoaded', () => new aria.Combobox(
-      document.querySelector('#search-combobox'),
-      document.querySelector('#search-input'),
-      displayResults,
-    ));
-  }
-})();
+  window.addEventListener('DOMContentLoaded', () => new aria.Combobox(
+    document.querySelector('#search-combobox'),
+    document.querySelector('#search-input'),
+    displayResults,
+  ));
+}

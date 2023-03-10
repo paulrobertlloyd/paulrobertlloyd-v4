@@ -10,8 +10,8 @@ module.exports = {
   eleventyComputed: {
     start: data => data.relatedTrips[0] ? data.relatedTrips[0].data.trip.date : false,
     end: data => data.relatedTrips[0] ? data.relatedTrips[data.relatedTrips.length - 1].data.trip.date : false,
-    geojson: data => {
-      const relatedTrips = data.relatedTrips ? data.relatedTrips : [];
+    geojson(data) {
+      const relatedTrips = data.relatedTrips && data.relatedTrips;
       const features = [];
       for (const trip of relatedTrips) {
         features.push(...trip.data.trip.geojson.features);
@@ -22,10 +22,10 @@ module.exports = {
         features,
       };
     },
-    relatedTrips: data => {
+    relatedTrips(data) {
       const trips = data.collections.trip;
-      const trip_id = data.trip_id ? data.trip_id.toString() : [];
-      return trips.filter(trip => trip_id.includes(trip.data.trip.uid));
+      const tripId = data.trip_id ? data.trip_id.toString() : [];
+      return trips.filter(trip => tripId.includes(trip.data.trip.uid));
     },
   },
 };
