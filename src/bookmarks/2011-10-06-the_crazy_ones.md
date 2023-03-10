@@ -1,7 +1,7 @@
 ---
 title: The Crazy Ones
 date: 2011-10-06T20:32:05+01:00
-bookmark-of: https://www.youtube.com/watch?v=-z4NS2zdrZc
+bookmark_of: https://www.youtube.com/watch?v=-z4NS2zdrZc
 category:
   - Steve Jobs
   - Apple

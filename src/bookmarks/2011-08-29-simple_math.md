@@ -1,7 +1,7 @@
 ---
 title: Manchester Orchestra - Simple Math
 date: 2011-08-29T22:44:35+01:00
-bookmark-of: https://www.youtube.com/watch?v=PaMiVDZu_T4
+bookmark_of: https://www.youtube.com/watch?v=PaMiVDZu_T4
 category:
   - Video
   - Music videos

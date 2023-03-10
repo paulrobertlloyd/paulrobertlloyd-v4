@@ -1,7 +1,7 @@
 ---
 title: Workplace topology
 date: 2018-10-08T15:10:26+02:00
-bookmark-of: https://clearleft.com/posts/workplace-topology
+bookmark_of: https://clearleft.com/posts/workplace-topology
 category:
   - Design
   - People

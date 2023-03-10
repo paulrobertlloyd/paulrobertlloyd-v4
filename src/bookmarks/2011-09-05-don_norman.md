@@ -1,7 +1,7 @@
 ---
 title: 'Don Norman: Google doesn’t get people, it sells them'
 date: 2011-09-05T23:14:22+01:00
-bookmark-of: https://gigaom.com/2011/09/05/don-norman-google-doesnt-get-people-it-sells-them/
+bookmark_of: https://gigaom.com/2011/09/05/don-norman-google-doesnt-get-people-it-sells-them/
 category:
   - dConstruct
   - Google

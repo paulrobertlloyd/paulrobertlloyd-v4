@@ -1,7 +1,7 @@
 ---
 title: The End of the Web as We Know It
 date: 2011-09-26T20:51:02+01:00
-bookmark-of: http://adrianshort.co.uk/2011/09/25/its-the-end-of-the-web-as-we-know-it/
+bookmark_of: http://adrianshort.co.uk/2011/09/25/its-the-end-of-the-web-as-we-know-it/
 category:
   - Facebook
   - Social media

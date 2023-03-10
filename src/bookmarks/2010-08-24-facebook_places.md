@@ -1,7 +1,7 @@
 ---
 title: The Problem with Facebook’s “Places”
 date: 2010-08-24T18:21:00+01:00
-bookmark-of: http://log.maniacalrage.net/post/1004228594/
+bookmark_of: http://log.maniacalrage.net/post/1004228594/
 category:
   - Facebook
   - Social media

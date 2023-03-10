@@ -1,7 +1,7 @@
 ---
 title: Bruce Lawson’s Thoughts on Adobe Edge
 date: 2012-10-08T19:38:45+01:00
-bookmark-of: https://www.brucelawson.co.uk/2012/thoughts-on-adobe-edge/
+bookmark_of: https://www.brucelawson.co.uk/2012/thoughts-on-adobe-edge/
 category:
   - Adobe
 ---

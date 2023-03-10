@@ -22,10 +22,10 @@
       </a>
     </dd>
 {%- endif -%}
-{%- if inReplyTo -%}
+{%- if in_reply_to -%}
     <dt>In reply to</dt>
     <dd>
-      <a class="u-in-reply-to" href="{{ inReplyTo }}">a post on {{ inReplyTo | hostname }}</a>
+      <a class="u-in-reply-to" href="{{ in_reply_to }}">a post on {{ in_reply_to | hostname }}</a>
     </dd>
 {%- endif -%}
 {%- if canonical -%}

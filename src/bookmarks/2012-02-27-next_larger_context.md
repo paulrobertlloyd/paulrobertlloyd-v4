@@ -1,7 +1,7 @@
 ---
 title: Next Larger Context
 date: 2012-02-27T02:03:33Z
-bookmark-of: https://quotesondesign.com/eliel-saarinen/
+bookmark_of: https://quotesondesign.com/eliel-saarinen/
 category:
   - Design
   - Architecture

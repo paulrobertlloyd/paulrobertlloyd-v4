@@ -6,13 +6,13 @@
   {%- render 'header'
     title: title
     summary: false
-    url: bookmarkOf
+    url: bookmark_of
     url_class: 'bookmark-of'
     vocab: vocab
   -%}
-  {%- if bookmarkOf -%}
+  {%- if bookmark_of -%}
     {%- capture content -%}
-      <p><a href="{{ bookmarkOf }}">Watch ‘{{ title }}’</a></p>
+      <p><a href="{{ bookmark_of }}">Watch ‘{{ title }}’</a></p>
       {{ content }}
     {%- endcapture -%}
   {%- endif -%}

@@ -1,7 +1,7 @@
 ---
 title: The Road to Nowhere
 date: 2012-03-22T02:42:11Z
-bookmark-of: https://www.flickr.com/photos/benpbarnett/sets/72157629624153789/
+bookmark_of: https://www.flickr.com/photos/benpbarnett/sets/72157629624153789/
 category:
   - Photography
   - Travel

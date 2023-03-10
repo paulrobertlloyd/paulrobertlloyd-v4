@@ -1,7 +1,7 @@
 ---
 title: Better CSS with Sass by Cole Henley
 date: 2015-07-06T15:11:35+01:00
-bookmark-of: http://www.fivesimplesteps.com/products/better-css-with-sass
+bookmark_of: http://www.fivesimplesteps.com/products/better-css-with-sass
 category:
   - Books
   - Friends

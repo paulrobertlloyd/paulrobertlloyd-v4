@@ -1,7 +1,7 @@
 ---
 title: Speaker Deck
 date: 2011-09-27T00:17:32+01:00
-bookmark-of: http://speakerdeck.com/
+bookmark_of: http://speakerdeck.com/
 category:
   - Social media
 ---

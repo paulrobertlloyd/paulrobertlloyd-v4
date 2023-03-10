@@ -1,7 +1,7 @@
 ---
 title: Inventing on Principle
 date: 2012-04-08T00:41:13+01:00
-bookmark-of: https://www.youtube.com/watch?v=8QiPFmIMxFc
+bookmark_of: https://www.youtube.com/watch?v=8QiPFmIMxFc
 category:
   - Design
 ---

@@ -1,7 +1,7 @@
 ---
 title: Today’s Guardian
 date: 2010-06-09T10:24:00+01:00
-bookmark-of: https://guardian.gyford.com
+bookmark_of: https://guardian.gyford.com
 category:
   - The Guardian
 ---

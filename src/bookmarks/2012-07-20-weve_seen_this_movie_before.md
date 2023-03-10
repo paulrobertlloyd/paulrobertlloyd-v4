@@ -1,7 +1,7 @@
 ---
 title: We’ve Seen This Movie Before
 date: 2012-07-20T23:51:44+01:00
-bookmark-of: https://www.nytimes.com/2012/07/21/opinion/weve-seen-this-movie-before.html
+bookmark_of: https://www.nytimes.com/2012/07/21/opinion/weve-seen-this-movie-before.html
 category:
   - Politics
   - United States
