@@ -7,7 +7,7 @@ pagination:
   data: collections.attended
   reverse: true
   size: 48
-permalink: "events/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}.html{% else %}/{% endif %}"
+permalink: "/events/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}.html{% else %}/{% endif %}"
 override:tags: []
 override:event: {}
 changefreq: weekly

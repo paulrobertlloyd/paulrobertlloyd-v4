@@ -1,7 +1,7 @@
 module.exports = {
   layout: 'bookmark',
   type: 'entry',
-  permalink: 'bookmarks/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
+  permalink: '/bookmarks/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
   tags: ['post', 'bookmark'],
   vocab: 'entry',
   changefreq: 'monthly',

@@ -1,7 +1,7 @@
 module.exports = {
   layout: 'project',
   type: 'entry',
-  permalink: 'projects/{{ page.fileSlug }}/',
+  permalink: '/projects/{{ page.fileSlug }}/',
   tags: ['post', 'project'],
   vocab: 'entry',
   changefreq: 'monthly',

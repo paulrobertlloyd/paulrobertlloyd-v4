@@ -1,7 +1,7 @@
 module.exports = {
   layout: 'itinerary',
   type: 'entry',
-  permalink: 'travel/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
+  permalink: '/travel/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
   tags: ['post', 'itinerary'],
   vocab: 'event',
   changefreq: 'yearly',

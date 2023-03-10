@@ -7,7 +7,7 @@ pagination:
   data: collections.article
   reverse: true
   size: 24
-permalink: "articles/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}.html{% else %}/{% endif %}"
+permalink: "/articles/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}.html{% else %}/{% endif %}"
 override:tags: []
 changefreq: weekly
 priority: 0.9
