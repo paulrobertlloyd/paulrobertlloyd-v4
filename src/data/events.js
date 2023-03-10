@@ -84,24 +84,24 @@ module.exports = async function () {
 
       // Description
       if (event.description) {
-        item.content = parseString(event.description);
+        item.summary = parseString(event.description);
 
         // Get category tags from hashtags in event description
-        const hashtags = item.content.match(REGEX_HASHTAGS);
+        const hashtags = item.summary.match(REGEX_HASHTAGS);
         if (hashtags) {
           item.category = hashtags.map((tag) => tag.replace("#", ""));
-          item.content = item.content.replace(REGEX_HASHTAGS, "");
+          item.summary = item.summary.replace(REGEX_HASHTAGS, "");
         }
 
-        if (item.content === "") {
-          delete item.content;
+        if (item.summary === "") {
+          delete item.summary;
         }
       }
 
       // Speaking event
       // Invitation to presentations@paulrobertlloyd.com indicates speaking event
       if (event?.attendee?.[1].EMAIL === "presentations@paulrobertlloyd.com") {
-        item.presentation = true;
+        item.presented = true;
       }
 
       // Published
