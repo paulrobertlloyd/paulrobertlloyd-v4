@@ -2,7 +2,7 @@ module.exports = {
   layout: 'note',
   type: 'entry-untitled',
   type_prefix: 'n',
-  permalink: '/notes/{{ page.fileSlug }}/',
+  permalink: 'notes/{{ page.fileSlug }}/',
   tags: ['post', 'note'],
   vocab: 'entry',
   changefreq: 'monthly',

@@ -2,7 +2,7 @@ module.exports = {
   layout: 'photo',
   type: 'entry-untitled',
   type_prefix: 'p',
-  permalink: '/photos/{{ page.fileSlug }}/',
+  permalink: 'photos/{{ page.fileSlug }}/',
   tags: ['post', 'photo'],
   vocab: 'entry',
   changefreq: 'monthly',

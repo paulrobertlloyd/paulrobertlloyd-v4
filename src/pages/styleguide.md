@@ -1,7 +1,7 @@
 ---
 eleventyExcludeFromCollections: true
 layout: page
-permalink: /styleguide/
+permalink: styleguide/
 title: Styleguide
 summary: An overview of the typographic and layout styles available for content pages
 ---
