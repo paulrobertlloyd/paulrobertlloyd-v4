@@ -1,17 +1,16 @@
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'footer-event'
-    date: event.date
-    location: event.location
-    start: event.start
-    end: event.end
-    place: event.place
-    vocab: event.vocab
+    date: date
+    location: location
+    start: start
+    end: end
+    vocab: vocab
   -%}
   {%- render 'header'
     title: title
     icon: event.icon
-    summary: event.summary
+    summary: summary
     url: event.url
   -%}
   {% if event.product %}

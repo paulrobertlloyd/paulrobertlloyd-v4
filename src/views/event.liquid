@@ -5,7 +5,20 @@ pagination:
   size: 1
   alias: event
   addAllPagesToCollections: true
-permalink: "/events/{{ event.start | date: '%Y/%m/%d' }}/{{ event.slug }}/"
+permalink: "events/{{ event.start | date: '%Y/%m/%d' }}/{{ event.slug }}/"
+tags:
+  - event
 eleventyComputed:
+  type_prefix: e
+  vocab: event
+  changefreq: monthly
+  priority: 0.4
   title: "{{ event.title }}"
+  summary: "{{ event.summary }}"
+  icon: "{{ event.icon }}"
+  start: "{{ event.start }}"
+  end: "{{ event.end }}"
+  location:
+    name: "{{ event.location.name }}"
+  presented: "{{ event.presented }}"
 ---

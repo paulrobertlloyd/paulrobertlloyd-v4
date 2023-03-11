@@ -43,10 +43,6 @@ module.exports = async function () {
           ],
           separator: '_',
         }),
-        tags: ['event'],
-        vocab: 'event',
-        changefreq: 'monthly',
-        priority: 0.4,
       };
 
       // Location (name and address)
@@ -146,8 +142,6 @@ module.exports = async function () {
           };
         }
       }
-
-      item.attended = new Date(item.end) < new Date();
 
       return item;
     });
