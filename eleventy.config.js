@@ -7,11 +7,11 @@ module.exports = function (eleventy) {
   // Liquid
   eleventy.setLiquidOptions({
     globals: {
-      app: require('./src/data/app.js'),
-      dates: require('./src/data/dates.js'),
-      navigation: require('./src/data/navigation.js'),
+      app: require('./src/_data/app.js'),
+      dates: require('./src/_data/dates.js'),
+      navigation: require('./src/_data/navigation.js'),
     },
-    layouts: './src/layouts',
+    layouts: './src/_layouts',
   });
 
   // Libraries
@@ -72,9 +72,7 @@ module.exports = function (eleventy) {
     dir: {
       input: 'src',
       output: 'www',
-      includes: 'includes',
-      layouts: 'layouts',
-      data: 'data',
+      layouts: '_layouts',
     },
     templateFormats: ['css', 'liquid', 'md', '11ty.js'],
   };
