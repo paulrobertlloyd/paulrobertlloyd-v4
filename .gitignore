@@ -1,5 +1,4 @@
 # Workspaces
-*.nova
 *.vscode
 
 # Files to ignore
