@@ -3,9 +3,9 @@ layout: index
 title: Articles
 introduction: Source publications
 permalink: /articles/sources/
-changefreq: weekly
-priority: 0.9
 eleventyComputed:
+  changefreq: weekly
+  priority: 0.9
   page_title: "{{ introduction }} · {{ app.name }}"
 ---
 {%- render 'items' with collections.source

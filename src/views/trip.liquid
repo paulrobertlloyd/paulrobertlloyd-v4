@@ -6,11 +6,12 @@ pagination:
   alias: trip
   addAllPagesToCollections: true
 permalink: "/trips/{{ trip.date | date: '%Y/%m' }}/{{ trip.uid }}/"
-tags: trip
-vocab: event
-changefreq: monthly
-priority: 0.2
+tags:
+  - trip
 eleventyComputed:
+  vocab: event
+  changefreq: monthly
+  priority: 0.2
   title: "{{ trip.title }}"
   summary: "{{ trip.summary }}"
 ---

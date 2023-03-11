@@ -6,10 +6,11 @@ pagination:
   alias: source
   addAllPagesToCollections: true
 permalink: "/articles/sources/{{ source.title | slugify }}/"
-tags: source
-changefreq: monthly
-priority: 0.2
+tags:
+  - source
 eleventyComputed:
+  changefreq: monthly
+  priority: 0.2
   title: "{{ source.title }}"
   summary: "{{ source.summary }}"
   tag: "source:{{ title | slugify }}"
