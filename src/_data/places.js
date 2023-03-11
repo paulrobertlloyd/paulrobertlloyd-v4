@@ -32,11 +32,6 @@ module.exports = function () {
   // Add place metadata and sort alphabetically
   return places
     .map(place => {
-      place.index = place.title.charAt(0).toLowerCase();
-
-      // Get address as a formatted string
-      place.structuredLocation = `${place.title}\n${place.address.street_address}, ${place.address.postal_code}, ${place.address.country_name}`;
-
       // Get geo and place id from plus code
       place.geo = decode(place.address.plus_code);
 
