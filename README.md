@@ -11,9 +11,10 @@
 
 Ensure the following environment variables are set:
 
+* `MAPBOX_TOKEN`: [API key from Mapbox](https://www.mapbox.com)
+* `OMDBAPI_TOKEN`: [API key from OMDb API](http://omdbapi.com)
 * `WEBCAL_TOKEN`: The token provided in the last part of a `webcal://` URL
 * `WEBMENTION_IO_TOKEN`: [API key from webmention.io](https://webmention.io)
-* `OMDBAPI_TOKEN`: [API key from OMDb API](http://omdbapi.com)
 
 Generated files are written to the `www` directory.
 

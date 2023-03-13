@@ -22,11 +22,10 @@ tags:
 ---
 ## Day 10
 
-{% render 'map'
-  geojson: geojson
+{% render 'map' with geojson
   width: 360
   height: 360
-  caption: 'Route map: Oslo to Copenhagen.'
+  alt: 'Route map: Oslo to Copenhagen.'
   alignment: 'pull'
 %}
 

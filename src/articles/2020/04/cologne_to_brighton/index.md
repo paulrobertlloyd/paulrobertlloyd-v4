@@ -57,8 +57,7 @@ The rest of the afternoon is spent inside the [Ludwig Museum][5], where I find m
 
 ## Day 16
 
-{% render 'map'
-  geojson: geojson
+{% render 'map' with geojson
   width: 360
   height: 360
   caption: 'Route map: Copenhagen to Brighton via Cologne.'

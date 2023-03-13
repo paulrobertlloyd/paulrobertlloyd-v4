@@ -22,11 +22,10 @@ tags:
 ---
 ## Day 1: Brighton to Hamburg
 
-{% render 'map'
-  geojson: geojson
+{% render 'map' with geojson
   width: 360
   height: 360
-  caption: 'Route map: Brighton to Copenhagen via Hamburg.'
+  alt: 'Route map: Brighton to Copenhagen via Hamburg.'
   alignment: 'pull'
 %}
 

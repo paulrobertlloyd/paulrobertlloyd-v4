@@ -13,16 +13,11 @@
   {%- capture content -%}
     <p>Part of a journey to <a href="{{ related.url }}">{{ related.data.title }}</a>.</p>
     {%- capture caption -%}
-      {%- for stop in stops -%}
-        {%- unless forloop.first %}<svg width="1em" height="1em" focusable="false" aria-hidden="true"><use href="#_icon_{{ stop.icon }}"></use></svg> {% endunless -%}
-        {{ stop.label }}, {{ stop.country_name }}<br>
-      {%- endfor -%}
+      {%- render 'itinerary' with stops -%}
     {%- endcapture -%}
-    {%- render 'map'
-      geojson: geojson
-      position: position
+    {%- render 'map' with geojson
+      alignment: 'bleed',
       caption: caption
-      alignment: 'bleed'
     -%}
     {{ trip.content | markdown }}
   {%- endcapture -%}

@@ -4,7 +4,7 @@
     "features": [{
       "type": "Feature",
       "properties": {
-        "stroke": "%23e02",
+        "stroke": "#e02",
         "stroke-opacity": 0.5,
         "stroke-width": 5
       },
@@ -39,7 +39,7 @@
       "type": "Feature",
       "properties": {
         "title": "Stockholm",
-        "marker-color": "%23e02",
+        "marker-color": "#e02",
         "marker-size": "large",
         "marker-symbol": "lodging"
       },
@@ -51,7 +51,7 @@
       "type": "Feature",
       "properties": {
         "title": "Oslo",
-        "marker-color": "%23e02",
+        "marker-color": "#e02",
         "marker-size": "large",
         "marker-symbol": "lodging"
       },

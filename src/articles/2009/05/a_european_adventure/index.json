@@ -3,7 +3,7 @@
     "features": [{
       "type": "Feature",
       "properties": {
-        "stroke": "%23e02",
+        "stroke": "#e02",
         "stroke-opacity": 0.5,
         "stroke-width": 5
       },
@@ -53,7 +53,7 @@
       "type": "Feature",
       "properties": {
         "title": "Cologne, Germany",
-        "marker-color": "%23e02",
+        "marker-color": "#e02",
         "marker-size": "large",
         "marker-symbol": "lodging"
       },
@@ -65,7 +65,7 @@
       "type": "Feature",
       "properties": {
         "title": "Munich, Germany",
-        "marker-color": "%23e02",
+        "marker-color": "#e02",
         "marker-size": "large",
         "marker-symbol": "lodging"
       },
@@ -77,7 +77,7 @@
       "type": "Feature",
       "properties": {
         "title": "Innsbruck, Austria",
-        "marker-color": "%23e02",
+        "marker-color": "#e02",
         "marker-size": "large",
         "marker-symbol": "lodging"
       },
@@ -89,7 +89,7 @@
       "type": "Feature",
       "properties": {
         "title": "Zurich, Switzerland",
-        "marker-color": "%23e02",
+        "marker-color": "#e02",
         "marker-size": "large",
         "marker-symbol": "lodging"
       },
@@ -101,7 +101,7 @@
       "type": "Feature",
       "properties": {
         "title": "Lucerne, Switzerland",
-        "marker-color": "%23e02",
+        "marker-color": "#e02",
         "marker-size": "large",
         "marker-symbol": "lodging"
       },
@@ -113,7 +113,7 @@
       "type": "Feature",
       "properties": {
         "title": "Barcelona, Spain",
-        "marker-color": "%23e02",
+        "marker-color": "#e02",
         "marker-size": "large",
         "marker-symbol": "lodging"
       },
@@ -125,7 +125,7 @@
       "type": "Feature",
       "properties": {
         "title": "Valencia, Spain",
-        "marker-color": "%23e02",
+        "marker-color": "#e02",
         "marker-size": "large",
         "marker-symbol": "lodging"
       },
@@ -137,7 +137,7 @@
       "type": "Feature",
       "properties": {
         "title": "Madrid, Spain",
-        "marker-color": "%23e02",
+        "marker-color": "#e02",
         "marker-size": "large",
         "marker-symbol": "lodging"
       },
@@ -149,7 +149,7 @@
       "type": "Feature",
       "properties": {
         "title": "Paris, France",
-        "marker-color": "%23e02",
+        "marker-color": "#e02",
         "marker-size": "large",
         "marker-symbol": "lodging"
       },

@@ -13,9 +13,7 @@
     vocab: vocab
   -%}
   {%- capture content -%}
-    {%- render 'map'
-      geojson: geojson
-      position: position
+    {%- render 'map' with geojson
       alignment: 'bleed'
     -%}
     {{ place.content | markdown }}

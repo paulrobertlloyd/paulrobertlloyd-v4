@@ -25,6 +25,7 @@ module.exports = function (eleventy) {
   eleventy.addFilter('excludes', require('./lib/filters/excludes.js'));
   eleventy.addFilter('hostname', require('./lib/filters/hostname.js'));
   eleventy.addFilter('includes', require('./lib/filters/includes.js'));
+  eleventy.addFilter('map_url', require('./lib/filters/map-url.js'));
   eleventy.addFilter('markdown', require('./lib/filters/markdown.js'));
   eleventy.addFilter('percentage_of', require('./lib/filters/percentage-of.js'));
   eleventy.addFilter('sum', require('./lib/filters/sum.js'));

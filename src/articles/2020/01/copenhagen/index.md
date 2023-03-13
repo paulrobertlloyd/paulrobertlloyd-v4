@@ -28,11 +28,10 @@ photoset:
 ---
 ## Day 3
 
-{% render 'map'
-  geojson: geojson
+{% render 'map' with geojson
   width: 360
   height: 360
-  caption: 'Route map: Copenhagen to Humlebæk, Malmö, Trelleborg and Hässleholm.'
+  alt: 'Route map: Copenhagen to Humlebæk, Malmö, Trelleborg and Hässleholm.'
   alignment: 'pull'
 %}
 

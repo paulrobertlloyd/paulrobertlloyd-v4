@@ -20,11 +20,10 @@ tags:
 ---
 ## Day 6
 
-{% render 'map'
-  geojson: geojson
+{% render 'map' with geojson
   width: 360
   height: 360
-  caption: 'Route map: Hässleholm to Stockholm, continuing on to Oslo via Gothenburg.'
+  alt: 'Route map: Hässleholm to Stockholm, continuing on to Oslo via Gothenburg.'
   alignment: 'pull'
 %}
 
