@@ -8,7 +8,6 @@ module.exports = {
   changefreq: 'monthly',
   priority: 0.8,
   eleventyComputed: {
-    bookmark_of: data => data.bookmark_of,
     summary: '{{ bookmark_of | hostname }}',
   },
 };

@@ -1,9 +1,9 @@
-{%- assign itinerary = collections.itinerary | includes: 'data.trip_id',trip.uid | first -%}
-{%- assign formattedTitle = title | replace: ' ➔','\n➔' -%}
+{%- assign related = collections.itinerary | includes: 'data.trip_id',uid | first -%}
+{%- assign formattedTitle = title | replace: ' ➔ ','\n➔ ' -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'footer'
-    date: trip.date
+    date: start
   -%}
   {%- render 'header'
     title: formattedTitle
@@ -11,15 +11,15 @@
     vocab: vocab
   -%}
   {%- capture content -%}
-    <p>Part of a journey to <a href="{{ itinerary.url }}">{{ itinerary.data.title }}</a>.</p>
+    <p>Part of a journey to <a href="{{ related.url }}">{{ related.data.title }}</a>.</p>
     {%- capture caption -%}
-      {%- for stop in trip.stops -%}
+      {%- for stop in stops -%}
         {%- unless forloop.first %}<svg width="1em" height="1em" focusable="false" aria-hidden="true"><use href="#_icon_{{ stop.icon }}"></use></svg> {% endunless -%}
-        {{ stop.title }}, {{ stop.address.country_name }}{% if stop.iata %} ({{ stop.iata }}){% endif -%}<br>
+        {{ stop.label }}, {{ stop.country_name }}<br>
       {%- endfor -%}
     {%- endcapture -%}
     {%- render 'map'
-      geojson: trip.geojson
+      geojson: geojson
       position: position
       caption: caption
       alignment: 'bleed'

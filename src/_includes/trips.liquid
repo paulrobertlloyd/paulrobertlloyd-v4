@@ -12,19 +12,19 @@
     <tr>
       <th>
         <a rel="bookmark" href="{{ item.url }}">
-          <time datetime="{{ item.data.trip.date }}">{{ item.data.trip.date | date: dates.date_short }}</time>
+          <time datetime="{{ item.data.start }}">{{ item.data.start | date: dates.date_short }}</time>
         </a>
       </th>
       <td>
-      {% for stop in item.data.trip.stops %}
+      {% for stop in item.data.stops %}
         <span>
           {%- unless forloop.first %}<svg width="1em" height="1em" focusable="false" aria-hidden="true"><use href="#_icon_{{ stop.icon }}"></use></svg> {% endunless -%}
-          {{ stop.title }}, {{ stop.address.country_name }}{% if stop.iata %} ({{ stop.iata }}){% endif -%}
+          {{ stop.label }}, {{ stop.country_name }}
         </span><br>
       {% endfor %}
       </td>
-      <td>{{ item.data.trip.distance }}</td>
-      <td>{{ item.data.trip.co2 }}</td>
+      <td>{{ item.data.distance }}</td>
+      <td>{{ item.data.co2 }}</td>
     </tr>
   {%- endfor -%}
   </tbody>

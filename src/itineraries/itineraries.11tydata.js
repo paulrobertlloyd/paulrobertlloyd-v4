@@ -8,13 +8,13 @@ module.exports = {
   changefreq: 'yearly',
   priority: 0.8,
   eleventyComputed: {
-    start: data => data.relatedTrips[0] ? data.relatedTrips[0].data.trip.date : false,
-    end: data => data.relatedTrips[0] ? data.relatedTrips[data.relatedTrips.length - 1].data.trip.date : false,
+    start: data => data.relatedTrips[0] ? data.relatedTrips[0].date : false,
+    end: data => data.relatedTrips[0] ? data.relatedTrips[data.relatedTrips.length - 1].date : false,
     geojson(data) {
       const relatedTrips = data.relatedTrips && data.relatedTrips;
       const features = [];
       for (const trip of relatedTrips) {
-        features.push(...trip.data.trip.geojson.features);
+        features.push(...trip.data.geojson.features);
       }
 
       return {
@@ -25,7 +25,7 @@ module.exports = {
     relatedTrips(data) {
       const trips = data.collections.trip;
       const tripId = data.trip_id ? data.trip_id.toString() : [];
-      return trips.filter(trip => tripId.includes(trip.data.trip.uid));
+      return trips.filter(trip => tripId.includes(trip.data.uid));
     },
   },
 };

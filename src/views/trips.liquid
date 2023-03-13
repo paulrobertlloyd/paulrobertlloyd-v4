@@ -3,19 +3,19 @@ layout: index
 title: Trips
 permalink: trips/
 eleventyComputed:
-  introduction: "Over the course of {{ trips | size }} trips, I’ve travelled {{ trips | sum: 'distance' }} km and emitted approximately {{ trips | sum: 'co2' }} kg of CO<sub>2</sub>."
+  introduction: "Over the course of {{ collections.trip | size }} trips, I’ve travelled {{ collections.trip | sum: 'distance' }} km and emitted approximately {{ collections.trip | sum: 'co2' }} kg of CO<sub>2</sub>."
 ---
-{%- assign totalKm = trips | sum: 'distance' -%}
-{%- assign totalCo2 = trips | sum: 'co2' -%}
+{%- assign now = 'now' | date: '%Y' -%}
+{%- assign totalKm = collections.trip | sum: 'distance' -%}
+{%- assign totalCo2 = collections.trip | sum: 'co2' -%}
 {%- assign meanKm = totalKm | divided_by: 13 -%}
 {%- assign meanCo2 = totalCo2 | divided_by: 13 -%}
-{%- assign now = 'now' | date: '%Y' -%}
 <table class="barchart">
   <caption class="barchart__caption"><abbr title="kilometers">km</abbr> travelled / <abbr title="kilograms">kg</abbr> CO<sub>2</sub></caption>
   <tbody class="barchart__items">
   {%- for year in (2003..now) -%}
     <tr class="barchart__item">
-      {%- assign thisYear = trips | includes: 'date',year -%}
+      {%- assign thisYear = collections.trip | includes: 'date',year -%}
       {%- assign yearKm = thisYear | sum: 'distance' -%}
       {%- assign scaleKm = yearKm | percentage_of: meanKm | divided_by: 2 -%}
       {%- assign yearCo2 = thisYear | sum: 'co2' -%}
@@ -40,7 +40,7 @@ eleventyComputed:
 </table>
 
 {%- for year in (2003..now) reversed -%}
-  {%- assign thisYear = collections.trip | includes: 'data.trip.date',year | reverse -%}
+  {%- assign thisYear = collections.trip | includes: 'data.start',year | reverse -%}
   {%- render 'section-trips' with thisYear
     id: year
     title: year
