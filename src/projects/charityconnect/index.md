@@ -11,9 +11,6 @@ tags:
   - featured
 accent_color: '#402031'
 screenshots:
-  homepage:
-    - url: /projects/charityconnect/screenshot_homepage.png
-      alt: Home page
   mobile:
     - url: /projects/charityconnect/screenshot_profile.png
       alt: User profile page on mobile
@@ -32,9 +29,8 @@ photoset:
     - url: /projects/charityconnect/photo_prioritisation.jpg
       alt: Page prioritisation exercise
 ---
-{% render 'gallery' with screenshots.homepage
-  alignment: 'bleed'
-%}
+![Home page.](screenshot_homepage.png){.screenshot}
+{.align-bleed}
 
 [CharityConnect][1] is a social network for the charity sector that helps charity professionals, trustees and volunteers interact, share ideas and discover opportunities in the sector.
 

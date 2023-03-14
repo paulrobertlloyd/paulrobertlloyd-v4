@@ -10,22 +10,17 @@ category:
   - Interaction design
 accent_color: '#006Aff'
 screenshots:
-  homepage:
-    - url: /projects/matter/screenshot_homepage.png
-      alt: Home page
-  type:
-    - url: /projects/matter/screenshot_type_calluna.png
-      alt: Type specimen for Calluna
-    - url: /projects/matter/screenshot_type_centro.png
-      alt: Type specimen for Centro
-    - url: /projects/matter/screenshot_type_enigma.png
-      alt: Type specimen for Enigma
-    - url: /projects/matter/screenshot_type_ptsans.png
-      alt: Type specimen for PT Sans
+  - url: /projects/matter/screenshot_type_calluna.png
+    alt: Type specimen for Calluna
+  - url: /projects/matter/screenshot_type_centro.png
+    alt: Type specimen for Centro
+  - url: /projects/matter/screenshot_type_enigma.png
+    alt: Type specimen for Enigma
+  - url: /projects/matter/screenshot_type_ptsans.png
+    alt: Type specimen for PT Sans
 ---
-{% render 'gallery' with screenshots.homepage
-  alignment: 'bleed'
-%}
+![Home page.](screenshot_homepage.png){.screenshot}
+{.align-bleed}
 
 The brainchild of journalists Bobbie Johnson and Jim Giles, Matter was a home for in-depth journalism about the ideas shaping our future. Stories covered everything from corporate misdeeds and untold environmental scandals to radical new scientific discoveries and the people behind them. The company was acquired by Medium in April 2013.
 
@@ -48,7 +43,7 @@ As well as being able to purchase individual articles as ebooks via Amazon and i
 
 One of the guiding principles established early on was to privilege the reading experience. This meant articles needed to be legible and enjoyable to read on any device. To meet this purpose, and after extensive device testing, I chose Calluna and Calluna Sans.
 
-{% render 'gallery' with screenshots.type
+{% render 'gallery' with screenshots
   caption: 'Type samples/experimentation'
   alignment: 'bleed'
   imagePreset: 'supporting'

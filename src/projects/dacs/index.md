@@ -12,18 +12,13 @@ tags:
   - featured
 accent_color: '#b4b6b8'
 screenshots:
-  homepage:
-    - url: /projects/dacs/screenshot_homepage.png
-      alt: Home page
-  payback:
-    - url: /projects/dacs/screenshot_payback.png
-      alt: Landing page for the Payback service
-    - url: /projects/dacs/screenshot_payback_furtherinfo.png
-      alt: Further information about the Payback service
+  - url: /projects/dacs/screenshot_payback.png
+    alt: Landing page for the Payback service
+  - url: /projects/dacs/screenshot_payback_furtherinfo.png
+    alt: Further information about the Payback service
 ---
-{% render 'gallery' with screenshots.homepage
-  alignment: 'bleed'
-%}
+![Home page.](screenshot_homepage.png){.screenshot}
+{.align-bleed}
 
 DACS (the [Design and Artists Copyright Society][1]) is a non-profit organisation that aims to protect the legal rights of artists through education, royalty-related legal services and government lobbying.
 
@@ -35,7 +30,7 @@ After a period of analysis and prototyping, we realised the website needed diffe
 
 DACS had already undergone an extensive rebranding exercise for print but it needed assistance translating this to a digital environment. To understand the reasoning behind the different brand elements, I spent time with Simon Kennedy who was responsible for DACS’s identity and brand strategy. One outcome from this process was to deprecate the use of Didot; while it worked well in print, the typeface was ill-suited to screen, and few areas on the website needed to reflect the discursive tone for which it was intended.
 
-{% render 'gallery' with screenshots.payback
+{% render 'gallery' with screenshots
   caption: 'Artist photography shown front and centre on a page introducing DACS’ Payback service. A restrained typographic pallet ensured legibility and visual consistency.'
   alignment: 'bleed'
   imagePreset: 'supporting'

@@ -9,16 +9,12 @@ category:
   - Interaction design
 accent_color: '#c50'
 screenshots:
-  showcase:
-    - url: /projects/nuts/screenshot_homepage.png
-      alt: Home page
-    - url: /projects/nuts/screenshot_product.png
-      alt: Product page
-  customtray:
-    - url: /projects/nuts/screenshot_customtray.png
-      alt: Custom tray configuration
+  - url: /projects/nuts/screenshot_homepage.png
+    alt: Home page
+  - url: /projects/nuts/screenshot_product.png
+    alt: Product page
 ---
-{% render 'gallery' with screenshots.showcase
+{% render 'gallery' with screenshots
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}
@@ -27,9 +23,7 @@ screenshots:
 
 Although successful, their site had grown organically over time, and had lost any design consistency and become difficult to navigate. Over a two-year period, I and other colleagues at Clearleft assisted CEO Jeff Braverman and lead programmer Ben Shakal in improving their site, ensuring the unique, customer-centred personality of the company wasn't lost in the desire to simplify and streamline.
 
-{% render 'gallery' with screenshots.customtray
-  caption: 'One sprint focused on designing and testing a new custom tray creation experience.'
-%}
+![Custom tray configuration.](screenshot_customtray.png "One sprint focused on designing and testing a new custom tray creation experience."){.screenshot}
 
 Initially focused on fixing obvious usability problems, we later spent short three-month sprints refining different aspects of the service. One of the first sprints involved modernising the design of home, listing and product pages, making them more appealing to users and easier to use. Later work focused on the checkout process and bespoke gift creation tools. Each sprint involved reviewing previous changes, and iterating the design based on usage of the site and feedback from users.
 

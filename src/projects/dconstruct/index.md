@@ -9,18 +9,13 @@ category:
   - Interaction design
 accent_color: '#370'
 screenshots:
-  latest:
-    - url: /projects/dconstruct/screenshot_2010.png
-      alt: Home page for the 2010 website
-  recent:
-    - url: /projects/dconstruct/screenshot_2011.png
-      alt: Home page for the 2011 website
-    - url: /projects/dconstruct/screenshot_2013.png
-      alt: Home page for the 2013 website
+  - url: /projects/dconstruct/screenshot_2011.png
+    alt: Home page for the 2011 website
+  - url: /projects/dconstruct/screenshot_2013.png
+    alt: Home page for the 2013 website
 ---
-{% render 'gallery' with screenshots.latest
-  alignment: 'bleed'
-%}
+![Home page for the 2010 website.](screenshot_2010.png){.screenshot}
+{.align-bleed}
 
 For the first Friday of September of each year from 2005 until 2015, Brighton played host to a one-day conference called dConstruct that explored topics around design, culture, technology and everything in-between. Each edition had a different theme, and to reflect this, the site was redesigned each year. I was responsible for the design in 2010, 2011 and 2013.
 
@@ -38,7 +33,7 @@ Prior to this event, Clearleft used plastic wallets to hold the combined confere
 
 Like the previous year's design, the [homepage featured prominent images of the speakers][3]. The design process involved close collaboration with Andy Hume, which was needed for us to build a highly responsive website that would work well across devices. With this in mind, the main navigation was simplified to just four items (Conference, Workshops, Location and Register) with an alternative navigation method shown when browsing speaker pages on smaller screens.
 
-{% render 'gallery' with screenshots.recent
+{% render 'gallery' with screenshots
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}

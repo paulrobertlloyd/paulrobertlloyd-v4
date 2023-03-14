@@ -11,14 +11,9 @@ category:
 tags:
   - featured
 accent_color: '#f70'
-screenshots:
-  school:
-    - url: /projects/ec_english/screenshot_school.png
-      alt: New York school page
 ---
-{% render 'gallery' with screenshots.school
-  alignment: 'bleed'
-%}
+![New York school page.](screenshot_school.png){.screenshot}
+{.align-bleed}
 
 [EC English][1] specialises in the teaching English as part of a language/travel experience. It currently runs 21 English Language schools in five countries on three continents: the UK, USA, Canada, South Africa and Malta.
 

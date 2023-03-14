@@ -16,9 +16,6 @@ article_id:
   - a4sE1
 accent_color: '#f04'
 screenshots:
-  article:
-    - url: /projects/24_ways/screenshot_article.png
-      alt: Article page
   mobile:
     - url: /projects/24_ways/screenshot_archive_mobile.png
       alt: Year archive page on mobile
@@ -32,9 +29,8 @@ screenshots:
     - url: /projects/24_ways/screenshot_navigation.png
       alt: Opened site navigation
 ---
-{% render 'gallery' with screenshots.article
-  alignment: 'bleed'
-%}
+![Article page.](screenshot_article.png){.screenshot}
+{.align-bleed}
 
 Each December, Drew McLellan and his small team of elves publish [24 ways][1], a daily dose of design and development goodness that delivers a little Christmas cheer to the web community during the period of advent.
 

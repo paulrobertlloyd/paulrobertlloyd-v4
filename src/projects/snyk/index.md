@@ -11,9 +11,6 @@ tags:
   - featured
 accent_color: '#6b698e'
 screenshots:
-  projects:
-    - url: /projects/snyk/screenshot_projects.png
-      alt: Projects page
   flow:
     - url: /projects/snyk/screenshot_flow_before.png
       alt: Original user journey for adding projects
@@ -27,9 +24,8 @@ screenshots:
     - url: /projects/snyk/screenshot_usage.png
       alt: Usage page
 ---
-{% render 'gallery' with screenshots.projects
-  alignment: 'bleed'
-%}
+![Projects page.](screenshot_projects.png){.screenshot}
+{.align-bleed}
 
 With the belief that the open source community is a force for good, Snyk brought together a team of security experts and talented software developers to make it easier for everyone to use open source safely. Snyk enables developers to find, and more importantly fix, known vulnerabilities in their open source projects.
 

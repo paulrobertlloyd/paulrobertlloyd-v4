@@ -9,9 +9,6 @@ category:
   - Interaction design
 accent_color: '#e9242e'
 screenshots:
-  homepage:
-    - url: /projects/fontdeck/screenshot_homepage.png
-      alt: Home page
   typeface:
     - url: /projects/fontdeck/screenshot_category.png
       alt: Typeface category page
@@ -25,9 +22,8 @@ screenshots:
     - url: /projects/fontdeck/screenshot_designer.png
       alt: Type designer page
 ---
-{% render 'gallery' with screenshots.homepage
-  alignment: 'bleed'
-%}
+![Home page.](screenshot_homepage.png){.screenshot}
+{.align-bleed}
 
 Fontdeck was a professional web font service that let designers and developers to choose from hundreds of web fonts and easily embed them in their websites.
 

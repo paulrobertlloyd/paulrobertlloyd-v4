@@ -11,8 +11,6 @@ category:
 tags:
   - featured
   - source:css_tricks
-screenshots:
-  - url: /articles/2018/01/improving_the_accessibility_of_24_ways/homepage.png
 accent_color: '#f04'
 ---
 I’ve been thinking recently about the nature of my work and which aspects of it I enjoy the most. In a role that will often straddle the realms of design and development, whether editing copy, evaluating the design of an interface or refactoring code, I’ve come to realise that my interests lie in the act of review and refinement.
@@ -23,10 +21,8 @@ My work on [24 ways][1] is a case in point. Since Drew McLellan asked me to rede
 
 In the intervening years, as tools have improved and best practices have matured, I’ve tweaked the design and refactored the code, and developed [a component library][3] in the process.
 
-{% render 'gallery' with screenshots
-  caption: 'The 24 ways home page.'
-  alignment: 'bleed'
-%}
+![The 24 ways home page.](homepage.png){.screenshot}
+{.align-bleed}
 
 ## A focus on accessibility
 
@@ -211,7 +207,7 @@ Adding `speak: none` had no effect (CSS aural properties have little support). H
 
 I also made improvements to the styling of author names in article summaries. Originally, these were distinguished from the rest of the excerpt by styling them as uppercase text. Francis pointed out that some screen readers will spell out uppercase letters (regardless of whether they appear in the HTML or have been altered by CSS) if they don’t spell a known word. For example: VoiceOver and NVDA have trouble with Chris Coyier’s surname, so his name would be read aloud as <samp>Chris C-O-Y-I-E-R</samp>. The simple fix was to distinguish names using emboldened text instead.
 
-If I’m honest, I’ve been somewhat arrogant in the past, thinking that by using semantic markup and progressive enhancement, I needn’t worry too much about accessibility. While using the right elements, and considering an interface not only in visual terms is important, this is the absolute bare minimum. An understanding of different assistive techologies, and willingness to test with them, is just as important.
+If I’m honest, I’ve been somewhat arrogant in the past, thinking that by using semantic markup and progressive enhancement, I needn’t worry too much about accessibility. While using the right elements, and considering an interface not only in visual terms is important, this is the absolute bare minimum. An understanding of different assistive technologies, and willingness to test with them, is just as important.
 
 ## Reviewing general usability
 

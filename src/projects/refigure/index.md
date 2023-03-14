@@ -12,20 +12,16 @@ tags:
   - featured
 accent_color: '#00e676'
 screenshots:
-  app:
-    - url: /projects/refigure/screenshot_app_welcome.png
-      alt: Welcome screen
-    - url: /projects/refigure/screenshot_app_browse.png
-      alt: Browse meditations
-    - url: /projects/refigure/screenshot_app_meditation.png
-      alt: Meditation detail
-    - url: /projects/refigure/screenshot_app_player.png
-      alt: Meditation player
-  homepage:
-    - url: /projects/refigure/screenshot_homepage.png
-      alt: Landing page for the new app.
+  - url: /projects/refigure/screenshot_app_welcome.png
+    alt: Welcome screen
+  - url: /projects/refigure/screenshot_app_browse.png
+    alt: Browse meditations
+  - url: /projects/refigure/screenshot_app_meditation.png
+    alt: Meditation detail
+  - url: /projects/refigure/screenshot_app_player.png
+    alt: Meditation player
 ---
-{% render 'gallery' with screenshots.app
+{% render 'gallery' with screenshots
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}
@@ -36,9 +32,7 @@ At the start of my short ten-day engagement, I proposed three possible design di
 
 At the heart of Refigure’s brand is the monogram. A scripted ‘r’ within a slanted oval, provides a personal touch to the company’s brand, subtly hinting at ideas of growth, renewal and continuous improvement. A high contrast complementary palette of dark warm purple and a vibrant green gave the brand an energetic yet approachable feel, while a series of thematic icons primarily composed using a single line that drew inspiration from the scripted logo mark.
 
-{% render 'gallery' with screenshots.homepage
-  caption: 'Landing page to promote the new app.'
-%}
+![Landing page for the new app.](screenshot_homepage.png "Landing page to promote the new app."){.screenshot}
 
 ---
 
