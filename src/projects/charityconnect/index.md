@@ -13,12 +13,6 @@ accent_color: '#402031'
 style:
   screenshot-shadow: '#402031'
   screenshot-offset: '#662949'
-aside: |
-  Year
-  : 2016
-
-  Role
-  : Interaction and user-experience design
 screenshots:
   homepage:
     - url: /projects/charityconnect/screenshot_homepage.png
@@ -45,10 +39,6 @@ photoset:
   alignment: 'bleed'
 %}
 
-{% render 'aside'
-  aside: aside
-%}
-
 [CharityConnect][1] is a social network for the charity sector that helps charity professionals, trustees and volunteers interact, share ideas and discover opportunities in the sector.
 
 I was asked to conduct an expert review of some earlier designs that had been produced, with a particular focus on home, groups, post and profile pages. Taking into account the need to incorporate new functionality and user experience improvements, this review was conducted on site and alongside the project owner and other stakeholders. Workshop exercises then allowed for requirements gathering and design exploration.
@@ -62,12 +52,20 @@ I was asked to conduct an expert review of some earlier designs that had been pr
 With these findings uncovered, I created a set of detailed visual design compositions. I evolved the existing design language, allowing it to convey a higher degree of user activity, while creating an identity that would stand out among popular mainstream networks.
 
 > Paul is fantastic to work with and a truly excellent designer. From communication, to testing, to presenting his work; he never ceases to go the extra mile. Paul has played a central role in a really exciting time for our product and has made such an impact – thank you, Paul.
-— Emma Begg, Product and Marketing Manager
+> — Emma Begg, Product and Marketing Manager
 
 {% render 'screenshots' with screenshots.mobile
   caption: 'The product benefited from a mobile-first design approach.'
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}
+
+---
+
+Year
+: 2016
+
+Role
+: Interaction and user-experience design
 
 [1]: https://www.charityconnect.co.uk

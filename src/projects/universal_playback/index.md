@@ -11,15 +11,6 @@ accent_color: '#07B'
 style:
   screenshot-shadow: '#888'
   screenshot-offset: '#bbb'
-aside: |
-  Year
-  : 2010
-
-  Role
-  : Interaction design
-
-  Agency
-  : Clearleft
 screenshots:
   - url: /projects/universal_playback/screenshot_homepage.png
     alt: Home page
@@ -31,15 +22,22 @@ screenshots:
   imagePreset: 'supporting'
 %}
 
-{% render 'aside'
-  aside: aside
-%}
-
 [Playback][1] was the TV-on-DVD label of Universal Pictures in the UK, responsible for releasing content from NBCUniversal as well as other acquired series on DVD and Blu-ray disc.
 
 With a diverse catalogue that includes dramas, classic sitcoms and cult television programmes from Universal, BBC and ITV, NBCUniversal was looking to draw on its range of exclusive imagery and video footage, and increase the presence of its Playback brand.
 
 Working alongside Rob Pearson and Andy Hume at Clearleft, I was responsible for the design of the improved site. As Playback often acts as a supporting brand to the television shows it releases, an element of customisation was added, allowing site editors to choose a colour palette that would coordinate with a show’s branding.
+
+---
+
+Year
+: 2010
+
+Role
+: Interaction design
+
+Agency
+: Clearleft
 
 [1]: https://en.wikipedia.org/wiki/Universal_Playback
 

@@ -13,12 +13,6 @@ accent_color: '#00b6dd'
 style:
   screenshot-shadow: '#131319'
   screenshot-offset: '#333339'
-aside: |
-  Year
-  : 2008
-
-  Role
-  : Brand identity, design and front-end development
 screenshots:
   - url: /projects/ngenera/screenshot_homepage.png
     alt: Home page
@@ -28,10 +22,6 @@ screenshots:
 {% render 'screenshots' with screenshots
   alignment: 'bleed'
   imagePreset: 'supporting'
-%}
-
-{% render 'aside'
-  aside: aside
 %}
 
 nGenera Corporation (now [Moxie Software][1]) helps companies and governments transform themselves into forward thinking enterprises, that is to say organisations that enable employees to communicate via real-time social software platforms and tools.
@@ -46,5 +36,13 @@ This distinctive mark could work at many sizes, with flat and rendered versions 
 
 ![](collateral.png 'Associated brand collateral, including presentation folders, report covers, letterheads and business cards.')
 {.align-bleed}
+
+---
+
+Year
+: 2008
+
+Role
+: Brand identity, design and front-end development
 
 [1]: https://www.gomoxie.com

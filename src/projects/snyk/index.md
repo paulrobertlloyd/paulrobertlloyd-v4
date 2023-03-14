@@ -13,12 +13,6 @@ accent_color: '#333152'
 style:
   screenshot-shadow: '#0f0d30'
   screenshot-offset: '#6b698e'
-aside: |
-  Year
-  : 2017
-
-  Role
-  : Design and user-experience
 screenshots:
   projects:
     - url: /projects/snyk/screenshot_projects.png
@@ -40,10 +34,6 @@ screenshots:
   alignment: 'bleed'
 %}
 
-{% render 'aside'
-  aside: aside
-%}
-
 With the belief that the open source community is a force for good, Snyk brought together a team of security experts and talented software developers to make it easier for everyone to use open source safely. Snyk enables developers to find, and more importantly fix, known vulnerabilities in their open source projects.
 
 I was brought on-board to address three critical areas of the product to improve sign-up conversion rates and increase the overall number of projects monitored by the service. At the same time, the company was also beginning to dramatically broaden its support for different programming languages and integrations beyond an initial offering that was limited to node.js and GitHub.
@@ -63,3 +53,11 @@ I reviewed the project creation flow, addressing areas of friction and confusion
 %}
 
 Throughout my engagement I also advised on the development of the company’s nascent component library. I advocated for developing patterns that carried few assumptions about their intended use, enabling them to be applied more broadly across the product.
+
+---
+
+Year
+: 2017
+
+Role
+: Design and user-experience

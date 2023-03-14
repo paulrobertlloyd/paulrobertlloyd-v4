@@ -14,12 +14,6 @@ accent_color: '#f70'
 style:
   screenshot-shadow: '#e6772e'
   screenshot-offset: '#ffa033'
-aside: |
-  Year
-  : 2016
-
-  Role
-  : Design and front-end development
 screenshots:
   school:
     - url: /projects/ec_english/screenshot_school.png
@@ -27,10 +21,6 @@ screenshots:
 ---
 {% render 'screenshots' with screenshots.school
   alignment: 'bleed'
-%}
-
-{% render 'aside'
-  aside: aside
 %}
 
 [EC English][1] specialises in the teaching English as part of a language/travel experience. It currently runs 21 English Language schools in five countries on three continents: the UK, USA, Canada, South Africa and Malta.
@@ -42,6 +32,14 @@ After undertaking a series of discovery and research activities including an exp
 Beyond developing the prototype, I delivered the beginnings of a component library. Each component needed to account for different languages, including those that run right-to-left. Using Flexbox meant these components could be developed independently of language choice, with different writing modes achieved simply by providing the correct `dir` attribute on the `body` element.
 
 > The work you did for us a was a great success, basically providing the business case for redesigning the whole site.
-— Ric Francis, Development Director
+> – Ric Francis, Development Director
+
+---
+
+Year
+: 2016
+
+Role
+: Design and front-end development
 
 [1]: https://www.ecenglish.com

@@ -11,15 +11,6 @@ accent_color: '#370'
 style:
   screenshot-shadow: '#370'
   screenshot-offset: '#8a1'
-aside: |
-  Years
-  : 2010, 2011, 2013
-
-  Role
-  : Design
-
-  Agency
-  : Clearleft
 screenshots:
   latest:
     - url: /projects/dconstruct/screenshot_2010.png
@@ -32,10 +23,6 @@ screenshots:
 ---
 {% render 'screenshots' with screenshots.latest
   alignment: 'bleed'
-%}
-
-{% render 'aside'
-  aside: aside
 %}
 
 For the first Friday of September of each year from 2005 until 2015, Brighton played host to a one-day conference called dConstruct that explored topics around design, culture, technology and everything in-between. Each edition had a different theme, and to reflect this, the site was redesigned each year. I was responsible for the design in 2010, 2011 and 2013.
@@ -62,6 +49,17 @@ Like the previous year's design, the [homepage featured prominent images of the 
 ## 2013: Communicating with Machines
 
 Referencing the theme of [communicating with machines][4], I researched different ways humans have tried to direct machines through history. Punch cards became the unifying motif, providing an interesting textural patterning on the website and associated marketing and conference material.
+
+---
+
+Years
+: 2010, 2011, 2013
+
+Role
+: Design
+
+Agency
+: Clearleft
 
 [1]: http://2010.dconstruct.org/
 [2]: /2010/08/dconstruct_conference_badge

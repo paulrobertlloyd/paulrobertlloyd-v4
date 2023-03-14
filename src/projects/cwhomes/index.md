@@ -13,15 +13,6 @@ accent_color: '#f90'
 style:
   screenshot-shadow: '#003'
   screenshot-offset: '#016'
-aside: |
-  Year
-  : 2006
-
-  Role
-  : Design, branding and front-end development
-
-  Agency
-  : Orange Vision
 screenshots:
   - url: /projects/cwhomes/screenshot_homepage.png
     alt: Home page
@@ -33,10 +24,6 @@ screenshots:
   imagePreset: 'supporting'
 %}
 
-{% render 'aside'
-  aside: aside
-%}
-
 cwhomes.co.uk was a property portal that combined the resources of over sixty independent estate agency offices within Coventry and Warwickshire.
 
 An innovative proposition when it launched in 2001, by 2005 the site had become slow to load and its appearance outdated, and was facing competition from nationwide property portals that had entered the market such as Rightmove and Prime Location.
@@ -46,6 +33,17 @@ Partnering with developer Andrew Ayriss at Orange Vision, I advocated rearchitec
 Using the existing brand as a basis, I gave the site a vibrant and contemporary update while improving the usability of key tasks performed on the site, such as viewing information about a property and arranging a viewing. The move to a CSS-based layout soon paid dividends, as property detail pages could now be printed out with a layout more suited to that use case. I also updated the design of the location-based search interface and designed a series of local area guides to provide hyper-localised landing pages for each of the areas covered by the site.
 
 After a successful launch supported by advertising in the local press, the number of agents advertising their properties on the site increased from 46 before the redesign to 66 by March 2008.
+
+---
+
+Year
+: 2006
+
+Role
+: Design, branding and front-end development
+
+Agency
+: Orange Vision
 
 *[CSS]: Cascading Style Sheets
 *[HTML]: Hypertext Markup Language

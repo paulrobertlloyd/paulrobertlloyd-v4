@@ -11,15 +11,6 @@ accent_color: '#235'
 style:
   screenshot-shadow: '#235'
   screenshot-offset: '#2e5186'
-aside: |
-  Year
-  : 2009
-
-  Role
-  : Interaction design
-
-  Agency
-  : Clearleft
 screenshots:
   - url: /projects/mozilla_addons/screenshot_homepage.png
     alt: Home page
@@ -31,12 +22,19 @@ screenshots:
   imagePreset: 'supporting'
 %}
 
-{% render 'aside'
-  aside: aside
-%}
-
 Mozilla Add-ons is a catalogue of over 6,000 add-ons that allows Firefox users to customise the browser to suit their individual interests and needs.
 
 The previous site proved unappealing to users who were less tech savvy. Mozilla wanted to reposition add-ons as thousands of ways to improve the way you do things online.
 
 Working alongside Richard Rutter, Natalie Downe and Anna Debenham at Clearleft in Brighton and the Mozilla team in San Francisco, I created a design that was more consumer-orientated and approachable.	The redesign resulted in a 20% increase in traffic to the Mozilla add-ons store, equating to an extra 400k visitors per day.
+
+---
+
+Year
+: 2009
+
+Role
+: Interaction design
+
+Agency
+: Clearleft

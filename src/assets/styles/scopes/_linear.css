@@ -21,7 +21,7 @@
 .s-linear > hr {
   border-block-end: var(--border-width-rule) solid var(--color-accent);
   inline-size: calc(33% - calc(var(--gap) / 2));
-  margin-block: calc(var(--linear-flow-space) * 3);
+  margin-block: calc(var(--linear-flow-space) * 2);
   margin-inline-start: 0;
 }
 
@@ -148,13 +148,8 @@
   font-weight: 500;
 }
 
-.s-linear li:has(p),
-.s-linear dd + dt {
+.s-linear li:has(p) {
   margin-block-start: calc(var(--linear-flow-space) * 0.5);
-}
-
-.s-linear dt + dd {
-  margin-block-start: 0;
 }
 
 .s-linear code {

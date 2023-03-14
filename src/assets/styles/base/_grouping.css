@@ -40,6 +40,12 @@ ul[role="listbox"] {
   padding-inline-start: var(--flow-inset, 0);
 }
 
+dt {
+  float: inline-start;
+  font-weight: bold;
+  margin-inline-end: 1ch;
+}
+
 dd {
-  margin-inline-start: var(--flow-inset, 0);
+  margin-inline-start: unset;
 }

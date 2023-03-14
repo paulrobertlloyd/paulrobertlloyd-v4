@@ -11,15 +11,6 @@ accent_color: '#527'
 style:
   screenshot-shadow: '#afaaa2'
   screenshot-offset: '#d9d7d4'
-aside: |
-  Year
-  : 2010
-
-  Role
-  : Interaction design
-
-  Agency
-  : Clearleft
 screenshots:
   syfy:
     - url: /projects/universal_networks/screenshot_syfy_homepage.png
@@ -41,10 +32,6 @@ screenshots:
   imagePreset: 'supporting'
 %}
 
-{% render 'aside'
-  aside: aside
-%}
-
 [Universal Networks][1] encompasses NBCUniversal’s portfolio of over seventy international television channels. In 2009, these were consolidated into five brands – Syfy, Diva, 13th Street, Studio Universal and Universal Channel – and NBCUniversal wanted to create a holistic online user experience that all these brands could use within each territory in which they were operated.
 
 Working with James Box at Clearleft, I devised the underlying user experience and design language, expressed as a library of localisable design patterns. These were customisable, allowing each brand to exhibit its own individuality and brand personality. I provided styling for four of these, while Aegir Hallmundur designed the theme for Diva.
@@ -54,6 +41,17 @@ Working with James Box at Clearleft, I devised the underlying user experience an
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}
+
+---
+
+Year
+: 2010
+
+Role
+: Interaction design
+
+Agency
+: Clearleft
 
 [1]: https://en.wikipedia.org/wiki/NBCUniversal_International_Networks
 

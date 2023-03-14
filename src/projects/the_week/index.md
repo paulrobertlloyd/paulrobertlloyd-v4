@@ -13,18 +13,6 @@ accent_color: '#b00'
 style:
   screenshot-shadow: '#b00'
   screenshot-offset: '#e00'
-aside: |
-  Year
-  : 2011
-
-  Role
-  : Design
-
-  Agency
-  : Clearleft
-
-  App
-  : [Download on the App Store](https://itunes.apple.com/gb/app/id468108781)
 screenshots:
   showcase:
     - url: /projects/the_week/screenshot_cover.png
@@ -53,10 +41,6 @@ photoset:
 {% render 'screenshots' with screenshots.showcase
   alignment: 'bleed'
   imagePreset: 'supporting'
-%}
-
-{% render 'aside'
-  aside: aside
 %}
 
 [The Week][1] condenses the week’s news into lively and informative editorial, giving readers an insight into the most vital stories. With over 183,000 subscribers, it’s the UKs most popular weekly subscription magazine.
@@ -103,7 +87,21 @@ Working closely with the development team at Kaldor, we honed the gestural inter
 The app was far more successful than anticipated, spending a number of weeks in the top grossing Top 10 News and Newsstand categories of the UK App Store, and receiving an average rating of four stars. Furthermore, the editors of the US and Australian editions were so impressed, they decided to use the same infrastructure and user experience for their respective apps, thus bringing an additional economy of scale.
 
 > This was the most technically complex software project we’ve ever attempted, yet in its first year it’s been a real success. We’ve found new readers, increased revenue from existing readers and gained the title lots of exposure.
-— Alex Watson, Head of App Development, Dennis Publishing
+> — Alex Watson, Head of App Development, Dennis Publishing
+
+---
+
+Year
+: 2011
+
+Role
+: Design
+
+Agency
+: Clearleft
+
+App
+: [Download on the App Store](https://itunes.apple.com/gb/app/id468108781)
 
 [1]: https://www.theweek.co.uk
 [2]: https://pugpig.com

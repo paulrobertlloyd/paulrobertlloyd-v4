@@ -11,16 +11,6 @@ accent_color: '#002f70'
 style:
   screenshot-shadow: '#f16d01'
   screenshot-offset: '#f5aa00'
-aside: |
-  Year
-  : 2009
-
-  Role
-  : Design
-
-  Agency
-  : Clearleft
-
 screenshots:
   - url: /projects/bookfhr/screenshot_homepage.png
     alt: Home page
@@ -32,13 +22,20 @@ screenshots:
   imagePreset: 'supporting'
 %}
 
-{% render 'aside'
-  aside: aside
-%}
-
 [BookFHR][1] provides discounts on airport hotels, parking, lounges and other travel services in the UK.
 
 During a short engagement working alongside Richard Rutter at Clearleft, I helped improve the overall user experience, with particular focus on search and booking flows. I also provided a more consistent visual treatment for the site, and took the opportunity to refine the company’s logo.
+
+---
+
+Year
+: 2009
+
+Role
+: Design
+
+Agency
+: Clearleft
 
 [1]: https://www.bookfhr.com
 

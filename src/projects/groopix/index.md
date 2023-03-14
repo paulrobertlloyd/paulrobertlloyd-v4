@@ -12,12 +12,6 @@ accent_color: '#6e9d00'
 style:
   screenshot-shadow: '#6e9d00'
   screenshot-offset: '#cc0'
-aside: |
-  Year
-  : 2008
-
-  Role
-  : UX, design and front-end development
 screenshots:
   - url: /projects/groopix/screenshot_groops.png
     alt: Groops page
@@ -29,10 +23,14 @@ screenshots:
   imagePreset: 'supporting'
 %}
 
-{% render 'aside'
-  aside: aside
-%}
-
 Groopix was an online tool that allowed users to easily curate and print group-based photo albums. Working closely with CEO Steve Douty, I produced the company’s branding and visual design and developed the underlying user experience of the product.
+
+---
+
+Year
+: 2008
+
+Role
+: UX, design and front-end development
 
 *[CEO]: Chief executive officer

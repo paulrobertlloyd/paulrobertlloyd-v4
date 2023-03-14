@@ -12,15 +12,6 @@ accent_color: '#006Aff'
 style:
   screenshot-shadow: '#444'
   screenshot-offset: '#666'
-aside: |
-  Year
-  : 2012
-
-  Role
-  : Brand identity, user experience and interaction design
-
-  Agency
-  : Clearleft
 screenshots:
   homepage:
     - url: /projects/matter/screenshot_homepage.png
@@ -37,10 +28,6 @@ screenshots:
 ---
 {% render 'screenshots' with screenshots.homepage
   alignment: 'bleed'
-%}
-
-{% render 'aside'
-  aside: aside
 %}
 
 The brainchild of journalists Bobbie Johnson and Jim Giles, Matter was a home for in-depth journalism about the ideas shaping our future. Stories covered everything from corporate misdeeds and untold environmental scandals to radical new scientific discoveries and the people behind them. The company was acquired by Medium in April 2013.
@@ -69,6 +56,17 @@ One of the guiding principles established early on was to privilege the reading 
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}
+
+---
+
+Year
+: 2012
+
+Role
+: Brand identity, user experience and interaction design
+
+Agency
+: Clearleft
 
 [1]: https://www.kickstarter.com/projects/readmatter/matter
 [2]: https://adactio.com/journal/5886

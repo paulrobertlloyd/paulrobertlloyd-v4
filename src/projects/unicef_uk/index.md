@@ -12,15 +12,6 @@ accent_color: '#00aeef'
 style:
   screenshot-shadow: '#aae6f9'
   screenshot-offset: '#e6f6fc'
-aside: |
-  Year
-  : 2013
-
-  Role
-  : Interaction design and front-end development
-
-  Agency
-  : Clearleft
 screenshots:
   - url: /projects/unicef_uk/screenshot_home.png
     alt: Home page
@@ -40,10 +31,6 @@ photoset:
 {% render 'screenshots' with screenshots
   alignment: 'bleed'
   imagePreset: 'supporting'
-%}
-
-{% render 'aside'
-  aside: aside
 %}
 
 [UNICEF UK][1] raises funds to protect children and the defend their rights worldwide.
@@ -71,6 +58,17 @@ We placed considerable attention on ensuring the performance of the site didn’
 We experimented with different ways of simplifying way-finding around the site. By removing layers of navigation and advocating the inclusion of more links within body copy, we were able to reduce unnecessary interactions and invoke fewer taps. Moving the breadcrumb navigation to a slide-out menu meant users could easily orientate themselves.
 
 The new mobile site was launched a year after our engagement as part of a more extensive rebrand of the organisation lead by Johnson Banks.
+
+---
+
+Year
+: 2013
+
+Role
+: Interaction design and front-end development
+
+Agency
+: Clearleft
 
 [1]: https://www.unicef.org.uk
 

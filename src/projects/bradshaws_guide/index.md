@@ -18,12 +18,6 @@ accent_color: '#e6772e'
 style:
   screenshot-shadow: '#e6772e'
   screenshot-offset: '#ffa033'
-aside: |
-  Year
-  : Ongoing
-
-  Role
-  : Design and front-end development
 screenshots:
   homepage:
     - url: /projects/bradshaws_guide/screenshot_homepage.png
@@ -43,10 +37,6 @@ screenshots:
   alignment: 'bleed'
 %}
 
-{% render 'aside'
-  aside: aside
-%}
-
 [Bradshaw’s Guide][1] is a digital revival of George Bradshaw’s eponymous guide to Britain and Ireland’s nascent railway network as it existed in 1866.
 
 Reproductions of his handbook are over an inch thick; pocket-sized by Victorian standards, but not when compared to our slim wireless companions. This ongoing self-directed project aims to make Bradshaw’s work accessible to a new audience, be they tourists wanting to spend more time on today’s network, or commuters wishing to learn about the places they pass by every day.
@@ -64,6 +54,14 @@ Producing content for the guide involved transcribing and correcting copy origin
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}
+
+---
+
+Year
+: Ongoing
+
+Role
+: Design and front-end development
 
 [1]: https://bradshaws.guide
 [2]: https://github.com/bradshawsguide

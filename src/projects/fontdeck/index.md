@@ -11,15 +11,6 @@ accent_color: '#e9242e'
 style:
   screenshot-shadow: '#aab'
   screenshot-offset: '#ccd'
-aside: |
-  Year
-  : 2010 - 2013
-
-  Role
-  : Interaction and user experience design
-
-  Agency
-  : Clearleft
 screenshots:
   homepage:
     - url: /projects/fontdeck/screenshot_homepage.png
@@ -39,10 +30,6 @@ screenshots:
 ---
 {% render 'screenshots' with screenshots.homepage
   alignment: 'bleed'
-%}
-
-{% render 'aside'
-  aside: aside
 %}
 
 Fontdeck was a professional web font service that let designers and developers to choose from hundreds of web fonts and easily embed them in their websites.
@@ -66,7 +53,7 @@ It was also decided that we would improve the product in discreet stages. While 
 As I explored different design directions, it became clear to me that the design that had been used during private and public beta phases of the product roll-out no longer aligned with the redefined proposition. While elements of the previous design could be retained – the logo, the colour palette – a new approach was needed.
 
 {% render 'screenshots' with screenshots.typeface
-  caption: 'Exposing different means of discovery made it easier for users to browse Fontdeck’s catalogue. Information about an individual typeface was available on one page, with meta data presentationed in the sidebar.'
+  caption: 'Exposing different means of discovery made it easier for users to browse Fontdeck’s catalogue. Information about an individual typeface was available on one page, with meta data presented in the sidebar.'
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}
@@ -86,7 +73,18 @@ The previous text-heavy about page was replaced by an expanded about section tha
 Type designer and foundry pages previously consisted of plain alphabetical indices of names. I saw this as an opportunity to make those responsible for the fonts available in the library the heroes of the service. Individual foundry and designer pages now featured a photo or logo and short bio alongside a list of the fonts they had created.
 
 > Working on Fontdeck with Paul was a pleasure. He brought his usual meticulous attention in redesigning the site, resulting in a far more consistent and harmonious feel, along with numerous small yet significant improvements in usability. Ultimately Paul added the finesse the site was missing.
-— Richard Rutter, co-founder and CEO
+> – Richard Rutter, co-founder and CEO
+
+---
+
+Year
+: 2010 - 2013
+
+Role
+: Interaction and user experience design
+
+Agency
+: Clearleft
 
 *[CEO]: Chief executive officer
 *[CSS]: Cascading Style Sheets

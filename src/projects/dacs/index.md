@@ -14,15 +14,6 @@ accent_color: '#360446'
 style:
   screenshot-shadow: '#b4b6b8'
   screenshot-offset: '#e4e6e8'
-aside: |
-  Year
-  : 2012
-
-  Role
-  : Interaction design and front-end development
-
-  Agency
-  : Clearleft
 screenshots:
   homepage:
     - url: /projects/dacs/screenshot_homepage.png
@@ -35,10 +26,6 @@ screenshots:
 ---
 {% render 'screenshots' with screenshots.homepage
   alignment: 'bleed'
-%}
-
-{% render 'aside'
-  aside: aside
 %}
 
 DACS (the [Design and Artists Copyright Society][1]) is a non-profit organisation that aims to protect the legal rights of artists through education, royalty-related legal services and government lobbying.
@@ -65,7 +52,18 @@ I drew on DACS’s photographic library of artists to give the organisation a hu
 A pattern portfolio helped to ease handover to the development agency Cognite. Towards the end of the project I worked at their offices, helping them integrate these design patterns, making adjustments where necessary given the constraints of the CMS.
 
 > It looks beautiful! The feedback so far has been great – and it’s just such a vast improvement on what we had before. Thank you so much for your hard work and general genius!
-— Tania Spriggens, Director of Communications
+> – Tania Spriggens, Director of Communications
+
+---
+
+Year
+: 2012
+
+Role
+: Interaction design and front-end development
+
+Agency
+: Clearleft
 
 [1]: https://www.dacs.org.uk
 
