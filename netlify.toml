@@ -60,7 +60,7 @@ for = "/*.webmanifest"
 
 [[redirects]]
 from = "/favicon.ico"
-to = "/images/app/favicon.ico"
+to = "/assets/icons/favicon.ico"
 status = 200
 force = true
 

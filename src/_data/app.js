@@ -10,8 +10,8 @@ module.exports = {
   theme_color_dark: '#26272b',
   accent_color: '#20e',
   background_color: '#fff',
-  favicon: '/favicon.svg',
-  icon: '/icon.png',
+  favicon: '/assets/icons/32.svg',
+  icon: '/assets/icons/512.png',
   endpoint: {
     auth: 'https://kit.paulrobertlloyd.com/auth',
     token: 'https://kit.paulrobertlloyd.com/auth/token',
