@@ -10,7 +10,7 @@ module.exports = {
   layout: 'trip',
   type_prefix: 't',
   type: 'entry',
-  tags: ['post', 'trip'],
+  tags: ['trip'],
   vocab: 'event',
   changefreq: 'monthly',
   priority: 0.8,
