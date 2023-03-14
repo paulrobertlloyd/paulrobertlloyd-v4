@@ -21,7 +21,6 @@
     [container-start] auto
     [content-start] 1fr [content-end]
     auto [container-end];
-  grid-template-rows: auto 1fr;
   padding-block: var(--gap);
 }
 
