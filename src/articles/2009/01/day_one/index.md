@@ -11,7 +11,6 @@ photo:
 category:
   - Photography
   - New Years
-discussion: closed
 photoset:
   - url: /articles/2009/01/day_one/cannock_chase_3.jpg
   - url: /articles/2009/01/day_one/cannock_chase_4.jpg

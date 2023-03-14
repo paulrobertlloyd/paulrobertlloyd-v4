@@ -10,7 +10,6 @@ category:
   - Web
   - BBC
   - MSNBC
-discussion: closed
 ---
 Earlier this year the BBC announced it was creating a new version of it’s Global Visual Language (GVL). Building upon the success of its predecessor, these new guidelines would give the organisation a consistent yet highly distinctive visual style to use online.
 

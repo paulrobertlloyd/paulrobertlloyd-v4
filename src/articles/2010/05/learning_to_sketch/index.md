@@ -9,7 +9,6 @@ category:
   - Clearleft
   - Design
   - Drawing
-discussion: closed
 ---
 Quite often at Clearleft we like to do activities together as a company. In the past this has meant visiting museums in London, a night out at the Brighton Comedy Festival and of course our popular movie nights. Last week however it was time to do something a little more practical.
 

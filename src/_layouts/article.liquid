@@ -14,11 +14,8 @@
   {%- render 'content' with content -%}
   {%- render 'meta'
     categories: category
+    comments: comments
     syndication: syndication
-  -%}
-  {%- render 'remarks' with remarks
-    id: 'remarks'
-    title: 'Remarks'
   -%}
   {%- render 'remarks' with webmentions
     id: 'webmentions'

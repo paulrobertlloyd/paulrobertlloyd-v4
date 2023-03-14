@@ -8,7 +8,6 @@ summary: On Friday evening I got a call from Jon on his way back to the house af
 category:
   - Personal
   - Littlehampton
-discussion: closed
 photoset:
   - url: /articles/2009/02/littlehampton_bomb/1.jpg
   - url: /articles/2009/02/littlehampton_bomb/2.jpg

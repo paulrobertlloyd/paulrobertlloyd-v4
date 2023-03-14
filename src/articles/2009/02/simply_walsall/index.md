@@ -5,7 +5,6 @@ summary: In the last few years, two public organisations in Walsall have undergo
 category:
   - Brand identity
   - Walsall
-discussion: closed
 ---
 In the last few years, two public organisations in Walsall have undergone renewals, and both have choosen to reflect this change with simpler identities.
 

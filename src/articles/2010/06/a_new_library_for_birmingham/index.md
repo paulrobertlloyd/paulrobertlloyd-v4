@@ -15,7 +15,6 @@ category:
   - Library of Birmingham
 tags:
   - featured
-discussion: closed
 ---
 ![](artists_impression_1.jpg 'Artists impression of the new Library of Birmingham.')
 {.align-bleed}

@@ -16,7 +16,6 @@ category:
   - Brazil
 tags:
   - featured
-discussion: closed
 ---
 ![](image.jpg 'The Brasília Palace Hotel.')
 {.align-bleed}

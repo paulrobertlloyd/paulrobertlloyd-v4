@@ -156,7 +156,6 @@ category:
   - Railways
 tags:
   - featured
-discussion: closed
 ---
 ![](image.jpg 'The landscape you travel across is one of the most scenic routes run by Amtrak.')
 {.align-bleed}

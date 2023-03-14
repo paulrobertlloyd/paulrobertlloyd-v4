@@ -9,7 +9,6 @@ category:
   - Friends
   - Travel
   - United States
-discussion: closed
 ---
 ![](image.jpg 'Flight information screen.')
 {.align-pull}

@@ -11,7 +11,6 @@ photo:
 category:
   - Conferences
   - Sustainability
-discussion: closed
 ---
 Like the British cycling team, I’m a fan of [marginal gains][1]: small changes that combine to create a greater impact.
 

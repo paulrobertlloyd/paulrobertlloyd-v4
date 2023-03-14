@@ -11,7 +11,6 @@ category:
   - United States
   - Los Angeles
   - Immigration
-discussion: closed
 ---
 ![](image.jpg 'The Encounter Restaurant at LAX, where I would have eaten that evening had I not been interviewed by immigration officers. Photograph: [J Brew](https://www.flickr.com/photos/brewbooks/225876606/)')
 {.align-bleed}

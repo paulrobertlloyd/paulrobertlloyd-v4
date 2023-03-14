@@ -11,7 +11,6 @@ photo:
 category:
   - Apple
   - iPhone
-discussion: closed
 ---
 ![](image.jpg 'The iPhone 4.')
 

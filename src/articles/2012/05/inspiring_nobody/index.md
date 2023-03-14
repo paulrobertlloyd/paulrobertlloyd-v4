@@ -10,7 +10,6 @@ category:
   - Web
   - Olympics
   - London 2012
-discussion: closed
 ---
 In 2007, soon after the unveiling of a [much criticised emblem][1], the official website for the London 2012 Olympic Games looked like this:
 

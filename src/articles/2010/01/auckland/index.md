@@ -10,7 +10,6 @@ category:
   - Travel
   - New Zealand
   - Auckland
-discussion: closed
 ---
 ![](cbd.jpg 'Auckland’s CBD viewed from atop Mount Eden.')
 {.align-bleed}

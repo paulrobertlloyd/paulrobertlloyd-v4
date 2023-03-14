@@ -8,7 +8,6 @@ summary: Over the past few years, I’ve often meant to write about the location
 category:
   - Facebook
   - Gowalla
-discussion: closed
 ---
 Over the past few years, I’ve often meant to write about the location-based social network Gowalla. Recently [acquired by Facebook][1] and with closure imminent, now is my last opportunity to do so.
 

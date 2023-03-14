@@ -9,7 +9,6 @@ category:
   - Personal
   - Clearleft
   - The Guardian
-discussion: closed
 ---
 This weekend I will move into a new flat, the first I’ve owned rather than rented. Finding somewhere to buy was a drawn out affair — I began looking in January, and had my offer accepted in May — yet I still felt light-headed when the contracts were finally exchanged earlier this month.
 

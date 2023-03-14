@@ -9,7 +9,6 @@ category:
   - Sustainability
   - Travel
   - Projects
-discussion: closed
 ---
 As I reflected upon in [my yearly review][1], I made one substantial change in my behaviour, and a few smaller ones, that are hopefully reducing my carbon footprint. No longer relying on a car is something I can take a great deal of pride in, although I should confess that I still find driving desirable, especially since my discovery of the [Volvo C30][2].
 

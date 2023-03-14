@@ -12,7 +12,6 @@ category:
   - User experience
 tags:
   - featured
-discussion: closed
 ---
 I’m a huge supporter of the BBC, yet for many years I was unimpressed with much of its online output, where inconsistent design and poor implementation reflected badly upon one of our country’s greatest institutions.
 

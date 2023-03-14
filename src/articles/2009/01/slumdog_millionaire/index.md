@@ -7,7 +7,6 @@ photo:
   alt: Ayush Mahesh Khedekar as the young Jamal Malik.
 category:
   - Film
-discussion: closed
 ---
 ![](image.jpg 'Ayush Mahesh Khedekar as the young Jamal Malik.')
 {.align-bleed}

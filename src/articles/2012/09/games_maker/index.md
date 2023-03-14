@@ -15,7 +15,6 @@ category:
   - Volunteering
 tags:
   - featured
-discussion: closed
 ---
 ![](olympic_park.jpg 'Me and my fellow Games Makers in the Olympic Park.')
 

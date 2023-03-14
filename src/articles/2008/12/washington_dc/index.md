@@ -11,7 +11,6 @@ category:
   - Travel
   - Washington, D.C.
   - United States
-discussion: closed
 photoset:
   - url: /articles/2008/12/washington_dc/iwo_jima_memorial.jpg
     alt: US Marine Corps War Memorial

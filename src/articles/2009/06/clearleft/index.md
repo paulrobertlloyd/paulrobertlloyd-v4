@@ -13,7 +13,6 @@ category:
   - Clearleft
 tags:
   - featured
-discussion: closed
 ---
 ![](image.jpg 'The Clearleft team. Photograph: [Jack Barnes](https://www.flickr.com/photos/paulannett/3256245742/)')
 {.align-bleed}

@@ -9,7 +9,6 @@ category:
   - Politics
 tags:
   - featured
-discussion: closed
 ---
 General elections, coming as infrequently as they do, allow for a moment to pause and think about your own political instincts, allegiances, and how they have changed over time.
 

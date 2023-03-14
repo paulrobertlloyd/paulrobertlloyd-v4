@@ -12,7 +12,6 @@ category:
   - Personal
   - Travel
   - United States
-discussion: closed
 ---
 ![](image.jpg '“Coll” written on the side of a Starbucks cup.')
 

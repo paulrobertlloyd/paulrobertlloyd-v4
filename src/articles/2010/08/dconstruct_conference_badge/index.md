@@ -13,7 +13,6 @@ category:
   - Conferences
   - dConstruct
   - Sustainability
-discussion: closed
 ---
 [Conferences can be quite wasteful affairs][1]. In addition to swag bags filled with magazines, leaflets and free gifts, there is often a programme detailing the schedule and providing some background on the speakers.
 

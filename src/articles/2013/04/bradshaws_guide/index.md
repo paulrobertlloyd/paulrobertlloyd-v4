@@ -13,7 +13,6 @@ category:
   - Travel
 tags:
   - featured
-discussion: closed
 accent_color: '#e6772e'
 ---
 ![](iphone.png 'Bradshaw’s Guide being viewed on an iPhone.')

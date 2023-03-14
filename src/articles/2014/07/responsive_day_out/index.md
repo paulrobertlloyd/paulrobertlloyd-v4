@@ -12,7 +12,6 @@ category:
   - Web
   - Responsive design
   - Conferences
-discussion: closed
 ---
 ![Jeremy Keith interviewing Ethan Marcotte.](image.jpg 'Jeremy Keith interviewing Ethan Marcotte. Photograph: [Marc Thiele](https://www.flickr.com/photos/marcthiele/14522243831/in/set-72157645354768166/)')
 {.align-bleed}

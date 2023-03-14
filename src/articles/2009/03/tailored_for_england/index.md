@@ -12,7 +12,6 @@ category:
   - Design
   - Football
   - England men’s national football team
-discussion: closed
 ---
 ![](crest.jpg 'The England crest as it appears on the new shirt.')
 {.align-bleed}

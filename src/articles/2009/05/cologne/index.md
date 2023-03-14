@@ -13,7 +13,6 @@ category:
   - Europe
   - Germany
   - Cologne
-discussion: closed
 ---
 ![](image.jpg 'Cologne Cathedral and Hohenzollern Bridge.')
 {.align-bleed}

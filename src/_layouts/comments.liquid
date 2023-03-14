@@ -1,0 +1,16 @@
+{%- assign count = comments.size | pluralise: 'comment' -%}
+{%- capture page_title %}{{ count }} on ‘{{ title }}’{% endcapture -%}
+{%- layout 'default' -%}
+{%- block 'main' -%}
+  {%- render 'footer'
+    date: page.date
+  -%}
+  {%- render 'header'
+    title: page_title
+    vocab: vocab
+  -%}
+  {%- render 'items' with comments
+    component: 'remark'
+    modifier: 'remarks'
+  -%}
+{%- endblock -%}

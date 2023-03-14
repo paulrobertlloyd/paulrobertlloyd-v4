@@ -8,7 +8,6 @@ summary: Last year was notable for a running theme on sustainability; both in th
 category:
   - Personal
   - Review of the year
-discussion: closed
 ---
 Last year was notable for a [running theme on sustainability][1]; both in the topics I was writing about, and my decision not to fly as part of a 10:10 pledge to reduce my carbon emissions by 10%. This meant travel was based around the British Isles, and for the first time I visited all four constituent countries of the United Kingdom in one year. But the year started down under…
 

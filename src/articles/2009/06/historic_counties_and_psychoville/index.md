@@ -14,7 +14,6 @@ category:
   - England
 tags:
   - featured
-discussion: closed
 ---
 ![](image.jpg 'Scene from Psychoville.')
 {.align-bleed}

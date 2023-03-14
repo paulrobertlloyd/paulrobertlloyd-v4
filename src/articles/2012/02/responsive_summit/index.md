@@ -13,7 +13,6 @@ category:
   - Responsive design
 tags:
   - featured
-discussion: closed
 ---
 ![Scene from Dr. Strangelove.](image.jpg 'Scene from Dr. Strangelove.')
 
