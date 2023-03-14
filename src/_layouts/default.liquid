@@ -44,8 +44,11 @@
     {%- else -%}
       {%- assign accent_color = app.accent_color -%}
     {%- endif -%}
-      --color-accent-light: {{ accent_color | contrast_with: 'black' }};
-      --color-accent-dark: {{ accent_color | contrast_with: 'white' }};
+      --color-accent: {{ accent_color }};
+      --color-accent-with-contrast: {{ accent_color | contrast_with: 'black' }};
+      @media (prefers-color-scheme: dark) {
+        --color-accent-with-contrast: {{ accent_color | contrast_with: 'white' }};
+      }
     {%- for var in style -%}
       --{{ var[0]}}: {{ var[1] }};
     {%- endfor -%}

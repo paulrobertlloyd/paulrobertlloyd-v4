@@ -48,7 +48,7 @@ textarea.form__input {
 }
 
 .form__button:hover {
-  background-color: var(--color-accent);
+  background-color: var(--color-link);
 }
 
 /* Combobox */
@@ -67,7 +67,7 @@ textarea.form__input {
 }
 
 .form__listbox [aria-selected="true"] {
-  background-color: var(--color-accent);
+  background-color: var(--color-link);
   color: white;
 }
 

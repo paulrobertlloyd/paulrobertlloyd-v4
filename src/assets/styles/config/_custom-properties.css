@@ -12,7 +12,6 @@
   --color-neutral-lightest: hsl(var(--tint) 96%);
 
   /* Colour assignments */
-  --color-accent: var(--color-accent-light);
   --color-complement: hsl(320deg 100% 44%);
   --color-background: white;
   --color-offset: var(--color-neutral-lightest);
@@ -21,7 +20,7 @@
 
   --color-text: var(--color-neutral-darkest);
   --color-text-focus: hsl(var(--tint) 16%); /* Ignore color-scheme */
-  --color-link: var(--color-accent);
+  --color-link: var(--color-accent-with-contrast);
   --color-link-underline: var(--color-neutral-light);
 
   --color-focus: hsl(48deg 100% 50%);
@@ -117,7 +116,6 @@
     --color-neutral-light: hsl(var(--tint) 44%);
     --color-neutral-lighter: hsl(var(--tint) 36%);
     --color-neutral-lightest: hsl(var(--tint) 16%);
-    --color-accent: var(--color-accent-dark);
     --color-background: hsl(var(--tint) 8%);
     --color-highlight: hsl(60deg 100% 70% / 15%);
     --color-shadow: black;

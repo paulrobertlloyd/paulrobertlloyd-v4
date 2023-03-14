@@ -13,8 +13,8 @@ a {
 }
 
 a:hover {
-  color: var(--color-accent);
-  text-decoration-color: var(--color-accent);
+  color: var(--color-link);
+  text-decoration-color: var(--color-link);
   text-decoration-thickness: 2px;
 }
 

@@ -1,6 +1,7 @@
 .card {
   --anchor-decoration: none;
   --color-accent: var(--color-accent-light);
+  --color-link: var(--color-accent);
   --card-growth: var(--space-s);
 
   background: var(--color-offset);

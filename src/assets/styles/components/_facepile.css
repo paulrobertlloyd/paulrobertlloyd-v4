@@ -24,8 +24,8 @@
 }
 
 .facepile__title:hover {
-  color: var(--color-accent);
-  text-decoration-color: var(--color-accent);
+  color: var(--color-link);
+  text-decoration-color: var(--color-link);
 }
 
 .facepile__main {

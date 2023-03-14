@@ -30,7 +30,7 @@
 }
 
 .contentinfo a:hover {
-  color: var(--color-accent);
+  color: var(--color-link);
 }
 
 @media print {
