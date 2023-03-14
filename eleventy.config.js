@@ -28,6 +28,7 @@ module.exports = function (eleventy) {
   eleventy.addFilter('map_url', require('./lib/filters/map-url.js'));
   eleventy.addFilter('markdown', require('./lib/filters/markdown.js'));
   eleventy.addFilter('percentage_of', require('./lib/filters/percentage-of.js'));
+  eleventy.addFilter('pluralise', require('./lib/filters/pluralise.js'));
   eleventy.addFilter('sum', require('./lib/filters/sum.js'));
   eleventy.addFilter('syndication_target', require('./lib/filters/syndication-target.js'));
   eleventy.addFilter('template_content_to_feed_html', require('./lib/filters/template-content-to-feed-html.js'));
