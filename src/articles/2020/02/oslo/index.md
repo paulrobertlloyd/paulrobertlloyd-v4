@@ -9,6 +9,67 @@ photo:
   url: /articles/2020/02/oslo/barcode_project.jpg
   alt: A portion of Barcode Project buildings, as seen from the roof of the opera house.
 collection: scandinavian_sojourn
+geojson:
+  type: FeatureCollection
+  features:
+    - type: Feature
+      properties:
+        stroke: "#e02"
+        stroke-opacity: 0.5
+        stroke-width: 5
+      geometry:
+        type: LineString
+        coordinates:
+          - [10.751, 59.911]
+          - [10.835, 59.72]
+          - [10.657, 59.432]
+          - [10.748, 59.378]
+          - [10.865, 59.348]
+          - [10.951, 59.209]
+          - [11.118, 59.286]
+          - [11.483, 59.126]
+          - [11.66, 58.941]
+          - [11.933, 58.914]
+          - [12.278, 58.363]
+          - [12.298, 58.287]
+          - [11.973, 57.709]
+          - [11.973, 57.709]
+          - [12.017, 57.65]
+          - [12.077, 57.489]
+          - [12.249, 57.107]
+          - [12.488, 56.902]
+          - [12.863, 56.664]
+          - [13.017, 56.5]
+          - [12.868, 56.425]
+          - [12.852, 56.248]
+          - [12.693, 56.044]
+          - [12.855, 55.879]
+          - [13.185, 55.707]
+          - [12.998, 55.609]
+          - [12.998, 55.594]
+          - [12.975, 55.563]
+          - [12.65, 55.63]
+          - [12.6, 55.63]
+          - [12.577, 55.63]
+          - [12.564, 55.673]
+    - type: Feature
+      properties:
+        title: Oslo
+        marker-color: "#e02"
+        marker-size: large
+        marker-symbol: lodging
+      geometry:
+        type: Point
+        coordinates: [10.751, 59.911]
+    - type: Feature
+      properties:
+        title: Copenhagen
+        marker-color: "#e02"
+        marker-size: large
+        marker-symbol: lodging
+      geometry:
+        type: Point
+        coordinates: [12.564, 55.673]
 category:
   - Oslo
   - Norway
@@ -22,12 +83,8 @@ tags:
 ---
 ## Day 10
 
-{% render 'map' with geojson
-  width: 360
-  height: 360
-  alt: 'Route map: Oslo to Copenhagen.'
-  alignment: 'pull'
-%}
+![Route map](markdown:map?key=geojson&height=360&width=360 "Route map: Oslo to Copenhagen.")
+{.align-pull}
 
 I’ve fallen for Oslo. Maybe that’s because the weather has finally changed for the better — bright sunshine, crisp blue skies — but honestly, I was impressed the moment I stepped off the train yesterday evening.
 

@@ -5,6 +5,151 @@ summary: The California Zephyr is a 56 hour, 2348 mile long train journey that s
 photo:
   url: /articles/2008/09/california_zephyr/image.jpg
   alt: View of a rocky outcrop.
+geojson:
+  type: FeatureCollection
+  features:
+    - type: Feature
+      properties:
+        stroke: "#e02"
+        stroke-opacity: 0.5
+        stroke-width: 5
+      geometry:
+        type: LineString
+        coordinates:
+          - [-122.293, 37.841]
+          - [-122.353, 37.937]
+          - [-122.139, 38.019]
+          - [-121.738, 38.544]
+          - [-121.5, 38.585]
+          - [-121.286, 38.75]
+          - [-120.953, 39.099]
+          - [-120.186, 39.328]
+          - [-119.812, 39.529]
+          - [-117.731, 40.969]
+          - [-115.75, 40.836]
+          - [-111.9, 40.763]
+          - [-111.664, 40.226]
+          - [-110.854, 39.684]
+          - [-110.165, 38.992]
+          - [-108.571, 39.065]
+          - [-107.323, 39.548]
+          - [-105.936, 40.084]
+          - [-105.818, 39.948]
+          - [-105, 39.753]
+          - [-103.803, 40.247]
+          - [-100.626, 40.198]
+          - [-99.371, 40.436]
+          - [-98.388, 40.584]
+          - [-96.711, 40.815]
+          - [-95.927, 41.25]
+          - [-94.361, 41.057]
+          - [-93.765, 41.037]
+          - [-92.415, 41.019]
+          - [-91.551, 40.971]
+          - [-91.102, 40.806]
+          - [-90.364, 40.944]
+          - [-89.467, 41.385]
+          - [-88.146, 41.78]
+          - [-87.64, 41.879]
+    - type: Feature
+      properties:
+        title: Emeryville, CA
+        marker-color: "#e02"
+        marker-size: large
+        marker-symbol: rail
+      geometry:
+        type: Point
+        coordinates: [-122.293, 37.841]
+    - type: Feature
+      properties:
+        title: Sacramento, CA
+        marker-color: "#e02"
+        marker-size: small
+        marker-symbol: rail
+      geometry:
+        type: Point
+        coordinates: [-121.5, 38.585]
+    - type: Feature
+      properties:
+        title: Reno, NV
+        marker-color: "#e02"
+        marker-size: small
+        marker-symbol: rail
+      geometry:
+        type: Point
+        coordinates: [-119.812, 39.529]
+    - type: Feature
+      properties:
+        title: Salt Lake City, UT
+        marker-color: "#e02"
+        marker-size: small
+        marker-symbol: rail
+      geometry:
+        type: Point
+        coordinates: [-111.9, 40.763]
+    - type: Feature
+      properties:
+        title: Grand Junction, CO
+        marker-color: "#e02"
+        marker-size: small
+        marker-symbol: rail
+      geometry:
+        type: Point
+        coordinates: [-108.571, 39.065]
+    - type: Feature
+      properties:
+        title: Denver, CO
+        marker-color: "#e02"
+        marker-size: small
+        marker-symbol: rail
+      geometry:
+        type: Point
+        coordinates: [-105, 39.753]
+    - type: Feature
+      properties:
+        title: Lincoln, NE
+        marker-color: "#e02"
+        marker-size: small
+        marker-symbol: rail
+      geometry:
+        type: Point
+        coordinates: [-96.711, 40.815]
+    - type: Feature
+      properties:
+        title: Omaha, NE
+        marker-color: "#e02"
+        marker-size: small
+        marker-symbol: rail
+      geometry:
+        type: Point
+        coordinates: [-95.927, 41.25]
+    - type: Feature
+      properties:
+        title: Ottumwa, IA
+        marker-color: "#e02"
+        marker-size: small
+        marker-symbol: rail
+      geometry:
+        type: Point
+        coordinates: [-92.415, 41.019]
+    - type: Feature
+      properties:
+        title: Burlington, IA
+        marker-color: "#e02"
+        marker-size: small
+        marker-symbol: rail
+      geometry:
+        type: Point
+        coordinates: [-91.102, 40.806]
+    - type: Feature
+      properties:
+        title: Chicago, IL
+        marker-color: "#e02"
+        marker-size: large
+        marker-symbol: rail
+      geometry:
+        type: Point
+        coordinates: [-87.64, 41.879]
 category:
   - Travel
   - United States
@@ -34,12 +179,8 @@ The landscape you travel across is one of the most scenic routes run by Amtrak, 
 
 Although these guides step of at [Reno][3], the commentary is continued by the conductors, who pass through the mixed terrain that is the [Rocky Mountains][4] and [Continental Divide][5] several times a week.
 
-{% render 'map' with geojson
-  width: 1200
-  height: 400
-  alt: 'Route of the California Zephyr.'
-  alignment: 'bleed'
-%}
+![Route map](markdown:map?key=geojson&height=400&width=1200 "Route of the California Zephyr.")
+{.align-bleed}
 
 Unlike flying, travelling by train is a far more social affair. The dinning car is strictly community seating, meaning if you are travelling alone you are required to share a table with three others. This is an excellent way to meet people, and adds a different twist to transcontinental travel.
 

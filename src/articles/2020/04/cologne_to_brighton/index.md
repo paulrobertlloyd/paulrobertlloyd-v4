@@ -9,6 +9,59 @@ photo:
   url: /articles/2020/04/cologne_to_brighton/love_locks.jpg
   alt: Love locks on the Hohenzollern Bridge.
 collection: scandinavian_sojourn
+geojson:
+  type: FeatureCollection
+  features:
+    - type: Feature
+      properties:
+        stroke: "#e02"
+        stroke-opacity: 0.5
+        stroke-width: 5
+      geometry:
+        type: LineString
+        coordinates:
+          - [12.564, 55.673]
+          - [11.79, 55.443]
+          - [10.387, 55.402]
+          - [9.5, 55.492]
+          - [9.359, 54.824]
+          - [10.006, 53.553]
+          - [9.992, 53.456]
+          - [8.812, 53.084]
+          - [8.062, 52.273]
+          - [7.635, 51.957]
+          - [7.101, 51.504]
+          - [6.854, 51.474]
+          - [6.776, 51.43]
+          - [6.793, 51.22]
+          - [6.958, 50.943]
+          - [6.091, 50.768]
+          - [5.567, 50.625]
+          - [4.362, 50.86]
+          - [4.335, 50.835]
+          - [3.075, 50.639]
+          - [1.812, 50.902]
+          - [0.321, 51.443]
+          - [-0.125, 51.53]
+          - [-0.141, 50.829]
+    - type: Feature
+      properties:
+        title: Cologne
+        marker-color: "#e02"
+        marker-size: large
+        marker-symbol: lodging
+      geometry:
+        type: Point
+        coordinates: [6.958, 50.943]
+    - type: Feature
+      properties:
+        title: Brighton
+        marker-color: "#e02"
+        marker-size: large
+        marker-symbol: home
+      geometry:
+        type: Point
+        coordinates: [-0.141, 50.829]
 category:
   - Cologne
   - Germany
@@ -57,12 +110,8 @@ The rest of the afternoon is spent inside the [Ludwig Museum][5], where I find m
 
 ## Day 16
 
-{% render 'map' with geojson
-  width: 360
-  height: 360
-  caption: 'Route map: Copenhagen to Brighton via Cologne.'
-  alignment: 'pull'
-%}
+![Route map](markdown:map?key=geojson&height=300&width=300 "Copenhagen to Brighton via Cologne.")
+{.align-pull}
 
 I’m heading back home, from Cologne to Brighton via Brussels-Midi and London St. Pancras stations. The last few remaining miles allow me to reflect on the travels completed.
 

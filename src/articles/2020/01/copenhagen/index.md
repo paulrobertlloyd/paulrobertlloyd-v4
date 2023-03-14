@@ -9,6 +9,73 @@ photo:
   url: /articles/2020/01/copenhagen/nyhavn.jpg
   alt: The brightly coloured town houses at Nyhavn
 collection: scandinavian_sojourn
+geojson:
+  type: FeatureCollection
+  features:
+    - type: Feature
+      properties:
+        stroke: "#e02"
+        stroke-opacity: 0.5
+        stroke-width: 5
+      geometry:
+        type: LineString
+        coordinates:
+          - [12.564, 55.673]
+          - [13, 55.592]
+          - [13.187, 55.705]
+          - [13.304, 55.839]
+          - [13.547, 55.936]
+          - [13.767, 56.167]
+    - type: Feature
+      properties:
+        title: Malmo to Trolleburg
+        stroke: "#e02"
+        stroke-opacity: 0.5
+        stroke-width: 3
+      geometry:
+        type: LineString
+        coordinates:
+          - [13, 55.592]
+          - [13, 55.609]
+          - [12.994, 55.581]
+          - [13.027, 55.581]
+          - [13.122, 55.473]
+          - [13.158, 55.372]
+    - type: Feature
+      properties:
+        title: Copenhagen to Humlebæk
+        stroke: "#e02"
+        stroke-opacity: 0.5
+        stroke-width: 3
+      geometry:
+        type: LineString
+        coordinates:
+          - [12.564, 55.673]
+          - [12.586, 55.692]
+          - [12.567, 55.731]
+          - [12.584, 55.763]
+          - [12.572, 55.824]
+          - [12.532, 55.882]
+          - [12.506, 55.934]
+          - [12.533, 55.964]
+    - type: Feature
+      properties:
+        title: Copenhagen
+        marker-color: "#e02"
+        marker-size: large
+        marker-symbol: lodging
+      geometry:
+        type: Point
+        coordinates: [12.564, 55.673]
+    - type: Feature
+      properties:
+        title: Hässleholm
+        marker-color: "#e02"
+        marker-size: large
+        marker-symbol: lodging
+      geometry:
+        type: Point
+        coordinates: [13.767, 56.167]
 category:
   - Copenhagen
   - Denmark
@@ -28,12 +95,8 @@ photoset:
 ---
 ## Day 3
 
-{% render 'map' with geojson
-  width: 360
-  height: 360
-  alt: 'Route map: Copenhagen to Humlebæk, Malmö, Trelleborg and Hässleholm.'
-  alignment: 'pull'
-%}
+![Route map](markdown:map?key=geojson&height=360&width=360 "Copenhagen to Humlebæk, Malmö, Trelleborg and Hässleholm.")
+{.align-pull}
 
 Having stayed up late completing [the first post in this series][1], my first full day in Copenhagen gets off to a late start.
 

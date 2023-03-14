@@ -9,6 +9,59 @@ photo:
   url: /articles/2020/01/brighton_to_copenhagen/wanderer_above_the_sea_of_fog.jpg
   alt: ‘Wanderer above the Sea of Fog’ by Caspar David Friedrich
 collection: scandinavian_sojourn
+geojson:
+  type: FeatureCollection
+  features:
+    - type: Feature
+      properties:
+        stroke: "#e02"
+        stroke-opacity: 0.5
+        stroke-width: 5
+      geometry:
+        type: LineString
+        coordinates:
+          - [-0.141, 50.829]
+          - [-0.641, 50.831]
+          - [-0.125, 51.53]
+          - [0.321, 51.443]
+          - [1.812, 50.902]
+          - [3.075, 50.639]
+          - [4.335, 50.835]
+          - [5.567, 50.625]
+          - [6.091, 50.768]
+          - [6.958, 50.943]
+          - [6.793, 51.22]
+          - [6.776, 51.43]
+          - [7.014, 51.452]
+          - [7.101, 51.504]
+          - [7.635, 51.957]
+          - [8.062, 52.273]
+          - [8.38, 52.6]
+          - [8.812, 53.084]
+          - [10, 53.553]
+          - [9.359, 54.824]
+          - [9.5, 55.492]
+          - [10.387, 55.402]
+          - [11.79, 55.443]
+          - [12.564, 55.673]
+    - type: Feature
+      properties:
+        title: Hamburg
+        marker-color: "#e02"
+        marker-size: large
+        marker-symbol: lodging
+      geometry:
+        type: Point
+        coordinates: [10, 53.553]
+    - type: Feature
+      properties:
+        title: Copenhagen
+        marker-color: "#e02"
+        marker-size: large
+        marker-symbol: lodging
+      geometry:
+        type: Point
+        coordinates: [12.564, 55.673]
 category:
   - Hamburg
   - Germany
@@ -22,12 +75,8 @@ tags:
 ---
 ## Day 1: Brighton to Hamburg
 
-{% render 'map' with geojson
-  width: 360
-  height: 360
-  alt: 'Route map: Brighton to Copenhagen via Hamburg.'
-  alignment: 'pull'
-%}
+![Route map](markdown:map?key=geojson&height=360&width=360 "Brighton to Copenhagen via Hamburg.")
+{.align-pull}
 
 Like all great railway journeys, this one starts with a cancellation. The Brighton Main Line has been closed due to [an incident near Three Bridges][1], so the only way to reach any destination north of Brighton is via Barnham, 27 miles to the west. This includes Gatwick Airport. A lady from Denver is going to miss her flight; flustered and bewildered at first, she soon settles into an unexpected detour via the unremarkable landscape of urban West Sussex.
 

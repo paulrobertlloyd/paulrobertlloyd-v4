@@ -9,6 +9,57 @@ photo:
   url: /articles/2020/02/stockholm/gamla_stan.jpg
   alt: Gamla Stan as viewed from Skeppsholmen island.
 collection: scandinavian_sojourn
+geojson:
+  type: FeatureCollection
+  features:
+    - type: Feature
+      properties:
+        stroke: "#e02"
+        stroke-opacity: 0.5
+        stroke-width: 5
+      geometry:
+        type: LineString
+        coordinates:
+          - [13.767, 56.1667]
+          - [14.55, 56.9]
+          - [14.683, 57.65]
+          - [15.625, 58.416]
+          - [16.2, 58.6]
+          - [18.056, 59.33]
+          - [16.208, 58.997]
+          - [13.852, 58.39]
+          - [11.973, 57.709]
+          - [11.973, 57.709]
+          - [12.298, 58.287]
+          - [12.278, 58.363]
+          - [11.933, 58.914]
+          - [11.66, 58.941]
+          - [11.483, 59.126]
+          - [11.118, 59.286]
+          - [10.951, 59.209]
+          - [10.865, 59.348]
+          - [10.748, 59.378]
+          - [10.657, 59.432]
+          - [10.835, 59.72]
+          - [10.751, 59.911]
+    - type: Feature
+      properties:
+        title: Stockholm
+        marker-color: "#e02"
+        marker-size: large
+        marker-symbol: lodging
+      geometry:
+        type: Point
+        coordinates: [18.056, 59.33]
+    - type: Feature
+      properties:
+        title: Oslo
+        marker-color: "#e02"
+        marker-size: large
+        marker-symbol: lodging
+      geometry:
+        type: Point
+        coordinates: [10.751, 59.911]
 category:
   - Stockholm
   - Sweden
@@ -20,12 +71,8 @@ tags:
 ---
 ## Day 6
 
-{% render 'map' with geojson
-  width: 360
-  height: 360
-  alt: 'Route map: Hässleholm to Stockholm, continuing on to Oslo via Gothenburg.'
-  alignment: 'pull'
-%}
+![Route map](markdown:map?key=geojson&height=360&width=360 "Hässleholm to Stockholm, continuing on to Oslo via Gothenburg.")
+{.align-pull}
 
 I arrive in Stockholm just before 6am having experienced a restless night. Passengers needn’t leave their cabins until 7am, but since everyone else has left, I feel obliged to do the same.
 
