@@ -9,16 +9,13 @@ category:
   - Brand identity
   - Interaction design
 accent_color: '#6e9d00'
-style:
-  screenshot-shadow: '#6e9d00'
-  screenshot-offset: '#cc0'
 screenshots:
   - url: /projects/groopix/screenshot_groops.png
     alt: Groops page
   - url: /projects/groopix/screenshot_collection.png
     alt: Collection page
 ---
-{% render 'screenshots' with screenshots
+{% render 'gallery' with screenshots
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}

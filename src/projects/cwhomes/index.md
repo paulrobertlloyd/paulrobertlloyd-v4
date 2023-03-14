@@ -10,16 +10,13 @@ category:
   - Front-end development
   - Interaction design
 accent_color: '#f90'
-style:
-  screenshot-shadow: '#003'
-  screenshot-offset: '#016'
 screenshots:
   - url: /projects/cwhomes/screenshot_homepage.png
     alt: Home page
   - url: /projects/cwhomes/screenshot_property.png
     alt: Property detail page
 ---
-{% render 'screenshots' with screenshots
+{% render 'gallery' with screenshots
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}

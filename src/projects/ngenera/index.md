@@ -10,16 +10,13 @@ category:
   - Front-end development
   - Interaction design
 accent_color: '#00b6dd'
-style:
-  screenshot-shadow: '#131319'
-  screenshot-offset: '#333339'
 screenshots:
   - url: /projects/ngenera/screenshot_homepage.png
     alt: Home page
   - url: /projects/ngenera/screenshot_workshop.png
     alt: Workshop description page
 ---
-{% render 'screenshots' with screenshots
+{% render 'gallery' with screenshots
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}

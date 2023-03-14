@@ -11,9 +11,6 @@ category:
 tags:
   - featured
 accent_color: '#00e676'
-style:
-  screenshot-shadow: '#ddd8eb'
-  screenshot-offset: '#f6f5fa'
 screenshots:
   app:
     - url: /projects/refigure/screenshot_app_welcome.png
@@ -28,7 +25,7 @@ screenshots:
     - url: /projects/refigure/screenshot_homepage.png
       alt: Landing page for the new app.
 ---
-{% render 'screenshots' with screenshots.app
+{% render 'gallery' with screenshots.app
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}
@@ -39,7 +36,7 @@ At the start of my short ten-day engagement, I proposed three possible design di
 
 At the heart of Refigure’s brand is the monogram. A scripted ‘r’ within a slanted oval, provides a personal touch to the company’s brand, subtly hinting at ideas of growth, renewal and continuous improvement. A high contrast complementary palette of dark warm purple and a vibrant green gave the brand an energetic yet approachable feel, while a series of thematic icons primarily composed using a single line that drew inspiration from the scripted logo mark.
 
-{% render 'screenshots' with screenshots.homepage
+{% render 'gallery' with screenshots.homepage
   caption: 'Landing page to promote the new app.'
 %}
 

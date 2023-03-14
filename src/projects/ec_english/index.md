@@ -11,15 +11,12 @@ category:
 tags:
   - featured
 accent_color: '#f70'
-style:
-  screenshot-shadow: '#e6772e'
-  screenshot-offset: '#ffa033'
 screenshots:
   school:
     - url: /projects/ec_english/screenshot_school.png
       alt: New York school page
 ---
-{% render 'screenshots' with screenshots.school
+{% render 'gallery' with screenshots.school
   alignment: 'bleed'
 %}
 

@@ -9,16 +9,13 @@ category:
   - Front-end development
   - Interaction design
 accent_color: '#ffef3e'
-style:
-  screenshot-shadow: '#e6c939'
-  screenshot-offset: '#ffef3e'
 screenshots:
   - url: /projects/waldo_pancake/screenshot_about.png
     alt: Home page
   - url: /projects/waldo_pancake/screenshot_slideshow.png
     alt: Slideshow of Waldo Pancake merchandise
 ---
-{% render 'screenshots' with screenshots
+{% render 'gallery' with screenshots
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}

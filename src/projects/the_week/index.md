@@ -10,9 +10,6 @@ category:
 tags:
   - featured
 accent_color: '#b00'
-style:
-  screenshot-shadow: '#b00'
-  screenshot-offset: '#e00'
 screenshots:
   showcase:
     - url: /projects/the_week/screenshot_cover.png
@@ -38,7 +35,7 @@ photoset:
     - url: /projects/the_week/photo_workshop_sketches.jpg
       alt: Four sketches from the workshop
 ---
-{% render 'screenshots' with screenshots.showcase
+{% render 'gallery' with screenshots.showcase
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}
@@ -62,7 +59,7 @@ With a readership not looking for rich interactivity, we chose to focus on creat
 
 The predictable IA of the magazine was retained by creating overview pages for each section that linked though to individual articles. From both section and article pages, users could quickly swipe though the magazine, replicating the skimmable nature of the printed version. This model also allowed for the inclusion of full-screen interactive advertising, inserted at modest intervals, much like in the magazine.
 
-{% render 'screenshots' with screenshots.ui
+{% render 'gallery' with screenshots.ui
   caption: 'Progression through an issue of the magazine; from cover, to section to individual article. Double tapping on an article screen would bring up the ’scrubber’ enabling users to quickly advance through an issue.'
   alignment: 'bleed'
   imagePreset: 'supporting'
@@ -76,7 +73,7 @@ A key feature of the magazine is it’s marginalia, short summaries, excerpts, q
 
 Working closely with the development team at Kaldor, we honed the gestural interface, navigation and page templates. Building upon their hybrid [PugPig][2] framework, the application could take advantage of native iOS features while also utilising HTML and CSS for precise layout and typographic control for each article. This was possibly the most enjoyable aspect of the project, especially as their team had an appreciation for design and where open to last minute design tweaks that would improve the overall experience.
 
-{% render 'screenshots' with screenshots.styleguide
+{% render 'gallery' with screenshots.styleguide
   caption: 'Example of the assets handed over to the team at Kaldor to aid development of the application.'
   alignment: 'bleed'
   imagePreset: 'supporting'

@@ -9,9 +9,6 @@ category:
   - Front-end development
   - Interaction design
 accent_color: '#00aeef'
-style:
-  screenshot-shadow: '#aae6f9'
-  screenshot-offset: '#e6f6fc'
 screenshots:
   - url: /projects/unicef_uk/screenshot_home.png
     alt: Home page
@@ -28,7 +25,7 @@ photoset:
     - url: /projects/unicef_uk/photo_pattern_definition.jpg
       alt: Pattern definition exercise
 ---
-{% render 'screenshots' with screenshots
+{% render 'gallery' with screenshots
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}

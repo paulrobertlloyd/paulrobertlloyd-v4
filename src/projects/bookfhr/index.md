@@ -8,16 +8,13 @@ photo:
 category:
   - Interaction design
 accent_color: '#002f70'
-style:
-  screenshot-shadow: '#f16d01'
-  screenshot-offset: '#f5aa00'
 screenshots:
   - url: /projects/bookfhr/screenshot_homepage.png
     alt: Home page
   - url: /projects/bookfhr/screenshot_parking.png
     alt: Parking search results page
 ---
-{% render 'screenshots' with screenshots
+{% render 'gallery' with screenshots
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}

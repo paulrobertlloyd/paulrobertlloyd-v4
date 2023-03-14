@@ -1,0 +1,27 @@
+.gallery {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  overflow: hidden;
+  padding-inline-start: 0;
+
+  @media (--from-medium-viewport) {
+    grid-template-columns: repeat(var(--columns), 1fr);
+  }
+
+  &:not(:has(.screenshot)) {
+    gap: var(--gap);
+  }
+
+  &:has(* + *) {
+    --columns: 2;
+  }
+
+  &:has(* + * + *) {
+    --columns: 3;
+  }
+
+  &:has(* + * + * + *) {
+    --columns: 4;
+  }
+}

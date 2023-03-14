@@ -8,9 +8,6 @@ photo:
 category:
   - Interaction design
 accent_color: '#370'
-style:
-  screenshot-shadow: '#370'
-  screenshot-offset: '#8a1'
 screenshots:
   latest:
     - url: /projects/dconstruct/screenshot_2010.png
@@ -21,7 +18,7 @@ screenshots:
     - url: /projects/dconstruct/screenshot_2013.png
       alt: Home page for the 2013 website
 ---
-{% render 'screenshots' with screenshots.latest
+{% render 'gallery' with screenshots.latest
   alignment: 'bleed'
 %}
 
@@ -41,7 +38,7 @@ Prior to this event, Clearleft used plastic wallets to hold the combined confere
 
 Like the previous year's design, the [homepage featured prominent images of the speakers][3]. The design process involved close collaboration with Andy Hume, which was needed for us to build a highly responsive website that would work well across devices. With this in mind, the main navigation was simplified to just four items (Conference, Workshops, Location and Register) with an alternative navigation method shown when browsing speaker pages on smaller screens.
 
-{% render 'screenshots' with screenshots.recent
+{% render 'gallery' with screenshots.recent
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}

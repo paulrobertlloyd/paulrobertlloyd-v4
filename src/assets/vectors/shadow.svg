@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60" height="60">
+  <filter id="a" width="200%" height="200%" x="-33%" y="-33%">
+    <feMorphology in="SourceAlpha" operator="dilate" radius=".5" result="spread"/>
+    <feOffset dx="5" dy="5" in="spread" result="offset"/>
+    <feGaussianBlur in="offset" result="blur" stdDeviation="5"/>
+    <feColorMatrix in="blur" result="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.33 0"/>
+  </filter>
+  <path d="M5 5h35v35H5z" filter="url(#a)"/>
+</svg>

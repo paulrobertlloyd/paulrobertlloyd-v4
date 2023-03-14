@@ -8,9 +8,6 @@ photo:
 category:
   - Interaction design
 accent_color: '#e9242e'
-style:
-  screenshot-shadow: '#aab'
-  screenshot-offset: '#ccd'
 screenshots:
   homepage:
     - url: /projects/fontdeck/screenshot_homepage.png
@@ -28,7 +25,7 @@ screenshots:
     - url: /projects/fontdeck/screenshot_designer.png
       alt: Type designer page
 ---
-{% render 'screenshots' with screenshots.homepage
+{% render 'gallery' with screenshots.homepage
   alignment: 'bleed'
 %}
 
@@ -52,7 +49,7 @@ It was also decided that we would improve the product in discreet stages. While 
 
 As I explored different design directions, it became clear to me that the design that had been used during private and public beta phases of the product roll-out no longer aligned with the redefined proposition. While elements of the previous design could be retained – the logo, the colour palette – a new approach was needed.
 
-{% render 'screenshots' with screenshots.typeface
+{% render 'gallery' with screenshots.typeface
   caption: 'Exposing different means of discovery made it easier for users to browse Fontdeck’s catalogue. Information about an individual typeface was available on one page, with meta data presented in the sidebar.'
   alignment: 'bleed'
   imagePreset: 'supporting'
@@ -62,7 +59,7 @@ Given the product’s focus, the type choice was clearly the overriding concern.
 
 Page layout was more considered, making heavy use of an underlying grid, with use of delicate line work and a clear typographic hierarchy. The number of rounded corners used in the original design was reduced, while the playing card device was limited to account and project pages, where users managed their font ‘decks’.
 
-{% render 'screenshots' with screenshots.ancillary
+{% render 'gallery' with screenshots.ancillary
   caption: 'About page and foundry directory.'
   alignment: 'bleed'
   imagePreset: 'supporting'

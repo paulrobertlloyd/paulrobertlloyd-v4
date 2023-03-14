@@ -1,7 +1,7 @@
 <figure class="align-{{ alignment | default: 'none' }}">
-  <div class="screenshots" style="--columns: {{ columns | default: screenshots.size }}">
-  {%- for image in screenshots %}
-    {% image image, imagePreset %}
+  <div class="gallery" style="--columns: {{ columns | default: gallery.size }}">
+  {%- for image in gallery %}
+    {% image image, imagePreset, "screenshot" %}
   {%- endfor %}
   </div>
 {%- if caption %}

@@ -8,9 +8,6 @@ photo:
 category:
   - Interaction design
 accent_color: '#c50'
-style:
-  screenshot-shadow: '#920'
-  screenshot-offset: '#c50'
 screenshots:
   showcase:
     - url: /projects/nuts/screenshot_homepage.png
@@ -21,7 +18,7 @@ screenshots:
     - url: /projects/nuts/screenshot_customtray.png
       alt: Custom tray configuration
 ---
-{% render 'screenshots' with screenshots.showcase
+{% render 'gallery' with screenshots.showcase
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}
@@ -30,7 +27,7 @@ screenshots:
 
 Although successful, their site had grown organically over time, and had lost any design consistency and become difficult to navigate. Over a two-year period, I and other colleagues at Clearleft assisted CEO Jeff Braverman and lead programmer Ben Shakal in improving their site, ensuring the unique, customer-centred personality of the company wasn't lost in the desire to simplify and streamline.
 
-{% render 'screenshots' with screenshots.customtray
+{% render 'gallery' with screenshots.customtray
   caption: 'One sprint focused on designing and testing a new custom tray creation experience.'
 %}
 

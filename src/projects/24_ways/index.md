@@ -15,9 +15,6 @@ article_id:
   - a4Tg1
   - a4sE1
 accent_color: '#f04'
-style:
-  screenshot-shadow: '#b01'
-  screenshot-offset: '#f04'
 screenshots:
   article:
     - url: /projects/24_ways/screenshot_article.png
@@ -35,7 +32,7 @@ screenshots:
     - url: /projects/24_ways/screenshot_navigation.png
       alt: Opened site navigation
 ---
-{% render 'screenshots' with screenshots.article
+{% render 'gallery' with screenshots.article
   alignment: 'bleed'
 %}
 
@@ -54,7 +51,7 @@ With content that tended to be forward-looking, the design could afford to be al
 
 Keen to exploit the very idea of 24 ways – different articles, written by different authors, published over twenty-four days for almost nearly a decade – I created a palette based on the publication's signature red, that subtly changes over time based on both day and year variables.
 
-{% render 'screenshots' with screenshots.mobile
+{% render 'gallery' with screenshots.mobile
   caption: 'The site benefited from a mobile-first design approach.'
   alignment: 'bleed'
   imagePreset: 'supporting'
@@ -66,7 +63,7 @@ Beyond the visual aesthetic, I was keen to employ best practice with regards to 
 
 Keen to exploit the very idea of 24 ways – different articles, written by different authors, published over twenty-four days for almost nearly a decade – I created a palette based on the publication’s signature red, that subtly changes over time based on both day and year variables.
 
-{% render 'screenshots' with screenshots.homepage
+{% render 'gallery' with screenshots.homepage
   caption: 'The home and other archival pages showcase articles by placing them within a grid, evoking the feel of a calendar. To account for the growing archive and improve the discoverability of content, I recommended categorising articles by topic, and exposing these within the navigation.'
   alignment: 'bleed'
   imagePreset: 'supporting'

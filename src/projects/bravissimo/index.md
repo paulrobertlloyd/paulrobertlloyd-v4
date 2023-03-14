@@ -10,9 +10,6 @@ category:
 tags:
   - featured
 accent_color: '#f4436d'
-style:
-  screenshot-shadow: '#d6cfc9'
-  screenshot-offset: '#f0ecec'
 screenshots:
   product:
     - url: /projects/bravissimo/screenshot_swimwear.png
@@ -25,7 +22,7 @@ screenshots:
     - url: /projects/bravissimo/screenshot_brastrap_palette.png
       alt: Brastrap styleguide page detailing colour palettes
 ---
-{% render 'screenshots' with screenshots.product
+{% render 'gallery' with screenshots.product
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}
@@ -36,7 +33,7 @@ As part of a broader renewal strategy, they were looking to redevelop their site
 
 Clearleft had assembled a small team to work alongside the company’s in-house development team, led by Luke Bennett, to re-develop their e-commerce site. James Box concentrated on the user experience with James Bates providing an initial design direction.
 
-{% render 'screenshots' with screenshots.brastrap
+{% render 'gallery' with screenshots.brastrap
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}

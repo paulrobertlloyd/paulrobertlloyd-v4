@@ -34,6 +34,7 @@
 @import url("components/_footer.css");
 @import url("components/_footnotes.css");
 @import url("components/_form.css");
+@import url("components/_gallery.css");
 @import url("components/_header.css");
 @import url("components/_item.css");
 @import url("components/_items.css");
@@ -42,7 +43,7 @@
 @import url("components/_navigation.css");
 @import url("components/_pagination.css");
 @import url("components/_photos.css");
-@import url("components/_screenshots.css");
+@import url("components/_screenshot.css");
 @import url("components/_section.css");
 @import url("components/_skip-link.css");
 @import url("components/_slide.css");

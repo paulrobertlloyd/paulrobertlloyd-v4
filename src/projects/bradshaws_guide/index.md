@@ -15,9 +15,6 @@ article_id:
   - a4QC1
   - a4sD1
 accent_color: '#e6772e'
-style:
-  screenshot-shadow: '#e6772e'
-  screenshot-offset: '#ffa033'
 screenshots:
   homepage:
     - url: /projects/bradshaws_guide/screenshot_homepage.png
@@ -33,7 +30,7 @@ screenshots:
     - url: /projects/bradshaws_guide/screenshot_mobile_station.png
       alt: Station page on mobile
 ---
-{% render 'screenshots' with screenshots.homepage
+{% render 'gallery' with screenshots.homepage
   alignment: 'bleed'
 %}
 
@@ -41,7 +38,7 @@ screenshots:
 
 Reproductions of his handbook are over an inch thick; pocket-sized by Victorian standards, but not when compared to our slim wireless companions. This ongoing self-directed project aims to make Bradshaw’s work accessible to a new audience, be they tourists wanting to spend more time on today’s network, or commuters wishing to learn about the places they pass by every day.
 
-{% render 'screenshots' with screenshots.station
+{% render 'gallery' with screenshots.station
   caption: 'Station pages feature photochrom images sourced from the Library of Congress.'
 %}
 
@@ -49,7 +46,7 @@ The design seeks to combine the aesthetic of the Victorian era with modern sensi
 
 Producing content for the guide involved transcribing and correcting copy originating from an automated OCR process. As this copy already exists in the public domain, I released the newly digitised text on [a public GitHub repository][2], alongside the source code for the website.
 
-{% render 'screenshots' with screenshots.mobile
+{% render 'gallery' with screenshots.mobile
   caption: 'The design is optimised for small screen devices.'
   alignment: 'bleed'
   imagePreset: 'supporting'

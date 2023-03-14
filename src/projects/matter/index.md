@@ -9,9 +9,6 @@ category:
   - Brand identity
   - Interaction design
 accent_color: '#006Aff'
-style:
-  screenshot-shadow: '#444'
-  screenshot-offset: '#666'
 screenshots:
   homepage:
     - url: /projects/matter/screenshot_homepage.png
@@ -26,7 +23,7 @@ screenshots:
     - url: /projects/matter/screenshot_type_ptsans.png
       alt: Type specimen for PT Sans
 ---
-{% render 'screenshots' with screenshots.homepage
+{% render 'gallery' with screenshots.homepage
   alignment: 'bleed'
 %}
 
@@ -51,7 +48,7 @@ As well as being able to purchase individual articles as ebooks via Amazon and i
 
 One of the guiding principles established early on was to privilege the reading experience. This meant articles needed to be legible and enjoyable to read on any device. To meet this purpose, and after extensive device testing, I chose Calluna and Calluna Sans.
 
-{% render 'screenshots' with screenshots.type
+{% render 'gallery' with screenshots.type
   caption: 'Type samples/experimentation'
   alignment: 'bleed'
   imagePreset: 'supporting'

@@ -8,16 +8,13 @@ photo:
 category:
   - Interaction design
 accent_color: '#913'
-style:
-  screenshot-shadow: '#014'
-  screenshot-offset: '#14a'
 screenshots:
   - url: /projects/university_of_wales/screenshot_homepage.png
     alt: Home page
   - url: /projects/university_of_wales/screenshot_about.png
     alt: About page
 ---
-{% render 'screenshots' with screenshots
+{% render 'gallery' with screenshots
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}

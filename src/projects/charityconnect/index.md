@@ -10,9 +10,6 @@ category:
 tags:
   - featured
 accent_color: '#402031'
-style:
-  screenshot-shadow: '#402031'
-  screenshot-offset: '#662949'
 screenshots:
   homepage:
     - url: /projects/charityconnect/screenshot_homepage.png
@@ -35,7 +32,7 @@ photoset:
     - url: /projects/charityconnect/photo_prioritisation.jpg
       alt: Page prioritisation exercise
 ---
-{% render 'screenshots' with screenshots.homepage
+{% render 'gallery' with screenshots.homepage
   alignment: 'bleed'
 %}
 
@@ -54,7 +51,7 @@ With these findings uncovered, I created a set of detailed visual design composi
 > Paul is fantastic to work with and a truly excellent designer. From communication, to testing, to presenting his work; he never ceases to go the extra mile. Paul has played a central role in a really exciting time for our product and has made such an impact – thank you, Paul.
 > — Emma Begg, Product and Marketing Manager
 
-{% render 'screenshots' with screenshots.mobile
+{% render 'gallery' with screenshots.mobile
   caption: 'The product benefited from a mobile-first design approach.'
   alignment: 'bleed'
   imagePreset: 'supporting'

@@ -10,10 +10,7 @@ category:
   - Interaction design
 tags:
   - featured
-accent_color: '#360446'
-style:
-  screenshot-shadow: '#b4b6b8'
-  screenshot-offset: '#e4e6e8'
+accent_color: '#b4b6b8'
 screenshots:
   homepage:
     - url: /projects/dacs/screenshot_homepage.png
@@ -24,7 +21,7 @@ screenshots:
     - url: /projects/dacs/screenshot_payback_furtherinfo.png
       alt: Further information about the Payback service
 ---
-{% render 'screenshots' with screenshots.homepage
+{% render 'gallery' with screenshots.homepage
   alignment: 'bleed'
 %}
 
@@ -38,7 +35,7 @@ After a period of analysis and prototyping, we realised the website needed diffe
 
 DACS had already undergone an extensive rebranding exercise for print but it needed assistance translating this to a digital environment. To understand the reasoning behind the different brand elements, I spent time with Simon Kennedy who was responsible for DACS’s identity and brand strategy. One outcome from this process was to deprecate the use of Didot; while it worked well in print, the typeface was ill-suited to screen, and few areas on the website needed to reflect the discursive tone for which it was intended.
 
-{% render 'screenshots' with screenshots.payback
+{% render 'gallery' with screenshots.payback
   caption: 'Artist photography shown front and centre on a page introducing DACS’ Payback service. A restrained typographic pallet ensured legibility and visual consistency.'
   alignment: 'bleed'
   imagePreset: 'supporting'

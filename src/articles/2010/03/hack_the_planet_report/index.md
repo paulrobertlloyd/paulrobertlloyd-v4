@@ -43,7 +43,7 @@ Team A decided to build a social network (initially tied to a user’s Twitter a
 
 Depending on a number of factors (distance travelled, mode of transport, and ‘greenness’ of the event—which in turn would be largely based on who is attending the conference from how far away and by what methods) would result in a user aquiring a certain number of points. So for example if you were to travel from Eastbourne by train to reach the dConstruct conference in Brighton (40 miles) you would get 100 points, yet if you flew to Austin (6000 miles) then you may only earn 2 points.
 
-{% render 'screenshots' with screenshots.team-a
+{% render 'gallery' with screenshots.team-a
   caption: 'Event and profile pages.'
   imagePreset: 'supporting'
 %}
@@ -56,7 +56,7 @@ Team A was: [Paul Lloyd][1], [Anthony Williams][2], [Trevor Morris][3], [Matt Ma
 
 Team B created a tool that was initially planned for use by conference organisers and sponsors to understand the impact of proposed swag bags for upcoming conferences. By logging the contents of the schwag bag into the system, it would calculate a grade (loosely adapted from the energy A-G scale). Organisers could then find alternative products that would help lower the overall environmental impact of the bag.
 
-{% render 'screenshots' with screenshots.team-b
+{% render 'gallery' with screenshots.team-b
   caption: 'Home page and rating schwag.'
   imagePreset: 'supporting'
 %}

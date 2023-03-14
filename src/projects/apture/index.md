@@ -10,16 +10,13 @@ category:
   - Front-end development
   - Interaction design
 accent_color: '#05f'
-style:
-  screenshot-shadow: '#0a0b0d'
-  screenshot-offset: '#3c4063'
 screenshots:
   - url: /projects/apture/screenshot_bloggers.png
     alt: Product marketing page
   - url: /projects/apture/screenshot_admin.png
     alt: Site administration page
 ---
-{% render 'screenshots' with screenshots
+{% render 'gallery' with screenshots
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}

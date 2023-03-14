@@ -8,16 +8,13 @@ photo:
 category:
   - Interaction design
 accent_color: '#07B'
-style:
-  screenshot-shadow: '#888'
-  screenshot-offset: '#bbb'
 screenshots:
   - url: /projects/universal_playback/screenshot_homepage.png
     alt: Home page
   - url: /projects/universal_playback/screenshot_showpage.png
     alt: Show page
 ---
-{% render 'screenshots' with screenshots
+{% render 'gallery' with screenshots
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}

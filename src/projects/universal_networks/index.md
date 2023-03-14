@@ -8,9 +8,6 @@ photo:
 category:
   - Interaction design
 accent_color: '#527'
-style:
-  screenshot-shadow: '#afaaa2'
-  screenshot-offset: '#d9d7d4'
 screenshots:
   syfy:
     - url: /projects/universal_networks/screenshot_syfy_homepage.png
@@ -27,7 +24,7 @@ screenshots:
     - url: /projects/universal_networks/screenshot_universal_channel.png
       alt: Universal Channel home page
 ---
-{% render 'screenshots' with screenshots.syfy
+{% render 'gallery' with screenshots.syfy
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}
@@ -36,7 +33,7 @@ screenshots:
 
 Working with James Box at Clearleft, I devised the underlying user experience and design language, expressed as a library of localisable design patterns. These were customisable, allowing each brand to exhibit its own individuality and brand personality. I provided styling for four of these, while Aegir Hallmundur designed the theme for Diva.
 
-{% render 'screenshots' with screenshots.networks
+{% render 'gallery' with screenshots.networks
   caption: 'The library of design patterns could be customised to support different channel brands.'
   alignment: 'bleed'
   imagePreset: 'supporting'

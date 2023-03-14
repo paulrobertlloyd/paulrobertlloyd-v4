@@ -8,16 +8,13 @@ photo:
 category:
   - Interaction design
 accent_color: '#235'
-style:
-  screenshot-shadow: '#235'
-  screenshot-offset: '#2e5186'
 screenshots:
   - url: /projects/mozilla_addons/screenshot_homepage.png
     alt: Home page
   - url: /projects/mozilla_addons/screenshot_addon.png
     alt: Add-on detail page
 ---
-{% render 'screenshots' with screenshots
+{% render 'gallery' with screenshots
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}

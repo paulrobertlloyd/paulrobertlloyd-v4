@@ -10,16 +10,13 @@ category:
   - Front-end development
   - Interaction design
 accent_color: '#060'
-style:
-  screenshot-shadow: '#060'
-  screenshot-offset: '#390'
 screenshots:
   - url: /projects/ning/screenshot_networks.png
     alt: Home page
   - url: /projects/ning/screenshot_help.png
     alt: Help center
 ---
-{% render 'screenshots' with screenshots
+{% render 'gallery' with screenshots
   alignment: 'bleed'
   imagePreset: 'supporting'
 %}

@@ -23,7 +23,7 @@ My work on [24 ways][1] is a case in point. Since Drew McLellan asked me to rede
 
 In the intervening years, as tools have improved and best practices have matured, I’ve tweaked the design and refactored the code, and developed [a component library][3] in the process.
 
-{% render 'screenshots' with screenshots
+{% render 'gallery' with screenshots
   caption: 'The 24 ways home page.'
   alignment: 'bleed'
 %}
