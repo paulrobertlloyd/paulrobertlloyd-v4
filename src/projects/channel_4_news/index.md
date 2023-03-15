@@ -8,24 +8,10 @@ photo:
 category:
   - Interaction design
 accent_color: '#42246e'
-screenshots:
-  tablet:
-    - url: /projects/channel_4_news/screenshot_home.png
-      alt: Home screen
-    - url: /projects/channel_4_news/screenshot_special_report.png
-      alr: Special report
-  sections:
-    - url: /projects/channel_4_news/screenshot_category.png
-      alt: Category screen
-    - url: /projects/channel_4_news/screenshot_article.png
-      alt: News article
-    - url: /projects/channel_4_news/screenshot_catchup.png
-      alt: Catch-up screen
 ---
-{% render 'gallery' with screenshots.tablet
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Home screen.](screenshot_home.png){.screenshot}
+* ![Special report.](screenshot_special_report.png){.screenshot}
+  {.align-bleed .gallery}
 
 Broadcast weeknights at 7pm, <cite>[Channel 4 News][1]</cite> is noted for its award-winning coverage of international news and extensive current affairs reporting.
 
@@ -33,11 +19,10 @@ After redesigning their website, Channel 4 wished to reimagine the Channel 4 New
 
 Shortly after its launch Apple featured the app as App of the Week. In a few short weeks the application received over one hundred positive reviews, with an average rating of 4.5 stars.
 
-{% render 'gallery' with screenshots.sections
-  caption: 'Category, article and catch-up screens within the app.'
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Category screen.](screenshot_category.png){.screenshot}
+* ![News article.](screenshot_article.png){.screenshot}
+* ![Catch-up screen.](screenshot_catchup.png){.screenshot}
+  {.align-bleed .gallery}
 
 ---
 

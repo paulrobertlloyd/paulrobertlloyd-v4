@@ -10,16 +10,10 @@ category:
   - Front-end development
   - Interaction design
 accent_color: '#f90'
-screenshots:
-  - url: /projects/cwhomes/screenshot_homepage.png
-    alt: Home page
-  - url: /projects/cwhomes/screenshot_property.png
-    alt: Property detail page
 ---
-{% render 'gallery' with screenshots
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Home page.](screenshot_homepage.png){.screenshot}
+* ![Property detail page.](screenshot_property.png){.screenshot}
+  {.align-bleed .gallery}
 
 cwhomes.co.uk was a property portal that combined the resources of over sixty independent estate agency offices within Coventry and Warwickshire.
 

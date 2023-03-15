@@ -10,16 +10,10 @@ category:
   - Front-end development
   - Interaction design
 accent_color: '#05f'
-screenshots:
-  - url: /projects/apture/screenshot_bloggers.png
-    alt: Product marketing page
-  - url: /projects/apture/screenshot_admin.png
-    alt: Site administration page
 ---
-{% render 'gallery' with screenshots
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Product marketing page.](screenshot_bloggers.png){.screenshot}
+* ![Site administration page.](screenshot_admin.png){.screenshot}
+  {.align-bleed .gallery}
 
 Apture was a publishing tool that gave content creators the power to find and incorporate multimedia directly into their web pages. With just one line of code, publishers and bloggers could turn flat pages of text into compelling multimedia experiences. The company was acquired by Google in November 2011.
 

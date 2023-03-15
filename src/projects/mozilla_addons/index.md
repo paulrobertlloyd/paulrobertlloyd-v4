@@ -8,16 +8,10 @@ photo:
 category:
   - Interaction design
 accent_color: '#235'
-screenshots:
-  - url: /projects/mozilla_addons/screenshot_homepage.png
-    alt: Home page
-  - url: /projects/mozilla_addons/screenshot_addon.png
-    alt: Add-on detail page
 ---
-{% render 'gallery' with screenshots
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Home page.](screenshot_homepage.png){.screenshot}
+* ![Add-on detail page.](screenshot_addon.png){.screenshot}
+  {.align-bleed .gallery}
 
 Mozilla Add-ons is a catalogue of over 6,000 add-ons that allows Firefox users to customise the browser to suit their individual interests and needs.
 

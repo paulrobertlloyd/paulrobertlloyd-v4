@@ -9,16 +9,10 @@ category:
   - Front-end development
   - Interaction design
 accent_color: '#ffef3e'
-screenshots:
-  - url: /projects/waldo_pancake/screenshot_about.png
-    alt: Home page
-  - url: /projects/waldo_pancake/screenshot_slideshow.png
-    alt: Slideshow of Waldo Pancake merchandise
 ---
-{% render 'gallery' with screenshots
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Home page.](screenshot_about.png){.screenshot}
+* ![Slideshow of Waldo Pancake merchandise.](screenshot_slideshow){.screenshot}
+  {.align-bleed .gallery}
 
 Jim Smith (aka [Waldo Pancake][1]) is a designer, illustrator and copywriter whose work can be found on the side of juice bottles, sweet packets and inside every Puccino’s coffee shop.
 

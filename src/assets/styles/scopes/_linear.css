@@ -106,11 +106,11 @@
   position: absolute;
 }
 
-.s-linear :is(aside, figure, table):not(:first-child) {
+.s-linear :is(aside, figure, table, .gallery):not(:first-child) {
   margin-block-start: calc(var(--linear-flow-space) * 3);
 }
 
-.s-linear :is(aside, figure, table) {
+.s-linear :is(aside, figure, table, .gallery) {
   margin-block-end: calc(var(--linear-flow-space) * 3);
 }
 

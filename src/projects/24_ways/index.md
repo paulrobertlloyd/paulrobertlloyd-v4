@@ -15,19 +15,6 @@ article_id:
   - a4Tg1
   - a4sE1
 accent_color: '#f04'
-screenshots:
-  mobile:
-    - url: /projects/24_ways/screenshot_archive_mobile.png
-      alt: Year archive page on mobile
-    - url: /projects/24_ways/screenshot_article_mobile.png
-      alt: Article page on mobile
-    - url: /projects/24_ways/screenshot_navigation_mobile.png
-      alt: Opened site navigation on mobile
-  homepage:
-    - url: /projects/24_ways/screenshot_homepage.png
-      alt: Home page
-    - url: /projects/24_ways/screenshot_navigation.png
-      alt: Opened site navigation
 ---
 ![Article page.](screenshot_article.png){.screenshot}
 {.align-bleed}
@@ -47,11 +34,10 @@ With content that tended to be forward-looking, the design could afford to be al
 
 Keen to exploit the very idea of 24 ways – different articles, written by different authors, published over twenty-four days for almost nearly a decade – I created a palette based on the publication's signature red, that subtly changes over time based on both day and year variables.
 
-{% render 'gallery' with screenshots.mobile
-  caption: 'The site benefited from a mobile-first design approach.'
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Year archive page on mobile.](screenshot_archive_mobile.png){.screenshot}
+* ![Article page on mobile.](screenshot_article_mobile.png){.screenshot}
+* ![Opened site navigation on mobile.](screenshot_navigation_mobile.png){.screenshot}
+  {.align-bleed .gallery}
 
 Where the previous design used a rigid template across all sections of the site, which often dominated the content, I created a series of responsive templates each suited the task in hand. These were supported by application-like navigation conventions, with subtle animation to add delight to the interface.
 
@@ -59,11 +45,9 @@ Beyond the visual aesthetic, I was keen to employ best practice with regards to 
 
 Keen to exploit the very idea of 24 ways – different articles, written by different authors, published over twenty-four days for almost nearly a decade – I created a palette based on the publication’s signature red, that subtly changes over time based on both day and year variables.
 
-{% render 'gallery' with screenshots.homepage
-  caption: 'The home and other archival pages showcase articles by placing them within a grid, evoking the feel of a calendar. To account for the growing archive and improve the discoverability of content, I recommended categorising articles by topic, and exposing these within the navigation.'
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Home page.](screenshot_homepage.png "The home and other archival pages showcase articles by placing them within a grid, evoking the feel of a calendar."){.screenshot}
+* ![Opened site navigation.](screenshot_navigation.png "To account for the growing archive and to improve the discoverability of content, I recommended categorising articles by topic and exposing these within the navigation."){.screenshot}
+  {.align-bleed .gallery}
 
 ## Continual refinement
 

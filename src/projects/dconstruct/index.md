@@ -8,11 +8,6 @@ photo:
 category:
   - Interaction design
 accent_color: '#370'
-screenshots:
-  - url: /projects/dconstruct/screenshot_2011.png
-    alt: Home page for the 2011 website
-  - url: /projects/dconstruct/screenshot_2013.png
-    alt: Home page for the 2013 website
 ---
 ![Home page for the 2010 website.](screenshot_2010.png){.screenshot}
 {.align-bleed}
@@ -27,16 +22,15 @@ The [theme for 2010][1] was fairly broad so I decided to make a feature of the s
 
 Prior to this event, Clearleft used plastic wallets to hold the combined conference programme and name badge. I advocated a different approach, one that would omit plastic, create less waste and be cheaper to produce. After extensive prototyping, and with help from Gareth Jones at Jack Design, this event featured [a greener, paper-only conference badge][2] directly attached to the lanyard by loop staples. This design served as a model for successive conferences run by Clearleft and other conference producers.
 
-![](/articles/2010/08/dconstruct_conference_badge/image.jpg 'Conference badge for dConstruct 2010. Photograph: [James Box](https://www.flickr.com/photos/b0xman/4929704982/)')
+[![A folded cardboard name badge.](/articles/2010/08/dconstruct_conference_badge/image.jpg 'Conference badge for dConstruct 2010. Photograph: James Box')][i1]
 
 ## 2011: Designing Digital Products
 
 Like the previous year's design, the [homepage featured prominent images of the speakers][3]. The design process involved close collaboration with Andy Hume, which was needed for us to build a highly responsive website that would work well across devices. With this in mind, the main navigation was simplified to just four items (Conference, Workshops, Location and Register) with an alternative navigation method shown when browsing speaker pages on smaller screens.
 
-{% render 'gallery' with screenshots
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Home page for the 2011 website.](screenshot_2011.png "2011 website."){.screenshot}
+* ![Home page for the 2013 website.](screenshot_2013.png "2013 website."){.screenshot}
+  {.align-bleed .gallery}
 
 ## 2013: Communicating with Machines
 
@@ -57,3 +51,4 @@ Agency
 [2]: /2010/08/dconstruct_conference_badge
 [3]: http://2011.dconstruct.org/
 [4]: http://2013.dconstruct.org/
+[i1]: https://www.flickr.com/photos/b0xman/4929704982/

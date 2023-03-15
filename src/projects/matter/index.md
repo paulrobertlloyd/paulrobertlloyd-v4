@@ -9,15 +9,6 @@ category:
   - Brand identity
   - Interaction design
 accent_color: '#006Aff'
-screenshots:
-  - url: /projects/matter/screenshot_type_calluna.png
-    alt: Type specimen for Calluna
-  - url: /projects/matter/screenshot_type_centro.png
-    alt: Type specimen for Centro
-  - url: /projects/matter/screenshot_type_enigma.png
-    alt: Type specimen for Enigma
-  - url: /projects/matter/screenshot_type_ptsans.png
-    alt: Type specimen for PT Sans
 ---
 ![Home page.](screenshot_homepage.png){.screenshot}
 {.align-bleed}
@@ -28,8 +19,7 @@ After an enormously successful [Kickstarter campaign][1] proved there was a real
 
 ## Identity
 
-![](logo_sketches.jpg 'Early logo sketches.')
-{.align-pull}
+![Drawn logo ideas on a few sheets of paper.](logo_sketches.jpg "Early logo sketches.")
 
 Much of my work for Matter focused on its visual identity. I thought a lot about how readers would recognise its publications in ebook stores, how articles might appear on the web and how these might be bookmarked on smartphone home screens. As the identity would play a supporting role to the articles being published, I envisaged the logo as a hallmark, one that identified an article as one meeting the high standards of journalism that Matter aims for.
 
@@ -43,11 +33,11 @@ As well as being able to purchase individual articles as ebooks via Amazon and i
 
 One of the guiding principles established early on was to privilege the reading experience. This meant articles needed to be legible and enjoyable to read on any device. To meet this purpose, and after extensive device testing, I chose Calluna and Calluna Sans.
 
-{% render 'gallery' with screenshots
-  caption: 'Type samples/experimentation'
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Type specimen for Calluna.](screenshot_type_calluna.png "Type specimen for Calluna.")
+* ![Type specimen for Centro.](screenshot_type_centro.png "Type specimen for Centro.")
+* ![Type specimen for Enigma.](screenshot_type_enigma.png "Type specimen for Enigma.")
+* ![Type specimen for PT Sans.](screenshot_type_ptsans.png "Type specimen for PT Sans.")
+  {.align-bleed .gallery}
 
 ---
 

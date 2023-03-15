@@ -10,35 +10,15 @@ category:
 tags:
   - featured
 accent_color: '#b00'
-screenshots:
-  showcase:
-    - url: /projects/the_week/screenshot_cover.png
-      alt: Cover screen
-    - url: /projects/the_week/screenshot_story.png
-      alt: Screen showing the first page of the featured news story
-  ui:
-    - url: /projects/the_week/screenshot_cover.png
-      alt: Cover screen
-    - url: /projects/the_week/screenshot_index.png
-      alt: Politics index
-    - url: /projects/the_week/screenshot_article.png
-      alt: Screen showing the first page of the selected politics story
-  styleguide:
-    - url: /projects/the_week/screenshot_grid.png
-      alt: Design overlaid with red grid lines
-    - url: /projects/the_week/screenshot_type.png
-      alt: Example screen featuring dummy content
 photoset:
-  workshop:
-    - url: /projects/the_week/photo_empathy_map.jpg
-      alt: Empathy map created during the workshop
-    - url: /projects/the_week/photo_workshop_sketches.jpg
-      alt: Four sketches from the workshop
+  - url: /projects/the_week/photo_empathy_map.jpg
+    alt: Empathy map created during the workshop
+  - url: /projects/the_week/photo_workshop_sketches.jpg
+    alt: Four sketches from the workshop
 ---
-{% render 'gallery' with screenshots.showcase
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Cover screen.](screenshot_cover.png){.screenshot}
+* ![Screen showing the first page of the featured news story.](screenshot_story.png){.screenshot}
+  {.align-bleed .gallery}
 
 [The Week][1] condenses the week’s news into lively and informative editorial, giving readers an insight into the most vital stories. With over 183,000 subscribers, it’s the UKs most popular weekly subscription magazine.
 
@@ -48,7 +28,7 @@ Part of this success can be attributed to its rigorously consistent editorial fo
 
 A highly iterative approach saw the design evolve over the course of the project. Starting with paper sketches before creating quick, low-fidelity click-through prototypes in Keynote. Throughout this process, we used real content from the magazine to ensure our design would meant the demands of the content it would need to deliver. By forming a close working relationship with key stakeholders across the business - including both commercial and editorial teams – meant we were able to take into account differing requirements and manage expectations.
 
-{% render 'photos' with photoset.workshop
+{% render 'photos' with photoset
   caption: 'Output from our workshop with key stakeholders included empathy maps for key users, and sketched ideas for important sections of the magazine.'
   imagePreset: 'supporting'
 %}
@@ -59,11 +39,10 @@ With a readership not looking for rich interactivity, we chose to focus on creat
 
 The predictable IA of the magazine was retained by creating overview pages for each section that linked though to individual articles. From both section and article pages, users could quickly swipe though the magazine, replicating the skimmable nature of the printed version. This model also allowed for the inclusion of full-screen interactive advertising, inserted at modest intervals, much like in the magazine.
 
-{% render 'gallery' with screenshots.ui
-  caption: 'Progression through an issue of the magazine; from cover, to section to individual article. Double tapping on an article screen would bring up the ’scrubber’ enabling users to quickly advance through an issue.'
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Cover screen.](screenshot_cover.png "Progression through an issue of the magazine; from cover…"){.screenshot}
+* ![Politics index.](screenshot_index.png "…to a section index…"){.screenshot}
+* ![Screen showing the first page of the selected politics story.](screenshot_article.png "…to individual article. Double tapping an article reveals a ‘scrubber’ allowing users to skip screens."){.screenshot}
+  {.align-bleed .gallery}
 
 A challenging aspect of this project was conveying the familiarity of the magazine within the confined space of an iPad, which is physically smaller, and with a lower resolution. Simply transferring the content of one page to a single screen would not be an option. While competing products often used pinch and zoom, we created bespoke layouts for both portrait and landscape device orientation.
 
@@ -73,11 +52,9 @@ A key feature of the magazine is it’s marginalia, short summaries, excerpts, q
 
 Working closely with the development team at Kaldor, we honed the gestural interface, navigation and page templates. Building upon their hybrid [PugPig][2] framework, the application could take advantage of native iOS features while also utilising HTML and CSS for precise layout and typographic control for each article. This was possibly the most enjoyable aspect of the project, especially as their team had an appreciation for design and where open to last minute design tweaks that would improve the overall experience.
 
-{% render 'gallery' with screenshots.styleguide
-  caption: 'Example of the assets handed over to the team at Kaldor to aid development of the application.'
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Design overlaid with red grid lines.](screenshot_grid.png){.screenshot}
+* ![Example screen featuring dummy content.](screenshot_type.png){.screenshot}
+  {.align-bleed .gallery}
 
 ## Success
 

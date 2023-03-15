@@ -11,11 +11,6 @@ category:
 tags:
   - featured
 accent_color: '#b4b6b8'
-screenshots:
-  - url: /projects/dacs/screenshot_payback.png
-    alt: Landing page for the Payback service
-  - url: /projects/dacs/screenshot_payback_furtherinfo.png
-    alt: Further information about the Payback service
 ---
 ![Home page.](screenshot_homepage.png){.screenshot}
 {.align-bleed}
@@ -28,17 +23,15 @@ The previous website was packed with legalese: language written by solicitors wi
 
 After a period of analysis and prototyping, we realised the website needed different areas for each customer type to quickly triage users into the correct places. Once in the right place, customers could be shown content with an appropriate perspective, tone of voice and calls to action that matched their specific needs.
 
-DACS had already undergone an extensive rebranding exercise for print but it needed assistance translating this to a digital environment. To understand the reasoning behind the different brand elements, I spent time with Simon Kennedy who was responsible for DACS’s identity and brand strategy. One outcome from this process was to deprecate the use of Didot; while it worked well in print, the typeface was ill-suited to screen, and few areas on the website needed to reflect the discursive tone for which it was intended.
+DACS had already undergone an extensive rebranding exercise for print but it needed assistance translating this to a digital environment. To understand the reasoning behind the different brand elements, I spent time with Simon Kennedy who was responsible for DACS’ identity and brand strategy. One outcome from this process was to deprecate the use of Didot; while it worked well in print, the typeface was ill-suited to screen, and few areas on the website needed to reflect the discursive tone for which it was intended.
 
-{% render 'gallery' with screenshots
-  caption: 'Artist photography shown front and centre on a page introducing DACS’ Payback service. A restrained typographic pallet ensured legibility and visual consistency.'
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Landing page for the Payback service.](screenshot_payback.png "Artist photography shown front and centre on a page introducing DACS’ Payback service."){.screenshot}
+* ![Further information about the Payback service.](screenshot_furtherinfo.png "A restrained typographic pallet ensured legibility and visual consistency."){.screenshot}
+  {.align-bleed .gallery}
 
-I drew on DACS’s photographic library of artists to give the organisation a human face. This imagery was combined with a restrained typographic pallet to ensure legibility and visual consistency, and supported by a selection of monochromatic patterns used to differentiate sections of the site.
+I drew on DACS’ photographic library of artists to give the organisation a human face. This imagery was combined with a restrained typographic pallet to ensure legibility and visual consistency, and supported by a selection of monochromatic patterns used to differentiate sections of the site.
 
-![](responsive.jpg 'A responsive layout meant the same content could be served to different devices, regardless of display size.')
+![The DACs website being viewed on a mobile phone and on a tablet.](responsive.jpg "A responsive layout meant the same content could be served to different devices, regardless of display size.")
 {.align-bleed}
 
 A pattern portfolio helped to ease handover to the development agency Cognite. Towards the end of the project I worked at their offices, helping them integrate these design patterns, making adjustments where necessary given the constraints of the CMS.

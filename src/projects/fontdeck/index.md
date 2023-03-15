@@ -8,19 +8,6 @@ photo:
 category:
   - Interaction design
 accent_color: '#e9242e'
-screenshots:
-  typeface:
-    - url: /projects/fontdeck/screenshot_category.png
-      alt: Typeface category page
-    - url: /projects/fontdeck/screenshot_specimen.png
-      alt: Type specimen page
-  ancillary:
-    - url: /projects/fontdeck/screenshot_about.png
-      alt: About page
-    - url: /projects/fontdeck/screenshot_foundries.png
-      alt: Foundries page
-    - url: /projects/fontdeck/screenshot_designer.png
-      alt: Type designer page
 ---
 ![Home page.](screenshot_homepage.png){.screenshot}
 {.align-bleed}
@@ -45,21 +32,18 @@ It was also decided that we would improve the product in discreet stages. While 
 
 As I explored different design directions, it became clear to me that the design that had been used during private and public beta phases of the product roll-out no longer aligned with the redefined proposition. While elements of the previous design could be retained – the logo, the colour palette – a new approach was needed.
 
-{% render 'gallery' with screenshots.typeface
-  caption: 'Exposing different means of discovery made it easier for users to browse Fontdeck’s catalogue. Information about an individual typeface was available on one page, with meta data presented in the sidebar.'
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Typeface category page.](screenshot_category.png "Exposing different means of discovery made it easier for users to browse Fontdeck’s catalogue."){.screenshot}
+* ![Type specimen page.](screenshot_specimen.png "Information about an individual typeface was available on one page, with meta data presented in the sidebar."){.screenshot}
+  {.align-bleed .gallery}
 
 Given the product’s focus, the type choice was clearly the overriding concern. Since the original brand font, FF Info, wasn’t in the catalogue, I looked for alternatives. I decided to pair Adelle (lots of character at different sizes) with PT Sans (legible at small sizes). Where web-safe alternatives were required (e.g. HTML newsletters), Georgia and Lucida Grande were used. The colour palette required only subtle changes; the signature dark blue colour was made slightly dustier, the saturated font category colours more muted.
 
 Page layout was more considered, making heavy use of an underlying grid, with use of delicate line work and a clear typographic hierarchy. The number of rounded corners used in the original design was reduced, while the playing card device was limited to account and project pages, where users managed their font ‘decks’.
 
-{% render 'gallery' with screenshots.ancillary
-  caption: 'About page and foundry directory.'
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![About page.](screenshot_about.png){.screenshot}
+* ![Foundries page.](screenshot_foundries.png){.screenshot}
+* ![Type designer page.](screenshot_designer.png){.screenshot}
+  {.align-bleed .gallery}
 
 The previous text-heavy about page was replaced by an expanded about section that included a video narrated by Richard, the story of the product’s development and introduced the team working behind the scenes. A dedicated pricing page was linked to from the main navigation which concisely explained how the various pricing tiers worked.
 

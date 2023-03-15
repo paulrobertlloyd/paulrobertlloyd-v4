@@ -1,5 +1,6 @@
 .gallery {
-  align-items: center;
+  list-style: none;
+  align-items: start;
   display: grid;
   grid-template-columns: 1fr;
   overflow: hidden;

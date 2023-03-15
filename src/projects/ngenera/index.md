@@ -10,16 +10,10 @@ category:
   - Front-end development
   - Interaction design
 accent_color: '#00b6dd'
-screenshots:
-  - url: /projects/ngenera/screenshot_homepage.png
-    alt: Home page
-  - url: /projects/ngenera/screenshot_workshop.png
-    alt: Workshop description page
 ---
-{% render 'gallery' with screenshots
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Home page.](screenshot_homepage.png){.screenshot}
+* ![Workshop description page.](screenshot_workshop.png){.screenshot}
+  {.align-bleed .gallery}
 
 nGenera Corporation (now [Moxie Software][1]) helps companies and governments transform themselves into forward thinking enterprises, that is to say organisations that enable employees to communicate via real-time social software platforms and tools.
 

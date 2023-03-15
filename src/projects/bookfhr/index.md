@@ -8,16 +8,10 @@ photo:
 category:
   - Interaction design
 accent_color: '#002f70'
-screenshots:
-  - url: /projects/bookfhr/screenshot_homepage.png
-    alt: Home page
-  - url: /projects/bookfhr/screenshot_parking.png
-    alt: Parking search results page
 ---
-{% render 'gallery' with screenshots
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Home page.](screenshot_homepage.png){.screenshot}
+* ![Parking search results page.](screenshot_parking.png){.screenshot}
+  {.align-bleed .gallery}
 
 [BookFHR][1] provides discounts on airport hotels, parking, lounges and other travel services in the UK.
 

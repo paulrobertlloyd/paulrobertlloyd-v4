@@ -10,16 +10,10 @@ category:
   - Front-end development
   - Interaction design
 accent_color: '#060'
-screenshots:
-  - url: /projects/ning/screenshot_networks.png
-    alt: Home page
-  - url: /projects/ning/screenshot_help.png
-    alt: Help center
 ---
-{% render 'gallery' with screenshots
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Home page.](screenshot_networks.png){.screenshot}
+* ![Help center.](screenshot_help.png){.screenshot}
+  {.align-bleed .gallery}
 
 [Ning][1] is an online platform that allows people to create customised social networks. I was lead designer from January 2006 to October 2007.
 

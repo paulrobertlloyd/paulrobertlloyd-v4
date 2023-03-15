@@ -8,16 +8,10 @@ photo:
 category:
   - Interaction design
 accent_color: '#c50'
-screenshots:
-  - url: /projects/nuts/screenshot_homepage.png
-    alt: Home page
-  - url: /projects/nuts/screenshot_product.png
-    alt: Product page
 ---
-{% render 'gallery' with screenshots
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Home page.](screenshot_homepage.png){.screenshot}
+* ![Product page.](screenshot_product.png){.screenshot}
+  {.align-bleed .gallery}
 
 [Nuts.com][1] is a family business founded over eighty years ago in Cranford, New Jersey. Employing sixty staff and turning over more than $20 million per year, the company is “more than just nuts”; it sells thousands of products including dried fruit, sweets, spices, coffees, teas and much more. Their success is built on a passion for quality food, a deep connection with their heritage and good old-fashioned customer service.
 

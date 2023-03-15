@@ -10,24 +10,13 @@ category:
 tags:
   - featured
 accent_color: '#402031'
-screenshots:
-  mobile:
-    - url: /projects/charityconnect/screenshot_profile.png
-      alt: User profile page on mobile
-    - url: /projects/charityconnect/screenshot_following.png
-      alt: Followed users page on mobile
-    - url: /projects/charityconnect/screenshot_group.png
-      alt: Group profile page on mobile
-    - url: /projects/charityconnect/screenshot_post.png
-      alt: Article page on mobile
 photoset:
-  workshop:
-    - url: /projects/charityconnect/photo_empathy_map.jpg
-      alt: Pattern identification exercise
-    - url: /projects/charityconnect/photo_personas.jpg
-      alt: Pattern definition exercise
-    - url: /projects/charityconnect/photo_prioritisation.jpg
-      alt: Page prioritisation exercise
+  - url: /projects/charityconnect/photo_empathy_map.jpg
+    alt: Pattern identification exercise
+  - url: /projects/charityconnect/photo_personas.jpg
+    alt: Pattern definition exercise
+  - url: /projects/charityconnect/photo_prioritisation.jpg
+    alt: Page prioritisation exercise
 ---
 ![Home page.](screenshot_homepage.png){.screenshot}
 {.align-bleed}
@@ -36,7 +25,7 @@ photoset:
 
 I was asked to conduct an expert review of some earlier designs that had been produced, with a particular focus on home, groups, post and profile pages. Taking into account the need to incorporate new functionality and user experience improvements, this review was conducted on site and alongside the project owner and other stakeholders. Workshop exercises then allowed for requirements gathering and design exploration.
 
-{% render 'photos' with photoset.workshop
+{% render 'photos' with photoset
   caption: 'A series of workshop exercises teased out requirements for the project, and provided an introduction to the type of people using the site.'
   alignment: 'bleed'
   imagePreset: 'thumbnail'
@@ -47,11 +36,11 @@ With these findings uncovered, I created a set of detailed visual design composi
 > Paul is fantastic to work with and a truly excellent designer. From communication, to testing, to presenting his work; he never ceases to go the extra mile. Paul has played a central role in a really exciting time for our product and has made such an impact – thank you, Paul.
 > — Emma Begg, Product and Marketing Manager
 
-{% render 'gallery' with screenshots.mobile
-  caption: 'The product benefited from a mobile-first design approach.'
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![User profile page on mobile.](screenshot_profile.png){.screenshot}
+* ![Followed users page on mobile.](screenshot_following.png){.screenshot}
+* ![Group profile page on mobile.](screenshot_group.png){.screenshot}
+* ![Article page on mobile.](screenshot_post.png){.screenshot}
+  {.align-bleed .gallery}
 
 ---
 

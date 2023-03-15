@@ -13,19 +13,8 @@ category:
   - Projects
 tags:
   - source:a_green_focus
-screenshots:
-  team-a:
-  - url: /articles/2010/03/hack_the_planet_report/team_a_event_page.png
-    alt: Event page.
-  - url: /articles/2010/03/hack_the_planet_report/team_a_profile_page.png
-    alt: Profile page.
-  team-b:
-  - url: /articles/2010/03/hack_the_planet_report/team_b_home_page.png
-    alt: Home page.
-  - url: /articles/2010/03/hack_the_planet_report/team_b_rating_schwag.png
-    alt: A form within the flow for rating schwag.
 ---
-![](/image.jpg 'The two teams at work.')
+![The two teams at work.](image.jpg 'The two teams at work.')
 {.align-bleed}
 
 As promised, here is a follow-up on [Hack The Planet](/2010/02/hack_the_planet), our hack day held in Birmingham last month.
@@ -41,12 +30,11 @@ After a close vote between these two issues, we decided to work on a project tha
 
 Team A decided to build a social network (initially tied to a user’s Twitter account) in which people could sign up, and list the conferences they’ve attended or plan to attend.
 
-Depending on a number of factors (distance travelled, mode of transport, and ‘greenness’ of the event—which in turn would be largely based on who is attending the conference from how far away and by what methods) would result in a user aquiring a certain number of points. So for example if you were to travel from Eastbourne by train to reach the dConstruct conference in Brighton (40 miles) you would get 100 points, yet if you flew to Austin (6000 miles) then you may only earn 2 points.
+Depending on a number of factors (distance travelled, mode of transport, and ‘greenness’ of the event—which in turn would be largely based on who is attending the conference from how far away and by what methods) would result in a user acquiring a certain number of points. So for example if you were to travel from Eastbourne by train to reach the dConstruct conference in Brighton (40 miles) you would get 100 points, yet if you flew to Austin (6000 miles) then you may only earn 2 points.
 
-{% render 'gallery' with screenshots.team-a
-  caption: 'Event and profile pages.'
-  imagePreset: 'supporting'
-%}
+* ![Event page.](team_a_event_page.png "Event page."){.screenshot}
+* ![Profile page.](team_a_profile_page.png "Profile page."){.screenshot}
+  {.gallery}
 
 Problem with this model: what was the incentive to join this network and share this data, and what do points actually mean? Matt pushed for the service to suggest conferences nearby as one way to solve this problem, but there would certainly need more engaging features for people to use this service. One nice feature of this tool, however, would be that it could tell you if any friends are attending the same conferences you are, and as such encourage lift sharing.
 
@@ -56,10 +44,9 @@ Team A was: [Paul Lloyd][1], [Anthony Williams][2], [Trevor Morris][3], [Matt Ma
 
 Team B created a tool that was initially planned for use by conference organisers and sponsors to understand the impact of proposed swag bags for upcoming conferences. By logging the contents of the schwag bag into the system, it would calculate a grade (loosely adapted from the energy A-G scale). Organisers could then find alternative products that would help lower the overall environmental impact of the bag.
 
-{% render 'gallery' with screenshots.team-b
-  caption: 'Home page and rating schwag.'
-  imagePreset: 'supporting'
-%}
+* ![Home page.](team_b_home_page.png "Home page."){.screenshot}
+* ![A form within the flow for rating schwag.](team_b_rating_schwag.png "A form within the flow for rating schwag."){.screenshot}
+  {.gallery}
 
 However, as a consequence of working through these ideas, they quickly spotted other applications. For example, it could be used to rate existing bags, and data could be collected as to how green any given conference had been. For example, bags from SXSW could be rated for 2007, 2008 and 2009 to give metrics on the improvement or degradation in the sustainability of the bag year-on-year.
 

@@ -11,20 +11,12 @@ category:
 tags:
   - featured
 accent_color: '#00e676'
-screenshots:
-  - url: /projects/refigure/screenshot_app_welcome.png
-    alt: Welcome screen
-  - url: /projects/refigure/screenshot_app_browse.png
-    alt: Browse meditations
-  - url: /projects/refigure/screenshot_app_meditation.png
-    alt: Meditation detail
-  - url: /projects/refigure/screenshot_app_player.png
-    alt: Meditation player
 ---
-{% render 'gallery' with screenshots
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Welcome screen.](screenshot_app_welcome.png){.screenshot}
+* ![Browse meditations.](screenshot_app_browse.png){.screenshot}
+* ![Meditation detail.](screenshot_app_meditation.png){.screenshot}
+* ![Meditation player.](screenshot_app_player.png){.screenshot}
+  {.align-bleed .gallery}
 
 Through Refigure, Rifa-Thorpe Tracey provides tailor-made mentoring and meditation services for individuals and teams, corporates and non-profits.
 

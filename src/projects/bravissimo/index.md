@@ -10,22 +10,10 @@ category:
 tags:
   - featured
 accent_color: '#f4436d'
-screenshots:
-  product:
-    - url: /projects/bravissimo/screenshot_swimwear.png
-      alt: Page listing swimwear available for sale
-    - url: /projects/bravissimo/screenshot_product.png
-      alt: Product page
-  brastrap:
-    - url: /projects/bravissimo/screenshot_brastrap_component.png
-      alt: Component preview and underlying code shown within Brastrap
-    - url: /projects/bravissimo/screenshot_brastrap_palette.png
-      alt: Brastrap styleguide page detailing colour palettes
 ---
-{% render 'gallery' with screenshots.product
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Page listing swimwear available for sale.](screenshot_swimwear.png "Component preview and underlying code shown within Brastrap."){.screenshot}
+* ![Product page.](screenshot_product.png "Brastrap styleguide page detailing colour palettes."){.screenshot}
+  {.align-bleed .gallery}
 
 [Bravissimo][1] is a British retailer that provides lingerie and swimwear for big boobed women. The company aims to give their customers an uplifting and confidence boosting experience, be that online, on the phones or in one of their 29 stores.
 
@@ -33,10 +21,9 @@ As part of a broader renewal strategy, they were looking to redevelop their site
 
 Clearleft had assembled a small team to work alongside the company’s in-house development team, led by Luke Bennett, to re-develop their e-commerce site. James Box concentrated on the user experience with James Bates providing an initial design direction.
 
-{% render 'gallery' with screenshots.brastrap
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Brastrap component page.](screenshot_brastrap_component.png "Component preview and underlying code shown within Brastrap."){.screenshot}
+* ![Brastrap styleguide page.](screenshot_brastrap_palette.png "Brastrap styleguide page detailing colour palettes."){.screenshot}
+  {.align-bleed .gallery}
 
 I was brought on-board to take these assets and develop a front-end component library (cheekily dubbed *Brastrap*) to enable Luke’s team to build out the reimagined website, and then continue to build upon this work in the years to come. While building the foundations of the new component library, I consulted with the team to tease-out, consolidate and document the various code standards being used to ensure the product remained maintainable and understandable.
 

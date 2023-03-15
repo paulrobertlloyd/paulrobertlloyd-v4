@@ -36,11 +36,10 @@ The design seeks to combine the aesthetic of the Victorian era with modern sensi
 
 Producing content for the guide involved transcribing and correcting copy originating from an automated OCR process. As this copy already exists in the public domain, I released the newly digitised text on [a public GitHub repository][2], alongside the source code for the website.
 
-{% render 'gallery' with screenshots
-  caption: 'The design is optimised for small screen devices.'
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Region page on mobile.](screenshot_mobile_region.png){.screenshot}
+* ![Route page on mobile.](screenshot_mobile_route.png){.screenshot}
+* ![Station page on mobile.](screenshot_mobile_station.png){.screenshot}
+  {.align-bleed .gallery}
 
 ---
 

@@ -6,12 +6,12 @@
   margin-inline: calc(var(--gap) * -1);
 }
 
-.align-bleed > *:first-child {
+.align-bleed > img:first-child {
   grid-column: bleed;
   inline-size: 100%;
 }
 
-.align-bleed > figcaption {
+.align-bleed figcaption {
   padding-inline: var(--gap);
 }
 
