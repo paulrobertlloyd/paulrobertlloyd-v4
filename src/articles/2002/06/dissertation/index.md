@@ -18,7 +18,12 @@ To properly analyse the reasons for any changes to graphic design on television,
 
 ### Chapters
 
-[[toc]]
+1. [The visuality of television](#the-visuality-of-television)
+2. [What went before](#what-went-before)
+3. [The growth of branding](#the-growth-of-branding)
+4. [News presentation](#news-presentation)
+5. [Conclusion](#conclusion)
+6. [References](#references)
 
 ***
 
@@ -45,7 +50,7 @@ Perhaps where television graphics have been used to greatest effect is within ne
 
 ***
 
-## What went before?
+## What went before
 
 ### Early graphic design in television
 

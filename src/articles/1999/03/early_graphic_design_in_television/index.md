@@ -18,7 +18,12 @@ In this essay, it is mainly graphic design in British television that is discuss
 
 ### Chapters
 
-[[toc]]
+1. [A new medium is born](#a-new-medium-is-born)
+2. [Growth and evolution](#growth-and-evolution)
+3. [Pioneers](#pioneers)
+4. [Computer revolution](#computer-revolution)
+5. [Conclusion](#conclusion)
+6. [References](#references)
 
 ***
 
