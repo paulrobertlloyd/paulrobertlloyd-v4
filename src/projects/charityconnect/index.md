@@ -10,26 +10,20 @@ category:
 tags:
   - featured
 accent_color: '#402031'
-photoset:
-  - url: /projects/charityconnect/photo_empathy_map.jpg
-    alt: Pattern identification exercise
-  - url: /projects/charityconnect/photo_personas.jpg
-    alt: Pattern definition exercise
-  - url: /projects/charityconnect/photo_prioritisation.jpg
-    alt: Page prioritisation exercise
 ---
 ![Home page.](screenshot_homepage.png){.screenshot}
 {.align-bleed}
 
 [CharityConnect][1] is a social network for the charity sector that helps charity professionals, trustees and volunteers interact, share ideas and discover opportunities in the sector.
 
-I was asked to conduct an expert review of some earlier designs that had been produced, with a particular focus on home, groups, post and profile pages. Taking into account the need to incorporate new functionality and user experience improvements, this review was conducted on site and alongside the project owner and other stakeholders. Workshop exercises then allowed for requirements gathering and design exploration.
+I was asked to conduct an expert review of some earlier designs that had been produced, with a particular focus on home, groups, post and profile pages. Taking into account the need to incorporate new functionality and user experience improvements, this review was conducted on site and alongside the project owner and other stakeholders.
 
-{% render 'photos' with photoset
-  caption: 'A series of workshop exercises teased out requirements for the project, and provided an introduction to the type of people using the site.'
-  alignment: 'bleed'
-  imagePreset: 'thumbnail'
-%}
+Workshop exercises then allowed for requirements gathering and design exploration. Through a series of exercises, we teased out requirements for the project, and built a collective understanding of the type of people that would be using the new site.
+
+* ![Empathy map.](photo_empathy_map.jpg)
+* ![Personas.](photo_personas.jpg)
+* ![Page prioritisation exercise.](photo_prioritisation.jpg)
+  {.align-bleed .gallery}
 
 With these findings uncovered, I created a set of detailed visual design compositions. I evolved the existing design language, allowing it to convey a higher degree of user activity, while creating an identity that would stand out among popular mainstream networks.
 

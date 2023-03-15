@@ -11,11 +11,6 @@ photo:
 category:
   - Furniture
   - Design
-photoset:
-  - url: /articles/2016/04/habitables/tv_table.jpg
-    alt: Table
-  - url: /articles/2016/04/habitables/desk.jpg
-    alt: Desk
 ---
 ![](sideboard.jpg 'Sideboard, designed by Manuel Barrera/Habitables.')
 {.align-bleed}
@@ -30,10 +25,9 @@ I initially thought that the recesses on each side of the chimney breast would b
 
 I immediately fell in love with designer Manuel Barrera’s distinctive mid-century modern aesthetic. With the option to produce items at bespoke sizes, their standard dimensions were already inch-perfect for my needs. More expensive than the ill-fitting furniture I had already seen, it was with a deep intake of breath that I clicked on the “Buy” button.
 
-{% render 'photos' with photoset
-  caption: 'The two items of furniture I purchased; a TV table and desk, both made of solid oak board. They look — and smell — great!'
-  imagePreset: 'supporting'
-%}
+* ![Table.](tv_table.jpg "Table, made of solid oak board.")
+* ![Desk.](desk.jpg "Matching Desk. These both look — and smell — great!")
+  {.gallery}
 
 My order arrived last week. Appropriately packaged for its long trip from Madrid, opening and assembling these new pieces felt like Christmas Day all over again! Not so much a purchase but long-term investment, I’m left with two unique pieces of furniture that I will treasure for many years to come.
 

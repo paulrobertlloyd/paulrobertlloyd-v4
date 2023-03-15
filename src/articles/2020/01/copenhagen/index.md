@@ -87,11 +87,6 @@ category:
   - Railways
 tags:
   - featured
-photoset:
-  - url: /articles/2020/01/copenhagen/blue_red_and_yellow.jpg
-    alt: Colourful, glowing box in the middle of a gallery.
-  - url: /articles/2020/01/copenhagen/gleaming_lights_of_the_souls.jpg
-    alt: Dark room with small bright red and blue lights.
 ---
 ## Day 3
 
@@ -145,11 +140,9 @@ Another grey day, but with the museums open again I’m spoilt for choice. Emil 
 
 There’s a remarkable symmetry between Janssens’ work and that of Olafur Eliasson which was [recently displayed at the Tate Modern][20]. In <cite>Blue, Red and Yellow</cite>, visitors are encouraged to step into a large perspex container filled with smoke illuminated by those colours. Disorienting and disembodying, only six people are allowed entry at a time. Eliasson created a similar effect in his work <cite>Your blind passenger</cite>; it should be noted that Janssens’ piece precedes it by about nine years.
 
-{% render 'photos' with photoset
-  caption: '<cite>Blue, Red and Yellow</cite> and <cite>Gleaming Lights Of The Souls</cite>.'
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![A colourful, glowing box sits in the middle of a gallery.](blue_red_and_yellow.jpg "‘Blue, Red and Yellow’.")
+* ![A dark room with small bright red and blue lights.](gleaming_lights_of_the_souls.jpg "‘Gleaming Lights Of The Souls’.")
+  {.gallery}
 
 If Janssens’ colourful smoke-filled cube isn’t enough Instagram fodder, then Yayoi Kusama’s permanent installation, <cite>Gleaming Lights Of The Souls</cite> does not disappoint either. This is a small room filled with hundreds of lights suspended from the ceiling, reflected by mirrors on five sides and a floor flooded with water. A small gangway allows viewers to experience this wonder from its very centre.
 

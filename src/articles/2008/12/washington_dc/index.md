@@ -11,11 +11,6 @@ category:
   - Travel
   - Washington, D.C.
   - United States
-photoset:
-  - url: /articles/2008/12/washington_dc/iwo_jima_memorial.jpg
-    alt: US Marine Corps War Memorial
-  - url: /articles/2008/12/washington_dc/netherlands_carillon.jpg
-    alt: Netherlands Carillon
 ---
 ![](vietnam_memorial.jpg 'The Vietnam Veterans Memorial.')
 {.align-bleed}
@@ -28,10 +23,9 @@ Whilst the presidential memorials were large and grandiose, I actually found the
 
 Here two granite walls create a ‘V’ shaped opening in the ground, upon which those who died are listed chronologically from the start of the war in 1959 to its conclusion in 1975. As you move through the years, the number of names increases, the height of the wall grows and the memorial digs deeper into the ground; as you move towards the end of the second wall, the reverse is true. Designed by [Maya Ying Lin][2], this is meant to symbolise a “wound that is closed and healing”.
 
-{% render 'photos' with photoset
-  caption: 'US Marine Corps War Memorial and Netherlands Carillon.'
-  imagePreset: 'supporting'
-%}
+* ![US Marine Corps War Memorial.](iwo_jima_memorial.jpg "US Marine Corps War Memorial.")
+* ![Netherlands Carillon.](netherlands_carillon.jpg "Netherlands Carillon.")
+  {.gallery}
 
 I was surprised to find the [US Marine Corps War Memorial][3] (better known as the Iwo Jima Memorial) situated outside of D.C., in Arlington, Virginia. Far larger than I was expecting too, this iconic sculpture by [Felix W. de Weldon][4] depicts the scene captured by photographer Joe Rosenthal in [Raising the Flag on Iwo Jima][5] that was taken during World War II.
 

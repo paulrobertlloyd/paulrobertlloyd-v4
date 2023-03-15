@@ -10,13 +10,8 @@ category:
   - Travel
   - Ottawa
   - Canada
-photoset:
-  - url: /articles/2011/12/ottawa/confederation_hall.jpg
-    alt: Confederation Hall
-  - url: /articles/2011/12/ottawa/senate.jpg
-    alt: Senate Room
 ---
-![](parliament.jpg 'Canadian parliament buildings in Ottawa.')
+![Canadian parliament buildings in Ottawa.](parliament.jpg 'Canadian parliament buildings in Ottawa.')
 {.align-bleed}
 
 After [four days in Washington][1], it was on to another North American capital, Ottawa.
@@ -31,20 +26,19 @@ With little time to explore the city, I started the day with a wonderful breakfa
 
 After breakfast, I headed to [Parliament Hill][3]. Looking to make comparisons between this and another Commonwealth legislature I’d toured [in Wellington][4] two years earlier, I heard a similar history of original buildings be destroyed by fire. The current complex — completed in 1927 — is split into three blocks (East, Centre and West) yet the distinguishing feature is the Peace Tower, built to commemorate those Canadians who had lost their lives during the First World War. The only surviving section of the original building is the [Library of Parliament][5]. Inside this circular building, an ornate room with a three story bookshelf surrounding a brilliant white statue of Queen Victoria. Impressive.
 
-{% render 'photos' with photoset
-  caption: 'There was plenty to admire inside the Canadian Parliament buildings.'
-  imagePreset: 'supporting'
-%}
+* ![Detail of vaulted ceilings in Confederation Hall.](confederation_hall.jpg "Confederation Hall.")
+* ![Inside the Senate Room.](senate.jpg "Senate Room.")
+  {.gallery}
 
 I was struck by the continued presence of monarchy and other holdovers from the country’s former dominion status, especially when compared to the Parliament in New Zealand. The lobby outside the Senate chamber is covered by a beautiful stained glass ceiling that includes references to England, Scotland and Wales — in addition to crests representing Canadian provinces and territories.
 
 ## Canadian Museum of Civilization
 
-![](cmc.jpg 'Outside the Canadian Museum of Civilization.')
+![Outside the Canadian Museum of Civilization.](cmc.jpg 'Outside the Canadian Museum of Civilization.')
 
 In the afternoon I crossed the river to visit the [Canadian Museum of Civilization][6]. The most interesting exhibits were to be found in Canada Hall, where I could explore Canada’s history from Viking settlers to the near present. Exploration was aided by full-scale replica rooms and buildings (my favourite being the ‘North Star’ print shop). The curved, layered exterior of the building fascinated me most; besides Parliament Hill, this is possibly the only building in Ottawa worthy of mention.
 
-![](occupy.jpg 'I found plenty of protests as you would expect in a capital city. There were even more in Confederation Park, where the Occupy movement had set up a small encampment. Occupy camps were to become a feature of this trip.')
+![A sign tied to a tree that reads ’FOR SALE: HEALTH CARE’.](occupy.jpg 'I found plenty of protests as you would expect in a capital city. There were even more in Confederation Park, where the Occupy movement had set up a small encampment. Occupy camps were to become a feature of this trip.')
 
 [1]: /2011/12/washington_dc
 [2]: http://bennersbnb.com/

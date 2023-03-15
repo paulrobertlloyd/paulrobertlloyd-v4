@@ -13,27 +13,6 @@ category:
   - Design
 tags:
   - source:a_list_apart
-photoset:
-  1:
-    - url: /articles/2012/09/the_web_aesthetic/bbc1_1974.png
-      alt: BBC ident from 1974
-    - url: /articles/2012/09/the_web_aesthetic/bbc1_1981.png
-      alt: BBC ident from 1981
-  2:
-    - url: /articles/2012/09/the_web_aesthetic/dconstructarchive_original.jpg
-      alt: Original speaker portrait image
-    - url: /articles/2012/09/the_web_aesthetic/dconstructarchive_optimised.jpg
-      alt: Optimized speaker portrait image
-  3:
-    - url: /articles/2012/09/the_web_aesthetic/dconstruct2012_original.jpg
-      alt: Original speaker portrait image
-    - url: /articles/2012/09/the_web_aesthetic/dconstruct2012_monochrome.png
-      alt: Optimized speaker portrait image
-  4:
-    - url: /articles/2012/09/the_web_aesthetic/bbc_news_simple.png
-      alt: Basic mobile experience
-    - url: /articles/2012/09/the_web_aesthetic/bbc_news_enhanced.png
-      alt: Enhanced mobile experience
 ---
 *This article is [also available in Italian][it-IT]{hreflang="it-IT" rel="alternate external"}*
 
@@ -69,10 +48,9 @@ Like the web, television is a medium where the access devices differ: Television
 
 This was especially true in the 1970s and early 1980s. Although programs were recorded in color, broadcasters still had to consider the large number of people who owned black-and-white sets. On-screen graphics needed to work on both types of screens, so designers used contrasting shapes and colors. For example, the idents for BBC1 used a yellow (and later, bright green) rotating globe on a dark blue field. The resulting design may have been garish, but it worked.
 
-{% render 'photos' with photoset.1
-  caption: 'BBC1 idents from 1974 and 1981.'
-  imagePreset: 'thumbnail'
-%}
+* ![BBC ident from 1974.](bbc1_1974.png "BBC ident from 1974.")
+* ![BBC ident from 1981.](bbc1_1981.png "BBC ident from 1981.")
+  {.gallery}
 
 Television is facing another period of transition, this time toward a high-definition widescreen format. Because many viewers own standard-definition 4:3 televisions, designers again need to compromise, working within a “safe area” to ensure graphics don’t get cropped on older sets. As such, graphics on widescreen televisions tend to float in the middle of the screen, not yet able to make use of the full width.
 
@@ -108,10 +86,9 @@ Rather than generating differently sized images and determining which should be 
 
 The [dConstruct Archive][6] is a small site where people can listen to talks given at previous dConstruct conferences. Here, background detail around the face of each speaker has been blurred out, generating images with fewer compression artifacts and therefore smaller file sizes. This technique works especially well for portraits, as humans tend to focus on facial features anyway.
 
-{% render 'photos' with photoset.2
-  caption: 'Original image: 9kb. Optimized image: 4kb.'
-  imagePreset: 'thumbnail'
-%}
+* ![Original speaker portrait image: 9kb.](dconstructarchive_original.jpg "Original image: 9kb.")
+* ![Optimized speaker portrait image: 4kb.](dconstructarchive_optimised.jpg "Original image: 4kb.")
+  {.gallery}
 
 To work out which image sizes to use, the smallest and largest displays were taken into account. We can already see a failing in current responsive image proposals. If you visit this site, you will notice that larger viewports sometimes display smaller images, because the size of the image required is often dependent on the size of its containing block, *not* the size of the viewport. Yet viewport is the value the proposed standards would have us query.
 
@@ -121,10 +98,9 @@ If images with fewer colors and higher levels of compression can deliver smaller
 
 With a theme of “playing with the future,” the [dConstruct 2012][7] conference site employed a highly typographic design that featured monochrome images with areas of flat color. This design decision meant images could be really small, some needing as few as eight colors:
 
-{% render 'photos' with photoset.3
-  caption: 'Original image: 14kb. Optimized image: 11kb.'
-  imagePreset: 'thumbnail'
-%}
+* ![Original speaker portrait image: 14kb.](dconstruct2012_original.jpg "Original image: 14kb.")
+* ![Optimized speaker portrait image: 11kb.](dconstruct2012_monochrome.png "Optimized image: 11kb.")
+  {.gallery}
 
 As we saw in the television example, the constraints of a medium can impact the resulting aesthetic. In that case, should images with fewer colors or blurred backgrounds — and perhaps even noticeable compression artifacts — become an accepted norm on the web? Surely the popularity of services like Instagram (itself a product born of constraints) has proven that [photography is judged by its content][8], not by its resolution.
 
@@ -138,10 +114,9 @@ Rather than increasing the *resolution* of images as sites scale up, we can thin
 
 When accessed on more powerful devices like newer smartphones, tablets, and desktop computers (those that can “[cut the mustard][10]”), an image is displayed for each story. These images have been deemed “nice to have” — enhancements to the core experience that are conditionally requested after the basic page has loaded.
 
-{% render 'photos' with photoset.4
-  caption: 'Simple and enhanced experiences for the BBC News mobile site'
-  imagePreset: 'thumbnail'
-%}
+* ![BBC News mobile with simple interface.](bbc_news_simple.png "Basic experience.")
+* ![BBC News mobile with enhanced interface.](bbc_news_enhanced.png "Enhanced experience.")
+  {.gallery}
 
 Progressive enhancement has long featured in the developer’s toolbox, but it should now feature throughout the design process. By thinking about websites in less binary terms (desktop versus mobile; IE6 versus “modern” browsers), we can create experiences that adapt to the diverse landscape of the web.
 

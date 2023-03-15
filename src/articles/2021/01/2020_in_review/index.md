@@ -15,17 +15,6 @@ tags:
   - featured
 syndication:
   - http://web.archive.org/web/20210103191629/https://paulrobertlloyd.com/2021/01/2020_in_review/
-photoset:
-  1:
-    - url: /media/1582756201.jpg
-      alt: Mocking Sam’s appearance in the New York Times with Mario and Chris.
-    - url: /articles/2021/01/2020_in_review/post_karaoke.jpg
-      alt: Post karaoke, pre street sing-off with Matt, Duncan, Matilde and Sarah.
-  2:
-    - url: /articles/2021/01/2020_in_review/rob.jpg
-      alt: Rob bringing me a birthday cake.
-    - url: /articles/2021/01/2020_in_review/jon_and_me.jpg
-      alt: Biking with Jon.
 ---
 I’m not sure why I recap some years and not others, but if any year needs recording, it is 2020. With a worsening climate, global pandemic and collapsing economy, [Cennydd was right to point out][1] that this was the year that the future began making good on its threats.
 
@@ -121,21 +110,17 @@ Once I was happy with these changes, [attention returned to Indiekit][27]. After
 
 Relaxed restrictions over the summer meant more time could be spent outside — and beyond the realms of Brighton. Getting on a train to London one evening in July was [remarkable in its own right][29], but so was seeing people from work in person for the first time in over 3 months. We met up a few more times after that, our last evening together finishing with a street-based sing-off with a Bulgarian folk choir. Watching Matt and Sarah ‘collaborate’ with them on a performance of <cite>Gold Digga</cite> — I honestly felt like I was in [a movie][30].
 
-{% render 'photos' with photoset.1
-  caption: 'First and last nights out of the year. Left: With Chris and Mario [in Feburary](/photos/1582756200/).\nRight: With Matt, Duncan, Matilde and Sarah in October.',
-  alignment: 'bleed',
-  imagePreset: 'supporting'
-%}
+* ![Mocking Sam’s appearance in the New York Times with Mario and Chris.](/media/1582756201.jpg "Mocking Sam’s appearance in the New York Times with Mario and Chris.")
+* ![Post karaoke, pre street sing-off with Matt, Duncan, Matilde and Sarah.](post_karaoke.jpg "Post karaoke, pre street sing-off with Matt, Duncan, Matilde and Sarah.")
+  {.gallery}
 
 To celebrate my 40th, Jon suggested we go bikepacking. I’d never heard of this form of adventuring, but [the website][31] whetted my appetite. I got my bike serviced and bought a one-person tent (the [Big Agnes Copper Spur][32], which collapses down to the size of a wine bottle, is now one of my favourite possessions). A few days away from it all, in the company of one of my oldest friends, was [a wonderful way to celebrate this milestone][33]. Now that I have all the gear (and at least some idea), this is an activity I hope to repeat.
 
 2020 turned out to be a great year for friendships, both old and new. I was touched that people went out of their way to check in on me, particularly [Ben][34] and [Rob][35]; Friday evenings during the first months of lockdown were often spent drinking a beer and catching up with somebody over Zoom.
 
-{% render 'photos' with photoset.2
-  caption: 'Left: Rob bringing me a cake for my birthday in August.\nRight: A break from cycling around the New Forest with Jon in September.',
-  alignment: 'bleed',
-  imagePreset: 'supporting'
-%}
+* ![Rob bringing me a birthday cake.](rob.jpg "Rob bringing me a cake for my birthday in August.")
+* ![Biking with Jon.](jon_and_me.jpg "A break from cycling around the New Forest with Jon in September.")
+  {.gallery}
 
 Dating was more difficult than usual but I did end up forging a friendship with (another) Laura. Virtually meeting every Wednesday evening to watch a film together, huge gaps in my cinema knowledge are slowly being filled. Going through a selection of films from each decade, I discovered a fondness for those from the 1950s, or perhaps the films of Alfred Hitchcock, the two seem almost synonymous. Roberto Benigni’s 1997 film <cite>Life is Beautiful</cite> affected me the most, a strangely uplifting film given it’s setting in a Nazi concentration camp.
 

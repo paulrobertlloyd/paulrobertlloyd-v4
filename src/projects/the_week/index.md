@@ -10,11 +10,6 @@ category:
 tags:
   - featured
 accent_color: '#b00'
-photoset:
-  - url: /projects/the_week/photo_empathy_map.jpg
-    alt: Empathy map created during the workshop
-  - url: /projects/the_week/photo_workshop_sketches.jpg
-    alt: Four sketches from the workshop
 ---
 * ![Cover screen.](screenshot_cover.png){.screenshot}
 * ![Screen showing the first page of the featured news story.](screenshot_story.png){.screenshot}
@@ -28,10 +23,9 @@ Part of this success can be attributed to its rigorously consistent editorial fo
 
 A highly iterative approach saw the design evolve over the course of the project. Starting with paper sketches before creating quick, low-fidelity click-through prototypes in Keynote. Throughout this process, we used real content from the magazine to ensure our design would meant the demands of the content it would need to deliver. By forming a close working relationship with key stakeholders across the business - including both commercial and editorial teams – meant we were able to take into account differing requirements and manage expectations.
 
-{% render 'photos' with photoset
-  caption: 'Output from our workshop with key stakeholders included empathy maps for key users, and sketched ideas for important sections of the magazine.'
-  imagePreset: 'supporting'
-%}
+* ![Empathy map created during the workshop.](photo_empathy_map.jpg)
+* ![Four sketches from the workshop.](photo_workshop_sketches.jpg)
+  {.gallery}
 
 ## Creating a page turner
 

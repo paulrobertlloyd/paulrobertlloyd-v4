@@ -12,11 +12,6 @@ category:
   - Travel
   - Europe
   - The Netherlands
-photoset:
-  - url: /articles/2015/06/rotterdam/kpn_tower.jpg
-    alt: KPN Tower
-  - url: /articles/2015/06/rotterdam/de_rotterdam.jpg
-    alt: De Rotterdam
 ---
 ![](centraal_station.jpg 'Rotterdam Centraal Station.')
 {.align-bleed}
@@ -31,11 +26,9 @@ The near-complete destruction of Rotterdam after the Nazi bombing raid of 14 May
 
 Skyscrapers are a familiar sight in Rotterdam. This is especially true of the newly regenerated Kop van Zuid district, which has some similarities with London’s Docklands. Although much smaller, this district is already home to the work of architects like Renzo Piano, Sir Norman Foster and Rem Koolhaas.
 
-{% render 'photos' with photoset
-  caption: 'Details of KPN Tower and De Rotterdam buildings in the Kop van Zuid district.'
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Details of KPN Tower.](kpn_tower.jpg "KPN Tower.")
+* ![Looking up at De Rotterdam.](de_rotterdam.jpg "De Rotterdam.")
+  {.gallery}
 
 Buildings here include [Maastoren][4], the tallest building in the Benelux region, and [De Rotterdam][5], whose four substantial towers, each offset half way up, combine to form the most densely built part of the Netherlands. The area is joined to the city by the [Erasmusbrug][6], a landmark nicknamed the Swan due the design of its asymmetric white pylon.
 

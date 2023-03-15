@@ -11,11 +11,8 @@ photo:
 category:
   - Photography
   - New Years
-photoset:
-  - url: /articles/2009/01/day_one/cannock_chase_3.jpg
-  - url: /articles/2009/01/day_one/cannock_chase_4.jpg
 ---
-![](cannock_chase_1.jpg 'Cannock Chase German Military Cemetery.')
+![Rows of grave stones in a rolling frost covered garden.](cannock_chase_1.jpg 'Cannock Chase German Military Cemetery.')
 {.align-bleed}
 
 Perhaps one of the most enjoyable aspects of 2008, was listening to [the Adam & Joe show][1] on BBC 6 Music. During their ‘inter-festive’ show, Joe asked guest [Garth Jennings][2] how he likes to spend New Year’s Eve, to which he replied:
@@ -26,14 +23,12 @@ This sounded right up my street, so shortly after midnight I headed straight to 
 
 I haven’t spent nearly enough time in this *Area of Outstanding Natural Beauty*, especially when you consider it’s close proximity to my parents home in Walsall. Of course in the early January frost, the landscape was just incredible. With the crisp ground crunching beneath my feet, and clean fresh air filling my lungs, I couldn’t have asked for a better start to 2009.
 
-![](cannock_chase_2.jpg 'Frost over Cannock Chase.')
+![Frost-covered trees barely noticeable against a grey sky and frosty ground.](cannock_chase_2.jpg "Frost over Cannock Chase.")
 {.align-bleed}
 
-{% render 'photos' with photoset
-  caption: 'Paths through frost-tinged woods.'
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+- ![Green and yellow heather below frost-covered trees.](cannock_chase_3.jpg "Green and yellow heather below frost-covered trees.")
+- ![A path stretches into a distance towards woodland.](cannock_chase_4.jpg "A path stretches into a distance towards woodland.")
+  {.align-bleed .gallery}
 
 This way of celebrating the arrival of a new year actually seems far more appropriate than getting drunk and starting it with a hang over. To spend the first few hours exploring a little piece of the English countryside felt like a real treat, and for that reason, I think a new yearly tradition has been born.
 

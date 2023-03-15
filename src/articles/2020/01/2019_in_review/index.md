@@ -13,13 +13,6 @@ category:
   - Review of the year
 tags:
   - featured
-photoset:
-  - url: /articles/2020/01/2019_in_review/museum_of_the_moon.jpg
-    alt: Museum of the Moon in Queens Park, Brighton.
-  - url: /articles/2020/01/2019_in_review/antony_gormley.jpg
-    alt: Antony Gormley exhibition at the Royal Academy.
-  - url: /articles/2020/01/2019_in_review/olafur_eliasson.jpg
-    alt: Olafur Eliasson exhibition at Tate Modern in November.
 ---
 2019 began as 2018 ended; fatigued by freelancing and fed up with an increasingly inward-looking industry. A half-hearted search for work continued, but with little urgency and a stringent set of criteria that limited my options.
 
@@ -65,15 +58,14 @@ When not working, travelling or sleeping, I was building [IndieKit][11], the Mic
 
 As I resist the urge to delete all the code and start again, it’s gratifying to see how far I’ve come. At the start of the decade the thought of writing any JavaScript terrified me, yet it ended with me having built something others are not only interested in, but in a few cases, actively using.
 
-{% render 'photos' with photoset
-  caption: 'A few cultural highlights from the year: Museum of the Moon in Queens Park, Brighton in May (left), Antony Gormley at the Royal Academy in October (middle) and the Olafur Eliasson exhibition at Tate Modern in November (right).'
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+* ![Museum of the Moon in Queens Park, Brighton.](museum_of_the_moon.jpg "A few cultural highlights from the year: Museum of the Moon in Brighton’s Queens Park in May…")
+* ![Antony Gormley exhibition at the Royal Academy.](antony_gormley.jpg "…Antony Gormley at the Royal Academy in October…")
+* ![Olafur Eliasson exhibition at Tate Modern in November.](olafur_eliasson.jpg "…and the Olafur Eliasson exhibition at Tate Modern in November.")
+  {.gallery}
 
 ## Losing my voice?
 
-Right now, thoughts of the future seem futile; it’s hard to look forward with any great deal of hope or optimism when the far-right is in ascendence, the planet is literally on fire, and another destabilising war in the Middle East is on the horizon. Brexit is a sideshow.
+Right now, thoughts of the future seem futile; it’s hard to look forward with any great deal of hope or optimism when the far-right is in ascendance, the planet is literally on fire, and another destabilising war in the Middle East is on the horizon. Brexit is a sideshow.
 
 As I reflect on the year gone by, one of enjoyment at work and distractions at home, I wonder if my contentment came at the cost of inaction and silence.
 

@@ -12,15 +12,6 @@ category:
   - Design
   - Identity
   - Olympics
-photoset:
-  - url: /articles/2016/08/flags/florianopolis_1.jpg
-    alt: Resident waving a blue flag
-  - url: /articles/2016/08/flags/florianopolis_2.jpg
-    alt: Resident waving a green flag
-  - url: /articles/2016/08/flags/florianopolis_3.jpg
-    alt: Resident waving a pink flag
-  - url: /articles/2016/08/flags/florianopolis_4.jpg
-    alt: Resident holding an orange flag
 ---
 ![](golden_wattle_1.jpg 'An athlete holding up the Golden Wattle Flag. Photograph: [The Golden Wattle Flag](http://www.goldenwattleflag.com)')
 {.align-bleed}
@@ -76,11 +67,11 @@ During her talk about graphic empowerment, she spoke about collaborating with ar
 
 > As graphic designers we always use clear images and colours and bring back chaotic information into a clear symbol which is a starting point. From there we communicate through diverse media. In this instance the flag is the medium.
 
-{% render 'photos' with photoset
-  caption: 'Residents photographed holding flags outside their respective buildings.'
-  alignment: 'bleed'
-  imagePreset: 'thumbnail'
-%}
+* ![Resident waving a blue flag.](florianopolis_1.jpg)
+* ![Resident waving a green flag.](florianopolis_2.jpg)
+* ![Resident waving a pink flag.](florianopolis_3.jpg)
+* ![Resident holding an orange flag.](florianopolis_4.jpg)
+  {.gallery}
 
 You can read more about this project over at [Dezeen magazine][15]. Looking for more flags? [Flag Stories][16] has you covered. Flags.
 

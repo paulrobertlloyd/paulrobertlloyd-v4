@@ -9,31 +9,6 @@ category:
   - Clearleft
   - Drawing
   - Freelancing
-photoset:
-  - url: /articles/2015/04/100_days/1.jpg
-    alt: New bus for London
-  - url: /articles/2015/04/100_days/2.jpg
-    alt: Plug
-  - url: /articles/2015/04/100_days/3.jpg
-    alt: ITV Digital monkey
-  - url: /articles/2015/04/100_days/4.jpg
-    alt: House keys
-  - url: /articles/2015/04/100_days/5.jpg
-    alt: Glass
-  - url: /articles/2015/04/100_days/6.jpg
-    alt: Wallet
-  - url: /articles/2015/04/100_days/7.jpg
-    alt: Running shoe
-  - url: /articles/2015/04/100_days/8.jpg
-    alt: Lego TV van
-  - url: /articles/2015/04/100_days/9.jpg
-    alt: Fish and chips
-  - url: /articles/2015/04/100_days/10.jpg
-    alt: Television remote
-  - url: /articles/2015/04/100_days/11.jpg
-    alt: Petrified wood
-  - url: /articles/2015/04/100_days/12.jpg
-    alt: Apple power brick
 ---
 Although Clearleft was first on the list of companies I’d like to freelance for, I was hesitant about having them be my first client, as it might throw into question [why I left in the first place][1]. Thankfully doing so has actually validated my decision to spend [14 months at the Guardian][2]; I’ve been surprised by just how often that experience has enabled me to contribute more meaningfully to our work with [John Lewis][3].
 
@@ -41,11 +16,19 @@ I also returned to 68 Middle Street in time for the start of *[100 days][4]*, a 
 
 For my design operation, I’ve chosen to create a single-line drawing each day, a simple constraint that should help me produce a coherent body of work yet also allow a degree of flexibility as I progress.
 
-{% render 'photos' with photoset
-  caption: 'Drawings from days 1 to 12.'
-  columns: 4
-  imagePreset: 'thumbnail'
-%}
+* ![New bus for London.](1.jpg)
+* ![Plug.](2.jpg)
+* ![ITV Digital monkey.](3.jpg)
+* ![House keys.](4.jpg)
+* ![Glass.](5.jpg)
+* ![Wallet.](6.jpg)
+* ![Running shoe.](7.jpg)
+* ![Lego TV van.](8.jpg)
+* ![Fish and chips.](9.jpg)
+* ![Television remote.](10.jpg)
+* ![Petrified wood.](11.jpg)
+* ![Apple power brick.](12.jpg)
+  {.gallery}
 
 12 days in, and I’m still enjoying the challenge, mainly as I’ve yet to fully master it. Illustrations have ranged from minimalist to expressive; some are quite detailed, others look more like deranged scribbles! I used to draw quite regularly as a child, but as graphic design drew me ever closer to the computer screen, the habit receded. It’ll be interesting to see if this project reverses that trend.
 

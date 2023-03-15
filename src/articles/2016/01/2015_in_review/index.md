@@ -8,13 +8,6 @@ summary: I wasn’t going to write about 2015, but reading a few end-of-year rev
 category:
   - Personal
   - Review of the year
-photoset:
-  - url: /articles/2016/01/2015_in_review/berlin.jpg
-    alt: Fernsehturm in Berlin
-  - url: /articles/2016/01/2015_in_review/amsterdam.jpg
-    alt: A’DAM in Amsterdam
-  - url: /articles/2016/01/2015_in_review/rotterdam.jpg
-    alt: Cube Houses in Rotterdam
 ---
 I wasn’t going to write about 2015, but reading a few end-of-year reviews has encouraged me to attempt the same, so here goes…
 
@@ -33,14 +26,19 @@ Between all this, I could be found hunched over my laptop in various coffee shop
 
 Oh, and [I launched my redesigned website][32]. Finally.
 
-{% render 'photos' with photoset
-  caption: 'Several trips around Europe allowed me to indulge in my love of architecture, notably the *Fernsehturm*{lang="de"} in Berlin, A’DAM (previously Toren Overhoeks) in Amsterdam and the Cube Houses in Rotterdam…'
-  alignment: 'bleed'
-  imagePreset: 'supporting'
-%}
+---
 
-![](bruges.jpg '…and the stunningly beautiful Belgium city of Bruges.')
+My trips around Europe allowed me to indulge in my love of architecture, notably the *Fernsehturm*{lang="de"} in Berlin, A’DAM (previously Toren Overhoeks) in Amsterdam and the Cube Houses in Rotterdam as well as the stunningly beautiful Belgium city of Bruges.
+
+* ![Fernsehturm in Berlin](berlin.jpg)
+* ![A’DAM in Amsterdam](amsterdam.jpg)
+* ![Cube Houses in Rotterdam](rotterdam.jpg)
+  {.align-bleed .gallery}
+
+![A small stone-made bridge in Bruges.](bruges.jpg)
 {.align-bleed}
+
+---
 
 So onwards, and on to 2016. Work wise, I’ve identified two improvements that need instigating. Firstly, I need to make better use of any periods of downtime, or better still, be in a position to dictate when they occur. I also want to work on projects that are more creatively rewarding. My ideal project would be 3-6 months long, possibly involve working in Europe, and have a positive social impact. I need to try much harder to seek out work that meets this criteria.
 
