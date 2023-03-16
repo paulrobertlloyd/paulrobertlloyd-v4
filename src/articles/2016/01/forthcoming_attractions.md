@@ -35,7 +35,7 @@ The London Transport Museum is marking the 100th anniversary of Edward Johnston�
 
 * **London’s First Fonts** — designers Catherine Dixon and Phil Bains explore the importance of lettering, and discuss the impact of Johnston’s typeface on the look and feel of London travel.
 
-* **New Johnston: New font** — In 1979, Japanese graphic designer Eiichi Kono was given the job of updating Johnston. Eiichi talks to journalist Simon Garfield, author of <cite>Just my type</cite>, and Professor Ewan Clayton, author of <cite>The Golden Thread</cite>, about how he adapted London’s famous alphabet for the digital age.
+* **New Johnston: New font** — In 1979, Japanese graphic designer Eiichi Kono was given the job of updating Johnston. Eiichi talks to journalist Simon Garfield, author of ""Just my type"", and Professor Ewan Clayton, author of ""The Golden Thread"", about how he adapted London’s famous alphabet for the digital age.
 
 ## [HTML Special & CSS Day][10]
 

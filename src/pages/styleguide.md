@@ -27,7 +27,7 @@ All paragraphs are wrapped in `p` tags.
 
 ### Horizontal rule
 
-The `hr` element represents a paragraph-level thematic break, e.g. a scene change in a story, or a transition to another topic within a section of a reference book. The following extract from <cite>Pandora’s Star</cite> by Peter F. Hamilton shows two paragraphs that precede a scene change and the paragraph that follows it:
+The `hr` element represents a paragraph-level thematic break, e.g. a scene change in a story, or a transition to another topic within a section of a reference book. The following extract from ""Pandora’s Star"" by Peter F. Hamilton shows two paragraphs that precede a scene change and the paragraph that follows it:
 
 Dudley was ninety-two, in his second life, and fast approaching time for another rejuvenation. Despite his body having the physical age of a standard fifty-year-old, the prospect of a long degrading campaign within academia was one he regarded with dread. For a supposedly advanced civilization, the Intersolar Commonwealth could be appallingly backward at times, not to mention cruel.
 
@@ -61,7 +61,7 @@ The `blockquote` element represents a section that is being quoted from another 
 If you wish to add a citation, enclose it within a `<figure>` tag:
 
 > Many forms of Government have been tried, and will be tried in this world of sin and woe. No one pretends that democracy is perfect or all-wise. Indeed, it has been said that democracy is the worst form of government except all those other forms that have been tried from time to time.
-— Winston Churchill, in <cite>[a speech to the House of Commons](https://hansard.parliament.uk/Commons/1947-11-11/debates/ab1e1152-6b4a-4d04-ac38-954df6634b08/ParliamentBill#207)</cite>. 11th November 1947
+— Winston Churchill, in [""a speech to the House of Commons""](https://hansard.parliament.uk/Commons/1947-11-11/debates/ab1e1152-6b4a-4d04-ac38-954df6634b08/ParliamentBill#207). 11th November 1947
 
 ### Ordered list
 
@@ -161,7 +161,7 @@ The `s` element is used to represent content that is no longer accurate or relev
 
 The `cite` element is used to represent the title of a work (e.g. a book, essay, poem, song, film, TV show, sculpture, painting, musical, exhibition, etc). This can be a work that is being quoted or referenced in detail (i.e. a citation), or it can just be a work that is mentioned in passing. Example:
 
-<cite>Universal Declaration of Human Rights</cite>, United Nations, December 1948. Adopted by General Assembly resolution 217 A (III).
+""Universal Declaration of Human Rights"", United Nations, December 1948. Adopted by General Assembly resolution 217 A (III).
 
 ### Inline quotes
 

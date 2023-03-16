@@ -11,7 +11,7 @@ category:
 ---
 For this month’s [net magazine][1], Martin Cooper asked me to provide some thoughts on this question prompted by a recent exchange between Jeff Croft and Jeffrey Zeldman.
 
-In <cite>[Web Standards Killed the HTML Star][2]</cite> Croft suggested that given the maturity of browsers, specialising in HTML and CSS is a skillset with decreasing value. In <cite>[It’s 2014. Is Web Design Dead?][3]</cite> Zeldman reiterated that even in the face of improved standards support, the complexity of the web never really goes away, and that we still need to share best practices and remind each other why they exist.
+In [""Web Standards Killed the HTML Star""][2] Croft suggested that given the maturity of browsers, specialising in HTML and CSS is a skillset with decreasing value. In [""It’s 2014. Is Web Design Dead?""][3] Zeldman reiterated that even in the face of improved standards support, the complexity of the web never really goes away, and that we still need to share best practices and remind each other why they exist.
 
 Generalise or specialise, this is one of those pointless debates that re-surfaces every six months that is ultimately concerned with job titles… and I’m boring myself just writing about it…
 

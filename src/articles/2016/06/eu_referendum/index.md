@@ -15,7 +15,7 @@ category:
 tags:
   - featured
 ---
-![](image.jpg 'Pastiche of Michelangelo’s <cite>The Creation of Adam</cite>, a modern reworking inspired by the same exercise I carried out twenty years ago.')
+![](image.jpg 'Pastiche of Michelangelo’s ""The Creation of Adam"", a modern reworking inspired by the same exercise I carried out twenty years ago.')
 {.align-bleed}
 
 Tomorrow is the referendum on Britain’s membership of the European Union. I’ve wanted to write about this for some time, but I’ve delayed and delayed in the hope I could offer a tidy summary and clear reasoning behind my decision to remain.
@@ -28,7 +28,7 @@ Writing anything about the referendum feels so contentious, that I feel an immen
 
 Born 35 years ago to a middle-income family (dad a telecom engineer, mum a dinner lady), I grew up on a new housing estate in suburban Surrey. Idyllic maybe, average certainly, although less so when aged 13, my family moved to the West Midlands. Quite a contrast, and the first of many relocations that would offer a new perspective.
 
-A comfortable upbringing meant I had little reason to disbelieve the contents of the Daily Mail, the newspaper my parents read at the time. While I don’t recall being an avid reader, its editorial must have had some effect: asked to create a pastiche of a famous painting for a GCSE art project, I reworked Michelangelo’s <cite>[The Creation of Adam][2]</cite> to show [Britain figuratively holding back the forces of Europe][3].
+A comfortable upbringing meant I had little reason to disbelieve the contents of the Daily Mail, the newspaper my parents read at the time. While I don’t recall being an avid reader, its editorial must have had some effect: asked to create a pastiche of a famous painting for a GCSE art project, I reworked Michelangelo’s [""The Creation of Adam""][2] to show [Britain figuratively holding back the forces of Europe][3].
 
 Two decades on, I find this work embarrassing, yet it serves as a reminder of the political journey I’ve been on since. Its leftwards shift can be traced back to [the short period I lived in the United States][4]: working abroad, and alongside a mix of nationalities, broadened my world view significantly.
 

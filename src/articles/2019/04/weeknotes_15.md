@@ -27,11 +27,11 @@ Easter always has a habit of creeping up on me, and again I was without a plan f
 
 * * *
 
-Having watched <cite>[In Bruges][10]</cite> in Bruges, and Groundhog Day inspired series <cite>[Russian Doll][11]</cite> on Groundhog Day, on Good Friday I watched <cite>[The Long Good Friday][12]</cite>. Featuring a host of familiar British actors, not least [Derek ‘Charlie from Casualty’ Thompson][13] in a supporting role, I lapped up every moment of this gangster film. Its plot – with references to Britain’s membership of the EEC and Irish terrorism – remains remarkably contemporary. [The penultimate scene][14] is especially on point.
+Having watched [""In Bruges""][10] in Bruges, and Groundhog Day inspired series [""Russian Doll""][11] on Groundhog Day, on Good Friday I watched [""The Long Good Friday""][12]. Featuring a host of familiar British actors, not least [Derek ‘Charlie from Casualty’ Thompson][13] in a supporting role, I lapped up every moment of this gangster film. Its plot – with references to Britain’s membership of the EEC and Irish terrorism – remains remarkably contemporary. [The penultimate scene][14] is especially on point.
 
-I also streamed <cite>[After Life][15]</cite>. Having listened to Chris and Rifa talk about the series on their excellent <cite>[Refigure][16]</cite> podcast, I found myself in a position similar to Chris, expecting to hate it. But, aside from its chocolate-box depiction of England and a few overly saccharine moments, I came to the conclusion that this might be Gervais’ finest work since <cite>[The Office][17]</cite>. As vehicles for his opinions go, it’s surprisingly thoughtful.
+I also streamed [""After Life""][15]"". Having listened to Chris and Rifa talk about the series on their excellent [Refigure][16] podcast, I found myself in a position similar to Chris, expecting to hate it. But, aside from its chocolate-box depiction of England and a few overly saccharine moments, I came to the conclusion that this might be Gervais’ finest work since [""The Office""][17]. As vehicles for his opinions go, it’s surprisingly thoughtful.
 
-Just after I published my previous note last Sunday, I sat down to watch <cite>[Bros: After the Screaming Stops][18]</cite>. Described as “[<cite>Spinal Tap</cite> by way of Smash Hits][19]”, the unintentional hilarity of this documentary was just the tonic; the perfect means of expunging the malignant melancholy of Margate.
+Just after I published my previous note last Sunday, I sat down to watch [""Bros: After the Screaming Stops""][18]. Described as “[""Spinal Tap"" by way of Smash Hits][19]”, the unintentional hilarity of this documentary was just the tonic; the perfect means of expunging the malignant melancholy of Margate.
 
 [1]: /2018/08/tyne_deck
 [2]: https://www.theguardian.com/politics/2019/apr/16/uk-parliament-could-suffer-same-fate-as-notre-dame-warn-mps

@@ -21,7 +21,7 @@ Having enjoyed the Edinburgh Fringe when I attended for the first time last Augu
 ![Photo of Andy Parsons.](andy_parsons.jpg)
 {.align-pull}
 
-I think I was interested in seeing [Andy Parsons][1] more due a friends impression than his own appearances on <cite>Mock The Week</cite>. As a regular on this weekly satirical panel show, maybe I shouldn’t have been surprised that much of his comedy was politically themed. Whilst Parsons was well informed, he seemed unwilling to dive too deep into any particular topic. An oft-hand remark that people may think this was boring may have revealed why, but I would love to have heard more satire and less about his finding a pair of pants in a jar of mayonnaise.
+I think I was interested in seeing [Andy Parsons][1] more due a friends impression than his own appearances on ""Mock The Week"". As a regular on this weekly satirical panel show, maybe I shouldn’t have been surprised that much of his comedy was politically themed. Whilst Parsons was well informed, he seemed unwilling to dive too deep into any particular topic. An oft-hand remark that people may think this was boring may have revealed why, but I would love to have heard more satire and less about his finding a pair of pants in a jar of mayonnaise.
 
 A perfectly entertaining evening but after seeing other acts, his felt weak in comparison.
 
@@ -36,7 +36,7 @@ A perfectly entertaining evening but after seeing other acts, his felt weak in c
 
 The only musical performance I heard was this set of songs based on and inspired by the writings of A.A. Milne sung by [Chris T-T][2] (the husband of Clearleft’s new project manager, [Rifa][3]).
 
-An unamplified performance in a small intimate cellar bar gave the show a degree of exclusivity. Chris’s songs were short and sweet, and reminded me a little of the work of Nizlopi (and in particular <cite>JCB Song</cite>). The songs of A.A. Milne would pull at anyones heartstrings, but even Chris’ own songs performed halfway through the set drew you into another mystical world. An accompanying story about a spiritual-like experience had whilst sat on the hard shoulder of the M1 cemented the magic.
+An unamplified performance in a small intimate cellar bar gave the show a degree of exclusivity. Chris’s songs were short and sweet, and reminded me a little of the work of Nizlopi (and in particular ""JCB Song""). The songs of A.A. Milne would pull at anyones heartstrings, but even Chris’ own songs performed halfway through the set drew you into another mystical world. An accompanying story about a spiritual-like experience had whilst sat on the hard shoulder of the M1 cemented the magic.
 
 This show reminded me that I should broaden my selection when looking for things to see at the Fringe — and that sometimes the best stuff is completely free.
 
@@ -64,7 +64,7 @@ I still preferred Sammy J’s performance, but saw enough to buy a ticket for Ra
 ![Photo of Richard Herring.](richard_herring.jpg)
 {.align-pull}
 
-I remember watching [Richard Herring][5] and Stewart Lee on <cite>Fist of Fun</cite> and <cite>TMWRNJ</cite> in the mid-nineties, and then mourning their passing from mainstream television. Yet I never seemed to progress on to their live work. After a recommendation on Twitter, I decided to see Herring’s latest show in which he “seeks to destroy love before it destroys him”.
+I remember watching [Richard Herring][5] and Stewart Lee on ""Fist of Fun"" and ""TMWRNJ"" in the mid-nineties, and then mourning their passing from mainstream television. Yet I never seemed to progress on to their live work. After a recommendation on Twitter, I decided to see Herring’s latest show in which he “seeks to destroy love before it destroys him”.
 
 Herring’s fast paced delivery means you get more laughs for your money. This show revolved around his observations regrading love, an amorphous concept for which most of us believe in as others do a God. Sharing his own experiences and reciting poetry written in his youth ensured a self-deprecating performance like no other.
 
@@ -79,13 +79,13 @@ Herring sets out to destroy love, but by the end of the show he has probably rei
 ![Photo of Adam Buxton.](adam_buxton.jpg)
 {.align-pull}
 
-It was only on learning that [Adam Buxton][6] was bringing his sold-out <cite>BUG</cite> show to Edinburgh that I committed to buying tickets for this years festival. With expectations massively heightened, I was secretly preparing for disappointment. Instead I came away overjoyed and with a list of links and YouTube clips to watch again and share with friends.
+It was only on learning that [Adam Buxton][6] was bringing his sold-out ""BUG"" show to Edinburgh that I committed to buying tickets for this years festival. With expectations massively heightened, I was secretly preparing for disappointment. Instead I came away overjoyed and with a list of links and YouTube clips to watch again and share with friends.
 
-Not strictly a stand-up show, <cite>BUG</cite> (which is usually held at the BFI on London’s Southbank) is an event that celebrates the art of the music video. Buxton suggests the show is more like going to your mates house “where he gets out his laptop and starts showing you things”. It certainly felt like a show being enjoyed with friends, with fans of his and Joe Cornish’s BBC 6music radio show clearly in attendance.
+Not strictly a stand-up show, ""BUG"" (which is usually held at the BFI on London’s Southbank) is an event that celebrates the art of the music video. Buxton suggests the show is more like going to your mates house “where he gets out his laptop and starts showing you things”. It certainly felt like a show being enjoyed with friends, with fans of his and Joe Cornish’s BBC 6music radio show clearly in attendance.
 
 Such fandom was encouraged, with plenty of his catchphrases and characters making an appearance, including an all too brief visit from Boggins! Yes, at times it felt like a children’s show, but all the kids left happy, including myself.
 
-For 90-minutes we were truly spoiled, even more so thanks to Adam’s set pieces; his interpretation of Grace Jones’ <cite>Pull Up to the Bumper</cite> being especially memorable. I just hope I can find tickets to see another edition of this show.
+For 90-minutes we were truly spoiled, even more so thanks to Adam’s set pieces; his interpretation of Grace Jones’ ""Pull Up to the Bumper"" being especially memorable. I just hope I can find tickets to see another edition of this show.
 
 ## Sunday
 
@@ -134,7 +134,7 @@ Afterwards I wondered if I would have enjoyed the performance had there been no 
 
 {% render 'rating' with 2 %}
 
-The final show I attended was <cite>Best of the Fest</cite>. Beginning at midnight, the hour before brought with it a sense of anti-climax, as many of the outdoor areas had been vacated due to the heavy rain. The performers showcased at this event were fairly mediocre, and the MC, [Andrew Maxwell][10] relied on cursing and drug references more than seemed necessary. I did get to see [David O'Doherty][11] perform [<cite>Beefs 2011</cite>][12] live though, so it wasn’t all bad.
+The final show I attended was ""Best of the Fest"". Beginning at midnight, the hour before brought with it a sense of anti-climax, as many of the outdoor areas had been vacated due to the heavy rain. The performers showcased at this event were fairly mediocre, and the MC, [Andrew Maxwell][10] relied on cursing and drug references more than seemed necessary. I did get to see [David O'Doherty][11] perform [""Beefs 2011""][12] live though, so it wasn’t all bad.
 
 ***
 

@@ -17,7 +17,7 @@ category:
 tags:
   - featured
 ---
-![](up3.jpg '<cite>UP#3</cite> (Lang/Baumann, 2017) on Le Havre’s stoney beach.')
+![](up3.jpg '""UP#3"" (Lang/Baumann, 2017) on Le Havre’s stoney beach.')
 {.align-bleed}
 
 My friend [James][1] once told me about what he calls the Ayres Rock effect. This is the situation in which somebody will describe their visit to *Uluru*{lang="pjt"} as being magical and moving, thus setting expectations so high, that your own experience is underwhelming. Hearing your disappointment, subsequent visitors’ low expectations will ensure their own experience is one of wonder and joy. And so the cycle continues.
@@ -29,7 +29,7 @@ Having read [Oliver Wainwright’s article][2] in the Guardian, I fear the same 
 
 This year however there’s a more compelling reason to visit. To celebrate 500 years since its founding, *Un Été au Havre*{lang="fr"} ([A Summer in Le Havre][4]) sees the city host a festival of art and culture, with events, exhibitions and guided tours. A number of public spaces have been made home to dramatic installations, many of which would ideally become permanent.
 
-Vincent Ganivet’s <cite lang="fr">Canène de containers</cite> (Catenary of containers) and Lang/Baumann’s <cite>UP#3</cite> are two such examples, both drawing your eye towards the points at which *rue de Paris*{lang="fr"} and *Avenue Foch*{lang="fr"} respectively reach their shoreline conclusion. They also sit at two corners of the triangular quarter rebuilt after the war.
+Vincent Ganivet’s <cite lang="fr">Canène de containers</cite> (Catenary of containers) and Lang/Baumann’s ""UP#3"" are two such examples, both drawing your eye towards the points at which *rue de Paris*{lang="fr"} and *Avenue Foch*{lang="fr"} respectively reach their shoreline conclusion. They also sit at two corners of the triangular quarter rebuilt after the war.
 
 ## Concrete chic
 
@@ -39,7 +39,7 @@ A criticism often levelled at concrete is that it can make buildings appear cold
 
 ![Detailing on concrete column.](concrete_chic.jpg 'To see such detailing on a column made of concrete was quite unexpected.')
 
-No such damage was to be found on the city’s unavoidable signature building, Saint Joseph’s Church. One of two buildings in the city designed by Perret, it [looks like something from another planet][7]. Its 170m-tall spire resembles <cite>Doctor Who</cite>’s sonic screwdriver, and entering the building is to be teleported to a temple on an alien planet. Climbing up one corner of the spire, a tightly wound staircase only intensifies its vertigo inducing effect. Thankfully, this wasn’t open to the public, saving me the torment of reluctantly climbing the damn thing. Also of note is Marguerite Huré’s stunning kaleidoscopic stained glass, whose various shades transition to white as they reach the top, enhancing this building’s already dizzying majesty.
+No such damage was to be found on the city’s unavoidable signature building, Saint Joseph’s Church. One of two buildings in the city designed by Perret, it [looks like something from another planet][7]. Its 170m-tall spire resembles ""Doctor Who""’s sonic screwdriver, and entering the building is to be teleported to a temple on an alien planet. Climbing up one corner of the spire, a tightly wound staircase only intensifies its vertigo inducing effect. Thankfully, this wasn’t open to the public, saving me the torment of reluctantly climbing the damn thing. Also of note is Marguerite Huré’s stunning kaleidoscopic stained glass, whose various shades transition to white as they reach the top, enhancing this building’s already dizzying majesty.
 
 ![Sketch of Hôtel de Ville.](hotel_de_ville.png 'During my trip I took the time to sit down and draw. Here’s a quick sketch of *Hôtel de Ville*{lang="fr"}.')
 
@@ -78,7 +78,7 @@ Instead, I found a quiet, coastal city with a small modernist quarter whose spac
 ![](salon_des_navigateurs.jpg '*Salon des Navigateurs*{lang="fr"} is all kinds of weird and wonderful.')
 {.align-bleed}
 
-And yet, tucked away, a few gems could be found. [<cite>The Seine at Samois</cite>][13], a captivating painting by Armand Guillaumin hanging in the *Musée d'art moderne André Malraux*{lang="fr"}. A short [funicular railway][14] that transported me to the higher (and largely unexplored) part of the city where the [Tetris][15]{hreflang="fr"} arts venue had a robot drawing portraits with a biro. Or the fish market decorated with murals of sea creatures and landscapes. And, most bizarrely, *Salon des Navigateurs*{lang="fr"}, a hair salon that is part maritime museum — and part horror show, frankly!
+And yet, tucked away, a few gems could be found. [""The Seine at Samois""][13], a captivating painting by Armand Guillaumin hanging in the *Musée d'art moderne André Malraux*{lang="fr"}. A short [funicular railway][14] that transported me to the higher (and largely unexplored) part of the city where the [Tetris][15]{hreflang="fr"} arts venue had a robot drawing portraits with a biro. Or the fish market decorated with murals of sea creatures and landscapes. And, most bizarrely, *Salon des Navigateurs*{lang="fr"}, a hair salon that is part maritime museum — and part horror show, frankly!
 
 Le Havre is not a glamorous city, nor is it a vibrant, cosmopolitan city. But it is a city full of curiosity and surprise. Set your expectations accordingly.
 

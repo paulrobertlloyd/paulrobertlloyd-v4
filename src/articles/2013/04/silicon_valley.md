@@ -20,7 +20,7 @@ Although unintentional, the articles I had saved and now chosen to read, paint a
 
 ## Abandoning the checks and balances
 
-I found [Evgeny Morozov’s interview with the Guardian][2] fascinating, if not a little outlandish at times. Morozov is author of <cite>[The Net Delusion][3]</cite> and has written a second book <cite>[To Save Everything, Click Here][4]</cite>, both of which I’m inclined to read, if only because they challenge common ideas perpetuated within the tech industry.
+I found [Evgeny Morozov’s interview with the Guardian][2] fascinating, if not a little outlandish at times. Morozov is author of [""The Net Delusion""][3] and has written a second book [""To Save Everything, Click Here""][4], both of which I’m inclined to read, if only because they challenge common ideas perpetuated within the tech industry.
 
 In this interview, Morozov begins by criticising the self-tracking movement, which he describes as “solutionist”:
 
@@ -36,7 +36,7 @@ With great power, comes great responsibility. Google has already shown itself to
 
 Morozov describes the people working in these companies as overly concerned with efficiency, with little understanding of the human condition. That may be taking things a little to far, but they do lead lives often far-removed from those of their users.
 
-Ellen Cushin’s article <cite>[The Bacon-Wrapped Economy][6]</cite> describes how the influx of young, wealthy individuals into the Bay Area is having an impact on the financial sustainability of its cultural institutions:
+Ellen Cushin’s article [""The Bacon-Wrapped Economy""][6] describes how the influx of young, wealthy individuals into the Bay Area is having an impact on the financial sustainability of its cultural institutions:
 
 > Old money is being replaced by new, but it’s a new kind of new, one that has different values, different habits, and different interests than the previous generation. The very rich have always, to a greater or lesser degree, been guilty of excess, but what’s changed is that the Bay Area’s new wealth doesn’t necessarily have the perspective, the experience, or the commitments of the group it’s replacing.
 

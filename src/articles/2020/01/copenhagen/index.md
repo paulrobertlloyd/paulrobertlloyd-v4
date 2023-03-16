@@ -130,21 +130,21 @@ We head to [*Köket Lu*{lang="sv"}][14] on *Davidshallstorg*{lang="sv"}. I’m t
 
 The last time I was in *Malmö*{lang="sv"} I was questioning whether I wanted to continue working on the web; it’s nice that I can return with a resolution to my career crisis. Emil’s got a new job too, at Bonnier News. This provokes memories of similar work at the Guardian and tackling the nuanced issues that emerge when you try to automate the presentation of journalism.
 
-The roast duck is delightful, though not very filling as it’s mostly bone. I regret my earlier decision. Next, we head to [*Bullen*{lang="sv"}][15], apparently *Malmö*{lang="sv"}’s oldest pub, though it wouldn’t feel out of place in London. Being a weeknight, it’s just the one pint as the conversation moves onto survivor programmes, in particular [<cite>Alone</cite>][16].
+The roast duck is delightful, though not very filling as it’s mostly bone. I regret my earlier decision. Next, we head to [*Bullen*{lang="sv"}][15], apparently *Malmö*{lang="sv"}’s oldest pub, though it wouldn’t feel out of place in London. Being a weeknight, it’s just the one pint as the conversation moves onto survivor programmes, in particular [""Alone""][16].
 
 An hour later, I appear to be its next contestant. Not having paid enough attention to the train I was boarding, rather than nearing Copenhagen, I find myself on my way to the small town of *Trelleborg*{lang="sv"}, 20 miles south of *Malmö*{lang="sv"}. It’s here, in its small, chilly railway station, that I probably lost my debit card. This is the part of the trip that, if animated over a map, would see the route comically go round in circles before doubling back on itself.
 
 ## Day 5
 
-Another grey day, but with the museums open again I’m spoilt for choice. Emil recommended I visit either [ARKEN][17] or [Louisiana][18] modern art galleries. I choose the later, intrigued by [<cite>Hot Pink Turquoise</cite>][19], an exhibition featuring the work of Belgian artist Ann Veronica Janssens.
+Another grey day, but with the museums open again I’m spoilt for choice. Emil recommended I visit either [ARKEN][17] or [Louisiana][18] modern art galleries. I choose the later, intrigued by [""Hot Pink Turquoise""][19], an exhibition featuring the work of Belgian artist Ann Veronica Janssens.
 
-There’s a remarkable symmetry between Janssens’ work and that of Olafur Eliasson which was [recently displayed at the Tate Modern][20]. In <cite>Blue, Red and Yellow</cite>, visitors are encouraged to step into a large perspex container filled with smoke illuminated by those colours. Disorienting and disembodying, only six people are allowed entry at a time. Eliasson created a similar effect in his work <cite>Your blind passenger</cite>; it should be noted that Janssens’ piece precedes it by about nine years.
+There’s a remarkable symmetry between Janssens’ work and that of Olafur Eliasson which was [recently displayed at the Tate Modern][20]. In ""Blue, Red and Yellow"", visitors are encouraged to step into a large perspex container filled with smoke illuminated by those colours. Disorienting and disembodying, only six people are allowed entry at a time. Eliasson created a similar effect in his work ""Your blind passenger""; it should be noted that Janssens’ piece precedes it by about nine years.
 
 * ![A colourful, glowing box sits in the middle of a gallery.](blue_red_and_yellow.jpg "‘Blue, Red and Yellow’.")
 * ![A dark room with small bright red and blue lights.](gleaming_lights_of_the_souls.jpg "‘Gleaming Lights Of The Souls’.")
   {.gallery}
 
-If Janssens’ colourful smoke-filled cube isn’t enough Instagram fodder, then Yayoi Kusama’s permanent installation, <cite>Gleaming Lights Of The Souls</cite> does not disappoint either. This is a small room filled with hundreds of lights suspended from the ceiling, reflected by mirrors on five sides and a floor flooded with water. A small gangway allows viewers to experience this wonder from its very centre.
+If Janssens’ colourful smoke-filled cube isn’t enough Instagram fodder, then Yayoi Kusama’s permanent installation, ""Gleaming Lights Of The Souls"" does not disappoint either. This is a small room filled with hundreds of lights suspended from the ceiling, reflected by mirrors on five sides and a floor flooded with water. A small gangway allows viewers to experience this wonder from its very centre.
 
 I end up spending several hours in this museum. If not absorbed by these colourfully illuminated rooms, I’m riding a single speed bike around one of the gallery spaces, exploring the sculpture garden with views over a nearby beach, or enjoying a coffee in the calming cafe. I’m getting a full-on culture fix in what feels like a meditative retreat.
 

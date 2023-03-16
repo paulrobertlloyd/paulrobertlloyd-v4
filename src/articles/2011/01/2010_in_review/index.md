@@ -108,7 +108,7 @@ However September will forever be marked for another reason, as I became an uncl
 
 ## October
 
-October was a fairly quite month. Had I not seen many of the shows in Edinburgh, I would have made more of the Brighton Comedy Festival. A company night out took in the <cite>Best of the Fest</cite>, which was a mixed bag of comedians I’d already seen, wouldn’t want to see again, and one who was excruciatingly bad that it was fun to watch anyway.
+October was a fairly quite month. Had I not seen many of the shows in Edinburgh, I would have made more of the Brighton Comedy Festival. A company night out took in the ""Best of the Fest"", which was a mixed bag of comedians I’d already seen, wouldn’t want to see again, and one who was excruciatingly bad that it was fun to watch anyway.
 
 I also went to see Jimmy Carr, whose show was hilarious to start with, but became tiresome by the second act, although not helped by a persistent heckler.
 

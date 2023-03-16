@@ -41,7 +41,7 @@ Grid builds further on this less assumptive approach. It allows us to query the 
 
 ### Rebuilding the recirculation module
 
-As a way of demonstration, let’s return to one of the components Ethan described, <cite>The Toast</cite>’s recirculation module:
+As a way of demonstration, let’s return to one of the components Ethan described, ""The Toast""’s recirculation module:
 
 > 1. By default, the list of links appears as a single column layout on small screens.
 > 2. As the screen gets wider, it moves to a two-column layout.

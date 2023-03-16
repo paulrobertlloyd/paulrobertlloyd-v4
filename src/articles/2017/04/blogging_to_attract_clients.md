@@ -9,7 +9,7 @@ category:
   - Writing
   - Web
 ---
-[This week’s article][1] on <cite>A List Apart</cite> caught my attention:
+[This week’s article][1] on ""A List Apart"" caught my attention:
 
 > A weblog’s ability to attract client work is one of its most overlooked benefits. JustReachOut’s Dmitry Dragilev shares some simple ideas on how to create content that generates real interest in our work.
 

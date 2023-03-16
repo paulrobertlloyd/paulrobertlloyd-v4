@@ -37,7 +37,7 @@ All were incomparable to the unexpected thrill of watching England win a World C
 
 The year saw me return to Walsall on several occasions, including for the weddings of Lewis and Sarah in August and Mark and Ruth in October — the later somewhat marred by the recurrence of an old dental injury. Driving up immediately after receiving a partial root canal, an ineffective course of antibiotics meant I spent two wretched nights in a hotel room self-medicating with a cocktail of painkillers and mouth gels.
 
-If that was the year’s low point, its highlight was cruising around the Norwegian fjords with my parents aboard the [<cite>Aurora</cite>][5]. I’ll never forget the sight of my Dad curled up with laughter as he watched besuited passengers waddle into the restaurant like penguins, or the delight on my Mum’s face as she treated herself to *two* deserts from the ship’s willpower defeating buffet!
+If that was the year’s low point, its highlight was cruising around the Norwegian fjords with my parents aboard the [""Aurora""][5]. I’ll never forget the sight of my Dad curled up with laughter as he watched besuited passengers waddle into the restaurant like penguins, or the delight on my Mum’s face as she treated herself to *two* deserts from the ship’s willpower defeating buffet!
 
 ![](mum_and_dad_near_liabygda.jpg 'Mum and Dad near Liabygda, Norway.')
 

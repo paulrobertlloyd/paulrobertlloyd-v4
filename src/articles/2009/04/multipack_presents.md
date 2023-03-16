@@ -10,7 +10,7 @@ category:
   - Sustainability
   - Projects
 ---
-After the success of the first <cite>Multipack Presents</cite> event in February, so we return to the plush offices of One Black Bear to learn how the web can help us become eco-friendly citizens. This months guest speakers are both passionate about green issues, and have used the web to further their aims.
+After the success of the first ""Multipack Presents"" event in February, so we return to the plush offices of One Black Bear to learn how the web can help us become eco-friendly citizens. This months guest speakers are both passionate about green issues, and have used the web to further their aims.
 
 [David Harte][1] has been involved with the [Act on CO2 campaign in Birmingham][2] and will show us how he has been using the internet to measure his Carbon footprint. James Robertson leads the [Birmingham Freecycle][3] group, and promises to tell us how we can build websites that encourage people to act.
 

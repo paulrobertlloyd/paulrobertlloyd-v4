@@ -4,7 +4,7 @@ date: 2018-01-02T13:00:00Z
 location:
   locality: Bexhill-on-Sea
   country_name: England
-summary: Having copied, pasted and formatted another 115 pages of OCR’d text, <cite>Bradshaw’s Guide</cite> now contains tours throughout South West England, the West Midlands, Wales and Ireland.
+summary: Having copied, pasted and formatted another 115 pages of OCR’d text, ""Bradshaw’s Guide"" now contains tours throughout South West England, the West Midlands, Wales and Ireland.
 photo:
   url: /articles/2018/01/bradshaws_guide/map.png
   alt: Routes currently covered by Bradshaw’s Guide.
@@ -13,7 +13,7 @@ category:
   - Travel
 accent_color: '#e6772e'
 ---
-[<cite>Bradshaw’s Guide</cite>][1] is a hyperlinked revival of a popular Victorian guide to Britain and Ireland’s nascent railway network. It’s also a personal project that lies at the intersection of my interests: design, technology, trains… the preservation of [historic English counties][2].
+[""Bradshaw’s Guide""][1] is a hyperlinked revival of a popular Victorian guide to Britain and Ireland’s nascent railway network. It’s also a personal project that lies at the intersection of my interests: design, technology, trains… the preservation of [historic English counties][2].
 
 Today I have officially reached the half way point. Having copied, pasted and formatted another 115 pages of [OCR’d text][3], in addition to [the first section][4], which covered London and the South East, the guide now contains tours through South West England, the West Midlands, Wales and Ireland. [This new section][5] was especially interesting to me as it covers an area where I grew up — George Bradshaw’s [description of the Black Country as observed from atop Dudley Castle][6] is particularly stirring. Pride in Victorian engineering is also evident: just read descriptions of Brunel’s Tubular bridge at [Chepstow][7], Stephenson’s at [Conwy][8] and across the [Menai Strait][9].
 

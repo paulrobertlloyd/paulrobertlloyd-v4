@@ -4,7 +4,7 @@ date: 2012-01-30T23:06:29Z
 canonical:
   source: net_magazine
   edition: Issue 225
-summary: <cite>.net Magazine</cite> asked a group of experts what they find most delightful and most despicable about the social networking giant Facebook. This was my full response. An excerpt can be found in the March 2012 issue.
+summary: '"".net Magazine"" asked a group of experts what they find most delightful and most despicable about the social networking giant Facebook. This was my full response. An excerpt can be found in the March 2012 issue.'
 category:
   - Facebook
   - Web

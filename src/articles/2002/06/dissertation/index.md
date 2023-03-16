@@ -12,7 +12,7 @@ The last ten years or so have seen rapid growth and fundamental change in the te
 
 It is because of these advances in technology and the increasing number of channels (and therefore competition) they brought, that I have singled out the nineties to analyse any changes and differences in design styles on those channels broadcast terrestrially (through an aerial) in analogue form — these being BBC1, BBC2, ITV (as a whole and in the regions), Channel 4 and Channel 5. I am looking at these channels in particular as these were around before multi-channel television. This is perhaps less true for Channel 5, but still provides an interesting case study as it had to achieve good market penetration only a year before the launch of digital television.
 
-I will be investigating those areas of design that are directly responsible for giving channels their identity, such as idents or ‘stings’ (the breaks shown at the junction of programmes) as well as overall presentation style (menus, captions etc.). I will also look at the presentation of news programmes as I feel that that this is one area of programming that defines a channel, and their appearance often reflects this. (This is especially true in some ITV regions where the local news is all that differentiates it from another owned by the same media group, for example in two Carlton owned regions: <cite>Central News</cite> and <cite>London Tonight</cite>). By doing so, I will see how their business, marketing and branding strategies have been developed visually on-screen.
+I will be investigating those areas of design that are directly responsible for giving channels their identity, such as idents or ‘stings’ (the breaks shown at the junction of programmes) as well as overall presentation style (menus, captions etc.). I will also look at the presentation of news programmes as I feel that that this is one area of programming that defines a channel, and their appearance often reflects this. (This is especially true in some ITV regions where the local news is all that differentiates it from another owned by the same media group, for example in two Carlton owned regions: ""Central News"" and ""London Tonight""). By doing so, I will see how their business, marketing and branding strategies have been developed visually on-screen.
 
 To properly analyse the reasons for any changes to graphic design on television, I will be looking at the broadcasting environment in terms of competition, consolidation, regulation and also any advances in technology used by the designer.
 
@@ -46,7 +46,7 @@ Brain Eley, Creative Director at Lambie-Nairn — a leading brand consultancy th
 > Sophisticated on-screen graphics have become part of the quotable culture, part of the language of television. They’ve gradually become established on the landscape of domestic TV and people now expect an incredibly high level of craft.
 > — Davies, 1997
 
-Perhaps where television graphics have been used to greatest effect is within news. In what can be a chaotic world where footage isn’t always the best quality (with an items relevance and newness of most importance), news graphics play an important role in striping stories down to the bare essentials. Wars become maps, economies become graphs, political arguments turn into graphical conflict, press releases are presented as an ordered list of bullet points, and these enable television to carry on more effectively the activity of speculation. Such graphics became so commonplace that they were the subject of their own kind of graphic satire — the most notable being <cite>The Day Today</cite>.
+Perhaps where television graphics have been used to greatest effect is within news. In what can be a chaotic world where footage isn’t always the best quality (with an items relevance and newness of most importance), news graphics play an important role in striping stories down to the bare essentials. Wars become maps, economies become graphs, political arguments turn into graphical conflict, press releases are presented as an ordered list of bullet points, and these enable television to carry on more effectively the activity of speculation. Such graphics became so commonplace that they were the subject of their own kind of graphic satire — the most notable being ""The Day Today"".
 
 ***
 
@@ -104,7 +104,7 @@ The idents were part of a consistent presentation style across the channel.
 * ![Presentation slide.](channel_4_1982_slide_2.png "Presentation slide for The Friday Alternative.")
   {.align-bleed .gallery}
 
-Idents were paired with <cite>Fourscore</cite>, a four-note signature tune composed by David Dundas that, like the figure four, could be adapted to suit a particular mood or theme. Compared to its rivals, Channel 4 used bright colours, movement, ground breaking technology with a consistent image both on and off screen. In turn, Channel 4 became the first channel to have a brand, a visual property to hang on to — something very important to a channel that was going to find it hard competing against three well established channels and a lot of bad press initially.
+Idents were paired with ""Fourscore"", a four-note signature tune composed by David Dundas that, like the figure four, could be adapted to suit a particular mood or theme. Compared to its rivals, Channel 4 used bright colours, movement, ground breaking technology with a consistent image both on and off screen. In turn, Channel 4 became the first channel to have a brand, a visual property to hang on to — something very important to a channel that was going to find it hard competing against three well established channels and a lot of bad press initially.
 
 > The launch identity has since been lauded as the most innovative corporate solution of the eighties.
 > — Mistry, 1996
@@ -183,7 +183,7 @@ Whilst BBC1’s image was designed to endure and remain graphically appealing, B
 * ![The figure ‘2’ formed from a bed of flowers in a garden.](bbc_two_ident_1991_garden.jpg "BBC2 Garden ident.")
   {.align-bleed .gallery}
 
-After what Lambie-Nairn described as a “repositioning” of the two channels, both were seen as more up-to-date and accessible, without destroying BBC1’s already strong image. The BBC2 identities became a particular hit, both with the public and within the design industry. With no change to its programming, BBC2 was now seen as sophisticated, witty and entertaining. The ‘2’ figure was developed further over the following years with idents such as <cite>Fluffy Dog</cite> in which an excitable figure two leaps into the air and summersaults, and <cite>Car</cite> in which the 2 becomes a remote controlled car that whizzes around the screen, both becoming firm favourites with the audience. Alan Yentob, controller of BBC2 at the time, was quoted as saying:
+After what Lambie-Nairn described as a “repositioning” of the two channels, both were seen as more up-to-date and accessible, without destroying BBC1’s already strong image. The BBC2 identities became a particular hit, both with the public and within the design industry. With no change to its programming, BBC2 was now seen as sophisticated, witty and entertaining. The ‘2’ figure was developed further over the following years with idents such as ""Fluffy Dog"" in which an excitable figure two leaps into the air and summersaults, and ""Car"" in which the 2 becomes a remote controlled car that whizzes around the screen, both becoming firm favourites with the audience. Alan Yentob, controller of BBC2 at the time, was quoted as saying:
 
 > It has received lots of fan mail and correspondence. We will definitely be renewing its contract.
 > — Lambie-Nairn, 1997, p122
@@ -242,7 +242,7 @@ As a new look “to underline Channel 4’s position as a network that will rema
 
 In 1999, a new image for the channel was created by consultancy Spin and the channel’s in-house team. This saw the return of colour and movement to the Channel 4 identity, and like the original, was designed to break a lot of television rules. Again, the original stenciled ‘4’ logo was retained but in this implementation it was reversed out of a white square which both on and off screen was placed right of centre.
 
-The original set of idents featured straight vertical bands of colour — sometimes containing non-specific imagery such as roads, tunnels, swimming pools within these bands, which moved from left to right behind the logo. Again versions were created depicting the channel’s personalities, and this time involved showing their apparent habits as they watched the channel — Richard Whiteley dunking biscuits into his tea, whilst on his bed watching <cite>15 to 1</cite> for example.
+The original set of idents featured straight vertical bands of colour — sometimes containing non-specific imagery such as roads, tunnels, swimming pools within these bands, which moved from left to right behind the logo. Again versions were created depicting the channel’s personalities, and this time involved showing their apparent habits as they watched the channel — Richard Whiteley dunking biscuits into his tea, whilst on his bed watching ""15 to 1"" for example.
 
 The idents proved extremely versatile with variations for children’s programming and its teenage stand T4 continuing the theme — slanting the bands slightly to the right and using bright and vibrant consistent colours such as blue, yellow and orange. All promotional material also maintained the square logo’s position as seen on screen.
 
@@ -306,7 +306,7 @@ By the mid-ninetees every ITV region was back to using individual identities —
 
 A few years after Yorkshire and Tyne Tees Television merged, the Managing Director of the combined group, Bruce Gyngell, decided to place the two stations under a single ‘Channel 3’ umbrella brand. The board at Yorkshire Television weren’t keen about re-branding their station, but agreed to experiment with the idea at Tyne Tees, which was renamed Channel 3 North East. Its ident featured a large gold numeral ‘3’ from which the words North East emerged, and was put together by a design company in Leeds. It was nothing new or original, in fact it was pretty bland, and reportedly created in an afternoon. An extended ident was also produced, that sometimes featured before the local news, in which various landscapes from the region where intertwined with groups of three (three swimmers, three kids on swings etc.) as well as local personalities from the channel.
 
-However this was as far as the brand went, and viewers were confronted with pretty much of what went before. It also caused confusion with continuity announcers often presenting the channel as “Tyne Tees Television, broadcasting on Channel 3 in the North-East” or similar mouthfuls, matched with an ident including both Channel 3 North East, and Tyne Tees names. As a result it wasn’t well received by the public and only lasted a year. The Yorkshire version of the ident was more faithful to the original <cite>Chevron</cite> identity, with the gold ‘3’ only seen at the beginning of its ident. When Yorkshire Tyne Tees was taken over by Granada, the Channel 3 brand was scraped and the Tyne Tees name reinstated.
+However this was as far as the brand went, and viewers were confronted with pretty much of what went before. It also caused confusion with continuity announcers often presenting the channel as “Tyne Tees Television, broadcasting on Channel 3 in the North-East” or similar mouthfuls, matched with an ident including both Channel 3 North East, and Tyne Tees names. As a result it wasn’t well received by the public and only lasted a year. The Yorkshire version of the ident was more faithful to the original ""Chevron"" identity, with the gold ‘3’ only seen at the beginning of its ident. When Yorkshire Tyne Tees was taken over by Granada, the Channel 3 brand was scraped and the Tyne Tees name reinstated.
 
 Central was also another regional company to be taken over, this time by Carlton Communications, holder of the London weekday franchise, in 1994. In its first attempt at consistency across the two franchises in late 1996, both Central and Carlton in London used a set of idents designed to complement the networks programming. Here either the word CARLTON or CENTRAL (both visually similar) set in Gill Sans, morphed into rows of houses (Coronation Street), had their letters rearranged (for use before game shows), were spelt out with the phonetic alphabet (The Bill) or had footballs struck at them, and many other such treatments. Usually set in white against bright colours, this was based more on Carlton’s brand history than Central’s, but at least the Central name was retained.
 
@@ -370,7 +370,7 @@ This was all aimed to give the channel a more contemporary feel “retaining and
 
 The computer techniques introduced during the eighties also made a strong impact on the graphics used within televised news.
 
-By the early nineties comedy shows such as <cite>The Day Today</cite> made light of this, with heavily computer generated animated titles with clichéd images of globes, eyes, similar urgent sounding music etc. This wasn’t far from the truth as both ITN (who provided news for the commerical channels) and the BBC were using such material.
+By the early nineties comedy shows such as ""The Day Today"" made light of this, with heavily computer generated animated titles with clichéd images of globes, eyes, similar urgent sounding music etc. This wasn’t far from the truth as both ITN (who provided news for the commerical channels) and the BBC were using such material.
 
 The BBC’s Breakfast News had titles involving a globe at the centre of a clock face which turned back on itself before the ‘C’ in BBC spun out and around the globe, all to the music of horns and chimes. Similar themes were expressed later its One O'clock news programme. Later bulletins at six and nine had much heavier music, but still carried images of globes and maps of the world.
 
@@ -428,7 +428,7 @@ In 1999 however, news programmes on ITV, like those on Channels 4 and 5, no long
 
 [Watch ‘Title sequence for ITV Lunchtime News’ on YouTube](https://www.youtube.com/watch?v=8gv6AqELpqw "As provider of news to ITV, ITN were forced to remove all it’s name and branding, using a separate ITV News name.")
 
-Up until the launch of Channel 5 in 1997 and its news offering <cite>5 News</cite>, the actual presentation of news had remained much the same. Aimed at a younger and perhaps less news-interested audience, and with a more tabloid agenda, it was set in a bright and colourful newsroom and involved the anchor sitting on a desk rather than behind one. Individual reporters for different sections of news (i.e. politics and sport) had their own sections of the set in which souvenirs and mementos were set onto shelves (politics having three mugs from each of the main parties, rosettes, pictures of MPs etc. whilst sport had a football, scarves and other memorabilia).
+Up until the launch of Channel 5 in 1997 and its news offering ""5 News"", the actual presentation of news had remained much the same. Aimed at a younger and perhaps less news-interested audience, and with a more tabloid agenda, it was set in a bright and colourful newsroom and involved the anchor sitting on a desk rather than behind one. Individual reporters for different sections of news (i.e. politics and sport) had their own sections of the set in which souvenirs and mementos were set onto shelves (politics having three mugs from each of the main parties, rosettes, pictures of MPs etc. whilst sport had a football, scarves and other memorabilia).
 
 [Watch ‘Channel 5 News, 31 March 1997’ on YouTube](https://www.youtube.com/watch?v=-Z-ut-OLyA8)
 
@@ -437,7 +437,7 @@ This was radically different to anything that had been seen on television in the
 > Although Channel 5 News has never challenged its better established rivals in the ratings, its colourful breezy approach to explaining stories to its viewers prompted changes to Newsnight, BBC1’s bulletins and Channel 4 News.
 > — Gibson, 1999
 
-The first to change was Channel 4 News, and although this time the anchors were sitting, they were sat next to low level desks, meaning you could see what colour socks Jon Snow wore! Its set and titles used bright colours, but not in such an overbearing way as in <cite>5 News</cite> — made more somber with a heavy use of black. The set also featured a large video wall, in which the anchor or reporter could stand in front off whilst graphics were displayed behind them.
+The first to change was Channel 4 News, and although this time the anchors were sitting, they were sat next to low level desks, meaning you could see what colour socks Jon Snow wore! Its set and titles used bright colours, but not in such an overbearing way as in ""5 News"" — made more somber with a heavy use of black. The set also featured a large video wall, in which the anchor or reporter could stand in front off whilst graphics were displayed behind them.
 
 The BBC similarly followed also with the use of a large plasma screen in which a correspondent could stand in front of to help explain his or her item, but this was introduced as part of wider transformation to the look of the news across the whole of the BBC. As mentioned before, the BBC now used the same graphics package and set for its main bulletins on BBC1, but now with a 24-hour news operation (both in the UK and globally) and an online news site, BBC News as a brand didn’t really exist. Furthermore, its regional news programmes were seen as second division against the national news bulletins.
 
@@ -445,7 +445,7 @@ Once again, Lambie-Nairn was chosen to create an identity for all of BBC’s new
 
 This was done with the creation of a set of similar elements: concentric radiating circles in the style of transmitting signals, globes, maps and clock faces as well as a consistent use of type, giving the brand consistency yet flexibility across its many different applications. BBC News was also given a proprietary colour palette of Ivory and China Red (news programmes often use blue) which meant its presentation had a much warmer and approachable feel.
 
-The main bulletins on BBC1 shared similar but varied titles in which maps of first Britain then the world interacted alongside the spelling out of major capitals, overlaid with clock hands, radiating rings and globes. Towards the end of the sequence the hour of the programme (be it 1, 6, 9 and later 10) were brought in, spinning on their axis before resting in a straight position. <cite>BBC News 24</cite> and <cite>BBC World</cite> (the BBC’s 24-hour rolling news channels) continued these themes — with News 24’s graphics package having a closer resemblance to those titles seen on the BBC’s domestic output.
+The main bulletins on BBC1 shared similar but varied titles in which maps of first Britain then the world interacted alongside the spelling out of major capitals, overlaid with clock hands, radiating rings and globes. Towards the end of the sequence the hour of the programme (be it 1, 6, 9 and later 10) were brought in, spinning on their axis before resting in a straight position. ""BBC News 24"" and ""BBC World"" (the BBC’s 24-hour rolling news channels) continued these themes — with News 24’s graphics package having a closer resemblance to those titles seen on the BBC’s domestic output.
 
 [Watch ‘Title sequence for BBC Nine O’Clock News’ on YouTube](https://www.youtube.com/watch?v=DdqiModYv5Q "Title sequence for ‘BBC Ten O’Clock News’. BBC/Lambie-Nairn, 2001.")
 
@@ -489,24 +489,24 @@ One thing’s for sure; broadcasting brands will need to be as strong as ever.
 
 ### Books
 
-* Crook, G. (1986). <cite>The Changing Image. Television Graphics from Caption Card to Computer</cite>. London: Robots Press
-* Ellis, J. (2000). <cite>Seeing Things. Television in the Age of Uncertainty</cite>. London: I.B. Tauris
-* Lambie-Nairn, M. (1997). <cite>Brand Identity for Television. With Knobs On</cite>. London: Phaidon Press
+* Crook, G. (1986). ""The Changing Image. Television Graphics from Caption Card to Computer"". London: Robots Press
+* Ellis, J. (2000). ""Seeing Things. Television in the Age of Uncertainty"". London: I.B. Tauris
+* Lambie-Nairn, M. (1997). ""Brand Identity for Television. With Knobs On"". London: Phaidon Press
 
 ### Press
 
-* Aldersey-Williams, H. (1993). The different path of British broadcast design. <cite>Print, 47</cite>(1), 48-54.
-* Davies, J. (1997). Strength in Numbers. <cite>Design, Spring 1997</cite>, 26-31.
-* Gilgrist, A. (1997). £5m BBC logo ‘will save cash’. <cite>Design Week, 12</cite>(19), 3.
-* McClellan, T. (1990). TV in the age of eye candy. <cite>Eye, 1</cite>(1), 22-31.
-* Mistry, B. (1996). Has Channel 4 made the right connection? <cite>Design Week, 11</cite>(32), 7.
+* Aldersey-Williams, H. (1993). The different path of British broadcast design. ""Print, 47""(1), 48-54.
+* Davies, J. (1997). Strength in Numbers. ""Design, Spring 1997"", 26-31.
+* Gilgrist, A. (1997). £5m BBC logo ‘will save cash’. ""Design Week, 12""(19), 3.
+* McClellan, T. (1990). TV in the age of eye candy. ""Eye, 1""(1), 22-31.
+* Mistry, B. (1996). Has Channel 4 made the right connection? ""Design Week, 11""(32), 7.
 
 ### Online
 
-* Gibson, J. (1999, October 23). [Face of five set for ITV perch](http://media.guardian.co.uk/mediaguardian/story/0,7558,362192,00.html). <cite>MediaGuardian</cite>
-* Lambie-Nairn.com (2002). [BBC ONE](https://web.archive.org/web/20020215191943/http://www.lambie-nairn.com/casestudy.asp?ContentId=2954%26Parent=2725), <cite>Lambie-Nairn.com</cite>. Archived from [the original](http://www.lambie-nairn.com/casestudy.asp?ContentId=2954%26Parent=2725) on <time datetime="2002-02-15">15 February 2002</time>
-* McGonagle, M. (2002). [Channel 5 Idents 1999](http://www.thetvroom.com/p-ch5-1999-a.html). <cite>TheTVRoom.com</cite>
-* Wilkes, N. (2001). [BBC Two gets new on-screen look](http://www.digitalspy.co.uk/displayarticle.php?id=4234). <cite>DigitalSpy.co.uk</cite>
+* Gibson, J. (1999, October 23). [Face of five set for ITV perch](http://media.guardian.co.uk/mediaguardian/story/0,7558,362192,00.html). ""MediaGuardian""
+* Lambie-Nairn.com (2002). [BBC ONE](https://web.archive.org/web/20020215191943/http://www.lambie-nairn.com/casestudy.asp?ContentId=2954%26Parent=2725), ""Lambie-Nairn.com"". Archived from [the original](http://www.lambie-nairn.com/casestudy.asp?ContentId=2954%26Parent=2725) on <time datetime="2002-02-15">15 February 2002</time>
+* McGonagle, M. (2002). [Channel 5 Idents 1999](http://www.thetvroom.com/p-ch5-1999-a.html). ""TheTVRoom.com""
+* Wilkes, N. (2001). [BBC Two gets new on-screen look](http://www.digitalspy.co.uk/displayarticle.php?id=4234). ""DigitalSpy.co.uk""
 
 *[ABC]: Associated British Corporation
 *[BBC]: British Broadcasting Corporation

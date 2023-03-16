@@ -32,13 +32,13 @@ category:
 ---
 {% render 'product' with product %}
 
-What better way to discuss a book about ethics than to begin with a disclosure. Not only have I known [Cennydd][1] for many years, but he was kind enough to let me review early drafts of his latest book, <cite>[Future Ethics][2]</cite>. While there’s little hope I can convince you that I’m an impartial reviewer, it’s worth marking the completion of this two-year endeavour all the same; even more so when the resulting work is both so valuable and necessary.
+What better way to discuss a book about ethics than to begin with a disclosure. Not only have I known [Cennydd][1] for many years, but he was kind enough to let me review early drafts of his latest book, [""Future Ethics""][2]. While there’s little hope I can convince you that I’m an impartial reviewer, it’s worth marking the completion of this two-year endeavour all the same; even more so when the resulting work is both so valuable and necessary.
 
 ## Ways of seeing
 
 As a way of thanking me for my feedback, Cennydd offered me a copy of the book. But this offer came with a choice: would I like to be emailed a digital copy, or get the paperback, printed and fulfilled by Amazon, a company for which I have *opinions*. Before I could even turn to the first page, here was a moral quandary. Should you buy this book — and [you really should][3] — this is a decision you will need to make also.
 
-<cite>Future Ethics</cite> introduces the reader to three schools of modern ethics, and uses each to interpret the ethical dilemmas we face today and those we are likely to encounter in the future. So let’s use these to make a judgement about the choice presented above; digital or paperback?
+""Future Ethics"" introduces the reader to three schools of modern ethics, and uses each to interpret the ethical dilemmas we face today and those we are likely to encounter in the future. So let’s use these to make a judgement about the choice presented above; digital or paperback?
 
 A *utilitarian* would view this decision in terms of its consequences; which choice will increase the overall happiness of the world? I doubt it makes much difference to Cennydd whether a reader purchases a digital copy or the paperback fulfilled by Amazon as long as they buy the book, but from my point of view I know that I’m more likely to read it should I have it in my hands — a welcome opportunity to spend time away from a screen. There are ecological impacts relating to each choice of course, although likely negligible in the grand scheme of things. However, as a fervent boycotter of Amazon, to have them involved in this transaction is a test of my principles. As the book was a gift, I could reasonably opt for the paperback. If I was paying, my decision may have been different.
 

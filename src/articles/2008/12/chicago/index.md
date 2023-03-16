@@ -14,7 +14,7 @@ category:
 tags:
   - featured
 ---
-![](cloud_gate.jpg '<cite>Cloud Gate</cite> by Anish Kapoor.')
+![](cloud_gate.jpg '""Cloud Gate"" by Anish Kapoor.')
 {.align-bleed}
 
 I briefly encountered Chicago in March after three long days aboard the California Zephyr. At that time it was a snow covered, cold and blustery city, but I saw enough to want to come back. With Chicago hosting the last [An Event Apart][1] conference of 2008, it was too easy to warrant a return visit six months later, and became the third of my four city tour of the US in October.
@@ -30,7 +30,7 @@ More noticeable was unpleasant smell that followed you around (perhaps unsurpris
 
 The highlight of my time, was taking an Architecture Boat Tour, given by the [Chicago Architecture Foundation][5]. I noticed the strong architectural style of the city when I was here in March, but I must admit until this 90 minute tour along the river, I was a little naive as to the many celebrated architects and companies that worked on the buildings, as well as the shear breadth of styles used. From Art Deco warehouses of former mail order companies, to modernist skyscrapers of large American corporations (particularly those of Mies van der Rohe and his contemporaries), each building had it’s own unique charm, and I would be hard pressed to pick a favourite.
 
-Newer landmarks have been added more recently, notably around [Millennium Park][6], home to the fun and playful <cite>Cloud Gate</cite> sculpture by British artist [Anish Kapoor][7].
+Newer landmarks have been added more recently, notably around [Millennium Park][6], home to the fun and playful ""Cloud Gate"" sculpture by British artist [Anish Kapoor][7].
 
 Here again I was able to gaze upon yet more work by [Frank Gehry][8], in the shape of his sweeping BP Bridge and the Jay Pritzker Pavilion (he also design the Experience Music Project building which I saw in [Seattle][2] the week before).
 

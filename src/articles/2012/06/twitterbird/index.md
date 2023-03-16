@@ -29,7 +29,7 @@ Unable to resist the urge to [draw circles and lines over a design][5], such sil
 
 Only if you ignore the flowery introduction and read [Bowman’s responses][6] to questions about the change, do you discover more meaningful motivations. For example, the angle of the bird not only gives the logo a more optimistic feel, but it also fills a square better (a problem [I’m far too familiar with][7]). The redrawing allows for better downsizing too, apparently.
 
-Still, where the previous logo had character and charm (the quiff was a beautiful touch), this revision perhaps better reflects the company as it stands today: slicker, more corporate, and balding. No place is this better reflected than in the company’s stringent new <cite>Trademark and Content Display Policy</cite>, for which [Gawker provides a helpful summary][8]:
+Still, where the previous logo had character and charm (the quiff was a beautiful touch), this revision perhaps better reflects the company as it stands today: slicker, more corporate, and balding. No place is this better reflected than in the company’s stringent new ""Trademark and Content Display Policy"", for which [Gawker provides a helpful summary][8]:
 
 ![](donts.png 'Twitter bird usage guidelines.')
 

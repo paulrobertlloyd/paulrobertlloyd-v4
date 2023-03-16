@@ -9,7 +9,7 @@ category:
 ---
 Bobbie Johnson at GigaOm:
 
-> “What is Google? What do they sell?” asks Don Norman, the author of <cite>The Design of Everyday Things</cite> and a demigod of the design world.
+> “What is Google? What do they sell?” asks Don Norman, the author of ""The Design of Everyday Things"" and a demigod of the design world.
 >
 > It’s a question that gets asked a lot, especially as the company’s power and products continue to expand. In a talk on Friday at the [dConstruct conference][1] in Brighton, England, he pointed out that – despite the complexity of the organisation – the answer usually looks pretty simple.
 >

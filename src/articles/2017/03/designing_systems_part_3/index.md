@@ -200,7 +200,7 @@ Let’s return to Brasília. While Niemeyer’s buildings are gorgeous, they su
 
 Costa’s layout suffers similarly. Along the city’s main axis exist large areas of green space. I’m sure these satisfied an objective of providing open areas for people to relax in, yet their simplistic placement ignores the fact that to reach them you need to cross six lanes of traffic.
 
-Having experienced the city at ground level, I’m inclined to agree with architect Jan Gehl, who in Gary Hustwit’s 2011 documentary <cite>Urbanized</cite> stated:
+Having experienced the city at ground level, I’m inclined to agree with architect Jan Gehl, who in Gary Hustwit’s 2011 documentary ""Urbanized"" stated:
 
 > Brasília was the ultimate modernistic city built on all the ideas of the modernistic manifests. It looks fantastic from the airplane, but if you are down at eye level on your feet going from one place to another, Brasília is a disaster. Every distance is too wide. **Things are not connected**.
 

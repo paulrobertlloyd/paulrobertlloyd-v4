@@ -20,7 +20,7 @@ tags:
 {.align-bleed}
 
 > It is the nature of the web to be flexible, and it should be our role as designers and developers to embrace this flexibility, and produce pages which, by being flexible, are accessible to all.
-— John Allsopp, <cite>[The Dao of Web Design](https://www.alistapart.com/articles/dao/)</cite>
+— John Allsopp, [""The Dao of Web Design""](https://www.alistapart.com/articles/dao/)
 
 Twelve years ago, John Allsopp asked us to embrace the adaptable nature of the web. We didn’t listen.
 
@@ -134,7 +134,7 @@ That these apps can only be viewed using Chrome is an unnerving requirement, and
 
 ### Only the news that’s fit to print
 
-When we think of websites inspired by print, those of newspapers spring to mind. The website for [<cite>The New York Times</cite>][12] features a fixed, densely packed, multi-column grid. Like many contemporary sites, content is suffocated by advertising, sharing widgets, and related links:
+When we think of websites inspired by print, those of newspapers spring to mind. The website for [""The New York Times""][12] features a fixed, densely packed, multi-column grid. Like many contemporary sites, content is suffocated by advertising, sharing widgets, and related links:
 
 ![](nytimes_site.png 'New York Times website interface.')
 
@@ -158,7 +158,7 @@ A final example of this trend can be found on [Rdio][16]. As the music-streaming
 
 ![](rdio.png 'Rdio website interface.')
 
-Like the Chrome apps for <cite>The New York Times</cite> and BBC Good Food, this nudge toward a more app-like interface has resulted in a stronger focus on content (in this case, album covers), a more fluid layout, and less intrusive navigation.
+Like the Chrome apps for ""The New York Times"" and BBC Good Food, this nudge toward a more app-like interface has resulted in a stronger focus on content (in this case, album covers), a more fluid layout, and less intrusive navigation.
 
 In some respects, the new interface shares qualities with Microsoft’s “Metro” design language, found on Windows Phone and Windows 8. When you consider that some of the [design principles behind Metro][17] include “Clean, Light, Open and Fast,” “Content, Not Chrome,” and “Be Authentically Digital,” it would be hard to argue that these values couldn’t equally apply to web interfaces.
 

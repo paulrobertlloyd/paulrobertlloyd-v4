@@ -25,7 +25,7 @@ The year was abysmal from the start, with fearsome bush fires in Australia, the 
 ![](/media/1580652554.jpg 'George Bradshaw’s gravestone in *Gamlebyen*{lang="no"} graveyard, Oslo.')
 {.align-pull}
 
-Regardless of current affairs, or perhaps because of them, I spent Christmas watching [<cite>Around the World in 80 Days with Michael Palin</cite>][2]. It gave me itchy feet, and I dreamt of a similar adventure, albeit over fewer days. Buying an [Interrail][3] pass would allow me to change plans on a whim. Travelling around Scandinavia during the winter months would inspire captivating journal entries, with thoughtful insights about Europe at the start of this new decade.
+Regardless of current affairs, or perhaps because of them, I spent Christmas watching [""Around the World in 80 Days with Michael Palin""][2]. It gave me itchy feet, and I dreamt of a similar adventure, albeit over fewer days. Buying an [Interrail][3] pass would allow me to change plans on a whim. Travelling around Scandinavia during the winter months would inspire captivating journal entries, with thoughtful insights about Europe at the start of this new decade.
 
 The reality was different. Forgetting everything I had learnt from previous trips, I packed too much into my suitcase, added too many destinations to a 16-day itinerary, and didn’t do enough research beforehand. Sitting for breakfast at my hotel in Copenhagen, I looked across a city obscured by heavy rain and wondered why on earth I was on holiday in January.
 
@@ -61,7 +61,7 @@ Out of the crisis, a sense of community emerged. A WhatsApp group for the street
 
 With the streets emptied of cars (and sky cleared of planes), I made the most of my daily allocation of exercise, [taking photos of Brighton][11] while running to the beach and back. I would end up running further this year than all previous years combined.
 
-Instead of the daily trudge to Pret, I prepared my own sandwiches or got lunch from a local cafe. I made my home office feel more homely, buying plants and completing long overdue DIY tasks. To complete the list of lockdown clichés, I baked several cakes and [recorded a podcast][12]. That said, I still haven’t watched <cite>Tiger King</cite>.
+Instead of the daily trudge to Pret, I prepared my own sandwiches or got lunch from a local cafe. I made my home office feel more homely, buying plants and completing long overdue DIY tasks. To complete the list of lockdown clichés, I baked several cakes and [recorded a podcast][12]. That said, I still haven’t watched ""Tiger King"".
 
 Beyond the constant worry about my parents health, I thoroughly enjoyed the first lockdown. At last, I could indulge in introverted activities without feeling the usual guilt about needing to be outside. Although it felt like Groundhog Day — days passed by with alarming speed — if any day was to be repeated over and over, I didn’t mind too much if it was this one. Foolishly, I welcomed the prospect of a second lockdown. That was until I realised being stuck at home in winter was — is — much less fun.
 
@@ -94,7 +94,7 @@ With a minimal viable service launched towards the end of 2019, I was now on the
 
 I sometimes wonder if things might have been different had the pandemic arrived a year earlier; how would I have dealt working with a group of people I barely knew exclusively via Slack and Zoom? For many on our team, that was their reality. To make up for all this distance, several social activities were organised; a running club on Strava, a monthly book club and various Slack channels in which people shared photos of their desks and culinary creations. Besides the obligatory quizzes, entertainment could be found in Dan’s weekly and often controversial *top3* question — clear favouritism from ‘the judges’ meant Matt rarely won on merit.
 
-Strangely, I found the distance offered by remote working meant I could be more outgoing. Instead of popping my head above a monitor to ask what was going on, often it was me leading the charge. In August my various attempts at entertainment resulted in me getting [the most incredible birthday present][17], a 4-minute video of the team miming to the words of Robbie Williams’ <cite>Angels</cite> (several months later and I’m still in awe). Further cards, mission patches and quizzes followed.
+Strangely, I found the distance offered by remote working meant I could be more outgoing. Instead of popping my head above a monitor to ask what was going on, often it was me leading the charge. In August my various attempts at entertainment resulted in me getting [the most incredible birthday present][17], a 4-minute video of the team miming to the words of Robbie Williams’ ""Angels"" (several months later and I’m still in awe). Further cards, mission patches and quizzes followed.
 
 ![Mission patches on top of the envelope they arrived in.](mission_patches.jpg 'A few of the mission patches (and temporary tattoo) I created and sent out to the team. Photograph: [Stuart Cullum](https://twitter.com/stuart_cullum/status/1331225868639883269)')
 
@@ -108,7 +108,7 @@ Once I was happy with these changes, [attention returned to Indiekit][27]. After
 
 ## Back on the outside
 
-Relaxed restrictions over the summer meant more time could be spent outside — and beyond the realms of Brighton. Getting on a train to London one evening in July was [remarkable in its own right][29], but so was seeing people from work in person for the first time in over 3 months. We met up a few more times after that, our last evening together finishing with a street-based sing-off with a Bulgarian folk choir. Watching Matt and Sarah ‘collaborate’ with them on a performance of <cite>Gold Digga</cite> — I honestly felt like I was in [a movie][30].
+Relaxed restrictions over the summer meant more time could be spent outside — and beyond the realms of Brighton. Getting on a train to London one evening in July was [remarkable in its own right][29], but so was seeing people from work in person for the first time in over 3 months. We met up a few more times after that, our last evening together finishing with a street-based sing-off with a Bulgarian folk choir. Watching Matt and Sarah ‘collaborate’ with them on a performance of ""Gold Digga"" — I honestly felt like I was in [a movie][30].
 
 * ![Mocking Sam’s appearance in the New York Times with Mario and Chris.](/media/1582756201.jpg "Mocking Sam’s appearance in the New York Times with Mario and Chris.")
 * ![Post karaoke, pre street sing-off with Matt, Duncan, Matilde and Sarah.](post_karaoke.jpg "Post karaoke, pre street sing-off with Matt, Duncan, Matilde and Sarah.")
@@ -122,7 +122,7 @@ To celebrate my 40th, Jon suggested we go bikepacking. I’d never heard of this
 * ![Biking with Jon.](jon_and_me.jpg "A break from cycling around the New Forest with Jon in September.")
   {.gallery}
 
-Dating was more difficult than usual but I did end up forging a friendship with (another) Laura. Virtually meeting every Wednesday evening to watch a film together, huge gaps in my cinema knowledge are slowly being filled. Going through a selection of films from each decade, I discovered a fondness for those from the 1950s, or perhaps the films of Alfred Hitchcock, the two seem almost synonymous. Roberto Benigni’s 1997 film <cite>Life is Beautiful</cite> affected me the most, a strangely uplifting film given it’s setting in a Nazi concentration camp.
+Dating was more difficult than usual but I did end up forging a friendship with (another) Laura. Virtually meeting every Wednesday evening to watch a film together, huge gaps in my cinema knowledge are slowly being filled. Going through a selection of films from each decade, I discovered a fondness for those from the 1950s, or perhaps the films of Alfred Hitchcock, the two seem almost synonymous. Roberto Benigni’s 1997 film ""Life is Beautiful"" affected me the most, a strangely uplifting film given it’s setting in a Nazi concentration camp.
 
 ## I ~~survived~~ thrived
 

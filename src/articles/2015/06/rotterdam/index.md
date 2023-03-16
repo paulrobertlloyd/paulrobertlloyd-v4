@@ -39,7 +39,7 @@ Other parts of the city are more human scaled, although even the Cool district, 
 
 ## Waxing Arcs
 
-At the [Museum Boijmans Van Beuningen][8] the work of celebrated Dutch and international artists hang, but the most interesting piece is Richard Serra’s <cite>Waxing Arcs</cite>, two rusty steel arcs that stand in an otherwise empty gallery.
+At the [Museum Boijmans Van Beuningen][8] the work of celebrated Dutch and international artists hang, but the most interesting piece is Richard Serra’s ""Waxing Arcs"", two rusty steel arcs that stand in an otherwise empty gallery.
 
 Their controversial history is told in [a multimedia presentation][9] that projects images onto the floor and onto the piece itself. The work Serra conceived as a reaction to the space it occupied was intended to direct viewers around the space in a specific way. When Wim Crouwel became director of the museum two years after it was installed, this space was enlarged and suddenly Serra’s work had the fortuitous effect of directing people into the museum shop. At one point, it even became part of the entrance foyer, much to the chagrin of its creator. This presentation tells the story of the space, and considers the way works of art can change over time, both as a result of the artist and the whims of those who commission them.
 

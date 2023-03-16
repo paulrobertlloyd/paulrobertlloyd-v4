@@ -23,33 +23,33 @@ One of my reasons for visiting Basel was to see [the extension to its art galler
 
 As I explored the exhibits, I jotted down the artists whose work caught my attention. Reviewing this list some weeks later, I thought I’d share my findings.
 
-![](ruscha.jpg 'Edward Ruscha, <cite>Twentysix Gasoline Stations</cite>, 1963.')
+![](ruscha.jpg 'Edward Ruscha, ""Twentysix Gasoline Stations"", 1963.')
 
-Two of the rooms in the new building were devoted to photography, the first featuring the work of **[Edward Ruscha][4]**. On display was his series [<cite>Twentysix Gasoline Stations</cite>][5], a selection of which can be seen above. Another series, [<cite>Thirtyfour Parking Lots in Los Angeles</cite>][6] was possibly more captivating, not least because his aerial photographs took on a more abstract and alien tone.
+Two of the rooms in the new building were devoted to photography, the first featuring the work of **[Edward Ruscha][4]**. On display was his series [""Twentysix Gasoline Stations""][5], a selection of which can be seen above. Another series, [""Thirtyfour Parking Lots in Los Angeles""][6] was possibly more captivating, not least because his aerial photographs took on a more abstract and alien tone.
 
-![](becher.jpg 'Hilla and Bernd Becher, <cite>Gas Tanks</cite>, 1983-92.')
+![](becher.jpg 'Hilla and Bernd Becher, ""Gas Tanks"", 1983-92.')
 
 The strength of Ruscha’s work comes from a keen focus on a particular subject matter and repetition thereof, but arguably the work of **[Hilla and Bernd Becher][7]** is more successful. This is quite something, when you consider that their photography is trained on Europe’s mundane post-war industrial landscape. Each series is focused on a particular type of building — water towers, coal bunkers, gas tanks — and given a consistent framing, you begin to study which elements are needed for these structures to function, and which are more idiosyncratic in nature.
 
-![](stella.jpg 'Frank Stella, <cite>Demaskus Gate: Variation 1</cite>, 1969–70.')
+![](stella.jpg 'Frank Stella, ""Demaskus Gate: Variation 1"", 1969–70.')
 
-Within the underground foyer that links the old and new buildings, I found more to excite me. I was drawn into this space by **[Frank Stella][8]**’s large and colourful <cite>Demaskus Gate: Variation 1</cite>. The simplicity and abstract nature of this piece, reaffirmed my appreciation for such work. Sat alongside similar pieces from both Stella and other artists, within this space I found it hard to ignore how my brain is wired, certainly in terms of its visual sensibilities.
+Within the underground foyer that links the old and new buildings, I found more to excite me. I was drawn into this space by **[Frank Stella][8]**’s large and colourful ""Demaskus Gate: Variation 1"". The simplicity and abstract nature of this piece, reaffirmed my appreciation for such work. Sat alongside similar pieces from both Stella and other artists, within this space I found it hard to ignore how my brain is wired, certainly in terms of its visual sensibilities.
 
-![](lewitt.jpg 'Sol LeWitt, <cite>All double combinations (superimposed) of six geometric figures (circle, square, triangle, rectangle, trapezoid and parallelogram)</cite>, 1977.')
+![](lewitt.jpg 'Sol LeWitt, ""All double combinations (superimposed) of six geometric figures (circle, square, triangle, rectangle, trapezoid and parallelogram)"", 1977.')
 
 Along the far wall, **[Sol LeWitt][9]**’s arrangement of geometric shapes had been recreated. Not only was this striking, but I thought it worked well as an artistic representation of a front-end component library.
 
-![](albers.jpg 'Josef Albers, <cite>Fugue</cite>, 1925.')
+![](albers.jpg 'Josef Albers, ""Fugue"", 1925.')
 
 The final piece in this foyer that caught my eye was that by **[Josef Albers][10]**. I’m fairly certain I’ve seen Albers work before, but on reviewing [the combined collection of items created by both Josef and wife Anni][11], these are two artists whose work I need to spend more time with.
 
 Moving on to the original building, art of the classical periods was abundant, with a large selection of work from well known artists evident also. Walking round the galleries, it was clear that my A-level in art history hadn’t gone entirely to waste, as I correctly guessed many of the artists before checking the labels next to their work.
 
-![](kirchner.jpg 'Ernst Ludwig Kirchner, <cite>Davos In Snow</cite>.')
+![](kirchner.jpg 'Ernst Ludwig Kirchner, ""Davos In Snow"".')
 
 New to me however was the work of **[Ernst Ludwig Kirchner][12]**, whose blocky and colourful expressionist style was used to describe the appearance of a snow covered Davos. This was one of his many paintings of the Swiss municipality, this being the place that [rekindled his love of art][12], having suffered a much darker existence in his native Berlin.
 
-![](hodler.jpg 'Ferdinand Hodler, <cite>The Dents Blanches In Champéry At The Morning Sun</cite>, 1916.')
+![](hodler.jpg 'Ferdinand Hodler, ""The Dents Blanches In Champéry At The Morning Sun"", 1916.')
 {.align-bleed}
 
 Finally, I was drawn to this painting by **[Ferdinand Hodler][13]**. Again, the expressionist style appealed to me, not least its vivid palette and the contrasting highlights along the mountainside. I’d experiment with this style myself, if I painted. Hmmm, maybe I should start?

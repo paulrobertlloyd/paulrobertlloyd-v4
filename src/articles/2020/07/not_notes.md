@@ -20,9 +20,9 @@ If only so that I can delete the page in my notes app where I’ve been saving t
 
 * Using a mobile phone, in a foreign country, on a train, and trying to pay my taxes before the self assessment deadline. Each payment option presents a challenge. My debit card has been frozen. My bank requires a card reader to set up a new payee. Setting up a direct debit will mean payment arriving after the deadline. Juggling multiple apps and webpages, copying and pasting reference numbers between screens. I’ve never felt so much like a canonical ‘mobile user’.
 
-* The last four series of <cite>Cold Feet</cite> were a bit hit and miss, but while series 9 was one of the best, [now seems like a good time to pause][5]. I’m looking forward to seeing these characters again in their third age of live.
+* The last four series of ""Cold Feet"" were a bit hit and miss, but while series 9 was one of the best, [now seems like a good time to pause][5]. I’m looking forward to seeing these characters again in their third age of live.
 
-* Not sure what’s more concerning. Untold wealth acquired through tax-avoidance and slave labour, or the fact that so many stars from the <cite>Thick of It</cite> have visibly aged so much.
+* Not sure what’s more concerning. Untold wealth acquired through tax-avoidance and slave labour, or the fact that so many stars from the ""Thick of It"" have visibly aged so much.
 
 * Rummaging around in my email archives only to have a certain Mr. Benbow dispense some timely life advice from the beyond the grave. Cocky sod.
 

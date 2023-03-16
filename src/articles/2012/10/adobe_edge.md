@@ -4,7 +4,7 @@ date: 2012-10-06T00:37:42+01:00
 location:
   locality: Brighton
   country_name: England
-summary: Adobe recently announced a new suite a products and services for web developers, called Adobe Edge. <cite>.net Magazine</cite> asked me to provide some thoughts.
+summary: Adobe recently announced a new suite a products and services for web developers, called Adobe Edge. "".net Magazine"" asked me to provide some thoughts.
 category:
   - Adobe
   - Web
@@ -20,7 +20,7 @@ Adobe recently announced a new suite a products and services for web developers,
 
 Recent acquisitions [Typekit][7] and [PhoneGap][8] are also brought under the Edge banner.
 
-Craig Grannell at <cite>.net magazine</cite> had [developers provide their thoughts][9] on this new suite, and his article concludes with a quote from me. The entirety of my contribution was as follows:
+Craig Grannell at "".net magazine"" had [developers provide their thoughts][9] on this new suite, and his article concludes with a quote from me. The entirety of my contribution was as follows:
 
 > With the primacy of its Flash platform coming to end, it looks like Adobe has started to point its ship in the right direction. These new Edge products look promising, although I’m sure there’s much to scrutinise in terms of the code they output. More important however, is the work Adobe is doing to develop and promote new CSS properties, bringing valuable insight regarding page layout and image compositing to the W3C standards process.
 >

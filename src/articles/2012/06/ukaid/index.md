@@ -10,7 +10,7 @@ category:
   - Design
   - Government
 ---
-Andrew Mitchell, the International Development secretary, has [unveiled a new logo][1] that will appear on overseas aid provided by his department; be it grain packets, schools or water pumps. Speaking on the BBC’s <cite>[Andrew Marr Show][2]</cite>:
+Andrew Mitchell, the International Development secretary, has [unveiled a new logo][1] that will appear on overseas aid provided by his department; be it grain packets, schools or water pumps. Speaking on the BBC’s [""Andrew Marr Show""][2]:
 
 > There was a previous logo which cost £100,000 to develop which said ‘aid from the Department for International Development’. We are replacing this at no cost with a flag that is identifiable all around the world to everybody and which says ‘aid from the British people’, which is what it is.
 

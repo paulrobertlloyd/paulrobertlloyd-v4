@@ -7,4 +7,4 @@ category:
   - Space
   - International Space Station
 ---
-Knate Myers stitched together this wonderful time-lapse video, using photographs taken from the International Space Station. The music is <cite>Sunshine (Adagio In D Minor)</cite> by John Murphy.
+Knate Myers stitched together this wonderful time-lapse video, using photographs taken from the International Space Station. The music is ""Sunshine (Adagio In D Minor)"" by John Murphy.

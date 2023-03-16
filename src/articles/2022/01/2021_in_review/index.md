@@ -63,7 +63,7 @@ I liked her, but she had a boyfriend.
 
 I sometimes wonder if a legacy of growing up shorter and younger-looking than my peers is my profound sense of inadequacy. Happy in my own company, I’ll often retreat rather than try to be involved; better to opt out than be left out, right? The pandemic had levelled the playing field. Everyone was in the same boat, and for the first time, I felt like an equal.
 
-It wasn’t surprising then that I should be part of a small WhatsApp group with her and a group of other colleagues. Between the memes we would watch TV shows together – <cite>This Is My House</cite> a particular favourite – or share ideas of things we could do once restrictions had lifted. Spend a weekend in Brighton! Visit a rooftop igloo at a London bar! Attend a music festival! See Duncan’s band! Soon enough we had our very own roadmap out of lockdown and I felt glad to be part of something special.
+It wasn’t surprising then that I should be part of a small WhatsApp group with her and a group of other colleagues. Between the memes we would watch TV shows together – ""This Is My House"" a particular favourite – or share ideas of things we could do once restrictions had lifted. Spend a weekend in Brighton! Visit a rooftop igloo at a London bar! Attend a music festival! See Duncan’s band! Soon enough we had our very own roadmap out of lockdown and I felt glad to be part of something special.
 
 If 2020 was a year of shared despair, 2021 was one of diffused hope. With age determining who would get the vaccine first, people’s perception and acceptance of risk began to diverge, with solidarity giving way to separation. Around the start of April, a few colleagues started going into the office, only to share stories of drinking together the previous evening. As more began dialling in from the office, the more anxious I became. If things were returning to normal, then surely the level playing field I had thrived upon would fall away.
 
@@ -103,13 +103,13 @@ I immediately regretted the second blind date. I’d correctly spotted my date t
 
 ***
 
-Having finally concluded the date, I headed over to a pub in Holborn to deliver my verdict. The final episode of <cite>Line of Duty</cite> was on at 9 pm so we had a deadline.
+Having finally concluded the date, I headed over to a pub in Holborn to deliver my verdict. The final episode of ""Line of Duty"" was on at 9 pm so we had a deadline.
 
 When the conversation moved on to house hunting, every question I asked got an opposite answer to the one I was expecting. Maybe her responses were different because Rachael was here? While she was in the toilet, I tried a line of enquiry with Rachael, one which I was sure would give the game away but it only gave an inconclusive answer.
 
-As we all parted ways, I was faced with a choice: walk with Rachael, where I would reveal all but not get a definitive answer – classic evasion technique – or walk in the opposite direction. This was a real <cite>Sliding Doors</cite> moment. I decided to walk with the girl and tell her how I felt.
+As we all parted ways, I was faced with a choice: walk with Rachael, where I would reveal all but not get a definitive answer – classic evasion technique – or walk in the opposite direction. This was a real ""Sliding Doors"" moment. I decided to walk with the girl and tell her how I felt.
 
-After several weeks of intrigue and misdirection, the conclusion to <cite>Line of Duty</cite> was disappointing and made little sense. The same was true of our conversation.
+After several weeks of intrigue and misdirection, the conclusion to ""Line of Duty"" was disappointing and made little sense. The same was true of our conversation.
 
 ![Stormy weather around the West Pier.](west_pier_storm.jpg 'Stormy weather around the West Pier. 21 May 2021.')
 {.align-bleed}
@@ -259,7 +259,7 @@ I’ve yet to find closure, and perhaps I never will. Such is the nature of grie
 
 ***
 
-After the gig in Islington, I decided to start taking the anti-depressants. I’m happy to report that I am starting to feel like my old self again. Just the other day I launched into a rant about the children’s television show <cite>Bing</cite>, of all things. It felt marvellous.
+After the gig in Islington, I decided to start taking the anti-depressants. I’m happy to report that I am starting to feel like my old self again. Just the other day I launched into a rant about the children’s television show ""Bing"", of all things. It felt marvellous.
 
 I’m working with a new team on another government project and for the first time in our strangely parallel careers, I’m working alongside my best friend Jon. I’ve been beavering away on a slew of projects to help other design teams in government and excited to start talking about them more publicly.
 

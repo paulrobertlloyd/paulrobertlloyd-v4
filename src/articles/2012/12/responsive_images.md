@@ -9,7 +9,7 @@ category:
   - Responsive design
   - Web
 ---
-Earlier today, <cite>24 Ways</cite> (sort of an advent calendar for web designers and developers), [published an article][1] in which I outlined five reasons why I believe two current proposed markup patterns for responsive images are largely redundant.
+Earlier today, ""24 Ways"" (sort of an advent calendar for web designers and developers), [published an article][1] in which I outlined five reasons why I believe two current proposed markup patterns for responsive images are largely redundant.
 
 For those behind these proposals, this was received as an unthinking critique of their commendable work, lacking wider context and oblivious to the finer details that have been debated extensively already. Others, perhaps looking for an instant solution to this vexing problem, focused on one part of the article, and decided the solution is a new image format.
 
@@ -49,7 +49,7 @@ Or, to put it another way, we already have [a field of ponies][9].
 
 ## Web native design
 
-My article should be seen as part of a broader discussion about how much, and what aspects, of our existing practice remain suitable when designing for the web. This is something I covered earlier this year in <cite>[The Web Aesthetic][10]</cite>, although I’m not sure if I’ve conveyed my thinking as clearly as I would like.
+My article should be seen as part of a broader discussion about how much, and what aspects, of our existing practice remain suitable when designing for the web. This is something I covered earlier this year in [""The Web Aesthetic""][10], although I’m not sure if I’ve conveyed my thinking as clearly as I would like.
 
 Perhaps the most important line in my article was this:
 

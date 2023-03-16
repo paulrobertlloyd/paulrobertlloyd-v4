@@ -16,7 +16,7 @@ A lot has happened in the intervening years. Whilst membership hasn’t grown ma
 
 ## Our next event
 
-<cite>The Multipack Presents: Rich Internet Apps</cite> features [Nick Harewood][9] talking about Microsoft Silverlight whilst [Bruce Lawson][10] returns to give us an update on HTML5. Meanwhile Si has promised to bring along some birthday cake, whilst me, Jon and possibly Chris will hopefully be in attendance so as to reunite all four founding members.
+""The Multipack Presents: Rich Internet Apps"" features [Nick Harewood][9] talking about Microsoft Silverlight whilst [Bruce Lawson][10] returns to give us an update on HTML5. Meanwhile Si has promised to bring along some birthday cake, whilst me, Jon and possibly Chris will hopefully be in attendance so as to reunite all four founding members.
 
 So be sure to join us next Saturday, the 17th of October. As usual, the event kicks of at The Old Crown pub at 2pm, before moving to the offices of [One Black Bear][11] at 4pm. You can find further details on [Upcoming][12].
 

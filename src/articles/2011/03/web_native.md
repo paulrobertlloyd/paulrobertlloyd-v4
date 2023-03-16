@@ -37,7 +37,7 @@ There are three particular aspects of the web that I think make it unique:
 
 * **Systematic:** Fundamentally the web is a technology, borne of logic, rules and systems. There are key concepts such as URLs and hypertext that we need to both understand and design for. The web is not just a visual medium either, indeed it’s quite possible that most content isn’t consumed by humans at all — think of Google’s spidering tools, or assistive tools such as screen readers. None of these pay any credence to the visual design.
 
-In his article <cite>A Dao of Web Design</cite>, [Jon Allsopp wrote][7]:
+In his article ""A Dao of Web Design"", [Jon Allsopp wrote][7]:
 
 > It’s time to throw out the rituals of the printed page, and to engage with the medium of the web and its own nature.
 

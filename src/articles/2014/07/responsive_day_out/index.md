@@ -20,7 +20,7 @@ Last Friday I attended [Responsive Day Out 2][1], follow-up to last year’s eve
 
 There was one change to last year’s format: the event concluded with [an hour-long keynote by Ethan Marcotte][3], who used his talk to advocate laziness — or rather discourage the building of overly complex systems. Using an example from his work on Editorially, Ethan explained that by using the `nth-child` selector in CSS, he could create a simple grid without using a pre-existing grid framework. There’s no shortage of responsive frameworks, each promising to make a developer’s life easier, but are they always that helpful?
 
-Ethan proposed the development of a broader framework, one that guides the work we do. He referenced [the twelve basic principles of animation][4] as developed by Frank Thomas and Ollie Johnston at Walt Disney’s studio during the 1930s. These were described in their book <cite>The Illusion of Life</cite>, and beautifully animated by Cento Lodigiani:
+Ethan proposed the development of a broader framework, one that guides the work we do. He referenced [the twelve basic principles of animation][4] as developed by Frank Thomas and Ollie Johnston at Walt Disney’s studio during the 1930s. These were described in their book ""The Illusion of Life"", and beautifully animated by Cento Lodigiani:
 
 [Watch ‘The illusion of life’ on Vimeo](https://vimeo.com/93206523)
 
@@ -32,7 +32,7 @@ This begged the question: what principles might apply to responsive web design? 
 
 What is responsive web design if not an attempt to treat users with respect? In adopting this practice, we no longer dictate how websites should be viewed but have moved towards a more discursive approach, one that is adaptive to user needs. Yet this responsibility should extend beyond concerns about page layout; performance and accessibility are just as important (if not more so) as these aspects actively limit who can and can’t access the products we’re building.
 
-This principle was explored in surprisingly great detail (especially given the 20 minute time limit) by **Sally Jenkinson** in her talk <cite>[More Than Media Queries][5]</cite>. Every choice we make will impact the user to some degree, so we should bare in mind the ethical consequences of our decisions.
+This principle was explored in surprisingly great detail (especially given the 20 minute time limit) by **Sally Jenkinson** in her talk [""More Than Media Queries""][5]. Every choice we make will impact the user to some degree, so we should bare in mind the ethical consequences of our decisions.
 
 The following day it was revealed the extent to which [a Facebook survey had deliberately manipulated users emotions][6]. If ever there was a sign that our industry needs to take ethics more seriously, this was it. (If you want an introduction to this topic, I suggest watching [Cennydd Bowles’ talk][7] from earlier this year.)
 
@@ -54,7 +54,7 @@ Given the diverse and unpredictable landscape we support, our work involves a gr
 
 **Rachel Andrew** gave [an overview of the new CSS Grids module][13]. Currently only implemented in Chrome Canary (and enabled behind a feature flag), once widely supported, this module will allow us to truly separate presentation from content; no longer will we need worry about source order. Knowing this might influence a decision regarding HTML semantics versus layout complexity.
 
-I’m reminded of Jason Grigsby’s approach to responsive images. His <cite>[8 guidelines and 1 rule][14]</cite> balance the reality of browser support for a responsive image solution today with a eye to the future where responsive images are a solved problem.
+I’m reminded of Jason Grigsby’s approach to responsive images. His [""8 guidelines and 1 rule""][14] balance the reality of browser support for a responsive image solution today with a eye to the future where responsive images are a solved problem.
 
 Pragmatism was certainly the theme behind  **Inayaili de León**’s [talk][15]. At Ubuntu, her team needed to make their existing site responsive without changing its design or content. Familiar patterns emerged: the project was achieved by tackling it in smaller parts, with a focus on creating reusable components.
 

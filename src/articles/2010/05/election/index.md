@@ -42,7 +42,7 @@ Is it the right decision to start cutting this year whilst we are slowly exiting
 Whilst the Big Society sounds like a great idea, dig a little deeper and the policies that contribute to it soon start to fall apart. For example, the idea to allow local referendums. The Conservative manifesto states:
 
 > We want to give individuals more direct control over how they are governed. So, mirroring our reforms at the national level, we will give residents the power to instigate local referendums on any local issue if 5 per cent of the local population sign up, and they will also be able to veto any proposed high council tax increases.
-— <cite>Conservative Manifesto 2010</cite>, page 75
+— ""Conservative Manifesto 2010"", page 75
 
 David Cameron talked about this policy being based on the proposition system used in California. I assume he was hoping mention of this sunny American state would be enough to persuade voters, but it’s this system that has seen California’s budget become increasingly ring-fenced from successive ballot measures and contributed to its bankruptcy.
 
@@ -63,7 +63,7 @@ With a BBC Charter renewal process to begin within the lifetime of the next Parl
 Finally, at a time when the country has an appetite for electoral reform and greater accountability of politicians to the electorate, it is only the Conservative party that advocates *less* representation, suggesting the number of MPs be reduced, and the size of constituencies increased (no doubt to their own benefit). Their manifesto states:
 
 > We support the first-past-the-post system for Westminster elections because it gives voters the chance to kick out a government they are fed up with.
-— <cite>Conservative Manifesto 2010</cite>, page 67
+— ""Conservative Manifesto 2010"", page 67
 
 When the current poll ratings suggest that Labour could come third in the popular vote, yet return to Parliament with a greater number of seats, this confirms the level of fantasy contained within their manifesto.
 

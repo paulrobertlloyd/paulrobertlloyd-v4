@@ -55,7 +55,7 @@ The relative success of other online stores — Amazon being the most notable an
 The increasing use of Flash on websites has also sparked a debate as to whether it discourages usability. An expert in this field, Jakob Nielsen, is one person who thinks many designers are abusing Flash:
 
 > It’s poorly integrated into the hypertext medium, because you end up with two navigation spaces. You have the page navigation which is traditional hypertext, enabling you to click here to get to the next page, and click the back button to get to the previous one. But then you have the Flash navigation, which sort of sits inside of that other navigation — so if you click the back button, the entire Flash thing resets.
-— Jakob Nielsen, interview in <cite>Cre@teOnline</cite> magazine, September 2000
+— Jakob Nielsen, interview in ""Cre@teOnline"" magazine, September 2000
 
 He has other concerns with the way designers use Flash, such as the use of non-standard navigation elements in their work, meaning that most users miss them or get confused, and how by designers insisting on the using Flash, distracts them from concentrating on a sites core values.
 
@@ -98,13 +98,13 @@ From the areas of discussion above, it would seem there are two main issues. The
 
 ## References
 
-* Boer, L, Strengholt, G and Velthoven, W (1997). <cite>Website Graphics: the best of global site design</cite>. New York: Thames and Hudson Inc.
-* Burgoyne, P and Faber, L (1999). <cite>Reload: Browser 2.0: The Internet Design Project</cite>. London: Laurance King
-* Dredge, S (2000, September). Interview with Jakob Nielsen. <cite>Cre@teOnline</cite>, 26-29
-* Drew, K (2000, August). Remote Control — Diary of a Launch: MTV2. <cite>Cre@teOnline</cite>, 36-40
-* Franklin, D and Patton, B (2000). <cite>Flash 4! Creative Web Animation</cite>. San Francisco: Macromedia Press
-* Nielsen, J (2000, October 29). [Flash: 99% Bad](https://web.archive.org/web/20010603203612/http://www.useit.com:80/alertbox/20001029.html). <cite>Useit.com</cite>
-* Ward, M (2000, May 18). [From Boo.com to Boo.gone](http://news.bbc.co.uk/hi/english/business/newsid_753000/753782.stm). <cite>BBC News Online</cite>
+* Boer, L, Strengholt, G and Velthoven, W (1997). ""Website Graphics: the best of global site design"". New York: Thames and Hudson Inc.
+* Burgoyne, P and Faber, L (1999). ""Reload: Browser 2.0: The Internet Design Project"". London: Laurance King
+* Dredge, S (2000, September). Interview with Jakob Nielsen. ""Cre@teOnline"", 26-29
+* Drew, K (2000, August). Remote Control — Diary of a Launch: MTV2. ""Cre@teOnline"", 36-40
+* Franklin, D and Patton, B (2000). ""Flash 4! Creative Web Animation"". San Francisco: Macromedia Press
+* Nielsen, J (2000, October 29). [Flash: 99% Bad](https://web.archive.org/web/20010603203612/http://www.useit.com:80/alertbox/20001029.html). ""Useit.com""
+* Ward, M (2000, May 18). [From Boo.com to Boo.gone](http://news.bbc.co.uk/hi/english/business/newsid_753000/753782.stm). ""BBC News Online""
 
 [1]: http://news.bbc.co.uk/
 [2]: http://useit.com/

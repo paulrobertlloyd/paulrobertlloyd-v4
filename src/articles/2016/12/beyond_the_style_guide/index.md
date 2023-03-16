@@ -25,7 +25,7 @@ In straddling the realms of graphic design and programming, it’s the point at 
 
 In our rush to build modular systems, design frameworks have grown in popularity. While enabling quick assembly, these come at the cost of originality and creative expression — perhaps one reason why we’re seeing the [homogenisation of web design][5].
 
-In editorial design, layouts should accentuate content and present it in an engaging manner. Yet on the web we see a practice that seeks templated predictability. In <cite>[Design Machines][6]</cite> Travis Gertz argued that (emphasis added):
+In editorial design, layouts should accentuate content and present it in an engaging manner. Yet on the web we see a practice that seeks templated predictability. In [""Design Machines""][6] Travis Gertz argued that (emphasis added):
 
 > Design systems still feel like a novelty in screen-based design. We nerd out over grid systems and modular scales and obsess over style guides and pattern libraries. We’re pretty good at using them to build repeatable components and site-wide standards, but that’s sort of where it ends. […] **But to stop there is to ignore the true purpose and potential of a design system.**
 

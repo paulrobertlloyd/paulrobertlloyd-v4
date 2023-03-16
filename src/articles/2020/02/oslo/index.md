@@ -141,9 +141,9 @@ On *Hovedøya*{lang="no"}, I’m struck by how quiet and empty this small island
 ![](anker_brygge.jpg 'A glorious sunset over the ferry terminal at *Anker Brygge*{lang="no"}.')
 {.align-bleed}
 
-Back on the mainland, the sun is setting in glorious fashion, but there’s time enough to see one last attraction. I get the number 12 tram from *Anker Brygge*{lang="no"} to *Vigelandsparken*{lang="no"}, the stop for the elegantly landscaped [Frogner Park][21]. This is home to the Vigeland installation; 212 bronze and granite sculptures designed by [Gustav Vigeland][22]. The largest of these is the tall phallic <cite>Monolith</cite>, which sits upon a raised platform in the centre of the park. With the ground still covered by snow, the park reflects the awe-inspiring twilight whose gradient transitions from a warm yellow to a vibrant pink and a vivid purple. This is a moment to savour, though with the temperature plummeting, I’m relieved that it’s only fleeting.
+Back on the mainland, the sun is setting in glorious fashion, but there’s time enough to see one last attraction. I get the number 12 tram from *Anker Brygge*{lang="no"} to *Vigelandsparken*{lang="no"}, the stop for the elegantly landscaped [Frogner Park][21]. This is home to the Vigeland installation; 212 bronze and granite sculptures designed by [Gustav Vigeland][22]. The largest of these is the tall phallic ""Monolith"", which sits upon a raised platform in the centre of the park. With the ground still covered by snow, the park reflects the awe-inspiring twilight whose gradient transitions from a warm yellow to a vibrant pink and a vivid purple. This is a moment to savour, though with the temperature plummeting, I’m relieved that it’s only fleeting.
 
-![](frogner_park.jpg 'Gustav Vigeland’s <cite>Monolith</cite> in Frogner Park.')
+![](frogner_park.jpg 'Gustav Vigeland’s ""Monolith"" in Frogner Park.')
 {.align-bleed}
 
 ## Day 13

@@ -68,7 +68,7 @@ His next initiative was to commission a proprietary typeface the company could u
 
 Johnston sought inspiration for his typeface from hand drawn letters he had seen on the side of a tradesmen’s wagon, and its introduction proved to be a dramatic change. While his contemporaries derided his creation as a betrayal of well-designed lettering, by the centenary of its introduction in 2016, ‘London’s handwriting’ was being widely [celebrated by the design community][1].
 
-![](pick_posters.jpg 'A selection of posters commissioned by Frank Pick. <cite>Brightest London is Best Reached by Underground</cite> (Horace Taylor, 1924), <cite>Trooping the Colour</cite> (Margaret Calkin-James, 1932) and <cite>For the Zoo Book to Regent’s Park</cite> (Charles Paine, 1921).')
+![](pick_posters.jpg 'A selection of posters commissioned by Frank Pick. ""Brightest London is Best Reached by Underground"" (Horace Taylor, 1924), ""Trooping the Colour"" (Margaret Calkin-James, 1932) and ""For the Zoo Book to Regent’s Park"" (Charles Paine, 1921).')
 {.align-bleed}
 
 As UERL merged with its competitors to become the Underground Group, Pick rose through the ranks, and his influence grew. In 1927 he commissioned the architect Charles Holden to design a new head office at 55 Broadway, as well as a series of new stations for the extended Piccadilly line. By 1933, when the capital’s transit companies were combined into a public body — the London Passenger Transport Board — Pick was appointed its chief executive.
@@ -97,7 +97,7 @@ When designing for others, be they the residents of a city, passengers on a tran
 [1]: https://www.creativereview.co.uk/tfl-celebrates-centenary-of-the-johnston-typeface-with-new-poster-campaign/
 [2]: http://www.londonreconnections.com/2011/the-future-of-the-overground-part-3-oranges-are-not-the-only-fruit/
 
-[^1]: <cite>[The Shock of the New: Trouble in Utopia](https://www.youtube.com/watch?v=C04JZsoqs1A)</cite>, BBC2, 12 October 1980.
+[^1]: [""The Shock of the New: Trouble in Utopia""](https://www.youtube.com/watch?v=C04JZsoqs1A), BBC2, 12 October 1980.
 
 *[UNESCO]: United Nations Educational, Scientific and Cultural Organization
 *[UERL]: Underground Electric Railways of London

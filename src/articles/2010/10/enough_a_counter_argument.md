@@ -28,7 +28,7 @@ Kris’ points were as follows:
 
 These are reasonable points, but I’d suggest they are no less valid if I delayed my upgrade by another year.
 
-Indeed, this debate reminded me of <cite>The Story of Stuff</cite> and the cyclical nature of our consumer driven society, where profit is valued over the longterm sustainability of our planet. I’ve embedded the video below, and I encourage you to watch it too.
+Indeed, this debate reminded me of ""The Story of Stuff"" and the cyclical nature of our consumer driven society, where profit is valued over the longterm sustainability of our planet. I’ve embedded the video below, and I encourage you to watch it too.
 
 [Watch ‘The Story of Stuff’ on YouTube](https://www.youtube.com/watch?v=9GorqroigqM)
 

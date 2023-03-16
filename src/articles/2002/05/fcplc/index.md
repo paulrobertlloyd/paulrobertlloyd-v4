@@ -38,7 +38,7 @@ This relationship was to deteriorate after the Second World War with the breakdo
 
 The re-distributive nature of the Football League (matched by the maximum wage) ensured the safeguarding of every club. Very few clubs went out of business over the course of a century, and these measures alongside The FA’s Rule 34, ensured the games popularity and survival. The sixties saw the first signs of sponsorship and television entering football. Whilst the bigger clubs were more attractive to sponsors and likely to attract a greater number of television viewers, the Football League maintained its re-distributive structure meaning all revenue was shared equally among 92 clubs.
 
-In 1965, the BBC paid £5,000 for its <cite>Match of the Day</cite> highlights and each club received little more than £50 as a result. As money grew with the success of the game, resentment came from bigger clubs, most headed with a new breed of chairman not keen on having to share the wealth with the smaller clubs. The first threats to the structure of the league came during the 80’s. Threats from ‘the big five’: Manchester United, Liverpool, Tottenham Hotspur, Everton and Arsenal to form a breakaway ‘Super League’ lead to concessions being given by the smaller clubs with more money and voting rights given to bigger clubs. The gate levy was also reduced to 3% with home clubs allowed to keep gate receipts. 1988 saw a private deal made between the big five and ITV to get themselves shown almost exclusively on television. However there remained an element of redistribution: Division One received 50%, Division Two received 25%, with the remainder shared between the Third and Fourth Divisions.
+In 1965, the BBC paid £5,000 for its ""Match of the Day"" highlights and each club received little more than £50 as a result. As money grew with the success of the game, resentment came from bigger clubs, most headed with a new breed of chairman not keen on having to share the wealth with the smaller clubs. The first threats to the structure of the league came during the 80’s. Threats from ‘the big five’: Manchester United, Liverpool, Tottenham Hotspur, Everton and Arsenal to form a breakaway ‘Super League’ lead to concessions being given by the smaller clubs with more money and voting rights given to bigger clubs. The gate levy was also reduced to 3% with home clubs allowed to keep gate receipts. 1988 saw a private deal made between the big five and ITV to get themselves shown almost exclusively on television. However there remained an element of redistribution: Division One received 50%, Division Two received 25%, with the remainder shared between the Third and Fourth Divisions.
 
 ### The Hillsborough disaster
 
@@ -62,7 +62,7 @@ The government however only enacted on the all-seater requirement and the giving
 
 ### Premier League formation
 
-As its response to the disaster and answering Lord Taylor’s call for a full reassessment of the game, and anticipating the forthcoming TV deal, the Football League published <cite>One game, One Team, One Voice</cite>. It recommended:
+As its response to the disaster and answering Lord Taylor’s call for a full reassessment of the game, and anticipating the forthcoming TV deal, the Football League published ""One game, One Team, One Voice"". It recommended:
 
 * FA and League should bury the differences that had grown between them, and become a single authority,
 
@@ -74,7 +74,7 @@ As its response to the disaster and answering Lord Taylor’s call for a full re
 
 It was around this time that Rupert Murdoch’s Sky satellite television system had been launched in the UK, but with nothing to tempt viewers, it was a tremendously under subscribed and close to going bankrupt. It knew only football could attract viewers, and was prepared to spend big in order to attract the sport to the platform. Such lucrative offers made a breakaway from the money sharing Football League far more tempting and it wasn’t long before the ‘big five’ chairman met in secret with Greg Dyke (then at LWT) who agreed to buy television rights if they were to form a breakaway ‘Super League’. But if they were to gain credibility for the breakaway they would need the backing of The FA.
 
-The Football Association at this time was preparing its own response to Hillsborough — its <cite>Blueprint for the Future of Football</cite> published in 1991. It saw unity as a threat to its administrative pre-eminence and so supported the formation of the breakaway league as a means of self-preservation that would also deal a fatal blow to the Football league. The report in essence:
+The Football Association at this time was preparing its own response to Hillsborough — its ""Blueprint for the Future of Football"" published in 1991. It saw unity as a threat to its administrative pre-eminence and so supported the formation of the breakaway league as a means of self-preservation that would also deal a fatal blow to the Football league. The report in essence:
 
 * no longer protected football from commercialism,
 
@@ -101,20 +101,20 @@ As for the grassroots of the game, where tomorrows players are to be found, ther
 
 1997 saw the country elect a new Labour government who recognised that commercialism was damaging football. It set-up a task force to enquire into various issues affecting the game formed by supporters, governing bodies, public figures and informed academics. This mix sometimes meant it was hard to achieve consensus, especially with members of the Premier League. The task force produced four reports:
 
-1. <cite>Eliminating Racism from Football</cite>
+1. ""Eliminating Racism from Football""
    Published on March 30th 1998, this report lead to racist chanting being made criminal offence.
 
-2. <cite>Improving facilities for Disabled Supporters</cite>
+2. ""Improving facilities for Disabled Supporters""
    Published on July 29th 1998, this report ensured disabled facilities were now compulsory at all grant-aided ground developments.
 
-3. <cite>Investing in Community</cite>
+3. ""Investing in Community""
    Published on January 11th 1999, this report lead to two bodies being formed:
 
    * Supporters Direct — A government backed initiative set up with £750,000 budget that would encourage supporters to buy and hold football clubs shares mutually.
 
    * Football Foundation — A body to administer spending of 5% of the Premier Leagues television revenue (£80m over 3 years) matched by lottery grants, to spend on grass roots football facilities.
 
-4. <cite>Commercial Issues</cite>
+4. ""Commercial Issues""
    This area of enquiry reported back on December 22nd 1999, but with little agreement between various parties lead to two separate reports being produced. The majority report favouring an audit commission and ombudsman but football’s governing bodies unsurprisingly preferred a system of self-regulation. The government facing pressure from the Premier League supported this report which led to the creation of the Independent Football Commission. This body would oversee the running of football in commercial areas such as ticket prices and merchandising, but only with the power to ‘name and shame’ bad practice.
 
 ### Football Foundation

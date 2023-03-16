@@ -94,7 +94,7 @@ The most important aspect is for a name to be understandable. Words used in your
   Industries often use specific terms to describe common business practices and concepts. Publishing has [a number of these][9] (*headline*, *standfirst*, *masthead*, *colophon*…) all have well understood meanings — and not all of them are relevant to online usage.
 
 * **Organisation**
-  Companies may have internal names (or nicknames) for their products and services. <cite>The Guardian</cite> is rife with such names: [*bisons*][10]: (and *buffalos*), *pixies* (and *super-pixies*), *bentos* (and *mini-bentos*)… all of which mean something very different outside the organisation. Although such names can be useful inside smaller teams, in larger organisations they can become a barrier to entry, a sort of secret code used among employees who have been around long enough to know what they mean.
+  Companies may have internal names (or nicknames) for their products and services. ""The Guardian"" is rife with such names: [*bisons*][10]: (and *buffalos*), *pixies* (and *super-pixies*), *bentos* (and *mini-bentos*)… all of which mean something very different outside the organisation. Although such names can be useful inside smaller teams, in larger organisations they can become a barrier to entry, a sort of secret code used among employees who have been around long enough to know what they mean.
 
 * **Product**
   Your team will undoubtedly have created names for specific features or interface components used in your product. For example, at Clearleft we coined the term *gravigation* for a navigation bar that was pinned to the bottom of the viewport. Elements of a visual design language may have names, too. Transport for London’s bar and circle logo is known internally as the [*roundel*][11], while Nike’s logo is called the [*swoosh*][12]. Branding agencies often christen colours within a brand palette, too, either to evoke aspects of the identity or to indicate intended usage.
@@ -111,7 +111,7 @@ One way of knowing if the names you use are well understood is to look at what s
 
 While we’ve learned to avoid using presentational classes, there remains a tension between naming things based on their content, and naming them for their intended presentation or behaviour (which may change at different breakpoints). Rather than think about a component’s appearance or behaviour, instead look to its function, its purpose. To clarify, ask what a component’s function is, and not how the component functions.
 
-For example, <cite>The Guardian</cite>’s internal content system uses the following names for different types of image placement: *supporting*, *showcase* and *thumbnail*, with *inline* being the default. These options make no promise of the resulting position on a webpage (or smartphone app, or television screen…), but do suggest intended use, and therefore imply the likely presentation.
+For example, ""The Guardian""’s internal content system uses the following names for different types of image placement: *supporting*, *showcase* and *thumbnail*, with *inline* being the default. These options make no promise of the resulting position on a webpage (or smartphone app, or television screen…), but do suggest intended use, and therefore imply the likely presentation.
 
 ### Consistent
 
@@ -157,7 +157,7 @@ Names should be as long as required, but no longer. When looking for words to de
 
 Finally, names can be an opportunity to have some fun! Names can give character to a project, be it by providing an outlet for in-jokes or adding little easter eggs for those inclined to look.
 
-The copyright statement on Apple’s website has long been named *sosumi*, a word that has [a nice little history inside Apple][17]. Until recently, the hamburger menu icon on <cite>The Guardian</cite> website was labelled *honest-burger*, after the developer’s favourite burger restaurant.
+The copyright statement on Apple’s website has long been named *sosumi*, a word that has [a nice little history inside Apple][17]. Until recently, the hamburger menu icon on ""The Guardian"" website was labelled *honest-burger*, after the developer’s favourite burger restaurant.
 
 ## A few thoughts on preprocessors
 

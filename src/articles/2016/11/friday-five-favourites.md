@@ -13,7 +13,7 @@ tags:
 ---
 ## 1. Cold Feet
 
-A comedy-drama broadcast between 1997 and 2003, this September saw [the return of <cite>Cold Feet</cite>][1] to British screens. Comparisons with <cite>Friends</cite> where often made during its original run, yet it somehow passed me by. This time round I was unexpectedly hooked, so after the latest series finished, I decided to watch [the first five][2]. [Mike Bullen’s story begins][3] just as mobile phones are becoming mainstream, and finishes while the Internet is still a novelty. There’s a dissonance watching these early episodes; a contemporary screenplay takes place among nascent technologies that now appear dated, yet by the end I was longing for their return. Simpler times.
+A comedy-drama broadcast between 1997 and 2003, this September saw [the return of ""Cold Feet""][1] to British screens. Comparisons with ""Friends"" where often made during its original run, yet it somehow passed me by. This time round I was unexpectedly hooked, so after the latest series finished, I decided to watch [the first five][2]. [Mike Bullen’s story begins][3] just as mobile phones are becoming mainstream, and finishes while the Internet is still a novelty. There’s a dissonance watching these early episodes; a contemporary screenplay takes place among nascent technologies that now appear dated, yet by the end I was longing for their return. Simpler times.
 
 ## 2. The Beauty of Transport
 

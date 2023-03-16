@@ -34,11 +34,11 @@ When the British Tourist Authority (BTA) announced that it was to rebrand itself
 
 ## New Labour, new Britain
 
-Aware of Britain’s identity problem, the Design Council assembled a discussion group that included well-known names from the world of broadcasting, business, film, journalism and design (Alan Yentob, Robert Ayling, Sir David Puttnam, John Hegarty). The results were released in a discussion paper entitled <cite>New Brand for a New Britain</cite> which called for the government to position Britain “as one of the world’s most forward-thinking, innovative and creative nations”.
+Aware of Britain’s identity problem, the Design Council assembled a discussion group that included well-known names from the world of broadcasting, business, film, journalism and design (Alan Yentob, Robert Ayling, Sir David Puttnam, John Hegarty). The results were released in a discussion paper entitled ""New Brand for a New Britain"" which called for the government to position Britain “as one of the world’s most forward-thinking, innovative and creative nations”.
 
 It was published on the day the Labour Party came into power. This was a party that had seen the benefits of its own ‘New Labour’ rebranding exercise, winning the general election with a commanding majority. If any government was going to take notice of this reports findings, it would be this one.
 
-The Design Council commissioned Demos to produce a report on how we might rethink our nations identity. The Mark Leonard authored report <cite>Britain™: Renewing our Identity</cite> suggested that Britain’s image could be changed simply by rebranding itself.
+The Design Council commissioned Demos to produce a report on how we might rethink our nations identity. The Mark Leonard authored report ""Britain™: Renewing our Identity"" suggested that Britain’s image could be changed simply by rebranding itself.
 
 He suggested six stories about where the country had been and were it was going which would form an important part of the nations identity:
 
@@ -79,7 +79,7 @@ As a means of promoting British design, technology, and innovation around the wo
 
 ![](mp_eurostar.jpg 'The Eurostar train was a Millennium Product.')
 
-Other initiatives involved the Foreign Office setting up ‘Panel 2000’: an advisory group tasked to look at how the government could co-ordinate and improve its promotion of Britain abroad and the production of a video <cite>Designers for the World</cite> that would showcase Britain’s leading designers. It also launched the award winning <cite>Planet Britain</cite> website that promoted a contemporary image of Britain to 16-25 year olds around the world.
+Other initiatives involved the Foreign Office setting up ‘Panel 2000’: an advisory group tasked to look at how the government could co-ordinate and improve its promotion of Britain abroad and the production of a video ""Designers for the World"" that would showcase Britain’s leading designers. It also launched the award winning ""Planet Britain"" website that promoted a contemporary image of Britain to 16-25 year olds around the world.
 
 It is still to early to tell whether this will make a difference to our image abroad, but at least there is now co-ordination in promoting the country, and design is playing an important part.
 

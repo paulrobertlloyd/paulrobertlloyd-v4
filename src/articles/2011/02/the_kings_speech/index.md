@@ -14,9 +14,9 @@ category:
 ![](the_kings_speech.jpg 'Colin Firth in The King’s Speech.')
 {.align-bleed}
 
-However you wish to measure it, <cite>[The King’s Speech][1]</cite> is undoubtedly one of the most successful independent British films ever made. Fascinated by 20th century history, [I had been looking forward to this film][2] since last October, but didn’t imagine it achieving much wider appeal. However, some see such popularity as problematic given the artistic licence given to the events portrayed.
+However you wish to measure it, [""The King’s Speech""][1] is undoubtedly one of the most successful independent British films ever made. Fascinated by 20th century history, [I had been looking forward to this film][2] since last October, but didn’t imagine it achieving much wider appeal. However, some see such popularity as problematic given the artistic licence given to the events portrayed.
 
-This period of history appears to be enjoying a renaissance in both film and on television. The BBC’s revival of <cite>[Upstairs, Downstairs][3]</cite>, a popular drama [that first aired in the 1970s][4] returned at Christmas, with this latest series also set during the events of the addiction crisis. Indeed, many of those mentioned in this film were seen dining at 165 Eaton Place.
+This period of history appears to be enjoying a renaissance in both film and on television. The BBC’s revival of [""Upstairs, Downstairs""][3], a popular drama [that first aired in the 1970s][4] returned at Christmas, with this latest series also set during the events of the addiction crisis. Indeed, many of those mentioned in this film were seen dining at 165 Eaton Place.
 
 As if to highlight this overlap, the first scene of the King’s Speech depicts a BBC Radio Announcer carefully readying himself prior to introducing the closing ceremony of the Empire Exhibition in 1925. This announcer was [Adrian Scarborough][5], who also played Mr. Pritchard in Upstairs, Downstairs.
 
@@ -34,7 +34,7 @@ Helena Bonham Carter’s performance as Bertie’s wife Elizabeth is also worthy
 
 The performance that stands out the most though is that of Churchill. Played by Timothy Spall, his character chews up the scenery which only serves to highlight the historical inaccuracies this presents.
 
-It’s often said that Hollywood has little regard for respecting the details of history (U571 and Braveheart immediately come to mind), but it would seem British filmmakers are just as guilty. In his article, <cite>[Churchill Didn’t Say That][6]</cite>, Christopher Hitchens attempts to debunk the myth of Churchill:
+It’s often said that Hollywood has little regard for respecting the details of history (U571 and Braveheart immediately come to mind), but it would seem British filmmakers are just as guilty. In his article, [""Churchill Didn’t Say That""][6], Christopher Hitchens attempts to debunk the myth of Churchill:
 
 > Churchill had helped build a lobby, with strong grassroots support, against Neville Chamberlain’s collusion with European fascism. The group had the resonant name of Arms and the Covenant. Yet, as the abdication crisis deepened in 1936, Churchill diverted himself from this essential work — to the horror of his colleagues — in order to involve himself in keeping a pro-Nazi playboy on the throne.
 
@@ -58,7 +58,7 @@ A further rebuttal comes from SC Johnson [in his letter to the Guardian][11]:
 
 > As Mr Hitchens points out in the article, it is not as if a king can campaign against his own government. If George VI was wrong to mistrust Churchill, how much more wrong would he have been to criticise a popular and powerful prime minister at his peak?
 
-So whilst the Royal Family supported the policy of appeasement, there remains a debate as to the reasons for doing so. These themes are more readily explored in Stephen Poliakoff’s film <cite>[Glorious ’39][12]</cite>, were support for appeasement amongst the upper classes takes a more sinister turn. I’d recommend this film for anyone eager to learn more about this dark period in British history.
+So whilst the Royal Family supported the policy of appeasement, there remains a debate as to the reasons for doing so. These themes are more readily explored in Stephen Poliakoff’s film [""Glorious ’39""][12], were support for appeasement amongst the upper classes takes a more sinister turn. I’d recommend this film for anyone eager to learn more about this dark period in British history.
 
 It’s also been questioned whether George VI’s speech was actually cured at all. The family of BBC engineer David Martin say he was [asked to edit the King’s wartime speeches][13], to take out the stammer and make his speeches more fluent.
 
@@ -68,7 +68,7 @@ Whenever such a film finds popularity there are always those ready to debate whe
 
 Should the film have given a detailed yet undramatic history lesson, or entertained us enough to promote an interested in the story? The later can only be achieved by providing a compelling enough story, one that can attract audiences and begin a dialogue. Given my renewed interest in the topic, alongside the reassessments and debates in the press, it would appear the film achieved all it needed to.
 
-I can only hope that Phyllida Lloyd’s upcoming biopic of Margaret Thatcher, <cite>[The Iron Lady][14]</cite>, will attract similar critical retrospection and debate.
+I can only hope that Phyllida Lloyd’s upcoming biopic of Margaret Thatcher, [""The Iron Lady""][14], will attract similar critical retrospection and debate.
 
 [1]: http://www.kingsspeech.com/
 [2]: https://twitter.com/paulrobertlloyd/status/28400458319

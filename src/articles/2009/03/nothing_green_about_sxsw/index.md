@@ -18,11 +18,11 @@ These are just some of the thousands of Big Bags offered to each conference atte
 
 * 17 various sized flyers for software products, websites and events taking place during the week,
 * 4 stickers,
-* A Microsoft <cite>Silverlight Essentials</cite> CD (containing content that could be downloaded from the internet),
+* A Microsoft ""Silverlight Essentials"" CD (containing content that could be downloaded from the internet),
 * 4 magazines (most of which are old issues), whose combined weight is several pounds,
 * The conference programme,
-* <cite>The Austin Chronicle</cite> (included regardless of the fact you already have a copy, the newspaper having been left outside your hotel room in the morning),
-* and 7 other items including a snack bar, scratch card, <cite>Internet All-stars</cite> trading card, a phone sock and a Crumpler camera bag.
+* ""The Austin Chronicle"" (included regardless of the fact you already have a copy, the newspaper having been left outside your hotel room in the morning),
+* and 7 other items including a snack bar, scratch card, ""Internet All-stars"" trading card, a phone sock and a Crumpler camera bag.
 
 Whilst there is a slight reduction in the number of items placed in the interactive bag compared to [last year][3] I question whether this was intentional, or due to the current economic climate — I suspect the later.
 

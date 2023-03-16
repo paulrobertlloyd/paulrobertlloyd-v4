@@ -6,7 +6,7 @@ category:
   - Google
   - Julian Assange
 ---
-Julian Assange reviews Eric Schmidt and Jared Cohen’s new book, <cite>The New Digital Age</cite>:
+Julian Assange reviews Eric Schmidt and Jared Cohen’s new book, ""The New Digital Age"":
 
 > Google, which started out as an expression of independent Californian graduate student culture – a decent, humane and playful culture – has, as it encountered the big, bad world, thrown its lot in with traditional Washington power elements, from the State Department to the National Security Agency.
 

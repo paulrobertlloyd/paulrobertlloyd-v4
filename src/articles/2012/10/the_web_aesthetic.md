@@ -13,7 +13,7 @@ category:
 ---
 At the beginning of this year I was struck by a realisation, prompted in part by the discussions around [responsive images][1] but also the artistic ingenuity of the [image optimisation][2] techniques being used by Jeremy. If the capabilities of a medium can dictate how we design for it, how might the visual aesthetic of the web change if we were to acknowledge its nature and embrace its constraints?
 
-Shortly afterwards, and with eerie coincidence, [Anna][3] introduced me to Rose Weisburd, who was looking for writers for <cite>A List Apart</cite>. Nine months later, and after many weekends hunched over my laptop in coffee shops around Brighton, I can now point to an article authored by me on this esteemed publication: <cite>[The Web Aesthetic][4]</cite>. From the introduction:
+Shortly afterwards, and with eerie coincidence, [Anna][3] introduced me to Rose Weisburd, who was looking for writers for ""A List Apart"". Nine months later, and after many weekends hunched over my laptop in coffee shops around Brighton, I can now point to an article authored by me on this esteemed publication: [""The Web Aesthetic""][4]. From the introduction:
 
 > Today, when every device begs to be connected, it has become easier — almost necessary — to accept the adaptable nature of the web. Responsive web design is an emerging best practice, and our layouts are becoming more flexible. But often, innovation is focused on technical implementations while the visual aesthetic remains ignored. To put it another way, we’re embracing “responsive” but neglecting the second part: “design.” Now is the time to seek out an aesthetic that is truer to the medium.
 
@@ -21,7 +21,7 @@ Like many great endeavours, this wouldn’t have been possible without the assis
 
 ## Reaction
 
-Beyond having an article published in <cite>A List Apart</cite>, it’s been incredibly fun reading the responses to it. Not only were these thoughtful and largely supportive, but some even expanded on my initial premise.
+Beyond having an article published in ""A List Apart"", it’s been incredibly fun reading the responses to it. Not only were these thoughtful and largely supportive, but some even expanded on my initial premise.
 
 David Bushell’s [flattering follow-up post][9] touched on an aspect of the web I was unable to cram into an already wide-ranging article:
 
@@ -33,7 +33,7 @@ Others pointed me to a piece by Allan Grinshtein. Contributing to the ongoing de
 
 > Designing for the web is the most rewarding when we can create solutions that are custom fit for the problem. We borrow metaphors from physical objects but we refrain from copying. Copying inevitably introduces unwanted design problems, and the better the copy the bigger the problems.
 
-[Justin Reynolds provided a wonderful summary][11] of both my article and the companion piece written by Dave Rupert: <cite>[Mo’ Pixels Mo’ Problems][12]</cite>. Drawing connections between the two, he concluded:
+[Justin Reynolds provided a wonderful summary][11] of both my article and the companion piece written by Dave Rupert: [""Mo’ Pixels Mo’ Problems""][12]. Drawing connections between the two, he concluded:
 
 > As so often with seemingly insoluble problems the difficulties are of our own making: we already know the solution, it’s just that we persist in refusing to acknowledge what’s already in front us.
 

@@ -6,4 +6,4 @@ category:
   - Video
   - Peter Saville
 ---
-Peter Saville talks about the genesis of his cover for <cite>Unknown Pleasures</cite> and its enduring appeal.
+Peter Saville talks about the genesis of his cover for ""Unknown Pleasures"" and its enduring appeal.

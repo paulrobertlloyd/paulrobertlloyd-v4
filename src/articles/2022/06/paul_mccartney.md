@@ -18,7 +18,7 @@ I really enjoyed Paul McCartney’s headline performance at Glastonbury on Satur
 
 This might be in part because I grew up in a family where the Beatles didn’t feature. My mum was a Stones fans growing up, not much bothered by Beatles mania (a particular point of pride for my brother).
 
-Having enjoyed <cite>[Get Back][1]</cite> earlier this year, and now rummaging through [Macca’s back catalogue][2], I feel like I’m playing catch up.
+Having enjoyed [""Get Back""][1] earlier this year, and now rummaging through [Macca’s back catalogue][2], I feel like I’m playing catch up.
 
 Watching his performance I felt a pang of sadness. It’s unlikely I’ll ever see this iconic yet 80-year old artist perform live in front of me. And then I remembered – I already have!
 

@@ -35,7 +35,7 @@ Steve Jobs wasn’t only interested about the design of the machine though, real
 
 ![Apple rainbow logo](apple_logo_rainbow.svg) It was a young art director named Robert Janov who set about designing the new corporate logo. He realised Apple was selling to consumers and that the Apple II was one of the first computers to offer colour graphics. He designed an apple motif with a bite taken out (playfully commenting on the fact that computers used ‘bits’ and ‘bytes’) with six bands of colour running across it. When he suggested that these bands should be separated to make reproduction easier, Jobs refused — insisting that the apple be reproduced with its full range of colours too, despite the cost.
 
-Another area of concern was the Apple II’s manual. Originally provided with a sparse manual of thirty photocopied pages with some handwritten notes from Woznaik, it was replaced in 1978 with what was called the <cite>Apple II Technical Reference Manual</cite>. Steve Jobs realised that people often viewed a product by the quality of its documentation, so went to great length to replace the original manual with one that was easy to read and had a professional appearance.
+Another area of concern was the Apple II’s manual. Originally provided with a sparse manual of thirty photocopied pages with some handwritten notes from Woznaik, it was replaced in 1978 with what was called the ""Apple II Technical Reference Manual"". Steve Jobs realised that people often viewed a product by the quality of its documentation, so went to great length to replace the original manual with one that was easy to read and had a professional appearance.
 
 It was this attention to every detail from the colour and material of the machines case to the design of their logo, that undoubtedly helped Apple reach sales of $7.8 million by 1978 and allow them to claim in its advertising that the Apple II was “the world’s best selling personal computer”.
 
@@ -74,7 +74,7 @@ This second revision saw a refinement of the original design — a sleek slot lo
 
 Another subtle improvement occurred when you put the computer to sleep (a sort of standby mode). Now the button pulsated with an orange glow like a heartbeat, designed to give the iMac a personality. Others such touches included an information label on the bottom of the computer written in a first person perspective i.e: “I was assembled on UK” and “My family number: M5521”. These details were added to increase the users emotional attachment to the machine.
 
-![Apple ‘aqua’ logo](apple_logo_aqua.png) As with the Apple II, the manual was an important aspect of the design. The iMac’s original manual was entered into the <cite>Guinness Book of World Records</cite> for the being the world’s smallest, containing only 32 words — a statement that further stressed the simplicity of owning an iMac. Further still, the iMac was another product to influence Apple’s logo. With the introduction of the iMac, Apple altered its logo to match the translucent styling of the iMac, and with its success, replaced the original with this new version appearing in various colours.
+![Apple ‘aqua’ logo](apple_logo_aqua.png) As with the Apple II, the manual was an important aspect of the design. The iMac’s original manual was entered into the ""Guinness Book of World Records"" for the being the world’s smallest, containing only 32 words — a statement that further stressed the simplicity of owning an iMac. Further still, the iMac was another product to influence Apple’s logo. With the introduction of the iMac, Apple altered its logo to match the translucent styling of the iMac, and with its success, replaced the original with this new version appearing in various colours.
 
 ***
 
@@ -94,11 +94,11 @@ With his understanding of the emotional value objects can have to the user, and 
 
 ## References
 
-* Blair, D. (1998). [Bondi-Blue: Interview with Jonathan Ive](https://web.archive.org/web/19991007065648/http://www.thing.net/~lilyvac/ive.html). <cite>Thing.net</cite>. Archived from [the original](http://www.thing.net/~lilyvac/ive.html) on <time datetime="1999-10-07">7 October 1999</time>
-* Tracy, E. [History of Computer Design](http://bebob.chass.utoronto.ca/~edtracy/index.html). <cite>bebob.chass.utoronto.ca/~edtracy</cite>
-* Stafford, A., Feld, A. &amp; Poultrey, J. (1998). [The Ive League: The Designer Behind the iMac](https://web.archive.org/web/19990208222802/http://www.machome.com/Features/Ive.html). <cite>MacHome Interactive</cite>. Archived from [the original](http://www.machome.com/features/ive.html) on <time datetime="1999-02-08">8 February 1999</time>
-* Weyhrich, S. (1991). [Apple II History](https://apple2history.org/history/). <cite>Apple2History.org</cite>
-* Unknown Author (2000, April 4). Apple reaches the end of the rainbow. <cite>MacUser</cite>, 14
+* Blair, D. (1998). [Bondi-Blue: Interview with Jonathan Ive](https://web.archive.org/web/19991007065648/http://www.thing.net/~lilyvac/ive.html). ""Thing.net"". Archived from [the original](http://www.thing.net/~lilyvac/ive.html) on <time datetime="1999-10-07">7 October 1999</time>
+* Tracy, E. [History of Computer Design](http://bebob.chass.utoronto.ca/~edtracy/index.html). ""bebob.chass.utoronto.ca/~edtracy""
+* Stafford, A., Feld, A. &amp; Poultrey, J. (1998). [The Ive League: The Designer Behind the iMac](https://web.archive.org/web/19990208222802/http://www.machome.com/Features/Ive.html). ""MacHome Interactive"". Archived from [the original](http://www.machome.com/features/ive.html) on <time datetime="1999-02-08">8 February 1999</time>
+* Weyhrich, S. (1991). [Apple II History](https://apple2history.org/history/). ""Apple2History.org""
+* Unknown Author (2000, April 4). Apple reaches the end of the rainbow. ""MacUser"", 14
 
 *[CD]: Compact Disc
 *[CPU]: central processing unit

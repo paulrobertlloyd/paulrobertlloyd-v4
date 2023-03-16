@@ -13,7 +13,7 @@ accent_color: '#42246e'
 * ![Special report.](screenshot_special_report.png){.screenshot}
   {.align-bleed .gallery}
 
-Broadcast weeknights at 7pm, <cite>[Channel 4 News][1]</cite> is noted for its award-winning coverage of international news and extensive current affairs reporting.
+Broadcast weeknights at 7pm, [""Channel 4 News""][1] is noted for its award-winning coverage of international news and extensive current affairs reporting.
 
 After redesigning their website, Channel 4 wished to reimagine the Channel 4 News service for tablet and smartphone users. While it would have been easy to repurpose the website, research showed that tablet users demonstrated a more leisurely approach that pointed towards a visually rich, linear solution. With this insight, and working alongside James Bates and James Box at Clearleft, I created an engaging browsing mechanism driven by story headlines and high quality imagery. This made it easy for users to casually flip through stories, homing in on anything that caught their eye.
 

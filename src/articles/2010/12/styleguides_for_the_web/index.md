@@ -42,7 +42,7 @@ I’ve been collecting styleguides for a number of years, partly as I’m intere
 
 ![](skype.png 'A selection of pages from the Skype styleguide.')
 
-As a brand made up from a number of different elements (the logo, clouds, rainbows, illustrations and sometimes photography), it would be easy for the brand to become diluted should these not be consistently applied. Skype’s branding guidelines explain how each component is constructed before providing examples of these different pieces brought together. The visual styleguide, <cite>How We Look</cite>, is accompanied by a separate document called <cite>How We Think</cite> which focuses on messaging and tone of voice.
+As a brand made up from a number of different elements (the logo, clouds, rainbows, illustrations and sometimes photography), it would be easy for the brand to become diluted should these not be consistently applied. Skype’s branding guidelines explain how each component is constructed before providing examples of these different pieces brought together. The visual styleguide, ""How We Look"", is accompanied by a separate document called ""How We Think"" which focuses on messaging and tone of voice.
 
 ### The BBC’s Global Experience Language
 

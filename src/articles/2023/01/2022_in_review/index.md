@@ -36,7 +36,7 @@ Now it was [time for a well-earned break][3].
 ![Purple-tinged buildings arranged on the side of hill, above a river at dusk.](porto.jpg "Porto being its ridiculously beautiful self.")
 {.align-bleed}
 
-I stayed with my brother for the first two weeks of August to look after my two eldest nieces. We held a baking competition and a karaoke show, binged all four seasons of <cite>Stranger Things</cite>, enjoyed an afternoon at an adventure park and spent a few evenings eating out. I even managed the odd parenting win.
+I stayed with my brother for the first two weeks of August to look after my two eldest nieces. We held a baking competition and a karaoke show, binged all four seasons of ""Stranger Things"", enjoyed an afternoon at an adventure park and spent a few evenings eating out. I even managed the odd parenting win.
 
 The year has been immensely more enjoyable with [these two][4] around. My third niece moved to the UK in December, with the fourth hopefully not too far behind; plenty more opportunities for children’s entertainment in the year ahead.
 
@@ -87,7 +87,7 @@ As the year reached its conclusion, I was finally happy with the state of my fla
 
 I’m no culture-vulture; my tastes are mainstream, so you’ll not find a list of deep cuts or obscure electronica in this end-of-year review. Still, it was fun to watch live comedy again and enjoy a few trips to the cinema. Here are a few highlights:
 
-* [**The Beatles: Get back**][26] (January) – I’m not a massive fan of <cite>The Beatles</cite>, but I found this documentary to be endlessly fascinating, and given its length, weirdly relaxing.
+* [**The Beatles: Get back**][26] (January) – I’m not a massive fan of ""The Beatles"", but I found this documentary to be endlessly fascinating, and given its length, weirdly relaxing.
 
 * [**Licorice Pizza**][27] (10 and 19 January) – So good I saw it twice. I also developed a crush on [the Haim sisters][28] so hard that my Apple Music Replay stats are truly embarrassing.
 

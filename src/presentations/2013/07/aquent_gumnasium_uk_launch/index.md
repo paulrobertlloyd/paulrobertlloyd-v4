@@ -25,7 +25,7 @@ slides:
   - photo:
       url: /presentations/2013/07/aquent_gumnasium_uk_launch/4.jpg
     notes: |
-      I started in the summer of 2004, just as support for web standards was gaining traction. One of the key ideas behind this movement was the separation of presentation from content: developing highly semantic HTML pages styled separately with CSS. <cite>[Designing with Web Standards](https://en.wikipedia.org/wiki/Designing_with_Web_Standards)</cite> by Jeffrey Zeldman was my bible.
+      I started in the summer of 2004, just as support for web standards was gaining traction. One of the key ideas behind this movement was the separation of presentation from content: developing highly semantic HTML pages styled separately with CSS. [""Designing with Web Standards""](https://en.wikipedia.org/wiki/Designing_with_Web_Standards) by Jeffrey Zeldman was my bible.
 
       One of the reasons I decided to join Orange Vision was because [their website](https://web.archive.org/web/20040627083538/http://www.orangevision.co.uk/) used CSS as opposed to older techniques that involved tables, inline style declarations and 1x1 pixel spacer images. Soon after joining, I learnt that they had actually stolen another agency’s website, changing just the logo and some copy! Thus much of my early work was spent updating existing sites, swearing under my breath as I used the outmoded practices favoured by my new employer.
   - photo:
@@ -47,7 +47,7 @@ slides:
   - photo:
       url: /presentations/2013/07/aquent_gumnasium_uk_launch/8.png
     notes: |
-      Keeping up can feel like an uphill struggle, perhaps even more so today. In a blog post entitled <cite>[Drowning](https://thatemil.com/blog/2013/05/22/drowning/)</cite>, my friend Emil attempted to list all the languages, frameworks and applications needed to do his job. No one can hope to learn – let alone master – all this.
+      Keeping up can feel like an uphill struggle, perhaps even more so today. In a blog post entitled [""Drowning""](https://thatemil.com/blog/2013/05/22/drowning/), my friend Emil attempted to list all the languages, frameworks and applications needed to do his job. No one can hope to learn – let alone master – all this.
 
       Study Emil’s list more closely though, and you’ll realise it consists of a number of highly specialised frameworks. I suspect many will have gone out of fashion in a year’s time.
 

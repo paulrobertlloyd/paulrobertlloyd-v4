@@ -15,7 +15,7 @@ As I look to close the door on freelancing, [Jon][3] is beginning his own indepe
 
 Truth be told, I was distracted by the launch of [Kirby 3][4]. A participant in the *Kirby Next* initiative, I’ve watched the latest version of this powerful CMS develop over the last two years, so it was great to see the project cross the finish line (although when it comes to software, the race is never over). You can learn more about [the new version on the Kirby website][5], but suffice to say I think Bastian and his team have done a fantastic job.
 
-On Wednesday [I went to see <cite>Stan & Ollie</cite>][6]. I loved every minute. One small scene looked like it was set in Walsall, given the destination board on a bus in the background read ‘Blakenall - Bloxwich’. Their 1953 tour included dates in nearby Birmingham and Dudley, but I’m unable to find out if they visited Walsall to promote it at all.
+On Wednesday [I went to see ""Stan & Ollie""][6]. I loved every minute. One small scene looked like it was set in Walsall, given the destination board on a bus in the background read ‘Blakenall - Bloxwich’. Their 1953 tour included dates in nearby Birmingham and Dudley, but I’m unable to find out if they visited Walsall to promote it at all.
 
 Having enjoyed trips to different parts of Britain last year and looking to continue that trend, Thursday saw me gad over to nearby Winchester. It’s almost too early in the year to be sightseeing, what with the cold weather and shorter days, and by the time I reached the city (after the statutory Southern delay) and spent time exploring [its cathedral][7], it was already getting dark. Still, a welcome change of scenery and another English cathedral crossed off my list.
 
@@ -29,13 +29,13 @@ Noteworthy articles I’ve read over the last seven days:
 
 * ### [The Glorious Weirdness of Marie Kondo’s Netflix show][14]
 
-  I’d seen enough mentions of <cite>Tidying Up</cite> to watch the first two episodes. Not sure I need to see any more, but I thoroughly enjoyed Chris’ thoughts on the show:
+  I’d seen enough mentions of ""Tidying Up"" to watch the first two episodes. Not sure I need to see any more, but I thoroughly enjoyed Chris’ thoughts on the show:
 
-  > We don’t get a single shot of Kondo away from punters, not once during the whole run. They’ve wholly abandoned the usual obligatory “driving to where the punters are and talking about how excited you are to work with them” sequence. Just ditched it, so she won’t have to express any interest. Such gorgeous, overwhelming disconnect between Kondo’s detached, spiritual, already supremely ‘settled in fame’ persona and the bogshed structure of a low rent daytime show is amazing. I hate <cite>Tidying Up</cite> as I love Kondo and I love <cite>Tidying Up</cite> as I despise her.
+  > We don’t get a single shot of Kondo away from punters, not once during the whole run. They’ve wholly abandoned the usual obligatory “driving to where the punters are and talking about how excited you are to work with them” sequence. Just ditched it, so she won’t have to express any interest. Such gorgeous, overwhelming disconnect between Kondo’s detached, spiritual, already supremely ‘settled in fame’ persona and the bogshed structure of a low rent daytime show is amazing. I hate ""Tidying Up"" as I love Kondo and I love ""Tidying Up"" as I despise her.
 
 * ### [Adam Curtis and Vice director Adam McKay on how Dick Cheney masterminded a rightwing revolution][15]
 
-  I’m looking forward to seeing <cite>Vice</cite> when it hits cinemas, so read this conversation with interest. McKay mentions that audiences seem more able to understand big narrative leaps in films than they did five years ago. Curtis reckons this is because we spend more time online where we make similar jumps all the time.
+  I’m looking forward to seeing ""Vice"" when it hits cinemas, so read this conversation with interest. McKay mentions that audiences seem more able to understand big narrative leaps in films than they did five years ago. Curtis reckons this is because we spend more time online where we make similar jumps all the time.
 
   In a related conversation, a heating engineer told me his customers increasingly expect him to provide a next-day service — even for something as complicated as diagnosing and fixing a boiler fault — and puts this down to their experience with next-day services like Amazon Prime. Which got me to thinking about all the other ways our behaviour might be changing having spent more of our life online.
 

@@ -19,14 +19,14 @@ tags:
 
 Fortunately, both these events come at a point in my life where I am happy and content. This is in no small part to [the service I’ve been working on][1] over the 18 months, and the group of people I’m working with to deliver it.
 
-Having got so much from working with my team, when lockdown came into effect, I felt it was important to keep everyone entertained and amused. Alongside designing [mission patches to celebrate key project milestones][2], I created custom emoji for use in Slack, made [a mug to mark Adam’s contribution to the design system][3] and art directed various birthday and leaving cards. I even hosted an edition of <cite>Who Want’s to Be a Millionaire</cite> – complete with fastest finger first rounds – designed and operated entirely within Google Slides. I began to think of this as my third great act of volunteering after [London 2012][4] and [Glasgow 2014][5].
+Having got so much from working with my team, when lockdown came into effect, I felt it was important to keep everyone entertained and amused. Alongside designing [mission patches to celebrate key project milestones][2], I created custom emoji for use in Slack, made [a mug to mark Adam’s contribution to the design system][3] and art directed various birthday and leaving cards. I even hosted an edition of ""Who Want’s to Be a Millionaire"" – complete with fastest finger first rounds – designed and operated entirely within Google Slides. I began to think of this as my third great act of volunteering after [London 2012][4] and [Glasgow 2014][5].
 
 I’ve enjoyed working on these little creations. They’ve probably reignited a set of creative abilities long suppressed by years of working to client briefs. However, I did begin to wonder if my efforts had been fully acknowledged. Even more so when it seemed nobody wanted to mark my birthday like we had done for others.
 
 [Watch ‘Apply: Angels’ on Vimeo](https://vimeo.com/450172631)
 {.align-pull}
 
-Unbeknown to me, the team was beavering away on a creation of their own: [a 4-minute video][6] with everyone miming the words to Robbie Williams’ <cite>Angels</cite>, our go-to karaoke song. When we met up yesterday — for just the second time since lockdown began — the video (and all the behind the scenes scheming) was revealed.
+Unbeknown to me, the team was beavering away on a creation of their own: [a 4-minute video][6] with everyone miming the words to Robbie Williams’ ""Angels"", our go-to karaoke song. When we met up yesterday — for just the second time since lockdown began — the video (and all the behind the scenes scheming) was revealed.
 
 I was floored. I still am! This is easily the best birthday present I’ve ever received. That it coincides with my 40th makes it even sweeter.
 

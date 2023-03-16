@@ -60,7 +60,7 @@ Developers may establish *coding conventions*. These ensure everyone contributin
 
 Be they designers, writers or developers, craftspeople will find collaboration easier having agreed upon a clear set of rules and established a shared vocabulary that ensures everyone is using the same language.
 
-In her article <cite>[From Pages to Patterns][10]</cite>, Charlotte Jackson describes a workshop exercise that encourages a collaborative approach to naming interface components:
+In her article [""From Pages to Patterns""][10], Charlotte Jackson describes a workshop exercise that encourages a collaborative approach to naming interface components:
 
 1. First, cut up an interface into its component parts, and group together those that appear visually similar.
 2. Have every member of the team come up with a name for each component, individually and in secret.
@@ -113,7 +113,7 @@ This model went some way to addressing the flexibility desired, yet further mode
 
 Working with so many moving parts became a struggle, and everyone on the team attempted to solve this puzzle in different ways. A solution was found eventually, although the imposition of a six-week deadline was the most effective tool in helping us reach a conclusion!
 
-In <cite>[101 Things I learned in Architecture School][15]</cite>, Mark Frederick describes a learning process which he calls the ‘three levels of knowing’:
+In [""101 Things I learned in Architecture School""][15], Mark Frederick describes a learning process which he calls the ‘three levels of knowing’:
 
 * **Simplicity**: the world view of a child, fully engaged in his own experience, happily unaware of what lies beneath the surface of immediate reality.
 
@@ -143,7 +143,7 @@ Frank Pick’s successful management of London Transport was possible due to the
 ![](underground_1997.jpg 'The Underground in 1997 — very different from how it looks today. Photograph: [Kirk Bauer](http://pics.kaybee.org/Vacations/Europe1997/England/London/tube2.jpg)')
 {.align-pull}
 
-Thankfully the last 15 years have seen these factors reverse, with the network again getting the attention it deserves. New lines are being built, while existing stations are being upgraded and repaired. Transport for London are managing this renewal by following the <cite>[Station Design Idiom][17]</cite>, a set of nine principles that underpin design across the Underground network. These are referred to on every project, be it a small-scale repair, a major refurbishment or a brand new station.
+Thankfully the last 15 years have seen these factors reverse, with the network again getting the attention it deserves. New lines are being built, while existing stations are being upgraded and repaired. Transport for London are managing this renewal by following the [""Station Design Idiom""][17], a set of nine principles that underpin design across the Underground network. These are referred to on every project, be it a small-scale repair, a major refurbishment or a brand new station.
 
 Included in the idiom is a new map that gives contractors a station-by-station guide to the different architectural styles used throughout the network. Paint colours and decorative materials should now match the architectural style of each building, rather than adhere to an overarching corporate look. By deliberately maintaining a diversity of styles, Transport for London have chosen to make the network’s design history an integral part of their design system. To me, this seems like a pragmatic approach.
 
@@ -154,7 +154,7 @@ Included in the idiom is a new map that gives contractors a station-by-station g
 ![](shearing_layers.svg)
 {.align-pull}
 
-In <cite>[How Buildings Learn][18]</cite>, Stewart Brand expands upon Frank Duffy’s idea that different timescales can be seen to effect a building. Called shearing layers, he describes these as follows:
+In [""How Buildings Learn""][18], Stewart Brand expands upon Frank Duffy’s idea that different timescales can be seen to effect a building. Called shearing layers, he describes these as follows:
 
 * **Site**: the geographical setting and legally defined location, whose boundaries and context will outlast generations of ephemeral buildings.
 * **Structure**: the foundation and load-bearing elements. Perilous and expensive to change, they remain in place for decades, if not centuries.

@@ -89,7 +89,7 @@ Conversely, while the `<picture>` proposal has the backing of a few respected de
 
 Its design shares a vernacular to that of contemporary newspaper websites, with a columnar, image-laden and densely packed layout. Compared to more recent examples — [Quartz][12], [The Next Web][13] and the [New York Times Skimmer][14] — it feels out of step with the future direction of news sites. In seeking out [a truer aesthetic for the web][15] in which software interfaces have greater influence, we might discover that the need for responsive images isn’t as great as originally thought.
 
-![](site_vs_app.png '<cite>New York Times</cite> website vs. <cite>New York Times</cite> web app.')
+![](site_vs_app.png '""New York Times"" website vs. ""New York Times"" web app.')
 
 ## Building for the future
 

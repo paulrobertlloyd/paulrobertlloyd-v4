@@ -17,7 +17,7 @@ I’m currently in Newcastle for the [Great Exhibition of the North][1], in sear
 
 Part of a wider plan that aspired to create a “Brasília Of The North” (for which [a few abandoned skywalks remain][3]), architects Ryder & Yates proposed building a concrete platform over part of the River Tyne. In doing so, Newcastle and Gateshead would be united, ushering in a new ‘City of Tyneside’. Like any good example of post war urban planning, there is also a villain, with the chief instigator of this scheme, [T. Dan Smith][4], being to Newcastle what [Herbert Manzoni][5] was to Birmingham; a proponent of progress at any cost.
 
-The exhibition is accompanied by an article of design fiction which imagines life in the city after the plans had been realised. In his short story, <cite>My Man Mint</cite>, Michael Chaplin meets a red-haired stegophilist called Minto, and ends up living on the deck some 50 years after its construction, although shortly before being demolished to make way for today’s quayside.
+The exhibition is accompanied by an article of design fiction which imagines life in the city after the plans had been realised. In his short story, ""My Man Mint"", Michael Chaplin meets a red-haired stegophilist called Minto, and ends up living on the deck some 50 years after its construction, although shortly before being demolished to make way for today’s quayside.
 
 With much of yesterday spent traipsing round [Preston Bus Station][6], it would seem I’ve yet to quench my thirst for Brutalist architecture. And with that, I’m off to stomp on some skywalks.
 
