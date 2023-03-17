@@ -57,6 +57,7 @@ module.exports = function (eleventy) {
   eleventy.addCollection('article', require('./lib/collections/article.js'));
   eleventy.addCollection('attending', require('./lib/collections/attending.js'));
   eleventy.addCollection('attended', require('./lib/collections/attended.js'));
+  eleventy.addCollection('bookmark', require('./lib/collections/bookmark.js'));
   eleventy.addCollection('category', require('./lib/collections/category.js'));
   eleventy.addCollection('note', require('./lib/collections/note.js'));
   eleventy.addCollection('photo', require('./lib/collections/photo.js'));

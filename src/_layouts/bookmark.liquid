@@ -1,3 +1,4 @@
+{%- assign comments = collections.comments | where: 'data.bookmark_id',uid | first -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'footer'
@@ -10,7 +11,7 @@
     url_class: 'bookmark-of'
     vocabulary: vocabulary
   -%}
-  {%- if bookmark_of -%}
+  {%- if bookmark_of and category contains 'Video' -%}
     {%- capture content -%}
       <p><a href="{{ bookmark_of }}">Watch ‘{{ title }}’</a></p>
       {{ content }}
@@ -19,6 +20,7 @@
   {%- render 'content' with content -%}
   {%- render 'meta'
     categories: category
+    comments: comments
     syndication: syndication
   -%}
   {%- render 'remarks' with webmentions
