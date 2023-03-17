@@ -5,24 +5,9 @@ location:
   locality: Brighton
   country_name: England
 summary: If design is the application of ethics, then anyone designing digital products should see their role in a new light after reading this book.
-vocab: [entry, review]
-product:
-  title: Future Ethics
-  photo:
-    url: /articles/2018/11/future_ethics_by_cennydd_bowles/978-1-9996019-1-1.jpg
-    alt: Cover of ‘Future Ethics’
-  info: |
-    Author
-    : Cennydd Bowles
-
-    Publisher
-    : [NowNext Press]{.p-brand .h-card}
-
-    Year
-    : 2018
-
-    ISBN
-    : [978-1-9996019-1-1]{.u-identifier}
+vocab:
+  - entry
+  - review
 category:
   - Books
   - Review
@@ -30,7 +15,8 @@ category:
   - Ethics
   - Technology
 ---
-{% render 'product' with product %}
+![Cover of ‘Future Ethics’.](978-1-9996019-1-1.jpg)
+{.align-pull}
 
 What better way to discuss a book about ethics than to begin with a disclosure. Not only have I known [Cennydd][1] for many years, but he was kind enough to let me review early drafts of his latest book, [""Future Ethics""][2]. While there’s little hope I can convince you that I’m an impartial reviewer, it’s worth marking the completion of this two-year endeavour all the same; even more so when the resulting work is both so valuable and necessary.
 
@@ -59,6 +45,20 @@ Given the books balanced examination of the current state of technology and wher
 ## Course correction
 
 In the last few weeks, I’ve heard from friends and former colleagues who’ve decided to join technology startups in sectors like banking and healthcare. While the former has a reputation for impropriety and misconduct in desperate need of remedy, the later has a proud tradition of ethical practice and professional standards that designers would be well advised to respect. New entrants into these markets tend to present their products as unquestionable forces for good, but their employees shouldn’t be so naive. If design is the application of ethics, then anyone designing digital products will see their role in a new light after reading this book. But should you wish to embark on a voyage of unknowable disruption, please read Cennydd’s book before stepping aboard ship, as the job of a designer is no longer plain sailing.
+
+---
+
+Author
+: Cennydd Bowles
+
+Publisher
+: [NowNext Press]{.p-brand .h-card}
+
+Year
+: 2018
+
+ISBN
+: [978-1-9996019-1-1]{.u-identifier}
 
 [1]: https://www.cennydd.com
 [2]: https://www.future-ethics.com

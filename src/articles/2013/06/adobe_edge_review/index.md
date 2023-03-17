@@ -4,33 +4,15 @@ date: 2013-06-20
 canonical:
   url: https://www.digitalartsonline.co.uk/reviews/creative-software/adobe-edge-review/
 summary: Paul Lloyd, senior visual designer at Brighton-based web agency Clearleft, is impressed with Adobe’s new web design software tools — but it faces strong competition.
-vocab: [entry, review]
-product:
-  title: Adobe Edge CC
-  rating: 3
-  info: |
-    Company
-    : '[Adobe](http://html.adobe.com/edge/){.p-brand .h-card}'
-
-    Price
-    : <data class="p-price" value="14.65">Creative Cloud for individuals from £14.65&#8203;+VAT&#8203;/month</data>.&#8195;<data class="p-price" value="37.11">Creative Cloud for teams from £37.11&#8203;+VAT&#8203;/month</data>
-
-    Pros
-    : Tight integration with other Creative Cloud applications; preview design and code easily on iOS and Android devices; use web fonts on your desktop; powerful animation tools.
-
-    Cons
-    : Applications lack native UI and share an inconsistent design; preview functions limited to Chrome browser; applications not available to purchase separately.
-
-    Supports
-    : Windows 7 or 8, OS X 10.7 or 10.8
+vocab:
+  - entry
+  - review
 category:
   - Review
   - Software
 tags:
   - source:digital_arts
 ---
-{% render 'product' with product %}
-
 The proliferation of mobile devices has resulted in a reassessment of how we craft online experiences. Where once safe defaults could be assumed, we now see the web as the unpredictable beast it has always been. Our processes are adapting to meet this demand. Cross-disciplinary roles, agile teams and a high degree of collaboration are important tenets of a responsive workflow — with the boundary between design and development increasingly blurred.
 
 For a while, Adobe looked hopelessly out of touch with these developments. It believed its proprietary Flash technology was a key component of the web, and marketed a suite of web design applications conceived well before the introduction of broadband, let alone smartphones. Recognising the need to change course, the company engaged with standards bodies to improve specifications, and developed a modern suite of web design tools called Edge — smaller task-orientated software and supporting services, built from the ground up, and updated regularly.
@@ -84,6 +66,26 @@ With workflows requiring closer collaboration between clients, designers and dev
 Should you pay a monthly subscription to use these tools? Unless you require the animation features of Edge Animate, I would find the price hard to justify — especially when similar features can be found in services like Typecast and Gridset. For more experienced teams, I’m not sure how useful these tools are when simpler tools may suffice — one shouldn’t overlook the power of pen and paper. However, if you are already a Creative Cloud member, heavily wedded to Adobe’s app eco-system, they may prove more useful.
 
 Broadly speaking, it’s encouraging to see Adobe improve its attitude to the web. By developing Edge Code in the open as Brackets, it has produced an innovative IDE that makes writing code fun and creative. Its work in bringing advanced graphic capabilities to CSS (shapes, regions, blend modes, custom filters) will benefit the web community for years to come. In that respect, the company’s greatest contribution may not be these applications, but its work on web standards and within the open source community instead.
+
+---
+
+Company
+: [Adobe](http://html.adobe.com/edge/){.p-brand .h-card}
+
+Price
+: <data class="p-price" value="14.65">Creative Cloud for individuals from £14.65&#8203;+VAT&#8203;/month</data>.&#8195;<data class="p-price" value="37.11">Creative Cloud for teams from £37.11&#8203;+VAT&#8203;/month</data>
+
+Supports
+: Windows 7 or 8, OS X 10.7 or 10.8
+
+Pros
+: Tight integration with other Creative Cloud applications; preview design and code easily on iOS and Android devices; use web fonts on your desktop; powerful animation tools.
+
+Cons
+: Applications lack native UI and share an inconsistent design; preview functions limited to Chrome browser; applications not available to purchase separately.
+
+Rating
+: ★★★☆☆
 
 [1]: http://brackets.io
 

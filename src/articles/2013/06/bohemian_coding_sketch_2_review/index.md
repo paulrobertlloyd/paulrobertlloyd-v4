@@ -4,25 +4,9 @@ date: 2013-06-20
 canonical:
   url: https://www.digitalartsonline.co.uk/reviews/interactive-design/bohemian-coding-sketch-2-review/
 summary: Paul Lloyd, senior visual designer at Brighton-based web agency Clearleft, explains why he’s not sad that Adobe has killed Fireworks, as he’s already moved onto a much better tool to design site interfaces and elements.
-vocab: [entry, review]
-product:
-  title: Sketch 2
-  rating: 4
-  info: |
-    Company
-    : '[Bohemian Coding](http://bohemiancoding.com/sketch/){.p-brand .h-card}'
-
-    Price
-    : <data class="p-price" value="29.00">£29+VAT</data>
-
-    Pros
-    : Easy to use; fits in well with web designer-centric workflow; supports native OS X features.
-
-    Cons
-    : Can’t share styles; no symbols; difficult to share documents with Windows colleagues; sluggish at times.
-
-    Supports
-    : OS X 10.6 Snow Leopard or higher.
+vocab:
+  - entry
+  - review
 category:
   - Review
   - Software
@@ -30,8 +14,6 @@ tags:
   - source:digital_arts
 ---
 ![](canvas_and_artboards.png 'Canvas and artboards in Sketch.')
-
-{% render 'product' with product %}
 
 During the earliest days of my career, I considered Adobe’s Dreamweaver and Fireworks to be the tools of my trade. As I stopped creating table-based layouts, Dreamweaver was replaced by a succession of text editors, but Fireworks remained an indispensable — if buggy — part of my arsenal.
 
@@ -70,6 +52,26 @@ The app can become sluggish at times, especially with larger files containing co
 In fact, the best feature of Sketch is its active development. In the two months I’ve been using it, there have been three maintenance releases, and its developer, Pieter Omvlee, is happy to receive feedback, both on [Twitter][2] and via email.
 
 I’m not sure I would use Sketch to create a succession of detailed page comps, but I think that is telling. This is an application designed for the interface designers of today and tomorrow, not those of the past. And it’s a better app for it.
+
+---
+
+Company
+: [Bohemian Coding](http://bohemiancoding.com/sketch/){.p-brand .h-card}
+
+Price
+: <data class="p-price" value="29.00">£29+VAT</data>
+
+Supports
+: OS X 10.6 Snow Leopard or higher.
+
+Pros
+: Easy to use; fits in well with web designer-centric workflow; supports native OS X features.
+
+Cons
+: Can’t share styles; no symbols; difficult to share documents with Windows colleagues; sluggish at times.
+
+Rating
+: ★★★★☆
 
 [1]: https://www.digitalartsonline.co.uk/topic/adobe-creative-cloud/
 [2]: https://twitter.com/bohemiancoding

@@ -8,31 +8,17 @@ summary: After enough subtle hints, I was happy to unwrap a copy of the Steve Jo
 photo:
   url: /articles/2012/01/steve_jobs_by_walter_isaacson/image.jpg
   alt: Steve Jobs by Walter Isaacson
-vocab: [entry, review]
-product:
-  title: Steve Jobs
-  photo:
-    url: /articles/2012/01/steve_jobs_by_walter_isaacson/978-1-4087037-4-8.jpg
-    alt: Cover of ‘Steve Jobs’
-  info: |
-    Author
-    : Walter Isaacson
-
-    Publisher
-    : [Little, Brown](https://www.littlebrown.co.uk){.p-brand .h-card}
-
-    Year
-    : 2011
-
-    ISBN
-    : [978-1-4087037-4-8]{.u-identifier}
+vocab:
+  - entry
+  - review
 category:
   - Books
   - Review
   - Steve Jobs
   - Apple
 ---
-{% render 'product' with product %}
+![Cover of ‘Steve Jobs’.](978-1-4087037-4-8.jpg)
+{.align-pull}
 
 After enough subtle hints, I was happy to unwrap a copy of the [Steve Jobs biography][1] at Christmas. I don’t read many books, and those I do I rarely finish. I couldn’t put this one down. When I intended to read half an hour before bed, I’d usually end up reading for two.
 
@@ -88,6 +74,20 @@ Page 471: Early relationship with Wendell Weeks, CEO of Corning Glass, manufactu
 Page 508: Jobs and Rupert Murdoch:
 
 > Murdoch and Jobs hit it off well enough that Murdoch went to his Palo Alto house for dinner twice more during the next year. Jobs joked that he had to hide the dinner knives on such occasions, because he was afraid that he his liberal wife was going to eviscerate Murdoch when he walked in. For his part, Murdoch was reported to have uttered a great line about the organic vegan dishes typically served: “Eating dinner at Steve’s is a great experience, as long as you get out before the local restaurants close.”
+
+---
+
+Author
+: Walter Isaacson
+
+Publisher
+: [Little, Brown](https://www.littlebrown.co.uk){.p-brand .h-card}
+
+Year
+: 2011
+
+ISBN
+: [978-1-4087037-4-8]{.u-identifier}
 
 [1]: http://stevejobsthebiography.com/
 [2]: http://5by5.tv/hypercritical/42
