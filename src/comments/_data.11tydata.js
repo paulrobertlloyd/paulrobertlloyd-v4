@@ -1,8 +1,7 @@
 module.exports = {
   layout: 'comments',
-  type_prefix: 'c',
   permalink: 'comments/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
+  type_prefix: 'c',
   visibility: 'unlisted',
-  tags: ['comments'],
   vocabulary: 'feed',
 };
