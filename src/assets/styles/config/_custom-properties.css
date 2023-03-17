@@ -82,7 +82,7 @@
   --sticky-title-block-size: 0;
 
   /* Align items with logo */
-  --logo-inline-size: 8rem;
+  --logo-inline-size: 10rem;
 
   /* Indicate the presence of dark mode styles */
   color-scheme: light dark;

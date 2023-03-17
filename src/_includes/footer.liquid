@@ -3,7 +3,7 @@
 {%- if date -%}
     <dt class="visually-hidden">Published on</dt>
     <dd>
-      <time class="dt-published" datetime="{{ date | date }}">{% if type == 'entry-untitled' %}{{ date | date_with_time_zone: timeZone }}{% else %}{{ date | date: dates.date_long }}{% endif %}</time>
+      <time class="dt-published" datetime="{{ date | date }}">{% if type == 'entry-untitled' %}{{ date | date_with_time_zone: timeZone }}{% else %}{{ date | date: dates.date }}{% endif %}</time>
     </dd>
 {%- endif -%}
 {%- if location -%}

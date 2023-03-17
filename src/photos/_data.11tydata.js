@@ -11,6 +11,6 @@ module.exports = {
   },
   vocabulary: 'entry',
   eleventyComputed: {
-    title: '{% if photo.size > 1 -%}{{ photo.size }} photos{% else %}Photo{% endif %}: {{ date | date: dates.datetime_full }}',
+    title: '{% if photo.size > 1 -%}{{ photo.size }} photos{% else %}Photo{% endif %}: {{ date | date: dates.date_time }}',
   },
 };

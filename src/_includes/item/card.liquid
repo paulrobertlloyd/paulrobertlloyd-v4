@@ -36,7 +36,7 @@
         <time class="dt-start" datetime="{{ item.data.start | date }}">{{ item.data.start | date: '%B %Y' }}</time>
         <time class="dt-end" datetime="{{ item.data.end | date }}"></time>
       {%- else -%}
-        <time class="dt-published" datetime="{{ item.date | date }}">{{ item.date | date: dates.date_long }}</time>
+        <time class="dt-published" datetime="{{ item.date | date }}">{{ item.date | date: dates.date }}</time>
       {%- endif -%}
       </footer>
     {%- endif -%}

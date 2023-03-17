@@ -18,7 +18,7 @@
 {%- endif -%}
 
   <footer class="item__footer">
-    <time class="dt-published" datetime="{{ item.data.start | date }}">{{ item.data.start | date: dates.date_short }}</time>
+    <time class="dt-published" datetime="{{ item.data.start | date }}">{{ item.data.start | date: dates.date }}</time>
     <time class="dt-start" datetime="{{ item.data.start | date }}"></time>
     <time class="dt-end" datetime="{{ item.data.end | date }}"></time>
   </footer>

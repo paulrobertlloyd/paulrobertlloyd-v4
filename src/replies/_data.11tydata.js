@@ -11,7 +11,7 @@ module.exports = {
   },
   visibility: 'unlisted',
   eleventyComputed: {
-    title: 'Reply: {{ date | date: dates.datetime_full }}',
+    title: 'Reply: {{ date | date: dates.date_time }}',
     image: '{{ photo[0].url }}',
   },
 };

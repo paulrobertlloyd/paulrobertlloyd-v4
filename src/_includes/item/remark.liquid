@@ -15,7 +15,7 @@
 
   <footer class="item__footer">
     <a class="u-url" rel="bookmark" href="{{ item.url | default: permalink }}">
-      <time class="dt-published" datetime="{{ item.published | date }}">{{ item.published | date: dates.datetime_full }}</time>
+      <time class="dt-published" datetime="{{ item.published | date }}">{{ item.published | date: dates.date_time }}</time>
     </a>
   </footer>
 </article>
