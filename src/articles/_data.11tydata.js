@@ -6,7 +6,7 @@ module.exports = {
   type_index: 1,
   permalink: 'articles/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
   tags: ['article'],
-  vocab: 'entry',
+  vocabulary: 'entry',
   sitemap: {
     changefreq: 'monthly',
     priority: 0.9,

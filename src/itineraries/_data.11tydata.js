@@ -4,7 +4,7 @@ module.exports = {
   type_prefix: 'i',
   permalink: 'travel/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
   tags: ['itinerary'],
-  vocab: 'event',
+  vocabulary: 'event',
   sitemap: {
     changefreq: 'yearly',
     priority: 0.8,

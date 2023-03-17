@@ -9,7 +9,7 @@ module.exports = {
     changefreq: 'monthly',
     priority: 0.8,
   },
-  vocab: 'entry',
+  vocabulary: 'entry',
   eleventyComputed: {
     title: '{% if photo.size > 1 -%}{{ photo.size }} photos{% else %}Photo{% endif %}: {{ date | date: dates.datetime_full }}',
   },

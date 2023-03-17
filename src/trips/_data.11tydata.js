@@ -11,7 +11,7 @@ module.exports = {
   type_prefix: 't',
   type: 'entry',
   tags: ['trip'],
-  vocab: 'event',
+  vocabulary: 'event',
   sitemap: {
     changefreq: 'monthly',
     priority: 0.8,

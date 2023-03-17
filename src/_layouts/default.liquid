@@ -72,7 +72,7 @@
   {%- render 'skip-link' -%}
   {%- render 'icons' -%}
   {%- render 'banner', page: page, tags: tags -%}
-  <main class="main{% if vocab %} | {% for root in vocab %} h-{{ root }}{% endfor %}{% endif %}" id="main">
+  <main class="main{% if vocabulary %} | {% for root in vocabulary %} h-{{ root }}{% endfor %}{% endif %}" id="main">
     <div class="main__container container">
     {%- block 'main' -%}
       {{ layoutContent }}

@@ -5,7 +5,7 @@ module.exports = {
   type_prefix: 'n',
   permalink: 'notes/{{ page.fileSlug }}/',
   tags: ['note'],
-  vocab: 'entry',
+  vocabulary: 'entry',
   sitemap: {
     changefreq: 'monthly',
     priority: 0.8,

@@ -5,5 +5,5 @@ module.exports = {
   permalink: 'comments/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
   visibility: 'unlisted',
   tags: ['comments'],
-  vocab: 'feed',
+  vocabulary: 'feed',
 };

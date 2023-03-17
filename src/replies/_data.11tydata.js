@@ -4,7 +4,7 @@ module.exports = {
   type_prefix: 'r',
   permalink: 'replies/{{ page.fileSlug }}/',
   tags: ['reply'],
-  vocab: 'entry',
+  vocabulary: 'entry',
   sitemap: {
     changefreq: 'monthly',
     priority: 0.8,

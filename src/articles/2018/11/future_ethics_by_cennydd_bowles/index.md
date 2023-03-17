@@ -5,7 +5,7 @@ location:
   locality: Brighton
   country_name: England
 summary: If design is the application of ethics, then anyone designing digital products should see their role in a new light after reading this book.
-vocab:
+vocabulary:
   - entry
   - review
 category:

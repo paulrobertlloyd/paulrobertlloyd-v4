@@ -4,7 +4,7 @@ date: 2013-06-20
 canonical:
   url: https://www.digitalartsonline.co.uk/reviews/interactive-design/bohemian-coding-sketch-2-review/
 summary: Paul Lloyd, senior visual designer at Brighton-based web agency Clearleft, explains why he’s not sad that Adobe has killed Fireworks, as he’s already moved onto a much better tool to design site interfaces and elements.
-vocab:
+vocabulary:
   - entry
   - review
 category:

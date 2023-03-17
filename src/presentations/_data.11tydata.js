@@ -5,7 +5,7 @@ module.exports = {
   type_prefix: 's',
   permalink: 'presentations/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
   tags: ['presentation'],
-  vocab: 'entry',
+  vocabulary: 'entry',
   sitemap: {
     changefreq: 'monthly',
     priority: 0.9,
