@@ -1,5 +1,6 @@
 module.exports = {
   layout: 'photo',
+  syndicate: true,
   type: 'entry-untitled',
   type_prefix: 'p',
   permalink: 'photos/{{ page.fileSlug }}/',

@@ -1,5 +1,6 @@
 module.exports = {
   layout: 'project',
+  syndicate: true,
   type: 'entry',
   permalink: 'projects/{{ page.fileSlug }}/',
   tags: ['post', 'project'],

@@ -1,5 +1,6 @@
 module.exports = {
   layout: 'bookmark',
+  syndicate: true,
   type: 'entry',
   type_prefix: 'b',
   permalink: 'bookmarks/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
