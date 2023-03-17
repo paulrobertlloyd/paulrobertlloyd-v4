@@ -1,7 +1,6 @@
 module.exports = {
   layout: 'article',
   syndicate: true,
-  type: 'entry',
   type_prefix: 'a',
   type_index: 1,
   permalink: 'articles/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',

@@ -1,6 +1,5 @@
 module.exports = {
   layout: 'itinerary',
-  type: 'entry',
   type_prefix: 'i',
   permalink: 'travel/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
   tags: ['itinerary'],

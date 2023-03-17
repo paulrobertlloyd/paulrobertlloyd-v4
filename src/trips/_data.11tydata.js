@@ -9,7 +9,6 @@ const isGreatBritain = country =>
 module.exports = {
   layout: 'trip',
   type_prefix: 't',
-  type: 'entry',
   tags: ['trip'],
   vocabulary: 'event',
   sitemap: {

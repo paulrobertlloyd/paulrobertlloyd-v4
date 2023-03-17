@@ -1,7 +1,6 @@
 module.exports = {
   layout: 'note',
   syndicate: true,
-  type: 'entry-untitled',
   type_prefix: 'n',
   permalink: 'notes/{{ page.fileSlug }}/',
   tags: ['note'],

@@ -2,7 +2,7 @@
 {%- for item in items limit: limit -%}
   {%- assign id = item.wm-id | default: forloop.rindex -%}
   <li class="items__item">
-    {%- render 'item/{{ component | default: item.data.type | default: item.data.layout }}'
+    {%- render 'item/{{ component | default: "entry" }}'
       id: id
       item: item
       hideSummary: itemHideSummary
