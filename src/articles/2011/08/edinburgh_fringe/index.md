@@ -16,7 +16,7 @@ Having enjoyed the Edinburgh Fringe when I attended for the first time last Augu
 
 ### Andy Parsons: Gruntled
 
-{% render 'rating' with 2 %}
+★★☆☆☆
 
 ![Photo of Andy Parsons.](andy_parsons.jpg)
 {.align-pull}
@@ -29,7 +29,7 @@ A perfectly entertaining evening but after seeing other acts, his felt weak in c
 
 ### Chris T-T: Disobedience
 
-{% render 'rating' with 4 %}
+★★★★☆
 
 ![Illustration of Chris T-T.](chris_tt.jpg)
 {.align-pull}
@@ -44,7 +44,7 @@ This show reminded me that I should broaden my selection when looking for things
 
 ### Sammy J and Randy: Ricketts Lane
 
-{% render 'rating' with 4 %}
+★★★★☆
 
 ![Photo of Sammy J and Randy.](sammy_j_and_randy.jpg)
 {.align-pull}
@@ -59,7 +59,7 @@ I still preferred Sammy J’s performance, but saw enough to buy a ticket for Ra
 
 ### Richard Herring: What is Love, Anyway?
 
-{% render 'rating' with 5 %}
+★★★★★
 
 ![Photo of Richard Herring.](richard_herring.jpg)
 {.align-pull}
@@ -74,7 +74,7 @@ Herring sets out to destroy love, but by the end of the show he has probably rei
 
 ### BUG Hosted by Adam Buxton
 
-{% render 'rating' with 5 %}
+★★★★★
 
 ![Photo of Adam Buxton.](adam_buxton.jpg)
 {.align-pull}
@@ -91,7 +91,7 @@ For 90-minutes we were truly spoiled, even more so thanks to Adam’s set pieces
 
 ### Foil, Arms and Hog: Comedy Doesn’t Pay
 
-{% render 'rating' with 3 %}
+★★★☆☆
 
 ![Photo of Foil, Arms and Hog.](foil_arms_and_hog.jpg)
 {.align-pull}
@@ -106,7 +106,7 @@ It was also where I enjoyed perhaps the funniest moment of my festival. When an 
 
 ### Dave Gorman’s Powerpoint Presentation
 
-{% render 'rating' with 5 %}
+★★★★★
 
 ![Photo of Dave Gorman.](dave_gorman.jpg)
 {.align-pull}
@@ -119,7 +119,7 @@ When these two things come together, stupid things can happen, opening themselve
 
 ### Randy is Sober
 
-{% render 'rating' with 4 %}
+★★★★☆
 
 ![Photo of Randy.](randy.jpg)
 {.align-pull}
@@ -132,7 +132,7 @@ Afterwards I wondered if I would have enjoyed the performance had there been no 
 
 ### Best of the Fest
 
-{% render 'rating' with 2 %}
+★★☆☆☆
 
 The final show I attended was ""Best of the Fest"". Beginning at midnight, the hour before brought with it a sense of anti-climax, as many of the outdoor areas had been vacated due to the heavy rain. The performers showcased at this event were fairly mediocre, and the MC, [Andrew Maxwell][10] relied on cursing and drug references more than seemed necessary. I did get to see [David O'Doherty][11] perform [""Beefs 2011""][12] live though, so it wasn’t all bad.
 

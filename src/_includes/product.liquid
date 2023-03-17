@@ -3,8 +3,5 @@
   {%- image product.photo, 'supporting', 'u-photo' -%}
 {%- endif -%}
   <h3><cite class="p-name">{{ product.title | markdown: 'inline' }}</cite></h3>
-{%- if product.rating -%}
-  <p>{% render 'rating' with product.rating %}</p>
-{%- endif -%}
   {{ product.info | markdown }}
 </aside>
