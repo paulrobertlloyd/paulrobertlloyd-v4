@@ -54,6 +54,7 @@ module.exports = function (eleventy) {
   eleventy.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
 
   // Collections
+  eleventy.addCollection('article', require('./lib/collections/article.js'));
   eleventy.addCollection('attending', require('./lib/collections/attending.js'));
   eleventy.addCollection('attended', require('./lib/collections/attended.js'));
   eleventy.addCollection('category', require('./lib/collections/category.js'));
