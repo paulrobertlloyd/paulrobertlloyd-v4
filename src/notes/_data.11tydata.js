@@ -11,6 +11,6 @@ module.exports = {
     priority: 0.8,
   },
   eleventyComputed: {
-    title: 'Note: {{ date | date: dates.date_time }}',
+    page_title: 'Note: {{ date | date: dates.date_time }} · {{ app.name }}',
   },
 };

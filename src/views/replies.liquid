@@ -1,5 +1,6 @@
 ---
 layout: index
+title: Replies
 pagination:
   data: collections.reply
   reverse: true
@@ -8,11 +9,8 @@ permalink: "replies/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNum
 sitemap:
   changefreq: daily
   priority: 0.9
-eleventyComputed:
-  title: Replies
 ---
 {%- render 'items' with pagination.items
-  component: 'entry-untitled'
   modifier: 'inline'
 -%}
 {%- render 'pagination' with pagination -%}
