@@ -10,7 +10,7 @@ eleventyComputed:
   introduction: "{{ 'now' | date: '%d %B' }}"
 ---
 {%- assign today = 'now' | date: '-%m-%d' %}
-{%- assign items = collections.post | includes: 'date',today -%}
+{%- assign items = collections.public | includes: 'date',today -%}
 {%- render 'items' with items
   modifier: 'inline'
   itemsNoContent: 'Nothing was published on this day.'

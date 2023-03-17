@@ -28,7 +28,7 @@ module.exports = {
     : false,
   related(data) {
     const {collections, article_id, photo_id} = data;
-    const related = collections.post.filter(item => {
+    const related = collections.public.filter(item => {
       const {uid} = item.data;
       return uid && (article_id?.includes(uid) || photo_id?.includes(uid));
     });

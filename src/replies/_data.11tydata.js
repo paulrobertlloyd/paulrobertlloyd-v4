@@ -3,10 +3,11 @@ module.exports = {
   type: 'entry-untitled',
   type_prefix: 'r',
   permalink: 'replies/{{ page.fileSlug }}/',
-  tags: ['post', 'reply'],
+  tags: ['reply'],
   vocab: 'entry',
   changefreq: 'monthly',
   priority: 0.8,
+  visibility: 'unlisted',
   eleventyComputed: {
     title: 'Reply: {{ date | date: dates.datetime_full }}',
     image: '{{ photo[0].url }}',

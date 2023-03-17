@@ -2,7 +2,7 @@
 eleventyExcludeFromCollections: true
 permalink: archive/search.json
 ---
-[{% for item in collections.post %}
+[{% for item in collections.public %}
   {
     "title": {{ item.data.title | json }},
     "layout": {{ item.data.layout | capitalize | json }},

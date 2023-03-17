@@ -4,7 +4,7 @@ module.exports = {
   type: 'entry',
   type_prefix: 'b',
   permalink: 'bookmarks/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
-  tags: ['post', 'bookmark'],
+  tags: ['bookmark'],
   vocab: 'entry',
   changefreq: 'monthly',
   priority: 0.8,

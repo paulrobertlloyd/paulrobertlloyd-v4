@@ -4,7 +4,7 @@ module.exports = {
   type: 'entry-untitled',
   type_prefix: 'n',
   permalink: 'notes/{{ page.fileSlug }}/',
-  tags: ['post', 'note'],
+  tags: ['note'],
   vocab: 'entry',
   changefreq: 'monthly',
   priority: 0.8,

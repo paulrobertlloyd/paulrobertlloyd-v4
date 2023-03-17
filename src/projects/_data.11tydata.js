@@ -3,7 +3,7 @@ module.exports = {
   syndicate: true,
   type: 'entry',
   permalink: 'projects/{{ page.fileSlug }}/',
-  tags: ['post', 'project'],
+  tags: ['project'],
   vocab: 'entry',
   changefreq: 'monthly',
   priority: 0.9,

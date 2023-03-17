@@ -1,9 +1,9 @@
 ---
-eleventyExcludeFromCollections: true
 layout: page
 permalink: styleguide/
 title: Styleguide
 summary: An overview of the typographic and layout styles available for content pages
+visibility: unlisted
 ---
 The content on this page lies within the `.s-linear` scope[^1].
 

@@ -5,7 +5,7 @@ module.exports = {
   type_prefix: 'a',
   type_index: 1,
   permalink: 'articles/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
-  tags: ['post', 'article'],
+  tags: ['article'],
   vocab: 'entry',
   changefreq: 'monthly',
   priority: 0.9,

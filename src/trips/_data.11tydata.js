@@ -14,6 +14,7 @@ module.exports = {
   vocab: 'event',
   changefreq: 'monthly',
   priority: 0.8,
+  visibility: 'unlisted',
   eleventyComputed: {
     permalink: data => `trips/${data.uid}/`,
     title: data => `${data.itinerary[0].locality}, ${data.itinerary[0].country_name} ➔ ${data.itinerary.at(-1).locality}, ${data.itinerary.at(-1).country_name}`,

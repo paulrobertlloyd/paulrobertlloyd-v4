@@ -5,6 +5,7 @@ title: Hi, I’m Paul—
 summary: an independent designer, writer and occasional speaker based in Brighton, England.
 priority: 1
 changefreq: yearly
+visibility: unlisted
 eleventyComputed:
   page_title: '{{ app.name }}'
 ---

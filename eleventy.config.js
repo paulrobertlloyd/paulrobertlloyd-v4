@@ -57,8 +57,8 @@ module.exports = function (eleventy) {
   eleventy.addCollection('attended', require('./lib/collections/attended.js'));
   eleventy.addCollection('category', require('./lib/collections/category.js'));
   eleventy.addCollection('photo', require('./lib/collections/photo.js'));
-  eleventy.addCollection('post', require('./lib/collections/post.js'));
   eleventy.addCollection('presented', require('./lib/collections/presented.js'));
+  eleventy.addCollection('public', require('./lib/collections/public.js'));
   eleventy.addCollection('syndicate', require('./lib/collections/syndicate.js'));
 
   // Transforms
