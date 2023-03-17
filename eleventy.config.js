@@ -17,6 +17,9 @@ module.exports = function (eleventy) {
   // Libraries
   eleventy.setLibrary('md', require('./lib/libraries/markdown.js'));
 
+  // Folder data
+  eleventy.setDataFileBaseName('_data');
+
   // Filters
   eleventy.addFilter('absolute_url', require('@11ty/eleventy-plugin-rss').absoluteUrl);
   eleventy.addFilter('color', require('./lib/filters/color.js'));
