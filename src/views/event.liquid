@@ -8,11 +8,12 @@ pagination:
 permalink: "events/{{ event.start | date: '%Y/%m/%d' }}/{{ event.slug }}/"
 tags:
   - event
+sitemap:
+  changefreq: monthly
+  priority: 0.4
 eleventyComputed:
   type_prefix: e
   vocab: event
-  changefreq: monthly
-  priority: 0.4
   title: "{{ event.title }}"
   summary: "{{ event.summary }}"
   icon: "{{ event.icon }}"

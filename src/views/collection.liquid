@@ -8,10 +8,11 @@ pagination:
 permalink: "collections/{{ page.title | slugify }}/"
 tags:
   - collection
-eleventyComputed:
-  vocab: entry
+sitemap:
   changefreq: monthly
   priority: 0.2
+eleventyComputed:
+  vocab: entry
   title: "{{ page.title }}"
   summary: "{{ page.summary }}"
   id: "{{ page.title | slugify }}"

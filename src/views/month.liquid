@@ -7,9 +7,10 @@ pagination:
   alias: page
   addAllPagesToCollections: true
 permalink: "{{ page.url }}"
-eleventyComputed:
+sitemap:
   changefreq: monthly
   priority: 0.2
+eleventyComputed:
   page_title: "{{ page.data.introduction }} · {{ app.name }}"
   introduction: "{{ page.data.introduction }}"
 ---

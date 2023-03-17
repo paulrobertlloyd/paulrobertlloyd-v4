@@ -7,8 +7,10 @@ module.exports = {
   permalink: 'articles/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
   tags: ['article'],
   vocab: 'entry',
-  changefreq: 'monthly',
-  priority: 0.9,
+  sitemap: {
+    changefreq: 'monthly',
+    priority: 0.9,
+  },
   duotoneCardImage: true,
   eleventyComputed: {
     comments(data) {

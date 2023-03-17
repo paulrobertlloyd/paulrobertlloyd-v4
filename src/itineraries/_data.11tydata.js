@@ -5,8 +5,10 @@ module.exports = {
   permalink: 'travel/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
   tags: ['itinerary'],
   vocab: 'event',
-  changefreq: 'yearly',
-  priority: 0.8,
+  sitemap: {
+    changefreq: 'yearly',
+    priority: 0.8,
+  },
   eleventyComputed: {
     start: data => data.relatedTrips[0] ? data.relatedTrips[0].date : false,
     end: data => data.relatedTrips[0] ? data.relatedTrips[data.relatedTrips.length - 1].date : false,

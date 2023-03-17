@@ -5,8 +5,10 @@ module.exports = {
   permalink: 'replies/{{ page.fileSlug }}/',
   tags: ['reply'],
   vocab: 'entry',
-  changefreq: 'monthly',
-  priority: 0.8,
+  sitemap: {
+    changefreq: 'monthly',
+    priority: 0.8,
+  },
   visibility: 'unlisted',
   eleventyComputed: {
     title: 'Reply: {{ date | date: dates.datetime_full }}',

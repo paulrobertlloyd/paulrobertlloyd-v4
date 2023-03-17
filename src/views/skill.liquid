@@ -8,9 +8,10 @@ pagination:
 permalink: "projects/skills/{{ skill.title | slugify }}/"
 tags:
   - skill
-eleventyComputed:
+sitemap:
   changefreq: monthly
   priority: 0.2
+eleventyComputed:
   title: "{{ skill.title }}"
   summary: "{{ skill.summary }}"
 ---

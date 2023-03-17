@@ -3,9 +3,10 @@ layout: index
 title: Projects
 introduction: Skills
 permalink: projects/skills/
-eleventyComputed:
+sitemap:
   changefreq: weekly
   priority: 0.9
+eleventyComputed:
   page-title: "{{ introduction }} · {{ app.name }}"
 ---
 {%- render 'items' with collections.skill

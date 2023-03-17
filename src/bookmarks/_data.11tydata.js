@@ -6,8 +6,10 @@ module.exports = {
   permalink: 'bookmarks/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
   tags: ['bookmark'],
   vocab: 'entry',
-  changefreq: 'monthly',
-  priority: 0.8,
+  sitemap: {
+    changefreq: 'monthly',
+    priority: 0.8,
+  },
   eleventyComputed: {
     summary: '{{ bookmark_of | hostname }}',
     comments(data) {

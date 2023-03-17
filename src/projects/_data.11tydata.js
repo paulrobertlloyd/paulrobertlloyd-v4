@@ -5,6 +5,8 @@ module.exports = {
   permalink: 'projects/{{ page.fileSlug }}/',
   tags: ['project'],
   vocab: 'entry',
-  changefreq: 'monthly',
-  priority: 0.9,
+  sitemap: {
+    changefreq: 'monthly',
+    priority: 0.9,
+  }
 };

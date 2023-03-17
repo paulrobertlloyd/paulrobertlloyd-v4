@@ -6,8 +6,10 @@ module.exports = {
   permalink: 'presentations/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
   tags: ['presentation'],
   vocab: 'entry',
-  changefreq: 'monthly',
-  priority: 0.9,
+  sitemap: {
+    changefreq: 'monthly',
+    priority: 0.9,
+  },
   duotoneCardImage: true,
   eleventyComputed: {
     url: data => data.bookmark_of,

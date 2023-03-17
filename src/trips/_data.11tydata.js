@@ -12,8 +12,10 @@ module.exports = {
   type: 'entry',
   tags: ['trip'],
   vocab: 'event',
-  changefreq: 'monthly',
-  priority: 0.8,
+  sitemap: {
+    changefreq: 'monthly',
+    priority: 0.8,
+  },
   visibility: 'unlisted',
   eleventyComputed: {
     permalink: data => `trips/${data.uid}/`,

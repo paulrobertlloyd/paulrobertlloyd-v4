@@ -6,8 +6,10 @@ module.exports = {
   permalink: 'notes/{{ page.fileSlug }}/',
   tags: ['note'],
   vocab: 'entry',
-  changefreq: 'monthly',
-  priority: 0.8,
+  sitemap: {
+    changefreq: 'monthly',
+    priority: 0.8,
+  },
   eleventyComputed: {
     title: 'Note: {{ date | date: dates.datetime_full }}',
   },
