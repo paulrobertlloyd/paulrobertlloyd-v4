@@ -148,6 +148,12 @@
   font-weight: 500;
 }
 
+.s-linear dt {
+  float: inline-start;
+  font-weight: bold;
+  margin-inline-end: 1ch;
+}
+
 .s-linear li:has(p) {
   margin-block-start: calc(var(--linear-flow-space) * 0.5);
 }
