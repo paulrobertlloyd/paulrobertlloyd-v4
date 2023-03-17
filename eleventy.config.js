@@ -6,6 +6,7 @@ module.exports = function (eleventy) {
 
   // Liquid
   eleventy.setLiquidOptions({
+    dateFormat: '%Y-%m-%dT%H:%M:%S.%L%:z',
     globals: {
       app: require('./src/_data/app.js'),
       dates: require('./src/_data/dates.js'),

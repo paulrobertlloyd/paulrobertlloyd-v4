@@ -6,7 +6,7 @@ permalink: feed.xml
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>{{ app.url }}{{ page.url }}</id>
   <title>{{ app.name }}</title>
-  <updated>{{ 'now' | date: dates.iso }}</updated>
+  <updated>{{ 'now' | date }}</updated>
   <author>
     <name>{{ app.author.name }}</name>
     <email>{{ app.author.email }}</email>
@@ -21,7 +21,7 @@ permalink: feed.xml
   <entry>
     <id>{{ item.url | absolute_url: app.url }}</id>
     <title>{{ item.data.title | markdown: 'inline' | escape | strip_html | strip_newlines }}</title>
-    <updated>{{ item.date | date: dates.iso }}</updated>
+    <updated>{{ item.date | date }}</updated>
     {% if item.data.url %}
     <link rel="alternate" href="{{ item.data.url }}" type="text/html"/>
     <link rel="related" href="{{ item.url | absolute_url: app.url }}" type="text/html"/>

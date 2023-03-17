@@ -10,7 +10,7 @@ permalink: sitemap.xml
   {%- if item.data.sitemap %}
   <url>
     <loc>{{ item.url | absolute_url: app.url }}</loc>
-    <lastmod>{{ item.date | date: dates.iso }}</lastmod>
+    <lastmod>{{ item.date | date }}</lastmod>
     <changefreq>{{ item.data.sitemap.changefreq }}</changefreq>
     <priority>{{ item.data.sitemap.priority }}</priority>
     {%- if item.data.page_image %}
