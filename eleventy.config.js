@@ -31,9 +31,7 @@ module.exports = function (eleventy) {
   // Slugify filter
   const slugifyFilter = eleventy.getFilter('slugify');
   eleventy.addFilter('slugify', string => slugifyFilter(string, {
-    customReplacements: [
-      ['@', 'at'],
-    ],
+    customReplacements: [['@', 'at']],
     separator: '_',
   }));
 
