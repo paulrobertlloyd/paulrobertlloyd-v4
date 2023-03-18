@@ -1,9 +1,10 @@
+{%- assign itinerary = collections.trip | itinerary: trip_id -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'footer-event'
     date: date
-    start: start
-    end: end
+    start: itinerary.start
+    end: itinerary.end
     vocabulary: vocabulary
   -%}
   {%- render 'header'
@@ -13,11 +14,11 @@
     vocabulary: vocabulary
   -%}
   {%- capture content -%}
-    {%- render 'map' with geojson
+    {%- render 'map' with itinerary.geojson
       alignment: 'bleed'
     -%}
     {{ place.content | markdown }}
-    {%- render 'trips' with relatedTrips -%}
+    {%- render 'trips' with itinerary.trips -%}
   {%- endcapture -%}
   {%- render 'content' with content -%}
   {%- render 'section' with related

@@ -29,6 +29,7 @@ module.exports = function (eleventy) {
   eleventy.addFilter('excludes', require('./lib/filters/excludes.js'));
   eleventy.addFilter('hostname', require('./lib/filters/hostname.js'));
   eleventy.addFilter('includes', require('./lib/filters/includes.js'));
+  eleventy.addFilter('itinerary', require('./lib/filters/itinerary.js'));
   eleventy.addFilter('map_url', require('./lib/filters/map-url.js'));
   eleventy.addFilter('markdown', require('./lib/filters/markdown.js'));
   eleventy.addFilter('percentage_of', require('./lib/filters/percentage-of.js'));
@@ -60,6 +61,7 @@ module.exports = function (eleventy) {
   eleventy.addCollection('bookmark', require('./lib/collections/bookmark.js'));
   eleventy.addCollection('category', require('./lib/collections/category.js'));
   eleventy.addCollection('comments', require('./lib/collections/comments.js'));
+  eleventy.addCollection('itinerary', require('./lib/collections/itinerary.js'));
   eleventy.addCollection('note', require('./lib/collections/note.js'));
   eleventy.addCollection('photo', require('./lib/collections/photo.js'));
   eleventy.addCollection('presented', require('./lib/collections/presented.js'));
