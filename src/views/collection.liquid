@@ -3,9 +3,9 @@ layout: collection
 pagination:
   data: archives.collections
   size: 1
-  alias: page
+  alias: archive
   addAllPagesToCollections: true
-permalink: "collections/{{ page.title | slugify }}/"
+permalink: "collections/{{ archive.title | slugify }}/"
 tags:
   - collection
 sitemap:
@@ -13,8 +13,8 @@ sitemap:
   priority: 0.2
 eleventyComputed:
   vocabulary: entry
-  title: "{{ page.title }}"
-  summary: "{{ page.summary }}"
-  id: "{{ page.title | slugify }}"
-  itemsModifier: "{{ page.itemsModifier }}"
+  title: "{{ archive.title }}"
+  summary: "{{ archive.summary }}"
+  id: "{{ archive.title | slugify }}"
+  itemsModifier: "{{ archive.itemsModifier }}"
 ---

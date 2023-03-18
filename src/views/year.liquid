@@ -4,22 +4,22 @@ title: Archive
 pagination:
   data: archives.years
   size: 1
-  alias: page
+  alias: archive
   addAllPagesToCollections: true
-permalink: "{{ page.url }}"
+permalink: "{{ archive.url }}"
 sitemap:
   changefreq: monthly
   priority: 0.2
 eleventyComputed:
-  page_title: "{{ page.data.introduction }} · {{ app.name }}"
-  introduction: "{{ page.data.introduction }}"
+  page_title: "{{ archive.data.introduction }} · {{ app.name }}"
+  introduction: "{{ archive.data.introduction }}"
 ---
-{%- assign months = archives.months | includes: 'date',page.fileSlug -%}
+{%- assign months = archives.months | includes: 'date',archive.fileSlug -%}
 {%- render 'section-archives' with months
   id: 'browse',
   title: 'Browse by month'
 -%}
-{%- assign featured = collections.article | includes: 'data.tags','featured' | includes: 'data.date',page.fileSlug -%}
+{%- assign featured = collections.article | includes: 'data.tags','featured' | includes: 'data.date',archive.fileSlug -%}
 {%- render 'section' with featured
   id: 'featured'
   title: 'Select articles from this year'

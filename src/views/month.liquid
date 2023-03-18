@@ -4,17 +4,17 @@ title: Archive
 pagination:
   data: archives.months
   size: 1
-  alias: page
+  alias: archive
   addAllPagesToCollections: true
-permalink: "{{ page.url }}"
+permalink: "{{ archive.url }}"
 sitemap:
   changefreq: monthly
   priority: 0.2
 eleventyComputed:
-  page_title: "{{ page.data.introduction }} · {{ app.name }}"
-  introduction: "{{ page.data.introduction }}"
+  page_title: "{{ archive.data.introduction }} · {{ app.name }}"
+  introduction: "{{ archive.data.introduction }}"
 ---
-{%- assign items = collections.public | includes: 'date',page.data.date -%}
+{%- assign items = collections.public | includes: 'date',archive.data.date -%}
 {%- render 'items' with items
   modifier: 'inline'
   itemsNoContent: 'Nothing was published during this month.'
