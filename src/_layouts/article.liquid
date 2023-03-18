@@ -18,10 +18,6 @@
     comments: comments
     syndication: syndication
   -%}
-  {%- render 'remarks' with webmentions
-    id: 'webmentions'
-    title: 'Webmentions'
-  -%}
   {%- for this in collection -%}
     {%- assign related = collections.collection | where: 'fileSlug',this | first -%}
     {%- capture sectionTitle %}More from the <a href="{{ related.url }}">{{ related.data.title }}</a> collection{%- endcapture -%}
