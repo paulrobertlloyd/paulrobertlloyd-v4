@@ -6,7 +6,8 @@
   margin-inline: calc(var(--gap) * -1);
 }
 
-.align-bleed > img:first-child {
+.align-bleed > img:first-child,
+.align-bleed > picture:first-child {
   grid-column: bleed;
   inline-size: 100%;
 }
