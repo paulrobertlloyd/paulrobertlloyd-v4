@@ -5,7 +5,7 @@ title: Hi, I’m Paul—
 summary: an independent designer, writer and occasional speaker based in Brighton, England.
 visibility: unlisted
 eleventyComputed:
-  page_title: '{{ app.name }}'
+  page_title: false
 ---
 Having worked with start-ups, design agencies and in-house teams, I now partner with public sector organisations to help them deliver purposeful digital products and services.
 

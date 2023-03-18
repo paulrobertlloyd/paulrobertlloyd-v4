@@ -4,9 +4,9 @@ permalink: archive/search.json
 ---
 [{% for item in collections.public %}
   {
-    "title": {{ item.data.title | json }},
+    "title": {{ item.data.page_title | json }},
     "layout": {{ item.data.layout | capitalize | json }},
-    "content": {{ item.templateContent | tokenize | json }},
+    "content": {{ item.content | tokenize | json }},
     "url": {{ item.url | json }}
   }{% unless forloop.last %},{% endunless %}
 {% endfor %}]

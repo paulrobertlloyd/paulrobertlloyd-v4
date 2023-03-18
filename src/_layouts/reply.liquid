@@ -1,4 +1,7 @@
-{%- capture page_title %}Reply: {{ date | date: dates.date_time }} · {{ app.name }}{% endcapture -%}
+---
+eleventyComputed:
+  page_title: "Reply: {{ date | date: dates.date_time }}"
+---
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'footer'

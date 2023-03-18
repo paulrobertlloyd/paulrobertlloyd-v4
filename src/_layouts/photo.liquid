@@ -1,4 +1,7 @@
-{%- capture page_title %}{% if photo.size > 1 -%}{{ photo.size }} photos{% else %}Photo{% endif %}: {{ date | date: dates.date_time }} · {{ app.name }}{% endcapture -%}
+---
+eleventyComputed:
+  page_title: "{{ photo.size | pluralise: 'photo' }}: {{ date | date: dates.date_time }}"
+---
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'footer'

@@ -7,7 +7,7 @@ module.exports = {
   date_sxg: data => DateToSxg(new Date(data.published)),
   type_index: data => data.type_index || data.page.fileSlug || 1,
   uid: data => data.type_prefix && `${data.type_prefix}${data.date_sxg}${data.type_index}`,
-  page_title: data => `${data.title} · ${data.app.name}`,
+  page_title: data => `${data.title}`,
   page_image: data => data.photo
     ? (data.photo[0] || data.photo)
     : false,

@@ -8,7 +8,7 @@ pagination:
   addAllPagesToCollections: true
 permalink: "{{ archive.url }}"
 eleventyComputed:
-  page_title: "{{ archive.data.introduction }} · {{ app.name }}"
+  page_title: "{{ archive.data.introduction }}"
   introduction: "{{ archive.data.introduction }}"
 ---
 {%- assign months = archives.months | includes: 'date',archive.fileSlug -%}

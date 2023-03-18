@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ page_title | markdown: 'inline' | strip_html }}</title>
+  <title>{%- if page_title %}{{ page_title }} · {% endif %}{{ app.name }}</title>
 
   <script nonce="bVgyaDV6YU9tdThnZ2wwckZBNnFnc1Z6Wk40SnY2U0pmbjdTUjQ3MVg2RTFCbnEwN3g=">
     if (navigator.serviceWorker) {
