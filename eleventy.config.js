@@ -1,4 +1,5 @@
 require('dotenv').config();
+const collections = require('./lib/collections/index.js');
 
 module.exports = function (eleventy) {
   // Extensions
@@ -58,22 +59,9 @@ module.exports = function (eleventy) {
   eleventy.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
 
   // Collections
-  eleventy.addCollection('article', require('./lib/collections/article.js'));
-  eleventy.addCollection('attending', require('./lib/collections/attending.js'));
-  eleventy.addCollection('attended', require('./lib/collections/attended.js'));
-  eleventy.addCollection('bookmark', require('./lib/collections/bookmark.js'));
-  eleventy.addCollection('category', require('./lib/collections/category.js'));
-  eleventy.addCollection('comments', require('./lib/collections/comments.js'));
-  eleventy.addCollection('itinerary', require('./lib/collections/itinerary.js'));
-  eleventy.addCollection('note', require('./lib/collections/note.js'));
-  eleventy.addCollection('photo', require('./lib/collections/photo.js'));
-  eleventy.addCollection('presented', require('./lib/collections/presented.js'));
-  eleventy.addCollection('presentation', require('./lib/collections/presentation.js'));
-  eleventy.addCollection('project', require('./lib/collections/project.js'));
-  eleventy.addCollection('public', require('./lib/collections/public.js'));
-  eleventy.addCollection('reply', require('./lib/collections/reply.js'));
-  eleventy.addCollection('syndicate', require('./lib/collections/syndicate.js'));
-  eleventy.addCollection('trip', require('./lib/collections/trip.js'));
+  for (const [name, collection] of Object.entries(collections)) {
+    eleventy.addCollection(name, collection);
+  }
 
   // Transforms
   eleventy.addTransform('embed', require('./lib/transforms/embed.js'));
