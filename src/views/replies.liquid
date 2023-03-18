@@ -6,9 +6,6 @@ pagination:
   reverse: true
   size: 36
 permalink: "replies/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}.html{% else %}/{% endif %}"
-sitemap:
-  changefreq: daily
-  priority: 0.9
 ---
 {%- render 'items' with pagination.items
   modifier: 'inline'

@@ -7,9 +7,6 @@ pagination:
   alias: archive
   addAllPagesToCollections: true
 permalink: "{{ archive.url }}"
-sitemap:
-  changefreq: monthly
-  priority: 0.2
 eleventyComputed:
   page_title: "{{ archive.data.introduction }} · {{ app.name }}"
   introduction: "{{ archive.data.introduction }}"

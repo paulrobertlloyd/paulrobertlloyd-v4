@@ -8,9 +8,6 @@ pagination:
   reverse: true
   size: 24
 permalink: "articles/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}.html{% else %}/{% endif %}"
-sitemap:
-  changefreq: weekly
-  priority: 0.9
 ---
 {%- if pagination.pageNumber < 1 -%}
   {%- assign featured = collections.article | includes: 'data.tags','featured' | reverse -%}
