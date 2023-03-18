@@ -1,27 +1,45 @@
 .embed {
-  background-color: var(--color-offset);
-  overflow: hidden;
-  position: relative;
-}
-
-.embed::before {
-  content: "";
-  display: block;
-  padding-block-end: 56.25%;
-}
-
-@supports (--custom:property) {
-  .embed::before {
-    padding-block-end: calc(var(--aspect-ratio) * 100%);
+  & a {
+    --anchor-decoration: none;
+    align-items: center;
+    background-color: var(--color-offset);
+    border-inline-start: var(--border-width-rule) solid var(--color-accent);
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--flow-inset);
+    padding: var(--flow-inset);
   }
 }
 
-.embed iframe {
-  block-size: 100%;
-  border: none;
+.embed__poster {
+  flex-grow: 1;
+  flex-basis: 15rem;
+  max-inline-size: 15rem;
+  object-fit: cover;
+}
+
+.embed__meta {
+  flex-basis: 0;
+  flex-grow: 999;
+  line-height: var(--line-height-tight);
+  margin-block-start: 0 !important;
+  min-inline-size: 40%;
+
+  & a::before {
+    content: "";
+    display: block;
+    position: absolute;
+    inset: 0;
+  }
+
+  & .icon {
+    display: inline;
+    margin-block-end: -0.1em;
+  }
+}
+
+.embed__hostname {
+  color: var(--color-neutral-dark);
   display: block;
-  inline-size: 100%;
-  inset-block-start: 0;
-  position: absolute;
-  z-index: 1;
+  margin-block-start: var(--space-2xs);
 }
