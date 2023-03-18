@@ -18,7 +18,7 @@
       <td>
       {% for stop in item.data.stops %}
         <span>
-          {%- unless forloop.first %}<svg width="1em" height="1em" focusable="false" aria-hidden="true"><use href="#_icon_{{ stop.icon }}"></use></svg> {% endunless -%}
+          {%- unless forloop.first %}<svg width="1em" height="1em" focusable="false" aria-hidden="true"><use href="#_icon_{{ modes[stop.category[0]].icon }}"></use></svg> {% endunless -%}
           {{ stop.label }}, {{ stop.country_name }}
         </span><br>
       {% endfor %}

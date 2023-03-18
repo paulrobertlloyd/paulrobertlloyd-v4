@@ -1,10 +1,6 @@
 const getDistance = require('../../lib/utils/get-distance.js');
 const getEmissions = require('../../lib/utils/get-emissions.js');
 const getGeoJSON = require('../../lib/utils/get-geojson.js');
-const modes = require('../_data/modes.js');
-
-const isGreatBritain = country =>
-  ['England', 'Scotland', 'Wales'].includes(country);
 
 module.exports = {
   layout: 'trip',
@@ -23,12 +19,5 @@ module.exports = {
     geojson: data => getGeoJSON(data.itinerary),
     distance: data => getDistance(data.itinerary),
     co2: data => getEmissions(data.itinerary, data.distance),
-    stops: data => data.itinerary.map(stop => {
-      stop.icon = isGreatBritain(stop.country_name) && stop.category === 'station'
-        ? 'national_rail'
-        : modes[stop.category].icon;
-
-      return stop;
-    }),
   },
 };
