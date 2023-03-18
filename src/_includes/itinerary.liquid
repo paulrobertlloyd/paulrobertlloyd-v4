@@ -1,7 +1,7 @@
 <ul class="itinerary" role="list">
 {%- for item in itinerary %}
   <li>
-    {%- unless forloop.first %}<svg width="1em" height="1em" focusable="false" aria-hidden="true"><use href="#_icon_{{ modes[item.category[0]].icon }}"></use></svg> {% endunless -%}
+    {%- unless forloop.first %}<svg width="1em" height="1em" focusable="false" aria-hidden="true"><use href="#_icon_{{ item.icon }}"></use></svg> {% endunless -%}
     {{ item.label }}, {{ item.country_name }}
   </li>
 {%- endfor %}

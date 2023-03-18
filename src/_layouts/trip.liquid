@@ -1,3 +1,10 @@
+---
+eleventyComputed:
+  title: "{{ itinerary | trip_title }}"
+  summary: "A trip of {{ distance }} km that emitted roughly {{ emissions }} kg of CO₂."
+  distance: "{{ itinerary | trip_distance }}"
+  emissions: "{{ distance | trip_emissions: itinerary[0].category }}"
+---
 {%- assign related = collections.itinerary | includes: 'data.trip_id',uid | first -%}
 {%- assign formattedTitle = title | replace: ' ➔ ','\n➔ ' -%}
 {%- layout 'default' -%}
@@ -13,7 +20,7 @@
   {%- capture content -%}
     <p>Part of a journey to <a href="{{ related.url }}">{{ related.data.title }}</a>.</p>
     {%- capture caption -%}
-      {%- render 'itinerary' with stops -%}
+      {%- render 'itinerary' with itinerary -%}
     {%- endcapture -%}
     {%- render 'map' with geojson
       alignment: 'bleed',

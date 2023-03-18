@@ -38,6 +38,9 @@ module.exports = function (eleventy) {
   eleventy.addFilter('syndication_target', require('./lib/filters/syndication-target.js'));
   eleventy.addFilter('template_content_to_feed_html', require('./lib/filters/template-content-to-feed-html.js'));
   eleventy.addFilter('tokenize', require('./lib/filters/tokenize.js'));
+  eleventy.addFilter('trip_distance', require('./lib/filters/trip-distance.js'));
+  eleventy.addFilter('trip_emissions', require('./lib/filters/trip-emissions.js'));
+  eleventy.addFilter('trip_title', require('./lib/filters/trip-title.js'));
 
   const slugifyFilter = eleventy.getFilter('slugify');
   eleventy.addFilter('slugify', string => slugifyFilter(string, {
@@ -70,6 +73,7 @@ module.exports = function (eleventy) {
   eleventy.addCollection('public', require('./lib/collections/public.js'));
   eleventy.addCollection('reply', require('./lib/collections/reply.js'));
   eleventy.addCollection('syndicate', require('./lib/collections/syndicate.js'));
+  eleventy.addCollection('trip', require('./lib/collections/trip.js'));
 
   // Transforms
   eleventy.addTransform('embed', require('./lib/transforms/embed.js'));

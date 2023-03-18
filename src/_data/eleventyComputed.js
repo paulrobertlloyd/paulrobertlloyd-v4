@@ -1,6 +1,7 @@
 const {DateToSxg} = require('newbase60');
 const webmentions = require('../../lib/utils/get-webmentions.js');
 const summaryImagePath = require('../../lib/utils/get-summary-image-path.js');
+const geojson = require('../../lib/utils/get-geojson.js');
 
 module.exports = {
   published: data => data.start || data.date,
@@ -38,5 +39,10 @@ module.exports = {
   webmentions(data) {
     const url = data.app.url + data.page.url;
     return webmentions(data.webmentions.children, url);
+  },
+  // Return geojson object for trip pages
+  // Can’t use frontmatter as liquid returns objects as strings
+  geojson(data) {
+    return data.itinerary && geojson(data.itinerary);
   },
 };
