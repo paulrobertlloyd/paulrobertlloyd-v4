@@ -3,7 +3,7 @@ command = "npm run build"
 publish = "www"
 
 [context.production]
-command = "npm run deploy"
+command = "git submodule update --init --remote && npm run deploy"
 
   [context.production.environment]
   ELEVENTY_ENV = "production"
