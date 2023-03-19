@@ -4,4 +4,5 @@ module.exports = {
   type_prefix: 'r',
   visibility: 'unlisted',
   vocabulary: 'entry',
+  permalink: '{{ page.date | date: "%Y/%j" }}/{{ type_prefix }}{{ page.fileSlug }}/',
 };
