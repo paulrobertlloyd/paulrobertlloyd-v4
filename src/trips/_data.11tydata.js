@@ -3,7 +3,5 @@ module.exports = {
   type_prefix: 't',
   visibility: 'unlisted',
   vocabulary: 'event',
-  eleventyComputed: {
-    permalink: data => `trips/${data.uid}/`,
-  },
+  permalink: '{{ page.date | date: "%Y/%j" }}/{{ type_prefix }}{{ page.fileSlug }}/',
 };
