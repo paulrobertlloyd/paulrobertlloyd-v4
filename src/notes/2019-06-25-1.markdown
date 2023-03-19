@@ -1,4 +1,0 @@
----
-date: 2019-06-25T18:43:41+01:00
----
-Small but [powerful features like this](https://css-tricks.com/separate-form-submit-buttons-go-different-urls/) are just one of the many reasons why I love HTML.

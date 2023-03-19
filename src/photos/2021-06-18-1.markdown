@@ -1,9 +1,0 @@
----
-date: 2021-06-18T22:51:47.163+01:00
-photo:
-  - url: /media/1624053105.jpg
-    alt: Looking down at train tracks between two platforms at Truro station.
-syndication:
-  - https://twitter.com/paulrobertlloyd/status/1406007437258330114
----
-Back to London.

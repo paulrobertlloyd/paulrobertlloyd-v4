@@ -1,7 +1,0 @@
----
-date: 2020-04-19T17:11:00.000+01:00
-photo:
-  - url: /media/1587316260.jpg
-    alt: Sunset behind Brighton Pavilion.
-collection: lockdown_on_the_run
----

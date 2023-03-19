@@ -1,9 +1,0 @@
----
-date: 2023-01-15T00:02:20.330Z
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/109690317249227712
-  - https://twitter.com/paulrobertlloyd/status/1614414615508836353
----
-Fond memories of travelling on Network SouthEast’s ‘slam-door’ trains in the late 80s and early 90s.
-
-Now available for just [£3 per square meter](https://www.shedno2.co.uk/products/british-rail-blue-blaze-moquette-fabric-sold-by-the-meter).

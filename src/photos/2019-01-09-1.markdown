@@ -1,7 +1,0 @@
----
-date: 2019-01-09T15:25:32Z
-photo:
-  - url: /media/1547047532.jpg
-    alt: ‘New Dark Age’ book.
----
-A goal for the year ahead (let’s not call it a resolution) is to read more. So starting here, with ""New Dark Age: Technology and the End of the Future"" by James Bridle.

@@ -1,9 +1,0 @@
----
-date: 2021-03-07T13:05:36.323Z
-photo:
-  - url: /media/1615122334.jpg
-    alt: Brighton Pier against a bright blue sunny sky.
-syndication:
-  - https://twitter.com/paulrobertlloyd/status/1368549018159222787
----
-Nice day for a swim!

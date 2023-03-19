@@ -1,9 +1,0 @@
----
-title: Belfast
-summary: Break conference.
-article_id:
-  - a4ZD1
-trip_id:
-  - t4Z61
-  - t4Z91
----

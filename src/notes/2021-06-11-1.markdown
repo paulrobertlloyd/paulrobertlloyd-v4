@@ -1,6 +1,0 @@
----
-date: 2021-06-11T01:04:09.863+01:00
-syndication:
-  - https://twitter.com/paulrobertlloyd/status/1403141596351193090
----
-This is a low.

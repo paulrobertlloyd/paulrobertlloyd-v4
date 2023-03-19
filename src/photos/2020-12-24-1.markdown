@@ -1,8 +1,0 @@
----
-date: 2020-12-24T16:46:53.389Z
-photo:
-  - url: /media/1608828410.jpg
-    alt: Sunset over the Level Skate Park.
-collection: lockdown_on_the_run
----
-On a cold winter’s evening.

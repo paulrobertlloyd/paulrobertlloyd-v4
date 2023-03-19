@@ -1,4 +1,0 @@
----
-date: 2020-11-26T19:46:47.404Z
----
-It’s been a year since we launched [our little service](https://www.gov.uk/apply-for-teacher-training). I’m so grateful to be working with such a brilliant group of people, and very proud of what we’re building together. Happy birthday Apply!

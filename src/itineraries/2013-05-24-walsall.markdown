@@ -1,7 +1,0 @@
----
-title: Walsall
-summary: Kris’ stag night.
-trip_id:
-  - 4Q91
-  - 4QC1
----

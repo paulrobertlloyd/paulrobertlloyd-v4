@@ -1,7 +1,0 @@
----
-date: 2022-06-06T18:04:02.828+01:00
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/108431622215604510
-  - https://twitter.com/paulrobertlloyd/status/1533858133210083329
----
-If Apple updates their macOS apps like they updated Safari last year (poorly conceived features, confusing design, bug-ridden implementation), then I think I might cry. #WWDC22

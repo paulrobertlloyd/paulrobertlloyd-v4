@@ -1,9 +1,0 @@
----
-date: 2021-09-21T19:34:05.646+01:00
-photo:
-  - url: /media/1632249243.jpg
-    alt: Sun rays breaking through some trees in Roydon Woods.
-syndication:
-  - https://twitter.com/paulrobertlloyd/status/1440384590170902535
----
-I just hope the sun will show us the path.

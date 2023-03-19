@@ -1,8 +1,0 @@
----
-date: 2022-01-02T15:58:22.612Z
-photo:
-  - url: /media/1641139100.jpg
-    alt: Rain drops on a window pane with the sun setting in the distance.
-syndication:
-  - https://twitter.com/paulrobertlloyd/status/1477671409757442048
----

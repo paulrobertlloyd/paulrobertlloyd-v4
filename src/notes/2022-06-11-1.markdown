@@ -1,7 +1,0 @@
----
-date: 2022-06-11T23:07:23.977+01:00
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/108461124074663094
-  - https://twitter.com/paulrobertlloyd/status/1535746252263940097
----
-""Everything Everywhere All at Once"" is the multiverse done right: original, vibrant, funny, surprising, thought provoking… Doctor Strange could learn a thing or two from Evelyn Wang.

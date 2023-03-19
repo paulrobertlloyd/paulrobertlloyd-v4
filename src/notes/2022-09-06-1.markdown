@@ -1,7 +1,0 @@
----
-date: 2022-09-06T17:31:50.797+01:00
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/108952423190519399
-  - https://twitter.com/paulrobertlloyd/status/1567189395756953601
----
-She’s been very clear, and she’s got a bold plan. So that’s all good then.

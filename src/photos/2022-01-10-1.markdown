@@ -1,9 +1,0 @@
----
-date: 2022-01-10T13:49:18.803Z
-photo:
-  - url: /media/1641822555.jpg
-    alt: Christmas trees piled up in a park ready for recycling.
-syndication:
-  - https://twitter.com/paulrobertlloyd/status/1480545229300277251
----
-Christmas is the ecological disaster we celebrate every year. Buy shit in November, discard it in January.

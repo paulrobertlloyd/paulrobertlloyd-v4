@@ -1,7 +1,0 @@
----
-date: 2022-11-23T12:57:21.013Z
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/109393238611753364
-  - https://twitter.com/paulrobertlloyd/status/1595401583537184768
----
-A nice [chunky release for Indiekit](https://github.com/getindiekit/indiekit/releases/tag/v1.0.0-alpha.14) on the road to v1.0. Adds a new built-in IndieAuth endpoint, adding support for the latest version of the spec and improving the application sign in journey. Updated the [getting started](https://getindiekit.com/get-started) guide, too.

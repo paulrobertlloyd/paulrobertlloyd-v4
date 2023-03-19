@@ -1,4 +1,0 @@
----
-date: 2017-12-19T22:01:00Z
----
-The [new icon for micro.blog](https://manton.org/2017/12/19/major-update-to.html) makes a world of difference. With this change, I can finally move the app to my home screen!

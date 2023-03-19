@@ -1,8 +1,0 @@
----
-date: 2021-02-14T00:17:20.936Z
-in_reply_to: https://adactio.com/journal/17821
-syndication:
-  - https://web.archive.org/web/20210214002251/https://paulrobertlloyd.com/replies/1613261840/
-  - https://twitter.com/paulrobertlloyd/status/1360746727188365314
----
-Ever one to jump on a bandwagon, I’ve added an [on this day archive](/archive/on-this-day/) too. And it’s immediately proven its utility by reminding me of a lovely memory from this day last year.

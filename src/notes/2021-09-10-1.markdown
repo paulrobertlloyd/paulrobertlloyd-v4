@@ -1,6 +1,0 @@
----
-date: 2021-09-10T00:06:34.262+01:00
-syndication:
-  - https://twitter.com/paulrobertlloyd/status/1436104603288940546
----
-Today was a good day.

@@ -1,7 +1,0 @@
----
-date: 2019-06-07T14:20:39+01:00
-photo:
-  - url: /media/1559913639.jpg
-    alt: Egg and bacon sandwich.
----
-[Cracked](https://www.instagram.com/crackedbrighton/) fried egg sandwiches are so wrong, but oh so right.

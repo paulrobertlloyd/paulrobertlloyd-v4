@@ -1,9 +1,0 @@
----
-title: Oban and Tobermory
-trip_id:
-  - t4sp1
-  - t4sq1
-  - t4ss1
-  - t4ss2
-  - t4su1
----

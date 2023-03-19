@@ -1,7 +1,0 @@
----
-date: 2022-07-13T11:48:33.418+01:00
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/108639649874122159
-  - https://twitter.com/paulrobertlloyd/status/1547171903474806784
----
-Looking at the BBC home page, am reminded of the decision to [remove icons from GOV.UK](https://gds.blog.gov.uk/2013/06/18/retiring-our-icons/). Icons can sometimes aid comprehension but more often than not they add clutter and confuse users.

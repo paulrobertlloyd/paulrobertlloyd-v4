@@ -1,7 +1,0 @@
----
-title: Glasgow
-summary: Glasgow 2014 clyde-sider venue specific training at Hampden Park.
-trip_id:
-  - t4Wo1
-  - t4Wq1
----

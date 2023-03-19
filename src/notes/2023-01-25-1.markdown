@@ -1,7 +1,0 @@
----
-date: 2023-01-25T16:46:53.368Z
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/109750868841632579
-  - https://twitter.com/paulrobertlloyd/status/1618289918660456448
----
-Controversial opinion but: I like Mastodon’s official clients! All that’s missing from the official iOS app is an edit function, otherwise it’s easy to use and far less fussier than Ivory, for one. As ever, I’m here for the default option.

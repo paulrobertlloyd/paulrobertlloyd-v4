@@ -1,7 +1,0 @@
----
-date: 2022-03-18T15:34:56.735Z
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/107978285652023221
-  - https://twitter.com/paulrobertlloyd/status/1504844592943878146
----
-Lovely bumping into @yandle earlier. Compared notes on working in government, and reminisced about ‘that trip’ to New York in 2013.

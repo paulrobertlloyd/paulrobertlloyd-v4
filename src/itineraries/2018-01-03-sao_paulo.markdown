@@ -1,7 +1,0 @@
----
-title: São Paulo
-summary: Visiting my family in Brazil.
-trip_id:
-  - t4sE1
-  - t4sR1
----

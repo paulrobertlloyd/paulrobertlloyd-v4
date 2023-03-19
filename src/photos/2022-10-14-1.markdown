@@ -1,9 +1,0 @@
----
-date: 2022-10-14T14:00:00.000+01:00
-photo:
-  - url: /media/1665748800.jpg
-    alt: Tree with bright red leaves on the corner of a residential street.
----
-I posted a similar photo 2 years ago, but this tree is one of my favourite things in the world, and it brings so much happiness during the few weeks a year it displays this awesome flame red plumage.
-
-[A Day In The Life](https://micro.welltempered.net/2022/10/11/a-day-in.html): Brighton, England, 14 October 2022 at 13:05 BST.

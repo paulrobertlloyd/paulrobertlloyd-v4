@@ -1,7 +1,0 @@
----
-title: Austin
-summary: SXSW 2007.
-trip_id:
-  - 3mN1
-  - 3mQ1
----

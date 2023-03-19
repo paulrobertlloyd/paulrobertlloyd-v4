@@ -1,7 +1,0 @@
----
-title: Glasgow
-summary: Glasgow 2014 clyde-sider orientation.
-trip_id:
-  - t4Ux1
-  - t4Uy1
----

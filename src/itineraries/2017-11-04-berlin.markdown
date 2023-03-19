@@ -1,7 +1,0 @@
----
-title: Berlin
-summary: A welcome return to Berlin for the Beyond Tellerand conference.
-trip_id:
-  - t4rE1
-  - t4rK1
----

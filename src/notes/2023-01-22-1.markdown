@@ -1,7 +1,0 @@
----
-date: 2023-01-22T18:48:23.464Z
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/109734357925634557
-  - https://twitter.com/paulrobertlloyd/status/1617233219149246466
----
-Over the last few years, I’ve started following several channels on YouTube. I don’t subscribe to them. Instead, I manually search for each channel because I don’t want to sign into Google. The other day I wondered if I could subscribe to channels using RSS. It turns out that yes, you can! It’s [not easy](https://danielmiessler.com/blog/rss-feed-youtube-channel/), but thankfully NetNewsWire does the hard work, so I only need to give it a channel’s URL. Perfect!

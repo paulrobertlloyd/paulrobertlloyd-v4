@@ -1,6 +1,0 @@
----
-date: 2021-12-15T22:10:53.111Z
-syndication:
-  - https://twitter.com/paulrobertlloyd/status/1471242142744035328
----
-Guessing somebody on the @guardian’s iOS team learnt how to do rounded corners. 🙄

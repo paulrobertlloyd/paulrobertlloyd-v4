@@ -1,7 +1,0 @@
----
-date: 2022-07-24T20:09:19.170+01:00
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/108703900322000198
-  - https://twitter.com/paulrobertlloyd/status/1551283932275937280
----
-Not only has this been a massively productive weekend, but today I managed to wangle a free iced coffee from the local cafe, and my neighbour gave me their basil plant.

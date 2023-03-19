@@ -1,4 +1,0 @@
----
-date: 2020-10-29T21:38:35.574Z
----
-If I’ve got this all set up correctly, this post will be saved to the Internet Archive, thanks to [Indiekit](https://getindiekit.com)’s new syndication feature. 🤞

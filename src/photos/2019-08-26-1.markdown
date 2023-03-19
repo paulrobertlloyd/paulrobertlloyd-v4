@@ -1,7 +1,0 @@
----
-date: 2019-08-26T19:03:35.993+01:00
-photo:
-  - url: /media/1566842613.jpg
-    alt: Eight beach huts painted various colours.
----
-Beach huts.

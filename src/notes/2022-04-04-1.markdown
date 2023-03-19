@@ -1,7 +1,0 @@
----
-date: 2022-04-04T13:49:00.000+01:00
-syndication:
-  - https://linkedin.com/posts/paulrobertlloyd_write-documentation-using-markdown-and-publish-activity-6916727827610435584-h1B3
-  - https://twitter.com/paulrobertlloyd/status/1510962745922965510
----
-The first of a few side-projects I’ve been working on to help teams within government, [a plugin for Eleventy](https://x-govuk.github.io/posts/govuk-eleventy-plugin/). Use it to quickly build marketing pages, blogs and documentation sites.

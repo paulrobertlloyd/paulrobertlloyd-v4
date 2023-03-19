@@ -1,9 +1,0 @@
----
-date: 2021-03-04T19:50:01.053Z
-photo:
-  - url: /media/1614887399.jpg
-    alt: Top branches of a tree illuminated by an overhead street light.
-syndication:
-  - https://twitter.com/paulrobertlloyd/status/1367563775021350912
----
-Twigs.

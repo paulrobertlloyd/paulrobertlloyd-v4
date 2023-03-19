@@ -1,6 +1,0 @@
----
-date: 2021-05-30T19:53:00.000+01:00
-photo:
-  - url: /media/1622400780.jpg
-    alt: Clock tower in Preston Park with the sun setting behind it.
----

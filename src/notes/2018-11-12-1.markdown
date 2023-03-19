@@ -1,4 +1,0 @@
----
-date: 2018-11-12T10:30:00Z
----
-🚨 [I’ve redesigned my website](https://paulrobertlloyd.com)! Highlights include use of CSS Grid and Custom Properties, support for dark colour schemes and a service worker for offline reading. @eleven_ty powered and @netlify hosted. And so much more. Phew!

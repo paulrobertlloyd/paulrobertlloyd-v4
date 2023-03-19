@@ -1,4 +1,0 @@
----
-date: 2019-01-10T10:20:16+00:00
----
-“Alexa, show me [an example of moral bankruptcy](https://www.theguardian.com/technology/2019/jan/09/amazon-confirms-uk-business-rates).”

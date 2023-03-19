@@ -1,6 +1,0 @@
----
-date: 2022-01-02T19:49:13.431Z
-syndication:
-  - https://twitter.com/paulrobertlloyd/status/1477729503250104327
----
-Happy 5th birthday, Micro.blog!

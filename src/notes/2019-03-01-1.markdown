@@ -1,4 +1,0 @@
----
-date: 2019-03-01T16:28:46+00:00
----
-Okay, this little conundrum has pushed me beyond the limits of my programming ability. Anyone care to [help me merge some objects and arrays](https://gist.github.com/paulrobertlloyd/84059cc82d660c34195aa38939f3c075)?

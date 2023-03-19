@@ -1,4 +1,0 @@
----
-date: 2018-01-20T15:55:22Z
----
-Today’s random act of kindness: [submitted](https://github.com/simple-icons/simple-icons/pull/745) the icon for Micro.blog to [Simple Icons](https://simpleicons.org), a repository of SVG icons for popular brands.

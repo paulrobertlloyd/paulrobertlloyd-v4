@@ -1,7 +1,0 @@
----
-date: 2022-11-21T01:02:18.596Z
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/109379104671519717
-  - https://twitter.com/paulrobertlloyd/status/1594497010454839297
----
-Oh my, [""It’s Coming Home for Christmas""](https://www.youtube.com/watch?v=ubRBLAHjkTo) is brilliantly daft and reflective, “a football Christmas song, not at all demeaning”.

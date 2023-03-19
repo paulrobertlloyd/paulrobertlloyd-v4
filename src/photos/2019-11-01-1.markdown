@@ -1,7 +1,0 @@
----
-date: 2019-11-01T22:29:01.075-00:00
-photo:
-  - url: /media/1572647338.jpg
-    alt: Multiple coloured shadows of people.
----
-""Your uncertain shadow (colour)"" (Olafur Eliasson, 2010) at Tate Modern.

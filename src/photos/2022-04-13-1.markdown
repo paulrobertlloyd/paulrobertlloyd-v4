@@ -1,9 +1,0 @@
----
-date: 2022-04-13T20:46:00.000+01:00
-photo:
-  - url: /media/1649879160.jpg
-    alt: Me giving some side eye to the distances sign at John O’Groats.
-syndication:
-  - https://twitter.com/paulrobertlloyd/status/1514329215088435205
----
-I drove all the way to John O’Groats, and all I got was this lousy selfie.

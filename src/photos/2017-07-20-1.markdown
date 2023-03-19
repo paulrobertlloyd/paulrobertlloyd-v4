@@ -1,8 +1,0 @@
----
-date: 2017-07-20T12:27:36+02:00
-timeZone: Europe/Paris
-photo:
-  - url: /media/1500546456.jpg
-    alt: Fluted concrete column.
----
-This is some damn sexy concrete! 😍

@@ -1,7 +1,0 @@
----
-date: 2022-12-19T14:01:22.288Z
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/109540738224784611
-  - https://twitter.com/paulrobertlloyd/status/1604841557835685889
----
-Fun start to the week: somebody tried to break into my flat, while I was home.

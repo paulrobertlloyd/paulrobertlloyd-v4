@@ -1,6 +1,0 @@
----
-title: York
-trip_id:
-  - t4fN1
-  - t4fQ1
----

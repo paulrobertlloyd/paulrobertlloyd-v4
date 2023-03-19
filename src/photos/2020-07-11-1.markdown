@@ -1,9 +1,0 @@
----
-date: 2020-07-11T19:46:00.000+01:00
-photo:
-  - url: /media/1594493160.jpg
-    alt: My shadow on Cooden Beach.
-  - url: /media/1594494180.jpg
-    alt: Colourful flower.
-collection: lockdown_on_the_run
----

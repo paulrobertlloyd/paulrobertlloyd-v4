@@ -1,7 +1,0 @@
----
-date: 2022-12-03T12:31:44.086Z
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/109449771950935106
-  - https://twitter.com/paulrobertlloyd/status/1599019716642713600
----
-Been reviewing [Indiekit’s support for the different IndieWeb specifications and protocols](https://getindiekit.com/specifications). Still lots to do, but Micropub support is looking particularly good (if I do say so myself).

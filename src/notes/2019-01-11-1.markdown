@@ -1,4 +1,0 @@
----
-date: 2019-01-11T21:12:56+00:00
----
-My gift to @manton, @macgenie and the wonderful Micro.blog community has just been unwrapped: a redesigned [help site](https://help.micro.blog), featuring an automated topic index and quick search tool on the home page.

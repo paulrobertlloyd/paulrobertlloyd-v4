@@ -1,6 +1,0 @@
----
-date: 2021-10-15T13:44:45.076+01:00
-syndication:
-  - https://twitter.com/paulrobertlloyd/status/1448994002640977929
----
-Where did it all go wrong?

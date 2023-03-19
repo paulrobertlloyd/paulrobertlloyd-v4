@@ -1,7 +1,0 @@
----
-date: 2022-06-23T18:04:26.498+01:00
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/108527906466623108
-  - https://twitter.com/paulrobertlloyd/status/1540020325282222083
----
-I think [my 2 posts from this time 6 years ago](/categories/brexit/) still hold up. Brexit remains a complete waste of time and energy, a Tory psychodrama from which none of us can escape.

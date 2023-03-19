@@ -1,9 +1,0 @@
----
-date: 2021-09-20T20:57:44.633+01:00
-photo:
-  - url: /media/1632167860.jpg
-    alt: Beach groyne partly submerged in the sea as the sun sets behind it.
-syndication:
-  - https://twitter.com/paulrobertlloyd/status/1440043312321228806
----
-Spent an inordinate amount of time in the sea at Milford on Sea today. It was lush.

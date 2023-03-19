@@ -1,7 +1,0 @@
----
-date: 2019-12-21T14:13:55.172-00:00
-photo:
-  - url: /media/1576937632.jpg
-    alt: Art Deco building on Exeter Street, London.
----
-Just off the Strand.

@@ -1,7 +1,0 @@
----
-title: Las Vegas
-summary: A weekend in Las Vagas.
-trip_id:
-  - t3kY1
-  - t3k_1
----

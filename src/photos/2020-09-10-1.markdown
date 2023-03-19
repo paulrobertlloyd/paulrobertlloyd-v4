@@ -1,7 +1,0 @@
----
-date: 2020-09-10T12:48:33.222+01:00
-photo:
-  - url: /media/1599742110.jpg
-    alt: Church and a graveyard.
----
-St. John the Baptist Church, Boldre.

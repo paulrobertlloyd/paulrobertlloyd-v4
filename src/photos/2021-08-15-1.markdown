@@ -1,9 +1,0 @@
----
-date: 2021-08-15T22:32:08.270+01:00
-photo:
-  - url: /media/1629063123.jpg
-    alt: Dramatic sunset over Littlehampton beach.
-syndication:
-  - https://twitter.com/paulrobertlloyd/status/1427021029604564998
----
-Hymn for the weekend.

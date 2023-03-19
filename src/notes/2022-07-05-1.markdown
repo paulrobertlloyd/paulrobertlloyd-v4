@@ -1,9 +1,0 @@
----
-date: 2022-07-05T00:35:02.284+01:00
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/108591702875173906
-  - https://twitter.com/paulrobertlloyd/status/1544103295500701696
----
-Nothing melts my brain quite like the IndieAuth token grant and verification process, but after the fiftieth refactor, I think it’s finally starting to make sense.
-
-Until it all breaks again. 🫠

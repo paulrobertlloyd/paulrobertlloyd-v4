@@ -1,8 +1,0 @@
----
-date: 2020-08-26T19:18:03.717+01:00
-photo:
-  - url: /media/1598469480.jpg
-    alt: Brighton’s West Pier at sunset.
-collection: the_west_pier
----
-Not a bad end to the day.

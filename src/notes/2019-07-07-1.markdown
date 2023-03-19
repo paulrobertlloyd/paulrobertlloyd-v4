@@ -1,4 +1,0 @@
----
-date: 2019-07-07T11:46:30+01:00
----
-After many years reading RSS feeds with the supremely elegant and stylish [Reeder](https://reederapp.com), very much enjoying a return to the stripped back simplicity of [NetNewsWire](https://ranchero.com/netnewswire/) (currently in alpha).

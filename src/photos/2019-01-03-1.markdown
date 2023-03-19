@@ -1,7 +1,0 @@
----
-date: 2019-01-03T17:21:52Z
-photo:
-  - url: /media/1546536112.jpg
-    alt: Sign that reads “Open for Fresh Fish”.
----
-Open for Fresh Fish.

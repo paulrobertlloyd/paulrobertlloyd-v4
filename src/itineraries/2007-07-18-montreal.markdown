@@ -1,7 +1,0 @@
----
-title: Montréal
-summary: Tung’s Wedding.
-trip_id:
-  - t3oY1
-  - t3ob1
----

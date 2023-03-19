@@ -1,7 +1,0 @@
----
-date: 2018-01-18T03:07:43Z
-geo:
-  latitude: 50.83461
-  longitude: 0.13611
----
-Be it only by gluing [various](https://github.com/voxpelli/webpage-micropub-to-github) [tools](https://jekyllrb.com), [technologies](https://www.heroku.com/) and [services](https://circleci.com) together with the digital equivalent of gaffer tape, with any luck, this note should be the first posted to my site via another, thanks to [MicroPub](https://indieweb.org/Micropub).

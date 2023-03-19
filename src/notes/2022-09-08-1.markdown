@@ -1,9 +1,0 @@
----
-date: 2022-09-08T19:09:23.489+01:00
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/108964131595692069
-  - https://twitter.com/paulrobertlloyd/status/1567938733638549504
----
-Back on the Eurostar this evening. Finally headed home, yet returning to a very different country.
-
-All change, all change.

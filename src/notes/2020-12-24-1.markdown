@@ -1,4 +1,0 @@
----
-date: 2020-12-24T16:08:43.388Z
----
-Have in no way spent a large part of Christmas Eve working out [how to get Oh My Zsh to automatically load the version of Node.js listed in an .nvmrc file](https://github.com/ohmyzsh/ohmyzsh/pull/9542). I mean, that would be a sign of madness, surely.

@@ -1,8 +1,0 @@
----
-date: 2020-12-13T17:44:47.410Z
-photo:
-  - url: /media/1607881484.jpg
-    alt: A Christmas tree decorated with lights in front of the entrance to the pier.
-collection: lockdown_on_the_run
----
-Christmas tree on Brighton Pier.

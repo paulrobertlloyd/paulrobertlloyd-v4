@@ -1,4 +1,0 @@
----
-date: 2018-04-09T11:35:00+01:00
----
-The [slides and linked transcript](/2018/095/s1/create_leicester/) from my talk at @CreateLeics are now available to read and digest at your leisure.

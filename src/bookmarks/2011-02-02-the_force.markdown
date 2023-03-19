@@ -1,9 +1,0 @@
----
-title: The Force
-date: 2011-02-02T16:02:00Z
-bookmark_of: https://www.youtube.com/watch?v=2zwMWLE9fBU
-category:
-  - Video
-  - Advertising
----
-Volkswagen again giving in a lesson in how advertising is really done.

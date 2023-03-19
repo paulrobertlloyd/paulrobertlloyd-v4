@@ -1,9 +1,0 @@
----
-date: 2021-08-17T18:50:49.270+01:00
-photo:
-  - url: /media/1629222647.jpg
-    alt: An apple sat atop a Post-it note with a birthday message.
-syndication:
-  - https://twitter.com/paulrobertlloyd/status/1427690132078006279
----
-Sometimes it’s the small gestures that have the greatest impact.

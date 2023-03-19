@@ -1,7 +1,0 @@
----
-date: 2022-02-28T16:49:31.969Z
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/107876658025897912
-  - https://twitter.com/paulrobertlloyd/status/1498340424905367553
----
-Honestly, sometimes I think it’d be easier and quicker to train as a builder instead of spending weeks trying to find somebody willing to do the work or is capable of doing a half-decent job. See also: plumbers, electricians and window fitters.

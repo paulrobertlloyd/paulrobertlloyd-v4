@@ -1,7 +1,0 @@
----
-title: New York
-summary: Brooklyn Beta with my Clearleft colleagues.
-trip_id:
-  - t4SR1
-  - t4SX1
----

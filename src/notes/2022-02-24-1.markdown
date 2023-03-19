@@ -1,7 +1,0 @@
----
-date: 2022-02-24T10:17:28.581Z
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/107852466711018117
-  - https://twitter.com/paulrobertlloyd/status/1496792180991860738
----
-Absolute power corrupts absolutely.

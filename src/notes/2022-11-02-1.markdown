@@ -1,7 +1,0 @@
----
-date: 2022-11-02T22:58:14.492Z
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/109276693991252063
-  - https://twitter.com/paulrobertlloyd/status/1587942727081082880
----
-[Other people’s code](https://github.com/getindiekit/indiekit/pull/490), am I right?

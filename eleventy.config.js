@@ -53,9 +53,10 @@ module.exports = function (eleventy) {
 
   // Passthrough
   eleventy.addPassthroughCopy('./src/app.pgp');
-  eleventy.addPassthroughCopy('./src/**/*.(jpg|png|svg|ico)');
+  eleventy.addPassthroughCopy({'./src/content/media': 'media'});
   eleventy.addPassthroughCopy('./src/assets/fonts');
   eleventy.addPassthroughCopy('./src/assets/scripts');
+  eleventy.addPassthroughCopy('./src/assets/vectors');
 
   // Watch targets
   eleventy.addWatchTarget('./src/assets/styles');

@@ -1,7 +1,0 @@
----
-date: 2020-10-20T20:42:49.857+01:00
-photo:
-  - url: /media/1603222966.jpg
-    alt: Neon green plant in a dark grey pot sat on a wooden desk.
----
-Bought myself some house plants. Assuming I can keep them alive, should brighten things up during a gloomy winter.

@@ -1,7 +1,0 @@
----
-date: 2020-09-10T18:17:29.330+01:00
-photo:
-  - url: /media/1599761845.jpg
-    alt: Stacked logs in a forest.
----
-Logs.

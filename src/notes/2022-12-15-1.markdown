@@ -1,7 +1,0 @@
----
-date: 2022-12-15T20:59:57.340Z
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/109519709550232307
-  - https://twitter.com/paulrobertlloyd/status/1603495722996748288
----
-Brighton’s London Road is rapidly going downhill: they’re opening a Starbucks. 🤮

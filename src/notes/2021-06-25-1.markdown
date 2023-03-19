@@ -1,6 +1,0 @@
----
-date: 2021-06-25T20:38:10.014+01:00
-syndication:
-  - https://twitter.com/paulrobertlloyd/status/1408510666160455697
----
-“The problem with Microsoft is [they just have no taste](https://www.youtube.com/watch?v=Uh9643c2P6k).”

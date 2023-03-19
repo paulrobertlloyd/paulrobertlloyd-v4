@@ -1,4 +1,0 @@
----
-date: 2020-06-09T10:36:46.070+01:00
----
-Lots of JavaScript libraries and tools are extensible via plugins. This is something I’d like to enable with my own (ExpressJS-based) app, yet I’ve found no examples or tutorials that demonstrate how best to achieve this. Where should I be looking?

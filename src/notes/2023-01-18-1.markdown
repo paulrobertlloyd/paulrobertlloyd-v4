@@ -1,7 +1,0 @@
----
-date: 2023-01-18T23:08:13.347Z
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/109712730276929771
-  - https://twitter.com/paulrobertlloyd/status/1615849049235804160
----
-Is Tailwind not a euphemism for farting?

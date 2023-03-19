@@ -1,7 +1,0 @@
----
-date: 2019-06-23T23:07:14+01:00
-photo:
-  - url: /media/1561321740.jpg
-    alt: 'Black board displaying line up of performers: David O’Doherty, Tim Key, Rose Matafeo, Nish Kumar and John Robins.'
----
-An enjoyable evening of comedy to round out the weekend.

@@ -1,7 +1,0 @@
----
-date: 2022-05-29T13:18:52.601+01:00
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/108385201835873495
-  - https://twitter.com/paulrobertlloyd/status/1530887228930465800
----
-Sat opposite the pit lane, it’s fascinating to watch the pre-race build up. It almost looks like a zoo, with suspiciously monied visitors taking photos of the specimens on display.

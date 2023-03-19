@@ -1,4 +1,0 @@
----
-date: 2017-04-26T21:39:00+01:00
----
-Getting started with [Micro.blog](https://micro.blog). First decision, to import tweets or not to import tweets? I suspect that by hosting content on my own site – and given the slightly longer format also – the content (and possibly tone) of my micro posts will be different to that of any previous tweets. For that reason, think I’ll avoid importing my Twitter archive, at least for now.

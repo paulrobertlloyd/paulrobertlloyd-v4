@@ -1,7 +1,0 @@
----
-date: 2020-01-25T16:56:25+01:00
-photo:
-  - url: /media/1579971382.jpg
-    alt: Bronze sculpture of a woman lying on her side, viewed from above.
----
-""La Rivière"", Hamburger Kunsthalle.

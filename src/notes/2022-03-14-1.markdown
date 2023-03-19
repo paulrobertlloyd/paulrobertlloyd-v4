@@ -1,7 +1,0 @@
----
-date: 2022-03-14T16:30:32.672Z
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/107955868945317281
-  - https://twitter.com/paulrobertlloyd/status/1503409923689963524
----
-Posting photos from @tryglass to my own website using @microdotblog’s iOS app [works seemlessly](https://www.manton.org/2021/08/16/microblog-with-sharing.html). Still, would rather cut out the middleman and syndicate directly to my website from Glass using the Micropub API.

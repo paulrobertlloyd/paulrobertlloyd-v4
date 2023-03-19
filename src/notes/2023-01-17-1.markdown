@@ -1,8 +1,0 @@
----
-date: 2023-01-17T16:23:43.727Z
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/109705481999566135
----
-Have updated the [introduction to Indiekit](https://getindiekit.com/introduction), detailing how it can be used to authorise applications, publish content and syndicate it to third-party websites.
-
-Also works as a useful illustration as to why syndication remains the hardest part to get working faultlessly.

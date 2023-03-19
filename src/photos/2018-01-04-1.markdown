@@ -1,8 +1,0 @@
----
-date: 2018-01-04T06:02:00-03:00
-timeZone: America/Sao_Paulo
-photo:
-  - url: /media/1515056520.jpg
-    alt: Plane at its gate at São Paulo–Guarulhos International Airport.
----
-Morning in Guarulhos.

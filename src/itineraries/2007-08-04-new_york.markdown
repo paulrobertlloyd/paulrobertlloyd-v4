@@ -1,7 +1,0 @@
----
-title: New York
-summary: New York with Ellen.
-trip_id:
-  - t3op1
-  - t3ot1
----

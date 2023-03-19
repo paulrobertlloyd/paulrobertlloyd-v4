@@ -1,7 +1,0 @@
----
-date: 2020-03-29T20:14:37.220+01:00
-photo:
-  - url: /media/1585509274.jpg
-    alt: Banana break loaf and its first slice.
----
-Keeping myself entertained during the lockdown with a spot of home baking. First up, banana bread.

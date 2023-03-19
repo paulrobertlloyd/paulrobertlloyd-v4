@@ -1,8 +1,0 @@
----
-date: 2021-05-24T16:21:22.314+01:00
-syndication:
-  - https://twitter.com/paulrobertlloyd/status/1396849337762820096
----
-How many designers does it take to change a light bulb?
-
-It depends.

@@ -1,7 +1,0 @@
----
-title: New York
-summary: A weekend in New York City with Mum and Ben.
-trip_id:
-  - t3jH1
-  - t3jK1
----

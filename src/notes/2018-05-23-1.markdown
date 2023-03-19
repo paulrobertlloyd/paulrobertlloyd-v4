@@ -1,4 +1,0 @@
----
-date: 2018-05-23T11:44:44+01:00
----
-Question for @aarron after watching his presentation at UX London: how do we prevent storytelling from becoming propaganda? When does building an internal culture become indoctrination? Plenty of examples to suggest this is often the result.

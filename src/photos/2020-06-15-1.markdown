@@ -1,8 +1,0 @@
----
-date: 2020-06-15T19:01:00.000+01:00
-photo:
-  - url: /media/1592244060.jpg
-    alt: Man wearing headphones sat in foreground, watching people in a park.
-collection: lockdown_on_the_run
----
-Evening on the Level.
