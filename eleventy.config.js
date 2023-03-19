@@ -51,7 +51,7 @@ module.exports = function (eleventy) {
   eleventy.addTransform('embed', require('./lib/transforms/embed.js'));
 
   // Passthrough
-  eleventy.addPassthroughCopy('./src/key.txt');
+  eleventy.addPassthroughCopy('./src/app.pgp');
   eleventy.addPassthroughCopy('./src/**/*.(jpg|png|svg|ico)');
   eleventy.addPassthroughCopy('./src/assets/fonts');
   eleventy.addPassthroughCopy('./src/assets/scripts');
