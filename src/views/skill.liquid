@@ -5,10 +5,7 @@ pagination:
   size: 1
   alias: skill
   addAllPagesToCollections: true
-permalink: "projects/skills/{{ skill.title | slugify }}/"
+permalink: "projects/{{ skill.title | slugify }}/"
 tags:
   - skill
-eleventyComputed:
-  title: "{{ skill.title }}"
-  summary: "{{ skill.summary }}"
 ---
