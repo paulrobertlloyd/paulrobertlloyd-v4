@@ -26,9 +26,9 @@ aria.key = {
 /**
  * @class
  * @description Combobox object representing the state and interactions for a combobox
- * @param {object} comboboxNode The DOM node pointing to the combobox
- * @param {object} inputNode The input node
- * @param {Function} searchFn Accepts a search string and returns an array
+ * @param {object} comboboxNode - The DOM node pointing to the combobox
+ * @param {object} inputNode - The input node
+ * @param {Function} searchFn - Accepts a search string and returns an array
  */
 aria.Combobox = function (
   comboboxNode,
@@ -66,7 +66,7 @@ aria.Combobox.prototype.setupEvents = function () {
 
 /**
  * @description Hide listbox on event
- * @param {object} event Event
+ * @param {object} event - Event
  */
 aria.Combobox.prototype.checkHide = function (event) {
   if (event.target === this.input || this.combobox.contains(event.target)) {
@@ -85,7 +85,7 @@ aria.Combobox.prototype.checkShow = function () {
 
 /**
  * @description Check key press and override defaults
- * @param {object} event Event
+ * @param {object} event - Event
  */
 aria.Combobox.prototype.checkKey = function (event) {
   const key = event.which || event.key;
@@ -111,7 +111,7 @@ aria.Combobox.prototype.checkKey = function (event) {
 
 /**
  * @description Highlight currently selected option
- * @param {object} event Event
+ * @param {object} event - Event
  */
 aria.Combobox.prototype.setActiveOption = function (event) {
   const key = event.which || event.key;
@@ -233,7 +233,7 @@ aria.Combobox.prototype.updateResults = function () {
 
 /**
  * @description Update status region
- * @param {number} resultsCount Number of returned results
+ * @param {number} resultsCount - Number of returned results
  */
 aria.Combobox.prototype.updateStatus = function (resultsCount) {
   this.status.textContent = `${resultsCount} results are available.`;
@@ -254,7 +254,7 @@ aria.Combobox.prototype.hideListbox = function () {
 
 /**
  * @description Action to take when listbox option selected
- * @param {object} element HTML element
+ * @param {object} element - HTML element
  */
 aria.Combobox.prototype.selectOption = function (element) {
   if (element) {
@@ -266,7 +266,7 @@ aria.Combobox.prototype.selectOption = function (element) {
 
 /**
  * @description Action to take when listbox option clicked
- * @param {object} event Event
+ * @param {object} event - Event
  */
 aria.Combobox.prototype.clickOption = function (event) {
   this.focusOption(event.currentTarget);
@@ -276,7 +276,7 @@ aria.Combobox.prototype.clickOption = function (event) {
 
 /**
  * @description Get option at index
- * @param {number} index Index
+ * @param {number} index - Index
  * @returns {object} element HTML element
  */
 aria.Combobox.prototype.getOptionAt = function (index) {
@@ -285,7 +285,7 @@ aria.Combobox.prototype.getOptionAt = function (index) {
 
 /**
  * @description Get index of option
- * @param {object} element HTML element
+ * @param {object} element - HTML element
  * @returns {number} Index
  */
 aria.Combobox.prototype.getIndexOf = function (element) {
@@ -295,7 +295,7 @@ aria.Combobox.prototype.getIndexOf = function (element) {
 
 /**
  * @description Focus on the specified item
- * @param {object} element HTML element
+ * @param {object} element - HTML element
  */
 aria.Combobox.prototype.focusOption = function (element) {
   element.setAttribute('aria-selected', 'true');
@@ -318,7 +318,7 @@ aria.Combobox.prototype.focusOption = function (element) {
 
 /**
  * @description Defocus the specified item
- * @param {object} element HTML element
+ * @param {object} element - HTML element
  */
 aria.Combobox.prototype.defocusOption = function (element) {
   if (!element) {

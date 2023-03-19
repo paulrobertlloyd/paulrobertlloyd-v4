@@ -10,8 +10,8 @@ module.exports = function () {
   /**
    * Create an array of years
    *
-   * @param {number} startDate e.g. '2008-09'
-   * @param {number} endDate e.g. '2020-04'
+   * @param {number} startDate - e.g. '2008-09'
+   * @param {number} endDate - e.g. '2020-04'
    * @returns {Array} ['2008',…,'2020']
    */
   function generateYears(startDate, endDate) {
@@ -24,8 +24,8 @@ module.exports = function () {
   /**
    * Create an array of months
    *
-   * @param {string} startDate e.g. '2008-09'
-   * @param {string} endDate e.g. '2020-04'
+   * @param {string} startDate - e.g. '2008-09'
+   * @param {string} endDate - e.g. '2020-04'
    * @returns {string} ['2008-09',…,'2020-01']
    */
   function generateMonths(startDate, endDate) {

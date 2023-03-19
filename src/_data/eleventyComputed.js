@@ -38,6 +38,6 @@ module.exports = {
   // Return geojson object for trip pages
   // Can’t use frontmatter as liquid returns objects as strings
   geojson(data) {
-    return data.geojson || data.itinerary && geojson(data.itinerary);
+    return data.geojson || (data.itinerary && geojson(data.itinerary));
   },
 };
