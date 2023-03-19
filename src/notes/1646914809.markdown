@@ -1,8 +1,0 @@
----
-date: 2022-03-10T12:20:09.716Z
-syndication:
-  - https://linkedin.com/posts/paulrobertlloyd_using-a-design-history-to-document-your-work-activity-6907662011233120256-Fsm9
-  - https://mastodon.social/@paulrobertlloyd/107932221471174531
-  - https://twitter.com/paulrobertlloyd/status/1501896485360869376
----
-Given it’s #ServicesWeek, here’s the presentation I gave last year about [using a design history to document your work](https://paulrobertlloyd.com/presentations/2021/03/discuss_a_design_challenge/).

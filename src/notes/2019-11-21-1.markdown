@@ -1,0 +1,6 @@
+---
+date: 2019-11-21T14:15:48.483Z
+---
+Is it possible to disable @SlackHQ’s new God-awful WYSIWYG message editor?
+
+*[WYSIWYG]: What You See Is What You Get

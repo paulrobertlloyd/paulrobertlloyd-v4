@@ -1,7 +1,0 @@
----
-date: 2020-12-30T15:17:39.192Z
-syndication:
-  - https://web.archive.org/web/20201230152045/https://paulrobertlloyd.com/notes/1609341459/
-  - https://twitter.com/paulrobertlloyd/status/1344302457061584897
----
-Having given Indiekit responsibility for syndicating posts in place of Micro.blog, a problem is soon revealed; any post not published via Indiekit will not get syndicated. Think I need to make feed.json the canonical source for what gets shared.

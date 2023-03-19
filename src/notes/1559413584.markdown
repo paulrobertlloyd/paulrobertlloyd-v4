@@ -1,7 +1,0 @@
----
-date: 2019-06-01T19:26:24+01:00
-category:
-  - TOTLIV
-  - UCL Final
----
-Cheering on the team in red this evening.

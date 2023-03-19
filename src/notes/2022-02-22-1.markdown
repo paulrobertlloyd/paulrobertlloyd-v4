@@ -1,0 +1,11 @@
+---
+date: 2022-02-22T12:41:29.351Z
+syndication:
+  - https://mastodon.social/@paulrobertlloyd/107841707441033566
+  - https://twitter.com/paulrobertlloyd/status/1496103587486785537
+---
+Wordle 248 3/6
+
+⬜️🟨⬜️🟨⬜️\
+🟨🟨🟨🟨🟨\
+🟩🟩🟩🟩🟩

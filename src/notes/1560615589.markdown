@@ -1,5 +1,0 @@
----
-date: 2019-06-15T18:19:49+02:00
-timeZone: Europe/Amsterdam
----
-The [architecture of Zaandam](https://www.dezeen.com/2010/05/17/inntel-hotel-by-wam-architecten/) is so surreal, even the late [Piet Blom](https://en.wikipedia.org/wiki/Piet_Blom) might have questioned its seriousness.

@@ -1,6 +1,6 @@
 module.exports = {
   layout: 'note',
-  permalink: 'notes/{{ page.fileSlug }}/',
+  permalink: '{{ page.date | date: "%Y/%j" }}/{{ type_prefix }}{{ page.fileSlug }}/',
   syndicate: true,
   type_prefix: 'n',
   vocabulary: 'entry',

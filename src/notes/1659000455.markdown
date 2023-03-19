@@ -1,7 +1,0 @@
----
-date: 2022-07-28T10:27:35.157+01:00
-syndication:
-  - https://mastodon.social/@paulrobertlloyd/108724263850655533
-  - https://twitter.com/paulrobertlloyd/status/1552587197844295680
----
-Last day on my current project and with this feedback from a colleague: “You’re always pushing us to do the right thing… it’s like working with your mother, telling you to eat your vegetables”. 😂

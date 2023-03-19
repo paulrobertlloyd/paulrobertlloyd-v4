@@ -1,0 +1,4 @@
+---
+date: 2020-12-22T21:51:56.298Z
+---
+Humble brag but lovely to see that [Indiekit](https://github.com/getindiekit/indiekit) now has 100 stars on GitHub. Unsure yet if I’ll spend any more time on it over Christmas.

@@ -1,4 +1,0 @@
----
-date: 2020-09-01T15:11:35.947+01:00
----
-My colleague @fofr has written about [how we’re keeping a design history](https://dfedigital.blog.gov.uk/2020/09/01/design-history/) to document the decisions and iterations we’re making while building our service. Built with @eleven_ty, of course.

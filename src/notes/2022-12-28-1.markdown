@@ -1,0 +1,7 @@
+---
+date: 2022-12-28T18:21:26.897Z
+syndication:
+  - https://mastodon.social/@paulrobertlloyd/109593102884489266
+  - https://twitter.com/paulrobertlloyd/status/1608192896200736770
+---
+> It is difficult to get a man to [understand something](https://500ish.com/mastodon-brought-a-protocol-to-a-product-fight-ba9fda767c6a), when his salary depends on his not understanding it.
