@@ -35,12 +35,6 @@ for = "/*.ico"
   Content-Type = "image/x-icon"
 
 [[headers]]
-for = "/*.ics"
-
-  [headers.values]
-  Content-Type = "text/calendar"
-
-[[headers]]
 for = "/*.js"
 
   [headers.values]
@@ -65,55 +59,16 @@ status = 200
 force = true
 
 [[redirects]]
-from = "/about/styleguide*"
-to = "/styleguide"
-
-[[redirects]]
 from = "/articles/dissertation/*"
-to = "/2002/06/dissertation"
+to = "/2002/152/a1/dissertation/"
 
 [[redirects]]
 from = "/articles/early_graphic_design_in_television/*"
-to = "/1999/03/early_graphic_design_in_television"
+to = "/1999/060/a1/early_graphic_design_in_television/"
 
 [[redirects]]
 from = "/articles/fcplc/*"
-to = "/2002/05/fcplc"
-
-[[redirects]]
-from = "/talks/multipack_presents_november_2010"
-to = "/events/2010/11/multipack_presents"
-force = true
-
-[[redirects]]
-from = "/talks/apa_digital_breakfast_march_2011"
-to = "/events/2011/03/apa_digital_breakfast"
-force = true
-
-[[redirects]]
-from = "/talks/responsive_day_out"
-to = "/events/2013/03/responsive_day_out"
-force = true
-
-[[redirects]]
-from = "/talks/webexpo_2015"
-to = "/events/2015/09/webexpo"
-force = true
-
-[[redirects]]
-from = "/talks/css_day_2015"
-to = "/events/2015/06/css_day_2015"
-force = true
-
-[[redirects]]
-from = "/talks/frontend_london_may_2015"
-to = "/events/2015/05/frontend_london_22"
-force = true
-
-[[redirects]]
-from = "/talks/smashing_conference_freiburg_2016"
-to = "/events/2016/09/smashing_conference_freiburg"
-force = true
+to = "/2002/121/a1/fcplc/"
 
 [[redirects]]
 from = "/feeds/*"
@@ -222,15 +177,3 @@ force = true
 
   [redirects.query]
   page = ":page"
-
-[[redirects]]
-from = "/articles/:year/:month/"
-to = "/:year/:month/"
-
-[[redirects]]
-from = "/articles/:year/"
-to = "/:year/"
-
-[[redirects]]
-from = "/:year/:month/*"
-to = "/articles/:year/:month/:splat"
