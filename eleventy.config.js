@@ -5,6 +5,7 @@ const filters = require('./lib/filters/index.js');
 module.exports = function (eleventy) {
   // Extensions
   eleventy.addExtension('css', require('./lib/extensions/css.js'));
+  eleventy.addExtension('markdown', {key: 'md'});
 
   // Liquid
   eleventy.setLiquidOptions({

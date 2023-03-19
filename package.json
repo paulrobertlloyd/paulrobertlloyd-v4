@@ -16,7 +16,7 @@
     "deploy": "npm run build",
     "postdeploy": "webmention www/feed.xml --limit 1 --send",
     "start": "eleventy --incremental --serve",
-    "lint:markdown": "markdownlint 'src/**/*.md'",
+    "lint:markdown": "markdownlint 'src/**/*.markdown'",
     "lint:scripts": "xo '**/*.js'",
     "lint:styles": "stylelint 'src/**/*.css'",
     "lint": "npm run lint:markdown && npm run lint:scripts && npm run lint:styles",
