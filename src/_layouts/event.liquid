@@ -13,11 +13,11 @@
     summary: summary
     url: event.url
   -%}
-  {% if event.product %}
+  {% if event.photo %}
     {%- capture content -%}
-      {% render 'product' with event.product %}
-      {{ content }}
+      {% image event.photo, 'supporting', 'align-pull' -%}
+      {{ event.content | markdown }}
     {%- endcapture -%}
+    {%- render 'content' with content -%}
   {% endif %}
-  {%- render 'content' with content -%}
 {%- endblock -%}

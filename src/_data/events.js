@@ -1,6 +1,5 @@
 const process = require('node:process');
 const eleventyFetch = require('@11ty/eleventy-fetch');
-const slugify = require('@sindresorhus/slugify');
 const ICalParser = require('ical-js-parser');
 const {DateTime} = require('luxon');
 const getMovie = require('../../lib/utils/get-movie.js');
@@ -37,12 +36,6 @@ module.exports = async function () {
           type: 'card',
         },
         rsvp: 'yes',
-        slug: slugify(event.summary, {
-          customReplacements: [
-            ['@', 'at'],
-          ],
-          separator: '_',
-        }),
       };
 
       // Location (name and address)
@@ -131,15 +124,11 @@ module.exports = async function () {
             url: movie.Poster,
             alt: `Poster for ‘${item.title}’`,
           };
-          item.product = {
-            photo: item.photo,
-            title: item.title,
-            info: [
-              `Director\n: ${movie.Director}`,
-              `Writer\n: ${movie.Writer}`,
-              `Actors\n: ${movie.Actors}`,
-            ].join('\n\n'),
-          };
+          item.content = [
+            `Director\n: ${movie.Director}`,
+            `Writer\n: ${movie.Writer}`,
+            `Actors\n: ${movie.Actors}`,
+          ].join('\n\n');
         }
       }
 
