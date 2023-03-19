@@ -7,7 +7,8 @@
 1. `git clone git@github.com:paulrobertlloyd/paulrobertlloyd-v4.git`
 2. `cd paulrobertlloyd-v4`
 3. `npm install`
-4. `npm run build`
+4. `git submodule update --init --remote`
+5. `npm run build`
 
 Ensure the following environment variables are set:
 
