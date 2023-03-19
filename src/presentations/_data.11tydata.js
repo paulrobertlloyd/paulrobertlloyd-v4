@@ -1,6 +1,6 @@
 module.exports = {
   layout: 'presentation',
-  permalink: 'presentations/{{ page.date | date: "%Y/%m" }}/{{ page.fileSlug }}/',
+  permalink: '{{ page.date | date: "%Y/%j" }}/{{ type_prefix }}1/{{ page.fileSlug }}/',
   syndicate: true,
   type_prefix: 's',
   vocabulary: 'entry',
