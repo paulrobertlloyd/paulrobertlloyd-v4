@@ -33,8 +33,8 @@ module.exports = {
     label: 'Contact',
     url: '/contact/',
   }, {
-    label: 'Archive',
-    url: '/archive/',
+    label: 'Archives',
+    url: '/archives/',
   }, {
     label: 'Travel',
     url: '/travel/',
