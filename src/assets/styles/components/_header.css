@@ -3,7 +3,6 @@
 }
 
 .footer + .header {
-  margin-block-end: var(--space-m-l);
   margin-block-start: 0;
 }
 
