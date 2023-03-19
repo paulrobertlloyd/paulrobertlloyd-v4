@@ -1,8 +1,8 @@
 <ul class="itinerary" role="list">
-{%- for item in itinerary %}
+{%- for stop in itinerary %}
   <li>
-    {%- unless forloop.first %}<svg width="1em" height="1em" focusable="false" aria-hidden="true"><use href="#_icon_{{ item.icon }}"></use></svg> {% endunless -%}
-    {{ item.label }}, {{ item.country_name }}
+    {%- unless forloop.first %}<svg width="1em" height="1em" focusable="false" aria-hidden="true"><use href="#_icon_{{ stop | stop_icon }}"></use></svg> {% endunless -%}
+    {{ stop.label }}, {{ stop.country_name }}
   </li>
 {%- endfor %}
 </ul>
