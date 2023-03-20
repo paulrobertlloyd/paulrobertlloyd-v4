@@ -4,16 +4,17 @@
   display: grid;
   grid-template-columns: [bleed-start] minmax(0, var(--linear-line-measure)) [measure] 1fr [bleed-end];
   margin-inline: calc(var(--gap) * -1);
-}
 
-.align-bleed > img:first-child,
-.align-bleed > picture:first-child {
-  grid-column: bleed;
-  inline-size: 100%;
-}
+  & > a:first-child,
+  & > img:first-child,
+  & > picture:first-child {
+    grid-column: bleed;
+    inline-size: 100%;
+  }
 
-.align-bleed figcaption {
-  padding-inline: var(--gap);
+  & figcaption {
+    padding-inline: var(--gap);
+  }
 }
 
 /* Pull alignment */
