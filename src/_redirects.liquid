@@ -1,0 +1,33 @@
+---
+permalink: /_redirects
+---
+# Articles (slug-less)
+{% for page in collections.article %}
+{{- page.date | date: '/%Y/%j/' }}{{ page.data.type_prefix }}{{ page.data.type_index }} {{ page.url }} 302
+{% endfor -%}
+
+# Bookmarks (slug-less)
+{% for page in collections.bookmark %}
+{{- page.date | date: '/%Y/%j/' }}{{ page.data.type_prefix }}{{ page.data.type_index }} {{ page.url }} 302
+{% endfor -%}
+
+# Comments (slug-less)
+{% for page in collections.comments %}
+{{- page.date | date: '%Y/%j/' }}{{ page.data.type_prefix }}{{ page.data.type_index }} {{ page.url }} 302
+{% endfor -%}
+
+# Intineries (slug-less)
+{% for page in collections.itinerary %}
+{{- page.date | date: '%Y/%j/' }}{{ page.data.type_prefix }}{{ page.data.type_index }} {{ page.url }} 302
+{% endfor -%}
+
+# Presentations (slug-less)
+{% for page in collections.presentation %}
+{{- page.date | date: '/%Y/%j/' }}{{ page.data.type_prefix }}{{ page.data.type_index }} {{ page.url }} 302
+{% endfor -%}
+
+# Articles (legacy)
+{% for page in collections.article %}
+{{- page.date | date: '/%Y/%m/' }}{{ page.fileSlug }} {{ page.url }}
+/articles{{ page.date | date: '/%Y/%m/' }}{{ page.fileSlug }} {{ page.url }}
+{% endfor -%}

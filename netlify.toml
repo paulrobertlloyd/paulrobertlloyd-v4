@@ -59,46 +59,13 @@ status = 200
 force = true
 
 [[redirects]]
-from = "/articles/dissertation/*"
-to = "/2002/152/a1/dissertation/"
-
-[[redirects]]
-from = "/articles/early_graphic_design_in_television/*"
-to = "/1999/060/a1/early_graphic_design_in_television/"
-
-[[redirects]]
-from = "/articles/fcplc/*"
-to = "/2002/121/a1/fcplc/"
-
-[[redirects]]
-from = "/feeds/*"
-to = "/feed.xml"
-
-[[redirects]]
-from = "/_xml/entries.*"
-to = "/feed.xml"
-
-[[redirects]]
-from = "/journal/feed.xml"
-to = "/feed.xml"
+from = "/articles/"
+to = "/articles/page/:page"
+status = 200
 force = true
 
-[[redirects]]
-from = "/journal/feed.json"
-to = "/feed.json"
-force = true
-
-[[redirects]]
-from = "/journal/*"
-to = "/articles/:splat"
-
-[[redirects]]
-from = "/links/*"
-to = "/bookmarks/:splat"
-
-[[redirects]]
-from = "/talks/*"
-to = "/presentations/:splat"
+  [redirects.query]
+  page = ":page"
 
 [[redirects]]
 from = "/bookmarks/"
@@ -110,14 +77,6 @@ force = true
   page = ":page"
 
 [[redirects]]
-from = "/bookmarks/:year/:month/"
-to = "/:year/:month/"
-
-[[redirects]]
-from = "/bookmarks/:year/"
-to = "/:year/"
-
-[[redirects]]
 from = "/events/"
 to = "/events/page/:page"
 status = 200
@@ -125,14 +84,6 @@ force = true
 
   [redirects.query]
   page = ":page"
-
-[[redirects]]
-from = "/events/:year/:month/"
-to = "/:year/:month/"
-
-[[redirects]]
-from = "/events/:year/"
-to = "/:year/"
 
 [[redirects]]
 from = "/notes/"
@@ -153,25 +104,8 @@ force = true
   page = ":page"
 
 [[redirects]]
-from = "/presentations/"
-to = "/presentations/page/:page"
-status = 200
-force = true
-
-  [redirects.query]
-  page = ":page"
-
-[[redirects]]
-from = "/presentations/:year/:month/"
-to = "/:year/:month/"
-
-[[redirects]]
-from = "/presentations/:year/"
-to = "/:year/"
-
-[[redirects]]
-from = "/articles/"
-to = "/articles/page/:page"
+from = "/replies/"
+to = "/replies/page/:page"
 status = 200
 force = true
 
