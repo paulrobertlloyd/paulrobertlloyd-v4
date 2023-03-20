@@ -5,7 +5,7 @@ eleventyComputed:
   distance: "{{ itinerary | trip_distance }}"
   emissions: "{{ itinerary | trip_emissions: distance }}"
 ---
-{%- assign related = collections.itinerary | includes: 'data.trip_id',uid | first -%}
+{%- assign related = collections.itinerary | includes: 'data.trip_id',id | first -%}
 {%- assign formattedTitle = title | replace: ' ➔ ','\n➔ ' -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}

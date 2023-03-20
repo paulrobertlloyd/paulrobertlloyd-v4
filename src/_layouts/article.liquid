@@ -1,4 +1,4 @@
-{%- assign comments = collections.comments | where: 'data.article_id',uid | first -%}
+{%- assign comments = collections.comments | where: 'data.article_id',id | first -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'footer'

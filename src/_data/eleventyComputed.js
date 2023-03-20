@@ -1,12 +1,9 @@
-const {DateToSxg: dateToSxg} = require('newbase60');
 const summaryImagePath = require('../../lib/utils/get-summary-image-path.js');
-const geojson = require('../../lib/utils/get-geojson.js');
+const getGeojson = require('../../lib/utils/get-geojson.js');
+const getId = require('../../lib/utils/get-id.js');
 
 module.exports = {
-  published: data => data.start || data.date,
-  date_sxg: data => dateToSxg(new Date(data.published)),
-  type_index: data => data.type_index || data.page.fileSlug || 1,
-  uid: data => data.type_prefix && `${data.type_prefix}${data.date_sxg}${data.type_index}`,
+  id: data => getId(data),
   page_title: data => `${data.title}`,
   page_image: data => data.photo
     ? (data.photo[0] || data.photo)
@@ -29,8 +26,8 @@ module.exports = {
   related(data) {
     const {collections, article_id, photo_id} = data;
     const related = collections.public.filter(item => {
-      const {uid} = item.data;
-      return uid && (article_id?.includes(uid) || photo_id?.includes(uid));
+      const {id} = item.data;
+      return id && (article_id?.includes(id) || photo_id?.includes(id));
     });
 
     return related;
@@ -38,6 +35,6 @@ module.exports = {
   // Return geojson object for trip pages
   // Can’t use frontmatter as liquid returns objects as strings
   geojson(data) {
-    return data.geojson || (data.itinerary && geojson(data.itinerary));
+    return data.geojson || (data.itinerary && getGeojson(data.itinerary));
   },
 };

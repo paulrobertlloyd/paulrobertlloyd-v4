@@ -1,4 +1,4 @@
-{%- assign comments = collections.comments | where: 'data.bookmark_id',uid | first -%}
+{%- assign comments = collections.comments | where: 'data.bookmark_id',id | first -%}
 {%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'footer'
