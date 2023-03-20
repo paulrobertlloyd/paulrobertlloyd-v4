@@ -1,18 +1,21 @@
 .slide {
   align-items: start;
-  max-inline-size: 100vw !important;
-}
+  column-gap: var(--gap);
+  display: flex;
+  flex-wrap: wrap;
+  max-inline-size: unset;
 
-@media (--from-large-viewport) {
-  .slide {
-    display: grid;
-    grid-column-gap: var(--gap);
-    grid-template-columns: 2fr 3fr;
+  & img {
+    flex-grow: 1;
+    inline-size: 30rem;
+    margin-block-end: calc(var(--border-width-rule) * -1);
+    position: relative;
   }
 
-  .slide__caption {
+  & figcaption {
     border-block-start: var(--border-rule);
-    margin-block-start: 0;
-    padding-block-start: var(--space-s);
+    flex-basis: 0;
+    flex-grow: 999;
+    min-inline-size: 40%;
   }
 }
