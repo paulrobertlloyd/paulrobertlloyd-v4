@@ -9,9 +9,9 @@ permalink: "collections/{{ archive.title | slugify }}/"
 tags:
   - collection
 eleventyComputed:
-  vocabulary: entry
   title: "{{ archive.title }}"
   summary: "{{ archive.summary }}"
   id: "{{ archive.title | slugify }}"
   itemsModifier: "{{ archive.itemsModifier }}"
+  vocabulary: entry
 ---

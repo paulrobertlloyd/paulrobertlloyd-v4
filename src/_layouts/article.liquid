@@ -19,7 +19,7 @@
     syndication: syndication
   -%}
   {%- for this in collection -%}
-    {%- assign related = collections.collection | where: 'fileSlug',this | first -%}
+    {%- assign related = collections.collection | where: 'data.id',this | first -%}
     {%- capture sectionTitle %}More from the <a href="{{ related.url }}">{{ related.data.title }}</a> collection{%- endcapture -%}
     {%- assign articles = collections.article | includes: 'data.collection', this | excludes: 'url',page.url | reverse -%}
     {%- render 'section' with articles
