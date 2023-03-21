@@ -68,7 +68,7 @@
   <meta name="robots" content="index, follow">
 </head>
 
-<body data-type="{{ layout }}">
+<body data-type="{{ layout }}"{% if id %} id="{{ id }}"{% endif %}>
   {%- render 'skip-link' -%}
   {%- render 'icons' -%}
   {%- render 'banner', page: page, tags: tags -%}
