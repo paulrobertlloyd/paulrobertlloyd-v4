@@ -1,6 +1,23 @@
 ---
 permalink: /_redirects
 ---
+# Favicon
+/favicon.ico /assets/icons/favicon.ico 200
+
+# Pagination
+/articles page=:p /articles/page/:p.html 200!
+/bookmarks page=:p /bookmarks/page/:p.html 200!
+/events page=:p /events/page/:p.html 200!
+/notes page=:p /notes/page/:p.html 200!
+/photos page=:p /photos/page/:p.html 200!
+/replies page=:p /replies/page/:p.html 200!
+
+# Archives
+{%- assign now = 'now' | date: '%Y' %}
+{% for year in (1999..now) -%}
+/{{ year }}/:splat /{{ year }} 302
+{% endfor -%}
+
 # Articles (slug-less)
 {% for page in collections.article %}
 {{- page.date | date: '/%Y/%j/' }}{{ page.data.type_prefix }}{{ page.data.type_index }} {{ page.url }} 302
@@ -13,12 +30,12 @@ permalink: /_redirects
 
 # Comments (slug-less)
 {% for page in collections.comments %}
-{{- page.date | date: '%Y/%j/' }}{{ page.data.type_prefix }}{{ page.data.type_index }} {{ page.url }} 302
+{{- page.date | date: '/%Y/%j/' }}{{ page.data.type_prefix }}{{ page.data.type_index }} {{ page.url }} 302
 {% endfor -%}
 
 # Intineries (slug-less)
 {% for page in collections.itinerary %}
-{{- page.date | date: '%Y/%j/' }}{{ page.data.type_prefix }}{{ page.data.type_index }} {{ page.url }} 302
+{{- page.date | date: '/%Y/%j/' }}{{ page.data.type_prefix }}{{ page.data.type_index }} {{ page.url }} 302
 {% endfor -%}
 
 # Presentations (slug-less)
