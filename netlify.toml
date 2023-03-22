@@ -51,3 +51,45 @@ for = "/*.webmanifest"
 
   [headers.values]
   Content-Type = "application/manifest+json; charset=utf-8"
+
+[[redirects]]
+from = "/articles/"
+query = {page = ":p"}
+to = "/articles/page/:p.html"
+status = 200
+force = true
+
+[[redirects]]
+from = "/bookmarks/"
+query = {page = ":p"}
+to = "/bookmarks/page/:p.html"
+status = 200
+force = true
+
+[[redirects]]
+from = "/events/"
+query = {page = ":p"}
+to = "/events/page/:p.html"
+status = 200
+force = true
+
+[[redirects]]
+from = "/notes/"
+query = {page = ":p"}
+to = "/notes/page/:p.html"
+status = 200
+force = true
+
+[[redirects]]
+from = "/photos/"
+query = {page = ":p"}
+to = "/photos/page/:p.html"
+status = 200
+force = true
+
+[[redirects]]
+from = "/replies/"
+query = {page = ":p"}
+to = "/replies/page/:p.html"
+status = 200
+force = true
