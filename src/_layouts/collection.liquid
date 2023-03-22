@@ -4,8 +4,11 @@
     title: title
     summary: summary
   -%}
-  {%- render 'content' with content -%}
-  {%- assign items = collections.all | includes: 'data.collection',id -%}
+  {%- if content != '' -%}
+    {%- render 'content' with content -%}
+  {%- endif -%}
+  {%- assign items = collections[page.fileSlug] -%}
+  {%- assign itemsModifier = 'photos' if post_type == 'photo' -%}
   {%- render 'section' with items
     id: 'items'
     title: 'Items in this collection'

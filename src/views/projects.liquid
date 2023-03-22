@@ -22,7 +22,8 @@ permalink: projects/
   itemsComponent: 'testimonial'
   itemsGridSize: '20rem',
 -%}
-{%- render 'section' with collections.skill
+{%- assign skills = collections.collection | where: 'data.post_type','project' -%}
+{%- render 'section' with skills
   id: 'skills'
   title: 'The work that I do'
   itemsComponent: 'section'

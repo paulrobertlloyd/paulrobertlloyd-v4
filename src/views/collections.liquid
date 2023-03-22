@@ -6,7 +6,8 @@ introduction: Collections
 eleventyComputed:
   page_title: "{{ introduction }}"
 ---
-{%- render 'items' with collections.collection
+{%- assign items = collections.collection | sort: "data.title" -%}
+{%- render 'items' with items
   component: 'section'
-  gridSize: '12rem'
+  gridSize: '16rem'
 -%}
