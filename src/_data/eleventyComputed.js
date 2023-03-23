@@ -5,9 +5,7 @@ const getId = require('../../lib/utils/get-id.js');
 module.exports = {
   id: data => getId(data),
   page_title: data => `${data.title}`,
-  page_image: data => data.photo
-    ? (data.photo[0] || data.photo)
-    : false,
+  page_image: data => data.photo && data.photo[0],
   canonical_url: data => data.canonical && data.canonical.url
     ? data.canonical.url
     : data.app.url + data.page.url,
@@ -20,9 +18,6 @@ module.exports = {
   summary_image_alt: data => data.page_image
     ? data.page_image.alt
     : 'Logo',
-  photos: data => data.photo
-    ? (Array.isArray(data.photo) ? data.photo : [data.photo])
-    : false,
   related(data) {
     const {collections, article_id, photo_id} = data;
     const related = collections.public.filter(item => {
