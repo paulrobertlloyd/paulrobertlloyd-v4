@@ -9,9 +9,6 @@ module.exports = {
   canonical_url: data => data.canonical && data.canonical.url
     ? data.canonical.url
     : data.app.url + data.page.url,
-  summary_card: data => data.page_image
-    ? 'summary_large_image'
-    : 'summary',
   summary_image: data => data.page_image
     ? summaryImagePath(data.page_image.url)
     : data.app.url + data.app.icon,
