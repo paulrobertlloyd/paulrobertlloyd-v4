@@ -1,0 +1,12 @@
+{%- layout 'default' -%}
+{%- block 'main' -%}
+  {%- render 'header'
+    title: title
+    summary: summary
+    url: url
+  -%}
+  {%- assign items = collections.article | publication: issn,url -%}
+  {%- render 'items' with items
+    modifier: 'inline'
+  -%}
+{%- endblock -%}

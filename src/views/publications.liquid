@@ -1,0 +1,12 @@
+---
+layout: index
+title: Writing
+introduction: Publications I’ve written for
+permalink: publications/
+eleventyComputed:
+  page_title: "{{ introduction }}"
+---
+{%- render 'items' with collections.publication
+  component: 'section'
+  gridSize: '15rem'
+-%}

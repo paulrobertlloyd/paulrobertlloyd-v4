@@ -29,15 +29,19 @@
     </dd>
 {%- endif -%}
 {%- if canonical -%}
-  {%- for source in sources -%}
-    {%- assign sourceTitle = source.title | slugify -%}
-    {%- if canonical.source == sourceTitle -%}
-      <dt>Originally appeared in</dt>
-      <dd><cite>{{ source.title }}</cite>, {{ canonical.edition }}</dd>
-    {%- elsif canonical.url contains source.url -%}
+  {%- for publication in collections.publication -%}
+    {%- if canonical.url contains publication.data.url -%}
       <dt>Originally published by</dt>
-      <dd><a rel="canonical external" href="{{ canonical.url }}"><cite>{{ source.title }}</cite></a></dd>
+      <dd>
+        <a rel="canonical external" href="{{ canonical.url }}"><cite>{{ publication.data.title }}</cite></a>
+      </dd>
       {%- assign processed = true -%}
+    {%- elsif canonical.issn and canonical.issn == publication.data.issn -%}
+      <dt>Originally appeared in</dt>
+      <dd>
+        <cite>{{ publication.data.title }}</cite>
+        {%- if canonical.edition %}, {{ canonical.edition }}{% endif -%}
+      </dd>
     {%- endif -%}
   {%- endfor -%}
   {%- if canonical.url and processed != true -%}
