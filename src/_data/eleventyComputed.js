@@ -4,11 +4,9 @@ const getId = require('../../lib/utils/get-id.js');
 
 module.exports = {
   id: data => getId(data),
-  page_title: data => `${data.title}`,
+  page_title: data => data.title,
   page_image: data => data.photo && data.photo[0],
-  canonical_url: data => data.canonical && data.canonical.url
-    ? data.canonical.url
-    : data.app.url + data.page.url,
+  canonical_url: data => data.canonical?.url || data.app.url + data.page.url,
   summary_image: data => data.page_image
     ? summaryImagePath(data.page_image.url)
     : data.app.url + data.app.icon,
