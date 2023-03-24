@@ -1,3 +1,4 @@
 [submodule "src/content"]
 	path = src/content
 	url = https://github.com/paulrobertlloyd/paulrobertlloyd-content.git
+	branch = main
