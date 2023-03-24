@@ -37,6 +37,7 @@ module.exports = function (eleventy) {
   }));
 
   // Shortcodes
+  eleventy.addShortcode('icon', require('./lib/shortcodes/icon.js'));
   eleventy.addShortcode('image', require('./lib/shortcodes/image.js'));
   eleventy.addShortcode('jsonFeed', require('./lib/shortcodes/json-feed.js'));
 

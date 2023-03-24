@@ -1,44 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" hidden>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="_icon_car">
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="car">
     <path d="M75.7 24a6 6 0 0 0-5.7-4H26a6 6 0 0 0-5.7 4L12 48v32a4 4 0 0 0 4 4h4a4 4 0 0 0 4-4v-4h48v4a4 4 0 0 0 4 4h4a4 4 0 0 0 4-4V48l-8.3-24ZM26 64a6 6 0 1 1 0-12 6 6 0 0 1 0 12Zm44 0a6 6 0 1 1 0-12 6 6 0 0 1 0 12ZM20 44l6-18h44l6 18H20Z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="_icon_ferry">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="ferry">
     <path d="M80 84c-6 0-11-2-16-5-10 7-22 7-32 0-5 3-10 5-16 5H8v8h8c6 0 11-1 16-4 10 5 22 5 32 0 5 3 10 4 16 4h8v-8h-8zm-64-8c6 0 12-4 16-8 4 4 10 8 16 8s12-4 16-8c4 4 10 8 16 8l8-27v-3l-3-2-5-2V24c0-4-4-8-8-8H60V4H36v12H24c-4 0-8 4-8 8v18l-5 2a4 4 0 00-3 5l8 27zm8-52h48v16l-24-8-24 8V24z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="_icon_film">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="film">
     <path d="M88 3v90H8V3h80zm-4 76h-8v8h8v-8zm-64 0h-8v8h8v-8zm64-14h-8v8h8v-8zm-64 0h-8v8h8v-8zm64-14h-8v8h8v-8zm-64 0h-8v8h8v-8zm64-14h-8v8h8v-8zm-64 0h-8v8h8v-8zm64-14h-8v8h8v-8zm-64 0h-8v8h8v-8zM84 9h-8v8h8V9zM20 9h-8v8h8V9zm52 78V51H24v36h48zm0-42V9H24v36h48z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="_icon_flickr">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="flickr">
     <path fill-rule="evenodd" d="M48 92c25 0 44-19 44-44S73 4 48 4 4 23 4 48s19 44 44 44zM30 63c8 0 14-7 14-15s-6-15-14-15-15 7-15 15 7 15 15 15zm37 0c7 0 14-7 14-15s-7-15-14-15c-9 0-15 7-15 15s6 15 15 15z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="_icon_github">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="github">
     <path d="M4 49c0 20 13 36 30 42 2 0 3-1 3-2v-8c-12 3-15-6-15-6-2-5-5-6-5-6-4-3 1-3 1-3 4 1 6 5 6 5 4 7 11 5 13 3l3-5c-10-2-20-5-20-22 0-5 2-9 4-12 0-1-2-6 1-12 0 0 4-1 12 5a42 42 0 0122 0c8-6 12-5 12-5 2 6 1 11 0 12 3 3 5 7 5 12 0 17-10 20-20 22 1 1 3 3 3 7v12c0 1 1 3 3 3A44 44 0 0048 5C24 5 4 25 4 49z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="_icon_linkedin">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="linkedin">
     <path d="M65 79V59c0-5 0-12-6-12-7 0-8 6-8 11v21H38V37h12v6c2-4 6-7 13-7 13 0 15 9 15 20v23H65zM24 32a8 8 0 110-16 8 8 0 010 16zm6 47H17V37h13v42zM85 4H10c-3 0-6 3-6 6v76c0 3 3 6 6 6h75c4 0 7-3 7-6V10c0-3-3-6-7-6z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="_icon_mastodon">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="mastodon">
     <path d="M71.3 1.2C69.5 1 62.6 0 46.7 0h-.1c-16 0-19.4 1-21.2 1.2C15 2.8 5.4 10.1 3.1 20.5a66 66 0 0 0-1 16c.3 7.6.3 15 1 22.5.5 5 1.3 9.9 2.5 14.7 2.2 9 11.1 16.4 19.8 19.5a53.7 53.7 0 0 0 32.2.6c2.3-.7 5-1.5 7.1-3l.1-.2v-7.4h-.3a81.1 81.1 0 0 1-18.8 2.2c-11 0-13.9-5.1-14.7-7.3a22.4 22.4 0 0 1-1.2-5.9h.2c6 1.4 12.3 2.2 18.5 2.2H53c6.3-.3 13-.6 19-1.8h.5c9.8-2 19-7.8 20-22.5l.1-6.7c0-2 .7-14.5 0-22.1a24.8 24.8 0 0 0-21.4-20ZM77.5 58H67.3V33.2c0-5.3-2.2-8-6.7-8-5 0-7.4 3.2-7.4 9.5v13.6H43V34.7c0-6.3-2.4-9.4-7.4-9.4-4.4 0-6.6 2.6-6.6 7.9V58H18.7V32.4a19 19 0 0 1 4-12.5 14 14 0 0 1 11-4.6c5.3 0 9.2 2 11.9 6l2.5 4.2 2.6-4.2c2.6-4 6.6-6 11.8-6 4.5 0 8.2 1.6 11 4.6 2.7 3.1 4 7.3 4 12.5V58Z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="_icon_micro_blog">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="micro_blog">
     <path d="M48 5c24 0 44 18 44 40 0 10-4 18-10 25-7 9-3 18 0 22 1 1-1 1-1 1-11-2-15-9-16-10h-1l-16 2C24 85 4 68 4 45 4 23 24 5 48 5zm0 18h-1l-4 15H27a1 1 0 00-1 2l14 8-6 15a1 1 0 002 1l12-10 12 10a1 1 0 002-1l-6-15 14-8a1 1 0 00-1-2H54l-5-15h-1z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="_icon_national_rail">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="national_rail">
     <path d="M0 65h25.5l30 15H78L45 65h51v-9H45l25.5-12H96v-9H70.5l-30-15H18l33 15H0v9h51L25.5 56H0z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="_icon_photos">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="photos">
     <path d="M88 89V9h8v88H8v-8h80zM0 1h80v80H0V1z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="_icon_plane">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="plane">
     <path d="M32 86h8l20-32h22a6 6 0 100-12H60L40 10h-8l10 32H20l-6-8H8l4 14-4 14h6l6-8h22L32 86z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="_icon_play">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="play">
     <path d="m36 68 32-20-32-20v40ZM48 3a45 45 0 1 1 0 90 45 45 0 0 1 0-90Zm0 8a37 37 0 1 0 0 74 37 37 0 0 0 0-74Z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="_icon_train">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="train">
     <path d="M48 8c-16 0-32 2-32 16v38c0 8 6 14 14 14l-6 6v2h9l8-8h15l8 8h8v-2l-6-6c8 0 14-6 14-14V24C80 10 66 8 48 8zM30 68a6 6 0 110-12 6 6 0 010 12zm14-28H24V24h20v16zm8 0V24h20v16H52zm14 28a6 6 0 110-12 6 6 0 010 12z"/>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="_icon_flag_ukraine">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" id="flag_ukraine">
     <path fill="#005BBB" d="M0 16h96v64H0z"/>
     <path fill="#FFD500" d="M0 48h96v32H0z"/>
   </symbol>

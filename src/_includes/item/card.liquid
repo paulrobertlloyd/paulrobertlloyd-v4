@@ -5,10 +5,8 @@
     <a class="card__image | u-url" rel="bookmark" href="{{ item.url }}">
       {%- image item.data.page_image, 'card', 'u-photo' -%}
       {%- if item.data.photo.size > 1 -%}
-        <svg width="20" height="20" role="img" aria-labelledby="photos-title" focusable="false">
-          <title id="photos-title">{{ item.data.photo.size }} photos in this post</title>
-          <use href="#_icon_photos"></use>
-        </svg>
+        {% assign label = " photos in this post" | prepend: item.data.photo.size %}
+        {% icon "photos" 20 label %}
       {%- endif -%}
     </a>
   {%- else -%}

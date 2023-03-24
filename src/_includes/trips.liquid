@@ -18,7 +18,10 @@
       <td>
       {% for stop in item.data.itinerary %}
         <span>
-          {%- unless forloop.first %}<svg width="1em" height="1em" focusable="false" aria-hidden="true"><use href="#_icon_{{ stop | stop_icon }}"></use></svg> {% endunless -%}
+          {%- unless forloop.first -%}
+            {%- assign icon = stop | stop_icon -%}
+            {%- icon icon %}
+          {% endunless -%}
           {{ stop.label }}, {{ stop.country_name }}
         </span><br>
       {% endfor %}
