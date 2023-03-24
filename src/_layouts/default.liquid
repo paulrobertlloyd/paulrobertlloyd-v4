@@ -68,7 +68,7 @@
 
 <body data-type="{{ layout }}"{% if id %} id="{{ id }}"{% endif %}>
   {%- render 'skip-link' -%}
-  {%- render 'banner', page: page, tags: tags -%}
+  {%- render 'banner', page: page, layout: layout -%}
   <main class="main{% if vocabulary %} | {% for root in vocabulary %} h-{{ root }}{% endfor %}{% endif %}" id="main">
     <div class="main__container container">
     {%- block 'main' -%}
@@ -76,6 +76,6 @@
     {%- endblock -%}
     </div>
   </main>
-  {%- render 'contentinfo', page: page, tags: tags -%}
+  {%- render 'contentinfo', page: page, layout: layout -%}
 </body>
 </html>

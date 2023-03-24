@@ -24,7 +24,7 @@
     margin-inline-start: calc(var(--space-s) * -1);
   }
 
-  .contentinfo .navigation--social {
+  .contentinfo .navigation:first-of-type {
     margin-inline-start: auto;
   }
 }
