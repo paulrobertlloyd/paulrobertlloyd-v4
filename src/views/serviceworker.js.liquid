@@ -48,10 +48,10 @@ function updateStaticCache() {
     ].concat(offlinePages));
     // Assets required for installation to complete
     return staticCache.addAll([
-      '/assets/styles/app.css',
       '{{ app.icon }}',
+      '/assets/styles/app.css',
       '/assets/vectors/icons.svg',
-      '/404/image.svg',
+      '/media/404.svg',
       offlinePage
     ]);
   });
