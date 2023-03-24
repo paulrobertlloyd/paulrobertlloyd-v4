@@ -1,0 +1,9 @@
+---
+layout: default.webc
+---
+<article-footer></article-footer>
+<article-header :@icon="event.icon" :@url="event.url"></article-header>
+<flow class="e-content p-name">
+  <template webc:if="event.photo" webc:nokeep @html="image(event.photo, 'supporting')"></template>
+  <template webc:nokeep @html="markdown(event.content)"></template>
+</flow>

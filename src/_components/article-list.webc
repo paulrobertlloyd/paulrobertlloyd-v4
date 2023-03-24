@@ -1,0 +1,7 @@
+<!--- TODO: modifier class --->
+<ul webc:if="items" class="items" :style="`--grid-size: ${gridSize || '100%'}`" role="list">
+  <li webc:for="item in items" class="items__item">
+    <h3 :id="index" @text="item.data.title"></h3>
+  </li>
+</ul>
+<p webc:else @html="markdown(itemsNoContent)"></p>

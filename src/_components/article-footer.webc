@@ -1,0 +1,32 @@
+<footer class="footer">
+  <dl>
+    <div webc:if="date">
+      <dt class="visually-hidden">Published on</dt>
+      <dd>
+        <time webc:is="dt-published" webc:nokeep></time>
+      </dd>
+    </div>
+    <div webc:if="location">
+      <dt class="visually-hidden">Published in</dt>
+      <dd class="p-location h-adr">
+        <span class="p-locality" @text="location.locality"></span>,
+        <span class="p-country-name" @text="location.country_name"></span>
+      </dd>
+    </div>
+    <div webc:if="geo">
+      <dt class="visually-hidden">Coordinates</dt>
+      <dd class="p-location h-geo">
+        <!--- TODO: h-geo component --->
+      </dd>
+    </div>
+    <div webc:if="in_reply_to">
+      <dt>In reply to</dt>
+      <dd>
+        <a class="u-in-reply-to" :href="in_reply_to" @text="`a post on ${hostname(in_reply_to)}`"></a>
+      </dd>
+    </div>
+    <div webc:if="canonical">
+      <!--- TODO: Canonical logic --->
+    </div>
+  </dl>
+</footer>

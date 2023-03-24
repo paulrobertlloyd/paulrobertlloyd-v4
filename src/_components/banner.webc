@@ -1,0 +1,11 @@
+<header class="banner">
+  <div class="banner__container container">
+    <div class="banner__title">
+      <a class="p-author h-card" rel="author home" href="/" @text="app.name"></a>
+    </div>
+    <nav class="banner__navigation" aria-label="site">
+      <navigation :@items="navigation.primary"></navigation>
+      <navigation :@items="navigation.secondary"></navigation>
+    </nav>
+  </div>
+</header>

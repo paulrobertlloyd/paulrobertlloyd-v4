@@ -1,0 +1,7 @@
+<footer class="contentinfo">
+  <div class="contentinfo__container container">
+    <navigation :@items="navigation.social"></navigation>
+    <navigation :@items="navigation.tertiary"></navigation>
+    <small class="contentinfo__legal"><copyright></copyright></small>
+  </div>
+</footer>

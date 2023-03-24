@@ -1,0 +1,13 @@
+<nav webc:if="pagination.hrefs.length" class="pagination" aria-label="page">
+  <span @text="pagination.hrefs"></span>
+  <ul class="pagination__items" role="list">
+    <li webc:if="pagination.href.next">
+      <!--- TODO: Rewrite href --->
+      <a :href="pagination.href.next" rel="prev">Previous</a>
+    </li>
+    <li webc:if="pagination.href.previous">
+      <!--- TODO: Rewrite href --->
+      <a :href="pagination.href.previous" rel="next">Next</a>
+    </li>
+  </ul>
+</nav>

@@ -1,0 +1,10 @@
+---
+layout: default.webc
+eleventyComputed:
+  page_title: "Reply: {{ date | date: dates.date_time }}"
+---
+<article-footer></article-footer>
+<flow class="e-content p-name">
+  <template webc:nokeep @html="content"></template>
+</flow>
+<article-meta></article-meta>

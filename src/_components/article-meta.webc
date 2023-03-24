@@ -1,0 +1,21 @@
+<dl class="meta">
+  <div webc:if="category">
+    <dt class="visually-hidden">Categories</dt>
+    <dd>
+      <category-list :@items="category"></category-list>
+    </dd>
+  </div>
+  <div webc:if="syndication">
+    <dt>Also on</dt>
+    <dd webc:for="site of syndication">
+      <!--- TODO: Join statements with comma/and --->
+      <a class="u-syndication" rel="syndication external" :href="site" @text="syndication_target(site)"></a>
+    </dd>
+  </div>
+  <div webc:if="comments">
+    <dt class="visually-hidden">Comments</dt>
+    <dd>
+      <a :href="comments.url" @text="`${pluralise(comments.count, 'comment')} on this post`"></a>
+    </dd>
+  </div>
+</dl>

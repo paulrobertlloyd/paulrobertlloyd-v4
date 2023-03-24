@@ -1,0 +1,14 @@
+---
+layout: default.webc
+---
+<!-- TODO: u-bookmark-of class -->
+<article-footer></article-footer>
+<article-header></article-header>
+<flow class="e-content p-name">
+  <p webc:if="bookmark_of.includes('youtube.com') || bookmark_of.includes('vimeo.com')">
+    <a :href="bookmark_of" @text="`Watch ‘${title}’`"></a>
+  </p>
+  <template webc:nokeep @html="content"></template>
+</flow>
+<article-meta :@comments="comments(collections.comments, id, 'bookmark_id')"></article-meta>
+

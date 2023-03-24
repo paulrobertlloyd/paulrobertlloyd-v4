@@ -1,3 +1,4 @@
+const stringToColor = require('string-to-color');
 const getGeojson = require('../../lib/utils/get-geojson.js');
 const getId = require('../../lib/utils/get-id.js');
 
@@ -6,6 +7,7 @@ module.exports = {
   page_title: data => data.title,
   page_image: data => data.photo && data.photo[0],
   canonical_url: data => data.canonical?.url || data.app.url + data.page.url,
+  accent_color: data => data.accent_color || stringToColor(data.date) || app.accent_color,
   summary_image: data => data.page_image
     ? `${data.page_image.url}?tr=w-1200,h-630,fo-auto`
     : data.app.url + data.app.icon,

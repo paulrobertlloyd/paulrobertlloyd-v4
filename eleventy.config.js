@@ -41,6 +41,10 @@ module.exports = function (eleventy) {
 
   // Plugins
   eleventy.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
+  eleventy.addPlugin(require('@11ty/eleventy-plugin-webc'), {
+    components: "./src/_components/**/*.webc",
+  });
+  // eleventy.addPlugin(require("@11ty/eleventy").EleventyRenderPlugin);
   eleventy.addPlugin(require('@11tyrocks/eleventy-plugin-lightningcss'));
 
   // Collections
@@ -67,6 +71,6 @@ module.exports = function (eleventy) {
       output: 'www',
       layouts: '_layouts',
     },
-    templateFormats: ['css', 'liquid', 'md', '11ty.js'],
+    templateFormats: ['css', 'liquid', 'md', '11ty.js', 'webc'],
   };
 };

@@ -1,0 +1,12 @@
+---
+layout: default.webc
+---
+<article-footer></article-footer>
+<article-header></article-header>
+<flow class="e-content p-name">
+  <template webc:nokeep @html="content"></template>
+  <figure webc:for="slide of slides" class="slide">
+    <template webc:nokeep @html="image(slide, 'supporting')"></template>
+    <figcaption webc:if="slide.caption" @html="markdown(slide.caption)"></figcaption>
+  </figure>
+</flow>

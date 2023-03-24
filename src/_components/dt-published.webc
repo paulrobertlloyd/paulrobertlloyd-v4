@@ -1,0 +1,10 @@
+<script webc:type="js">
+  const datetime = date.toISOString();
+  const text = new Intl.DateTimeFormat('en-GB', {
+    dateStyle: 'long',
+    timeStyle: 'short',
+    timeZone: time_zone,
+  }).format(date);
+
+  `<time class="dt-published" datetime="${datetime}">${text}</time>`;
+</script>

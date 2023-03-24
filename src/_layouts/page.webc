@@ -1,0 +1,7 @@
+---
+layout: default.webc
+---
+<article-header></article-header>
+<flow>
+  <template @html="content" webc:nokeep></template>
+</flow>

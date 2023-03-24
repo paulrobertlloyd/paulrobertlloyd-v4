@@ -18,9 +18,10 @@
 
   --color-shadow: hsl(var(--tint) 16% / 10%);
 
+  --color-accent: blue;
   --color-text: var(--color-neutral-darkest);
   --color-text-focus: hsl(var(--tint) 16%); /* Ignore color-scheme */
-  --color-link: var(--color-accent-with-contrast);
+  --color-link: var(--color-accent);
   --color-link-underline: var(--color-neutral-light);
 
   --color-focus: hsl(48deg 100% 50%);

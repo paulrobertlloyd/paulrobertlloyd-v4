@@ -1,0 +1,9 @@
+<script webc:type="js">
+  let text = app.name;
+
+  if (title) {
+    text = `${title} · ${text}`;
+  }
+
+  `<title>${text}</title>`;
+</script>

@@ -1,0 +1,4 @@
+<!-- TODO: Add .e-content class -->
+<div class="content s-linear">
+  <slot></slot>
+</div>

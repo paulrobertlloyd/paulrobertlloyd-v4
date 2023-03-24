@@ -1,0 +1,7 @@
+<address class="h-adr">
+  <span webc:if="address.street_address" class="p-street-address" @text="address.street_address"></span><br webc:if="address.street_address">
+  <span webc:if="address.locality" class="p-locality" @text="address.locality"></span><br webc:if="address.region">
+  <span webc:if="address.region" class="p-locality" @text="address.region"></span>
+  <span webc:if="address.postal_code" class="p-locality" @text="address.postal_code"></span><br webc:if="address.country_name">
+  <span webc:if="address.country_name" class="p-locality" @text="address.country_name"></span>
+</address>

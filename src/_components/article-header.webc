@@ -1,0 +1,9 @@
+<header class="header">
+  <!-- TODO: Add .p-name class -->
+  <h1 class="header__title" @text="title">
+    <icon webc:if="icon" :@id="icon" @size="1em"></icon>
+  </h1>
+  <!-- TODO: Add .p-summary class -->
+  <!-- TODO: Add header url in summary, if exists -->
+  <div webc:if="summary" class="header__summary" @html="markdown(summary)"></div>
+</header>
