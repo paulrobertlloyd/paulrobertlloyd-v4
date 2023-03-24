@@ -18,17 +18,19 @@
     comments: comments
     syndication: syndication
   -%}
-  {%- for this in collection -%}
-    {%- assign related = collections.collection | where: 'data.id',this | first -%}
-    {%- capture sectionTitle %}More from the <a href="{{ related.url }}">{{ related.data.title }}</a> collection{%- endcapture -%}
-    {%- assign articles = collections.article | includes: 'data.collection', this | excludes: 'url',page.url | reverse -%}
-    {%- render 'section' with articles
-      id: 'related'
-      title: sectionTitle
-      scrollable: true
-      itemsComponent: 'card'
-      itemsGridSize: '15rem'
-      itemsLimit: 3
-    -%}
+  {%- for this in tags -%}
+    {%- assign related = collections.collection | where: 'data.page.fileSlug',this | first -%}
+    {%- if related -%}
+      {%- capture sectionTitle %}More from the <a href="{{ related.url }}">{{ related.data.title }}</a> collection{%- endcapture -%}
+      {%- assign articles = collections.article | includes: 'data.tags', this | excludes: 'url',page.url | reverse -%}
+      {%- render 'section' with articles
+        id: 'related'
+        title: sectionTitle
+        scrollable: true
+        itemsComponent: 'card'
+        itemsGridSize: '15rem'
+        itemsLimit: 3
+      -%}
+    {%- endif -%}
   {%- endfor -%}
 {%- endblock -%}
