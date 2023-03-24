@@ -138,7 +138,7 @@
 .s-linear p > img:only-of-type:first-of-type {
   float: right;
   float: inline-end;
-  inline-size: var(--inline-size, 33%);
+  inline-size: var(--inline-size, 25%);
   margin-inline-start: var(--space-s);
   min-inline-size: 6rem;
 }
