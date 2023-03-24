@@ -20,6 +20,7 @@
 /* Pull alignment */
 @media (--from-small-viewport) {
   .align-pull {
+    float: right; /* Chromium */
     float: inline-end;
     inline-size: 33%;
     margin-block-start: 0 !important;
