@@ -153,7 +153,7 @@
 
 .s-linear dt {
   float: inline-start;
-  font-weight: bold;
+  font-weight: 500;
   margin-inline-end: 1ch;
 }
 
