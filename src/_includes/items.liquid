@@ -1,11 +1,9 @@
 <ul class="items{% if modifier %} items--{{ modifier }}{% endif %}" style="--grid-size: {{ gridSize | default: '100%' }}" role="list">
 {%- for item in items limit: limit -%}
-  {%- assign id = item.wm-id | default: forloop.rindex -%}
   <li class="items__item">
     {%- render 'item/{{ component | default: "entry" }}'
-      id: id
+      id: forloop.rindex
       item: item
-      hideSummary: itemHideSummary
     -%}
   </li>
 {%- else -%}
