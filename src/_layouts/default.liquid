@@ -49,9 +49,6 @@
       @media (prefers-color-scheme: dark) {
         --color-accent-with-contrast: {{ accent_color | contrast_with: 'white' }};
       }
-    {%- for var in style -%}
-      --{{ var[0]}}: {{ var[1] }};
-    {%- endfor -%}
     }
   </style>
 
