@@ -6,5 +6,4 @@ permalink: categories/
 eleventyComputed:
   page_title: "{{ introduction }}"
 ---
-{%- assign categories = collections.category | sort_natural -%}
-{%- render 'categories' with categories -%}
+{%- render 'categories' with collections.category -%}
