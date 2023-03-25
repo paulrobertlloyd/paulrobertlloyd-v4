@@ -8,8 +8,7 @@ permalink: archives/
   id: 'on-this-day',
   title: 'On this day'
 %}
-{% assign archive = archives.years | reverse %}
-{% render 'section-archives' with archive
+{% render 'section-archives' with archives.years
   id: 'browse',
   title: 'Browse by year'
 %}

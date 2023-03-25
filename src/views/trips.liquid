@@ -40,7 +40,7 @@ eleventyComputed:
 </table>
 
 {%- for year in (2003..now) reversed -%}
-  {%- assign thisYear = collections.trip | includes: 'data.start',year | reverse -%}
+  {%- assign thisYear = collections.trip | includes: 'data.start',year -%}
   {%- render 'section-trips' with thisYear
     id: year
     title: year

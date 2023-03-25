@@ -123,7 +123,7 @@ module.exports = function () {
   }];
 
   return {
-    years: yearArchives,
+    years: yearArchives.reverse(),
     months: monthArchives,
     other: otherArchives,
   };

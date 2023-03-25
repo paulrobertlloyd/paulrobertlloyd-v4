@@ -3,7 +3,6 @@ layout: index
 title: Replies
 pagination:
   data: collections.reply
-  reverse: true
   size: 36
 permalink: "replies/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}.html{% else %}/{% endif %}"
 ---

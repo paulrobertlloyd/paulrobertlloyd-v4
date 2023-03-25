@@ -3,7 +3,6 @@ layout: index
 title: Photos
 pagination:
   data: collections.photo
-  reverse: true
   size: 36
 permalink: "photos/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}.html{% else %}/{% endif %}"
 ---

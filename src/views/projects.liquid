@@ -8,7 +8,7 @@ introduction: |
   Need a hand on your next project? [Get in touch](/contact/).
 permalink: projects/
 ---
-{%- assign featured = collections.project | includes: 'data.tags','featured' | reverse -%}
+{%- assign featured = collections.project | includes: 'data.tags','featured' -%}
 {%- render 'section' with featured
   id: 'featured'
   title: 'Select case studies'

@@ -5,12 +5,11 @@ summary: Short posts, articles and essays.
 introduction: Short posts, articles and essays; mostly written for myself, but sometimes [written for others](/publications/), too.
 pagination:
   data: collections.article
-  reverse: true
   size: 24
 permalink: "articles/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}.html{% else %}/{% endif %}"
 ---
 {%- if pagination.pageNumber < 1 -%}
-  {%- assign featured = collections.article | includes: 'data.tags','featured' | reverse -%}
+  {%- assign featured = collections.article | includes: 'data.tags','featured' -%}
   {%- render 'section' with featured
     id: 'featured'
     title: 'Select articles'

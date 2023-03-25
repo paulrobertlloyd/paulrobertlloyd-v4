@@ -24,7 +24,7 @@ const offlinePlaceholder = `
 </svg>`;
 const offlinePage = '/offline/';
 const offlinePages = [
-{%- assign saved = collections.article | reverse -%}
+{%- assign saved = collections.article -%}
 {%- for item in saved limit: 6 -%}
   '{{ item.url }}',
 {%- endfor -%}
