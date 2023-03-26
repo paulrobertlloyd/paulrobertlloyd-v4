@@ -5,7 +5,6 @@ const filters = require('./lib/filters/index.js');
 
 module.exports = function (eleventy) {
   // Extensions
-  eleventy.addExtension('css', require('./lib/extensions/css.js'));
   eleventy.addExtension('markdown', {key: 'md'});
 
   // Liquid
@@ -42,6 +41,7 @@ module.exports = function (eleventy) {
 
   // Plugins
   eleventy.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'));
+  eleventy.addPlugin(require('@11tyrocks/eleventy-plugin-lightningcss'));
 
   // Collections
   for (const [name, collection] of Object.entries(collections)) {
