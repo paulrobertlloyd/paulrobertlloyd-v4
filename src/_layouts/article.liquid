@@ -2,37 +2,35 @@
 layout: default
 ---
 {%- assign comments = collections.comments | where: 'data.article_id',id | first -%}
-{%- block 'main' -%}
-  {%- render 'footer'
-    date: date
-    location: location
-    canonical: canonical
-    collections: collections
-  -%}
-  {%- render 'header'
-    title: title
-    summary: false
-    vocabulary: vocabulary
-  -%}
-  {%- render 'content' with content -%}
-  {%- render 'meta'
-    categories: category
-    comments: comments
-    syndication: syndication
-  -%}
-  {%- for this in tags -%}
-    {%- assign collection = collections.collection | where: 'data.page.fileSlug',this | first -%}
-    {%- if collection -%}
-      {%- capture sectionTitle %}More from the <a href="{{ collection.url }}">{{ collection.data.title }}</a> collection{%- endcapture -%}
-      {%- assign articles = collections.article | includes: 'data.tags', this | excludes: 'url',page.url -%}
-      {%- render 'section' with articles
-        id: 'related'
-        title: sectionTitle
-        scrollable: true
-        itemsComponent: 'card'
-        itemsGridSize: '15rem'
-        itemsLimit: 3
-      -%}
-    {%- endif -%}
-  {%- endfor -%}
-{%- endblock -%}
+{%- render 'footer'
+  date: date
+  location: location
+  canonical: canonical
+  collections: collections
+-%}
+{%- render 'header'
+  title: title
+  summary: false
+  vocabulary: vocabulary
+-%}
+{%- render 'content' with content -%}
+{%- render 'meta'
+  categories: category
+  comments: comments
+  syndication: syndication
+-%}
+{%- for this in tags -%}
+  {%- assign collection = collections.collection | where: 'data.page.fileSlug',this | first -%}
+  {%- if collection -%}
+    {%- capture sectionTitle %}More from the <a href="{{ collection.url }}">{{ collection.data.title }}</a> collection{%- endcapture -%}
+    {%- assign articles = collections.article | includes: 'data.tags', this | excludes: 'url',page.url -%}
+    {%- render 'section' with articles
+      id: 'related'
+      title: sectionTitle
+      scrollable: true
+      itemsComponent: 'card'
+      itemsGridSize: '15rem'
+      itemsLimit: 3
+    -%}
+  {%- endif -%}
+{%- endfor -%}

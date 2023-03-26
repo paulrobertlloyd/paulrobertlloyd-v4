@@ -8,25 +8,23 @@ eleventyComputed:
 ---
 {%- assign related = collections.itinerary | includes: 'data.trip_id',id | first -%}
 {%- assign formattedTitle = title | replace: ' ➔ ','\n➔ ' -%}
-{%- block 'main' -%}
-  {%- render 'footer'
-    date: start
-  -%}
-  {%- render 'header'
-    title: formattedTitle
-    summary: summary
-    vocabulary: vocabulary
-  -%}
-  {%- capture content -%}
-    <p>Part of a journey to <a href="{{ related.url }}">{{ related.data.title }}</a>.</p>
-    {%- capture caption -%}
-      {%- render 'itinerary' with itinerary -%}
-    {%- endcapture -%}
-    {%- render 'map' with geojson
-      alignment: 'bleed',
-      caption: caption
-    -%}
-    {{ trip.content | markdown }}
+{%- render 'footer'
+  date: start
+-%}
+{%- render 'header'
+  title: formattedTitle
+  summary: summary
+  vocabulary: vocabulary
+-%}
+{%- capture content -%}
+  <p>Part of a journey to <a href="{{ related.url }}">{{ related.data.title }}</a>.</p>
+  {%- capture caption -%}
+    {%- render 'itinerary' with itinerary -%}
   {%- endcapture -%}
-  {%- render 'content' with content -%}
-{%- endblock -%}
+  {%- render 'map' with geojson
+    alignment: 'bleed',
+    caption: caption
+  -%}
+  {{ trip.content | markdown }}
+{%- endcapture -%}
+{%- render 'content' with content -%}

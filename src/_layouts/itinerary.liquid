@@ -2,31 +2,29 @@
 layout: default
 ---
 {%- assign itinerary = collections.trip | itinerary: trip_id -%}
-{%- block 'main' -%}
-  {%- render 'footer-event'
-    date: date
-    start: itinerary.start
-    end: itinerary.end
-    vocabulary: vocabulary
+{%- render 'footer-event'
+  date: date
+  start: itinerary.start
+  end: itinerary.end
+  vocabulary: vocabulary
+-%}
+{%- render 'header'
+  title: title
+  summary: summary
+  url: url
+  vocabulary: vocabulary
+-%}
+{%- capture content -%}
+  {%- render 'map' with itinerary.geojson
+    alignment: 'bleed'
   -%}
-  {%- render 'header'
-    title: title
-    summary: summary
-    url: url
-    vocabulary: vocabulary
-  -%}
-  {%- capture content -%}
-    {%- render 'map' with itinerary.geojson
-      alignment: 'bleed'
-    -%}
-    {{ place.content | markdown }}
-    {%- render 'trips' with itinerary.trips -%}
-  {%- endcapture -%}
-  {%- render 'content' with content -%}
-  {%- render 'section' with related
-    id: 'related'
-    title: 'Related'
-    itemsComponent: 'card'
-    itemsGridSize: '15rem'
-  -%}
-{%- endblock -%}
+  {{ place.content | markdown }}
+  {%- render 'trips' with itinerary.trips -%}
+{%- endcapture -%}
+{%- render 'content' with content -%}
+{%- render 'section' with related
+  id: 'related'
+  title: 'Related'
+  itemsComponent: 'card'
+  itemsGridSize: '15rem'
+-%}

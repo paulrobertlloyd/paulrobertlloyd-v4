@@ -1,16 +1,14 @@
 ---
 layout: default
 ---
-{%- block 'main' -%}
-  {%- render 'header'
-    title: title
-    summary: summary
-    vocabulary: vocabulary
-  -%}
-  {%- render 'content' with content -%}
-  {%- render 'section' with related
-    id: 'related'
-    title: 'Related'
-    itemsGridSize: '15rem'
-  -%}
-{%- endblock -%}
+{%- render 'header'
+  title: title
+  summary: summary
+  vocabulary: vocabulary
+-%}
+{%- render 'content' with content -%}
+{%- render 'section' with related
+  id: 'related'
+  title: 'Related'
+  itemsGridSize: '15rem'
+-%}

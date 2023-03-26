@@ -2,27 +2,25 @@
 layout: default
 ---
 {%- assign comments = collections.comments | where: 'data.bookmark_id',id | first -%}
-{%- block 'main' -%}
-  {%- render 'footer'
-    date: date
-  -%}
-  {%- render 'header'
-    title: title
-    summary: false
-    url: bookmark_of
-    url_class: 'bookmark-of'
-    vocabulary: vocabulary
-  -%}
-  {%- if bookmark_of contains 'youtube.com' bookmark_of contains 'vimeo.com' -%}
-    {%- capture content -%}
-      <p><a href="{{ bookmark_of }}">Watch ‘{{ title }}’</a></p>
-      {{ content }}
-    {%- endcapture -%}
-  {%- endif -%}
-  {%- render 'content' with content -%}
-  {%- render 'meta'
-    categories: category
-    comments: comments
-    syndication: syndication
-  -%}
-{%- endblock -%}
+{%- render 'footer'
+  date: date
+-%}
+{%- render 'header'
+  title: title
+  summary: false
+  url: bookmark_of
+  url_class: 'bookmark-of'
+  vocabulary: vocabulary
+-%}
+{%- if bookmark_of contains 'youtube.com' bookmark_of contains 'vimeo.com' -%}
+  {%- capture content -%}
+    <p><a href="{{ bookmark_of }}">Watch ‘{{ title }}’</a></p>
+    {{ content }}
+  {%- endcapture -%}
+{%- endif -%}
+{%- render 'content' with content -%}
+{%- render 'meta'
+  categories: category
+  comments: comments
+  syndication: syndication
+-%}

@@ -3,30 +3,28 @@ layout: default
 eleventyComputed:
   page_title: "{{ photo.size | pluralise: 'photo' }}: {{ date | date: dates.date_time }}"
 ---
-{%- block 'main' -%}
-  {%- render 'footer'
-    date: date
-    show_time: true
-    time_zone: time_zone
-    location: location
-    geo: geo
-    in_reply_to: in_reply_to
-    canonical: canonical
-    vocabulary: vocabulary
+{%- render 'footer'
+  date: date
+  show_time: true
+  time_zone: time_zone
+  location: location
+  geo: geo
+  in_reply_to: in_reply_to
+  canonical: canonical
+  vocabulary: vocabulary
+-%}
+{%- capture content -%}
+  {{- content -}}
+  {%- assign columns = columns | default: 1 -%}
+  {%- render 'photos' with photo
+    columns: columns
+    imageClass: 'u-photo'
   -%}
-  {%- capture content -%}
-    {{- content -}}
-    {%- assign columns = columns | default: 1 -%}
-    {%- render 'photos' with photo
-      columns: columns
-      imageClass: 'u-photo'
-    -%}
-  {%- endcapture -%}
-  {%- render 'content' with content
-    properties: 'e-content p-name'
-  -%}
-  {%- render 'meta'
-    categories: category
-    syndication: syndication
-  -%}
-{%- endblock -%}
+{%- endcapture -%}
+{%- render 'content' with content
+  properties: 'e-content p-name'
+-%}
+{%- render 'meta'
+  categories: category
+  syndication: syndication
+-%}

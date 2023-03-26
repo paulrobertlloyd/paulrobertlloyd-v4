@@ -68,9 +68,7 @@
   {%- render 'banner', page: page, layout: layout -%}
   <main class="main{% if vocabulary %} | {% for root in vocabulary %} h-{{ root }}{% endfor %}{% endif %}" id="main">
     <div class="main__container container">
-    {%- block 'main' -%}
       {{ layoutContent }}
-    {%- endblock -%}
     </div>
   </main>
   {%- render 'contentinfo', page: page, layout: layout -%}

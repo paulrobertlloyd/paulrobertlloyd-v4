@@ -3,16 +3,14 @@ layout: default
 eleventyComputed:
   page_title: "{{ comments.size | pluralise: 'comment' }} on ‘{{ title }}’"
 ---
-{%- block 'main' -%}
-  {%- render 'footer'
-    date: page.date
-  -%}
-  {%- render 'header'
-    title: page_title
-    vocabulary: vocabulary
-  -%}
-  {%- render 'items' with comments
-    component: 'remark'
-    modifier: 'remarks'
-  -%}
-{%- endblock -%}
+{%- render 'footer'
+  date: page.date
+-%}
+{%- render 'header'
+  title: page_title
+  vocabulary: vocabulary
+-%}
+{%- render 'items' with comments
+  component: 'remark'
+  modifier: 'remarks'
+-%}

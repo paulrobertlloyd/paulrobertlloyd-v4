@@ -3,22 +3,20 @@ layout: default
 eleventyComputed:
   page_title: "Note: {{ date | date: dates.date_time }}"
 ---
-{%- block 'main' -%}
-  {%- render 'footer'
-    date: date
-    show_time: true
-    time_zone: time_zone
-    location: location
-    geo: geo
-    in_reply_to: in_reply_to
-    canonical: canonical
-    vocabulary: vocabulary
-  -%}
-  {%- render 'content' with content
-    properties: 'e-content p-name'
-  -%}
-  {%- render 'meta'
-    categories: category
-    syndication: syndication
-  -%}
-{%- endblock -%}
+{%- render 'footer'
+  date: date
+  show_time: true
+  time_zone: time_zone
+  location: location
+  geo: geo
+  in_reply_to: in_reply_to
+  canonical: canonical
+  vocabulary: vocabulary
+-%}
+{%- render 'content' with content
+  properties: 'e-content p-name'
+-%}
+{%- render 'meta'
+  categories: category
+  syndication: syndication
+-%}

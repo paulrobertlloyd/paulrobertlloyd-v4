@@ -1,25 +1,23 @@
 ---
 layout: default
 ---
-{%- block 'main' -%}
-  {%- render 'footer-event'
-    date: date
-    location: location
-    start: start
-    end: end
-    vocabulary: vocabulary
-  -%}
-  {%- render 'header'
-    title: title
-    icon: event.icon
-    summary: summary
-    url: event.url
-  -%}
-  {% if event.photo %}
-    {%- capture content -%}
-      {% image event.photo, 'supporting', 'align-pull' -%}
-      {{ event.content | markdown }}
-    {%- endcapture -%}
-    {%- render 'content' with content -%}
-  {% endif %}
-{%- endblock -%}
+{%- render 'footer-event'
+  date: date
+  location: location
+  start: start
+  end: end
+  vocabulary: vocabulary
+-%}
+{%- render 'header'
+  title: title
+  icon: event.icon
+  summary: summary
+  url: event.url
+-%}
+{% if event.photo %}
+  {%- capture content -%}
+    {% image event.photo, 'supporting', 'align-pull' -%}
+    {{ event.content | markdown }}
+  {%- endcapture -%}
+  {%- render 'content' with content -%}
+{% endif %}

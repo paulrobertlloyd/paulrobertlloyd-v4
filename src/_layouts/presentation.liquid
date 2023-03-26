@@ -1,18 +1,16 @@
 ---
 layout: default
 ---
-{%- block 'main' -%}
-  {%- render 'footer'
-    date: date
-  -%}
-  {%- render 'header'
-    title: title
-    summary: summary
-    vocabulary: vocabulary
-  -%}
-  {%- capture content -%}
-    {{- content -}}
-    {% render 'slide' for slides as slide %}
-  {%- endcapture -%}
-  {%- render 'content' with content -%}
-{%- endblock -%}
+{%- render 'footer'
+  date: date
+-%}
+{%- render 'header'
+  title: title
+  summary: summary
+  vocabulary: vocabulary
+-%}
+{%- capture content -%}
+  {{- content -}}
+  {% render 'slide' for slides as slide %}
+{%- endcapture -%}
+{%- render 'content' with content -%}

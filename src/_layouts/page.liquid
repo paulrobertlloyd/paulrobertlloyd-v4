@@ -1,11 +1,9 @@
 ---
 layout: default
 ---
-{%- block 'main' -%}
-  {%- render 'header'
-    title: title
-    summary: summary
-    vocabulary: vocabulary
-  -%}
-  {%- render 'content' with content -%}
-{%- endblock -%}
+{%- render 'header'
+  title: title
+  summary: summary
+  vocabulary: vocabulary
+-%}
+{%- render 'content' with content -%}
