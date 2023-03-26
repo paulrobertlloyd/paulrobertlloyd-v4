@@ -3,7 +3,7 @@
 {%- if date -%}
     <dt class="visually-hidden">Published on</dt>
     <dd>
-      <time class="dt-published" datetime="{{ date | date }}">{% if show_time %}{{ date | date_with_time_zone: timeZone }}{% else %}{{ date | date: dates.date }}{% endif %}</time>
+      <time class="dt-published" datetime="{{ date | date }}">{% if show_time %}{{ date | date_with_time_zone: time_zone }}{% else %}{{ date | date: dates.date }}{% endif %}</time>
     </dd>
 {%- endif -%}
 {%- if location -%}
