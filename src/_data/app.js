@@ -26,5 +26,4 @@ module.exports = {
     email: 'reply@paulrobertlloyd.com',
     avatar: 'https://gravatar.com/avatar/15091a37bacfa4bdd011282627eaca2b?s=512',
   },
-  environment: process.env.NODE_ENV,
 };

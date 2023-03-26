@@ -1,4 +1,3 @@
-const summaryImagePath = require('../../lib/utils/get-summary-image-path.js');
 const getGeojson = require('../../lib/utils/get-geojson.js');
 const getId = require('../../lib/utils/get-id.js');
 
@@ -8,7 +7,7 @@ module.exports = {
   page_image: data => data.photo && data.photo[0],
   canonical_url: data => data.canonical?.url || data.app.url + data.page.url,
   summary_image: data => data.page_image
-    ? summaryImagePath(data.page_image.url)
+    ? `${data.page_image.url}?tr=w-1200,h-630,fo-auto`
     : data.app.url + data.app.icon,
   summary_image_alt: data => data.page_image
     ? data.page_image.alt
