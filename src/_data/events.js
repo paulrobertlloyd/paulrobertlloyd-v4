@@ -121,10 +121,6 @@ module.exports = async function () {
 
           item.icon = 'film';
           item.summary = movie.Plot || item.summary;
-          item.photo = movie.Poster && {
-            url: movie.Poster,
-            alt: `Poster for ‘${item.title}’`,
-          };
           item.content = `
             ![Poster for ‘${item.title}’](${movie.Poster})
             {.align-pull}\n\n
