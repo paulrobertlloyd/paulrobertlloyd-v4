@@ -11,6 +11,4 @@ eleventyComputed:
   introduction: "{{ category }}"
 ---
 {%- assign items = collections.public | includes: 'data.category',category -%}
-{%- render 'items' with items
-  modifier: 'inline'
--%}
+{%- render 'items' with items -%}

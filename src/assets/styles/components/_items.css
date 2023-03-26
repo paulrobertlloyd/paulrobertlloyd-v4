@@ -5,12 +5,13 @@
     "footer" 1fr /
     1fr;
   display: grid;
-  grid-gap: var(--gap);
+  gap: var(--gap);
   grid-template-columns: repeat(auto-fit, minmax(var(--grid-size), 1fr));
 }
 
 @media (--from-medium-viewport) {
-  .items--inline {
+  .items:has(.item__footer) {
+    row-gap: var(--space-m-l);
     --item-grid-template:
       "footer header" auto
       "footer main" 1fr /
@@ -19,20 +20,16 @@
 }
 
 @media (--upto-medium-viewport) {
-  .items--photos {
+  .items:has(.card__image--photo) {
     --gap: var(--border-width-rule);
     grid-template-columns: repeat(auto-fit, minmax(calc(33% - calc(var(--border-width-rule) * 2)), 1fr));
     margin-inline: calc(var(--space-s-m) * -1);
   }
 }
 
-.items--photos img {
+.items:has(.card__image--photo) img {
   aspect-ratio: 1;
   object-fit: cover;
-}
-
-.items--inline > * + * {
-  margin-block-start: var(--space-m);
 }
 
 .items__item {

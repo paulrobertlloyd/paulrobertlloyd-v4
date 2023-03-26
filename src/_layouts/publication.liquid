@@ -7,6 +7,4 @@ layout: default
   url: url
 -%}
 {%- assign items = collections.article | publication: issn,url -%}
-{%- render 'items' with items
-  modifier: 'inline'
--%}
+{%- render 'items' with items -%}

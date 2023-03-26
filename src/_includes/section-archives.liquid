@@ -7,7 +7,7 @@
     <div class="section__main">
       <ol class="items" style="--grid-size: 7.5rem" role="list">
       {%- for item in section-archives -%}
-        <li class="item item--inline">
+        <li class="item">
           <h3 class="item__title"><a href="{{ item.url }}">{{ item.data.itemTitle | default: item.data.introduction }}</a></h3>
         </li>
       {%- endfor -%}

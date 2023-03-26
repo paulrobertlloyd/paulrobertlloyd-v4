@@ -21,11 +21,8 @@ permalink: "articles/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNu
   {%- render 'section' with pagination.items
     id: 'recent'
     title: 'Recent articles'
-    itemsModifier: 'inline'
   -%}
 {%- else -%}
-  {%- render 'items' with pagination.items
-    modifier: 'inline'
-  -%}
+  {%- render 'items' with pagination.items -%}
 {%- endif %}
 {%- render 'pagination' with pagination -%}

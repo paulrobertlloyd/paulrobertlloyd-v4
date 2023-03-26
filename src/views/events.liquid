@@ -13,13 +13,11 @@ permalink: "events/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumb
     id: 'attending'
     title: 'Attending'
     itemsComponent: 'event'
-    itemsModifier: 'inline'
   -%}
 {%- endif %}
 {%- render 'section' with pagination.items
   id: 'attended'
   title: 'Attended'
   itemsComponent: 'event'
-  itemsModifier: 'inline',
 -%}
 {%- render 'pagination' with pagination -%}

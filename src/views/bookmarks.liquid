@@ -6,7 +6,5 @@ pagination:
   size: 24
 permalink: "bookmarks/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}.html{% else %}/{% endif %}"
 ---
-{%- render 'items' with pagination.items
-  modifier: 'inline'
--%}
+{%- render 'items' with pagination.items -%}
 {%- render 'pagination' with pagination -%}

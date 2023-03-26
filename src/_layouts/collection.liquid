@@ -8,12 +8,9 @@ layout: default
 {%- if content != '' -%}
   {%- render 'content' with content -%}
 {%- endif -%}
-{%- assign items = collections[page.fileSlug] -%}
-{%- assign itemsModifier = 'photos' if post_type == 'photo' -%}
-{%- render 'section' with items
+{%- render 'section' with collections[page.fileSlug]
   id: 'items'
   title: 'Items in this collection'
   itemsComponent: 'card'
   itemsGridSize: '15rem'
-  itemsModifier: itemsModifier
 -%}

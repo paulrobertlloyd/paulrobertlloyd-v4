@@ -13,6 +13,5 @@ eleventyComputed:
 ---
 {%- assign items = collections.public | includes: 'date',archive.data.date -%}
 {%- render 'items' with items
-  modifier: 'inline'
   itemsNoContent: 'Nothing was published during this month.'
 -%}
