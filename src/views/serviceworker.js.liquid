@@ -31,9 +31,9 @@ const offlinePages = [
 {%- for item in navigation.primary -%}
   '{{ item.url }}',
 {%- endfor -%}
-{%- for item in navigation.secondary -%}
+{%- for item in navigation.secondary %}{% if item.rel != 'external' -%}
   '{{ item.url }}',
-{%- endfor -%}
+{%- endif -%}{%- endfor -%}
   '/'
 ];
 

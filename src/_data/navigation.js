@@ -28,6 +28,7 @@ module.exports = {
     label: 'With Ukraine',
     url: 'https://www.withukraine.org/',
     icon: 'flag_ukraine',
+    rel: 'external',
   }],
   tertiary: [{
     label: 'Contact',
@@ -48,26 +49,26 @@ module.exports = {
     label: 'Mastodon',
     icon: 'mastodon',
     url: 'https://mastodon.social/@paulrobertlloyd',
-    rel: 'me',
+    rel: 'me external',
   }, {
     label: 'Micro.blog',
     icon: 'micro_blog',
     url: 'https://micro.blog/paulrobertlloyd',
-    rel: 'me',
+    rel: 'me external',
   }, {
     label: 'Flickr',
     icon: 'flickr',
     url: 'https://flickr.com/people/paulrobertlloyd',
-    rel: 'me',
+    rel: 'me external',
   }, {
     label: 'GitHub',
     icon: 'github',
     url: 'https://github.com/paulrobertlloyd',
-    rel: 'me authn',
+    rel: 'me authn external',
   }, {
     label: 'LinkedIn',
     icon: 'linkedin',
     url: 'https://www.linkedin.com/in/paulrobertlloyd',
-    rel: 'me',
+    rel: 'me external',
   }],
 };
