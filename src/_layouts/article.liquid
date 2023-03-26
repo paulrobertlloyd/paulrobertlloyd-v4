@@ -19,9 +19,9 @@
     syndication: syndication
   -%}
   {%- for this in tags -%}
-    {%- assign related = collections.collection | where: 'data.page.fileSlug',this | first -%}
-    {%- if related -%}
-      {%- capture sectionTitle %}More from the <a href="{{ related.url }}">{{ related.data.title }}</a> collection{%- endcapture -%}
+    {%- assign collection = collections.collection | where: 'data.page.fileSlug',this | first -%}
+    {%- if collection -%}
+      {%- capture sectionTitle %}More from the <a href="{{ collection.url }}">{{ collection.data.title }}</a> collection{%- endcapture -%}
       {%- assign articles = collections.article | includes: 'data.tags', this | excludes: 'url',page.url -%}
       {%- render 'section' with articles
         id: 'related'
