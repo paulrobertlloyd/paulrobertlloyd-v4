@@ -16,7 +16,7 @@ eleventyComputed:
 {%- capture content -%}
   {{- content -}}
   {%- assign columns = columns | default: 1 -%}
-  {%- render 'photos' with photo
+  {%- render 'gallery' with photo
     columns: columns
     imageClass: 'u-photo'
   -%}

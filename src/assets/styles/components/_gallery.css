@@ -11,7 +11,7 @@
   }
 
   &:not(:has(.screenshot)) {
-    gap: var(--gap);
+    gap: var(--space-s);
   }
 
   &:has(* + *) {

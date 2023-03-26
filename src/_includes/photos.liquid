@@ -1,8 +1,0 @@
-<figure class="photos" style="--columns: {{ columns | default: photos.size }}">
-  {%- for image in photos -%}
-    {% image image, imagePreset, imageClass -%}
-  {% endfor %}
-  {%- if caption -%}
-    <figcaption class="photos__caption">{{ caption | markdown }}</figcaption>
-  {%- endif -%}
-</figure>
