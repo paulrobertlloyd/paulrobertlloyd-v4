@@ -71,7 +71,8 @@ module.exports = function () {
   const monthArchives = archivedMonths.map(month => {
     const date = new Date(month);
     const year = date.getFullYear();
-    const monthNumber = date.getMonth() + 1;
+    let monthNumber = date.getMonth() + 1;
+    monthNumber = String(monthNumber).padStart(2, '0');
     const monthName = Intl.DateTimeFormat('en-GB', {
       month: 'long',
     }).format(date);
