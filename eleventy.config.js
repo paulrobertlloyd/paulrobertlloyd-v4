@@ -14,7 +14,7 @@ module.exports = function (eleventy) {
       app: require('./src/_data/app.js'),
       dates: require('./src/_data/dates.js'),
       navigation: require('./src/_data/navigation.js'),
-    }
+    },
   });
 
   // Libraries
@@ -58,9 +58,6 @@ module.exports = function (eleventy) {
   eleventy.addPassthroughCopy('./src/assets/icons');
   eleventy.addPassthroughCopy('./src/assets/scripts');
   eleventy.addPassthroughCopy('./src/assets/vectors');
-
-  // Watch targets
-  eleventy.addWatchTarget('./src/assets/styles');
 
   // Config
   return {
