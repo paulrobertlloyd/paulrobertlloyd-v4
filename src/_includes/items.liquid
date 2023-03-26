@@ -2,7 +2,7 @@
 {%- for item in items limit: limit -%}
   <li class="items__item">
     {%- render 'item/{{ component | default: "entry" }}'
-      id: forloop.rindex
+      id: forloop.index
       item: item
     -%}
   </li>
