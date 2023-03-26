@@ -1,8 +1,16 @@
 ---
-layout: category
+layout: index
+title: Categories
 pagination:
   data: collections.category
   size: 1
-  alias: title
-permalink: "categories/{{ title }}/"
+  alias: category
+permalink: "categories/{{ category }}/"
+eleventyComputed:
+  page_title: "{{ category }}"
+  introduction: "{{ category }}"
 ---
+{%- assign items = collections.public | includes: 'data.category',category -%}
+{%- render 'items' with items
+  modifier: 'inline'
+-%}
