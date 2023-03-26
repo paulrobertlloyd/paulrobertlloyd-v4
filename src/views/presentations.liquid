@@ -8,8 +8,7 @@ introduction: |
   Want me to speak at your event? [Get in touch](/contact).
 permalink: presentations/
 ---
-{%- assign featured = collections.presentation | includes: 'data.tags','featured' -%}
-{%- render 'section' with featured
+{%- render 'section' with collections.presentation
   id: 'featured'
   title: 'Select presentations'
   scrollable: true
