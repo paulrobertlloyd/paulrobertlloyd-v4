@@ -3,7 +3,7 @@
 <article class="card |{% for root in item.data.vocabulary %} h-{{ root }}{% endfor %}"{% if item.data.duotoneCardImage %} style="--color-accent-light: {{ accent_color | contrast_with: 'black' }}; --color-accent-dark: {{ accent_color | contrast_with: 'white' }}"{% endif %}>
   {%- if item.data.layout == 'photo' -%}
     <a class="card__image card__image--photo | u-url" rel="bookmark" href="{{ item.url }}">
-      {%- image item.data.page_image, 'card', 'u-photo' -%}
+      {%- image item.data.page_image, 'card-square', 'u-photo' -%}
       {%- if item.data.photo.size > 1 -%}
         {% assign label = " photos in this post" | prepend: item.data.photo.size %}
         {% icon "photos" 20 label %}
