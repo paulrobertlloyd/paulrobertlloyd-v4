@@ -21,12 +21,6 @@
   line-height: var(--line-height-tight);
 }
 
-.item__title .avatar {
-  inset-block-start: var(--space-2xs);
-  inset-inline-start: 0;
-  position: absolute;
-}
-
 .item__title svg {
   margin-block-end: -0.1em;
 }
@@ -60,15 +54,14 @@
 }
 
 /* Remark item adaptions */
-.items--remarks .item {
+.item--remark {
   padding-inline-start: calc(var(--space-l) + var(--gap));
-}
 
-.items--remarks .s-linear {
-  --linear-font-size: var(--font-size-s);
-  --linear-line-height: var(--line-height-prose);
-
-  color: var(--color-text);
+  & .avatar {
+    inset-block-start: var(--space-2xs);
+    inset-inline-start: 0;
+    position: absolute;
+  }
 }
 
 /* Testimonial item adaptions */
