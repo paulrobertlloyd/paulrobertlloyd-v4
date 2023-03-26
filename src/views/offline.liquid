@@ -6,8 +6,7 @@ permalink: offline/
 summary: You appear to be offline.
 introduction: Your network connection isn’t working right now, and this page is not available offline. Why not read one of the following articles instead?
 ---
-{%- assign saved = collections.article %}
-{%- render 'section' with saved
+{%- render 'section' with collections.article
   id: 'saved'
   title: 'Articles available to read offline'
   itemsLimit: 6
