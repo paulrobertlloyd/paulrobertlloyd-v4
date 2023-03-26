@@ -54,10 +54,7 @@ module.exports = function (eleventy) {
   // Passthrough
   eleventy.addPassthroughCopy('./src/app.pgp');
   eleventy.addPassthroughCopy('./src/robots.txt');
-  eleventy.addPassthroughCopy('./src/assets/fonts');
-  eleventy.addPassthroughCopy('./src/assets/icons');
-  eleventy.addPassthroughCopy('./src/assets/scripts');
-  eleventy.addPassthroughCopy('./src/assets/vectors');
+  eleventy.addPassthroughCopy('./src/assets');
 
   // On production, save media to images folder, which gets proxied via media
   const mediaDir = process.env.NODE_ENV === 'production' ? 'images' : 'media';
