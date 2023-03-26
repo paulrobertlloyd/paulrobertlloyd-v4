@@ -24,8 +24,8 @@
   <link rel="alternate" href="/feed.json" type="application/feed+json" title="JSON Feed">
   <link rel="canonical" href="{{ canonical_url }}">
   <link rel="manifest" href="/app.webmanifest">
-  <link rel="icon" href="{{ app.favicon | absolute_url: app.url }}">
-  <link rel="apple-touch-icon" href="{{ app.icon | absolute_url: app.url }}">
+  <link rel="icon" href="{{ app.favicon }}">
+  <link rel="apple-touch-icon" href="{{ app.icon }}">
   <link rel="authorization_endpoint" href="{{ app.endpoint.auth }}">
   <link rel="token_endpoint" href="{{ app.endpoint.token }}">
   <link rel="indieauth-metadata" href="{{ app.endpoint.indieauth }}">
@@ -52,7 +52,7 @@
     }
   </style>
 
-  <meta property="og:title" content="{{ title | markdown: 'inline' | strip_html }}">
+  <meta property="og:title" content="{{ title }}">
   <meta property="og:description" name="description" content="{{ summary | default: app.description | markdown | strip_html | strip_newlines | strip }}">
   <meta property="og:url" content="{{ page.url | absolute_url: app.url }}">
   <meta property="og:image" content="{{ summary_image | absolute_url: app.url }}">
@@ -66,7 +66,7 @@
 <body data-type="{{ layout }}"{% if id %} id="{{ id }}"{% endif %}>
   {%- render 'skip-link' -%}
   {%- render 'banner', page: page, layout: layout -%}
-  <main class="main{% if vocabulary %} | {% for root in vocabulary %} h-{{ root }}{% endfor %}{% endif %}" id="main">
+  <main class="main{% for root in vocabulary %} h-{{ root }}{% endfor %}" id="main">
     <div class="main__container container">
       {{ layoutContent }}
     </div>
