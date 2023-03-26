@@ -7,7 +7,11 @@
     "indieweb",
     "personal-website"
   ],
-  "author": "Paul Robert Lloyd",
+  "author": {
+    "name": "Paul Robert Lloyd",
+    "email": "reply@paulrobertlloyd.com",
+    "url": "https://paulrobertlloyd.com"
+  },
   "homepage": "https://github.com/paulrobertlloyd/paulrobertlloyd-v4#readme",
   "repository": "github:paulrobertlloyd/paulrobertlloyd-v4",
   "bugs": "https://github.com/paulrobertlloyd/paulrobertlloyd-v4/issues",

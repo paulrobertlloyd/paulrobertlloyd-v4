@@ -19,10 +19,4 @@ module.exports = {
     sizes: '512x512',
     type: 'image/png',
   }],
-  author: {
-    name: 'Paul Robert Lloyd',
-    url: 'https://paulrobertlloyd.com',
-    email: 'reply@paulrobertlloyd.com',
-    avatar: 'https://gravatar.com/avatar/15091a37bacfa4bdd011282627eaca2b?s=512',
-  },
 };

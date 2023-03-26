@@ -9,7 +9,7 @@ module.exports = class JsonFeed {
     };
   }
 
-  async render({app, collections}) {
+  async render({app, pkg, collections}) {
     const feed = {
       version: 'https://jsonfeed.org/version/1.1',
       title: app.name,
@@ -20,9 +20,9 @@ module.exports = class JsonFeed {
       icon: this.absolute_url(app.icons[1].src, app.url),
       language: app.lang,
       authors: [{
-        name: app.author.name,
-        url: app.author.url,
-        avatar: app.author.avatar,
+        name: pkg.author.name,
+        url: pkg.author.url,
+        avatar: 'https://gravatar.com/avatar/15091a37bacfa4bdd011282627eaca2b?s=512',
       }],
       items: [],
     };
