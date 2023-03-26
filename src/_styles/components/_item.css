@@ -53,8 +53,8 @@
   padding-block-start: calc(var(--space-2xs) / 2);
 }
 
-/* Remark item adaptions */
-.item--remark {
+/* Comment item adaptions */
+.item--comment {
   padding-inline-start: calc(var(--space-l) + var(--gap));
 
   & .avatar {

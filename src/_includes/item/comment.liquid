@@ -1,5 +1,4 @@
-{%- assign permalink = id | prepend: '#remark-' -%}
-<article class="item item--remark | p-comment h-cite" id="remark-{{ id }}">
+<article class="item item--comment | p-comment h-cite" id="comment-{{ id }}">
   <header class="item__header">
     <h3 class="item__title | p-author h-card">
       {%- if item.author.url %}<a class="u-url" href="{{ item.author.url }}" target="_blank" rel="noopener noreferrer">{% endif -%}
@@ -14,7 +13,7 @@
   </div>
 
   <footer class="item__footer">
-    <a class="u-url" rel="bookmark" href="{{ item.url | default: permalink }}">
+    <a class="u-url" rel="bookmark" href="#comment-{{ id }}">
       <time class="dt-published" datetime="{{ item.published | date }}">{{ item.published | date: dates.date_time }}</time>
     </a>
   </footer>
