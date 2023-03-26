@@ -12,14 +12,6 @@ module.exports = {
   background_color: '#fff',
   favicon: '/assets/icons/32.svg',
   icon: '/assets/icons/512.png',
-  endpoint: {
-    auth: 'https://kit.paulrobertlloyd.com/auth',
-    token: 'https://kit.paulrobertlloyd.com/auth/token',
-    indieauth: 'https://kit.paulrobertlloyd.com/auth/metadata',
-    micropub: 'https://kit.paulrobertlloyd.com/micropub',
-    microsub: 'https://aperture.p3k.io/microsub/32',
-    webmention: 'https://webmention.io/paulrobertlloyd.com/webmention',
-  },
   author: {
     name: 'Paul Robert Lloyd',
     url: 'https://paulrobertlloyd.com',

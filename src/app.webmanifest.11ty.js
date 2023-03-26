@@ -20,16 +20,6 @@ module.exports = class WebManifest {
       background_color: app.background_color,
       display: 'minimal-ui',
       start_url: './',
-      share_target: {
-        action: `${app.endpoint.micropub}/share/`,
-        method: 'GET',
-        enctype: 'application/x-www-form-urlencoded',
-        params: {
-          title: 'name',
-          text: 'content',
-          url: 'url',
-        },
-      },
     };
 
     return JSON.stringify(webmanifest, null, 2);
