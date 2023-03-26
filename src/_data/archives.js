@@ -70,24 +70,11 @@ module.exports = function () {
   const archivedMonths = generateMonths('2008-09', now);
   const monthArchives = archivedMonths.map(month => {
     const date = new Date(month);
-    const monthNames = [
-      'January',
-      'February',
-      'March',
-      'April',
-      'May',
-      'June',
-      'July',
-      'August',
-      'September',
-      'October',
-      'November',
-      'December',
-    ];
     const year = date.getFullYear();
-    let monthNumber = date.getMonth() + 1;
-    monthNumber = String(monthNumber).padStart(2, '0');
-    const monthName = monthNames[date.getMonth()];
+    const monthNumber = date.getMonth() + 1;
+    const monthName = Intl.DateTimeFormat('en-GB', {
+      month: 'long',
+    }).format(date);
 
     return {
       date,
