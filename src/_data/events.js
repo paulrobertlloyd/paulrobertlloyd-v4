@@ -36,6 +36,7 @@ module.exports = async function () {
           type: 'card',
         },
         rsvp: 'yes',
+        content: false,
       };
 
       // Location (name and address)
@@ -124,7 +125,11 @@ module.exports = async function () {
             url: movie.Poster,
             alt: `Poster for ‘${item.title}’`,
           };
-          item.content = [
+          item.content = `
+            ![Poster for ‘${item.title}’](${movie.Poster})
+            {.align-pull}\n\n
+          `;
+          item.content += [
             `Director\n: ${movie.Director}`,
             `Writer\n: ${movie.Writer}`,
             `Actors\n: ${movie.Actors}`,

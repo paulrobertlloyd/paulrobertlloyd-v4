@@ -13,7 +13,6 @@ vocabulary: event
 eleventyComputed:
   title: "{{ event.title }}"
   summary: "{{ event.summary }}"
-  content: "{{ event.content }}"
   icon: "{{ event.icon }}"
   start: "{{ event.start }}"
   end: "{{ event.end }}"
@@ -21,3 +20,4 @@ eleventyComputed:
     name: "{{ event.location.name }}"
   presented: "{{ event.presented }}"
 ---
+{{ event.content | markdown }}

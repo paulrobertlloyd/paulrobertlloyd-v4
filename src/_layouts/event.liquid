@@ -14,10 +14,4 @@ layout: default
   summary: summary
   url: event.url
 -%}
-{% if event.photo %}
-  {%- capture content -%}
-    {% image event.photo, 'supporting', 'align-pull' -%}
-    {{ event.content | markdown }}
-  {%- endcapture -%}
-  {%- render 'content' with content -%}
-{% endif %}
+{%- render 'content' with content -%}
