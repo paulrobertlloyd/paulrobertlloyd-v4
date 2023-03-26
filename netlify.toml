@@ -21,7 +21,7 @@ package = "netlify-plugin-cache"
 for = "/*"
 
   [headers.values]
-  Content-Security-Policy = "script-src 'self' 'nonce-bVgyaDV6YU9tdThnZ2wwckZBNnFnc1Z6Wk40SnY2U0pmbjdTUjQ3MVg2RTFCbnEwN3g=' *.codepen.io; style-src 'self' 'unsafe-inline'; object-src 'self'; img-src 'self' data: *.mapbox.com i.ytimg.com i.vimeocdn.com raw.githubusercontent.com kit.paulrobertlloyd.com"
+  Content-Security-Policy = "script-src 'self' 'nonce-bVgyaDV6YU9tdThnZ2wwckZBNnFnc1Z6Wk40SnY2U0pmbjdTUjQ3MVg2RTFCbnEwN3g=' *.codepen.io; style-src 'self' 'unsafe-inline'; object-src 'self'; img-src 'self' data: *.mapbox.com *.media-amazon.com i.ytimg.com i.vimeocdn.com raw.githubusercontent.com kit.paulrobertlloyd.com"
   Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"
   Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
   X-Content-Type-Options = "nosniff"
