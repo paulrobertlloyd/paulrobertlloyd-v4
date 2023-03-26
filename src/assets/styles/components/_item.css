@@ -19,10 +19,10 @@
 
   font-size: var(--font-size-l);
   line-height: var(--line-height-tight);
-}
 
-.item__title svg {
-  margin-block-end: -0.1em;
+  & svg {
+    margin-block-end: -0.1em;
+  }
 }
 
 /* Main */
@@ -68,9 +68,9 @@
 .item--testimonial {
   border-block-start: none;
   padding-block-start: 0;
-}
 
-.item--testimonial .item__main blockquote {
-  border-inline-start: 0;
-  padding-inline-start: 0;
+  & blockquote {
+    border-inline-start: 0;
+    padding-inline-start: 0;
+  }
 }
