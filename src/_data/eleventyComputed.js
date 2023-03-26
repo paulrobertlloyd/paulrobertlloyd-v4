@@ -8,7 +8,7 @@ module.exports = {
   canonical_url: data => data.canonical?.url || data.app.url + data.page.url,
   summary_image: data => data.page_image
     ? `${data.page_image.url}?tr=w-1200,h-630,fo-auto`
-    : data.app.url + data.app.icon,
+    : data.app.url + data.app.icons[1].src,
   summary_image_alt: data => data.page_image
     ? data.page_image.alt
     : 'Logo',

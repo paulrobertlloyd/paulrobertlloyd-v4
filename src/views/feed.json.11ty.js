@@ -16,8 +16,8 @@ module.exports = class JsonFeed {
       description: app.description,
       home_page_url: app.url,
       feed_url: this.absolute_url('feed.json', app.url),
-      favicon: this.absolute_url(app.favicon, app.url),
-      icon: this.absolute_url(app.icon, app.url),
+      favicon: this.absolute_url(app.icons[0].src, app.url),
+      icon: this.absolute_url(app.icons[1].src, app.url),
       language: app.lang,
       authors: [{
         name: app.author.name,

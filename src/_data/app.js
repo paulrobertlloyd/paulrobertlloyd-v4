@@ -10,8 +10,15 @@ module.exports = {
   theme_color_dark: '#26272b',
   accent_color: '#20e',
   background_color: '#fff',
-  favicon: '/assets/icons/32.svg',
-  icon: '/assets/icons/512.png',
+  icons: [{
+    src: '/assets/icons/32.svg',
+    sizes: '32x32',
+    type: 'image/svg+xml',
+  }, {
+    src: '/assets/icons/512.png',
+    sizes: '512x512',
+    type: 'image/png',
+  }],
   author: {
     name: 'Paul Robert Lloyd',
     url: 'https://paulrobertlloyd.com',

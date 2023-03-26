@@ -11,11 +11,7 @@ module.exports = class WebManifest {
       lang: app.lang,
       name: app.name,
       short_name: app.short_name,
-      icons: [{
-        src: app.icon,
-        sizes: '512x512',
-        type: 'image/png',
-      }],
+      icons: app.icons,
       theme_color: app.theme_color,
       background_color: app.background_color,
       display: 'minimal-ui',
