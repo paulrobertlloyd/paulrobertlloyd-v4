@@ -1,5 +1,7 @@
+---
+layout: default
+---
 {%- assign itinerary = collections.trip | itinerary: trip_id -%}
-{%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'footer-event'
     date: date

@@ -1,6 +1,8 @@
-{%- assign count = comments.size | pluralise: 'comment' -%}
-{%- capture page_title %}{{ count }} on ‘{{ title }}’{% endcapture -%}
-{%- layout 'default' -%}
+---
+layout: default
+eleventyComputed:
+  page_title: "{{ comments.size | pluralise: 'comment' }} on ‘{{ title }}’"
+---
 {%- block 'main' -%}
   {%- render 'footer'
     date: page.date

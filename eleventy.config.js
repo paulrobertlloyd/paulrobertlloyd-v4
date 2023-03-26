@@ -14,8 +14,7 @@ module.exports = function (eleventy) {
       app: require('./src/_data/app.js'),
       dates: require('./src/_data/dates.js'),
       navigation: require('./src/_data/navigation.js'),
-    },
-    layouts: './src/_layouts',
+    }
   });
 
   // Libraries

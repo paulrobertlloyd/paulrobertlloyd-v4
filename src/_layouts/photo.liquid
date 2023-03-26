@@ -1,8 +1,8 @@
 ---
+layout: default
 eleventyComputed:
   page_title: "{{ photo.size | pluralise: 'photo' }}: {{ date | date: dates.date_time }}"
 ---
-{%- layout 'default' -%}
 {%- block 'main' -%}
   {%- render 'footer'
     date: date
