@@ -5,9 +5,7 @@ layout: default
   title: title
   summary: summary
 -%}
-{%- if content != '' -%}
-  {%- render 'content' with content -%}
-{%- endif -%}
+{%- render 'content' with content -%}
 {%- render 'section' with collections[page.fileSlug]
   id: 'items'
   title: 'Items in this collection'
