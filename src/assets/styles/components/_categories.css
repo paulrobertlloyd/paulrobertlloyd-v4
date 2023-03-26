@@ -1,9 +1,9 @@
 .categories {
   color: var(--color-link);
-}
 
-.categories li {
-  display: inline-block;
-  padding-block: var(--space-2xs);
-  padding-inline: 0 var(--space-s);
+  & li {
+    display: inline-block;
+    padding-block: var(--space-2xs);
+    padding-inline: 0 var(--space-s);
+  }
 }

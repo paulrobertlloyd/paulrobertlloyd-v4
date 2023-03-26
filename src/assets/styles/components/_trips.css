@@ -1,17 +1,17 @@
 .trips {
   white-space: nowrap;
-}
 
-.trips tbody th,
-.trips tbody td {
-  border-block-start-width: var(--border-width-rule);
-}
+  & tbody th,
+  & tbody td {
+    border-block-start-width: var(--border-width-rule);
+  }
 
-.trips * th:first-child {
-  inline-size: calc(var(--logo-inline-size) + var(--gap));
-}
+  & * th:first-child {
+    inline-size: calc(var(--logo-inline-size) + var(--gap));
+  }
 
-.trips svg {
-  color: var(--color-neutral-dark);
-  margin-block-end: -0.15em;
+  & svg {
+    color: var(--color-neutral-dark);
+    margin-block-end: -0.15em;
+  }
 }

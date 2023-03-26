@@ -13,10 +13,10 @@
 .header__title {
   font-size: var(--font-size-2xl);
   line-height: var(--line-height-tight);
-}
 
-.header__title svg {
-  margin-block-end: -0.15em;
+  & svg {
+    margin-block-end: -0.15em;
+  }
 }
 
 .header__summary {

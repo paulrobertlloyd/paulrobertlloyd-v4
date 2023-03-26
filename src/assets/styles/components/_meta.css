@@ -6,19 +6,19 @@
   justify-content: space-between;
   line-height: var(--line-height-loose);
   max-inline-size: var(--line-measure);
-}
 
-.meta a {
-  color: var(--color-link);
-  text-decoration: none;
-  white-space: nowrap;
-}
+  & a {
+    color: var(--color-link);
+    text-decoration: none;
+    white-space: nowrap;
+  }
 
-.meta div {
-  padding-block-end: var(--space-2xs);
-}
+  & div {
+    padding-block-end: var(--space-2xs);
+  }
 
-.meta dt,
-.meta dd {
-  display: inline;
+  & dt,
+  & dd {
+    display: inline;
+  }
 }

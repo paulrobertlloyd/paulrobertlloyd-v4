@@ -4,29 +4,29 @@
   display: flex;
   line-height: var(--line-height-loose);
   padding-block-end: var(--space-s);
-}
 
-.footer a {
-  text-decoration: none;
-}
+  & a {
+    text-decoration: none;
+  }
 
-.footer cite {
-  font-style: normal;
-}
+  & cite {
+    font-style: normal;
+  }
 
-.footer dl {
-  flex: 1;
-}
+  & dl {
+    flex: 1;
+  }
 
-.footer dt,
-.footer dd {
-  display: inline;
-  white-space: nowrap;
-}
+  & dt,
+  & dd {
+    display: inline;
+    white-space: nowrap;
+  }
 
-.footer dd:not(:last-of-type)::after {
-  content: "·";
-  display: inline;
-  opacity: 0.5;
-  padding-inline: calc(var(--space-xs) / 2);
+  & dd:not(:last-of-type)::after {
+    content: "·";
+    display: inline;
+    opacity: 0.5;
+    padding-inline: calc(var(--space-xs) / 2);
+  }
 }

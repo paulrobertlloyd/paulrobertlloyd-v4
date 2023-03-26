@@ -2,6 +2,10 @@
   color: var(--color-neutral-darker);
   inline-size: 100vw;
   margin-block-start: auto;
+
+  & a:hover {
+    color: var(--color-link);
+  }
 }
 
 .contentinfo__container {
@@ -27,10 +31,6 @@
   .contentinfo .navigation:first-of-type {
     margin-inline-start: auto;
   }
-}
-
-.contentinfo a:hover {
-  color: var(--color-link);
 }
 
 @media print {

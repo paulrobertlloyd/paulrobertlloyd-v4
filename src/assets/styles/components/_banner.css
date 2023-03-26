@@ -16,14 +16,14 @@
   margin-inline-end: var(--gap);
   min-inline-size: var(--logo-inline-size);
   white-space: nowrap;
-}
 
-.banner__title a {
-  color: var(--color-text);
-  display: inline-flex;
-  margin-inline-start: calc(var(--space-s) * -1);
-  padding-block: var(--space-2xs);
-  padding-inline: var(--space-s);
+  & a {
+    color: var(--color-text);
+    display: inline-flex;
+    margin-inline-start: calc(var(--space-s) * -1);
+    padding-block: var(--space-2xs);
+    padding-inline: var(--space-s);
+  }
 }
 
 .banner__navigation {

@@ -1,12 +1,12 @@
 .navigation {
   display: flex;
-}
 
-.navigation a {
-  display: inline-flex;
-  padding-block: var(--space-2xs);
-  padding-inline: var(--space-s);
-  white-space: nowrap;
+  & a {
+    display: inline-flex;
+    padding-block: var(--space-2xs);
+    padding-inline: var(--space-s);
+    white-space: nowrap;
+  }
 }
 
 @media print {

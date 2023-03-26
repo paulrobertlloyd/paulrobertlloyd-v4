@@ -8,9 +8,9 @@
   padding: var(--space-s);
   position: static;
   width: 100%;
-}
 
-.skip-link:not(:focus) {
-  transform: translateY(-100%);
-  transition: transform 0.5s ease-out;
+  &:not(:focus) {
+    transform: translateY(-100%);
+    transition: transform 0.5s ease-out;
+  }
 }

@@ -14,10 +14,6 @@
   padding: var(--space-s);
 }
 
-.pagination a[aria-current] {
-  background-color: var(--color-offset);
-}
-
 .pagination a[rel~="prev"],
 .pagination a[rel~="next"] {
   margin-inline-start: calc(var(--space-s) * -1);
