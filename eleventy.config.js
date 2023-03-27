@@ -2,6 +2,7 @@ require('dotenv').config();
 const process = require('node:process');
 const collections = require('./lib/collections/index.js');
 const filters = require('./lib/filters/index.js');
+const webmanifest = require('./src/app.json');
 
 module.exports = function (eleventy) {
   // Extensions
@@ -11,7 +12,7 @@ module.exports = function (eleventy) {
   eleventy.setLiquidOptions({
     dateFormat: '%Y-%m-%dT%H:%M:%S.%L%:z',
     globals: {
-      app: require('./src/_data/app.js'),
+      app: webmanifest,
       dates: require('./src/_data/dates.js'),
       navigation: require('./src/_data/navigation.js'),
     },
@@ -35,6 +36,10 @@ module.exports = function (eleventy) {
     separator: '_',
   }));
 
+  // Global data
+  eleventy.addGlobalData('app', webmanifest);
+  eleventy.addGlobalData('app.url', process.env.URL || '');
+
   // Shortcodes
   eleventy.addShortcode('icon', require('./lib/shortcodes/icon.js'));
   eleventy.addShortcode('image', require('./lib/shortcodes/image.js'));
@@ -52,6 +57,7 @@ module.exports = function (eleventy) {
   eleventy.addTransform('embed', require('./lib/transforms/embed.js'));
 
   // Passthrough
+  eleventy.addPassthroughCopy({'./src/app.json': 'app.webmanifest'});
   eleventy.addPassthroughCopy('./src/app.pgp');
   eleventy.addPassthroughCopy('./src/robots.txt');
   eleventy.addPassthroughCopy('./src/assets');

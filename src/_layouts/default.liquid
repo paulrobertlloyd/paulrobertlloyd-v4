@@ -40,7 +40,7 @@
     {%- elsif date -%}
       {%- assign accent_color = date | color -%}
     {%- else -%}
-      {%- assign accent_color = app.accent_color -%}
+      {%- assign accent_color = '#20e' -%}
     {%- endif -%}
       --color-accent: {{ accent_color }};
       --color-accent-with-contrast: {{ accent_color | contrast_with: 'black' }};
@@ -56,7 +56,7 @@
   <meta property="og:image" content="{{ summary_image | absolute_url: app.url }}">
   <meta property="og:image:alt" content="{{ summary_image_alt }}">
   <meta name="theme-color" content="{{ app.theme_color }}" media="(prefers-color-scheme: light)">
-  <meta name="theme-color" content="{{ app.theme_color_dark }}" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#26272b" media="(prefers-color-scheme: dark)">
   <meta name="supported-color-schemes" content="light dark">
   <meta name="robots" content="index, follow">
 </head>

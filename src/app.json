@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/web-manifest-combined.json",
+  "lang": "en-GB",
+  "name": "Paul Robert Lloyd",
+  "short_name": "PRL",
+  "description": "The personal website of Paul Robert Lloyd",
+  "theme_color": "#f4f4f5",
+  "background_color": "#fff",
+  "icons": [{
+    "src": "/assets/icons/32.svg",
+    "sizes": "32x32",
+    "type": "image/svg+xml"
+  }, {
+    "src": "/assets/icons/512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  }]
+}
