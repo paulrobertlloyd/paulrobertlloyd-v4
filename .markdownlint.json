@@ -1,0 +1,14 @@
+{
+  "default": true,
+  "whitespace": false,
+  "line-length": false,
+  "no-inline-html": {
+    "allowed_elements": ["data", "del", "ins", "kbd", "mark", "q", "samp", "small", "time"]
+  },
+  "no-trailing-punctuation": {
+    "punctuation": ".,;:"
+  },
+  "first-line-heading": {
+    "front_matter_title": "^(?:date|title)[:=]"
+  }
+}
