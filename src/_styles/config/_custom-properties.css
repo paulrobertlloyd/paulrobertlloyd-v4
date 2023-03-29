@@ -15,14 +15,11 @@
   --color-complement: hsl(320deg 100% 44%);
   --color-background: white;
   --color-offset: var(--color-neutral-lightest);
-
   --color-shadow: hsl(var(--tint) 16% / 10%);
-
   --color-text: var(--color-neutral-darkest);
   --color-text-focus: hsl(var(--tint) 16%); /* Ignore color-scheme */
   --color-link: var(--color-accent-with-contrast);
   --color-link-underline: var(--color-neutral-light);
-
   --color-focus: hsl(48deg 100% 50%);
   --color-highlight: hsl(48deg 100% 80% / 75%);
 

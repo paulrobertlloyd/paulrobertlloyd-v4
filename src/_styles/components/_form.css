@@ -78,6 +78,7 @@ textarea.form__input {
 /* Option */
 .form__option {
   --anchor-decoration: none;
+
   align-items: baseline;
   display: flex;
   padding: var(--space-s);

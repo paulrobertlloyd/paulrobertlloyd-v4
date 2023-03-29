@@ -1,6 +1,7 @@
 /* Bleed alignment */
 .align-bleed {
   --linear-line-measure: auto;
+
   display: grid;
   grid-template-columns: [bleed-start] minmax(0, var(--linear-line-measure)) [measure] 1fr [bleed-end];
   margin-inline: calc(var(--gap) * -1);

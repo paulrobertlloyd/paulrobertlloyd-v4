@@ -47,6 +47,7 @@
 /* Footer */
 .item__footer {
   --anchor-decoration: none;
+
   color: var(--color-neutral-dark);
   grid-area: footer;
   line-height: var(--line-height-loose);

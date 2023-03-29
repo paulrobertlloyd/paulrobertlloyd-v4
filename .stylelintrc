@@ -4,21 +4,6 @@
     "stylelint-order"
   ],
   "rules": {
-    "at-rule-no-unknown": [
-      true,
-      {
-        "ignoreAtRules": [
-          "extend"
-        ]
-      }
-    ],
-    "declaration-empty-line-before": null,
-    "custom-property-empty-line-before": null,
-    "media-feature-name-no-unknown": null,
-    "order/order": [
-      "custom-properties",
-      "declarations"
-    ],
     "order/properties-alphabetical-order": true,
     "selector-class-pattern": [
       "^(?<block>(?:[a-z][a-z0-9]*)(?:-[a-z0-9]+)*)(?<element>(?:__[a-z][a-z0-9]*(?:-[a-z0-9]+)*))?(?<modifier>(?:--[a-z][a-z0-9]*)(?:-[a-z0-9]+)*)?$",

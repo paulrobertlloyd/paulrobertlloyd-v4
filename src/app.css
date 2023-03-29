@@ -9,7 +9,7 @@
 @import url("_styles/utilities/_visually-hidden.css");
 
 /* Base */
-@import "_styles/base/_embedded.css";
+@import url("_styles/base/_embedded.css");
 @import url("_styles/base/_forms.css");
 @import url("_styles/base/_grouping.css");
 @import url("_styles/base/_interaction.css");

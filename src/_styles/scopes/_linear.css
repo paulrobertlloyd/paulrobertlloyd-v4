@@ -46,6 +46,7 @@
 
 .s-linear > aside :is(p, dl, ol, ul, address) {
   --flow-inset: 0;
+
   color: var(--color-neutral-dark);
   font-size: var(--font-size-s);
   padding-inline-end: var(--gap);

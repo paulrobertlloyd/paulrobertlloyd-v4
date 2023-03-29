@@ -1,6 +1,7 @@
 .embed {
   & a {
     --anchor-decoration: none;
+
     align-items: center;
     background-color: var(--color-offset);
     border-inline-start: var(--border-width-rule) solid var(--color-accent);
@@ -12,8 +13,8 @@
 }
 
 .embed__poster {
-  flex-grow: 1;
   flex-basis: 15rem;
+  flex-grow: 1;
   max-inline-size: 15rem;
   object-fit: cover;
 }
@@ -28,8 +29,8 @@
   & a::before {
     content: "";
     display: block;
-    position: absolute;
     inset: 0;
+    position: absolute;
   }
 
   & .icon {

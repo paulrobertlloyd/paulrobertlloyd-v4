@@ -1,9 +1,6 @@
 .items {
-  --item-grid-template:
-    "header" auto
-    "main" auto
-    "footer" 1fr /
-    1fr;
+  --item-grid-template: "header" auto "main" auto "footer" 1fr / 1fr;
+
   display: grid;
   gap: var(--gap);
   grid-template-columns: repeat(auto-fit, minmax(var(--grid-size), 1fr));
@@ -11,17 +8,18 @@
 
 @media (--from-medium-viewport) {
   .items:has(.item__footer) {
-    row-gap: var(--space-m-l);
     --item-grid-template:
-      "footer header" auto
-      "footer main" 1fr /
+      "footer header" auto "footer main" 1fr /
       var(--logo-inline-size) 1fr;
+
+    row-gap: var(--space-m-l);
   }
 }
 
 @media (--upto-medium-viewport) {
   .items:has(.card__image--photo) {
     --gap: var(--border-width-rule);
+
     grid-template-columns: repeat(auto-fit, minmax(calc(33% - calc(var(--border-width-rule) * 2)), 1fr));
     margin-inline: calc(var(--space-s-m) * -1);
   }

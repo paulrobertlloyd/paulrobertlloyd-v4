@@ -10,6 +10,7 @@
 
 .contentinfo__container {
   --container-padding-inline: calc(var(--gap) - var(--space-s));
+
   align-items: center;
   display: flex;
   flex-flow: row-reverse wrap;
