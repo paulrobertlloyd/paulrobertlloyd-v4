@@ -1,9 +1,8 @@
 [build]
-command = "npm run build"
 publish = "www"
 
 [context.production]
-command = "git submodule update --init --remote && npm run deploy"
+command = "git submodule update --init --remote && npm run build"
 
   [context.production.environment]
   ELEVENTY_ENV = "production"
@@ -16,6 +15,9 @@ package = "netlify-plugin-cache"
 
   [plugins.inputs]
   paths = [ ".cache" ]
+
+[[plugins]]
+package = "netlify-plugin-webmentions"
 
 [[headers]]
 for = "/*"
