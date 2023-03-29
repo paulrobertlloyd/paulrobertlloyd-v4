@@ -1,10 +1,5 @@
 ---
 layout: default
-eleventyComputed:
-  title: "{{ itinerary | trip_title }}"
-  summary: "A trip of {{ distance }} km that emitted roughly {{ emissions }} kg of CO₂."
-  distance: "{{ itinerary | trip_distance }}"
-  emissions: "{{ itinerary | trip_emissions: distance }}"
 ---
 {%- assign related = collections.itinerary | includes: 'data.trip_id',id | first -%}
 {%- assign formattedTitle = title | replace: ' ➔ ','\n➔ ' -%}

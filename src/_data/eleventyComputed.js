@@ -1,4 +1,3 @@
-const getGeojson = require('../../lib/utils/get-geojson.js');
 const getId = require('../../lib/utils/get-id.js');
 
 module.exports = {
@@ -20,10 +19,5 @@ module.exports = {
     });
 
     return related;
-  },
-  // Return geojson object for trip pages
-  // Can’t use frontmatter as liquid returns objects as strings
-  geojson(data) {
-    return data.geojson || (data.itinerary && getGeojson(data.itinerary));
   },
 };

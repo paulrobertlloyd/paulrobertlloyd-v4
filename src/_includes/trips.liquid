@@ -22,8 +22,7 @@
         {% for stop in item.data.itinerary %}
           <span>
             {%- unless forloop.first -%}
-              {%- assign icon = stop | stop_icon -%}
-              {%- icon icon %}
+              {%- icon stop.icon %}
             {% endunless -%}
             {{ stop.label }}, {{ stop.country_name }}
           </span><br>
