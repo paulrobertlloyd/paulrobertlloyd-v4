@@ -1,62 +1,80 @@
+const now = new Date();
+
+/**
+ * Generate range of numbers
+ *
+ * @param {number} start First number
+ * @param {number} end Last number
+ * @yields {object} Generator
+ */
+function * _range(start, end) {
+  for (let i = start; i <= end; i++) {
+    yield i;
+  }
+}
+
+/**
+ * Create an array of years
+ *
+ * @param {number} startDate - e.g. '2008-09'
+ * @param {number} endDate - e.g. '2020-04'
+ * @returns {Array} ['2008',…,'2020']
+ */
+function _generateYears(startDate, endDate) {
+  const firstYear = new Date(startDate).getFullYear();
+  const lastYear = new Date(endDate).getFullYear();
+
+  return [..._range(firstYear, lastYear)].map(String);
+}
+
+/**
+ * Create an array of months
+ *
+ * @param {string} startDate - e.g. '2008-09'
+ * @param {string} endDate - e.g. '2020-04'
+ * @returns {string} ['2008-09',…,'2020-01']
+ */
+function _generateMonths(startDate, endDate) {
+  const firstYear = new Date(startDate).getFullYear();
+  const firstMonth = new Date(startDate).getMonth() + 1;
+  const lastYear = new Date(endDate).getFullYear();
+  const lastMonth = new Date(endDate).getMonth() + 1;
+
+  const dates = [];
+  const years = [..._range(firstYear, lastYear)].map(String);
+  for (const [i, year] of years.entries()) {
+    let months = [];
+    if (i === 0) {
+      months = [..._range(firstMonth, 12)];
+    } else if (i === years.length - 1) {
+      months = [..._range(1, lastMonth)];
+    } else {
+      months = [..._range(1, 12)];
+    }
+
+    months = months.map(month => String(month).padStart(2, '0'));
+    for (const month of months) {
+      dates.push(`${year}-${month}`);
+    }
+  }
+
+  return dates;
+}
+
 module.exports = function () {
-  const now = new Date();
-
-  function * range(start, end) { // eslint-disable-line jsdoc/require-jsdoc
-    for (let i = start; i <= end; i++) {
-      yield i;
-    }
-  }
-
-  /**
-   * Create an array of years
-   *
-   * @param {number} startDate - e.g. '2008-09'
-   * @param {number} endDate - e.g. '2020-04'
-   * @returns {Array} ['2008',…,'2020']
-   */
-  function generateYears(startDate, endDate) {
-    const firstYear = new Date(startDate).getFullYear();
-    const lastYear = new Date(endDate).getFullYear();
-
-    return [...range(firstYear, lastYear)].map(String);
-  }
-
-  /**
-   * Create an array of months
-   *
-   * @param {string} startDate - e.g. '2008-09'
-   * @param {string} endDate - e.g. '2020-04'
-   * @returns {string} ['2008-09',…,'2020-01']
-   */
-  function generateMonths(startDate, endDate) {
-    const firstYear = new Date(startDate).getFullYear();
-    const firstMonth = new Date(startDate).getMonth() + 1;
-    const lastYear = new Date(endDate).getFullYear();
-    const lastMonth = new Date(endDate).getMonth() + 1;
-
-    const dates = [];
-    const years = [...range(firstYear, lastYear)].map(String);
-    for (const [i, year] of years.entries()) {
-      let months = [];
-      if (i === 0) {
-        months = [...range(firstMonth, 12)];
-      } else if (i === years.length - 1) {
-        months = [...range(1, lastMonth)];
-      } else {
-        months = [...range(1, 12)];
-      }
-
-      months = months.map(month => String(month).padStart(2, '0'));
-      for (const month of months) {
-        dates.push(`${year}-${month}`);
-      }
-    }
-
-    return dates;
-  }
+  // On this day
+  const on_this_day = [{
+    url: '/archives/on_this_day',
+    data: {
+      title: Intl.DateTimeFormat('en-GB', {
+        day: 'numeric',
+        month: 'long',
+      }).format(now),
+    },
+  }];
 
   // Year archives
-  const archivedYears = generateYears('2008-09', now);
+  const archivedYears = _generateYears('2008-09', now);
   const yearArchives = archivedYears.map(year => ({
     date: new Date(year),
     fileSlug: year,
@@ -68,7 +86,7 @@ module.exports = function () {
   }));
 
   // Month archives
-  const archivedMonths = generateMonths('2008-09', now);
+  const archivedMonths = _generateMonths('2008-09', now);
   const monthArchives = archivedMonths.map(month => {
     const date = new Date(month);
     const year = date.getFullYear();
@@ -112,6 +130,7 @@ module.exports = function () {
   }];
 
   return {
+    on_this_day,
     years: yearArchives.reverse(),
     months: monthArchives,
     other: otherArchives,

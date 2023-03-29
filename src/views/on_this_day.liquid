@@ -1,0 +1,11 @@
+---
+layout: index
+permalink: archives/on_this_day/
+title: Archives
+eleventyComputed:
+  page_title: "On this day"
+  introduction: "{{ 'now' | date: '%d %B' }}"
+---
+{%- render 'items' with collections.on_this_day
+  itemsNoContent: 'Nothing was published on this day.'
+-%}
