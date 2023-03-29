@@ -62,6 +62,7 @@ module.exports = function () {
     fileSlug: year,
     url: `/${year}/`,
     data: {
+      item_title: year,
       introduction: year,
     },
   }));
@@ -83,7 +84,7 @@ module.exports = function () {
       url: `/${year}/${monthNumber}/`,
       data: {
         date: `${year}-${monthNumber}`,
-        itemTitle: monthName,
+        item_title: monthName,
         introduction: `${monthName} ${year}`,
       },
     };
