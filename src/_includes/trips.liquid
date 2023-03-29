@@ -1,34 +1,42 @@
-<table class="trips">
-  <thead>
-    <tr>
-      <th>Date</th>
-      <th>Trip</th>
-      <th>Distance (<abbr title="kilometers">km</abbr>)</th>
-      <th>CO<sub>2</sub> (<abbr title="kilograms">kg</abbr>)</th>
-    </tr>
-  </thead>
-  <tbody>
-  {%- for item in trips -%}
-    <tr>
-      <th>
-        <a rel="bookmark" href="{{ item.url }}">
-          <time datetime="{{ item.data.start }}">{{ item.data.start | date: dates.date }}</time>
-        </a>
-      </th>
-      <td>
-      {% for stop in item.data.itinerary %}
-        <span>
-          {%- unless forloop.first -%}
-            {%- assign icon = stop | stop_icon -%}
-            {%- icon icon %}
-          {% endunless -%}
-          {{ stop.label }}, {{ stop.country_name }}
-        </span><br>
-      {% endfor %}
-      </td>
-      <td>{{ item.data.distance }}</td>
-      <td>{{ item.data.emissions }}</td>
-    </tr>
-  {%- endfor -%}
-  </tbody>
-</table>
+<section class="trips s-linear" aria-labelledby="{{ id }}">
+{%- if trips.size > 0 %}
+  <table>
+    <caption class="section__title" id="{{ id }}">{{ title }}</caption>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Trip</th>
+        <th>Distance (<abbr title="kilometers">km</abbr>)</th>
+        <th>CO<sub>2</sub> (<abbr title="kilograms">kg</abbr>)</th>
+      </tr>
+    </thead>
+    <tbody>
+    {%- for item in trips -%}
+      <tr>
+        <th>
+          <a rel="bookmark" href="{{ item.url }}">
+            <time datetime="{{ item.data.start }}">{{ item.data.start | date: dates.date }}</time>
+          </a>
+        </th>
+        <td>
+        {% for stop in item.data.itinerary %}
+          <span>
+            {%- unless forloop.first -%}
+              {%- assign icon = stop | stop_icon -%}
+              {%- icon icon %}
+            {% endunless -%}
+            {{ stop.label }}, {{ stop.country_name }}
+          </span><br>
+        {% endfor %}
+        </td>
+        <td>{{ item.data.distance }}</td>
+        <td>{{ item.data.emissions }}</td>
+      </tr>
+    {%- endfor -%}
+    </tbody>
+  </table>
+{%- else -%}
+  <h2 class="section__title" id="{{ id }}">{{ title }}</h2>
+  <p>No trips recorded.</p>
+{%- endif -%}
+</section>

@@ -1,9 +1,14 @@
 .trips {
-  white-space: nowrap;
+  overflow-x: auto;
 
-  & tbody th,
-  & tbody td {
-    border-block-start-width: var(--border-width-rule);
+  & table {
+    white-space: nowrap;
+  }
+
+  & caption {
+    caption-side: top;
+    color: var(--color-neutral-dark);
+    font-size: var(--font-size-m);
   }
 
   & * th:first-child {
@@ -11,7 +16,6 @@
   }
 
   & svg {
-    color: var(--color-neutral-dark);
     margin-block-end: -0.15em;
   }
 }

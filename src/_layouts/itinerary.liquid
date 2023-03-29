@@ -18,7 +18,10 @@ layout: default
     alignment: 'bleed'
   -%}
   {{ place.content | markdown }}
-  {%- render 'trips' with itinerary.trips -%}
+  {%- render 'trips' with itinerary.trips
+    id: 'trips'
+    title: 'Trips'
+  -%}
 {%- endcapture -%}
 {%- render 'content' with content -%}
 {%- render 'section' with related

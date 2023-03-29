@@ -53,8 +53,3 @@
     max-inline-size: var(--grid-size);
   }
 }
-
-/* Trips section adaptions */
-.section--trips .section__container {
-  overflow-x: auto;
-}
