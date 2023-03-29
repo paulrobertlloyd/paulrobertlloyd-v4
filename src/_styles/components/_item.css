@@ -19,10 +19,6 @@
 
   font-size: var(--font-size-l);
   line-height: var(--line-height-tight);
-
-  & svg {
-    margin-block-end: -0.1em;
-  }
 }
 
 /* Main */
