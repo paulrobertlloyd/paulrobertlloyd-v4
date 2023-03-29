@@ -56,6 +56,7 @@ module.exports = function (eleventy) {
 
   // Liquid
   eleventy.setLiquidOptions({
+    cache: true,
     dateFormat: '%Y-%m-%dT%H:%M:%S.%L%:z',
     globals: {
       app: webmanifest,
