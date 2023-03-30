@@ -62,42 +62,54 @@ force = true
 
 [[redirects]]
 from = "/articles/"
-query = {page = ":p"}
 to = "/articles/page/:p.html"
 status = 200
 force = true
 
+  [redirects.query]
+  page = ":p"
+
 [[redirects]]
 from = "/bookmarks/"
-query = {page = ":p"}
 to = "/bookmarks/page/:p.html"
 status = 200
 force = true
 
+  [redirects.query]
+  page = ":p"
+
 [[redirects]]
 from = "/events/"
-query = {page = ":p"}
 to = "/events/page/:p.html"
 status = 200
 force = true
 
+  [redirects.query]
+  page = ":p"
+
 [[redirects]]
 from = "/notes/"
-query = {page = ":p"}
 to = "/notes/page/:p.html"
 status = 200
 force = true
 
+  [redirects.query]
+  page = ":p"
+
 [[redirects]]
 from = "/photos/"
-query = {page = ":p"}
 to = "/photos/page/:p.html"
 status = 200
 force = true
 
+  [redirects.query]
+  page = ":p"
+
 [[redirects]]
 from = "/replies/"
-query = {page = ":p"}
 to = "/replies/page/:p.html"
 status = 200
 force = true
+
+  [redirects.query]
+  page = ":p"
