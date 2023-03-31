@@ -11,7 +11,6 @@ module.exports = class Search {
   render({collections}) {
     const search = collections.public.map(item => ({
       title: item.data.page_title,
-      layout: item.data.layout,
       content: tokenize(item.content),
       url: item.url,
     }));

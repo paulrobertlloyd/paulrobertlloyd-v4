@@ -5,16 +5,6 @@ const searchSubmit = document.querySelector('#search-submit');
 const endpoint = searchForm.dataset.searchIndex;
 const pages = [];
 
-/**
- * Capitalise first later of string
- *
- * @param {string} string - String
- * @returns {string} Capitalised string
- */
-function capitalise(string) {
-  return string.charAt(0).toUpperCase() + string.slice(1);
-}
-
 const getPages = async () => {
   try {
     const response = await fetch(endpoint);
@@ -33,11 +23,7 @@ const findResults = (termToMatch, pages) => pages.filter(item => {
 const displayResults = input => {
   const resultsArray = findResults(input, pages);
   const result = resultsArray.map(item => {
-    const html = `
-      <a class="form__option" href="${item.url}" aria-label="${item.title} (${item.layout})">
-        <h3 class="form__option-title">${item.title}</h3>
-        <p class="form__option-summary">${capitalise(item.layout)}</p>
-      </a>`;
+    const html = `<a class="form__option" href="${item.url}">${item.title}</a>`;
 
     return {
       value: item.title,

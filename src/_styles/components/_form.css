@@ -28,11 +28,11 @@
   inline-size: 100%;
   margin-block-start: 0;
   padding: var(--space-2xs);
-}
 
-.form__input:focus {
-  border-color: var(--color-neutral-darker);
-  outline: var(--border-width-focus) solid var(--color-focus);
+  &:focus {
+    border-color: var(--color-neutral-darker);
+    outline: var(--border-width-focus) solid var(--color-focus);
+  }
 }
 
 textarea.form__input {
@@ -45,10 +45,10 @@ textarea.form__input {
   color: var(--color-neutral-lightest);
   font-weight: 500;
   padding: var(--space-2xs) var(--space-s);
-}
 
-.form__button:hover {
-  background-color: var(--color-link);
+  &:hover {
+    background-color: var(--color-link);
+  }
 }
 
 /* Combobox */
@@ -64,15 +64,15 @@ textarea.form__input {
   margin-block-start: calc(var(--border-width-rule) * -1);
   max-block-size: 60vh;
   overflow-y: scroll;
-}
 
-.form__listbox [aria-selected="true"] {
-  background-color: var(--color-link);
-  color: white;
-}
+  & [aria-selected="true"] {
+    background-color: var(--color-link);
+    color: white;
+  }
 
-.form__listbox :focus {
-  outline: 0;
+  & :focus {
+    outline: 0;
+  }
 }
 
 /* Option */
@@ -82,18 +82,8 @@ textarea.form__input {
   align-items: baseline;
   display: flex;
   padding: var(--space-s);
-}
 
-.form__option:hover {
-  background-color: var(--color-offset);
-}
-
-.form__option-title {
-  flex: 1;
-}
-
-.form__option-summary {
-  color: inherit;
-  flex: 0;
-  opacity: 0.75;
+  &:hover {
+    background-color: var(--color-offset);
+  }
 }
