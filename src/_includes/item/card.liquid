@@ -1,7 +1,7 @@
 {%- assign date_color = item.data.date | color -%}
 {%- assign accent_color = item.data.accent_color | default: date_color -%}
 <article class="card |{% for root in item.data.vocabulary %} h-{{ root }}{% endfor %}"{% if item.data.duotoneCardImage %} style="--color-accent-light: {{ accent_color | contrast_with: 'black' }}; --color-accent-dark: {{ accent_color | contrast_with: 'white' }}"{% endif %}>
-  {%- if item.data.layout == 'photo' -%}
+  {%- if item.data.type == 'photo' -%}
     <a class="card__image card__image--photo | u-url" rel="bookmark" href="{{ item.url }}">
       {%- image item.data.page_image, 'card-square', 'u-photo' -%}
       {%- if item.data.photo.size > 1 -%}
@@ -28,7 +28,7 @@
       </div>
     {%- endif -%}
 
-    {%- if item.data.layout != 'project' -%}
+    {%- if item.data.type != 'project' -%}
       <footer class="card__footer">
         <time class="dt-published" datetime="{{ item.date | date }}">{{ item.date | date: dates.date }}</time>
       </footer>

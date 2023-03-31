@@ -61,14 +61,14 @@
   <meta name="robots" content="index, follow">
 </head>
 
-<body data-type="{{ layout }}"{% if id %} id="{{ id }}"{% endif %}>
+<body data-type="{{ type }}"{% if id %} id="{{ id }}"{% endif %}>
   {%- render 'skip-link' -%}
-  {%- render 'banner', page: page, layout: layout -%}
+  {%- render 'banner', page: page, type: type -%}
   <main class="main{% for root in vocabulary %} h-{{ root }}{% endfor %}" id="main">
     <div class="main__container container">
       {{ layoutContent }}
     </div>
   </main>
-  {%- render 'contentinfo', page: page, layout: layout -%}
+  {%- render 'contentinfo', page: page, type: type -%}
 </body>
 </html>

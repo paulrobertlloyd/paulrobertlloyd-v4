@@ -1,5 +1,5 @@
 ---
-layout: event
+layout: event.liquid
 pagination:
   data: events
   size: 1
@@ -8,6 +8,7 @@ pagination:
 permalink: "{{ event.start | date: '%Y/%j' }}/{{ type_prefix }}1/{{ event.title | slugify }}/"
 tags:
   - event
+type: event
 type_index: 1
 type_prefix: e
 vocabulary: event
