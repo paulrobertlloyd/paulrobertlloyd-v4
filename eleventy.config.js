@@ -44,6 +44,7 @@ module.exports = function (eleventy) {
   // Shortcodes
   eleventy.addShortcode('icon', require('./lib/shortcodes/icon.js'));
   eleventy.addShortcode('image', require('./lib/shortcodes/image.js'));
+  eleventy.addShortcode('map', require('./lib/shortcodes/map.js'));
 
   // Transforms
   eleventy.addTransform('embed', require('./lib/transforms/embed.js'));
