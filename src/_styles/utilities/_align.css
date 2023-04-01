@@ -19,12 +19,12 @@
 }
 
 /* Pull alignment */
-@media (--from-small-viewport) {
+@media (--from-medium-viewport) {
   .align-pull {
     float: right; /* Chromium */
     float: inline-end;
     inline-size: 33%;
-    margin-block-start: 0 !important;
+    margin-block: var(--linear-flow-space) !important;
     margin-inline-end: calc(var(--gap) * -1);
     margin-inline-start: var(--gap);
   }
