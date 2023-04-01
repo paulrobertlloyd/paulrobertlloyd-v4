@@ -46,7 +46,7 @@
     "markdown-it-bracketed-spans": "^1.0.1",
     "markdown-it-deflist": "^2.1.0",
     "markdown-it-footnote": "^3.0.3",
-    "markdown-it-handle": "github:paulrobertlloyd/markdown-it-handle",
+    "markdown-it-handle": "^0.1.0",
     "markdown-it-image-figures": "^2.0.0",
     "mime": "^3.0.0",
     "netlify-plugin-cache": "^1.0.3",
