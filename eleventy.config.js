@@ -46,9 +46,6 @@ module.exports = function (eleventy) {
   eleventy.addShortcode('image', require('./lib/shortcodes/image.js'));
   eleventy.addShortcode('map', require('./lib/shortcodes/map.js'));
 
-  // Transforms
-  eleventy.addTransform('embed', require('./lib/transforms/embed.js'));
-
   // Folder data
   eleventy.setDataFileBaseName('_data');
 
