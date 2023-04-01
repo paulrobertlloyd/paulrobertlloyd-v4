@@ -55,7 +55,7 @@
 .s-linear blockquote {
   border-inline-start: var(--border-width-rule) solid var(--color-accent);
   margin-inline-start: 0;
-  padding-inline-start: var(--flow-inset);
+  padding-inline-start: var(--flow-inset, 1em);
 }
 
 .s-linear pre {
