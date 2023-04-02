@@ -59,17 +59,21 @@
 }
 
 .s-linear pre {
+  --linear-line-measure: auto;
+
   background-color: var(--color-offset);
   display: block;
   font-size: var(--font-size-s);
-  overflow-x: scroll;
-  padding: var(--space-s);
+  margin-inline-start: calc(var(--gap) * -1);
+  padding-block: var(--space-s);
+  padding-inline: var(--gap);
 }
 
 .s-linear table {
+  --linear-line-measure: auto;
+
   font-size: var(--font-size-s);
   inline-size: 100%;
-  max-inline-size: 100%;
 }
 
 .s-linear th,
@@ -110,12 +114,12 @@
   position: absolute;
 }
 
-.s-linear :is(aside, figure, table, .gallery):not(:first-child) {
-  margin-block-start: calc(var(--linear-flow-space) * 3);
+.s-linear :is(aside, figure, pre, table, .gallery):not(:first-child) {
+  margin-block-start: calc(var(--linear-flow-space) * 2);
 }
 
-.s-linear :is(aside, figure, table, .gallery) {
-  margin-block-end: calc(var(--linear-flow-space) * 3);
+.s-linear :is(aside, figure, pre, table, .gallery) {
+  margin-block-end: calc(var(--linear-flow-space) * 2);
 }
 
 .s-linear h2:not([class]) {

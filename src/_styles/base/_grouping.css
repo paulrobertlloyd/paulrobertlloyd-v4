@@ -15,7 +15,7 @@ hr {
 pre {
   hyphens: none;
   tab-size: 2;
-  white-space: pre;
+  white-space: pre-wrap;
 }
 
 address,
