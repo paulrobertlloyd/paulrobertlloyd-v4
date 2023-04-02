@@ -2,7 +2,7 @@ const process = require('node:process');
 const eleventyFetch = require('@11ty/eleventy-fetch');
 const ICalParser = require('ical-js-parser');
 const {DateTime} = require('luxon');
-const getMovie = require('../../lib/utils/get-movie.js');
+const getMovieData = require('../../lib/utils/movie-data.js');
 
 const {WEBCAL_TOKEN} = process.env;
 const ENDPOINT = 'https://p28-caldav.icloud.com/published/2/';
@@ -117,7 +117,7 @@ module.exports = async function () {
         item.url = event.url.VALUE.replace('URI:', '');
 
         if (item.url.includes('imdb.com')) {
-          const movie = await getMovie(item.url);
+          const movie = await getMovieData(item.url);
 
           item.icon = 'film';
           item.summary = movie.Plot || item.summary;

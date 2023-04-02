@@ -1,4 +1,4 @@
-const getId = require('../../lib/utils/get-id.js');
+const getId = require('../../lib/utils/id.js');
 
 module.exports = {
   id: data => getId(data),
