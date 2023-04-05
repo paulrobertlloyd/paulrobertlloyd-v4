@@ -14,10 +14,10 @@ layout: default.liquid
   vocabulary: vocabulary
 -%}
 {%- capture content -%}
+  {{ content | markdown }}
   {%- render 'map' with itinerary.geojson
     alignment: 'bleed'
   -%}
-  {{ place.content | markdown }}
   {%- render 'trips' with itinerary.trips
     id: 'trips'
     title: 'Trips'
