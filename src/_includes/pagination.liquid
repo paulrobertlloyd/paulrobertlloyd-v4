@@ -2,10 +2,10 @@
 <nav class="pagination" aria-label="page">
   <ul class="pagination__items" role="list">
   {%- if pagination.href.next -%}
-    <li><a href="{{ pagination.href.next | remove: '.html' | replace: 'page/','?page=' }}" rel="prev">Previous</a></li>
+    <li><a rel="prev" href="{{ pagination.href.next | remove: '.html' | replace: 'page/','?page=' }}">Previous</a></li>
   {%- endif -%}
   {%- if pagination.href.previous -%}
-    <li><a href="{{ pagination.href.previous | remove: '.html' | replace: 'page/','?page=' }}" rel="next">Next</a></li>
+    <li><a rel="next" href="{{ pagination.href.previous | remove: '.html' | replace: 'page/','?page=' }}">Next</a></li>
   {%- endif -%}
   </ul>
 </nav>
