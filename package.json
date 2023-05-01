@@ -60,7 +60,7 @@
     "stylelint": "^15.0.0",
     "stylelint-config-standard": "^33.0.0",
     "stylelint-order": "^6.0.0",
-    "xo": "^0.54.0"
+    "xo": "^0.54.2"
   },
   "engines": {
     "node": "^18.0.0"
