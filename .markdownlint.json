@@ -2,6 +2,7 @@
   "default": true,
   "whitespace": false,
   "line-length": false,
+  "no-bare-urls": false,
   "no-inline-html": {
     "allowed_elements": ["data", "del", "ins", "kbd", "mark", "q", "samp", "small", "time"]
   },
