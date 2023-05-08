@@ -10,7 +10,6 @@ const REGEX_GEO = /geo:(?<latitude>[+-]?\d*\.\d+),(?<longitude>[+-]?\d*\.\d+)/;
 
 /**
  * Parse iCal text string
- *
  * @param {string} string - String to parse
  * @returns {string} Parsed string
  */

@@ -2,7 +2,6 @@ const now = new Date();
 
 /**
  * Generate range of numbers
- *
  * @param {number} start First number
  * @param {number} end Last number
  * @yields {object} Generator
@@ -15,7 +14,6 @@ function * _range(start, end) {
 
 /**
  * Create an array of years
- *
  * @param {number} startDate - e.g. '2008-09'
  * @param {number} endDate - e.g. '2020-04'
  * @returns {Array} ['2008',…,'2020']
@@ -29,7 +27,6 @@ function _generateYears(startDate, endDate) {
 
 /**
  * Create an array of months
- *
  * @param {string} startDate - e.g. '2008-09'
  * @param {string} endDate - e.g. '2020-04'
  * @returns {string} ['2008-09',…,'2020-01']
@@ -63,7 +60,7 @@ function _generateMonths(startDate, endDate) {
 
 module.exports = function () {
   // On this day
-  const on_this_day = [{
+  const onThisDay = [{
     url: '/archives/on_this_day',
     data: {
       title: Intl.DateTimeFormat('en-GB', {
@@ -130,7 +127,7 @@ module.exports = function () {
   }];
 
   return {
-    on_this_day,
+    on_this_day: onThisDay,
     years: yearArchives.reverse(),
     months: monthArchives,
     other: otherArchives,
