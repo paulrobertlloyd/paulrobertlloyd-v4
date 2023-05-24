@@ -173,6 +173,7 @@
 
 .s-linear :not(pre) code,
 .s-linear samp {
+  font-size: 0.9em;
   padding: var(--text-spacing);
 }
 
