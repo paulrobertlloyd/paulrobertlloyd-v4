@@ -82,7 +82,7 @@ var {
 }
 
 ins {
-  text-decoration: underline double;
+  text-decoration: none;
 }
 
 mark {
