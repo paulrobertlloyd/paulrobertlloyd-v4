@@ -2,7 +2,7 @@
   --item-grid-template: "header" auto "main" auto "footer" 1fr / 1fr;
 
   display: grid;
-  gap: var(--gap);
+  gap: var(--space-m-l) var(--gap);
   grid-template-columns: repeat(auto-fit, minmax(var(--grid-size), 1fr));
 }
 
@@ -11,8 +11,6 @@
     --item-grid-template:
       "footer header" auto "footer main" 1fr /
       var(--logo-inline-size) 1fr;
-
-    row-gap: var(--space-m-l);
   }
 }
 
