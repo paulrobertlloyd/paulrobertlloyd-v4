@@ -69,6 +69,8 @@ module.exports = async function () {
         }
 
         item.location.country_name = address.at(-1);
+      } else {
+        item.location.name = 'false'
       }
 
       // Location (geo)
