@@ -76,16 +76,17 @@
     "plugins": [
       "jsdoc"
     ],
-    "envs": "browser",
+    "envs": ["browser", "es2021", "node"],
     "ignores": [
       "www/**"
     ],
     "rules": {
-      "camelcase": [
+      "camelcase": 0,
+      "unicorn/filename-case": [
         "warn",
         {
-          "properties": "never",
-          "ignoreDestructuring": true
+          "case": "kebabCase",
+          "ignore": ["eleventyComputed.js"]
         }
       ],
       "unicorn/prefer-module": 0

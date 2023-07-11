@@ -35,6 +35,7 @@ const displayResults = input => {
 };
 
 if (searchForm) {
+  // eslint-disable-next-line unicorn/prefer-top-level-await
   getPages();
 
   searchForm.setAttribute('action', '#search');
