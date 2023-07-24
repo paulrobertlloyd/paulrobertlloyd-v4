@@ -1,2 +1,25 @@
-User-agent: *
+# BLEXBot (http://webmeup-crawler.com)
+User-Agent: BLEXBot
+Disallow: /
+
+# Common Crawl (https://commoncrawl.org)
+User-agent: CCBot
+Disallow: /
+
+# OpenAI (https://platform.openai.com/docs/plugins/bot/chatgpt-user)
+User-agent: ChatGPT-User
+Disallow: /
+
+# NameProtect (http://www.nameprotect.com/botinfo.html)
+User-Agent: NPBot
+Disallow: /
+
+# Turnitin (http://www.turnitin.com/robot/crawlerinfo.html)
+User-Agent: TurnitinBot
+Disallow: /
+
+# iThenticate (https://www.ithenticate.com)
+User-Agent: SlySearch
+Disallow: /
+
 Sitemap: https://paulrobertlloyd.com/sitemap.xml
