@@ -6,6 +6,10 @@ Disallow: /
 User-agent: CCBot
 Disallow: /
 
+# OpenAI (https://platform.openai.com/docs/gptbot)
+User-agent: GPTBot
+Disallow: /
+
 # OpenAI (https://platform.openai.com/docs/plugins/bot/chatgpt-user)
 User-agent: ChatGPT-User
 Disallow: /
