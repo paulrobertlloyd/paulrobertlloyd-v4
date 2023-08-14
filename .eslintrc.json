@@ -21,9 +21,7 @@
       "warn",
       {
         "case": "kebabCase",
-        "ignore": [
-          "eleventyComputed.js"
-        ]
+        "ignore": ["eleventyComputed.js"]
       }
     ],
     "unicorn/prefer-module": 0
