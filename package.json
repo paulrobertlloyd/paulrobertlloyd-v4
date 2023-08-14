@@ -19,7 +19,7 @@
     "build": "eleventy --quiet",
     "start": "eleventy --incremental --serve",
     "lint:markdown": "markdownlint-cli2 'src/**/*.markdown'",
-    "lint:scripts": "xo '**/*.js'",
+    "lint:scripts": "eslint '**/*.js'",
     "lint:styles": "stylelint 'src/**/*.css'",
     "lint": "npm run lint:markdown && npm run lint:scripts && npm run lint:styles",
     "debug": "DEBUG=* npx eleventy"
@@ -55,41 +55,18 @@
     "string-to-color": "^2.2.2"
   },
   "devDependencies": {
+    "eslint": "^8.47.0",
     "eslint-plugin-jsdoc": "^46.0.0",
+    "eslint-plugin-unicorn": "^48.0.1",
     "markdownlint-cli2": "^0.8.0",
     "stylelint": "^15.0.0",
     "stylelint-config-standard": "^34.0.0",
-    "stylelint-order": "^6.0.0",
-    "xo": "^0.55.0"
+    "stylelint-order": "^6.0.0"
   },
   "engines": {
     "node": "^20.0.0"
   },
   "browserslist": [
     ">= 0.5%"
-  ],
-  "xo": {
-    "space": true,
-    "extends": [
-      "plugin:jsdoc/recommended"
-    ],
-    "plugins": [
-      "jsdoc"
-    ],
-    "envs": ["browser", "es2021", "node"],
-    "ignores": [
-      "www/**"
-    ],
-    "rules": {
-      "camelcase": 0,
-      "unicorn/filename-case": [
-        "warn",
-        {
-          "case": "kebabCase",
-          "ignore": ["eleventyComputed.js"]
-        }
-      ],
-      "unicorn/prefer-module": 0
-    }
-  }
+  ]
 }
