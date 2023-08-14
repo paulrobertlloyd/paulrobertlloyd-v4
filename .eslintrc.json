@@ -7,7 +7,8 @@
   "extends": [
     "eslint:recommended",
     "plugin:jsdoc/recommended",
-    "plugin:unicorn/recommended"
+    "plugin:unicorn/recommended",
+    "prettier"
   ],
   "ignorePatterns": ["www/**"],
   "parserOptions": {

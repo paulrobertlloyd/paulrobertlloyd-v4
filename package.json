@@ -18,6 +18,7 @@
   "scripts": {
     "build": "eleventy --quiet",
     "start": "eleventy --incremental --serve",
+    "prelint": "prettier . --check",
     "lint:markdown": "markdownlint-cli2 'src/**/*.markdown'",
     "lint:scripts": "eslint '**/*.js'",
     "lint:styles": "stylelint 'src/**/*.css'",
@@ -56,9 +57,11 @@
   },
   "devDependencies": {
     "eslint": "^8.47.0",
+    "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-jsdoc": "^46.0.0",
     "eslint-plugin-unicorn": "^48.0.1",
-    "markdownlint-cli2": "^0.8.0",
+    "markdownlint-cli2": "^0.8.1",
+    "prettier": "^3.0.1",
     "stylelint": "^15.0.0",
     "stylelint-config-standard": "^34.0.0",
     "stylelint-order": "^6.0.0"
