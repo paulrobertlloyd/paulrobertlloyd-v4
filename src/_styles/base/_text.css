@@ -16,17 +16,6 @@ a {
     text-decoration-color: var(--color-link);
     text-decoration-thickness: 2px;
   }
-
-  &:has(img:only-child) {
-    display: block;
-    outline: 1px solid var(--color-link-underline);
-    outline-offset: 1.5px;
-  }
-
-  &:has(img:only-child):hover {
-    outline-color: var(--color-link);
-    outline-width: 2px;
-  }
 }
 
 a[aria-current] {
