@@ -9,5 +9,6 @@ permalink: "photos/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumb
 {%- render 'items' with pagination.items
   component: 'card'
   gridSize: '20%'
+  hideItemFooter: true
 -%}
 {%- render 'pagination' with pagination -%}

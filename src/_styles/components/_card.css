@@ -95,7 +95,7 @@
 
 .card svg {
   color: white;
-  inset-block-end: var(--space-xs);
+  inset-block-start: var(--space-xs);
   inset-inline-end: var(--space-xs);
   position: absolute;
 }

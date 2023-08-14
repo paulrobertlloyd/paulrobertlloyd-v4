@@ -27,11 +27,11 @@
         {{ item.data.summary | markdown }}
       </div>
     {%- endif -%}
+  {%- endif -%}
 
-    {%- if item.data.type != 'project' -%}
-      <footer class="card__footer">
-        <time class="dt-published" datetime="{{ item.date | date }}">{{ item.date | date: dates.date }}</time>
-      </footer>
-    {%- endif -%}
+  {%- if item.data.type != 'project' and hideFooter != true -%}
+    <footer class="card__footer">
+      <time class="dt-published" datetime="{{ item.date | date }}">{{ item.date | date: dates.date }}</time>
+    </footer>
   {%- endif -%}
 </article>
