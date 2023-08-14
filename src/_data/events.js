@@ -14,9 +14,12 @@ const REGEX_GEO = /geo:(?<latitude>[+-]?\d*\.\d+),(?<longitude>[+-]?\d*\.\d+)/;
  * @returns {string} Parsed string
  */
 function parseString(string) {
-  return string
-    .replace(/\u{5C}\u{6E}/gu, '\n') // New lines (\n)
-    .replace(/\u{5C}(\W{1})/gu, '$1'); // Punctuation (\, \;)
+  return (
+    string
+      // eslint-disable-next-line unicorn/prefer-string-replace-all
+      .replaceAll(/\u{5C}\u{6E}/gu, "\n") // New lines (\n)
+      .replaceAll(/\u{5C}(\W{1})/gu, "$1") // Punctuation (\, \;)
+  );
 }
 
 module.exports = async function () {

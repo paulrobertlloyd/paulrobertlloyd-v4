@@ -30,8 +30,8 @@ module.exports = class JsonFeed {
     const items = collections.syndicate.slice(0, 25);
 
     for await (const item of items) {
-      const {category, photo, summary, title} = item.data;
-      const external_url = item.data.bookmark_of || item.data.in_reply_to || item.data.url;
+      const {bookmark_of, category, in_reply_to, photo, summary, title , url} = item.data;
+      const external_url = bookmark_of || in_reply_to || url;
 
       feed.items.push({
         id: this.absolute_url(item.url, app.url),
@@ -52,6 +52,6 @@ module.exports = class JsonFeed {
       });
     }
 
-    return JSON.stringify(feed, null, 2);
+    return JSON.stringify(feed, undefined, 2);
   }
 };

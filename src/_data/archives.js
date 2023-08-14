@@ -7,8 +7,8 @@ const now = new Date();
  * @yields {object} Generator
  */
 function * _range(start, end) {
-  for (let i = start; i <= end; i++) {
-    yield i;
+  for (let index = start; index <= end; index++) {
+    yield index;
   }
 }
 
@@ -39,11 +39,11 @@ function _generateMonths(startDate, endDate) {
 
   const dates = [];
   const years = [..._range(firstYear, lastYear)].map(String);
-  for (const [i, year] of years.entries()) {
+  for (const [index, year] of years.entries()) {
     let months = [];
-    if (i === 0) {
+    if (index === 0) {
       months = [..._range(firstMonth, 12)];
-    } else if (i === years.length - 1) {
+    } else if (index === years.length - 1) {
       months = [..._range(1, lastMonth)];
     } else {
       months = [..._range(1, 12)];

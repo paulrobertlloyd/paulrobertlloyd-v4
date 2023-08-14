@@ -7,6 +7,6 @@ module.exports = class Categories {
   }
 
   render({collections}) {
-    return JSON.stringify(collections.category, null, 2);
+    return JSON.stringify(collections.category, undefined, 2);
   }
 };

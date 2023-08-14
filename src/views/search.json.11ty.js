@@ -15,6 +15,6 @@ module.exports = class Search {
       url: item.url,
     }));
 
-    return JSON.stringify(search, null, 2);
+    return JSON.stringify(search, undefined, 2);
   }
 };

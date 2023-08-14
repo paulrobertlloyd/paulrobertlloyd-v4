@@ -28,18 +28,18 @@ aria.key = {
  * @description Combobox object representing the state and interactions for a combobox
  * @param {object} comboboxNode - The DOM node pointing to the combobox
  * @param {object} inputNode - The input node
- * @param {Function} searchFn - Accepts a search string and returns an array
+ * @param {Function} searchFunction - Accepts a search string and returns an array
  */
 aria.Combobox = function (
   comboboxNode,
   inputNode,
-  searchFn,
+  searchFunction,
 ) {
   this.combobox = comboboxNode;
   this.input = inputNode;
   this.listbox = comboboxNode.querySelector('[role="listbox"]');
   this.status = comboboxNode.querySelector('[role="status"]');
-  this.searchFn = searchFn;
+  this.searchFunction = searchFunction;
   this.shouldAutoSelect = false;
   this.activeIndex = -1;
   this.resultsCount = 0;
@@ -115,11 +115,11 @@ aria.Combobox.prototype.checkKey = function (event) {
  */
 aria.Combobox.prototype.setActiveOption = function (event) {
   const key = event.which || event.key;
-  let {activeIndex} = this;
+  let {activeIndex, input, resultsCount} = this;
 
   if (key === aria.key.ESC) {
     this.hideListbox();
-    this.input.value = '';
+    input.value = '';
     return;
   }
 
@@ -132,7 +132,7 @@ aria.Combobox.prototype.setActiveOption = function (event) {
         // Enable focus to be drawn back up to search input
         this.defocusOption(previousActive);
         this.activeIndex = -1;
-        this.input.setAttribute('aria-activedescendant', '');
+        input.setAttribute('aria-activedescendant', '');
         return;
       }
 
@@ -141,7 +141,7 @@ aria.Combobox.prototype.setActiveOption = function (event) {
     }
 
     case aria.key.DOWN: {
-      if (activeIndex === this.resultsCount - 1) {
+      if (activeIndex === resultsCount - 1) {
         return;
       }
 
@@ -157,7 +157,7 @@ aria.Combobox.prototype.setActiveOption = function (event) {
 
     case aria.key.END:
     case aria.key.PAGE_DOWN: {
-      activeIndex = this.resultsCount - 1;
+      activeIndex = resultsCount - 1;
       break;
     }
 
@@ -189,7 +189,7 @@ aria.Combobox.prototype.setActiveOption = function (event) {
   if (activeOption) {
     this.focusOption(activeOption);
   } else {
-    this.input.setAttribute('aria-activedescendant', '');
+    input.setAttribute('aria-activedescendant', '');
   }
 };
 
@@ -198,20 +198,20 @@ aria.Combobox.prototype.setActiveOption = function (event) {
  */
 aria.Combobox.prototype.updateResults = function () {
   const searchString = this.input.value;
-  const results = this.searchFn(searchString);
+  const results = this.searchFunction(searchString);
 
   this.hideListbox();
 
   if (searchString.length > 0 && results.length > 0) {
-    for (const [i, result] of results.entries()) {
+    for (const [index, result] of results.entries()) {
       const resultItem = document.createElement('li');
-      resultItem.setAttribute('id', 'option-' + i);
+      resultItem.setAttribute('id', 'option-' + index);
       resultItem.setAttribute('role', 'option');
       resultItem.setAttribute('tabindex', '-1');
       resultItem.dataset.value = result.value;
       resultItem.innerHTML = result.html;
       this.listbox.append(resultItem);
-      if (this.shouldAutoSelect && i === 0) {
+      if (this.shouldAutoSelect && index === 0) {
         resultItem.setAttribute('aria-selected', 'true');
         this.activeIndex = 0;
       }
