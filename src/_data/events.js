@@ -1,11 +1,11 @@
-const process = require('node:process');
-const eleventyFetch = require('@11ty/eleventy-fetch');
-const ICalParser = require('ical-js-parser');
-const {DateTime} = require('luxon');
-const getMovieData = require('../../lib/utils/movie-data.js');
+const process = require("node:process");
+const eleventyFetch = require("@11ty/eleventy-fetch");
+const ICalParser = require("ical-js-parser");
+const { DateTime } = require("luxon");
+const getMovieData = require("../../lib/utils/movie-data.js");
 
-const {WEBCAL_TOKEN} = process.env;
-const ENDPOINT = 'https://p28-caldav.icloud.com/published/2/';
+const { WEBCAL_TOKEN } = process.env;
+const ENDPOINT = "https://p28-caldav.icloud.com/published/2/";
 const REGEX_GEO = /geo:(?<latitude>[+-]?\d*\.\d+),(?<longitude>[+-]?\d*\.\d+)/;
 
 /**
@@ -25,19 +25,19 @@ function parseString(string) {
 module.exports = async function () {
   try {
     const ics = await eleventyFetch(`${ENDPOINT}${WEBCAL_TOKEN}`, {
-      duration: '1d',
-      type: 'text',
+      duration: "1d",
+      type: "text",
     });
 
-    const {events} = ICalParser.default.toJSON(ics);
+    const { events } = ICalParser.default.toJSON(ics);
 
-    const data = events.map(async event => {
+    const data = events.map(async (event) => {
       const item = {
         title: parseString(event.summary),
         location: {
-          type: 'card',
+          type: "card",
         },
-        rsvp: 'yes',
+        rsvp: "yes",
         content: false,
       };
 
@@ -46,7 +46,7 @@ module.exports = async function () {
         const venue = event.location.split(/\u{5C}\u{6E}/u); // \n
         item.location.name = venue[0];
 
-        const address = venue[1] ? venue[1].split(/\u{5C}\u{2C}\s?/u) : ''; // \,
+        const address = venue[1] ? venue[1].split(/\u{5C}\u{2C}\s?/u) : ""; // \,
         switch (address.length) {
           case 4: {
             item.location.street_address = address.at(0);
@@ -73,13 +73,13 @@ module.exports = async function () {
 
         item.location.country_name = address.at(-1);
       } else {
-        item.location.name = 'false';
+        item.location.name = "false";
       }
 
       // Location (geo)
       if (event.xAppleStructuredLocation) {
         const geoString = event.xAppleStructuredLocation.XTITLE;
-        const {latitude, longitude} = geoString.match(REGEX_GEO).groups;
+        const { latitude, longitude } = geoString.match(REGEX_GEO).groups;
 
         item.location.latitude = Number(latitude);
         item.location.longitude = Number(longitude);
@@ -89,14 +89,14 @@ module.exports = async function () {
       if (event.description) {
         item.summary = parseString(event.description);
 
-        if (item.summary === '') {
+        if (item.summary === "") {
           delete item.summary;
         }
       }
 
       // Speaking event
       // Invitation to presentations@paulrobertlloyd.com indicates speaking event
-      if (event?.attendee?.[1].EMAIL === 'presentations@paulrobertlloyd.com') {
+      if (event?.attendee?.[1].EMAIL === "presentations@paulrobertlloyd.com") {
         item.presented = true;
       }
 
@@ -117,13 +117,13 @@ module.exports = async function () {
       }
 
       // URL
-      if (event.url && event.url.VALUE.includes('URI:')) {
-        item.url = event.url.VALUE.replace('URI:', '');
+      if (event.url && event.url.VALUE.includes("URI:")) {
+        item.url = event.url.VALUE.replace("URI:", "");
 
-        if (item.url.includes('imdb.com')) {
+        if (item.url.includes("imdb.com")) {
           const movie = await getMovieData(item.url);
 
-          item.icon = 'film';
+          item.icon = "film";
           item.summary = movie.Plot || item.summary;
           item.content = `
             ![Poster for ‘${item.title}’](${movie.Poster})
@@ -133,7 +133,7 @@ module.exports = async function () {
             `Director\n: ${movie.Director}`,
             `Writer\n: ${movie.Writer}`,
             `Actors\n: ${movie.Actors}`,
-          ].join('\n\n');
+          ].join("\n\n");
         }
       }
 

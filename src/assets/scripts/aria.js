@@ -30,11 +30,7 @@ aria.key = {
  * @param {object} inputNode - The input node
  * @param {Function} searchFunction - Accepts a search string and returns an array
  */
-aria.Combobox = function (
-  comboboxNode,
-  inputNode,
-  searchFunction,
-) {
+aria.Combobox = function (comboboxNode, inputNode, searchFunction) {
   this.combobox = comboboxNode;
   this.input = inputNode;
   this.listbox = comboboxNode.querySelector('[role="listbox"]');
@@ -52,12 +48,12 @@ aria.Combobox = function (
  * @description Setup events
  */
 aria.Combobox.prototype.setupEvents = function () {
-  document.body.addEventListener('click', this.checkHide.bind(this));
-  this.input.addEventListener('blur', this.checkHide.bind(this));
-  this.input.addEventListener('focus', this.checkShow.bind(this));
-  this.input.addEventListener('keyup', this.checkKey.bind(this));
-  this.input.addEventListener('keydown', this.setActiveOption.bind(this));
-  this.input.addEventListener('keypress', event => {
+  document.body.addEventListener("click", this.checkHide.bind(this));
+  this.input.addEventListener("blur", this.checkHide.bind(this));
+  this.input.addEventListener("focus", this.checkShow.bind(this));
+  this.input.addEventListener("keyup", this.checkKey.bind(this));
+  this.input.addEventListener("keydown", this.setActiveOption.bind(this));
+  this.input.addEventListener("keypress", (event) => {
     if (event.key === aria.key.RETURN) {
       event.preventDefault();
     }
@@ -115,11 +111,11 @@ aria.Combobox.prototype.checkKey = function (event) {
  */
 aria.Combobox.prototype.setActiveOption = function (event) {
   const key = event.which || event.key;
-  let {activeIndex, input, resultsCount} = this;
+  let { activeIndex, input, resultsCount } = this;
 
   if (key === aria.key.ESC) {
     this.hideListbox();
-    input.value = '';
+    input.value = "";
     return;
   }
 
@@ -132,7 +128,7 @@ aria.Combobox.prototype.setActiveOption = function (event) {
         // Enable focus to be drawn back up to search input
         this.defocusOption(previousActive);
         this.activeIndex = -1;
-        input.setAttribute('aria-activedescendant', '');
+        input.setAttribute("aria-activedescendant", "");
         return;
       }
 
@@ -189,7 +185,7 @@ aria.Combobox.prototype.setActiveOption = function (event) {
   if (activeOption) {
     this.focusOption(activeOption);
   } else {
-    input.setAttribute('aria-activedescendant', '');
+    input.setAttribute("aria-activedescendant", "");
   }
 };
 
@@ -204,29 +200,29 @@ aria.Combobox.prototype.updateResults = function () {
 
   if (searchString.length > 0 && results.length > 0) {
     for (const [index, result] of results.entries()) {
-      const resultItem = document.createElement('li');
-      resultItem.setAttribute('id', 'option-' + index);
-      resultItem.setAttribute('role', 'option');
-      resultItem.setAttribute('tabindex', '-1');
+      const resultItem = document.createElement("li");
+      resultItem.setAttribute("id", "option-" + index);
+      resultItem.setAttribute("role", "option");
+      resultItem.setAttribute("tabindex", "-1");
       resultItem.dataset.value = result.value;
       resultItem.innerHTML = result.html;
       this.listbox.append(resultItem);
       if (this.shouldAutoSelect && index === 0) {
-        resultItem.setAttribute('aria-selected', 'true');
+        resultItem.setAttribute("aria-selected", "true");
         this.activeIndex = 0;
       }
     }
 
     this.listbox.hidden = false;
-    this.combobox.setAttribute('aria-expanded', 'true');
+    this.combobox.setAttribute("aria-expanded", "true");
     this.resultsCount = results.length;
     this.shown = true;
     this.updateStatus(this.resultsCount);
 
     // Override default link behaviour to close listbox prior to location change
-    const listboxOptions = this.listbox.querySelectorAll('li');
+    const listboxOptions = this.listbox.querySelectorAll("li");
     for (const listboxOption of listboxOptions) {
-      listboxOption.addEventListener('click', this.clickOption.bind(this));
+      listboxOption.addEventListener("click", this.clickOption.bind(this));
     }
   }
 };
@@ -245,11 +241,11 @@ aria.Combobox.prototype.updateStatus = function (resultsCount) {
 aria.Combobox.prototype.hideListbox = function () {
   this.shown = false;
   this.activeIndex = -1;
-  this.listbox.innerHTML = '';
+  this.listbox.innerHTML = "";
   this.listbox.hidden = true;
-  this.combobox.setAttribute('aria-expanded', 'false');
+  this.combobox.setAttribute("aria-expanded", "false");
   this.resultsCount = 0;
-  this.input.setAttribute('aria-activedescendant', '');
+  this.input.setAttribute("aria-activedescendant", "");
 };
 
 /**
@@ -258,7 +254,7 @@ aria.Combobox.prototype.hideListbox = function () {
  */
 aria.Combobox.prototype.selectOption = function (element) {
   if (element) {
-    const href = element.querySelector('a').getAttribute('href');
+    const href = element.querySelector("a").getAttribute("href");
     document.location.href = href;
     this.hideListbox();
   }
@@ -280,7 +276,7 @@ aria.Combobox.prototype.clickOption = function (event) {
  * @returns {object} element HTML element
  */
 aria.Combobox.prototype.getOptionAt = function (index) {
-  return document.querySelector('#option-' + index);
+  return document.querySelector("#option-" + index);
 };
 
 /**
@@ -289,7 +285,7 @@ aria.Combobox.prototype.getOptionAt = function (index) {
  * @returns {number} Index
  */
 aria.Combobox.prototype.getIndexOf = function (element) {
-  const id = element.id.replace('option-', '');
+  const id = element.id.replace("option-", "");
   return Number(id) + 1;
 };
 
@@ -298,8 +294,8 @@ aria.Combobox.prototype.getIndexOf = function (element) {
  * @param {object} element - HTML element
  */
 aria.Combobox.prototype.focusOption = function (element) {
-  element.setAttribute('aria-selected', 'true');
-  this.input.setAttribute('aria-activedescendant', element.id);
+  element.setAttribute("aria-selected", "true");
+  this.input.setAttribute("aria-activedescendant", element.id);
   // This makes no sense, but without updating the status region (and as
   // this.resultsCount has not changed, no new status is announced), Safari
   // will refuse to apply focus to selected option.
@@ -325,7 +321,7 @@ aria.Combobox.prototype.defocusOption = function (element) {
     return;
   }
 
-  element.setAttribute('aria-selected', 'false');
+  element.setAttribute("aria-selected", "false");
 };
 
 export default aria;

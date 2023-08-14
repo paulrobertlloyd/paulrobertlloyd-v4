@@ -6,7 +6,7 @@ const now = new Date();
  * @param {number} end Last number
  * @yields {object} Generator
  */
-function * _range(start, end) {
+function* _range(start, end) {
   for (let index = start; index <= end; index++) {
     yield index;
   }
@@ -49,7 +49,7 @@ function _generateMonths(startDate, endDate) {
       months = [..._range(1, 12)];
     }
 
-    months = months.map(month => String(month).padStart(2, '0'));
+    months = months.map((month) => String(month).padStart(2, "0"));
     for (const month of months) {
       dates.push(`${year}-${month}`);
     }
@@ -60,20 +60,22 @@ function _generateMonths(startDate, endDate) {
 
 module.exports = function () {
   // On this day
-  const onThisDay = [{
-    url: '/archives/on_this_day',
-    data: {
-      // eslint-disable-next-line new-cap
-      title: Intl.DateTimeFormat('en-GB', {
-        day: 'numeric',
-        month: 'long',
-      }).format(now),
+  const onThisDay = [
+    {
+      url: "/archives/on_this_day",
+      data: {
+        // eslint-disable-next-line new-cap
+        title: Intl.DateTimeFormat("en-GB", {
+          day: "numeric",
+          month: "long",
+        }).format(now),
+      },
     },
-  }];
+  ];
 
   // Year archives
-  const archivedYears = _generateYears('2008-09', now);
-  const yearArchives = archivedYears.map(year => ({
+  const archivedYears = _generateYears("2008-09", now);
+  const yearArchives = archivedYears.map((year) => ({
     date: new Date(year),
     fileSlug: year,
     url: `/${year}/`,
@@ -84,15 +86,15 @@ module.exports = function () {
   }));
 
   // Month archives
-  const archivedMonths = _generateMonths('2008-09', now);
-  const monthArchives = archivedMonths.map(month => {
+  const archivedMonths = _generateMonths("2008-09", now);
+  const monthArchives = archivedMonths.map((month) => {
     const date = new Date(month);
     const year = date.getFullYear();
     let monthNumber = date.getMonth() + 1;
-    monthNumber = String(monthNumber).padStart(2, '0');
+    monthNumber = String(monthNumber).padStart(2, "0");
     // eslint-disable-next-line new-cap
-    const monthName = Intl.DateTimeFormat('en-GB', {
-      month: 'long',
+    const monthName = Intl.DateTimeFormat("en-GB", {
+      month: "long",
     }).format(date);
 
     return {
@@ -108,25 +110,30 @@ module.exports = function () {
   });
 
   // Other archives
-  const otherArchives = [{
-    url: '/categories',
-    data: {
-      title: 'Categories',
-      summary: 'Content across the site grouped by common topics.',
+  const otherArchives = [
+    {
+      url: "/categories",
+      data: {
+        title: "Categories",
+        summary: "Content across the site grouped by common topics.",
+      },
     },
-  }, {
-    url: '/collections',
-    data: {
-      title: 'Collections',
-      summary: 'Curated series of posts covering a particular theme.',
+    {
+      url: "/collections",
+      data: {
+        title: "Collections",
+        summary: "Curated series of posts covering a particular theme.",
+      },
     },
-  }, {
-    url: 'http://lloydyweb.paulrobertlloyd.com/blog/archive/',
-    data: {
-      title: '1999-2007',
-      summary: 'Content written prior to 2008 can be found on my previous website.',
+    {
+      url: "http://lloydyweb.paulrobertlloyd.com/blog/archive/",
+      data: {
+        title: "1999-2007",
+        summary:
+          "Content written prior to 2008 can be found on my previous website.",
+      },
     },
-  }];
+  ];
 
   return {
     on_this_day: onThisDay,

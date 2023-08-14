@@ -1,15 +1,15 @@
-const tokenize = require('../../lib/utils/tokenize.js');
+const tokenize = require("../../lib/utils/tokenize.js");
 
 module.exports = class Search {
   data() {
     return {
       eleventyExcludeFromCollections: true,
-      permalink: 'archives/search.json',
+      permalink: "archives/search.json",
     };
   }
 
-  render({collections}) {
-    const search = collections.public.map(item => ({
+  render({ collections }) {
+    const search = collections.public.map((item) => ({
       title: item.data.page_title,
       content: tokenize(item.content),
       url: item.url,
