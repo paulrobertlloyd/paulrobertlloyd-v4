@@ -4,6 +4,10 @@
   display: grid;
   gap: var(--space-m-l) var(--gap);
   grid-template-columns: repeat(auto-fit, minmax(var(--grid-size), 1fr));
+
+  &:has(.card__image--photo) {
+    grid-gap: var(--gap);
+  }
 }
 
 @media (--from-medium-viewport) {
