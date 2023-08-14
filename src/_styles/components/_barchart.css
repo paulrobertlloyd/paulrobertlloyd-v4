@@ -45,7 +45,8 @@
 }
 
 .barchart__key {
-  border-block-start: var(--border-width-rule) solid var(--color-neutral-lighter);
+  border-block-start: var(--border-width-rule) solid
+    var(--color-neutral-lighter);
 }
 
 .barchart__value {

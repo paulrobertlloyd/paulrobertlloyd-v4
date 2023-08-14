@@ -1,14 +1,13 @@
 .main {
   --anchor-decoration: underline;
 
-  background:
-    linear-gradient(
-      to right,
-      var(--color-background) 0,
-      var(--color-background) 50vw,
-      transparent 50vw,
-      transparent
-    );
+  background: linear-gradient(
+    to right,
+    var(--color-background) 0,
+    var(--color-background) 50vw,
+    transparent 50vw,
+    transparent
+  );
   display: flex;
   flex: 1;
   inline-size: 100vw;

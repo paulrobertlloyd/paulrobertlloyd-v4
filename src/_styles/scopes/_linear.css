@@ -85,18 +85,18 @@
 
 .s-linear tbody th,
 .s-linear tbody td {
-  border-block-start: var(--border-width-rule) solid var(--color-neutral-lighter);
+  border-block-start: var(--border-width-rule) solid
+    var(--color-neutral-lighter);
 }
 
 .s-linear [style^="--chart-width"] {
-  background:
-    repeating-linear-gradient(
-      to right,
-      var(--color-offset),
-      var(--color-offset) 1px,
-      transparent 1px,
-      transparent 5%
-    );
+  background: repeating-linear-gradient(
+    to right,
+    var(--color-offset),
+    var(--color-offset) 1px,
+    transparent 1px,
+    transparent 5%
+  );
   display: inline-block;
   inline-size: 100%;
   margin-block: calc(var(--space-s) * -1);

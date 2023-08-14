@@ -25,7 +25,9 @@ dl,
 p,
 ol,
 ul {
-  font-feature-settings: "ss02" 1, "case" 1;
+  font-feature-settings:
+    "ss02" 1,
+    "case" 1;
   hanging-punctuation: first;
   letter-spacing: 0.0125em;
   margin: 0;

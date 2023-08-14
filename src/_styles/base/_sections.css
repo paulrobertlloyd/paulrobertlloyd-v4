@@ -43,7 +43,9 @@ h5,
 h6,
 legend {
   break-after: avoid;
-  font-feature-settings: "ss02" 1, "case" 1;
+  font-feature-settings:
+    "ss02" 1,
+    "case" 1;
   font-size: inherit;
   font-weight: inherit;
   hanging-punctuation: first;

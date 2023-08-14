@@ -8,8 +8,7 @@
 
 @media (--from-medium-viewport) {
   .items:has(.item__footer) {
-    --item-grid-template:
-      "footer header" auto "footer main" 1fr /
+    --item-grid-template: "footer header" auto "footer main" 1fr /
       var(--logo-inline-size) 1fr;
   }
 }
@@ -18,7 +17,10 @@
   .items:has(.card__image--photo) {
     --gap: var(--border-width-rule);
 
-    grid-template-columns: repeat(auto-fit, minmax(calc(33% - calc(var(--border-width-rule) * 2)), 1fr));
+    grid-template-columns: repeat(
+      auto-fit,
+      minmax(calc(33% - calc(var(--border-width-rule) * 2)), 1fr)
+    );
     margin-inline: calc(var(--space-s-m) * -1);
   }
 }
