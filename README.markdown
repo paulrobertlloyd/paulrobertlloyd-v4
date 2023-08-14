@@ -1,6 +1,6 @@
 # paulrobertlloyd.com
 
-*My personal website. There are many like it, but this is mine.*
+_My personal website. There are many like it, but this is mine._
 
 ## Installation
 
@@ -12,9 +12,9 @@
 
 Ensure the following environment variables are set:
 
-* `MAPBOX_TOKEN`: [API key from Mapbox](https://www.mapbox.com)
-* `OMDBAPI_TOKEN`: [API key from OMDb API](http://omdbapi.com)
-* `WEBCAL_TOKEN`: The token provided in the last part of a `webcal://` URL
+- `MAPBOX_TOKEN`: [API key from Mapbox](https://www.mapbox.com)
+- `OMDBAPI_TOKEN`: [API key from OMDb API](http://omdbapi.com)
+- `WEBCAL_TOKEN`: The token provided in the last part of a `webcal://` URL
 
 Generated files are written to the `www` directory.
 
