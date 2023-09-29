@@ -6,6 +6,18 @@ Disallow: /
 User-agent: CCBot
 Disallow: /
 
+# Facebook (https://developers.facebook.com/docs/sharing/bot)
+User-agent: FacebookBot
+Disallow: /
+
+# Google (https://developers.google.com/search/docs/crawling-indexing/overview-google-crawlers)
+User-agent: Google-Extended
+Disallow: /
+
+# Omgilibot (https://webz.io/blog/web-data/what-is-the-omgili-bot-and-why-is-it-crawling-your-website/)
+User-agent: Omgilibot
+Disallow: /
+
 # OpenAI (https://platform.openai.com/docs/gptbot)
 User-agent: GPTBot
 Disallow: /
