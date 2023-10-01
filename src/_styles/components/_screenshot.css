@@ -1,19 +1,15 @@
-.screenshot {
+img[src*="#screenshot"] {
   background: var(--color-accent) url("/assets/vectors/noise.svg") repeat;
   border-image-slice: 5 20 20 5;
   border-image-source: url("/assets/vectors/shadow.svg");
   border-style: solid;
   border-width: calc(var(--gap) * 1.5) var(--gap);
-}
 
-@media (prefers-color-scheme: dark) {
-  .screenshot {
+  @media (prefers-color-scheme: dark) {
     filter: initial;
   }
-}
 
-@media print {
-  .screenshot {
+  @media print {
     background: none;
     border: none;
   }

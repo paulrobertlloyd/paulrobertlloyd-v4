@@ -22,7 +22,7 @@
     --columns: 4;
   }
 
-  &:not(:has(.screenshot)) {
+  &:not(:has(img[src*="#screenshot"])) {
     gap: var(--space-s);
   }
 }
