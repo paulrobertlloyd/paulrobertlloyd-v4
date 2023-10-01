@@ -16,9 +16,11 @@ layout: default.liquid
   {%- capture caption -%}
     {%- render 'itinerary' with itinerary -%}
   {%- endcapture -%}
-  {%- render 'map' with geojson
+  {%- render 'route-map'
     alignment: 'bleed',
-    caption: caption
+    caption: caption,
+    geojson: geojson,
+    outputDir: page.url
   -%}
   {{ trip.content | markdown }}
 {%- endcapture -%}

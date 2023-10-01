@@ -47,7 +47,7 @@ module.exports = function (eleventy) {
   // Shortcodes
   eleventy.addShortcode("icon", require("./lib/shortcodes/icon.js"));
   eleventy.addShortcode("image", require("./lib/shortcodes/image.js"));
-  eleventy.addShortcode("map", require("./lib/shortcodes/map.js"));
+  eleventy.addShortcode("route_map", require("./lib/shortcodes/route-map.js"));
 
   // Folder data
   eleventy.setDataFileBaseName("_data");

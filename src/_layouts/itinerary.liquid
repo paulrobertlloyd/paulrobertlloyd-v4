@@ -15,8 +15,11 @@ layout: default.liquid
 -%}
 {%- capture content -%}
   {{ content | markdown }}
-  {%- render 'map' with itinerary.geojson
-    alignment: 'bleed'
+  {%- capture outputDir -%}{{ page.date | date: '%Y/%j/i1' }}{%- endcapture -%}
+  {%- render 'route-map'
+    alignment: 'bleed',
+    geojson: itinerary.geojson,
+    outputDir: outputDir
   -%}
   {%- render 'trips' with itinerary.trips
     id: 'trips'
