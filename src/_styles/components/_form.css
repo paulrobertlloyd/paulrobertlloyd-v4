@@ -4,7 +4,7 @@
 
 .form__title {
   color: var(--color-neutral-dark);
-  font-size: var(--space-m);
+  font-size: var(--font-size-m);
   line-height: var(--line-height-loose);
 }
 
