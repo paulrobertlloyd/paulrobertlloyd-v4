@@ -32,6 +32,7 @@
 
 .s-linear figcaption {
   padding-block-start: var(--linear-flow-space);
+  padding-block-end: calc(var(--linear-flow-space) * 2);
 }
 
 .s-linear :is(p, dl, ol, ul, address) {
@@ -114,11 +115,11 @@
   position: absolute;
 }
 
-.s-linear :is(aside, figure, pre, table, .gallery):not(:first-child) {
+.s-linear :is(aside, pre, table):not(:first-child) {
   margin-block-start: calc(var(--linear-flow-space) * 2);
 }
 
-.s-linear :is(aside, figure, pre, table, .gallery) {
+.s-linear :is(aside, pre, table) {
   margin-block-end: calc(var(--linear-flow-space) * 2);
 }
 
