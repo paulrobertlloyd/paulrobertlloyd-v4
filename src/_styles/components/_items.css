@@ -15,6 +15,10 @@
     --item-grid-template: "footer header" auto "footer main" 1fr /
       var(--logo-inline-size) 1fr;
   }
+
+  .items__item {
+    max-inline-size: calc(var(--grid-size) * 1.5);
+  }
 }
 
 @media (--upto-medium-viewport) {
