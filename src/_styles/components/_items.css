@@ -5,7 +5,7 @@
   gap: var(--space-m-l) var(--gap);
   grid-template-columns: repeat(auto-fit, minmax(var(--grid-size), 1fr));
 
-  &:has(.card__image--photo) {
+  &:has(.card) {
     grid-gap: var(--gap);
   }
 }
