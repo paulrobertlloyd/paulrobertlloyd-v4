@@ -9,6 +9,8 @@
     flex-grow: 1;
     inline-size: 30rem;
     margin-block-end: calc(var(--border-width-rule) * -1);
+    outline: var(--border-width-rule) solid var(--color-shadow);
+    outline-offset: calc(var(--border-width-rule) * -1);
     position: relative;
   }
 
