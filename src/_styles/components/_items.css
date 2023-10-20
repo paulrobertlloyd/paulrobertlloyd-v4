@@ -16,7 +16,7 @@
       var(--logo-inline-size) 1fr;
   }
 
-  .items__item {
+  .items__item:not(:has(.card__image--photo)) {
     max-inline-size: calc(var(--grid-size) * 1.5);
   }
 }
