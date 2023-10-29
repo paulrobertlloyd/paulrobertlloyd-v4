@@ -28,9 +28,9 @@ module.exports = {
       post_type: "photo",
     },
     {
-      label: "Bookmarks",
-      url: "/bookmarks/",
-      post_type: "bookmark",
+      label: "Travel",
+      url: "/travel/",
+      post_type: "itinerary",
     },
     {
       label: "With Ukraine",
@@ -49,9 +49,9 @@ module.exports = {
       url: "/archives/",
     },
     {
-      label: "Travel",
-      url: "/travel/",
-      post_type: "itinerary",
+      label: "Bookmarks",
+      url: "/bookmarks/",
+      post_type: "bookmark",
     },
     {
       label: "Events",
