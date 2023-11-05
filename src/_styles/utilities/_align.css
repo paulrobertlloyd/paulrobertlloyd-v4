@@ -25,7 +25,6 @@
     float: inline-end;
     inline-size: 33%;
     margin-block: var(--linear-flow-space) !important;
-    margin-inline-end: calc(var(--gap) * -1);
-    margin-inline-start: var(--gap);
+    margin-inline: var(--gap) calc(var(--gap) * -1);
   }
 }
