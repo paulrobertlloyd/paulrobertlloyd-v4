@@ -51,6 +51,7 @@ legend {
   hanging-punctuation: first;
   margin: 0;
   text-rendering: optimizelegibility;
+  text-wrap: balance;
 }
 
 :focus-visible {

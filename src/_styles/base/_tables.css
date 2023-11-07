@@ -32,4 +32,5 @@ tbody th {
 caption {
   caption-side: bottom;
   text-align: start;
+  text-wrap: balance;
 }

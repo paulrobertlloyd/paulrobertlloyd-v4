@@ -66,6 +66,7 @@
   font-size: var(--font-size-l);
   line-height: var(--line-height-loose);
   max-inline-size: var(--line-measure);
+  text-wrap: pretty;
 }
 
 .main__introduction * + * {

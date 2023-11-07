@@ -85,6 +85,7 @@
 
   color: var(--color-neutral-dark);
   padding: var(--space-s);
+  text-wrap: pretty;
 }
 
 .card__footer {
