@@ -8,7 +8,7 @@ eleventyComputed:
 ---
 {%- assign now = 'now' | date: '%Y' -%}
 {%- for year in (2003..now) reversed -%}
-  {%- assign thisYear = collections.itinerary | includes: 'date',year -%}
+  {%- assign thisYear = collections.itinerary | includes: 'date',year | reverse -%}
   {%- render 'section' with thisYear
     id: year
     title: year
