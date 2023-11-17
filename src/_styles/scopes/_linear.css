@@ -147,9 +147,9 @@
 .s-linear p > img:only-of-type:first-of-type {
   float: right;
   float: inline-end;
-  inline-size: var(--inline-size, 25%);
-  margin-inline-start: var(--space-s);
-  min-inline-size: 6rem;
+  inline-size: clamp(50%, 9rem, 40vw);
+  margin-block-end: var(--linear-flow-space);
+  margin-inline-start: var(--space-m);
 }
 
 .s-linear :is(ol, ul) {
