@@ -22,7 +22,3 @@
   max-inline-size: var(--line-measure);
   text-wrap: pretty;
 }
-
-.header__url {
-  color: var(--color-link);
-}
