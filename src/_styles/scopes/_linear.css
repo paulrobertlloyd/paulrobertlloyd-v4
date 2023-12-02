@@ -167,6 +167,10 @@
   margin-inline-end: 1ch;
 }
 
+.s-linear dt + dd {
+  margin-block-end: var(--linear-flow-space);
+}
+
 .s-linear li:has(p) {
   margin-block-start: calc(var(--linear-flow-space) * 0.5);
 }
