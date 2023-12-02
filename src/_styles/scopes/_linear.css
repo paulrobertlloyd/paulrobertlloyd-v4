@@ -40,7 +40,6 @@
 
 .s-linear :is(p, dl, ol, ul, address) {
   font-variant: oldstyle-nums;
-  hyphens: auto;
   word-spacing: var(--word-spacing);
 }
 
