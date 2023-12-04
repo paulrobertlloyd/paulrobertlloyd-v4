@@ -186,4 +186,39 @@
   & pre code {
     padding: 0;
   }
+
+  & ul:has(li > *:is(a, figure, img, picture):only-child) {
+    --linear-line-measure: auto;
+
+    align-items: start;
+    display: grid;
+    grid-template-columns: 1fr;
+    list-style: "";
+    margin-inline: calc(var(--gap) * -1);
+    padding-inline-start: 0;
+
+    @media (--from-medium-viewport) {
+      grid-template-columns: repeat(var(--columns), 1fr);
+    }
+
+    &:has(* + *) {
+      --columns: 2;
+    }
+
+    &:has(* + * + *) {
+      --columns: 3;
+    }
+
+    &:has(* + * + * + *) {
+      --columns: 4;
+    }
+
+    &:not(:has(img[src*="#screenshot"])) {
+      gap: var(--space-s);
+    }
+
+    & figcaption {
+      padding-inline: var(--gap);
+    }
+  }
 }
