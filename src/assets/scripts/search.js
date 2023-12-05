@@ -1,8 +1,9 @@
 import aria from "./aria.js";
 
-const searchForm = document.querySelector("#search");
-const searchSubmit = document.querySelector("#search-submit");
-const endpoint = searchForm.dataset.searchIndex;
+const searchElement = document.querySelector("#search");
+const searchForm = searchElement.querySelector("form");
+const searchSubmit = searchElement.querySelector(`button[type="submit"]`);
+const endpoint = searchElement.dataset.searchIndex;
 const pages = [];
 
 const getPages = async () => {
@@ -35,7 +36,7 @@ const displayResults = (input) => {
   return result;
 };
 
-if (searchForm) {
+if (searchElement) {
   // eslint-disable-next-line unicorn/prefer-top-level-await
   getPages();
 
@@ -52,7 +53,7 @@ if (searchForm) {
     () =>
       new aria.Combobox(
         document.querySelector("#search-combobox"),
-        document.querySelector("#search-input"),
+        searchElement.querySelector(`input[type="search"]`),
         displayResults,
       ),
   );
