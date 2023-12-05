@@ -29,6 +29,7 @@ export class Combobox {
     this.combobox = comboboxNode;
     this.input = inputNode;
     this.listbox = comboboxNode.querySelector(`[role="listbox"]`);
+    this.listbox.hidden = true;
     this.status = comboboxNode.querySelector(`[role="status"]`);
     this.searchFunction = searchFunction;
     this.shouldAutoSelect = false;

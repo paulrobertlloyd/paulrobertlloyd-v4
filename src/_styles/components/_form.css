@@ -64,25 +64,25 @@ textarea.form__input {
   position: relative;
   z-index: 1;
 
-  & [aria-selected="true"] {
-    background-color: var(--color-link);
-    color: white;
-  }
+  & li {
+    --anchor-decoration: none;
+    --color-link: currentcolor;
 
-  & :focus {
-    outline: 0;
-  }
-}
+    align-items: baseline;
+    display: flex;
+    padding: var(--space-s);
 
-/* Option */
-.form__option {
-  --anchor-decoration: none;
+    &[aria-selected="true"] {
+      background-color: var(--color-accent);
+      color: white;
+    }
 
-  align-items: baseline;
-  display: flex;
-  padding: var(--space-s);
+    &:hover[aria-selected="true"] {
+      background-color: var(--color-accent-with-contrast);
+    }
 
-  &:hover {
-    background-color: var(--color-offset);
+    &:hover:not([aria-selected="true"]) {
+      background-color: var(--color-offset);
+    }
   }
 }

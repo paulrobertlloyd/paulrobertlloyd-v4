@@ -1,60 +1,62 @@
 import { Combobox } from "./combobox.js";
 
-const searchElement = document.querySelector("#search");
-const searchForm = searchElement.querySelector("form");
-const searchSubmit = searchElement.querySelector(`button[type="submit"]`);
-const endpoint = searchElement.dataset.searchIndex;
-const pages = [];
+class SiteSearchElement extends HTMLElement {
+  constructor() {
+    super();
 
-const getPages = async () => {
-  try {
-    const response = await fetch(endpoint);
-    const data = await response.json();
-    pages.push(...data);
-  } catch (error) {
-    console.error(error);
+    // Append combobox template
+    const template = this.querySelector("template").content;
+    this.append(template.cloneNode(true));
+
+    this.combobox = this.querySelector(`[role="combobox"]`);
+    this.form = this.querySelector("form");
+    this.button = this.querySelector(`button[type="submit"]`);
+    this.input = this.querySelector(`input[type="search"]`);
+    this.corpus = [];
+    this.index = this.getAttribute("index");
   }
-};
 
-const findResults = (termToMatch, pages) =>
-  pages.filter((item) => {
-    const regex = new RegExp(termToMatch, "gi");
-    return item.title.match(regex) || item.content.match(regex);
-  });
+  fetchIndex = async () => {
+    try {
+      const response = await fetch(this.index);
+      const data = await response.json();
+      this.corpus.push(...data);
+    } catch (error) {
+      console.error(error);
+    }
+  };
 
-const displayResults = (input) => {
-  const resultsArray = findResults(input, pages);
-  const result = resultsArray.map((item) => {
-    const html = `<a class="form__option" href="${item.url}">${item.title}</a>`;
+  findResults = (termToMatch, corpus) =>
+    corpus.filter((item) => {
+      const regex = new RegExp(termToMatch, "gi");
+      return item.title.match(regex) || item.content.match(regex);
+    });
 
-    return {
-      value: item.title,
-      html,
-    };
-  });
+  displayResults = (input) => {
+    const resultsArray = this.findResults(input, this.corpus);
+    const result = resultsArray.map((item) => {
+      const html = `<a href="${item.url}">${item.title}</a>`;
 
-  return result;
-};
+      return {
+        value: item.title,
+        html,
+      };
+    });
 
-if (searchElement) {
-  // eslint-disable-next-line unicorn/prefer-top-level-await
-  getPages();
+    return result;
+  };
 
-  searchForm.setAttribute("action", "#search");
-  searchForm.removeAttribute("method");
-  searchSubmit.remove(searchSubmit);
+  connectedCallback() {
+    this.button.remove();
+    this.form.addEventListener("submit", (event) => {
+      event.preventDefault();
+    });
+    this.input.setAttribute("aria-controls", "search-listbox");
 
-  searchForm.addEventListener("submit", (event) => {
-    event.preventDefault();
-  });
+    this.fetchIndex();
 
-  window.addEventListener(
-    "DOMContentLoaded",
-    () =>
-      new Combobox(
-        document.querySelector("#search-combobox"),
-        searchElement.querySelector(`input[type="search"]`),
-        displayResults,
-      ),
-  );
+    new Combobox(this.combobox, this.input, this.displayResults);
+  }
 }
+
+customElements.define("site-search", SiteSearchElement);
