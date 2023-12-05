@@ -1,4 +1,4 @@
-import aria from "./aria.js";
+import { Combobox } from "./combobox.js";
 
 const searchElement = document.querySelector("#search");
 const searchForm = searchElement.querySelector("form");
@@ -51,7 +51,7 @@ if (searchElement) {
   window.addEventListener(
     "DOMContentLoaded",
     () =>
-      new aria.Combobox(
+      new Combobox(
         document.querySelector("#search-combobox"),
         searchElement.querySelector(`input[type="search"]`),
         displayResults,
