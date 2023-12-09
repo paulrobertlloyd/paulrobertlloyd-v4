@@ -4,7 +4,7 @@ layout: default.liquid
 {%- render 'header'
   title: title
   summary: summary
-  url: url
+  uid: uid
 -%}
 {%- assign items = collections.article | publication: issn,url -%}
 {%- render 'items' with items -%}

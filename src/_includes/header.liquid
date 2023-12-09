@@ -8,9 +8,9 @@
     {{ summary | markdown }}
   </div>
 {%- endif -%}
-{%- if url -%}
-  <div class="header__url s-linear">
-    <a class="u-{{ url_class | default: 'url' }}" rel="external" href="{{ url }}">{{ url | hostname }}</a>
+{%- if uid -%}
+  <div class="header__uid s-linear">
+    <a class="u-{{ uid_class | default: 'uid' }}" rel="external" href="{{ uid }}">{{ uid | hostname }}</a>
   </div>
 {%- endif -%}
 </header>

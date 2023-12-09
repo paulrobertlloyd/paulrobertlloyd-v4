@@ -118,10 +118,10 @@ module.exports = async function () {
 
       // URL
       if (event.url && event.url.VALUE.includes("URI:")) {
-        item.url = event.url.VALUE.replace("URI:", "");
+        item.uid = event.url.VALUE.replace("URI:", "");
 
-        if (item.url.includes("imdb.com")) {
-          const movie = await getMovieData(item.url);
+        if (item.uid.includes("imdb.com")) {
+          const movie = await getMovieData(item.uid);
 
           item.icon = "film";
           item.summary = movie.Plot || item.summary;
