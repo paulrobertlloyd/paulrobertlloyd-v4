@@ -1,8 +1,8 @@
-const process = require("node:process");
-const eleventyFetch = require("@11ty/eleventy-fetch");
-const ICalParser = require("ical-js-parser");
-const { DateTime } = require("luxon");
-const getMovieData = require("../../lib/utils/movie-data.js");
+import process from "node:process";
+import eleventyFetch from "@11ty/eleventy-fetch";
+import ICalParser from "ical-js-parser";
+import { DateTime } from "luxon";
+import { getMovieData } from "../../lib/utils/movie-data.js";
 
 const { WEBCAL_TOKEN } = process.env;
 const ENDPOINT = "https://p28-caldav.icloud.com/published/2/";
@@ -22,7 +22,7 @@ function parseString(string) {
   );
 }
 
-module.exports = async function () {
+export default async () => {
   try {
     const ics = await eleventyFetch(`${ENDPOINT}${WEBCAL_TOKEN}`, {
       duration: "1d",

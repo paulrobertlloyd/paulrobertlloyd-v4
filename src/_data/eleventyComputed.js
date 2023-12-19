@@ -1,6 +1,6 @@
-const getId = require("../../lib/utils/id.js");
+import { getId } from "../../lib/utils/id.js";
 
-module.exports = {
+export default {
   id: (data) => getId(data),
   page_title: (data) => (data.page.url === "/" ? false : data.title),
   page_image: (data) => data.photo && data.photo[0],

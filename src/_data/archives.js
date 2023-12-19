@@ -58,7 +58,7 @@ function _generateMonths(startDate, endDate) {
   return dates;
 }
 
-module.exports = function () {
+export default () => {
   // On this day
   const onThisDay = [
     {

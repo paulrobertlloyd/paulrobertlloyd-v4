@@ -1,6 +1,6 @@
-const path = require("node:path");
+import path from "node:path";
 
-module.exports = class JsonFeed {
+export default class JsonFeed {
   data() {
     return {
       eleventyExcludeFromCollections: true,
@@ -61,4 +61,4 @@ module.exports = class JsonFeed {
 
     return JSON.stringify(feed, undefined, 2);
   }
-};
+}

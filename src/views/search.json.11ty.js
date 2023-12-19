@@ -1,6 +1,6 @@
-const tokenize = require("../../lib/utils/tokenize.js");
+import { tokenize } from "../../lib/utils/tokenize.js";
 
-module.exports = class Search {
+export default class Search {
   data() {
     return {
       eleventyExcludeFromCollections: true,
@@ -17,4 +17,4 @@ module.exports = class Search {
 
     return JSON.stringify(search, undefined, 2);
   }
-};
+}
