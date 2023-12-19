@@ -17,7 +17,7 @@
   "bugs": "https://github.com/paulrobertlloyd/paulrobertlloyd-v4/issues",
   "scripts": {
     "build": "eleventy --quiet",
-    "start": "eleventy --incremental --serve",
+    "start": "eleventy --serve",
     "prelint": "prettier . --check",
     "lint:markdown": "markdownlint-cli2 'src/**/*.markdown'",
     "lint:scripts": "eslint '**/*.js'",
@@ -26,7 +26,7 @@
     "debug": "DEBUG=* npx eleventy"
   },
   "dependencies": {
-    "@11ty/eleventy": "^2.0.0",
+    "@11ty/eleventy": "3.0.0-alpha.2",
     "@11ty/eleventy-fetch": "^4.0.0",
     "@11ty/eleventy-img": "^3.0.0",
     "@11ty/eleventy-plugin-rss": "^1.1.1",
@@ -70,6 +70,7 @@
   "engines": {
     "node": "^20.0.0"
   },
+  "type": "module",
   "browserslist": [
     ">= 0.5%"
   ]

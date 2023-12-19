@@ -1,4 +1,4 @@
-module.exports = class Categories {
+export default class Categories {
   data() {
     return {
       eleventyExcludeFromCollections: true,
@@ -9,4 +9,4 @@ module.exports = class Categories {
   render({ collections }) {
     return JSON.stringify(collections.category, undefined, 2);
   }
-};
+}

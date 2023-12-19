@@ -1,10 +1,26 @@
-require("dotenv").config();
-const process = require("node:process");
-const collections = require("./lib/collections/index.js");
-const filters = require("./lib/filters/index.js");
-const webmanifest = require("./src/app.json");
+import { readFile } from "node:fs/promises";
+import process from "node:process";
+import "dotenv/config";
+import eleventySyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
+import eleventyLightningCss from "@11tyrocks/eleventy-plugin-lightningcss";
+import { markdownParser } from "./lib/libraries/markdown.js";
+import * as collections from "./lib/collections/index.js";
+import * as filters from "./lib/filters/index.js";
+import * as shortcodes from "./lib/shortcodes/index.js";
+import dates from "./src/_data/dates.js";
+import navigation from "./src/_data/navigation.js";
 
-module.exports = function (eleventy) {
+// Can’t use import attributes until supported by Acorn dependency
+// See: https://github.com/11ty/eleventy/issues/3128
+let appJson = await readFile(new URL(`src/app.json`, import.meta.url));
+let app = JSON.parse(appJson.toString());
+
+/**
+ * Get Eleventy configuration
+ * @param {object} eleventy - Eleventy configuration
+ * @returns {object} Updated Eleventy configuration
+ */
+export default function (eleventy) {
   // Collections
   for (const [name, collection] of Object.entries(collections)) {
     eleventy.addCollection(name, collection);
@@ -27,7 +43,7 @@ module.exports = function (eleventy) {
   );
 
   // Global data
-  eleventy.addGlobalData("app", webmanifest);
+  eleventy.addGlobalData("app", app);
   eleventy.addGlobalData("app.url", process.env.URL || "");
 
   // Passthrough
@@ -41,29 +57,25 @@ module.exports = function (eleventy) {
   eleventy.addPassthroughCopy("./src/assets");
 
   // Plugins
-  eleventy.addPlugin(require("@11ty/eleventy-plugin-syntaxhighlight"));
-  eleventy.addPlugin(require("@11tyrocks/eleventy-plugin-lightningcss"));
+  eleventy.addPlugin(eleventySyntaxHighlight);
+  eleventy.addPlugin(eleventyLightningCss);
 
   // Shortcodes
-  eleventy.addShortcode("icon", require("./lib/shortcodes/icon.js"));
-  eleventy.addShortcode("image", require("./lib/shortcodes/image.js"));
-  eleventy.addShortcode("route_map", require("./lib/shortcodes/route-map.js"));
+  for (const [name, shortcode] of Object.entries(shortcodes)) {
+    eleventy.addShortcode(name, shortcode);
+  }
 
   // Folder data
   eleventy.setDataFileBaseName("_data");
 
   // Libraries
-  eleventy.setLibrary("md", require("./lib/libraries/markdown.js"));
+  eleventy.setLibrary("md", markdownParser);
 
   // Liquid
   eleventy.setLiquidOptions({
     cache: true,
     dateFormat: "%Y-%m-%dT%H:%M:%S.%L%:z",
-    globals: {
-      app: webmanifest,
-      dates: require("./src/_data/dates.js"),
-      navigation: require("./src/_data/navigation.js"),
-    },
+    globals: { app, dates, navigation },
   });
 
   // Config
@@ -75,4 +87,4 @@ module.exports = function (eleventy) {
     },
     templateFormats: ["css", "liquid", "md", "11ty.js"],
   };
-};
+}
