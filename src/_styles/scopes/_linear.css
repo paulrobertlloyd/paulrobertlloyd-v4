@@ -187,7 +187,7 @@
     padding: 0;
   }
 
-  & ul:has(li > *:is(a, figure, img, picture):only-child) {
+  & ul:has(li > *:is(a > img, figure, img, picture):only-child) {
     --linear-line-measure: auto;
 
     align-items: start;
