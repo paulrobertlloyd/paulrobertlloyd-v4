@@ -18,11 +18,14 @@
   "scripts": {
     "build": "eleventy --quiet",
     "start": "eleventy --incremental --serve",
-    "prelint": "prettier . --check",
-    "lint:markdown": "markdownlint-cli2 'src/**/*.markdown'",
+    "lint:format": "prettier . --check",
+    "lint:format:fix": "prettier . --write",
     "lint:scripts": "eslint '**/*.js'",
+    "lint:scripts:fix": "eslint '**/*.js' --fix",
     "lint:styles": "stylelint 'src/**/*.css'",
-    "lint": "npm run lint:markdown && npm run lint:scripts && npm run lint:styles",
+    "lint:styles:fix": "stylelint 'src/**/*.css'",
+    "lint": "npm run lint:format && npm run lint:scripts && npm run lint:styles",
+    "lint:fix": "npm run lint:format:fix && npm run lint:scripts:fix && npm run lint:styles:fix",
     "debug": "DEBUG=* npx eleventy"
   },
   "dependencies": {
@@ -60,8 +63,8 @@
     "eslint": "^8.47.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-jsdoc": "^46.0.0",
+    "eslint-plugin-prettier": "^5.1.2",
     "eslint-plugin-unicorn": "^50.0.0",
-    "markdownlint-cli2": "^0.11.0",
     "prettier": "^3.0.1",
     "stylelint": "^16.0.0",
     "stylelint-config-standard": "^36.0.0",

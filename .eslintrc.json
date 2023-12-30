@@ -15,7 +15,7 @@
     "ecmaVersion": "latest",
     "sourceType": "module"
   },
-  "plugins": ["jsdoc", "unicorn"],
+  "plugins": ["jsdoc", "unicorn", "prettier"],
   "rules": {
     "unicorn/filename-case": [
       "warn",
@@ -23,7 +23,6 @@
         "case": "kebabCase",
         "ignore": ["eleventyComputed.js"]
       }
-    ],
-    "unicorn/prefer-module": 0
+    ]
   }
 }
