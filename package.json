@@ -17,7 +17,7 @@
   "bugs": "https://github.com/paulrobertlloyd/paulrobertlloyd-v4/issues",
   "scripts": {
     "build": "eleventy --quiet",
-    "start": "eleventy --serve",
+    "start": "eleventy --incremental --serve",
     "prelint": "prettier . --check",
     "lint:markdown": "markdownlint-cli2 'src/**/*.markdown'",
     "lint:scripts": "eslint '**/*.js'",
