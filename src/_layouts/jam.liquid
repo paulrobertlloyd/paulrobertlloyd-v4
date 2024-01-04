@@ -1,0 +1,20 @@
+---
+layout: default.liquid
+eleventyComputed:
+  page_title: "Jam: {{ date | date: dates.date_time }}"
+---
+{%- render 'footer'
+  date: date
+  show_time: true
+  time_zone: time_zone
+  location: location
+  geo: geo
+  in_reply_to: in_reply_to
+  canonical: canonical
+  vocabulary: vocabulary
+-%}
+{%- render 'jam' with content -%}
+{%- render 'meta'
+  categories: category
+  syndication: syndication
+-%}

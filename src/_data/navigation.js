@@ -54,6 +54,11 @@ export default {
       post_type: "bookmark",
     },
     {
+      label: "Jams",
+      url: "/jams/",
+      post_type: "jam",
+    },
+    {
       label: "Events",
       url: "/events/",
       post_type: "event",

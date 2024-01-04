@@ -88,6 +88,15 @@ force = true
   page = ":p"
 
 [[redirects]]
+from = "/jams/"
+to = "/jams/page/:p.html"
+status = 200
+force = true
+
+  [redirects.query]
+  page = ":p"
+
+[[redirects]]
 from = "/notes/"
 to = "/notes/page/:p.html"
 status = 200
