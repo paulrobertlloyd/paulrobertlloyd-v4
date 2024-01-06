@@ -4,7 +4,7 @@
   & a {
     display: inline-flex;
     padding-block: var(--space-2xs);
-    padding-inline: var(--space-s);
+    padding-inline: var(--space-xs);
     white-space: nowrap;
   }
 }

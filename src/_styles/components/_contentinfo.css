@@ -3,6 +3,11 @@
   inline-size: 100vw;
   margin-block-start: auto;
 
+  & .navigation {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
   & a:hover {
     color: var(--color-link);
   }
@@ -14,7 +19,7 @@
   align-items: center;
   display: flex;
   flex-flow: row-reverse wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding-block: var(--gap);
 }
 
