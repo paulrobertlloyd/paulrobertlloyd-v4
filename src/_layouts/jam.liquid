@@ -13,7 +13,9 @@ eleventyComputed:
   canonical: canonical
   vocabulary: vocabulary
 -%}
-{%- render 'jam' with content -%}
+{%- render 'jam' with jam-of
+  content: content
+-%}
 {%- render 'meta'
   categories: category
   syndication: syndication
