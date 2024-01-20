@@ -10,6 +10,7 @@ class AppleJamElement extends HTMLElement {
     const embed = document.createElement("iframe");
     embed.src = href.replace("music.apple.com", "embed.music.apple.com");
     embed.height = embed.src.includes("music-video") ? 450 : 175;
+    embed.loading = "lazy";
 
     return embed;
   }
