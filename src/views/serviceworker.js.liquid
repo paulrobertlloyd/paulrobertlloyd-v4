@@ -48,7 +48,9 @@ function updateStaticCache() {
     ].concat(offlinePages));
     // Assets required for installation to complete
     return staticCache.addAll([
+      '{{ app.icons[0].src }}',
       '{{ app.icons[1].src }}',
+      '{{ app.icons[2].src }}',
       '/assets/vectors/icons.svg',
       '/media/404.svg',
       '/app.css',
