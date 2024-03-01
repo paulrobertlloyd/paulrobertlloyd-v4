@@ -18,22 +18,6 @@
     }
   </script>
 
-  <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="RSS (Atom) Feed">
-  <link rel="alternate" href="/feed.json" type="application/feed+json" title="JSON Feed">
-  <link rel="canonical" href="{{ canonical_url }}">
-  <link rel="manifest" href="/app.webmanifest">
-  <link rel="icon" href="/favicon.ico" sizes="32x32" type="image/x-icon">
-  <link rel="icon" href="{{ app.icons[0].src }}" type="{{ app.icons[0].type }}">
-  <link rel="apple-touch-icon" href="{{ app.icons[1].src }}" type="{{ app.icons[1].type }}">
-  <link rel="authorization_endpoint" href="https://kit.paulrobertlloyd.com/auth">
-  <link rel="token_endpoint" href="https://kit.paulrobertlloyd.com/auth/token">
-  <link rel="indieauth-metadata" href="https://kit.paulrobertlloyd.com/auth/metadata">
-  <link rel="micropub" href="https://kit.paulrobertlloyd.com/micropub">
-  <link rel="microsub" href="https://aperture.p3k.io/microsub/32">
-  <link rel="webmention" href="https://webmention.io/paulrobertlloyd.com/webmention">
-  <link rel="pgpkey" href="/app.pgp">
-  <link rel="stylesheet" href="/app.css">
-
   <style>
     :root {
     {% if accent_color -%}
@@ -50,6 +34,22 @@
       }
     }
   </style>
+
+  <link rel="stylesheet" href="/app.css">
+  <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="RSS (Atom) Feed">
+  <link rel="alternate" href="/feed.json" type="application/feed+json" title="JSON Feed">
+  <link rel="canonical" href="{{ canonical_url }}">
+  <link rel="manifest" href="/app.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="32x32" type="image/x-icon">
+  <link rel="icon" href="{{ app.icons[0].src }}" type="{{ app.icons[0].type }}">
+  <link rel="apple-touch-icon" href="{{ app.icons[1].src }}" type="{{ app.icons[1].type }}">
+  <link rel="authorization_endpoint" href="https://kit.paulrobertlloyd.com/auth">
+  <link rel="token_endpoint" href="https://kit.paulrobertlloyd.com/auth/token">
+  <link rel="indieauth-metadata" href="https://kit.paulrobertlloyd.com/auth/metadata">
+  <link rel="micropub" href="https://kit.paulrobertlloyd.com/micropub">
+  <link rel="microsub" href="https://aperture.p3k.io/microsub/32">
+  <link rel="webmention" href="https://webmention.io/paulrobertlloyd.com/webmention">
+  <link rel="pgpkey" href="/app.pgp">
 
   <meta property="og:title" content="{{ title }}">
   <meta property="og:description" name="description" content="{{ summary | default: app.description | markdown | strip_html | strip_newlines | strip }}">
