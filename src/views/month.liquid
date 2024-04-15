@@ -11,7 +11,7 @@ eleventyComputed:
   page_title: "{{ archive.data.introduction }}"
   introduction: "{{ archive.data.introduction }}"
 ---
-{%- assign items = collections.public | includes: 'date',archive.data.date -%}
+{%- assign items = collections.publicVisibility | includes: 'date',archive.data.date -%}
 {%- render 'items' with items
   itemsNoContent: 'Nothing was published during this month.'
 -%}

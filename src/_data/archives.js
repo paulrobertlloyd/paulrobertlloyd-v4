@@ -58,13 +58,13 @@ function _generateMonths(startDate, endDate) {
   return dates;
 }
 
+// eslint-disable-next-line unicorn/no-anonymous-default-export
 export default () => {
   // On this day
   const onThisDay = [
     {
       url: "/archives/on_this_day",
       data: {
-        // eslint-disable-next-line new-cap
         title: Intl.DateTimeFormat("en-GB", {
           day: "numeric",
           month: "long",
@@ -92,7 +92,6 @@ export default () => {
     const year = date.getFullYear();
     let monthNumber = date.getMonth() + 1;
     monthNumber = String(monthNumber).padStart(2, "0");
-    // eslint-disable-next-line new-cap
     const monthName = Intl.DateTimeFormat("en-GB", {
       month: "long",
     }).format(date);

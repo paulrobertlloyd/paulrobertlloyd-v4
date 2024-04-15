@@ -20,6 +20,7 @@ let app = JSON.parse(appJson.toString());
  * @param {object} eleventy - Eleventy configuration
  * @returns {object} Updated Eleventy configuration
  */
+// eslint-disable-next-line unicorn/no-anonymous-default-export
 export default function (eleventy) {
   // Collections
   for (const [name, collection] of Object.entries(collections)) {

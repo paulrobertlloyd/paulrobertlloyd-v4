@@ -9,7 +9,7 @@ export default class Search {
   }
 
   render({ collections }) {
-    const search = collections.public.map((item) => ({
+    const search = collections.publicVisibility.map((item) => ({
       title: item.data.page_title,
       content: tokenize(item.content),
       url: item.url,

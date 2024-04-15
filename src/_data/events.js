@@ -22,6 +22,7 @@ function parseString(string) {
   );
 }
 
+// eslint-disable-next-line unicorn/no-anonymous-default-export
 export default async () => {
   try {
     const ics = await eleventyFetch(`${ENDPOINT}${WEBCAL_TOKEN}`, {

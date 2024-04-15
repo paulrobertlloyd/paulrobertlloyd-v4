@@ -12,7 +12,7 @@ export default {
   summary_image_alt: (data) => (data.page_image ? data.page_image.alt : "Logo"),
   related(data) {
     const { collections, article_id, photo_id } = data;
-    const related = collections.public.filter((item) => {
+    const related = collections.publicVisibility.filter((item) => {
       const { id } = item.data;
       return id && (article_id?.includes(id) || photo_id?.includes(id));
     });
