@@ -3,12 +3,12 @@
   inline-size: 100vw;
   margin-block-start: auto;
 
-  & .navigation {
+  .navigation {
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  & a:hover {
+  a:hover {
     color: var(--color-link);
   }
 }

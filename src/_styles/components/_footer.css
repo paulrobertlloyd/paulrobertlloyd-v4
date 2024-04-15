@@ -5,25 +5,25 @@
   line-height: var(--line-height-loose);
   padding-block-end: var(--space-s);
 
-  & a {
+  a {
     text-decoration: none;
   }
 
-  & cite {
+  cite {
     font-style: normal;
   }
 
-  & dl {
+  dl {
     flex: 1;
   }
 
-  & dt,
-  & dd {
+  dt,
+  dd {
     display: inline;
     white-space: nowrap;
   }
 
-  & dd:not(:last-of-type)::after {
+  dd:not(:last-of-type)::after {
     content: "·";
     display: inline;
     opacity: 0.5;

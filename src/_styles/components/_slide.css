@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   max-inline-size: unset;
 
-  & img {
+  img {
     flex-grow: 1;
     inline-size: 30rem;
     margin-block-end: calc(var(--border-width-rule) * -1);
@@ -14,7 +14,7 @@
     position: relative;
   }
 
-  & figcaption {
+  figcaption {
     border-block-start: var(--border-rule);
     flex-basis: 0;
     flex-grow: 999;

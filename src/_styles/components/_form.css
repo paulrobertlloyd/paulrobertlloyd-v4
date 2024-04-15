@@ -64,7 +64,7 @@ textarea.form__input {
   position: relative;
   z-index: 1;
 
-  & li {
+  li {
     --anchor-decoration: none;
     --color-link: currentcolor;
 

@@ -1,7 +1,7 @@
 .categories {
   color: var(--color-link);
 
-  & li {
+  li {
     display: inline-block;
     padding-block: var(--space-2xs);
     padding-inline: 0 var(--space-s);

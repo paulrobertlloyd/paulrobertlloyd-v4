@@ -1,5 +1,5 @@
 .embed {
-  & a {
+  a {
     --anchor-decoration: none;
     --linear-flow-space: 0;
 
@@ -12,13 +12,13 @@
     padding: var(--flow-inset);
   }
 
-  & img {
+  img {
     flex-basis: 15rem;
     flex-grow: 1;
     max-inline-size: min(100%, 15rem);
   }
 
-  & p {
+  p {
     flex-basis: 0;
     flex-grow: 999;
     font-weight: 500;
@@ -26,7 +26,7 @@
     min-inline-size: 40%;
   }
 
-  & span {
+  span {
     color: var(--color-neutral-dark);
     display: block;
     font-size: var(--font-size-s);

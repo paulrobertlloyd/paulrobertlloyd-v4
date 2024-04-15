@@ -7,18 +7,18 @@
   line-height: var(--line-height-loose);
   max-inline-size: var(--line-measure);
 
-  & a {
+  a {
     color: var(--color-link);
     text-decoration: none;
     white-space: nowrap;
   }
 
-  & div {
+  div {
     padding-block-end: var(--space-2xs);
   }
 
-  & dt,
-  & dd {
+  dt,
+  dd {
     display: inline;
   }
 }

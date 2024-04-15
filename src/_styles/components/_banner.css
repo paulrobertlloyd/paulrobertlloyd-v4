@@ -17,7 +17,7 @@
   min-inline-size: var(--logo-inline-size);
   white-space: nowrap;
 
-  & a {
+  a {
     color: var(--color-text);
     display: inline-flex;
     margin-inline-start: calc(var(--space-s) * -1);
