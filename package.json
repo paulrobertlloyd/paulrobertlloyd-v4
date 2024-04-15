@@ -74,6 +74,6 @@
   },
   "type": "module",
   "browserslist": [
-    ">= 0.5%"
+    ">= 5%"
   ]
 }
