@@ -59,11 +59,11 @@
     "string-to-color": "^2.2.2"
   },
   "devDependencies": {
-    "eslint": "^8.47.0",
+    "eslint": "^9.0.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-jsdoc": "^48.0.0",
     "eslint-plugin-prettier": "^5.0.0",
-    "eslint-plugin-unicorn": "^51.0.0",
+    "eslint-plugin-unicorn": "^52.0.0",
     "prettier": "^3.0.1",
     "stylelint": "^16.0.0",
     "stylelint-config-standard": "^36.0.0",
