@@ -1,6 +1,5 @@
 import { readFile } from "node:fs/promises";
 import process from "node:process";
-import "dotenv/config";
 import eleventySyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import eleventyLightningCss from "@11tyrocks/eleventy-plugin-lightningcss";
 import { markdownParser } from "./lib/libraries/markdown.js";
