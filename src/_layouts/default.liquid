@@ -25,7 +25,7 @@
     {%- elsif date -%}
       {%- assign accent_color = date | color -%}
     {%- else -%}
-      {%- assign accent_color = '#20e' -%}
+      {%- assign accent_color = '#10e' -%}
     {%- endif -%}
       --color-accent: {{ accent_color }};
       --color-accent-with-contrast: {{ accent_color | contrast_with: 'black' }};
