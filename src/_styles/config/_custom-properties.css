@@ -1,7 +1,7 @@
 /* stylelint-disable number-no-trailing-zeros */
 :root {
   /* Neutral palette */
-  --tint: 228 6%;
+  --tint: 244 6%;
   --color-neutral-darkest: hsl(var(--tint) 16%);
   --color-neutral-darkest-alpha: hsl(var(--tint) 16% / 20%);
   --color-neutral-darker: hsl(var(--tint) 36%);
@@ -12,7 +12,7 @@
   --color-neutral-lightest: hsl(var(--tint) 96%);
 
   /* Colour assignments */
-  --color-complement: hsl(320deg 100% 44%);
+  --color-complement: hsl(184deg 100% 52%);
   --color-background: white;
   --color-offset: var(--color-neutral-lightest);
   --color-shadow: hsl(var(--tint) 16% / 10%);
