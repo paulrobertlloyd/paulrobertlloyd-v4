@@ -1,6 +1,6 @@
 .barchart {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   max-inline-size: 100%;
   overflow-x: auto;
 }
@@ -16,7 +16,7 @@
   color: var(--color-neutral-dark);
   font-size: var(--font-size-s);
   padding-block: var(--space-2xs);
-  text-align: center;
+  text-align: end;
 }
 
 .barchart__caption abbr::before {
@@ -24,7 +24,7 @@
 }
 
 .barchart__caption abbr:first-of-type::before {
-  color: var(--color-accent);
+  color: var(--color-accent-with-contrast);
 }
 
 .barchart__caption abbr:last-of-type::before {
@@ -49,8 +49,16 @@
     var(--color-neutral-lighter);
 }
 
+.barchart__key-label {
+  display: block;
+  font-size: 75%;
+  padding-block-end: var(--space-2xs);
+  padding-inline-start: var(--space-2xs);
+  rotate: 60deg;
+}
+
 .barchart__value {
-  align-items: flex-end;
+  align-items: end;
   block-size: 100%;
   display: flex;
   position: relative;
@@ -69,13 +77,13 @@
 .barchart__value [style^="--chart-size"]:first-of-type {
   background-color: var(--color-accent);
   inline-size: 40%;
-  inset-inline-end: 10%;
+  inset-inline-start: 10%;
 }
 
 .barchart__value [style^="--chart-size"]:last-of-type {
   background-color: var(--color-complement);
   inline-size: 40%;
-  inset-inline-start: 10%;
+  inset-inline-end: 10%;
 }
 
 .barchart__value .barchart__value-label {

@@ -21,7 +21,7 @@ eleventyComputed:
       {%- assign yearCo2 = thisYear | sum: 'emissions' -%}
       {%- assign scaleCo2 = yearCo2 | percentage_of: meanCo2 | divided_by: 2 -%}
       <td class="barchart__key">
-        {{ year | replace_first: '20','' }}
+        <span class="barchart__key-label">{{ year }}</span>
       </td>
       <td class="barchart__value">
         <a href="#{{ year }}">
