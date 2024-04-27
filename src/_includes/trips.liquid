@@ -6,30 +6,19 @@
       <tr>
         <th>Date</th>
         <th>Trip</th>
-        <th>Distance (<abbr title="kilometers">km</abbr>)</th>
-        <th>CO<sub>2</sub> (<abbr title="kilograms">kg</abbr>)</th>
+        <th><abbr title="kilometers">km</abbr> /&nbsp;<abbr title="kilograms">kg</abbr></th>
       </tr>
     </thead>
     <tbody>
     {%- for item in trips -%}
       <tr>
         <th>
-          <a rel="bookmark" href="{{ item.url }}">
-            <time datetime="{{ item.data.start }}">{{ item.data.start | date: dates.date }}</time>
-          </a>
+          <time datetime="{{ item.data.start }}">{{ item.data.start | date: dates.date_trip }}</time>
         </th>
         <td>
-        {% for stop in item.data.itinerary %}
-          <span>
-            {%- unless forloop.first -%}
-              {%- icon stop.icon %}
-            {% endunless -%}
-            {{ stop.label }}, {{ stop.country_name }}
-          </span><br>
-        {% endfor %}
+          <a rel="bookmark" href="{{ item.url }}">{{ item.data.title }}</a>
         </td>
-        <td>{{ item.data.distance }}</td>
-        <td>{{ item.data.emissions }}</td>
+        <td>{{ item.data.distance }} /&nbsp;{{ item.data.emissions }}</td>
       </tr>
     {%- endfor -%}
     </tbody>

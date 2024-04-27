@@ -1,17 +1,16 @@
 .trips {
-  overflow-x: auto;
-
-  table {
-    white-space: nowrap;
-  }
-
   caption {
     caption-side: top;
     color: var(--color-neutral-dark);
     font-size: var(--font-size-m);
   }
 
-  * th:first-child {
-    inline-size: calc(var(--logo-inline-size) + var(--gap));
+  time {
+    color: var(--color-neutral-dark);
+  }
+
+  * th:first-child,
+  * th:last-child {
+    inline-size: 15%;
   }
 }
