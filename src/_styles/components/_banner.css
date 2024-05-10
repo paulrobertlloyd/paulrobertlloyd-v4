@@ -32,5 +32,5 @@
   flex: 1;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-inline: calc(var(--space-s) * -1);
+  margin-inline: calc(var(--space-xs) * -1);
 }
