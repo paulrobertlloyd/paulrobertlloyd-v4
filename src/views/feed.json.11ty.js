@@ -37,6 +37,7 @@ export default class JsonFeed {
       const { bookmark_of, category, in_reply_to, photo, summary, title, url } =
         item.data;
       const external_url = bookmark_of || in_reply_to || url;
+      const content_html = await this.template_content_to_feed_html(item);
 
       feed.items.push({
         id: this.absolute_url(item.url, app.url),
@@ -44,9 +45,7 @@ export default class JsonFeed {
         date_published: item.date,
         ...(title && { title }),
         ...(summary && { summary: this.markdown(summary, "inline") }),
-        ...(item.templateContent && {
-          content_html: await this.template_content_to_feed_html(item),
-        }),
+        ...(content_html && { content_html }),
         ...(category > 0 && { tags: category }),
         ...(external_url && { external_url }),
         ...(photo && {
