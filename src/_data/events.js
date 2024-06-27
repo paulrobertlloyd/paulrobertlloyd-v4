@@ -144,5 +144,7 @@ export default async () => {
     return data;
   } catch (error) {
     console.warn(error.message);
+
+    return [];
   }
 };
