@@ -27,6 +27,7 @@ export default function (eleventy) {
   }
 
   // Extensions
+  eleventy.addTemplateFormats("markdown");
   eleventy.addExtension("markdown", { key: "md" });
 
   // Filters
