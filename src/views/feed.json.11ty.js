@@ -1,4 +1,5 @@
 import path from "node:path";
+import mime from "mime/lite";
 
 export default class JsonFeed {
   data() {
@@ -30,8 +31,6 @@ export default class JsonFeed {
     };
 
     const items = collections.syndicate.slice(0, 25);
-    // TODO: Use `import` statement once 11ty supports ESM
-    const { default: mime } = await import("mime/lite");
 
     for await (const item of items) {
       const { bookmark_of, category, in_reply_to, photo, summary, title, url } =
