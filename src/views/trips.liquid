@@ -3,11 +3,11 @@ layout: index.liquid
 title: Trips
 permalink: trips/
 eleventyComputed:
-  introduction: "Over the course of {{ collections.trip | size }} trips, I’ve travelled {{ collections.trip | sum: 'distance' }} km and emitted approximately {{ collections.trip | sum: 'emissions' }} kg of CO<sub>2</sub>."
+  introduction: "Over the course of {{ collections.trip | size }} trips, I’ve travelled {{ collections.trip | sum: 'data.distance' }} km and emitted approximately {{ collections.trip | sum: 'data.emissions' }} kg of CO<sub>2</sub>."
 ---
 {%- assign now = 'now' | date: '%Y' -%}
-{%- assign totalKm = collections.trip | sum: 'distance' -%}
-{%- assign totalCo2 = collections.trip | sum: 'emissions' -%}
+{%- assign totalKm = collections.trip | sum: 'data.distance' -%}
+{%- assign totalCo2 = collections.trip | sum: 'data.emissions' -%}
 {%- assign meanKm = totalKm | divided_by: 13 -%}
 {%- assign meanCo2 = totalCo2 | divided_by: 13 -%}
 <table class="barchart">
@@ -16,9 +16,9 @@ eleventyComputed:
   {%- for year in (2003..now) -%}
     <tr class="barchart__item">
       {%- assign thisYear = collections.trip | includes: 'date',year -%}
-      {%- assign yearKm = thisYear | sum: 'distance' -%}
+      {%- assign yearKm = thisYear | sum: 'data.distance' -%}
       {%- assign scaleKm = yearKm | percentage_of: meanKm | divided_by: 2 -%}
-      {%- assign yearCo2 = thisYear | sum: 'emissions' -%}
+      {%- assign yearCo2 = thisYear | sum: 'data.emissions' -%}
       {%- assign scaleCo2 = yearCo2 | percentage_of: meanCo2 | divided_by: 2 -%}
       <td class="barchart__key">
         <span class="barchart__key-label">{{ year }}</span>
