@@ -53,7 +53,6 @@ export default function (eleventy) {
     process.env.NODE_ENV === "production" ? "images" : "media";
   eleventy.addPassthroughCopy({ "./src/content/media": mediaDirectory });
   eleventy.addPassthroughCopy({ "./src/app.json": "app.webmanifest" });
-  eleventy.addPassthroughCopy("./src/app.pgp");
   eleventy.addPassthroughCopy("./src/robots.txt");
   eleventy.addPassthroughCopy("./src/assets");
 
