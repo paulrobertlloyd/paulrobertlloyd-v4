@@ -37,5 +37,3 @@ Disallow: /
 # iThenticate (https://www.ithenticate.com)
 User-Agent: SlySearch
 Disallow: /
-
-Sitemap: https://paulrobertlloyd.com/sitemap.xml
