@@ -1,39 +1,29 @@
 .main {
   --anchor-decoration: underline;
 
-  background: linear-gradient(
-    to right,
-    var(--color-background) 0,
-    var(--color-background) 50vw,
-    transparent 50vw,
-    transparent
-  );
-  display: flex;
-  flex: 1;
-  inline-size: 100vw;
-}
-
-.main__container {
   align-content: start;
-  background-color: var(--color-background);
-  grid-template-columns:
-    [container-start] auto
-    [content-start] 1fr [content-end]
-    auto [container-end];
+  border-image-outset: 0 0 0 100vw;
+  border-image-slice: fill 0;
+  border-image-source: conic-gradient(var(--color-background) 0 0);
+  flex: 1;
   padding-block: var(--gap);
 }
 
 @media (--from-medium-viewport) {
-  .main__container {
+  .main {
     display: grid;
+    grid-template-columns:
+      [container-start] auto
+      [content-start] 1fr [content-end]
+      auto [container-end];
   }
 }
 
-.main__container > * {
+.main > * {
   grid-column: content;
 }
 
-.main__container > * + * {
+.main > * + * {
   margin-block-start: var(--space-m-l);
 }
 

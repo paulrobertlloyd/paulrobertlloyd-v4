@@ -1,25 +1,13 @@
 .section {
   display: grid;
-  grid-column: container;
-  grid-column-gap: var(--gap);
-  grid-template-columns:
-    [container-start] auto
-    [content-start] 1fr [content-end]
-    var(--sticky-title-block-size) [container-end];
-  margin-inline: calc(var(--gap) * -1);
+  grid-column: content;
 }
 
 .section[aria-labelledby="testimonials"] {
-  background-image: radial-gradient(var(--color-offset) 15%, transparent 15%);
-  background-position:
-    0 0,
-    8px 8px;
-  background-repeat: repeat;
-  background-size: 16px 16px;
-}
-
-.section__container {
-  grid-column: content;
+  border-image-outset: var(--gap) 100vw var(--gap) var(--gap);
+  border-image-repeat: space;
+  border-image-slice: fill 15;
+  border-image-source: url("/assets/vectors/dots.svg");
 }
 
 .section__header {

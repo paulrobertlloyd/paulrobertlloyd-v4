@@ -64,10 +64,8 @@
 <body data-type="{{ type }}"{% if id %} id="{{ id }}"{% endif %}>
   {%- render 'skip-link' -%}
   {%- render 'banner', page: page, type: type -%}
-  <main class="main{% for root in vocabulary %} h-{{ root }}{% endfor %}" id="main">
-    <div class="main__container container">
-      {{ content }}
-    </div>
+  <main class="main container{% for root in vocabulary %} h-{{ root }}{% endfor %}" id="main">
+    {{ content }}
   </main>
   {%- render 'contentinfo', page: page, type: type -%}
 </body>

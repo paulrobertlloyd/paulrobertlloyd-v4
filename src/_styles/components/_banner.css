@@ -1,13 +1,8 @@
 .banner {
-  inline-size: 100vw;
-}
-
-.banner__container {
   align-items: baseline;
   display: flex;
   flex-wrap: wrap;
   padding-block: var(--space-s-m);
-  position: relative;
 }
 
 .banner__title {

@@ -1,12 +1,10 @@
-<footer class="contentinfo">
-  <div class="contentinfo__container container">
-    {%- render 'navigation' with navigation.social -%}
-    {%- render 'navigation' with navigation.tertiary
-      page: page
-      type: type
-    -%}
-    <small class="contentinfo__legal">
-      © <time>{{ 'now' | date: '%Y' }}</time>
-    </small>
-  </div>
+<footer class="contentinfo container">
+  {%- render 'navigation' with navigation.social -%}
+  {%- render 'navigation' with navigation.tertiary
+    page: page
+    type: type
+  -%}
+  <small class="contentinfo__legal">
+    © <time>{{ 'now' | date: '%Y' }}</time>
+  </small>
 </footer>

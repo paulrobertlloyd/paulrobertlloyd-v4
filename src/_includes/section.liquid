@@ -1,17 +1,15 @@
 {%- if section.size > 0 %}
   <section class="section" aria-labelledby="{{ id }}">
-    <div class="section__container">
-      <header class="section__header">
-        <h2 class="section__title" id="{{ id }}">{{ title }}</h2>
-      </header>
+    <header class="section__header">
+      <h2 class="section__title" id="{{ id }}">{{ title }}</h2>
+    </header>
 
-      <div class="section__main{% if scrollable %} section__main--scrollable{% endif %}">
-        {%- include 'items' with section
-          limit: itemsLimit
-          component: itemsComponent
-          gridSize: itemsGridSize
-        -%}
-      </div>
+    <div class="section__main{% if scrollable %} section__main--scrollable{% endif %}">
+      {%- include 'items' with section
+        limit: itemsLimit
+        component: itemsComponent
+        gridSize: itemsGridSize
+      -%}
     </div>
   </section>
 {%- endif -%}

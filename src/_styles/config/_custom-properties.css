@@ -69,12 +69,6 @@
   /* Animation */
   --transition-short: 0.15s;
 
-  /* Container values */
-  --container-inline-size: 100vw;
-  --container-max-inline-size: 80rem;
-  --container-inline-inset: calc(100vw - var(--container-inline-size));
-  --container-gutter: calc(var(--container-inline-inset) / 2);
-
   /* Sticky title */
   --sticky-title-block-size: 0;
 
@@ -88,12 +82,6 @@
 @media (--from-medium-viewport) {
   :root {
     --sticky-title-block-size: calc(var(--font-size-2xl) + var(--gap));
-  }
-}
-
-@media (--from-large-viewport) {
-  :root {
-    --container-inline-size: 80vw;
   }
 }
 
