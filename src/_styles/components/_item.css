@@ -60,14 +60,3 @@
     position: absolute;
   }
 }
-
-/* Testimonial item adaptions */
-.item--testimonial {
-  border-block-start: none;
-  padding-block-start: 0;
-
-  blockquote {
-    border-inline-start: 0;
-    padding-inline-start: 0;
-  }
-}

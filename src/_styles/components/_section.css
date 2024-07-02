@@ -3,13 +3,6 @@
   grid-column: content;
 }
 
-.section[aria-labelledby="testimonials"] {
-  border-image-outset: var(--gap) 100vw var(--gap) var(--gap);
-  border-image-repeat: space;
-  border-image-slice: fill 15;
-  border-image-source: url("/assets/vectors/dots.svg");
-}
-
 .section__header {
   padding-block-end: var(--space-s);
 }
