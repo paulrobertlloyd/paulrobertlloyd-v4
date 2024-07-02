@@ -4,12 +4,6 @@ title: Archives
 permalink: archives/
 ---
 {% render 'form/search' %}
-{% render 'section' with archives.on_this_day
-  id: 'on_this_day',
-  title: 'On this day'
-  itemsComponent: 'archive'
-  itemsGridSize: '7.5rem'
-%}
 {% render 'section' with archives.years
   id: 'browse',
   title: 'Browse by year'

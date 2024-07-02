@@ -60,19 +60,6 @@ function _generateMonths(startDate, endDate) {
 
 // eslint-disable-next-line unicorn/no-anonymous-default-export
 export default () => {
-  // On this day
-  const onThisDay = [
-    {
-      url: "/archives/on_this_day",
-      data: {
-        title: Intl.DateTimeFormat("en-GB", {
-          day: "numeric",
-          month: "long",
-        }).format(now),
-      },
-    },
-  ];
-
   // Year archives
   const archivedYears = _generateYears("2008-09", now);
   const yearArchives = archivedYears.map((year) => ({
@@ -135,7 +122,6 @@ export default () => {
   ];
 
   return {
-    on_this_day: onThisDay,
     years: yearArchives.reverse(),
     months: monthArchives,
     other: otherArchives,
