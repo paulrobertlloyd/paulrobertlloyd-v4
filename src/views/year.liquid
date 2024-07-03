@@ -16,7 +16,7 @@ eleventyComputed:
   id: 'browse',
   title: 'Browse by month'
   itemsComponent: 'archive'
-  itemsGridSize: '7.5rem'
+  itemsGridSize: '9rem'
 -%}
 {%- assign featured = collections.article | where_exp: 'item','item.data.tags contains "featured"' | includes: 'data.date',archive.fileSlug -%}
 {%- render 'section' with featured

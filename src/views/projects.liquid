@@ -2,10 +2,7 @@
 layout: index.liquid
 title: Projects
 summary: I help responsible organisations create purposeful digital products and services.
-introduction: |
-  I help responsible organisations create purposeful digital products and services.
-
-  Need a hand on your next project? [Get in touch](/contact/).
+introduction: I help responsible organisations create purposeful digital products and services.
 permalink: projects/
 ---
 {%- assign featured = collections.project | where_exp: 'item','item.data.tags contains "featured"' -%}
@@ -14,12 +11,12 @@ permalink: projects/
   title: 'Select case studies'
   scrollable: true
   itemsComponent: 'card'
-  itemsGridSize: '15rem'
+  itemsGridSize: '18rem'
 -%}
 {%- assign skills = collections.collection | where: 'data.post_type','project' -%}
 {%- render 'section' with skills
   id: 'skills'
   title: 'The work that I do'
   itemsComponent: 'archive'
-  itemsGridSize: '15rem'
+  itemsGridSize: '18rem'
 -%}
