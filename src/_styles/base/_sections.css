@@ -24,9 +24,11 @@ body {
   display: flex;
   flex-direction: column;
   font-family: var(--font-family-sans);
+  font-size: var(--font-size-s);
   margin: 0;
   min-block-size: 100vh;
   overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
 }
 
 @media screen {

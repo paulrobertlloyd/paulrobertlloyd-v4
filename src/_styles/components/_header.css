@@ -15,7 +15,8 @@
 }
 
 .header__title {
-  font-size: var(--font-size-2xl);
+  font-size: var(--font-size-3xl);
+  font-weight: 500;
   line-height: var(--line-height-tight);
 }
 

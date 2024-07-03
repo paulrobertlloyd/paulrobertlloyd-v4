@@ -28,20 +28,21 @@
   --font-family-monospace: "Söhne Mono", monospace;
   --line-height-tight: 1.125;
   --line-height-loose: 1.5;
-  --line-height-prose: 1.75;
-  --line-measure: 44rem;
+  --line-height-prose: 1.667;
+  --line-measure: 48rem;
   --word-spacing: 0;
   --text-spacing: 0 0.25em 0.125em 0.25em;
 
   /*
    * Fluid type scale
-   * @link https://utopia.fyi/type/calculator?c=400,15,1.125,1200,16,1.25,5,0,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l
+   * @link https://utopia.fyi/type/calculator?c=400,16,1.067,1200,18,1.2,5,0,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12
    */
-  --font-size-s: clamp(0.94rem, calc(0.91rem + 0.13vw), 1rem);
-  --font-size-m: clamp(1.06rem, calc(0.96rem + 0.39vw), 1.25rem);
-  --font-size-l: clamp(1.19rem, calc(1rem + 0.75vw), 1.56rem);
-  --font-size-xl: clamp(1.34rem, calc(1.03rem + 1.24vw), 1.95rem);
-  --font-size-2xl: clamp(1.69rem, calc(1.01rem + 2.72vw), 3.05rem);
+  --font-size-s: clamp(1rem, 0.9375rem + 0.25vw, 1.125rem);
+  --font-size-m: clamp(1.067rem, 0.8974rem + 0.6785vw, 1.4063rem);
+  --font-size-l: clamp(1.1385rem, 0.8288rem + 1.2386vw, 1.7578rem);
+  --font-size-xl: clamp(1.2148rem, 0.7235rem + 1.965vw, 2.1973rem);
+  --font-size-2xl: clamp(1.2962rem, 0.5709rem + 2.9008vw, 2.7466rem);
+  --font-size-3xl: clamp(1.383rem, 0.3579rem + 4.1005vw, 3.4332rem);
 
   /*
    * Fluid size scale
@@ -104,9 +105,9 @@
     --color-background: hsl(var(--tint) 8%);
     --color-highlight: hsl(60deg 100% 70% / 15%);
     --color-shadow: black;
-    --line-height-tight: calc(1.25em + 0.5vw);
-    --line-height-loose: calc(1.5em + 0.5vw);
-    --line-height-prose: calc(1.75em + 0.5vw);
+    --line-height-tight: calc(1.25em + 0.25vw);
+    --line-height-loose: calc(1.5em + 0.25vw);
+    --line-height-prose: calc(1.667em + 0.25vw);
     --word-spacing: 0.05em;
   }
 }
