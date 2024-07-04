@@ -70,20 +70,11 @@
   /* Animation */
   --transition-short: 0.15s;
 
-  /* Sticky title */
-  --sticky-title-block-size: 0;
-
   /* Align items with logo */
   --logo-inline-size: 10rem;
 
   /* Indicate the presence of dark mode styles */
   color-scheme: light dark;
-}
-
-@media (--from-medium-viewport) {
-  :root {
-    --sticky-title-block-size: calc(var(--font-size-2xl) + var(--gap));
-  }
 }
 
 @media print {
