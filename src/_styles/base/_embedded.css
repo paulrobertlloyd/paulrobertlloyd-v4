@@ -4,32 +4,26 @@
  * https://w3c.github.io/html/semantics-embedded-content
  */
 
-svg {
-  fill: currentcolor;
-}
-
 iframe,
-img,
-embed,
-object {
+img {
+  border: 0;
   display: block;
   page-break-inside: avoid;
 }
 
 iframe {
-  border: 0;
   inline-size: 100%;
 }
 
-img,
-embed,
-object {
+img {
   block-size: auto;
   max-inline-size: 100%;
-}
 
-@media (prefers-color-scheme: dark) {
-  img {
+  @media (prefers-color-scheme: dark) {
     filter: brightness(0.8) contrast(1.2);
   }
+}
+
+svg {
+  fill: currentcolor;
 }

@@ -41,11 +41,6 @@ abbr[title] {
   text-decoration: none;
 }
 
-sub,
-sup {
-  font-size: small;
-}
-
 sub {
   font-variant-position: sub;
 }
@@ -54,12 +49,8 @@ sup {
   font-variant-position: super;
 }
 
-cite {
-  font-style: italic;
-}
-
 :is(h1, h2, h3, h4, h5, h6) cite {
-  font-style: normal;
+  font-style: initial;
 }
 
 code,
