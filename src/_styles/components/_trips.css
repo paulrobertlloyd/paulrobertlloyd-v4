@@ -2,15 +2,17 @@
   caption {
     caption-side: top;
     color: var(--color-neutral-dark);
-    font-size: var(--font-size-m);
+    font: var(--font-subhead);
   }
 
-  time {
+  th:has(time) {
     color: var(--color-neutral-dark);
+    font: var(--font-meta);
   }
 
   * th:first-child,
   * th:last-child {
+    vertical-align: middle;
     inline-size: 15%;
   }
 }

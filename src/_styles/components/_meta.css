@@ -4,7 +4,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  line-height: var(--line-height-loose);
   max-inline-size: var(--line-measure);
 
   a {

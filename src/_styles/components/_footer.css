@@ -2,7 +2,7 @@
   align-items: baseline;
   color: var(--color-neutral-dark);
   display: flex;
-  line-height: var(--line-height-loose);
+  font-family: var(--font-family-monospace);
   padding-block-end: var(--space-s);
 
   a {

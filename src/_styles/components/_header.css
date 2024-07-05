@@ -15,15 +15,12 @@
 }
 
 .header__title {
-  font-size: var(--font-size-3xl);
-  font-weight: 500;
-  line-height: var(--line-height-tight);
+  font: var(--font-title);
 }
 
 .header__summary {
   color: var(--color-neutral-dark);
-  font-size: var(--font-size-l);
-  line-height: var(--line-height-loose);
+  font: var(--font-summary);
   max-inline-size: var(--line-measure);
   text-wrap: pretty;
 }

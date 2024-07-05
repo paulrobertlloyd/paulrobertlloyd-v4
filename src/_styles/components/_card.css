@@ -59,8 +59,7 @@
 }
 
 .card__title {
-  font-size: var(--font-size-m);
-  line-height: var(--line-height-tight);
+  font: var(--font-heading);
 }
 
 .card__title a::before {
@@ -90,6 +89,7 @@
 
 .card__footer {
   color: var(--color-neutral-dark);
+  font: var(--font-meta);
   margin-block-start: auto;
   padding: var(--space-s);
 }

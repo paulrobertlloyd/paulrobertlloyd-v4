@@ -1,5 +1,5 @@
 .item {
-  align-items: start;
+  align-items: baseline;
   border-block-start: var(--border-rule);
   display: grid;
   flex: 1;
@@ -17,8 +17,7 @@
 .item__title {
   --anchor-decoration: none;
 
-  font-size: var(--font-size-l);
-  line-height: var(--line-height-tight);
+  font: var(--font-heading);
 }
 
 /* Main */
@@ -45,9 +44,8 @@
   --anchor-decoration: none;
 
   color: var(--color-neutral-dark);
+  font: var(--font-meta);
   grid-area: footer;
-  line-height: var(--line-height-loose);
-  padding-block-start: calc(var(--space-2xs) / 2);
 }
 
 /* Comment item adaptions */

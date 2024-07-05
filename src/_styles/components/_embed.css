@@ -21,8 +21,7 @@
   p {
     flex-basis: 0;
     flex-grow: 999;
-    font-weight: 500;
-    line-height: var(--line-height-tight);
+    font: var(--font-subhead);
     min-inline-size: 40%;
   }
 

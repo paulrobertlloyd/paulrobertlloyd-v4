@@ -28,11 +28,10 @@
 }
 
 .main__title {
-  font-size: var(--font-size-3xl);
+  font: var(--font-title);
   grid-area: title;
   grid-column: content-end;
   grid-row: 1;
-  line-height: var(--line-height-tight);
   margin-block-end: var(--gap);
 }
 
@@ -53,8 +52,7 @@
 
 .main__introduction {
   color: var(--color-neutral-dark);
-  font-size: var(--font-size-l);
-  line-height: var(--line-height-loose);
+  font: var(--font-summary);
   max-inline-size: var(--line-measure);
   text-wrap: pretty;
 }

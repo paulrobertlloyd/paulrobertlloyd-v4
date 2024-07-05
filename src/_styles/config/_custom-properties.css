@@ -37,12 +37,27 @@
    * Fluid type scale
    * @link https://utopia.fyi/type/calculator?c=400,16,1.067,1200,18,1.2,5,0,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12
    */
+  --font-size-xs: 1rem;
   --font-size-s: clamp(1rem, 0.9375rem + 0.25vw, 1.125rem);
   --font-size-m: clamp(1.067rem, 0.8974rem + 0.6785vw, 1.4063rem);
   --font-size-l: clamp(1.1385rem, 0.8288rem + 1.2386vw, 1.7578rem);
   --font-size-xl: clamp(1.2148rem, 0.7235rem + 1.965vw, 2.1973rem);
   --font-size-2xl: clamp(1.2962rem, 0.5709rem + 2.9008vw, 2.7466rem);
   --font-size-3xl: clamp(1.383rem, 0.3579rem + 4.1005vw, 3.4332rem);
+
+  /* Font styles */
+  --font-title: 500 var(--font-size-3xl) / var(--line-height-tight)
+    var(--font-family-sans);
+  --font-summary: normal var(--font-size-l) / var(--line-height-loose)
+    var(--font-family-sans);
+  --font-heading: 500 var(--font-size-l) / var(--line-height-tight)
+    var(--font-family-sans);
+  --font-subhead: normal var(--font-size-m) / var(--line-height-loose)
+    var(--font-family-sans);
+  --font-caption: normal var(--font-size-s) / var(--line-height-loose)
+    var(--font-family-sans);
+  --font-meta: normal var(--font-size-xs) / var(--line-height-loose)
+    var(--font-family-monospace);
 
   /*
    * Fluid size scale

@@ -9,8 +9,7 @@
 
 .section__title {
   color: var(--color-neutral-dark);
-  font-size: var(--font-size-m);
-  line-height: var(--line-height-loose);
+  font: var(--font-subhead);
 }
 
 @media (--upto-medium-viewport) {

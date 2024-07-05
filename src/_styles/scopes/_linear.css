@@ -26,7 +26,7 @@
 
   & :is(caption, figcaption) {
     color: var(--color-neutral-dark);
-    line-height: var(--line-height-loose);
+    font: var(--font-caption);
   }
 
   & p + figure {
