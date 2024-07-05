@@ -87,28 +87,26 @@
 }
 
 .barchart__value .barchart__value-label {
+  --pointer-size: var(--space-2xs);
+
   background-color: var(--color-background);
-  border: var(--border-width-rule) solid var(--color-background);
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% calc(100% - var(--pointer-size)),
+    var(--pointer-size) calc(100% - var(--pointer-size)),
+    0 100%
+  );
   color: var(--color-text);
   display: none;
   filter: invert();
   font-size: 90%;
-  inset-block-start: -2.5em;
-  padding: var(--text-spacing);
+  inset-block-start: -3em;
+  padding-block: var(--pointer-size) calc(var(--pointer-size) * 2);
+  padding-inline: var(--space-xs);
   position: absolute;
   white-space: nowrap;
   z-index: 2;
-}
-
-.barchart__value .barchart__value-label::after {
-  border: var(--border-width-rule) solid var(--color-background);
-  border-block-end-color: transparent;
-  border-inline-end-color: transparent;
-  content: "";
-  display: block;
-  inset-block-end: calc(var(--border-width-rule) * 3 * -1);
-  inset-inline-start: calc(var(--border-width-rule) * -1);
-  position: absolute;
 }
 
 .barchart__value [style^="--chart-size"]:hover .barchart__value-label {
