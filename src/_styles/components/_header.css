@@ -15,7 +15,10 @@
 }
 
 .header__title {
+  align-items: end;
+  display: inline-flex;
   font: var(--font-title);
+  gap: var(--space-xs);
 }
 
 .header__summary {

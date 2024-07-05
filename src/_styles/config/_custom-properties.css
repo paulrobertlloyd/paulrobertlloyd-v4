@@ -86,9 +86,6 @@
   /* Animation */
   --transition-short: 0.15s;
 
-  /* Align items with logo */
-  --logo-inline-size: 10rem;
-
   /* Indicate the presence of dark mode styles */
   color-scheme: light dark;
 }

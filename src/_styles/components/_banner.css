@@ -9,7 +9,6 @@
   flex: 0;
   font-weight: 500;
   margin-inline-end: var(--gap);
-  min-inline-size: var(--logo-inline-size);
   white-space: nowrap;
 
   a {

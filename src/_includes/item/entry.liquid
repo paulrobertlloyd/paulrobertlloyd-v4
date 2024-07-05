@@ -34,7 +34,7 @@
     <time class="dt-published" datetime="{{ item.date | date: dates.iso }}">{{ item.date | date: dates.date }}</time>
 {%- else -%}
     <a class="u-url" rel="bookmark" href="{{ item.url }}">
-      <time class="dt-published" datetime="{{ item.date | date }}">{{ item.date | date: dates.date_time | replace: ', ','<br>' }}</time>
+      <time class="dt-published" datetime="{{ item.date | date }}">{{ item.date | date: dates.date_time }}</time>
     </a>
 {%- endif -%}
   </footer>

@@ -1,6 +1,4 @@
 .items {
-  --item-grid-template: "header" auto "main" auto "footer" 1fr / 1fr;
-
   display: grid;
   gap: var(--space-m-l) var(--gap);
   grid-template-columns: repeat(auto-fit, minmax(var(--grid-size), 1fr));
@@ -11,11 +9,6 @@
 }
 
 @media (--from-medium-viewport) {
-  .items:has(.item__footer) {
-    --item-grid-template: "footer header" auto "footer main" 1fr /
-      var(--logo-inline-size) 1fr;
-  }
-
   .items__item:not(:has(.card__image--photo)) {
     max-inline-size: calc(var(--grid-size) * 1.5);
   }
