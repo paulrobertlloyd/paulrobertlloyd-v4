@@ -14,6 +14,7 @@
   /* Colour assignments */
   --color-complement: hsl(184deg 100% 52%);
   --color-background: white;
+  --color-backdrop: var(--color-neutral-darkest);
   --color-offset: var(--color-neutral-lightest);
   --color-shadow: hsl(var(--tint) 16% / 10%);
   --color-text: var(--color-neutral-darkest);
@@ -109,6 +110,7 @@
     --color-neutral-lighter: hsl(var(--tint) 36%);
     --color-neutral-lightest: hsl(var(--tint) 16%);
     --color-background: hsl(var(--tint) 8%);
+    --color-backdrop: var(--color-neutral-lightest);
     --color-highlight: hsl(60deg 100% 70% / 15%);
     --color-shadow: black;
     --line-height-tight: calc(1.25em + 0.25vw);
