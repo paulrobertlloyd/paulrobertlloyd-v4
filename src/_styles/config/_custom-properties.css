@@ -1,25 +1,28 @@
-/* stylelint-disable number-no-trailing-zeros */
 :root {
   /* Neutral palette */
-  --tint: 244 6%;
-  --color-neutral-darkest: hsl(var(--tint) 16%);
-  --color-neutral-dark: hsl(var(--tint) 44%);
-  --color-neutral: hsl(var(--tint) 50%);
-  --color-neutral-light: hsl(var(--tint) 80%);
-  --color-neutral-lightest: hsl(var(--tint) 96%);
+  --color-neutral: hsl(240deg 8% 48%);
+  --color-neutral-darkest: hsl(from var(--color-neutral) h s 12%);
+  --color-neutral-dark: hsl(from var(--color-neutral) h s 40%);
+  --color-neutral-light: hsl(from var(--color-neutral) h s 80%);
+  --color-neutral-lightest: hsl(from var(--color-neutral) h s 96%);
+
+  /* Accent palette */
+  --color-accent-with-contrast: hsl(from var(--color-accent) h s calc(l - 25));
+
+  /* Focus palette */
+  --color-focus: hsl(40deg 100% 50%);
+
+  /* Highlight palette */
+  --color-highlight: hsl(56deg 100% 50%);
 
   /* Colour assignments */
-  --color-complement: hsl(184deg 100% 52%);
   --color-background: white;
-  --color-backdrop: var(--color-neutral-darkest);
   --color-offset: var(--color-neutral-lightest);
-  --color-shadow: hsl(var(--tint) 16% / 10%);
+  --color-shadow: hsl(from var(--color-neutral-darkest) h s l / 10%);
   --color-text: var(--color-neutral-darkest);
-  --color-text-focus: hsl(var(--tint) 16%); /* Ignore color-scheme */
+  --color-text-focus: hsl(from var(--color-neutral-darkest) h s 0);
   --color-link: var(--color-accent-with-contrast);
   --color-link-underline: var(--color-neutral-light);
-  --color-focus: hsl(48deg 100% 50%);
-  --color-highlight: hsl(48deg 100% 80% / 75%);
 
   /* Typography */
   --font-family-sans: "Söhne", sans-serif;
@@ -97,15 +100,23 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color-neutral-darkest: hsl(var(--tint) 96%);
-    --color-neutral-dark: hsl(var(--tint) 80%);
-    --color-neutral: hsl(var(--tint) 50%);
-    --color-neutral-light: hsl(var(--tint) 44%);
-    --color-neutral-lightest: hsl(var(--tint) 16%);
-    --color-background: hsl(var(--tint) 8%);
-    --color-backdrop: var(--color-neutral-lightest);
-    --color-highlight: hsl(60deg 100% 70% / 15%);
+    /* Neutral palette */
+    --color-neutral-darkest: hsl(from var(--color-neutral) h s 96%);
+    --color-neutral-dark: hsl(from var(--color-neutral) h s 80%);
+    --color-neutral-light: hsl(from var(--color-neutral) h s 24%);
+    --color-neutral-lightest: hsl(from var(--color-neutral) h s 16%);
+
+    /* Accent palette */
+    --color-accent-with-contrast: hsl(
+      from var(--color-accent) h s calc(l + 25)
+    );
+
+    /* Colour assignments */
+    --color-background: hsl(from var(--color-neutral-lightest) h s 8%);
+    --color-highlight: hsl(240deg 100% 66%);
     --color-shadow: black;
+
+    /* Typography */
     --line-height-tight: calc(1.25em + 0.25vw);
     --line-height-loose: calc(1.5em + 0.25vw);
     --line-height-prose: calc(1.667em + 0.25vw);

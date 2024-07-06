@@ -24,11 +24,11 @@
 }
 
 .barchart__caption abbr:first-of-type::before {
-  color: var(--color-accent-with-contrast);
+  color: var(--color-accent);
 }
 
 .barchart__caption abbr:last-of-type::before {
-  color: var(--color-complement);
+  color: var(--color-neutral-dark);
 }
 
 .barchart__items {
@@ -80,7 +80,7 @@
 }
 
 .barchart__value [style^="--chart-size"]:last-of-type {
-  background-color: var(--color-complement);
+  background-color: var(--color-neutral-dark);
   inline-size: 40%;
   inset-inline-end: 10%;
 }

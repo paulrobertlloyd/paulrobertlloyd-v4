@@ -223,7 +223,7 @@
     }
 
     li:has(.u-photo) {
-      background-color: var(--color-backdrop);
+      background-color: var(--color-shadow);
     }
 
     figure:has(img[src*="#screenshot"]) figcaption {

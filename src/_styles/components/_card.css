@@ -1,8 +1,11 @@
 .card {
   --anchor-decoration: none;
-  --color-accent: var(--color-accent-light);
-  --color-link: var(--color-accent);
   --card-growth: var(--space-s);
+  --color-link: hsl(from var(--color-accent) h s calc(l - 25));
+
+  @media (prefers-color-scheme: dark) {
+    --color-link: hsl(from var(--color-accent) h s calc(l + 30));
+  }
 
   background: var(--color-offset);
   display: flex;
@@ -12,12 +15,6 @@
   position: relative;
   transition-duration: var(--transition-short);
   transition-property: background-color, box-shadow, margin, padding;
-}
-
-@media (prefers-color-scheme: dark) {
-  .card {
-    --color-accent: var(--color-accent-dark);
-  }
 }
 
 .card:hover {
@@ -43,7 +40,7 @@
 }
 
 .card[style^="--color-accent"] .card__image {
-  background-color: var(--color-accent);
+  background-color: var(--color-link);
 }
 
 .card[style^="--color-accent"] .card__image img {
