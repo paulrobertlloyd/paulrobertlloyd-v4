@@ -218,9 +218,16 @@
     }
 
     li {
-      background-color: var(--color-backdrop);
       display: flex;
       justify-content: center;
+    }
+
+    li:has(.u-photo) {
+      background-color: var(--color-backdrop);
+    }
+
+    figure:has(img[src*="#screenshot"]) figcaption {
+      padding-inline: var(--gap);
     }
   }
 }
