@@ -23,10 +23,13 @@
     flex-grow: 999;
     font: var(--font-subhead);
     min-inline-size: 40%;
+
+    &::before {
+      content: "\25b6\a0" / "";
+    }
   }
 
   span {
-    color: var(--color-neutral-dark);
     display: block;
     font-size: var(--font-size-s);
     font-weight: normal;
@@ -34,23 +37,9 @@
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 1.5px;
-
-    &::before {
-      block-size: 0;
-      border-block-width: 0.4em;
-      border-color: transparent;
-      border-inline-start-color: inherit;
-      border-inline-start-width: 0.6em;
-      border-style: solid;
-      content: "";
-      display: inline-block;
-      inline-size: 0;
-      margin-inline-end: 0.25em;
-    }
   }
 
   &:hover span {
-    color: var(--color-neutral-darkest);
     text-decoration-thickness: 2px;
   }
 }
