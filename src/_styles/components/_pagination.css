@@ -1,7 +1,7 @@
 .pagination {
   --anchor-decoration: none;
 
-  border-block-start: var(--border-rule);
+  border-block-start: var(--border-rule-thick);
   display: flex;
   flex: 1;
 }

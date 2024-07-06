@@ -16,11 +16,11 @@
 
 @media (--upto-medium-viewport) {
   .items:has(.card__image--photo) {
-    --gap: var(--border-width-rule);
+    --gap: var(--border-width-thin);
 
     grid-template-columns: repeat(
       auto-fit,
-      minmax(calc(33% - calc(var(--border-width-rule) * 2)), 1fr)
+      minmax(calc(33% - calc(var(--border-width-thin) * 2)), 1fr)
     );
     margin-inline: calc(var(--space-s-m) * -1);
   }

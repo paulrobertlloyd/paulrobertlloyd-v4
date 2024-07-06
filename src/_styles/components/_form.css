@@ -19,7 +19,7 @@
 /* Input */
 .form__input {
   background-color: var(--color-background);
-  border: var(--border-width-rule) solid var(--color-neutral-lighter);
+  border: var(--border-width-thick) solid var(--color-neutral-lighter);
   flex: 1;
   inline-size: 100%;
   padding: var(--space-2xs);
@@ -37,9 +37,10 @@ textarea.form__input {
 /* Button */
 .form__button {
   background-color: var(--color-text);
+  border: 0;
   color: var(--color-neutral-lightest);
   font-weight: 500;
-  padding: var(--space-2xs) var(--space-s);
+  padding: var(--space-xs) var(--space-s);
 
   &:hover {
     background-color: var(--color-link);
@@ -55,9 +56,9 @@ textarea.form__input {
 /* Listbox */
 .form__listbox {
   background-color: var(--color-background);
-  border: var(--border-width-rule) solid var(--color-neutral-darker);
+  border: var(--border-width-thick) solid var(--color-neutral-darker);
   margin-block-start: calc(
-    calc(var(--space-s) + var(--border-width-rule)) * -1
+    calc(var(--space-s) + var(--border-width-thick)) * -1
   );
   max-block-size: 60vh;
   overflow-y: scroll;

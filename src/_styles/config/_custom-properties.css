@@ -77,8 +77,10 @@
 
   /* Borders */
   --border-width-focus: 3px;
-  --border-width-rule: 2px;
-  --border-rule: var(--border-width-rule) solid var(--color-offset);
+  --border-width-thin: 1px;
+  --border-width-thick: 3.5px;
+  --border-rule-thin: var(--border-width-thin) solid var(--color-offset);
+  --border-rule-thick: var(--border-width-thick) solid var(--color-offset);
 
   /* Grids */
   --gap: var(--space-s-m);

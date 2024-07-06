@@ -8,14 +8,14 @@
   img {
     flex-grow: 1;
     inline-size: 30rem;
-    margin-block-end: calc(var(--border-width-rule) * -1);
-    outline: var(--border-width-rule) solid var(--color-shadow);
-    outline-offset: calc(var(--border-width-rule) * -1);
+    margin-block-end: calc(var(--border-width-thick) * -1);
+    outline: var(--border-width-thick) solid var(--color-shadow);
+    outline-offset: calc(var(--border-width-thick) * -1);
     position: relative;
   }
 
   figcaption {
-    border-block-start: var(--border-rule);
+    border-block-start: var(--border-rule-thick);
     flex-basis: 0;
     flex-grow: 999;
     min-inline-size: 40%;

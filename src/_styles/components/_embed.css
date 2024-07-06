@@ -5,7 +5,7 @@
 
     align-items: center;
     background-color: var(--color-offset);
-    border-inline-start: var(--border-width-rule) solid var(--color-accent);
+    border-inline-start: var(--border-width-thick) solid var(--color-accent);
     display: flex;
     flex-wrap: wrap;
     gap: var(--flow-inset);

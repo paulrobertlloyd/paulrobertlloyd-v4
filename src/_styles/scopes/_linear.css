@@ -18,7 +18,7 @@
   }
 
   & > hr {
-    border-block-end: var(--border-width-rule) solid var(--color-accent);
+    border-block-end: var(--border-width-thick) solid var(--color-accent);
     inline-size: calc(33% - calc(var(--gap) / 2));
     margin-block: calc(var(--linear-flow-space) * 2);
     margin-inline-start: 0;
@@ -55,7 +55,7 @@
   }
 
   & blockquote {
-    border-inline-start: var(--border-width-rule) solid var(--color-accent);
+    border-inline-start: var(--border-width-thick) solid var(--color-accent);
     margin-inline-start: 0;
     padding-inline-start: var(--flow-inset, 1em);
   }
@@ -87,7 +87,7 @@
 
   & tbody th,
   & tbody td {
-    border-block-start: var(--border-width-rule) solid
+    border-block-start: var(--border-width-thin) solid
       var(--color-neutral-lighter);
   }
 
