@@ -31,8 +31,8 @@
   --line-height-loose: 1.5;
   --line-height-prose: 1.667;
   --line-measure: 48rem;
-  --word-spacing: 0;
   --text-spacing: 0 0.25em 0.125em 0.25em;
+  --word-spacing: 0;
 
   /*
    * Fluid type scale
@@ -90,12 +90,6 @@
 
   /* Indicate the presence of dark mode styles */
   color-scheme: light dark;
-}
-
-@media print {
-  :root {
-    --line-measure: 50rem;
-  }
 }
 
 @media (prefers-color-scheme: dark) {
