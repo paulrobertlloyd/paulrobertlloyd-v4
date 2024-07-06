@@ -93,27 +93,23 @@
 
   & [style^="--chart-width"] {
     background: repeating-linear-gradient(
-      to right,
-      var(--color-offset),
-      var(--color-offset) 1px,
-      transparent 1px,
-      transparent 5%
-    );
+        to right,
+        var(--color-neutral-lighter),
+        var(--color-neutral-lighter) 1px,
+        transparent 1px,
+        transparent 2%
+      ),
+      linear-gradient(
+        to right,
+        var(--color-neutral-light) var(--chart-width),
+        transparent var(--chart-width)
+      );
     display: inline-block;
     inline-size: 100%;
     margin-block: calc(var(--space-s) * -1);
     margin-inline-end: calc(var(--space-s) * -1);
     padding: var(--space-xs);
     position: relative;
-  }
-
-  & [style^="--chart-width"]::before {
-    background-color: var(--color-neutral-darkest-alpha);
-    content: "";
-    display: block;
-    inline-size: var(--chart-width);
-    inset: 0;
-    position: absolute;
   }
 
   & :is(aside, pre, table):not(:first-child) {

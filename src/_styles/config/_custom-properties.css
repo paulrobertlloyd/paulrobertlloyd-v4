@@ -3,7 +3,6 @@
   /* Neutral palette */
   --tint: 244 6%;
   --color-neutral-darkest: hsl(var(--tint) 16%);
-  --color-neutral-darkest-alpha: hsl(var(--tint) 16% / 20%);
   --color-neutral-darker: hsl(var(--tint) 36%);
   --color-neutral-dark: hsl(var(--tint) 44%);
   --color-neutral: hsl(var(--tint) 50%);
@@ -101,7 +100,6 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --color-neutral-darkest: hsl(var(--tint) 96%);
-    --color-neutral-darkest-alpha: hsl(var(--tint) 96% / 20%);
     --color-neutral-darker: hsl(var(--tint) 88%);
     --color-neutral-dark: hsl(var(--tint) 80%);
     --color-neutral: hsl(var(--tint) 50%);
