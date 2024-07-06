@@ -3,11 +3,9 @@
   /* Neutral palette */
   --tint: 244 6%;
   --color-neutral-darkest: hsl(var(--tint) 16%);
-  --color-neutral-darker: hsl(var(--tint) 36%);
   --color-neutral-dark: hsl(var(--tint) 44%);
   --color-neutral: hsl(var(--tint) 50%);
   --color-neutral-light: hsl(var(--tint) 80%);
-  --color-neutral-lighter: hsl(var(--tint) 88%);
   --color-neutral-lightest: hsl(var(--tint) 96%);
 
   /* Colour assignments */
@@ -100,11 +98,9 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --color-neutral-darkest: hsl(var(--tint) 96%);
-    --color-neutral-darker: hsl(var(--tint) 88%);
     --color-neutral-dark: hsl(var(--tint) 80%);
     --color-neutral: hsl(var(--tint) 50%);
     --color-neutral-light: hsl(var(--tint) 44%);
-    --color-neutral-lighter: hsl(var(--tint) 36%);
     --color-neutral-lightest: hsl(var(--tint) 16%);
     --color-background: hsl(var(--tint) 8%);
     --color-backdrop: var(--color-neutral-lightest);

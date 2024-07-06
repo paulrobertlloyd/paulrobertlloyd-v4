@@ -88,14 +88,14 @@
   & tbody th,
   & tbody td {
     border-block-start: var(--border-width-thin) solid
-      var(--color-neutral-lighter);
+      var(--color-neutral-light);
   }
 
   & [style^="--chart-width"] {
     background: repeating-linear-gradient(
         to right,
-        var(--color-neutral-lighter),
-        var(--color-neutral-lighter) 1px,
+        var(--color-neutral-light),
+        var(--color-neutral-light) 1px,
         transparent 1px,
         transparent 2%
       ),

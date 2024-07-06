@@ -28,7 +28,7 @@
 }
 
 .item__header + .item__main {
-  color: var(--color-neutral-darker);
+  color: var(--color-neutral-dark);
 }
 
 @media (--from-large-viewport) {

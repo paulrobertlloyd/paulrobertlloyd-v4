@@ -1,6 +1,6 @@
 .contentinfo {
   align-items: center;
-  color: var(--color-neutral-darker);
+  color: var(--color-neutral-dark);
   display: flex;
   flex-flow: row-reverse wrap;
   justify-content: space-evenly;
