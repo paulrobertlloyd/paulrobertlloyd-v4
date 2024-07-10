@@ -3,6 +3,7 @@
   border-image-repeat: space;
   border-image-slice: fill 15;
   border-image-source: url("/assets/vectors/dots.svg");
+  border-image-width: 15px;
   max-inline-size: var(--line-measure);
 }
 
