@@ -2,7 +2,6 @@
   align-items: baseline;
   color: var(--color-neutral-dark);
   display: flex;
-  font-family: var(--font-family-monospace);
   padding-block-end: var(--space-s);
 
   a {
