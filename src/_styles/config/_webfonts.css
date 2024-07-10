@@ -8,6 +8,9 @@
 @font-face {
   font-display: swap;
   font-family: "Söhne";
+  font-feature-settings:
+    "ss02" 1,
+    "case" 1;
   font-weight: normal;
   src: url("/assets/fonts/soehne-buch.woff2") format("woff2");
 }
@@ -15,6 +18,9 @@
 @font-face {
   font-display: swap;
   font-family: "Söhne";
+  font-feature-settings:
+    "ss02" 1,
+    "case" 1;
   font-style: italic;
   font-weight: normal;
   src: url("/assets/fonts/soehne-buch-kursiv.woff2") format("woff2");
@@ -23,6 +29,9 @@
 @font-face {
   font-display: swap;
   font-family: "Söhne";
+  font-feature-settings:
+    "ss02" 1,
+    "case" 1;
   font-weight: 500;
   src: url("/assets/fonts/soehne-kraftig.woff2") format("woff2");
 }
