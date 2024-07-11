@@ -2,27 +2,23 @@
   --anchor-decoration: none;
 
   border-block-start: var(--border-rule-thick);
+  column-gap: var(--space-s);
   display: flex;
-  flex: 1;
-}
+  flex-wrap: wrap;
 
-.pagination a {
-  align-items: center;
-  display: flex;
-  font-size: var(--font-size-m);
-  padding: var(--space-s);
-
-  &:first-of-type {
+  a {
+    font-size: var(--font-size-m);
     margin-inline-start: calc(var(--space-s) * -1);
+    padding: var(--space-s);
+
+    &[rel="prev"]::before {
+      content: "\2190\a0" / "";
+      font-family: system-ui, sans-serif;
+    }
+
+    &[rel="next"]::after {
+      content: "\a0\2192" / "";
+      font-family: system-ui, sans-serif;
+    }
   }
-}
-
-.pagination a[rel="prev"]::before {
-  content: "\2190\a0" / "";
-  font-family: system-ui, sans-serif;
-}
-
-.pagination a[rel="next"]::after {
-  content: "\a0\2192" / "";
-  font-family: system-ui, sans-serif;
 }

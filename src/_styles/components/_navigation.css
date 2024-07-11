@@ -1,16 +1,14 @@
 .navigation {
   display: flex;
 
+  @media print {
+    display: none;
+  }
+
   a {
     display: inline-flex;
     padding-block: var(--space-2xs);
-    padding-inline: var(--space-xs);
+    padding-inline: var(--space-s);
     white-space: nowrap;
-  }
-}
-
-@media print {
-  .navigation {
-    display: none;
   }
 }

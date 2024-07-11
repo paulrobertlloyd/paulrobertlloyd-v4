@@ -41,6 +41,10 @@ abbr[title] {
   text-decoration: none;
 }
 
+small {
+  font-size: unset;
+}
+
 sub {
   font-variant-position: sub;
 }

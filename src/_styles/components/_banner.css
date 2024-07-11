@@ -1,20 +1,18 @@
 .banner {
-  align-items: baseline;
+  column-gap: var(--space-s);
   display: flex;
   flex-wrap: wrap;
   padding-block: var(--space-s-m);
 }
 
 .banner__title {
-  flex: 0;
   font-weight: 500;
-  margin-inline-end: var(--gap);
   white-space: nowrap;
 
   a {
     color: var(--color-text);
     display: inline-flex;
-    margin-inline-start: calc(var(--space-s) * -1);
+    margin-inline-start: calc(var(--space-xs) * -1);
     padding-block: var(--space-2xs);
     padding-inline: var(--space-s);
   }
@@ -26,5 +24,4 @@
   flex: 1;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-inline: calc(var(--space-xs) * -1);
 }
