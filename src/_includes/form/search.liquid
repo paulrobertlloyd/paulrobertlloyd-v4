@@ -1,11 +1,15 @@
-<search class="form">
+<search>
   <site-search index="/archives/search.json">
-    <form class="form__field" action="https://duckduckgo.com" method="get">
-      <label class="form__label" id="q-label" for="q">Search this site</label>
-      <input class="form__input" name="q" type="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" title="Enter search keywords" placeholder="e.g. Brasilia, Design, Olympics…">
+    <form class="form" action="https://duckduckgo.com" method="get">
+      <div class="form__field">
+        <label class="form__label" id="q-label" for="q">Search this site</label>
+        <div class="form__input-wrapper">
+          <input class="form__input" id="q" name="q" type="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" title="Enter search keywords" placeholder="e.g. Brasilia, Design, Olympics…">
+          <button class="form__button" type="submit">Search</button>
+        </div>
+      </div>
       <input type="hidden" name="sites" value="{{ app.url }}">
       <input type="hidden" name="kl" value="uk-en">
-      <button class="form__button" type="submit">Search</button>
     </form>
     <template>
       <div role="combobox" aria-expanded="false" aria-owns="search-listbox" aria-haspopup="listbox">

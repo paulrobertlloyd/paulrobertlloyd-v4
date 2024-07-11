@@ -1,40 +1,10 @@
 .form {
+  display: grid;
   font-size: var(--font-size-m);
+  gap: var(--space-s);
   line-height: var(--line-height-loose);
 }
 
-.form__field {
-  display: flex;
-  flex-wrap: wrap;
-  margin-block-end: var(--space-s);
-}
-
-.form__label {
-  color: var(--color-neutral-dark);
-  display: block;
-  flex: 1 0 100%;
-  padding-block: var(--space-2xs);
-}
-
-/* Input */
-.form__input {
-  background-color: var(--color-background);
-  border: var(--border-width-thick) solid var(--color-neutral-light);
-  flex: 1;
-  inline-size: 100%;
-  padding: var(--space-2xs);
-
-  &:focus {
-    border-color: var(--color-neutral-darkest);
-    outline: var(--border-width-focus) solid var(--color-focus);
-  }
-}
-
-textarea.form__input {
-  block-size: 12em;
-}
-
-/* Button */
 .form__button {
   background-color: var(--color-text);
   border: 0;
@@ -47,19 +17,33 @@ textarea.form__input {
   }
 }
 
-/* Combobox */
-.form__combobox {
-  flex: 1;
-  position: relative;
+.form__input {
+  background-color: var(--color-background);
+  border: var(--border-width-thick) solid var(--color-neutral-light);
+  inline-size: 100%;
+  padding: var(--space-2xs);
+
+  &:focus {
+    border-color: var(--color-neutral-darkest);
+    outline: var(--border-width-focus) solid var(--color-focus);
+  }
 }
 
-/* Listbox */
+.form__input-wrapper {
+  display: flex;
+  gap: var(--space-2xs);
+}
+
+.form__label {
+  color: var(--color-neutral-dark);
+  display: inline-block;
+  padding-block: var(--space-2xs);
+}
+
 .form__listbox {
   background-color: var(--color-background);
   border: var(--border-width-thick) solid var(--color-neutral-darkest);
-  margin-block-start: calc(
-    calc(var(--space-s) + var(--border-width-thick)) * -1
-  );
+  margin-block-start: calc(var(--border-width-thick) * -1);
   max-block-size: 60vh;
   overflow-y: scroll;
   position: relative;

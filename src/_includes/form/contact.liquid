@@ -1,17 +1,15 @@
 <form class="form" name="contact" action="/thanks" method="post" data-netlify="true">
-  <ul class="form__fields" role="list">
-    <li class="form__field">
-      <label class="form__label" for="name">Your name</label>
-      <input class="form__input" id="name" name="name" type="text" required>
-    </li>
-    <li class="form__field">
-      <label class="form__label" for="email">Your email</label>
-      <input class="form__input" id="email" name="email" type="email" required>
-    </li>
-    <li class="form__field">
-      <label class="form__label" for="message">Message</label>
-      <textarea class="form__input" id="message" name="message" row="10" cols="20" required></textarea>
-    </li>
-  </ul>
+  <div class="form__field">
+    <label class="form__label" for="name">Your name</label>
+    <input class="form__input" id="name" name="name" type="text" required>
+  </div>
+  <div class="form__field">
+    <label class="form__label" for="email">Your email</label>
+    <input class="form__input" id="email" name="email" type="email" required>
+  </div>
+  <div class="form__field">
+    <label class="form__label" for="message">Message</label>
+    <textarea class="form__input" id="message" name="message" rows="5" required></textarea>
+  </div>
   <button class="form__button" type="submit">Send message</button>
 </form>
