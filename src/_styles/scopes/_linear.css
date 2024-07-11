@@ -71,17 +71,44 @@
     padding-inline: var(--gap);
   }
 
-  & table {
+  & table:not(:has([style^="--chart-width"])) {
     --linear-line-measure: auto;
 
+    background-attachment: local, local, scroll, scroll;
+    background-image: linear-gradient(
+        to right,
+        var(--color-background),
+        var(--color-background)
+      ),
+      linear-gradient(
+        to right,
+        var(--color-background),
+        var(--color-background)
+      ),
+      linear-gradient(to right, var(--color-shadow), transparent),
+      linear-gradient(to left, var(--color-shadow), transparent);
+    background-position:
+      left center,
+      right center,
+      left center,
+      right center;
+    background-repeat: no-repeat;
+    background-size:
+      var(--space-2xs) 100%,
+      var(--space-2xs) 100%,
+      var(--space-2xs) 100%,
+      var(--space-2xs) 100%;
+    display: inline-block;
     font-size: var(--font-size-s);
     inline-size: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
   }
 
   & th,
   & td {
-    padding: var(--space-s);
-    padding-block-end: var(--space-s);
+    padding-block: var(--space-s);
+    padding-inline-end: var(--gap);
     padding-inline-start: 0;
   }
 
@@ -91,19 +118,16 @@
       var(--color-neutral-light);
   }
 
+  & table:has([style^="--chart-width"]) {
+    inline-size: var(--linear-line-measure);
+  }
+
   & [style^="--chart-width"] {
-    background: repeating-linear-gradient(
-        to right,
-        var(--color-neutral-light),
-        var(--color-neutral-light) 1px,
-        transparent 1px,
-        transparent 2%
-      ),
-      linear-gradient(
-        to right,
-        var(--color-neutral-light) var(--chart-width),
-        transparent var(--chart-width)
-      );
+    background: linear-gradient(
+      to right,
+      var(--color-neutral-light) var(--chart-width),
+      transparent var(--chart-width)
+    );
     display: inline-block;
     inline-size: 100%;
     margin-block: calc(var(--space-s) * -1);

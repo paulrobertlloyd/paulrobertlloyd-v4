@@ -1,12 +1,12 @@
-<section class="trips s-linear" aria-labelledby="{{ id }}">
+<article class="s-linear" aria-labelledby="{{ id }}">
 {%- if trips.size > 0 %}
   <table>
-    <caption class="section__title" id="{{ id }}">{{ title }}</caption>
+    <caption id="{{ id }}">{{ title }}</caption>
     <thead>
       <tr>
-        <th>Date</th>
-        <th>Trip</th>
-        <th><abbr title="kilometers">km</abbr> /&nbsp;<abbr title="kilograms">kg</abbr></th>
+        <th style="inline-size: 20%">Date</th>
+        <th style="inline-size: 100%">Trip</th>
+        <th style="inline-size: 15%"><abbr title="kilometers">km</abbr> /&nbsp;<abbr title="kilograms">kg</abbr></th>
       </tr>
     </thead>
     <tbody>
@@ -23,8 +23,5 @@
     {%- endfor -%}
     </tbody>
   </table>
-{%- else -%}
-  <h2 class="section__title" id="{{ id }}">{{ title }}</h2>
-  <p>No trips recorded.</p>
 {%- endif -%}
-</section>
+</article>

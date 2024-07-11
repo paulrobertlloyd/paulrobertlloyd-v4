@@ -1,12 +1,9 @@
 .barchart {
-  display: flex;
-  flex-direction: column;
+  display: grid;
   max-inline-size: 100%;
   overflow-x: auto;
-}
 
-@media (--from-medium-viewport) {
-  .barchart {
+  @media (--from-medium-viewport) {
     overflow-x: visible;
   }
 }
@@ -19,16 +16,18 @@
   text-align: end;
 }
 
-.barchart__caption abbr::before {
-  content: "◼︎ ";
-}
+.barchart__caption {
+  abbr::before {
+    content: "◼︎ " / "";
+  }
 
-.barchart__caption abbr:first-of-type::before {
-  color: var(--color-accent);
-}
+  abbr:first-of-type::before {
+    color: var(--color-accent);
+  }
 
-.barchart__caption abbr:last-of-type::before {
-  color: var(--color-neutral-dark);
+  abbr:last-of-type::before {
+    color: var(--color-neutral-dark);
+  }
 }
 
 .barchart__items {
@@ -61,31 +60,31 @@
   block-size: 100%;
   display: flex;
   position: relative;
+
+  a {
+    display: contents;
+  }
+
+  [style^="--chart-size"] {
+    block-size: var(--chart-size);
+    display: block;
+    position: absolute;
+  }
+
+  [style^="--chart-size"]:first-of-type {
+    background-color: var(--color-accent);
+    inline-size: 40%;
+    inset-inline-start: 10%;
+  }
+
+  [style^="--chart-size"]:last-of-type {
+    background-color: var(--color-neutral-dark);
+    inline-size: 40%;
+    inset-inline-end: 10%;
+  }
 }
 
-.barchart__value a {
-  display: contents;
-}
-
-.barchart__value [style^="--chart-size"] {
-  block-size: var(--chart-size);
-  display: block;
-  position: absolute;
-}
-
-.barchart__value [style^="--chart-size"]:first-of-type {
-  background-color: var(--color-accent);
-  inline-size: 40%;
-  inset-inline-start: 10%;
-}
-
-.barchart__value [style^="--chart-size"]:last-of-type {
-  background-color: var(--color-neutral-dark);
-  inline-size: 40%;
-  inset-inline-end: 10%;
-}
-
-.barchart__value .barchart__value-label {
+.barchart__value-label {
   --pointer-size: var(--space-2xs);
 
   background-color: var(--color-background);

@@ -30,7 +30,7 @@ tbody th {
 }
 
 caption {
-  caption-side: bottom;
+  caption-side: top;
   text-align: start;
   text-wrap: pretty;
 }
