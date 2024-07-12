@@ -54,6 +54,12 @@ for = "/*.webmanifest"
   [headers.values]
   Content-Type = "application/manifest+json; charset=utf-8"
 
+[[headers]]
+for = "/.well-known/webfinger"
+
+  [headers.values]
+  Content-Type = "application/jrd+json; charset=UTF-8"
+
 [[redirects]]
 from = "/media/*"
 to = "https://ik.imagekit.io/paulrobertlloyd/:splat"
