@@ -22,6 +22,8 @@
     :root {
     {% if accent_color -%}
       {%- assign accent_color = accent_color -%}
+    {%- elsif location.locality -%}
+      {%- assign accent_color = location.locality | color -%}
     {%- elsif date -%}
       {%- assign accent_color = date | color -%}
     {%- else -%}
