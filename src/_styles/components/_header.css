@@ -1,9 +1,6 @@
 .header {
-  border-image-outset: calc(var(--gap) / 2) 100vw var(--gap) var(--gap);
-  border-image-repeat: space;
-  border-image-slice: fill 15;
-  border-image-source: url("/assets/vectors/dots.svg");
-  border-image-width: 15px;
+  border-image: url("/assets/vectors/dots.svg") fill 15 / 15px /
+    calc(var(--gap) / 2) 100vw var(--gap) var(--gap) space;
   max-inline-size: var(--line-measure);
 }
 

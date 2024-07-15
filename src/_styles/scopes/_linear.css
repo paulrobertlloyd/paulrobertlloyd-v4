@@ -108,8 +108,7 @@
   & th,
   & td {
     padding-block: var(--space-s);
-    padding-inline-end: var(--gap);
-    padding-inline-start: 0;
+    padding-inline: 0 var(--gap);
   }
 
   & tbody th,
