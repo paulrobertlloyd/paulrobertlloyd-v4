@@ -3,10 +3,9 @@
   <li>
     <a {% if item.rel %}rel="{{ item.rel }}" {% endif %}href="{{ item.url }}"{% if type contains item.post_type or page.url contains item.url %} aria-current="true"{% endif %}>
       {%- if item.icon -%}
-        {% icon item.icon 24 item.label %}
-      {%- else -%}
-        {{ item.label }}
+        {% icon item.icon 24 item.icon_label %}
       {%- endif -%}
+      {{ item.label }}
     </a>
   </li>
 {%- endfor %}

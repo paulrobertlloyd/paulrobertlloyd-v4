@@ -2,26 +2,30 @@
   column-gap: var(--space-s);
   display: flex;
   flex-wrap: wrap;
-  padding-block: var(--space-s-m);
+  justify-content: space-between;
+  padding-block: var(--gap);
 }
 
 .banner__title {
   font-weight: 500;
-  white-space: nowrap;
+
+  @media (--upto-small-viewport) {
+    width: 100%;
+  }
 
   a {
     color: var(--color-text);
     display: inline-flex;
     margin-inline-start: calc(var(--space-xs) * -1);
     padding-block: var(--space-2xs);
-    padding-inline: var(--space-s);
+    padding-inline: var(--space-xs);
   }
 }
 
 .banner__navigation {
   color: var(--color-neutral-dark);
   display: flex;
-  flex: 1;
   flex-wrap: wrap;
+  flex: 1;
   justify-content: space-between;
 }

@@ -33,9 +33,14 @@ export default {
       post_type: "itinerary",
     },
     {
-      label: "With Ukraine",
+      label: "Events",
+      url: "/events/",
+      post_type: "event",
+    },
+    {
       url: "https://www.withukraine.org/",
       icon: "flag_ukraine",
+      icon_label: "With Ukraine",
       rel: "external",
     },
   ],
@@ -57,43 +62,6 @@ export default {
       label: "Jams",
       url: "/jams/",
       post_type: "jam",
-    },
-    {
-      label: "Events",
-      url: "/events/",
-      post_type: "event",
-    },
-  ],
-  social: [
-    {
-      label: "Mastodon",
-      icon: "mastodon",
-      url: "https://mastodon.social/@paulrobertlloyd",
-      rel: "me external",
-    },
-    {
-      label: "Micro.blog",
-      icon: "micro_blog",
-      url: "https://micro.blog/paulrobertlloyd",
-      rel: "me external",
-    },
-    {
-      label: "Flickr",
-      icon: "flickr",
-      url: "https://flickr.com/people/paulrobertlloyd",
-      rel: "me external",
-    },
-    {
-      label: "GitHub",
-      icon: "github",
-      url: "https://github.com/paulrobertlloyd",
-      rel: "me authn external",
-    },
-    {
-      label: "LinkedIn",
-      icon: "linkedin",
-      url: "https://www.linkedin.com/in/paulrobertlloyd",
-      rel: "me external",
     },
   ],
 };

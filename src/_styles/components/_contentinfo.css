@@ -6,14 +6,9 @@
   justify-content: space-between;
   padding-block: var(--gap);
 
-  .navigation {
-    flex-wrap: wrap;
-    justify-content: start;
-    margin-inline-start: calc(var(--space-s) * -1);
-  }
-
   small {
     margin-inline-start: calc(var(--space-s) * -1);
+    min-inline-size: fit-content;
     padding-block: var(--space-2xs);
     padding-inline: var(--space-s);
   }
