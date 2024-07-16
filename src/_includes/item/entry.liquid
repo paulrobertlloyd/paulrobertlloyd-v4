@@ -31,10 +31,10 @@
 
   <footer class="item__footer">
 {%- if item.data.title -%}
-    <time class="dt-published" datetime="{{ item.date | date: dates.iso }}">{{ item.date | date: dates.date }}</time>
+    <time class="dt-published" datetime="{{ item.data.published | date: dates.iso }}">{{ item.data.published | date: dates.date }}</time>
 {%- else -%}
     <a class="u-url" rel="bookmark" href="{{ item.url }}">
-      <time class="dt-published" datetime="{{ item.date | date }}">{{ item.date | date: dates.date_time }}</time>
+      <time class="dt-published" datetime="{{ item.data.published | date }}">{{ item.data.published | date: dates.date_time }}</time>
     </a>
 {%- endif -%}
   </footer>

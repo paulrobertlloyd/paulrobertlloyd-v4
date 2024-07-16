@@ -4,6 +4,7 @@ export default {
   id: (data) => getId(data),
   page_title: (data) => (data.page.url === "/" ? false : data.title),
   page_image: (data) => data.photo && data.photo[0],
+  published: (data) => data?.start || data?.date || data.page.date,
   canonical_url: (data) => data.canonical?.url || data.app.url + data.page.url,
   summary_image: (data) =>
     data.page_image

@@ -3,7 +3,7 @@ layout: default.liquid
 ---
 {%- assign comments = collections.comments | where: 'data.article_id',id | first -%}
 {%- render 'footer'
-  date: date
+  published: published
   location: location
   canonical: canonical
   collections: collections

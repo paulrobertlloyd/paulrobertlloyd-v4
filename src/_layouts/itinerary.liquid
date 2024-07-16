@@ -3,7 +3,7 @@ layout: default.liquid
 ---
 {%- assign itinerary = collections.trip | itinerary: trip_id -%}
 {%- render 'footer-event'
-  date: date
+  published: published
   start: itinerary.start
   end: itinerary.end
   vocabulary: vocabulary

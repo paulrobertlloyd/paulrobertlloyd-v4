@@ -3,7 +3,7 @@ layout: default.liquid
 ---
 {%- assign comments = collections.comments | where: 'data.bookmark_id',id | first -%}
 {%- render 'footer'
-  date: date
+  published: published
 -%}
 {%- render 'header'
   title: title

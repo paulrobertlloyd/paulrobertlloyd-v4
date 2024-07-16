@@ -4,7 +4,7 @@ layout: default.liquid
 {%- assign related = collections.itinerary | includes: 'data.trip_id',id | first -%}
 {%- assign formattedTitle = title | replace: ' ➔ ','\n➔ ' -%}
 {%- render 'footer'
-  date: start
+  published: published
 -%}
 {%- render 'header'
   title: formattedTitle

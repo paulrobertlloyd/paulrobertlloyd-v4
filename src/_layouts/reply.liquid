@@ -1,10 +1,10 @@
 ---
 layout: default.liquid
 eleventyComputed:
-  page_title: "Reply: {{ date | date: dates.date_time }}"
+  page_title: "Reply: {{ published | date: dates.date_time }}"
 ---
 {%- render 'footer'
-  date: date
+  published: published
   show_time: true
   time_zone: time_zone
   location: location

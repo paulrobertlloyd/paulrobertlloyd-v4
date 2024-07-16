@@ -12,7 +12,9 @@ permalink: "events/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumb
   {%- render 'section' with collections.attending
     id: 'attending'
     title: 'Attending'
-    itemsComponent: 'event'
+    scrollable: true
+    itemsComponent: 'card'
+    itemsGridSize: '18rem'
   -%}
 {%- endif %}
 {%- render 'section' with pagination.items

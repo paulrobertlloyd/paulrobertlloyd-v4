@@ -101,11 +101,6 @@ export default async () => {
         item.presented = true;
       }
 
-      // Published
-      if (event.created) {
-        item.date = DateTime.fromISO(event.created.value).toISO();
-      }
-
       // Start date time
       if (event.dtstart) {
         item.start = DateTime.fromISO(event.dtstart.value).toISO();
