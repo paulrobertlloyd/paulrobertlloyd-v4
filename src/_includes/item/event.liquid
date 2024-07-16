@@ -2,8 +2,8 @@
   <header class="item__header">
     <h3 class="item__title | p-name">
       <a class="u-url" rel="bookmark" href="{{ item.url }}">
-        {% if item.data.icon != "" %}{% icon item.data.icon %}{% endif %}
-        {{ item.data.title | markdown: 'inline' }}
+        {%- icon item.data.icon -%}
+        {{- item.data.title | markdown: 'inline' -}}
       </a>
     </h3>
   </header>

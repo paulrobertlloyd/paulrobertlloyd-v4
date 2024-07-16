@@ -5,8 +5,8 @@
     <a class="card__image card__image--photo | u-url" rel="bookmark" href="{{ item.url }}">
       {%- image item.data.page_image, 'card-square', 'u-photo' -%}
       {%- if item.data.photo.size > 1 -%}
-        {% assign label = " photos in this post" | prepend: item.data.photo.size %}
-        {% icon "photos" 20 label %}
+        {%- assign label = " photos in this post" | prepend: item.data.photo.size -%}
+        {%- icon 'photos' 20 label -%}
       {%- endif -%}
     </a>
   {%- else -%}
@@ -18,7 +18,10 @@
 
     <header class="card__header">
       <h3 class="card__title | p-name">
-        <a class="u-url" rel="bookmark" href="{{ item.url }}">{{ item.data.title | markdown: 'inline' }}</a>
+        <a class="u-url" rel="bookmark" href="{{ item.url }}">
+          {%- icon item.data.icon -%}
+          {{- item.data.title | markdown: 'inline' -}}
+        </a>
       </h3>
     </header>
 

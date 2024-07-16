@@ -1,7 +1,7 @@
 <header class="header">
   <h1 class="header__title{% if vocabulary %} | p-name{% endif %}">
-    {% if icon %}{% icon icon %}{% endif %}
-    {{ title | newline_to_br }}
+    {%- icon icon -%}
+    {{- title | newline_to_br -}}
   </h1>
 {%- if summary -%}
   <div class="header__summary{% if vocabulary %} | p-summary{% endif %}">
