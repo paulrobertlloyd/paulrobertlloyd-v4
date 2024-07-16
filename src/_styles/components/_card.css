@@ -57,22 +57,28 @@
 
 .card__title {
   font: var(--font-heading);
-}
 
-.card__title a::before {
-  content: "";
-  inset: 0;
-  position: absolute;
-  z-index: 2;
-}
+  a {
+    align-items: center;
+    display: inline-flex;
+    gap: var(--space-2xs);
 
-.card__title a:focus {
-  outline: 0;
-}
+    &::before {
+      content: "";
+      inset: 0;
+      position: absolute;
+      z-index: 2;
+    }
 
-.card__title a:focus::before {
-  outline: var(--border-width-focus) solid var(--color-focus);
-  outline-offset: calc(var(--border-width-focus) * -1);
+    &:focus {
+      outline: 0;
+    }
+
+    &:focus::before {
+      outline: var(--border-width-focus) solid var(--color-focus);
+      outline-offset: calc(var(--border-width-focus) * -1);
+    }
+  }
 }
 
 .card__main {
@@ -91,7 +97,7 @@
   padding: var(--space-s);
 }
 
-.card svg {
+.card__image--photo svg {
   color: white;
   inset-block-start: var(--space-xs);
   inset-inline-end: var(--space-xs);
