@@ -2,9 +2,7 @@
   <dl>
 {%- if published -%}
     <dt class="visually-hidden">Published on</dt>
-    <dd>
-      <time class="dt-published" datetime="{{ published | date }}">{% if show_time %}{{ published | date: dates.date_time_tz, time_zone | replace: "(Europe/London)", "" }}{% else %}{{ published | date: dates.date }}{% endif %}</time>
-    </dd>
+    <dd>{% datetime published start end time_zone title %}</dd>
 {%- endif -%}
 {%- if location -%}
     <dt class="visually-hidden">Published in</dt>

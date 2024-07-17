@@ -3,6 +3,7 @@ layout: default.liquid
 ---
 {%- assign comments = collections.comments | where: 'data.bookmark_id',id | first -%}
 {%- render 'footer'
+  title: title
   published: published
 -%}
 {%- render 'header'

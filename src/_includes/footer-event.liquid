@@ -1,17 +1,7 @@
 <footer class="footer">
   <dl>
     <dt class="visually-hidden">Date</dt>
-    {%- assign dateStart = start | date: dates.date -%}
-    {%- assign dateEnd = end | date: dates.date -%}
-    <dd>
-      {%- if dateStart != dateEnd -%}
-        <time class="dt-start" datetime="{{ start | date }}">{{ start | date: dates.date }}</time> -
-        <time class="dt-end" datetime="{{ end | date }}">{{ end | date: dates.date }}</time>
-      {%- else -%}
-        <time class="dt-start" datetime="{{ start | date }}">{{ start | date: dates.date_time }}</time>
-        <time class="dt-end" datetime="{{ end | date }}"></time>
-      {%- endif -%}
-    </dd>
+    <dd>{% datetime published start end time_zone %}</dd>
 {%- if location.name -%}
     <dt class="visually-hidden">Location</dt>
     <dd class="p-location h-card">

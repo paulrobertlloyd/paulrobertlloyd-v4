@@ -14,7 +14,7 @@
 
   <footer class="item__footer">
     <a class="u-url" rel="bookmark" href="#comment-{{ id }}">
-      <time class="dt-published" datetime="{{ item.published | date }}">{{ item.published | date: dates.date_time }}</time>
+      {% datetime item.published %}
     </a>
   </footer>
 </article>

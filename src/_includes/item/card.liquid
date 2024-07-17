@@ -34,7 +34,7 @@
 
   {%- if item.data.type != 'project' and hideFooter != true -%}
     <footer class="card__footer">
-      <time class="dt-published" datetime="{{ item.data.published | date }}">{{ item.data.published | date: dates.date }}</time>
+      {% datetime item.data.published item.data.start item.data.end item.data.time_zone item.data.title %}
     </footer>
   {%- endif -%}
 </article>
