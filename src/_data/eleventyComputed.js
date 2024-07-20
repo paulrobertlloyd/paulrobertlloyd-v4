@@ -1,3 +1,4 @@
+/*eslint no-unused-vars: ["error", { "ignoreRestSiblings": true }]*/
 import { getColor } from "../../lib/utils/color.js";
 import { getId } from "../../lib/utils/id.js";
 
@@ -6,6 +7,7 @@ export default {
   page_title: (data) => (data.page.url === "/" ? false : data.title),
   page_image: (data) => data.photo && data.photo[0],
   published: (data) => data?.start || data?.date || data.page.date,
+  properties: ({ collections, eleventy, page, pkg, ...rest }) => rest,
   canonical_url: (data) => data.canonical?.url || data.app.url + data.page.url,
   summary_image: (data) =>
     data.page_image
