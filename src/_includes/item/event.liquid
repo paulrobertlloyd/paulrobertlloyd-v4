@@ -18,6 +18,6 @@
 {%- endif -%}
 
   <footer class="item__footer">
-    {% app_datetime item.data.published item.data.start item.data.end %}
+    {{ item.data | datetime }}
   </footer>
 </article>

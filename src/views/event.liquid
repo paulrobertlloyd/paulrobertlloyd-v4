@@ -21,5 +21,8 @@ eleventyComputed:
   location:
     name: "{{ event.location.name }}"
   presented: "{{ event.presented }}"
+  properties:
+    start: "{{ event.start }}"
+    end: "{{ event.end }}"
 ---
 {{ event.content | markdown }}

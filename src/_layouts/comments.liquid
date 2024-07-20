@@ -4,8 +4,7 @@ eleventyComputed:
   page_title: "{{ comments.size | pluralise: 'comment' }} on ‘{{ title }}’"
 ---
 {%- render 'footer'
-  title: title
-  published: published
+  properties: properties
 -%}
 {%- render 'header'
   title: page_title

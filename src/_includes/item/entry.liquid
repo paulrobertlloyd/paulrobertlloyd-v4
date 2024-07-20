@@ -31,10 +31,10 @@
 
   <footer class="item__footer">
 {%- if item.data.title -%}
-    {% app_datetime item.data.published item.data.start item.data.end item.data.time_zone item.data.title %}
+    {{ item.data | datetime }}
 {%- else -%}
     <a class="u-url" rel="bookmark" href="{{ item.url }}">
-      {% app_datetime item.data.published item.data.start item.data.end item.data.time_zone %}
+      {{ item.data | datetime }}
     </a>
 {%- endif -%}
   </footer>

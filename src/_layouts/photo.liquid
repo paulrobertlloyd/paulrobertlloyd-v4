@@ -4,8 +4,7 @@ eleventyComputed:
   page_title: "{{ photo.size | pluralise: 'photo' }}: {{ published | date: dates.date_time }}"
 ---
 {%- render 'footer'
-  published: published
-  time_zone: time_zone
+  properties: properties
   location: location
   geo: geo
   in_reply_to: in_reply_to
