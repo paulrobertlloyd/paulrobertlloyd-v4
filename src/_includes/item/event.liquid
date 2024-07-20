@@ -2,7 +2,7 @@
   <header class="item__header">
     <h3 class="item__title | p-name">
       <a class="u-url" rel="bookmark" href="{{ item.url }}">
-        {%- icon item.data.icon -%}
+        {%- app_icon item.data.icon -%}
         {{- item.data.title | markdown: 'inline' -}}
       </a>
     </h3>
@@ -18,6 +18,6 @@
 {%- endif -%}
 
   <footer class="item__footer">
-    {% datetime item.data.published item.data.start item.data.end %}
+    {% app_datetime item.data.published item.data.start item.data.end %}
   </footer>
 </article>

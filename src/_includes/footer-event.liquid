@@ -1,7 +1,7 @@
 <footer class="footer">
   <dl>
     <dt class="visually-hidden">Date</dt>
-    <dd>{% datetime published start end time_zone %}</dd>
+    <dd>{% app_datetime published start end time_zone %}</dd>
 {%- if location.name -%}
     <dt class="visually-hidden">Location</dt>
     <dd class="p-location h-card">

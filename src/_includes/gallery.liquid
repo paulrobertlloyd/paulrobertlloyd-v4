@@ -1,5 +1,5 @@
 <ul style="--columns: {{ columns | default: gallery.size }}">
 {%- for image in gallery -%}
-  <li>{% image image, imagePreset, imageClass -%}</li>
+  <li>{% app_image image, imagePreset, imageClass -%}</li>
 {% endfor %}
 </ul>

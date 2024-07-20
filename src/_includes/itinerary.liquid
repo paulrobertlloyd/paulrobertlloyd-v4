@@ -2,7 +2,7 @@
 {%- for stop in itinerary %}
   <li>
     {%- unless forloop.first -%}
-      {%- icon stop.icon %}
+      {%- app_icon stop.icon %}
     {% endunless -%}
     {{ stop.label }}, {{ stop.country_name }}
   </li>

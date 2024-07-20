@@ -2,7 +2,7 @@
   <dl>
 {%- if published -%}
     <dt class="visually-hidden">Published on</dt>
-    <dd>{% datetime published start end time_zone title %}</dd>
+    <dd>{% app_datetime published start end time_zone title %}</dd>
 {%- endif -%}
 {%- if location -%}
     <dt class="visually-hidden">Published in</dt>
