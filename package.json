@@ -17,7 +17,7 @@
   "bugs": "https://github.com/paulrobertlloyd/paulrobertlloyd-v4/issues",
   "scripts": {
     "build": "eleventy --quiet",
-    "start": "eleventy --incremental --serve",
+    "start": "eleventy --quiet --incremental --serve",
     "dev": "node --env-file .env --run start",
     "lint:format": "prettier . --check",
     "lint:format:fix": "prettier . --write",
