@@ -11,8 +11,8 @@
 {%- if item.data.location.name != "false" -%}
   <div class="item__main s-linear | p-location">
     <p class="h-card">
-      at <span class="p-name">{{ item.data.location.name }}</span>
-      {%- if item.data.location.locality %}, <span class="p-adr h-adr p-locality">{{ item.data.location.locality }}</span>{% endif %}
+      at <span class="p-name">{{ item.data.location.name }}</span>,
+      {{ item.data | adr }}
     </p>
   </div>
 {%- endif -%}

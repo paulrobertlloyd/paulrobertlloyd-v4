@@ -20,9 +20,15 @@ eleventyComputed:
   end: "{{ event.end }}"
   location:
     name: "{{ event.location.name }}"
+    locality: "{{ event.location.locality }}"
+    country_name: "{{ event.location.country_name }}"
   presented: "{{ event.presented }}"
   properties:
     start: "{{ event.start }}"
     end: "{{ event.end }}"
+    location:
+      name: "{{ event.location.name }}"
+      locality: "{{ event.location.locality }}"
+      country_name: "{{ event.location.country_name }}"
 ---
 {{ event.content | markdown }}

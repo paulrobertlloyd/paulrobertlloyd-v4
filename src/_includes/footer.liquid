@@ -2,12 +2,9 @@
   <dl>
     <dt class="visually-hidden">Published on</dt>
     <dd>{{ properties | datetime }}</dd>
-{%- if location -%}
+{%- if properties.location -%}
     <dt class="visually-hidden">Published in</dt>
-    <dd class="p-location h-adr">
-      <span class="p-locality">{{ location.locality }}</span>,
-      <span class="p-country-name">{{ location.country_name }}</span>
-    </dd>
+    <dd class="p-location">{{ properties | adr }}</dd>
 {%- endif -%}
 {%- if geo -%}
     <dt class="visually-hidden">Coordinates</dt>

@@ -2,11 +2,11 @@
   <dl>
     <dt class="visually-hidden">Date</dt>
     <dd>{{ properties | datetime }}</dd>
-{%- if location.name -%}
+{%- if properties.location.name -%}
     <dt class="visually-hidden">Location</dt>
     <dd class="p-location h-card">
-      <span class="p-name">{{ location.name }}</span>
-      {%- if location.locality %}, <span class="p-adr h-adr p-locality">{{ location.locality }}</span>{% endif %}
+      <span class="p-name">{{ properties.location.name }}</span>,
+      {{ properties | adr }}
     </dd>
 {%- endif -%}
   </dl>
