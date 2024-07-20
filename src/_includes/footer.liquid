@@ -6,15 +6,6 @@
     <dt class="visually-hidden">Published in</dt>
     <dd class="p-location">{{ properties | adr }}</dd>
 {%- endif -%}
-{%- if geo -%}
-    <dt class="visually-hidden">Coordinates</dt>
-    <dd class="p-location h-geo">
-      <a href="https://duckduckgo.com/?q={{ geo.latitude }},{{ geo.longitude }}&iaxm=places">
-        <data class="p-latitude" value="{{ geo.latitude }}">{{ geo.latitude | round: 2 }}<abbr title="degrees">°</abbr> <abbr title="North">N</abbr></data>,
-        <data class="p-longitude" value="{{ geo.longitude }}">{{ geo.longitude | round: 2 }}<abbr title="degrees">°</abbr> <abbr title="East">E</abbr></data>
-      </a>
-    </dd>
-{%- endif -%}
 {%- if in_reply_to -%}
     <dt>In reply to</dt>
     <dd>
