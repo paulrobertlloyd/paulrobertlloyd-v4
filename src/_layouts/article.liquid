@@ -4,8 +4,7 @@ layout: default.liquid
 {%- assign comments = collections.comments | where: 'data.article_id',id | first -%}
 {%- render 'footer'
   properties: properties
-  canonical: canonical
-  collections: collections
+  publication: publication
 -%}
 {%- render 'header'
   title: title

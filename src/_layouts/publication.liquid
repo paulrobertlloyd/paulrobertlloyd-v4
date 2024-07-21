@@ -6,5 +6,5 @@ layout: default.liquid
   summary: summary
   uid: uid
 -%}
-{%- assign items = collections.article | publication: issn,uid -%}
+{%- assign items = collections.article | where: "data.publication.title", title -%}
 {%- render 'items' with items -%}

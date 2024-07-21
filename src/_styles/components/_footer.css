@@ -4,10 +4,6 @@
   display: flex;
   padding-block-end: var(--space-s);
 
-  a {
-    text-decoration: none;
-  }
-
   cite {
     font-style: normal;
   }

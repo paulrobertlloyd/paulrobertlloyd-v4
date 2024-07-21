@@ -12,26 +12,16 @@
       <a class="u-in-reply-to" href="{{ properties.in_reply_to }}">a post on {{ properties.in_reply_to | hostname }}</a>
     </dd>
 {%- endif -%}
-{%- if canonical -%}
-  {%- for publication in collections.publication -%}
-    {%- if canonical.url contains publication.data.url -%}
-      <dt>Originally published by</dt>
-      <dd>
-        <a rel="canonical external" href="{{ canonical.url }}"><cite>{{ publication.data.title }}</cite></a>
-      </dd>
-      {%- assign processed = true -%}
-    {%- elsif canonical.issn and canonical.issn == publication.data.issn -%}
-      <dt>Originally appeared in</dt>
-      <dd>
-        <cite>{{ publication.data.title }}</cite>
-        {%- if canonical.edition %}, {{ canonical.edition }}{% endif -%}
-      </dd>
-    {%- endif -%}
-  {%- endfor -%}
-  {%- if canonical.url and processed != true -%}
-    <dt>Also published at</dt>
-    <dd><a rel="canonical external" href="{{ canonical.url }}">{{ canonical.url | hostname }}</cite></a></dd>
-  {%- endif -%}
+{%- if publication -%}
+    <dt>Originally published by</dt>
+    <dd>
+{%- if properties.canonical.url -%}
+      <a rel="canonical external" href="{{ properties.canonical.url }}"><cite>{{ publication.title }}</cite></a>
+{%- elsif publication.issn -%}
+      <cite>{{ publication.title }}</cite>
+{%- endif -%}
+      {%- if properties.canonical.edition %} in {{ properties.canonical.edition }}{% endif -%}
+    </dd>
 {%- endif -%}
   </dl>
 </footer>

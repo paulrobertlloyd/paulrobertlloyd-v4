@@ -9,6 +9,17 @@ export default {
   published: (data) => data?.start || data?.date || data.page.date,
   properties: ({ collections, eleventy, page, pkg, ...rest }) => rest,
   canonical_url: (data) => data.canonical?.url || data.app.url + data.page.url,
+  publication: (data) => {
+    const { collections, canonical } = data;
+    const publication = collections.publication.find((item) => {
+      const { issn, uid } = item.data;
+      return (
+        (issn && canonical?.issn === issn) ||
+        (uid && canonical?.url?.includes(uid))
+      );
+    });
+    return publication?.data;
+  },
   summary_image: (data) =>
     data.page_image
       ? `${data.page_image.url}?tr=w-1200,h-630`
