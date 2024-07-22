@@ -23,17 +23,8 @@ a[aria-current] {
 }
 
 a[rel="tag"] {
-  text-decoration: none;
   white-space: nowrap;
   word-spacing: -0.25ch;
-}
-
-a[rel="tag"]::before {
-  content: "#";
-}
-
-a[rel="tag"]:hover::before {
-  opacity: 1;
 }
 
 /* Correct text decoration in Chrome/Edge/IE/Opera/Safari */

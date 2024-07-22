@@ -12,16 +12,5 @@
       <a class="u-in-reply-to" href="{{ properties.in_reply_to }}">a post on {{ properties.in_reply_to | hostname }}</a>
     </dd>
 {%- endif -%}
-{%- if publication -%}
-    <dt>Originally published by</dt>
-    <dd>
-{%- if properties.canonical.url -%}
-      <a rel="canonical external" href="{{ properties.canonical.url }}"><cite>{{ publication.title }}</cite></a>
-{%- elsif publication.issn -%}
-      <cite>{{ publication.title }}</cite>
-{%- endif -%}
-      {%- if properties.canonical.edition %} in {{ properties.canonical.edition }}{% endif -%}
-    </dd>
-{%- endif -%}
   </dl>
 </footer>

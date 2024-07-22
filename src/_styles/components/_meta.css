@@ -1,23 +1,25 @@
 .meta {
-  align-items: baseline;
   color: var(--color-neutral-dark);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
   max-inline-size: var(--line-measure);
 
-  a {
-    color: var(--color-link);
-    text-decoration: none;
-    white-space: nowrap;
+  dt {
+    font-weight: 500;
+    padding-block-start: var(--space-xs);
+    position: relative;
+
+    &::before {
+      border-block-start: var(--border-rule-thin);
+      content: "";
+      inset: 0;
+      position: absolute;
+    }
+
+    &:first-of-type::before {
+      border-block-start-width: var(--border-width-thick);
+    }
   }
 
-  div {
-    padding-block-end: var(--space-2xs);
-  }
-
-  dt,
   dd {
-    display: inline;
+    padding-block: var(--space-2xs) var(--space-s);
   }
 }
