@@ -25,7 +25,7 @@
 .banner__navigation {
   color: var(--color-neutral-dark);
   display: flex;
-  flex-wrap: wrap;
   flex: 1;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
