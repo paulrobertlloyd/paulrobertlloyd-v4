@@ -12,8 +12,8 @@
   <div>
     <dt>Also on</dt>
     <dd>
-      {%- for site in syndication %}
-        <a class="u-syndication" rel="syndication external" href="{{ site }}">{{ site | syndication_target }}</a>{% unless forloop.last %},{% endunless %}
+      {%- for url in syndication %}
+        {{ url | syndication }}{% unless forloop.last %},{% endunless %}
       {%- endfor -%}
     </dd>
   </div>
