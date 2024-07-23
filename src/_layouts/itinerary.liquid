@@ -6,9 +6,7 @@ layout: default.liquid
   properties: properties
 -%}
 {%- render 'header'
-  title: title
-  summary: summary
-  vocabulary: vocabulary
+  properties: properties
 -%}
 {%- capture content -%}
   {{ content | markdown }}

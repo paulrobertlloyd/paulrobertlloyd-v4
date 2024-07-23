@@ -1,16 +1,23 @@
 <header class="header">
-  <h1 class="header__title{% if vocabulary %} | p-name{% endif %}">
-    {%- app_icon icon -%}
-    {{- title | newline_to_br -}}
+  <h1 class="header__title | p-name">
+    {%- app_icon properties.icon -%}
+    {{- properties.title -}}
   </h1>
-{%- if summary -%}
-  <div class="header__summary{% if vocabulary %} | p-summary{% endif %}">
-    {{ summary | markdown }}
+{%- if properties.type != 'article' -%}
+{%- if properties.summary or properties.bookmark_of or properties.uid -%}
+  <div class="header__summary s-linear | p-summary">
+    {{ properties.summary | markdown }}
+{%- if properties.bookmark_of -%}
+    <p>
+      <a class="u-bookmark-of" rel="external" href="{{ properties.bookmark_of }}">{{ properties.bookmark_of | hostname }}</a>
+    </p>
+{%- endif -%}
+{%- if properties.uid -%}
+    <p>
+      <a class="u-uid" rel="external" href="{{ properties.uid }}">{{ properties.uid | hostname }}</a>
+    </p>
+{%- endif -%}
   </div>
 {%- endif -%}
-{%- if uid -%}
-  <div class="header__uid s-linear">
-    <a class="u-{{ uid_class | default: 'uid' }}" rel="external" href="{{ uid }}">{{ uid | hostname }}</a>
-  </div>
 {%- endif -%}
 </header>

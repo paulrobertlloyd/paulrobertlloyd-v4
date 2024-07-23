@@ -1,14 +1,13 @@
 ---
 layout: default.liquid
 eleventyComputed:
-  page_title: "{{ comments.size | pluralise: 'comment' }} on ‘{{ title }}’"
+  title: "{{ comments.size | pluralise: 'comment' }} on ‘{{ title }}’"
 ---
 {%- render 'footer'
   properties: properties
 -%}
 {%- render 'header'
-  title: page_title
-  vocabulary: vocabulary
+  properties: properties
 -%}
 {%- render 'items' with comments
   component: 'comment'

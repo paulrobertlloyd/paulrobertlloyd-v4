@@ -8,20 +8,24 @@
   margin-block-start: 0;
 }
 
-.header > * + * {
-  margin-block-start: var(--space-s);
-}
-
 .header__title {
-  align-items: end;
   display: inline-flex;
   font: var(--font-title);
   gap: var(--space-xs);
+
+  svg {
+    flex-shrink: 0;
+    inset-block-end: -0.1em;
+    position: relative;
+  }
 }
 
 .header__summary {
+  --linear-flow-space: 0.5em;
+  --linear-font-size: var(--font-size-l);
+  --linear-line-height: var(--line-height-loose);
+
+  margin-block-start: var(--space-s);
   color: var(--color-neutral-dark);
-  font: var(--font-summary);
-  max-inline-size: var(--line-measure);
   text-wrap: pretty;
 }

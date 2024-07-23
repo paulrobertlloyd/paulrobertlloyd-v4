@@ -6,11 +6,7 @@ layout: default.liquid
   properties: properties
 -%}
 {%- render 'header'
-  title: title
-  summary: false
-  uid: bookmark_of
-  uid_class: 'bookmark-of'
-  vocabulary: vocabulary
+  properties: properties
 -%}
 {%- if bookmark_of contains 'youtube.com' or bookmark_of contains 'vimeo.com' -%}
   {%- capture embed -%}[{{ title }}]({{ bookmark_of }}){%- endcapture -%}

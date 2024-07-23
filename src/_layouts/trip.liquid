@@ -2,14 +2,11 @@
 layout: default.liquid
 ---
 {%- assign related = collections.itinerary | includes: 'data.trip_id',id | first -%}
-{%- assign formattedTitle = title | replace: ' ➔ ','\n➔ ' -%}
 {%- render 'footer'
   properties: properties
 -%}
 {%- render 'header'
-  title: formattedTitle
-  summary: summary
-  vocabulary: vocabulary
+  properties: properties
 -%}
 {%- capture content -%}
   <p>Part of a journey to <a href="{{ related.url }}">{{ related.data.title }}</a>.</p>

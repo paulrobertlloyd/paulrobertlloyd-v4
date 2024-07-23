@@ -2,8 +2,7 @@
 layout: default.liquid
 ---
 {%- render 'header'
-  title: title
-  summary: summary
+  properties: properties
 -%}
 {%- render 'content' with content -%}
 {%- render 'section' with collections[page.fileSlug]
