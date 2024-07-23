@@ -16,15 +16,32 @@ a {
     text-decoration-color: var(--color-link);
     text-decoration-thickness: 2px;
   }
-}
 
-a[aria-current] {
-  font-weight: 500;
-}
+  &[aria-current] {
+    font-weight: 500;
+  }
 
-a[rel="tag"] {
-  white-space: nowrap;
-  word-spacing: -0.25ch;
+  &[rel="external"]::after {
+    content: "\2192" / "";
+    font-family: system-ui, sans-serif;
+    display: inline-block;
+    transform: rotate(-45deg);
+  }
+
+  &[rel="prev"]::before {
+    content: "\2190\a0" / "";
+    font-family: system-ui, sans-serif;
+  }
+
+  &[rel="next"]::after {
+    content: "\a0\2192" / "";
+    font-family: system-ui, sans-serif;
+  }
+
+  &[rel="tag"] {
+    white-space: nowrap;
+    word-spacing: -0.25ch;
+  }
 }
 
 /* Correct text decoration in Chrome/Edge/IE/Opera/Safari */
