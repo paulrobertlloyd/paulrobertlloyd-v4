@@ -173,19 +173,12 @@
     --flow-inset: calc(var(--flow-inset) * 2);
   }
 
-  & dt,
   & strong {
     font-weight: 500;
   }
 
-  & dt {
-    float: inline-start;
-    font-weight: 500;
-    margin-inline-end: 1ch;
-  }
-
-  & dt + dd {
-    margin-block-end: var(--linear-flow-space);
+  dt::before {
+    border-color: var(--color-accent);
   }
 
   & li:has(p) {

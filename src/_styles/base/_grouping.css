@@ -46,6 +46,24 @@ ul[role="listbox"] {
   padding-inline-start: var(--flow-inset, 0);
 }
 
+dt {
+  font-weight: 500;
+  padding-block-start: var(--space-xs);
+  position: relative;
+
+  &::before {
+    border-block-start: var(--border-rule-thin);
+    content: "";
+    inset: 0;
+    position: absolute;
+  }
+
+  &:first-of-type::before {
+    border-block-start-width: var(--border-width-thick);
+  }
+}
+
 dd {
   margin-inline-start: unset;
+  padding-block: 0 var(--space-s);
 }

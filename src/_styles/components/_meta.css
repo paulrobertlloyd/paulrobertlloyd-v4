@@ -1,25 +1,5 @@
 .meta {
   color: var(--color-neutral-dark);
+  font: var(--font-caption);
   max-inline-size: var(--line-measure);
-
-  dt {
-    font-weight: 500;
-    padding-block-start: var(--space-xs);
-    position: relative;
-
-    &::before {
-      border-block-start: var(--border-rule-thin);
-      content: "";
-      inset: 0;
-      position: absolute;
-    }
-
-    &:first-of-type::before {
-      border-block-start-width: var(--border-width-thick);
-    }
-  }
-
-  dd {
-    padding-block: var(--space-2xs) var(--space-s);
-  }
 }
