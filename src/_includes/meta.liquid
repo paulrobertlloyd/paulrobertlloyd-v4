@@ -25,10 +25,10 @@
     {%- if properties.canonical.edition %}, {{ properties.canonical.edition }}{% endif -%}
   </dd>
 {%- endif -%}
-{%- if comments.data.comments.size > 0 -%}
+{%- if comments -%}
   <dt>Comments</dt>
   <dd>
-    <a href="{{ comments.url }}">{{ comments.data.comments.size | pluralise: 'comment' }} on this post</a>
+    <a href="{{ comments.url }}">{{ comments.data.properties.summary }}</a>
   </dd>
 {%- endif -%}
 </dl>
