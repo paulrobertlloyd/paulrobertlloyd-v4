@@ -8,10 +8,6 @@ layout: default.liquid
 {%- render 'header'
   properties: properties
 -%}
-{%- if bookmark_of contains 'youtube.com' or bookmark_of contains 'vimeo.com' -%}
-  {%- capture embed -%}[{{ title }}]({{ bookmark_of }}){%- endcapture -%}
-  {%- capture content -%}{{ embed | markdown }}{{ content }}{%- endcapture -%}
-{%- endif -%}
 {%- render 'content' with content -%}
 {%- render 'meta'
   categories: category
