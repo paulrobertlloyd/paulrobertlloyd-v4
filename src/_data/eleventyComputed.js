@@ -8,7 +8,6 @@ export default {
   page_image: (data) => data.photo && data.photo[0],
   published: (data) => data?.start || data?.date || data.page.date,
   properties: ({ collections, eleventy, page, pkg, ...rest }) => rest,
-  canonical_url: (data) => data.canonical?.url || data.app.url + data.page.url,
   publication: (data) => {
     const { collections, canonical } = data;
     const publication = collections.publication.find((item) => {
