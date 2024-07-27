@@ -1,0 +1,6 @@
+---
+layout: default.webc
+---
+<post-footer :post="$data"></post-footer>
+<flow-content class="e-content p-name" data-font-size="large" @html="content"></flow-content>
+<post-meta :post="$data"></post-meta>

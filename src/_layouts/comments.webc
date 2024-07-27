@@ -1,0 +1,6 @@
+---
+layout: default.webc
+---
+<post-footer :post="$data"></post-footer>
+<post-header :post="$data"></post-header>
+<post-comment webc:for="(item, id) of comments"></post-comment>

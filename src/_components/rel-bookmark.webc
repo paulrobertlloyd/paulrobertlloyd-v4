@@ -1,0 +1,3 @@
+<a class="u-url" rel="bookmark" :href="href">
+  <slot></slot>
+</a>

@@ -1,0 +1,18 @@
+<dl class="meta" webc:if="post.category || post.syndication || post.comments_meta">
+  <div webc:if="post.category" webc:nokeep>
+    <dt>Categories</dt>
+    <dd><rel-tag webc:for="tag of post.category" :category="tag"></rel-tag></dd>
+  </div>
+  <div webc:if="post.syndication" webc:nokeep>
+    <dt>Also on</dt>
+    <dd><u-syndication webc:for="url of post.syndication" :href="url"></u-syndication></dd>
+  </div>
+  <div webc:if="post.canonical" webc:nokeep>
+    <dt>Original publication</dt>
+    <dd><rel-canonical :canonical="post.canonical"></rel-canonical></dd>
+  </div>
+  <div webc:if="post.comments_meta" webc:nokeep>
+    <dt>Comments</dt>
+    <dd><a :href="post.comments_meta.url" @text="post.comments_meta.data.summary"></a></dd>
+  </div>
+</dl>

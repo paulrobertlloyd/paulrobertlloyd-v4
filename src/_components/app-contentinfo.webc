@@ -1,0 +1,4 @@
+<footer class="contentinfo container">
+  <app-navigation :@items="$data.navigation.tertiary"></app-navigation>
+  <small @text="$data.currentYear"></small>
+</footer>

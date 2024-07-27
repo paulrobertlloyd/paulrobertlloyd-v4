@@ -1,0 +1,6 @@
+---
+layout: default.webc
+---
+<post-footer :post="event.data"></post-footer>
+<post-header :post="event.data"></post-header>
+<flow-content class="e-content" @html="content"></flow-content>

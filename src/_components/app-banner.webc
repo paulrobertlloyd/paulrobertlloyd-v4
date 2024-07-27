@@ -1,0 +1,7 @@
+<header class="banner container">
+  <a class="p-author h-card" rel="author home" href="/" @text="$data.app.name"></a>
+  <nav aria-label="site">
+    <app-navigation :@items="$data.navigation.primary"></app-navigation>
+    <app-navigation :@items="$data.navigation.secondary"></app-navigation>
+  </nav>
+</header>

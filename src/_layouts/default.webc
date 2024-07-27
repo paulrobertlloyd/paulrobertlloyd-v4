@@ -1,0 +1,57 @@
+<!doctype html>
+<html :lang="app.lang" prefix="og: http://ogp.me/ns#">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title webc:is="page-title" webc:nokeep></title>
+
+  <script nonce="bVgyaDV6YU9tdThnZ2wwckZBNnFnc1Z6Wk40SnY2U0pmbjdTUjQ3MVg2RTFCbnEwN3g=">
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register('/serviceworker.js');
+      if (navigator.serviceWorker.controller) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.controller.postMessage({
+            command: 'trimCaches'
+          });
+        });
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="/app.css" webc:raw>
+  <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="RSS (Atom) Feed">
+  <link rel="alternate" href="/feed.json" type="application/feed+json" title="JSON Feed">
+  <link rel="canonical" :href="canonical_url">
+  <link rel="manifest" href="/app.webmanifest">
+  <link rel="icon" href="/favicon.ico" sizes="32x32" type="image/x-icon">
+  <link rel="icon" :href="app.icons[0].src" :type="app.icons[0].type">
+  <link rel="apple-touch-icon" :href="app.icons[1].src" :type="app.icons[1].type">
+  <link rel="authorization_endpoint" href="https://kit.paulrobertlloyd.com/auth">
+  <link rel="token_endpoint" href="https://kit.paulrobertlloyd.com/auth/token">
+  <link rel="indieauth-metadata" href="https://kit.paulrobertlloyd.com/auth/metadata">
+  <link rel="micropub" href="https://kit.paulrobertlloyd.com/micropub">
+  <link rel="microsub" href="https://aperture.p3k.io/microsub/32">
+  <link rel="webmention" href="https://webmention.io/paulrobertlloyd.com/webmention">
+
+  <meta property="og:title" :content="title">
+  <meta property="og:description" name="description" :content="summary">
+  <meta property="og:url" :content="absolute_url(page.url, app.url)">
+  <meta property="og:image" :content="absolute_url(summary_image, app.url)">
+  <meta property="og:image:alt" :content="summary_image_alt">
+  <meta name="theme-color" :content="app.theme_color" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#26272b" media="(prefers-color-scheme: dark)">
+  <meta name="supported-color-schemes" content="light dark">
+  <meta name="robots" content="index, follow">
+</head>
+
+<body :data-type="type" :id="id" :style="`--color-accent: ${accent_color}`">
+  <app-skip-link></app-skip-link>
+  <app-banner></app-banner>
+  <main class="main container" id="main">
+    <template @html="content" webc:nokeep></template>
+  </main>
+  <app-contentinfo></app-contentinfo>
+</body>
+
+</html>

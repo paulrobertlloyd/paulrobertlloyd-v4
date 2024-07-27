@@ -1,0 +1,26 @@
+<article class="item item--comment | p-comment h-cite" :id="`#comment-${id + 1}`">
+  <header>
+    <h3 class="p-author h-card">
+      <div webc:if="item.author.url">
+        <a class="u-url" :href="item.author.url" target="_blank" rel="noopener noreferrer">
+          <span class="p-name" @text="item.author.name || 'Anonymous'"></span>
+          <img class="avatar u-photo" :src="`${item.author.photo}?s=120`" alt="" decoding="async" loading="lazy"
+            height="80" width="80">
+        </a>
+      </div>
+      <div webc:else>
+        <span class="p-name" @text="item.author.name || 'Anonymous'"></span>
+        <img class="avatar u-photo" :src="`${item.author.photo}?s=120`" alt="" decoding="async" loading="lazy"
+          height="80" width="80">
+      </div>
+    </h3>
+  </header>
+
+  <flow-content class="e-content" @html="markdown(item.content)"></flow-content>
+
+  <footer>
+    <rel-bookmark :href="`#comment-${id + 1}`">
+      <dt-published :datetime="item.published" @showtime="true"></dt-published>
+    </rel-bookmark>
+  </footer>
+</article>

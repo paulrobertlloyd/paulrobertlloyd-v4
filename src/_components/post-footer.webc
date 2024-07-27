@@ -1,0 +1,26 @@
+<footer class="footer">
+  <dl>
+    <div webc:if="post.start" webc:nokeep>
+      <dt class="visually-hidden">Date</dt>
+      <dd><dt-dates :start="post.start" :end="post.end"></dt-dates></dd>
+    </div>
+    <div webc:elseif="post.published" webc:nokeep>
+      <dt class="visually-hidden">Published on</dt>
+      <dd><dt-published :datetime="post.published"></dt-published></dd>
+    </div>
+    <div webc:if="post.location" webc:nokeep>
+      <dt class="visually-hidden">
+        <span webc:nokeep webc:if="post.location?.name">Location</span>
+        <span webc:nokeep webc:else>Published in</span>
+      </dt>
+      <dd class="p-location">
+        <h-card webc:if="post.location?.name" :location="post.location"></h-card>
+        <h-adr webc:else :location="post.location"></h-adr>
+      </dd>
+    </div>
+    <div webc:if="post.in_reply_to" webc:nokeep>
+      <dt>In reply to</dt>
+      <dd><u-in-reply-to :href="post.in_reply_to"></u-in-reply-to></dd>
+    </div>
+  </dl>
+</footer>

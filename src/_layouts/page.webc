@@ -1,0 +1,6 @@
+---
+layout: default.webc
+---
+<post-header :post="$data"></post-header>
+<flow-content class="e-content" @html="content"></flow-content>
+<app-navigation webc:if="links" :@items="links"></app-navigation>

@@ -1,0 +1,5 @@
+<ul class="categories" role="list">
+  <li webc:for="category in categories">
+    <rel-tag :category="category"></rel-tag>
+  </li>
+</ul>

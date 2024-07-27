@@ -11,8 +11,8 @@ export default class Categories {
 
   async render(data) {
     return await this.renderTemplate(
-      `{% render 'categories' with collections.category %}`,
-      "liquid",
+      `<list-categories :categories="collections.category"></list-categories>`,
+      "webc",
       data,
     );
   }

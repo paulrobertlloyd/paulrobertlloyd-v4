@@ -1,0 +1,24 @@
+---
+layout: default.webc
+---
+<post-footer :post="$data"></post-footer>
+<post-header :post="$data"></post-header>
+<flow-content class="e-content" @html="content"></flow-content>
+<post-meta :post="$data"></post-meta>
+
+<script webc:setup>
+  function collection(tag) {
+    return collections.collection
+      .find(item => item.page.fileSlug === tag)
+  }
+  function articles(tag) {
+    return collections.article
+      .filter(item => item.data?.tags?.includes(tag))
+      .filter(item => item.url.includes !== page.url)
+  }
+</script>
+
+<collection-section webc:for="tag of tags" webc:if="collection(tag)" :@items="articles(tag)">
+  <span slot="title-slot">More from the <a :href="collection(tag).url" @text="collection(tag).data.title"></a>
+    collection</span>
+</collection-section>

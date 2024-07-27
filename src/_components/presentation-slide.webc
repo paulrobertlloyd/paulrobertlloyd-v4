@@ -1,0 +1,5 @@
+<figure class="slide">
+  <!--TODO: Use image processing (preset: supporting)-->
+  <img :src="slide.url" :alt="slide.alt">
+  <figcaption @html="markdown(slide.caption)"></figcaption>
+</figure>

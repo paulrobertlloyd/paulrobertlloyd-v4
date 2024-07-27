@@ -1,0 +1,3 @@
+<a class="u-in-reply-to" :href="href">
+  a post on <span webc:nokeep @text="hostname(href)"></span>
+</a>

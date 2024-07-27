@@ -1,0 +1,6 @@
+---
+layout: default.webc
+---
+<post-footer :post="$data"></post-footer>
+<flow-content class="e-content" @html="content"></flow-content>
+<collection-section :@items="collections[id]" @title="Items in this collection" @gridsize="15rem"></collection-section>

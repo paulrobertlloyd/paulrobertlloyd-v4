@@ -1,0 +1,6 @@
+<!-- TODO: section__main--scrollable -->
+<ul class="items" role="list" :style="`--grid-size: ${gridsize}`">
+  <li class="items__item" webc:for="item of items">
+    <collection-item :@item="item"></collection-item>
+  </li>
+</ul>

@@ -1,0 +1,17 @@
+<article class="item | h-entry" :id="item.data.id">
+  <header webc:if="item.data.title" class="item__header">
+    <h3 class="p-name">
+      <rel-bookmark :href="item.url" @text="item.data.title"></rel-bookmark>
+    </h3>
+  </header>
+
+  <flow-content webc:if="item.data.summary" class="p-summary" @html="markdown(item.data.summary)"></flow-content>
+  <flow-content webc:else="item.content" class="e-content p-name" @html="markdown(item.content)"></flow-content>
+
+  <footer webc:if="item.data.date">
+    <dt-published webc:if="item.data.title" :datetime="item.data.published"></dt-published>
+    <rel-bookmark webc:else :href="item.url">
+      <dt-published :datetime="item.data.published"></dt-published>
+    </rel-bookmark>
+  </footer>
+</article>

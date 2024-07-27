@@ -1,0 +1,12 @@
+<section class="section" :aria-labelledby="uid">
+  <header>
+    <h2 :id="uid">
+      <slot name="title-slot" @text="title"></slot>
+    </h2>
+  </header>
+
+  <collection-items webc:if="items" :@items="items" :@gridsize="gridsize"></collection-items>
+  <flow-content webc:else>
+    <p>No posts</p>
+  </flow-content>
+</section>

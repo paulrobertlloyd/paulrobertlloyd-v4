@@ -1,0 +1,9 @@
+---
+layout: default.webc
+---
+<post-footer :post="$data"></post-footer>
+<post-header :post="$data"></post-header>
+<flow-content class="e-content">
+  <div @html="content"></div>
+  <presentation-slide webc:for="slide of slides"></presentation-slide>
+</flow-content>

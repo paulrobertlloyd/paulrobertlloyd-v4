@@ -1,0 +1,9 @@
+<ul class="navigation" role="list">
+  <li webc:for="item of items">
+    <a :rel="item.rel" :href="item.url"
+      :aria-current="$data.type === item.post_type || $data.page.url.includes(item.url)">
+      <app-icon webc:if="item.icon" :@id="item.icon" :@label="item.icon_label" @size="24"></app-icon>
+      <span webc:if="item.label" @text="item.label"></span>
+    </a>
+  </li>
+</ul>

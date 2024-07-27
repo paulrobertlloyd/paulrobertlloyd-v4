@@ -1,0 +1,4 @@
+<span class="h-card">
+  <span class="p-name" @text="location.name"></span>,
+  <h-adr :location="location"></h-adr>
+</span>

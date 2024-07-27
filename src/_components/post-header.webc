@@ -1,0 +1,15 @@
+<header class="header">
+  <h1 class="p-name">
+    <app-icon webc:if="post.icon" :id="post.icon" size="1em"></app-icon>
+    <span webc:nokeep @html="markdown(post.title, 'inline')"></span>
+  </h1>
+  <flow-content webc:if="post.summary || post.bookmark_of || post.uid" data-font-size="large">
+    <p webc:if="post.summary" class="p-summary" @html="markdown(post.summary, 'inline')"></p>
+    <p webc:if="post.bookmark_of">
+      <u-bookmark-of :href="post.bookmark_of"></u-bookmark-of>
+    </p>
+    <p webc:if="post.uid">
+      <u-uid :href="post.uid"></u-uid>
+    </p>
+  </flow-content>
+</header>

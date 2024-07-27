@@ -1,0 +1,4 @@
+<span class="h-adr">
+  <span class="p-locality" @text="location.locality"></span>
+  <span class="p-country-name" @text="location.country_name"></span>
+</span>

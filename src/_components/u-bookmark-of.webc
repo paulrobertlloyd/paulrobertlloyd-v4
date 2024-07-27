@@ -1,0 +1,1 @@
+<a class="u-bookmark-of" :href="href" @text="hostname(href)" rel="external"></a>

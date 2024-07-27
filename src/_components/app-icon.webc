@@ -1,0 +1,7 @@
+<svg webc:if="label" :width="size" :height="size" focusable="false" :aria-labelledby="`${id}-title`" role="img">
+  <title :id="`${id}-title`" @text="label"></title>
+  <use :href="`/assets/vectors/icons.svg#${id}`"></use>
+</svg>
+<svg webc:else :width="size" :height="size" focusable="false" aria-hidden="true">
+  <use :href="`/assets/vectors/icons.svg#${id}`"></use>
+</svg>

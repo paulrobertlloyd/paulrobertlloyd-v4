@@ -1,0 +1,23 @@
+<script webc:type="js">
+  datetime = new Date(datetime);
+
+  const date = $data.title && showtime !== 'true'
+    ? new Intl.DateTimeFormat("en-GB", {
+      dateStyle: "long",
+      timeZone,
+    }).format(datetime)
+    : new Intl.DateTimeFormat("en-GB", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+      hour: "numeric",
+      minute: "2-digit",
+      hourCycle: "h12",
+      timeZone,
+      ...(timeZone && {
+        timeZoneName: "shortGeneric",
+      }),
+    }).format(datetime);
+
+  `<time class="dt-published" datetime="${datetime.toISOString()}">${date}</time>`
+</script>

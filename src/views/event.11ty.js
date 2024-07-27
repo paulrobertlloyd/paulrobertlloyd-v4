@@ -1,7 +1,7 @@
 export default class Event {
   data() {
     return {
-      layout: "event.liquid",
+      layout: "event.webc",
       pagination: {
         data: "collections.event",
         size: 1,
@@ -9,9 +9,6 @@ export default class Event {
         addAllPagesToCollections: true,
       },
       permalink: ({ event }) => event.permalink,
-      eleventyComputed: {
-        properties: ({ event }) => event.data,
-      },
     };
   }
 

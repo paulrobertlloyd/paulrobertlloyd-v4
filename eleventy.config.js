@@ -1,6 +1,7 @@
 import { readFile } from "node:fs/promises";
 import process from "node:process";
 import { EleventyRenderPlugin } from "@11ty/eleventy";
+import eleventyWebc from "@11ty/eleventy-plugin-webc";
 import eleventySyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import eleventyLightningCss from "@11tyrocks/eleventy-plugin-lightningcss";
 import { markdownParser } from "./lib/libraries/markdown.js";
@@ -63,7 +64,11 @@ export default function (eleventy) {
   // Plugins
   eleventy.addPlugin(EleventyRenderPlugin);
   eleventy.addPlugin(eleventySyntaxHighlight);
+  eleventy.addPlugin(EleventyRenderPlugin);
   eleventy.addPlugin(eleventyLightningCss);
+  eleventy.addPlugin(eleventyWebc, {
+    components: "src/_components/**/*.webc",
+  });
 
   // Shortcodes
   for (const [name, shortcode] of Object.entries(shortcodes)) {

@@ -1,0 +1,9 @@
+---
+layout: default.webc
+---
+<post-footer :post="$data"></post-footer>
+<flow-content class="e-content" data-font-size="large">
+  <div @html="content"></div>
+  <apple-jam :@jam="jam_of"></apple-jam>
+</flow-content>
+<post-meta :post="$data"></post-meta>

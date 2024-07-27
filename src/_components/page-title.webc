@@ -1,0 +1,26 @@
+<script webc:type="js">
+  let text = $data.app.name;
+  let { published, title, type } = $data;
+
+  if (title) {
+    text = `${title} · ${text}`;
+  } else if (type && published) {
+    type = type && type[0].toUpperCase() + type.slice(1)
+    published = new Intl.DateTimeFormat("en-GB", {
+      year: "numeric",
+      month: "long",
+      day: "numeric",
+      hour: "numeric",
+      minute: "2-digit",
+      hourCycle: "h12",
+      timeZone,
+      ...(timeZone && {
+        timeZoneName: "shortGeneric",
+      }),
+    }).format(published)
+
+    text = `${type}: ${published}`
+  }
+
+  `<title>${text}</title>`;
+</script>

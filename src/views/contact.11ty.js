@@ -1,7 +1,7 @@
 export default class Contact {
   data() {
     return {
-      layout: "page.liquid",
+      layout: "page.webc",
       title: "Contact",
       summary:
         "Interested in working with me on your next project? Want me to speak at your next event? Maybe you have a question you think I might be able to answer. Either way, get in touch using the form below.",
@@ -11,6 +11,6 @@ export default class Contact {
   }
 
   async render() {
-    return await this.renderTemplate(`{% render 'form/contact' %}`, "liquid");
+    return await this.renderTemplate(`<contact-form></contact-form>`, "webc");
   }
 }

@@ -1,0 +1,23 @@
+<script webc:type="js">
+  start = new Date(start);
+  end = new Date(end);
+
+  const options = {
+    dateStyle: "long",
+    timeZone,
+  };
+
+  if (start.getHours() > 1) {
+    options.timeStyle = "short";
+    options.hourCycle = "h12";
+  }
+
+  const dateRange = new Intl.DateTimeFormat("en-GB", options).formatRange(
+    start,
+    end,
+  );
+
+  const dates = dateRange.split(`–`).map((item) => item.trim());
+
+  `<time class="dt-start" datetime="${start.toISOString()}">${dates[0]}</time>\u{2009}–\u{2009}<time class="dt-end" datetime="${end.toISOString()}">${dates[1]}</time>`;
+</script>
