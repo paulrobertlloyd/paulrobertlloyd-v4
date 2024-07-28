@@ -1,35 +1,26 @@
-{%- if categories or syndication or comments -%}
+{%- if properties.category or properties.syndication or properties.canonical or comments -%}
 <dl class="meta">
-{%- if categories.size > 0 -%}
+{%- if properties.category -%}
   <dt>Categories</dt>
   <dd>
-    {%- render 'categories' with categories -%}
+    {%- render 'categories' with properties.category -%}
   </dd>
 {%- endif -%}
-{%- if syndication.size > 0 -%}
+{%- if properties.syndication -%}
   <dt>Also on</dt>
   <dd>
-    {%- for url in syndication %}
+    {%- for url in properties.syndication %}
       {{ url | syndication }}{% unless forloop.last %},{% endunless %}
     {%- endfor -%}
   </dd>
 {%- endif -%}
-{%- if publication -%}
+{%- if properties.canonical -%}
   <dt>Original publication</dt>
-  <dd>
-{%- if properties.canonical.url -%}
-    <a rel="canonical external" href="{{ properties.canonical.url }}"><cite>{{ publication.title }}</cite></a>
-{%- elsif publication.issn -%}
-    <cite>{{ publication.title }}</cite>
-{%- endif -%}
-    {%- if properties.canonical.edition %}, {{ properties.canonical.edition }}{% endif -%}
-  </dd>
+  <dd>{{ properties.canonical | canonical }}</dd>
 {%- endif -%}
 {%- if comments -%}
   <dt>Comments</dt>
-  <dd>
-    <a href="{{ comments.url }}">{{ comments.data.properties.summary }}</a>
-  </dd>
+  <dd><a href="{{ comments.url }}">{{ comments.data.properties.summary }}</a></dd>
 {%- endif -%}
 </dl>
 {%- endif -%}

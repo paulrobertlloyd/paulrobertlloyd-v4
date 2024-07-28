@@ -10,11 +10,8 @@ layout: default.liquid
 -%}
 {%- render 'content' with content -%}
 {%- render 'meta'
-  categories: category
   comments: comments
   properties: properties
-  publication: publication
-  syndication: syndication
 -%}
 {%- for tag in tags -%}
   {%- assign collection = collections.collection | where: 'data.page.fileSlug',tag | first -%}
