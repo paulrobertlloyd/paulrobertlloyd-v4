@@ -1,7 +1,7 @@
 ---
 layout: default.liquid
 ---
-{%- assign itinerary = collections.trip | itinerary: trip_id -%}
+{%- assign geojson = collections[id] | where: 'data.type','trip' | geojson -%}
 {%- render 'footer-event'
   properties: properties
 -%}
@@ -13,16 +13,12 @@ layout: default.liquid
   {%- capture outputDir -%}{{ page.date | date: '%Y/%j/i1' }}{%- endcapture -%}
   {%- render 'route-map'
     alignment: 'bleed',
-    geojson: itinerary.geojson,
+    geojson: geojson,
     outputDir: outputDir
-  -%}
-  {%- render 'trips' with itinerary.trips
-    id: 'trips'
-    title: 'Trips'
   -%}
 {%- endcapture -%}
 {%- render 'content' with content -%}
-{%- render 'section' with related
+{%- render 'section' with collections[id]
   id: 'related'
   title: 'Related'
   itemsComponent: 'card'

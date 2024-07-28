@@ -5,7 +5,7 @@ layout: default.liquid
   properties: properties
 -%}
 {%- render 'content' with content -%}
-{%- render 'section' with related
+{%- render 'section' with collections[id]
   id: 'related'
   title: 'Related'
   itemsComponent: 'card'

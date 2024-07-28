@@ -27,13 +27,4 @@ export default {
   accent_color: (data) =>
     data.accent_color ||
     getColor(data.location?.locality || data.date || "#10e"),
-  related(data) {
-    const { collections, article_id, photo_id } = data;
-    const related = collections.publicVisibility.filter((item) => {
-      const { id } = item.data;
-      return id && (article_id?.includes(id) || photo_id?.includes(id));
-    });
-
-    return related;
-  },
 };

@@ -1,7 +1,7 @@
 ---
 layout: default.liquid
 ---
-{%- assign related = collections.itinerary | includes: 'data.trip_id',id | first -%}
+{%- assign related = collections.itinerary | find: 'data.id',tags[0] -%}
 {%- render 'footer'
   properties: properties
 -%}
