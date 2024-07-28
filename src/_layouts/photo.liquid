@@ -4,16 +4,9 @@ layout: default.liquid
 {%- render 'footer'
   properties: properties
 -%}
-{%- capture content -%}
-  {{- content -}}
-  {%- assign columns = columns | default: 1 -%}
-  {%- render 'gallery' with photo
-    columns: columns
-    imageClass: 'u-photo'
-  -%}
-{%- endcapture -%}
 {%- render 'content' with content
   properties: 'e-content p-name'
+  columns: 1
 -%}
 {%- render 'meta'
   properties: properties
