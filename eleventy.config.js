@@ -6,7 +6,6 @@ import { markdownParser } from "./lib/libraries/markdown.js";
 import * as collections from "./lib/collections/index.js";
 import * as filters from "./lib/filters/index.js";
 import * as shortcodes from "./lib/shortcodes/index.js";
-import dates from "./src/_data/dates.js";
 import navigation from "./src/_data/navigation.js";
 
 // Can’t use import attributes until supported by Acorn dependency
@@ -74,8 +73,7 @@ export default function (eleventy) {
   // Liquid
   eleventy.setLiquidOptions({
     cache: true,
-    dateFormat: "%Y-%m-%dT%H:%M:%S.%L%:z",
-    globals: { app, dates, navigation },
+    globals: { app, navigation },
   });
 
   // Config

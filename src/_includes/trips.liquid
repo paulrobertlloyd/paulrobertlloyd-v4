@@ -12,9 +12,7 @@
     <tbody>
     {%- for item in trips -%}
       <tr>
-        <th>
-          <time datetime="{{ item.data.start }}">{{ item.data.start | date: dates.date_trip }}</time>
-        </th>
+        <th>{{ item.data | datetime }}</th>
         <td>
           <a rel="bookmark" href="{{ item.url }}">{{ item.data.title }}</a>
         </td>
