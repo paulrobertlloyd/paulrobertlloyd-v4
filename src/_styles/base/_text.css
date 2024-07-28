@@ -23,8 +23,8 @@ a {
 
   &[rel="external"]::after {
     content: "\2192" / "";
-    font-family: system-ui, sans-serif;
     display: inline-block;
+    font-family: system-ui, sans-serif;
     transform: rotate(-45deg);
   }
 

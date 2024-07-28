@@ -25,7 +25,7 @@
   --linear-font-size: var(--font-size-l);
   --linear-line-height: var(--line-height-loose);
 
-  margin-block-start: var(--space-s);
   color: var(--color-neutral-dark);
+  margin-block-start: var(--space-s);
   text-wrap: pretty;
 }
