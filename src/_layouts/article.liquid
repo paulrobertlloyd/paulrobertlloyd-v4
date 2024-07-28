@@ -16,11 +16,11 @@ layout: default.liquid
   publication: publication
   syndication: syndication
 -%}
-{%- for this in tags -%}
-  {%- assign collection = collections.collection | where: 'data.page.fileSlug',this | first -%}
+{%- for tag in tags -%}
+  {%- assign collection = collections.collection | where: 'data.page.fileSlug',tag | first -%}
   {%- if collection -%}
     {%- capture sectionTitle %}More from the <a href="{{ collection.url }}">{{ collection.data.title }}</a> collection{%- endcapture -%}
-    {%- assign articles = collections.article | includes: 'data.tags', this | excludes: 'url',page.url -%}
+    {%- assign articles = collections.article | includes: 'data.tags', tag | excludes: 'url',page.url -%}
     {%- render 'section' with articles
       id: 'related'
       title: sectionTitle
