@@ -1,8 +1,0 @@
----
-layout: default.liquid
----
-{%- render 'header'
-  properties: properties
--%}
-{%- assign items = collections.article | where: "data.publication.title", title -%}
-{%- render 'items' with items -%}
