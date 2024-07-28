@@ -2,7 +2,6 @@
   align-items: baseline;
   color: var(--color-neutral-dark);
   display: flex;
-  padding-block-end: var(--space-s);
 
   cite {
     font-style: normal;

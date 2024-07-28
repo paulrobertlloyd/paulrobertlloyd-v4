@@ -5,8 +5,11 @@
   border-image-outset: 0 0 0 100vw;
   border-image-slice: fill 0;
   border-image-source: conic-gradient(var(--color-background) 0 0);
+  display: flex;
   flex: 1;
+  flex-direction: column;
   padding-block: var(--gap);
+  row-gap: var(--space-m-l);
 }
 
 @media (--from-medium-viewport) {
@@ -21,10 +24,6 @@
 
 .main > * {
   grid-column: content;
-}
-
-.main > * + * {
-  margin-block-start: var(--space-m-l);
 }
 
 .main__title {
