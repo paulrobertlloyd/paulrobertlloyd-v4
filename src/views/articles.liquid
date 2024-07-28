@@ -9,7 +9,7 @@ pagination:
 permalink: "articles/{% if pagination.pageNumber > 0 %}page/{{ pagination.pageNumber | plus: 1 }}.html{% else %}/{% endif %}"
 ---
 {%- if pagination.pageNumber < 1 -%}
-  {%- assign featured = collections.article | where_exp: 'item','item.data.tags contains "featured"' -%}
+  {%- assign featured = collections.article | where: 'data.featured' -%}
   {%- render 'section' with featured
     id: 'featured'
     title: 'Select articles'

@@ -42,8 +42,8 @@
   <meta property="og:title" content="{{ title }}">
   <meta property="og:description" name="description" content="{{ summary | default: app.description | markdown | strip_html | strip_newlines | strip }}">
   <meta property="og:url" content="{{ page.url | absolute_url: app.url }}">
-  <meta property="og:image" content="{{ summary_image | absolute_url: app.url }}">
-  <meta property="og:image:alt" content="{{ summary_image_alt }}">
+  <meta property="og:image" content="{{ featured_image | absolute_url: app.url }}">
+  <meta property="og:image:alt" content="{{ featured_image_alt }}">
   <meta name="theme-color" content="{{ app.theme_color }}" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#26272b" media="(prefers-color-scheme: dark)">
   <meta name="supported-color-schemes" content="light dark">

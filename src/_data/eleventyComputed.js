@@ -19,11 +19,11 @@ export default {
     });
     return publication?.data;
   },
-  summary_image: (data) =>
-    data.page_image
-      ? `${data.page_image.url}?tr=w-1200,h-630`
+  featured_image: (data) =>
+    data.featured
+      ? `${data.featured.url}?tr=w-1200,h-630`
       : data.app.url + data.app.icons[1].src,
-  summary_image_alt: (data) => (data.page_image ? data.page_image.alt : "Logo"),
+  featured_image_alt: (data) => (data.featured ? data.featured.alt : "Logo"),
   accent_color: (data) =>
     data.accent_color ||
     getColor(data.location?.locality || data.date || "#10e"),

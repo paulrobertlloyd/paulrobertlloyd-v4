@@ -18,7 +18,7 @@ eleventyComputed:
   itemsComponent: 'archive'
   itemsGridSize: '9rem'
 -%}
-{%- assign featured = collections.article | where_exp: 'item','item.data.tags contains "featured"' | includes: 'data.date',archive.fileSlug -%}
+{%- assign featured = collections.article | where: 'data.featured' | includes: 'data.date',archive.fileSlug -%}
 {%- render 'section' with featured
   id: 'featured'
   title: 'Select articles from this year'

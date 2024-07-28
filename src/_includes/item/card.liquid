@@ -3,16 +3,17 @@
 <article class="card |{% for root in item.data.vocabulary %} h-{{ root }}{% endfor %}"{% if item.data.duotoneCardImage %} style="--color-accent: {{ accent_color }}"{% endif %}>
   {%- if item.data.type == 'photo' -%}
     <a class="card__image card__image--photo | u-url" rel="bookmark" href="{{ item.url }}">
-      {%- app_image item.data.page_image, 'card-square', 'u-photo' -%}
+      {%- assign photo = item.data.photo | first -%}
+      {%- app_image photo, 'card-square', 'u-photo' -%}
       {%- if item.data.photo.size > 1 -%}
         {%- assign label = " photos in this post" | prepend: item.data.photo.size -%}
         {%- app_icon 'photos' 20 label -%}
       {%- endif -%}
     </a>
   {%- else -%}
-    {%- if item.data.page_image -%}
+    {%- if item.data.featured -%}
       <div class="card__image">
-        {%- app_image item.data.page_image, 'card', 'u-photo' -%}
+        {%- app_image item.data.featured, 'card', 'u-featured' -%}
       </div>
     {%- endif -%}
 
