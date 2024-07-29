@@ -16,7 +16,7 @@ permalink: feed.xml
   <link rel="alternate" href="{{ app.url }}" type="text/html"/>
   <link rel="hub" href="http://pubsubhubbub.superfeedr.com/"/>
   <icon>{{ app.icons[1].src | absolute_url: app.url }}</icon>
-  <rights>&#169; {{ 'now' | date: '%Y' }} {{ pkg.author.name }}.</rights>
+  <rights>&#169; {{ currentYear }} {{ pkg.author.name }}.</rights>
 {% for item in collections.syndicate limit: 25 %}
   <entry>
     <id>{{ item.url | absolute_url: app.url }}</id>

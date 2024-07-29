@@ -13,6 +13,9 @@ import navigation from "./src/_data/navigation.js";
 let appJson = await readFile(new URL(`src/app.json`, import.meta.url));
 let app = JSON.parse(appJson.toString());
 
+// Get current year
+const currentYear = new Date().getFullYear();
+
 /**
  * Get Eleventy configuration
  * @param {object} eleventy - Eleventy configuration
@@ -45,6 +48,8 @@ export default function (eleventy) {
   // Global data
   eleventy.addGlobalData("app", app);
   eleventy.addGlobalData("app.url", process.env.URL || "");
+  eleventy.addGlobalData("buildDate", Date.now());
+  eleventy.addGlobalData("currentYear", currentYear);
 
   // Passthrough
   // On production, save media to images folder, which gets proxied via media
@@ -73,7 +78,7 @@ export default function (eleventy) {
   // Liquid
   eleventy.setLiquidOptions({
     cache: true,
-    globals: { app, navigation },
+    globals: { app, currentYear, navigation },
   });
 
   // Config

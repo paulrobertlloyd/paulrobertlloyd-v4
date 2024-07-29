@@ -5,7 +5,6 @@ permalink: trips/
 eleventyComputed:
   introduction: "Over the course of {{ collections.trip | size }} trips, I’ve travelled {{ collections.trip | sum: 'data.distance' }} km and emitted approximately {{ collections.trip | sum: 'data.emissions' }} kg of CO<sub>2</sub>."
 ---
-{%- assign now = 'now' | date: '%Y' -%}
 {%- assign totalKm = collections.trip | sum: 'data.distance' -%}
 {%- assign totalCo2 = collections.trip | sum: 'data.emissions' -%}
 {%- assign meanKm = totalKm | divided_by: 13 -%}
@@ -13,7 +12,7 @@ eleventyComputed:
 <table class="barchart">
   <caption class="barchart__caption"><abbr title="kilometers">km</abbr> travelled / <abbr title="kilograms">kg</abbr> CO<sub>2</sub></caption>
   <tbody class="barchart__items">
-  {%- for year in (2003..now) -%}
+  {%- for year in (2003..currentYear) -%}
     <tr class="barchart__item">
       {%- assign thisYear = collections.trip | includes: 'date',year -%}
       {%- assign yearKm = thisYear | sum: 'data.distance' -%}
@@ -39,7 +38,7 @@ eleventyComputed:
   </tbody>
 </table>
 
-{%- for year in (2003..now) reversed -%}
+{%- for year in (2003..currentYear) reversed -%}
   {%- assign thisYear = collections.trip | includes: 'data.start',year -%}
   {%- render 'trips' with thisYear
     id: year

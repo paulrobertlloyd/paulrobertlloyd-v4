@@ -6,8 +6,7 @@ permalink: travel/
 eleventyComputed:
   introduction: "Travel itineraries, made up of [individual {{ collections.trip.size }} trips](/trips/)."
 ---
-{%- assign now = 'now' | date: '%Y' -%}
-{%- for year in (2003..now) reversed -%}
+{%- for year in (2003..currentYear) reversed -%}
   {%- assign thisYear = collections.itinerary | includes: 'date',year | reverse -%}
   {%- render 'section' with thisYear
     id: year

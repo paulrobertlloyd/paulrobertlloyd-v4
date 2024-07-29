@@ -5,8 +5,7 @@ permalink: /_redirects
 /favicon.ico /assets/icons/favicon.ico 200
 
 # Archives
-{%- assign now = 'now' | date: '%Y' %}
-{% for year in (1999..now) -%}
+{% for year in (1999..currentYear) -%}
 /{{ year }}/:splat /{{ year }} 302
 {% endfor -%}
 

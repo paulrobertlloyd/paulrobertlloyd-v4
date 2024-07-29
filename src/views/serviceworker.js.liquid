@@ -2,7 +2,7 @@
 eleventyExcludeFromCollections: true
 permalink: serviceworker.js
 ---
-const version = '@{{ 'now' | date: '%s' }}';
+const version = '@{{ buildDate }}';
 const staticCacheName = 'static' + version;
 const imageCacheName = 'images';
 const pagesCacheName = 'pages';
