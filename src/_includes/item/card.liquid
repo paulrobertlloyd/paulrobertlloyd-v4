@@ -11,7 +11,7 @@
       {%- endif -%}
     </a>
   {%- else -%}
-    {%- if item.data.featured -%}
+    {%- if item.data.featured.url -%}
       <div class="card__image">
         {%- app_image item.data.featured, 'card', 'u-featured' -%}
       </div>
