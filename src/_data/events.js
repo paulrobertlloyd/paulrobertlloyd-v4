@@ -95,12 +95,6 @@ export default async () => {
         }
       }
 
-      // Speaking event
-      // Invitation to presentations@paulrobertlloyd.com indicates speaking event
-      if (event?.attendee?.[1].EMAIL === "presentations@paulrobertlloyd.com") {
-        item.presented = true;
-      }
-
       // Start date time
       if (event.dtstart) {
         item.start = DateTime.fromISO(event.dtstart.value).toISO();
@@ -111,6 +105,9 @@ export default async () => {
       if (event.dtend) {
         item.end = DateTime.fromISO(event.dtend.value).toISO();
       }
+
+      // Featured (upcoming event)
+      item.featured = new Date(item.end) >= new Date();
 
       // URL
       if (event.url && event.url.VALUE.includes("URI:")) {
