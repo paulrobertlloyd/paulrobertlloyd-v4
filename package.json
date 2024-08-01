@@ -30,7 +30,7 @@
     "debug": "DEBUG=* npx eleventy"
   },
   "dependencies": {
-    "@11ty/eleventy": "3.0.0-alpha.17",
+    "@11ty/eleventy": "^3.0.0-beta.1",
     "@11ty/eleventy-fetch": "^4.0.0",
     "@11ty/eleventy-img": "^4.0.0",
     "@11ty/eleventy-plugin-rss": "^2.0.0",
@@ -59,7 +59,7 @@
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-jsdoc": "^48.0.0",
     "eslint-plugin-prettier": "^5.0.0",
-    "eslint-plugin-unicorn": "^54.0.0",
+    "eslint-plugin-unicorn": "^55.0.0",
     "prettier": "^3.0.1",
     "stylelint": "^16.0.0",
     "stylelint-config-standard": "^36.0.0",
