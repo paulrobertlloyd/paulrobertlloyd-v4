@@ -1,5 +1,6 @@
 import { readFile } from "node:fs/promises";
 import process from "node:process";
+import { EleventyRenderPlugin } from "@11ty/eleventy";
 import eleventySyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import eleventyLightningCss from "@11tyrocks/eleventy-plugin-lightningcss";
 import { markdownParser } from "./lib/libraries/markdown.js";
@@ -61,6 +62,7 @@ export default function (eleventy) {
   eleventy.addPassthroughCopy("./src/assets");
 
   // Plugins
+  eleventy.addPlugin(EleventyRenderPlugin);
   eleventy.addPlugin(eleventySyntaxHighlight);
   eleventy.addPlugin(eleventyLightningCss);
 
