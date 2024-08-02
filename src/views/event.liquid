@@ -18,12 +18,16 @@ eleventyComputed:
   icon: "{{ event.icon }}"
   start: "{{ event.start }}"
   end: "{{ event.end }}"
+  featured: "{{ event.featured }}"
   location:
     name: "{{ event.location.name }}"
     locality: "{{ event.location.locality }}"
     country_name: "{{ event.location.country_name }}"
   presented: "{{ event.presented }}"
   properties:
+    title: "{{ event.title }}"
+    summary: "{{ event.summary }}"
+    uid: "{{ event.uid }}"
     start: "{{ event.start }}"
     end: "{{ event.end }}"
     location:

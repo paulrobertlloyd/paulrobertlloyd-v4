@@ -106,9 +106,6 @@ export default async () => {
         item.end = DateTime.fromISO(event.dtend.value).toISO();
       }
 
-      // Featured (upcoming event)
-      item.featured = new Date(item.end) >= new Date();
-
       // URL
       if (event.url && event.url.VALUE.includes("URI:")) {
         item.uid = event.url.VALUE.replace("URI:", "");

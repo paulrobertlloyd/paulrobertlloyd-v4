@@ -23,6 +23,7 @@
   </div>
 {%- endif -%}
 
+{%- if item.data.date -%}
   <footer class="item__footer">
 {%- if item.data.title -%}
     {{ item.data | datetime }}
@@ -32,4 +33,5 @@
     </a>
 {%- endif -%}
   </footer>
+{%- endif -%}
 </article>

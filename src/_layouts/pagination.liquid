@@ -1,0 +1,26 @@
+---
+layout: default.liquid
+---
+<h1 class="main__title">{{ title }}</h1>
+{%- if summary -%}
+<div class="main__introduction">
+  {{ summary | markdown }}
+</div>
+{%- endif -%}
+{%- if featured -%}
+  {%- render 'section' with collections[featured.collection]
+    id: 'featured'
+    title: featured.title
+    scrollable: true
+    itemsComponent: 'card'
+    itemsGridSize: '18rem'
+    itemsLimit: featured.limit
+  -%}
+{%- endif %}
+{%- render 'section' with pagination.items
+  id: 'recent'
+  title: sectionTitle
+  itemsComponent: pagination.component
+  itemsGridSize: pagination.gridSize
+-%}
+{%- render 'pagination' with pagination -%}

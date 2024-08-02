@@ -12,4 +12,14 @@
       -%}
     </div>
   </section>
+{%- elsif title and id -%}
+  <section class="section" aria-labelledby="{{ id }}">
+    <header class="section__header">
+      <h2 class="section__title" id="{{ id }}">{{ title }}</h2>
+    </header>
+
+    <div class="section__main">
+      {{ "No posts" | markdown }}
+    </div>
+  </section>
 {%- endif -%}

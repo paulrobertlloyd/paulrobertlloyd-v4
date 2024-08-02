@@ -63,5 +63,10 @@ export default {
       url: "/jams/",
       post_type: "jam",
     },
+    {
+      label: "Trips",
+      url: "/trips/",
+      post_type: "trip",
+    },
   ],
 };
