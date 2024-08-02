@@ -2,13 +2,14 @@ export default class Collections {
   data() {
     return {
       layout: "pagination.liquid",
-      title: "Archive",
-      summary: "Collections",
+      title: "Collections",
+      summary: "Curated series of posts covering a particular theme.",
       pagination: {
         data: "collections.collection",
         size: 24,
         gridSize: "16rem",
       },
+      tags: ["archive"],
       permalink: ({ pagination }) =>
         pagination.pageNumber > 0
           ? `/collections/page/${pagination.pageNumber + 1}.html`
