@@ -42,20 +42,20 @@
     writing-mode: vertical-rl;
   }
 
-  .main__title + .main__introduction,
+  .main__title + .main__summary,
   .main__title + .items,
   .main__title + .form {
     margin-block-start: 0;
   }
 }
 
-.main__introduction {
+.main__summary {
   color: var(--color-neutral-dark);
   font: var(--font-summary);
   max-inline-size: var(--line-measure);
   text-wrap: pretty;
 }
 
-.main__introduction * + * {
+.main__summary * + * {
   margin-block-start: var(--space-2xs);
 }

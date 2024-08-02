@@ -2,9 +2,9 @@
 layout: default.liquid
 ---
 <h1 class="main__title">{{ title }}</h1>
-{%- if introduction -%}
-<div class="main__introduction">
-  {{ introduction | markdown }}
+{%- if summary -%}
+<div class="main__summary">
+  {{ summary | markdown }}
 </div>
 {%- endif -%}
 {{ content }}

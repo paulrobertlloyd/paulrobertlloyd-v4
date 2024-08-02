@@ -5,8 +5,6 @@ summary: Individual trips by air, rail and sea.
 permalink: trips/
 tags:
   - archive
-eleventyComputed:
-  introduction: "Over the course of {{ collections.trip | size }} trips, I’ve travelled {{ collections.trip | sum: 'data.distance' }} km and emitted approximately {{ collections.trip | sum: 'data.emissions' }} kg of CO<sub>2</sub>."
 ---
 {%- assign totalKm = collections.trip | sum: 'data.distance' -%}
 {%- assign totalCo2 = collections.trip | sum: 'data.emissions' -%}
