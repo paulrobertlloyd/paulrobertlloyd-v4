@@ -25,39 +25,6 @@ function _generateYears(startDate, endDate) {
   return [..._range(firstYear, lastYear)].map(String);
 }
 
-/**
- * Create an array of months
- * @param {string} startDate - e.g. '2008-09'
- * @param {string} endDate - e.g. '2020-04'
- * @returns {string} ['2008-09',…,'2020-01']
- */
-function _generateMonths(startDate, endDate) {
-  const firstYear = new Date(startDate).getFullYear();
-  const firstMonth = new Date(startDate).getMonth() + 1;
-  const lastYear = new Date(endDate).getFullYear();
-  const lastMonth = new Date(endDate).getMonth() + 1;
-
-  const dates = [];
-  const years = [..._range(firstYear, lastYear)].map(String);
-  for (const [index, year] of years.entries()) {
-    let months = [];
-    if (index === 0) {
-      months = [..._range(firstMonth, 12)];
-    } else if (index === years.length - 1) {
-      months = [..._range(1, lastMonth)];
-    } else {
-      months = [..._range(1, 12)];
-    }
-
-    months = months.map((month) => String(month).padStart(2, "0"));
-    for (const month of months) {
-      dates.push(`${year}-${month}`);
-    }
-  }
-
-  return dates;
-}
-
 // eslint-disable-next-line unicorn/no-anonymous-default-export
 export default () => {
   // Year archives
@@ -71,29 +38,6 @@ export default () => {
       introduction: year,
     },
   }));
-
-  // Month archives
-  const archivedMonths = _generateMonths("2008-09", now);
-  const monthArchives = archivedMonths.map((month) => {
-    const date = new Date(month);
-    const year = date.getFullYear();
-    let monthNumber = date.getMonth() + 1;
-    monthNumber = String(monthNumber).padStart(2, "0");
-    const monthName = Intl.DateTimeFormat("en-GB", {
-      month: "long",
-    }).format(date);
-
-    return {
-      date,
-      fileSlug: monthNumber,
-      url: `/${year}/${monthNumber}/`,
-      data: {
-        date: `${year}-${monthNumber}`,
-        item_title: monthName,
-        introduction: `${monthName} ${year}`,
-      },
-    };
-  });
 
   // Other archives
   const otherArchives = [
@@ -123,7 +67,6 @@ export default () => {
 
   return {
     years: yearArchives.reverse(),
-    months: monthArchives,
     other: otherArchives,
   };
 };

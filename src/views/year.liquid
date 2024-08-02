@@ -11,7 +11,7 @@ eleventyComputed:
   page_title: "{{ archive.data.introduction }}"
   introduction: "{{ archive.data.introduction }}"
 ---
-{%- assign months = archives.months | includes: 'date',archive.fileSlug -%}
+{%- assign months = collections.month | includes: 'key',archive.fileSlug -%}
 {%- render 'section' with months
   id: 'browse',
   title: 'Browse by month'
