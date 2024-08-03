@@ -5,7 +5,7 @@ export default class Events {
       title: "Events",
       summary: "Exhibitions, conferences and other events I’ve attended.",
       pagination: {
-        data: "collections.events",
+        data: "collections.event",
         size: 48,
         component: "event",
       },
