@@ -1,5 +1,3 @@
-import { getDayOfYear } from "../../lib/utils/date.js";
-
 export default class ArticleMaps {
   data() {
     return {
@@ -14,11 +12,6 @@ export default class ArticleMaps {
   }
 
   render({ article }) {
-    const date = new Date(article.data.date);
-    const year = date.getFullYear();
-    const day = String(getDayOfYear(date)).padStart(3, "0");
-    const outputDirectory = `${year}/${day}/a1/`;
-
-    return this.route_map(article.data.geojson, outputDirectory);
+    return this.route_map(article.data.geojson, this.permalink(article.data));
   }
 }
