@@ -28,5 +28,9 @@ export default [
     files: ["src/assets/**/*.js"],
     languageOptions: { globals: { ...globals.browser } },
   },
+  {
+    files: ["lib/serviceworker.js"],
+    languageOptions: { globals: { ...globals.serviceworker } },
+  },
   prettier,
 ];

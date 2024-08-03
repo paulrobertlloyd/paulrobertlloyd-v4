@@ -49,7 +49,6 @@ export default function (eleventy) {
   // Global data
   eleventy.addGlobalData("app", app);
   eleventy.addGlobalData("app.url", process.env.URL || "");
-  eleventy.addGlobalData("buildDate", Date.now());
   eleventy.addGlobalData("currentYear", currentYear);
 
   // Passthrough
