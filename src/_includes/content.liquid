@@ -1,3 +1,0 @@
-{%- if content != '' -%}
-  <flow-content class="content | {{ properties | default: 'e-content' }}"{% if columns %} style="--columns: {{ columns }}"{% endif %}>{{ content }}</flow-content>
-{%- endif -%}

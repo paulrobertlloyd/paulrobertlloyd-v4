@@ -4,9 +4,7 @@ layout: default.liquid
 {%- render 'footer'
   properties: properties
 -%}
-{%- render 'content' with content
-  properties: 'e-content p-name'
--%}
+<flow-content class="e-content p-name" data-font-size="large">{{ content }}</flow-content>
 {%- render 'meta'
   properties: properties
 -%}

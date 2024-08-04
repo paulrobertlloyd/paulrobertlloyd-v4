@@ -4,7 +4,7 @@ layout: default.liquid
 {%- render 'header'
   properties: properties
 -%}
-{%- render 'content' with content -%}
+<flow-content class="e-content">{{ content }}</flow-content>
 {%- render 'section' with collections[page.fileSlug]
   id: 'items'
   title: 'Items in this collection'

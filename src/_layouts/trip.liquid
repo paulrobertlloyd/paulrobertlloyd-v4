@@ -21,4 +21,4 @@ layout: default.liquid
   -%}
   {{ trip.content | markdown }}
 {%- endcapture -%}
-{%- render 'content' with content -%}
+<flow-content class="e-content">{{ content }}</flow-content>

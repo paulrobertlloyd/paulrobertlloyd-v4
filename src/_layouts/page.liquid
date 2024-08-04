@@ -4,5 +4,5 @@ layout: default.liquid
 {%- render 'header'
   properties: properties
 -%}
-{%- render 'content' with content -%}
+<flow-content class="e-content">{{ content }}</flow-content>
 {%- render 'navigation' with links -%}

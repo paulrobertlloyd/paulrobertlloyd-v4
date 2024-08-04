@@ -1,7 +1,0 @@
-[data-type="note"] .content,
-[data-type="photo"] .content,
-[data-type="reply"] .content {
-  --linear-flow-space: var(--space-s);
-  --linear-font-size: var(--font-size-l);
-  --linear-line-height: var(--line-height-loose);
-}

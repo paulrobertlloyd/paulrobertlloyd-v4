@@ -17,7 +17,7 @@ layout: default.liquid
     outputDir: outputDir
   -%}
 {%- endcapture -%}
-{%- render 'content' with content -%}
+<flow-content class="e-content">{{ content }}</flow-content>
 {%- render 'section' with collections[id]
   id: 'related'
   title: 'Related'

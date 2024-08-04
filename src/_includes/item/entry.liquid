@@ -9,9 +9,7 @@
 
 {%- if item.data.jam_of -%}
   <flow-content class="item__main">
-    {%- render 'jam' with item.data.jam_of
-      content: content
-    -%}
+    {%- render 'jam' with item.data.jam_of -%}
   </flow-content>
 {%- elsif item.data.summary -%}
   <flow-content class="item__main | p-summary">

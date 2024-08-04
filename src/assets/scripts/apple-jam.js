@@ -1,3 +1,17 @@
+const template = document.createElement("template");
+
+template.innerHTML = `<style>
+  :host {
+    display: block
+  }
+
+  :host iframe {
+    border: 0;
+    inline-size: 100%;
+    border-radius: 10px;
+  }
+</style>`;
+
 class AppleJamElement extends HTMLElement {
   constructor() {
     super();
@@ -9,7 +23,7 @@ class AppleJamElement extends HTMLElement {
   embedCode(href) {
     const embed = document.createElement("iframe");
     embed.src = href.replace("music.apple.com", "embed.music.apple.com");
-    embed.height = embed.src.includes("music-video") ? 450 : 175;
+    embed.height = embed.src.includes("music-video") ? 432 : 175;
     embed.loading = "lazy";
 
     return embed;
@@ -17,8 +31,9 @@ class AppleJamElement extends HTMLElement {
 
   connectedCallback() {
     if (this.appleMusicLink) {
-      this.jam.after(this.embedCode(this.appleMusicLink.href));
-      this.jam.remove();
+      this.attachShadow({ mode: "open" });
+      this.shadowRoot.append(template.content.cloneNode(true));
+      this.shadowRoot.append(this.embedCode(this.appleMusicLink.href));
     }
   }
 }

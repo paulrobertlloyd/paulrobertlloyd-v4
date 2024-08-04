@@ -8,6 +8,12 @@ flow-content {
 
   display: block;
 
+  &[data-font-size="large"] {
+    --linear-flow-space: var(--space-s);
+    --linear-font-size: var(--font-size-l);
+    --linear-line-height: var(--line-height-loose);
+  }
+
   & > * {
     font-size: var(--linear-font-size);
     line-height: var(--linear-line-height);
