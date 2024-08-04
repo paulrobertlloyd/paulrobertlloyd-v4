@@ -26,7 +26,7 @@
     text-wrap: pretty;
   }
 
-  header {
+  img + header {
     margin-block-start: calc(var(--card-spacing) * 2);
   }
 
