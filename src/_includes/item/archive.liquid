@@ -1,12 +1,12 @@
 <article class="item item--archive">
-  <header class="item__header">
-    <h3 class="item__title">
+  <header>
+    <h3>
       <a href="{{ item.url }}">{{ item.data.item_title | default: item.data.title }}</a>
     </h3>
   </header>
 
 {%- if item.data.summary -%}
-  <flow-content class="item__main">
+  <flow-content>
     {{ item.data.summary | markdown }}
   </flow-content>
 {%- endif -%}

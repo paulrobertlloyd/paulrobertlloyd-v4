@@ -1,6 +1,6 @@
 <article class="item | h-event" id="{{ item.data.id }}">
-  <header class="item__header">
-    <h3 class="item__title | p-name">
+  <header>
+    <h3 class="p-name">
       <a class="u-url" rel="bookmark" href="{{ item.url }}">
         {%- app_icon item.data.icon -%}
         {{- item.data.title | markdown: 'inline' -}}
@@ -9,7 +9,7 @@
   </header>
 
 {%- if item.data.location.name != "false" -%}
-  <flow-content class="item__main | p-location">
+  <flow-content class="p-location">
     <p class="h-card">
       at <span class="p-name">{{ item.data.location.name }}</span>,
       {{ item.data | adr }}
@@ -17,7 +17,7 @@
   </flow-content>
 {%- endif -%}
 
-  <footer class="item__footer">
+  <footer>
     {{ item.data | datetime }}
   </footer>
 </article>

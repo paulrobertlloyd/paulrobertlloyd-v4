@@ -1,6 +1,6 @@
 <article class="item item--comment | p-comment h-cite" id="comment-{{ id }}">
-  <header class="item__header">
-    <h3 class="item__title | p-author h-card">
+  <header>
+    <h3 class="p-author h-card">
       {%- if item.author.url %}<a class="u-url" href="{{ item.author.url }}" target="_blank" rel="noopener noreferrer">{% endif -%}
         <span class="p-name">{{ item.author.name | default: 'Anonymous' }}</span>
         <img class="avatar u-photo" src="{{ item.author.photo }}?s=120" alt="" decoding="async" loading="lazy" height="80" width="80">
@@ -8,11 +8,11 @@
     </h3>
   </header>
 
-  <flow-content class="item__main | e-content">
+  <flow-content class="e-content">
     {{ item.content.value | default: item.content | markdown }}
   </flow-content>
 
-  <footer class="item__footer">
+  <footer>
     <a class="u-url" rel="bookmark" href="#comment-{{ id }}">
       {{ item | datetime }}
     </a>
