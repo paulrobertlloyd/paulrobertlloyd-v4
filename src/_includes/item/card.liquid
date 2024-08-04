@@ -2,9 +2,9 @@
 {%- assign accent_color = item.data.accent_color | default: date_color -%}
 <article class="card |{% for root in item.data.vocabulary %} h-{{ root }}{% endfor %}"{% if item.data.duotoneCardImage %} style="--color-accent: {{ accent_color }}"{% endif %}>
   {%- if item.data.type == 'photo' -%}
-    <a class="card__image card__image--photo | u-url" rel="bookmark" href="{{ item.url }}">
+    <a class="u-url" rel="bookmark" href="{{ item.url }}">
       {%- assign photo = item.data.photo | first -%}
-      {%- app_image photo, 'card-square', 'u-photo' -%}
+      {%- app_image photo, 'card-square', 'card__photo u-photo' -%}
       {%- if item.data.photo.size > 1 -%}
         {%- assign label = " photos in this post" | prepend: item.data.photo.size -%}
         {%- app_icon 'photos' 20 label -%}
@@ -12,13 +12,11 @@
     </a>
   {%- else -%}
     {%- if item.data.featured.url -%}
-      <div class="card__image">
-        {%- app_image item.data.featured, 'card', 'u-featured' -%}
-      </div>
+      {%- app_image item.data.featured, 'card', 'u-featured' -%}
     {%- endif -%}
 
-    <header class="card__header">
-      <h3 class="card__title | p-name">
+    <header>
+      <h3 class="p-name">
         <a class="u-url" rel="bookmark" href="{{ item.url }}">
           {%- app_icon item.data.icon -%}
           {{- item.data.title | markdown: 'inline' -}}
@@ -27,14 +25,14 @@
     </header>
 
     {%- if item.data.summary -%}
-      <flow-content class="card__main">
+      <flow-content>
         <p class="p-summary">{{ item.data.summary | markdown: 'inline' }}</p>
       </flow-content>
     {%- endif -%}
   {%- endif -%}
 
-  {%- if item.data.type != 'project' and hideFooter != true -%}
-    <footer class="card__footer">
+  {%- if hideFooter != true -%}
+    <footer>
       {{ item.data | datetime }}
     </footer>
   {%- endif -%}

@@ -8,14 +8,8 @@
   }
 }
 
-@media (--from-medium-viewport) {
-  .items__item:not(:has(.card__image--photo)) {
-    max-inline-size: calc(var(--grid-size) * 1.5);
-  }
-}
-
 @media (--upto-medium-viewport) {
-  .items:has(.card__image--photo) {
+  .items:has(.card__photo) {
     --gap: var(--border-width-thin);
 
     grid-template-columns: repeat(
@@ -26,7 +20,7 @@
   }
 }
 
-.items:has(.card__image--photo) img {
+.items:has(.card__photo) img {
   aspect-ratio: 1;
   object-fit: cover;
 }

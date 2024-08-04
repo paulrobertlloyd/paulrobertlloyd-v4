@@ -1,6 +1,6 @@
 .card {
   --anchor-decoration: none;
-  --card-growth: var(--space-s);
+  --card-spacing: var(--space-s);
   --color-link: hsl(from var(--color-accent) h s calc(l - 25));
 
   @media (prefers-color-scheme: dark) {
@@ -11,10 +11,93 @@
   display: flex;
   flex: 1;
   flex-direction: column;
+  gap: var(--card-spacing);
   overflow: hidden;
+  padding: var(--card-spacing);
   position: relative;
   transition-duration: var(--transition-short);
   transition-property: background-color, box-shadow, margin, padding;
+
+  flow-content {
+    --linear-font-size: var(--font-size-m);
+    --linear-line-height: var(--line-height-tight);
+
+    color: var(--color-neutral-dark);
+    text-wrap: pretty;
+  }
+
+  header {
+    margin-block-start: calc(var(--card-spacing) * 2);
+  }
+
+  footer {
+    color: var(--color-neutral-dark);
+    font: var(--font-meta);
+    margin-block-start: auto;
+  }
+
+  h3 {
+    font: var(--font-heading);
+
+    a {
+      align-items: center;
+      display: inline-flex;
+      gap: var(--space-2xs);
+
+      &::before {
+        content: "";
+        inset: 0;
+        position: absolute;
+        z-index: 2;
+      }
+
+      &:focus {
+        outline: 0;
+      }
+
+      &:focus::before {
+        outline: var(--border-width-focus) solid var(--color-focus);
+        outline-offset: calc(var(--border-width-focus) * -1);
+      }
+    }
+  }
+
+  [rel="bookmark"] svg {
+    color: white;
+    inset-block-start: var(--space-xs);
+    inset-inline-end: var(--space-xs);
+    position: absolute;
+  }
+
+  img {
+    margin: calc(var(--card-spacing) * -2);
+    max-inline-size: calc(100% + calc(var(--card-spacing) * 4));
+  }
+
+  &[style^="--color-accent"]::before {
+    aspect-ratio: 1.5;
+    background-color: var(--color-link);
+    content: "";
+    display: block;
+    inline-size: calc(100% + calc(var(--card-spacing) * 2));
+    inset-block-start: calc(var(--card-spacing) * -1);
+    inset-inline-start: calc(var(--card-spacing) * -1);
+    position: absolute;
+    transition-duration: var(--transition-short);
+    transition-property: inline-size, inset;
+  }
+
+  &[style^="--color-accent"]:hover::before {
+    inline-size: 100%;
+    inset: 0;
+  }
+
+  &[style^="--color-accent"] img {
+    aspect-ratio: 1.5;
+    filter: contrast(0.75) brightness(1.25);
+    mix-blend-mode: luminosity;
+    object-fit: cover;
+  }
 }
 
 .card:hover {
@@ -26,80 +109,7 @@
 
 @media (--from-small-viewport) {
   .card:hover {
-    margin: calc(var(--card-growth) * -1);
-    padding: var(--card-growth);
+    margin: calc(var(--card-spacing) * -1);
+    padding: calc(var(--card-spacing) * 2);
   }
-
-  .card__image {
-    margin: calc(var(--card-growth) * -1);
-  }
-
-  .card__image:not(:last-child) {
-    margin-block-end: 0;
-  }
-}
-
-.card[style^="--color-accent"] .card__image {
-  background-color: var(--color-link);
-}
-
-.card[style^="--color-accent"] .card__image img {
-  aspect-ratio: 1.5;
-  filter: contrast(0.75) brightness(1.25);
-  mix-blend-mode: luminosity;
-  object-fit: cover;
-}
-
-.card__header {
-  padding: var(--space-s);
-  padding-block-end: 0;
-}
-
-.card__title {
-  font: var(--font-heading);
-
-  a {
-    align-items: center;
-    display: inline-flex;
-    gap: var(--space-2xs);
-
-    &::before {
-      content: "";
-      inset: 0;
-      position: absolute;
-      z-index: 2;
-    }
-
-    &:focus {
-      outline: 0;
-    }
-
-    &:focus::before {
-      outline: var(--border-width-focus) solid var(--color-focus);
-      outline-offset: calc(var(--border-width-focus) * -1);
-    }
-  }
-}
-
-.card__main {
-  --linear-font-size: var(--font-size-m);
-  --linear-line-height: var(--line-height-tight);
-
-  color: var(--color-neutral-dark);
-  padding: var(--space-s);
-  text-wrap: pretty;
-}
-
-.card__footer {
-  color: var(--color-neutral-dark);
-  font: var(--font-meta);
-  margin-block-start: auto;
-  padding: var(--space-s);
-}
-
-.card__image--photo svg {
-  color: white;
-  inset-block-start: var(--space-xs);
-  inset-inline-end: var(--space-xs);
-  position: absolute;
 }
