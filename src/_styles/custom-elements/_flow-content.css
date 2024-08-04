@@ -1,10 +1,12 @@
-.s-linear {
+flow-content {
   --color-link-underline: var(--color-neutral);
   --flow-inset: var(--font-size-m);
   --linear-flow-space: 1em;
   --linear-font-size: var(--font-size-m);
   --linear-line-height: var(--line-height-prose);
   --linear-line-measure: var(--line-measure);
+
+  display: block;
 
   & > * {
     font-size: var(--linear-font-size);

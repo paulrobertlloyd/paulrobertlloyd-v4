@@ -11,9 +11,9 @@ tags:
 {%- assign meanKm = totalKm | divided_by: 13 -%}
 {%- assign meanCo2 = totalCo2 | divided_by: 13 -%}
 
-<div class="s-linear">
+<flow-content>
   <p>Over the course of {{ collections.trip | size }} trips, I’ve travelled {{ totalKm }} km and emitted approximately {{ totalCo2 }} kg of CO<sub>2</sub>.</p>
-</div>
+</flow-content>
 
 <table class="barchart">
   <caption class="barchart__caption"><abbr title="kilometers">km</abbr> travelled / <abbr title="kilograms">kg</abbr> CO<sub>2</sub></caption>

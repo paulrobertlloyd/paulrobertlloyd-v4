@@ -27,9 +27,9 @@
     </header>
 
     {%- if item.data.summary -%}
-      <div class="card__main s-linear | p-summary">
+      <flow-content class="card__main | p-summary">
         {{ item.data.summary | markdown }}
-      </div>
+      </flow-content>
     {%- endif -%}
   {%- endif -%}
 

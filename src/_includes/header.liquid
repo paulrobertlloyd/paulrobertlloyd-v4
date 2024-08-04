@@ -5,7 +5,7 @@
   </h1>
 {%- if properties.type != 'article' -%}
 {%- if properties.summary or properties.bookmark_of or properties.uid -%}
-  <div class="header__summary s-linear | p-summary">
+  <flow-content class="header__summary | p-summary">
     {{ properties.summary | markdown }}
 {%- if properties.bookmark_of -%}
     <p>
@@ -17,7 +17,7 @@
       <a class="u-uid" rel="external" href="{{ properties.uid }}">{{ properties.uid | hostname }}</a>
     </p>
 {%- endif -%}
-  </div>
+  </flow-content>
 {%- endif -%}
 {%- endif -%}
 </header>

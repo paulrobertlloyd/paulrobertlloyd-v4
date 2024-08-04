@@ -6,8 +6,8 @@
   </header>
 
 {%- if item.data.summary -%}
-  <div class="item__main s-linear">
+  <flow-content class="item__main">
     {{ item.data.summary | markdown }}
-  </div>
+  </flow-content>
 {%- endif -%}
 </article>

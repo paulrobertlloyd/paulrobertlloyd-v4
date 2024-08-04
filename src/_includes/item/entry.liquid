@@ -8,19 +8,19 @@
 {%- endif -%}
 
 {%- if item.data.jam_of -%}
-  <div class="item__main s-linear">
+  <flow-content class="item__main">
     {%- render 'jam' with item.data.jam_of
       content: content
     -%}
-  </div>
+  </flow-content>
 {%- elsif item.data.summary -%}
-  <div class="item__main s-linear | p-summary">
+  <flow-content class="item__main | p-summary">
     {{ item.data.summary | markdown }}
-  </div>
+  </flow-content>
 {%- elsif item.content -%}
-  <div class="item__main s-linear | e-content p-name">
+  <flow-content class="item__main | e-content p-name">
     {{ item.content }}
-  </div>
+  </flow-content>
 {%- endif -%}
 
 {%- if item.data.date -%}

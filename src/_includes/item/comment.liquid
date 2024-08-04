@@ -8,9 +8,9 @@
     </h3>
   </header>
 
-  <div class="item__main s-linear | p-summary">
+  <flow-content class="item__main | p-summary">
     {{ item.content.value | default: item.content | markdown }}
-  </div>
+  </flow-content>
 
   <footer class="item__footer">
     <a class="u-url" rel="bookmark" href="#comment-{{ id }}">
