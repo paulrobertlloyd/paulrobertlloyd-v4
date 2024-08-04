@@ -2,30 +2,26 @@
   border-image: url("/assets/vectors/dots.svg") fill 15 / 15px /
     calc(var(--gap) / 2) 100vw var(--gap) var(--gap) space;
   max-inline-size: var(--line-measure);
+
+  flow-content {
+    color: var(--color-neutral-dark);
+    margin-block-start: var(--space-s);
+    text-wrap: pretty;
+  }
+
+  h1 {
+    display: inline-flex;
+    font: var(--font-title);
+    gap: var(--space-xs);
+
+    svg {
+      flex-shrink: 0;
+      inset-block-end: -0.1em;
+      position: relative;
+    }
+  }
 }
 
 .footer + .header {
   margin-block-start: 0;
-}
-
-.header__title {
-  display: inline-flex;
-  font: var(--font-title);
-  gap: var(--space-xs);
-
-  svg {
-    flex-shrink: 0;
-    inset-block-end: -0.1em;
-    position: relative;
-  }
-}
-
-.header__summary {
-  --linear-flow-space: 0.5em;
-  --linear-font-size: var(--font-size-l);
-  --linear-line-height: var(--line-height-loose);
-
-  color: var(--color-neutral-dark);
-  margin-block-start: var(--space-s);
-  text-wrap: pretty;
 }
