@@ -12,8 +12,8 @@
     {%- render 'jam' with item.data.jam_of -%}
   </flow-content>
 {%- elsif item.data.summary -%}
-  <flow-content class="item__main | p-summary">
-    {{ item.data.summary | markdown }}
+  <flow-content class="item__main">
+    <p class="p-summary">{{ item.data.summary | markdown: 'inline' }}</p>
   </flow-content>
 {%- elsif item.content -%}
   <flow-content class="item__main | e-content p-name">
