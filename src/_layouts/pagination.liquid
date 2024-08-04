@@ -15,6 +15,7 @@ layout: default.liquid
     itemsComponent: 'card'
     itemsGridSize: '18rem'
     itemsLimit: featured.limit
+    itemsHideFooter: featured.itemsHideFooter
   -%}
 {%- endif %}
 {%- render 'section' with pagination.items
@@ -22,5 +23,6 @@ layout: default.liquid
   title: sectionTitle
   itemsComponent: pagination.component
   itemsGridSize: pagination.gridSize
+  itemsHideFooter: pagination.itemsHideFooter
 -%}
 {%- render 'pagination' with pagination -%}
