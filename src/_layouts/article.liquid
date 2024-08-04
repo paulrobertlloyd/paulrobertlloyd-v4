@@ -1,7 +1,6 @@
 ---
 layout: default.liquid
 ---
-{%- assign comments = collections[id] | find: 'data.type','comments' -%}
 {%- render 'footer'
   properties: properties
 -%}
@@ -10,7 +9,7 @@ layout: default.liquid
 -%}
 <flow-content class="e-content">{{ content }}</flow-content>
 {%- render 'meta'
-  comments: comments
+  comments_meta: comments_meta
   properties: properties
 -%}
 {%- for tag in tags -%}

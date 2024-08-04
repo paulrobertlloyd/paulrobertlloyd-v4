@@ -1,4 +1,4 @@
-{%- if properties.category or properties.syndication or properties.canonical or comments -%}
+{%- if properties.category or properties.syndication or properties.canonical or comments_meta -%}
 <dl class="meta">
 {%- if properties.category -%}
   <dt>Categories</dt>
@@ -18,9 +18,9 @@
   <dt>Original publication</dt>
   <dd>{{ properties.canonical | canonical }}</dd>
 {%- endif -%}
-{%- if comments -%}
+{%- if comments_meta -%}
   <dt>Comments</dt>
-  <dd><a href="{{ comments.url }}">{{ comments.data.properties.summary }}</a></dd>
+  <dd><a href="{{ comments_meta.url }}">{{ comments_meta.data.properties.summary }}</a></dd>
 {%- endif -%}
 </dl>
 {%- endif -%}

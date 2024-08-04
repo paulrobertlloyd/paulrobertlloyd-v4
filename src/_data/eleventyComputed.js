@@ -8,6 +8,8 @@ export default {
   page_image: (data) => data.photo && data.photo[0],
   published: (data) => data?.start || data?.date || data.page.date,
   properties: ({ collections, eleventy, page, pkg, ...rest }) => rest,
+  comments_meta: (data) =>
+    data.collections[data.id]?.find((item) => item.data?.type === "comments"),
   featured_image: (data) =>
     data.featured
       ? `${data.featured.url}?tr=w-1200,h-630`
