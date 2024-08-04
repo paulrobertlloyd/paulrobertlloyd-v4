@@ -3,13 +3,11 @@
   column-gap: var(--space-s);
   display: flex;
   flex-flow: row-reverse wrap;
-  justify-content: space-between;
   padding-block: var(--gap);
 
   small {
-    margin-inline-start: calc(var(--space-s) * -1);
-    min-inline-size: fit-content;
+    margin-inline: calc(var(--space-xs) * -1) auto;
     padding-block: var(--space-2xs);
-    padding-inline: var(--space-s);
+    padding-inline: var(--space-xs);
   }
 }
