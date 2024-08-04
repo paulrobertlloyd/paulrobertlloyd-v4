@@ -2,30 +2,21 @@
   column-gap: var(--space-s);
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   padding-block: var(--gap);
-}
 
-.banner__title {
-  font-weight: 500;
-
-  @media (--upto-small-viewport) {
-    width: 100%;
+  nav {
+    color: var(--color-neutral-dark);
+    display: flex;
+    flex: 999 1 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-inline-size: 70%;
   }
 
-  a {
-    color: var(--color-text);
-    display: inline-flex;
+  a[rel~="home"] {
+    flex-grow: 1;
     margin-inline-start: calc(var(--space-xs) * -1);
     padding-block: var(--space-2xs);
     padding-inline: var(--space-xs);
   }
-}
-
-.banner__navigation {
-  color: var(--color-neutral-dark);
-  display: flex;
-  flex: 1;
-  flex-wrap: wrap;
-  justify-content: space-between;
 }

@@ -1,8 +1,6 @@
 <header class="banner container">
-  <div class="banner__title">
-    <a class="p-author h-card" rel="author home" href="/">{{ app.name }}</a>
-  </div>
-  <nav class="banner__navigation" aria-label="site">
+  <a class="p-author h-card" rel="author home" href="/">{{ app.name }}</a>
+  <nav aria-label="site">
     {% render 'navigation' with navigation.primary
       page: page
       type: type

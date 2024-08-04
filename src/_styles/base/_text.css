@@ -17,7 +17,8 @@ a {
     text-decoration-thickness: 2px;
   }
 
-  &[aria-current] {
+  &[aria-current],
+  &[rel~="home"] {
     font-weight: 500;
   }
 

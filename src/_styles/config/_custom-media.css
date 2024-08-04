@@ -1,4 +1,3 @@
-@custom-media --upto-small-viewport (width < 440px);
 @custom-media --from-small-viewport (width >= 440px);
 @custom-media --upto-medium-viewport (width < 640px);
 @custom-media --from-medium-viewport (width >= 640px);
