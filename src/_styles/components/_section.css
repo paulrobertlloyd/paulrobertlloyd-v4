@@ -11,27 +11,3 @@
   color: var(--color-neutral-dark);
   font: var(--font-subhead);
 }
-
-@media (--upto-medium-viewport) {
-  .section__main--scrollable .items {
-    display: flex;
-    gap: 0;
-    inline-size: 100vw;
-    margin: calc(var(--gap) * -1);
-    -webkit-overflow-scrolling: touch;
-    overflow-x: scroll;
-    padding: var(--gap);
-  }
-
-  .section__main--scrollable .items::after {
-    content: "";
-    display: block;
-    flex: 1 0 1px; /* Force end padding */
-  }
-
-  .section__main--scrollable .items__item {
-    flex: 1 0 75vw;
-    margin-inline-end: var(--gap);
-    max-inline-size: var(--grid-size);
-  }
-}

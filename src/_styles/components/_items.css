@@ -28,3 +28,20 @@
 .items__item {
   display: flex;
 }
+
+@media (--upto-medium-viewport) {
+  .items--scrollable[role="list"] {
+    display: flex;
+    gap: var(--gap);
+    inline-size: 100vw;
+    margin: calc(var(--gap) * -1);
+    -webkit-overflow-scrolling: touch;
+    overflow-x: scroll;
+    padding: var(--gap);
+  }
+
+  .items--scrollable .items__item {
+    flex: 1 0 75vw;
+    max-inline-size: var(--grid-size);
+  }
+}

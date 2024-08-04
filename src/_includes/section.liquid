@@ -4,13 +4,12 @@
       <h2 class="section__title" id="{{ id }}">{{ title }}</h2>
     </header>
 
-    <div class="section__main{% if scrollable %} section__main--scrollable{% endif %}">
-      {%- include 'items' with section
-        limit: itemsLimit
-        component: itemsComponent
-        gridSize: itemsGridSize
-      -%}
-    </div>
+    {%- include 'items' with section
+      limit: itemsLimit
+      component: itemsComponent
+      gridSize: itemsGridSize
+      scrollable: scrollable
+    -%}
   </section>
 {%- elsif title and id -%}
   <section class="section" aria-labelledby="{{ id }}">
@@ -18,8 +17,8 @@
       <h2 class="section__title" id="{{ id }}">{{ title }}</h2>
     </header>
 
-    <div class="section__main">
+    <flow-content>
       {{ "No posts" | markdown }}
-    </div>
+    </flow-content>
   </section>
 {%- endif -%}
