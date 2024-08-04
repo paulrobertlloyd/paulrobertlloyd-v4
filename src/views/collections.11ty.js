@@ -10,6 +10,7 @@ export default class Collections {
         gridSize: "16rem",
       },
       tags: ["archive"],
+      sectionTitle: "Collections A-Z",
       permalink: ({ pagination }) =>
         pagination.pageNumber > 0
           ? `/collections/page/${pagination.pageNumber + 1}.html`
