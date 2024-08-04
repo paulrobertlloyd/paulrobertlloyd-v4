@@ -1,24 +1,18 @@
+<section class="section" aria-labelledby="{{ id }}">
+  <header>
+    <h2 id="{{ id }}">{{ title }}</h2>
+  </header>
+
 {%- if section.size > 0 %}
-  <section class="section" aria-labelledby="{{ id }}">
-    <header class="section__header">
-      <h2 class="section__title" id="{{ id }}">{{ title }}</h2>
-    </header>
-
-    {%- include 'items' with section
-      limit: itemsLimit
-      component: itemsComponent
-      gridSize: itemsGridSize
-      scrollable: scrollable
-    -%}
-  </section>
-{%- elsif title and id -%}
-  <section class="section" aria-labelledby="{{ id }}">
-    <header class="section__header">
-      <h2 class="section__title" id="{{ id }}">{{ title }}</h2>
-    </header>
-
-    <flow-content>
-      {{ "No posts" | markdown }}
-    </flow-content>
-  </section>
+  {%- include 'items' with section
+    limit: itemsLimit
+    component: itemsComponent
+    gridSize: itemsGridSize
+    scrollable: scrollable
+  -%}
+{%- else -%}
+  <flow-content>
+    {{ "No posts" | markdown }}
+  </flow-content>
 {%- endif -%}
+</section>

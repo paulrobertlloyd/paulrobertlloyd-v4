@@ -1,13 +1,10 @@
 .section {
   display: grid;
+  gap: var(--space-s);
   grid-column: content;
-}
 
-.section__header {
-  padding-block-end: var(--space-s);
-}
-
-.section__title {
-  color: var(--color-neutral-dark);
-  font: var(--font-subhead);
+  h2 {
+    color: var(--color-neutral-dark);
+    font: var(--font-subhead);
+  }
 }
