@@ -2,7 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   margin-inline-start: calc(var(--space-xs) * -1);
-  min-inline-size: fit-content;
 
   @media print {
     display: none;
