@@ -13,13 +13,13 @@ layout: default.liquid
   properties: properties
 -%}
 {%- for tag in tags -%}
-  {%- assign collection = collections.collection | where: 'data.page.fileSlug',tag | first -%}
+  {%- assign collection = collections.collection | find: 'data.page.fileSlug',tag -%}
   {%- if collection -%}
-    {%- capture sectionTitle %}More from the <a href="{{ collection.url }}">{{ collection.data.title }}</a> collection{%- endcapture -%}
-    {%- assign articles = collections.article | includes: 'data.tags', tag | excludes: 'url',page.url -%}
+    {%- capture title %}More from the <a href="{{ collection.url }}">{{ collection.data.title }}</a> collection{%- endcapture -%}
+    {%- assign articles = collections.article | siblings: tag -%}
     {%- render 'section' with articles
       id: 'related'
-      title: sectionTitle
+      title: title
       scrollable: true
       itemsComponent: 'card'
       itemsGridSize: '15rem'

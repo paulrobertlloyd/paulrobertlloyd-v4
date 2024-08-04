@@ -20,7 +20,7 @@ tags:
   <tbody class="barchart__items">
   {%- for year in (2003..currentYear) -%}
     <tr class="barchart__item">
-      {%- assign thisYear = collections.trip | includes: 'date',year -%}
+      {%- assign thisYear = collections.trip | where: 'data.year',year -%}
       {%- assign yearKm = thisYear | sum: 'data.distance' -%}
       {%- assign scaleKm = yearKm | percentage_of: meanKm | divided_by: 2 -%}
       {%- assign yearCo2 = thisYear | sum: 'data.emissions' -%}
@@ -45,7 +45,7 @@ tags:
 </table>
 
 {%- for year in (2003..currentYear) reversed -%}
-  {%- assign thisYear = collections.trip | includes: 'data.start',year -%}
+  {%- assign thisYear = collections.trip | where: 'data.year',year -%}
   {%- render 'trips' with thisYear
     id: year
     title: year
