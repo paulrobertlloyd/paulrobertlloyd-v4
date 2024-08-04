@@ -1,12 +1,12 @@
 <footer class="footer">
   <dl>
     <dt class="visually-hidden">Date</dt>
-    <dd>{{ properties | datetime }}</dd>
+    <dd>{% datetime properties %}</dd>
 {%- if properties.location.name -%}
     <dt class="visually-hidden">Location</dt>
     <dd class="p-location h-card">
       <span class="p-name">{{ properties.location.name }}</span>,
-      {{ properties | adr }}
+      {% adr properties %}
     </dd>
 {%- endif -%}
   </dl>

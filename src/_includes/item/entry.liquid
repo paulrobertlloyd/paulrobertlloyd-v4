@@ -24,10 +24,10 @@
 {%- if item.data.date -%}
   <footer>
 {%- if item.data.title -%}
-    {{ item.data | datetime }}
+    {%- datetime item.data -%}
 {%- else -%}
     <a class="u-url" rel="bookmark" href="{{ item.url }}">
-      {{ item.data | datetime }}
+      {%- datetime item.data -%}
     </a>
 {%- endif -%}
   </footer>

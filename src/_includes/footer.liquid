@@ -1,10 +1,10 @@
 <footer class="footer">
   <dl>
     <dt class="visually-hidden">Published on</dt>
-    <dd>{{ properties | datetime }}</dd>
+    <dd>{% datetime properties %}</dd>
 {%- if properties.location -%}
     <dt class="visually-hidden">Published in</dt>
-    <dd class="p-location">{{ properties | adr }}</dd>
+    <dd class="p-location">{% adr properties %}</dd>
 {%- endif -%}
 {%- if properties.in_reply_to -%}
     <dt>In reply to</dt>

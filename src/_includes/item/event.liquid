@@ -12,12 +12,12 @@
   <flow-content class="p-location">
     <p class="h-card">
       at <span class="p-name">{{ item.data.location.name }}</span>,
-      {{ item.data | adr }}
+      {% adr item.data %}
     </p>
   </flow-content>
 {%- endif -%}
 
   <footer>
-    {{ item.data | datetime }}
+    {%- datetime item.data -%}
   </footer>
 </article>

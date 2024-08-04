@@ -33,7 +33,7 @@
 
   {%- if hideFooter != true -%}
     <footer>
-      {{ item.data | datetime }}
+      {%- datetime item.data -%}
     </footer>
   {%- endif -%}
 </article>

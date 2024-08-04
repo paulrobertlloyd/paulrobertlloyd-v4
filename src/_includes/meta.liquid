@@ -10,13 +10,13 @@
   <dt>Also on</dt>
   <dd>
     {%- for url in properties.syndication %}
-      {{ url | syndication }}{% unless forloop.last %},{% endunless %}
+      {% syndication url %}{% unless forloop.last %},{% endunless %}
     {%- endfor -%}
   </dd>
 {%- endif -%}
 {%- if properties.canonical -%}
   <dt>Original publication</dt>
-  <dd>{{ properties.canonical | canonical }}</dd>
+  <dd>{% canonical properties.canonical %}</dd>
 {%- endif -%}
 {%- if comments_meta -%}
   <dt>Comments</dt>
