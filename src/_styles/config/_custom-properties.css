@@ -49,8 +49,6 @@
   /* Font styles */
   --font-title: 500 var(--font-size-3xl) / var(--line-height-tight)
     var(--font-family-sans);
-  --font-summary: normal var(--font-size-l) / var(--line-height-loose)
-    var(--font-family-sans);
   --font-heading: 500 var(--font-size-l) / var(--line-height-tight)
     var(--font-family-sans);
   --font-subhead: normal var(--font-size-m) / var(--line-height-loose)

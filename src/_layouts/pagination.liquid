@@ -1,11 +1,11 @@
 ---
 layout: default.liquid
 ---
-<h1 class="main__title">{{ title }}</h1>
+<h1>{{ title }}</h1>
 {%- if summary -%}
-<div class="main__summary">
+<flow-content data-font-size="large">
   {{ summary | markdown }}
-</div>
+</flow-content>
 {%- endif -%}
 {%- if featured -%}
   {%- render 'section' with collections[featured.collection]
