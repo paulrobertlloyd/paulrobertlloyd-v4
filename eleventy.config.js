@@ -13,6 +13,7 @@ import navigation from "./src/_data/navigation.js";
 // See: https://github.com/11ty/eleventy/issues/3128
 let appJson = await readFile(new URL(`src/app.json`, import.meta.url));
 let app = JSON.parse(appJson.toString());
+app = { ...app, url: process.env.URL || "" };
 
 // Get current year
 const currentYear = new Date().getFullYear();
@@ -40,7 +41,6 @@ export default function (eleventy) {
 
   // Global data
   eleventy.addGlobalData("app", app);
-  eleventy.addGlobalData("app.url", process.env.URL || "");
   eleventy.addGlobalData("currentYear", currentYear);
 
   // Passthrough
@@ -72,7 +72,10 @@ export default function (eleventy) {
   eleventy.setLiquidOptions({
     cache: true,
     globals: { app, currentYear, navigation },
+    jsTruthy: true,
+    strictFilters: true,
   });
+  eleventy.setLiquidParameterParsing("builtin");
 
   // Config
   return {
