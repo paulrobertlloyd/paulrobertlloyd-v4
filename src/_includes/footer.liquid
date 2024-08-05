@@ -1,7 +1,13 @@
 <footer class="footer">
   <dl>
     <dt class="visually-hidden">Published on</dt>
-    <dd>{% datetime properties %}</dd>
+    <dd>
+{%- if properties.title -%}
+      {% datetime properties %}
+{%- else -%}
+      {% datetime properties true %}
+{%- endif -%}
+    </dd>
 {%- if properties.location -%}
     <dt class="visually-hidden">Published in</dt>
     <dd class="p-location">{% adr properties %}</dd>
