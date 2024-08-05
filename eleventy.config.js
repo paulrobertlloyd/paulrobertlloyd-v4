@@ -38,14 +38,6 @@ export default function (eleventy) {
     eleventy.addFilter(name, filter);
   }
 
-  // Slugify filter
-  const slugifyFilter = eleventy.getFilter("slugify");
-  eleventy.addFilter("slugify", (string) =>
-    slugifyFilter(string, {
-      separator: "_",
-    }),
-  );
-
   // Global data
   eleventy.addGlobalData("app", app);
   eleventy.addGlobalData("app.url", process.env.URL || "");
