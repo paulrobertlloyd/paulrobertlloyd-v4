@@ -20,11 +20,6 @@
   }
 }
 
-.items:has(.card__photo) img {
-  aspect-ratio: 1;
-  object-fit: cover;
-}
-
 .items__item {
   display: flex;
 }

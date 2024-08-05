@@ -17,10 +17,12 @@
 
   /* Colour assignments */
   --color-background: white;
+  --color-background-photo: hsl(from var(--color-neutral) h s 12%);
   --color-offset: var(--color-neutral-lightest);
   --color-shadow: hsl(from var(--color-neutral-darkest) h s l / 10%);
   --color-text: var(--color-neutral-darkest);
   --color-text-focus: hsl(from var(--color-neutral-darkest) h s 0);
+  --color-text-photo: hsl(from var(--color-neutral) h s 88%);
   --color-link: var(--color-accent-with-contrast);
   --color-link-underline: var(--color-neutral-light);
 

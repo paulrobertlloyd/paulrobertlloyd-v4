@@ -247,7 +247,7 @@ flow-content {
     }
 
     li:has(.u-photo) {
-      background-color: var(--color-shadow);
+      background-color: var(--color-background-photo);
     }
 
     figure:has(img[src*="#screenshot"]) figcaption {
