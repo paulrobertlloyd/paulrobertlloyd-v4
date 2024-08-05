@@ -4,8 +4,7 @@
   "name": "Paul Robert Lloyd",
   "short_name": "PRL",
   "description": "The personal website of Paul Robert Lloyd",
-  "theme_color": "#f4f4f5",
-  "background_color": "#fff",
+  "scope": "/",
   "icons": [
     {
       "src": "/assets/icons/icon.svg",
@@ -22,5 +21,10 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "display": "standalone",
+  "start_url": "/?homescreen",
+  "id": "/?homescreen",
+  "theme_color": "#f4f4f5",
+  "background_color": "#fff"
 }
