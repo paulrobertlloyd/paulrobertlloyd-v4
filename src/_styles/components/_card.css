@@ -87,6 +87,10 @@
     transition-property: inline-size, inset;
   }
 
+  &[style^="--color-accent"]:not(:has(img))::before {
+    content: none;
+  }
+
   &[style^="--color-accent"]:hover::before {
     inline-size: 100%;
     inset: 0;
