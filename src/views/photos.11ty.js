@@ -8,7 +8,6 @@ export default class Photos {
         size: 36,
         component: "card",
         gridSize: "20%",
-        itemsHideFooter: true,
       },
       eleventyComputed: {
         sectionTitle: ({ pagination }) =>

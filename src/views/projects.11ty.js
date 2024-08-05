@@ -16,7 +16,6 @@ export default class Projects {
         collection: "project",
         limit: 9,
         title: "Select case studies",
-        itemsHideFooter: true,
       },
       sectionTitle: "The work that I do",
       permalink: ({ pagination }) =>
