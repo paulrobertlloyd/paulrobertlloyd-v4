@@ -1,6 +1,4 @@
 .header {
-  border-image: url("/assets/vectors/dots.svg") fill 15 / 15px /
-    calc(var(--gap) / 2) 100vw var(--gap) var(--gap) space;
   max-inline-size: var(--line-measure);
 
   flow-content {
