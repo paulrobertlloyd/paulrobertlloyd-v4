@@ -26,13 +26,13 @@ export default class ServiceWorker {
     ];
 
     for (const item of navigation.primary) {
-      if (item.rel === "external") return;
-
       offlinePages.push(item.url);
     }
 
     for (const item of navigation.secondary) {
-      offlinePages.push(item.url);
+      if (item.rel !== "external") {
+        offlinePages.push(item.url);
+      }
     }
 
     for (const item of collections.highlights) {
