@@ -4,7 +4,7 @@
     {%- render 'item/{{ component | default: "entry" }}'
       id: forloop.index
       item: item
-      hideFooter: itemsHideFooter
+      hideFooter: hideFooter
     -%}
   </li>
 {%- endfor -%}
