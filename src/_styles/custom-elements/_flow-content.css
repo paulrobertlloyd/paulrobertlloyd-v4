@@ -231,6 +231,10 @@ flow-content {
       --gallery-columns: var(--columns, 4);
     }
 
+    &:has([src*="#screenshot"]) {
+      margin-inline: calc(var(--gap) * -1);
+    }
+
     &:not(:has(img[src*="#screenshot"])) {
       gap: var(--space-s);
     }
