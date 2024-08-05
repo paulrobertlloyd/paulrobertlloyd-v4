@@ -8,15 +8,12 @@
   display: flex;
   flex: 1;
   flex-direction: column;
+  gap: var(--space-m-l) var(--gap);
   padding-block: var(--gap);
-  row-gap: var(--space-m-l);
 
   @media (--from-medium-viewport) {
     display: grid;
-    grid-template-columns:
-      [container-start] auto
-      [content-start] 1fr [content-end]
-      auto [container-end];
+    grid-template-columns: [--content-start] 1fr [--content-end];
   }
 
   > h1 + flow-content {
@@ -26,10 +23,8 @@
 
   > h1 {
     font: var(--font-title);
-    grid-area: title;
-    grid-column: content-end;
+    grid-column: --content-end;
     grid-row: 1;
-    margin-block-end: var(--gap);
 
     @media (--from-medium-viewport) {
       inline-size: 1px; /* Force stickiness */
@@ -40,6 +35,6 @@
   }
 
   > * {
-    grid-column: content;
+    grid-column: --content;
   }
 }

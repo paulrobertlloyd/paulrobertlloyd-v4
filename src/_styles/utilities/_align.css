@@ -3,13 +3,13 @@
   --linear-line-measure: auto;
 
   display: grid;
-  grid-template-columns: [bleed-start] minmax(0, var(--linear-line-measure)) [measure] 1fr [bleed-end];
+  grid-template-columns: [--bleed-start] minmax(0, var(--linear-line-measure)) [measure] 1fr [--bleed-end];
   margin-inline: calc(var(--gap) * -1);
 
   & > a:first-child,
   & > img:first-child,
   & > picture:first-child {
-    grid-column: bleed;
+    grid-column: --bleed;
     inline-size: 100%;
   }
 

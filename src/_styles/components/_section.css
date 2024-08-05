@@ -1,7 +1,6 @@
 .section {
   display: grid;
   gap: var(--space-s);
-  grid-column: content;
 
   h2 {
     color: var(--color-neutral-dark);
