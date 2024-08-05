@@ -1,0 +1,29 @@
+.itinerary {
+  position: relative;
+
+  &::before {
+    border-inline-start: var(--border-width-thick) solid var(--color-accent);
+    content: "";
+    display: block;
+    inset-block: 0.5lh;
+    inset-inline-start: 0;
+    position: absolute;
+  }
+
+  li {
+    padding-inline-start: var(--flow-inset, 1em);
+    position: relative;
+
+    &::before {
+      background-color: var(--color-accent);
+      block-size: calc(var(--border-width-thick) * 3);
+      border-radius: 100%;
+      content: "";
+      display: block;
+      inline-size: calc(var(--border-width-thick) * 3);
+      inset-block: calc(0.5lh - var(--border-width-thick));
+      inset-inline-start: calc(var(--border-width-thick) * -1);
+      position: absolute;
+    }
+  }
+}

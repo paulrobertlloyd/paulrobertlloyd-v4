@@ -10,15 +10,11 @@ layout: default.liquid
 -%}
 {%- capture content -%}
   <p>Part of a journey to <a href="{{ related.url }}">{{ related.data.title }}</a>.</p>
-  {%- capture caption -%}
-    {%- render 'itinerary' with itinerary -%}
-  {%- endcapture -%}
   {%- render 'route-map'
     alignment: 'bleed',
-    caption: caption,
     geojson: geojson,
     outputDir: page.url
   -%}
-  {{ trip.content | markdown }}
+  {%- render 'itinerary' with itinerary -%}
 {%- endcapture -%}
 <flow-content class="e-content">{{ content }}</flow-content>

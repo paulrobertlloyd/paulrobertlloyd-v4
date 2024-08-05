@@ -1,10 +1,5 @@
-<ul class="itinerary" role="list">
+<ol class="itinerary" role="list">
 {%- for stop in itinerary %}
-  <li>
-    {%- unless forloop.first -%}
-      {%- app_icon stop.icon %}
-    {% endunless -%}
-    {{ stop.label }}, {{ stop.country_name }}
-  </li>
+  <li>{{ stop.label }}, {{ stop.country_name }}</li>
 {%- endfor %}
-</ul>
+</ol>
