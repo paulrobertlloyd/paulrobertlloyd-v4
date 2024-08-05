@@ -40,7 +40,6 @@
     font: var(--font-heading);
 
     a {
-      align-items: center;
       display: inline-flex;
       gap: var(--space-2xs);
 
@@ -60,9 +59,13 @@
         outline-offset: calc(var(--border-width-focus) * -1);
       }
     }
+
+    svg {
+      flex-shrink: 0;
+    }
   }
 
-  [rel="bookmark"] svg {
+  &:has(.card__photo) svg {
     color: white;
     inset-block-start: var(--space-xs);
     inset-inline-end: var(--space-xs);

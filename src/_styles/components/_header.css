@@ -10,13 +10,7 @@
   h1 {
     display: inline-flex;
     font: var(--font-title);
-    gap: var(--space-xs);
-
-    svg {
-      flex-shrink: 0;
-      inset-block-end: -0.1em;
-      position: relative;
-    }
+    gap: var(--space-2xs);
   }
 }
 
