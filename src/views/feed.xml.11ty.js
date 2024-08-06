@@ -48,15 +48,23 @@ export default class AtomFeed {
     const items = collections.syndicate.slice(0, 25);
 
     for await (const item of items) {
-      const { bookmark_of, category, in_reply_to, summary, url } = item.data;
+      const {
+        bookmark_of,
+        category,
+        in_reply_to,
+        published,
+        summary,
+        title,
+        url,
+      } = item.data;
       const external_url = bookmark_of || in_reply_to || url;
       const html = await this.template_content_to_feed_html(item);
 
       feed.entry.push({
         id: this.absolute_url(item.url, app.url),
-        title: item.data.title || "",
+        title: title || "",
         ...(summary && { summary }),
-        updated: new Date(item.data.published).toISOString(),
+        updated: new Date(published).toISOString(),
         link: external_url
           ? [
               {

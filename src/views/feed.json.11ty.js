@@ -33,15 +33,23 @@ export default class JsonFeed {
     const items = collections.syndicate.slice(0, 25);
 
     for await (const item of items) {
-      const { bookmark_of, category, in_reply_to, photo, summary, title, url } =
-        item.data;
+      const {
+        bookmark_of,
+        category,
+        in_reply_to,
+        photo,
+        published,
+        summary,
+        title,
+        url,
+      } = item.data;
       const external_url = bookmark_of || in_reply_to || url;
       const content_html = await this.template_content_to_feed_html(item);
 
       feed.items.push({
         id: this.absolute_url(item.url, app.url),
         url: this.absolute_url(item.url, app.url),
-        date_published: item.date,
+        date_published: new Date(published).toISOString(),
         ...(title && { title }),
         ...(summary && { summary: this.markdown(summary, "inline") }),
         ...(content_html && { content_html }),
