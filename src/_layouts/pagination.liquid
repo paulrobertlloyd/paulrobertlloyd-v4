@@ -17,10 +17,12 @@ layout: default.liquid
     itemsLimit: featured.limit
   -%}
 {%- endif %}
-{%- render 'section' with pagination.items
-  id: 'recent'
-  title: sectionTitle
-  itemsComponent: pagination.component
-  itemsGridSize: pagination.gridSize
--%}
+{%- if pagination.items -%}
+  {%- render 'section' with pagination.items
+    id: 'recent'
+    title: sectionTitle
+    itemsComponent: pagination.component
+    itemsGridSize: pagination.gridSize
+  -%}
+{%- endif %}
 {%- render 'pagination' with pagination -%}
