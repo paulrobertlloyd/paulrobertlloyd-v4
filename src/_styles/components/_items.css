@@ -6,17 +6,17 @@
   &:has(.card) {
     grid-gap: var(--gap);
   }
-}
 
-@media (--upto-medium-viewport) {
-  .items:has(.card__photo) {
-    --gap: var(--border-width-thin);
+  &:has(.card[data-type^="photo"]) {
+    @media (--upto-medium-viewport) {
+      --gap: var(--border-width-thin);
 
-    grid-template-columns: repeat(
-      auto-fit,
-      minmax(calc(33% - calc(var(--border-width-thin) * 2)), 1fr)
-    );
-    margin-inline: calc(var(--space-s-m) * -1);
+      grid-template-columns: repeat(
+        auto-fit,
+        minmax(calc(33% - calc(var(--border-width-thin) * 2)), 1fr)
+      );
+      margin-inline: calc(var(--space-s-m) * -1);
+    }
   }
 }
 

@@ -2,7 +2,6 @@
   <header>
     <h3 class="p-name">
       <a class="u-url" rel="bookmark" href="{{ item.url }}">
-        {%- app_icon item.data.icon -%}
         {{- item.data.title | markdown: 'inline' -}}
       </a>
     </h3>
@@ -19,5 +18,6 @@
 
   <footer>
     {%- datetime item.data -%}
+    {%- app_icon item.data.icon item.data.icon_label -%}
   </footer>
 </article>

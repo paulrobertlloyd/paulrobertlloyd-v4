@@ -1,37 +1,33 @@
-{%- assign date_color = item.data.date | color -%}
-{%- assign accent_color = item.data.accent_color | default: date_color -%}
-<article class="card |{% for root in item.data.vocabulary %} h-{{ root }}{% endfor %}"{% if item.data.duotoneCardImage %} style="--color-accent: {{ accent_color }}"{% endif %}>
-  {%- if item.data.type == 'photo' -%}
-    <a class="u-url" rel="bookmark" href="{{ item.url }}">
-      {%- assign photo = item.data.photo | first -%}
-      {%- app_image photo, 'card-square', 'card__photo u-photo' -%}
-      {%- if item.data.photo.size > 1 -%}
-        {%- assign label = " photos in this post" | prepend: item.data.photo.size -%}
-        {%- app_icon 'photos' 20 label -%}
-      {%- endif -%}
-    </a>
-  {%- else -%}
-    {%- if item.data.featured.url -%}
-      {%- app_image item.data.featured, 'card', 'u-featured' -%}
-    {%- endif -%}
+<article class="card |{% for root in item.data.vocabulary %} h-{{ root }}{% endfor %}" id="{{ item.data.id }}" data-type="{{ item.data.type }}" style="--color-accent: {{ item.data.accent_color }}">
+  {%- app_image item.data.photo[0], 'card-square', 'u-photo' -%}
+  {%- app_image item.data.featured, 'card', 'u-featured' -%}
 
-    <header>
-      <h3 class="p-name">
-        <a class="u-url" rel="bookmark" href="{{ item.url }}">
-          {%- app_icon item.data.icon -%}
-          {{- item.data.title | markdown: 'inline' -}}
-        </a>
-      </h3>
-    </header>
+{%- if item.data.title -%}
+  <header>
+    <h3 class="p-name">
+      <a class="u-url" rel="bookmark" href="{{ item.url }}">
+        {{- item.data.title | markdown: 'inline' -}}
+      </a>
+    </h3>
+  </header>
+{%- endif -%}
 
-    {%- if item.data.summary -%}
-      <flow-content>
-        <p class="p-summary">{{ item.data.summary | markdown: 'inline' }}</p>
-      </flow-content>
-    {%- endif -%}
-  {%- endif -%}
+{%- if item.data.summary -%}
+  <flow-content>
+    <p class="p-summary">{{ item.data.summary | markdown: 'inline' }}</p>
+  </flow-content>
+{%- endif -%}
 
+{%- if item.data.date or item.data.start -%}
   <footer>
+{%- if item.data.title -%}
     {%- datetime item.data -%}
+{%- else -%}
+    <a class="u-url" rel="bookmark" href="{{ item.url }}">
+      {%- datetime item.data -%}
+    </a>
+{%- endif -%}
+    {%- app_icon item.data.icon item.data.icon_label -%}
   </footer>
+{%- endif -%}
 </article>

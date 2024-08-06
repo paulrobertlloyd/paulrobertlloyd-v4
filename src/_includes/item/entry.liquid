@@ -21,7 +21,7 @@
   </flow-content>
 {%- endif -%}
 
-{%- if item.data.date -%}
+{%- if item.data.date or item.data.start -%}
   <footer>
 {%- if item.data.title -%}
     {%- datetime item.data -%}
@@ -30,6 +30,7 @@
       {%- datetime item.data -%}
     </a>
 {%- endif -%}
+    {%- app_icon item.data.icon item.data.icon_label -%}
   </footer>
 {%- endif -%}
 </article>

@@ -19,20 +19,17 @@
   footer {
     --anchor-decoration: none;
 
+    align-items: center;
     color: var(--color-text-secondary);
+    display: inline-flex;
     font: var(--font-meta);
+    gap: var(--space-2xs);
   }
 
   h3 {
     --anchor-decoration: none;
 
     font: var(--font-heading);
-
-    a {
-      align-items: center;
-      display: inline-flex;
-      gap: var(--space-2xs);
-    }
   }
 }
 
