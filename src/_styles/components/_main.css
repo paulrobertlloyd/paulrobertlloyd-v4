@@ -17,7 +17,7 @@
   }
 
   > h1 + flow-content {
-    color: var(--color-neutral-dark);
+    color: var(--color-text-secondary);
     text-wrap: pretty;
   }
 

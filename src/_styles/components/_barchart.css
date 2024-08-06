@@ -10,7 +10,7 @@
 
 .barchart__caption,
 .barchart__key {
-  color: var(--color-neutral-dark);
+  color: var(--color-text-secondary);
   font-size: var(--font-size-s);
   padding-block: var(--space-2xs);
   text-align: end;
@@ -26,7 +26,7 @@
   }
 
   abbr:last-of-type::before {
-    color: var(--color-neutral-dark);
+    color: var(--color-text-secondary);
   }
 }
 
@@ -78,7 +78,7 @@
   }
 
   [style^="--chart-size"]:last-of-type {
-    background-color: var(--color-neutral-dark);
+    background-color: var(--color-text-secondary);
     inline-size: 40%;
     inset-inline-end: 10%;
   }

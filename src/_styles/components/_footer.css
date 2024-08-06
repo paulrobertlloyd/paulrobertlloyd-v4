@@ -1,6 +1,6 @@
 .footer {
   align-items: baseline;
-  color: var(--color-neutral-dark);
+  color: var(--color-text-secondary);
   display: flex;
 
   cite {

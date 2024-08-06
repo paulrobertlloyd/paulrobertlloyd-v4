@@ -33,7 +33,7 @@ flow-content {
   }
 
   & :is(caption, figcaption) {
-    color: var(--color-neutral-dark);
+    color: var(--color-text-secondary);
     font: var(--font-caption);
   }
 
@@ -57,7 +57,7 @@ flow-content {
   & > aside :is(p, dl, ol, ul, address) {
     --flow-inset: 0;
 
-    color: var(--color-neutral-dark);
+    color: var(--color-text-secondary);
     font-size: var(--font-size-s);
     padding-inline-end: var(--gap);
   }
@@ -165,7 +165,7 @@ flow-content {
   }
 
   & h4:not([class]) {
-    color: var(--color-neutral-dark);
+    color: var(--color-text-secondary);
     margin-block-end: calc(var(--linear-flow-space) * -0.5);
   }
 

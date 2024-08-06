@@ -34,7 +34,7 @@
     --linear-font-size: var(--font-size-m);
     --linear-line-height: var(--line-height-tight);
 
-    color: var(--color-neutral-dark);
+    color: var(--color-text-secondary);
     text-wrap: pretty;
   }
 

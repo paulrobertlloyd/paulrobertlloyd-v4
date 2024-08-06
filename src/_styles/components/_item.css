@@ -13,13 +13,13 @@
   }
 
   header + flow-content {
-    color: var(--color-neutral-dark);
+    color: var(--color-text-secondary);
   }
 
   footer {
     --anchor-decoration: none;
 
-    color: var(--color-neutral-dark);
+    color: var(--color-text-secondary);
     font: var(--font-meta);
   }
 

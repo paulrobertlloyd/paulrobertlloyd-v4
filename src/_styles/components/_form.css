@@ -35,7 +35,7 @@
 }
 
 .form__label {
-  color: var(--color-neutral-dark);
+  color: var(--color-text-secondary);
   display: inline-block;
   padding-block: var(--space-2xs);
 }

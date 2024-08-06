@@ -1,5 +1,5 @@
 .meta {
-  color: var(--color-neutral-dark);
+  color: var(--color-text-secondary);
   font: var(--font-caption);
   max-inline-size: var(--line-measure);
 }

@@ -3,7 +3,7 @@
   gap: var(--space-s);
 
   h2 {
-    color: var(--color-neutral-dark);
+    color: var(--color-text-secondary);
     font: var(--font-subhead);
   }
 }
