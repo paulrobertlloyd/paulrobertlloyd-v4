@@ -6,7 +6,7 @@ export default {
   id: (data) => getId(data),
   page_title: (data) => (data.page.url === "/" ? false : data.title),
   page_image: (data) => data.photo && data.photo[0],
-  published: (data) => data?.start || data?.date || data.page.date,
+  published: (data) => data?.date || data.page.date,
   properties: ({ collections, eleventy, page, pkg, ...rest }) => rest,
   comments_meta: (data) =>
     data.collections[data.id]?.find((item) => item.data?.type === "comments"),
@@ -17,5 +17,6 @@ export default {
   featured_image_alt: (data) => (data.featured ? data.featured.alt : "Logo"),
   accent_color: (data) =>
     data.accent_color ||
-    getColor(data.location?.locality || data.date || "#10e"),
+    getColor(data.location?.locality || data.date) ||
+    "#10e",
 };
