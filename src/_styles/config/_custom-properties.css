@@ -58,8 +58,6 @@
     var(--font-family-sans);
   --font-caption: normal var(--font-size-s) / var(--line-height-loose)
     var(--font-family-sans);
-  --font-meta: normal var(--font-size-xs) / var(--line-height-loose)
-    var(--font-family-sans);
 
   /*
    * Fluid size scale

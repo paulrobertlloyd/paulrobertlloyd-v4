@@ -43,7 +43,7 @@
     align-items: center;
     color: inherit;
     display: inline-flex;
-    font: var(--font-meta);
+    font: var(--font-caption);
     gap: var(--space-2xs);
     margin-block-start: auto;
   }
