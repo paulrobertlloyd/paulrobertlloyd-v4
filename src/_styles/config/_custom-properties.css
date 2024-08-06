@@ -7,7 +7,7 @@
   --color-neutral-lightest: hsl(from var(--color-neutral) h s 96%);
 
   /* Accent palette */
-  --color-accent-with-contrast: hsl(from var(--color-accent) h s calc(l - 25));
+  --color-accent-with-contrast: lch(from var(--color-accent) calc(l / 3) c h);
 
   /* Focus palette */
   --color-focus: hsl(40deg 100% 50%);
@@ -102,9 +102,7 @@
     --color-neutral-lightest: hsl(from var(--color-neutral) h s 16%);
 
     /* Accent palette */
-    --color-accent-with-contrast: hsl(
-      from var(--color-accent) h s calc(l + 25)
-    );
+    --color-accent-with-contrast: lch(from var(--color-accent) calc(l * 3) c h);
 
     /* Colour assignments */
     --color-background: hsl(from var(--color-neutral-lightest) h s 8%);
