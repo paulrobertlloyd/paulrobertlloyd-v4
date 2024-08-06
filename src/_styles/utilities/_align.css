@@ -1,9 +1,9 @@
 /* Bleed alignment */
 .align-bleed {
-  --linear-line-measure: auto;
+  --flow-measure: auto;
 
   display: grid;
-  grid-template-columns: [--bleed-start] minmax(0, var(--linear-line-measure)) [measure] 1fr [--bleed-end];
+  grid-template-columns: [--bleed-start] minmax(0, var(--flow-measure)) [--measure] 1fr [--bleed-end];
   margin-inline: calc(var(--gap) * -1);
 
   & > a:first-child,
@@ -24,7 +24,7 @@
     float: right; /* Chromium */
     float: inline-end;
     inline-size: 33%;
-    margin-block: var(--linear-flow-space) !important;
+    margin-block: var(--flow-space) !important;
     margin-inline: var(--gap) calc(var(--gap) * -1);
   }
 }

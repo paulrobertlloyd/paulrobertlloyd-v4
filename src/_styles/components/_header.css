@@ -1,5 +1,5 @@
 .header {
-  max-inline-size: var(--line-measure);
+  max-inline-size: var(--measure);
 
   flow-content {
     color: var(--color-text-secondary);

@@ -8,8 +8,8 @@
   position: relative;
 
   flow-content {
-    --linear-flow-space: var(--space-xs);
-    --linear-line-height: var(--line-height-loose);
+    --flow-space: var(--space-xs);
+    --flow-line-height: var(--line-height-loose);
   }
 
   header + flow-content {

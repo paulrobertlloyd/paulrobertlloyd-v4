@@ -1,34 +1,34 @@
 flow-content {
   --color-link-underline: var(--color-neutral);
   --flow-inset: var(--font-size-m);
-  --linear-flow-space: 1em;
-  --linear-font-size: var(--font-size-m);
-  --linear-line-height: var(--line-height-prose);
-  --linear-line-measure: var(--line-measure);
+  --flow-space: 1em;
+  --flow-font-size: var(--font-size-m);
+  --flow-line-height: var(--line-height-prose);
+  --flow-measure: var(--measure);
 
   display: block;
 
   &[data-font-size="large"] {
-    --linear-flow-space: var(--space-s);
-    --linear-font-size: var(--font-size-l);
-    --linear-line-height: var(--line-height-loose);
+    --flow-space: var(--space-s);
+    --flow-font-size: var(--font-size-l);
+    --flow-line-height: var(--line-height-loose);
   }
 
   & > * {
-    font-size: var(--linear-font-size);
-    line-height: var(--linear-line-height);
-    max-inline-size: var(--linear-line-measure);
+    font-size: var(--flow-font-size);
+    line-height: var(--flow-line-height);
+    max-inline-size: var(--flow-measure);
     word-break: break-word;
   }
 
   & > * + * {
-    margin-block-start: var(--linear-flow-space);
+    margin-block-start: var(--flow-space);
   }
 
   & > hr {
     border-block-end: var(--border-width-thick) solid var(--color-accent);
     inline-size: calc(33% - calc(var(--gap) / 2));
-    margin-block: calc(var(--linear-flow-space) * 2);
+    margin-block: calc(var(--flow-space) * 2);
     margin-inline-start: 0;
   }
 
@@ -38,11 +38,11 @@ flow-content {
   }
 
   & p + figure {
-    padding-block-start: var(--linear-flow-space);
+    padding-block-start: var(--flow-space);
   }
 
   & figcaption {
-    padding-block: var(--linear-flow-space) calc(var(--linear-flow-space) * 2);
+    padding-block: var(--flow-space) calc(var(--flow-space) * 2);
   }
 
   & :is(p, dl, ol, ul, address) {
@@ -51,7 +51,7 @@ flow-content {
   }
 
   & :is(p, dl, ol, ul, address, blockquote):not(:first-child) {
-    margin-block-start: var(--linear-flow-space);
+    margin-block-start: var(--flow-space);
   }
 
   & > aside :is(p, dl, ol, ul, address) {
@@ -69,7 +69,7 @@ flow-content {
   }
 
   & pre {
-    --linear-line-measure: auto;
+    --flow-measure: auto;
 
     background-color: var(--color-offset);
     display: block;
@@ -80,7 +80,7 @@ flow-content {
   }
 
   & table:not(:has([style^="--chart-width"])) {
-    --linear-line-measure: auto;
+    --flow-measure: auto;
 
     background-attachment: local, local, scroll, scroll;
     background-image: linear-gradient(
@@ -126,7 +126,7 @@ flow-content {
   }
 
   & table:has([style^="--chart-width"]) {
-    inline-size: var(--linear-line-measure);
+    inline-size: var(--flow-measure);
   }
 
   & [style^="--chart-width"] {
@@ -144,11 +144,11 @@ flow-content {
   }
 
   & :is(aside, pre, table):not(:first-child) {
-    margin-block-start: calc(var(--linear-flow-space) * 2);
+    margin-block-start: calc(var(--flow-space) * 2);
   }
 
   & :is(aside, pre, table) {
-    margin-block-end: calc(var(--linear-flow-space) * 2);
+    margin-block-end: calc(var(--flow-space) * 2);
   }
 
   & h2:not([class]) {
@@ -166,14 +166,14 @@ flow-content {
 
   & h4:not([class]) {
     color: var(--color-text-secondary);
-    margin-block-end: calc(var(--linear-flow-space) * -0.5);
+    margin-block-end: calc(var(--flow-space) * -0.5);
   }
 
   & p > img:only-of-type:first-of-type {
     float: right;
     float: inline-end;
     inline-size: clamp(50%, 9rem, 40vw);
-    margin-block-end: var(--linear-flow-space);
+    margin-block-end: var(--flow-space);
     margin-inline-start: var(--space-m);
   }
 
@@ -190,7 +190,7 @@ flow-content {
   }
 
   & li:has(p) {
-    margin-block-start: calc(var(--linear-flow-space) * 0.5);
+    margin-block-start: calc(var(--flow-space) * 0.5);
   }
 
   & code {
@@ -208,7 +208,7 @@ flow-content {
   }
 
   & ul:has(li > *:is(a > img, figure, img, picture):only-child) {
-    --linear-line-measure: auto;
+    --flow-measure: auto;
 
     align-items: start;
     display: grid;

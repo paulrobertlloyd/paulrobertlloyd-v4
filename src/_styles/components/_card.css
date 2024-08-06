@@ -31,8 +31,8 @@
   }
 
   flow-content {
-    --linear-font-size: var(--font-size-m);
-    --linear-line-height: var(--line-height-tight);
+    --flow-font-size: var(--font-size-m);
+    --flow-line-height: var(--line-height-tight);
 
     color: var(--color-text-secondary);
     text-wrap: pretty;
