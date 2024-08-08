@@ -58,7 +58,7 @@
   "devDependencies": {
     "eslint": "^9.0.0",
     "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-jsdoc": "^48.0.0",
+    "eslint-plugin-jsdoc": "^50.0.0",
     "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-unicorn": "^55.0.0",
     "prettier": "^3.0.1",
