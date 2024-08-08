@@ -7,8 +7,7 @@ layout: default.liquid
 {%- render 'header'
   properties: properties
 -%}
-{%- capture content -%}
-  {{- content -}}
+<flow-content class="e-content">
+  {{ content }}
   {% render 'slide' for slides as slide %}
-{%- endcapture -%}
-<flow-content class="e-content">{{ content }}</flow-content>
+</flow-content>
