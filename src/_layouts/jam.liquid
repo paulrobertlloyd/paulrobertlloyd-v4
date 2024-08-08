@@ -4,6 +4,9 @@ layout: default.liquid
 {%- render 'footer'
   properties: properties
 -%}
+{%- render 'header'
+  properties: properties
+-%}
 <flow-content class="e-content" data-font-size="large">
   {{ content }}
   {%- render 'jam' with jam_of -%}

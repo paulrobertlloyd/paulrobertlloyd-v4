@@ -2,16 +2,14 @@
 {%- if item.data.title -%}
   <header>
     <h3 class="p-name">
-      <a class="u-url" rel="bookmark" href="{{ item.url }}">{{ item.data.title | markdown: 'inline' }}</a>
+      <a class="u-url" rel="bookmark" href="{{ item.url }}">
+        {{- item.data.title | markdown: 'inline' -}}
+      </a>
     </h3>
   </header>
 {%- endif -%}
 
-{%- if item.data.jam_of -%}
-  <flow-content>
-    {%- render 'jam' with item.data.jam_of -%}
-  </flow-content>
-{%- elsif item.data.summary -%}
+{%- if item.data.summary -%}
   <flow-content>
     <p class="p-summary">{{ item.data.summary | markdown: 'inline' }}</p>
   </flow-content>
