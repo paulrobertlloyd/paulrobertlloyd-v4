@@ -8,13 +8,7 @@ layout: default.liquid
 {%- render 'header'
   properties: properties
 -%}
-{%- capture content -%}
+<flow-content class="e-content">
   <p>Part of a journey to <a href="{{ related.url }}">{{ related.data.title }}</a>.</p>
-  {%- render 'route-map'
-    alignment: 'bleed',
-    geojson: geojson,
-    outputDir: page.url
-  -%}
   {%- render 'itinerary' with itinerary -%}
-{%- endcapture -%}
-<flow-content class="e-content">{{ content }}</flow-content>
+</flow-content>
