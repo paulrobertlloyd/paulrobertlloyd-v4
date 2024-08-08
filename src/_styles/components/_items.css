@@ -25,7 +25,7 @@
 }
 
 @media (--upto-medium-viewport) {
-  .items--scrollable[role="list"] {
+  .items[data-scrollable="true"] {
     display: flex;
     gap: var(--gap);
     inline-size: 100vw;
@@ -33,10 +33,10 @@
     -webkit-overflow-scrolling: touch;
     overflow-x: scroll;
     padding: var(--gap);
-  }
 
-  .items--scrollable .items__item {
-    flex: 1 0 75vw;
-    max-inline-size: var(--grid-size);
+    .items__item {
+      flex: 1 0 75vw;
+      max-inline-size: var(--grid-size);
+    }
   }
 }
