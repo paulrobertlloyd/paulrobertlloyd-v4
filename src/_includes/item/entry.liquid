@@ -1,9 +1,9 @@
-<article class="item | h-entry" id="{{ item.data.id }}">
+<article class="item | h-entry" data-type="{{ item.data.type }}">
 {%- if item.data.title -%}
   <header>
     <h3 class="p-name">
       <a class="u-url" rel="bookmark" href="{{ item.url }}">
-        {{- item.data.title | markdown: 'inline' -}}
+        {{- item.data.title | markdown: "inline" -}}
       </a>
     </h3>
   </header>
@@ -11,7 +11,7 @@
 
 {%- if item.data.summary -%}
   <flow-content>
-    <p class="p-summary">{{ item.data.summary | markdown: 'inline' }}</p>
+    <p class="p-summary">{{ item.data.summary | markdown: "inline" }}</p>
   </flow-content>
 {%- elsif item.content -%}
   <flow-content class="e-content p-name">

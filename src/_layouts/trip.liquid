@@ -1,14 +1,12 @@
 ---
 layout: default.liquid
 ---
-{%- assign related = collections.itinerary | find: 'data.id',tags[0] -%}
-{%- render 'footer'
-  properties: properties
--%}
-{%- render 'header'
-  properties: properties
--%}
+{% render "footer", properties: properties %}
+
+{% render "header", properties: properties %}
+
 <flow-content class="e-content">
+  {% assign related = collections.itinerary | find: "data.id", tags[0] -%}
   <p>Part of a journey to <a href="{{ related.url }}">{{ related.data.title }}</a>.</p>
-  {%- render 'itinerary' with itinerary -%}
+  {% render "itinerary" with itinerary %}
 </flow-content>

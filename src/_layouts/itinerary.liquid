@@ -1,19 +1,17 @@
 ---
 layout: default.liquid
 ---
-{%- render 'footer-event'
-  properties: properties
--%}
-{%- render 'header'
-  properties: properties
--%}
+{% render "footer-event", properties: properties %}
+
+{% render "header", properties: properties %}
+
 <flow-content class="e-content">
   {{ content | markdown }}
-  {%- render 'featured' with featured -%}
+  {% render "featured" with featured %}
 </flow-content>
-{%- render 'section' with collections[id]
-  id: 'related'
-  title: 'Related'
-  itemsComponent: 'card'
-  itemsGridSize: '15rem'
--%}
+
+{% render "section" with collections[id]
+  title: "Related"
+  itemsComponent: "card"
+  itemsGridSize: "15rem"
+%}

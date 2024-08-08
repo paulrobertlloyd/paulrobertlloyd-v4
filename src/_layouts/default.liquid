@@ -7,11 +7,11 @@
 
   <script nonce="bVgyaDV6YU9tdThnZ2wwckZBNnFnc1Z6Wk40SnY2U0pmbjdTUjQ3MVg2RTFCbnEwN3g=">
     if (navigator.serviceWorker) {
-      navigator.serviceWorker.register('/serviceworker.js');
+      navigator.serviceWorker.register("/serviceworker.js");
       if (navigator.serviceWorker.controller) {
-        window.addEventListener('load', () => {
+        window.addEventListener("load", () => {
           navigator.serviceWorker.controller.postMessage({
-            command: 'trimCaches'
+            command: "trimCaches"
           });
         });
       }
@@ -51,11 +51,14 @@
 </head>
 
 <body {%- if id %} id="{{ id }}"{% endif %}>
-  {%- render 'skip-link' -%}
-  {%- render 'banner', page: page, type: type -%}
+  {% render "skip-link" %}
+
+  {% render "banner", page: page, type: type %}
+
   <main class="main container{% for root in vocabulary %} h-{{ root }}{% endfor %}" id="main">
     {{ content }}
   </main>
-  {%- render 'contentinfo', page: page, type: type -%}
+
+  {% render "contentinfo", page: page, type: type %}
 </body>
 </html>

@@ -1,10 +1,11 @@
+{%- assign id = title | downcase | replace: " ", "_" -%}
 <section class="section" aria-labelledby="{{ id }}">
   <header>
     <h2 id="{{ id }}">{{ title }}</h2>
   </header>
 
 {%- if section.size > 0 %}
-  {%- render 'items' with section
+  {%- render "items" with section
     limit: itemsLimit
     component: itemsComponent
     gridSize: itemsGridSize

@@ -1,16 +1,16 @@
 ---
 layout: default.liquid
 ---
-{%- render 'header'
-  properties: properties
--%}
-<flow-content class="e-content">{{ content }}</flow-content>
-{%- assign related = collections[id] -%}
-{%- if related -%}
-  {%- render 'section' with related
-    id: 'related'
-    title: 'Related'
-    itemsComponent: 'card'
-    itemsGridSize: '15rem'
-  -%}
-{%- endif -%}
+{% render "header", properties: properties %}
+
+<flow-content class="e-content">
+  {{ content }}
+</flow-content>
+
+{% liquid
+  assign related = collections[id]
+
+  if related
+    render "section" with related, id: "related", title: "Related", itemsComponent: "card", itemsGridSize: "15rem"
+  endif
+%}

@@ -3,10 +3,10 @@
     {%- app_icon properties.icon -%}
     {{- properties.title -}}
   </h1>
-{%- if properties.type != 'article' -%}
+{%- if properties.type != "article" -%}
 {%- if properties.summary or properties.bookmark_of or properties.uid -%}
   <flow-content data-font-size="large">
-    <p class="p-summary">{{ properties.summary | markdown: 'inline' }}</p>
+    <p class="p-summary">{{ properties.summary | markdown: "inline" }}</p>
 {%- if properties.bookmark_of -%}
     <p><a class="u-bookmark-of" rel="external" href="{{ properties.bookmark_of }}">{{ properties.bookmark_of | hostname }}</a></p>
 {%- endif -%}

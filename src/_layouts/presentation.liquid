@@ -1,13 +1,11 @@
 ---
 layout: default.liquid
 ---
-{%- render 'footer'
-  properties: properties
--%}
-{%- render 'header'
-  properties: properties
--%}
+{% render "footer", properties: properties %}
+
+{% render "header", properties: properties %}
+
 <flow-content class="e-content">
   {{ content }}
-  {% render 'slide' for slides as slide %}
+  {% render "slide" for slides as slide %}
 </flow-content>

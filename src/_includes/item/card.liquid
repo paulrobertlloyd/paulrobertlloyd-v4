@@ -1,12 +1,12 @@
 <article class="card |{% for root in item.data.vocabulary %} h-{{ root }}{% endfor %}" id="{{ item.data.id }}" data-type="{{ item.data.type }}" style="--color-accent: {{ item.data.accent_color }}">
-  {%- app_image item.data.photo[0], 'card-square', 'u-photo' -%}
-  {%- app_image item.data.featured, 'card', 'u-featured' -%}
+  {%- app_image item.data.photo[0], "card-square", "u-photo" -%}
+  {%- app_image item.data.featured, "card", "u-featured" -%}
 
 {%- if item.data.title -%}
   <header>
     <h3 class="p-name">
       <a class="u-url" rel="bookmark" href="{{ item.url }}">
-        {{- item.data.title | markdown: 'inline' -}}
+        {{- item.data.title | markdown: "inline" -}}
       </a>
     </h3>
   </header>
@@ -14,7 +14,7 @@
 
 {%- if item.data.summary -%}
   <flow-content>
-    <p class="p-summary">{{ item.data.summary | markdown: 'inline' }}</p>
+    <p class="p-summary">{{ item.data.summary | markdown: "inline" }}</p>
   </flow-content>
 {%- endif -%}
 

@@ -1,8 +1,8 @@
-<article class="item | h-event" id="{{ item.data.id }}">
+<article class="item | h-event" data-type="{{ item.data.type }}">
   <header>
     <h3 class="p-name">
       <a class="u-url" rel="bookmark" href="{{ item.url }}">
-        {{- item.data.title | markdown: 'inline' -}}
+        {{- item.data.title | markdown: "inline" -}}
       </a>
     </h3>
   </header>

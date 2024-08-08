@@ -2,9 +2,11 @@
 layout: default.liquid
 ---
 <h1>{{ title }}</h1>
+
 {%- if summary -%}
 <flow-content data-font-size="large">
   {{ summary | markdown }}
 </flow-content>
 {%- endif -%}
+
 {{ content }}

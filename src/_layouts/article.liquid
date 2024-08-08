@@ -1,28 +1,26 @@
 ---
 layout: default.liquid
 ---
-{%- render 'footer'
-  properties: properties
--%}
-{%- render 'header'
-  properties: properties
--%}
-<flow-content class="e-content">{{ content }}</flow-content>
-{%- render 'meta'
-  comments_meta: comments_meta
-  properties: properties
--%}
+{% render "footer", properties: properties %}
+
+{% render "header", properties: properties %}
+
+<flow-content class="e-content">
+  {{ content }}
+</flow-content>
+
+{% render "meta", properties: properties, comments_meta: comments_meta %}
+
 {%- for tag in tags -%}
-  {%- assign collection = collections.collection | find: 'data.page.fileSlug',tag -%}
+  {%- assign collection = collections.collection | find: "data.page.fileSlug",tag -%}
   {%- if collection -%}
     {%- capture title %}More from the <a href="{{ collection.url }}">{{ collection.data.title }}</a> collection{%- endcapture -%}
     {%- assign articles = collections.article | siblings: tag -%}
-    {%- render 'section' with articles
-      id: 'related'
+    {%- render "section" with articles
       title: title
       scrollable: true
-      itemsComponent: 'card'
-      itemsGridSize: '15rem'
+      itemsComponent: "card"
+      itemsGridSize: "15rem"
       itemsLimit: 3
     -%}
   {%- endif -%}

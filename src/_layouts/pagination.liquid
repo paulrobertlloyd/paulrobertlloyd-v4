@@ -2,27 +2,29 @@
 layout: default.liquid
 ---
 <h1>{{ title }}</h1>
+
 {%- if summary -%}
 <flow-content data-font-size="large">
   {{ summary | markdown }}
 </flow-content>
 {%- endif -%}
+
 {%- if featured -%}
-  {%- render 'section' with collections[featured.collection]
-    id: 'featured'
+  {%- render "section" with collections[featured.collection]
     title: featured.title
     scrollable: true
-    itemsComponent: 'card'
-    itemsGridSize: '18rem'
+    itemsComponent: "card"
+    itemsGridSize: "18rem"
     itemsLimit: featured.limit
   -%}
 {%- endif %}
+
 {%- if pagination.items -%}
-  {%- render 'section' with pagination.items
-    id: 'recent'
+  {%- render "section" with pagination.items
     title: sectionTitle
     itemsComponent: pagination.component
     itemsGridSize: pagination.gridSize
   -%}
 {%- endif %}
-{%- render 'pagination' with pagination -%}
+
+{% render "pagination" with pagination %}

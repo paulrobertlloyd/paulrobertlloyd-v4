@@ -1,7 +1,7 @@
 <ul class="items" data-scrollable="{{ scrollable | default: 'false' }}" style="--grid-size: {{ gridSize | default: '100%' }}" role="list">
 {%- for item in items limit: limit -%}
   <li class="items__item">
-    {%- render 'item/{{ component | default: "entry" }}'
+    {%- render "item/{{ component | default: 'entry' }}"
       id: forloop.index
       item: item
     -%}

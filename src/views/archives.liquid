@@ -3,14 +3,14 @@ layout: index.liquid
 title: Archives
 permalink: archives/
 ---
-{% render 'form/search' %}
-{% render 'section' with collections.year
-  id: 'browse',
-  title: 'Browse by year'
-  itemsGridSize: '9rem'
+{% render "form/search" %}
+
+{% render "section" with collections.year
+  title: "Browse by year"
+  itemsGridSize: "9rem"
 %}
-{%- render 'section' with collections.archive
-  id: 'other'
-  title: 'Other archives'
-  itemsGridSize: '12rem'
--%}
+
+{% render "section" with collections.archive
+  title: "Other archives"
+  itemsGridSize: "12rem"
+%}

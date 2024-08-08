@@ -1,13 +1,14 @@
 ---
 layout: default.liquid
 ---
-{%- render 'header'
-  properties: properties
--%}
-<flow-content class="e-content">{{ content }}</flow-content>
-{%- render 'section' with collections[page.fileSlug]
-  id: 'items'
-  title: 'Items in this collection'
-  itemsComponent: 'card'
-  itemsGridSize: '15rem'
+{% render "header", properties: properties %}
+
+<flow-content class="e-content">
+  {{ content }}
+</flow-content>
+
+{%- render "section" with collections[page.fileSlug]
+  title: "Items in this collection"
+  itemsComponent: "card"
+  itemsGridSize: "15rem"
 -%}

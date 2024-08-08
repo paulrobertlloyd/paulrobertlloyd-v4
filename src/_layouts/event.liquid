@@ -1,10 +1,10 @@
 ---
 layout: default.liquid
 ---
-{%- render 'footer-event'
-  properties: properties
--%}
-{%- render 'header'
-  properties: properties
--%}
-<flow-content class="e-content">{{ content }}</flow-content>
+{% render "footer-event", properties: properties %}
+
+{% render "header", properties: properties %}
+
+<flow-content class="e-content">
+  {{ content }}
+</flow-content>
