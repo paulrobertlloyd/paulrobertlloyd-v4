@@ -11,9 +11,14 @@
     flex: 1;
   }
 
+  dt::before {
+    border-block-start: none;
+  }
+
   dt,
   dd {
     display: inline;
+    font-weight: normal;
     white-space: nowrap;
   }
 
