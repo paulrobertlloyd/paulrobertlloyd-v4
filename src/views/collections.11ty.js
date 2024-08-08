@@ -7,7 +7,6 @@ export default class Collections {
       pagination: {
         data: "collections.collection",
         size: 24,
-        gridSize: "16rem",
       },
       tags: ["archive"],
       sectionTitle: "Collections A-Z",
