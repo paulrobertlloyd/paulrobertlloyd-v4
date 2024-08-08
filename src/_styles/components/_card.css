@@ -89,7 +89,7 @@
   &[data-type^="article"],
   &[data-type^="presentation"] {
     &:has(img)::before {
-      aspect-ratio: 1.5;
+      aspect-ratio: 3 / 2;
       background-color: var(--color-accent);
       content: "";
       display: block;
@@ -108,9 +108,15 @@
     }
 
     img {
-      aspect-ratio: 1.5;
+      aspect-ratio: 3 / 2;
       filter: contrast(0.75) brightness(1.25);
       mix-blend-mode: luminosity;
+    }
+  }
+
+  &[data-type^="itinerary"] {
+    img {
+      aspect-ratio: 5 / 2;
     }
   }
 }

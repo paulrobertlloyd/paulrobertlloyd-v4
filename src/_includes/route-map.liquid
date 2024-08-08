@@ -1,9 +1,0 @@
-<figure class="align-{{ alignment | default: 'none' }}">
-  {% assign image = geojson | route_map: outputDir %}
-  {% app_image image, 'default', alt %}
-{%- if caption %}
-  <figcaption>
-    {{ caption | markdown }}
-  </figcaption>
-{%- endif %}
-</figure>

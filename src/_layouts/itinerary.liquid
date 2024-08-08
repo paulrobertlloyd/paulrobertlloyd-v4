@@ -1,23 +1,16 @@
 ---
 layout: default.liquid
 ---
-{%- assign geojson = collections[id] | where: 'data.type','trip' | geojson -%}
 {%- render 'footer-event'
   properties: properties
 -%}
 {%- render 'header'
   properties: properties
 -%}
-{%- capture content -%}
+<flow-content class="e-content">
   {{ content | markdown }}
-  {%- capture outputDir -%}{{ page.date | date: '%Y/%j/i1' }}{%- endcapture -%}
-  {%- render 'route-map'
-    alignment: 'bleed',
-    geojson: geojson,
-    outputDir: outputDir
-  -%}
-{%- endcapture -%}
-<flow-content class="e-content">{{ content }}</flow-content>
+  {%- render 'featured' with featured -%}
+</flow-content>
 {%- render 'section' with collections[id]
   id: 'related'
   title: 'Related'
