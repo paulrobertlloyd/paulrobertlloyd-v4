@@ -8,10 +8,10 @@
   <flow-content data-font-size="large">
     <p class="p-summary">{{ properties.summary | markdown: "inline" }}</p>
 {%- if properties.bookmark_of -%}
-    <p><a class="u-bookmark-of" rel="external" href="{{ properties.bookmark_of }}">{{ properties.bookmark_of | hostname }}</a></p>
+    <p>{% external_url properties.bookmark_of "u-bookmark-of" %}</p>
 {%- endif -%}
 {%- if properties.uid -%}
-    <p><a class="u-uid" rel="external" href="{{ properties.uid }}">{{ properties.uid | hostname }}</a></p>
+    <p>{% external_url properties.uid "u-uid" %}</p>
 {%- endif -%}
   </flow-content>
 {%- endif -%}

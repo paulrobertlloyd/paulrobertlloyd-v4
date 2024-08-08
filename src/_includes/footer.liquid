@@ -13,10 +13,8 @@
     <dd class="p-location">{% adr properties %}</dd>
 {%- endif -%}
 {%- if properties.in_reply_to -%}
-    <dt>In reply to</dt>
-    <dd>
-      <a class="u-in-reply-to" href="{{ properties.in_reply_to }}">a post on {{ properties.in_reply_to | hostname }}</a>
-    </dd>
+    <dt>In reply to a post on</dt>
+    <dd>{% external_url properties.in_reply_to "u-in-reply-to" %}</dd>
 {%- endif -%}
   </dl>
 </footer>
