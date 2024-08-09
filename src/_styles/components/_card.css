@@ -44,8 +44,11 @@
     color: inherit;
     display: inline-flex;
     font: var(--font-caption);
-    gap: var(--space-2xs);
     margin-block-start: auto;
+
+    svg {
+      margin-inline-start: auto;
+    }
   }
 
   h3 {
