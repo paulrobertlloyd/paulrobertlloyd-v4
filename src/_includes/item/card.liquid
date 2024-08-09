@@ -21,10 +21,10 @@
 {%- if item.data.date or item.data.start -%}
   <footer>
 {%- if item.data.title -%}
-    {%- datetime item.data -%}
+    {%- datetime item.data true -%}
 {%- else -%}
     <a class="u-url" rel="bookmark" href="{{ item.url }}">
-      {%- datetime item.data -%}
+      {%- datetime item.data true -%}
     </a>
 {%- endif -%}
     {%- app_icon item.data.icon item.data.icon_label -%}
