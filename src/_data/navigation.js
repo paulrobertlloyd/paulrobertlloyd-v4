@@ -37,12 +37,6 @@ export default {
       url: "/events/",
       post_type: "event",
     },
-    {
-      url: "https://www.withukraine.org/",
-      icon: "flag_ukraine",
-      icon_label: "With Ukraine",
-      rel: "external",
-    },
   ],
   tertiary: [
     {
@@ -62,6 +56,12 @@ export default {
       label: "Jams",
       url: "/jams/",
       post_type: "jam",
+    },
+    {
+      url: "https://www.withukraine.org/",
+      icon: "flag_ukraine",
+      icon_label: "With Ukraine",
+      rel: "external",
     },
   ],
 };
