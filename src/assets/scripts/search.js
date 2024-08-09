@@ -29,7 +29,7 @@ class SiteSearchElement extends HTMLElement {
   findResults = (termToMatch, corpus) =>
     corpus.filter((item) => {
       const regex = new RegExp(termToMatch, "gi");
-      return item.title.match(regex) || item.content.match(regex);
+      return item.title?.match(regex) || item.content?.match(regex);
     });
 
   displayResults = (input) => {
