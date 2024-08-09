@@ -6,7 +6,6 @@
 /* Utilities */
 @import url("_styles/utilities/_align.css");
 @import url("_styles/utilities/_container.css");
-@import url("_styles/utilities/_visually-hidden.css");
 
 /* Base */
 @import url("_styles/base/_embedded.css");
@@ -18,6 +17,7 @@
 
 /* Custom elements */
 @import url("_styles/custom-elements/_flow-content.css");
+@import url("_styles/custom-elements/_visually-hidden.css");
 
 /* Components */
 @import url("_styles/components/_avatar.css");

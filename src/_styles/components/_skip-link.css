@@ -4,13 +4,12 @@
 
   background-color: var(--color-focus);
   color: var(--color-text-focus);
-  display: block;
   outline-offset: 0;
   padding: var(--space-s);
   position: static;
   width: 100%;
 
-  &:not(:focus) {
+  &:not(:focus-within) {
     transform: translateY(-100%);
     transition: transform 0.5s ease-out;
   }

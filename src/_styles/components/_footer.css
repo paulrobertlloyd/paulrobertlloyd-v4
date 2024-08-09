@@ -12,7 +12,7 @@
   }
 
   dt::before {
-    border-block-start: none;
+    content: none;
   }
 
   dt,
