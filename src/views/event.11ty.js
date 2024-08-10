@@ -10,6 +10,7 @@ export default class Event {
       },
       permalink: ({ event }) => event.permalink,
       eleventyComputed: {
+        accent_color: ({ event }) => event.data.accent_color,
         properties: ({ event }) => event.data,
       },
     };
