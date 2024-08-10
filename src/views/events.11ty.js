@@ -3,7 +3,6 @@ export default class Events {
     return {
       layout: "pagination.liquid",
       title: "Events",
-      summary: "Exhibitions, conferences and other events I’ve attended.",
       pagination: {
         data: "collections.event",
         size: 48,
@@ -18,7 +17,7 @@ export default class Events {
           },
         sectionTitle: ({ pagination }) =>
           pagination.pageNumber === 0
-            ? "Recent events"
+            ? "Earlier events"
             : `Events (page ${pagination.pageNumber + 1})`,
       },
       permalink: ({ pagination }) =>
