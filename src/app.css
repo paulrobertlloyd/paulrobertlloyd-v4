@@ -3,10 +3,6 @@
 @import url("_styles/config/_custom-properties.css");
 @import url("_styles/config/_webfonts.css");
 
-/* Utilities */
-@import url("_styles/utilities/_align.css");
-@import url("_styles/utilities/_container.css");
-
 /* Base */
 @import url("_styles/base/_embedded.css");
 @import url("_styles/base/_forms.css");
@@ -42,6 +38,10 @@
 @import url("_styles/components/_section.css");
 @import url("_styles/components/_skip-link.css");
 @import url("_styles/components/_slide.css");
+
+/* Utilities */
+@import url("_styles/utilities/_align.css");
+@import url("_styles/utilities/_container.css");
 
 /* Vendor */
 @import url("_styles/vendor/_prism.css");
