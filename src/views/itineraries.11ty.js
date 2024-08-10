@@ -3,7 +3,6 @@ export default class Itineraries {
     return {
       layout: "pagination.liquid",
       title: "Travel",
-      summary: "Travel itineraries",
       pagination: {
         data: "collections.itinerary",
         size: 48,
