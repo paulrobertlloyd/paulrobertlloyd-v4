@@ -1,10 +1,9 @@
 /* Bleed alignment */
 .align-bleed {
-  --flow-measure: auto;
-
   display: grid;
-  grid-template-columns: [--bleed-start] minmax(0, var(--flow-measure)) [--measure] 1fr [--bleed-end];
+  grid-template-columns: [--bleed-start] var(--flow-measure) [--measure] 1fr [--bleed-end];
   margin-inline: calc(var(--gap) * -1);
+  max-inline-size: unset;
 
   & > a:first-child,
   & > img:first-child,
