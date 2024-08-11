@@ -11,7 +11,7 @@ export default class Replies {
         sectionTitle: ({ pagination }) =>
           pagination.pageNumber === 0
             ? "Recent replies"
-            : `Replies (page ${pagination.pageNumber + 1})`,
+            : `Older replies (page ${pagination.pageNumber + 1})`,
       },
       permalink: ({ pagination }) =>
         pagination.pageNumber > 0

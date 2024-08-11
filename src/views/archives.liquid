@@ -6,11 +6,11 @@ permalink: archives/
 {% render "form/search" %}
 
 {% render "section" with collections.year
+  itemsComponent: "card"
   title: "Browse by year"
-  itemsGridSize: "9rem"
 %}
 
 {% render "section" with collections.archive
+  itemsComponent: "card"
   title: "Other archives"
-  itemsGridSize: "12rem"
 %}

@@ -1,31 +1,20 @@
 .footer {
-  align-items: baseline;
-  color: var(--color-text-secondary);
-  display: flex;
-
-  cite {
-    font-style: normal;
-  }
+  font: var(--font-caption);
 
   dl {
-    flex: 1;
-  }
-
-  dt::before {
-    content: none;
+    align-items: baseline;
+    color: var(--color-accent-on-background);
+    display: flex;
+    flex-wrap: wrap;
   }
 
   dt,
   dd {
-    display: inline;
-    font-weight: normal;
-    white-space: nowrap;
+    margin: 0;
   }
 
   dd:not(:last-of-type)::after {
     content: "·";
-    display: inline;
-    opacity: 0.5;
-    padding-inline: calc(var(--space-xs) / 2);
+    padding-inline: var(--space-xs);
   }
 }

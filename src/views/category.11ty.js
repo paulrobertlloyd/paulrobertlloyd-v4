@@ -9,12 +9,12 @@ export default class Category {
         alias: "tag",
       },
       eleventyComputed: {
-        summary: ({ tag }) => tag.tag,
+        page_title: ({ tag }) => `Posts tagged ‘${tag.tag}’ · Categories`,
         pagination: ({ tag }) => tag,
         sectionTitle: ({ tag }) =>
           tag.pageNumber === 0
-            ? "Posts in this category"
-            : `Posts in this category (page ${tag.pageNumber + 1})`,
+            ? `Posts tagged ‘${tag.tag}’`
+            : `Posts tagged ‘${tag.tag}’ (page ${tag.pageNumber + 1})`,
       },
       permalink: ({ tag }) => tag.permalink,
     };

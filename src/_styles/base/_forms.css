@@ -13,7 +13,6 @@ button,
 input,
 select,
 textarea {
-  border-radius: 0; /* 1 */
   color: inherit;
   font: inherit; /* 2 */
   outline-offset: 0; /* 3 */

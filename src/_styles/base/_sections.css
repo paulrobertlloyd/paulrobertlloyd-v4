@@ -19,22 +19,16 @@ html:focus-within {
 }
 
 body {
-  align-items: center;
+  background: var(--color-offset);
   color: var(--color-text);
   display: flex;
   flex-direction: column;
   font-family: var(--font-family-sans);
-  font-size: var(--font-size-s);
+  font-size: var(--font-size-base);
   -webkit-font-smoothing: antialiased;
   margin: 0;
-  min-block-size: 100vh;
+  min-block-size: 100dvh;
   overflow-x: hidden;
-}
-
-@media screen {
-  body {
-    background: var(--color-offset);
-  }
 }
 
 h1,

@@ -1,5 +1,9 @@
-{%- if properties.category or properties.syndication or properties.canonical or comments_meta -%}
+{%- if properties.in_reply_to or properties.category or properties.syndication or properties.canonical or comments_meta -%}
 <dl class="meta">
+{%- if properties.in_reply_to -%}
+  <dt>In reply to a post on</dt>
+  <dd>{% external_url properties.in_reply_to "u-in-reply-to" %}</dd>
+{%- endif -%}
 {%- if properties.category -%}
   <dt>Categories</dt>
   <dd>

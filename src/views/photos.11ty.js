@@ -7,13 +7,12 @@ export default class Photos {
         data: "collections.photo",
         size: 36,
         component: "card",
-        gridSize: "20%",
       },
       eleventyComputed: {
         sectionTitle: ({ pagination }) =>
           pagination.pageNumber === 0
             ? "Recent photos"
-            : `Photos (page ${pagination.pageNumber + 1})`,
+            : `Older photos (page ${pagination.pageNumber + 1})`,
       },
       permalink: ({ pagination }) =>
         pagination.pageNumber > 0

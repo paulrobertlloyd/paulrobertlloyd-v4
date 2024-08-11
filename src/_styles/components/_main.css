@@ -1,6 +1,4 @@
 .main {
-  --anchor-decoration: underline;
-
   align-content: start;
   border-image-outset: 0 0 0 100vw;
   border-image-slice: fill 0;
@@ -10,6 +8,7 @@
   flex-direction: column;
   gap: var(--space-m-l) var(--gap);
   padding-block: var(--gap);
+  padding-block-end: var(--space-m-l);
 
   @media (--from-medium-viewport) {
     display: grid;

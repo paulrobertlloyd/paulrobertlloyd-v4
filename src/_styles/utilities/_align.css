@@ -1,7 +1,5 @@
 /* Bleed alignment */
 .align-bleed {
-  display: grid;
-  grid-template-columns: [--bleed-start] var(--flow-measure) [--measure] 1fr [--bleed-end];
   margin-inline: calc(var(--gap) * -1);
   max-inline-size: unset;
 
@@ -15,12 +13,16 @@
   & figcaption {
     padding-inline: var(--gap);
   }
+
+  @media (--from-medium-viewport) {
+    display: grid;
+    grid-template-columns: [--bleed-start] var(--flow-measure) [--measure] 1fr [--bleed-end];
+  }
 }
 
 /* Pull alignment */
-@media (--from-medium-viewport) {
-  .align-pull {
-    float: right; /* Chromium */
+.align-pull {
+  @media (--from-medium-viewport) {
     float: inline-end;
     inline-size: 33%;
     margin-block: var(--flow-space) !important;

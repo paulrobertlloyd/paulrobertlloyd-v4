@@ -1,8 +1,10 @@
 .avatar {
   background-color: var(--color-offset);
-  block-size: var(--avatar-size, var(--space-l));
-  border-radius: 100%;
-  inline-size: var(--avatar-size, var(--space-l));
+  block-size: var(--avatar-size, var(--avatar-size));
+  border-radius: var(--border-radius-small);
+  inline-size: var(--avatar-size, var(--avatar-size));
   max-inline-size: none;
   object-fit: cover;
+  outline: var(--border-width-thin) solid var(--color-shadow);
+  outline-offset: calc(var(--border-width-thin) * -1);
 }

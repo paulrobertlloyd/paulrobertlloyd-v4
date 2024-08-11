@@ -4,10 +4,6 @@
  * https://w3c.github.io/html/grouping-content
  */
 
-address {
-  font-style: normal;
-}
-
 hr {
   border: 0;
 }
@@ -18,7 +14,6 @@ pre {
   white-space: pre-wrap;
 }
 
-address,
 figure,
 blockquote,
 dl,
@@ -29,7 +24,6 @@ ul {
     "ss02" 1,
     "case" 1;
   hanging-punctuation: first;
-  letter-spacing: 0.01em;
   margin: 0;
   orphans: 2;
   widows: 2;
@@ -47,23 +41,12 @@ ul[role="listbox"] {
 }
 
 dt {
+  color: var(--color-text-secondary);
+  font-variant-caps: all-small-caps;
   font-weight: 500;
-  padding-block-start: var(--space-xs);
-  position: relative;
-
-  &::before {
-    border-block-start: var(--border-rule-thin);
-    content: "";
-    inset: 0;
-    position: absolute;
-  }
-
-  &:first-of-type::before {
-    border-block-start-width: var(--border-width-thick);
-  }
 }
 
 dd {
+  margin-block-end: var(--flow-space, 1em);
   margin-inline-start: unset;
-  padding-block: 0 var(--space-s);
 }

@@ -7,7 +7,6 @@ export default class Itineraries {
         data: "collections.itinerary",
         size: 48,
         component: "card",
-        gridSize: "18rem",
       },
       eleventyComputed: {
         sectionTitle: ({ pagination }) =>

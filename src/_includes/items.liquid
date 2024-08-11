@@ -1,4 +1,4 @@
-<ul class="items" data-scrollable="{{ scrollable | default: 'false' }}" style="--grid-size: {{ gridSize | default: '100%' }}" role="list">
+<ul class="items" data-scrollable="{{ scrollable | default: 'false' }}" role="list">
 {%- for item in items limit: limit -%}
   <li class="items__item">
     {%- render "item/{{ component | default: 'entry' }}"

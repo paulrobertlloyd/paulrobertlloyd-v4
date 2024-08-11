@@ -1,6 +1,6 @@
 .section {
   display: grid;
-  gap: var(--space-s);
+  gap: var(--gap);
 
   h2 {
     color: var(--color-text-secondary);

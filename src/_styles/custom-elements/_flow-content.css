@@ -1,135 +1,90 @@
 flow-content {
+  --anchor-decoration: underline;
   --color-link-underline: var(--color-neutral);
+  --flow-font: var(--font-body);
   --flow-inset: var(--font-size-m);
   --flow-space: 1em;
-  --flow-font-size: var(--font-size-m);
-  --flow-line-height: var(--line-height-prose);
   --flow-measure: var(--measure);
 
   display: block;
+  font: var(--flow-font);
+  word-break: break-word;
 
   &[data-font-size="large"] {
-    --flow-space: var(--space-s);
-    --flow-font-size: var(--font-size-l);
-    --flow-line-height: var(--line-height-loose);
+    --flow-font: var(--font-body-l);
   }
 
-  & > * {
-    font-size: var(--flow-font-size);
-    line-height: var(--flow-line-height);
+  > * {
     max-inline-size: var(--flow-measure);
-    word-break: break-word;
   }
 
-  & > * + * {
+  > * + * {
     margin-block-start: var(--flow-space);
   }
 
-  & > hr {
+  hr {
     border-block-end: var(--border-width-thick) solid var(--color-accent);
     inline-size: calc(33% - calc(var(--gap) / 2));
     margin-block: calc(var(--flow-space) * 2);
     margin-inline-start: 0;
   }
 
-  & :is(caption, figcaption) {
+  caption,
+  figcaption {
     color: var(--color-text-secondary);
     font: var(--font-caption);
   }
 
-  & p + figure {
-    padding-block-start: var(--flow-space);
+  figure {
+    display: flex;
+    flex-direction: column;
+    gap: var(--flow-space) var(--gap);
   }
 
-  & figcaption {
-    padding-block: var(--flow-space) calc(var(--flow-space) * 2);
+  figcaption * + * {
+    margin-block-start: calc(var(--flow-space) / 2);
   }
 
-  & :is(p, dl, ol, ul, address) {
+  p,
+  dl,
+  ol,
+  ul {
     font-variant: oldstyle-nums;
     word-spacing: var(--word-spacing);
   }
 
-  & :is(p, dl, ol, ul, address, blockquote):not(:first-child) {
-    margin-block-start: var(--flow-space);
-  }
-
-  & > aside :is(p, dl, ol, ul, address) {
-    --flow-inset: 0;
-
-    color: var(--color-text-secondary);
-    font-size: var(--font-size-s);
-    padding-inline-end: var(--gap);
-  }
-
-  & blockquote {
+  blockquote {
     border-inline-start: var(--border-width-thick) solid var(--color-accent);
     margin-inline-start: 0;
     padding-inline-start: var(--flow-inset, 1em);
   }
 
-  & pre {
-    --flow-measure: auto;
-
+  pre {
     background-color: var(--color-offset);
     display: block;
-    font-size: var(--font-size-s);
     margin-inline-start: calc(var(--gap) * -1);
+    max-inline-size: unset;
     padding-block: var(--space-s);
     padding-inline: var(--gap);
   }
 
-  & table:not(:has([style^="--chart-width"])) {
-    --flow-measure: auto;
-
-    background-attachment: local, local, scroll, scroll;
-    background-image: linear-gradient(
-        to right,
-        var(--color-background),
-        var(--color-background)
-      ),
-      linear-gradient(
-        to right,
-        var(--color-background),
-        var(--color-background)
-      ),
-      linear-gradient(to right, var(--color-shadow), transparent),
-      linear-gradient(to left, var(--color-shadow), transparent);
-    background-position:
-      left center,
-      right center,
-      left center,
-      right center;
-    background-repeat: no-repeat;
-    background-size:
-      var(--space-2xs) 100%,
-      var(--space-2xs) 100%,
-      var(--space-2xs) 100%,
-      var(--space-2xs) 100%;
-    display: inline-block;
-    font-size: var(--font-size-s);
-    inline-size: 100%;
-    overflow-x: auto;
-    white-space: nowrap;
-  }
-
-  & th,
-  & td {
-    padding-block: var(--space-s);
+  th,
+  td {
+    padding-block: var(--space-xs);
     padding-inline: 0 var(--gap);
   }
 
-  & tbody th,
-  & tbody td {
+  tbody th,
+  tbody td {
     border-block-start: var(--border-width-thin) solid
       var(--color-neutral-light);
   }
 
-  & table:has([style^="--chart-width"]) {
+  table {
     inline-size: var(--flow-measure);
   }
 
-  & [style^="--chart-width"] {
+  [style^="--chart-width"] {
     background: linear-gradient(
       to right,
       var(--color-neutral-light) var(--chart-width),
@@ -139,37 +94,34 @@ flow-content {
     inline-size: 100%;
     margin-block: calc(var(--space-s) * -1);
     margin-inline-end: calc(var(--space-s) * -1);
-    padding: var(--space-xs);
+    padding: var(--space-3xs);
     position: relative;
   }
 
-  & :is(aside, pre, table):not(:first-child) {
+  :is(pre, table):not(:first-child) {
     margin-block-start: calc(var(--flow-space) * 2);
   }
 
-  & :is(aside, pre, table) {
+  :is(figcaption, pre, table) {
     margin-block-end: calc(var(--flow-space) * 2);
   }
 
-  & h2:not([class]) {
-    font-size: var(--font-size-xl);
-    font-weight: 500;
-    line-height: var(--line-height-tight);
-    margin-block-start: var(--space-m-l);
+  h2 {
+    font: var(--font-heading);
+    margin-block-start: calc(var(--flow-space) * 2);
   }
 
-  & h3:not([class]) {
-    font-size: var(--font-size-l);
-    line-height: var(--line-height-tight);
-    margin-block-start: var(--space-m-l);
+  h3 {
+    font: var(--font-subhead);
+    margin-block-start: calc(var(--flow-space) * 2);
   }
 
-  & h4:not([class]) {
-    color: var(--color-text-secondary);
-    margin-block-end: calc(var(--flow-space) * -0.5);
+  h4 {
+    color: var(--color-accent-on-background);
+    margin-block: calc(var(--flow-space) * 2) calc(var(--flow-space) * -0.5);
   }
 
-  & p > img:only-of-type:first-of-type {
+  p > img:only-of-type:first-of-type {
     float: right;
     float: inline-end;
     inline-size: clamp(50%, 9rem, 40vw);
@@ -177,42 +129,35 @@ flow-content {
     margin-inline-start: var(--space-m);
   }
 
-  & :is(ol, ul) {
+  ol,
+  ul {
     --flow-inset: calc(var(--flow-inset) * 2);
   }
 
-  & strong {
-    font-weight: 500;
-  }
-
-  dt::before {
-    border-color: var(--color-accent);
-  }
-
-  & li:has(p) {
+  li:has(p) {
     margin-block-start: calc(var(--flow-space) * 0.5);
   }
 
-  & code {
+  strong {
+    font-weight: 500;
+  }
+
+  code {
     background-color: var(--color-offset);
   }
 
-  & :not(pre) code,
-  & samp {
-    font-size: 0.9em;
+  :not(pre) code,
+  samp {
     padding: var(--text-spacing);
   }
 
-  & pre code {
-    padding: 0;
-  }
-
-  & ul:has(li > *:is(a > img, figure, img, picture):only-child) {
-    --flow-measure: auto;
+  ul:has(li > *:is(a > img, figure, img, picture):only-child) {
+    --gallery-columns: var(--columns, 1);
 
     align-items: start;
     display: grid;
     grid-template-columns: 1fr;
+    max-inline-size: unset;
     padding-inline: 0;
 
     @media (--from-medium-viewport) {
@@ -231,12 +176,16 @@ flow-content {
       --gallery-columns: var(--columns, 4);
     }
 
-    &:has([src*="#screenshot"]) {
+    &:has(img[src*="#screenshot"]) {
       margin-inline: calc(var(--gap) * -1);
+
+      figcaption {
+        padding-inline: var(--gap);
+      }
     }
 
     &:not(:has(img[src*="#screenshot"])) {
-      gap: var(--space-s);
+      gap: var(--gap);
     }
 
     img:not([src*="#screenshot"]) {
@@ -248,14 +197,12 @@ flow-content {
     li {
       display: flex;
       justify-content: center;
-    }
+      overflow: hidden;
 
-    li:has(.u-photo) {
-      background-color: var(--color-background-photo);
-    }
-
-    figure:has(img[src*="#screenshot"]) figcaption {
-      padding-inline: var(--gap);
+      &:has(img.u-photo) {
+        background-color: var(--color-background-photo);
+        border-radius: var(--border-radius-large);
+      }
     }
   }
 }

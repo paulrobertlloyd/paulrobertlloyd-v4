@@ -1,10 +1,16 @@
-<article class="item | h-entry" data-type="{{ item.data.type }}">
+<article class="item | h-entry" data-type="{{ item.data.type }}" style="--item-accent-color: {{ item.data.accent_color }}; --columns: 6">
 {%- if item.data.title -%}
   <header>
     <h3 class="p-name">
+    {%- if item.data.bookmark_of -%}
+      <a class="u-bookmark-of" rel="external" href="{{ item.data.bookmark_of }}">
+        {{- item.data.title | markdown: "inline" -}}
+      </a>
+    {%- else -%}
       <a class="u-url" rel="bookmark" href="{{ item.url }}">
         {{- item.data.title | markdown: "inline" -}}
       </a>
+    {%- endif -%}
     </h3>
   </header>
 {%- endif -%}
@@ -21,13 +27,9 @@
 
 {%- if item.data.date or item.data.start -%}
   <footer>
-{%- if item.data.title -%}
-    {%- datetime item.data true -%}
-{%- else -%}
     <a class="u-url" rel="bookmark" href="{{ item.url }}">
-      {%- datetime item.data -%}
+      {%- datetime item.data item.data.title -%}
     </a>
-{%- endif -%}
     {%- app_icon item.data.icon item.data.icon_label -%}
   </footer>
 {%- endif -%}

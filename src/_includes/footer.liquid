@@ -17,9 +17,5 @@
     <dt><visually-hidden>Published in</visually-hidden></dt>
     <dd class="p-location">{% adr properties %}</dd>
 {%- endif -%}
-{%- if properties.in_reply_to -%}
-    <dt>In reply to a post on</dt>
-    <dd>{% external_url properties.in_reply_to "u-in-reply-to" %}</dd>
-{%- endif -%}
   </dl>
 </footer>

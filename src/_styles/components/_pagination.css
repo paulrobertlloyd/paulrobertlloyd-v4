@@ -1,14 +1,8 @@
 .pagination {
   --anchor-decoration: none;
 
-  border-block-start: var(--border-rule-thick);
-  column-gap: var(--space-s);
   display: flex;
   flex-wrap: wrap;
-
-  a {
-    font-size: var(--font-size-m);
-    margin-inline-start: calc(var(--space-s) * -1);
-    padding: var(--space-s);
-  }
+  font: var(--font-body);
+  gap: var(--gap);
 }

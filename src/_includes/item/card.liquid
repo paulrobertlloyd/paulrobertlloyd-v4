@@ -1,5 +1,5 @@
-<article class="card |{% for root in item.data.vocabulary %} h-{{ root }}{% endfor %}" id="{{ item.data.id }}" data-type="{{ item.data.type }}" style="--color-accent: {{ item.data.accent_color }}">
-  {%- app_image item.data.photo[0], "card-square", "u-photo" -%}
+<article class="card |{% for root in item.data.vocabulary %} h-{{ root }}{% endfor %}" id="{{ item.data.id }}" data-type="{{ item.data.type }}" style="--item-accent-color: {{ item.data.accent_color }}">
+  {%- app_image item.data.photo[0], "card", "u-photo" -%}
   {%- app_image item.data.featured, "card", "u-featured" -%}
 
 {%- if item.data.title -%}

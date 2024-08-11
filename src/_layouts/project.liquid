@@ -11,6 +11,6 @@ layout: default.liquid
   assign related = collections[id]
 
   if related
-    render "section" with related, id: "related", title: "Related", itemsComponent: "card", itemsGridSize: "15rem"
+    render "section" with related, id: "related", title: "Related", itemsComponent: "card"
   endif
 %}

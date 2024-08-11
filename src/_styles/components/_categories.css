@@ -1,5 +1,11 @@
 .categories {
   display: flex;
   flex-wrap: wrap;
-  gap: var(--space-2xs) var(--space-s);
+  font-size: var(--font-size-base);
+  gap: var(--space-2xs);
+  margin-block: var(--space-3xs);
+
+  li {
+    margin-inline: calc(var(--space-2xs) * -1) var(--space-xs);
+  }
 }

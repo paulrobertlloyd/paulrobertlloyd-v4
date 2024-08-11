@@ -11,7 +11,7 @@ export default class Notes {
         sectionTitle: ({ pagination }) =>
           pagination.pageNumber === 0
             ? "Recent notes"
-            : `Notes (page ${pagination.pageNumber + 1})`,
+            : `Older notes (page ${pagination.pageNumber + 1})`,
       },
       permalink: ({ pagination }) =>
         pagination.pageNumber > 0

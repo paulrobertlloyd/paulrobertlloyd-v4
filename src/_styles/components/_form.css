@@ -1,15 +1,16 @@
 .form {
   display: grid;
-  font-size: var(--font-size-m);
-  gap: var(--space-s);
-  line-height: var(--line-height-loose);
+  font: var(--font-body);
+  gap: var(--gap);
 }
 
 .form__button {
   background-color: var(--color-text);
   border: 0;
+  border-radius: var(--border-radius-large);
   color: var(--color-background);
   font-weight: 500;
+  margin-inline: calc(var(--space-xs) * -1);
   padding: var(--space-xs) var(--space-s);
 
   &:hover {
@@ -20,7 +21,9 @@
 .form__input {
   background-color: var(--color-background);
   border: var(--border-width-thick) solid var(--color-neutral-light);
-  inline-size: 100%;
+  border-radius: var(--border-radius-large);
+  inline-size: calc(100% + var(--space-xs) + var(--space-xs));
+  margin-inline: calc(var(--space-xs) * -1);
   padding: var(--space-2xs);
 
   &:focus {
@@ -37,6 +40,7 @@
 .form__label {
   color: var(--color-text-secondary);
   display: inline-block;
+  font: var(--font-subhead);
   padding-block: var(--space-2xs);
 }
 
@@ -58,12 +62,12 @@
     padding: var(--space-s);
 
     &[aria-selected="true"] {
-      background-color: var(--color-accent);
+      background-color: var(--color-accent-on-background);
       color: white;
     }
 
     &:hover[aria-selected="true"] {
-      background-color: var(--color-accent-with-contrast);
+      background-color: var(--color-accent);
     }
 
     &:hover:not([aria-selected="true"]) {

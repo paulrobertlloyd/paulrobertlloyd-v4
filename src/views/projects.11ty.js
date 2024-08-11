@@ -8,7 +8,6 @@ export default class Projects {
       pagination: {
         data: "collections.collection",
         size: 3,
-        gridSize: "18rem",
         before: (items) =>
           items.filter((item) => item.data.post_type === "project"),
       },

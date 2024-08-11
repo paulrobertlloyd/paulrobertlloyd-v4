@@ -22,13 +22,6 @@ a {
     font-weight: 500;
   }
 
-  &[rel="external"]::after {
-    content: "\2192" / "";
-    display: inline-block;
-    font-family: system-ui, sans-serif;
-    transform: rotate(-45deg);
-  }
-
   &[rel="prev"]::before {
     content: "\2190\a0" / "";
     font-family: system-ui, sans-serif;
@@ -40,8 +33,13 @@ a {
   }
 
   &[rel="tag"] {
+    --anchor-decoration: none;
+
+    background-color: var(--color-offset);
+    border-radius: var(--border-radius-large);
+    display: inline-flex;
+    padding: 0.15em var(--space-xs) 0.35em;
     white-space: nowrap;
-    word-spacing: -0.25ch;
   }
 }
 

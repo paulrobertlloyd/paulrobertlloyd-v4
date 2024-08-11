@@ -8,6 +8,12 @@ export default class Jams {
         size: 36,
         title: "Recent jams",
       },
+      eleventyComputed: {
+        sectionTitle: ({ pagination }) =>
+          pagination.pageNumber === 0
+            ? "Recent jams"
+            : `Older jams (page ${pagination.pageNumber + 1})`,
+      },
       permalink: ({ pagination }) =>
         pagination.pageNumber > 0
           ? `/jams/page/${pagination.pageNumber + 1}.html`

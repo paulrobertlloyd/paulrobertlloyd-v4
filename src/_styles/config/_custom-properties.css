@@ -7,7 +7,11 @@
   --color-neutral-lightest: hsl(from var(--color-neutral) h s 96%);
 
   /* Accent palette */
-  --color-accent-with-contrast: lch(from var(--color-accent) calc(l / 3) c h);
+  --color-accent-on-background: color-mix(
+    in hsl,
+    var(--color-accent),
+    black 25%
+  );
 
   /* Focus palette */
   --color-focus: hsl(40deg 100% 50%);
@@ -24,37 +28,38 @@
   --color-text-secondary: var(--color-neutral-dark);
   --color-text-focus: hsl(from var(--color-neutral-darkest) h s 0);
   --color-text-photo: hsl(from var(--color-neutral) h s 88%);
-  --color-link: var(--color-accent-with-contrast);
+  --color-link: var(--color-accent-on-background);
   --color-link-underline: var(--color-neutral-light);
 
   /* Typography */
   --font-family-sans: "Söhne", sans-serif;
   --font-family-monospace: "Söhne Mono", monospace;
-  --line-height-tight: 1.125;
-  --line-height-loose: 1.5;
-  --line-height-prose: 1.667;
+  --line-height-tight: 1.2;
+  --line-height-loose: 1.4;
+  --line-height-prose: clamp(1.4em, 3cqi, 1.6em);
   --measure: 48rem;
   --text-spacing: 0 0.25em 0.125em 0.25em;
   --word-spacing: 0;
 
   /*
    * Fluid type scale
-   * @link https://utopia.fyi/type/calculator?c=400,16,1.067,1200,18,1.2,5,0,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12
    */
-  --font-size-xs: 1rem;
-  --font-size-s: clamp(1rem, 0.9375rem + 0.25vw, 1.125rem);
-  --font-size-m: clamp(1.067rem, 0.8974rem + 0.6785vw, 1.4063rem);
-  --font-size-l: clamp(1.1385rem, 0.8288rem + 1.2386vw, 1.7578rem);
-  --font-size-xl: clamp(1.2148rem, 0.7235rem + 1.965vw, 2.1973rem);
-  --font-size-2xl: clamp(1.2962rem, 0.5709rem + 2.9008vw, 2.7466rem);
-  --font-size-3xl: clamp(1.383rem, 0.3579rem + 4.1005vw, 3.4332rem);
+  --font-size-base: 1.125rem; /* 18px */
+  --font-size-s: clamp(1.125rem, 0.5vi + 1rem, 1.3125rem); /* 18 - 21 */
+  --font-size-m: clamp(1.125rem, 0.5vi + 1rem, 1.5rem); /* 18 - 24 */
+  --font-size-l: clamp(1.5rem, 1vi + 1.25rem, 1.6875rem); /* 24 - 27 */
+  --font-size-xl: clamp(1.6875rem, 2vw + 1.5rem, 3.5rem); /* 27 - 56 */
 
   /* Font styles */
-  --font-title: 500 var(--font-size-3xl) / var(--line-height-tight)
+  --font-title: 500 var(--font-size-xl) / var(--line-height-tight)
     var(--font-family-sans);
   --font-heading: 500 var(--font-size-l) / var(--line-height-tight)
     var(--font-family-sans);
-  --font-subhead: normal var(--font-size-m) / var(--line-height-loose)
+  --font-subhead: 500 normal var(--font-size-m) / var(--line-height-loose)
+    var(--font-family-sans);
+  --font-body-l: normal var(--font-size-l) / var(--line-height-prose)
+    var(--font-family-sans);
+  --font-body: normal var(--font-size-m) / var(--line-height-prose)
     var(--font-family-sans);
   --font-caption: normal var(--font-size-s) / var(--line-height-loose)
     var(--font-family-sans);
@@ -63,36 +68,37 @@
    * Fluid size scale
    * @link https://utopia.fyi/space/calculator/?c=400,15,1.2,1200,16,1.25,5,2,&s=0.75|0.5,1.5|2|3|4|6,m-xl|s-l
    */
-  --space-2xs: clamp(0.5rem, calc(0.5rem + 0vw), 0.5rem);
+  --space-3xs: 0.25em;
+  --space-2xs: 0.5em;
   --space-xs: clamp(0.69rem, calc(0.66rem + 0.13vw), 0.75rem);
   --space-s: clamp(0.94rem, calc(0.91rem + 0.13vw), 1rem);
   --space-m: clamp(1.88rem, calc(1.81rem + 0.25vw), 2rem);
-  --space-l: clamp(3.75rem, calc(3.63rem + 0.5vw), 4rem);
 
   /* Fluid size scale pairs */
   --space-s-m: clamp(0.94rem, calc(0.41rem + 2.13vw), 2rem);
   --space-s-l: clamp(0.94rem, calc(-0.59rem + 6.13vw), 4rem);
   --space-m-l: clamp(1.88rem, calc(0.81rem + 4.25vw), 4rem);
 
+  /* Spacing assignments */
+  --gap: var(--space-s-m);
+  --avatar-size: clamp(3.75rem, calc(3.63rem + 0.5vw), 4rem);
+
   /* Borders */
-  --border-width-focus: 3px;
+  --border-width-focus: 4px;
   --border-width-thin: 1px;
   --border-width-thick: 3.5px;
+  --border-radius-large: 1rem;
+  --border-radius-small: calc(var(--border-radius-large) / 2);
   --border-rule-thin: var(--border-width-thin) solid var(--color-offset);
   --border-rule-thick: var(--border-width-thick) solid var(--color-offset);
-
-  /* Grids */
-  --gap: var(--space-s-m);
 
   /* Animation */
   --transition-short: 0.15s;
 
   /* Indicate the presence of dark mode styles */
   color-scheme: light dark;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
+  @media (prefers-color-scheme: dark) {
     /* Neutral palette */
     --color-neutral-darkest: hsl(from var(--color-neutral) h s 96%);
     --color-neutral-dark: hsl(from var(--color-neutral) h s 80%);
@@ -100,7 +106,11 @@
     --color-neutral-lightest: hsl(from var(--color-neutral) h s 16%);
 
     /* Accent palette */
-    --color-accent-with-contrast: lch(from var(--color-accent) calc(l * 3) c h);
+    --color-accent-on-background: color-mix(
+      in hsl,
+      var(--color-accent),
+      white 33%
+    );
 
     /* Colour assignments */
     --color-background: hsl(from var(--color-neutral-lightest) h s 8%);
@@ -112,5 +122,23 @@
     --line-height-loose: calc(1.5em + 0.25vw);
     --line-height-prose: calc(1.667em + 0.25vw);
     --word-spacing: 0.05em;
+  }
+}
+
+[style^="--item-accent-color"] {
+  --color-accent: var(--item-accent-color);
+  --color-accent-on-background: color-mix(
+    in hsl,
+    var(--item-accent-color),
+    black 30%
+  );
+  --color-link: var(--color-accent-on-background);
+
+  @media (prefers-color-scheme: dark) {
+    --color-accent-on-background: color-mix(
+      in hsl,
+      var(--item-accent-color),
+      white 30%
+    );
   }
 }

@@ -11,7 +11,7 @@ export default class Bookmarks {
         sectionTitle: ({ pagination }) =>
           pagination.pageNumber === 0
             ? "Recent bookmarks"
-            : `Bookmarks (page ${pagination.pageNumber + 1})`,
+            : `Older bookmarks (page ${pagination.pageNumber + 1})`,
       },
       permalink: ({ pagination }) =>
         pagination.pageNumber > 0

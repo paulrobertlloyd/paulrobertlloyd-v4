@@ -1,42 +1,39 @@
 .item {
-  border-block-start: var(--border-rule-thick);
+  container-type: inline-size;
   display: flex;
   flex: 1;
   flex-direction: column;
-  gap: var(--space-2xs);
-  padding-block-start: var(--space-2xs);
-  position: relative;
 
   flow-content {
-    --flow-space: var(--space-xs);
-    --flow-line-height: var(--line-height-loose);
+    --flow-space: var(--space-2xs);
+
+    color: var(--color-text-secondary);
   }
 
-  header + flow-content {
-    color: var(--color-text-secondary);
+  header {
+    font: var(--font-heading);
   }
 
   footer {
-    --anchor-decoration: none;
-
-    color: var(--color-text-secondary);
+    align-items: center;
+    color: var(--color-accent-on-background);
+    display: inline-flex;
     font: var(--font-caption);
+    order: -1;
   }
 
-  h3 {
-    --anchor-decoration: none;
-
-    font: var(--font-heading);
+  svg {
+    margin-inline: var(--space-2xs);
   }
 }
 
 /* Comment item adaptions */
 .item--comment {
-  padding-inline-start: calc(var(--space-l) + var(--gap));
+  padding-inline-start: calc(var(--avatar-size) + var(--space-s));
+  position: relative;
 
   .avatar {
-    inset-block-start: var(--space-2xs);
-    inset-inline-start: 0;
+    inset: 0;
     position: absolute;
   }
 }

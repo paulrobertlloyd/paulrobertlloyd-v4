@@ -2,6 +2,7 @@
   font-display: swap;
   font-family: "Söhne Mono";
   font-weight: normal;
+  size-adjust: 90%;
   src: url("/assets/fonts/soehne-mono-buch.woff2") format("woff2");
 }
 

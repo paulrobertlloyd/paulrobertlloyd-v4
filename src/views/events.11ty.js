@@ -17,8 +17,8 @@ export default class Events {
           },
         sectionTitle: ({ pagination }) =>
           pagination.pageNumber === 0
-            ? "Earlier events"
-            : `Events (page ${pagination.pageNumber + 1})`,
+            ? "Recent events"
+            : `Older events (page ${pagination.pageNumber + 1})`,
       },
       permalink: ({ pagination }) =>
         pagination.pageNumber > 0
