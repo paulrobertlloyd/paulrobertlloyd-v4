@@ -7,6 +7,7 @@ import { markdownParser } from "./lib/libraries/markdown.js";
 import * as collections from "./lib/collections/index.js";
 import * as filters from "./lib/filters/index.js";
 import * as shortcodes from "./lib/shortcodes/index.js";
+import { image } from "./lib/transforms/image.js";
 import navigation from "./src/_data/navigation.js";
 
 // Can’t use import attributes until supported by Acorn dependency
@@ -61,6 +62,9 @@ export default function (eleventy) {
   for (const [name, shortcode] of Object.entries(shortcodes)) {
     eleventy.addShortcode(name, shortcode);
   }
+
+  // Transforms
+  eleventy.addTransform("images", image);
 
   // Folder data
   eleventy.setDataFileBaseName("_data");

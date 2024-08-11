@@ -1,6 +1,9 @@
 <article class="card |{% for root in item.data.vocabulary %} h-{{ root }}{% endfor %}" id="{{ item.data.id }}" data-type="{{ item.data.type }}" style="--item-accent-color: {{ item.data.accent_color }}">
-  {%- app_image item.data.photo[0], "card", "u-photo" -%}
-  {%- app_image item.data.featured, "card", "u-featured" -%}
+{%- if item.data.featured -%}
+  <img class="u-featured" src="{{ item.data.featured.url }}" alt="{{ item.data.featured.alt }}" data-responsiver="card">
+{%- elsif item.data.photo -%}
+  <img class="u-photo" src="{{ item.data.photo[0].url }}" alt="{{ item.data.photo[0].alt }}" data-responsiver="card">
+{%- endif -%}
 
 {%- if item.data.title -%}
   <header>

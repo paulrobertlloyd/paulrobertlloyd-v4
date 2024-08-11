@@ -40,6 +40,7 @@
     "@paulrobertlloyd/markdown-it-rules": "paulrobertlloyd/markdown-it-rules",
     "geolib": "^3.3.1",
     "ical-js-parser": "^0.7.4",
+    "images-responsiver": "^1.13.0",
     "markdown-it": "^14.0.0",
     "markdown-it-abbr": "^2.0.0",
     "markdown-it-anchor": "^9.0.0",

@@ -1,5 +1,5 @@
 <figure class="slide">
-  {% app_image slide, "supporting" %}
+  <img src="{{ slide.url }}" alt="{{ slide.alt }}" data-responsiver="slide">
   <figcaption>
     {{ slide.caption | markdown }}
   </figcaption>
