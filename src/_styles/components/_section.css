@@ -4,6 +4,6 @@
 
   h2 {
     color: var(--color-text-secondary);
-    font: var(--font-subhead);
+    font: var(--font-caption);
   }
 }

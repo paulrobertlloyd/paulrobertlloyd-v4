@@ -48,16 +48,17 @@
   --font-size-s: clamp(1.125rem, 0.5vi + 1rem, 1.3125rem); /* 18 - 21 */
   --font-size-m: clamp(1.125rem, 0.5vi + 1rem, 1.5rem); /* 18 - 24 */
   --font-size-l: clamp(1.5rem, 1vi + 1.25rem, 1.6875rem); /* 24 - 27 */
-  --font-size-xl: clamp(1.6875rem, 2vw + 1.5rem, 3.5rem); /* 27 - 56 */
+  --font-size-xl: clamp(1.5rem, 1vi + 1.25rem, 2.25rem); /* 24 - 36 */
+  --font-size-2xl: clamp(1.6875rem, 2vw + 1.5rem, 3.5rem); /* 27 - 56 */
 
   /* Font styles */
-  --font-title: 500 var(--font-size-xl) / var(--line-height-tight)
+  --font-title: 500 var(--font-size-2xl) / var(--line-height-tight)
     var(--font-family-sans);
-  --font-heading: 500 var(--font-size-l) / var(--line-height-tight)
+  --font-heading: 500 var(--font-size-xl) / var(--line-height-tight)
     var(--font-family-sans);
-  --font-subhead: 500 normal var(--font-size-m) / var(--line-height-loose)
+  --font-subhead: 500 normal var(--font-size-l) / var(--line-height-tight)
     var(--font-family-sans);
-  --font-body-l: normal var(--font-size-l) / var(--line-height-prose)
+  --font-lede: normal var(--font-size-xl) / var(--line-height-tight)
     var(--font-family-sans);
   --font-body: normal var(--font-size-m) / var(--line-height-prose)
     var(--font-family-sans);

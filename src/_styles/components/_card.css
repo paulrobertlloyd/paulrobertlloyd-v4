@@ -32,7 +32,7 @@
   }
 
   header {
-    font: var(--font-heading);
+    font: var(--font-subhead);
   }
 
   footer {

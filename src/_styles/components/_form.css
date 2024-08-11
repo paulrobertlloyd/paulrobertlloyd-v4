@@ -40,7 +40,7 @@
 .form__label {
   color: var(--color-text-secondary);
   display: inline-block;
-  font: var(--font-subhead);
+  font: var(--font-caption);
   padding-block: var(--space-2xs);
 }
 

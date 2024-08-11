@@ -10,8 +10,8 @@ flow-content {
   font: var(--flow-font);
   word-break: break-word;
 
-  &[data-font-size="large"] {
-    --flow-font: var(--font-body-l);
+  &[data-font="lede"] {
+    --flow-font: var(--font-lede);
   }
 
   > * {

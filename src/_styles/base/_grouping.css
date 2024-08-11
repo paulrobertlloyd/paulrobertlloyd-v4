@@ -44,6 +44,7 @@ dt {
   color: var(--color-text-secondary);
   font-variant-caps: all-small-caps;
   font-weight: 500;
+  letter-spacing: 0.1ch;
 }
 
 dd {
