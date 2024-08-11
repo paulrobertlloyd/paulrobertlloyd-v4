@@ -1,4 +1,4 @@
-{%- assign id = title | downcase | replace: " ", "_" -%}
+{%- assign id = title | slugify -%}
 <section class="section" aria-labelledby="{{ id }}">
   <header>
     <h2 id="{{ id }}">{{ title }}</h2>
