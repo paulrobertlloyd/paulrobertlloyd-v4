@@ -9,6 +9,10 @@ layout: default.liquid
 </flow-content>
 {%- endif -%}
 
+{%- if trips -%}
+  {%- render "trips" with collections.trip -%}
+{%- endif %}
+
 {%- if featured -%}
   {%- render "section" with collections[featured.collection]
     title: featured.title
@@ -23,7 +27,6 @@ layout: default.liquid
   {%- render "section" with pagination.items
     title: sectionTitle
     itemsComponent: pagination.component
-    itemsGridSize: pagination.gridSize
   -%}
 {%- endif %}
 

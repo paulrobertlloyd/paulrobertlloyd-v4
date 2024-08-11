@@ -1,25 +1,36 @@
-<flow-content aria-labelledby="{{ title }}">
-{%- if trips.size > 0 %}
-  <table>
-    <caption id="{{ title }}">{{ title }}</caption>
-    <thead>
-      <tr>
-        <th style="inline-size: 20%">Date</th>
-        <th style="inline-size: 100%">Trip</th>
-        <th style="inline-size: 15%"><abbr title="kilometers">km</abbr> /&nbsp;<abbr title="kilograms">kg</abbr></th>
-      </tr>
-    </thead>
+{%- assign totalKm = trips | sum: "data.distance" -%}
+{%- assign totalCo2 = trips | sum: "data.emissions" -%}
+{%- assign timespan = (2003..currentYear) | size -%}
+{%- assign meanKm = totalKm | divided_by: timespan -%}
+{%- assign meanCo2 = totalCo2 | divided_by: timespan -%}
+
+<flow-content>
+  <p>Over the course of {{ trips | size }} trips, I’ve travelled {{ totalKm }} km and emitted approximately {{ totalCo2 }} kg of CO₂.</p>
+</flow-content>
+
+<bar-chart>
+  <table hidden>
+    <caption><abbr title="kilometers">km</abbr> travelled<br><abbr title="kilograms">kg</abbr> CO<sub>2</sub></caption>
     <tbody>
-    {%- for item in trips -%}
+    {%- for year in (2003..currentYear) -%}
       <tr>
-        <th>{% datetime item.data %}</th>
+        {%- assign thisYear = trips | where: "data.year", year -%}
+        {%- assign yearKm = thisYear | sum: "data.distance" -%}
+        {%- assign yearCo2 = thisYear | sum: "data.emissions" -%}
+        <th>{{ year }}</th>
         <td>
-          <a rel="bookmark" href="{{ item.url }}">{{ item.data.title }}</a>
+          <a href="/trips/{{ year }}">
+            <data value="{{ yearKm }}" data-total="{{ meanKm }}">
+              <span>{{ yearKm }} km</span>
+            </data>
+            <data value="{{ yearCo2 }}" data-total="{{ meanCo2 }}">
+              <span>{{ yearCo2 }} kg</span>
+            </data>
+          </a>
         </td>
-        <td>{{ item.data.distance }} /&nbsp;{{ item.data.emissions }}</td>
       </tr>
     {%- endfor -%}
     </tbody>
   </table>
-{%- endif -%}
-</flow-content>
+</bar-chart>
+<script src="/assets/scripts/bar-chart.js" type="module"></script>

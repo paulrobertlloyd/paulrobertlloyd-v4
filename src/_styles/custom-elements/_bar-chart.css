@@ -1,0 +1,6 @@
+bar-chart {
+  --bar-chart-color-1: var(--color-accent);
+  --bar-chart-color-2: var(--color-text);
+  --bar-chart-color: var(--color-text-secondary);
+  --bar-chart-background: var(--color-background);
+}

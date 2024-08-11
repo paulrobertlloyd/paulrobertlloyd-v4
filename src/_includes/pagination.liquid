@@ -1,10 +1,14 @@
 {%- if pagination.hrefs.size > 1 -%}
 <nav class="pagination" aria-label="page">
 {%- if pagination.href.next -%}
-  <a rel="prev" href="{{ pagination.href.next | pagination_path }}">Previous</a>
+  <a rel="prev" href="{{ pagination.href.next | pagination_path }}">
+    {{- pagination.href.nextLabel | default: "Older" -}}
+  </a>
 {%- endif -%}
 {%- if pagination.href.previous -%}
-  <a rel="next" href="{{ pagination.href.previous | pagination_path }}">Next</a>
+  <a rel="next" href="{{ pagination.href.previous | pagination_path }}">
+    {{- pagination.href.previousLabel | default: "Newer" -}}
+  </a>
 {%- endif -%}
 </nav>
 {%- endif -%}

@@ -12,13 +12,13 @@
 @import url("_styles/base/_text.css");
 
 /* Custom elements */
+@import url("_styles/custom-elements/_bar-chart.css");
 @import url("_styles/custom-elements/_flow-content.css");
 @import url("_styles/custom-elements/_visually-hidden.css");
 
 /* Components */
 @import url("_styles/components/_avatar.css");
 @import url("_styles/components/_banner.css");
-@import url("_styles/components/_barchart.css");
 @import url("_styles/components/_card.css");
 @import url("_styles/components/_categories.css");
 @import url("_styles/components/_contentinfo.css");
