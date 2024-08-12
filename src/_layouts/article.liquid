@@ -15,12 +15,14 @@ layout: default.liquid
   {%- assign collection = collections.collection | find: "data.page.fileSlug",tag -%}
   {%- if collection -%}
     {%- capture title %}More from the <a href="{{ collection.url }}">{{ collection.data.title }}</a> collection{%- endcapture -%}
-    {%- assign articles = collections.article | siblings: tag -%}
-    {%- render "section" with articles
-      title: title
-      scrollable: true
-      itemsComponent: "card"
-      itemsLimit: 3
-    -%}
+  {%- else -%}
+    {% assign title = "More from this collection" %}
   {%- endif -%}
+  {%- assign articles = collections.article | siblings: tag -%}
+  {%- render "section" with articles
+    title: title
+    scrollable: true
+    itemsComponent: "card"
+    itemsLimit: 3
+  -%}
 {%- endfor -%}
