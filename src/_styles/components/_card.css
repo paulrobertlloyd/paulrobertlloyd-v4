@@ -39,6 +39,7 @@
     align-items: center;
     color: var(--color-accent-on-background);
     display: inline-flex;
+    flex-wrap: wrap;
     font: var(--font-caption);
     margin-block-start: auto;
   }
