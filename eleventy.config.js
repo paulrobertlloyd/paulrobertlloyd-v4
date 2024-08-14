@@ -64,7 +64,9 @@ export default function (eleventy) {
   }
 
   // Transforms
-  eleventy.addTransform("images", image);
+  if (process.env.NODE_ENV === "production") {
+    eleventy.addTransform("images", image);
+  }
 
   // Folder data
   eleventy.setDataFileBaseName("_data");
