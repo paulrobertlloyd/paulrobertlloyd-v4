@@ -8,8 +8,12 @@
 }
 
 .footnote-ref {
-  font-variant: tabular-nums;
+  font-variant-numeric: tabular-nums;
   padding: var(--text-spacing);
+
+  a {
+    text-underline-offset: -0.25em;
+  }
 }
 
 .footnote-backref {

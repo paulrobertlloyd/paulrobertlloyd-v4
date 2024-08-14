@@ -54,10 +54,12 @@ small {
 
 sub {
   font-variant-position: sub;
+  line-height: 0;
 }
 
 sup {
   font-variant-position: super;
+  line-height: 0;
 }
 
 :is(h1, h2, h3, h4, h5, h6) cite {
