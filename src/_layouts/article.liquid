@@ -19,10 +19,12 @@ layout: default.liquid
     {% assign title = "More from this collection" %}
   {%- endif -%}
   {%- assign articles = collections.article | siblings: tag -%}
-  {%- render "section" with articles
-    title: title
-    scrollable: true
-    itemsComponent: "card"
-    itemsLimit: 3
-  -%}
+  {%- if articles.length -%}
+    {%- render "section" with articles
+      title: title
+      scrollable: true
+      itemsComponent: "card"
+      itemsLimit: 3
+    -%}
+  {%- endif -%}
 {%- endfor -%}
