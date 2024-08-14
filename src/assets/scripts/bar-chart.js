@@ -126,7 +126,6 @@ class BarChartElement extends HTMLElement {
 
   chartSize() {
     for (const data of this.table.querySelectorAll("data")) {
-      console.log("data", data);
       const total = data.dataset.total;
       const value = data.value;
       const scale = (value / total) * 100;
