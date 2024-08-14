@@ -4,7 +4,7 @@ export default class Events {
       layout: "pagination.liquid",
       title: "Events",
       pagination: {
-        data: "collections.event",
+        data: "collections.attended",
         size: 48,
         component: "event",
       },

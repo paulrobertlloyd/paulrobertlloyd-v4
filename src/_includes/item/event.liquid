@@ -7,14 +7,14 @@
     </h3>
   </header>
 
-{%- if item.data.location.name != "false" -%}
   <flow-content class="p-location">
     <p class="h-card">
-      at <span class="p-name">{{ item.data.location.name }}</span>,
+{%- if item.data.location.name -%}
+      <span class="p-name">{{ item.data.location.name }}</span>,
+{%- endif %}
       {% adr item.data %}
     </p>
   </flow-content>
-{%- endif -%}
 
   <footer>
     {%- datetime item.data -%}

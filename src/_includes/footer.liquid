@@ -1,20 +1,18 @@
 <footer class="footer">
   <dl>
-{%- if properties.start -%}
     <dt><visually-hidden>Date</visually-hidden></dt>
+{%- if properties.start -%}
     <dd>{% datetime properties %}</dd>
 {% elsif properties.published %}
-    <dt><visually-hidden>Published on</visually-hidden></dt>
     <dd>{% datetime properties properties.title %}</dd>
 {%- endif -%}
-{%- if properties.location.name -%}
     <dt><visually-hidden>Location</visually-hidden></dt>
+{%- if properties.location.name -%}
     <dd class="p-location h-card">
       <span class="p-name">{{ properties.location.name }}</span>,
       {% adr properties %}
     </dd>
 {%- elsif properties.location -%}
-    <dt><visually-hidden>Published in</visually-hidden></dt>
     <dd class="p-location">{% adr properties %}</dd>
 {%- endif -%}
   </dl>
