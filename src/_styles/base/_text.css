@@ -10,6 +10,7 @@ a {
   text-decoration-color: var(--color-link-underline);
   text-decoration-thickness: 1px;
   text-underline-offset: 1.5px;
+  -webkit-touch-callout: none;
 
   &:hover {
     color: var(--color-link);
