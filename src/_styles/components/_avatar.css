@@ -1,5 +1,5 @@
 .avatar {
-  background-color: var(--color-offset);
+  background-color: var(--color-surface);
   block-size: var(--avatar-size, var(--avatar-size));
   border-radius: var(--border-radius-small);
   inline-size: var(--avatar-size, var(--avatar-size));

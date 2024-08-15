@@ -19,8 +19,8 @@ html:focus-within {
 }
 
 body {
-  background: var(--color-offset);
-  color: var(--color-text);
+  background: var(--color-surface);
+  color: var(--color-on-surface);
   display: flex;
   flex-direction: column;
   font-family: var(--font-family-sans);

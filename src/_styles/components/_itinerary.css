@@ -2,7 +2,7 @@
   position: relative;
 
   &::before {
-    border-inline-start: var(--border-width-thick) solid var(--color-accent);
+    border-inline-start: var(--border-width-thick) solid var(--color-primary);
     content: "";
     display: block;
     inset-block: 0.5lh;
@@ -15,7 +15,7 @@
     position: relative;
 
     &::before {
-      background-color: var(--color-accent);
+      background-color: var(--color-primary);
       block-size: calc(var(--border-width-thick) * 3);
       border-radius: 100%;
       content: "";

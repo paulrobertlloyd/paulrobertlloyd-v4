@@ -1,5 +1,5 @@
 .meta {
-  color: var(--color-text-secondary);
+  color: var(--color-on-surface-variant);
   font: var(--font-caption);
   max-inline-size: var(--measure);
 }

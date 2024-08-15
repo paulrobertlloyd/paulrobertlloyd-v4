@@ -4,8 +4,8 @@
     --flow-space: 0;
 
     align-items: center;
-    background-color: var(--color-offset);
-    border-inline-start: var(--border-width-thick) solid var(--color-accent);
+    background-color: var(--color-surface);
+    border-inline-start: var(--border-width-thick) solid var(--color-primary);
     display: flex;
     flex-wrap: wrap;
     gap: var(--flow-inset);

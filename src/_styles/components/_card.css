@@ -2,7 +2,7 @@
   --anchor-decoration: none;
   --card-growth: var(--space-s);
 
-  background: var(--color-offset);
+  background: var(--color-surface);
   border-radius: var(--border-radius-large);
   container-type: inline-size;
   display: flex;
@@ -15,7 +15,7 @@
   transition-duration: var(--transition-short);
 
   &:hover {
-    background-color: var(--color-background);
+    background-color: var(--color-surface-bright);
     border-radius: calc(var(--border-radius-large) * 1.5);
     box-shadow:
       0 0 1vw var(--color-shadow),
@@ -28,7 +28,7 @@
   }
 
   flow-content {
-    color: var(--color-text-secondary);
+    color: var(--color-on-surface-variant);
   }
 
   header {
@@ -37,7 +37,7 @@
 
   footer {
     align-items: center;
-    color: var(--color-accent-on-background);
+    color: var(--color-primary-on-surface);
     display: inline-flex;
     flex-wrap: wrap;
     font: var(--font-caption);
@@ -79,7 +79,7 @@
   &[data-type^="presentation"] {
     &:has(img)::before {
       aspect-ratio: 3 / 2;
-      background-color: var(--color-accent-on-background);
+      background-color: var(--color-primary-on-surface);
       border-radius: var(--border-radius-small);
       content: "";
       display: block;
@@ -94,6 +94,15 @@
       aspect-ratio: 3 / 2;
       filter: contrast(0.75) brightness(1.25);
       mix-blend-mode: luminosity;
+    }
+  }
+
+  &[data-type^="photo"] {
+    background: var(--color-inverse-surface);
+    color: var(--color-on-inverse-surface);
+
+    footer {
+      color: inherit;
     }
   }
 

@@ -5,7 +5,7 @@
   padding-block: var(--gap);
 
   nav {
-    color: var(--color-text-secondary);
+    color: var(--color-on-surface-variant);
     display: flex;
     flex: 999 1 0;
     flex-wrap: wrap;

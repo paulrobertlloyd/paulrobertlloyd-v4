@@ -7,7 +7,7 @@
   flow-content {
     --flow-space: var(--space-2xs);
 
-    color: var(--color-text-secondary);
+    color: var(--color-on-surface-variant);
   }
 
   header {
@@ -16,7 +16,7 @@
 
   footer {
     align-items: center;
-    color: var(--color-accent-on-background);
+    color: var(--color-primary-on-surface);
     display: inline-flex;
     font: var(--font-caption);
     order: -1;

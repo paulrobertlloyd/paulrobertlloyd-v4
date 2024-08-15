@@ -1,5 +1,5 @@
 .contentinfo {
-  color: var(--color-text-secondary);
+  color: var(--color-on-surface-variant);
   column-gap: var(--space-s);
   display: flex;
   flex-flow: row-reverse wrap;

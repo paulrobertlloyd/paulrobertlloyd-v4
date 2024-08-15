@@ -5,10 +5,10 @@
 }
 
 .form__button {
-  background-color: var(--color-text);
+  background-color: var(--color-on-surface);
   border: 0;
   border-radius: var(--border-radius-large);
-  color: var(--color-background);
+  color: var(--color-surface-bright);
   font-weight: 500;
   margin-inline: calc(var(--space-xs) * -1);
   padding: var(--space-xs) var(--space-s);
@@ -19,15 +19,15 @@
 }
 
 .form__input {
-  background-color: var(--color-background);
-  border: var(--border-width-thick) solid var(--color-neutral-light);
+  background-color: var(--color-surface-bright);
+  border: var(--border-width-thick) solid var(--color-outline);
   border-radius: var(--border-radius-large);
   inline-size: calc(100% + var(--space-xs) + var(--space-xs));
   margin-inline: calc(var(--space-xs) * -1);
   padding: var(--space-2xs);
 
   &:focus {
-    border-color: var(--color-neutral-darkest);
+    border-color: var(--color-on-surface);
     outline: var(--border-width-focus) solid var(--color-focus);
   }
 }
@@ -38,15 +38,15 @@
 }
 
 .form__label {
-  color: var(--color-text-secondary);
+  color: var(--color-on-surface-variant);
   display: inline-block;
   font: var(--font-caption);
   padding-block: var(--space-2xs);
 }
 
 .form__listbox {
-  background-color: var(--color-background);
-  border: var(--border-width-thick) solid var(--color-neutral-darkest);
+  background-color: var(--color-surface-bright);
+  border: var(--border-width-thick) solid var(--color-on-surface);
   margin-block-start: calc(var(--border-width-thick) * -1);
   max-block-size: 60vh;
   overflow-y: scroll;
@@ -62,16 +62,16 @@
     padding: var(--space-s);
 
     &[aria-selected="true"] {
-      background-color: var(--color-accent-on-background);
+      background-color: var(--color-primary);
       color: white;
     }
 
     &:hover[aria-selected="true"] {
-      background-color: var(--color-accent);
+      background-color: var(--color-primary-on-surface);
     }
 
     &:hover:not([aria-selected="true"]) {
-      background-color: var(--color-offset);
+      background-color: var(--color-surface);
     }
   }
 }

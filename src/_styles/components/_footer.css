@@ -3,7 +3,7 @@
 
   dl {
     align-items: baseline;
-    color: var(--color-accent-on-background);
+    color: var(--color-primary-on-surface);
     display: flex;
     flex-wrap: wrap;
   }

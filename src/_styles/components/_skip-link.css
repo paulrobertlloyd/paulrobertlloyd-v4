@@ -3,7 +3,7 @@
   --color-link-underline: currentcolor;
 
   background-color: var(--color-focus);
-  color: var(--color-text-focus);
+  color: var(--color-on-focus);
   outline-offset: 0;
   padding: var(--space-s);
   position: static;

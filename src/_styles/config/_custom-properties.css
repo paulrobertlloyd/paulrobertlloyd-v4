@@ -1,34 +1,34 @@
 :root {
   /* Neutral palette */
-  --color-neutral: hsl(240deg 8% 48%);
-  --color-neutral-darkest: hsl(from var(--color-neutral) h s 12%);
-  --color-neutral-dark: hsl(from var(--color-neutral) h s 40%);
-  --color-neutral-light: hsl(from var(--color-neutral) h s 80%);
-  --color-neutral-lightest: hsl(from var(--color-neutral) h s 96%);
+  --color-neutral: oklch(56% 0.0075 288deg);
+  --color-neutral-darkest: oklch(from var(--color-neutral) calc(l - 0.4) c h);
+  --color-neutral-darker: oklch(from var(--color-neutral) calc(l - 0.3) c h);
+  --color-neutral-dark: oklch(from var(--color-neutral) calc(l - 0.1) c h);
+  --color-neutral-light: oklch(from var(--color-neutral) calc(l + 0.1) c h);
+  --color-neutral-lighter: oklch(from var(--color-neutral) calc(l + 0.3) c h);
+  --color-neutral-lightest: oklch(from var(--color-neutral) calc(l + 0.4) c h);
 
-  /* Accent palette */
-  --color-accent-on-background: color-mix(
-    in hsl,
-    var(--color-accent),
-    black 25%
+  /* Primary palette */
+  --color-primary: var(--color-accent, oklch(50% 0.25 264deg));
+  --color-primary-on-surface: oklch(
+    from var(--color-primary) calc(l - 0.3) c h
   );
 
   /* Focus palette */
-  --color-focus: hsl(40deg 100% 50%);
-
-  /* Highlight palette */
-  --color-highlight: hsl(56deg 100% 50%);
+  --color-focus: oklch(80% 0.1667 72deg);
+  --color-on-focus: var(--color-neutral-darkest);
 
   /* Colour assignments */
-  --color-background: white;
-  --color-background-photo: hsl(from var(--color-neutral) h s 12%);
-  --color-offset: var(--color-neutral-lightest);
+  --color-surface-bright: white;
+  --color-surface: var(--color-neutral-lightest);
+  --color-on-surface: var(--color-neutral-darker);
+  --color-on-surface-variant: var(--color-neutral-dark);
+  --color-inverse-surface: var(--color-neutral-darker);
+  --color-on-inverse-surface: var(--color-neutral-lighter);
+  --color-highlight: oklch(from var(--color-primary) l c h / 25%);
+  --color-outline: var(--color-neutral-lighter);
   --color-shadow: hsl(from var(--color-neutral-darkest) h s l / 10%);
-  --color-text: var(--color-neutral-darkest);
-  --color-text-secondary: var(--color-neutral-dark);
-  --color-text-focus: hsl(from var(--color-neutral-darkest) h s 0);
-  --color-text-photo: hsl(from var(--color-neutral) h s 88%);
-  --color-link: var(--color-accent-on-background);
+  --color-link: var(--color-primary-on-surface);
   --color-link-underline: var(--color-neutral-light);
 
   /* Typography */
@@ -90,8 +90,8 @@
   --border-width-thick: 3.5px;
   --border-radius-large: 1rem;
   --border-radius-small: calc(var(--border-radius-large) / 2);
-  --border-rule-thin: var(--border-width-thin) solid var(--color-offset);
-  --border-rule-thick: var(--border-width-thick) solid var(--color-offset);
+  --border-rule-thin: var(--border-width-thin) solid var(--color-outline);
+  --border-rule-thick: var(--border-width-thick) solid var(--color-outline);
 
   /* Animation */
   --transition-short: 0.15s;
@@ -100,46 +100,34 @@
   color-scheme: light dark;
 
   @media (prefers-color-scheme: dark) {
-    /* Neutral palette */
-    --color-neutral-darkest: hsl(from var(--color-neutral) h s 96%);
-    --color-neutral-dark: hsl(from var(--color-neutral) h s 80%);
-    --color-neutral-light: hsl(from var(--color-neutral) h s 24%);
-    --color-neutral-lightest: hsl(from var(--color-neutral) h s 16%);
-
-    /* Accent palette */
-    --color-accent-on-background: color-mix(
-      in hsl,
-      var(--color-accent),
-      white 33%
+    /* Primary palette */
+    --color-primary-on-surface: oklch(
+      from var(--color-primary) calc(l + 0.3) c h
     );
 
     /* Colour assignments */
-    --color-background: hsl(from var(--color-neutral-lightest) h s 8%);
-    --color-highlight: hsl(240deg 100% 66%);
+    --color-surface-bright: var(--color-neutral-darkest);
+    --color-surface: var(--color-neutral-darker);
+    --color-on-surface: var(--color-neutral-lightest);
+    --color-on-surface-variant: var(--color-neutral-lighter);
     --color-shadow: black;
 
     /* Typography */
-    --line-height-tight: calc(1.25em + 0.25vw);
-    --line-height-loose: calc(1.5em + 0.25vw);
-    --line-height-prose: calc(1.667em + 0.25vw);
-    --word-spacing: 0.05em;
+    --line-height-prose: clamp(1.4em, 3cqi, 1.8em);
+    --word-spacing: 0.025em;
   }
 }
 
-[style^="--item-accent-color"] {
-  --color-accent: var(--item-accent-color);
-  --color-accent-on-background: color-mix(
-    in hsl,
-    var(--item-accent-color),
-    black 30%
+[style^="--color-accent-item"] {
+  --color-primary: var(--color-accent-item);
+  --color-primary-on-surface: oklch(
+    from var(--color-primary) calc(l - 0.3) c h
   );
-  --color-link: var(--color-accent-on-background);
+  --color-link: var(--color-primary-on-surface);
 
   @media (prefers-color-scheme: dark) {
-    --color-accent-on-background: color-mix(
-      in hsl,
-      var(--item-accent-color),
-      white 30%
+    --color-primary-on-surface: oklch(
+      from var(--color-primary) calc(l + 0.3) c h
     );
   }
 }

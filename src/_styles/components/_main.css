@@ -2,7 +2,7 @@
   align-content: start;
   border-image-outset: 0 0 0 100vw;
   border-image-slice: fill 0;
-  border-image-source: conic-gradient(var(--color-background) 0 0);
+  border-image-source: conic-gradient(var(--color-surface-bright) 0 0);
   display: flex;
   flex: 1;
   flex-direction: column;
@@ -16,7 +16,7 @@
   }
 
   > h1 + flow-content {
-    color: var(--color-text-secondary);
+    color: var(--color-on-surface-variant);
     text-wrap: pretty;
   }
 

@@ -2,7 +2,7 @@
   max-inline-size: var(--measure);
 
   flow-content {
-    color: var(--color-text-secondary);
+    color: var(--color-on-surface-variant);
     margin-block-start: var(--space-s);
     text-wrap: pretty;
   }

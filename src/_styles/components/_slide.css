@@ -1,6 +1,6 @@
 .slide {
   align-items: start;
-  background: var(--color-offset);
+  background: var(--color-surface);
   border-radius: var(--border-radius-large);
   display: flex;
   flex-flow: row wrap;
@@ -12,8 +12,8 @@
     border-radius: var(--border-radius-small);
     flex-grow: 1;
     inline-size: 30rem;
-    outline: var(--border-width-thin) solid var(--color-shadow);
-    outline-offset: calc(var(--border-width-thin) * -1);
+    outline: var(--border-width-thick) solid var(--color-shadow);
+    outline-offset: calc(var(--border-width-thick) * -1);
     position: relative;
   }
 

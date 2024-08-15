@@ -1,21 +1,11 @@
 .token {
   --color-token-comment: var(--color-neutral);
-  --color-token-operator: var(--color-neutral-dark);
-  --color-token-function: #900;
-  --color-token-keyword: #09c;
-  --color-token-selector: #009;
-  --color-token-string: #c06;
-  --color-token-variable: #399;
-}
-
-@media (prefers-color-scheme: dark) {
-  .token {
-    --color-token-function: #f99;
-    --color-token-keyword: #0cf;
-    --color-token-selector: #99f;
-    --color-token-string: #f09;
-    --color-token-variable: #9ff;
-  }
+  --color-token-operator: var(--color-on-inverse-surface);
+  --color-token-function: #f99;
+  --color-token-keyword: #0cf;
+  --color-token-selector: #99f;
+  --color-token-string: #f09;
+  --color-token-variable: #9ff;
 }
 
 .token.namespace {

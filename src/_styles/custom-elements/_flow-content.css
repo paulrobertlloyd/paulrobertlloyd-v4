@@ -1,6 +1,5 @@
 flow-content {
   --anchor-decoration: underline;
-  --color-link-underline: var(--color-neutral);
   --flow-font: var(--font-body);
   --flow-inset: var(--font-size-m);
   --flow-space: 1em;
@@ -23,7 +22,7 @@ flow-content {
   }
 
   hr {
-    border-block-end: var(--border-width-thick) solid var(--color-accent);
+    border-block-end: var(--border-width-thick) solid var(--color-primary);
     inline-size: calc(33% - calc(var(--gap) / 2));
     margin-block: calc(var(--flow-space) * 2);
     margin-inline-start: 0;
@@ -31,7 +30,7 @@ flow-content {
 
   caption,
   figcaption {
-    color: var(--color-text-secondary);
+    color: var(--color-on-surface-variant);
     font: var(--font-caption);
   }
 
@@ -54,13 +53,14 @@ flow-content {
   }
 
   blockquote {
-    border-inline-start: var(--border-width-thick) solid var(--color-accent);
+    border-inline-start: var(--border-width-thick) solid var(--color-primary);
     margin-inline-start: 0;
     padding-inline-start: var(--flow-inset, 1em);
   }
 
   pre {
-    background-color: var(--color-offset);
+    background-color: var(--color-inverse-surface);
+    color: var(--color-on-inverse-surface);
     display: block;
     margin-inline-start: calc(var(--gap) * -1);
     max-inline-size: unset;
@@ -76,8 +76,7 @@ flow-content {
 
   tbody th,
   tbody td {
-    border-block-start: var(--border-width-thin) solid
-      var(--color-neutral-light);
+    border-block-start: var(--border-width-thin) solid var(--color-outline);
   }
 
   table {
@@ -87,7 +86,7 @@ flow-content {
   [style^="--chart-width"] {
     background: linear-gradient(
       to right,
-      var(--color-neutral-light) var(--chart-width),
+      var(--color-highlight) var(--chart-width),
       transparent var(--chart-width)
     );
     display: inline-block;
@@ -117,7 +116,7 @@ flow-content {
   }
 
   h4 {
-    color: var(--color-accent-on-background);
+    color: var(--color-primary-on-surface);
     margin-block: calc(var(--flow-space) * 2) calc(var(--flow-space) * -0.5);
   }
 
@@ -142,8 +141,8 @@ flow-content {
     font-weight: 500;
   }
 
-  code {
-    background-color: var(--color-offset);
+  :not(pre) code {
+    background-color: var(--color-surface);
   }
 
   :not(pre) code,
@@ -200,8 +199,9 @@ flow-content {
       overflow: hidden;
 
       &:has(img.u-photo) {
-        background-color: var(--color-background-photo);
+        background-color: var(--color-inverse-surface);
         border-radius: var(--border-radius-large);
+        color: var(--color-on-inverse-surface);
       }
     }
   }
