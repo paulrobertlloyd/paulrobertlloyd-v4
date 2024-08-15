@@ -48,6 +48,7 @@ legend {
 }
 
 :focus-visible {
+  border-radius: var(--border-radius-small);
   outline: var(--border-width-focus) solid var(--color-focus);
   z-index: 1;
 }
