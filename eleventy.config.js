@@ -45,10 +45,7 @@ export default function (eleventy) {
   eleventy.addGlobalData("currentYear", currentYear);
 
   // Passthrough
-  // On production, save media to images folder, which gets proxied via media
-  const mediaDirectory =
-    process.env.NODE_ENV === "production" ? "images" : "media";
-  eleventy.addPassthroughCopy({ "./src/content/media": mediaDirectory });
+  eleventy.addPassthroughCopy({ "./src/content/media": "media" });
   eleventy.addPassthroughCopy({ "./src/app.json": "app.webmanifest" });
   eleventy.addPassthroughCopy("./src/robots.txt");
   eleventy.addPassthroughCopy("./src/assets");

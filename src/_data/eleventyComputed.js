@@ -11,9 +11,7 @@ export default {
   comments_meta: (data) =>
     data.collections[data.id]?.find((item) => item.data?.type === "comments"),
   featured_image: (data) =>
-    data.featured
-      ? `${data.featured.url}?tr=w-1200,h-630`
-      : data.app.url + data.app.icons[1].src,
+    data.featured ? data.featured.url : data.app.url + data.app.icons[1].src,
   featured_image_alt: (data) => (data.featured ? data.featured.alt : "Logo"),
   accent_color: (data) =>
     data.accent_color ||
