@@ -77,7 +77,6 @@
 
   /* Fluid size scale pairs */
   --space-s-m: clamp(0.94rem, calc(0.41rem + 2.13vw), 2rem);
-  --space-s-l: clamp(0.94rem, calc(-0.59rem + 6.13vw), 4rem);
   --space-m-l: clamp(1.88rem, calc(0.81rem + 4.25vw), 4rem);
 
   /* Spacing assignments */
