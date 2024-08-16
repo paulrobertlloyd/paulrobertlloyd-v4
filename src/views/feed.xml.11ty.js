@@ -91,7 +91,7 @@ export default class AtomFeed {
         ...(category?.length > 0 && {
           category: category.map((tag) => ({
             "@term": tag,
-            "@label": tag,
+            "@label": tag.replace("_", " "),
           })),
         }),
       });
