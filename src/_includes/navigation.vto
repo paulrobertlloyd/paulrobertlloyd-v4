@@ -1,0 +1,14 @@
+<ul class="navigation" role="list">
+{{ for item of items }}
+  <li>
+    <a{{ if item.rel }} rel="{{ item.rel }}"{{ /if }} href="{{ item.url }}"{{ if (type.includes(item.post_type) || page.url.includes(item.url)) }} aria-current="true"{{ /if }}>
+      {{- include "icon.vto" {
+        id: item.icon,
+        label: item.icon_label,
+        size: 24
+      } -}}
+      {{- item.label -}}
+    </a>
+  </li>
+{{ /for }}
+</ul>

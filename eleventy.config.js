@@ -3,6 +3,7 @@ import process from "node:process";
 import { EleventyRenderPlugin } from "@11ty/eleventy";
 import eleventySyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import eleventyLightningCss from "@11tyrocks/eleventy-plugin-lightningcss";
+import { VentoPlugin } from "eleventy-plugin-vento";
 import { markdownParser } from "./lib/libraries/markdown.js";
 import * as collections from "./lib/collections/index.js";
 import * as filters from "./lib/filters/index.js";
@@ -54,6 +55,9 @@ export default function (eleventy) {
   eleventy.addPlugin(EleventyRenderPlugin);
   eleventy.addPlugin(eleventySyntaxHighlight);
   eleventy.addPlugin(eleventyLightningCss);
+  eleventy.addPlugin(VentoPlugin, {
+    trimTags: true,
+  });
 
   // Shortcodes
   for (const [name, shortcode] of Object.entries(shortcodes)) {

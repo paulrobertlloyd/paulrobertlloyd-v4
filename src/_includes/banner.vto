@@ -1,0 +1,7 @@
+<header class="banner container">
+  <a class="p-author h-card" rel="author home" href="/">{{ app.name }}</a>
+  <nav aria-label="site">
+    {{ include "navigation.vto" { items: navigation.primary, page, type } }}
+    {{ include "navigation.vto" { items: navigation.secondary, page, type } }}
+  </nav>
+</header>
