@@ -7,7 +7,7 @@ import { markdownParser } from "./lib/libraries/markdown.js";
 import * as collections from "./lib/collections/index.js";
 import * as filters from "./lib/filters/index.js";
 import * as shortcodes from "./lib/shortcodes/index.js";
-import { image } from "./lib/transforms/image.js";
+import * as transforms from "./lib/transforms/index.js";
 import navigation from "./src/_data/navigation.js";
 
 // Can’t use import attributes until supported by Acorn dependency
@@ -62,7 +62,9 @@ export default function (eleventy) {
 
   // Transforms
   if (process.env.NODE_ENV === "production") {
-    eleventy.addTransform("images", image);
+    for (const [name, transform] of Object.entries(transforms)) {
+      eleventy.addTransform(name, transform);
+    }
   }
 
   // Folder data
