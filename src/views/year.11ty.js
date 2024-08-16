@@ -11,10 +11,7 @@ export default class Year {
       eleventyComputed: {
         summary: ({ year }) => year.title,
         pagination: ({ year }) => year,
-        sectionTitle: ({ year }) =>
-          year.pageNumber === 0
-            ? "Posts from this year"
-            : `Posts from this year (page ${year.pageNumber + 1})`,
+        sectionTitle: ({ year }) => `Posts from ${year.label}`,
       },
       sectionTitle: "Browse by year",
       permalink: ({ year }) => year.permalink,
