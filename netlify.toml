@@ -61,10 +61,9 @@ for = "/.well-known/webfinger"
   Content-Type = "application/jrd+json; charset=UTF-8"
 
 [[redirects]]
-from = "/media/*"
-to = "https://ik.imagekit.io/paulrobertlloyd/:splat"
+from = "/images/:width/*"
+to = "/.netlify/images?url=/media/:splat&w=:width"
 status = 200
-force = true
 
 [[redirects]]
 from = "/articles/"
