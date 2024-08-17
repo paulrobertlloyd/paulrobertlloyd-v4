@@ -5,7 +5,6 @@ import { getId } from "../../lib/utils/id.js";
 export default {
   id: (data) => getId(data),
   page_title: (data) => (data.page.url === "/" ? false : data.title),
-  page_image: (data) => data.photo && data.photo[0],
   published: (data) => data?.date || data.page.date,
   properties: ({ collections, eleventy, page, pkg, ...rest }) => rest,
   comments_meta: (data) =>
