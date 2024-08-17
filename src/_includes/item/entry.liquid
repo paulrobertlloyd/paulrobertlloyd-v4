@@ -17,9 +17,7 @@
 {%- endif -%}
 
 {%- if item.data.summary -%}
-  <flow-content>
-    <p class="p-summary">{{ item.data.summary | markdown: "inline" }}</p>
-  </flow-content>
+  <p class="p-summary">{{ item.data.summary | markdown: "inline" }}</p>
 {%- elsif item.content -%}
   <flow-content class="e-content p-name">
     {{ item.content }}

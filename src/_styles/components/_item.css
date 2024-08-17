@@ -1,16 +1,24 @@
 .item {
-  container-type: inline-size;
+  color: var(--color-on-surface-variant);
   display: flex;
   flex: 1;
   flex-direction: column;
+  font: var(--font-body);
+  gap: var(--space-3xs);
+
+  > p {
+    inline-size: var(--measure);
+    text-wrap: balance;
+  }
 
   flow-content {
-    --flow-space: var(--space-2xs);
+    --flow-space: var(--space-s);
 
-    color: var(--color-on-surface-variant);
+    color: var(--color-on-surface);
   }
 
   header {
+    color: var(--color-on-surface);
     font: var(--font-subhead);
   }
 

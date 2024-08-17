@@ -25,6 +25,7 @@
   --color-on-surface-variant: var(--color-neutral-dark);
   --color-inverse-surface: var(--color-neutral-darker);
   --color-on-inverse-surface: var(--color-neutral-lighter);
+  --color-on-inverse-surface-bright: white;
   --color-highlight: oklch(from var(--color-primary) l c h / 25%);
   --color-outline: var(--color-neutral-lighter);
   --color-shadow: hsl(from var(--color-neutral-darkest) h s l / 10%);
@@ -69,7 +70,7 @@
    * Fluid size scale
    * @link https://utopia.fyi/space/calculator/?c=400,15,1.2,1200,16,1.25,5,2,&s=0.75|0.5,1.5|2|3|4|6,m-xl|s-l
    */
-  --space-3xs: 0.25em;
+  --space-3xs: 0.1875em;
   --space-2xs: 0.5em;
   --space-xs: clamp(0.69rem, calc(0.66rem + 0.13vw), 0.75rem);
   --space-s: clamp(0.94rem, calc(0.91rem + 0.13vw), 1rem);

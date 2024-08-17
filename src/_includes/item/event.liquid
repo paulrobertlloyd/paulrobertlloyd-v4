@@ -7,14 +7,12 @@
     </h3>
   </header>
 
-  <flow-content class="p-location">
-    <p class="h-card">
+  <p class="p-location h-card">
 {%- if item.data.location.name -%}
-      <span class="p-name">{{ item.data.location.name }}</span>,
+    <span class="p-name">{{ item.data.location.name }}</span>,
 {%- endif %}
-      {% adr item.data %}
-    </p>
-  </flow-content>
+    {% adr item.data %}
+  </p>
 
   <footer>
     {%- datetime item.data -%}

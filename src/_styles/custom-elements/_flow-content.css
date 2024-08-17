@@ -40,6 +40,7 @@ flow-content {
     gap: var(--flow-space) var(--gap);
   }
 
+  blockquote * + *,
   figcaption * + * {
     margin-block-start: calc(var(--flow-space) / 2);
   }
@@ -53,9 +54,18 @@ flow-content {
   }
 
   blockquote {
-    border-inline-start: var(--border-width-thick) solid var(--color-primary);
     margin-inline-start: 0;
     padding-inline-start: var(--flow-inset, 1em);
+    position: relative;
+
+    /* Align border with quote’s baseline */
+    &::before {
+      border-inline-start: var(--border-width-thick) solid var(--color-primary);
+      content: "";
+      inset-block: 0.4em 0.3em;
+      inset-inline-start: 0;
+      position: absolute;
+    }
   }
 
   pre {

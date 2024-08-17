@@ -4,10 +4,12 @@
 
   background: var(--color-surface);
   border-radius: var(--border-radius-large);
+  color: var(--color-on-surface-variant);
   container-type: inline-size;
   display: flex;
   flex: 1;
   flex-direction: column;
+  font: var(--font-body);
   gap: var(--space-3xs);
   margin: calc(var(--card-growth) * -1);
   padding: var(--card-growth);
@@ -27,11 +29,8 @@
     }
   }
 
-  flow-content {
-    color: var(--color-on-surface-variant);
-  }
-
   header {
+    color: var(--color-on-surface);
     font: var(--font-subhead);
   }
 
@@ -103,6 +102,10 @@
 
     footer {
       color: inherit;
+    }
+
+    a:hover {
+      color: var(--color-on-inverse-surface-bright);
     }
   }
 

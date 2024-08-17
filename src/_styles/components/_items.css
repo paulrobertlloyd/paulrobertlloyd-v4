@@ -15,6 +15,7 @@
 }
 
 .items__item {
+  container-type: inline-size;
   display: flex;
 
   img {
