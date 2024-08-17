@@ -9,7 +9,7 @@ layout: default.liquid
   {{ content }}
 </flow-content>
 
-{% render "meta", properties: properties, comments_meta: comments_meta %}
+{% render "meta", properties: properties, commentsMeta: commentsMeta %}
 
 {%- for tag in tags -%}
   {%- assign collection = collections.collection | find: "data.page.fileSlug",tag -%}

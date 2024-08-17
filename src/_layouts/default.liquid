@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{%- if page_title %}{{ page_title }} · {% endif %}{{ app.name }}</title>
+  <title>{%- if pageTitle %}{{ pageTitle }} · {% endif %}{{ app.name }}</title>
 
   <script nonce="bVgyaDV6YU9tdThnZ2wwckZBNnFnc1Z6Wk40SnY2U0pmbjdTUjQ3MVg2RTFCbnEwN3g=">
     if (navigator.serviceWorker) {
@@ -20,14 +20,14 @@
 
   <style>
     :root {
-      --color-accent: {{ accent_color }};
+      --color-accent: {{ color }};
     }
   </style>
 
   <link rel="stylesheet" href="/app.css">
   <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="RSS (Atom) Feed">
   <link rel="alternate" href="/feed.json" type="application/feed+json" title="JSON Feed">
-  <link rel="canonical" href="{{ canonical_url }}">
+  <link rel="canonical" href="{{ canonicalUrl }}">
   <link rel="manifest" href="/app.webmanifest">
   <link rel="icon" href="/favicon.ico" sizes="32x32" type="image/x-icon">
   <link rel="icon" href="{{ app.icons[0].src }}" type="{{ app.icons[0].type }}">
@@ -42,8 +42,8 @@
   <meta property="og:title" content="{{ title }}">
   <meta property="og:description" name="description" content="{{ summary | default: app.description | markdown | strip_html | strip_newlines | strip }}">
   <meta property="og:url" content="{{ page.url | absolute_url: app.url }}">
-  <meta property="og:image" content="{{ featured_image | replace: '/media', '/images/og' | absolute_url: app.url }}">
-  <meta property="og:image:alt" content="{{ featured_image_alt }}">
+  <meta property="og:image" content="{{ featuredImage | replace: '/media', '/images/og' | absolute_url: app.url }}">
+  <meta property="og:image:alt" content="{{ featuredImageAlt }}">
   <meta name="theme-color" content="{{ app.theme_color }}" media="(prefers-color-scheme: light)">
   <meta name="theme-color" content="#26272b" media="(prefers-color-scheme: dark)">
   <meta name="supported-color-schemes" content="light dark">

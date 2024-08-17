@@ -3,39 +3,39 @@ export default {
     {
       label: "Writing",
       url: "/articles/",
-      post_type: "article",
+      postType: "article",
     },
     {
       label: "Speaking",
       url: "/presentations/",
-      post_type: "presentation",
+      postType: "presentation",
     },
     {
       label: "Projects",
       url: "/projects/",
-      post_type: "project",
+      postType: "project",
     },
   ],
   secondary: [
     {
       label: "Notes",
       url: "/notes/",
-      post_type: "note",
+      postType: "note",
     },
     {
       label: "Photos",
       url: "/photos/",
-      post_type: "photo",
+      postType: "photo",
     },
     {
       label: "Travel",
       url: "/travel/",
-      post_type: "itinerary",
+      postType: "itinerary",
     },
     {
       label: "Events",
       url: "/events/",
-      post_type: "event",
+      postType: "event",
     },
   ],
   tertiary: [
@@ -50,17 +50,17 @@ export default {
     {
       label: "Bookmarks",
       url: "/bookmarks/",
-      post_type: "bookmark",
+      postType: "bookmark",
     },
     {
       label: "Jams",
       url: "/jams/",
-      post_type: "jam",
+      postType: "jam",
     },
     {
       url: "https://www.withukraine.org/",
-      icon: "flag_ukraine",
-      icon_label: "With Ukraine",
+      icon: "ukraine",
+      iconLabel: "With Ukraine",
       rel: "external",
     },
   ],

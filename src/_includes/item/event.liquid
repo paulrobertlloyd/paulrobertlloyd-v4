@@ -1,4 +1,4 @@
-<article class="item | h-event" data-type="{{ item.data.type }}" style="--color-accent-item: {{ item.data.accent_color }}">
+<article class="item | h-event" data-type="{{ item.data.type }}" style="--color-accent-item: {{ item.data.color }}">
   <header>
     <h3 class="p-name">
       <a class="u-url" rel="bookmark" href="{{ item.url }}">
@@ -16,6 +16,6 @@
 
   <footer>
     {%- datetime item.data -%}
-    {%- app_icon item.data.icon item.data.icon_label -%}
+    {%- app_icon item.data.icon item.data.iconLabel -%}
   </footer>
 </article>

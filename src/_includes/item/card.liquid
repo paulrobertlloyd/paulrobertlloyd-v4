@@ -1,4 +1,4 @@
-<article class="card |{% for root in item.data.vocabulary %} h-{{ root }}{% endfor %}" id="{{ item.data.id }}" data-type="{{ item.data.type }}" style="--color-accent-item: {{ item.data.accent_color }}">
+<article class="card |{% for root in item.data.vocabulary %} h-{{ root }}{% endfor %}" id="{{ item.data.id }}" data-type="{{ item.data.type }}" style="--color-accent-item: {{ item.data.color }}">
 {%- if item.data.featured -%}
   <img class="u-featured" src="{{ item.data.featured.url }}" alt="{{ item.data.featured.alt }}" data-responsiver="card">
 {%- elsif item.data.photo -%}
@@ -28,7 +28,7 @@
       {%- datetime item.data true -%}
     </a>
 {%- endif -%}
-    {%- app_icon item.data.icon item.data.icon_label -%}
+    {%- app_icon item.data.icon item.data.iconLabel -%}
   </footer>
 {%- endif -%}
 </article>

@@ -10,7 +10,7 @@ export default class Search {
 
   render({ collections }) {
     const search = collections.publicVisibility.map((item) => ({
-      title: item.data.page_title,
+      title: item.data.pageTitle,
       content: tokenize(item.content),
       url: item.url,
     }));

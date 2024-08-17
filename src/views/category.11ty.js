@@ -9,7 +9,7 @@ export default class Category {
         alias: "tag",
       },
       eleventyComputed: {
-        page_title: ({ tag }) => `Posts tagged ‘${tag.tag}’ · Categories`,
+        pageTitle: ({ tag }) => `Posts tagged ‘${tag.tag}’ · Categories`,
         pagination: ({ tag }) => tag,
         sectionTitle: ({ tag }) =>
           tag.pageNumber === 0

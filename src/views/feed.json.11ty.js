@@ -34,16 +34,16 @@ export default class JsonFeed {
 
     for await (const item of items) {
       const {
-        bookmark_of,
+        bookmarkOf,
         category,
-        in_reply_to,
+        inReplyTo,
         photo,
         published,
         summary,
         title,
         url,
       } = item.data;
-      const external_url = bookmark_of || in_reply_to || url;
+      const external_url = bookmarkOf || inReplyTo || url;
       const content_html = await this.template_content_to_feed_html(item);
 
       feed.items.push({

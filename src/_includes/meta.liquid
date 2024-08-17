@@ -1,8 +1,8 @@
-{%- if properties.in_reply_to or properties.category or properties.syndication or properties.canonical or comments_meta -%}
+{%- if properties.inReplyTo or properties.category or properties.syndication or properties.canonical or commentsMeta -%}
 <dl class="meta">
-{%- if properties.in_reply_to -%}
+{%- if properties.inReplyTo -%}
   <dt>In reply to a post on</dt>
-  <dd>{% external_url properties.in_reply_to "u-in-reply-to" %}</dd>
+  <dd>{% external_url properties.inReplyTo "u-in-reply-to" %}</dd>
 {%- endif -%}
 {%- if properties.category -%}
   <dt>Categories</dt>
@@ -22,9 +22,9 @@
   <dt>Original publication</dt>
   <dd>{% canonical properties.canonical %}</dd>
 {%- endif -%}
-{%- if comments_meta -%}
+{%- if commentsMeta -%}
   <dt>Comments</dt>
-  <dd><a href="{{ comments_meta.url }}">{{ comments_meta.data.properties.summary }}</a></dd>
+  <dd><a href="{{ commentsMeta.url }}">{{ commentsMeta.data.properties.summary }}</a></dd>
 {%- endif -%}
 </dl>
 {%- endif -%}

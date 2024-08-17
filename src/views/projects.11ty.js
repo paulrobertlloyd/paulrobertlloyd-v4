@@ -9,7 +9,7 @@ export default class Projects {
         data: "collections.collection",
         size: 3,
         before: (items) =>
-          items.filter((item) => item.data.post_type === "project"),
+          items.filter((item) => item.data.postType === "project"),
       },
       featured: {
         collection: "project",
