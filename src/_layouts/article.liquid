@@ -1,15 +1,26 @@
 ---
 layout: default.liquid
 ---
-{% render "footer", properties: properties %}
+{% render "footer",
+  title: title,
+  published: published,
+  location: location
+%}
 
-{% render "header", properties: properties %}
+{% render "header",
+  title: title
+%}
 
 <flow-content class="e-content">
   {{ content }}
 </flow-content>
 
-{% render "meta", properties: properties, commentsMeta: commentsMeta %}
+{% render "meta",
+  canonical: canonical,
+  category: category,
+  syndication: syndication,
+  commentsMeta: commentsMeta
+%}
 
 {%- for tag in tags -%}
   {%- assign collection = collections.collection | find: "data.page.fileSlug",tag -%}

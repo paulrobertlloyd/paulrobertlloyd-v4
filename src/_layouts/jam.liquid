@@ -1,13 +1,20 @@
 ---
 layout: default.liquid
 ---
-{% render "footer", properties: properties %}
+{% render "footer",
+  published: published
+%}
 
-{% render "header", properties: properties %}
+{% render "header",
+  title: title
+%}
 
 <flow-content class="e-content" data-font="lede">
   {{ content }}
   {%- render "jam" with jamOf -%}
 </flow-content>
 
-{% render "meta", properties: properties %}
+{% render "meta",
+  category: category,
+  syndication: syndication
+%}

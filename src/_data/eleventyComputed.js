@@ -6,7 +6,6 @@ export default {
   id: (data) => getId(data),
   pageTitle: (data) => (data.page.url === "/" ? false : data.title),
   published: (data) => data?.date || data.page.date,
-  properties: ({ collections, eleventy, page, pkg, ...rest }) => rest,
   commentsMeta: (data) =>
     data.collections[data.id]?.find((item) => item.data?.type === "comments"),
   featuredImage: (data) =>

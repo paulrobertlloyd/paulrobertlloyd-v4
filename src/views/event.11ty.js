@@ -10,8 +10,13 @@ export default class Event {
       },
       permalink: ({ event }) => event.permalink,
       eleventyComputed: {
+        title: ({ event }) => event.data.title,
+        start: ({ event }) => event.data.start,
+        end: ({ event }) => event.data.end,
+        location: ({ event }) => event.data.location,
+        summary: ({ event }) => event.data.summary,
+        uid: ({ event }) => event.data.uid,
         color: ({ event }) => event.data.color,
-        properties: ({ event }) => event.data,
       },
     };
   }

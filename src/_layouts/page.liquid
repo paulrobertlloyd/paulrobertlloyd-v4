@@ -1,7 +1,10 @@
 ---
 layout: default.liquid
 ---
-{% render "header", properties: properties %}
+{% render "header",
+  title: title,
+  summary: summary
+%}
 
 <flow-content class="e-content">
   {{ content }}

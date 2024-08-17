@@ -1,10 +1,16 @@
 ---
 layout: default.liquid
 ---
-{% render "footer", properties: properties %}
+{% render "footer",
+  published: published
+%}
 
 <flow-content class="e-content p-name" data-font="lede">
   {{ content }}
 </flow-content>
 
-{% render "meta", properties: properties %}
+{% render "meta",
+  inReplyTo: inReplyTo,
+  category: category,
+  syndication: syndication
+%}

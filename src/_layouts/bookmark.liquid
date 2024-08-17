@@ -1,10 +1,20 @@
 ---
 layout: default.liquid
 ---
-{% render "footer", properties: properties %}
+{% render "footer",
+  title: title,
+  published: published
+%}
 
-{% render "header", properties: properties %}
+{% render "header",
+  title: title,
+  bookmarkOf: bookmarkOf
+%}
 
 <flow-content class="e-content">{{ content }}</flow-content>
 
-{% render "meta", properties: properties, commentsMeta: commentsMeta %}
+{% render "meta",
+  category: category,
+  syndication: syndication,
+  commentsMeta: commentsMeta
+%}

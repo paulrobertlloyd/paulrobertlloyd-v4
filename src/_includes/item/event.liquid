@@ -15,7 +15,7 @@
   </p>
 
   <footer>
-    {%- datetime item.data -%}
+    {%- duration item.data.start item.data.end -%}
     {%- app_icon item.data.icon item.data.iconLabel -%}
   </footer>
 </article>

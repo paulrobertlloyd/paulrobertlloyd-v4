@@ -1,9 +1,17 @@
 ---
 layout: default.liquid
 ---
-{% render "footer", properties: properties %}
+{% render "footer",
+  start: start,
+  end: end,
+  location: location
+%}
 
-{% render "header", properties: properties %}
+{% render "header",
+  title: title,
+  summary: summary,
+  uid: uid
+%}
 
 <flow-content class="e-content">
   {{ content }}

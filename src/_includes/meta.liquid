@@ -1,30 +1,30 @@
-{%- if properties.inReplyTo or properties.category or properties.syndication or properties.canonical or commentsMeta -%}
+{%- if inReplyTo or category or syndication or canonical or commentsMeta -%}
 <dl class="meta">
-{%- if properties.inReplyTo -%}
+{%- if inReplyTo -%}
   <dt>In reply to a post on</dt>
-  <dd>{% external_url properties.inReplyTo "u-in-reply-to" %}</dd>
+  <dd>{% external_url inReplyTo "u-in-reply-to" %}</dd>
 {%- endif -%}
-{%- if properties.category -%}
+{%- if category -%}
   <dt>Categories</dt>
   <dd>
-    {%- render "categories" with properties.category -%}
+    {%- render "categories" with category -%}
   </dd>
 {%- endif -%}
-{%- if properties.syndication -%}
+{%- if syndication -%}
   <dt>Also on</dt>
   <dd>
-    {%- for url in properties.syndication %}
+    {%- for url in syndication %}
       {% syndication url %}{% unless forloop.last %},{% endunless %}
     {%- endfor -%}
   </dd>
 {%- endif -%}
-{%- if properties.canonical -%}
+{%- if canonical -%}
   <dt>Original publication</dt>
-  <dd>{% canonical properties.canonical %}</dd>
+  <dd>{% canonical canonical %}</dd>
 {%- endif -%}
 {%- if commentsMeta -%}
   <dt>Comments</dt>
-  <dd><a href="{{ commentsMeta.url }}">{{ commentsMeta.data.properties.summary }}</a></dd>
+  <dd><a href="{{ commentsMeta.url }}">{{ commentsMeta.data.summary }}</a></dd>
 {%- endif -%}
 </dl>
 {%- endif -%}

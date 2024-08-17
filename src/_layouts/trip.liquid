@@ -1,9 +1,15 @@
 ---
 layout: default.liquid
 ---
-{% render "footer", properties: properties %}
+{% render "footer",
+  title: title,
+  published: published
+%}
 
-{% render "header", properties: properties %}
+{% render "header",
+  title: title,
+  summary: summary
+%}
 
 <flow-content class="e-content">
   {% assign related = collections.itinerary | find: "data.id", tags[0] -%}
