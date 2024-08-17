@@ -71,6 +71,15 @@ to = "/.netlify/images?url=/media/:splat&w=:width"
 status = 200
 
 [[redirects]]
+from = "/categories/:tag/"
+to = "/categories/:tag/page/:p.html"
+status = 200
+force = true
+
+  [redirects.query]
+  page = ":p"
+
+[[redirects]]
 from = "/articles/"
 to = "/articles/page/:p.html"
 status = 200
