@@ -1,22 +1,20 @@
-<search>
-  <site-search index="/archives/search.json">
-    <form class="form" action="https://duckduckgo.com" method="get">
-      <div class="form__field">
-        <label class="form__label" id="q-label" for="q">Search this site</label>
-        <div class="form__input-wrapper">
-          <input class="form__input" id="q" name="q" type="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" title="Enter search keywords" placeholder="e.g. Brasilia, Design, Olympics…">
-          <button class="form__button" type="submit">Search</button>
-        </div>
+<site-search index="/archives/search.json">
+  <form class="form" action="https://duckduckgo.com" method="get" role="search">
+    <div class="form__field">
+      <label class="form__label" id="q-label" for="q">Search this site</label>
+      <div class="form__input-wrapper">
+        <input class="form__input" id="q" name="q" type="search" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" title="Enter search keywords" placeholder="e.g. Brasilia, Design, Olympics…">
+        <button class="form__button" type="submit">Search</button>
       </div>
-      <input type="hidden" name="sites" value="{{ app.url }}">
-      <input type="hidden" name="kl" value="uk-en">
-    </form>
-    <template>
-      <div role="combobox" aria-expanded="false" aria-owns="search-listbox" aria-haspopup="listbox">
-        <visually-hidden role="status" aria-live="polite">No search results.</visually-hidden>
-        <ul class="form__listbox" role="listbox" aria-labelledby="q-label"></ul>
-      </div>
-    </template>
-  </site-search>
-</search>
+    </div>
+    <input type="hidden" name="sites" value="{{ app.url }}">
+    <input type="hidden" name="kl" value="uk-en">
+  </form>
+  <template>
+    <div role="combobox" aria-expanded="false" aria-owns="search-listbox" aria-haspopup="listbox">
+      <visually-hidden role="status" aria-live="polite">No search results.</visually-hidden>
+      <ul class="form__listbox" role="listbox" aria-labelledby="q-label"></ul>
+    </div>
+  </template>
+</site-search>
 <script src="/assets/scripts/search.js" type="module"></script>
