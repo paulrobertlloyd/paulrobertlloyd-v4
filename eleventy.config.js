@@ -3,11 +3,11 @@ import process from "node:process";
 import { EleventyRenderPlugin } from "@11ty/eleventy";
 import eleventySyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import eleventyLightningCss from "@11tyrocks/eleventy-plugin-lightningcss";
-import { markdownParser } from "./lib/libraries/markdown.js";
 import * as collections from "./lib/collections/index.js";
 import * as filters from "./lib/filters/index.js";
 import * as shortcodes from "./lib/shortcodes/index.js";
 import * as transforms from "./lib/transforms/index.js";
+import { markdownParser } from "./lib/markdown.js";
 import navigation from "./src/_data/navigation.js";
 
 // Can’t use import attributes until supported by Acorn dependency
