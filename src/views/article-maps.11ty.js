@@ -1,5 +1,3 @@
-import { route_map } from "../../lib/utils/route-map.js";
-
 export default class ArticleMaps {
   data() {
     return {
@@ -14,6 +12,6 @@ export default class ArticleMaps {
   }
 
   render({ article }) {
-    return route_map(article.data.geojson, this.permalink(article.data));
+    return this.route_map(article.data.geojson, this.permalink(article.data));
   }
 }

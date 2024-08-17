@@ -58,7 +58,7 @@ export default class AtomFeed {
         url,
       } = item.data;
       const external_url = bookmarkOf || inReplyTo || url;
-      const html = await this.template_content_to_feed_html(item);
+      const html = await this.feed_html(item);
 
       feed.entry.push({
         id: this.absolute_url(item.url, app.url),

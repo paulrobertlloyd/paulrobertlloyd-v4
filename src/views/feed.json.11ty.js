@@ -44,7 +44,7 @@ export default class JsonFeed {
         url,
       } = item.data;
       const external_url = bookmarkOf || inReplyTo || url;
-      const content_html = await this.template_content_to_feed_html(item);
+      const content_html = await this.feed_html(item);
 
       feed.items.push({
         id: this.absolute_url(item.url, app.url),
