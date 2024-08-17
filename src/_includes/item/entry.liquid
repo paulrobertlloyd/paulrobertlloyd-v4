@@ -1,3 +1,4 @@
+{%- assign include_permalink = item.data.bookmark_of or not item.data.title -%}
 <article class="item | h-entry" data-type="{{ item.data.type }}" style="--color-accent-item: {{ item.data.accent_color }}; --columns: 6">
 {%- if item.data.title -%}
   <header>
@@ -27,9 +28,13 @@
 
 {%- if item.data.date or item.data.start -%}
   <footer>
+    {%- if include_permalink -%}
     <a class="u-url" rel="bookmark" href="{{ item.url }}">
       {%- datetime item.data item.data.title -%}
     </a>
+    {%- else -%}
+      {%- datetime item.data item.data.title -%}
+    {%- endif -%}
     {%- app_icon item.data.icon item.data.icon_label -%}
   </footer>
 {%- endif -%}
