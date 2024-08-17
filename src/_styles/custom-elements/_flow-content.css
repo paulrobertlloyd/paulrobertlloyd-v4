@@ -121,9 +121,8 @@ flow-content {
   }
 
   p > img:only-of-type:first-of-type {
-    float: right;
     float: inline-end;
-    inline-size: clamp(50%, 9rem, 40vw);
+    inline-size: clamp(20%, 12rem, 50%);
     margin-block-end: var(--flow-space);
     margin-inline-start: var(--space-m);
   }
