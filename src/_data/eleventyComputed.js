@@ -1,6 +1,6 @@
 /*eslint no-unused-vars: ["error", { "ignoreRestSiblings": true }]*/
-import { getColor } from "../../lib/utils/color.js";
-import { getId } from "../../lib/utils/id.js";
+import { getColor } from "../../lib/utils/string.js";
+import { getId } from "../../lib/utils/page.js";
 
 export default {
   id: (data) => getId(data),

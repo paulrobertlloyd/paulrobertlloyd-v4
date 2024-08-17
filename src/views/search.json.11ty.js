@@ -1,4 +1,4 @@
-import { tokenize } from "../../lib/utils/tokenize.js";
+import { getTokens } from "../../lib/utils/string.js";
 
 export default class Search {
   data() {
@@ -11,7 +11,7 @@ export default class Search {
   render({ collections }) {
     const search = collections.publicVisibility.map((item) => ({
       title: item.data.pageTitle,
-      content: tokenize(item.content),
+      content: getTokens(item.content),
       url: item.url,
     }));
 

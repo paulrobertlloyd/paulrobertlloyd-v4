@@ -1,4 +1,4 @@
-import { range } from "../../lib/utils/range.js";
+import { range } from "../../lib/utils/generator.js";
 
 export default class Redirects {
   data() {

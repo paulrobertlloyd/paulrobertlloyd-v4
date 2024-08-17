@@ -27,6 +27,8 @@
     "lint:styles:fix": "stylelint 'src/**/*.css'",
     "lint": "npm run lint:format && npm run lint:scripts && npm run lint:styles",
     "lint:fix": "npm run lint:format:fix && npm run lint:scripts:fix && npm run lint:styles:fix",
+    "test": "node --test --test-reporter=spec --env-file .env",
+    "test:coverage": "node --test --experimental-test-coverage",
     "debug": "DEBUG=* npx eleventy"
   },
   "dependencies": {
