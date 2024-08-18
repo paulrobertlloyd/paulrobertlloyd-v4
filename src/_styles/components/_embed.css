@@ -1,7 +1,6 @@
 .embed {
   a {
     --anchor-decoration: none;
-    --flow-space: 0;
 
     align-items: center;
     background-color: var(--color-surface);
