@@ -8,7 +8,6 @@ iframe,
 img {
   border: 0;
   display: block;
-  page-break-inside: avoid;
 }
 
 iframe {

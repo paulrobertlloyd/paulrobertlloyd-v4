@@ -25,7 +25,6 @@
   @media (--from-medium-viewport) {
     float: inline-end;
     inline-size: 33%;
-    margin-block: var(--flow-space) !important;
     margin-inline: var(--gap) calc(var(--gap) * -1);
   }
 }
