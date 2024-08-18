@@ -11,7 +11,7 @@
 {%- if item.data.location.name -%}
     <span class="p-name">{{ item.data.location.name }}</span>,
 {%- endif %}
-    {% adr item.data %}
+    {% adr item.data.location %}
   </p>
 
   <footer>
