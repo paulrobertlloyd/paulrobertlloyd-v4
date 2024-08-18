@@ -29,8 +29,6 @@
   --color-highlight: oklch(from var(--color-primary) l c h / 25%);
   --color-outline: var(--color-neutral-lighter);
   --color-shadow: hsl(from var(--color-neutral-darkest) h s l / 10%);
-  --color-link: var(--color-primary-on-surface);
-  --color-link-underline: var(--color-neutral-light);
 
   /* Typography */
   --font-family-sans: "Söhne", sans-serif;
@@ -123,7 +121,6 @@
   --color-primary-on-surface: oklch(
     from var(--color-primary) calc(l - 0.3) c h
   );
-  --color-link: var(--color-primary-on-surface);
 
   @media (prefers-color-scheme: dark) {
     --color-primary-on-surface: oklch(

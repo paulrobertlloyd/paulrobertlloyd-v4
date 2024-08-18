@@ -1,5 +1,4 @@
 .card {
-  --anchor-decoration: none;
   --card-growth: var(--space-s);
 
   background: var(--color-surface);

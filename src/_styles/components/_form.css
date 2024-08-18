@@ -14,7 +14,7 @@
   padding: var(--space-xs) var(--space-s);
 
   &:hover {
-    background-color: var(--color-link);
+    background-color: var(--color-primary-on-surface);
   }
 }
 
@@ -55,7 +55,7 @@
 
   li {
     --anchor-decoration: none;
-    --color-link: currentcolor;
+    --anchor-color-hover: currentcolor;
 
     align-items: baseline;
     display: flex;

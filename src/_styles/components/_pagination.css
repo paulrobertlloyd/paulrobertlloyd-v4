@@ -1,6 +1,4 @@
 .pagination {
-  --anchor-decoration: none;
-
   display: flex;
   flex-wrap: wrap;
   font: var(--font-body);

@@ -1,6 +1,5 @@
 .skip-link {
   --anchor-decoration: underline;
-  --color-link-underline: currentcolor;
 
   background-color: var(--color-focus);
   color: var(--color-on-focus);
