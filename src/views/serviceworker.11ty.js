@@ -17,13 +17,7 @@ export default class ServiceWorker {
   }
 
   async render({ collections, navigation }) {
-    const offlinePages = [
-      "/app.webmanifest",
-      "/assets/fonts/soehne-buch.woff2",
-      "/assets/fonts/soehne-buch-kursiv.woff2",
-      "/assets/fonts/soehne-kraftig.woff2",
-      "/assets/fonts/soehne-mono-buch.woff2",
-    ];
+    const offlinePages = [];
 
     for (const item of navigation.primary) {
       offlinePages.push(item.url);
