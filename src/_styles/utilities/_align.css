@@ -16,7 +16,7 @@
 
   @media (--from-medium-viewport) {
     display: grid;
-    grid-template-columns: [--bleed-start] var(--flow-measure) [--measure] 1fr [--bleed-end];
+    grid-template-columns: [--bleed-start] auto [--measure] 1fr [--bleed-end];
   }
 }
 
