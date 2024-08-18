@@ -7,7 +7,7 @@
   gap: var(--space-3xs);
 
   > p {
-    inline-size: var(--measure);
+    max-inline-size: var(--measure);
     text-wrap: balance;
   }
 
