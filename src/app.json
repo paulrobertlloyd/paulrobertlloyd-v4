@@ -33,6 +33,6 @@
   "display": "standalone",
   "start_url": "/?homescreen",
   "id": "/?homescreen",
-  "theme_color": "#f4f4f5",
+  "theme_color": "#f1f1f6",
   "background_color": "#fff"
 }
