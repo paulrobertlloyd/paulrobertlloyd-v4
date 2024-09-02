@@ -1,7 +1,7 @@
 .navigation {
   display: flex;
   flex-wrap: wrap;
-  margin-inline-start: calc(var(--space-xs) * -1);
+  margin-inline-start: calc(var(--space-inset) * -1);
 
   @media print {
     display: none;
@@ -9,8 +9,7 @@
 
   a {
     display: inline-flex;
-    gap: var(--space-2xs);
-    padding-block: var(--space-2xs);
-    padding-inline: var(--space-xs);
+    gap: var(--space-inline);
+    padding: var(--space-inset);
   }
 }

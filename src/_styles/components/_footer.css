@@ -15,6 +15,6 @@
 
   dd:not(:last-of-type)::after {
     content: "·";
-    padding-inline: var(--space-xs);
+    padding-inline: var(--space-inline);
   }
 }

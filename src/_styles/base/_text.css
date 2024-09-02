@@ -35,7 +35,7 @@ a {
     background-color: var(--color-surface);
     border-radius: var(--border-radius-large);
     display: inline-flex;
-    padding: 0.15em var(--space-xs) 0.35em;
+    padding: 0.15em 0.6777em 0.35em;
     white-space: nowrap;
   }
 }

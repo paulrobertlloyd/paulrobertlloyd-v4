@@ -4,16 +4,16 @@
   border-radius: var(--border-radius-large);
   display: flex;
   flex-flow: row wrap;
-  margin-inline: calc(var(--space-s) * -1);
+  margin-inline: calc(var(--space-inset) * -1);
   max-inline-size: unset;
-  padding: var(--space-s);
+  padding: var(--space-inset);
 
   img {
     border-radius: var(--border-radius-small);
     flex-grow: 1;
     inline-size: 30rem;
-    outline: var(--border-width-thick) solid var(--color-shadow);
-    outline-offset: calc(var(--border-width-thick) * -1);
+    outline: var(--border-width-thin) solid var(--color-shadow);
+    outline-offset: calc(var(--border-width-thin) * -1);
     position: relative;
   }
 

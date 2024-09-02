@@ -1,5 +1,7 @@
 .meta {
   color: var(--color-on-surface-variant);
+  display: grid;
   font: var(--font-caption);
+  gap: var(--space-stack);
   max-inline-size: var(--measure);
 }

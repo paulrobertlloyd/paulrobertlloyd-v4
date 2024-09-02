@@ -1,15 +1,17 @@
 .card {
-  --card-growth: var(--space-s);
+  --card-growth: var(--space-inset);
 
   background: var(--color-surface);
-  border-radius: var(--border-radius-large);
+  border-radius: calc(
+    var(--border-radius-small) + calc(var(--card-growth) / 2)
+  );
   color: var(--color-on-surface-variant);
   container-type: inline-size;
   display: flex;
   flex: 1;
   flex-direction: column;
   font: var(--font-body);
-  gap: var(--space-3xs);
+  gap: var(--space-stack);
   margin: calc(var(--card-growth) * -1);
   padding: var(--card-growth);
   position: relative;
@@ -17,14 +19,13 @@
 
   &:hover {
     background-color: var(--color-surface-bright);
-    border-radius: calc(var(--border-radius-large) * 1.5);
     box-shadow:
       0 0 1vw var(--color-shadow),
       0 0 4vw var(--color-shadow);
     z-index: 1;
 
     @media (--from-small-viewport) {
-      --card-growth: calc(var(--space-s) * 1.5);
+      --card-growth: calc(var(--space-inset) * 1.5);
     }
   }
 
@@ -43,7 +44,7 @@
   }
 
   svg {
-    margin-inline: var(--space-2xs);
+    margin-inline: var(--space-inline);
   }
 
   a {
@@ -69,7 +70,6 @@
   img {
     aspect-ratio: 1;
     border-radius: var(--border-radius-small);
-    margin-block-end: var(--space-3xs);
     object-fit: cover;
   }
 

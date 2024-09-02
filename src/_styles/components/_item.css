@@ -4,7 +4,6 @@
   flex: 1;
   flex-direction: column;
   font: var(--font-body);
-  gap: var(--space-3xs);
 
   > p {
     max-inline-size: var(--measure);
@@ -12,7 +11,7 @@
   }
 
   flow-content {
-    --flow-space: var(--space-s);
+    --flow-space: var(--space-stack);
 
     color: var(--color-on-surface);
   }
@@ -31,13 +30,13 @@
   }
 
   svg {
-    margin-inline: var(--space-2xs);
+    margin-inline: var(--space-inline);
   }
 }
 
 /* Comment item adaptions */
 .item--comment {
-  padding-inline-start: calc(var(--avatar-size) + var(--space-s));
+  padding-inline-start: calc(var(--avatar-size) + var(--space-inset));
   position: relative;
 
   .avatar {

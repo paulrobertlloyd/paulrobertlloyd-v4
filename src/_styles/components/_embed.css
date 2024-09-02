@@ -32,7 +32,6 @@
     display: block;
     font-size: var(--font-size-s);
     font-weight: normal;
-    margin-block-start: var(--space-2xs);
     text-decoration: underline;
     text-decoration-thickness: 1px;
     text-underline-offset: 1.5px;

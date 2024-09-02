@@ -40,10 +40,8 @@
   --text-spacing: 0 0.25em 0.125em 0.25em;
   --word-spacing: 0;
 
-  /*
-   * Fluid type scale
-   */
-  --font-size-base: 1.125rem; /* 18px */
+  /* Fluid type scale */
+  --font-size-base: 1.125rem; /* 18 */
   --font-size-s: clamp(1.125rem, 0.5vi + 1rem, 1.3125rem); /* 18 - 21 */
   --font-size-m: clamp(1.125rem, 0.5vi + 1rem, 1.5rem); /* 18 - 24 */
   --font-size-l: clamp(1.5rem, 1vi + 1.25rem, 1.6875rem); /* 24 - 27 */
@@ -64,29 +62,25 @@
   --font-caption: normal var(--font-size-s) / var(--line-height-loose)
     var(--font-family-sans);
 
-  /*
-   * Fluid size scale
-   * @link https://utopia.fyi/space/calculator/?c=400,15,1.2,1200,16,1.25,5,2,&s=0.75|0.5,1.5|2|3|4|6,m-xl|s-l
-   */
-  --space-3xs: 0.1875em;
-  --space-2xs: 0.5em;
-  --space-xs: clamp(0.69rem, calc(0.66rem + 0.13vw), 0.75rem);
-  --space-s: clamp(0.94rem, calc(0.91rem + 0.13vw), 1rem);
-  --space-m: clamp(1.88rem, calc(1.81rem + 0.25vw), 2rem);
-
-  /* Fluid size scale pairs */
-  --space-s-m: clamp(0.94rem, calc(0.41rem + 2.13vw), 2rem);
-  --space-m-l: clamp(1.88rem, calc(0.81rem + 4.25vw), 4rem);
+  /* Fluid space scale */
+  --space-xs: 0.375rem; /* 6 */
+  --space-s: clamp(0.375rem, 0.5vi + 0.25rem, 0.5625rem); /* 6 - 9 */
+  --space-m: clamp(0.5rem, 0.4vi + 0.4rem, 0.9375rem); /* 8 - 15 */
+  --space-l: clamp(1.5rem, 1.2vi + 1.2rem, 2.8125rem); /* 24 - 45 */
+  --space-xl: clamp(2.25rem, 0.9vi + 3rem, 4.5rem); /* 36 - 72 */
 
   /* Spacing assignments */
-  --gap: var(--space-s-m);
-  --avatar-size: clamp(3.75rem, calc(3.63rem + 0.5vw), 4rem);
+  --avatar-size: var(--space-xl);
+  --space-gutter: var(--space-l);
+  --space-inset: var(--space-m);
+  --space-inline: var(--space-s);
+  --space-stack: var(--space-xs);
 
   /* Borders */
   --border-width-focus: 4px;
   --border-width-thin: 1px;
   --border-width-thick: 3.5px;
-  --border-radius-large: 1rem;
+  --border-radius-large: var(--space-m);
   --border-radius-small: calc(var(--border-radius-large) / 2);
   --border-rule-thin: var(--border-width-thin) solid var(--color-outline);
   --border-rule-thick: var(--border-width-thick) solid var(--color-outline);

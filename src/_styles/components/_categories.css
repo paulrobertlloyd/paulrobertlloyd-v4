@@ -2,10 +2,9 @@
   display: flex;
   flex-wrap: wrap;
   font-size: var(--font-size-base);
-  gap: var(--space-2xs);
-  margin-block: var(--space-3xs);
+  gap: var(--space-inline);
 
   li {
-    margin-inline: calc(var(--space-2xs) * -1) var(--space-xs);
+    margin-inline: calc(var(--space-inline) * -1) var(--space-inline);
   }
 }

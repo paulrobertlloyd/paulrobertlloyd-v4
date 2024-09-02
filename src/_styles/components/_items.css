@@ -1,12 +1,12 @@
 .items {
   display: grid;
-  gap: var(--space-m-l);
+  gap: calc(var(--space-gutter) * 1.5);
   grid-template-columns: repeat(auto-fit, minmax(var(--grid-size), 1fr));
 
   &:has(.card) {
     --grid-size: clamp(1rem, 100%, 18rem);
 
-    gap: calc(var(--gap) + var(--space-s));
+    gap: var(--space-gutter);
   }
 
   &:has(.card[data-type="archive"]) {
@@ -27,12 +27,11 @@
 @media (--upto-medium-viewport) {
   .items[data-scrollable="true"] {
     display: flex;
-    gap: calc(var(--gap) * 3);
     inline-size: 100vw;
-    margin: calc(var(--gap) * -1);
+    margin: calc(var(--space-gutter) * -1);
     -webkit-overflow-scrolling: touch;
     overflow-x: scroll;
-    padding: calc(var(--gap) * 2);
+    padding: var(--space-gutter);
 
     .items__item {
       flex: 1 0 75vw;

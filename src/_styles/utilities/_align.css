@@ -1,6 +1,6 @@
 /* Bleed alignment */
 .align-bleed {
-  margin-inline: calc(var(--gap) * -1);
+  margin-inline: calc(var(--space-gutter) * -1);
   max-inline-size: unset;
 
   & > a:first-child,
@@ -11,7 +11,7 @@
   }
 
   & figcaption {
-    padding-inline: var(--gap);
+    padding-inline: var(--space-gutter);
   }
 
   @media (--from-medium-viewport) {
@@ -25,6 +25,6 @@
   @media (--from-medium-viewport) {
     float: inline-end;
     inline-size: 33%;
-    margin-inline: var(--gap) calc(var(--gap) * -1);
+    margin-inline: var(--space-gutter) calc(var(--space-gutter) * -1);
   }
 }

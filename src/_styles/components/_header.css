@@ -3,17 +3,12 @@
 
   flow-content {
     color: var(--color-on-surface-variant);
-    margin-block-start: var(--space-s);
+    margin-block-start: var(--space-stack);
     text-wrap: pretty;
   }
 
   h1 {
     display: inline-flex;
     font: var(--font-title);
-    gap: var(--space-2xs);
   }
-}
-
-.footer + .header {
-  margin-block-start: 0;
 }

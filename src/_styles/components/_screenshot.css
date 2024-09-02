@@ -3,7 +3,7 @@ img[src*="#screenshot"] {
   border-image-slice: 5 20 20 5;
   border-image-source: url("/assets/vectors/shadow.svg");
   border-style: solid;
-  border-width: calc(var(--gap) * 1.5) var(--gap);
+  border-width: var(--space-gutter);
 
   @media (prefers-color-scheme: dark) {
     filter: initial;

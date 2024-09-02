@@ -4,7 +4,7 @@
   background-color: var(--color-focus);
   color: var(--color-on-focus);
   outline-offset: 0;
-  padding: var(--space-s);
+  padding: var(--space-inset);
   position: static;
   width: 100%;
 

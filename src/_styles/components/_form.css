@@ -1,7 +1,7 @@
 .form {
   display: grid;
   font: var(--font-body);
-  gap: var(--gap);
+  gap: calc(var(--space-gutter) - var(--space-inset));
 }
 
 .form__button {
@@ -10,8 +10,8 @@
   border-radius: var(--border-radius-large);
   color: var(--color-surface-bright);
   font-weight: 500;
-  margin-inline: calc(var(--space-xs) * -1);
-  padding: var(--space-xs) var(--space-s);
+  margin-inline: calc(var(--space-inset) * -1);
+  padding: var(--space-inset);
 
   &:hover {
     background-color: var(--color-primary-on-surface);
@@ -22,9 +22,9 @@
   background-color: var(--color-surface-bright);
   border: var(--border-width-thick) solid var(--color-outline);
   border-radius: var(--border-radius-large);
-  inline-size: calc(100% + var(--space-xs) + var(--space-xs));
-  margin-inline: calc(var(--space-xs) * -1);
-  padding: var(--space-2xs);
+  inline-size: calc(100% + var(--space-inset) + var(--space-inset));
+  margin-inline: calc(var(--space-inset) * -1);
+  padding: var(--space-inset);
 
   &:focus {
     border-color: var(--color-on-surface);
@@ -34,14 +34,14 @@
 
 .form__input-wrapper {
   display: flex;
-  gap: var(--space-2xs);
+  gap: var(--space-inline);
 }
 
 .form__label {
   color: var(--color-on-surface-variant);
   display: inline-block;
   font: var(--font-caption);
-  padding-block: var(--space-2xs);
+  padding-block: var(--space-inset);
 }
 
 .form__listbox {
@@ -59,7 +59,7 @@
 
     align-items: baseline;
     display: flex;
-    padding: var(--space-s);
+    padding: var(--space-inset);
 
     &[aria-selected="true"] {
       background-color: var(--color-primary);

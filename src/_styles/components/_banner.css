@@ -1,8 +1,8 @@
 .banner {
-  column-gap: var(--space-s);
+  column-gap: var(--space-gutter);
   display: flex;
   flex-wrap: wrap;
-  padding-block: var(--gap);
+  padding-block: calc(var(--space-gutter) - var(--space-inset));
 
   nav {
     color: var(--color-on-surface-variant);
@@ -15,8 +15,7 @@
 
   a[rel~="home"] {
     flex-grow: 1;
-    margin-inline-start: calc(var(--space-xs) * -1);
-    padding-block: var(--space-2xs);
-    padding-inline: var(--space-xs);
+    margin-inline: calc(var(--space-inset) * -1);
+    padding: var(--space-inset);
   }
 }

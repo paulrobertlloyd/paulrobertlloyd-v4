@@ -23,7 +23,7 @@ flow-content {
 
   hr {
     border-block-end: var(--border-width-thick) solid var(--color-primary);
-    inline-size: calc(33% - calc(var(--gap) / 2));
+    inline-size: 33%;
     margin-block: calc(var(--flow-space) * 2);
     margin-inline-start: 0;
   }
@@ -37,7 +37,7 @@ flow-content {
   figure {
     display: flex;
     flex-direction: column;
-    gap: var(--flow-space) var(--gap);
+    gap: var(--flow-space) var(--space-gutter);
   }
 
   blockquote * + *,
@@ -72,16 +72,15 @@ flow-content {
     background-color: var(--color-inverse-surface);
     color: var(--color-on-inverse-surface);
     display: block;
-    margin-inline-start: calc(var(--gap) * -1);
+    margin-inline-start: calc(var(--space-gutter) * -1);
     max-inline-size: unset;
-    padding-block: var(--space-s);
-    padding-inline: var(--gap);
+    padding: var(--space-inset);
+    padding-inline-start: var(--space-gutter);
   }
 
   th,
   td {
-    padding-block: var(--space-xs);
-    padding-inline: 0 var(--gap);
+    padding: var(--space-inset);
   }
 
   tbody th,
@@ -101,9 +100,8 @@ flow-content {
     );
     display: inline-block;
     inline-size: 100%;
-    margin-block: calc(var(--space-s) * -1);
-    margin-inline-end: calc(var(--space-s) * -1);
-    padding: var(--space-3xs);
+    margin-inline-start: calc(var(--space-inline) * -1);
+    padding-inline-start: var(--space-inline);
     position: relative;
   }
 
@@ -134,7 +132,7 @@ flow-content {
     float: inline-end;
     inline-size: clamp(20%, 12rem, 50%);
     margin-block-end: var(--flow-space);
-    margin-inline-start: var(--space-m);
+    margin-inline-start: var(--space-gutter);
   }
 
   ol,
@@ -185,15 +183,15 @@ flow-content {
     }
 
     &:has(img[src*="#screenshot"]) {
-      margin-inline: calc(var(--gap) * -1);
+      margin-inline: calc(var(--space-gutter) * -1);
 
       figcaption {
-        padding-inline: var(--gap);
+        padding-inline: var(--space-gutter);
       }
     }
 
     &:not(:has(img[src*="#screenshot"])) {
-      gap: var(--gap);
+      gap: var(--space-gutter);
     }
 
     img:not([src*="#screenshot"]) {

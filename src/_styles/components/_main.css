@@ -6,9 +6,8 @@
   display: flex;
   flex: 1;
   flex-direction: column;
-  gap: var(--space-m-l) var(--gap);
-  padding-block: var(--gap);
-  padding-block-end: var(--space-m-l);
+  gap: calc(var(--space-gutter) * 1.5) var(--space-gutter);
+  padding-block: var(--space-gutter);
 
   @media (--from-medium-viewport) {
     display: grid;
@@ -27,7 +26,7 @@
 
     @media (--from-medium-viewport) {
       inline-size: 1px; /* Force stickiness */
-      inset-inline-start: var(--gap);
+      inset-inline-start: var(--space-gutter);
       position: sticky;
       writing-mode: vertical-rl;
     }

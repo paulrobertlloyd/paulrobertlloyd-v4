@@ -1,6 +1,6 @@
 .section {
   display: grid;
-  gap: var(--gap);
+  gap: calc(var(--space-gutter) - var(--space-inset));
 
   h2 {
     color: var(--color-on-surface-variant);
