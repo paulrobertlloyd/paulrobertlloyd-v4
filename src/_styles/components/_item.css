@@ -4,6 +4,7 @@
   flex: 1;
   flex-direction: column;
   font: var(--font-body);
+  gap: calc(var(--space-stack) / 2);
 
   > p {
     max-inline-size: var(--measure);
