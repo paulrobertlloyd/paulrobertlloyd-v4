@@ -3,7 +3,7 @@
 
   flow-content {
     color: var(--color-on-surface-variant);
-    margin-block-start: var(--space-stack);
+    margin-block-start: calc(var(--space-gutter) / 2);
     text-wrap: pretty;
   }
 

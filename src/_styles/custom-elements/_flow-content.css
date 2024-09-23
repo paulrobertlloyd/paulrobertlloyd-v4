@@ -32,17 +32,16 @@ flow-content {
   figcaption {
     color: var(--color-on-surface-variant);
     font: var(--font-caption);
+
+    * + * {
+      margin-block-start: calc(var(--flow-space) / 2);
+    }
   }
 
   figure {
     display: flex;
     flex-direction: column;
     gap: var(--flow-space) var(--space-gutter);
-  }
-
-  blockquote * + *,
-  figcaption * + * {
-    margin-block-start: calc(var(--flow-space) / 2);
   }
 
   p,
@@ -115,7 +114,10 @@ flow-content {
 
   h2 {
     font: var(--font-heading);
-    margin-block-start: calc(var(--flow-space) * 2);
+
+    &:not(:first-child) {
+      margin-block-start: calc(var(--flow-space) * 2);
+    }
   }
 
   h3 {
@@ -191,7 +193,7 @@ flow-content {
     }
 
     &:not(:has(img[src*="#screenshot"])) {
-      gap: var(--space-gutter);
+      gap: var(--space-inline);
     }
 
     img:not([src*="#screenshot"]) {

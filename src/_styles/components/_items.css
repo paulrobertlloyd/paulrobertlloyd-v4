@@ -18,7 +18,7 @@
   container-type: inline-size;
   display: flex;
 
-  img {
+  li img {
     aspect-ratio: 1;
     object-fit: cover;
   }
