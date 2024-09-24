@@ -20,6 +20,7 @@
   figcaption {
     flex-basis: 0;
     flex-grow: 999;
+    margin-block-end: var(--space-inset);
     min-inline-size: 40%;
   }
 }
