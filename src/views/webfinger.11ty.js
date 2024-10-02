@@ -1,6 +1,7 @@
 export default class WebFinger {
   data() {
     return {
+      eleventyAllowMissingExtension: true,
       eleventyExcludeFromCollections: true,
       permalink: ".well-known/webfinger",
     };

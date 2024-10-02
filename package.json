@@ -32,13 +32,13 @@
     "debug": "DEBUG=* npx eleventy"
   },
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0-beta.1",
+    "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-fetch": "^4.0.0",
-    "@11ty/eleventy-img": "^4.0.0",
+    "@11ty/eleventy-img": "^5.0.0",
     "@11ty/eleventy-plugin-rss": "^2.0.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^5.0.0",
     "@11tyrocks/eleventy-plugin-lightningcss": "^1.1.1",
-    "@lowlighter/xml": "^5.4.13",
+    "@lowlighter/xml": "^6.0.0",
     "@paulrobertlloyd/markdown-it-rules": "paulrobertlloyd/markdown-it-rules",
     "geolib": "^3.3.1",
     "ical-js-parser": "^0.7.4",
