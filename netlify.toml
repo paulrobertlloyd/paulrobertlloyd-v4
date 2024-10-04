@@ -23,7 +23,7 @@ package = "netlify-plugin-webmentions"
 for = "/*"
 
   [headers.values]
-  Content-Security-Policy = "script-src 'self' 'nonce-bVgyaDV6YU9tdThnZ2wwckZBNnFnc1Z6Wk40SnY2U0pmbjdTUjQ3MVg2RTFCbnEwN3g='; style-src 'self' 'unsafe-inline'; object-src 'self'; img-src 'self' data: shots.codepen.io gravatar.com *.media-amazon.com img.youtube.com i.vimeocdn.com"
+  Content-Security-Policy = "script-src 'self' 'nonce-bVgyaDV6YU9tdThnZ2wwckZBNnFnc1Z6Wk40SnY2U0pmbjdTUjQ3MVg2RTFCbnEwN3g='; style-src 'self' 'unsafe-inline'; object-src 'self'; img-src 'self' data: *.apple.com shots.codepen.io gravatar.com *.media-amazon.com img.youtube.com i.vimeocdn.com"
   Referrer-Policy = "no-referrer, strict-origin-when-cross-origin"
   Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
   X-Content-Type-Options = "nosniff"
