@@ -1,5 +1,5 @@
 .container {
-  inline-size: clamp(100vw, 80vw, 80rem);
+  inline-size: clamp(80vw, 100vw, 80rem);
   margin-inline: auto;
   padding-inline: var(--space-gutter);
 }
