@@ -77,18 +77,30 @@ flow-content {
     padding-inline-start: var(--space-gutter);
   }
 
+  table {
+    @media (--upto-medium-viewport) {
+      display: block;
+      max-inline-size: min-content;
+      overflow-x: scroll;
+      scrollbar-color: var(--color-shadow);
+      scrollbar-width: thin;
+      white-space: nowrap;
+    }
+  }
+
   th,
   td {
-    padding: var(--space-inset);
+    padding-block: var(--space-inset);
+  }
+
+  th:not(:last-child),
+  td:not(:last-child) {
+    padding-inline-end: var(--space-gutter);
   }
 
   tbody th,
   tbody td {
     border-block-start: var(--border-width-thin) solid var(--color-outline);
-  }
-
-  table {
-    inline-size: var(--flow-measure);
   }
 
   [style^="--chart-width"] {
