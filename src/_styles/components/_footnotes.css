@@ -1,6 +1,7 @@
 .footnotes {
-  list-style-position: inside;
-  padding-inline-start: 0;
+  border-block-start: var(--border-width-thin) solid var(--color-on-surface);
+  font: var(--font-caption);
+  margin-block-start: calc(var(--flow-space) * 3);
 }
 
 .footnotes :target {
