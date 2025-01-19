@@ -13,7 +13,7 @@ layout: default.liquid
   {%- render "trips" with collections.trip -%}
 {%- endif %}
 
-{%- if featured -%}
+{%- if collections[featured.collection].size > 0 -%}
   {%- render "section" with collections[featured.collection]
     title: featured.title
     scrollable: true
