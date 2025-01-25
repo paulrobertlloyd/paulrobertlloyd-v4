@@ -18,7 +18,6 @@
   "scripts": {
     "build": "eleventy --quiet",
     "start": "eleventy --quiet --incremental --serve",
-    "dev": "node --env-file .env --run start",
     "lint:format": "prettier . --check",
     "lint:format:fix": "prettier . --write",
     "lint:scripts": "eslint '**/*.js'",
@@ -40,6 +39,7 @@
     "@11tyrocks/eleventy-plugin-lightningcss": "^1.1.1",
     "@lowlighter/xml": "^6.0.0",
     "@paulrobertlloyd/markdown-it-rules": "paulrobertlloyd/markdown-it-rules",
+    "dotenv": "^16.4.7",
     "geolib": "^3.3.1",
     "ical-js-parser": "^0.7.4",
     "images-responsiver": "^1.13.0",
