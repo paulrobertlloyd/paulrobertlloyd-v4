@@ -2,6 +2,7 @@ import { readFile } from "node:fs/promises";
 import process from "node:process";
 import "dotenv/config";
 import { EleventyRenderPlugin } from "@11ty/eleventy";
+import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import eleventySyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import eleventyLightningCss from "@11tyrocks/eleventy-plugin-lightningcss";
 import * as collections from "./lib/collections/index.js";
@@ -52,6 +53,22 @@ export default function (eleventy) {
   eleventy.addPassthroughCopy("./src/assets");
 
   // Plugins
+  eleventy.addPlugin(eleventyImageTransformPlugin, {
+    failOnError: false,
+    statsOnly: true,
+    htmlOptions: {
+      imgAttributes: {
+        loading: "lazy",
+        decoding: "async",
+      },
+    },
+    widths: [320, 640, 960, 1280],
+    urlFormat: ({ src, format, width }) =>
+      process.env.NODE_ENV === "production"
+        ? `/images/${width}/${format}/${src.split("/").slice(3).join("/")}`
+        : `/media/${src.split("/").slice(3).join("/")}`,
+  });
+
   eleventy.addPlugin(EleventyRenderPlugin);
   eleventy.addPlugin(eleventySyntaxHighlight);
   eleventy.addPlugin(eleventyLightningCss);

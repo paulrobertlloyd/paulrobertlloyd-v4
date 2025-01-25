@@ -1,5 +1,5 @@
 <figure class="slide">
-  <img src="{{ slide.url }}" alt="{{ slide.alt }}" data-responsiver="slide">
+  <img src="{{ slide.url | mediaPath }}" alt="{{ slide.alt }}" eleventy:widths="640,960">
   <figcaption>
     {{ slide.caption | markdown }}
   </figcaption>

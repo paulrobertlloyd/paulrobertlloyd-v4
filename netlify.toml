@@ -66,8 +66,8 @@ to = "/.netlify/images?url=/media/:splat&w=1200&h=630&fit=cover"
 status = 200
 
 [[redirects]]
-from = "/images/:width/*"
-to = "/.netlify/images?url=/media/:splat&w=:width"
+from = "/images/:width/:format/*"
+to = "/.netlify/images?url=/media/:splat&w=:width&fm=:format"
 status = 200
 
 [[redirects]]
