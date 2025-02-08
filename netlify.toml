@@ -61,6 +61,11 @@ for = "/.well-known/webfinger"
   Content-Type = "application/jrd+json; charset=UTF-8"
 
 [[redirects]]
+for = "/.well-known/avatar"
+to = "/.well-known/avatar.png"
+status = 200
+
+[[redirects]]
 from = "/images/og/*"
 to = "/.netlify/images?url=/media/:splat&w=1200&h=630&fit=cover"
 status = 200

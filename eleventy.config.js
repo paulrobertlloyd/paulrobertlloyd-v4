@@ -47,6 +47,9 @@ export default function (eleventy) {
   eleventy.addGlobalData("currentYear", currentYear);
 
   // Passthrough
+  eleventy.addPassthroughCopy({
+    "./src/assets/avatar.png": ".well-known/avatar.png",
+  });
   eleventy.addPassthroughCopy({ "./src/content/media": "media" });
   eleventy.addPassthroughCopy({ "./src/app.json": "app.webmanifest" });
   eleventy.addPassthroughCopy("./src/robots.txt");
