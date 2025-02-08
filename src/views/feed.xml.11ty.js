@@ -37,10 +37,10 @@ export default class AtomFeed {
         },
       ],
       icon: {
-        "#text": this.absolute_url(app.icons[1].src, app.url),
+        "#text": app.icons[1].src,
       },
       rights: {
-        "#text": `&#169; ${currentYear} ${author.name}.`,
+        "#text": `Copyright © ${currentYear}, ${author.name}.`,
       },
       entry: [],
     };
