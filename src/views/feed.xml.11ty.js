@@ -8,7 +8,7 @@ export default class AtomFeed {
     };
   }
 
-  async render({ app, collections, currentYear, pkg }) {
+  async render({ app, author, collections, currentYear }) {
     const feed = {
       "@xmlns": "http://www.w3.org/2005/Atom",
       id: this.absolute_url("feed.xml", app.url),
@@ -16,9 +16,9 @@ export default class AtomFeed {
       subtitle: app.description,
       updated: new Date().toISOString(),
       author: {
-        name: pkg.author.name,
-        email: pkg.author.email,
-        uri: pkg.author.url,
+        name: author.name,
+        email: author.email,
+        uri: author.url,
       },
       link: [
         {
@@ -40,7 +40,7 @@ export default class AtomFeed {
         "#text": this.absolute_url(app.icons[1].src, app.url),
       },
       rights: {
-        "#text": `&#169; ${currentYear} ${pkg.author.name}.`,
+        "#text": `&#169; ${currentYear} ${author.name}.`,
       },
       entry: [],
     };

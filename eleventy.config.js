@@ -18,6 +18,14 @@ let appJson = await readFile(new URL(`src/app.json`, import.meta.url));
 let app = JSON.parse(appJson.toString());
 app = { ...app, url: process.env.URL || "" };
 
+// Authorship
+const author = {
+  avatar: "/.well-known/avatar.png",
+  email: "reply@paulrobertlloyd.com",
+  name: app.name,
+  url: app.url,
+};
+
 // Get current year
 const currentYear = new Date().getFullYear();
 
@@ -44,6 +52,7 @@ export default function (eleventy) {
 
   // Global data
   eleventy.addGlobalData("app", app);
+  eleventy.addGlobalData("author", author);
   eleventy.addGlobalData("currentYear", currentYear);
 
   // Passthrough
@@ -104,7 +113,7 @@ export default function (eleventy) {
   // Liquid
   eleventy.setLiquidOptions({
     cache: true,
-    globals: { app, currentYear, navigation },
+    globals: { app, author, currentYear, navigation },
     jsTruthy: true,
     strictFilters: true,
   });

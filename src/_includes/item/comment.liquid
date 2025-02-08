@@ -1,10 +1,15 @@
 <article class="item item--comment | p-comment h-cite" id="comment-{{ id }}">
   <header>
     <h3 class="p-author h-card">
-      {%- if item.author.url %}<a class="u-url" href="{{ item.author.url }}" target="_blank" rel="noopener noreferrer">{% endif -%}
-        <span class="p-name">{{ item.author.name | default: "Anonymous" }}</span>
-        <img class="avatar u-photo" src="{{ item.author.photo }}?s=120" alt="" decoding="async" loading="lazy" height="80" width="80" eleventy:ignore>
-      {%- if item.author.url %}</a>{% endif -%}
+      {%- if item.author == "me" %}
+        <span class="p-name">{{ author.name }}</span>
+        <img class="avatar u-photo" src="{{ author.avatar }}" alt="" decoding="async" loading="lazy" height="80" width="80" eleventy:ignore>
+      {%- else -%}
+        {%- if item.author.url %}<a class="u-url" href="{{ item.author.url }}" target="_blank" rel="noopener noreferrer">{% endif -%}
+          <span class="p-name">{{ item.author.name | default: "Anonymous" }}</span>
+          <img class="avatar u-photo" src="{{ item.author.photo }}?s=120" alt="" decoding="async" loading="lazy" height="80" width="80" eleventy:ignore>
+        {%- if item.author.url %}</a>{% endif -%}
+      {% endif %}
     </h3>
   </header>
 

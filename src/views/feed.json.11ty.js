@@ -9,7 +9,7 @@ export default class JsonFeed {
     };
   }
 
-  async render({ app, pkg, collections }) {
+  async render({ app, author, collections }) {
     const feed = {
       version: "https://jsonfeed.org/version/1.1",
       title: app.name,
@@ -19,14 +19,7 @@ export default class JsonFeed {
       favicon: this.absolute_url(app.icons[0].src, app.url),
       icon: this.absolute_url(app.icons[1].src, app.url),
       language: app.lang,
-      authors: [
-        {
-          name: pkg.author.name,
-          url: pkg.author.url,
-          avatar:
-            "https://gravatar.com/avatar/15091a37bacfa4bdd011282627eaca2b?s=512",
-        },
-      ],
+      authors: [author],
       items: [],
     };
 
