@@ -197,7 +197,7 @@ flow-content {
       --gallery-columns: var(--columns, 4);
     }
 
-    &:has(img[src*="#screenshot"]) {
+    &:has(img[src*="?screenshot"]) {
       margin-inline: calc(var(--space-gutter) * -1);
 
       figcaption {
@@ -205,11 +205,11 @@ flow-content {
       }
     }
 
-    &:not(:has(img[src*="#screenshot"])) {
+    &:not(:has(img[src*="?screenshot"])) {
       gap: var(--space-inline);
     }
 
-    img:not([src*="#screenshot"]) {
+    img:not([src*="?screenshot"]) {
       inline-size: auto;
       max-block-size: 90vh;
       max-inline-size: 100%;

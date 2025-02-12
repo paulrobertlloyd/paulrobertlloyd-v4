@@ -1,4 +1,4 @@
-img[src*="#screenshot"] {
+img[src*="?screenshot"] {
   background-color: var(--color-primary);
   border-image-slice: 5 20 20 5;
   border-image-source: url("/assets/vectors/shadow.svg");
