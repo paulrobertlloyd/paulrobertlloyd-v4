@@ -61,7 +61,7 @@ for = "/.well-known/webfinger"
   Content-Type = "application/jrd+json; charset=UTF-8"
 
 [[redirects]]
-for = "/.well-known/avatar"
+from = "/.well-known/avatar"
 to = "/.well-known/avatar.png"
 status = 200
 
