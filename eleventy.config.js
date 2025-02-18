@@ -86,6 +86,7 @@ export default function (eleventy) {
           widths: ["auto"],
           urlFormat: ({ src }) => `/media/${src.split("/").slice(3).join("/")}`,
         }),
+    svgShortCircuit: true,
   });
 
   eleventy.addPlugin(EleventyRenderPlugin);
