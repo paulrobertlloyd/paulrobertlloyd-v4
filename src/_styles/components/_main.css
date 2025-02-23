@@ -7,7 +7,7 @@
   flex: 1;
   flex-direction: column;
   gap: calc(var(--space-gutter) * 1.5) var(--space-gutter);
-  padding-block: var(--space-gutter);
+  padding-block: var(--space-gutter) calc(var(--space-gutter) * 1.5);
 
   @media (--from-medium-viewport) {
     display: grid;
