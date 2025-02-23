@@ -33,9 +33,7 @@ layout: default.liquid
   {%- if articles.length -%}
     {%- render "section" with articles
       title: title
-      scrollable: true
-      itemsComponent: "card"
-      itemsLimit: 3
+      itemsLimit: 6
     -%}
   {%- endif -%}
 {%- endfor -%}
