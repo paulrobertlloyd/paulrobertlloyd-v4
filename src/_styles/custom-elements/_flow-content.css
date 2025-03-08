@@ -7,7 +7,7 @@ flow-content {
 
   display: block;
   font: var(--flow-font);
-  word-break: break-word;
+  overflow-wrap: anywhere;
 
   &[data-font="lede"] {
     --flow-font: var(--font-lede);
@@ -94,14 +94,14 @@ flow-content {
     padding-block: var(--space-inset);
   }
 
-  th:not(:last-child),
-  td:not(:last-child) {
-    padding-inline-end: var(--space-gutter);
-  }
-
   tbody th,
   tbody td {
     border-block-start: var(--border-width-thin) solid var(--color-outline);
+  }
+
+  th:not(:last-child),
+  td:not(:last-child) {
+    padding-inline-end: var(--space-gutter);
   }
 
   [style^="--chart-width"] {
