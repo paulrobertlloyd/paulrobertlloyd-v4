@@ -11,7 +11,8 @@ layout: default.liquid
   {{ content }}
 </flow-content>
 
-{%- render "section" with collections[page.fileSlug]
+{%- assign collection = collections[page.fileSlug] | reverse -%}
+{%- render "section" with collection
   title: "Items in this collection"
   itemsComponent: "card"
 -%}
