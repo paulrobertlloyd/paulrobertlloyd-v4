@@ -1,3 +1,4 @@
+{%- if title -%}
 <header class="header">
   <h1 class="p-name">{{ title }}</h1>
 {%- if summary or bookmarkOf or uid -%}
@@ -12,3 +13,4 @@
   </flow-content>
 {%- endif -%}
 </header>
+{%- endif -%}
