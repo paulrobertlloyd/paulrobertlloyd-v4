@@ -53,6 +53,11 @@ export default {
       postType: "bookmark",
     },
     {
+      label: "Drawings",
+      url: "/drawings/",
+      postType: "drawing",
+    },
+    {
       label: "Jams",
       url: "/jams/",
       postType: "jam",

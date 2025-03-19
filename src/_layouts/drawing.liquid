@@ -1,0 +1,19 @@
+---
+layout: default.liquid
+---
+{% render "footer",
+  published: published
+%}
+
+{% render "header",
+  title: title
+%}
+
+<flow-content class="e-content p-name" style="--columns: 1">
+  {{ content }}
+</flow-content>
+
+{% render "meta",
+  category: category,
+  syndication: syndication
+%}
