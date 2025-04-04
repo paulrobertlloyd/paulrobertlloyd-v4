@@ -63,9 +63,9 @@ export default {
       postType: "jam",
     },
     {
-      url: "https://www.withukraine.org/",
+      url: "https://u24.gov.ua",
       icon: "ukraine",
-      iconLabel: "With Ukraine",
+      iconLabel: "Support Ukraine",
       rel: "external",
     },
   ],
