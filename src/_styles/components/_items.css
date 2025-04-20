@@ -6,7 +6,8 @@
   &:has(.card) {
     --grid-size: clamp(1rem, 100%, 18rem);
 
-    gap: var(--space-gutter);
+    gap: calc(var(--space-gutter) / 1.5);
+    margin-inline: calc(var(--space-inset) * -1);
   }
 
   &:has(.card[data-type="archive"]) {

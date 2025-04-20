@@ -1,8 +1,12 @@
 <article class="card |{% for root in item.data.vocabulary %} h-{{ root }}{% endfor %}" id="{{ item.data.id }}" data-type="{{ item.data.type }}" style="--color-accent-item: {{ item.data.color }}">
 {%- if item.data.featured -%}
-  <img class="u-featured" src="{{ item.data.featured.url | mediaPath }}" alt="{{ item.data.featured.alt }}" eleventy:widths="240,480">
+  <div class="card__image">
+    <img class="u-featured" src="{{ item.data.featured.url | mediaPath }}" alt="{{ item.data.featured.alt }}" eleventy:widths="240,480">
+  </div>
 {%- elsif item.data.photo -%}
-  <img class="u-photo" src="{{ item.data.photo[0].url | mediaPath }}" alt="{{ item.data.photo[0].alt }}" eleventy:widths="240,480">
+  <div class="card__image">
+    <img class="u-photo" src="{{ item.data.photo[0].url | mediaPath }}" alt="{{ item.data.photo[0].alt }}" eleventy:widths="240,480">
+  </div>
 {%- endif -%}
 
 {%- if item.data.title -%}
