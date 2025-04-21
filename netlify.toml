@@ -103,6 +103,15 @@ force = true
   page = ":p"
 
 [[redirects]]
+from = "/drawings/"
+to = "/drawings/page/:p.html"
+status = 200
+force = true
+
+  [redirects.query]
+  page = ":p"
+
+[[redirects]]
 from = "/events/"
 to = "/events/page/:p.html"
 status = 200
