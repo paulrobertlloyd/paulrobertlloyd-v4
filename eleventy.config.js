@@ -1,4 +1,3 @@
-import { readFile } from "node:fs/promises";
 import process from "node:process";
 import "dotenv/config";
 import { EleventyRenderPlugin } from "@11ty/eleventy";
@@ -11,12 +10,10 @@ import * as shortcodes from "./lib/shortcodes/index.js";
 import * as transforms from "./lib/transforms/index.js";
 import { markdownParser } from "./lib/markdown.js";
 import navigation from "./src/_data/navigation.js";
+import appJson from "./src/app.json" with { type: "json" };
 
-// Can’t use import attributes until supported by Acorn dependency
-// See: https://github.com/11ty/eleventy/issues/3128
-let appJson = await readFile(new URL(`src/app.json`, import.meta.url));
-let app = JSON.parse(appJson.toString());
-app = { ...app, url: process.env.URL || "" };
+// Application
+const app = { ...appJson, url: process.env.URL || "" };
 
 // Authorship
 const author = {
