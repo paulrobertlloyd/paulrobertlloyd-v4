@@ -5,7 +5,8 @@ export default class Drawings {
       title: "Drawings",
       pagination: {
         data: "collections.drawing",
-        size: 36,
+        size: 24,
+        component: "card",
       },
       eleventyComputed: {
         sectionTitle: ({ pagination }) =>
