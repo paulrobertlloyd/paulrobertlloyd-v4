@@ -6,4 +6,8 @@
   flex-flow: row wrap;
   justify-content: space-between;
   padding-block: calc(var(--space-gutter) - var(--space-inset));
+
+  small {
+    padding-block: var(--space-inset);
+  }
 }
