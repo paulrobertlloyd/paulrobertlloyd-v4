@@ -93,7 +93,7 @@
 
   @media (prefers-color-scheme: dark) {
     /* Primary palette */
-    --color-primary-on-surface: lch(
+    --color-primary-on-surface: oklch(
       from var(--color-primary) calc(l + 0.3) c h
     );
 
