@@ -155,3 +155,12 @@ force = true
 
   [redirects.query]
   page = ":p"
+
+[[redirects]]
+from = "/travel/"
+to = "/travel/page/:p.html"
+status = 200
+force = true
+
+  [redirects.query]
+  page = ":p"
