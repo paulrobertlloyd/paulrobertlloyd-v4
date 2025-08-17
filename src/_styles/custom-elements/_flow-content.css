@@ -143,7 +143,8 @@ flow-content {
     margin-block: calc(var(--flow-space) * 2) calc(var(--flow-space) * -0.5);
   }
 
-  p > img:only-of-type:first-of-type {
+  p > img:only-of-type:first-of-type,
+  p > picture:only-of-type:first-of-type {
     float: inline-end;
     inline-size: clamp(20%, 12rem, 50%);
     margin-block-end: var(--flow-space);
