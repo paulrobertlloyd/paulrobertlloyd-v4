@@ -99,7 +99,8 @@ export default class AtomFeed {
 
     return stringify({
       "@version": "1.0",
-      "@encoding": "utf8",
+      // eslint-disable-next-line unicorn/text-encoding-identifier-case
+      "@encoding": "utf-8",
       feed,
     });
   }
