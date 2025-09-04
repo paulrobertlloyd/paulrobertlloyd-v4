@@ -10,6 +10,7 @@ export default class JsonFeed {
   }
 
   async render({ app, author, collections }) {
+    const { avatar, name, url } = author;
     const feed = {
       version: "https://jsonfeed.org/version/1.1",
       title: app.name,
@@ -19,7 +20,7 @@ export default class JsonFeed {
       favicon: this.absolute_url(app.icons[0].src, app.url),
       icon: this.absolute_url(app.icons[1].src, app.url),
       language: app.lang,
-      authors: [author],
+      authors: [{ avatar, name, url }],
       items: [],
     };
 
