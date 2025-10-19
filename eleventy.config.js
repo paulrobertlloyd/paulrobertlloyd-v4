@@ -112,10 +112,7 @@ export default function (eleventy) {
   eleventy.setLiquidOptions({
     cache: true,
     globals: { app, author, currentYear, navigation },
-    jsTruthy: true,
-    strictFilters: true,
   });
-  eleventy.setLiquidParameterParsing("builtin");
 
   // Config
   return {

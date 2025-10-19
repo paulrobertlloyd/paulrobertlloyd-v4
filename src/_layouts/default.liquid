@@ -52,12 +52,12 @@
 <body {%- if id %} id="{{ id }}"{% endif %}>
   {% render "skip-link" %}
 
-  {% render "banner", page: page, type: type %}
+  {% render "banner", type: type %}
 
   <main class="main container{% for root in vocabulary %} h-{{ root }}{% endfor %}" id="main">
     {{ content }}
   </main>
 
-  {% render "contentinfo", page: page, type: type %}
+  {% render "contentinfo", type: type %}
 </body>
 </html>
