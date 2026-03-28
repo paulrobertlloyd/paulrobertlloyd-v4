@@ -22,7 +22,7 @@ const keys = {
  * @class
  * @param {object} comboboxNode - Combobox
  * @param {object} inputNode - input
- * @param {Function} searchFunction - Accepts search string and returns array
+ * @param {(searchString: string) => Array<{value: string, html: string}>} searchFunction - Accepts search string and returns array
  */
 export class Combobox {
   constructor(comboboxNode, inputNode, searchFunction) {
