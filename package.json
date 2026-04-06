@@ -39,7 +39,7 @@
     "@11tyrocks/eleventy-plugin-lightningcss": "1.6.0",
     "@lowlighter/xml": "6.0.1",
     "@paulrobertlloyd/markdown-it-rules": "paulrobertlloyd/markdown-it-rules",
-    "dotenv": "17.4.0",
+    "dotenv": "17.4.1",
     "geolib": "3.3.14",
     "ical.js": "^2.2.1",
     "markdown-it": "14.1.1",
@@ -59,7 +59,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "eslint": "10.1.0",
+    "eslint": "10.2.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-jsdoc": "62.9.0",
     "eslint-plugin-prettier": "5.5.5",
