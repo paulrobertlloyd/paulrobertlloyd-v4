@@ -59,13 +59,13 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "eslint": "10.2.0",
+    "eslint": "10.3.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-jsdoc": "62.9.0",
     "eslint-plugin-prettier": "5.5.5",
     "eslint-plugin-unicorn": "64.0.0",
-    "prettier": "3.8.2",
-    "stylelint": "17.7.0",
+    "prettier": "3.8.3",
+    "stylelint": "17.9.1",
     "stylelint-config-standard": "40.0.0",
     "stylelint-order": "8.1.1"
   },
