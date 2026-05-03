@@ -74,7 +74,7 @@ export default function (eleventy) {
     ...(process.env.NODE_ENV === "production"
       ? {
           formats: ["webp", "jpeg"],
-          widths: [320, 640, 960, 1280],
+          widths: [320, 640, 960, 1280, 1600],
           urlFormat: ({ src, format, width }) =>
             `/images/${width}/${format}/${src.split("/").slice(3).join("/")}`,
         }
