@@ -22,6 +22,10 @@ export default [
           ignore: ["eleventyComputed.js"],
         },
       ],
+      "unicorn/no-this-outside-of-class": "off",
+      "unicorn/no-undeclared-class-members": "off",
+      "unicorn/no-unreadable-new-expression": "off",
+      "unicorn/prefer-unicode-code-point-escapes": "off",
     },
   },
   {

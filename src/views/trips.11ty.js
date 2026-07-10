@@ -18,7 +18,7 @@ export default class Trips {
         summary: ({ archive, currentYear }) =>
           archive.year === currentYear
             ? "Individual trips by air, rail and sea."
-            : `${archive.year}`,
+            : String(archive.year),
         trips: ({ archive, currentYear }) => archive.year === currentYear,
       },
       permalink: ({ archive }) => archive.permalink,

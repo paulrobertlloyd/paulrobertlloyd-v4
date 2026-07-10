@@ -30,11 +30,13 @@ class AppleJamElement extends HTMLElement {
   }
 
   connectedCallback() {
-    if (this.appleMusicLink) {
-      this.attachShadow({ mode: "open" });
-      this.shadowRoot.append(template.content.cloneNode(true));
-      this.shadowRoot.append(this.embedCode(this.appleMusicLink.href));
+    if (!this.appleMusicLink) {
+      return;
     }
+
+    this.attachShadow({ mode: "open" });
+    this.shadowRoot.append(template.content.cloneNode(true));
+    this.shadowRoot.append(this.embedCode(this.appleMusicLink.href));
   }
 }
 

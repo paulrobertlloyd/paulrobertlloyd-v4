@@ -17,11 +17,7 @@ export default class ServiceWorker {
   }
 
   async render({ collections, navigation }) {
-    const offlinePages = [];
-
-    for (const item of navigation.primary) {
-      offlinePages.push(item.url);
-    }
+    const offlinePages = Array.from(navigation.primary, (item) => item.url);
 
     for (const item of navigation.secondary) {
       if (item.rel !== "external") {

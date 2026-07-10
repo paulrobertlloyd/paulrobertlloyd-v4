@@ -22,9 +22,16 @@ const keys = {
  * @class
  * @param {object} comboboxNode - Combobox
  * @param {object} inputNode - input
- * @param {(searchString: string) => Array<{value: string, html: string}>} searchFunction - Accepts search string and returns array
+ * @param {(searchString: string) => Array<{value: string, HTML: string}>} searchFunction - Accepts search string and returns array
  */
 export class Combobox {
+  /**
+   * @description Show listbox on event
+   */
+  checkShow = function () {
+    this.updateResults();
+  };
+
   constructor(comboboxNode, inputNode, searchFunction) {
     this.combobox = comboboxNode;
     this.input = inputNode;
@@ -67,13 +74,6 @@ export class Combobox {
 
     this.hideListbox();
   }
-
-  /**
-   * @description Show listbox on event
-   */
-  checkShow = function () {
-    this.updateResults();
-  };
 
   /**
    * @description Check key press and override defaults
@@ -237,7 +237,7 @@ export class Combobox {
   hideListbox() {
     this.shown = false;
     this.activeIndex = -1;
-    this.listbox.innerHTML = "";
+    this.listbox.replaceChildren();
     this.listbox.hidden = true;
     this.combobox.setAttribute("aria-expanded", "false");
     this.resultsCount = 0;
@@ -249,11 +249,13 @@ export class Combobox {
    * @param {object} element - HTML element
    */
   selectOption(element) {
-    if (element) {
-      const href = element.querySelector("a").getAttribute("href");
-      document.location.href = href;
-      this.hideListbox();
+    if (!element) {
+      return;
     }
+
+    const href = element.querySelector("a").getAttribute("href");
+    document.location.href = href;
+    this.hideListbox();
   }
 
   /**

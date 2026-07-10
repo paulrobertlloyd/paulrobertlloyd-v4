@@ -16,7 +16,7 @@ export default class WebFinger {
       ],
       links: [
         {
-          rel: "http://webfinger.net/rel/profile-page",
+          rel: "https://webfinger.net/rel/profile-page",
           type: "text/html",
           href: "https://mastodon.social/@paulrobertlloyd",
         },
@@ -26,11 +26,11 @@ export default class WebFinger {
           href: "https://mastodon.social/users/paulrobertlloyd",
         },
         {
-          rel: "http://ostatus.org/schema/1.0/subscribe",
+          rel: "https://ostatus.org/schema/1.0/subscribe",
           template: "https://mastodon.social/authorize_interaction?uri={uri}",
         },
         {
-          rel: "http://webfinger.net/rel/avatar",
+          rel: "https://webfinger.net/rel/avatar",
           type: "image/jpeg",
           href: "https://files.mastodon.social/accounts/avatars/000/007/460/original/46e3a4288dc4d399.jpg",
         },

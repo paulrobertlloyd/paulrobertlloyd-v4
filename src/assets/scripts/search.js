@@ -1,21 +1,6 @@
 import { Combobox } from "./combobox.js";
 
 class SiteSearchElement extends HTMLElement {
-  constructor() {
-    super();
-
-    // Append combobox template
-    const template = this.querySelector("template").content;
-    this.append(template.cloneNode(true));
-
-    this.combobox = this.querySelector(`[role="combobox"]`);
-    this.form = this.querySelector("form");
-    this.button = this.querySelector(`button[type="submit"]`);
-    this.input = this.querySelector(`input[type="search"]`);
-    this.corpus = [];
-    this.index = this.getAttribute("index");
-  }
-
   fetchIndex = async () => {
     try {
       const response = await fetch(this.index);
@@ -45,6 +30,21 @@ class SiteSearchElement extends HTMLElement {
 
     return result;
   };
+
+  constructor() {
+    super();
+
+    // Append combobox template
+    const template = this.querySelector("template").content;
+    this.append(template.cloneNode(true));
+
+    this.combobox = this.querySelector(`[role="combobox"]`);
+    this.form = this.querySelector("form");
+    this.button = this.querySelector(`button[type="submit"]`);
+    this.input = this.querySelector(`input[type="search"]`);
+    this.corpus = [];
+    this.index = this.getAttribute("index");
+  }
 
   connectedCallback() {
     this.button.remove();
