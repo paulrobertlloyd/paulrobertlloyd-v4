@@ -70,7 +70,7 @@
     "stylelint-order": "8.1.1"
   },
   "engines": {
-    "node": "^24.0.0"
+    "node": "^26.0.0"
   },
   "type": "module",
   "browserslist": [
