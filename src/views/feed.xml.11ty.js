@@ -10,7 +10,7 @@ export default class AtomFeed {
 
   async render({ app, author, collections, currentYear }) {
     const feed = {
-      "@xmlns": "https://www.w3.org/2005/Atom",
+      "@xmlns": "http://www.w3.org/2005/Atom",
       id: this.absolute_url("feed.xml", app.url),
       title: app.name,
       subtitle: app.description,
