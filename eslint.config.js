@@ -15,6 +15,7 @@ export default [
     languageOptions: { globals: { ...globals.node } },
     rules: {
       "jsdoc/no-undefined-types": [1, { definedTypes: ["NodeJS"] }],
+      "unicorn/comment-content": "off",
       "unicorn/filename-case": [
         "warn",
         {
