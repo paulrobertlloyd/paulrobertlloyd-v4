@@ -5,17 +5,24 @@ class SiteSearchElement extends HTMLElement {
     try {
       const response = await fetch(this.index);
       const data = await response.json();
-      this.corpus.push(...data);
+
+      for (const item of data) {
+        this.corpus.push({
+          ...item,
+          // `content` is lowercased at build time, `title` is not
+          search: `${item.title ?? ""}\n${item.content ?? ""}`.toLowerCase(),
+        });
+      }
     } catch (error) {
       console.error(error);
     }
   };
 
-  findResults = (termToMatch, corpus) =>
-    corpus.filter((item) => {
-      const regex = new RegExp(termToMatch, "gi");
-      return item.title?.match(regex) || item.content?.match(regex);
-    });
+  findResults = (termToMatch, corpus) => {
+    const query = termToMatch.trim().toLowerCase();
+
+    return query ? corpus.filter((item) => item.search.includes(query)) : [];
+  };
 
   displayResults = (input) => {
     const resultsArray = this.findResults(input, this.corpus);
@@ -35,13 +42,13 @@ class SiteSearchElement extends HTMLElement {
     super();
 
     // Append combobox template
-    const template = this.querySelector("template").content;
+    const template = this.querySelector(":scope template").content;
     this.append(template.cloneNode(true));
 
-    this.combobox = this.querySelector(`[role="combobox"]`);
-    this.form = this.querySelector("form");
-    this.button = this.querySelector(`button[type="submit"]`);
-    this.input = this.querySelector(`input[type="search"]`);
+    this.combobox = this.querySelector(`:scope [role="combobox"]`);
+    this.form = this.querySelector(":scope form");
+    this.button = this.querySelector(`:scope button[type="submit"]`);
+    this.input = this.querySelector(`:scope input[type="search"]`);
     this.corpus = [];
     this.index = this.getAttribute("index");
   }
