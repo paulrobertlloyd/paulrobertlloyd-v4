@@ -34,9 +34,9 @@ export default class ServiceWorker {
 
       let serviceworker = await getFile("../../../lib/serviceworker.js");
       serviceworker = serviceworker
-        .replace("APP_VERSION", Date.now())
-        .replace("APP_OFFLINE_IMAGE", offlineImage)
-        .replace("APP_OFFLINE_PAGES", offlinePages);
+        .replace("APP_VERSION", () => Date.now())
+        .replace("APP_OFFLINE_IMAGE", () => offlineImage)
+        .replace("APP_OFFLINE_PAGES", () => offlinePages);
       return serviceworker;
     } catch (error) {
       console.error(error.message);

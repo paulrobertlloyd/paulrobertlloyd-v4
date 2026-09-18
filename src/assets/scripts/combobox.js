@@ -35,9 +35,9 @@ export class Combobox {
   constructor(comboboxNode, inputNode, searchFunction) {
     this.combobox = comboboxNode;
     this.input = inputNode;
-    this.listbox = comboboxNode.querySelector(`[role="listbox"]`);
+    this.listbox = comboboxNode.querySelector(`:scope [role="listbox"]`);
     this.listbox.hidden = true;
-    this.status = comboboxNode.querySelector(`[role="status"]`);
+    this.status = comboboxNode.querySelector(`:scope [role="status"]`);
     this.searchFunction = searchFunction;
     this.shouldAutoSelect = false;
     this.activeIndex = -1;
@@ -194,32 +194,35 @@ export class Combobox {
 
     this.hideListbox();
 
-    if (searchString.length > 0 && results.length > 0) {
-      for (const [index, result] of results.entries()) {
-        const resultItem = document.createElement("li");
-        resultItem.setAttribute("id", "option-" + index);
-        resultItem.setAttribute("role", "option");
-        resultItem.setAttribute("tabindex", "-1");
-        resultItem.dataset.value = result.value;
-        resultItem.innerHTML = result.html;
-        this.listbox.append(resultItem);
-        if (this.shouldAutoSelect && index === 0) {
-          resultItem.setAttribute("aria-selected", "true");
-          this.activeIndex = 0;
-        }
-      }
+    if (searchString.length === 0 || results.length === 0) {
+      return;
+    }
 
-      this.listbox.hidden = false;
-      this.combobox.setAttribute("aria-expanded", "true");
-      this.resultsCount = results.length;
-      this.shown = true;
-      this.updateStatus(this.resultsCount);
+    for (const [index, result] of results.entries()) {
+      const resultItem = document.createElement("li");
+      resultItem.setAttribute("id", "option-" + index);
+      resultItem.setAttribute("role", "option");
+      resultItem.setAttribute("tabindex", "-1");
+      resultItem.dataset.value = result.value;
+      resultItem.innerHTML = result.html;
+      this.listbox.append(resultItem);
+    }
 
-      // Override link behaviour to close listbox prior to location change
-      const listboxOptions = this.listbox.querySelectorAll("li");
-      for (const listboxOption of listboxOptions) {
-        listboxOption.addEventListener("click", this.clickOption.bind(this));
-      }
+    if (this.shouldAutoSelect) {
+      this.listbox.firstElementChild.setAttribute("aria-selected", "true");
+      this.activeIndex = 0;
+    }
+
+    this.listbox.hidden = false;
+    this.combobox.setAttribute("aria-expanded", "true");
+    this.resultsCount = results.length;
+    this.shown = true;
+    this.updateStatus(this.resultsCount);
+
+    // Override link behaviour to close listbox prior to location change
+    const listboxOptions = this.listbox.querySelectorAll(":scope li");
+    for (const listboxOption of listboxOptions) {
+      listboxOption.addEventListener("click", this.clickOption.bind(this));
     }
   }
 
@@ -253,7 +256,7 @@ export class Combobox {
       return;
     }
 
-    const href = element.querySelector("a").getAttribute("href");
+    const href = element.querySelector(":scope a").getAttribute("href");
     document.location.href = href;
     this.hideListbox();
   }
@@ -294,19 +297,22 @@ export class Combobox {
   focusOption(element) {
     element.setAttribute("aria-selected", "true");
     this.input.setAttribute("aria-activedescendant", element.id);
+
     // This makes no sense, but without updating the status region (and as
     // this.resultsCount has not changed, no new status is announced), Safari
     // will refuse to apply focus to selected option.
     this.updateStatus(this.resultsCount);
 
-    if (this.listbox.scrollHeight > this.listbox.clientHeight) {
-      const scrollBottom = this.listbox.clientHeight + this.listbox.scrollTop;
-      const elementBottom = element.offsetTop + element.offsetHeight;
-      if (elementBottom > scrollBottom) {
-        this.listbox.scrollTop = elementBottom - this.listbox.clientHeight;
-      } else if (element.offsetTop < this.listbox.scrollTop) {
-        this.listbox.scrollTop = element.offsetTop;
-      }
+    if (this.listbox.scrollHeight <= this.listbox.clientHeight) {
+      return;
+    }
+
+    const scrollBottom = this.listbox.clientHeight + this.listbox.scrollTop;
+    const elementBottom = element.offsetTop + element.offsetHeight;
+    if (elementBottom > scrollBottom) {
+      this.listbox.scrollTop = elementBottom - this.listbox.clientHeight;
+    } else if (element.offsetTop < this.listbox.scrollTop) {
+      this.listbox.scrollTop = element.offsetTop;
     }
   }
 
