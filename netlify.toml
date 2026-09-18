@@ -16,9 +16,6 @@ package = "netlify-plugin-cache"
   [plugins.inputs]
   paths = [ ".cache" ]
 
-[[plugins]]
-package = "netlify-plugin-webmentions"
-
 [[headers]]
 for = "/*"
 
