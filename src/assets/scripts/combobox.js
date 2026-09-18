@@ -1,3 +1,5 @@
+const DEBOUNCE_DELAY = 150;
+
 /**
  * @description Key code constants
  */
@@ -43,6 +45,7 @@ export class Combobox {
     this.activeIndex = -1;
     this.resultsCount = 0;
     this.shown = false;
+    this.updateTimer = undefined;
 
     this.setupEvents();
   }
@@ -96,7 +99,7 @@ export class Combobox {
       }
 
       default: {
-        this.updateResults();
+        this.scheduleUpdate();
       }
     }
   }
@@ -186,6 +189,22 @@ export class Combobox {
   }
 
   /**
+   * @description Update results once typing pauses
+   */
+  scheduleUpdate() {
+    clearTimeout(this.updateTimer);
+    this.updateTimer = setTimeout(() => this.updateResults(), DEBOUNCE_DELAY);
+  }
+
+  /**
+   * @description Cancel a pending results update
+   */
+  cancelUpdate() {
+    clearTimeout(this.updateTimer);
+    this.updateTimer = undefined;
+  }
+
+  /**
    * @description Update listbox results
    */
   updateResults() {
@@ -231,13 +250,17 @@ export class Combobox {
    * @param {number} resultsCount - Number of returned results
    */
   updateStatus(resultsCount) {
-    this.status.textContent = `${resultsCount} results are available.`;
+    clearTimeout(this.statusTimer);
+    this.statusTimer = setTimeout(() => {
+      this.status.textContent = `${resultsCount} results are available.`;
+    }, DEBOUNCE_DELAY);
   }
 
   /**
    * @description Hide listbox
    */
   hideListbox() {
+    this.cancelUpdate();
     this.shown = false;
     this.activeIndex = -1;
     this.listbox.replaceChildren();
