@@ -23,7 +23,7 @@
     "lint:scripts": "eslint '**/*.js'",
     "lint:scripts:fix": "eslint '**/*.js' --fix",
     "lint:styles": "stylelint 'src/**/*.css'",
-    "lint:styles:fix": "stylelint 'src/**/*.css'",
+    "lint:styles:fix": "stylelint 'src/**/*.css' --fix",
     "lint": "npm run lint:format && npm run lint:scripts && npm run lint:styles",
     "lint:fix": "npm run lint:format:fix && npm run lint:scripts:fix && npm run lint:styles:fix",
     "test": "node --test --test-reporter=spec --env-file-if-exists=.env",
