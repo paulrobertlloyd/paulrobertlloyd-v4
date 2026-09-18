@@ -70,7 +70,8 @@
   }
 
   &[data-type^="article"],
-  &[data-type^="presentation"] {
+  &[data-type^="presentation"],
+  &[data-type^="project"] {
     --card-image-aspect-ratio: 3 / 2;
   }
 
