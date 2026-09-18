@@ -1,7 +1,11 @@
 import { existsSync } from "node:fs";
 import path from "node:path";
 import process from "node:process";
-import { EleventyRenderPlugin, IdAttributePlugin } from "@11ty/eleventy";
+import {
+  EleventyRenderPlugin,
+  HtmlBasePlugin,
+  IdAttributePlugin,
+} from "@11ty/eleventy";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import eleventySyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
 import eleventyLightningCss from "@11tyrocks/eleventy-plugin-lightningcss";
@@ -96,6 +100,7 @@ export default function (eleventy) {
   eleventy.addPlugin(EleventyRenderPlugin);
   eleventy.addPlugin(eleventySyntaxHighlight);
   eleventy.addPlugin(eleventyLightningCss);
+  eleventy.addPlugin(HtmlBasePlugin);
   eleventy.addPlugin(IdAttributePlugin);
 
   // Shortcodes
