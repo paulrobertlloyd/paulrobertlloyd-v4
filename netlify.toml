@@ -7,7 +7,6 @@ command = "git submodule update --init --remote && npm run build"
   [context.production.environment]
   ELEVENTY_ENV = "production"
   NODE_ENV = "production"
-  NODE_VERSION = "16"
   TZ = "Europe/London"
 
 [[plugins]]
