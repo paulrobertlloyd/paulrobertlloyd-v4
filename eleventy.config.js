@@ -1,5 +1,6 @@
+import { existsSync } from "node:fs";
+import path from "node:path";
 import process from "node:process";
-import "dotenv/config";
 import { EleventyRenderPlugin } from "@11ty/eleventy";
 import { eleventyImageTransformPlugin } from "@11ty/eleventy-img";
 import eleventySyntaxHighlight from "@11ty/eleventy-plugin-syntaxhighlight";
@@ -11,6 +12,8 @@ import * as transforms from "./lib/transforms/index.js";
 import { markdownParser } from "./lib/markdown.js";
 import navigation from "./src/_data/navigation.js";
 import appJson from "./src/app.json" with { type: "json" };
+
+const environmentFile = path.join(import.meta.dirname, ".env");
 
 // Application
 const app = { ...appJson, url: process.env.URL || "" };
@@ -33,6 +36,10 @@ const currentYear = new Date().getFullYear();
  */
 // eslint-disable-next-line unicorn/no-anonymous-default-export
 export default function (eleventy) {
+  if (existsSync(environmentFile)) {
+    process.loadEnvFile();
+  }
+
   // Collections
   for (const [name, collection] of Object.entries(collections)) {
     eleventy.addCollection(name, collection);
