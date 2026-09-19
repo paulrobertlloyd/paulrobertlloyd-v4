@@ -1,11 +1,15 @@
+import { postTypes } from "../../lib/post-types.js";
+
 export default class Photos {
   data() {
+    const { listPath, listSize } = postTypes.photo;
+
     return {
       layout: "pagination.liquid",
       title: "Photos",
       pagination: {
         data: "collections.photo",
-        size: 36,
+        size: listSize,
         component: "card",
       },
       eleventyComputed: {
@@ -16,8 +20,8 @@ export default class Photos {
       },
       permalink: ({ pagination }) =>
         pagination.pageNumber > 0
-          ? `/photos/page/${pagination.pageNumber + 1}.html`
-          : "/photos/",
+          ? `${listPath}page/${pagination.pageNumber + 1}.html`
+          : listPath,
     };
   }
 }

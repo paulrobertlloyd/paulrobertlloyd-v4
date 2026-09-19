@@ -1,3 +1,5 @@
+import { getPost } from "../../lib/utils/post.js";
+
 export default class ArticleMaps {
   data() {
     return {
@@ -13,6 +15,6 @@ export default class ArticleMaps {
 
   render({ article }) {
     const source = this.mapbox_url(article.data.geojson);
-    return this.image(source, this.permalink(article.data), "route_map");
+    return this.image(source, getPost(article.data).shortPath, "route_map");
   }
 }

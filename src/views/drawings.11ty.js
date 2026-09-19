@@ -1,11 +1,15 @@
+import { postTypes } from "../../lib/post-types.js";
+
 export default class Drawings {
   data() {
+    const { listPath, listSize } = postTypes.drawing;
+
     return {
       layout: "pagination.liquid",
       title: "Drawings",
       pagination: {
         data: "collections.drawing",
-        size: 24,
+        size: listSize,
         component: "card",
       },
       eleventyComputed: {
@@ -16,8 +20,8 @@ export default class Drawings {
       },
       permalink: ({ pagination }) =>
         pagination.pageNumber > 0
-          ? `/drawings/page/${pagination.pageNumber + 1}.html`
-          : "/drawings/",
+          ? `${listPath}page/${pagination.pageNumber + 1}.html`
+          : listPath,
     };
   }
 }

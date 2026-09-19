@@ -1,5 +1,9 @@
+import { postTypes } from "../../lib/post-types.js";
+
 export default class Projects {
   data() {
+    const { listPath, listSize } = postTypes.project;
+
     return {
       layout: "pagination.liquid",
       title: "Projects",
@@ -7,7 +11,7 @@ export default class Projects {
         "I help responsible organisations create purposeful digital products and services.",
       pagination: {
         data: "collections.collection",
-        size: 3,
+        size: listSize,
         before: (items) =>
           items.filter((item) => item.data.postType === "project"),
       },
@@ -19,8 +23,8 @@ export default class Projects {
       sectionTitle: "The work that I do",
       permalink: ({ pagination }) =>
         pagination.pageNumber > 0
-          ? `/projects/page/${pagination.pageNumber + 1}.html`
-          : "/projects/",
+          ? `${listPath}page/${pagination.pageNumber + 1}.html`
+          : listPath,
     };
   }
 }

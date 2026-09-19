@@ -1,4 +1,7 @@
 import { range } from "../../lib/utils/generator.js";
+import { getPost } from "../../lib/utils/post.js";
+import { long } from "../../lib/utils/post-path.js";
+import { postTypes } from "../../lib/post-types.js";
 
 export default class Redirects {
   data() {
@@ -16,29 +19,30 @@ export default class Redirects {
       redirects.push(`/${year}/:splat /${year} 302`);
     }
 
-    // Articles (slug-less)
-    for (const page of collections.article) {
-      redirects.push(`/${this.permalink(page.data)} ${page.url} 302`);
+    // Post types whose permalink ends in a slug redirect from short path
+    for (const [type, { path }] of Object.entries(postTypes)) {
+      if (path !== long) {
+        continue;
+      }
+
+      const collection = collections[type] ?? [];
+
+      for (const page of collection) {
+        redirects.push(`/${getPost(page.data).shortPath} ${page.url} 302`);
+      }
     }
 
-    // Bookmarks (slug-less)
-    for (const page of collections.bookmark) {
-      redirects.push(`/${this.permalink(page.data)} ${page.url} 302`);
-    }
+    // Paginated lists
+    redirects.push(
+      "/categories/:tag/ page=:p /categories/:tag/page/:p.html 200!",
+    );
 
-    // Comments (slug-less)
-    for (const page of collections.comments) {
-      redirects.push(`/${this.permalink(page.data)} ${page.url} 302`);
-    }
+    for (const { listPath, listSize } of Object.values(postTypes)) {
+      if (!listSize) {
+        continue;
+      }
 
-    // Itineraries (slug-less)
-    for (const page of collections.itinerary) {
-      redirects.push(`/${this.permalink(page.data)} ${page.url} 302`);
-    }
-
-    // Presentations (slug-less)
-    for (const page of collections.presentation) {
-      redirects.push(`/${this.permalink(page.data)} ${page.url} 302`);
+      redirects.push(`${listPath} page=:p ${listPath}page/:p.html 200!`);
     }
 
     return redirects.join("\n");

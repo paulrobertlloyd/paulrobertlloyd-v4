@@ -1,12 +1,16 @@
+import { postTypes } from "../../lib/post-types.js";
+
 export default class Articles {
   data() {
+    const { listPath, listSize } = postTypes.article;
+
     return {
       layout: "pagination.liquid",
       title: "Writing",
       summary: "Short posts, articles and essays.",
       pagination: {
         data: "collections.article",
-        size: 24,
+        size: listSize,
       },
       eleventyComputed: {
         featured: ({ pagination }) =>
@@ -22,8 +26,8 @@ export default class Articles {
       },
       permalink: ({ pagination }) =>
         pagination.pageNumber > 0
-          ? `/articles/page/${pagination.pageNumber + 1}.html`
-          : "/articles/",
+          ? `${listPath}page/${pagination.pageNumber + 1}.html`
+          : listPath,
     };
   }
 }

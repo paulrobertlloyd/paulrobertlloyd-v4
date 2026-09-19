@@ -1,11 +1,15 @@
+import { postTypes } from "../../lib/post-types.js";
+
 export default class Itineraries {
   data() {
+    const { listPath, listSize } = postTypes.itinerary;
+
     return {
       layout: "pagination.liquid",
       title: "Travel",
       pagination: {
         data: "collections.itinerary",
-        size: 48,
+        size: listSize,
         component: "card",
       },
       eleventyComputed: {
@@ -16,8 +20,8 @@ export default class Itineraries {
       },
       permalink: ({ pagination }) =>
         pagination.pageNumber > 0
-          ? `/travel/page/${pagination.pageNumber + 1}.html`
-          : "/travel/",
+          ? `${listPath}page/${pagination.pageNumber + 1}.html`
+          : listPath,
     };
   }
 }

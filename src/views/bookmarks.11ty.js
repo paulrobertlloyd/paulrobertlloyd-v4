@@ -1,11 +1,15 @@
+import { postTypes } from "../../lib/post-types.js";
+
 export default class Bookmarks {
   data() {
+    const { listPath, listSize } = postTypes.bookmark;
+
     return {
       layout: "pagination.liquid",
       title: "Bookmarks",
       pagination: {
         data: "collections.bookmark",
-        size: 24,
+        size: listSize,
       },
       eleventyComputed: {
         sectionTitle: ({ pagination }) =>
@@ -15,8 +19,8 @@ export default class Bookmarks {
       },
       permalink: ({ pagination }) =>
         pagination.pageNumber > 0
-          ? `/bookmarks/page/${pagination.pageNumber + 1}.html`
-          : "/bookmarks/",
+          ? `${listPath}page/${pagination.pageNumber + 1}.html`
+          : listPath,
     };
   }
 }

@@ -1,11 +1,15 @@
+import { postTypes } from "../../lib/post-types.js";
+
 export default class Jams {
   data() {
+    const { listPath, listSize } = postTypes.jam;
+
     return {
       layout: "pagination.liquid",
       title: "Jams",
       pagination: {
         data: "collections.jam",
-        size: 36,
+        size: listSize,
         title: "Recent jams",
       },
       eleventyComputed: {
@@ -16,8 +20,8 @@ export default class Jams {
       },
       permalink: ({ pagination }) =>
         pagination.pageNumber > 0
-          ? `/jams/page/${pagination.pageNumber + 1}.html`
-          : "/jams/",
+          ? `${listPath}page/${pagination.pageNumber + 1}.html`
+          : listPath,
     };
   }
 }

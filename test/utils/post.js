@@ -1,6 +1,6 @@
 import { strict as assert } from "node:assert";
 import { describe, it } from "node:test";
-import { getId, getPermalink } from "../../lib/utils/page.js";
+import { getPost } from "../../lib/utils/post.js";
 
 const page = {
   url: "/current/page/myFile/",
@@ -18,14 +18,14 @@ const data = {
   typeIndex: "2",
 };
 
-describe("utils/page", () => {
-  it("Gets page ID", () => {
-    assert.equal(getId(data), "n5YY2");
-    assert.equal(getId({ page }), "5Ui1");
+describe("utils/post", () => {
+  it("Gets post ID", () => {
+    assert.equal(getPost(data).id, "n5YY2");
+    assert.equal(getPost({ page }).id, "5Ui1");
   });
 
-  it("Gets page permalink", () => {
-    assert.equal(getPermalink(data), "2024/230/n2");
-    assert.equal(getPermalink({ page }), "2024/001/1");
+  it("Gets post permalink", () => {
+    assert.equal(getPost(data).shortPath, "2024/230/n2");
+    assert.equal(getPost({ page }).shortPath, "2024/001/1");
   });
 });

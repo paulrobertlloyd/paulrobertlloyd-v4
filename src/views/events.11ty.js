@@ -1,11 +1,15 @@
+import { postTypes } from "../../lib/post-types.js";
+
 export default class Events {
   data() {
+    const { listPath, listSize } = postTypes.event;
+
     return {
       layout: "pagination.liquid",
       title: "Events",
       pagination: {
         data: "collections.attended",
-        size: 48,
+        size: listSize,
         component: "event",
       },
       eleventyComputed: {
@@ -22,8 +26,8 @@ export default class Events {
       },
       permalink: ({ pagination }) =>
         pagination.pageNumber > 0
-          ? `/events/page/${pagination.pageNumber + 1}.html`
-          : "/events/",
+          ? `${listPath}page/${pagination.pageNumber + 1}.html`
+          : listPath,
     };
   }
 }

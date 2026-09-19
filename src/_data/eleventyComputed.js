@@ -1,9 +1,9 @@
-/*eslint no-unused-vars: ["error", { "ignoreRestSiblings": true }]*/
 import { getColor } from "../../lib/utils/string.js";
-import { getId } from "../../lib/utils/page.js";
+import { getPost } from "../../lib/utils/post.js";
 
 export default {
-  id: (data) => getId(data),
+  id: (data) => getPost(data).id,
+  permalink: (data) => getPost(data).permalink,
   pageTitle: (data) => (data.page.url === "/" ? false : data.title),
   published: (data) => data?.date || data.page.date,
   showTime: (data) => !data.title,
@@ -14,4 +14,7 @@ export default {
   featuredImageAlt: (data) => (data.featured ? data.featured.alt : "Logo"),
   color: (data) =>
     data.color || getColor(data.location?.locality || data.date) || "#10e",
+  syndicate: (data) => getPost(data).syndicate,
+  visibility: (data) => getPost(data).visibility,
+  vocabulary: (data) => getPost(data).vocabulary,
 };

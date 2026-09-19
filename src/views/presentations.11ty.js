@@ -1,5 +1,9 @@
+import { postTypes } from "../../lib/post-types.js";
+
 export default class Presentations {
   data() {
+    const { listPath } = postTypes.presentation;
+
     return {
       layout: "pagination.liquid",
       title: "Speaking",
@@ -10,7 +14,7 @@ export default class Presentations {
         limit: 6,
         title: "Select presentations",
       },
-      permalink: "/presentations/",
+      permalink: listPath,
     };
   }
 }
