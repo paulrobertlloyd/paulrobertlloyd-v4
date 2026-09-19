@@ -3,10 +3,10 @@
 
   background-color: var(--color-focus);
   color: var(--color-on-focus);
+  inline-size: 100%;
   outline-offset: 0;
   padding: var(--space-inset);
   position: static;
-  width: 100%;
 
   &:not(:focus-within) {
     transform: translateY(-100%);
