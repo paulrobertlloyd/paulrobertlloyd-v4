@@ -9,7 +9,11 @@ html {
 }
 
 html:focus-within {
-  scroll-behavior: smooth;
+  @media (prefers-reduced-motion: no-preference) {
+    html {
+      scroll-behavior: smooth;
+    }
+  }
 }
 
 *,
@@ -42,7 +46,6 @@ legend {
   font-weight: inherit;
   hanging-punctuation: first;
   margin: 0;
-  text-rendering: optimizelegibility;
   text-wrap: balance;
 }
 

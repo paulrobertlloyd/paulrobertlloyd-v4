@@ -1,8 +1,8 @@
 .avatar {
   background-color: var(--color-surface);
-  block-size: var(--avatar-size, var(--avatar-size));
+  block-size: var(--avatar-size);
   border-radius: var(--border-radius-small);
-  inline-size: var(--avatar-size, var(--avatar-size));
+  inline-size: var(--avatar-size);
   max-inline-size: none;
   object-fit: cover;
   outline: var(--border-width-thin) solid var(--color-shadow);

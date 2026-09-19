@@ -83,7 +83,7 @@ flow-content {
       display: block;
       max-inline-size: min-content;
       overflow-x: scroll;
-      scrollbar-color: var(--color-shadow);
+      scrollbar-color: var(--color-on-surface) var(--color-surface);
       scrollbar-width: thin;
       white-space: nowrap;
     }
