@@ -28,10 +28,12 @@
 {%- if item.data.start -%}
     {%- duration item.data.start item.data.end -%}
 {%- elsif item.data.title -%}
-    {%- published item.data.published item.data.timeZone true -%}
+    {%- # Hide published timestamp on cards -%}
+    {%- published item.data.published item.data.timeZone false -%}
 {%- else -%}
     <a class="u-url" rel="bookmark" href="{{ item.url }}">
-      {%- published item.data.published item.data.timeZone true -%}
+      {%- # Hide published timestamp on cards -%}
+      {%- published item.data.published item.data.timeZone false -%}
     </a>
 {%- endif -%}
     {%- app_icon item.data.icon item.data.iconLabel -%}

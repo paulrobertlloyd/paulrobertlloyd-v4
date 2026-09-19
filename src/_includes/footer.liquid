@@ -4,7 +4,7 @@
 {%- if start -%}
     <dd>{% duration start end %}</dd>
 {% elsif published %}
-    <dd>{% published published timeZone title %}</dd>
+    <dd>{% published published timeZone showTime %}</dd>
 {%- endif -%}
     <dt><visually-hidden>Location</visually-hidden></dt>
 {%- if location.name -%}
