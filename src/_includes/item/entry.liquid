@@ -28,10 +28,10 @@
   <footer>
     {%- if includePermalink -%}
     <a class="u-url" rel="bookmark" href="{{ item.url }}">
-      {%- published item.data.published item.data.timeZone item.data.title -%}
+      {%- published item.data.published item.data.timeZone item.data.showTime -%}
     </a>
     {%- else -%}
-      {%- published item.data.published item.data.timeZone item.data.title -%}
+      {%- published item.data.published item.data.timeZone item.data.showTime -%}
     {%- endif -%}
     {%- app_icon item.data.icon item.data.iconLabel -%}
   </footer>

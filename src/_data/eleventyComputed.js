@@ -6,6 +6,7 @@ export default {
   id: (data) => getId(data),
   pageTitle: (data) => (data.page.url === "/" ? false : data.title),
   published: (data) => data?.date || data.page.date,
+  showTime: (data) => !data.title,
   commentsMeta: (data) =>
     data.collections[data.id]?.find((item) => item.data?.type === "comments"),
   featuredImage: (data) =>
