@@ -1,4 +1,7 @@
 :root {
+  /* Indicate the presence of dark mode styles */
+  color-scheme: light dark;
+
   /* Neutral palette */
   --color-neutral: oklch(56% 0.0075 288deg);
   --color-neutral-darkest: oklch(from var(--color-neutral) calc(l - 0.4) c h);
@@ -10,8 +13,9 @@
 
   /* Primary palette */
   --color-primary: var(--color-accent, oklch(50% 0.25 264deg));
-  --color-primary-on-surface: oklch(
-    from var(--color-primary) calc(l - 0.3) c h
+  --color-primary-on-surface: light-dark(
+    oklch(from var(--color-primary) calc(l - 0.3) c h),
+    oklch(from var(--color-primary) calc(l + 0.3) c h)
   );
 
   /* Focus palette */
@@ -19,16 +23,28 @@
   --color-on-focus: var(--color-neutral-darkest);
 
   /* Colour assignments */
-  --color-surface-bright: white;
-  --color-surface: var(--color-neutral-lightest);
-  --color-on-surface: var(--color-neutral-darker);
-  --color-on-surface-variant: var(--color-neutral-dark);
+  --color-surface-bright: light-dark(white, var(--color-neutral-darkest));
+  --color-surface: light-dark(
+    var(--color-neutral-lightest),
+    var(--color-neutral-darker)
+  );
+  --color-on-surface: light-dark(
+    var(--color-neutral-darker),
+    var(--color-neutral-lightest)
+  );
+  --color-on-surface-variant: light-dark(
+    var(--color-neutral-dark),
+    var(--color-neutral-lighter)
+  );
   --color-inverse-surface: var(--color-neutral-darker);
   --color-on-inverse-surface: var(--color-neutral-lighter);
   --color-on-inverse-surface-bright: white;
   --color-highlight: oklch(from var(--color-primary) l c h / 25%);
   --color-outline: var(--color-neutral-lighter);
-  --color-shadow: hsl(from var(--color-neutral-darkest) h s l / 10%);
+  --color-shadow: light-dark(
+    hsl(from var(--color-neutral-darkest) h s l / 10%),
+    black
+  );
 
   /* Typography */
   --font-family-sans: "Söhne", sans-serif;
@@ -88,23 +104,7 @@
   /* Animation */
   --transition-short: 0.3s;
 
-  /* Indicate the presence of dark mode styles */
-  color-scheme: light dark;
-
   @media (prefers-color-scheme: dark) {
-    /* Primary palette */
-    --color-primary-on-surface: oklch(
-      from var(--color-primary) calc(l + 0.3) c h
-    );
-
-    /* Colour assignments */
-    --color-surface-bright: var(--color-neutral-darkest);
-    --color-surface: var(--color-neutral-darker);
-    --color-on-surface: var(--color-neutral-lightest);
-    --color-on-surface-variant: var(--color-neutral-lighter);
-    --color-shadow: black;
-
-    /* Typography */
     --line-height-prose: clamp(1.4em, 3cqi, 1.8em);
     --word-spacing: 0.025em;
   }
@@ -112,15 +112,12 @@
 
 [style^="--color-accent-item"] {
   --color-primary: var(--color-accent-item);
-  --color-primary-on-surface: oklch(
-    from var(--color-primary) calc(l - 0.3) c h
+  --color-primary-on-surface: light-dark(
+    oklch(from var(--color-primary) calc(l - 0.3) c h),
+    oklch(from var(--color-primary) calc(l + 0.3) c h)
   );
-  --color-primary-filter: lch(from var(--color-primary) calc(l - 0.3) c h);
-
-  @media (prefers-color-scheme: dark) {
-    --color-primary-on-surface: oklch(
-      from var(--color-primary) calc(l + 0.3) c h
-    );
-    --color-primary-filter: lch(from var(--color-primary) calc(l + 0.3) c h);
-  }
+  --color-primary-filter: light-dark(
+    lch(from var(--color-primary) calc(l - 0.3) c h),
+    lch(from var(--color-primary) calc(l + 0.3) c h)
+  );
 }
