@@ -12,7 +12,9 @@ layout: default.liquid
   bookmarkOf: bookmarkOf
 %}
 
-<flow-content class="e-content">{{ content }}</flow-content>
+<flow-content class="e-content">
+  {{ content }}
+</flow-content>
 
 {% render "meta",
   category: category,
