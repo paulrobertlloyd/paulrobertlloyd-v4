@@ -13,6 +13,6 @@ export default class ArticleMaps {
 
   render({ article }) {
     const source = this.mapbox_url(article.data.geojson);
-    return this.image(source, this.permalink(article.data), "route_map");
+    return this.image(source, this.short_path(article.data), "route_map");
   }
 }

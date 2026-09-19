@@ -18,27 +18,27 @@ export default class Redirects {
 
     // Articles (slug-less)
     for (const page of collections.article) {
-      redirects.push(`/${this.permalink(page.data)} ${page.url} 302`);
+      redirects.push(`/${this.short_path(page.data)} ${page.url} 302`);
     }
 
     // Bookmarks (slug-less)
     for (const page of collections.bookmark) {
-      redirects.push(`/${this.permalink(page.data)} ${page.url} 302`);
+      redirects.push(`/${this.short_path(page.data)} ${page.url} 302`);
     }
 
     // Comments (slug-less)
     for (const page of collections.comments) {
-      redirects.push(`/${this.permalink(page.data)} ${page.url} 302`);
+      redirects.push(`/${this.short_path(page.data)} ${page.url} 302`);
     }
 
     // Itineraries (slug-less)
     for (const page of collections.itinerary) {
-      redirects.push(`/${this.permalink(page.data)} ${page.url} 302`);
+      redirects.push(`/${this.short_path(page.data)} ${page.url} 302`);
     }
 
     // Presentations (slug-less)
     for (const page of collections.presentation) {
-      redirects.push(`/${this.permalink(page.data)} ${page.url} 302`);
+      redirects.push(`/${this.short_path(page.data)} ${page.url} 302`);
     }
 
     return redirects.join("\n");

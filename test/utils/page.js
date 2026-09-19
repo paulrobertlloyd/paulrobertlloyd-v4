@@ -1,6 +1,6 @@
 import { strict as assert } from "node:assert";
 import { describe, it } from "node:test";
-import { getId, getPermalink } from "../../lib/utils/page.js";
+import { getId, getPostShortPath } from "../../lib/utils/page.js";
 
 const page = {
   url: "/current/page/myFile/",
@@ -25,7 +25,7 @@ describe("utils/page", () => {
   });
 
   it("Gets page permalink", () => {
-    assert.equal(getPermalink(data), "2024/230/n2");
-    assert.equal(getPermalink({ page }), "2024/001/1");
+    assert.equal(getPostShortPath(data), "2024/230/n2");
+    assert.equal(getPostShortPath({ page }), "2024/001/1");
   });
 });
