@@ -12,6 +12,7 @@ import eleventyLightningCss from "@11tyrocks/eleventy-plugin-lightningcss";
 import * as collections from "./lib/collections/index.js";
 import * as filters from "./lib/filters/index.js";
 import * as shortcodes from "./lib/shortcodes/index.js";
+import { mediaPath } from "./lib/utils/image.js";
 import { markdownParser } from "./lib/markdown.js";
 import navigation from "./src/_data/navigation.js";
 import appJson from "./src/app.json" with { type: "json" };
@@ -66,10 +67,10 @@ export default function (eleventy) {
   eleventy.addPassthroughCopy({
     "./src/assets/avatar.png": ".well-known/avatar.png",
   });
-  eleventy.addPassthroughCopy({ "./src/content/media": "media" });
   eleventy.addPassthroughCopy({ "./src/app.json": "app.webmanifest" });
   eleventy.addPassthroughCopy("./src/robots.txt");
   eleventy.addPassthroughCopy("./src/assets");
+  eleventy.addPassthroughCopy("./src/media");
 
   // Plugins
   eleventy.addPlugin(eleventyImageTransformPlugin, {
@@ -86,12 +87,12 @@ export default function (eleventy) {
           formats: ["webp", "jpeg"],
           widths: [320, 640, 960, 1280, 1600],
           urlFormat: ({ src, format, width }) =>
-            `/images/${width}/${format}/${src.split("/").slice(3).join("/")}`,
+            `/images/${width}/${format}/${mediaPath(src)}`,
         }
       : {
           formats: ["auto"],
           widths: ["auto"],
-          urlFormat: ({ src }) => `/media/${src.split("/").slice(3).join("/")}`,
+          urlFormat: ({ src }) => `/media/${mediaPath(src)}`,
         }),
     svgShortCircuit: true,
   });

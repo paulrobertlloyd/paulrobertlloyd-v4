@@ -1,6 +1,6 @@
 import { strict as assert } from "node:assert";
 import { describe, it } from "node:test";
-import { getImage } from "../../lib/utils/image.js";
+import { getImage, mediaPath } from "../../lib/utils/image.js";
 
 describe("utils/image", () => {
   it("Gets Eleventy image metadata for a route map image", async () => {
@@ -15,7 +15,18 @@ describe("utils/image", () => {
       sourceType: "image/png",
       srcset: "/media/foo/bar.png 100w",
       filename: "bar.png",
-      outputPath: "src/content/media/foo/bar.png",
+      outputPath: "src/media/foo/bar.png",
     });
+  });
+
+  it("Gets a media path from either reference style", () => {
+    assert.equal(
+      mediaPath("src/media/2011/154/photo.png"),
+      "2011/154/photo.png",
+    );
+    assert.equal(
+      mediaPath("src/content/media/2011/154/photo.png"),
+      "2011/154/photo.png",
+    );
   });
 });
