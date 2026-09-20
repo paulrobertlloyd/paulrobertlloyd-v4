@@ -7,7 +7,7 @@ import globals from "globals";
 export default [
   js.configs.recommended,
   jsdoc.configs["flat/recommended"],
-  unicorn.configs["flat/recommended"],
+  unicorn.configs.recommended,
   {
     ignores: ["www/**"],
   },
