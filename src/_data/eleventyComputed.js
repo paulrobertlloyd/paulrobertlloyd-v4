@@ -4,7 +4,7 @@ import { getPost } from "../../lib/utils/post.js";
 export default {
   id: (data) => getPost(data).id,
   permalink: (data) => getPost(data).permalink,
-  pageTitle: (data) => (data.page.url === "/" ? false : data.title),
+  pageTitle: (data) => data.page.url !== "/" && data.title,
   published: (data) => data?.date || data.page.date,
   showTime: (data) => !data.title,
   commentsMeta: (data) =>
