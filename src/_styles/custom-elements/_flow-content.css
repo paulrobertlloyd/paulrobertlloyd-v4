@@ -210,12 +210,6 @@ flow-content {
       gap: var(--space-inline);
     }
 
-    img:not([src*="_screenshot"]) {
-      inline-size: auto;
-      max-block-size: 90vh;
-      max-inline-size: 100%;
-    }
-
     li {
       display: flex;
       justify-content: center;
