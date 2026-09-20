@@ -35,15 +35,8 @@ export default class Redirects {
     // Paginated lists
     redirects.push(
       "/categories/:tag/ page=:p /categories/:tag/page/:p.html 200!",
+      "/:section/ page=:p /:section/page/:p.html 200!",
     );
-
-    for (const { listPath, listSize } of Object.values(postTypes)) {
-      if (!listSize) {
-        continue;
-      }
-
-      redirects.push(`${listPath} page=:p ${listPath}page/:p.html 200!`);
-    }
 
     return redirects.join("\n");
   }

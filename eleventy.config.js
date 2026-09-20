@@ -12,7 +12,6 @@ import eleventyLightningCss from "@11tyrocks/eleventy-plugin-lightningcss";
 import * as collections from "./lib/collections/index.js";
 import * as filters from "./lib/filters/index.js";
 import * as shortcodes from "./lib/shortcodes/index.js";
-import * as transforms from "./lib/transforms/index.js";
 import { markdownParser } from "./lib/markdown.js";
 import navigation from "./src/_data/navigation.js";
 import appJson from "./src/app.json" with { type: "json" };
@@ -108,12 +107,23 @@ export default function (eleventy) {
     eleventy.addShortcode(name, shortcode);
   }
 
-  // Transforms
-  if (process.env.NODE_ENV === "production") {
-    for (const [name, transform] of Object.entries(transforms)) {
-      eleventy.addTransform(name, transform);
-    }
-  }
+  // (Local) server options
+  eleventy.setServerOptions({
+    middleware: [
+      // Mirror the `?page=` rewrite rules in `_redirects`, so pagination
+      // behaves the same locally as it does on Netlify
+      (request, response, next) => {
+        const url = new URL(request.url, "http://localhost");
+        const page = url.searchParams.get("page");
+
+        if (page) {
+          request.url = `${url.pathname}page/${page}.html`;
+        }
+
+        return next();
+      },
+    ],
+  });
 
   // Folder data
   eleventy.setDataFileBaseName("_data");
