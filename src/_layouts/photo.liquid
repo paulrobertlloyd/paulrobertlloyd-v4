@@ -7,8 +7,9 @@ layout: default.liquid
   showTime: showTime
 %}
 
-<flow-content class="e-content p-name" style="--columns: 1" data-font="lede">
+<flow-content class="e-content p-name" style="--columns: 2" data-font="lede">
   {{ content }}
+  {% photo photo %}
 </flow-content>
 
 {% render "meta",
