@@ -13,8 +13,10 @@ layout: default.liquid
 
 <flow-content class="e-content" data-font="lede">
   {{ content }}
-  {%- render "jam" with jamOf -%}
+  {% jam jamOf %}
 </flow-content>
+
+<script src="/assets/scripts/apple-jam.js" type="module"></script>
 
 {% render "meta",
   category: category,
