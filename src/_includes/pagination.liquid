@@ -1,13 +1,15 @@
 {%- if pagination.hrefs.size > 1 -%}
+{%- assign olderIndex = pagination.pageNumber | plus: 1 -%}
+{%- assign newerIndex = pagination.pageNumber | minus: 1 -%}
 <nav class="pagination" aria-label="page">
 {%- if pagination.href.next -%}
   <a rel="prev" href="{{ pagination.href.next | pagination_url }}">
-    {{- pagination.href.nextLabel | default: "Older" -}}
+    {{- pagination.pages[olderIndex].label | default: "Older" -}}
   </a>
 {%- endif -%}
 {%- if pagination.href.previous -%}
   <a rel="next" href="{{ pagination.href.previous | pagination_url }}">
-    {{- pagination.href.previousLabel | default: "Newer" -}}
+    {{- pagination.pages[newerIndex].label | default: "Newer" -}}
   </a>
 {%- endif -%}
 </nav>

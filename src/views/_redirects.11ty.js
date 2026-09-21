@@ -33,10 +33,7 @@ export default class Redirects {
     }
 
     // Paginated lists
-    redirects.push(
-      "/categories/:tag/ page=:p /categories/:tag/page/:p.html 200!",
-      "/:section/ page=:p /:section/page/:p.html 200!",
-    );
+    redirects.push("/:section/ page=:p /:section/page/:p.html 200!");
 
     return redirects.join("\n");
   }
